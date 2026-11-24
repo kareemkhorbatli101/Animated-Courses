@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 12A: judging four proposals",
   "n": "12.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.6"),
   "brief": {
     "about": "F.3.d asks you to evaluate where a technology would improve the processing of accounting data. This example judges four proposals put to the Orontes board, accepting two and refusing two. Figure F412-04 and Figure F412-06 supply the evidence this evaluation needs, because each sets out not only what a technology does but what it costs and where it stops. Three questions settle most proposals.",
     "anim": "oppChallenge",
@@ -63,6 +63,9 @@
       }
     ]
   },
+  "from": [
+    "12.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f412-08",
@@ -97,7 +100,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F412-08",
+        "12.6/t:the-activity-whi",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t12-6-0",
+      "kind": "lines",
+      "kicker": "Section 12.6",
+      "title": "Proposal",
+      "caption": "Proposal",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The invoice-matching robot",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The hosted expenses service",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The blockchain supplier ledger",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Automating the close as it stands",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:proposal-categor",
+        "Practice/t:proposal-categor#2",
+        "Answers and explanations/t:proposal-categor"
+      ]
+    },
+    {
+      "id": "t12-6-1",
+      "kind": "lines",
+      "kicker": "Section 12.6",
+      "title": "Proposal",
+      "caption": "Proposal",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The invoice-matching robot",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The hosted expenses service",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The blockchain supplier ledger",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Automating the close as it stands",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:proposal-categor",
+        "Practice/t:proposal-categor#2",
+        "Answers and explanations/t:proposal-categor"
+      ]
+    },
+    {
+      "id": "t12-6-2",
+      "kind": "lines",
+      "kicker": "Section 12.6",
+      "title": "Proposal",
+      "caption": "Proposal",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The invoice-matching robot",
+          "a": "Accept",
+          "b": ""
+        },
+        {
+          "name": "The hosted expenses service",
+          "a": "Accept",
+          "b": ""
+        },
+        {
+          "name": "The blockchain supplier ledger",
+          "a": "Refuse",
+          "b": ""
+        },
+        {
+          "name": "Automating the close as it stands",
+          "a": "Refuse",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:proposal-categor",
+        "Practice/t:proposal-categor#2",
+        "Answers and explanations/t:proposal-categor"
+      ]
     },
     {
       "id": "yourturn",
@@ -142,6 +264,13 @@
       "note": "Why: physical design settles how the system will do what conceptual design decided it should do",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "12.6/your-turn",
+        "F412-08",
+        "12.6/t:the-activity-whi",
+        "12.6/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -168,7 +297,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 12A."
+      "exhibit": "Use Extended Example 12A.",
+      "from": [
+        "12.6/section-check"
+      ]
     },
     {
       "id": "sc412-12",
@@ -194,7 +326,10 @@
           "why": "Much of it can be, once examined."
         }
       ],
-      "exhibit": "Use Extended Example 12A."
+      "exhibit": "Use Extended Example 12A.",
+      "from": [
+        "12.6/section-check"
+      ]
     }
   ]
 };

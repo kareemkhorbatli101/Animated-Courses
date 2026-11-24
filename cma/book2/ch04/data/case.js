@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · a new juice-blend crew",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "learnCurve"
+  },
+  "scenario": {
+    "title": "Case question: a new juice-blend crew",
+    "p": [
+      "In 2027 the Beverages division launched a new juice blend. A new crew mixes the blend in lots. The crew needed time to learn the recipe and the equipment, so the first lots took many hours and later lots were faster.",
+      "The production engineer has timed the first lot and measured the crew's learning rate. She believes the crew follows the cumulative average-time model. The crew is paid the same hourly rate for every lot, and the juice concentrate and bottles used per lot do not change with learning.",
+      "The Beverages controller is preparing the labor budget for the second quarter, when the crew will make the next four lots. She needs the labor hours and the direct labor cost for those lots. She must also decide which costs will fall as the crew learns and which will not, because the budget for materials must not assume any learning.",
+      "The sales team has promised Levant Distribution a steady supply of the new blend, so the controller cannot afford a labor budget that is too high or too low. She also knows that the crew's hourly rate is fixed by contract for the year. The engineer warns that learning slows over time but does not stop inside the budget period."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F204-12",
+        "Practice/t:beverages-new-ju"
+      ]
     },
     {
       "id": "c204-1",
@@ -97,7 +110,11 @@
           "why": "Cost: Not affected by learning."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c204-2",

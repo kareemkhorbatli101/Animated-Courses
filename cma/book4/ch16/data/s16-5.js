@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Exploratory data analysis",
   "n": "16.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.5"),
   "brief": {
     "about": "exploratory data analysis is the practice of examining data with summaries and plots before fitting anything to it. Figure F416-06 sets out what it involves. Its value is that the eye finds things no summary statistic reports. The third-quarter peak in Figure F416-03 is visible immediately, before any moving average is computed, and so are the outliers and the gaps that Chapter 11 had to deal with.",
     "anim": "edaLook",
@@ -27,47 +27,49 @@
   "scenes": [
     {
       "id": "fig-f416-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F416-06",
       "title": "What exploratory data analysis involves",
-      "say": "What exploratory data analysis involves",
-      "caption": "Exploratory step (F.4.v)",
-      "col1": "What it does",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Exploratory step (F.4.v)",
+      "col": "What it does",
       "rows": [
         {
-          "name": "Plot the series",
-          "a": "See the shape before assuming one",
-          "b": "The third-quarter peak is visible without any model"
+          "label": "Plot the series",
+          "right": "See the shape before assuming one",
+          "why": "What it does: See the shape before assuming one. The third-quarter peak is visible without any model."
         },
         {
-          "name": "Look at the spread",
-          "a": "Find outliers and impossible values",
-          "b": "Chapter 11's two orders a hundred times the usual"
+          "label": "Look at the spread",
+          "right": "Find outliers and impossible values",
+          "why": "What it does: Find outliers and impossible values. Chapter 11's two orders a hundred times the usual."
         },
         {
-          "name": "Compare the periods",
-          "a": "See whether the pattern repeats",
-          "b": "Two years both peak in the third quarter"
+          "label": "Compare the periods",
+          "right": "See whether the pattern repeats",
+          "why": "What it does: See whether the pattern repeats. Two years both peak in the third quarter."
         },
         {
-          "name": "Cross-plot the variables",
-          "a": "See which relationships are worth modelling",
-          "b": "Cases against temperature, as in Figure F415-06"
+          "label": "Cross-plot the variables",
+          "right": "See which relationships are worth modelling",
+          "why": "What it does: See which relationships are worth modelling. Cases against temperature, as in Figure F415-06."
         },
         {
-          "name": "Ask what is missing",
-          "a": "Absent data shapes the answer too",
-          "b": "Fourteen orders with no delivery date"
+          "label": "Ask what is missing",
+          "right": "Absent data shapes the answer too",
+          "why": "What it does: Absent data shapes the answer too. Fourteen orders with no delivery date."
         },
         {
-          "name": "Then model",
-          "a": "The model tests what the eye suggested",
-          "b": "Chapter 15's regression"
+          "label": "Then model",
+          "right": "The model tests what the eye suggested",
+          "why": "What it does: The model tests what the eye suggested. Chapter 15's regression."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "What exploratory data analysis involves",
+      "from": [
+        "F416-06",
+        "16.5/t:exploratory-step"
+      ]
     },
     {
       "id": "sc416-9",
@@ -92,6 +94,9 @@
           "text": "It replaces the model",
           "why": "It comes before the model, not instead of it."
         }
+      ],
+      "from": [
+        "16.5/section-check"
       ]
     },
     {
@@ -117,6 +122,9 @@
           "text": "The data will be unusable",
           "why": "It will be used, which is the problem."
         }
+      ],
+      "from": [
+        "16.5/section-check"
       ]
     }
   ]

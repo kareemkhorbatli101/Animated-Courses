@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 8A: choosing a recovery arrangement for Orontes",
   "n": "8.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.7"),
   "brief": {
     "about": "This example works through the choice for three Orontes systems and shows why one answer does not fit them all. It is exam-core: questions give a tolerance and ask for the site. Three systems matter. The plant control system runs the bottling lines and stops production within minutes of failing. The payables and receivables system can wait a working day without serious harm.",
     "anim": "siteTiers",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "8.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f408-08",
@@ -96,7 +99,111 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F408-08",
+        "8.7/t:requirement-or-f",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t8-7-0",
+      "kind": "lines",
+      "kicker": "Section 8.7",
+      "title": "System",
+      "caption": "System",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Plant control, four hours",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Payables, one working day",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Management reporting, two weeks",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:system-category",
+        "Practice/t:system-category#2",
+        "Answers and explanations/t:system-category"
+      ]
+    },
+    {
+      "id": "t8-7-1",
+      "kind": "lines",
+      "kicker": "Section 8.7",
+      "title": "System",
+      "caption": "System",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Plant control, four hours",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Payables, one working day",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Management reporting, two weeks",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:system-category",
+        "Practice/t:system-category#2",
+        "Answers and explanations/t:system-category"
+      ]
+    },
+    {
+      "id": "t8-7-2",
+      "kind": "lines",
+      "kicker": "Section 8.7",
+      "title": "System",
+      "caption": "System",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Plant control, four hours",
+          "a": "Hot site",
+          "b": ""
+        },
+        {
+          "name": "Payables, one working day",
+          "a": "Warm site",
+          "b": ""
+        },
+        {
+          "name": "Management reporting, two weeks",
+          "a": "Cold site",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:system-category",
+        "Practice/t:system-category#2",
+        "Answers and explanations/t:system-category"
+      ]
     },
     {
       "id": "yourturn",
@@ -141,6 +248,13 @@
       "note": "Why: the recovery point objective is measured in time but describes data, so it sets how often backups must run",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "8.7/your-turn",
+        "F408-08",
+        "8.7/t:requirement-or-f",
+        "8.7/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -166,6 +280,9 @@
           "text": "It is used by the most people",
           "why": "User numbers are not the criterion."
         }
+      ],
+      "from": [
+        "8.7/section-check"
       ]
     },
     {
@@ -191,6 +308,9 @@
           "text": "a cold site is adequate",
           "why": "The site follows the time objective, not the point objective."
         }
+      ],
+      "from": [
+        "8.7/section-check"
       ]
     }
   ]

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "chartPick"
+    "anim": "chartPick",
+    "about": "Figure F418-08 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The form of a chart follows from what the reader must see. A bar chart serves comparison, a line a trend, a scatter plot a relationship, a histogram or box plot a distribution, and a table the case where exact values will be read off. Distortion rarely requires a false number: truncating a bar chart's axis breaks the relationship between length and value while leaving every figure correct. Bars start at zero, the aspect ratio is chosen before the result is seen, labels go directly on the data, and whatever does not inform is removed. Visualization is fast, reaches non-specialists and reveals the unexpected, and each of those strengths is also how a misleading chart succeeds. An exhibit carries one message, states its finding in the title, supports that finding with the chart, and shows its caveat rather than hiding it."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F418-08.png",
       "label": "Figure F418-08.",
       "caption": "Chapter 18 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F418-08"
+      ]
     },
     {
       "id": "rules",

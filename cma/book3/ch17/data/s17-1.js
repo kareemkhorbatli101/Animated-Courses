@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Measures, goals and feedback",
   "n": "17.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.1"),
   "brief": {
     "about": "A performance measure changes behavior, so it must point at what the strategy asks for. A division told to grow in the Gulf and judged only on cost will not grow in the Gulf. Feedback must also arrive in time to act on. A variance report that reaches the plant six weeks after the month it describes cannot change the decision that caused it, as Chapter 14 showed.",
     "anim": "roiTree",
@@ -27,37 +27,39 @@
   "scenes": [
     {
       "id": "fig-f317-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F317-02",
       "title": "What a good performance measure needs",
-      "say": "What a good performance measure needs",
-      "caption": "What a good measure needs (C.3.a)",
-      "col1": "Why",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "What a good measure needs (C.3.a)",
+      "col": "Why",
       "rows": [
         {
-          "name": "Related to strategy",
-          "a": "The measure should reward what the plan asks for",
-          "b": "Chapter 1 set a return objective; ROI measures it"
+          "label": "Related to strategy",
+          "right": "The measure should reward what the plan asks for",
+          "why": "Why: The measure should reward what the plan asks for. Chapter 1 set a return objective; ROI measures it."
         },
         {
-          "name": "Timely feedback",
-          "a": "A result that arrives too late cannot change a decision",
-          "b": "Monthly variance reports (Chapter 11), quarterly ROI"
+          "label": "Timely feedback",
+          "right": "A result that arrives too late cannot change a decision",
+          "why": "Why: A result that arrives too late cannot change a decision. Monthly variance reports (Chapter 11), quarterly ROI."
         },
         {
-          "name": "Within the manager's control",
-          "a": "Judge on what the manager decides",
-          "b": "Controllable margin (Chapter 15), not allocated costs"
+          "label": "Within the manager's control",
+          "right": "Judge on what the manager decides",
+          "why": "Why: Judge on what the manager decides. Controllable margin (Chapter 15), not allocated costs."
         },
         {
-          "name": "Few and clear",
-          "a": "Too many measures divide attention",
-          "b": "Chapter 18 builds a balanced set"
+          "label": "Few and clear",
+          "right": "Too many measures divide attention",
+          "why": "Why: Too many measures divide attention. Chapter 18 builds a balanced set."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "What a good performance measure needs",
+      "from": [
+        "F317-02",
+        "17.1/t:what-a-good-meas"
+      ]
     },
     {
       "id": "sc317-1",
@@ -85,6 +87,9 @@
       ],
       "traps": [
         "variance-report-reaches-plant-six"
+      ],
+      "from": [
+        "17.1/section-check"
       ]
     },
     {
@@ -111,7 +116,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A plant receives its variance report six weeks after month end."
+      "exhibit": "A plant receives its variance report six weeks after month end.",
+      "from": [
+        "17.1/section-check"
+      ]
     }
   ]
 };

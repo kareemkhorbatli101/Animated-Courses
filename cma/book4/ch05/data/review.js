@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cosoBase"
   },
@@ -61,9 +61,6 @@
           "why": "It finds a difference after the event.",
           "correct": true
         }
-      ],
-      "traps": [
-        "classify-by-when-not-by-how-important"
       ]
     },
     {

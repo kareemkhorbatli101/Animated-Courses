@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Blockchain, distributed ledgers and smart contracts",
   "n": "12.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.5"),
   "brief": {
     "about": "A blockchain is a distributed, append-only ledger of cryptographically linked blocks, agreed between participants by consensus rather than by a central authority. A distributed ledger is the wider class, and a smart contract is code held on such a ledger that executes itself when its conditions are met. Figure F412-07 states what each term means and where the technology actually stands.",
     "anim": "chainBlocks",
@@ -27,47 +27,52 @@
   "scenes": [
     {
       "id": "fig-f412-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F412-07",
       "title": "Blockchain terms and their status",
-      "say": "Blockchain terms and their status",
-      "caption": "Term (F.3.g)",
-      "col1": "What it means",
-      "col2": "Status as at October 2026",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Term (F.3.g)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Blockchain",
-          "a": "A distributed, append-only ledger of cryptographically linked blocks, agreed by consensus",
-          "b": "Real, and narrow in use"
+          "label": "Blockchain",
+          "right": "A distributed, append-only ledger of cryptographically linked blocks, agreed by consensus",
+          "why": "What it means: A distributed, append-only ledger of cryptographically linked blocks, agreed by consensus. Real, and narrow in use."
         },
         {
-          "name": "Distributed ledger",
-          "a": "The wider class, including ledgers where membership is controlled",
-          "b": "The form enterprises actually use"
+          "label": "Distributed ledger",
+          "right": "The wider class, including ledgers where membership is controlled",
+          "why": "What it means: The wider class, including ledgers where membership is controlled. The form enterprises actually use."
         },
         {
-          "name": "Smart contract",
-          "a": "Code on a ledger that executes itself when conditions are met",
-          "b": "Real, but only as reliable as its code"
+          "label": "Smart contract",
+          "right": "Code on a ledger that executes itself when conditions are met",
+          "why": "What it means: Code on a ledger that executes itself when conditions are met. Real, but only as reliable as its code."
         },
         {
-          "name": "What did materialise",
-          "a": "Accounting and audit of crypto assets, tokenised funds, stablecoin payments, some trade finance and provenance",
-          "b": "Narrower than predicted"
+          "label": "What did materialise",
+          "right": "Accounting and audit of crypto assets, tokenised funds, stablecoin payments, some trade finance and provenance",
+          "why": "What it means: Accounting and audit of crypto assets, tokenised funds, stablecoin payments, some trade finance and provenance. Narrower than predicted."
         },
         {
-          "name": "What did not",
-          "a": "Replacing accounting systems. The Australian exchange cancelled its blockchain settlement replacement in 2022",
-          "b": "A large and public failure"
+          "label": "What did not",
+          "right": "Replacing accounting systems. The Australian exchange cancelled its blockchain settlement replacement in 2022",
+          "why": "What it means: Replacing accounting systems. The Australian exchange cancelled its blockchain settlement replacement in 2022. A large and public failure."
         },
         {
-          "name": "Triple-entry accounting",
-          "a": "A proposal that a shared ledger entry replaces two sets of books",
-          "b": "Recognised by no standard-setter"
+          "label": "Triple-entry accounting",
+          "right": "A proposal that a shared ledger entry replaces two sets of books",
+          "why": "What it means: A proposal that a shared ledger entry replaces two sets of books. Recognised by no standard-setter."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Blockchain terms and their status",
+      "traps": [
+        "an-honest-assessment-as-at-october-202"
+      ],
+      "from": [
+        "F412-07",
+        "12.5/t:term-f-3-g-what"
+      ]
     },
     {
       "id": "sc412-9",
@@ -93,8 +98,8 @@
           "why": "No such arrangement."
         }
       ],
-      "traps": [
-        "an-honest-assessment-as-at-october-202"
+      "from": [
+        "12.5/section-check"
       ]
     },
     {
@@ -120,6 +125,9 @@
           "text": "Wherever transactions are numerous",
           "why": "Volume is not the criterion."
         }
+      ],
+      "from": [
+        "12.5/section-check"
       ]
     }
   ]

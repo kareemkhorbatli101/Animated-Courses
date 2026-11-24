@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What data mining is",
   "n": "14.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.1"),
   "brief": {
     "about": "Data mining is the search through data for patterns, relationships and anomalies that were not known in advance. The last part of that definition distinguishes it from reporting. A report answers a question somebody already had; mining looks for what nobody thought to ask. Figure F414-02 sets out what mining looks for, and its last row sets out what it does not deliver. Mining finds association, meaning that two things occur together.",
     "anim": "insightLadder",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f414-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F414-02",
       "title": "What data mining looks for, and what it does not deliver",
-      "say": "What data mining looks for, and what it does not deliver",
-      "caption": "What data mining looks for (F.4.g)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "What data mining looks for (F.4.g)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Patterns",
-          "a": "Regularities that repeat across cases",
-          "b": "Third-quarter demand rises every year"
+          "label": "Patterns",
+          "right": "Regularities that repeat across cases",
+          "why": "What it means: Regularities that repeat across cases. Third-quarter demand rises every year."
         },
         {
-          "name": "Relationships",
-          "a": "Variables that move together",
-          "b": "Cases sold against mean temperature"
+          "label": "Relationships",
+          "right": "Variables that move together",
+          "why": "What it means: Variables that move together. Cases sold against mean temperature."
         },
         {
-          "name": "Anomalies",
-          "a": "Cases that do not fit the pattern",
-          "b": "Two orders a hundred times the usual size"
+          "label": "Anomalies",
+          "right": "Cases that do not fit the pattern",
+          "why": "What it means: Cases that do not fit the pattern. Two orders a hundred times the usual size."
         },
         {
-          "name": "Groupings",
-          "a": "Natural clusters within the data",
-          "b": "Distributors that order like each other"
+          "label": "Groupings",
+          "right": "Natural clusters within the data",
+          "why": "What it means: Natural clusters within the data. Distributors that order like each other."
         },
         {
-          "name": "Not: proof of cause",
-          "a": "Mining finds association, not causation",
-          "b": "Heat and demand move together; the data cannot say why"
+          "label": "Not: proof of cause",
+          "right": "Mining finds association, not causation",
+          "why": "What it means: Mining finds association, not causation. Heat and demand move together; the data cannot say why."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "What data mining looks for, and what it does not deliver",
+      "from": [
+        "F414-02",
+        "14.1/t:what-data-mining"
+      ]
     },
     {
       "id": "sc414-1",
@@ -87,6 +89,9 @@
           "text": "Mining is always automated",
           "why": "Mining requires continual human judgement."
         }
+      ],
+      "from": [
+        "14.1/section-check"
       ]
     },
     {
@@ -112,6 +117,9 @@
           "why": "Cause is established by mechanism or experiment, not by past records.",
           "correct": true
         }
+      ],
+      "from": [
+        "14.1/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "People: participation and controllable costs",
   "n": "3.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.5"),
   "brief": {
     "about": "In an imposed budget, top management sets every figure. In participative budgeting, the managers who must carry out the budget help prepare it. Figure F303-08 compares the two. The best results usually come from participation with review. Managers who know the market and the plant propose the figures, and top management checks them against the evidence and the strategy. A controllable cost is one a manager can significantly influence in the period.",
     "anim": "slackGap",
@@ -33,13 +33,19 @@
       }
     ]
   },
+  "from": [
+    "3.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f303-08",
       "kind": "figure",
       "file": "F303-08.png",
       "label": "Figure F303-08.",
-      "caption": "Imposed and participative budgeting."
+      "caption": "Imposed and participative budgeting.",
+      "from": [
+        "F303-08"
+      ]
     },
     {
       "id": "fig-f303-09",
@@ -88,7 +94,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "3.5/your-turn",
+        "F303-09",
+        "3.5/t:beverages-plant",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc303-9",
@@ -116,6 +128,9 @@
       ],
       "traps": [
         "contr-lable"
+      ],
+      "from": [
+        "3.5/section-check"
       ]
     },
     {
@@ -141,6 +156,9 @@
           "why": "The manager decides how the line is run.",
           "correct": true
         }
+      ],
+      "from": [
+        "3.5/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Classifying debt",
   "n": "2.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.3"),
   "brief": {
     "about": "Debt is where classification gets difficult, and where the exam likes to test. Long-term debt that is due in installments is split: the current portion of long-term debt is current and the rest is noncurrent. Orontes shows $400,000 as current and $6,000,000 as long-term. Loan agreements contain conditions called covenants, for example a maximum debt-to-equity ratio. If a company breaks a covenant, the lender may be able to demand repayment at once.",
     "anim": "split",
@@ -22,16 +22,29 @@
           "A subjective acceleration clause, such as a right to demand payment after a 'material adverse change', makes debt current only if acceleration is probable. Debt that is due on demand is always current.",
           "Short-term debt can be shown as noncurrent through refinancing, but only if the company intends to refinance it on a long-term basis and shows that it can. It shows this by issuing long-term debt or shares after the balance sheet date but before the statements are issued, or by signing a qualifying financing agreement. Figure F02-05 puts these rules together."
         ]
+      },
+      {
+        "h": "IFRS looks only at the reporting date",
+        "box": "ifrs",
+        "p": [
+          "IAS 1 asks one question: at the reporting date, does the company have a right to defer settlement for at least twelve months? A waiver or refinancing obtained after the reporting date does not count. U.S. GAAP counts events up to the date the statements are issued. Figure F02-06 compares the two frameworks."
+        ]
       }
     ]
   },
+  "from": [
+    "2.3/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "fig-f02-05",
       "kind": "figure",
       "file": "F02-05.png",
       "label": "Figure F02-05.",
-      "caption": "Decision tree for classifying debt as current or noncurrent under U.S. GAAP."
+      "caption": "Decision tree for classifying debt as current or noncurrent under U.S. GAAP.",
+      "from": [
+        "F02-05"
+      ]
     },
     {
       "id": "debt-split",
@@ -54,6 +67,9 @@
       "traps": [
         "debt-traps",
         "no-change-to-debt-classification"
+      ],
+      "from": [
+        "2.3/exam-trap"
       ]
     },
     {
@@ -105,7 +121,11 @@
           "why": "U.S. GAAP: All noncurrent. IFRS: All non-current."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "F02-06",
+        "2.3/t:situation-at-the"
+      ]
     },
     {
       "id": "debt-traps",
@@ -200,7 +220,10 @@
           "why": "The current portion is presented on the balance sheet, not only disclosed."
         }
       ],
-      "exhibit": "A five-year loan is repaid in equal annual installments."
+      "exhibit": "A five-year loan is repaid in equal annual installments.",
+      "from": [
+        "2.3/section-check"
+      ]
     },
     {
       "id": "sc2-6",
@@ -226,7 +249,10 @@
           "correct": true
         }
       ],
-      "exhibit": "At December 31 a company breaks a loan covenant, so the loan is payable on demand. On January 15, before the statements are issued, the bank gives an 18-month waiver."
+      "exhibit": "At December 31 a company breaks a loan covenant, so the loan is payable on demand. On January 15, before the statements are issued, the bank gives an 18-month waiver.",
+      "from": [
+        "2.3/section-check"
+      ]
     }
   ]
 };

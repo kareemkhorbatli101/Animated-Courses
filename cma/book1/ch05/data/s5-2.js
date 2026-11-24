@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Classifying cash flows",
   "n": "5.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.2"),
   "brief": {
     "about": "Operating activities are the main revenue activities: cash from customers and cash paid to suppliers and employees. Anything that is not investing or financing is also operating. Investing activities involve long-term assets and other companies' securities: Orontes paid $3,000,000 for equipment and $1,200,000 for its Jordan Glass shares. Financing activities are with owners and lenders. They include issuing and buying back shares, borrowing and repaying principal, and paying dividends. U.S.",
     "anim": "threeActivities",
@@ -22,9 +22,19 @@
           "U.S. GAAP fixes four items that students often get wrong. Interest paid, interest received, dividends received and income taxes are all operating. Only dividends paid are financing. Figure F05-04 compares these rules with IFRS.",
           "Some investing and financing transactions involve no cash at all, such as buying land by issuing shares or a note. These noncash investing and financing activities are not shown in the body of the statement. They are disclosed separately. Orontes had none in 2025."
         ]
+      },
+      {
+        "h": "IAS 7 choices, and IFRS 18",
+        "box": "ifrs",
+        "p": [
+          "Under IAS 7 today, interest paid can be operating or financing, and interest and dividends received can be operating or investing. The amendments that come with IFRS 18 remove some choices from 2027, but they are not testable before about January 2028."
+        ]
       }
     ]
   },
+  "from": [
+    "5.2/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "activity",
@@ -86,6 +96,11 @@
       "partition": true,
       "traps": [
         "classification-traps"
+      ],
+      "from": [
+        "F05-05",
+        "5.2/t:transaction-u-s",
+        "5.2/exam-trap"
       ]
     },
     {
@@ -167,6 +182,10 @@
       ],
       "traps": [
         "only-paid-is-financing"
+      ],
+      "from": [
+        "F05-04",
+        "5.2/t:cash-flow-u-s-ga"
       ]
     },
     {
@@ -284,6 +303,12 @@
           },
           "why": "Financing: a transaction with owners."
         }
+      ],
+      "from": [
+        "5.2/your-turn",
+        "F05-05",
+        "5.2/t:transaction-u-s",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -309,6 +334,9 @@
           "text": "operating or financing, as the company chooses",
           "why": "U.S. GAAP gives no choice."
         }
+      ],
+      "from": [
+        "5.2/section-check"
       ]
     },
     {
@@ -335,7 +363,10 @@
           "why": "It must be disclosed."
         }
       ],
-      "exhibit": "A company acquires a building by signing a $2 million mortgage note with the seller."
+      "exhibit": "A company acquires a building by signing a $2 million mortgage note with the seller.",
+      "from": [
+        "5.2/section-check"
+      ]
     }
   ]
 };

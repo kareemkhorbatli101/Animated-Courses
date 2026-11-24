@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Timed set &middot; CMA Part 1 Book 4</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-la-course="cma" data-la-root="../../">
+<a class="skip" href="#main">Skip to the set</a>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="index.html"><span class="bar-mark">B4</span><span>CMA Part 1 · Book 4</span></a>
+  <div class="bar-where">Timed set</div>
+  <a class="bar-menu" href="how-to-use.html">How to use this book</a>
+</div><span id="la-bar"></span></header>
+
+<main id="main"><div class="wrap">
+  <p class="scene-kicker" style="margin-top:26px">CMA Part 1 · Book 4 &middot; exam practice</p>
+  <h1 class="page-h1">A timed set</h1>
+  <div id="exam-set"></div>
+  <p class="note" style="margin:26px 0 40px">Every item here is course-written exam practice:
+    the figures, companies, categories and terms are the book's and the scenario around them is
+    this course's, which is what the mark on each item says. Nothing in it is taken, adapted or
+    paraphrased from any commercial test bank.</p>
+</div></main>
+
+<!-- An exam deck's wrapper opens `var L = window.LEDGER, T = window.TERMS;` and asks its
+     chapter for its terms - `T.keys()` - for a ribbon this page does not draw. Loading the real
+     ledger and the real term banks would be eighteen chapters of them on one page, each
+     overwriting the last, for nothing any item here reads, so the two names are stubbed.
+     They are stubbed as FUNCTIONS: an earlier version defined them as bare objects, because at
+     the time a deck's terms field was a reference and not a call, and `T.keys is not a function`
+     then threw on load and took the whole timed set down with it. -->
+<script>window.LEDGER = window.LEDGER || {}; window.TERMS = window.TERMS || {};
+        if (!window.TERMS.keys) window.TERMS.keys = function () { return []; };
+        if (!window.TERMS.bridge) window.TERMS.bridge = function () { return []; };
+        window.EXAM_DECKS = [];</script>
+<script src="ch01/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 1, page: window.PAGE});</script>
+<script src="ch02/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 2, page: window.PAGE});</script>
+<script src="ch03/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 3, page: window.PAGE});</script>
+<script src="ch04/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 4, page: window.PAGE});</script>
+<script src="ch05/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 5, page: window.PAGE});</script>
+<script src="ch06/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 6, page: window.PAGE});</script>
+<script src="ch07/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 7, page: window.PAGE});</script>
+<script src="ch08/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 8, page: window.PAGE});</script>
+<script src="ch09/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 9, page: window.PAGE});</script>
+<script src="ch10/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 10, page: window.PAGE});</script>
+<script src="ch11/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 11, page: window.PAGE});</script>
+<script src="ch12/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 12, page: window.PAGE});</script>
+<script src="ch13/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 13, page: window.PAGE});</script>
+<script src="ch14/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 14, page: window.PAGE});</script>
+<script src="ch15/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 15, page: window.PAGE});</script>
+<script src="ch16/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 16, page: window.PAGE});</script>
+<script src="ch17/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 17, page: window.PAGE});</script>
+<script src="ch18/data/exam.js"></script><script>window.EXAM_DECKS.push({ch: 18, page: window.PAGE});</script>
+<script src="assets/exam-set.js"></script>
+<script src="../../assets/la/account.js?v=c611664f37"></script></body>
+</html>

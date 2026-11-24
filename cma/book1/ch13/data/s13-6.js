@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 13A: one difference, from origination to reversal",
   "n": "13.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.6"),
   "brief": {
     "about": "This example follows a single temporary difference through the Orontes accounts, shows what a permanent difference does instead, and then changes the tax rate. It is exam-core: almost every tax question is one of these three. Pre-tax book income is $2,000,000. Municipal interest of $20,000 is never taxed and a fine of $10,000 is never deductible: both are permanent. Taxable income is therefore $1,428,000 and current tax at 25% is $357,000.",
     "anim": "twobooks",
@@ -61,6 +61,9 @@
       }
     ]
   },
+  "from": [
+    "13.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-11",
@@ -78,6 +81,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F13-11",
+        "13.6/t:orontes-2025-usd",
+        "13.6/exam-trap"
       ]
     },
     {
@@ -127,6 +135,10 @@
           },
           "why": "At the new rate: a credit of 12,000."
         }
+      ],
+      "from": [
+        "F13-12",
+        "13.6/t:deferred-tax-lia"
       ]
     },
     {
@@ -173,7 +185,10 @@
           "why": "This treats the permanent differences as temporary."
         }
       ],
-      "exhibit": "Use Extended Example 13A."
+      "exhibit": "Use Extended Example 13A.",
+      "from": [
+        "13.6/section-check"
+      ]
     },
     {
       "id": "sc13-12",
@@ -199,7 +214,10 @@
           "why": "The rate is not the issue."
         }
       ],
-      "exhibit": "Use Extended Example 13A."
+      "exhibit": "Use Extended Example 13A.",
+      "from": [
+        "13.6/section-check"
+      ]
     },
     {
       "id": "sc13-13",
@@ -226,7 +244,10 @@
         }
       ],
       "exhibit": "Use Extended Example 13A.",
-      "say": "When the enacted rate falls, what happens to the existing deferred tax liability?"
+      "say": "When the enacted rate falls, what happens to the existing deferred tax liability?",
+      "from": [
+        "13.6/section-check"
+      ]
     }
   ]
 };

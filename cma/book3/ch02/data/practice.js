@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P302-01–P302-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "genericStrat"
   },

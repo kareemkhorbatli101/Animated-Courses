@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P218-01–P218-17",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "stdCard"
   },

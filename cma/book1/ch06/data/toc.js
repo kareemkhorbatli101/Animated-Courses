@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.4",
   "title": "Extended Example 6A: one year of receivables",
-  "blurb": "Amounts, a printed statement, the tie lines, questions · 6 scenes"
+  "blurb": "Amounts, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

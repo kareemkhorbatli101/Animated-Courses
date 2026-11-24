@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "band"
+    "anim": "band",
+    "about": "Figure F08-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "FIFO, average cost and specific identification use the lower of cost and NRV. LIFO and the retail method use the lower of cost or market, where market is replacement cost between a ceiling and a floor. Write-downs go to income and are never reversed under U.S. GAAP, although IFRS reverses them. The retail method estimates cost from a cost-to-retail ratio, and the gross profit method gives estimates only. Each cost flow method has strengths and weaknesses, so a recommendation must follow the facts: IFRS reporting, tax goals, price trends and the physical flow."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F08-12.png",
       "label": "Figure F08-12.",
       "caption": "Chapter 8 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F08-12"
+      ]
     },
     {
       "id": "rules",

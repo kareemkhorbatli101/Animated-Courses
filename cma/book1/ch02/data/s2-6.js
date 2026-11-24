@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 2A: building the Orontes balance sheet",
   "n": "2.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.6"),
   "brief": {
     "about": "This example classifies the Orontes accounts at December 31, 2025 and assembles the balance sheet. It is exam-core: most balance sheet questions turn on one classification decision. Current assets come to $14,188,100 and non-current assets to $17,484,500, so total assets are $31,672,600. Current liabilities are $4,280,000 and non-current liabilities $6,999,625, a total of $11,279,625. Figure F02-10 sets out the statement. Three lines deserve attention.",
     "anim": "order",
@@ -66,6 +66,9 @@
       }
     ]
   },
+  "from": [
+    "2.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "plan",
@@ -97,6 +100,9 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "2.6/exam-trap"
       ]
     },
     {
@@ -271,7 +277,11 @@
           }
         ]
       },
-      "chips": L.accounts
+      "chips": L.accounts,
+      "from": [
+        "F02-10",
+        "2.6/t:orontes-foods-in"
+      ]
     },
     {
       "id": "contra",
@@ -342,7 +352,11 @@
           "why": "The current ratio is current assets divided by current liabilities."
         }
       ],
-      "hint": "Enter the working capital in whole dollars and the ratio to two decimal places."
+      "hint": "Enter the working capital in whole dollars and the ratio to two decimal places.",
+      "from": [
+        "F02-11",
+        "2.6/t:measure-calculat"
+      ]
     },
     {
       "id": "gross-error",
@@ -396,7 +410,10 @@
           "why": "This is total assets, including property and goodwill."
         }
       ],
-      "say": "Use Extended Example 2A. What are Orontes's total current assets at December 31, 2025?"
+      "say": "Use Extended Example 2A. What are Orontes's total current assets at December 31, 2025?",
+      "from": [
+        "2.6/section-check"
+      ]
     },
     {
       "id": "sc2-12",
@@ -422,7 +439,10 @@
           "why": "It reduces nothing on the asset side."
         }
       ],
-      "say": "Use Extended Example 2A. Where does the current portion of long-term debt belong?"
+      "say": "Use Extended Example 2A. Where does the current portion of long-term debt belong?",
+      "from": [
+        "2.6/section-check"
+      ]
     },
     {
       "id": "sc2-13",
@@ -447,6 +467,9 @@
           "text": "20,392,975",
           "why": "This is total equity."
         }
+      ],
+      "from": [
+        "2.6/section-check"
       ]
     }
   ]

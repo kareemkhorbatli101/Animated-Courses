@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Disposal of fixed assets",
   "n": "10.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.4"),
   "brief": {
     "about": "When a company sells or scraps an asset, it first records depreciation up to the date of disposal. Then it removes the cost and the accumulated depreciation and compares the proceeds with the carrying amount. If the proceeds are higher, it records a gain; if lower, a loss. The gain or loss is part of income from continuing operations. It is not revenue. Two special cases appear on the exam.",
     "anim": "netGain",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "10.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f10-07",
       "kind": "figure",
       "file": "F10-07.png",
       "label": "Figure F10-07.",
-      "caption": "Disposal of the Dubai oven: update depreciation, find the carrying amount, then the gain."
+      "caption": "Disposal of the Dubai oven: update depreciation, find the carrying amount, then the gain.",
+      "from": [
+        "F10-07"
+      ]
     },
     {
       "id": "sc10-7",
@@ -70,6 +76,10 @@
       "exhibit": "Use the Dubai oven example.",
       "traps": [
         "update-first"
+      ],
+      "from": [
+        "10.4/exam-trap",
+        "10.4/section-check"
       ]
     },
     {
@@ -95,6 +105,9 @@
           "why": "Disposals of fixed assets are peripheral activities.",
           "correct": true
         }
+      ],
+      "from": [
+        "10.4/section-check"
       ]
     }
   ]

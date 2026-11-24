@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 4A: pricing Barada's second halva order",
   "n": "4.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.6"),
   "brief": {
     "about": "This example uses the learning curve to cost two orders, sets a price floor for the second one and shows what the curve means for a labor standard. There are no journal entries: the output is a quote and a standard. Barada ordered 4 batches of halva, which Orontes has made. Barada now asks for 4 more. Use the doubling table to find the hours for each order. Figure F204-09 shows why.",
     "anim": "learnCurve",
@@ -64,13 +64,19 @@
       }
     ]
   },
+  "from": [
+    "4.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f204-09",
       "kind": "figure",
       "file": "F204-09.png",
       "label": "Figure F204-09.",
-      "caption": "Extended Example: cumulative hours split into the two Barada orders."
+      "caption": "Extended Example: cumulative hours split into the two Barada orders.",
+      "from": [
+        "F204-09"
+      ]
     },
     {
       "id": "fill-08",
@@ -130,6 +136,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F204-08",
+        "4.6/t:halva-orders-for",
+        "4.6/exam-trap"
       ]
     },
     {
@@ -181,6 +192,94 @@
             "c3": "0"
           }
         }
+      ],
+      "from": [
+        "F204-10",
+        "4.6/t:setting-a-labor"
+      ]
+    },
+    {
+      "id": "t4-6-0",
+      "kind": "lines",
+      "kicker": "Section 4.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Direct labor per lot",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Juice concentrate per lot",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Bottles per lot",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Variable overhead driven by labor hours",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Straight-line depreciation of the line",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t4-6-1",
+      "kind": "lines",
+      "kicker": "Section 4.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Direct labor per lot",
+          "a": "Falls with learning",
+          "b": ""
+        },
+        {
+          "name": "Juice concentrate per lot",
+          "a": "Not affected by learning",
+          "b": ""
+        },
+        {
+          "name": "Bottles per lot",
+          "a": "Not affected by learning",
+          "b": ""
+        },
+        {
+          "name": "Variable overhead driven by labor hours",
+          "a": "Falls with learning",
+          "b": ""
+        },
+        {
+          "name": "Straight-line depreciation of the line",
+          "a": "Not affected by learning",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
       ]
     },
     {
@@ -231,7 +330,10 @@
           "why": "This repeats the first order's cost."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "4.6/section-check"
+      ]
     },
     {
       "id": "sc204-12",
@@ -258,7 +360,10 @@
         }
       ],
       "exhibit": "Use the Extended Example.",
-      "say": "If the labor standard is the 8-batch average of 512 hours per batch, the first order will show:"
+      "say": "If the labor standard is the 8-batch average of 512 hours per batch, the first order will show:",
+      "from": [
+        "4.6/section-check"
+      ]
     }
   ]
 };

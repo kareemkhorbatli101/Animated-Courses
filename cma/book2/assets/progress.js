@@ -120,6 +120,90 @@
     if (ids.length && n === ids.length) set(CH + "." + page + ".complete", "yes");
     if (root.Chrome && root.Chrome.refreshProgress) root.Chrome.refreshProgress();
   }
+  /* ---- THE RECORD OF WHAT WAS GOT WRONG, AND SOMETHING THAT READS IT ----
+   *
+   * The store has recorded a failed TRAP since Chapter 1 shipped, and nothing ever read it
+   * except the traps screen; a wrong answer on an exercise carrying no trap tag was not
+   * recorded at all. So revision was fixed: every chapter's review deck re-asks the same
+   * questions in the same order whether the learner got them right the first time or not -
+   * 452 re-asked questions across the four volumes, none of them chosen by what was missed.
+   *
+   * Three keys per exercise, and nothing larger: how many times it was wrong, how many times
+   * right, and when it was last seen. `weakFirst` sorts a deck from them. A scheduling engine
+   * would be a bigger idea than the evidence supports; two rules and a date is what this is.
+   *
+   * WHO MADE THE TICK is recorded too, in `markResult`'s `by` - "page" here, because the page
+   * marked it. Nothing else may write these keys; the AI layer never does, and a rubric row a
+   * model ticks carries `by: "model"` wherever that is added. That was the owner's condition on
+   * the coach rows of the other courses and it holds here.
+   */
+  function resKey(page, ex) { return CH + ".r." + page + "." + ex; }
+
+  function markResult(page, ex, ok, tag) {
+    var k = resKey(page, ex);
+    var cur = {};
+    try { cur = JSON.parse(get(k) || "{}") || {}; } catch (e) { cur = {}; }
+    cur.wrong = Number(cur.wrong || 0) + (ok ? 0 : 1);
+    cur.right = Number(cur.right || 0) + (ok ? 1 : 0);
+    cur.seen = new Date().toISOString().slice(0, 10);
+    cur.by = "page";
+    if (tag) cur.tag = String(tag).slice(0, 40);
+    set(k, JSON.stringify(cur));
+  }
+
+  function result(page, ex) {
+    try { return JSON.parse(get(resKey(page, ex)) || "{}") || {}; } catch (e) { return {}; }
+  }
+
+  /* Every exercise of this chapter the learner has got wrong more often than right, worst
+     first. The review deck draws from this before it draws from the chapter's order. */
+  function weak() {
+    var out = [];
+    keysWithPrefix(CH + ".r.").forEach(function (k) {
+      var rest = k.slice((CH + ".r.").length);
+      var i = rest.indexOf(".");
+      if (i < 0) return;
+      var r = {};
+      try { r = JSON.parse(get(k) || "{}") || {}; } catch (e) { return; }
+      var w = Number(r.wrong || 0), g = Number(r.right || 0);
+      if (w > 0) out.push({ page: rest.slice(0, i), ex: rest.slice(i + 1),
+                            wrong: w, right: g, seen: r.seen || "", tag: r.tag || "" });
+    });
+    return out.sort(function (a, b) {
+      return (b.wrong - b.right) - (a.wrong - a.right) || (b.wrong - a.wrong);
+    });
+  }
+
+  /* `ids` reordered so the ones this learner has missed come first, in the order `weak()`
+     gives, and everything else keeps the author's order behind them. A learner with no record
+     - a first visit, a cleared browser, a blocked store - gets the author's order unchanged,
+     which is why this returns a NEW array and never throws. */
+  function weakFirst(page, ids) {
+    var all = weak();
+    var w = all.filter(function (r) { return r.page === page; });
+    /* THE REVIEW DECK'S RECORD IS NOT UNDER ITS OWN NAME, and that is why this falls back.
+       Every chapter's review deck re-asks the SECTION exercises, keeping each one's id - so a
+       learner who got `sc407-1` wrong on page s7-1 has a record under s7-1, and asking for
+       "review" finds nothing. Where the named page has no record, the id is looked up on any
+       page of the chapter, which is the claim the reordering is actually making: this learner
+       got THIS exercise wrong, wherever they met it. */
+    if (!w.length) {
+      var seen = {};
+      w = all.filter(function (r) {
+        if (seen[r.ex] || (ids || []).indexOf(r.ex) < 0) return false;
+        seen[r.ex] = 1;
+        return true;
+      });
+    }
+    if (!w.length) return (ids || []).slice();
+    var rank = {};
+    w.forEach(function (r, i) { rank[r.ex] = i; });
+    var first = (ids || []).filter(function (x) { return rank[x] !== undefined; })
+      .sort(function (a, b) { return rank[a] - rank[b]; });
+    var rest = (ids || []).filter(function (x) { return rank[x] === undefined; });
+    return first.concat(rest);
+  }
+
   function pageStats(id) {
     var total = Number(get(CH + "." + id + ".count") || 0);
     var done = Number(get(CH + "." + id + ".done") || 0);
@@ -193,6 +277,8 @@
     register: register, markExercise: markExercise, exerciseDone: exerciseDone,
     pageStats: pageStats, chapterStats: chapterStats, allChapters: allChapters,
     trapFail: trapFail, trapPass: trapPass, trapsFailed: trapsFailed,
+    /* the learner's record, and the thing that reads it */
+    markResult: markResult, result: result, weak: weak, weakFirst: weakFirst,
     lastVisit: lastVisit, reset: reset,
     get storageWorks() { return usable; }
   };

@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P417-01–P417-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "evTree"
   },

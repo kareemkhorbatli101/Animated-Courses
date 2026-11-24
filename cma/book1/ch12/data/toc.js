@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.6",
   "title": "Extended Example 12A: two warranties, two treatments",
-  "blurb": "Amounts, a printed statement, the tie lines, questions · 6 scenes"
+  "blurb": "Amounts, match, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · Barada's liabilities at the end of 2027",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 2 scenes"
  },
  {
   "id": "review",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 6A: one programmer, four duties",
   "n": "6.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.5"),
   "brief": {
     "about": "This example takes a single arrangement at Orontes and shows how one person's access collapsed the four duties of Chapter 3 into one pair of hands. It is exam-core. When Orontes installed its payables system, one developer built it and stayed on to support it. He writes the code, moves his own changes into production, holds the database administrator password, and is the person who investigates when a payment query arises.",
     "anim": "sysRoles",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "6.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f406-07",
@@ -96,7 +99,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F406-07",
+        "6.5/t:what-happened-wh",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t6-5-0",
+      "kind": "lines",
+      "kicker": "Section 6.5",
+      "title": "Fadi's access",
+      "caption": "Fadi's access",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Creating a supplier record directly in the database",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Altering the posting routine in the code",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Releasing a payment run",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Investigating supplier payment queries",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:fadi-s-access-ca",
+        "Practice/t:fadi-s-access-ca#2",
+        "Answers and explanations/t:fadi-s-access-ca"
+      ]
+    },
+    {
+      "id": "t6-5-1",
+      "kind": "lines",
+      "kicker": "Section 6.5",
+      "title": "Fadi's access",
+      "caption": "Fadi's access",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Creating a supplier record directly in the database",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Altering the posting routine in the code",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Releasing a payment run",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Investigating supplier payment queries",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:fadi-s-access-ca",
+        "Practice/t:fadi-s-access-ca#2",
+        "Answers and explanations/t:fadi-s-access-ca"
+      ]
+    },
+    {
+      "id": "t6-5-2",
+      "kind": "lines",
+      "kicker": "Section 6.5",
+      "title": "Fadi's access",
+      "caption": "Fadi's access",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Creating a supplier record directly in the database",
+          "a": "Authorization",
+          "b": ""
+        },
+        {
+          "name": "Altering the posting routine in the code",
+          "a": "Recording",
+          "b": ""
+        },
+        {
+          "name": "Releasing a payment run",
+          "a": "Custody",
+          "b": ""
+        },
+        {
+          "name": "Investigating supplier payment queries",
+          "a": "Reconciliation",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:fadi-s-access-ca",
+        "Practice/t:fadi-s-access-ca#2",
+        "Answers and explanations/t:fadi-s-access-ca"
+      ]
     },
     {
       "id": "yourturn",
@@ -141,6 +263,13 @@
       "note": "Why: the code itself was changed, so every transaction it touches is affected until someone notices",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "6.5/your-turn",
+        "F406-07",
+        "6.5/t:what-happened-wh",
+        "6.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -167,7 +296,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 6A. The developer can create a supplier record directly in the database."
+      "exhibit": "Use Extended Example 6A. The developer can create a supplier record directly in the database.",
+      "from": [
+        "6.5/section-check"
+      ]
     },
     {
       "id": "sc406-10",
@@ -193,7 +325,10 @@
           "why": "A shared credential makes actions untraceable."
         }
       ],
-      "say": "Use Extended Example 6A. What should happen to the database administrator password?"
+      "say": "Use Extended Example 6A. What should happen to the database administrator password?",
+      "from": [
+        "6.5/section-check"
+      ]
     }
   ]
 };

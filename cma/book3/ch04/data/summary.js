@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "activityRate"
+    "anim": "activityRate",
+    "about": "Figure F304-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The master budget links operating budgets, ending in the budgeted income statement, and financial budgets, ending in the budgeted balance sheet; it starts with sales. A project budget covers every cost of one project over its life, with a contingency. An activity-based budget multiplies planned activity demand by activity rates and budgets facility costs separately. Each system has benefits and limitations, and companies usually combine them."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F304-14.png",
       "label": "Figure F304-14.",
       "caption": "Chapter 4 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F304-14"
+      ]
     },
     {
       "id": "rules",

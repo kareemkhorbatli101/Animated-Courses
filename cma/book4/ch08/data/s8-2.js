@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Data encryption",
   "n": "8.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.2"),
   "brief": {
     "about": "Data encryption converts readable data into a form that cannot be understood without a key. Figure F408-03 shows the two families and how they fit together. Symmetric encryption uses one key for both directions. It is fast and suits bulk data, but it leaves a problem. The key itself must reach the other party somehow, and sending it over the same untrusted network defeats the purpose. Asymmetric encryption solves that.",
     "anim": "cryptoLock",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F408-03.png",
       "label": "Figure F408-03.",
-      "caption": "Symmetric and asymmetric encryption compared."
+      "caption": "Symmetric and asymmetric encryption compared.",
+      "from": [
+        "F408-03"
+      ]
     },
     {
       "id": "sc408-3",
@@ -60,6 +63,9 @@
       "say": "What problem does asymmetric encryption solve that symmetric encryption does not?",
       "traps": [
         "as-of-october-2026"
+      ],
+      "from": [
+        "8.2/section-check"
       ]
     },
     {
@@ -85,6 +91,9 @@
           "text": "a shared symmetric key",
           "why": "Both parties hold it, so it proves nothing about which one sent the message."
         }
+      ],
+      "from": [
+        "8.2/section-check"
       ]
     }
   ]

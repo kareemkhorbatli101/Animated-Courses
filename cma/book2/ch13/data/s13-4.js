@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Customer, product-line and business-unit profitability",
   "n": "13.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.4"),
   "brief": {
     "about": "Figure F213-07 builds the profit of each customer: net revenue, minus cost of goods sold, minus the cost to serve, minus customer-sustaining costs. Barada contributes $328,800. The small shops lose $73,000 and the hotel supply agent loses $58,800. Figure F213-08 ranks the customers and adds up their contributions. The line reaches $560,300, or 131% of the total, before the loss-making customers bring it down to $428,500.",
     "anim": "whaleCurve",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F213-08.png",
       "label": "Figure F213-08.",
-      "caption": "The whale curve: cumulative customer contribution."
+      "caption": "The whale curve: cumulative customer contribution.",
+      "from": [
+        "F213-08"
+      ]
     },
     {
       "id": "fill-07",
@@ -198,6 +201,10 @@
             "c7": "428,500"
           }
         }
+      ],
+      "from": [
+        "F213-07",
+        "13.4/t:2027-whole-usd-b"
       ]
     },
     {
@@ -249,6 +256,10 @@
             "c3": "97,550"
           }
         }
+      ],
+      "from": [
+        "F213-09",
+        "13.4/t:2027-abc-costs-w"
       ]
     },
     {
@@ -269,6 +280,10 @@
           "answer": "228500",
           "why": "Business-unit profit before corporate costs: 228,500."
         }
+      ],
+      "from": [
+        "F213-10",
+        "13.4/t:tahini-spreads-s"
       ]
     },
     {
@@ -295,7 +310,10 @@
           "why": "This is net revenue."
         }
       ],
-      "say": "Use Figure F213-07. What is the customer contribution of the small shops (whole USD)?"
+      "say": "Use Figure F213-07. What is the customer contribution of the small shops (whole USD)?",
+      "from": [
+        "13.4/section-check"
+      ]
     },
     {
       "id": "sc213-8",
@@ -321,7 +339,10 @@
           "correct": true
         }
       ],
-      "exhibit": "The whale curve peaks at 131% of total contribution."
+      "exhibit": "The whale curve peaks at 131% of total contribution.",
+      "from": [
+        "13.4/section-check"
+      ]
     }
   ]
 };

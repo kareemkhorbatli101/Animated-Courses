@@ -173,6 +173,28 @@
       list may hold no word that can state one. The failing text was the summary page's
       "Five words carry the whole chapter." */
    "carry " +
+   /* THE EXAM LAYER'S FRAME WORDS (tools/cma_exam), 2026-11-24. An authored item is a verbatim
+      span of the author's chapter joined by frame sentences, and the frame is held to THIS
+      list - the same test every interface string on the site is held to, so there is one list
+      and one meaning rather than a second whitelist that could drift. Each word below is for
+      describing the exercise - a folder being gone through, a column heading, the scenario
+      above the question - and not one of them can state an accounting fact on its own. Added
+      only after the lock refused them by name, which is the list being enforced rather than
+      guessed at: `reviewer`, `file` and `able` were the three it named. */
+   "reviewer reviewers file files folder able position positions signed heading headings " +
+   "scenario scenarios prints printed whose attached belongs looks simply goes pick picked " +
+   "description descriptions headed following table's row's " +
+   /* AND TWO WORDS THE FRAME ASKED FOR AND DID NOT GET: `schedule` and `currency`. Both are
+      TERMS - a schedule is a named layout of figures and a currency is a unit - and this list
+      may hold no word that can state an accounting fact. tools/cma_exam's compute frame was
+      reworded instead, which is the rule this project runs on in the direction it is supposed
+      to run: when the check and the thing disagree, change the thing. */
+   "reached rather plain symbols commas missing meeting " +
+   /* The last three, found by scanning every authored item against this list at once rather
+      than one chapter per suite run: `chapter's` is the possessive of a word already here and
+      the tokenizer keeps the apostrophe; `note` is a note being reviewed; `reviewed` is the
+      past of a word already here. None can state an accounting fact. */
+   "chapter's note reviewed reviewing " +
    "recognition harder cards card drill drilled recall both ways way phrase phrases " +
    "missing put back framework frameworks passes column columns rung rungs " +
    "subtotal subtotals ladder step steps enter entered entering").split(/\s+/)
@@ -183,6 +205,52 @@
     var bad = [];
     words(text).forEach(function (w) { if (!known(w) && bad.indexOf(w) < 0) bad.push(w); });
     return bad;
+  }
+
+  /* ---------------- THE SECOND CLASS: `authored` ----------------
+   *
+   * Measured over all 3827 graded exercises of this course against five conditions an
+   * ICMA-style item meets, the course contained ZERO exam-shaped items: 262 failed exactly
+   * one condition and in every case it was the stem, because the longest stem in four
+   * volumes is 39 words. Fixing that means writing scenarios, and a scenario is sentences
+   * nobody wrote in the book - so the rule at the top of this file forbids it.
+   *
+   * Widening that rule to admit a scenario would end its meaning for everything else. So
+   * there is a second class, and it is NARROWER than it sounds:
+   *
+   *   book      every word occurs in this chapter of this book
+   *   authored  every FACT is a verbatim span of his chapter, declared in the scene's
+   *             `quotes`; what remains after those spans are removed must pass the CHROME
+   *             test - ordinary English that cannot state an accounting claim
+   *
+   * THE SAME CHROME LIST, DELIBERATELY. The frame sentences an authored item is joined with
+   * are held to exactly the test every interface string on this site is held to, so there is
+   * one list and one meaning rather than a second whitelist that could drift from it. A frame
+   * that needs a word carrying an accounting claim fails the build, which is the point.
+   *
+   * An authored scene with no `quotes` fails: an item that declares nothing has declared
+   * that nothing in it is the author's.
+   */
+  var SRC_NORM = words(SRC).join(" ");
+
+  function quotesNotHis(quotes) {
+    var bad = [];
+    (quotes || []).forEach(function (q) {
+      if (!q) return;
+      var nq = words(q).join(" ");
+      if (!nq) return;
+      if (SRC_NORM.indexOf(nq) < 0 && bad.length < 4) bad.push(String(q).slice(0, 48));
+    });
+    return bad;
+  }
+
+  function checkAuthored(text, quotes) {
+    if (!text) return [];
+    var t = String(text);
+    (quotes || []).slice().sort(function (a, b) {
+      return String(b).length - String(a).length;
+    }).forEach(function (q) { if (q) t = t.split(q).join(" "); });
+    return checkChrome(t);
   }
   function checkChrome(text) {
     if (!text) return [];
@@ -196,8 +264,9 @@
   /* Walk one deck, returning every failure. The role of each field is fixed here. */
   function audit(decks) {
     var out = [];
-    function C(d, s, w, t) { var b = checkContent(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90) }); }
-    function H(d, s, w, t) { var b = checkChrome(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90), chrome: true }); }
+    function CB(d, s, w, t) { var b = checkContent(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90) }); }
+    function HB(d, s, w, t) { var b = checkChrome(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90), chrome: true }); }
+    var C = CB, H = HB;
     decks.forEach(function (d) {
       /* THE BRIEF IS THE ONE PLACE THAT LECTURES, so it is the one place where a wrong
          sentence would be believed without being tested. Its summary is CONTENT: every
@@ -224,7 +293,41 @@
           });
         });
       });
-      (d.scenes || []).forEach(function (s) {
+      /* THE CASE SCENARIO IS THE AUTHOR'S CASE TEXT, held in front of every item of that case
+         (assets/scene.js:scenarioPanel). It is prose a learner reads in order to answer, so it
+         is CONTENT exactly as `exhibit` below is - and a page-level key that the renderer draws
+         and this did not check would be the one way three or four paragraphs of prose could
+         reach a learner with nothing comparing them to the book. The title is his Heading 3. */
+      if (d.scenario) {
+        C(d.id, "scenario", "scenario.title", d.scenario.title);
+        (d.scenario.p || []).forEach(function (p, j) {
+          C(d.id, "scenario", "scenario.p[" + j + "]", p);
+        });
+        if (d.scenario.note) C(d.id, "scenario", "scenario.note", d.scenario.note);
+      }
+      (d.scenes || []).forEach(function (sOuter) {
+        var s = sOuter;
+        /* AN AUTHORED SCENE IS AUDITED UNDER THE SECOND CLASS, and `C` is shadowed rather
+           than every call site below being changed: the fields are the same fields and only
+           the test differs, so a kind that gains an authored variant needs no new branch. */
+        var C = CB, H = HB;
+        if (s.authored) {
+          var qbad = quotesNotHis(s.quotes);
+          if (!s.quotes || !s.quotes.length) {
+            out.push({ deck: d.id, scene: s.id, where: "authored",
+                       bad: ["no quotes declared"], text: "", authored: true });
+          }
+          if (qbad.length) {
+            out.push({ deck: d.id, scene: s.id, where: "authored.quotes",
+                       bad: qbad, text: "", authored: true });
+          }
+          C = function (dd, ss, w, t) {
+            var b = checkAuthored(t, s.quotes);
+            if (b.length) out.push({ deck: dd, scene: ss, where: w, bad: b,
+                                     text: String(t).slice(0, 90), authored: true });
+          };
+          H = C;
+        }
         H(d.id, s.id, "title", s.title); H(d.id, s.id, "say", s.say); H(d.id, s.id, "kicker", s.kicker);
         (s.targets || []).forEach(function (t) {
           H(d.id, s.id, "target", t.label); H(d.id, s.id, "target.sub", t.sub);
@@ -253,6 +356,23 @@
            to answer, so it is CONTENT - and it was not audited at all until Chapter 2 started
            putting the long exam stems here instead of in the say. */
         if (s.exhibit) C(d.id, s.id, "exhibit", s.exhibit);
+        /* MATCH (assets/objects6.js): the author's label-and-description table as an exercise.
+           Every cell of it is his, on both sides - the label, the description the learner picks,
+           and the whole row shown as the reason - so all three are CONTENT. `col` is his column
+           heading. A new kind whose fields are not listed here is a hole in this lock: two kinds
+           once taught unaudited text that way, which is why this is written beside the renderer
+           rather than remembered. */
+        if (s.kind === "match") {
+          (s.rows || []).forEach(function (r) {
+            if (!r || typeof r !== "object") return;
+            C(d.id, s.id, "match.label", r.label);
+            C(d.id, s.id, "match.right", r.right);
+            C(d.id, s.id, "match.why", r.why);
+          });
+          C(d.id, s.id, "match.col", s.col);
+          C(d.id, s.id, "match.label.head", s.label);
+          C(d.id, s.id, "match.note", s.note);
+        }
         (s.fields || []).forEach(function (f) {
           C(d.id, s.id, "field", f.label); C(d.id, s.id, "field.why", f.why);
           (f.diag || []).forEach(function (x) { C(d.id, s.id, "diagnostic", x.says); });

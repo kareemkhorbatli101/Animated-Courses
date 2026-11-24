@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Eliminating intercompany balances and transactions",
   "n": "16.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.5"),
   "brief": {
     "about": "A group cannot sell to itself, owe money to itself or earn income from itself. Every intercompany transaction is therefore eliminated in full, whatever the percentage owned: sales and cost of sales, receivables and payables, loans and interest, and dividends. Unrealized profit on goods still held inside the group is also removed from inventory and income until the goods are sold to outsiders.",
     "anim": "group",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F16-07.png",
       "label": "Figure F16-07.",
-      "caption": "Downstream and upstream sales between Orontes and Levant."
+      "caption": "Downstream and upstream sales between Orontes and Levant.",
+      "from": [
+        "F16-07"
+      ]
     },
     {
       "id": "grid-08",
@@ -103,6 +106,11 @@
       ],
       "traps": [
         "elimination-traps"
+      ],
+      "from": [
+        "F16-08",
+        "16.5/t:suppose-levant-i",
+        "16.5/exam-trap"
       ]
     },
     {
@@ -158,7 +166,12 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F16-09",
+        "16.5/t:suppose-nci-in-l",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -210,7 +223,13 @@
           ]
         }
       ],
-      "caption": "Suppose: NCI roll-forward for Levant, 2027 (complete the blanks)"
+      "caption": "Suppose: NCI roll-forward for Levant, 2027 (complete the blanks)",
+      "from": [
+        "16.5/your-turn",
+        "F16-09",
+        "16.5/t:suppose-nci-in-l",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc16-9",
@@ -236,7 +255,10 @@
           "why": "This is the sales amount, not the profit."
         }
       ],
-      "say": "Use Figure F16-08. How much downstream unrealized profit does Orontes eliminate (whole USD)?"
+      "say": "Use Figure F16-08. How much downstream unrealized profit does Orontes eliminate (whole USD)?",
+      "from": [
+        "16.5/section-check"
+      ]
     },
     {
       "id": "sc16-10",
@@ -262,7 +284,10 @@
           "why": "The parent bears most of it."
         }
       ],
-      "say": "Use Figure F16-07. How much of the upstream unrealized profit reduces NCI (whole USD)?"
+      "say": "Use Figure F16-07. How much of the upstream unrealized profit reduces NCI (whole USD)?",
+      "from": [
+        "16.5/section-check"
+      ]
     }
   ]
 };

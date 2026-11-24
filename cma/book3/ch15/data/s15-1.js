@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The four responsibility centers",
   "n": "15.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.1"),
   "brief": {
     "about": "A responsibility center is a unit whose manager answers for a defined set of results. There are four kinds, and they differ only in how much the manager controls. Figure F315-02 defines them with an example from Orontes. A cost center answers for costs, and a revenue center for revenue and the selling costs of earning it. A profit center answers for both, and an investment center also for the assets used.",
     "anim": "respCenters",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F315-02.png",
       "label": "Figure F315-02.",
-      "caption": "The four types of responsibility center."
+      "caption": "The four types of responsibility center.",
+      "from": [
+        "F315-02"
+      ]
     },
     {
       "id": "sc315-1",
@@ -55,6 +58,9 @@
           "text": "investment center",
           "why": "That manager also answers for assets."
         }
+      ],
+      "from": [
+        "15.1/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "It reports to head office",
           "why": "All centers report upward."
         }
+      ],
+      "from": [
+        "15.1/section-check"
       ]
     }
   ]

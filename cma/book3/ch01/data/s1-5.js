@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Characteristics of successful strategic plans",
   "n": "1.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.5"),
   "brief": {
     "about": "A successful strategic plan gives a clear direction that follows from the mission. Its goals are measurable and realistic, based on a careful study of the company and its environment, which Chapter 2 covers. It is also shared: managers help set their own objectives and understand how they contribute. Measurable objectives are the most common weakness in practice.",
     "anim": "planLadder",
@@ -27,44 +27,49 @@
   "scenes": [
     {
       "id": "fig-f301-10",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F301-10",
       "title": "Characteristics of successful strategic plans",
-      "say": "Characteristics of successful strategic plans",
-      "caption": "Characteristic",
-      "col1": "What it means",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Characteristic",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Clear direction",
-          "a": "Follows from the mission and vision",
-          "b": ""
+          "label": "Clear direction",
+          "right": "Follows from the mission and vision",
+          "why": "What it means: Follows from the mission and vision."
         },
         {
-          "name": "Measurable goals",
-          "a": "Numbers and dates, not wishes",
-          "b": ""
+          "label": "Measurable goals",
+          "right": "Numbers and dates, not wishes",
+          "why": "What it means: Numbers and dates, not wishes."
         },
         {
-          "name": "Realistic. Based on the analysis of internal and external factors (Chapter 2)",
-          "note": true
+          "label": "Realistic",
+          "right": "Based on the analysis of internal and external factors (Chapter 2)",
+          "why": "What it means: Based on the analysis of internal and external factors (Chapter 2)."
         },
         {
-          "name": "Shared. Communicated to managers, who help set their own objectives",
-          "note": true
+          "label": "Shared",
+          "right": "Communicated to managers, who help set their own objectives",
+          "why": "What it means: Communicated to managers, who help set their own objectives."
         },
         {
-          "name": "Resourced",
-          "a": "Linked to budgets, people and investment",
-          "b": ""
+          "label": "Resourced",
+          "right": "Linked to budgets, people and investment",
+          "why": "What it means: Linked to budgets, people and investment."
         },
         {
-          "name": "Flexible. Reviewed each year; contingency plans for major risks",
-          "note": true
+          "label": "Flexible",
+          "right": "Reviewed each year; contingency plans for major risks",
+          "why": "What it means: Reviewed each year; contingency plans for major risks."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Characteristics of successful strategic plans",
+      "from": [
+        "F301-10",
+        "1.5/t:characteristic-w"
+      ]
     },
     {
       "id": "grid-11",
@@ -117,6 +122,10 @@
           },
           "why": "Strong objective: “14.4 training hours per employee in 2028.”. Why it is better: Owned by HR, easy to check."
         }
+      ],
+      "from": [
+        "F301-11",
+        "1.5/t:weak-objective-s"
       ]
     },
     {
@@ -142,6 +151,9 @@
           "text": "Never changed once written",
           "why": "Plans are reviewed regularly."
         }
+      ],
+      "from": [
+        "1.5/section-check"
       ]
     },
     {
@@ -168,7 +180,10 @@
           "why": "It adds flexibility."
         }
       ],
-      "exhibit": "The Orontes plan includes a contingency plan for a sharp rise in sesame prices."
+      "exhibit": "The Orontes plan includes a contingency plan for a sharp rise in sesame prices.",
+      "from": [
+        "1.5/section-check"
+      ]
     }
   ]
 };

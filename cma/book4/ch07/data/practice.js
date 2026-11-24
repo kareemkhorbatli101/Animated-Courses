@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P407-01–P407-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "inputGate"
   },

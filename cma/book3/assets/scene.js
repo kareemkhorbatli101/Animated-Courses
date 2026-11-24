@@ -397,22 +397,143 @@
     return out;
   }
 
+  /* ---------------- the case scenario: one text, every item on the page ----------------
+   *
+   * A CASE QUESTION WITH NO CASE. Every chapter of all four volumes ends in the author's own
+   * exam-shaped case: a short scenario in prose, then seven independent items about it. The
+   * items shipped and THE SCENARIO DID NOT - on 72 of 72 chapters - so a learner opened
+   * "Where does each item belong?" about a company they had never read a word about. In Book 4
+   * there was not even an exhibit table to fall back on: 18 of its 18 chapters put the whole
+   * case in prose, and 18 of its 18 case pages carried none of it.
+   *
+   * It is a PAGE field and not a scene, because that is what the thing is. The exam keeps the
+   * case in front of the candidate while they answer every item of it; an exhibit folded onto
+   * one scene would be on one screen of seven, and repeating it in each item's `exhibit` would
+   * put the same four paragraphs in the deck seven times and still lose it when the kind has no
+   * exhibit slot - `sort`, which is the first item of most of these cases, has none.
+   *
+   * <details open> so it can be collapsed once read and stays collapsed while the learner
+   * steps through the items: the panel is built once, outside the stage the deck redraws.
+   */
+  function scenarioPanel(s) {
+    var d = doc.createElement("details");
+    d.className = "case-scenario";
+    d.open = true;
+    d.appendChild(E("summary", null, s.title || "The case"));
+    var body = E("div", "case-scenario-body");
+    (s.p || []).forEach(function (t) { body.appendChild(E("p", null, t)); });
+    if (s.note) body.appendChild(E("p", "note", s.note));
+    d.appendChild(body);
+    return d;
+  }
+
+  /* ---------------- the offer of an exam-shaped item ----------------
+   *
+   * THE RULE, AND WHY IT IS A RULE AND NOT A POP-UP. A chapter now carries a bank of
+   * exam-shaped items (tools/cma_exam), and the obvious thing to do with them is to interrupt
+   * a learner with one. An interruption that arrives before the section's own questions are
+   * answered is worse than nothing: it is a harder question about something not yet learned,
+   * and the learner concludes the course is badly ordered.
+   *
+   * So the offer appears only when ALL THREE hold, which is the rule the improvement package
+   * states in full:
+   *
+   *   1. this is a numbered teaching section, not a pooled deck;
+   *   2. every scored screen on it has been got right;
+   *   3. the Brief has been opened at least once, so the author's own explanation has been in
+   *      front of the learner before a harder question is.
+   *
+   * And never twice in a session for the same section: it is a door, not a nag.
+   */
+  var briefOpened = false;
+
+  function offerKey() {
+    return "cma.offer." + (P ? P.chapter : "?") + "." + (page ? page.id : "?");
+  }
+
+  function offeredAlready() {
+    try { return root.sessionStorage.getItem(offerKey()) === "yes"; } catch (e) { return true; }
+  }
+
+  function offerExam(fb) {
+    if (!fb || !page) return;
+    if (!/^\d+\.\d+$/.test(String(page.n || ""))) return;
+    if (!briefOpened || offeredAlready()) return;
+    var scored = page.scenes.filter(function (s) { return !EXHIBIT_SLOT[s.kind]; });
+    if (!scored.length || !scored.every(function (s) { return done[s.id]; })) return;
+    if (!(P && P.TOC && P.TOC.some(function (t) { return t.id === "exam"; }))) return;
+    try { root.sessionStorage.setItem(offerKey(), "yes"); } catch (e) { /* fine */ }
+    var box = E("div", "exam-offer");
+    box.appendChild(E("p", "exam-offer-t", "That is this section answered."));
+    var a = doc.createElement("a");
+    a.className = "btn btn-primary";
+    a.href = "exam.html";
+    a.textContent = "One more, exam-shaped →";
+    box.appendChild(a);
+    box.appendChild(E("p", "note",
+      "The chapter's exam practice puts the same ideas in a scenario the length the published "
+      + "paper uses. The facts are the book's; the scenario is this course's."));
+    fb.appendChild(box);
+  }
+
   /* ---------------- the deck ---------------- */
   var SCENES = {};        /* registered by objects.js */
   var current = 0, api = null, page = null, done = {};
 
+  /* REVISION THAT KNOWS WHAT YOU GOT WRONG.
+   *
+   * Every chapter ships a review deck and a practice deck, and both were FIXED: the same
+   * questions in the same order on every visit, whether the learner got them right the first
+   * time or not. 452 re-asked questions across the four volumes, not one of them chosen by
+   * what was missed, while the store had been recording a wrong answer all along and nothing
+   * read it (assets/progress.js:weak).
+   *
+   * So a pooled revision deck is REORDERED, not re-selected: every question the author put in
+   * it is still there, and the ones this learner has got wrong come first, worst first. A
+   * learner with no record - a first visit, a cleared browser, a blocked store - gets the
+   * author's order exactly as before, which is what `weakFirst` returns when it finds nothing.
+   *
+   * Only `review` and `practice`. A section's own deck keeps the author's order always: his
+   * sequence there is the teaching, and shuffling it would break the chain his exercises build.
+   */
+  var REVISION = { review: 1, practice: 1 };
+
+  function weakFirstOrder(p) {
+    if (!REVISION[p.id] || !P || !P.weakFirst) return p.scenes;
+    var ids = p.scenes.map(function (s) { return s.id; });
+    var order;
+    try { order = P.weakFirst(p.id, ids); } catch (e) { return p.scenes; }
+    if (!order || order.length !== ids.length) return p.scenes;
+    var by = {};
+    p.scenes.forEach(function (s) { by[s.id] = s; });
+    var out = order.map(function (id) { return by[id]; }).filter(Boolean);
+    return out.length === p.scenes.length ? out : p.scenes;
+  }
+
   function build() {
     page = root.PAGE;
     page.scenes = foldExhibits(page.scenes, page);
+    page.scenes = weakFirstOrder(page);
     doc.body.insertBefore(topBar(), doc.body.firstChild);
     var deck = E("div", "deck");
     var w = E("div", "wrap");
+    if (page.scenario) w.appendChild(scenarioPanel(page.scenario));
     var sc = E("section", "scene");
     sc.id = "scene";
     w.appendChild(sc);
     deck.appendChild(w);
     doc.body.appendChild(deck);
     termStrip(deck, page.terms || []);
+    /* THE BRIEF BEING OPENED IS A CONDITION OF THE EXAM OFFER, so it is observed here rather
+       than asked of brief.js: a click on the Brief button is the event, and a capture listener
+       on the document cannot be missed by a button that is rebuilt. */
+    doc.addEventListener("click", function (e) {
+      var t = e.target;
+      while (t && t !== doc) {
+        if (t.classList && t.classList.contains("bar-brief")) { briefOpened = true; return; }
+        t = t.parentNode;
+      }
+    }, true);
     drawer();
     loadOutline();
     go(startAt());
@@ -586,6 +707,19 @@
 
     var head = E("div", "scene-head");
     if (spec.kicker) head.appendChild(E("p", "scene-kicker", spec.kicker));
+    /* THE VISIBLE MARK ON AN AUTHORED ITEM, and it is not decoration: it is half of the
+       second provenance class (assets/provenance.js). Every other screen on this site is the
+       author's words; an exam-practice item is built to the published exam's SHAPE out of his
+       situations and categories, joined by sentences that are the course's. A learner is
+       entitled to know which is which, and it cannot be dismissed. */
+    if (spec.authored) {
+      var mk = E("p", "scene-authored");
+      mk.appendChild(E("span", "authored-chip", "Course-written"));
+      mk.appendChild(E("span", null,
+        " Exam-shaped practice: the facts, figures and categories are the book's; the "
+        + "scenario around them is this course's."));
+      head.appendChild(mk);
+    }
     head.appendChild(E("h2", null, spec.title));
     if (spec.say) {
       var s = E("p", "scene-say");
@@ -705,6 +839,24 @@
         done[spec.id] = true;
         P.markExercise(page.id, spec.id);
         dots.children[current].classList.add("done");
+      }
+      /* THE RECORD OF WHAT WAS GOT WRONG, for the revision deck to read. The store has
+         recorded a wrong trap since Chapter 1 shipped and NOTHING EVER READ IT, and a wrong
+         answer on an exercise with no trap tag was not recorded at all - so a learner's second
+         visit met the same questions in the same order whether they had got them right or not.
+         One line here, read by assets/progress.js:weakFirst and by the review deck. */
+      if (P.markResult) P.markResult(page.id, spec.id, ok, spec.sec || spec.kicker || "");
+      /* AND THE ONE HOOK THE AI LAYER HAS. Everything else about it is in assets/cma-ai.js:
+         lazy, optional, and absent entirely when the visitor has no key - in which case this
+         call finds nothing and the page behaves exactly as it did before. The author's own
+         reason for every option is already in `fb` above, so the model is never the only
+         feedback a learner gets, which is the house rule that matters most. */
+      offerExam(fb);
+      if (root.CmaAI && root.CmaAI.afterCheck) {
+        try {
+          root.CmaAI.afterCheck({ spec: spec, res: res, ok: ok, fb: fb, page: page,
+                                  stage: stage });
+        } catch (e) { /* a broken tutor must not break an exercise */ }
       }
     };
     again.onclick = function () {

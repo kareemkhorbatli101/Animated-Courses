@@ -8,9 +8,17 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Tahini & Spreads jar budgets",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "bridgeBar"
+  },
+  "scenario": {
+    "title": "Case question: the Tahini & Spreads jar budgets",
+    "p": [
+      "The Tahini & Spreads division has agreed its sales volume for 2028: the evidence-based figure of Chapter 3, split into quarters by the sales team. Sales are highest in the third quarter, when Gulf buyers stock up before the winter season. Last year the division ran short of jars in the third quarter and lost part of a Gulf order, so the sales director wants the budgets checked carefully this time.",
+      "The division keeps finished jars equal to 10% of the next quarter's sales, so that it can meet orders while the next batch is filled. At the start of 2028 it expects to hold exactly that amount. The filling line can produce about 450,000 jars a quarter, and tahini keeps for twelve months, so neither capacity nor shelf life is a problem this year.",
+      "The controller, Rana, must now prepare the sales budget and the production budget by quarter. She also wants the new assistant accountant to understand which factors belong to the sales forecast and which belong to the production budget. Rana will present both budgets to the division manager, Samir, at the planning meeting next week, together with a short note on the stock policy."
+    ]
   },
   "scenes": [
     {
@@ -36,7 +44,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F306-14",
+        "Practice/t:tahini-spreads-q"
+      ]
     },
     {
       "id": "c306-1",
@@ -59,30 +71,34 @@
         {
           "name": "Growth of the Gulf tahini market",
           "to": "sales-forecast",
-          "why": "The budget must also be feasible."
+          "why": "Factor: Sales forecast. The budget must also be feasible."
         },
         {
           "name": "Planned price of the jars",
           "to": "sales-forecast",
-          "why": "The budget must also be feasible."
+          "why": "Factor: Sales forecast. The budget must also be feasible."
         },
         {
           "name": "Ending-stock policy of 10%",
           "to": "production-budget",
-          "why": "The budget must also be feasible."
+          "why": "Factor: Production budget. The budget must also be feasible."
         },
         {
           "name": "Capacity of the filling line",
           "to": "production-budget",
-          "why": "The budget must also be feasible."
+          "why": "Factor: Production budget. The budget must also be feasible."
         },
         {
           "name": "Shelf life of tahini",
           "to": "production-budget",
-          "why": "The budget must also be feasible."
+          "why": "Factor: Production budget. The budget must also be feasible."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:factor-category",
+        "Answers and explanations/t:factor-category"
+      ]
     },
     {
       "id": "c306-2",

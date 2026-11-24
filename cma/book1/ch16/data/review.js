@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "group"
   },
@@ -65,10 +65,7 @@
           "why": "Profitability is not a consolidation test."
         }
       ],
-      "say": "Under U.S. GAAP, which test does a company apply first to decide whether to consolidate an entity?",
-      "traps": [
-        "control-traps"
-      ]
+      "say": "Under U.S. GAAP, which test does a company apply first to decide whether to consolidate an entity?"
     },
     {
       "id": "sc16-5",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Choosing the form",
   "n": "18.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.1"),
   "brief": {
     "about": "The choice of chart follows from what the reader must see, not from what is available in the software. Figure F418-02 sets out the usual cases. Three of those have been used already. A scatter plot showed cases against temperature because the question was whether two variables move together. A histogram showed the simulated outcomes because the question was about the shape of a distribution. The last two rows deserve a note.",
     "anim": "chartPick",
@@ -27,54 +27,56 @@
   "scenes": [
     {
       "id": "fig-f418-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F418-02",
       "title": "Choosing the form of a visualization",
-      "say": "Choosing the form of a visualization",
-      "caption": "What the reader must see (F.4.cc)",
-      "col1": "Best form",
-      "col2": "In this book",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "What the reader must see (F.4.cc)",
+      "col": "In this book",
       "rows": [
         {
-          "name": "A comparison across categories",
-          "a": "Bar chart",
-          "b": "Cases by division, or by product family"
+          "label": "A comparison across categories",
+          "right": "Cases by division, or by product family",
+          "why": "In this book: Cases by division, or by product family. Bar chart."
         },
         {
-          "name": "A trend over time",
-          "a": "Line chart",
-          "b": "The eight quarters of Chapter 16"
+          "label": "A trend over time",
+          "right": "The eight quarters of Chapter 16",
+          "why": "In this book: The eight quarters of Chapter 16. Line chart."
         },
         {
-          "name": "A relationship between two variables",
-          "a": "Scatter plot",
-          "b": "Cases against temperature, Figure F415-06"
+          "label": "A relationship between two variables",
+          "right": "Cases against temperature, Figure F415-06",
+          "why": "In this book: Cases against temperature, Figure F415-06. Scatter plot."
         },
         {
-          "name": "A distribution of many values",
-          "a": "Histogram or box plot",
-          "b": "The simulated outcomes of Figure F417-06"
+          "label": "A distribution of many values",
+          "right": "The simulated outcomes of Figure F417-06",
+          "why": "In this book: The simulated outcomes of Figure F417-06. Histogram or box plot."
         },
         {
-          "name": "Composition of a whole",
-          "a": "Stacked bar, or a table",
-          "b": "Cost by element; avoid a pie beyond a few slices"
+          "label": "Composition of a whole",
+          "right": "Cost by element; avoid a pie beyond a few slices",
+          "why": "In this book: Cost by element; avoid a pie beyond a few slices. Stacked bar, or a table."
         },
         {
-          "name": "Exact values that will be read off",
-          "a": "Table",
-          "b": "The expected value computation of Figure F417-02"
+          "label": "Exact values that will be read off",
+          "right": "The expected value computation of Figure F417-02",
+          "why": "In this book: The expected value computation of Figure F417-02. Table."
         },
         {
-          "name": "Several measures watched over time",
-          "a": "Dashboard",
-          "b": "The sales dashboard of Chapter 13"
+          "label": "Several measures watched over time",
+          "right": "The sales dashboard of Chapter 13",
+          "why": "In this book: The sales dashboard of Chapter 13. Dashboard."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "Choosing the form of a visualization",
       "traps": [
         "a-dashboard-suits-several-measures-wat"
+      ],
+      "from": [
+        "F418-02",
+        "18.1/t:what-the-reader"
       ]
     },
     {
@@ -100,6 +102,9 @@
           "text": "A table",
           "why": "A table gives exact values, not the shape."
         }
+      ],
+      "from": [
+        "18.1/section-check"
       ]
     },
     {
@@ -125,6 +130,9 @@
           "text": "Never",
           "why": "Tables are right more often than people expect."
         }
+      ],
+      "from": [
+        "18.1/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What goes into the figures",
   "n": "17.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.5"),
   "brief": {
     "about": "Both measures depend on two numbers that accounting policy can move. Figure F317-11 lists the income policies that make divisions hard to compare. A division that recognises revenue earlier, or expenses development that another capitalises, will report different income for identical work. Comparison then measures the policy, not the performance. The group therefore fixes one set of policies for internal reporting, even where local statements differ. The last one matters most.",
     "anim": "roiTree",
@@ -78,46 +78,53 @@
       ],
       "traps": [
         "ask-what-the-base-contains"
+      ],
+      "from": [
+        "F317-11",
+        "17.5/t:policy-c-3-j-eff",
+        "17.5/exam-trap"
       ]
     },
     {
       "id": "fig-f317-12",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F317-12",
       "title": "Policies that change the investment base",
-      "say": "Policies that change the investment base",
-      "caption": "Policy (C.3.k)",
-      "col1": "Effect on the investment base",
-      "col2": "What to do",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Policy (C.3.k)",
+      "col": "Effect on the investment base",
       "rows": [
         {
-          "name": "Inventory method",
-          "a": "FIFO and weighted average give different inventory and cost of sales",
-          "b": "Agree one method for internal measurement"
+          "label": "Inventory method",
+          "right": "FIFO and weighted average give different inventory and cost of sales",
+          "why": "Effect on the investment base: FIFO and weighted average give different inventory and cost of sales. Agree one method for internal measurement."
         },
         {
-          "name": "Joint asset sharing",
-          "a": "The shared cold store of Chapter 15 serves two divisions",
-          "b": "Allocate the asset on the same basis as its cost, or exclude it from both"
+          "label": "Joint asset sharing",
+          "right": "The shared cold store of Chapter 15 serves two divisions",
+          "why": "Effect on the investment base: The shared cold store of Chapter 15 serves two divisions. Allocate the asset on the same basis as its cost, or exclude it from both."
         },
         {
-          "name": "Gross or net book value",
-          "a": "Beverages: 26.5% on net book value, 15.9% on gross",
-          "b": "Net book value flatters divisions with old assets"
+          "label": "Gross or net book value",
+          "right": "Beverages: 26.5% on net book value, 15.9% on gross",
+          "why": "Effect on the investment base: Beverages: 26.5% on net book value, 15.9% on gross. Net book value flatters divisions with old assets."
         },
         {
-          "name": "Leased assets",
-          "a": "A leased plant may or may not appear in the base",
-          "b": "Follow one rule across all divisions"
+          "label": "Leased assets",
+          "right": "A leased plant may or may not appear in the base",
+          "why": "Effect on the investment base: A leased plant may or may not appear in the base. Follow one rule across all divisions."
         },
         {
-          "name": "Idle or non-operating assets",
-          "a": "Land held for sale is not used to earn operating income",
-          "b": "Exclude it from the investment base"
+          "label": "Idle or non-operating assets",
+          "right": "Land held for sale is not used to earn operating income",
+          "why": "Effect on the investment base: Land held for sale is not used to earn operating income. Exclude it from the investment base."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Policies that change the investment base",
+      "from": [
+        "F317-12",
+        "17.5/t:policy-c-3-k-eff"
+      ]
     },
     {
       "id": "sc317-9",
@@ -143,7 +150,10 @@
           "correct": true
         }
       ],
-      "exhibit": "One division capitalises development spending and another expenses it."
+      "exhibit": "One division capitalises development spending and another expenses it.",
+      "from": [
+        "17.5/section-check"
+      ]
     },
     {
       "id": "sc317-10",
@@ -169,7 +179,10 @@
           "why": "This is the required return."
         }
       ],
-      "exhibit": "A division's plant cost $20,000,000 and has accumulated depreciation of $8,000,000. Operating income is $3,180,000."
+      "exhibit": "A division's plant cost $20,000,000 and has accumulated depreciation of $8,000,000. Operating income is $3,180,000.",
+      "from": [
+        "17.5/section-check"
+      ]
     }
   ]
 };

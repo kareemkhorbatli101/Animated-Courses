@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Impairment of long-lived assets, intangibles and goodwill",
   "n": "10.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.5"),
   "brief": {
     "about": "An impairment occurs when a company cannot recover an asset's carrying amount. U.S. GAAP uses different tests for different assets. The company tests an asset group (the lowest level with its own cash flows) only when indicators suggest a problem, such as a sharp fall in market price, physical damage or continuing losses. The test has two steps. Goodwill is not amortized by public companies.",
     "anim": "impair",
@@ -42,6 +42,13 @@
         ]
       },
       {
+        "h": "IAS 36 and IAS 38",
+        "box": "ifrs",
+        "p": [
+          "IAS 36 uses one step: compare the carrying amount with the recoverable amount, which is the higher of fair value less costs of disposal and value in use (a discounted amount). IFRS allows the reversal of impairment losses on assets other than goodwill. IAS 38 requires development costs to be capitalized when six criteria are met. These are the classic IFRS habits that cost marks on the U.S. GAAP exam."
+        ]
+      },
+      {
         "h": "Impairment in three languages",
         "box": "false-friend",
         "p": [
@@ -50,27 +57,40 @@
       }
     ]
   },
+  "from": [
+    "10.5/false-friend-alert",
+    "10.5/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "fig-f10-08",
       "kind": "figure",
       "file": "F10-08.png",
       "label": "Figure F10-08.",
-      "caption": "ASC 360 impairment of the Jordan plant: recoverability test, then loss against fair value."
+      "caption": "ASC 360 impairment of the Jordan plant: recoverability test, then loss against fair value.",
+      "from": [
+        "F10-08"
+      ]
     },
     {
       "id": "fig-f10-09",
       "kind": "figure",
       "file": "F10-09.png",
       "label": "Figure F10-09.",
-      "caption": "Single-step goodwill impairment test, with and without the cap at the goodwill balance."
+      "caption": "Single-step goodwill impairment test, with and without the cap at the goodwill balance.",
+      "from": [
+        "F10-09"
+      ]
     },
     {
       "id": "fig-f10-10",
       "kind": "figure",
       "file": "F10-10.png",
       "label": "Figure F10-10.",
-      "caption": "Finite-lived intangibles, indefinite-lived intangibles and goodwill: amortization and testing."
+      "caption": "Finite-lived intangibles, indefinite-lived intangibles and goodwill: amortization and testing.",
+      "from": [
+        "F10-10"
+      ]
     },
     {
       "id": "sc10-9",
@@ -101,6 +121,10 @@
         "asu-2025-06-and-asu-2025-10",
         "impairment-in-three-languages",
         "impairment-traps"
+      ],
+      "from": [
+        "10.5/exam-trap",
+        "10.5/section-check"
       ]
     },
     {
@@ -127,7 +151,10 @@
           "why": "This ignores the cap at the goodwill balance."
         }
       ],
-      "exhibit": "Use Case 2 of the goodwill example."
+      "exhibit": "Use Case 2 of the goodwill example.",
+      "from": [
+        "10.5/section-check"
+      ]
     }
   ]
 };

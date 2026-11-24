@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The steps in value chain analysis",
   "n": "14.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.4"),
   "brief": {
     "about": "Value chain analysis has five steps: identify the activities, assign costs and assets to them, find what drives each cost, study the links inside and outside the company, and look for opportunities. Figure F214-07 applies the steps to the Oils division. Figure F214-08 gives the cost of each activity per liter of bottled extra-virgin olive oil. Inbound logistics and operations together cost $11.75, the production cost from Chapter 7.",
     "anim": "valueChain",
@@ -27,37 +27,44 @@
   "scenes": [
     {
       "id": "fig-f214-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F214-07",
       "title": "The five steps of value chain analysis in the Oils division",
-      "say": "The five steps of value chain analysis in the Oils division",
-      "caption": "Step",
-      "col1": "Oils division example",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Step",
+      "col": "Oils division example",
       "rows": [
         {
-          "name": "1. Identify the activities. Receive olives, press, bottle, ship, sell, handle complaints",
-          "note": true
+          "label": "1. Identify the activities",
+          "right": "Receive olives, press, bottle, ship, sell, handle complaints",
+          "why": "Oils division example: Receive olives, press, bottle, ship, sell, handle complaints."
         },
         {
-          "name": "2. Assign costs and assets. Cost per liter of each activity (Figure F214-08)",
-          "note": true
+          "label": "2. Assign costs and assets",
+          "right": "Cost per liter of each activity (Figure F214-08)",
+          "why": "Oils division example: Cost per liter of each activity (Figure F214-08)."
         },
         {
-          "name": "3. Find the cost drivers. Olive quality, batch size, bottle type, delivery distance",
-          "note": true
+          "label": "3. Find the cost drivers",
+          "right": "Olive quality, batch size, bottle type, delivery distance",
+          "why": "Oils division example: Olive quality, batch size, bottle type, delivery distance."
         },
         {
-          "name": "4. Study the links. With olive growers, glass supplier, distributors and customers",
-          "note": true
+          "label": "4. Study the links",
+          "right": "With olive growers, glass supplier, distributors and customers",
+          "why": "Oils division example: With olive growers, glass supplier, distributors and customers."
         },
         {
-          "name": "5. Find opportunities. Lower cost where customers do not see value; add value where they will pay",
-          "note": true
+          "label": "5. Find opportunities",
+          "right": "Lower cost where customers do not see value; add value where they will pay",
+          "why": "Oils division example: Lower cost where customers do not see value; add value where they will pay."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The five steps of value chain analysis in the Oils division",
+      "from": [
+        "F214-07",
+        "14.4/t:step-oils-divisi"
+      ]
     },
     {
       "id": "fill-08",
@@ -142,6 +149,10 @@
             "c2": "$0.50"
           }
         }
+      ],
+      "from": [
+        "F214-08",
+        "14.4/t:bottled-evoo-202"
       ]
     },
     {
@@ -167,6 +178,9 @@
           "why": "Costs and drivers can only be assigned once the activities are known.",
           "correct": true
         }
+      ],
+      "from": [
+        "14.4/section-check"
       ]
     },
     {
@@ -192,6 +206,9 @@
           "text": "$14.65",
           "why": "This is the total cost."
         }
+      ],
+      "from": [
+        "14.4/section-check"
       ]
     }
   ]

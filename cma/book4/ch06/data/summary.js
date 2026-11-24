@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "sysRoles"
+    "anim": "sysRoles",
+    "about": "Figure F406-08 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A computer concentrates power, so the systems function has its own segregation: the analyst designs, the programmer writes, the operator runs, the librarian controls versions and data control checks input and output, and no one of them may both change the system and use it unobserved. The threats are input manipulation, which is the commonest and needs no skill, program alteration, direct file alteration, data theft, sabotage, and malware. Physical access controls decide who can reach the machine; logical access controls decide who can reach the data, through unique identification, authentication, least privilege, access reviews, logging that someone actually reads, and removal on exit."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F406-08.png",
       "label": "Figure F406-08.",
       "caption": "Chapter 6 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F406-08"
+      ]
     },
     {
       "id": "rules",

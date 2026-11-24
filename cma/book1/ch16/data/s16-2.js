@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Two control models: VIE first, then votes",
   "n": "16.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.2"),
   "brief": {
     "about": "U.S. GAAP has two ways to identify control, and they are applied in order. First, the company asks whether the other entity is a variable interest entity (VIE). An entity is a VIE if its equity at risk is too small to finance its activities, or if its equity holders do not have the power to direct it or do not bear its losses and returns.",
     "anim": "ladder",
@@ -34,52 +34,64 @@
       }
     ]
   },
+  "from": [
+    "16.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f16-02",
       "kind": "figure",
       "file": "F16-02.png",
       "label": "Figure F16-02.",
-      "caption": "Decision chart: test the VIE model first, then the voting interest model."
+      "caption": "Decision chart: test the VIE model first, then the voting interest model.",
+      "from": [
+        "F16-02"
+      ]
     },
     {
       "id": "fig-f16-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F16-03",
       "title": "Is the cold-chain SPV a VIE, and who consolidates it?",
-      "say": "Suppose: is the cold-chain SPV a VIE, and who consolidates it?",
-      "caption": "Suppose: Orontes Cold-Chain Logistics SPV, 2027",
-      "col1": "Facts (whole USD)",
-      "col2": "Conclusion",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Suppose: Orontes Cold-Chain Logistics SPV, 2027",
+      "col": "Facts (whole USD)",
       "rows": [
         {
-          "name": "Is equity at risk enough to finance the activities?",
-          "a": "No: third-party equity is 100,000, only 1% of total funding",
-          "b": "Suggests a VIE"
+          "label": "Is equity at risk enough to finance the activities?",
+          "right": "No: third-party equity is 100,000, only 1% of total funding",
+          "why": "Facts (whole USD): No: third-party equity is 100,000, only 1% of total funding. Suggests a VIE."
         },
         {
-          "name": "Do the equity holders direct the key activities?",
-          "a": "No: Orontes decides routes and customers",
-          "b": "VIE"
+          "label": "Do the equity holders direct the key activities?",
+          "right": "No: Orontes decides routes and customers",
+          "why": "Facts (whole USD): No: Orontes decides routes and customers. VIE."
         },
         {
-          "name": "Who absorbs losses?",
-          "a": "Orontes guarantees the 9,900,000 of debt",
-          "b": "Orontes"
+          "label": "Who absorbs losses?",
+          "right": "Orontes guarantees the 9,900,000 of debt",
+          "why": "Facts (whole USD): Orontes guarantees the 9,900,000 of debt. Orontes."
         },
         {
-          "name": "Primary beneficiary?",
-          "a": "Orontes has both power and exposure to significant losses",
-          "b": "Orontes consolidates"
+          "label": "Primary beneficiary?",
+          "right": "Orontes has both power and exposure to significant losses",
+          "why": "Facts (whole USD): Orontes has both power and exposure to significant losses. Orontes consolidates."
         },
         {
-          "name": "NCI in consolidation",
-          "a": "The third party's equity of 100,000",
-          "b": "Shown as NCI"
+          "label": "NCI in consolidation",
+          "right": "The third party's equity of 100,000",
+          "why": "Facts (whole USD): The third party's equity of 100,000. Shown as NCI."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Suppose: is the cold-chain SPV a VIE, and who consolidates it?",
+      "traps": [
+        "control-traps"
+      ],
+      "from": [
+        "F16-03",
+        "16.2/t:suppose-orontes",
+        "16.2/exam-trap"
+      ]
     },
     {
       "id": "sc16-3",
@@ -106,8 +118,8 @@
         }
       ],
       "say": "Under U.S. GAAP, which test does a company apply first to decide whether to consolidate an entity?",
-      "traps": [
-        "control-traps"
+      "from": [
+        "16.2/section-check"
       ]
     },
     {
@@ -133,6 +145,9 @@
           "text": "The SPV is profitable",
           "why": "Profitability is not the test."
         }
+      ],
+      "from": [
+        "16.2/section-check"
       ]
     }
   ]

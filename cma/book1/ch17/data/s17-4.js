@@ -9,7 +9,7 @@
   "up": "../",
   "title": "(iv) Leases: the lessee",
   "n": "17.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.4"),
   "brief": {
     "about": "IFRS 16 has one lessee model: every lease is treated like a finance lease, with depreciation of the right-of-use asset plus interest. U.S. GAAP keeps two models, and an operating lease has one straight-line cost. For Orontes's warehouse from Chapter 14, U.S. GAAP shows a lease cost of $100,000 in 2026. IFRS 16 shows depreciation of $84,247 plus interest of $25,274: $109,521, which is higher in the early years.",
     "anim": "rou",
@@ -58,6 +58,10 @@
           "us": "Full gain if a sale",
           "ifrs": "Gain only on the rights transferred"
         }
+      ],
+      "from": [
+        "F17-05",
+        "17.4/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -84,7 +88,10 @@
           "correct": true
         }
       ],
-      "say": "Use Figure F17-05. What is the warehouse lease expense for 2026 under IFRS 16 (whole USD)?"
+      "say": "Use Figure F17-05. What is the warehouse lease expense for 2026 under IFRS 16 (whole USD)?",
+      "from": [
+        "17.4/section-check"
+      ]
     },
     {
       "id": "sc17-8",
@@ -109,6 +116,9 @@
           "text": "Discounting the lease payments",
           "why": "Both frameworks discount."
         }
+      ],
+      "from": [
+        "17.4/section-check"
       ]
     }
   ]

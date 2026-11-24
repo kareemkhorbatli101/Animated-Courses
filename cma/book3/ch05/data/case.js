@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Tahini & Spreads flexible budget",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "flexLine"
+  },
+  "scenario": {
+    "title": "Case question: the Tahini & Spreads flexible budget",
+    "p": [
+      "Last month the Tahini & Spreads division sold fewer 500 g tahini jars than planned, because a large Gulf order arrived late. The division's static budget showed a healthy operating income, and the actual result was much lower. The division manager, Samir, says his costs were well controlled; the head-office review team is not so sure. The late order came from the Gulf importer, and the jars were delivered in the first week of the following month instead.",
+      "The controller, Rana, wants to judge the month fairly. She has the selling price and variable cost per jar, the fixed costs for the month, the planned number of jars and the number actually sold.",
+      "The review team also asks two wider questions. How much would operating income rise if the late order of ten thousand jars had arrived in time? And which budget systems should the division use next year, given that its head-office charges have grown for years and its sales change quickly?",
+      "Rana will present her answers at the monthly review meeting. She will also explain to Samir why the comparison she uses is fair to him, even though his result looks poor at first sight."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F305-15",
+        "Practice/t:tahini-spreads-d"
+      ]
     },
     {
       "id": "c305-1",
@@ -78,25 +91,29 @@
         {
           "name": "Justify head-office charges that have grown for years",
           "to": "zero-based-budget",
-          "why": "The budget is built from decision packages."
+          "why": "Need: Zero-based budget. The budget is built from decision packages."
         },
         {
           "name": "Keep sales plans a year ahead in a fast-changing market",
           "to": "rolling-budget",
-          "why": "The budget is built from decision packages."
+          "why": "Need: Rolling budget. The budget is built from decision packages."
         },
         {
           "name": "Judge costs fairly when volume differs from the plan",
           "to": "flexible-budget",
-          "why": "The budget is built from decision packages."
+          "why": "Need: Flexible budget. The budget is built from decision packages."
         },
         {
           "name": "Review whether each support activity is still needed",
           "to": "zero-based-budget",
-          "why": "The budget is built from decision packages."
+          "why": "Need: Zero-based budget. The budget is built from decision packages."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:need-category",
+        "Answers and explanations/t:need-category"
+      ]
     },
     {
       "id": "c305-2",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Measuring performance against the plan",
   "n": "11.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.1"),
   "brief": {
     "about": "Performance is measured against the operational goals set in the budget: revenue, manufacturing costs, non-manufacturing costs and profit. Figure F311-02 shows what each measure says about June. A difference between an actual result and a budgeted figure is a variance. It is a favorable variance when it raises operating income above the budget and an unfavorable variance when it lowers it.",
     "anim": "varSplit",
@@ -74,6 +74,11 @@
       ],
       "traps": [
         "favorable-is-not-always-good"
+      ],
+      "from": [
+        "F311-02",
+        "11.1/t:measure-c-1-a-ju",
+        "11.1/exam-trap"
       ]
     },
     {
@@ -99,6 +104,9 @@
           "text": "is reported by the plant manager",
           "why": "Who reports it does not matter."
         }
+      ],
+      "from": [
+        "11.1/section-check"
       ]
     },
     {
@@ -125,7 +133,10 @@
           "why": "Wages do not affect material price."
         }
       ],
-      "exhibit": "A favorable material price variance appears in the same month as an unfavorable usage variance."
+      "exhibit": "A favorable material price variance appears in the same month as an unfavorable usage variance.",
+      "from": [
+        "11.1/section-check"
+      ]
     }
   ]
 };

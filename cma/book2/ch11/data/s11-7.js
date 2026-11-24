@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 11A: batch H-2711 at split-off",
   "n": "11.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.7"),
   "brief": {
     "about": "This example records the split-off of batch H-2711 twice, once for each by-product method, and compares the results. The allocations are exam-core; the entries are for depth. Record the joint cost, split it at split-off under the production method, record the pomace sale, then repeat with the sales method and compare. Figure F211-11 records the batch under the production method: pomace enters inventory at NRV and is later sold.",
     "anim": "splitPoint",
@@ -65,6 +65,9 @@
       }
     ]
   },
+  "from": [
+    "11.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "post-11",
@@ -187,6 +190,11 @@
       "logic": {},
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F211-11",
+        "11.7/t:no-account-detai",
+        "11.7/exam-trap"
       ]
     },
     {
@@ -302,7 +310,11 @@
       "grid": false,
       "journalTitle": "Journal entries",
       "lures": {},
-      "logic": {}
+      "logic": {},
+      "from": [
+        "F211-12",
+        "11.7/t:no-account-detai#2"
+      ]
     },
     {
       "id": "fig-f211-13",
@@ -341,7 +353,85 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F211-13",
+        "11.7/t:batch-h-2711-nrv"
+      ]
+    },
+    {
+      "id": "t11-7-0",
+      "kind": "lines",
+      "kicker": "Section 11.7",
+      "title": "Output",
+      "caption": "Output",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Tahini base",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sesame oil",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sesame hulls",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Floor sweepings sold for a few dollars",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:output-category",
+        "Answers and explanations/t:output-category"
+      ]
+    },
+    {
+      "id": "t11-7-1",
+      "kind": "lines",
+      "kicker": "Section 11.7",
+      "title": "Output",
+      "caption": "Output",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Tahini base",
+          "a": "Joint product",
+          "b": ""
+        },
+        {
+          "name": "Sesame oil",
+          "a": "Joint product",
+          "b": ""
+        },
+        {
+          "name": "Sesame hulls",
+          "a": "By-product",
+          "b": ""
+        },
+        {
+          "name": "Floor sweepings sold for a few dollars",
+          "a": "Scrap",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:output-category",
+        "Answers and explanations/t:output-category"
+      ]
     },
     {
       "id": "ties",
@@ -391,7 +481,10 @@
           "why": "This is the market price at split-off."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "11.7/section-check"
+      ]
     },
     {
       "id": "sc211-14",
@@ -418,7 +511,10 @@
         }
       ],
       "exhibit": "Use the Extended Example.",
-      "say": "Under the sales method for pomace, how much joint cost goes to EVOO (whole USD)?"
+      "say": "Under the sales method for pomace, how much joint cost goes to EVOO (whole USD)?",
+      "from": [
+        "11.7/section-check"
+      ]
     }
   ]
 };

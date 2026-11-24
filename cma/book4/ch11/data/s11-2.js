@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Applying a control framework to data",
   "n": "11.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.2"),
   "brief": {
     "about": "The exam asks specifically how COSO's Internal Control framework applies to data governance. The answer is that it is not changed at all: the same five components of Chapter 5 are asked about a different asset. Figure F411-03 works through them. Two components do most of the work here. Other frameworks exist and are worth recognising by name.",
     "anim": "cosoBase",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F411-03.png",
       "label": "Figure F411-03.",
-      "caption": "The five COSO components applied to data."
+      "caption": "The five COSO components applied to data.",
+      "from": [
+        "F411-03"
+      ]
     },
     {
       "id": "sc411-3",
@@ -55,6 +58,9 @@
           "why": "Ownership, risk, controls, information and monitoring all have data meanings.",
           "correct": true
         }
+      ],
+      "from": [
+        "11.2/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "Risk assessment",
           "why": "Risk assessment identifies what could go wrong."
         }
+      ],
+      "from": [
+        "11.2/section-check"
       ]
     }
   ]

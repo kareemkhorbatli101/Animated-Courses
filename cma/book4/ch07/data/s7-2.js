@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Input, processing and output controls",
   "n": "7.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.2"),
   "brief": {
     "about": "Figure F407-03 shows the three stages and what each one asks. The economics are the whole argument for input controls. An error caught as it is keyed costs a moment. The same error found in the output has already passed through every calculation in between, and tracing it back through them costs far more than preventing it would have. Figure F407-04 sets out the input controls the exam names.",
     "anim": "inputGate",
@@ -32,61 +32,66 @@
       "kind": "figure",
       "file": "F407-03.png",
       "label": "Figure F407-03.",
-      "caption": "Input, processing and output controls, and what each asks."
+      "caption": "Input, processing and output controls, and what each asks.",
+      "from": [
+        "F407-03"
+      ]
     },
     {
       "id": "fig-f407-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F407-04",
       "title": "Input controls and what each one tests",
-      "say": "Input controls and what each one tests",
-      "caption": "Input control (E.2.f)",
-      "col1": "What it tests",
-      "col2": "Example",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Input control (E.2.f)",
+      "col": "What it tests",
       "rows": [
         {
-          "name": "Field check",
-          "a": "The data is the right type",
-          "b": "Letters rejected in a quantity field"
+          "label": "Field check",
+          "right": "The data is the right type",
+          "why": "What it tests: The data is the right type. Letters rejected in a quantity field."
         },
         {
-          "name": "Format check",
-          "a": "The data has the right shape",
-          "b": "A date entered as 2026-13-45 is rejected"
+          "label": "Format check",
+          "right": "The data has the right shape",
+          "why": "What it tests: The data has the right shape. A date entered as 2026-13-45 is rejected."
         },
         {
-          "name": "Range or limit check",
-          "a": "The value falls between sensible bounds",
-          "b": "An hourly rate above 500 is queried"
+          "label": "Range or limit check",
+          "right": "The value falls between sensible bounds",
+          "why": "What it tests: The value falls between sensible bounds. An hourly rate above 500 is queried."
         },
         {
-          "name": "Reasonableness check",
-          "a": "The value makes sense beside another field",
-          "b": "A 900-case order from a customer who buys 20"
+          "label": "Reasonableness check",
+          "right": "The value makes sense beside another field",
+          "why": "What it tests: The value makes sense beside another field. A 900-case order from a customer who buys 20."
         },
         {
-          "name": "Validity check",
-          "a": "The code exists on the master file",
-          "b": "An unknown supplier number is rejected"
+          "label": "Validity check",
+          "right": "The code exists on the master file",
+          "why": "What it tests: The code exists on the master file. An unknown supplier number is rejected."
         },
         {
-          "name": "Check digit",
-          "a": "An extra digit computed from the rest",
-          "b": "A mistyped account number fails the arithmetic"
+          "label": "Check digit",
+          "right": "An extra digit computed from the rest",
+          "why": "What it tests: An extra digit computed from the rest. A mistyped account number fails the arithmetic."
         },
         {
-          "name": "Batch totals",
-          "a": "Financial, hash or record count compared before and after",
-          "b": "Twenty invoices entered; twenty posted"
+          "label": "Batch totals",
+          "right": "Financial, hash or record count compared before and after",
+          "why": "What it tests: Financial, hash or record count compared before and after. Twenty invoices entered; twenty posted."
         },
         {
-          "name": "Closed-loop verification",
-          "a": "The system displays what the code means",
-          "b": "The supplier name appears for confirmation"
+          "label": "Closed-loop verification",
+          "right": "The system displays what the code means",
+          "why": "What it tests: The system displays what the code means. The supplier name appears for confirmation."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Input controls and what each one tests",
+      "from": [
+        "F407-04",
+        "7.2/t:input-control-e"
+      ]
     },
     {
       "id": "sc407-3",
@@ -111,6 +116,9 @@
           "text": "field check",
           "why": "A field check tests the data type."
         }
+      ],
+      "from": [
+        "7.2/section-check"
       ]
     },
     {
@@ -136,6 +144,9 @@
           "text": "The total of all debits in the ledger",
           "why": "That is a trial balance figure."
         }
+      ],
+      "from": [
+        "7.2/section-check"
       ]
     }
   ]

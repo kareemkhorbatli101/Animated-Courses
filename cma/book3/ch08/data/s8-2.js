@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The selling and administrative expense budget",
   "n": "8.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.2"),
   "brief": {
     "about": "The selling and administrative expense budget has two kinds of components. Variable selling expenses, such as freight to customers and sales commissions, change with cases sold. Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item. Figure F308-05 lists the Beverages components.",
     "anim": "marginStack",
@@ -122,6 +122,10 @@
             "c3": "3,480,000"
           }
         }
+      ],
+      "from": [
+        "F308-05",
+        "8.2/t:selling-and-admi"
       ]
     },
     {
@@ -174,6 +178,42 @@
             "________"
           ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F308-06",
+        "8.2/t:selling-and-admi#2"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F308-06",
+      "title": "Selling and admin in the third and fourth quarters",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the blank cells of Figure F308-06.",
+      "blanks": [
+        {
+          "label": "Q3",
+          "working": "Variable 240,000 × $1.20 = $288,000; total $288,000 + $600,000 = $888,000",
+          "shown": "$888,000",
+          "answer": 888000,
+          "prompt": "Variable 240,000 × $1.20 = $288,000; total $288,000 + $600,000 ="
+        },
+        {
+          "label": "Q4",
+          "working": "Variable 225,000 × $1.20 = $270,000; total $270,000 + $600,000 = $870,000",
+          "shown": "$870,000",
+          "answer": 870000,
+          "prompt": "Variable 225,000 × $1.20 = $270,000; total $270,000 + $600,000 ="
+        }
+      ],
+      "caption": "Your turn: selling and admin by quarter (complete the blanks)",
+      "from": [
+        "8.2/your-turn",
+        "F308-06",
+        "8.2/t:selling-and-admi#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -199,6 +239,9 @@
           "text": "Division administration",
           "why": "A fixed cost."
         }
+      ],
+      "from": [
+        "8.2/section-check"
       ]
     },
     {
@@ -225,7 +268,10 @@
           "why": "It is fixed."
         }
       ],
-      "say": "Why is depreciation of offices and vehicles shown separately in the selling and administrative budget?"
+      "say": "Why is depreciation of offices and vehicles shown separately in the selling and administrative budget?",
+      "from": [
+        "8.2/section-check"
+      ]
     }
   ]
 };

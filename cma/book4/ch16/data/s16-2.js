@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Separating the components",
   "n": "16.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.2"),
   "brief": {
     "about": "The standard method is a moving average. Averaging four consecutive quarters removes the seasonal pattern, because every average contains one of each quarter. Most of the irregular variation cancels as well. What is left is close to the trend. Figure F416-03 does this to the Beverages data. The first panel is the series as recorded, with its clear peak in the third quarter of each year.",
     "anim": "tsComponents",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F416-03.png",
       "label": "Figure F416-03.",
-      "caption": "The Beverages series decomposed into trend and seasonal factors."
+      "caption": "The Beverages series decomposed into trend and seasonal factors.",
+      "from": [
+        "F416-03"
+      ]
     },
     {
       "id": "sc416-3",
@@ -55,6 +58,9 @@
           "text": "The seasons cancel by chance",
           "why": "It is by construction, not by chance."
         }
+      ],
+      "from": [
+        "16.2/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "The trend requires it",
           "why": "The trend is computed separately."
         }
+      ],
+      "from": [
+        "16.2/section-check"
       ]
     }
   ]

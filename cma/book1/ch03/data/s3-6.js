@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 3A: the same year in two formats",
   "n": "3.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.6"),
   "brief": {
     "about": "This example reports the Orontes year twice: once single-step and once multi-step, and then adds other comprehensive income. It is exam-core, because the exam often asks for a subtotal that exists in only one of the two formats. Total revenues and gains are $42,187,800 and total expenses and losses $39,218,700, leaving net income of $2,969,100. The format is simple, but it shows no gross profit and no operating income.",
     "anim": "waterfall",
@@ -65,6 +65,9 @@
       }
     ]
   },
+  "from": [
+    "3.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "two-formats",
@@ -92,6 +95,11 @@
       "sealText": "The same year, the same net income.",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F03-10",
+        "3.6/t:orontes-foods-in",
+        "3.6/exam-trap"
       ]
     },
     {
@@ -124,6 +132,10 @@
             }
           ]
         }
+      ],
+      "from": [
+        "F03-11",
+        "3.6/t:orontes-foods-in#2"
       ]
     },
     {
@@ -149,6 +161,9 @@
           "text": "14,700,000",
           "why": "This is gross profit, before operating expenses."
         }
+      ],
+      "from": [
+        "3.6/section-check"
       ]
     },
     {
@@ -175,7 +190,10 @@
           "why": "Total expenses is the second line of the single-step format."
         }
       ],
-      "say": "Use Extended Example 3A. Which subtotal does the single-step format NOT show?"
+      "say": "Use Extended Example 3A. Which subtotal does the single-step format NOT show?",
+      "from": [
+        "3.6/section-check"
+      ]
     },
     {
       "id": "sc3-13",
@@ -200,6 +218,9 @@
           "text": "4,176,000",
           "why": "This is operating income."
         }
+      ],
+      "from": [
+        "3.6/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why the two incomes differ",
   "n": "9.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.4"),
   "brief": {
     "about": "The difference comes only from fixed overhead held in inventory. When inventory rises, absorption costing defers some fixed overhead to next year, so its income is higher. When inventory falls, it releases fixed overhead from earlier years, so its income is lower. In 2027 Beverages' inventory rose from 40,000 to 60,000 cases. Suppose that in 2028 Beverages produces 800,000 cases and sells 840,000.",
     "anim": "absVar",
@@ -79,6 +79,11 @@
       ],
       "traps": [
         "difference-change-in-units-fixed-rate"
+      ],
+      "from": [
+        "F209-06",
+        "9.4/t:inventory-change",
+        "9.4/exam-trap"
       ]
     },
     {
@@ -99,6 +104,12 @@
           "answer": "2",
           "why": "Fixed MOH per case: $2.00."
         }
+      ],
+      "from": [
+        "9.4/your-turn",
+        "F209-07",
+        "9.4/t:suppose-beverage",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -125,7 +136,10 @@
           "why": "There is no such rule."
         }
       ],
-      "exhibit": "Production is greater than sales."
+      "exhibit": "Production is greater than sales.",
+      "from": [
+        "9.4/section-check"
+      ]
     },
     {
       "id": "sc209-8",
@@ -151,7 +165,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Inventory rises by 5,000 units. Fixed manufacturing overhead is $3 per unit in both years."
+      "exhibit": "Inventory rises by 5,000 units. Fixed manufacturing overhead is $3 per unit in both years.",
+      "from": [
+        "9.4/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The job cost sheet",
   "n": "6.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.2"),
   "brief": {
     "about": "A job cost sheet is the record of one job. It collects three costs: direct materials from materials requisitions, direct labor from labor time tickets, and overhead applied at the predetermined rate. Figure F206-02 shows how the documents feed the sheet. The job cost sheets form a subsidiary ledger. The total of all open sheets must equal the balance of the Work-in-Process Inventory control account in the general ledger.",
     "anim": "jobCard",
@@ -30,13 +30,19 @@
       }
     ]
   },
+  "from": [
+    "6.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f206-02",
       "kind": "figure",
       "file": "F206-02.png",
       "label": "Figure F206-02.",
-      "caption": "Source documents feed each job cost sheet; the sheets support the WIP control account."
+      "caption": "Source documents feed each job cost sheet; the sheets support the WIP control account.",
+      "from": [
+        "F206-02"
+      ]
     },
     {
       "id": "num-03",
@@ -51,6 +57,10 @@
           "answer": "346000",
           "why": "Total job cost: 346,000."
         }
+      ],
+      "from": [
+        "F206-03",
+        "6.2/t:job-t-0303-barad"
       ]
     },
     {
@@ -76,6 +86,9 @@
           "why": "Direct materials + direct labor + applied overhead.",
           "correct": true
         }
+      ],
+      "from": [
+        "6.2/section-check"
       ]
     },
     {
@@ -101,6 +114,9 @@
           "why": "Open job sheets are the subsidiary ledger for WIP.",
           "correct": true
         }
+      ],
+      "from": [
+        "6.2/section-check"
       ]
     }
   ]

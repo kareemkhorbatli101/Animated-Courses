@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Levant Distribution's three-year plan",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "planHorizon"
+  },
+  "scenario": {
+    "title": "Case question: Levant Distribution's three-year plan",
+    "p": [
+      "Levant Distribution, the Orontes subsidiary that delivers juice and foods to shops across Jordan, is writing its first strategic plan. Its managers have listed statements about the company's purpose, its future and what it wants to achieve, but they mixed them together in one long list.",
+      "The board has chosen two measures for the plan. The first is the share of deliveries that arrive on time. The second is the cost of each delivery stop. The exhibit shows where the company was in 2027 and where it wants to be at the end of the plan.",
+      "The finance manager, Nadia, must turn the long-term goals into objectives for 2028, using equal steps each year. She must also check that the 2028 budget supports the plan. The first draft of the budget cuts the new route-planning software, although the plan depends on it to improve on-time delivery.",
+      "The board also wants to confirm that the length of the plan suits a distribution business. Its competitors plan between two and five years ahead, and Levant's contracts with supermarkets usually last three years."
+    ]
   },
   "scenes": [
     {
@@ -41,7 +50,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F301-14",
+        "Practice/t:levant-distribut"
+      ]
     },
     {
       "id": "c301-1",
@@ -76,30 +89,34 @@
         {
           "name": "We deliver Orontes products to every shop in Jordan, fresh and on time",
           "to": "mission",
-          "why": "This fit is called congruence."
+          "why": "Statement: Mission. This fit is called congruence."
         },
         {
           "name": "To be the most reliable food distributor in the Levant",
           "to": "vision",
-          "why": "This fit is called congruence."
+          "why": "Statement: Vision. This fit is called congruence."
         },
         {
           "name": "97% of deliveries on time by 2030",
           "to": "long-term-goal",
-          "why": "This fit is called congruence."
+          "why": "Statement: Long-term goal. This fit is called congruence."
         },
         {
           "name": "91% of deliveries on time in 2028",
           "to": "short-term-objective",
-          "why": "This fit is called congruence."
+          "why": "Statement: Short-term objective. This fit is called congruence."
         },
         {
           "name": "Plan delivery routes each night with new software",
           "to": "tactic",
-          "why": "This fit is called congruence."
+          "why": "Statement: Tactic. This fit is called congruence."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
     },
     {
       "id": "c301-2",

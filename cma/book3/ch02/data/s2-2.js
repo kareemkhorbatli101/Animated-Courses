@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Analysing the internal environment",
   "n": "2.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.2"),
   "brief": {
     "about": "Internal factors are the company's own resources and capabilities: its brands, people, equipment, systems and the things it does well. They show strengths to build on and weaknesses to fix. Figure F302-04 lists the main internal factors at Orontes. A strength becomes a competitive advantage only if customers value it, few rivals have it, and it is hard to copy.",
     "anim": "fiveForces",
@@ -27,37 +27,39 @@
   "scenes": [
     {
       "id": "fig-f302-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F302-04",
       "title": "Internal factors at Orontes",
-      "say": "Internal factors at Orontes",
-      "caption": "Internal factor",
-      "col1": "Orontes example",
-      "col2": "Result",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Internal factor",
+      "col": "Orontes example",
       "rows": [
         {
-          "name": "Resources",
-          "a": "Tahini recipes and brand; olive groves under contract; Levant's trucks and warehouses",
-          "b": "Strength"
+          "label": "Resources",
+          "right": "Tahini recipes and brand; olive groves under contract; Levant's trucks and warehouses",
+          "why": "Orontes example: Tahini recipes and brand; olive groves under contract; Levant's trucks and warehouses. Strength."
         },
         {
-          "name": "Capabilities",
-          "a": "Quality control (Book 2, Chapter 16); low-cost juice filling",
-          "b": "Strength"
+          "label": "Capabilities",
+          "right": "Quality control (Book 2, Chapter 16); low-cost juice filling",
+          "why": "Orontes example: Quality control (Book 2, Chapter 16); low-cost juice filling. Strength."
         },
         {
-          "name": "Weak points",
-          "a": "Old bottling line in Oils; a small sales team in the Gulf",
-          "b": "Weakness"
+          "label": "Weak points",
+          "right": "Old bottling line in Oils; a small sales team in the Gulf",
+          "why": "Orontes example: Old bottling line in Oils; a small sales team in the Gulf. Weakness."
         },
         {
-          "name": "Test of an advantage",
-          "a": "Valuable to customers, rare, and hard for rivals to copy",
-          "b": ""
+          "label": "Test of an advantage",
+          "right": "Valuable to customers, rare, and hard for rivals to copy",
+          "why": "Orontes example: Valuable to customers, rare, and hard for rivals to copy."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Internal factors at Orontes",
+      "from": [
+        "F302-04",
+        "2.2/t:internal-factor"
+      ]
     },
     {
       "id": "sc302-3",
@@ -82,6 +84,9 @@
           "why": "Resources and capabilities are inside the company.",
           "correct": true
         }
+      ],
+      "from": [
+        "2.2/section-check"
       ]
     },
     {
@@ -108,7 +113,10 @@
           "why": "The machine is an internal resource."
         }
       ],
-      "exhibit": "Orontes buys a new filling machine that any juice maker can buy."
+      "exhibit": "Orontes buys a new filling machine that any juice maker can buy.",
+      "from": [
+        "2.2/section-check"
+      ]
     }
   ]
 };

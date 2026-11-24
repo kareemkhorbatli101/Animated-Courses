@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.4",
   "title": "Opportunities and challenges",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s13-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.5",
   "title": "Why data and capability are strategic assets",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s13-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.6",
   "title": "Business intelligence",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s13-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.7",
   "title": "Extended Example 13A: one number becomes a decision",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "A printed statement, shares, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the dashboard that nobody trusted",
   "blurb": "Sorts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 5 scenes"
  },
  {
   "id": "review",

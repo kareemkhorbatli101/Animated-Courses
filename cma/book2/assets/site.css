@@ -57,6 +57,64 @@ h1,h2,h3,h4{margin:0;line-height:1.18;letter-spacing:-.015em;font-weight:800}
 .bar-menu{font:inherit;font-size:var(--t-small);font-weight:700;border:1px solid var(--line-2);
   background:var(--card);color:var(--ink-2);border-radius:8px;padding:6px 11px;cursor:pointer;white-space:nowrap}
 .bar-menu:hover{background:var(--card-2)}
+/* THE HEADER ROW ON A PHONE, and the account badge that made it overflow.
+ *
+ * Both volume landing pages and the course index scrolled sideways at 390px - 461px of content
+ * in a 390px window - and the cause was NOT the landing's own layout. `tools/la_wire` mounts
+ * the accounts badge immediately before `</header>`, which adds a fourth child to this flex row
+ * after the home link, the "where" and the menu button: at a phone width the row has no space
+ * left to give it, so the whole document widened. Measured element by element in a browser at
+ * 390px, not inferred from the markup - the overflowing node is `a.la-who`.
+ *
+ * The fix is here and not in assets/la/account.js: that file is shared by every course family
+ * on the site and it must not restyle ten different headers. Below 560px this row is allowed to
+ * wrap, the badge goes to a second line, and the header grows by one line instead of the page
+ * growing sideways. `height` becomes a minimum for the same reason. */
+/* 2026-11-24: the breakpoint was 560px and the defect did not stop there. Asked at eleven
+ * widths instead of one, all four volume landings still ran sideways at 580, 620 and 680px -
+ * 687px of content in a 620px window, and the overflowing node is the same `a.la-who` badge.
+ * Below 760px the row wraps; above it there is room for all four children. */
+@media (max-width:760px){
+  .bar{height:auto;min-height:52px;padding:6px 0}
+  .bar .wrap{flex-wrap:wrap;gap:8px 12px}
+  .bar-where{flex:1 1 100%;order:3}
+  #la-bar{order:2;margin-left:auto}
+  /* and the chapter link takes the whole first line. On a DECK page the badge floats OVER this
+   * row rather than sitting in it (see below), so the first line is the only place it can land
+   * without covering a control: the Brief and Contents buttons drop to a second line beneath
+   * it. Pushing the buttons sideways instead only moved which one the badge covered - measured,
+   * at 390px, twice. No `:has()` here on purpose: an old browser that ignores it would be left
+   * with the defect, and this rule is plain flexbox. */
+  .bar-home{flex:1 1 100%}
+}
+
+/* AND THE OTHER HALF OF THE SAME BADGE, on the pages that are not landings.
+ *
+ * A deck page's bar is built by scene.js, which rebuilds the row as the learner moves, so
+ * la_wire mounts the badge there as `#la-bar.la-float` - fixed to the viewport at top:10px
+ * right:12px, on <body>, with a z-index above everything. It therefore sits ON TOP of this
+ * row rather than in it, and the rule above - which makes the row wrap - cannot see it.
+ *
+ * Measured at 390px on a Book 4 exam page and a Book 1 section page: the badge occupies
+ * x=306..378 and the Contents button x=285..368, an overlap of 62 of the button's 83 px, with
+ * the badge on top. A learner on a phone who reaches for Contents gets the sign-in link. It
+ * holds at every width where this row runs to the window's edge, which is anything under about
+ * 1100px; above that the row is centred at 1060px and the two are 48px apart.
+ *
+ * The selector is `.bar-brief ~ .bar-menu` and that is deliberate: only the deck bar has a
+ * Brief button, so the two landings - whose badge is IN the row, and which this must not move -
+ * are left alone. 84px is the badge's 72 plus its 12 of right offset. */
+@media (min-width:761px) and (max-width:1104px){
+  .bar-brief ~ .bar-menu{margin-right:84px}
+}
+/* and above 400px the badge keeps its two words on one line: in the row it is a flex item with
+   room to shrink, so once the row wrapped it wrapped too and "Sign in" rendered as a circle.
+   NOT at 360, where it cannot: with nowrap the badge is 72px and `margin-left:auto` pushes it
+   past the window's edge - 365 of content in 360 - which gates/cma_layout L1 caught on Book 1's
+   landing the first time it ran over all four volumes, one page and one width out of 99. */
+@media (min-width:401px){
+  #la-bar .la-who{white-space:nowrap}
+}
 
 /* slide-over contents */
 .drawer{position:fixed;inset:0;background:rgba(10,20,24,.45);z-index:60;display:none}
@@ -527,6 +585,75 @@ input.num{font:inherit;font-family:var(--mono);font-size:var(--t-body);font-weig
   color:var(--ink);animation:land .2s}
 .bite b{color:var(--flag)}
 
+/* the offer of an exam-shaped item — assets/scene.js:offerExam. It is a door at the end of a
+   section the learner has finished, never an interruption in the middle of one. */
+.exam-offer{margin-top:14px;padding:13px 15px;background:var(--accent-wash);
+  border:1px solid var(--accent-line);border-radius:var(--r)}
+.exam-offer-t{font-size:var(--t-small);font-weight:800;color:var(--accent-ink);margin:0 0 9px}
+.exam-offer .note{margin:9px 0 0}
+.xs-head h2{margin:18px 0 8px}
+.xs-clock{font:800 var(--t-small)/1.4 var(--mono);color:var(--accent-ink);margin:10px 0}
+.xs-items{display:grid;gap:18px;margin:14px 0}
+.xs-item{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:14px 16px}
+.xs-item h3{font-size:var(--t-small);margin:8px 0}
+.xs-report{margin:22px 0 40px}
+.xs-report h3{margin:18px 0 8px}
+
+/* "why was I wrong?" — assets/cma-ai.js. It sits INSIDE the feedback block, under the
+   author's own reasons, because it expands them and never replaces them. */
+.cma-ai{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line)}
+.cma-ai-note{font-size:var(--t-meta);color:var(--ink-3);margin:6px 0 0;max-width:70ch}
+.cma-ai-out{margin-top:8px}
+.cma-ai-out p{font-size:var(--t-small);color:var(--ink);max-width:70ch;margin:0 0 6px}
+.cma-ai-tag{font-size:var(--t-meta);color:var(--ink-3)}
+
+/* the authored mark — half of the second provenance class, and a learner's right to know
+   which sentences are the book's. It is not dismissible and it is not a tooltip. */
+.scene-authored{display:flex;gap:8px;align-items:baseline;margin:0 0 8px;
+  font-size:var(--t-meta);color:var(--ink-3);max-width:74ch}
+.authored-chip{flex:none;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  font-size:10px;padding:3px 7px;border-radius:999px;
+  background:var(--flag-wash);color:var(--flag);border:1px solid var(--flag-line)}
+
+/* match — the author's label-and-description table, matched row by row (assets/objects6.js).
+   A <select> per row rather than tiles: an option here is a sentence of his, and `shares`-style
+   buttons refuse anything over 46 characters for exactly that reason. Grid, so the label column
+   and the control line up; one column below 620px, where two would make the select unreadable. */
+.mtc{display:grid;gap:7px;margin-top:11px}
+.mtc-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:10px;
+  align-items:center;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--r-s);padding:9px 11px}
+.mtc-head{background:transparent;border:0;padding:2px 11px;font-size:var(--t-meta);
+  font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.mtc-lab{font-size:var(--t-small);font-weight:700;color:var(--ink);min-width:0}
+.mtc-pick{font-size:var(--t-meta)}
+.mtc-sel{width:100%;min-width:0;font:inherit;font-size:var(--t-small);padding:7px 9px;
+  border:1px solid var(--line);border-radius:var(--r-s);background:var(--paper);color:var(--ink)}
+.mtc-row.ok{background:var(--good-wash);border-color:var(--good-line)}
+.mtc-row.no{background:var(--bad-wash);border-color:var(--bad-line)}
+.mtc-cap{margin:0 0 4px}
+@media (max-width:620px){
+  .mtc-row{grid-template-columns:minmax(0,1fr)}
+  .mtc-head{display:none}
+}
+
+/* the case scenario — the author's own case text, in front of every item of that case.
+   A card rather than a .bite: a .bite is a one-line aside and this is three or four
+   paragraphs the learner reads in order to answer, so it gets reading measure and a
+   summary row they can collapse once they have read it. Every colour is a token, because
+   an undefined var() drops the whole declaration and renders as unstyled text. */
+.case-scenario{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);
+  border-radius:0 var(--r) var(--r) 0;margin:0 0 14px;padding:0}
+.case-scenario>summary{cursor:pointer;padding:11px 15px;font-size:var(--t-small);font-weight:800;
+  color:var(--accent-ink);list-style:none}
+.case-scenario>summary::-webkit-details-marker{display:none}
+.case-scenario>summary::after{content:" — hide";font-weight:600;color:var(--ink-3)}
+.case-scenario:not([open])>summary::after{content:" — read the case"}
+.case-scenario-body{padding:0 15px 13px}
+.case-scenario-body p{font-size:var(--t-small);color:var(--ink);max-width:68ch;margin:0 0 9px}
+.case-scenario-body p:last-child{margin-bottom:0}
+
 /* term strip — the ribbon: the chapter's words on the left, the stepper on the right */
 .strip{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);
   padding:8px 0;margin-top:auto;z-index:20}
@@ -546,6 +673,13 @@ input.num{font:inherit;font-family:var(--mono);font-size:var(--t-body);font-weig
 .speak.on{color:var(--good)}
 
 /* page/table bits reused on book pages */
+/* THE WRAPPER THAT WAS NEVER STYLED. `div.table-scroll` is written around a wide table in
+ * three places - the chapter hub, the answer key and the glossary - and nothing in this
+ * stylesheet ever gave it a rule, so it scrolled nothing. The glossary's five columns are
+ * 510px wide and the whole PAGE went sideways at 360, 390 and 480px instead. Found by asking
+ * every landing and appendix page, at eleven widths, which element's right edge is past the
+ * window - not by reading the markup, where the wrapper is present and looks like the fix. */
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
 .tbl{width:100%;border-collapse:collapse;font-size:var(--t-small);background:var(--card);
   border:1px solid var(--line);border-radius:var(--r-s);overflow:hidden}
 .tbl th{background:var(--card-2);text-align:left;padding:9px 11px;font-size:var(--t-meta);

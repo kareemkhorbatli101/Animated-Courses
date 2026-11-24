@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the tahini jar standard",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "stdCard"
+  },
+  "scenario": {
+    "title": "Case question: the tahini jar standard",
+    "p": [
+      "Tahini & Spreads is setting new standards for its 500 g tahini jar before the 2028 budget. The old standard was set years ago by the engineers alone, and the filling team has always said it was impossible to meet. Because the jars are sold to Barada under a fixed-price contract, the new standards will also be used to check whether the contract price still covers the product cost.",
+      "The cost accountant, Rania, has collected the data. The sesame supplier's list price, the quantity discount, freight and the cost of testing each delivery are known. A yield study shows the normal loss of sesame between the tank and the jar.",
+      "An industrial engineer timed the filling of jars with a stopwatch. The filling team then explained that rest breaks and cleaning between runs had never been allowed for. Payroll has provided the wage and the cost of payroll taxes and benefits per hour.",
+      "Rania must set the price and quantity standards for sesame and the labor standard per jar, working with the filling team this time. The division manager also wants to understand the difference between the kinds of standards before he approves the new card."
+    ]
   },
   "scenes": [
     {
@@ -86,7 +95,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F218-15",
+        "Practice/t:tahini-jar-stand"
+      ]
     },
     {
       "id": "c218-1",
@@ -140,7 +153,11 @@
           "why": "Statement: Ideal."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
     },
     {
       "id": "c218-2",

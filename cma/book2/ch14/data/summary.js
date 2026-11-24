@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "valueChain"
+    "anim": "valueChain",
+    "about": "Figure F214-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Life-cycle costing adds upstream, manufacturing and downstream costs so that a product is judged on everything it costs. Most costs are committed at the design stage, long before they are incurred. Value chain analysis studies Porter's primary and support activities in five steps, and shows whether a company competes on low cost or on valued differences. Removing non-value-added activities lowers cost without reducing value to customers."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F214-14.png",
       "label": "Figure F214-14.",
       "caption": "Chapter 14 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F214-14"
+      ]
     },
     {
       "id": "rules",

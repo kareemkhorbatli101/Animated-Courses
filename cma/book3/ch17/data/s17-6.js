@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 17A: the filling line and the two measures",
   "n": "17.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.6"),
   "brief": {
     "about": "This example takes the project decision to the board. It is exam-core. Figure F317-13 sets the two measures side by side. ROI falls by 1.5 points, which the manager will resist; residual income rises by $150,000, which is the company's gain. The board approved the line, as Chapter 4 recorded, and changed how the Beverages manager is judged: residual income for investment decisions, ROI for comparing divisions. Both are reported each quarter.",
     "anim": "riBar",
@@ -42,6 +42,9 @@
       }
     ]
   },
+  "from": [
+    "17.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-13",
@@ -85,6 +88,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F317-13",
+        "17.6/t:measure-before-a",
+        "17.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t17-6-0",
+      "kind": "lines",
+      "kicker": "Section 17.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The project returns more than the required rate of return",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The project would lower the division's return on investment",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The project raises the division's residual income",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The company earns more than its cost of capital on the new assets",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The manager's bonus is based on return on investment",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
+    },
+    {
+      "id": "t17-6-1",
+      "kind": "lines",
+      "kicker": "Section 17.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The project returns more than the required rate of return",
+          "a": "Supports accepting",
+          "b": ""
+        },
+        {
+          "name": "The project would lower the division's return on investment",
+          "a": "Supports rejecting",
+          "b": ""
+        },
+        {
+          "name": "The project raises the division's residual income",
+          "a": "Supports accepting",
+          "b": ""
+        },
+        {
+          "name": "The company earns more than its cost of capital on the new assets",
+          "a": "Supports accepting",
+          "b": ""
+        },
+        {
+          "name": "The manager's bonus is based on return on investment",
+          "a": "Supports rejecting",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
       ]
     },
     {
@@ -130,7 +222,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "17.6/section-check"
+      ]
     },
     {
       "id": "sc317-12",
@@ -156,7 +251,10 @@
           "why": "Not a reason."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "17.6/section-check"
+      ]
     }
   ]
 };

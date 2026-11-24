@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 3A: redesigning the Orontes purchasing cycle",
   "n": "3.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.6"),
   "brief": {
     "about": "This example takes the failure of Chapter 1 and rebuilds the cycle properly. It is exam-core: questions give a flawed arrangement and ask which duty to move. One purchasing clerk could add a supplier to the approved list, raise the order, confirm that goods had arrived and release the payment. Of the four responsibilities, he held authorization, recording and effective custody of the cash leaving the company.",
     "anim": "dutySplit",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "3.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f403-08",
@@ -96,7 +99,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F403-08",
+        "3.6/t:situation-which",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t3-6-0",
+      "kind": "lines",
+      "kicker": "Section 3.6",
+      "title": "Person and duty",
+      "caption": "Person and duty",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Samir holds the keys to the store",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Samir maintains the stock records",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Nadia approves customers for collection without prepayment",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Khalid performs the monthly stock count",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:person-and-duty",
+        "Practice/t:person-and-duty#2",
+        "Answers and explanations/t:person-and-duty"
+      ]
+    },
+    {
+      "id": "t3-6-1",
+      "kind": "lines",
+      "kicker": "Section 3.6",
+      "title": "Person and duty",
+      "caption": "Person and duty",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Samir holds the keys to the store",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Samir maintains the stock records",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Nadia approves customers for collection without prepayment",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Khalid performs the monthly stock count",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:person-and-duty",
+        "Practice/t:person-and-duty#2",
+        "Answers and explanations/t:person-and-duty"
+      ]
+    },
+    {
+      "id": "t3-6-2",
+      "kind": "lines",
+      "kicker": "Section 3.6",
+      "title": "Person and duty",
+      "caption": "Person and duty",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Samir holds the keys to the store",
+          "a": "Custody",
+          "b": ""
+        },
+        {
+          "name": "Samir maintains the stock records",
+          "a": "Recording",
+          "b": ""
+        },
+        {
+          "name": "Nadia approves customers for collection without prepayment",
+          "a": "Authorization",
+          "b": ""
+        },
+        {
+          "name": "Khalid performs the monthly stock count",
+          "a": "Reconciliation",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:person-and-duty",
+        "Practice/t:person-and-duty#2",
+        "Answers and explanations/t:person-and-duty"
+      ]
     },
     {
       "id": "yourturn",
@@ -142,6 +264,13 @@
       "traps": [
         "exam-view",
         "goods-received-notes-are-prenumbered"
+      ],
+      "from": [
+        "3.6/your-turn",
+        "F403-08",
+        "3.6/t:situation-which",
+        "3.6/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -168,7 +297,10 @@
           "why": "Valuable, but the approval duty stays in the same hands."
         }
       ],
-      "say": "Use Extended Example 3A. Which single change breaks the most dangerous pairing?"
+      "say": "Use Extended Example 3A. Which single change breaks the most dangerous pairing?",
+      "from": [
+        "3.6/section-check"
+      ]
     },
     {
       "id": "sc403-12",
@@ -193,6 +325,9 @@
           "text": "A payment above the approval limit",
           "why": "The two-signature rule addresses that."
         }
+      ],
+      "from": [
+        "3.6/section-check"
       ]
     }
   ]

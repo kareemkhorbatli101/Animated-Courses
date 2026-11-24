@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Comprehensive income and reclassification",
   "n": "15.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.3"),
   "brief": {
     "about": "Comprehensive income is net income plus other comprehensive income. U.S. OCI includes holding gains and losses on available-for-sale debt securities, foreign currency translation adjustments, the effective part of cash-flow hedges, and some pension gains and losses. Unrealized gains on equity securities are not OCI; they go to net income. When an OCI item is realized, for example when an AFS bond is sold, the gain moves into net income.",
     "anim": "oci",
@@ -34,13 +34,19 @@
       }
     ]
   },
+  "from": [
+    "15.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f15-04",
       "kind": "figure",
       "file": "F15-04.png",
       "label": "Figure F15-04.",
-      "caption": "OCI and the reclassification adjustment for an AFS bond over two years."
+      "caption": "OCI and the reclassification adjustment for an AFS bond over two years.",
+      "from": [
+        "F15-04"
+      ]
     },
     {
       "id": "fill-05",
@@ -132,6 +138,11 @@
       ],
       "traps": [
         "comprehensive-income-traps"
+      ],
+      "from": [
+        "F15-05",
+        "15.3/t:suppose-afs-bond",
+        "15.3/exam-trap"
       ]
     },
     {
@@ -157,6 +168,9 @@
           "text": "10,000",
           "why": "This gives the reclassification the wrong sign."
         }
+      ],
+      "from": [
+        "15.3/section-check"
       ]
     },
     {
@@ -183,7 +197,10 @@
           "why": "This adds the holding gain without the reclassification: double counting."
         }
       ],
-      "say": "Use Figure F15-04. What is the 2027 comprehensive income from the bond, before tax (whole USD)?"
+      "say": "Use Figure F15-04. What is the 2027 comprehensive income from the bond, before tax (whole USD)?",
+      "from": [
+        "15.3/section-check"
+      ]
     }
   ]
 };

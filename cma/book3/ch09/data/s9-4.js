@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Preparing the cash budget",
   "n": "9.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.4"),
   "brief": {
     "about": "The cash budget has four parts: beginning cash plus collections gives cash available; minus disbursements gives cash before financing; borrowing, interest and repayments give ending cash. Management keeps a minimum cash balance of $400,000. Non-cash costs are left out. Fixed overhead is paid at $300,000 a quarter, not $450,000, because $150,000 of it is depreciation; fixed selling and administrative costs are paid at $550,000.",
     "anim": "cashLoop",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "9.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f309-09",
       "kind": "figure",
       "file": "F309-09.png",
       "label": "Figure F309-09.",
-      "caption": "Cash before financing and ending cash, by quarter."
+      "caption": "Cash before financing and ending cash, by quarter.",
+      "from": [
+        "F309-09"
+      ]
     },
     {
       "id": "fill-08",
@@ -182,6 +188,10 @@
             "c4": "1,702,450"
           }
         }
+      ],
+      "from": [
+        "F309-08",
+        "9.4/t:beverages-cash-b"
       ]
     },
     {
@@ -207,6 +217,9 @@
           "text": "Purchase of the filling line",
           "why": "Paid in cash."
         }
+      ],
+      "from": [
+        "9.4/section-check"
       ]
     },
     {
@@ -233,7 +246,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Cash before financing is −$523,750. The minimum balance is $400,000, loans are taken in steps of $100,000, and interest of 2% on the loan is paid in the same quarter."
+      "exhibit": "Cash before financing is −$523,750. The minimum balance is $400,000, loans are taken in steps of $100,000, and interest of 2% on the loan is paid in the same quarter.",
+      "from": [
+        "9.4/section-check"
+      ]
     }
   ]
 };

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "marginStack"
+    "anim": "marginStack",
+    "about": "Figure F315-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A responsibility center is a cost, revenue, profit or investment center, according to what its manager controls, and the center should be chosen to match that authority. A contribution report shows the contribution margin, then the controllable margin, then the segment margin, and managers are judged on the controllable margin while segments are judged on the segment margin. Segments may be divisions, product lines, areas or channels. Common costs cannot be traced, and may be allocated by the stand-alone or incremental method; the allocated figure should never decide whether a segment stays open."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F315-12.png",
       "label": "Figure F315-12.",
       "caption": "Chapter 15 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F315-12"
+      ]
     },
     {
       "id": "rules",

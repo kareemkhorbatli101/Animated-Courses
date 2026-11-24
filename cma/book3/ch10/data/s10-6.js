@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 10A: looking beyond next year",
   "n": "10.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.6"),
   "brief": {
     "about": "The board also asks what cash the division will need up to 2032, the end of the strategic plan. Medium- and long-term forecasts are built differently from the quarterly cash budget. This example is exam-core. A short-term cash budget works from schedules of known orders and invoices. A medium-term forecast works from the strategic plan: planned growth, the investment it needs, and the working capital that grows with sales.",
     "anim": "cashLoop",
@@ -50,44 +50,59 @@
       }
     ]
   },
+  "from": [
+    "10.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f310-12",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F310-12",
       "title": "Extended Example: factors in a medium- or long-term cash forecast",
-      "say": "Extended Example: factors in a medium- or long-term cash forecast",
-      "caption": "Factor in a medium- or long-term cash forecast (B.6.e)",
-      "col1": "At Orontes",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Factor in a medium- or long-term cash forecast (B.6.e)",
+      "col": "At Orontes",
       "rows": [
         {
-          "name": "Strategic plan. Export and new-product goals to 2032 (Chapter 1)",
-          "note": true
+          "label": "Strategic plan",
+          "right": "Export and new-product goals to 2032 (Chapter 1)",
+          "why": "At Orontes: Export and new-product goals to 2032 (Chapter 1)."
         },
         {
-          "name": "Capacity and investment. When the plant reaches its limit and what the next line would cost",
-          "note": true
+          "label": "Capacity and investment",
+          "right": "When the plant reaches its limit and what the next line would cost",
+          "why": "At Orontes: When the plant reaches its limit and what the next line would cost."
         },
         {
-          "name": "Working capital. Receivables, inventory and payables grow with sales",
-          "note": true
+          "label": "Working capital",
+          "right": "Receivables, inventory and payables grow with sales",
+          "why": "At Orontes: Receivables, inventory and payables grow with sales."
         },
         {
-          "name": "Financing and repayment. Loan repayments, interest rates and the dividend policy",
-          "note": true
+          "label": "Financing and repayment",
+          "right": "Loan repayments, interest rates and the dividend policy",
+          "why": "At Orontes: Loan repayments, interest rates and the dividend policy."
         },
         {
-          "name": "Economy and market. Growth, inflation, exchange rates and competitors (Chapters 2–3)",
-          "note": true
+          "label": "Economy and market",
+          "right": "Growth, inflation, exchange rates and competitors (Chapters 2–3)",
+          "why": "At Orontes: Growth, inflation, exchange rates and competitors (Chapters 2–3)."
         },
         {
-          "name": "Uncertainty. Scenarios rather than one forecast; the longer the horizon, the wider the range",
-          "note": true
+          "label": "Uncertainty",
+          "right": "Scenarios rather than one forecast; the longer the horizon, the wider the range",
+          "why": "At Orontes: Scenarios rather than one forecast; the longer the horizon, the wider the range."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Extended Example: factors in a medium- or long-term cash forecast",
+      "traps": [
+        "exam-view"
+      ],
+      "from": [
+        "F310-12",
+        "10.6/t:factor-in-a-medi",
+        "10.6/exam-trap"
+      ]
     },
     {
       "id": "ties",
@@ -106,9 +121,6 @@
           "answer": "9",
           "why": "Cash flows end at $1,702,450, the ending cash of the Chapter 9 cash budget."
         }
-      ],
-      "traps": [
-        "exam-view"
       ]
     },
     {
@@ -135,7 +147,10 @@
           "why": "A starting point for both."
         }
       ],
-      "say": "Which factor matters most in a medium-term cash forecast but not in a quarterly cash budget?"
+      "say": "Which factor matters most in a medium-term cash forecast but not in a quarterly cash budget?",
+      "from": [
+        "10.6/section-check"
+      ]
     },
     {
       "id": "sc310-12",
@@ -161,7 +176,10 @@
           "why": "It can be forecast, with a range."
         }
       ],
-      "say": "Why is a long-term cash forecast usually given as scenarios rather than one figure?"
+      "say": "Why is a long-term cash forecast usually given as scenarios rather than one figure?",
+      "from": [
+        "10.6/section-check"
+      ]
     }
   ]
 };

@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "influence"
   },
@@ -40,6 +40,9 @@
       "exhibit": "Orontes buys a bond and plans to sell it if interest rates fall or if it needs cash.",
       "traps": [
         "intent-decides"
+      ],
+      "from": [
+        "9.1/exam-trap"
       ]
     },
     {
@@ -94,6 +97,9 @@
       "exhibit": "Use Case B of the fair-value floor example.",
       "traps": [
         "the-afs-floor"
+      ],
+      "from": [
+        "9.3/exam-trap"
       ]
     },
     {

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Governance and management",
   "n": "11.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.1"),
   "brief": {
     "about": "Data governance is the exercise of authority and decision rights over data: who owns it, what may be done with it, and to what standard it is held. Data management is the work of carrying those decisions out. Figure F411-02 separates them. The distinction is worth holding firmly, because the exam tests it directly and because companies confuse it in practice. Governance decides; management does.",
     "anim": "govPyramid",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f411-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F411-02",
       "title": "Data governance against data management",
-      "say": "Data governance against data management",
-      "caption": "",
-      "col1": "Data governance",
-      "col2": "Data management",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Data governance",
       "rows": [
         {
-          "name": "Question it answers",
-          "a": "Who decides, and by what authority?",
-          "b": "How is it actually done?"
+          "label": "Question it answers",
+          "right": "Who decides, and by what authority?",
+          "why": "Data governance: Who decides, and by what authority?. How is it actually done?."
         },
         {
-          "name": "Typical outputs",
-          "a": "Policies, ownership, decision rights, standards",
-          "b": "Architecture, loading, quality work, storage"
+          "label": "Typical outputs",
+          "right": "Policies, ownership, decision rights, standards",
+          "why": "Data governance: Policies, ownership, decision rights, standards. Architecture, loading, quality work, storage."
         },
         {
-          "name": "Who does it",
-          "a": "A council or committee, with named data owners",
-          "b": "Technical and operational teams"
+          "label": "Who does it",
+          "right": "A council or committee, with named data owners",
+          "why": "Data governance: A council or committee, with named data owners. Technical and operational teams."
         },
         {
-          "name": "Example at Orontes",
-          "a": "Deciding that the plant owns production data",
-          "b": "Loading it nightly and fixing bad records"
+          "label": "Example at Orontes",
+          "right": "Deciding that the plant owns production data",
+          "why": "Data governance: Deciding that the plant owns production data. Loading it nightly and fixing bad records."
         },
         {
-          "name": "In one line",
-          "a": "Governance decides",
-          "b": "Management does"
+          "label": "In one line",
+          "right": "Governance decides",
+          "why": "Data governance: Governance decides. Management does."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Data governance against data management",
+      "from": [
+        "F411-02",
+        "11.1/t:data-governance"
+      ]
     },
     {
       "id": "sc411-1",
@@ -87,6 +89,9 @@
           "text": "backing up the database",
           "why": "That is a storage control."
         }
+      ],
+      "from": [
+        "11.1/section-check"
       ]
     },
     {
@@ -113,7 +118,10 @@
           "why": "The team is managing the data."
         }
       ],
-      "exhibit": "A company has a skilled data team but nobody authorised to decide what a figure means."
+      "exhibit": "A company has a skilled data team but nobody authorised to decide what a figure means.",
+      "from": [
+        "11.1/section-check"
+      ]
     }
   ]
 };

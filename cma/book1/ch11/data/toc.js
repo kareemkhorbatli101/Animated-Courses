@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.2",
   "title": "Steps 1 and 2: the contract and its performance obligations",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s11-3",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · Orontes and Qasr Hotels",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 2 scenes"
  },
  {
   "id": "review",

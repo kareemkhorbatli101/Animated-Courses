@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The time frame: short run and long run",
   "n": "2.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.4"),
   "brief": {
     "about": "Whether a cost is fixed depends on the time frame. In the short run, such as one budget year, the press lease and supervision salaries cannot easily change. In the long run, Orontes can end the lease, change the staff or buy new machines, so every cost can change. Some fixed costs come from long-term decisions, such as leases and depreciation: these are committed fixed costs.",
     "anim": "costLine",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "2.4/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "grid-05",
@@ -97,6 +100,10 @@
       "traps": [
         "charges-fixes",
         "short-run-fixed-is-fixed"
+      ],
+      "from": [
+        "F202-05",
+        "2.4/t:oils-cost-behavi"
       ]
     },
     {
@@ -122,6 +129,9 @@
           "why": "In the long run all costs can change.",
           "correct": true
         }
+      ],
+      "from": [
+        "2.4/section-check"
       ]
     },
     {
@@ -147,6 +157,9 @@
           "text": "Property tax on the factory",
           "why": "Property tax is not a yearly choice."
         }
+      ],
+      "from": [
+        "2.4/section-check"
       ]
     }
   ]

@@ -8,9 +8,17 @@
   "id": "case",
   "up": "../",
   "title": "Case question · sesame and labor for the tahini jars",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "bridgeBar"
+  },
+  "scenario": {
+    "title": "Case question: sesame and labor for the tahini jars",
+    "p": [
+      "The Tahini & Spreads division has finished its production budget for 2028. Each 500 g jar needs sesame paste and a few minutes on the filling line, at the standard quantities set in Book 2. The sesame comes by sea from Sudan and Ethiopia, so deliveries can be late, and the division keeps a stock of sesame equal to a share of the next quarter's needs. Last year one ship arrived three weeks late, and the division came close to stopping the filling line.",
+      "The filling team works a fixed number of hours each quarter. In the second quarter several operators will be on annual leave, so fewer hours are available than usual. The plant manager, Samir, wants to know whether the second-quarter plan can be met with the team he has.",
+      "The controller, Rana, must prepare the sesame purchases budget and the labor budget for the second quarter, test the labor plan against the hours available, and explain the purchasing policy to the new buyer, who suggested buying sesame just-in-time like the bottles in the Beverages division. Rana plans to show her figures to Samir and the buyer together, so that both understand the trade-off between stock and risk."
+    ]
   },
   "scenes": [
     {
@@ -66,7 +74,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F307-14",
+        "Practice/t:tahini-spreads-d"
+      ]
     },
     {
       "id": "c307-1",
@@ -93,30 +105,34 @@
         {
           "name": "Kilograms of sesame to buy",
           "to": "direct-materials-budget",
-          "why": "Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
+          "why": "Item: Direct materials budget. Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
         },
         {
           "name": "Hours of the filling team",
           "to": "direct-labor-budget",
-          "why": "Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
+          "why": "Item: Direct labor budget. Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
         },
         {
           "name": "Power for the filling line",
           "to": "overhead-budget",
-          "why": "Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
+          "why": "Item: Overhead budget. Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
         },
         {
           "name": "Ending stock of sesame",
           "to": "direct-materials-budget",
-          "why": "Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
+          "why": "Item: Direct materials budget. Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
         },
         {
           "name": "Depreciation of the tahini plant",
           "to": "overhead-budget",
-          "why": "Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
+          "why": "Item: Overhead budget. Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c307-2",

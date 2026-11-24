@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Threats to information systems",
   "n": "6.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.2"),
   "brief": {
     "about": "Figure F406-03 names the six threats the exam lists, with an example of each. Input manipulation is the commonest by a wide margin, and it is worth noticing why. It needs no technical skill at all: the person simply enters something false into a system working exactly as designed. The Chapter 1 supplier fraud was input manipulation, not hacking. Direct file alteration deserves attention for the opposite reason.",
     "anim": "threatFan",
@@ -28,68 +28,51 @@
   "scenes": [
     {
       "id": "fig-f406-03",
-      "kind": "grid",
+      "kind": "match",
       "kicker": "Figure F406-03",
       "title": "Six threats to information systems",
-      "say": "Six threats to information systems",
-      "caption": "Threat (E.2.b)",
-      "cols": [
-        "What it is",
-        "Why it matters",
-        "Example"
-      ],
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Threat (E.2.b)",
+      "col": "What it is",
       "rows": [
         {
-          "name": "Input manipulation",
-          "cells": [
-            "Entering false or altered data",
-            "The commonest of all, and needs no technical skill",
-            "A fictitious supplier invoice keyed in"
-          ]
+          "label": "Input manipulation",
+          "right": "Entering false or altered data",
+          "why": "What it is: Entering false or altered data. The commonest of all, and needs no technical skill. A fictitious supplier invoice keyed in."
         },
         {
-          "name": "Program alteration",
-          "cells": [
-            "Changing the code itself",
-            "Hard to detect without change control",
-            "A routine that rounds pennies into one account"
-          ]
+          "label": "Program alteration",
+          "right": "Changing the code itself",
+          "why": "What it is: Changing the code itself. Hard to detect without change control. A routine that rounds pennies into one account."
         },
         {
-          "name": "Direct file alteration",
-          "cells": [
-            "Editing the data file, bypassing the application",
-            "Leaves no application audit trail",
-            "A balance changed in the database directly"
-          ]
+          "label": "Direct file alteration",
+          "right": "Editing the data file, bypassing the application",
+          "why": "What it is: Editing the data file, bypassing the application. Leaves no application audit trail. A balance changed in the database directly."
         },
         {
-          "name": "Data theft",
-          "cells": [
-            "Copying data out",
-            "Often an insider, often undetected",
-            "A customer list taken on a leaving day"
-          ]
+          "label": "Data theft",
+          "right": "Copying data out",
+          "why": "What it is: Copying data out. Often an insider, often undetected. A customer list taken on a leaving day."
         },
         {
-          "name": "Sabotage",
-          "cells": [
-            "Destroying data or equipment",
-            "May be a disgruntled employee",
-            "Records deleted after a dismissal"
-          ]
+          "label": "Sabotage",
+          "right": "Destroying data or equipment",
+          "why": "What it is: Destroying data or equipment. May be a disgruntled employee. Records deleted after a dismissal."
         },
         {
-          "name": "Malware and ransomware",
-          "cells": [
-            "Hostile software that spreads or encrypts",
-            "Arrives by phishing far more often than by attack",
-            "Files encrypted and a payment demanded"
-          ]
+          "label": "Malware and ransomware",
+          "right": "Hostile software that spreads or encrypts",
+          "why": "What it is: Hostile software that spreads or encrypts. Arrives by phishing far more often than by attack. Files encrypted and a payment demanded."
         }
       ],
+      "caption": "Six threats to information systems",
       "traps": [
         "detecting-it-needs-controls-at-the-dat"
+      ],
+      "from": [
+        "F406-03",
+        "6.2/t:threat-e-2-b-wha"
       ]
     },
     {
@@ -115,6 +98,9 @@
           "text": "Malware deployment",
           "why": "Deploying malware requires some technical means."
         }
+      ],
+      "from": [
+        "6.2/section-check"
       ]
     },
     {
@@ -140,6 +126,9 @@
           "text": "It leaves no change to the data",
           "why": "The data is changed; that is the point."
         }
+      ],
+      "from": [
+        "6.2/section-check"
       ]
     }
   ]

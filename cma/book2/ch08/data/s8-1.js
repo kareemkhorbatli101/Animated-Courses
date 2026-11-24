@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Plantwide, departmental and cost-driver rates",
   "n": "8.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.1"),
   "brief": {
     "about": "A plantwide overhead rate, also called a corporate-wide rate, uses one rate and one base for all overhead. A departmental overhead rate gives each department its own rate and base. Individual cost-driver rates go further, with a rate for each activity; that is activity-based costing (Chapter 12). Tahini & Spreads has two departments. Grinding is machine-heavy and packing is labor-heavy. Its plantwide rate of $30 per machine hour ignores that difference.",
     "anim": "rateFraction",
@@ -37,6 +37,9 @@
       }
     ]
   },
+  "from": [
+    "8.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-02",
@@ -89,6 +92,10 @@
           },
           "why": "How: A rate for each activity (ABC, Chapter 12). Benefit: Most accurate."
         }
+      ],
+      "from": [
+        "F208-02",
+        "8.1/t:method-how-benef"
       ]
     },
     {
@@ -153,6 +160,10 @@
             "c2": "(2,150)"
           }
         }
+      ],
+      "from": [
+        "F208-03",
+        "8.1/t:overhead-applied"
       ]
     },
     {
@@ -181,6 +192,9 @@
       ],
       "traps": [
         "a-plantwide-rate-only-when-use-is-similar"
+      ],
+      "from": [
+        "8.1/section-check"
       ]
     },
     {
@@ -207,7 +221,10 @@
           "correct": true
         }
       ],
-      "say": "Use Figure F208-03. What overhead does job T-0310 receive with departmental rates (whole USD)?"
+      "say": "Use Figure F208-03. What overhead does job T-0310 receive with departmental rates (whole USD)?",
+      "from": [
+        "8.1/section-check"
+      ]
     }
   ]
 };

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "flexLine"
+    "anim": "flexLine",
+    "about": "Figure F311-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Performance is measured against revenue, cost and profit goals, and a variance is favorable or unfavorable by its effect on operating income. The master-budget variance mixes volume with everything else, so it is split: the sales-volume variance values the change in units at the budgeted contribution margin, and the flexible-budget variance compares actual results with budgeted prices and costs at the actual volume. The flexible-budget variance is then opened into price and quantity differences, and the significant ones are investigated under management by exception."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F311-13.png",
       "label": "Figure F311-13.",
       "caption": "Chapter 11 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F311-13"
+      ]
     },
     {
       "id": "rules",

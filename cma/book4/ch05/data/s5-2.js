@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Preventive and detective controls",
   "n": "5.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.2"),
   "brief": {
     "about": "A preventive control acts before an error or fraud can occur. A detective control finds it afterwards. Figure F405-03 sets them side by side. Both are needed, and for different reasons. Prevention is cheaper, because the loss never happens. Detection is what proves prevention is working: without a reconciliation nobody knows whether the authorization limits are being respected. Some controls do both.",
     "anim": "preventDetect",
@@ -27,42 +27,48 @@
   "scenes": [
     {
       "id": "fig-f405-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F405-03",
       "title": "Preventive against detective controls",
-      "say": "Preventive against detective controls",
-      "caption": "",
-      "col1": "Preventive",
-      "col2": "Detective",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Preventive",
       "rows": [
         {
-          "name": "When it acts",
-          "a": "Before the error or fraud occurs",
-          "b": "After it has occurred"
+          "label": "When it acts",
+          "right": "Before the error or fraud occurs",
+          "why": "Preventive: Before the error or fraud occurs. After it has occurred."
         },
         {
-          "name": "What it does",
-          "a": "Stops it happening",
-          "b": "Finds it so it can be corrected"
+          "label": "What it does",
+          "right": "Stops it happening",
+          "why": "Preventive: Stops it happening. Finds it so it can be corrected."
         },
         {
-          "name": "Examples",
-          "a": "Authorization limits, segregation of duties, input validation, locked stores",
-          "b": "Reconciliations, exception reports, stock counts, supervisory review"
+          "label": "Examples",
+          "right": "Authorization limits, segregation of duties, input validation, locked stores",
+          "why": "Preventive: Authorization limits, segregation of duties, input validation, locked stores. Reconciliations, exception reports, stock counts, supervisory review."
         },
         {
-          "name": "Cost of failure",
-          "a": "The loss never happens",
-          "b": "The loss happens but is recovered or corrected"
+          "label": "Cost of failure",
+          "right": "The loss never happens",
+          "why": "Preventive: The loss never happens. The loss happens but is recovered or corrected."
         },
         {
-          "name": "Why both",
-          "a": "Prevention is cheaper but cannot catch everything",
-          "b": "Detection proves prevention is working"
+          "label": "Why both",
+          "right": "Prevention is cheaper but cannot catch everything",
+          "why": "Preventive: Prevention is cheaper but cannot catch everything. Detection proves prevention is working."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Preventive against detective controls",
+      "traps": [
+        "classify-by-when-not-by-how-important"
+      ],
+      "from": [
+        "F405-03",
+        "5.2/t:preventive-detec",
+        "5.2/exam-trap"
+      ]
     },
     {
       "id": "sc405-3",
@@ -88,8 +94,8 @@
           "correct": true
         }
       ],
-      "traps": [
-        "classify-by-when-not-by-how-important"
+      "from": [
+        "5.2/section-check"
       ]
     },
     {
@@ -115,6 +121,9 @@
           "text": "it is performed by an independent team",
           "why": "Independence makes it reliable, not detective."
         }
+      ],
+      "from": [
+        "5.2/section-check"
       ]
     }
   ]

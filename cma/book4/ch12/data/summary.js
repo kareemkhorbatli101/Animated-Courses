@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "sysRoles"
+    "anim": "sysRoles",
+    "about": "Figure F412-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The system development life cycle runs systems analysis, conceptual design, physical design, implementation and conversion, and operations and maintenance, with users involved throughout and each stage approved before the next. Business process analysis maps what actually happens and removes waste before anything is automated, because automating a bad process makes the same errors faster. Robotic process automation carries out rule-based steps on structured data without changing the underlying systems, and a robot needs its own identity and its own segregation of duties. Cloud computing gives on-demand, metered, elastic access to shared resources, and software as a service trades maintenance for dependence on the provider's controls and the location of the data. Blockchain's realistic applications are narrow, and the claim that it would replace accounting systems did not materialise."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F412-09.png",
       "label": "Figure F412-09.",
       "caption": "Chapter 12 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F412-09"
+      ]
     },
     {
       "id": "rules",

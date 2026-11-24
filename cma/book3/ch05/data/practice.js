@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P305-01–P305-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "flexLine"
   },

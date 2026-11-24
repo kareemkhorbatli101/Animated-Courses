@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Depreciation methods and their effects",
   "n": "10.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.2"),
   "brief": {
     "about": "Depreciation spreads the depreciable base, cost minus salvage value, over the useful life in a systematic and rational way. Four methods appear on the exam. All four methods charge the same total, $1,050,000. They only change the timing. Figure F10-04 summarizes the effects on the statements. Depreciation is not a cash flow, so the method changes cash only through income taxes, and U.S. Estimates change.",
     "anim": "curve",
@@ -49,16 +49,30 @@
           "A change in depreciation method is also applied prospectively, as a change in estimate effected by a change in principle, and the new method must be preferable. An error, such as expensing a machine that should have been capitalized, is different: it is corrected by restating the prior years.",
           "Some companies use group or composite depreciation for many similar assets. They apply one rate to the whole pool, and when an asset is retired they record no gain or loss."
         ]
+      },
+      {
+        "h": "IAS 16: components and revaluation",
+        "box": "ifrs",
+        "p": [
+          "IAS 16 requires component depreciation: each significant part of an asset is depreciated separately. U.S. GAAP allows this but does not require it. IAS 16 also allows the revaluation model, with increases going to a revaluation surplus in OCI. U.S. GAAP does not allow upward revaluation."
+        ]
       }
     ]
   },
+  "from": [
+    "10.2/ifrs-contrast",
+    "10.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f10-02",
       "kind": "figure",
       "file": "F10-02.png",
       "label": "Figure F10-02.",
-      "caption": "Depreciation expense each year for the bottling line under four methods."
+      "caption": "Depreciation expense each year for the bottling line under four methods.",
+      "from": [
+        "F10-02"
+      ]
     },
     {
       "id": "fill-03",
@@ -129,6 +143,12 @@
       ],
       "traps": [
         "depreciation-traps"
+      ],
+      "from": [
+        "F10-03",
+        "10.2/t:straight-line-do",
+        "10.2/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -229,6 +249,10 @@
           },
           "why": "Straight-line: No effect. Double-declining: No effect. SYD: No effect. Units of production: No effect."
         }
+      ],
+      "from": [
+        "F10-04",
+        "10.2/t:effect-straight"
       ]
     },
     {
@@ -277,7 +301,12 @@
           ]
         }
       ],
-      "data": true
+      "data": true,
+      "from": [
+        "F10-05",
+        "10.2/t:beginning-book-v",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -315,7 +344,13 @@
           ]
         }
       ],
-      "caption": "Double-declining schedule for the Dubai trucks (whole USD): complete the blanks"
+      "caption": "Double-declining schedule for the Dubai trucks (whole USD): complete the blanks",
+      "from": [
+        "10.2/your-turn",
+        "F10-05",
+        "10.2/t:beginning-book-v",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc10-3",
@@ -341,7 +376,10 @@
           "why": "This is the year 1 amount; the rate applies to the new book value."
         }
       ],
-      "say": "Use the bottling line. What is double-declining depreciation in year 2 (whole USD)?"
+      "say": "Use the bottling line. What is double-declining depreciation in year 2 (whole USD)?",
+      "from": [
+        "10.2/section-check"
+      ]
     },
     {
       "id": "sc10-4",
@@ -367,7 +405,10 @@
           "why": "Retained earnings are adjusted only for error corrections."
         }
       ],
-      "exhibit": "After two years, Orontes revises the useful life and salvage value of an asset."
+      "exhibit": "After two years, Orontes revises the useful life and salvage value of an asset.",
+      "from": [
+        "10.2/section-check"
+      ]
     }
   ]
 };

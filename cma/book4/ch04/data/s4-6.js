@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 4A: planning an audit of the Orontes controls",
   "n": "4.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.6"),
   "brief": {
     "about": "This example walks the top-down approach through one Orontes audit and shows what a bottom-up auditor would have done instead. It is exam-core, and E.1.r is one of only six Level C outcomes in this book, so expect to be asked to judge rather than recall. The auditor starts by asking where a material misstatement could appear in the Orontes statements. Inventory is large and includes spices that are valuable and portable.",
     "anim": "auditTopDown",
@@ -74,6 +74,9 @@
       }
     ]
   },
+  "from": [
+    "4.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f404-08",
@@ -108,61 +111,170 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F404-08",
+        "4.6/t:requirement-whic",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "fig-f404-09",
-      "kind": "grid",
+      "kind": "match",
       "kicker": "Figure F404-09",
       "title": "What is current law and what is only proposed",
-      "say": "What is current law and what is only proposed",
-      "caption": "Item",
-      "cols": [
-        "What it says",
-        "Source",
-        "Status"
-      ],
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Item",
+      "col": "What it says",
       "rows": [
         {
-          "name": "404(b) exemption",
-          "cells": [
-            "Non-accelerated filers exempt; an SRC qualifies only if also non-accelerated",
-            "SEC amendments, April 2020",
-            "current law"
-          ]
+          "label": "404(b) exemption",
+          "right": "Non-accelerated filers exempt; an SRC qualifies only if also non-accelerated",
+          "why": "What it says: Non-accelerated filers exempt; an SRC qualifies only if also non-accelerated. SEC amendments, April 2020. current law."
         },
         {
-          "name": "Filer thresholds",
-          "cells": [
-            "Would raise large accelerated to $2bn and remove the SRC category",
-            "SEC Release 33-11419, 19 May 2026",
-            "PROPOSED only"
-          ]
+          "label": "Filer thresholds",
+          "right": "Would raise large accelerated to $2bn and remove the SRC category",
+          "why": "What it says: Would raise large accelerated to $2bn and remove the SRC category. SEC Release 33-11419, 19 May 2026. PROPOSED only."
         },
         {
-          "name": "PCAOB QC 1000",
-          "cells": [
-            "A firm's system of quality control",
-            "Adopted May 2024, postponed to 15 Dec 2026",
-            "not yet effective"
-          ]
+          "label": "PCAOB QC 1000",
+          "right": "A firm's system of quality control",
+          "why": "What it says: A firm's system of quality control. Adopted May 2024, postponed to 15 Dec 2026. not yet effective."
         },
         {
-          "name": "Technology-assisted analysis",
-          "cells": [
-            "Amendments to AS 1105 and AS 2301",
-            "Adopted June 2024",
-            "effective for years from 15 Dec 2025"
-          ]
+          "label": "Technology-assisted analysis",
+          "right": "Amendments to AS 1105 and AS 2301",
+          "why": "What it says: Amendments to AS 1105 and AS 2301. Adopted June 2024. effective for years from 15 Dec 2025."
         },
         {
-          "name": "FCPA enforcement",
-          "cells": [
-            "Paused Feb 2025; restarted under DOJ Guidelines of June 2025 with four priorities",
-            "DOJ",
-            "statute unchanged"
-          ]
+          "label": "FCPA enforcement",
+          "right": "Paused Feb 2025; restarted under DOJ Guidelines of June 2025 with four priorities",
+          "why": "What it says: Paused Feb 2025; restarted under DOJ Guidelines of June 2025 with four priorities. DOJ. statute unchanged."
         }
+      ],
+      "caption": "What is current law and what is only proposed",
+      "traps": [
+        "exam-view"
+      ],
+      "from": [
+        "F404-09",
+        "4.6/t:item-what-it-say",
+        "4.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t4-6-0",
+      "kind": "lines",
+      "kicker": "Section 4.6",
+      "title": "Requirement",
+      "caption": "Requirement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Management must assess internal control annually",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The auditor must use a top-down approach",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Books must accurately and fairly reflect transactions",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The CEO and CFO must certify the annual report",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:requirement-cate",
+        "Practice/t:requirement-cate#2",
+        "Answers and explanations/t:requirement-cate"
+      ]
+    },
+    {
+      "id": "t4-6-1",
+      "kind": "lines",
+      "kicker": "Section 4.6",
+      "title": "Requirement",
+      "caption": "Requirement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Management must assess internal control annually",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The auditor must use a top-down approach",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Books must accurately and fairly reflect transactions",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The CEO and CFO must certify the annual report",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:requirement-cate",
+        "Practice/t:requirement-cate#2",
+        "Answers and explanations/t:requirement-cate"
+      ]
+    },
+    {
+      "id": "t4-6-2",
+      "kind": "lines",
+      "kicker": "Section 4.6",
+      "title": "Requirement",
+      "caption": "Requirement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Management must assess internal control annually",
+          "a": "Sarbanes-Oxley",
+          "b": ""
+        },
+        {
+          "name": "The auditor must use a top-down approach",
+          "a": "PCAOB standard",
+          "b": ""
+        },
+        {
+          "name": "Books must accurately and fairly reflect transactions",
+          "a": "Foreign Corrupt Practices Act",
+          "b": ""
+        },
+        {
+          "name": "The CEO and CFO must certify the annual report",
+          "a": "Sarbanes-Oxley",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:requirement-cate",
+        "Practice/t:requirement-cate#2",
+        "Answers and explanations/t:requirement-cate"
       ]
     },
     {
@@ -206,8 +318,11 @@
         }
       ],
       "note": "Why: 404(a) places the assessment on management of every issuer, whatever its filer status",
-      "traps": [
-        "exam-view"
+      "from": [
+        "4.6/your-turn",
+        "F404-08",
+        "4.6/t:requirement-whic",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -234,7 +349,10 @@
           "why": "Management documents far more than these."
         }
       ],
-      "say": "Use Extended Example 4A. Why does the auditor test entity-level controls at step two rather than last?"
+      "say": "Use Extended Example 4A. Why does the auditor test entity-level controls at step two rather than last?",
+      "from": [
+        "4.6/section-check"
+      ]
     },
     {
       "id": "sc404-12",
@@ -260,7 +378,10 @@
           "correct": true
         }
       ],
-      "say": "Use Extended Example 4A. What does naming the assertion, rather than just the account, achieve?"
+      "say": "Use Extended Example 4A. What does naming the assertion, rather than just the account, achieve?",
+      "from": [
+        "4.6/section-check"
+      ]
     }
   ]
 };

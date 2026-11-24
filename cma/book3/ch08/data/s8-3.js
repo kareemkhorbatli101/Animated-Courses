@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Selling costs and the contribution margin",
   "n": "8.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.3"),
   "brief": {
     "about": "Selling and administrative costs affect the contribution margin only if they are variable. Freight and commissions are deducted before the contribution margin; marketing, salaries and administration are deducted after it. Figure F308-07 compares the functional format with the contribution format. The proposal turns a fixed cost into a variable one. That lowers the contribution margin per case and the break-even risk, but it pays more when sales are high.",
     "anim": "bridgeBar",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "8.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f308-07",
       "kind": "figure",
       "file": "F308-07.png",
       "label": "Figure F308-07.",
-      "caption": "Functional and contribution formats of the operating budget."
+      "caption": "Functional and contribution formats of the operating budget.",
+      "from": [
+        "F308-07"
+      ]
     },
     {
       "id": "fill-08",
@@ -108,6 +114,11 @@
       ],
       "traps": [
         "which-costs-go-above-the-line"
+      ],
+      "from": [
+        "F308-08",
+        "8.3/t:commission-propo",
+        "8.3/exam-trap"
       ]
     },
     {
@@ -136,6 +147,9 @@
       ],
       "traps": [
         "selling-administrative-costs-affect-contribution"
+      ],
+      "from": [
+        "8.3/section-check"
       ]
     },
     {
@@ -162,7 +176,10 @@
           "why": "The rise is added."
         }
       ],
-      "exhibit": "The contribution margin is $8.20 a case. Commissions rise by $0.30 a case."
+      "exhibit": "The contribution margin is $8.20 a case. Commissions rise by $0.30 a case.",
+      "from": [
+        "8.3/section-check"
+      ]
     }
   ]
 };

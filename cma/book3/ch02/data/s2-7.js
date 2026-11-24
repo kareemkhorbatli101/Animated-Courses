@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 2A: the Orontes strategic review",
   "n": "2.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.7"),
   "brief": {
     "about": "This example brings the tools together for the board meeting that approves the 2028 to 2032 plan. It is exam-core. Figure F302-13 brings each unit's BCG position together with its generic strategy and the action the board agreed. The scenarios range from $900,000 to $2,400,000 of export operating income, a spread of $1,500,000. The contingency plan starts if the forecast falls below $1,200,000.",
     "anim": "bcgMatrix",
@@ -49,6 +49,9 @@
       }
     ]
   },
+  "from": [
+    "2.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-13",
@@ -114,6 +117,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F302-13",
+        "2.7/t:unit-relative-sh",
+        "2.7/exam-trap"
+      ]
+    },
+    {
+      "id": "t2-7-0",
+      "kind": "lines",
+      "kicker": "Section 2.7",
+      "title": "Factor",
+      "caption": "Factor",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The Orontes tahini brand is well known in Jordan",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The Gulf sales team has only three people",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Gulf demand for healthy traditional foods is growing",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The market leader is cutting prices",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "An EU tariff may push more exporters to the Gulf",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:factor-category",
+        "Answers and explanations/t:factor-category"
+      ]
+    },
+    {
+      "id": "t2-7-1",
+      "kind": "lines",
+      "kicker": "Section 2.7",
+      "title": "Factor",
+      "caption": "Factor",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The Orontes tahini brand is well known in Jordan",
+          "a": "Strength",
+          "b": ""
+        },
+        {
+          "name": "The Gulf sales team has only three people",
+          "a": "Weakness",
+          "b": ""
+        },
+        {
+          "name": "Gulf demand for healthy traditional foods is growing",
+          "a": "Opportunity",
+          "b": ""
+        },
+        {
+          "name": "The market leader is cutting prices",
+          "a": "Threat",
+          "b": ""
+        },
+        {
+          "name": "An EU tariff may push more exporters to the Gulf",
+          "a": "Threat",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:factor-category",
+        "Answers and explanations/t:factor-category"
       ]
     },
     {
@@ -159,7 +251,10 @@
           "why": "Pulses & Spices is a dog."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "2.7/section-check"
+      ]
     },
     {
       "id": "sc302-14",
@@ -185,7 +280,10 @@
           "why": "It is a star."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "2.7/section-check"
+      ]
     }
   ]
 };

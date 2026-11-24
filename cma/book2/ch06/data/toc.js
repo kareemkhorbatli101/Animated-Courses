@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.5",
   "title": "Inventory values and cost of goods sold",
-  "blurb": "Amounts, shares, questions · 4 scenes"
+  "blurb": "Amounts, yourturn, questions · 4 scenes"
  },
  {
   "id": "s6-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.6",
   "title": "Benefits and limitations",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s6-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.7",
   "title": "Extended Example 6A: Tahini & Spreads, March 2027",
-  "blurb": "Figures, post, amounts, shares, the tie lines, questions · 8 scenes"
+  "blurb": "Figures, post, amounts, shares, a printed statement, the tie lines, questions · 10 scenes"
  },
  {
   "id": "summary",

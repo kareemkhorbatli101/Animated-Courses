@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "spoilGate"
   },
@@ -39,6 +39,9 @@
       ],
       "traps": [
         "exam-scope-process-costing-is-concept-"
+      ],
+      "from": [
+        "7.1/exam-trap"
       ]
     },
     {
@@ -93,6 +96,9 @@
       ],
       "traps": [
         "no-equivalent-unit-arithmetic"
+      ],
+      "from": [
+        "7.3/exam-trap"
       ]
     },
     {

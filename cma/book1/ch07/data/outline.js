@@ -4,7 +4,7 @@
  * titles and the order are the deck's, folded exactly as assets/scene.js folds
  * them, and gates/cma_nav fails if this file and the decks disagree.
  *
- * Chapter 07 of Book 1 - 11 pages, 54 screens.
+ * Chapter 07 of Book 1 - 11 pages, 55 screens.
  */
 window.OUTLINE = {
   "case": [{"id": "c7-1", "title": "Where does each item belong?"}, {"id": "c7-2", "title": "Enter the correct number of cartons in ending inventory"}, {"id": "c7-3", "title": "Enter FIFO ending inventory in USD"}, {"id": "c7-4", "title": "Enter weighted-average cost of goods sold in USD"}, {"id": "c7-6", "title": "If Orontes used periodic LIFO for tahini, what would the LIFO reserve be at December 31 (USD)? The beginning layer is the base layer"}, {"id": "c7-5", "title": "If Orontes had used the unadjusted count, its FIFO cost of goods soldâ€¦"}, {"id": "c7-7", "title": "In a period of rising prices, ____ gives the highest ending inventory."}],
@@ -12,7 +12,7 @@ window.OUTLINE = {
   "review": [{"id": "sc7-1", "title": "Who includes the bottles in inventory at December 31?"}, {"id": "sc7-3", "title": "Which cost is included in the cost of inventory?"}, {"id": "sc7-5", "title": "Under LIFO, ending inventory consists of:"}, {"id": "sc7-7", "title": "Prices are rising. Which method gives the highest net income?"}, {"id": "sc7-9", "title": "What are the effects on net income?"}, {"id": "sc7-11", "title": "Use Extended Example 7A. What is cost of goods sold under FIFO?"}, {"id": "sc7-13", "title": "Use Extended Example 7A. What is the LIFO reserve?"}],
   "s7-1": [{"id": "sc7-1", "title": "Who includes the bottles in inventory at December 31?"}, {"id": "sc7-2", "title": "Which statement is correct at year-end?"}],
   "s7-2": [{"id": "sc7-3", "title": "Which cost is included in the cost of inventory?"}, {"id": "sc7-4", "title": "What is the cost of the bottles in inventory (whole USD)?"}],
-  "s7-3": [{"id": "yourturn", "title": "Periodic LIFO for Dubai pastry trays"}, {"id": "sc7-5", "title": "Under LIFO, ending inventory consists of:"}, {"id": "sc7-6", "title": "What is the weighted-average cost per case of olive oil in the Orontesâ€¦"}],
+  "s7-3": [{"id": "t7-3-1", "title": "Method"}, {"id": "yourturn", "title": "Periodic LIFO for Dubai pastry trays"}, {"id": "sc7-5", "title": "Under LIFO, ending inventory consists of:"}, {"id": "sc7-6", "title": "What is the weighted-average cost per case of olive oil in the Orontesâ€¦"}],
   "s7-4": [{"id": "sc7-7", "title": "Prices are rising. Which method gives the highest net income?"}, {"id": "sc7-8", "title": "What would cost of goods sold be under FIFO?"}],
   "s7-5": [{"id": "grid-09", "title": "Effects of four common inventory errors (O = overstated, U = understated)"}, {"id": "sc7-9", "title": "What are the effects on net income?"}, {"id": "sc7-10", "title": "What is the effect?"}],
   "s7-6": [{"id": "grid-10", "title": "The same year under three cost flows"}, {"id": "fill-11", "title": "The effect on profit and tax"}, {"id": "ties", "title": "Everything ties"}, {"id": "sc7-11", "title": "Use Extended Example 7A. What is cost of goods sold under FIFO?"}, {"id": "sc7-12", "title": "Use Extended Example 7A. In this rising market, which method gives theâ€¦"}, {"id": "sc7-13", "title": "Use Extended Example 7A. What is the LIFO reserve?"}],

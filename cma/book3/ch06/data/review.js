@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "bridgeBar"
   },
@@ -64,9 +64,6 @@
           "why": "History shows trend and season.",
           "correct": true
         }
-      ],
-      "traps": [
-        "forecast-is-not-budget"
       ]
     },
     {

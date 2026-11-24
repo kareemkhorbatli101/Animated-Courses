@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "insightLadder"
+    "anim": "insightLadder",
+    "about": "Figure F413-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Big Data is data beyond what traditional tools were built to handle, described by four characteristics: volume, velocity, variety and veracity. Data comes structured, semi-structured and unstructured, and the unstructured share is the largest and the hardest to use. It becomes useful through a progression from data to information to knowledge to insight to action, and only insight supports a decision because only insight says why. Every opportunity carries a matching challenge, of which the most common is that nobody acts on the answer. Data is a strategic asset because it is specific and compounds, but the capability to use it matters more than the data itself. Business intelligence is the applications, tools and practices that together turn data into something actionable."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F413-09.png",
       "label": "Figure F413-09.",
       "caption": "Chapter 13 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F413-09"
+      ]
     },
     {
       "id": "rules",

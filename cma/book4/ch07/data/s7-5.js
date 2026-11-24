@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 7A: a batch of invoices, and where each control catches it",
   "n": "7.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.5"),
   "brief": {
     "about": "This example follows one batch of twenty supplier invoices through the Orontes system and shows which control catches which error. It is exam-core: questions give an error and ask which control would find it. Accounts payable keys twenty invoices as one batch. Before keying, the clerk records three batch totals: twenty documents, a financial total of the invoice amounts, and a hash total of the supplier numbers.",
     "anim": "inputGate",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "7.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f407-07",
@@ -96,7 +99,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F407-07",
+        "7.5/t:what-happened-wh",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t7-5-0",
+      "kind": "lines",
+      "kicker": "Section 7.5",
+      "title": "Control figure or practice",
+      "caption": "Control figure or practice",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The count of documents taken before keying",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The total of supplier numbers with no accounting meaning",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Run-to-run totals carried between stages",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The monthly copy to a cloud service",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:control-figure-o",
+        "Practice/t:control-figure-o#2",
+        "Answers and explanations/t:control-figure-o"
+      ]
+    },
+    {
+      "id": "t7-5-1",
+      "kind": "lines",
+      "kicker": "Section 7.5",
+      "title": "Control figure or practice",
+      "caption": "Control figure or practice",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The count of documents taken before keying",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The total of supplier numbers with no accounting meaning",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Run-to-run totals carried between stages",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The monthly copy to a cloud service",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:control-figure-o",
+        "Practice/t:control-figure-o#2",
+        "Answers and explanations/t:control-figure-o"
+      ]
+    },
+    {
+      "id": "t7-5-2",
+      "kind": "lines",
+      "kicker": "Section 7.5",
+      "title": "Control figure or practice",
+      "caption": "Control figure or practice",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The count of documents taken before keying",
+          "a": "Input control",
+          "b": ""
+        },
+        {
+          "name": "The total of supplier numbers with no accounting meaning",
+          "a": "Input control",
+          "b": ""
+        },
+        {
+          "name": "Run-to-run totals carried between stages",
+          "a": "Processing control",
+          "b": ""
+        },
+        {
+          "name": "The monthly copy to a cloud service",
+          "a": "Storage control",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:control-figure-o",
+        "Practice/t:control-figure-o#2",
+        "Answers and explanations/t:control-figure-o"
+      ]
     },
     {
       "id": "yourturn",
@@ -142,6 +264,13 @@
       "traps": [
         "exam-view",
         "the-validity-check-rejects-the-second"
+      ],
+      "from": [
+        "7.5/your-turn",
+        "F407-07",
+        "7.5/t:what-happened-wh",
+        "7.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -168,7 +297,10 @@
           "why": "The record count catches the extra document."
         }
       ],
-      "say": "Use Extended Example 7A. Which error passes the validity check, the record count and the financial total?"
+      "say": "Use Extended Example 7A. Which error passes the validity check, the record count and the financial total?",
+      "from": [
+        "7.5/section-check"
+      ]
     },
     {
       "id": "sc407-10",
@@ -193,6 +325,9 @@
           "text": "A sequence check or an error log",
           "why": "Those are processing controls, applied after entry."
         }
+      ],
+      "from": [
+        "7.5/section-check"
       ]
     }
   ]

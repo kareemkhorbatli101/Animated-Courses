@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What learning is",
   "n": "4.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.1"),
   "brief": {
     "about": "Workers who repeat a task become faster. They find better methods, make fewer mistakes and need less supervision. A learning curve shows how labor time per unit falls as cumulative output grows. Learning is measured each time cumulative output doubles. On an 80% curve, the average time per unit after a doubling is 80% of the average before it. The learning rate is 80%; the time saved is 20%.",
     "anim": "learnCurve",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F204-02.png",
       "label": "Figure F204-02.",
-      "caption": "The halva learning curve: cumulative average hours per batch on an 80% curve."
+      "caption": "The halva learning curve: cumulative average hours per batch on an 80% curve.",
+      "from": [
+        "F204-02"
+      ]
     },
     {
       "id": "sc204-1",
@@ -58,6 +61,10 @@
       ],
       "traps": [
         "the-rate-is-what-remains-not-what-fall"
+      ],
+      "from": [
+        "4.1/exam-trap",
+        "4.1/section-check"
       ]
     },
     {
@@ -83,6 +90,9 @@
           "text": "Factory rent",
           "why": "Rent is a fixed cost."
         }
+      ],
+      "from": [
+        "4.1/section-check"
       ]
     }
   ]

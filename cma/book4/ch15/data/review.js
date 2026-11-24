@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "regPlane"
   },
@@ -163,9 +163,6 @@
           "why": "Squaring destroys the sign.",
           "correct": true
         }
-      ],
-      "traps": [
-        "a-high-r-squared-is-not-proof"
       ]
     },
     {

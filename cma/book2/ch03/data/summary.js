@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "scatterLine"
+    "anim": "scatterLine",
+    "about": "Figure F203-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A cost function has a fixed part and a variable rate. The high-low method draws a line through the highest and lowest activity months; it is quick but uses only two points. Simple regression fits the best line through all points and reports R², t-statistics and the standard error. To forecast, put the activity in x and stay inside the relevant range. The intercept estimates fixed cost within that range. Multiple regression adds more drivers, each with its own rate."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F203-12.png",
       "label": "Figure F203-12.",
       "caption": "Chapter 3 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F203-12"
+      ]
     },
     {
       "id": "rules",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Steps 1 and 2: the contract and its performance obligations",
   "n": "11.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.2"),
   "brief": {
     "about": "Step 1: identify the contract. A contract exists only if the parties have approved it and are committed to it, each party's rights and the payment terms can be identified, and the contract has commercial substance. Finally, it must be probable that the company will collect substantially all of the consideration. If these criteria are not met, cash received from the customer is a liability, not revenue. In U.S.",
     "anim": "fivesteps",
@@ -28,42 +28,48 @@
   "scenes": [
     {
       "id": "fig-f11-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F11-02",
       "title": "The five steps applied to the Orontes–GreenBasket contract, October 1, 2026",
-      "say": "Suppose: the five steps applied to the Orontes–GreenBasket contract, October 1, 2026",
-      "caption": "Step",
-      "col1": "Orontes's analysis",
-      "col2": "Result (whole USD)",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Step",
+      "col": "Orontes's analysis",
       "rows": [
         {
-          "name": "1. Identify the contract",
-          "a": "A signed agreement for olive oil, a dispenser and maintenance; payment terms clear; collection probable.",
-          "b": "Contract exists"
+          "label": "1. Identify the contract",
+          "right": "A signed agreement for olive oil, a dispenser and maintenance; payment terms clear; collection probable.",
+          "why": "Orontes's analysis: A signed agreement for olive oil, a dispenser and maintenance; payment terms clear; collection probable. Contract exists."
         },
         {
-          "name": "2. Identify the performance obligations",
-          "a": "Olive oil, the dispenser and maintenance can each be bought separately and are not highly interdependent.",
-          "b": "Three obligations"
+          "label": "2. Identify the performance obligations",
+          "right": "Olive oil, the dispenser and maintenance can each be bought separately and are not highly interdependent.",
+          "why": "Orontes's analysis: Olive oil, the dispenser and maintenance can each be bought separately and are not highly interdependent. Three obligations."
         },
         {
-          "name": "3. Determine the transaction price",
-          "a": "Fixed price; no variable amounts, no financing component, no payments to GreenBasket.",
-          "b": "1,080,000"
+          "label": "3. Determine the transaction price",
+          "right": "Fixed price; no variable amounts, no financing component, no payments to GreenBasket.",
+          "why": "Orontes's analysis: Fixed price; no variable amounts, no financing component, no payments to GreenBasket. 1,080,000."
         },
         {
-          "name": "4. Allocate the price",
-          "a": "Relative standalone selling prices totalling 1,200,000; each obligation gets 90%.",
-          "b": "810,000 / 180,000 / 90,000"
+          "label": "4. Allocate the price",
+          "right": "Relative standalone selling prices totalling 1,200,000; each obligation gets 90%.",
+          "why": "Orontes's analysis: Relative standalone selling prices totalling 1,200,000; each obligation gets 90%. 810,000 / 180,000 / 90,000."
         },
         {
-          "name": "5. Recognize revenue",
-          "a": "Oil and dispenser: at delivery (point in time). Maintenance: over 24 months (over time).",
-          "b": "2026: 515,250"
+          "label": "5. Recognize revenue",
+          "right": "Oil and dispenser: at delivery (point in time). Maintenance: over 24 months (over time).",
+          "why": "Orontes's analysis: Oil and dispenser: at delivery (point in time). Maintenance: over 24 months (over time). 2026: 515,250."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Suppose: the five steps applied to the Orontes–GreenBasket contract, October 1, 2026",
+      "traps": [
+        "probable-is-not-50"
+      ],
+      "from": [
+        "F11-02",
+        "11.2/t:step-orontes-s-a",
+        "11.2/exam-trap"
+      ]
     },
     {
       "id": "sc11-3",
@@ -90,8 +96,8 @@
         }
       ],
       "exhibit": "A U.S. company believes it is 55% likely to collect the consideration in a new contract.",
-      "traps": [
-        "probable-is-not-50"
+      "from": [
+        "11.2/section-check"
       ]
     },
     {
@@ -118,7 +124,10 @@
           "why": "Obligations come from promises to the customer."
         }
       ],
-      "say": "Use Figure F11-02. Why does the GreenBasket contract contain three performance obligations?"
+      "say": "Use Figure F11-02. Why does the GreenBasket contract contain three performance obligations?",
+      "from": [
+        "11.2/section-check"
+      ]
     }
   ]
 };

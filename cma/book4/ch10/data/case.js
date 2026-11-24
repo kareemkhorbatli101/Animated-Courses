@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the implementation that wanted everything",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "erpHub"
+  },
+  "scenario": {
+    "title": "Case question: the implementation that wanted everything",
+    "p": [
+      "The Orontes board has approved an ERP to replace the plant, payroll and accounting systems of Chapter 9. The vendor's standard purchasing process requires a goods received note to be matched against the order before an invoice can be posted, which is close to, but not identical with, the process the Amman plant has used for years.",
+      "The plant manager has asked for forty-one modifications so that the software matches existing practice exactly. The project manager estimates that these would add nine months and would need to be reapplied at every upgrade. The finance director has asked whether this matters. Orontes has not run a project of this size before, and the plant manager has said publicly that he expects the system to adapt to the plant rather than the reverse.",
+      "Separately, the sales director wants the new system queried directly for a report listing every order, line by line, for the past three years, refreshed hourly. The IT manager has objected but has not explained why.",
+      "The board has asked Rania to advise on the modifications, on the sales director's request, and on what the company should expect the new system to make possible that the old arrangement could not."
+    ],
+    "note": "Use the scenario above for items C410-1 to C410-7."
   },
   "scenes": [
     {
@@ -38,25 +48,30 @@
         {
           "name": "One stored value for monthly output",
           "to": "an-erp-advantage",
-          "why": "One mechanism produces all six answers: the fact is stored once."
+          "why": "Feature or request: An ERP advantage. One mechanism produces all six answers: the fact is stored once."
         },
         {
           "name": "Processes must change to match the software",
           "to": "an-erp-disadvantage",
-          "why": "One mechanism produces all six answers: the fact is stored once."
+          "why": "Feature or request: An ERP disadvantage. One mechanism produces all six answers: the fact is stored once."
         },
         {
           "name": "Three years of order lines refreshed for analysis",
           "to": "a-matter-for-a-data-warehouse",
-          "why": "One mechanism produces all six answers: the fact is stored once."
+          "why": "Feature or request: A matter for a data warehouse. One mechanism produces all six answers: the fact is stored once."
         },
         {
           "name": "Reapplying modifications at every upgrade",
           "to": "an-erp-disadvantage",
-          "why": "One mechanism produces all six answers: the fact is stored once."
+          "why": "Feature or request: An ERP disadvantage. One mechanism produces all six answers: the fact is stored once."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:feature-or-reque",
+        "Practice/t:feature-or-reque#2",
+        "Answers and explanations/t:feature-or-reque"
+      ]
     },
     {
       "id": "c410-2",
@@ -82,7 +97,7 @@
           "why": "Processes changed to match the software, including some that the plant believes are better than the standard."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C410-1 to C410-7."
     },
     {
       "id": "c410-3",

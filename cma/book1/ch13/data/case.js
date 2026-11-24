@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada's 2027 income tax",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "twobooks"
+  },
+  "scenario": {
+    "title": "Case question: Barada's 2027 income tax",
+    "p": [
+      "Barada Wholesale is calculating its 2027 income tax. Its accounting income differs from its taxable income because some items are treated differently by the tax law. The company invests part of its spare cash in municipal bonds, and it paid a fine for filing a return late.",
+      "For tax purposes Barada depreciates its equipment faster than it does in its books. It also records a warranty liability in its books, although the tax law allows a deduction only when repairs are paid. One tenant paid next year's rent in advance, which is taxable when received.",
+      "The tax accountant must separate permanent differences from temporary differences, calculate taxable income and current tax, and measure the change in deferred taxes. The tax rate is known and has not changed.",
+      "The auditors will review whether Barada's deferred tax asset will be realized. Mr Haddad wants to know the total tax expense for the income statement and how deferred taxes will appear on the balance sheet. Amounts in the exhibit are in whole U.S. dollars. The tax return will be filed in the spring, and the auditors want the deferred tax calculation before then."
+    ]
   },
   "scenes": [
     {
@@ -63,7 +72,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F13-14",
+        "Practice/t:barada-wholesale"
+      ]
     },
     {
       "id": "c13-1",
@@ -113,7 +126,11 @@
           "why": "Item: Deductible temporary difference (DTA)."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c13-2",

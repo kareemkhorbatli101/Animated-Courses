@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "bridgeBar"
+    "anim": "bridgeBar",
+    "about": "Figure F307-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The direct materials, direct labor and overhead budgets all start from the production budget. Materials purchases equal usage plus desired ending stock minus beginning stock, and the procurement policy decides the stock; just-in-time items are bought as used. Labor hours equal production times standard hours, and must be checked against the hours available. Variable overhead follows its driver, fixed overhead is budgeted by item, and non-cash items such as depreciation are marked for the cash budget."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F307-13.png",
       "label": "Figure F307-13.",
       "caption": "Chapter 7 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F307-13"
+      ]
     },
     {
       "id": "rules",

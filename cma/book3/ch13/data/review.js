@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "threeCols"
   },
@@ -66,6 +66,9 @@
       "exhibit": "A blend standard is 60% paste at $2.50 and 40% sugar at $1.00. The plant used 9,200 kg in total, of which 5,800 kg was paste.",
       "traps": [
         "yield-is-valued-at-the-average"
+      ],
+      "from": [
+        "13.2/exam-trap"
       ]
     },
     {

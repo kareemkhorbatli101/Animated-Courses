@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P408-01–P408-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "siteTiers"
   },

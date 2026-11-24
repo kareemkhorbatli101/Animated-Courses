@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Business intelligence",
   "n": "13.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.6"),
   "brief": {
     "about": "business intelligence (BI) is the collection of applications, tools and best practices that turn data into information people can act on. Figure F413-07 unpacks that definition. The third element is the one that is usually missing. Applications and tools can be bought; agreed definitions cannot. If two dashboards show different figures for the same measure because nobody settled what it means, the arrangement has failed however good the software is.",
     "anim": "warehouseMart",
@@ -27,44 +27,48 @@
   "scenes": [
     {
       "id": "fig-f413-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F413-07",
       "title": "What business intelligence covers",
-      "say": "What business intelligence covers",
-      "caption": "Business intelligence (F.4.f)",
-      "col1": "What it covers",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Business intelligence (F.4.f)",
+      "col": "What it covers",
       "rows": [
         {
-          "name": "Applications",
-          "a": "The software people actually use to ask questions",
-          "b": "Dashboards and reporting tools"
+          "label": "Applications",
+          "right": "The software people actually use to ask questions",
+          "why": "What it covers: The software people actually use to ask questions. Dashboards and reporting tools."
         },
         {
-          "name": "Tools",
-          "a": "What moves and prepares the data behind them",
-          "b": "The warehouse and loading of Chapter 10"
+          "label": "Tools",
+          "right": "What moves and prepares the data behind them",
+          "why": "What it covers: What moves and prepares the data behind them. The warehouse and loading of Chapter 10."
         },
         {
-          "name": "Best practices",
-          "a": "How the work is organised so answers can be trusted",
-          "b": "Agreed definitions, one version of each measure"
+          "label": "Best practices",
+          "right": "How the work is organised so answers can be trusted",
+          "why": "What it covers: How the work is organised so answers can be trusted. Agreed definitions, one version of each measure."
         },
         {
-          "name": "Purpose",
-          "a": "Turning data into information that can be acted on",
-          "b": "Not a report, but a decision"
+          "label": "Purpose",
+          "right": "Turning data into information that can be acted on",
+          "why": "What it covers: Turning data into information that can be acted on. Not a report, but a decision."
         },
         {
-          "name": "What it is not",
-          "a": "A synonym for analytics or for a dashboard",
-          "b": "Analytics is a technique; BI is the whole arrangement"
+          "label": "What it is not",
+          "right": "A synonym for analytics or for a dashboard",
+          "why": "What it covers: A synonym for analytics or for a dashboard. Analytics is a technique; BI is the whole arrangement."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "What business intelligence covers",
       "traps": [
-        "applications-and-tools-can-be-bought"
+        "applications-and-tools-can-be-bought",
+        "business-intelligence-is-not-a-dashboa"
+      ],
+      "from": [
+        "F413-07",
+        "13.6/t:business-intelli",
+        "13.6/exam-trap"
       ]
     },
     {
@@ -91,8 +95,8 @@
           "why": "It is an arrangement, not an organizational unit."
         }
       ],
-      "traps": [
-        "business-intelligence-is-not-a-dashboa"
+      "from": [
+        "13.6/section-check"
       ]
     },
     {
@@ -119,7 +123,10 @@
           "why": "One measure should have one value."
         }
       ],
-      "exhibit": "Two dashboards show different figures for the same measure."
+      "exhibit": "Two dashboards show different figures for the same measure.",
+      "from": [
+        "13.6/section-check"
+      ]
     }
   ]
 };

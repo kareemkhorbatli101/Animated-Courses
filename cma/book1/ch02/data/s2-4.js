@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Other presentation matters",
   "n": "2.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.4"),
   "brief": {
     "about": "A few more rules decide what appears on the balance sheet and how. All deferred tax assets and liabilities are noncurrent. Orontes shows its deferred tax liability of $999,625 below long-term debt. Assets and liabilities may be offset only when a right of setoff exists: the two parties owe each other determinable amounts, the company has the legal right and the intent to set them off, and the right is enforceable.",
     "anim": "ladder",
@@ -24,6 +24,13 @@
         ]
       },
       {
+        "h": "Provisions under IAS 37",
+        "box": "ifrs",
+        "p": [
+          "IFRS records a provision when a loss is more likely than not, a lower threshold than the U.S. 'probable'. When the estimate is a range, IFRS usually uses the midpoint; U.S. GAAP uses the best estimate or, if none, the minimum."
+        ]
+      },
+      {
         "h": "Reserve, provision, allowance",
         "box": "false-friend",
         "p": [
@@ -32,13 +39,20 @@
       }
     ]
   },
+  "from": [
+    "2.4/false-friend-alert",
+    "2.4/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "fig-f02-08",
       "kind": "figure",
       "file": "F02-08.png",
       "label": "Figure F02-08.",
-      "caption": "Subsequent events: adjust for conditions that existed at year-end; disclose new ones."
+      "caption": "Subsequent events: adjust for conditions that existed at year-end; disclose new ones.",
+      "from": [
+        "F02-08"
+      ]
     },
     {
       "id": "ladder",
@@ -62,6 +76,10 @@
           "treatment": "Do nothing",
           "why": "If it is remote, the company does nothing."
         }
+      ],
+      "from": [
+        "F02-07",
+        "2.4/t:likelihood-of-th"
       ]
     },
     {
@@ -103,7 +121,11 @@
           "why": "Recognition: Never recognized before it is realized. Disclosure: Disclose carefully, without misleading."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "F02-07",
+        "2.4/t:likelihood-of-th"
+      ]
     },
     {
       "id": "ctg-disclose",
@@ -144,7 +166,11 @@
           "why": "Recognition: Never recognized before it is realized. Disclosure: Disclose carefully, without misleading."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "F02-07",
+        "2.4/t:likelihood-of-th"
+      ]
     },
     {
       "id": "setoff",
@@ -236,7 +262,10 @@
           "why": "There is no partial accrual rule."
         }
       ],
-      "exhibit": "Lawyers say a loss from a lawsuit is reasonably possible and could be about $200,000."
+      "exhibit": "Lawyers say a loss from a lawsuit is reasonably possible and could be about $200,000.",
+      "from": [
+        "2.4/section-check"
+      ]
     },
     {
       "id": "sc2-8",
@@ -262,7 +291,10 @@
           "why": "A material event must be disclosed so the statements are not misleading."
         }
       ],
-      "exhibit": "On February 5, before the statements are issued, a flood destroys a warehouse. The year ended on December 31."
+      "exhibit": "On February 5, before the statements are issued, a flood destroys a warehouse. The year ended on December 31.",
+      "from": [
+        "2.4/section-check"
+      ]
     }
   ]
 };

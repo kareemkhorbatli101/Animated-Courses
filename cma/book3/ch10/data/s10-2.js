@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The pro forma income statement and its assumptions",
   "n": "10.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.2"),
   "brief": {
     "about": "The pro forma income statement extends the operating budget of Chapter 8 by interest and tax. Figure F310-03 gives net income of $2,505,600 for Beverages, 13.9% of sales. One plan is not enough. Sensitivity analysis prepares the statement under other assumptions, so that managers know which risks matter. The contribution format of Chapter 5 makes this quick: fixed costs stay the same, and only volume or the margin per case changes.",
     "anim": "cashLoop",
@@ -30,13 +30,19 @@
       }
     ]
   },
+  "from": [
+    "10.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f310-05",
       "kind": "figure",
       "file": "F310-05.png",
       "label": "Figure F310-05.",
-      "caption": "Operating income under four sets of assumptions."
+      "caption": "Operating income under four sets of assumptions.",
+      "from": [
+        "F310-05"
+      ]
     },
     {
       "id": "num-03",
@@ -59,6 +65,11 @@
       ],
       "traps": [
         "fixed-costs-stay-fixed"
+      ],
+      "from": [
+        "F310-03",
+        "10.2/t:pro-forma-income",
+        "10.2/exam-trap"
       ]
     },
     {
@@ -120,6 +131,10 @@
             "2,349,300"
           ]
         }
+      ],
+      "from": [
+        "F310-04",
+        "10.2/t:scenario-usd-bas"
       ]
     },
     {
@@ -182,7 +197,11 @@
           ]
         }
       ],
-      "data": true
+      "data": true,
+      "from": [
+        "F310-06",
+        "10.2/t:scenario-usd-bas#2"
+      ]
     },
     {
       "id": "yourturn",
@@ -217,7 +236,13 @@
           ]
         }
       ],
-      "caption": "Your turn: both changes at once (complete the blanks)"
+      "caption": "Your turn: both changes at once (complete the blanks)",
+      "from": [
+        "10.2/your-turn",
+        "F310-06",
+        "10.2/t:scenario-usd-bas#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc310-3",
@@ -243,7 +268,10 @@
           "why": "Fixed costs are added."
         }
       ],
-      "exhibit": "Contribution margin is $8.20 a case, fixed costs $4,200,000."
+      "exhibit": "Contribution margin is $8.20 a case, fixed costs $4,200,000.",
+      "from": [
+        "10.2/section-check"
+      ]
     },
     {
       "id": "sc310-4",
@@ -268,6 +296,9 @@
           "text": "They fall to zero",
           "why": "They remain."
         }
+      ],
+      "from": [
+        "10.2/section-check"
       ]
     }
   ]

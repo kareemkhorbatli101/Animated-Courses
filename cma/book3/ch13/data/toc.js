@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.3",
   "title": "Variances in service companies",
-  "blurb": "Shares, a printed statement, questions · 4 scenes"
+  "blurb": "Shares, match, questions · 4 scenes"
  },
  {
   "id": "s13-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.4",
   "title": "Extended Example 13A: the month in one report",
-  "blurb": "A printed statement, the tie lines, questions · 4 scenes"
+  "blurb": "Match, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -73,6 +73,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the Oils bottle-size mix",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 6 scenes"
  },
  {
   "id": "review",

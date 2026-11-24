@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Rate changes, valuation allowances, losses and presentation",
   "n": "13.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.4"),
   "brief": {
     "about": "When a new tax law changes the rate, the company remeasures its deferred taxes at once. The whole effect goes to income from continuing operations in the period that includes the enactment date, even if the original item was in OCI. For example, a U.S. tax law signed on July 4, 2025 changed several deduction rules; companies recorded the effects in the quarter that included that date.",
     "anim": "curve",
@@ -33,14 +33,20 @@
       "kind": "figure",
       "file": "F13-08.png",
       "label": "Figure F13-08.",
-      "caption": "The DTL on Orontes's 2026 equipment over three years, with a rate cut enacted in 2027."
+      "caption": "The DTL on Orontes's 2026 equipment over three years, with a rate cut enacted in 2027.",
+      "from": [
+        "F13-08"
+      ]
     },
     {
       "id": "fig-f13-09",
       "kind": "figure",
       "file": "F13-09.png",
       "label": "Figure F13-09.",
-      "caption": "Decision chart: does a deferred tax asset need a valuation allowance?."
+      "caption": "Decision chart: does a deferred tax asset need a valuation allowance?.",
+      "from": [
+        "F13-09"
+      ]
     },
     {
       "id": "sc13-7",
@@ -69,6 +75,10 @@
       "say": "Use Figure F13-08. How does Orontes record the effect of the rate cut enacted in 2027?",
       "traps": [
         "rate-and-allowance-traps"
+      ],
+      "from": [
+        "13.4/exam-trap",
+        "13.4/section-check"
       ]
     },
     {
@@ -95,7 +105,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A company has a deferred tax asset of $100,000. It is more likely than not that only $60,000 will be realized."
+      "exhibit": "A company has a deferred tax asset of $100,000. It is more likely than not that only $60,000 will be realized.",
+      "from": [
+        "13.4/section-check"
+      ]
     }
   ]
 };

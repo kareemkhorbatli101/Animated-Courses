@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Business process analysis",
   "n": "12.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.2"),
   "brief": {
     "about": "Business process analysis examines how work is actually done, in order to improve it. Figure F412-03 sets out the steps. Its role in system performance rests on a single principle, and it is the most useful sentence in this chapter. Automating a bad process does not fix it: it makes the same errors faster and at greater volume, and makes them harder to see because nobody is handling them any more.",
     "anim": "flowRead",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f412-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F412-03",
       "title": "The steps of business process analysis",
-      "say": "The steps of business process analysis",
-      "caption": "Step in business process analysis",
-      "col1": "What it involves",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Step in business process analysis",
+      "col": "What it involves",
       "rows": [
         {
-          "name": "1 Map the current process",
-          "a": "Draw what actually happens, not what the manual says",
-          "b": "The flowchart of Chapter 7"
+          "label": "1 Map the current process",
+          "right": "Draw what actually happens, not what the manual says",
+          "why": "What it involves: Draw what actually happens, not what the manual says. The flowchart of Chapter 7."
         },
         {
-          "name": "2 Measure it",
-          "a": "Volumes, time taken, error rates, cost per transaction",
-          "b": "Two days a month reconciling systems"
+          "label": "2 Measure it",
+          "right": "Volumes, time taken, error rates, cost per transaction",
+          "why": "What it involves: Volumes, time taken, error rates, cost per transaction. Two days a month reconciling systems."
         },
         {
-          "name": "3 Find the waste",
-          "a": "Steps that add no value, rework, waiting, duplicate handling",
-          "b": "The same hours keyed into two systems"
+          "label": "3 Find the waste",
+          "right": "Steps that add no value, rework, waiting, duplicate handling",
+          "why": "What it involves: Steps that add no value, rework, waiting, duplicate handling. The same hours keyed into two systems."
         },
         {
-          "name": "4 Design the improved process",
-          "a": "Remove the waste, then decide what to automate",
-          "b": "One entry, read by every module"
+          "label": "4 Design the improved process",
+          "right": "Remove the waste, then decide what to automate",
+          "why": "What it involves: Remove the waste, then decide what to automate. One entry, read by every module."
         },
         {
-          "name": "5 Implement and measure again",
-          "a": "Prove the change worked, or find out why it did not",
-          "b": "Compare the new cycle time with the old"
+          "label": "5 Implement and measure again",
+          "right": "Prove the change worked, or find out why it did not",
+          "why": "What it involves: Prove the change worked, or find out why it did not. Compare the new cycle time with the old."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The steps of business process analysis",
+      "from": [
+        "F412-03",
+        "12.2/t:step-in-business"
+      ]
     },
     {
       "id": "sc412-3",
@@ -87,6 +89,9 @@
           "text": "Robots cannot be reprogrammed",
           "why": "They can be, at a cost."
         }
+      ],
+      "from": [
+        "12.2/section-check"
       ]
     },
     {
@@ -112,6 +117,9 @@
           "text": "what competitors do",
           "why": "Benchmarking is a different exercise."
         }
+      ],
+      "from": [
+        "12.2/section-check"
       ]
     }
   ]

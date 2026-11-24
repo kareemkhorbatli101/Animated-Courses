@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P312-01–P312-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "varSplit"
   },

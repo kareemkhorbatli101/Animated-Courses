@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the tahini cash budget for the second quarter",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cashLoop"
+  },
+  "scenario": {
+    "title": "Case question: the tahini cash budget for the second quarter",
+    "p": [
+      "Tahini & Spreads sells most of its jars on credit to Barada, the Gulf importer and the supermarkets. It collects most of each quarter's sales in the same quarter and the rest in the next. It buys sesame paste by sea and pays the supplier half in the quarter of purchase and half in the next. Wages, jars and the variable costs of running the line are paid in the quarter they arise, and the fixed costs of the plant and the sales team are paid evenly through the year.",
+      "In the second quarter, the division will also pay for a new sesame mixer. The controller, Rana, must prepare the cash budget for the quarter and tell the division manager, Samir, whether the division will need to borrow to keep its minimum cash balance. Head office wants to know at once if the division will need a loan, because its own cash is planned around the summer season.",
+      "The new assistant has prepared a first draft. It includes the depreciation of the plant in the cash payments and uses the sales for the quarter as the cash collected. Rana must correct both errors before the meeting.",
+      "Samir also asks what would happen to cash if the supermarkets were given longer to pay, as they have requested."
+    ]
   },
   "scenes": [
     {
@@ -96,7 +105,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F309-15",
+        "Practice/t:tahini-spreads-d"
+      ]
     },
     {
       "id": "c309-1",
@@ -123,30 +136,34 @@
         {
           "name": "Collections from the Gulf importer",
           "to": "cash-receipt",
-          "why": "It is linked to every other budget."
+          "why": "Item: Cash receipt. It is linked to every other budget."
         },
         {
           "name": "Payment for the new mixer",
           "to": "cash-disbursement",
-          "why": "It is linked to every other budget."
+          "why": "Item: Cash disbursement. It is linked to every other budget."
         },
         {
           "name": "Depreciation of the tahini plant",
           "to": "not-in-the-cash-budget",
-          "why": "It is linked to every other budget."
+          "why": "Item: Not in the cash budget. It is linked to every other budget."
         },
         {
           "name": "Wages of the filling team",
           "to": "cash-disbursement",
-          "why": "It is linked to every other budget."
+          "why": "Item: Cash disbursement. It is linked to every other budget."
         },
         {
           "name": "Sales made but not yet collected",
           "to": "not-in-the-cash-budget",
-          "why": "It is linked to every other budget."
+          "why": "Item: Not in the cash budget. It is linked to every other budget."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c309-2",

@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the backup in the server room",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "siteTiers"
+  },
+  "scenario": {
+    "title": "Case question: the backup in the server room",
+    "p": [
+      "Orontes keeps every backup copy on a dedicated server standing beside the live machines in the head office server room. Copies are taken nightly. The Gulf expansion means that export orders will arrive over the internet from distributors in Saudi Arabia and the United Arab Emirates, rather than by telephone as now. The server room has a single smoke detector and no suppression system, and the building has flooded once in the past five years.",
+      "The IT manager has proposed buying a next-generation firewall and says that this will secure the new arrangement. He has also suggested that encryption is unnecessary because the firewall will block anyone who should not be connecting.",
+      "A business impact analysis has been completed. It finds that the plant control system cannot stop for more than four hours, that the payables system can wait a working day, and that management reporting can wait two weeks. No alternate site has been arranged for any of them.",
+      "Rania, the controller, has been asked to advise the board on the firewall proposal, on the encryption question, on the backup arrangement, and on what alternate site each of the three systems needs."
+    ],
+    "note": "Use the scenario above for items C408-1 to C408-7."
   },
   "scenes": [
     {
@@ -38,20 +48,25 @@
         {
           "name": "Plant control, four hours",
           "to": "hot-site",
-          "why": "The recovery time objective is the longest the business can be without the system."
+          "why": "System: Hot site. The recovery time objective is the longest the business can be without the system."
         },
         {
           "name": "Payables, one working day",
           "to": "warm-site",
-          "why": "The recovery time objective is the longest the business can be without the system."
+          "why": "System: Warm site. The recovery time objective is the longest the business can be without the system."
         },
         {
           "name": "Management reporting, two weeks",
           "to": "cold-site",
-          "why": "The recovery time objective is the longest the business can be without the system."
+          "why": "System: Cold site. The recovery time objective is the longest the business can be without the system."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:system-category",
+        "Practice/t:system-category#2",
+        "Answers and explanations/t:system-category"
+      ]
     },
     {
       "id": "c408-2",

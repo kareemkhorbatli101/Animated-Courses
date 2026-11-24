@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The challenges",
   "n": "14.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.2"),
   "brief": {
     "about": "Figure F414-03 sets out the six challenges the exam expects, each illustrated from work this book has already done. The first remains the largest. Preparation routinely consumes most of the effort in a mining project. Chapter 11 showed why: duplicates, missing values and outliers each demand a judgement, and the judgements change the answer. The last is the one nobody warns about.",
     "anim": "edaLook",
@@ -27,47 +27,49 @@
   "scenes": [
     {
       "id": "fig-f414-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F414-03",
       "title": "The challenges of data mining",
-      "say": "The challenges of data mining",
-      "caption": "Challenge (F.4.h)",
-      "col1": "Why it is hard",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Challenge (F.4.h)",
+      "col": "Why it is hard",
       "rows": [
         {
-          "name": "Data quality",
-          "a": "Poor data yields a confident wrong answer",
-          "b": "Chapter 11's three spellings and missing dates"
+          "label": "Data quality",
+          "right": "Poor data yields a confident wrong answer",
+          "why": "Why it is hard: Poor data yields a confident wrong answer. Chapter 11's three spellings and missing dates."
         },
         {
-          "name": "Size and cost",
-          "a": "Large datasets need storage, tools and time",
-          "b": "Three years of order lines across three systems"
+          "label": "Size and cost",
+          "right": "Large datasets need storage, tools and time",
+          "why": "Why it is hard: Large datasets need storage, tools and time. Three years of order lines across three systems."
         },
         {
-          "name": "Privacy and law",
-          "a": "Personal data constrains what may be held and used",
-          "b": "Jordan's law, applied since 2025"
+          "label": "Privacy and law",
+          "right": "Personal data constrains what may be held and used",
+          "why": "Why it is hard: Personal data constrains what may be held and used. Jordan's law, applied since 2025."
         },
         {
-          "name": "Spurious findings",
-          "a": "More variables mean more coincidences",
-          "b": "Cases against staff birthdays"
+          "label": "Spurious findings",
+          "right": "More variables mean more coincidences",
+          "why": "Why it is hard: More variables mean more coincidences. Cases against staff birthdays."
         },
         {
-          "name": "Overfitting",
-          "a": "A model that fits this data perfectly may predict nothing",
-          "b": "Chapter 16 returns to this"
+          "label": "Overfitting",
+          "right": "A model that fits this data perfectly may predict nothing",
+          "why": "Why it is hard: A model that fits this data perfectly may predict nothing. Chapter 16 returns to this."
         },
         {
-          "name": "Knowing when to stop",
-          "a": "There is always another cut of the data",
-          "b": "Two weeks of analysis for a decision due Friday"
+          "label": "Knowing when to stop",
+          "right": "There is always another cut of the data",
+          "why": "Why it is hard: There is always another cut of the data. Two weeks of analysis for a decision due Friday."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The challenges of data mining",
+      "from": [
+        "F414-03",
+        "14.2/t:challenge-f-4-h"
+      ]
     },
     {
       "id": "sc414-3",
@@ -92,6 +94,9 @@
           "text": "Buying storage",
           "why": "A procurement matter."
         }
+      ],
+      "from": [
+        "14.2/section-check"
       ]
     },
     {
@@ -117,6 +122,9 @@
           "text": "Data becomes stale",
           "why": "Staleness is a different problem."
         }
+      ],
+      "from": [
+        "14.2/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Residual income",
   "n": "17.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.3"),
   "brief": {
     "about": "Residual income (RI) is operating income less a capital charge: the required rate of return multiplied by the investment base. It answers a different question: how much did the division earn above the cost of the capital it used? Residual income is an amount, not a percentage, so a large division will usually show more of it than a small one.",
     "anim": "roiTree",
@@ -35,6 +35,9 @@
       }
     ]
   },
+  "from": [
+    "17.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-06",
@@ -99,6 +102,10 @@
             "c4"
           ]
         }
+      ],
+      "from": [
+        "F317-06",
+        "17.3/t:division-2028-op"
       ]
     },
     {
@@ -140,6 +147,11 @@
           },
           "why": "Residual income: $840,000 ÷ $6,000,000 = 14.0%."
         }
+      ],
+      "from": [
+        "17.3/your-turn",
+        "F317-07",
+        "17.3/t:division-2028-op#2"
       ]
     },
     {
@@ -166,7 +178,10 @@
           "why": "The charge is not deducted."
         }
       ],
-      "exhibit": "Operating income is $840,000, assets $6,000,000 and the required return 12%."
+      "exhibit": "Operating income is $840,000, assets $6,000,000 and the required return 12%.",
+      "from": [
+        "17.3/section-check"
+      ]
     },
     {
       "id": "sc317-6",
@@ -192,7 +207,10 @@
           "why": "True here, but not shown by these amounts."
         }
       ],
-      "exhibit": "Beverages shows residual income of $1,740,000 and Tahini & Spreads $120,000."
+      "exhibit": "Beverages shows residual income of $1,740,000 and Tahini & Spreads $120,000.",
+      "from": [
+        "17.3/section-check"
+      ]
     }
   ]
 };

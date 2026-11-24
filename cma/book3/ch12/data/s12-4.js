@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Direct labor variances",
   "n": "12.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.4"),
   "brief": {
     "about": "Labor uses the same frame, with hours instead of liters and a wage rate instead of a price. Figure F312-08 shows the June figures: 3,680 hours worked against 3,600 allowed. The Tahini figures show a pattern worth noticing: the sesame price variance is favorable while the usage variance is unfavorable. Section 12.5 explains why the two often move together.",
     "anim": "varSplit",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "12.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f312-08",
       "kind": "figure",
       "file": "F312-08.png",
       "label": "Figure F312-08.",
-      "caption": "The three columns applied to direct labor."
+      "caption": "The three columns applied to direct labor.",
+      "from": [
+        "F312-08"
+      ]
     },
     {
       "id": "num-09",
@@ -61,6 +67,10 @@
           "answer": "12.1",
           "why": "Actual rate an hour: $12.10."
         }
+      ],
+      "from": [
+        "F312-09",
+        "12.4/t:direct-labor-jun"
       ]
     },
     {
@@ -111,7 +121,11 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F312-10",
+        "12.4/t:direct-labor-jun#2"
+      ]
     },
     {
       "id": "fig-f312-11",
@@ -160,7 +174,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F312-11",
+        "12.4/t:tahini-spreads-s",
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "yourturn",
@@ -213,7 +233,15 @@
           "prompt": "(1,350 − 1,320) × $15.00 ="
         }
       ],
-      "caption": "Your turn: the labor variances (complete the blanks)"
+      "caption": "Your turn: the labor variances (complete the blanks)",
+      "from": [
+        "12.4/your-turn",
+        "F312-10",
+        "12.4/t:direct-labor-jun#2",
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "sc312-7",
@@ -239,7 +267,10 @@
           "why": "This is the total variance."
         }
       ],
-      "exhibit": "Actual labor: 3,680 hours at $12.10. Standard: $12.00 an hour, 3,600 hours allowed."
+      "exhibit": "Actual labor: 3,680 hours at $12.10. Standard: $12.00 an hour, 3,600 hours allowed.",
+      "from": [
+        "12.4/section-check"
+      ]
     },
     {
       "id": "sc312-8",
@@ -264,6 +295,9 @@
           "why": "Extra hours × standard rate.",
           "correct": true
         }
+      ],
+      "from": [
+        "12.4/section-check"
       ]
     }
   ]

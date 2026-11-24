@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Prenumbered forms and authority limits",
   "n": "3.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.5"),
   "brief": {
     "about": "A prenumbered form carries a sequential number printed before use. Figure F403-07 shows why that simple feature is a control. The sequence makes completeness testable. Anyone can account for the numbers used, and a gap is a question that somebody must answer. Without it, a document that was destroyed, or never raised at all, leaves no trace. Authority limits work the same way from the other direction.",
     "anim": "prenumber",
@@ -33,6 +33,9 @@
       "caption": "How a prenumbered sequence exposes a missing document.",
       "traps": [
         "without-it"
+      ],
+      "from": [
+        "F403-07"
       ]
     },
     {
@@ -59,7 +62,10 @@
           "why": "Payment is a separate matter."
         }
       ],
-      "exhibit": "Goods received notes are prenumbered and note 1005 is missing from the file."
+      "exhibit": "Goods received notes are prenumbered and note 1005 is missing from the file.",
+      "from": [
+        "3.5/section-check"
+      ]
     },
     {
       "id": "sc403-10",
@@ -84,6 +90,9 @@
           "why": "They make it possible to account for every document.",
           "correct": true
         }
+      ],
+      "from": [
+        "3.5/section-check"
       ]
     }
   ]

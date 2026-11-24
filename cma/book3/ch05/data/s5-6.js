@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 5A: the 2028 budget review",
   "n": "5.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.6"),
   "brief": {
     "about": "This example follows the controller's report to the board on the budget systems used for 2028. It is exam-core. Figure F305-13 gives the system or method used for each area and its result. The controller recommends adopting the zero-based head-office budget, the rolling sales forecast and the flexible plant budget. She also recommends approving the price rise if a market test confirms the volume loss.",
     "anim": "flexLine",
@@ -51,6 +51,9 @@
       }
     ]
   },
+  "from": [
+    "5.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-13",
@@ -102,6 +105,85 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F305-13",
+        "5.6/t:area-system-or-m",
+        "5.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t5-6-0",
+      "kind": "lines",
+      "kicker": "Section 5.6",
+      "title": "Need",
+      "caption": "Need",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Justify head-office charges that have grown for years",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Keep sales plans a year ahead in a fast-changing market",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Judge costs fairly when volume differs from the plan",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Review whether each support activity is still needed",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:need-category",
+        "Answers and explanations/t:need-category"
+      ]
+    },
+    {
+      "id": "t5-6-1",
+      "kind": "lines",
+      "kicker": "Section 5.6",
+      "title": "Need",
+      "caption": "Need",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Justify head-office charges that have grown for years",
+          "a": "Zero-based budget",
+          "b": ""
+        },
+        {
+          "name": "Keep sales plans a year ahead in a fast-changing market",
+          "a": "Rolling budget",
+          "b": ""
+        },
+        {
+          "name": "Judge costs fairly when volume differs from the plan",
+          "a": "Flexible budget",
+          "b": ""
+        },
+        {
+          "name": "Review whether each support activity is still needed",
+          "a": "Zero-based budget",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:need-category",
+        "Answers and explanations/t:need-category"
       ]
     },
     {
@@ -147,7 +229,10 @@
           "why": "This is sales."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "5.6/section-check"
+      ]
     },
     {
       "id": "sc305-12",
@@ -173,7 +258,10 @@
           "why": "The annual budget is kept for evaluation."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "5.6/section-check"
+      ]
     }
   ]
 };

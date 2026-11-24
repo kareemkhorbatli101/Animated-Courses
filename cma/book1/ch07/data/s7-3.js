@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Cost flow assumptions",
   "n": "7.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.3"),
   "brief": {
     "about": "Unit costs change during the year. When a company sells some units and keeps others, it must decide which costs go to cost of goods sold and which stay in ending inventory. This decision is a cost flow assumption. It does not need to match the physical flow of the goods. Every method starts from the same total, the cost of goods available for sale:",
     "anim": "layers",
@@ -43,6 +43,13 @@
         ]
       },
       {
+        "h": "No LIFO under IFRS",
+        "box": "ifrs",
+        "p": [
+          "IAS 2 allows FIFO and the weighted average, and it requires specific identification for items that are not interchangeable. It does not allow LIFO. Cedar Retail, our IFRS company, therefore uses FIFO. You will compare the two frameworks again in Chapter 17."
+        ]
+      },
+      {
         "h": "Talking about time and order",
         "box": "language",
         "p": [
@@ -53,20 +60,31 @@
       }
     ]
   },
+  "from": [
+    "7.3/ifrs-contrast",
+    "7.3/language-focus",
+    "7.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f07-04",
       "kind": "figure",
       "file": "F07-04.png",
       "label": "Figure F07-04.",
-      "caption": "Cost layers for Orontes olive oil under FIFO, LIFO and weighted average (periodic)."
+      "caption": "Cost layers for Orontes olive oil under FIFO, LIFO and weighted average (periodic).",
+      "from": [
+        "F07-04"
+      ]
     },
     {
       "id": "fig-f07-06",
       "kind": "figure",
       "file": "F07-06.png",
       "label": "Figure F07-06.",
-      "caption": "Faded example: periodic LIFO for Dubai pastry trays; the learner completes the dashed boxes."
+      "caption": "Faded example: periodic LIFO for Dubai pastry trays; the learner completes the dashed boxes.",
+      "from": [
+        "F07-06"
+      ]
     },
     {
       "id": "fig-f07-05",
@@ -109,6 +127,43 @@
             "274,367"
           ]
         }
+      ],
+      "from": [
+        "7.3/t:method-ending-in",
+        "F07-05",
+        "7.3/t:method-periodic"
+      ]
+    },
+    {
+      "id": "t7-3-1",
+      "kind": "match",
+      "kicker": "Section 7.3",
+      "title": "Method",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Method",
+      "col": "Ending inventory (cases left)",
+      "rows": [
+        {
+          "label": "FIFO",
+          "right": "the newest costs: 2,000 × $50",
+          "why": "Ending inventory (cases left): the newest costs: 2,000 × $50. 100,000. 272,000."
+        },
+        {
+          "label": "LIFO",
+          "right": "the oldest costs: 1,000 × $40 + 1,000 × $44",
+          "why": "Ending inventory (cases left): the oldest costs: 1,000 × $40 + 1,000 × $44. 84,000. 288,000."
+        },
+        {
+          "label": "Weighted average",
+          "right": "2,000 × $46.50 (= 372,000 ÷ 8,000)",
+          "why": "Ending inventory (cases left): 2,000 × $46.50 (= 372,000 ÷ 8,000). 93,000. 279,000."
+        }
+      ],
+      "traps": [
+        "talking-about-time-and-order"
+      ],
+      "from": [
+        "7.3/t:method-ending-in"
       ]
     },
     {
@@ -174,8 +229,10 @@
         }
       ],
       "caption": "Faded example: periodic LIFO for Dubai pastry trays; the learner completes the dashed boxes.",
-      "traps": [
-        "talking-about-time-and-order"
+      "from": [
+        "7.3/your-turn",
+        "F07-06",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -201,6 +258,9 @@
           "why": "LIFO sends the newest costs to cost of goods sold, so the oldest costs stay in inventory.",
           "correct": true
         }
+      ],
+      "from": [
+        "7.3/section-check"
       ]
     },
     {
@@ -227,7 +287,10 @@
           "why": "This is the latest unit cost."
         }
       ],
-      "say": "What is the weighted-average cost per case of olive oil in the Orontes example?"
+      "say": "What is the weighted-average cost per case of olive oil in the Orontes example?",
+      "from": [
+        "7.3/section-check"
+      ]
     }
   ]
 };

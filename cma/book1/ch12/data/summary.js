@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "refinance"
+    "anim": "refinance",
+    "about": "Figure F12-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Current liabilities are settled with current assets or new current liabilities and are shown at the amount to be paid. Withholdings and taxes collected are owed to the government; employer payroll taxes are expenses; vested absences are accrued. Short-term debt may be shown as noncurrent only if the company intends to refinance it and, before the statements are issued, refinances it or signs a qualifying agreement, up to the amount raised or available. IFRS looks only at rights at the reporting date. Assurance-type warranties are accrued as an expense at the sale; service-type warranties create a contract liability that is earned over the coverage period."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F12-12.png",
       "label": "Figure F12-12.",
       "caption": "Chapter 12 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F12-12"
+      ]
     },
     {
       "id": "rules",

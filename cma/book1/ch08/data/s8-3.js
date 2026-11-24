@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The retail inventory method and the gross profit method",
   "n": "8.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.3"),
   "brief": {
     "about": "Retailers sell thousands of items. They know the selling price of every item on the shelf, but tracking the cost of each one is expensive. The retail inventory method estimates ending inventory at cost from retail prices. It uses a cost-to-retail ratio: goods available at cost divided by goods available at retail. Retail prices change during the year. A markup raises the selling price above the original retail price.",
     "anim": "retail",
@@ -43,20 +43,80 @@
       }
     ]
   },
+  "from": [
+    "8.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f08-06",
       "kind": "figure",
       "file": "F08-06.png",
       "label": "Figure F08-06.",
-      "caption": "Retail method worksheet for Orontes Farm Shops: conventional and average-cost ratios."
+      "caption": "Retail method worksheet for Orontes Farm Shops: conventional and average-cost ratios.",
+      "from": [
+        "F08-06"
+      ]
     },
     {
       "id": "fig-f08-07",
       "kind": "figure",
       "file": "F08-07.png",
       "label": "Figure F08-07.",
-      "caption": "Faded retail worksheet for the Dubai shop; the learner fills in the dashed boxes."
+      "caption": "Faded retail worksheet for the Dubai shop; the learner fills in the dashed boxes.",
+      "from": [
+        "F08-07"
+      ]
+    },
+    {
+      "id": "t8-3-0",
+      "kind": "lines",
+      "kicker": "Section 8.3",
+      "title": "Item",
+      "caption": "Item",
+      "col1": "Cost column",
+      "col2": "Retail column",
+      "rows": [
+        {
+          "name": "Freight-in",
+          "a": "add",
+          "b": "—"
+        },
+        {
+          "name": "Purchase returns",
+          "a": "deduct",
+          "b": "deduct"
+        },
+        {
+          "name": "Purchase discounts",
+          "a": "deduct",
+          "b": "—"
+        },
+        {
+          "name": "Net markups",
+          "a": "—",
+          "b": "add (before the ratio)"
+        },
+        {
+          "name": "Net markdowns",
+          "a": "—",
+          "b": "deduct (after the conventional ratio)"
+        },
+        {
+          "name": "Net sales",
+          "a": "—",
+          "b": "deduct"
+        },
+        {
+          "name": "Normal shrinkage and employee discounts",
+          "a": "—",
+          "b": "deduct (after the ratio)"
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "8.3/t:item-cost-column"
+      ]
     },
     {
       "id": "yourturn",
@@ -105,6 +165,12 @@
       "caption": "Faded retail worksheet for the Dubai shop; the learner fills in the dashed boxes.",
       "traps": [
         "markup-on-cost-is-not-a-margin-on-sale"
+      ],
+      "from": [
+        "8.3/your-turn",
+        "F08-07",
+        "8.3/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -130,6 +196,9 @@
           "text": "ignored completely.",
           "why": "Markdowns still reduce retail inventory; they are deducted after the ratio."
         }
+      ],
+      "from": [
+        "8.3/section-check"
       ]
     },
     {
@@ -156,7 +225,10 @@
           "why": "This uses the gross profit rate as the cost of goods sold rate."
         }
       ],
-      "exhibit": "Use the Jebel Ali fire example."
+      "exhibit": "Use the Jebel Ali fire example.",
+      "from": [
+        "8.3/section-check"
+      ]
     }
   ]
 };

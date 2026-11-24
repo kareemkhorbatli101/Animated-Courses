@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Integrated thinking, integrated reporting and the integrated report",
   "n": "18.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.1"),
   "brief": {
     "about": "Integrated thinking is the way management considers the relationships between the company's units and the resources, or capitals, that it uses and affects. It leads to decisions that consider value creation over the short, medium and long term. Integrated reporting is the process, founded on integrated thinking, that results in a periodic integrated report. The three ideas depend on each other.",
     "anim": "capitals",
@@ -49,7 +49,10 @@
           "why": "They are different ideas."
         }
       ],
-      "say": "Which statement correctly describes the relationship between the three ideas?"
+      "say": "Which statement correctly describes the relationship between the three ideas?",
+      "from": [
+        "18.1/section-check"
+      ]
     },
     {
       "id": "sc18-2",
@@ -74,6 +77,9 @@
           "text": "The SEC",
           "why": "The SEC does not issue the Framework."
         }
+      ],
+      "from": [
+        "18.1/section-check"
       ]
     }
   ]

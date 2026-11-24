@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Two ways to cost inventory",
   "n": "9.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.1"),
   "brief": {
     "about": "Absorption costing, also called full costing, treats all manufacturing costs as product costs, including fixed manufacturing overhead. Variable costing, also called direct costing, treats only variable manufacturing costs as product costs; fixed manufacturing overhead is a period cost. That is the only difference. Both methods treat materials, labor and variable overhead as product costs, and both expense all selling and administrative costs. U.S.",
     "anim": "absVar",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F209-02.png",
       "label": "Figure F209-02.",
-      "caption": "The path of fixed manufacturing overhead under the two methods."
+      "caption": "The path of fixed manufacturing overhead under the two methods.",
+      "from": [
+        "F209-02"
+      ]
     },
     {
       "id": "fig-f209-03",
@@ -70,7 +73,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F209-03",
+        "9.1/t:beverages-juice"
+      ]
     },
     {
       "id": "sc209-1",
@@ -98,6 +105,9 @@
       ],
       "traps": [
         "variable-costing-is-not-published"
+      ],
+      "from": [
+        "9.1/section-check"
       ]
     },
     {
@@ -124,7 +134,10 @@
           "why": "Administrative costs are period costs under both."
         }
       ],
-      "say": "Which cost is a product cost under absorption costing but a period cost under variable costing?"
+      "say": "Which cost is a product cost under absorption costing but a period cost under variable costing?",
+      "from": [
+        "9.1/section-check"
+      ]
     }
   ]
 };

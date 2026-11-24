@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "processMap"
   },
@@ -66,6 +66,9 @@
       "traps": [
         "after-launch-most-cost-is-committed",
         "committed-is-not-incurred"
+      ],
+      "from": [
+        "14.2/exam-trap"
       ]
     },
     {

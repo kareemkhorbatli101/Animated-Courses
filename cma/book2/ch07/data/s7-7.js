@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 7A: olive batch H-2711 through two departments",
   "n": "7.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.7"),
   "brief": {
     "about": "This example follows one batch from the olives to the finished bottles, records every entry by department and handles spoilage at the final inspection. It is for depth: the exam does not test process calculations, but the same spoilage rules are tested in job settings (Section 7.5 and the case set). Figure F207-10 shows the batch as a flow, with the journal entry numbers. Figure F207-12 posts the entries.",
     "anim": "equivUnits",
@@ -72,20 +72,29 @@
       }
     ]
   },
+  "from": [
+    "7.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f207-10",
       "kind": "figure",
       "file": "F207-10.png",
       "label": "Figure F207-10.",
-      "caption": "Extended Example: the batch cost flow with journal entry numbers."
+      "caption": "Extended Example: the batch cost flow with journal entry numbers.",
+      "from": [
+        "F207-10"
+      ]
     },
     {
       "id": "fig-f207-12",
       "kind": "figure",
       "file": "F207-12.png",
       "label": "Figure F207-12.",
-      "caption": "Extended Example: T-accounts for the batch, keyed to the journal."
+      "caption": "Extended Example: T-accounts for the batch, keyed to the journal.",
+      "from": [
+        "F207-12"
+      ]
     },
     {
       "id": "post-11",
@@ -318,6 +327,11 @@
       "logic": {},
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F207-11",
+        "7.7/t:no-account-detai",
+        "7.7/exam-trap"
       ]
     },
     {
@@ -338,6 +352,94 @@
           "answer": "1515800",
           "why": "Total: 1,515,800."
         }
+      ],
+      "from": [
+        "F207-13",
+        "7.7/t:bottling-departm"
+      ]
+    },
+    {
+      "id": "t7-7-0",
+      "kind": "lines",
+      "kicker": "Section 7.7",
+      "title": "May event",
+      "caption": "May event",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Spoiled jars on T-0412 (Barada's special tolerance)",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Normal spoiled jars common to all jobs",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Jars ruined in the power failure",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Rework on routine jobs",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Proceeds from scrap sold",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:may-event-catego",
+        "Answers and explanations/t:may-event-catego"
+      ]
+    },
+    {
+      "id": "t7-7-1",
+      "kind": "lines",
+      "kicker": "Section 7.7",
+      "title": "May event",
+      "caption": "May event",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Spoiled jars on T-0412 (Barada's special tolerance)",
+          "a": "Cost of the specific job",
+          "b": ""
+        },
+        {
+          "name": "Normal spoiled jars common to all jobs",
+          "a": "Manufacturing Overhead Control",
+          "b": ""
+        },
+        {
+          "name": "Jars ruined in the power failure",
+          "a": "Loss from abnormal spoilage",
+          "b": ""
+        },
+        {
+          "name": "Rework on routine jobs",
+          "a": "Manufacturing Overhead Control",
+          "b": ""
+        },
+        {
+          "name": "Proceeds from scrap sold",
+          "a": "Manufacturing Overhead Control",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:may-event-catego",
+        "Answers and explanations/t:may-event-catego"
       ]
     },
     {
@@ -388,7 +490,10 @@
           "why": "Disposal value reduces the loss; it does not create it."
         }
       ],
-      "say": "In the Extended Example, why is the cost of the abnormally spoiled liters recorded as a loss?"
+      "say": "In the Extended Example, why is the cost of the abnormally spoiled liters recorded as a loss?",
+      "from": [
+        "7.7/section-check"
+      ]
     },
     {
       "id": "sc207-14",
@@ -413,6 +518,9 @@
           "why": "Normal spoilage is part of the cost of good output.",
           "correct": true
         }
+      ],
+      "from": [
+        "7.7/section-check"
       ]
     }
   ]

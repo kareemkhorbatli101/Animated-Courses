@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Just-in-time systems",
   "n": "17.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.4"),
   "brief": {
     "about": "Just-in-time (JIT) is a pull system. Materials arrive and products are made only when the next step, or the customer, asks for them. Figure F217-07 compares push and pull. JIT needs reliable suppliers, short setups and good quality, because there is almost no stock to hide problems. Figure F217-08 lists the operational benefits for the Beverages division.",
     "anim": "pullPush",
@@ -36,44 +36,51 @@
       "kind": "figure",
       "file": "F217-07.png",
       "label": "Figure F217-07.",
-      "caption": "Push and pull systems compared."
+      "caption": "Push and pull systems compared.",
+      "from": [
+        "F217-07"
+      ]
     },
     {
       "id": "fig-f217-08",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F217-08",
       "title": "Operational benefits of JIT for the Beverages division",
-      "say": "Operational benefits of JIT for the Beverages division",
-      "caption": "JIT benefit",
-      "col1": "Beverages example",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "JIT benefit",
+      "col": "Beverages example",
       "rows": [
         {
-          "name": "Lower inventory",
-          "a": "Bottle stock falls from a month to a day",
-          "b": ""
+          "label": "Lower inventory",
+          "right": "Bottle stock falls from a month to a day",
+          "why": "Beverages example: Bottle stock falls from a month to a day."
         },
         {
-          "name": "Less space",
-          "a": "The rented bottle store is given up",
-          "b": ""
+          "label": "Less space",
+          "right": "The rented bottle store is given up",
+          "why": "Beverages example: The rented bottle store is given up."
         },
         {
-          "name": "Faster response",
-          "a": "Production follows actual orders",
-          "b": ""
+          "label": "Faster response",
+          "right": "Production follows actual orders",
+          "why": "Beverages example: Production follows actual orders."
         },
         {
-          "name": "Higher quality. Problems show quickly, before large stocks are made",
-          "note": true
+          "label": "Higher quality",
+          "right": "Problems show quickly, before large stocks are made",
+          "why": "Beverages example: Problems show quickly, before large stocks are made."
         },
         {
-          "name": "Closer suppliers. Daily deliveries need a reliable partner (Jordan Glass)",
-          "note": true
+          "label": "Closer suppliers",
+          "right": "Daily deliveries need a reliable partner (Jordan Glass)",
+          "why": "Beverages example: Daily deliveries need a reliable partner (Jordan Glass)."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Operational benefits of JIT for the Beverages division",
+      "from": [
+        "F217-08",
+        "17.4/t:jit-benefit-beve"
+      ]
     },
     {
       "id": "sc217-7",
@@ -98,6 +105,9 @@
           "text": "the month ends",
           "why": "Timing follows demand."
         }
+      ],
+      "from": [
+        "17.4/section-check"
       ]
     },
     {
@@ -123,6 +133,9 @@
           "text": "Because JIT uses forecasts",
           "why": "JIT follows actual demand."
         }
+      ],
+      "from": [
+        "17.4/section-check"
       ]
     }
   ]

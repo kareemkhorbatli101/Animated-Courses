@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "costLine"
   },
@@ -64,6 +64,9 @@
       ],
       "traps": [
         "high-activity-not-high-cost"
+      ],
+      "from": [
+        "3.2/exam-trap"
       ]
     },
     {

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Analysing the external environment",
   "n": "2.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.1"),
   "brief": {
     "about": "External factors are outside the company's control. They create opportunities to use and threats to defend against. A PEST analysis reviews four groups of them: political, economic, social and technological factors. Figure F302-02 applies it to tahini exports. Porter's five forces describe the industry itself: new entrants, suppliers, buyers, substitutes and rivalry. The stronger the forces, the harder it is to earn a good profit.",
     "anim": "swotGrid",
@@ -30,14 +30,20 @@
       "kind": "figure",
       "file": "F302-02.png",
       "label": "Figure F302-02.",
-      "caption": "PEST analysis for Orontes tahini exports."
+      "caption": "PEST analysis for Orontes tahini exports.",
+      "from": [
+        "F302-02"
+      ]
     },
     {
       "id": "fig-f302-03",
       "kind": "figure",
       "file": "F302-03.png",
       "label": "Figure F302-03.",
-      "caption": "Porter's five forces in Jordan's juice market."
+      "caption": "Porter's five forces in Jordan's juice market.",
+      "from": [
+        "F302-03"
+      ]
     },
     {
       "id": "sc302-1",
@@ -65,6 +71,10 @@
       ],
       "traps": [
         "strong-forces-weak-industry"
+      ],
+      "from": [
+        "2.1/exam-trap",
+        "2.1/section-check"
       ]
     },
     {
@@ -91,7 +101,10 @@
           "why": "Substitutes are other products."
         }
       ],
-      "exhibit": "Supermarket chains buy most of Orontes's juice and can easily switch suppliers."
+      "exhibit": "Supermarket chains buy most of Orontes's juice and can easily switch suppliers.",
+      "from": [
+        "2.1/section-check"
+      ]
     }
   ]
 };

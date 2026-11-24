@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The cost hierarchy",
   "n": "12.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.3"),
   "brief": {
     "about": "ABC groups activities by what causes them. Unit-level costs rise with every unit, like packing hours. Batch-level costs rise with each batch, like setups, whatever the batch size. Product-sustaining costs support one product line, such as its recipe design. Facility-sustaining costs keep the whole site running, such as rent. Figure F212-05 places the five Pulses & Spices pools in the hierarchy. Facility-sustaining costs have no causal driver.",
     "anim": "abcLevels",
@@ -86,6 +86,10 @@
           },
           "why": "Level: Facility-sustaining."
         }
+      ],
+      "from": [
+        "F212-05",
+        "12.3/t:activity-level-d"
       ]
     },
     {
@@ -111,6 +115,9 @@
           "why": "Each setup costs the same whatever the batch size.",
           "correct": true
         }
+      ],
+      "from": [
+        "12.3/section-check"
       ]
     },
     {
@@ -136,6 +143,9 @@
           "text": "product-sustaining cost",
           "why": "It supports every product, not one."
         }
+      ],
+      "from": [
+        "12.3/section-check"
       ]
     }
   ]

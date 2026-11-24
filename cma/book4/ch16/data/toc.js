@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.5",
   "title": "Exploratory data analysis",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s16-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.6",
   "title": "Extended Example 16A: decomposing the Beverages series",
-  "blurb": "A printed statement, the tie lines, shares, questions · 5 scenes"
+  "blurb": "A printed statement, the tie lines, shares, questions · 8 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · congratulating the weather",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 2 scenes"
  },
  {
   "id": "review",

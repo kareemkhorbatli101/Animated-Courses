@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Comprehensive income",
   "n": "3.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.4"),
   "brief": {
     "about": "Some changes in value do not go through net income. U.S. GAAP sends them to other comprehensive income (OCI) until they are realized. Comprehensive income is net income plus OCI for the period. Orontes's available-for-sale debt securities lost $1,500 in fair value in 2025. After tax, the loss in OCI is $1,125, so comprehensive income is $2,969,100 − $1,125 = $2,967,975.",
     "anim": "oci",
@@ -21,9 +21,19 @@
           "Orontes's available-for-sale debt securities lost $1,500 in fair value in 2025. After tax, the loss in OCI is $1,125, so comprehensive income is $2,969,100 − $1,125 = $2,967,975. Companies show this in one continuous statement, as Orontes does, or in two consecutive statements. Showing OCI only in the statement of changes in equity is not allowed.",
           "OCI builds a balance in equity called accumulated other comprehensive income (AOCI). When an item is realized, for example when Orontes sells an AFS security, the gain or loss moves from AOCI into net income. This reclassification adjustment stops the same gain being counted twice. Figure F03-08 lists the main OCI items."
         ]
+      },
+      {
+        "h": "IFRS OCI never recycles some items",
+        "box": "ifrs",
+        "p": [
+          "Under IFRS, a revaluation surplus on PP&E, fair value changes on equity investments elected to OCI, and pension remeasurements stay in OCI forever. U.S. GAAP does not allow PP&E revaluation, and it reclassifies its OCI items to net income later."
+        ]
       }
     ]
   },
+  "from": [
+    "3.4/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "oci",
@@ -77,6 +87,11 @@
       "partition": true,
       "traps": [
         "comprehensive-income-traps"
+      ],
+      "from": [
+        "F03-08",
+        "3.4/t:item-u-s-gaap-if",
+        "3.4/exam-trap"
       ]
     },
     {
@@ -171,7 +186,10 @@
           "why": "This also adds unrealized gains on securities again, which are already in net income."
         }
       ],
-      "say": "Use Section 3.4. What is Orontes's comprehensive income for 2025 (whole USD)?"
+      "say": "Use Section 3.4. What is Orontes's comprehensive income for 2025 (whole USD)?",
+      "from": [
+        "3.4/section-check"
+      ]
     },
     {
       "id": "sc3-8",
@@ -196,6 +214,9 @@
           "text": "A gain on the sale of equipment",
           "why": "A realized gain on equipment is in net income."
         }
+      ],
+      "from": [
+        "3.4/section-check"
       ]
     }
   ]

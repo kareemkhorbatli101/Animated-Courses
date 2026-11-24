@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What consolidated statements are",
   "n": "16.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.1"),
   "brief": {
     "about": "Consolidated financial statements present a parent and its subsidiaries as a single economic entity. They are prepared mainly for the parent's shareholders and creditors, who need to see all the resources the group controls and all its obligations. A company consolidates another entity when it has a controlling financial interest in it. The part of a subsidiary's equity that the parent does not own is the noncontrolling interest (NCI).",
     "anim": "influence",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "16.1/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "sc16-1",
@@ -58,6 +61,9 @@
       ],
       "traps": [
         "minority-interest-int-r-ts-minoritaire"
+      ],
+      "from": [
+        "16.1/section-check"
       ]
     },
     {
@@ -83,6 +89,9 @@
           "why": "NCI is equity of the group.",
           "correct": true
         }
+      ],
+      "from": [
+        "16.1/section-check"
       ]
     }
   ]

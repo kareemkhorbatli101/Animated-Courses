@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the analyst who reported too early",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "relTable"
+  },
+  "scenario": {
+    "title": "Case question: the analyst who reported too early",
+    "p": [
+      "An analyst at Orontes has been asked whether the extra production shift in Beverages should continue to be scheduled to the promotion calendar. She has eight quarters of data: cases sold, average price, mean temperature and the number of promotion weeks. She has not previously worked with this dataset, and nobody has told her how the shift schedule is currently decided.",
+      "She ranks the quarters by cases and finds that the peak quarters are the third of each year, which are also the hottest. The promotion weeks in those quarters are not the highest in the dataset. She writes a note recommending that promotion spending be cut, because demand appears to follow the weather instead.",
+      "Before the note goes to the board, her manager asks whether the relationship has been tested. It has not. A regression is then fitted, and it shows that temperature is indeed the stronger driver but that promotion weeks also carry a positive and material coefficient.",
+      "Separately, the analyst has noticed that cases sold correlate with the number of pallets returned damaged, and has asked whether this should be investigated as a cause of demand."
+    ],
+    "note": "Use the scenario above for items C414-1 to C414-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "Asking whether the shift schedule should change",
           "to": "understand-the-business",
-          "why": "Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
+          "why": "Stage of the work: Understand the business. Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
         },
         {
           "name": "Transforming dates into quarters",
           "to": "prepare-the-data",
-          "why": "Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
+          "why": "Stage of the work: Prepare the data. Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
         },
         {
           "name": "Fitting the regression",
           "to": "model",
-          "why": "Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
+          "why": "Stage of the work: Model. Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
         },
         {
           "name": "Asking whether the relationship has been tested",
           "to": "evaluate",
-          "why": "Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
+          "why": "Stage of the work: Evaluate. Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:stage-of-the-wor",
+        "Practice/t:stage-of-the-wor#2",
+        "Answers and explanations/t:stage-of-the-wor"
+      ]
     },
     {
       "id": "c414-2",
@@ -86,7 +101,7 @@
           "why": "That limitation is not a weakness of the technique but of the data."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C414-1 to C414-7."
     },
     {
       "id": "c414-3",

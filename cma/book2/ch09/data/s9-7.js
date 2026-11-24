@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 9A: Beverages, 2027, both ways",
   "n": "9.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.7"),
   "brief": {
     "about": "This example records the year under both methods, follows finished goods and cost of goods sold, and shows how income responds to production. The statements and the reconciliation are exam-core; the entries are for depth. Record production and sales under each method, compare finished goods and cost of goods sold, prepare both statements and reconcile the incomes. Figure F209-10 records the year under absorption costing, and Figure F209-11 under variable costing.",
     "anim": "absVar",
@@ -71,20 +71,29 @@
       }
     ]
   },
+  "from": [
+    "9.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f209-12",
       "kind": "figure",
       "file": "F209-12.png",
       "label": "Figure F209-12.",
-      "caption": "Extended Example: finished goods and COGS under the two methods."
+      "caption": "Extended Example: finished goods and COGS under the two methods.",
+      "from": [
+        "F209-12"
+      ]
     },
     {
       "id": "fig-f209-13",
       "kind": "figure",
       "file": "F209-13.png",
       "label": "Figure F209-13.",
-      "caption": "Extended Example: operating income as production changes, sales held constant."
+      "caption": "Extended Example: operating income as production changes, sales held constant.",
+      "from": [
+        "F209-13"
+      ]
     },
     {
       "id": "post-10",
@@ -216,6 +225,11 @@
       "logic": {},
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F209-10",
+        "9.7/t:no-account-detai",
+        "9.7/exam-trap"
       ]
     },
     {
@@ -311,7 +325,105 @@
       "grid": false,
       "journalTitle": "Journal entries",
       "lures": {},
-      "logic": {}
+      "logic": {},
+      "from": [
+        "F209-11",
+        "9.7/t:no-account-detai#2"
+      ]
+    },
+    {
+      "id": "t9-7-0",
+      "kind": "lines",
+      "kicker": "Section 9.7",
+      "title": "Halva cost",
+      "caption": "Halva cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame and sugar",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the halva line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Variable selling cost",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Variable manufacturing overhead",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Fixed administrative salaries",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Halva line supervisor",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:halva-cost-categ",
+        "Answers and explanations/t:halva-cost-categ"
+      ]
+    },
+    {
+      "id": "t9-7-1",
+      "kind": "lines",
+      "kicker": "Section 9.7",
+      "title": "Halva cost",
+      "caption": "Halva cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame and sugar",
+          "a": "Product cost under both methods",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the halva line",
+          "a": "Product cost under absorption only",
+          "b": ""
+        },
+        {
+          "name": "Variable selling cost",
+          "a": "Period cost under both methods",
+          "b": ""
+        },
+        {
+          "name": "Variable manufacturing overhead",
+          "a": "Product cost under both methods",
+          "b": ""
+        },
+        {
+          "name": "Fixed administrative salaries",
+          "a": "Period cost under both methods",
+          "b": ""
+        },
+        {
+          "name": "Halva line supervisor",
+          "a": "Product cost under absorption only",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:halva-cost-categ",
+        "Answers and explanations/t:halva-cost-categ"
+      ]
     },
     {
       "id": "ties",
@@ -361,7 +473,10 @@
           "why": "This includes fixed overhead."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "9.7/section-check"
+      ]
     },
     {
       "id": "sc209-14",
@@ -387,7 +502,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "9.7/section-check"
+      ]
     }
   ]
 };

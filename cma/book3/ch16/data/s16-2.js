@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Five ways of setting the price",
   "n": "16.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.2"),
   "brief": {
     "about": "Companies set transfer prices in five ways: at the supplier's variable cost, at its full cost, at the market price, at a price the two managers negotiate, or at two different rates for the two sides. Figure F316-03 sets out the five methods, with the price each gives for a delivered case and what is good and bad about it. No method is right everywhere.",
     "anim": "respCenters",
@@ -37,6 +37,9 @@
       }
     ]
   },
+  "from": [
+    "16.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-03",
@@ -104,6 +107,11 @@
       ],
       "traps": [
         "the-company-column-never-moves"
+      ],
+      "from": [
+        "F316-03",
+        "16.2/t:method-c-2-i-pri",
+        "16.2/exam-trap"
       ]
     },
     {
@@ -163,6 +171,10 @@
             "c4": "6,930,000"
           }
         }
+      ],
+      "from": [
+        "F316-04",
+        "16.2/t:transfer-price-f"
       ]
     },
     {
@@ -222,6 +234,12 @@
             "c4": "6,930,000"
           }
         }
+      ],
+      "from": [
+        "16.2/your-turn",
+        "F316-05",
+        "16.2/t:transfer-price-f#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -247,6 +265,9 @@
           "text": "It takes a long time to negotiate",
           "why": "That is the negotiated method."
         }
+      ],
+      "from": [
+        "16.2/section-check"
       ]
     },
     {
@@ -273,7 +294,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Under dual-rate pricing the supplier is credited $1.10 and the buyer charged $0.50 for 900,000 cases."
+      "exhibit": "Under dual-rate pricing the supplier is credited $1.10 and the buyer charged $0.50 for 900,000 cases.",
+      "from": [
+        "16.2/section-check"
+      ]
     }
   ]
 };

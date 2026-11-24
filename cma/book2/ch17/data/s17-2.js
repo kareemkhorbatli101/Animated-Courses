@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Lean resource management",
   "n": "17.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.2"),
   "brief": {
     "about": "Lean resource management delivers value to customers with the least waste of time, materials, space and effort. It starts by seeing waste. Figure F217-03 lists the eight common wastes with an example from Orontes. Lean uses simple techniques to remove waste: tidy work areas, kanban signals that pull materials only when needed, quick changeovers, error-proofing and maps of each value stream. Figure F217-04 pairs each technique with its benefit.",
     "anim": "pullPush",
@@ -28,96 +28,100 @@
   "scenes": [
     {
       "id": "fig-f217-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F217-03",
       "title": "The eight wastes of lean, with Orontes examples",
-      "say": "The eight wastes of lean, with Orontes examples",
-      "caption": "Waste",
-      "col1": "Orontes example",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Waste",
+      "col": "Orontes example",
       "rows": [
         {
-          "name": "Overproduction",
-          "a": "Making juice before orders exist",
-          "b": ""
+          "label": "Overproduction",
+          "right": "Making juice before orders exist",
+          "why": "Orontes example: Making juice before orders exist."
         },
         {
-          "name": "Waiting",
-          "a": "Filling line idle during long changeovers",
-          "b": ""
+          "label": "Waiting",
+          "right": "Filling line idle during long changeovers",
+          "why": "Orontes example: Filling line idle during long changeovers."
         },
         {
-          "name": "Transport",
-          "a": "Moving pallets between two buildings",
-          "b": ""
+          "label": "Transport",
+          "right": "Moving pallets between two buildings",
+          "why": "Orontes example: Moving pallets between two buildings."
         },
         {
-          "name": "Over-processing",
-          "a": "Checking every invoice twice",
-          "b": ""
+          "label": "Over-processing",
+          "right": "Checking every invoice twice",
+          "why": "Orontes example: Checking every invoice twice."
         },
         {
-          "name": "Inventory",
-          "a": "A month of bottles in a rented store",
-          "b": ""
+          "label": "Inventory",
+          "right": "A month of bottles in a rented store",
+          "why": "Orontes example: A month of bottles in a rented store."
         },
         {
-          "name": "Motion",
-          "a": "Staff walking to fetch caps",
-          "b": ""
+          "label": "Motion",
+          "right": "Staff walking to fetch caps",
+          "why": "Orontes example: Staff walking to fetch caps."
         },
         {
-          "name": "Defects",
-          "a": "Under-filled jars, re-filtering",
-          "b": ""
+          "label": "Defects",
+          "right": "Under-filled jars, re-filtering",
+          "why": "Orontes example: Under-filled jars, re-filtering."
         },
         {
-          "name": "Unused skills",
-          "a": "Ignoring line workers' improvement ideas",
-          "b": ""
+          "label": "Unused skills",
+          "right": "Ignoring line workers' improvement ideas",
+          "why": "Orontes example: Ignoring line workers' improvement ideas."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The eight wastes of lean, with Orontes examples",
+      "from": [
+        "F217-03",
+        "17.2/t:waste-orontes-ex"
+      ]
     },
     {
       "id": "fig-f217-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F217-04",
       "title": "Lean techniques and their operational benefits",
-      "say": "Lean techniques and their operational benefits",
-      "caption": "Lean technique",
-      "col1": "What it does",
-      "col2": "Operational benefit",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Lean technique",
+      "col": "What it does",
       "rows": [
         {
-          "name": "5S (sort, set, shine, standardize, sustain)",
-          "a": "Tidy, organized work areas",
-          "b": "Less searching and motion"
+          "label": "5S (sort, set, shine, standardize, sustain)",
+          "right": "Tidy, organized work areas",
+          "why": "What it does: Tidy, organized work areas. Less searching and motion."
         },
         {
-          "name": "Kanban",
-          "a": "Signals pull materials when needed",
-          "b": "Less inventory"
+          "label": "Kanban",
+          "right": "Signals pull materials when needed",
+          "why": "What it does: Signals pull materials when needed. Less inventory."
         },
         {
-          "name": "Quick changeover",
-          "a": "Shorter setups (Chapter 16)",
-          "b": "Smaller batches, less waiting"
+          "label": "Quick changeover",
+          "right": "Shorter setups (Chapter 16)",
+          "why": "What it does: Shorter setups (Chapter 16). Smaller batches, less waiting."
         },
         {
-          "name": "Error-proofing",
-          "a": "Devices that stop mistakes",
-          "b": "Fewer defects"
+          "label": "Error-proofing",
+          "right": "Devices that stop mistakes",
+          "why": "What it does: Devices that stop mistakes. Fewer defects."
         },
         {
-          "name": "Value stream mapping",
-          "a": "Map of every step and wait",
-          "b": "Shows where waste is"
+          "label": "Value stream mapping",
+          "right": "Map of every step and wait",
+          "why": "What it does: Map of every step and wait. Shows where waste is."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Lean techniques and their operational benefits",
+      "from": [
+        "F217-04",
+        "17.2/t:lean-technique-w"
+      ]
     },
     {
       "id": "sc217-3",
@@ -145,6 +149,9 @@
       ],
       "traps": [
         "lean-is-not-cost-cutting"
+      ],
+      "from": [
+        "17.2/section-check"
       ]
     },
     {
@@ -170,6 +177,9 @@
           "text": "Larger batches",
           "why": "Lean favours smaller batches."
         }
+      ],
+      "from": [
+        "17.2/section-check"
       ]
     }
   ]

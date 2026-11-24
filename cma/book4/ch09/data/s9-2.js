@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The system within the value chain",
   "n": "9.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.2"),
   "brief": {
     "about": "The value chain divides a business into the primary activities that create the product and the support activities that make them possible. Figure F409-03 shows where the accounting information system sits. It is a support activity, and it is unusual among them because it touches every primary activity rather than one. Inbound logistics generates receipts, operations generates production records, sales generates invoices, and service generates warranty claims. Each becomes an entry.",
     "anim": "aisFlow",
@@ -33,6 +33,9 @@
       "caption": "The accounting information system within the value chain.",
       "traps": [
         "a-system-organised-only-around-the-led"
+      ],
+      "from": [
+        "F409-03"
       ]
     },
     {
@@ -58,6 +61,9 @@
           "why": "Each primary activity generates events it must record.",
           "correct": true
         }
+      ],
+      "from": [
+        "9.2/section-check"
       ]
     },
     {
@@ -83,6 +89,9 @@
           "text": "It is audited annually",
           "why": "Audit does not confer the view."
         }
+      ],
+      "from": [
+        "9.2/section-check"
       ]
     }
   ]

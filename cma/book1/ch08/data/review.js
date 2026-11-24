@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "retail"
   },
@@ -141,6 +141,9 @@
       "exhibit": "Cedar Retail S.A.L. reports under IFRS. Prices are rising, and it wants lower taxes.",
       "traps": [
         "recommendations-need-reasons"
+      ],
+      "from": [
+        "8.5/exam-trap"
       ]
     },
     {

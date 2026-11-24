@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Three measurement techniques",
   "n": "5.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.1"),
   "brief": {
     "about": "A product cost has three parts: direct materials, direct labor and overhead. The three techniques differ in how they measure each part. Actual costing uses actual amounts for all three. Normal costing uses actual direct costs but applies overhead with a predetermined rate. Standard costing uses standard quantities and prices for everything. Each technique suits a different need. The techniques measure cost; they do not collect it.",
     "anim": "rateFraction",
@@ -27,57 +27,43 @@
   "scenes": [
     {
       "id": "fig-f205-02",
-      "kind": "grid",
+      "kind": "match",
       "kicker": "Figure F205-02",
       "title": "Actual, normal and standard costing compared",
-      "say": "Actual, normal and standard costing compared",
-      "caption": "",
-      "cols": [
-        "Actual costing",
-        "Normal costing",
-        "Standard costing"
-      ],
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Normal costing",
       "rows": [
         {
-          "name": "Direct materials",
-          "cells": [
-            "Actual quantity × actual price",
-            "Actual quantity × actual price",
-            "Standard quantity allowed × standard price"
-          ]
+          "label": "Direct materials",
+          "right": "Actual quantity × actual price",
+          "why": "Normal costing: Actual quantity × actual price. Actual quantity × actual price. Standard quantity allowed × standard price."
         },
         {
-          "name": "Direct labor",
-          "cells": [
-            "Actual hours × actual rate",
-            "Actual hours × actual rate",
-            "Standard hours allowed × standard rate"
-          ]
+          "label": "Direct labor",
+          "right": "Actual hours × actual rate",
+          "why": "Normal costing: Actual hours × actual rate. Actual hours × actual rate. Standard hours allowed × standard rate."
         },
         {
-          "name": "Overhead",
-          "cells": [
-            "Actual overhead",
-            "Actual base × predetermined rate",
-            "Standard base allowed × standard rate"
-          ]
+          "label": "Overhead",
+          "right": "Actual base × predetermined rate",
+          "why": "Normal costing: Actual base × predetermined rate. Actual overhead. Standard base allowed × standard rate."
         },
         {
-          "name": "Unit cost known",
-          "cells": [
-            "After the period ends",
-            "When the work is done",
-            "Before production starts"
-          ]
+          "label": "Unit cost known",
+          "right": "When the work is done",
+          "why": "Normal costing: When the work is done. After the period ends. Before production starts."
         },
         {
-          "name": "Best use",
-          "cells": [
-            "Small firms; audit of results",
-            "Job shops; pricing during the year",
-            "Repetitive production; control through variances"
-          ]
+          "label": "Best use",
+          "right": "Job shops; pricing during the year",
+          "why": "Normal costing: Job shops; pricing during the year. Small firms; audit of results. Repetitive production; control through variances."
         }
+      ],
+      "caption": "Actual, normal and standard costing compared",
+      "from": [
+        "F205-02",
+        "5.1/t:actual-costing-n"
       ]
     },
     {
@@ -104,7 +90,10 @@
           "correct": true
         }
       ],
-      "say": "Which technique uses actual direct materials and direct labor but applies overhead with a predetermined rate?"
+      "say": "Which technique uses actual direct materials and direct labor but applies overhead with a predetermined rate?",
+      "from": [
+        "5.1/section-check"
+      ]
     },
     {
       "id": "sc205-2",
@@ -129,6 +118,9 @@
           "text": "Actual costing gives costs before production starts",
           "why": "Actual cost is known only after the period."
         }
+      ],
+      "from": [
+        "5.1/section-check"
       ]
     }
   ]

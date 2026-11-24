@@ -9,7 +9,7 @@
   "up": "../",
   "title": "ABC in service companies",
   "n": "13.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.1"),
   "brief": {
     "about": "A service company has no inventory of products, but it still performs activities: it takes orders, moves goods, answers calls and sends invoices. Most of its costs are overhead, so one volume rate can distort cost even more than in a factory. Levant Distribution, the Orontes subsidiary that distributes juices, is a good example. Its main activities are picking order lines, delivering to stops and invoicing.",
     "anim": "abcLevels",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F213-02.png",
       "label": "Figure F213-02.",
-      "caption": "ABC in a service company: a distributor's activities and customers."
+      "caption": "ABC in a service company: a distributor's activities and customers.",
+      "from": [
+        "F213-02"
+      ]
     },
     {
       "id": "sc213-1",
@@ -58,6 +61,10 @@
       ],
       "traps": [
         "abc-is-not-only-for-factories"
+      ],
+      "from": [
+        "13.1/exam-trap",
+        "13.1/section-check"
       ]
     },
     {
@@ -84,7 +91,10 @@
           "why": "The rate is applied twice."
         }
       ],
-      "exhibit": "Levant picks order lines at $2 a line. A customer orders 5,000 lines."
+      "exhibit": "Levant picks order lines at $2 a line. A customer orders 5,000 lines.",
+      "from": [
+        "13.1/section-check"
+      ]
     }
   ]
 };

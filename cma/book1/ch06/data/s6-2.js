@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The allowance for credit losses",
   "n": "6.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.2"),
   "brief": {
     "about": "Under current expected credit losses (CECL), a company presents its receivables net of an allowance that covers all the credit losses it expects over their life. It records these expected losses from the first day. It does not wait until a loss becomes probable. The estimate uses past experience, current conditions and reasonable and supportable forecasts. Trade receivables are measured at amortized cost, and the allowance is a contra-asset account.",
     "anim": "aging",
@@ -50,6 +50,13 @@
         ]
       },
       {
+        "h": "IFRS 9: expected losses, too",
+        "box": "ifrs",
+        "p": [
+          "IFRS 9 also uses expected losses. For trade receivables it uses a simplified approach that always records lifetime losses, often with a provision matrix, which is very close to CECL. For other financial assets, IFRS 9 starts with 12-month expected losses and moves to lifetime losses only after credit risk increases significantly. CECL records lifetime losses from day one for all assets at amortized cost."
+        ]
+      },
+      {
         "h": "Allowance or provision?",
         "box": "false-friend",
         "p": [
@@ -58,13 +65,21 @@
       }
     ]
   },
+  "from": [
+    "6.2/false-friend-alert",
+    "6.2/ifrs-contrast",
+    "6.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f06-04",
       "kind": "figure",
       "file": "F06-04.png",
       "label": "Figure F06-04.",
-      "caption": "Allowance for credit losses T-account: the expense is the plug that reaches the required balance."
+      "caption": "Allowance for credit losses T-account: the expense is the plug that reaches the required balance.",
+      "from": [
+        "F06-04"
+      ]
     },
     {
       "id": "fill-03",
@@ -144,6 +159,11 @@
         "allowance-or-provision",
         "asu-2025-05",
         "balance-first-then-the-expense"
+      ],
+      "from": [
+        "F06-03",
+        "6.2/t:age-of-receivabl",
+        "6.2/exam-trap"
       ]
     },
     {
@@ -193,6 +213,10 @@
           },
           "why": "Allowance method (CECL): Yes (CECL)."
         }
+      ],
+      "from": [
+        "F06-05",
+        "6.2/t:allowance-method"
       ]
     },
     {
@@ -241,7 +265,12 @@
           ]
         }
       ],
-      "data": true
+      "data": true,
+      "from": [
+        "F06-06",
+        "6.2/t:age-of-receivabl#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -278,7 +307,13 @@
         }
       ],
       "caption": "Barada Wholesale aging, December 31, 2025 (whole USD): complete the blanks",
-      "note": "The trial balance shows receivables of 300,000 and an allowance of 20,000 (both in whole dollars), so the aging agrees."
+      "note": "The trial balance shows receivables of 300,000 and an allowance of 20,000 (both in whole dollars), so the aging agrees.",
+      "from": [
+        "6.2/your-turn",
+        "F06-06",
+        "6.2/t:age-of-receivabl#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc6-3",
@@ -304,7 +339,10 @@
           "correct": true
         }
       ],
-      "exhibit": "The aging shows that the allowance for credit losses should be 20,000. Before adjustment, the allowance has a debit balance of 3,000."
+      "exhibit": "The aging shows that the allowance for credit losses should be 20,000. Before adjustment, the allowance has a debit balance of 3,000.",
+      "from": [
+        "6.2/section-check"
+      ]
     },
     {
       "id": "sc6-4",
@@ -330,7 +368,10 @@
           "why": "Net receivables, and so total assets, do not change."
         }
       ],
-      "exhibit": "Under the allowance method, Orontes writes off a customer's balance of 4,000."
+      "exhibit": "Under the allowance method, Orontes writes off a customer's balance of 4,000.",
+      "from": [
+        "6.2/section-check"
+      ]
     }
   ]
 };

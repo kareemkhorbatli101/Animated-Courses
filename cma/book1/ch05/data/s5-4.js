@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The direct method and required disclosures",
   "n": "5.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.4"),
   "brief": {
     "about": "The direct method shows the main classes of operating receipts and payments, such as cash from customers and cash paid to suppliers. The FASB encourages it, but few companies use it. A company that uses it must still show the reconciliation of net income to operating cash flow. Figure F05-07 shows Orontes's operating cash flow by the direct method.",
     "anim": "twoMethods",
@@ -33,6 +33,9 @@
       }
     ]
   },
+  "from": [
+    "5.4/language-focus"
+  ],
   "scenes": [
     {
       "id": "direct",
@@ -67,6 +70,10 @@
       "traps": [
         "both-methods-agree",
         "reading-a-cash-flow-line"
+      ],
+      "from": [
+        "F05-07",
+        "5.4/t:orontes-2025-dir"
       ]
     },
     {
@@ -123,7 +130,10 @@
           "why": "An increase in receivables is subtracted."
         }
       ],
-      "exhibit": "A company's sales were $500,000, all on credit. Accounts receivable increased by $40,000."
+      "exhibit": "A company's sales were $500,000, all on credit. Accounts receivable increased by $40,000.",
+      "from": [
+        "5.4/section-check"
+      ]
     },
     {
       "id": "sc5-8",
@@ -149,7 +159,10 @@
           "why": "No such disclosure exists."
         }
       ],
-      "exhibit": "A company uses the indirect method."
+      "exhibit": "A company uses the indirect method.",
+      "from": [
+        "5.4/section-check"
+      ]
     }
   ]
 };

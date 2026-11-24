@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "7.5",
   "title": "Spoilage, rework and scrap in job costing",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "Match, a printed statement, yourturn, questions · 5 scenes"
  },
  {
   "id": "s7-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "7.6",
   "title": "The strategic value of cost information",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s7-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "7.7",
   "title": "Extended Example 7A: olive batch H-2711 through two departments",
-  "blurb": "Figures, post, amounts, the tie lines, questions · 7 scenes"
+  "blurb": "Figures, post, amounts, a printed statement, the tie lines, questions · 9 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · spoiled jars at Tahini & Spreads",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 5 scenes"
  },
  {
   "id": "review",

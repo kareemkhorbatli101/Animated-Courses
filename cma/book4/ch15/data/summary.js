@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "regPlane"
+    "anim": "regPlane",
+    "about": "Figure F415-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Analytics divides into four types by the question asked: descriptive for what happened, diagnostic for why, predictive for what will happen and prescriptive for what to do. Fitting a model means separating pattern from noise, and a model too simple underfits while one too complex overfits and predicts worse than a straight line. Clustering groups unlabelled data and classification assigns labelled data to known categories. Multiple regression predicts a quantity and logistic regression a yes or no. The equation is applied by multiplying each coefficient by its value and adding the intercept, keeping the signs. The correlation coefficient runs from minus one to plus one, and its square, the coefficient of determination, gives the share of variation the model explains, though neither establishes cause."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F415-09.png",
       "label": "Figure F415-09.",
       "caption": "Chapter 15 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F415-09"
+      ]
     },
     {
       "id": "rules",

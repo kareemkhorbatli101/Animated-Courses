@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Steps 3 and 4: the transaction price and its allocation",
   "n": "11.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.3"),
   "brief": {
     "about": "Step 3: determine the transaction price, the amount the company expects to receive. It includes variable consideration, such as rebates and bonuses. The company estimates it using the expected value, for many possible outcomes, or the most likely amount, for an all-or-nothing outcome. Variable amounts are included only to the extent that a significant reversal of revenue is not probable later. This is the constraint on variable consideration.",
     "anim": "fivesteps",
@@ -32,7 +32,10 @@
       "kind": "figure",
       "file": "F11-04.png",
       "label": "Figure F11-04.",
-      "caption": "Allocating the GreenBasket discount by relative standalone selling price."
+      "caption": "Allocating the GreenBasket discount by relative standalone selling price.",
+      "from": [
+        "F11-04"
+      ]
     },
     {
       "id": "grid-03",
@@ -76,6 +79,11 @@
       ],
       "traps": [
         "price-and-allocation-traps"
+      ],
+      "from": [
+        "F11-03",
+        "11.3/t:suppose-sales-of",
+        "11.3/exam-trap"
       ]
     },
     {
@@ -102,7 +110,10 @@
           "why": "This is the standalone price, before sharing the discount."
         }
       ],
-      "say": "Use Figure F11-04. How much of the transaction price is allocated to the dispenser (whole USD)?"
+      "say": "Use Figure F11-04. How much of the transaction price is allocated to the dispenser (whole USD)?",
+      "from": [
+        "11.3/section-check"
+      ]
     },
     {
       "id": "sc11-6",
@@ -128,7 +139,10 @@
           "why": "It is not a cost of the goods."
         }
       ],
-      "exhibit": "Orontes pays a supermarket $30,000 for shelf space and receives no distinct service."
+      "exhibit": "Orontes pays a supermarket $30,000 for shelf space and receives no distinct service.",
+      "from": [
+        "11.3/section-check"
+      ]
     }
   ]
 };

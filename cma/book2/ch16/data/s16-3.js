@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The four costs of quality",
   "n": "16.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.3"),
   "brief": {
     "about": "The cost of quality has four parts. Prevention costs stop defects before they happen. Appraisal costs find defects by inspection and testing. Together they are the costs of conformance. Internal failure costs arise from defects found before the product reaches the customer, such as scrap and rework. External failure costs arise from defects the customer finds, such as returns, complaints and lost sales. Figure F216-07 shows the four categories.",
     "anim": "qualityFour",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "16.3/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f216-07",
       "kind": "figure",
       "file": "F216-07.png",
       "label": "Figure F216-07.",
-      "caption": "The four categories of the cost of quality."
+      "caption": "The four categories of the cost of quality.",
+      "from": [
+        "F216-07"
+      ]
     },
     {
       "id": "fill-08",
@@ -147,6 +153,11 @@
       "traps": [
         "co-ts-de-la-qualit",
         "hidden-external-failure-costs"
+      ],
+      "from": [
+        "F216-08",
+        "16.3/t:beverages-cost-o",
+        "16.3/exam-trap"
       ]
     },
     {
@@ -172,6 +183,9 @@
           "text": "an external failure cost",
           "why": "The customer is not involved."
         }
+      ],
+      "from": [
+        "16.3/section-check"
       ]
     },
     {
@@ -198,7 +212,10 @@
           "why": "The customer found the defect."
         }
       ],
-      "exhibit": "A customer stops buying after a bad batch."
+      "exhibit": "A customer stops buying after a bad batch.",
+      "from": [
+        "16.3/section-check"
+      ]
     }
   ]
 };

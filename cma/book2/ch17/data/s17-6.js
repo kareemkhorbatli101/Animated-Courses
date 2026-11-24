@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Outsourcing",
   "n": "17.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.6"),
   "brief": {
     "about": "Outsourcing means buying from an outside supplier something the company used to do itself. Figure F217-11 lists its benefits and limitations. The financial test compares the supplier's price with the costs that would really disappear, not with the full cost. Allocated plant overhead and depreciation on equipment that cannot be sold stay whether or not the work is outsourced. The numbers are only half of the decision.",
     "anim": "supplyPlan",
@@ -36,6 +36,9 @@
       }
     ]
   },
+  "from": [
+    "17.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-11",
@@ -87,6 +90,11 @@
       ],
       "traps": [
         "full-cost-is-not-avoidable-cost"
+      ],
+      "from": [
+        "F217-11",
+        "17.6/t:benefits-limitat",
+        "17.6/exam-trap"
       ]
     },
     {
@@ -194,6 +202,12 @@
             "c1"
           ]
         }
+      ],
+      "from": [
+        "F217-12",
+        "17.6/t:labels-yearly-wh",
+        "Practice/t:bottling-cost-ca",
+        "Answers and explanations/t:bottling-cost-ca"
       ]
     },
     {
@@ -219,6 +233,9 @@
           "text": "Fixed costs become variable",
           "why": "That is a benefit."
         }
+      ],
+      "from": [
+        "17.6/section-check"
       ]
     },
     {
@@ -245,7 +262,10 @@
           "why": "This uses the full cost of $265,000."
         }
       ],
-      "exhibit": "Printing labels in-house has avoidable costs of $225,000. A printer charges $200,000, and the freed room can be rented for $12,000."
+      "exhibit": "Printing labels in-house has avoidable costs of $225,000. A printer charges $200,000, and the freed room can be rented for $12,000.",
+      "from": [
+        "17.6/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Continuous improvement and ideal standards",
   "n": "16.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.2"),
   "brief": {
     "about": "An ideal standard assumes perfect conditions: no waste, no breakdowns, no idle time. A currently attainable standard allows for normal waste and is hard but possible. Chapter 5 used attainable standards for costing; this section shows how the two work together. The ideal shows the direction and the size of the waste still in the process. Each year the attainable standard moves closer to it.",
     "anim": "kaizenStair",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F216-05.png",
       "label": "Figure F216-05.",
-      "caption": "Moving the spoilage standard toward the ideal."
+      "caption": "Moving the spoilage standard toward the ideal.",
+      "from": [
+        "F216-05"
+      ]
     },
     {
       "id": "grid-06",
@@ -79,6 +82,10 @@
           },
           "why": "Currently attainable standard: 2.0% this year; 1.2% after kaizen."
         }
+      ],
+      "from": [
+        "F216-06",
+        "16.2/t:ideal-standard-c"
       ]
     },
     {
@@ -107,6 +114,9 @@
       ],
       "traps": [
         "do-not-judge-people-against-the-ideal"
+      ],
+      "from": [
+        "16.2/section-check"
       ]
     },
     {
@@ -133,7 +143,10 @@
           "why": "Spoilage is an internal failure cost."
         }
       ],
-      "exhibit": "Beverages allows 2.0% normal spoilage this year and aims for 1.2% next year."
+      "exhibit": "Beverages allows 2.0% normal spoilage this year and aims for 1.2% next year.",
+      "from": [
+        "16.2/section-check"
+      ]
     }
   ]
 };

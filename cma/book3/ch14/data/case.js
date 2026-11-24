@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · overhead in the tahini plant",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "threeCols"
+  },
+  "scenario": {
+    "title": "Case question: overhead in the tahini plant",
+    "p": [
+      "The tahini plant has had a busy month. A large Gulf order arrived early, so the plant produced more jars than the volume on which its fixed overhead rate was set. The plant manager, Samir, expects the overhead report to look good, because the extra output spread the fixed cost over more jars.",
+      "The controller, Rania, has the figures. She knows the standard machine hours a jar, the standard variable overhead rate, the budgeted fixed overhead for the month and the normal volume used to set the fixed rate. She also has the actual machine hours, the actual variable overhead and the actual fixed overhead for the month.",
+      "Two things complicate the picture. The plant ran more machine hours than the standard allows for the jars it made, because a mixer kept stopping, and an unplanned repair raised the fixed overhead above budget. The mixer has stopped several times this year, and the maintenance team has asked for a replacement part that would end the problem.",
+      "Rania must calculate the four overhead variances, explain which of them reflects cost control and which reflects absorption, and tell Samir which results need action inside the plant. She will present the four variances at the plant review on Thursday, with a short note on which of them Samir can act on and which belong to the sales discussion."
+    ]
   },
   "scenes": [
     {
@@ -66,7 +75,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F314-13",
+        "Practice/t:tahini-spreads-o"
+      ]
     },
     {
       "id": "c314-1",
@@ -89,30 +102,35 @@
         {
           "name": "Variable overhead spending variance",
           "to": "favorable",
-          "why": "A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
+          "why": "Variance: Favorable. A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
         },
         {
           "name": "Variable overhead efficiency variance",
           "to": "unfavorable",
-          "why": "A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
+          "why": "Variance: Unfavorable. A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
         },
         {
           "name": "Fixed overhead spending variance",
           "to": "unfavorable",
-          "why": "A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
+          "why": "Variance: Unfavorable. A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
         },
         {
           "name": "Production-volume variance",
           "to": "favorable",
-          "why": "A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
+          "why": "Variance: Favorable. A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
         },
         {
           "name": "Total overhead variance",
           "to": "favorable",
-          "why": "A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
+          "why": "Variance: Favorable. A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "c314-2",

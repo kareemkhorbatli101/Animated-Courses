@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Accounting for by-products",
   "n": "11.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.3"),
   "brief": {
     "about": "Under the production method, the by-product's net realizable value is recorded as inventory at split-off and deducted from joint cost. Pomace sells for $120,000 with $20,000 of disposal costs, so its NRV is $100,000 and the joint products share $1,300,000. Under the sales method, nothing is recorded at split-off. The joint products share the full $1,400,000, and the by-product's net revenue is other income when it is sold.",
     "anim": "splitPoint",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "11.3/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "grid-04",
@@ -96,6 +99,10 @@
       ],
       "traps": [
         "sous-produit"
+      ],
+      "from": [
+        "F211-04",
+        "11.3/t:production-metho"
       ]
     },
     {
@@ -121,6 +128,9 @@
           "text": "the by-product is ignored",
           "why": "Its value is recorded."
         }
+      ],
+      "from": [
+        "11.3/section-check"
       ]
     },
     {
@@ -147,7 +157,10 @@
           "why": "The NRV is added."
         }
       ],
-      "exhibit": "Joint cost is $1,400,000. Pomace sells for $120,000 with $20,000 of disposal costs."
+      "exhibit": "Joint cost is $1,400,000. Pomace sells for $120,000 with $20,000 of disposal costs.",
+      "from": [
+        "11.3/section-check"
+      ]
     }
   ]
 };

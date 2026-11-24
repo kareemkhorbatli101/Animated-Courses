@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.1",
   "title": "Segregation inside the systems function",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s6-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.2",
   "title": "Threats to information systems",
-  "blurb": "Grid, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s6-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.4",
   "title": "Physical and logical access",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s6-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.5",
   "title": "Extended Example 6A: one programmer, four duties",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "A printed statement, shares, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -81,6 +81,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the developer who never left",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 4 scenes"
  },
  {
   "id": "review",

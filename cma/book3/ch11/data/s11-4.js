@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Sales-volume, sales-price and flexible-budget variances",
   "n": "11.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.4"),
   "brief": {
     "about": "The sales-volume variance is the difference between the flexible budget and the master budget. It equals the change in units multiplied by the budgeted contribution margin per unit: (72,000 − 75,000) × $8.20 = $24,600, unfavorable. The sales-price variance compares the actual price with the budgeted price on the units actually sold: ($20.40 − $20.00) × 72,000 = $28,800, favorable.",
     "anim": "flexLine",
@@ -32,51 +32,62 @@
       "kind": "figure",
       "file": "F311-10.png",
       "label": "Figure F311-10.",
-      "caption": "From master-budget income to actual income."
+      "caption": "From master-budget income to actual income.",
+      "from": [
+        "F311-10"
+      ]
     },
     {
       "id": "fig-f311-08",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F311-08",
       "title": "Worked example: the June variances and how they add up",
-      "say": "Worked example: the June variances and how they add up",
-      "caption": "Variance",
-      "col1": "Calculation",
-      "col2": "Effect on operating income",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Variance",
+      "col": "Calculation",
       "rows": [
         {
-          "name": "Sales-volume variance",
-          "a": "(72,000 − 75,000) × $8.20",
-          "b": "24,600 U"
+          "label": "Sales-volume variance",
+          "right": "(72,000 − 75,000) × $8.20",
+          "why": "Calculation: (72,000 − 75,000) × $8.20. 24,600 U."
         },
         {
-          "name": "Sales-price variance",
-          "a": "($20.40 − $20.00) × 72,000",
-          "b": "28,800 F"
+          "label": "Sales-price variance",
+          "right": "($20.40 − $20.00) × 72,000",
+          "why": "Calculation: ($20.40 − $20.00) × 72,000. 28,800 F."
         },
         {
-          "name": "Variable cost variance",
-          "a": "actual − flexible budget",
-          "b": "13,568 U"
+          "label": "Variable cost variance",
+          "right": "actual − flexible budget",
+          "why": "Calculation: actual − flexible budget. 13,568 U."
         },
         {
-          "name": "Fixed cost variance",
-          "a": "actual − budget",
-          "b": "8,000 U"
+          "label": "Fixed cost variance",
+          "right": "actual − budget",
+          "why": "Calculation: actual − budget. 8,000 U."
         },
         {
-          "name": "Flexible-budget variance",
-          "a": "price + cost variances",
-          "b": "7,232 F"
+          "label": "Flexible-budget variance",
+          "right": "price + cost variances",
+          "why": "Calculation: price + cost variances. 7,232 F."
         },
         {
-          "name": "Master-budget variance",
-          "a": "flexible-budget + sales-volume",
-          "b": "17,368 U"
+          "label": "Master-budget variance",
+          "right": "flexible-budget + sales-volume",
+          "why": "Calculation: flexible-budget + sales-volume. 17,368 U."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Worked example: the June variances and how they add up",
+      "traps": [
+        "volume-at-margin-price-at-actual-units"
+      ],
+      "from": [
+        "F311-08",
+        "11.4/t:variance-calcula",
+        "11.4/exam-trap",
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "fill-09",
@@ -176,8 +187,9 @@
           }
         }
       ],
-      "traps": [
-        "volume-at-margin-price-at-actual-units"
+      "from": [
+        "F311-09",
+        "11.4/t:cost-june-2028-a"
       ]
     },
     {
@@ -204,7 +216,10 @@
           "why": "Fewer units sold lowers income."
         }
       ],
-      "exhibit": "Budgeted sales are 75,000 cases at a contribution margin of $8.20; 72,000 were sold."
+      "exhibit": "Budgeted sales are 75,000 cases at a contribution margin of $8.20; 72,000 were sold.",
+      "from": [
+        "11.4/section-check"
+      ]
     },
     {
       "id": "sc311-8",
@@ -230,7 +245,10 @@
           "why": "This is actual revenue."
         }
       ],
-      "exhibit": "The budgeted price is $20.00 and the actual price $20.40; 72,000 cases were sold and 75,000 budgeted."
+      "exhibit": "The budgeted price is $20.00 and the actual price $20.40; 72,000 cases were sold and 75,000 budgeted.",
+      "from": [
+        "11.4/section-check"
+      ]
     }
   ]
 };

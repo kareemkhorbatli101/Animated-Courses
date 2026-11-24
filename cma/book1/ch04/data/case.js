@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada Wholesale's equity in 2026",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "treasuryBox"
+  },
+  "scenario": {
+    "title": "Case question: Barada Wholesale's equity in 2026",
+    "p": [
+      "In 2026 Barada Wholesale made several changes to its equity. It bought back some of its own shares, later reissued part of them at a higher price, and declared a small stock dividend. At the end of the year it also declared a cash dividend, payable in January 2027.",
+      "The opening balances are Barada's closing equity from the Chapter 2 case, and net income comes from the Chapter 3 case. Barada's shares have a par value, and the market price of the shares was known on each transaction date.",
+      "Barada's accountant must record each transaction and prepare the statement of changes in equity. She must decide which transactions affect paid-in capital and which affect retained earnings, and how the treasury shares appear on the balance sheet.",
+      "Mr Haddad wants to know why buying back shares does not create a gain or a loss, how much the stock dividend moved out of retained earnings, and what total equity will be at the end of the year. Amounts in the exhibit are in thousands of U.S. dollars. The auditors will compare the statement of changes in equity with the minutes of every board meeting held during the year."
+    ]
   },
   "scenes": [
     {
@@ -70,7 +79,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F04-13",
+        "Practice/t:balance-event-u"
+      ]
     },
     {
       "id": "c4-1",
@@ -124,7 +137,11 @@
           "why": "Account: Contributed capital."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:account-category",
+        "Answers and explanations/t:account-category"
+      ]
     },
     {
       "id": "c4-2",

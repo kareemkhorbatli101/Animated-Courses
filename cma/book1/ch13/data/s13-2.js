@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Temporary and permanent differences",
   "n": "13.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.2"),
   "brief": {
     "about": "A temporary difference arises when the tax basis of an asset or liability differs from its carrying amount on the balance sheet. It reverses in later years. A taxable temporary difference will increase future taxable income; a deductible temporary difference will reduce it. A permanent difference never reverses. The item is in book income but never in taxable income, or the reverse. Tax-exempt municipal bond interest and fines are common examples.",
     "anim": "twobooks",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F13-04.png",
       "label": "Figure F13-04.",
-      "caption": "Decision chart: permanent difference, deferred tax liability or deferred tax asset?."
+      "caption": "Decision chart: permanent difference, deferred tax liability or deferred tax asset?.",
+      "from": [
+        "F13-04"
+      ]
     },
     {
       "id": "grid-03",
@@ -118,6 +121,11 @@
       ],
       "traps": [
         "which-way-does-it-go"
+      ],
+      "from": [
+        "F13-03",
+        "13.2/t:item-type-of-dif",
+        "13.2/exam-trap"
       ]
     },
     {
@@ -143,6 +151,9 @@
           "text": "Rent received in advance",
           "why": "The rent is taxed now and earned later: it reverses."
         }
+      ],
+      "from": [
+        "13.2/section-check"
       ]
     },
     {
@@ -169,7 +180,10 @@
           "why": "Allowances apply to deferred tax assets."
         }
       ],
-      "exhibit": "A company deducts depreciation faster for tax than for books."
+      "exhibit": "A company deducts depreciation faster for tax than for books.",
+      "from": [
+        "13.2/section-check"
+      ]
     }
   ]
 };

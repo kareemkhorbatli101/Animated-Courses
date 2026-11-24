@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.1",
   "title": "What enterprise resource planning is",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s10-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.2",
   "title": "How ERP answers the six challenges",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s10-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.4",
   "title": "Data warehouses and data marts",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s10-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.5",
   "title": "Enterprise performance management",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s10-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.6",
   "title": "Extended Example 10A: what Orontes gains, and what it gives up",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "A printed statement, shares, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the implementation that wanted everything",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 5 scenes"
  },
  {
   "id": "review",

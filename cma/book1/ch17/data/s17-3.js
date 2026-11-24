@@ -9,7 +9,7 @@
   "up": "../",
   "title": "(iii) Inventories",
   "n": "17.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.3"),
   "brief": {
     "about": "IFRS does not allow LIFO. U.S. GAAP allows it, and companies that use LIFO for tax must also use it in their financial statements. Chapter 7 showed how LIFO changes cost of goods sold when prices rise. Both frameworks write inventory down when its value falls below cost. IAS 2 uses the lower of cost and NRV for all inventory. U.S. The key difference comes when value recovers.",
     "anim": "band",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "17.3/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f17-04",
       "kind": "figure",
       "file": "F17-04.png",
       "label": "Figure F17-04.",
-      "caption": "Inventory write-down and recovery: IFRS reverses, U.S. GAAP does not."
+      "caption": "Inventory write-down and recovery: IFRS reverses, U.S. GAAP does not.",
+      "from": [
+        "F17-04"
+      ]
     },
     {
       "id": "sc17-5",
@@ -66,6 +72,9 @@
       "say": "Use Figure F17-04. At what amount does Orontes carry the olive oil at the end of 2028 under U.S. GAAP (whole USD)?",
       "traps": [
         "stocks-d-pr-ciation-provision"
+      ],
+      "from": [
+        "17.3/section-check"
       ]
     },
     {
@@ -92,7 +101,10 @@
           "why": "LIFO is never required."
         }
       ],
-      "exhibit": "A French subsidiary using IFRS wants to adopt LIFO to lower its taxable profit."
+      "exhibit": "A French subsidiary using IFRS wants to adopt LIFO to lower its taxable profit.",
+      "from": [
+        "17.3/section-check"
+      ]
     }
   ]
 };

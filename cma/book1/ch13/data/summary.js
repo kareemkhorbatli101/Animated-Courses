@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "twobooks"
+    "anim": "twobooks",
+    "about": "Figure F13-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Book income follows U.S. GAAP and taxable income follows tax law. Temporary differences reverse and create deferred tax liabilities (taxable) or deferred tax assets (deductible); permanent differences never reverse and create no deferred tax. Current tax is taxable income times the rate; deferred taxes are temporary differences times the enacted rate; tax expense is the sum of current tax and the change in the net deferred tax liability. Rate changes are recognized in continuing operations at enactment. A valuation allowance reduces a deferred tax asset when realization is not more likely than not. All deferred taxes are noncurrent and netted within a jurisdiction."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F13-13.png",
       "label": "Figure F13-13.",
       "caption": "Chapter 13 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F13-13"
+      ]
     },
     {
       "id": "rules",

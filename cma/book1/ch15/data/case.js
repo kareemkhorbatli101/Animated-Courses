@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Orontes's 2027 comprehensive income",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "belowLine"
+  },
+  "scenario": {
+    "title": "Case question: Orontes's 2027 comprehensive income",
+    "p": [
+      "In 2027 Orontes sold its Dry Foods business, a separate major line of business, as part of a new strategy to focus on oils, spreads and beverages. The sale was completed during the year at a gain.",
+      "The continuing business also had unusual items. Orontes sold an old warehouse at a gain and settled a lawsuit brought by a former distributor. It holds available-for-sale debt securities whose fair value changed during the year, and some of its foreign operations report in other currencies.",
+      "The group controller must prepare the statement of comprehensive income. She must separate continuing from discontinued operations, present each part net of tax and show other comprehensive income with its tax effect.",
+      "The board wants to see net income and comprehensive income on the same page, with a short explanation of why the Dry Foods results appear on a separate line. Amounts in the exhibit are in thousands of U.S. dollars. The auditors will check that every tax effect is shown in the right place. The annual report will be published in March, and the board wants the draft statement two weeks before its meeting."
+    ]
   },
   "scenes": [
     {
@@ -78,7 +87,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F15-13",
+        "Practice/t:suppose-orontes"
+      ]
     },
     {
       "id": "c15-1",
@@ -128,7 +141,11 @@
           "why": "Item: Other comprehensive income."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c15-2",

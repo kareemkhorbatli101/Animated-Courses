@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Value chains and competitive advantage",
   "n": "14.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.5"),
   "brief": {
     "about": "A company gains an advantage in one of two ways. Cost leadership means doing the activities more cheaply than rivals. Differentiation means doing some activities in a way customers value and will pay more for. The bulk competitor follows cost leadership: its cost per liter is $11.00. Orontes follows differentiation: cold-pressed, traced oil costs more, but customers pay $4.50 more per liter. Figure F214-09 compares the two strategies.",
     "anim": "valueChain",
@@ -27,37 +27,39 @@
   "scenes": [
     {
       "id": "fig-f214-09",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F214-09",
       "title": "Cost leadership and differentiation compared",
-      "say": "Cost leadership and differentiation compared",
-      "caption": "",
-      "col1": "Cost leadership",
-      "col2": "Differentiation",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Cost leadership",
       "rows": [
         {
-          "name": "Aim",
-          "a": "Lowest cost in the industry",
-          "b": "Something customers value and pay more for"
+          "label": "Aim",
+          "right": "Lowest cost in the industry",
+          "why": "Cost leadership: Lowest cost in the industry. Something customers value and pay more for."
         },
         {
-          "name": "Where to spend",
-          "a": "As little as possible in every activity",
-          "b": "More in the activities customers value"
+          "label": "Where to spend",
+          "right": "As little as possible in every activity",
+          "why": "Cost leadership: As little as possible in every activity. More in the activities customers value."
         },
         {
-          "name": "Oils example",
-          "a": "Bulk competitor: low operations and marketing costs",
-          "b": "Orontes: cold-pressed, traced EVOO; price premium of $4.50 a liter"
+          "label": "Oils example",
+          "right": "Bulk competitor: low operations and marketing costs",
+          "why": "Cost leadership: Bulk competitor: low operations and marketing costs. Orontes: cold-pressed, traced EVOO; price premium of $4.50 a liter."
         },
         {
-          "name": "Risk",
-          "a": "A rival with even lower cost",
-          "b": "Customers stop paying the premium"
+          "label": "Risk",
+          "right": "A rival with even lower cost",
+          "why": "Cost leadership: A rival with even lower cost. Customers stop paying the premium."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Cost leadership and differentiation compared",
+      "from": [
+        "F214-09",
+        "14.5/t:cost-leadership"
+      ]
     },
     {
       "id": "sc214-9",
@@ -82,6 +84,9 @@
           "text": "life-cycle costing",
           "why": "That is a costing method, not a strategy."
         }
+      ],
+      "from": [
+        "14.5/section-check"
       ]
     },
     {
@@ -107,6 +112,9 @@
           "text": "its volume is the highest in the industry",
           "why": "Volume is not the test."
         }
+      ],
+      "from": [
+        "14.5/section-check"
       ]
     }
   ]

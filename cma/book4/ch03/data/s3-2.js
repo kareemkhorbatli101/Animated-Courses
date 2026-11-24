@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The four functional responsibilities",
   "n": "3.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.2"),
   "brief": {
     "about": "The exam names four responsibilities that should be held by different people, or at least by different departments. Figure F403-03 shows them, and the pairings that create danger. Figure F403-04 defines each one precisely, because the distinction between authorization and custody is where candidates most often slip. The logic is always the same.",
     "anim": "dutySplit",
@@ -30,41 +30,50 @@
       "kind": "figure",
       "file": "F403-03.png",
       "label": "Figure F403-03.",
-      "caption": "The four duties and the dangerous pairs."
+      "caption": "The four duties and the dangerous pairs.",
+      "from": [
+        "F403-03"
+      ]
     },
     {
       "id": "fig-f403-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F403-04",
       "title": "The four functional responsibilities",
-      "say": "The four functional responsibilities",
-      "caption": "Functional responsibility (E.1.j)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Functional responsibility (E.1.j)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Authority to execute transactions",
-          "a": "Deciding that the transaction should happen at all",
-          "b": "The purchasing manager approves a new supplier"
+          "label": "Authority to execute transactions",
+          "right": "Deciding that the transaction should happen at all",
+          "why": "What it means: Deciding that the transaction should happen at all. The purchasing manager approves a new supplier."
         },
         {
-          "name": "Recording transactions",
-          "a": "Entering it in the accounting records",
-          "b": "The accounts clerk posts the invoice"
+          "label": "Recording transactions",
+          "right": "Entering it in the accounting records",
+          "why": "What it means: Entering it in the accounting records. The accounts clerk posts the invoice."
         },
         {
-          "name": "Custody of assets",
-          "a": "Holding or controlling the asset itself",
-          "b": "The cashier holds the cash; the storekeeper holds the stock"
+          "label": "Custody of assets",
+          "right": "Holding or controlling the asset itself",
+          "why": "What it means: Holding or controlling the asset itself. The cashier holds the cash; the storekeeper holds the stock."
         },
         {
-          "name": "Periodic reconciliation",
-          "a": "Comparing the records with the assets actually there",
-          "b": "A third person reconciles the bank statement"
+          "label": "Periodic reconciliation",
+          "right": "Comparing the records with the assets actually there",
+          "why": "What it means: Comparing the records with the assets actually there. A third person reconciles the bank statement."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The four functional responsibilities",
+      "traps": [
+        "two-duties-not-one-create-the-risk"
+      ],
+      "from": [
+        "F403-04",
+        "3.2/t:functional-respo",
+        "3.2/exam-trap"
+      ]
     },
     {
       "id": "sc403-3",
@@ -91,8 +100,8 @@
         }
       ],
       "say": "Which is NOT one of the four functional responsibilities that must be separated?",
-      "traps": [
-        "two-duties-not-one-create-the-risk"
+      "from": [
+        "3.2/section-check"
       ]
     },
     {
@@ -119,7 +128,10 @@
           "why": "Authorization sits elsewhere."
         }
       ],
-      "exhibit": "A storekeeper both holds the stock and maintains the stock records."
+      "exhibit": "A storekeeper both holds the stock and maintains the stock records.",
+      "from": [
+        "3.2/section-check"
+      ]
     }
   ]
 };

@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "9.2",
   "title": "Measuring debt securities",
-  "blurb": "Figures, shares, questions · 5 scenes"
+  "blurb": "Figures, shares, a printed statement, questions · 6 scenes"
  },
  {
   "id": "s9-3",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "9.5",
   "title": "Extended Example 9A: one bond, three classifications",
-  "blurb": "Schedule, shares, the tie lines, questions · 6 scenes"
+  "blurb": "Schedule, shares, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

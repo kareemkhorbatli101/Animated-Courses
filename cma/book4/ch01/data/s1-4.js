@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Reasonable, not absolute, assurance",
   "n": "1.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.4"),
   "brief": {
     "about": "No system of internal control can give absolute assurance. The standard is reasonable assurance: a high level of confidence, not a guarantee. Figure F401-06 gives the six reasons. Two of them deserve attention because the exam returns to them. Collusion defeats a separation of duties designed for one person acting alone: the clerk who raises an invoice and the supervisor who approves it can agree together.",
     "anim": "assuranceDial",
@@ -33,6 +33,9 @@
       "caption": "Why assurance is reasonable rather than absolute.",
       "traps": [
         "the-cost-benefit-limit-is-not-an-excus"
+      ],
+      "from": [
+        "F401-06"
       ]
     },
     {
@@ -61,6 +64,10 @@
       ],
       "traps": [
         "reasonable-means-high-not-weak"
+      ],
+      "from": [
+        "1.4/exam-trap",
+        "1.4/section-check"
       ]
     },
     {
@@ -87,7 +94,10 @@
           "why": "The control existed and was properly designed."
         }
       ],
-      "exhibit": "Two employees agree together to defeat a separation of duties."
+      "exhibit": "Two employees agree together to defeat a separation of duties.",
+      "from": [
+        "1.4/section-check"
+      ]
     }
   ]
 };

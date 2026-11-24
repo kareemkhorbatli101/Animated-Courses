@@ -9,7 +9,7 @@
   "up": "../",
   "title": "How ERP answers the six challenges",
   "n": "10.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.2"),
   "brief": {
     "about": "Figure F410-04 takes the six challenges of Chapter 9 in order and shows what integration does to each. One mechanism produces all six answers: the fact is stored once. Because production output is a row in the same database the ledger reads, it cannot be keyed twice, cannot disagree with itself, needs no reconciliation, arrives without delay and can be joined to a customer or a product.",
     "anim": "erpHub",
@@ -27,47 +27,53 @@
   "scenes": [
     {
       "id": "fig-f410-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F410-04",
       "title": "How ERP answers the six challenges of Chapter 9",
-      "say": "How ERP answers the six challenges of Chapter 9",
-      "caption": "Challenge from Chapter 9",
-      "col1": "How ERP answers it",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Challenge from Chapter 9",
+      "col": "How ERP answers it",
       "rows": [
         {
-          "name": "Duplicate data entry",
-          "a": "The fact is entered once, in the module where it arises",
-          "b": "Production output is keyed at the line and is immediately available for costing"
+          "label": "Duplicate data entry",
+          "right": "The fact is entered once, in the module where it arises",
+          "why": "How ERP answers it: The fact is entered once, in the module where it arises. Production output is keyed at the line and is immediately available for costing."
         },
         {
-          "name": "Data that disagrees",
-          "a": "There is only one stored value, so disagreement is impossible",
-          "b": "The 1,500-case difference of Chapter 9 cannot arise"
+          "label": "Data that disagrees",
+          "right": "There is only one stored value, so disagreement is impossible",
+          "why": "How ERP answers it: There is only one stored value, so disagreement is impossible. The 1,500-case difference of Chapter 9 cannot arise."
         },
         {
-          "name": "Reconciliation effort",
-          "a": "Nothing to reconcile between modules",
-          "b": "The two days a month are released for analysis"
+          "label": "Reconciliation effort",
+          "right": "Nothing to reconcile between modules",
+          "why": "How ERP answers it: Nothing to reconcile between modules. The two days a month are released for analysis."
         },
         {
-          "name": "Delay",
-          "a": "Posting is immediate, not monthly",
-          "b": "Margin visible the next morning, not in the third week"
+          "label": "Delay",
+          "right": "Posting is immediate, not monthly",
+          "why": "How ERP answers it: Posting is immediate, not monthly. Margin visible the next morning, not in the third week."
         },
         {
-          "name": "No single view",
-          "a": "One database holds the customer, product and order together",
-          "b": "Profit by product is a query, not a project"
+          "label": "No single view",
+          "right": "One database holds the customer, product and order together",
+          "why": "How ERP answers it: One database holds the customer, product and order together. Profit by product is a query, not a project."
         },
         {
-          "name": "Weak transfer control",
-          "a": "No transfer exists to fail",
-          "b": "The unreconciled upload disappears with the interface"
+          "label": "Weak transfer control",
+          "right": "No transfer exists to fail",
+          "why": "How ERP answers it: No transfer exists to fail. The unreconciled upload disappears with the interface."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "How ERP answers the six challenges of Chapter 9",
+      "traps": [
+        "integration-is-not-the-same-as-interfa"
+      ],
+      "from": [
+        "F410-04",
+        "10.2/t:challenge-from-c",
+        "10.2/exam-trap"
+      ]
     },
     {
       "id": "sc410-3",
@@ -94,8 +100,8 @@
         }
       ],
       "say": "By what single mechanism does ERP answer all six challenges of separate systems?",
-      "traps": [
-        "integration-is-not-the-same-as-interfa"
+      "from": [
+        "10.2/section-check"
       ]
     },
     {
@@ -121,6 +127,9 @@
           "text": "It is reconciled automatically",
           "why": "There is nothing left to reconcile."
         }
+      ],
+      "from": [
+        "10.2/section-check"
       ]
     }
   ]

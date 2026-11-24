@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why personnel policy is a control",
   "n": "2.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.4"),
   "brief": {
     "about": "Controls are carried out by people. That single fact makes hiring, training, supervision and dismissal part of internal control rather than a separate human resources matter. Figure F402-07 takes each practice and says what it is actually controlling. Mandatory leave and job rotation deserve a word, because their purpose is not obvious. The chapter 1 failure shows the cost of getting this wrong.",
     "anim": "boardLine",
@@ -27,47 +27,49 @@
   "scenes": [
     {
       "id": "fig-f402-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F402-07",
       "title": "Personnel practices as controls",
-      "say": "Personnel practices as controls",
-      "caption": "Personnel practice (E.1.h)",
-      "col1": "Why it is a control",
-      "col2": "What it looks like",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Personnel practice (E.1.h)",
+      "col": "Why it is a control",
       "rows": [
         {
-          "name": "Hiring",
-          "a": "A control is only as good as the person performing it",
-          "b": "Check references and qualifications before appointment"
+          "label": "Hiring",
+          "right": "A control is only as good as the person performing it",
+          "why": "Why it is a control: A control is only as good as the person performing it. Check references and qualifications before appointment."
         },
         {
-          "name": "Training",
-          "a": "Someone who does not understand a reconciliation cannot review one",
-          "b": "Train on the control, not only on the system"
+          "label": "Training",
+          "right": "Someone who does not understand a reconciliation cannot review one",
+          "why": "Why it is a control: Someone who does not understand a reconciliation cannot review one. Train on the control, not only on the system."
         },
         {
-          "name": "Supervision",
-          "a": "Work that is never reviewed drifts",
-          "b": "A second person checks a sample of the clerk's work"
+          "label": "Supervision",
+          "right": "Work that is never reviewed drifts",
+          "why": "Why it is a control: Work that is never reviewed drifts. A second person checks a sample of the clerk's work."
         },
         {
-          "name": "Rotation and mandatory leave",
-          "a": "A fraud that needs daily attention is exposed when its author is away",
-          "b": "Two consecutive weeks away each year"
+          "label": "Rotation and mandatory leave",
+          "right": "A fraud that needs daily attention is exposed when its author is away",
+          "why": "Why it is a control: A fraud that needs daily attention is exposed when its author is away. Two consecutive weeks away each year."
         },
         {
-          "name": "Clear job descriptions",
-          "a": "Nobody can be held to account for a duty they were never given",
-          "b": "Supplier approval named in the role, not delegated verbally"
+          "label": "Clear job descriptions",
+          "right": "Nobody can be held to account for a duty they were never given",
+          "why": "Why it is a control: Nobody can be held to account for a duty they were never given. Supplier approval named in the role, not delegated verbally."
         },
         {
-          "name": "Exit procedures",
-          "a": "Access that outlives employment is an open door",
-          "b": "System access removed on the last day"
+          "label": "Exit procedures",
+          "right": "Access that outlives employment is an open door",
+          "why": "Why it is a control: Access that outlives employment is an open door. System access removed on the last day."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Personnel practices as controls",
+      "from": [
+        "F402-07",
+        "2.4/t:personnel-practi"
+      ]
     },
     {
       "id": "sc402-7",
@@ -92,6 +94,9 @@
           "text": "It satisfies employment law",
           "why": "Compliance is a side effect, not the control."
         }
+      ],
+      "from": [
+        "2.4/section-check"
       ]
     },
     {
@@ -117,6 +122,9 @@
           "text": "the auditor tests payroll",
           "why": "Payroll testing is about the expense, not the control environment."
         }
+      ],
+      "from": [
+        "2.4/section-check"
       ]
     }
   ]

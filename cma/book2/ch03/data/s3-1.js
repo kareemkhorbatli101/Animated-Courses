@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why estimate cost functions",
   "n": "3.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.1"),
   "brief": {
     "about": "Budgets, prices and flexible budgets all need a cost function: total cost = fixed cost + variable rate × activity. Managers have four main ways to estimate it. Figure F203-02 compares them. The first step in every method is to draw a scatter plot: one point for each month, with activity on the horizontal axis and cost on the vertical axis.",
     "anim": "scatterLine",
@@ -99,6 +99,10 @@
           },
           "why": "How it works: Studies inputs needed per unit. Strength: Works for new products with no history. Weakness: Costly and slow."
         }
+      ],
+      "from": [
+        "F203-02",
+        "3.1/t:method-how-it-wo"
       ]
     },
     {
@@ -124,6 +128,9 @@
           "why": "The plot checks linearity and outliers.",
           "correct": true
         }
+      ],
+      "from": [
+        "3.1/section-check"
       ]
     },
     {
@@ -150,7 +157,10 @@
           "why": "Another product's accounts may not apply."
         }
       ],
-      "exhibit": "Orontes plans a new product with no cost history."
+      "exhibit": "Orontes plans a new product with no cost history.",
+      "from": [
+        "3.1/section-check"
+      ]
     }
   ]
 };

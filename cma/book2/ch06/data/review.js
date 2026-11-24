@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "threeBoxes"
   },
@@ -90,6 +90,9 @@
       "exhibit": "Machine oil is issued from the storeroom for general use in the factory.",
       "traps": [
         "indirect-costs-do-not-go-to-wip"
+      ],
+      "from": [
+        "6.3/exam-trap"
       ]
     },
     {

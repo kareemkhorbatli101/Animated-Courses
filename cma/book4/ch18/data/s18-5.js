@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Communicating the result",
   "n": "18.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.5"),
   "brief": {
     "about": "An exhibit has to carry its meaning to someone who did not do the analysis and will not ask questions. Figure F418-06 shows the difference that makes. The strongest single change is in the title. A title naming the axes leaves the reader to work out what matters, and some will not. The other three rules follow from it. One message per exhibit, because a chart saying three things usually says none.",
     "anim": "misleadAxis",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F418-06.png",
       "label": "Figure F418-06.",
-      "caption": "Leading with the message rather than the method."
+      "caption": "Leading with the message rather than the method.",
+      "from": [
+        "F418-06"
+      ]
     },
     {
       "id": "sc418-9",
@@ -55,6 +58,9 @@
           "text": "a brighter colour scheme",
           "why": "Colour is decoration unless it carries meaning."
         }
+      ],
+      "from": [
+        "18.5/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "correct": true
         }
       ],
-      "say": "Why should a caveat appear on the exhibit rather than in a footnote elsewhere?"
+      "say": "Why should a caveat appear on the exhibit rather than in a footnote elsewhere?",
+      "from": [
+        "18.5/section-check"
+      ]
     }
   ]
 };

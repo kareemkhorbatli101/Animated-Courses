@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What strategic planning does",
   "n": "1.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.1"),
   "brief": {
     "about": "Strategic planning decides where an organization wants to be in the long term and how it will get there. It chooses the markets, products and ways of competing that will lead to the long-term goals. The result is a strategic plan. Every other plan sits below it, as Figure F301-02 shows: the mission and vision at the top, then goals and strategies, then objectives, tactics and operational plans, and finally the budget.",
     "anim": "planLadder",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F301-02.png",
       "label": "Figure F301-02.",
-      "caption": "The planning hierarchy, from mission to budget."
+      "caption": "The planning hierarchy, from mission to budget.",
+      "from": [
+        "F301-02"
+      ]
     },
     {
       "id": "sc301-1",
@@ -58,6 +61,10 @@
       ],
       "traps": [
         "the-budget-is-not-the-strategy"
+      ],
+      "from": [
+        "1.1/exam-trap",
+        "1.1/section-check"
       ]
     },
     {
@@ -84,7 +91,10 @@
           "why": "This does not serve export growth."
         }
       ],
-      "exhibit": "Orontes plans to grow exports."
+      "exhibit": "Orontes plans to grow exports.",
+      "from": [
+        "1.1/section-check"
+      ]
     }
   ]
 };

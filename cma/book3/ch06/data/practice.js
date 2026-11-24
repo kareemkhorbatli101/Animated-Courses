@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P306-01–P306-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "bridgeBar"
   },

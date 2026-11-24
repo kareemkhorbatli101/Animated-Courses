@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Sales-mix and sales-quantity variances",
   "n": "13.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.1"),
   "brief": {
     "about": "When a division sells more than one product, the sales-volume variance of Chapter 11 has two causes: the total number of units, and the proportions in which they were sold. Figure F313-02 shows the split. The sales-mix variance measures the proportions. It asks what the contribution margin would have been if the actual total units had been sold in the budgeted mix. Tahini & Spreads sells three products.",
     "anim": "mixYield",
@@ -38,20 +38,29 @@
       }
     ]
   },
+  "from": [
+    "13.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f313-02",
       "kind": "figure",
       "file": "F313-02.png",
       "label": "Figure F313-02.",
-      "caption": "The sales-volume variance split into mix and quantity."
+      "caption": "The sales-volume variance split into mix and quantity.",
+      "from": [
+        "F313-02"
+      ]
     },
     {
       "id": "fig-f313-03",
       "kind": "figure",
       "file": "F313-03.png",
       "label": "Figure F313-03.",
-      "caption": "Budgeted and actual sales mix by product."
+      "caption": "Budgeted and actual sales mix by product.",
+      "from": [
+        "F313-03"
+      ]
     },
     {
       "id": "grid-04",
@@ -103,6 +112,11 @@
       ],
       "traps": [
         "mix-uses-the-actual-total"
+      ],
+      "from": [
+        "F313-04",
+        "13.1/t:tahini-spreads-b",
+        "13.1/exam-trap"
       ]
     },
     {
@@ -162,6 +176,10 @@
             "c4": "18,000 U"
           }
         }
+      ],
+      "from": [
+        "F313-05",
+        "13.1/t:product-actual-u"
       ]
     },
     {
@@ -221,6 +239,10 @@
             "c4": "24,000 U"
           }
         }
+      ],
+      "from": [
+        "F313-06",
+        "13.1/t:check-by-product"
       ]
     },
     {
@@ -247,7 +269,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A division sold 180,000 units against a budget of 200,000, with a budgeted weighted-average contribution margin of $1.80."
+      "exhibit": "A division sold 180,000 units against a budget of 200,000, with a budgeted weighted-average contribution margin of $1.80.",
+      "from": [
+        "13.1/section-check"
+      ]
     },
     {
       "id": "sc313-2",
@@ -272,6 +297,9 @@
           "text": "last year's units",
           "why": "History is not used."
         }
+      ],
+      "from": [
+        "13.1/section-check"
       ]
     }
   ]

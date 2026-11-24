@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "impair"
   },
@@ -91,6 +91,9 @@
       "exhibit": "A delivery truck wears out mainly with kilometres driven, and the number of kilometres changes a lot from year to year.",
       "traps": [
         "give-the-reason"
+      ],
+      "from": [
+        "10.3/exam-trap"
       ]
     },
     {
@@ -120,6 +123,9 @@
       "exhibit": "Use the Dubai oven example.",
       "traps": [
         "update-first"
+      ],
+      "from": [
+        "10.4/exam-trap"
       ]
     },
     {
@@ -151,6 +157,9 @@
         "asu-2025-06-and-asu-2025-10",
         "impairment-in-three-languages",
         "impairment-traps"
+      ],
+      "from": [
+        "10.5/exam-trap"
       ]
     },
     {

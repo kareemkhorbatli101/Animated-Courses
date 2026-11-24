@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "respCenters"
+    "anim": "respCenters",
+    "about": "Figure F316-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A transfer price is an internal charge that moves profit between divisions without changing company profit, and it must serve goal congruence, fair evaluation, autonomy and after-tax profit. It may be set at variable cost, full cost, market price, a negotiated figure or dual rates, each with its own advantages. The minimum is variable cost plus any opportunity cost, and the maximum is the outside price; with spare capacity the floor is variable cost, and at capacity it is the market price. Across borders, tariffs, taxes, exchange rates, currency restrictions and expropriation risk all bear on the decision."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F316-12.png",
       "label": "Figure F316-12.",
       "caption": "Chapter 16 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F316-12"
+      ]
     },
     {
       "id": "rules",

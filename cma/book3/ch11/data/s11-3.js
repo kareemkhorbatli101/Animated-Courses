@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The flexible budget",
   "n": "11.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.3"),
   "brief": {
     "about": "The flexible budget answers the question: what should the results have been at the volume actually sold? It uses the actual volume with budgeted prices and budgeted costs. Fixed costs do not change, because they do not depend on volume.",
     "anim": "varSplit",
@@ -29,6 +29,9 @@
       }
     ]
   },
+  "from": [
+    "11.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-06",
@@ -98,6 +101,12 @@
       ],
       "traps": [
         "fixed-costs-do-not-flex"
+      ],
+      "from": [
+        "F311-06",
+        "11.3/t:june-2028-usd-ac",
+        "11.3/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -162,7 +171,12 @@
           ]
         }
       ],
-      "data": true
+      "data": true,
+      "from": [
+        "F311-07",
+        "11.3/t:june-2028-usd-ac#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -197,7 +211,13 @@
           ]
         }
       ],
-      "caption": "Your turn: the flexible-budget column (complete the blanks)"
+      "caption": "Your turn: the flexible-budget column (complete the blanks)",
+      "from": [
+        "11.3/your-turn",
+        "F311-07",
+        "11.3/t:june-2028-usd-ac#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc311-5",
@@ -223,7 +243,10 @@
           "why": "This uses the budgeted volume."
         }
       ],
-      "exhibit": "The budget is 75,000 cases with variable costs of $11.80 a case and fixed costs of $350,000."
+      "exhibit": "The budget is 75,000 cases with variable costs of $11.80 a case and fixed costs of $350,000.",
+      "from": [
+        "11.3/section-check"
+      ]
     },
     {
       "id": "sc311-6",
@@ -248,6 +271,9 @@
           "why": "They do not depend on volume.",
           "correct": true
         }
+      ],
+      "from": [
+        "11.3/section-check"
       ]
     }
   ]

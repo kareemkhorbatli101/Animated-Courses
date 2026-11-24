@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Separating costs into fixed and variable parts",
   "n": "2.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.5"),
   "brief": {
     "about": "Budgets need a cost function: total cost = fixed cost + variable rate × activity. To build it, each cost must be separated into its fixed and variable parts. The simplest method is account analysis: an accountant reviews each account and classifies it by judgment. Mixed accounts need a second step. For maintenance and utilities, Oils uses the fixed monthly contract and the rate per machine hour estimated from its records.",
     "anim": "scatterLine",
@@ -30,6 +30,9 @@
       }
     ]
   },
+  "from": [
+    "2.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f202-06",
@@ -116,6 +119,10 @@
             "$20"
           ]
         }
+      ],
+      "from": [
+        "F202-06",
+        "2.5/t:oils-overhead-ac"
       ]
     },
     {
@@ -161,7 +168,12 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F202-07",
+        "2.5/t:tahini-spreads-c",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -210,6 +222,12 @@
           },
           "why": "Fixed"
         }
+      ],
+      "from": [
+        "2.5/your-turn",
+        "F202-07",
+        "2.5/t:tahini-spreads-c",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -235,6 +253,9 @@
           "text": "dividing total cost by volume",
           "why": "That gives an average cost, not a split."
         }
+      ],
+      "from": [
+        "2.5/section-check"
       ]
     },
     {
@@ -261,7 +282,10 @@
           "why": "The fixed part is multiplied."
         }
       ],
-      "exhibit": "A mixed cost is $4,000 a month plus $2 per unit."
+      "exhibit": "A mixed cost is $4,000 a month plus $2 per unit.",
+      "from": [
+        "2.5/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why overhead needs its own variances",
   "n": "14.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.1"),
   "brief": {
     "about": "Variable overhead behaves like a material: it changes with a driver, here machine hours, so it has both a spending variance and an efficiency variance. Fixed overhead does not change with activity, so it cannot have an efficiency variance in the same sense. Figure F314-02 compares the two.",
     "anim": "ohFour",
@@ -53,6 +53,10 @@
             "Spending, and a volume effect on absorption"
           ]
         }
+      ],
+      "from": [
+        "F314-02",
+        "14.1/t:overhead-example"
       ]
     },
     {
@@ -81,6 +85,9 @@
       ],
       "traps": [
         "fixed-overhead-does-change-activity"
+      ],
+      "from": [
+        "14.1/section-check"
       ]
     },
     {
@@ -106,6 +113,9 @@
           "text": "Because it is budgeted monthly",
           "why": "Timing is not the reason."
         }
+      ],
+      "from": [
+        "14.1/section-check"
       ]
     }
   ]

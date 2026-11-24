@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Zero-based budgeting",
   "n": "5.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.1"),
   "brief": {
     "about": "Incremental budgeting starts from last year's figures and adds or subtracts a change. Zero-based budgeting starts from zero every year: each activity must be justified again, as if it were new. It suits discretionary costs, such as head-office services, where spending can grow without a clear reason. The budget is built from decision packages. The budget is the approved amount, not the requested amount.",
     "anim": "zeroBase",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "5.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f305-02",
       "kind": "figure",
       "file": "F305-02.png",
       "label": "Figure F305-02.",
-      "caption": "The zero-based budgeting process."
+      "caption": "The zero-based budgeting process.",
+      "from": [
+        "F305-02"
+      ]
     },
     {
       "id": "fill-03",
@@ -108,6 +114,11 @@
       ],
       "traps": [
         "requested-is-not-approved"
+      ],
+      "from": [
+        "F305-03",
+        "5.1/t:head-office-deci",
+        "5.1/exam-trap"
       ]
     },
     {
@@ -133,6 +144,9 @@
           "text": "From the industry average",
           "why": "Not the starting point."
         }
+      ],
+      "from": [
+        "5.1/section-check"
       ]
     },
     {
@@ -159,7 +173,10 @@
           "why": "This is the requested total."
         }
       ],
-      "exhibit": "Packages request $1,260,000; the board approves $1,100,000. Last year's spending was $1,200,000."
+      "exhibit": "Packages request $1,260,000; the board approves $1,100,000. Last year's spending was $1,200,000.",
+      "from": [
+        "5.1/section-check"
+      ]
     }
   ]
 };

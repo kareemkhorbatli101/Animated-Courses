@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Budgetary slack, revisions and monitoring",
   "n": "3.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.6"),
   "brief": {
     "about": "Budgetary slack is the gap between a manager's easy figure and the figure the evidence supports. Sales are budgeted too low or costs too high, so the target is easy to beat. Slack damages goal congruence: the manager earns a bonus while the company plans for less than it could achieve. Figure F303-10 shows the slack in the Beverages proposal, worth $656,000 of contribution margin. In July, the concentrate price rose 10%.",
     "anim": "topDownUp",
@@ -33,39 +33,50 @@
       "kind": "figure",
       "file": "F303-10.png",
       "label": "Figure F303-10.",
-      "caption": "Budgetary slack in the Beverages sales proposal."
+      "caption": "Budgetary slack in the Beverages sales proposal.",
+      "from": [
+        "F303-10"
+      ]
     },
     {
       "id": "fig-f303-11",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F303-11",
       "title": "Applying the revision policy: the concentrate price rise",
-      "say": "Applying the revision policy: the concentrate price rise",
-      "caption": "Budget revision (B.2.q)",
-      "col1": "",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Budget revision (B.2.q)",
+      "col": "",
       "rows": [
         {
-          "name": "Event. Concentrate price rises 10% from July: $0.90 → $0.99 a liter",
-          "note": true
+          "label": "Event",
+          "right": "Concentrate price rises 10% from July: $0.90 → $0.99 a liter",
+          "why": ": Concentrate price rises 10% from July: $0.90 → $0.99 a liter."
         },
         {
-          "name": "Extra cost, second half",
-          "a": "$243,000 (450,000 cases)",
-          "b": ""
+          "label": "Extra cost, second half",
+          "right": "$243,000 (450,000 cases)",
+          "why": ": $243,000 (450,000 cases)."
         },
         {
-          "name": "Within the manager's control?",
-          "a": "No: the price is set by the world fruit market",
-          "b": ""
+          "label": "Within the manager's control?",
+          "right": "No: the price is set by the world fruit market",
+          "why": ": No: the price is set by the world fruit market."
         },
         {
-          "name": "Decision under the revision policy. Revise the materials budget; keep usage targets unchanged",
-          "note": true
+          "label": "Decision under the revision policy",
+          "right": "Revise the materials budget; keep usage targets unchanged",
+          "why": ": Revise the materials budget; keep usage targets unchanged."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Applying the revision policy: the concentrate price rise",
+      "traps": [
+        "slack-is-measured-from-the-evidence"
+      ],
+      "from": [
+        "F303-11",
+        "3.6/t:budget-revision",
+        "3.6/exam-trap"
+      ]
     },
     {
       "id": "num-12",
@@ -86,8 +97,9 @@
           "why": "Left for the second half: 260,000."
         }
       ],
-      "traps": [
-        "slack-is-measured-from-the-evidence"
+      "from": [
+        "F303-12",
+        "3.6/t:beverages-market"
       ]
     },
     {
@@ -113,6 +125,9 @@
           "text": "a variance caused by prices",
           "why": "That is a price variance."
         }
+      ],
+      "from": [
+        "3.6/section-check"
       ]
     },
     {
@@ -139,7 +154,10 @@
           "why": "One change does not end the budget."
         }
       ],
-      "exhibit": "The concentrate price rises 10% because of world fruit prices."
+      "exhibit": "The concentrate price rises 10% because of world fruit prices.",
+      "from": [
+        "3.6/section-check"
+      ]
     }
   ]
 };

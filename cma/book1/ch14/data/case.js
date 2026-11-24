@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada's leases in 2028",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "rou"
+  },
+  "scenario": {
+    "title": "Case question: Barada's leases in 2028",
+    "p": [
+      "At the start of 2028 Barada Wholesale leased several assets instead of buying them. It leased delivery trucks for most of their useful life, a forklift, a small storage room and a set of laptops for a few months.",
+      "The lease contracts give the payments, the lease terms, the interest rates and whether ownership or a purchase option passes to Barada. The trucks' lease requires payments at the end of each year.",
+      "Barada's accountant must classify each lease under ASC 842, measure the lease liability and the right-of-use asset, and prepare the entries for the year. She must also decide how each lease affects the income statement and the statement of cash flows.",
+      "The bank wants to know why Barada's liabilities increased although it did not borrow more money. Mr Haddad asks whether the laptops also need to appear on the balance sheet. Amounts in the exhibit are in whole U.S. dollars. The auditors will compare each classification with the lease contracts. The bank will also compare the new lease liabilities with Barada's debt covenants, which were written before the new rules took effect."
+    ]
   },
   "scenes": [
     {
@@ -54,7 +63,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F14-13",
+        "Practice/t:barada-wholesale",
+        "Practice/t:lease-category",
+        "Answers and explanations/t:lease-category"
+      ]
     },
     {
       "id": "c14-1",
@@ -99,7 +114,11 @@
           "why": "Lease: Operating lease."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:lease-category",
+        "Answers and explanations/t:lease-category"
+      ]
     },
     {
       "id": "c14-2",

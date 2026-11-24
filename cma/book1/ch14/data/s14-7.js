@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 14A: one warehouse, two classifications",
   "n": "14.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.7"),
   "brief": {
     "about": "This example takes the Orontes warehouse lease and reports it as a finance lease and as an operating lease. The balance sheet is almost the same; the income statement is not. It is exam-core. Orontes leases a warehouse for 30 years at $100,000 a year, discounted at 6%, giving a present value of $421,236. Figure F14-10 shows the first five years of the liability.",
     "anim": "rou",
@@ -55,6 +55,9 @@
       }
     ]
   },
+  "from": [
+    "14.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "sched-10",
@@ -144,6 +147,11 @@
       },
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F14-10",
+        "14.7/t:year-opening-lia",
+        "14.7/exam-trap"
       ]
     },
     {
@@ -215,6 +223,84 @@
           },
           "why": "Finance lease: Interest in operating, principal in financing. Operating lease: The whole payment in operating."
         }
+      ],
+      "from": [
+        "F14-11",
+        "14.7/t:finance-lease-op"
+      ]
+    },
+    {
+      "id": "t14-7-0",
+      "kind": "lines",
+      "kicker": "Section 14.7",
+      "title": "Lease",
+      "caption": "Lease",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "L1 Delivery trucks",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "L2 Forklift",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "L3 Storage room",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "L4 Laptops",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:lease-category",
+        "Answers and explanations/t:lease-category"
+      ]
+    },
+    {
+      "id": "t14-7-1",
+      "kind": "lines",
+      "kicker": "Section 14.7",
+      "title": "Lease",
+      "caption": "Lease",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "L1 Delivery trucks",
+          "a": "Operating lease",
+          "b": ""
+        },
+        {
+          "name": "L2 Forklift",
+          "a": "Finance lease",
+          "b": ""
+        },
+        {
+          "name": "L3 Storage room",
+          "a": "Short-term lease (exempt)",
+          "b": ""
+        },
+        {
+          "name": "L4 Laptops",
+          "a": "Operating lease",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:lease-category",
+        "Answers and explanations/t:lease-category"
       ]
     },
     {
@@ -265,7 +351,10 @@
           "why": "This is the opening balance."
         }
       ],
-      "exhibit": "Use Extended Example 14A."
+      "exhibit": "Use Extended Example 14A.",
+      "from": [
+        "14.7/section-check"
+      ]
     },
     {
       "id": "sc14-14",
@@ -291,7 +380,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 14A."
+      "exhibit": "Use Extended Example 14A.",
+      "from": [
+        "14.7/section-check"
+      ]
     },
     {
       "id": "sc14-15",
@@ -317,7 +409,10 @@
           "why": "Interest accrues on the liability, not the asset."
         }
       ],
-      "exhibit": "Use Extended Example 14A."
+      "exhibit": "Use Extended Example 14A.",
+      "from": [
+        "14.7/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benefits and shortcomings",
   "n": "4.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.5"),
   "brief": {
     "about": "Both regression and learning curves turn past data into better estimates. Regression gives a fixed cost and a variable rate, with tests of reliability. Learning curves correct the labor estimate when the task is new. Both have limits. Regression needs enough past data and holds only inside the relevant range; a good fit does not prove a causal link. Figure F204-07 summarizes the benefits and shortcomings of each method.",
     "anim": "learnCurve",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "4.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f204-07",
@@ -54,7 +57,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F204-07",
+        "4.5/t:method-benefits"
+      ]
     },
     {
       "id": "sc204-9",
@@ -82,6 +89,9 @@
       ],
       "traps": [
         "courbe-d-exp-rience"
+      ],
+      "from": [
+        "4.5/section-check"
       ]
     },
     {
@@ -107,6 +117,9 @@
           "text": "It gives no measure of reliability",
           "why": "It reports R², t and the standard error."
         }
+      ],
+      "from": [
+        "4.5/section-check"
       ]
     }
   ]

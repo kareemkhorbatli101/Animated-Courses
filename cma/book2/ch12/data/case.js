@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · standard and premium juice",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "abcLevels"
+  },
+  "scenario": {
+    "title": "Case question: standard and premium juice",
+    "p": [
+      "The Beverages division makes two juices on the same bottling line. Standard juice runs in long batches for supermarkets. Premium juice is a new small-batch product for hotels, with its own recipe and extra quality tests on every batch.",
+      "The division applies overhead to both juices at one rate per machine hour. The premium juice uses few machine hours, so it receives little overhead, and the sales team has priced it on that cost.",
+      "The controller, Sami, suspects that the premium juice is undercosted. He has collected four overhead pools: machine operations, setups, quality tests and recipe design. The recipe design cost can be traced to each product line. He has also recorded how much of each driver each juice used in 2027.",
+      "Sami must prepare an ABC analysis for the division manager before the new hotel price list is printed. He needs the activity rates, the overhead each juice receives under ABC and the overhead per case under both methods. The manager also wants a clear explanation of why the two methods give such different results for the premium juice."
+    ]
   },
   "scenes": [
     {
@@ -50,7 +59,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F212-15",
+        "Practice/t:beverages-fy2027",
+        "Practice/t:overhead-item-ca",
+        "Answers and explanations/t:overhead-item-ca"
+      ]
     },
     {
       "id": "c212-1",
@@ -104,7 +119,11 @@
           "why": "Overhead item: Facility-sustaining."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:overhead-item-ca",
+        "Answers and explanations/t:overhead-item-ca"
+      ]
     },
     {
       "id": "c212-2",

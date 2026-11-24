@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Steps in setting direct material and direct labor standards",
   "n": "18.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.4"),
   "brief": {
     "about": "Each input needs two standards: a quantity standard and a price standard. For labor they are called the time standard and the rate standard. Figure F218-07 shows what goes into each. The quantity standard starts from the net concentrate in one case and allows for normal loss, such as tank residue and spillage on the line. Abnormal waste is not included; it will show as a variance.",
     "anim": "stdCard",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "18.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f218-07",
       "kind": "figure",
       "file": "F218-07.png",
       "label": "Figure F218-07.",
-      "caption": "The steps in setting materials and labor standards."
+      "caption": "The steps in setting materials and labor standards.",
+      "from": [
+        "F218-07"
+      ]
     },
     {
       "id": "num-08",
@@ -65,55 +71,50 @@
       ],
       "traps": [
         "complete-price-and-quantity-standards"
+      ],
+      "from": [
+        "F218-08",
+        "18.4/t:concentrate-per",
+        "18.4/exam-trap"
       ]
     },
     {
-      "id": "grid-09",
-      "kind": "shares",
+      "id": "fig-f218-09",
+      "kind": "lines",
       "kicker": "Figure F218-09",
       "title": "Your turn: the concentrate quantity standard",
-      "say": "Set every column for every row.",
-      "columns": [
+      "say": "Your turn: the concentrate quantity standard (complete the blanks)",
+      "caption": "Concentrate per case",
+      "col1": "Amount",
+      "col2": "",
+      "rows": [
         {
-          "id": "c1",
-          "label": "Amount",
-          "options": [
-            "5.4 liters",
-            "5.4 ÷ 90% = 6.0 liters",
-            "6.0 − 5.4 = 0.6 liters",
-            "90%"
-          ]
+          "name": "Net concentrate in one case of juice",
+          "a": "5.4 liters",
+          "b": ""
+        },
+        {
+          "name": "Normal yield (tank residue, line spillage)",
+          "a": "90%",
+          "b": ""
+        },
+        {
+          "name": "Quantity standard (net ÷ yield)",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Normal loss built in",
+          "a": "________",
+          "b": ""
         }
       ],
-      "actions": [
-        {
-          "label": "Net concentrate in one case of juice",
-          "cells": {
-            "c1": "5.4 liters"
-          },
-          "why": "Amount: 5.4 liters."
-        },
-        {
-          "label": "Normal yield (tank residue, line spillage)",
-          "cells": {
-            "c1": "90%"
-          },
-          "why": "Amount: 90%."
-        },
-        {
-          "label": "Quantity standard (net ÷ yield)",
-          "cells": {
-            "c1": "5.4 ÷ 90% = 6.0 liters"
-          },
-          "why": "Amount: 5.4 ÷ 90% = 6.0 liters."
-        },
-        {
-          "label": "Normal loss built in",
-          "cells": {
-            "c1": "6.0 − 5.4 = 0.6 liters"
-          },
-          "why": "Amount: 6.0 − 5.4 = 0.6 liters."
-        }
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true,
+      "from": [
+        "F218-09",
+        "18.4/t:concentrate-per#2"
       ]
     },
     {
@@ -134,6 +135,44 @@
           "answer": "0.6",
           "why": "Direct labor standard per case: $0.60."
         }
+      ],
+      "from": [
+        "F218-10",
+        "18.4/t:juice-direct-lab"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F218-09",
+      "title": "The concentrate quantity standard",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the two blank rows of Figure F218-09.",
+      "blanks": [
+        {
+          "label": "Quantity standard",
+          "working": "5.4 ÷ 90% = 6.0 liters",
+          "shown": "6.0",
+          "answer": 6,
+          "prompt": "5.4 ÷ 90% ="
+        },
+        {
+          "label": "Normal loss built in",
+          "working": "6.0 − 5.4 = 0.6 liters",
+          "shown": "0.6",
+          "answer": 0.6,
+          "prompt": "6.0 − 5.4 =",
+          "needs": [
+            0
+          ]
+        }
+      ],
+      "caption": "Your turn: the concentrate quantity standard (complete the blanks)",
+      "from": [
+        "18.4/your-turn",
+        "F218-09",
+        "18.4/t:concentrate-per#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -163,6 +202,9 @@
       "exhibit": "List price is $0.88 a liter, the discount is $0.04, freight is $0.05 and receiving is $0.01.",
       "traps": [
         "abnormal-waste-is-not-in-the-standard"
+      ],
+      "from": [
+        "18.4/section-check"
       ]
     },
     {
@@ -189,7 +231,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A case contains 5.4 liters of net concentrate, and normal yield is 90%."
+      "exhibit": "A case contains 5.4 liters of net concentrate, and normal yield is 90%.",
+      "from": [
+        "18.4/section-check"
+      ]
     }
   ]
 };

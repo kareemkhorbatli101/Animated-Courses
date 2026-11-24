@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What segregation of duties means",
   "n": "3.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.1"),
   "brief": {
     "about": "Segregation of duties means splitting a transaction so that no one person can both carry it out and conceal it. It is the most powerful control activity available, and usually the cheapest, because it costs an organizing decision rather than money. Figure F403-02 gives examples across the areas the exam uses. Notice what the examples have in common.",
     "anim": "dutySplit",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f403-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F403-02",
       "title": "Segregation of duties across five areas",
-      "say": "Segregation of duties across five areas",
-      "caption": "Area",
-      "col1": "What separation looks like",
-      "col2": "Which duties are split",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Area",
+      "col": "Which duties are split",
       "rows": [
         {
-          "name": "Cash receipts",
-          "a": "The cashier who receives cash does not post the ledger or do the bank reconciliation",
-          "b": "Custody separated from recording and reconciliation"
+          "label": "Cash receipts",
+          "right": "Custody separated from recording and reconciliation",
+          "why": "Which duties are split: Custody separated from recording and reconciliation. The cashier who receives cash does not post the ledger or do the bank reconciliation."
         },
         {
-          "name": "Purchasing",
-          "a": "The buyer who approves a supplier does not release the payment",
-          "b": "Authorization separated from custody of cash"
+          "label": "Purchasing",
+          "right": "Authorization separated from custody of cash",
+          "why": "Which duties are split: Authorization separated from custody of cash. The buyer who approves a supplier does not release the payment."
         },
         {
-          "name": "Payroll",
-          "a": "The person who adds a new employee does not approve the payroll run",
-          "b": "Authorization separated from recording"
+          "label": "Payroll",
+          "right": "Authorization separated from recording",
+          "why": "Which duties are split: Authorization separated from recording. The person who adds a new employee does not approve the payroll run."
         },
         {
-          "name": "Inventory",
-          "a": "The storekeeper does not maintain the stock records or perform the count",
-          "b": "Custody separated from recording and verification"
+          "label": "Inventory",
+          "right": "Custody separated from recording and verification",
+          "why": "Which duties are split: Custody separated from recording and verification. The storekeeper does not maintain the stock records or perform the count."
         },
         {
-          "name": "Systems",
-          "a": "The programmer does not have access to live data or production programs",
-          "b": "Development separated from operations"
+          "label": "Systems",
+          "right": "Development separated from operations",
+          "why": "Which duties are split: Development separated from operations. The programmer does not have access to live data or production programs."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Segregation of duties across five areas",
+      "from": [
+        "F403-02",
+        "3.1/t:area-what-separa"
+      ]
     },
     {
       "id": "sc403-1",
@@ -87,6 +89,9 @@
           "text": "having two people perform the same task",
           "why": "Duplication is waste, not segregation."
         }
+      ],
+      "from": [
+        "3.1/section-check"
       ]
     },
     {
@@ -112,6 +117,9 @@
           "why": "Custody, recording and reconciliation are each held separately.",
           "correct": true
         }
+      ],
+      "from": [
+        "3.1/section-check"
       ]
     }
   ]

@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "rou"
   },
@@ -145,6 +145,9 @@
       "say": "Where does Orontes report the principal part of its 2026 olive-press payment in the statement of cash flows?",
       "traps": [
         "cash-flow-traps"
+      ],
+      "from": [
+        "14.5/exam-trap"
       ]
     },
     {

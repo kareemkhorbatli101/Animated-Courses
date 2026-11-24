@@ -9,7 +9,7 @@
   "up": "../",
   "title": "From data to action",
   "n": "13.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.3"),
   "brief": {
     "about": "Data by itself decides nothing. Figure F413-04 shows the five steps by which it becomes a decision, using the Beverages figures. Read it upward and the dependencies are clear. Action needs insight into why a pattern holds; insight needs the knowledge that a pattern exists; knowledge needs enough information to see across cases; and information is a fact placed in context. The step companies stop at is knowledge.",
     "anim": "insightLadder",
@@ -33,6 +33,9 @@
       "caption": "From data to action, in five steps.",
       "traps": [
         "knowing-that-the-third-quarter-is-alwa"
+      ],
+      "from": [
+        "F413-04"
       ]
     },
     {
@@ -58,6 +61,9 @@
           "text": "action",
           "why": "No decision has been taken."
         }
+      ],
+      "from": [
+        "13.3/section-check"
       ]
     },
     {
@@ -83,6 +89,9 @@
           "text": "Knowledge is not quantified",
           "why": "Knowledge can be fully quantified and still not explain."
         }
+      ],
+      "from": [
+        "13.3/section-check"
       ]
     }
   ]

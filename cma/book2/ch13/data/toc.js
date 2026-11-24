@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.2",
   "title": "Measuring profitability: the issues",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s13-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.3",
   "title": "The customer cost hierarchy and the cost to serve",
-  "blurb": "Figures, schedule, questions · 5 scenes"
+  "blurb": "Figures, schedule, grid, yourturn, questions · 6 scenes"
  },
  {
   "id": "s13-4",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.6",
   "title": "Extended Example 13A: Al-Salam's revenue under ASC 606",
-  "blurb": "Post, the tie lines, questions · 4 scenes"
+  "blurb": "Post, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · Levant's two customer groups",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 5 scenes"
  },
  {
   "id": "review",

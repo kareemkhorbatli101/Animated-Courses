@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Orontes tahini cartons",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "layers"
+  },
+  "scenario": {
+    "title": "Case question: Orontes tahini cartons",
+    "p": [
+      "At the end of 2025 Orontes counted its cartons of tahini in the Amman warehouse. The count is the starting point for the year-end inventory figure, but some cartons were not in the warehouse, and some cartons in the warehouse did not belong to Orontes.",
+      "The warehouse manager has prepared memos about the unusual items: cartons shipped to customers under different shipping terms, cartons held by a consignee, goods held for another company and a purchase still in transit. Each memo needs a decision before the count can be used.",
+      "Orontes bought cartons at different prices during the year, and prices rose. The controller wants the ending inventory and the cost of goods sold under FIFO and weighted-average cost, and she wants to know how large the LIFO reserve would be if the tahini line used LIFO.",
+      "She also asks how much the unadjusted count would have misstated cost of goods sold, because the auditors will test the cut-off. All amounts in the exhibit are in U.S. dollars or in cartons. The warehouse team will recount one aisle after the adjustments, so every memo must be settled before the final figures are prepared."
+    ]
   },
   "scenes": [
     {
@@ -72,7 +81,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F07-13",
+        "Practice/t:date-item-detail"
+      ]
     },
     {
       "id": "c7-1",
@@ -113,7 +126,11 @@
           "why": "Memo item: Add to the count."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:memo-item-catego",
+        "Answers and explanations/t:memo-item-catego"
+      ]
     },
     {
       "id": "c7-2",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Cost pools and assigning costs to activities",
   "n": "1.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.3"),
   "brief": {
     "about": "A cost pool is a group of individual costs that are assigned together. Instead of assigning every electricity bill and every supervisor's salary one by one, Orontes groups indirect costs into pools, such as machine operations, batch setups, quality testing and facility costs. Assignment then happens in two stages. First, resources such as salaries and power are assigned to the activities that use them.",
     "anim": "poolBase",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F201-04.png",
       "label": "Figure F201-04.",
-      "caption": "Two-stage assignment: resources to cost pools, pools to cost objects through drivers."
+      "caption": "Two-stage assignment: resources to cost pools, pools to cost objects through drivers.",
+      "from": [
+        "F201-04"
+      ]
     },
     {
       "id": "sc201-5",
@@ -55,6 +58,9 @@
           "why": "Pools group costs for assignment.",
           "correct": true
         }
+      ],
+      "from": [
+        "1.3/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "product costs to inventory, then period costs to jobs",
           "why": "Period costs never go to jobs."
         }
+      ],
+      "from": [
+        "1.3/section-check"
       ]
     }
   ]

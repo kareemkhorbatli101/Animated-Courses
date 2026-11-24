@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Using regression to estimate fixed costs",
   "n": "3.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.5"),
   "brief": {
     "about": "The intercept is regression's estimate of fixed cost: $18,000 a month for Oils maintenance and utilities, or $216,000 a year. Chapter 2 used exactly this figure in the Oils overhead budget. Use the intercept with care. It is the cost the line predicts at zero activity, and zero lies far outside the data. The t-statistic of the intercept helps.",
     "anim": "scatterLine",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "3.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "sc203-9",
@@ -58,6 +61,9 @@
       ],
       "traps": [
         "constante"
+      ],
+      "from": [
+        "3.5/section-check"
       ]
     },
     {
@@ -84,7 +90,10 @@
           "why": "R² is a separate measure."
         }
       ],
-      "exhibit": "A regression gives an intercept of $7,000 with a t-statistic of 0.8."
+      "exhibit": "A regression gives an intercept of $7,000 with a t-statistic of 0.8.",
+      "from": [
+        "3.5/section-check"
+      ]
     }
   ]
 };

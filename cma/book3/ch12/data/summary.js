@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "varSplit"
+    "anim": "varSplit",
+    "about": "Figure F312-15 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A standard costing system records costs at standard and reports the differences as variances, which simplifies record keeping and supports control by exception. Every input variance uses three columns: actual quantity at actual price, actual quantity at standard price, and standard quantity allowed at standard price. The price or rate variance is valued on the actual quantity, measured at purchase or at usage; the efficiency or usage variance is valued at the standard price. Price variances usually belong to purchasing and usage variances to the plant, but the two are often caused by the same decision."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F312-15.png",
       "label": "Figure F312-15.",
       "caption": "Chapter 12 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F312-15"
+      ]
     },
     {
       "id": "rules",

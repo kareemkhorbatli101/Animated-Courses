@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Equity securities and the equity method",
   "n": "9.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.4"),
   "brief": {
     "about": "For shares, the key question is how much influence the investor has over the investee, the company whose shares it holds. Figure F09-06 shows the three levels. Shares with a readily determinable fair value are measured at fair value, and all changes go to net income. There is no AFS category and no OCI option for shares. Dividends received are income. Under the equity method, the investment starts at cost.",
     "anim": "influence",
@@ -49,30 +49,50 @@
           "Three more equity-method rules appear in exam questions. Losses reduce the investment only to zero, unless the investor has guaranteed the investee's debts. Profits on sales between the two companies are eliminated until the goods are sold to outsiders. And when an investor first gains significant influence, it starts the equity method from that date; it does not restate prior years. An investor may also elect the fair value option for an equity-method investment.",
           "Crypto assets that meet the ASU 2023-08 definition are measured at fair value through net income. This rule became effective for fiscal years beginning after December 15, 2024, so it is now testable."
         ]
+      },
+      {
+        "h": "IFRS 9 and IAS 28",
+        "box": "ifrs",
+        "p": [
+          "IFRS 9 classifies debt by the business model and the cash flows (amortized cost, FVOCI or FVPL), not by intent. For shares, IFRS 9 allows an irrevocable election to put fair value changes in OCI, with no recycling on sale; U.S. GAAP has no such option. Under IAS 28, an equity-method investment that is impaired can later be written back up; under U.S. GAAP the impairment is not reversed."
+        ]
       }
     ]
   },
+  "from": [
+    "9.4/ifrs-contrast",
+    "9.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f09-06",
       "kind": "figure",
       "file": "F09-06.png",
       "label": "Figure F09-06.",
-      "caption": "Influence spectrum: fair value, the equity method or consolidation, by share of voting stock."
+      "caption": "Influence spectrum: fair value, the equity method or consolidation, by share of voting stock.",
+      "from": [
+        "F09-06"
+      ]
     },
     {
       "id": "fig-f09-07",
       "kind": "figure",
       "file": "F09-07.png",
       "label": "Figure F09-07.",
-      "caption": "Equity-method T-account for Orontes's 30% investment in Jordan Glass Co., 2025."
+      "caption": "Equity-method T-account for Orontes's 30% investment in Jordan Glass Co., 2025.",
+      "from": [
+        "F09-07"
+      ]
     },
     {
       "id": "fig-f09-08",
       "kind": "figure",
       "file": "F09-08.png",
       "label": "Figure F09-08.",
-      "caption": "Faded equity-method T-account for 2026; the learner completes the dashed boxes."
+      "caption": "Faded equity-method T-account for 2026; the learner completes the dashed boxes.",
+      "from": [
+        "F09-08"
+      ]
     },
     {
       "id": "yourturn",
@@ -130,6 +150,12 @@
       "caption": "Faded equity-method T-account for 2026; the learner completes the dashed boxes.",
       "traps": [
         "dividends-and-percentages"
+      ],
+      "from": [
+        "9.4/your-turn",
+        "F09-08",
+        "9.4/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -156,7 +182,10 @@
           "why": "A 3% holding gives no significant influence here."
         }
       ],
-      "exhibit": "Orontes holds 3% of a listed company's shares."
+      "exhibit": "Orontes holds 3% of a listed company's shares.",
+      "from": [
+        "9.4/section-check"
+      ]
     },
     {
       "id": "sc9-8",
@@ -182,7 +211,10 @@
           "why": "This is 100% of the investee's income."
         }
       ],
-      "exhibit": "Use the Jordan Glass example."
+      "exhibit": "Use the Jordan Glass example.",
+      "from": [
+        "9.4/section-check"
+      ]
     }
   ]
 };

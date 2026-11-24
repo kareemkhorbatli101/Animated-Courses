@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The control environment",
   "n": "1.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.3"),
   "brief": {
     "about": "The control environment is the set of standards, processes and structures that provide the basis for carrying out internal control across the organization. It is the first of the five components shown in Figure F401-04, and it is first for a reason: it decides whether the other four work. Figure F401-05 takes the elements the exam names and shows what each one decides. Structure matters in the same practical way.",
     "anim": "cosoBase",
@@ -31,46 +31,51 @@
       "kind": "figure",
       "file": "F401-04.png",
       "label": "Figure F401-04.",
-      "caption": "The five components of the COSO framework."
+      "caption": "The five components of the COSO framework.",
+      "from": [
+        "F401-04"
+      ]
     },
     {
       "id": "fig-f401-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F401-05",
       "title": "What shapes the control environment",
-      "say": "What shapes the control environment",
-      "caption": "Element of the control environment",
-      "col1": "What it decides",
-      "col2": "Why it matters",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Element of the control environment",
+      "col": "What it decides",
       "rows": [
         {
-          "name": "Management philosophy and style",
-          "a": "Whether targets are pursued at any cost, or within limits",
-          "b": "A plant manager rewarded only on output will cut inspection"
+          "label": "Management philosophy and style",
+          "right": "Whether targets are pursued at any cost, or within limits",
+          "why": "What it decides: Whether targets are pursued at any cost, or within limits. A plant manager rewarded only on output will cut inspection."
         },
         {
-          "name": "Organizational structure",
-          "a": "Who reports to whom, and where authority stops",
-          "b": "Levant Distribution reports to the group, not to the division it serves"
+          "label": "Organizational structure",
+          "right": "Who reports to whom, and where authority stops",
+          "why": "What it decides: Who reports to whom, and where authority stops. Levant Distribution reports to the group, not to the division it serves."
         },
         {
-          "name": "Policies, objectives and goals",
-          "a": "What the company says it wants and will not do",
-          "b": "The code of conduct; the Chapter 1 objectives of Book 3"
+          "label": "Policies, objectives and goals",
+          "right": "What the company says it wants and will not do",
+          "why": "What it decides: What the company says it wants and will not do. The code of conduct; the Chapter 1 objectives of Book 3."
         },
         {
-          "name": "Competence",
-          "a": "Whether people can do the job they are given",
-          "b": "A clerk asked to review a reconciliation he does not understand"
+          "label": "Competence",
+          "right": "Whether people can do the job they are given",
+          "why": "What it decides: Whether people can do the job they are given. A clerk asked to review a reconciliation he does not understand."
         },
         {
-          "name": "Accountability",
-          "a": "Whether anyone answers for a failure",
-          "b": "A missed control that nobody is asked about"
+          "label": "Accountability",
+          "right": "Whether anyone answers for a failure",
+          "why": "What it decides: Whether anyone answers for a failure. A missed control that nobody is asked about."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "What shapes the control environment",
+      "from": [
+        "F401-05",
+        "1.3/t:element-of-the-c"
+      ]
     },
     {
       "id": "sc401-5",
@@ -96,7 +101,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A plant manager is rewarded only on output."
+      "exhibit": "A plant manager is rewarded only on output.",
+      "from": [
+        "1.3/section-check"
+      ]
     },
     {
       "id": "sc401-6",
@@ -121,6 +129,9 @@
           "text": "replaces the need for control activities",
           "why": "Control activities are still needed."
         }
+      ],
+      "from": [
+        "1.3/section-check"
       ]
     }
   ]

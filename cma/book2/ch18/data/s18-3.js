@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Authoritative and participative standards",
   "n": "18.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.3"),
   "brief": {
     "about": "An authoritative standard is set by management or engineers alone. A participative standard is set with the people who must meet it. The juice labor standard started as an engineers' proposal of 0.045 hours a case. The line supervisors pointed out that the proposal had no time for cleaning between runs. After the discussion, the division set 0.050 hours. Figure F218-06 compares the two approaches.",
     "anim": "stdCard",
@@ -72,6 +72,10 @@
           },
           "why": "Authoritative (imposed): Resistance if people see it as unfair."
         }
+      ],
+      "from": [
+        "F218-06",
+        "18.3/t:authoritative-im"
       ]
     },
     {
@@ -98,7 +102,10 @@
           "why": "It may or may not be attainable."
         }
       ],
-      "say": "A standard set by engineers without consulting the people who must meet it is:"
+      "say": "A standard set by engineers without consulting the people who must meet it is:",
+      "from": [
+        "18.3/section-check"
+      ]
     },
     {
       "id": "sc218-6",
@@ -123,6 +130,9 @@
           "text": "It cannot be used for budgeting",
           "why": "It is used for budgeting."
         }
+      ],
+      "from": [
+        "18.3/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Controllable margin and decisions",
   "n": "13.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.5"),
   "brief": {
     "about": "A manager should be judged only on what the manager can influence. The controllable margin is revenue minus the costs the manager controls. Costs decided elsewhere, such as the rent of the distribution centre, are shown below it. Figure F213-11 sets out the sales manager's report. Before dropping a customer, ask which costs would really go away. Dropping is the last option.",
     "anim": "whaleCurve",
@@ -94,6 +94,10 @@
             "c2": ""
           }
         }
+      ],
+      "from": [
+        "F213-11",
+        "13.5/t:sales-manager-s"
       ]
     },
     {
@@ -109,6 +113,10 @@
           "answer": "-300000.0",
           "why": "Net revenue lost: (300,000)."
         }
+      ],
+      "from": [
+        "F213-12",
+        "13.5/t:if-the-small-sho"
       ]
     },
     {
@@ -134,6 +142,9 @@
           "text": "key account managers the manager hires",
           "why": "Staffing is controllable."
         }
+      ],
+      "from": [
+        "13.5/section-check"
       ]
     },
     {
@@ -160,7 +171,10 @@
           "correct": true
         }
       ],
-      "say": "If the small shops are dropped and their product cost and cost to serve go away, profit changes by:"
+      "say": "If the small shops are dropped and their product cost and cost to serve go away, profit changes by:",
+      "from": [
+        "13.5/section-check"
+      ]
     }
   ]
 };

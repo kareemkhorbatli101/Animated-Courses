@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Issuing and buying back shares",
   "n": "4.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.2"),
   "brief": {
     "about": "When a company issues shares for cash, it credits common stock with the par value and APIC with the rest. If the shares have no par and no stated value, the whole amount goes to common stock. Direct costs of issuing shares, such as underwriting fees, reduce APIC; they are not expenses. A company may buy back its own shares and hold them as treasury stock.",
     "anim": "treasuryBox",
@@ -38,16 +38,30 @@
         "p": [
           "If the company retires its treasury stock instead, it removes their par value from common stock and the related APIC. Any excess of cost over these amounts reduces retained earnings, or is split between APIC and retained earnings."
         ]
+      },
+      {
+        "h": "Treasury shares under IFRS",
+        "box": "ifrs",
+        "p": [
+          "IFRS also deducts treasury shares from equity and never shows a gain or loss in profit. It does not prescribe a cost or par-value method, so IFRS companies show the effect in reserves in different ways."
+        ]
       }
     ]
   },
+  "from": [
+    "4.2/ifrs-contrast",
+    "4.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f04-04",
       "kind": "figure",
       "file": "F04-04.png",
       "label": "Figure F04-04.",
-      "caption": "Treasury stock under the cost method: buy back, reissue or retire."
+      "caption": "Treasury stock under the cost method: buy back, reissue or retire.",
+      "from": [
+        "F04-04"
+      ]
     },
     {
       "id": "treasury",
@@ -88,6 +102,9 @@
       "traps": [
         "asu-2025-12-a-new-retirement-option",
         "treasury-never-income"
+      ],
+      "from": [
+        "F04-04"
       ]
     },
     {
@@ -142,7 +159,11 @@
         "1": "Treasury stock is debited at the price paid and deducted from equity.",
         "2": "Cash is $360,000 and the cost removed is $320,000, so APIC–treasury stock is credited with $40,000.",
         "3": "The shortfall below cost is $60,000. APIC–treasury stock absorbs $40,000, and retained earnings absorb the remaining $20,000."
-      }
+      },
+      "from": [
+        "F04-05",
+        "4.2/t:suppose-orontes"
+      ]
     },
     {
       "id": "issuing",
@@ -201,7 +222,10 @@
           "why": "Only the excess over par goes to APIC."
         }
       ],
-      "exhibit": "Orontes issues 100,000 shares of $1 par common stock for $1,500,000 in cash."
+      "exhibit": "Orontes issues 100,000 shares of $1 par common stock for $1,500,000 in cash.",
+      "from": [
+        "4.2/section-check"
+      ]
     },
     {
       "id": "sc4-4",
@@ -227,7 +251,10 @@
           "why": "APIC–treasury stock must be used before retained earnings."
         }
       ],
-      "exhibit": "Use the treasury stock example in Section 4.2."
+      "exhibit": "Use the treasury stock example in Section 4.2.",
+      "from": [
+        "4.2/section-check"
+      ]
     }
   ]
 };

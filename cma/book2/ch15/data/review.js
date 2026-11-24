@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "kaizenStair"
   },
@@ -140,9 +140,6 @@
           "text": "It replaces process analysis",
           "why": "It needs process analysis."
         }
-      ],
-      "traps": [
-        "talonnage"
       ]
     },
     {

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Direct material variances",
   "n": "12.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.3"),
   "brief": {
     "about": "Figure F312-05 puts the June concentrate figures into the three columns. The standard allows 6.0 liters a case, so 72,000 cases allow 432,000 liters; the plant used 437,000. The price variance can be measured when the material is bought or when it is used. Beverages bought 450,000 liters in June but used 437,000, so the two conventions differ by $260. Figure F312-07 compares them.",
     "anim": "threeCols",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "12.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f312-05",
       "kind": "figure",
       "file": "F312-05.png",
       "label": "Figure F312-05.",
-      "caption": "The three columns applied to concentrate."
+      "caption": "The three columns applied to concentrate.",
+      "from": [
+        "F312-05"
+      ]
     },
     {
       "id": "num-06",
@@ -65,6 +71,11 @@
       ],
       "traps": [
         "which-quantity"
+      ],
+      "from": [
+        "F312-06",
+        "12.3/t:concentrate-june",
+        "12.3/exam-trap"
       ]
     },
     {
@@ -106,6 +117,10 @@
           },
           "why": "Effect: $260 of the variance is carried in stock."
         }
+      ],
+      "from": [
+        "F312-07",
+        "12.3/t:which-quantity-l"
       ]
     },
     {
@@ -132,7 +147,10 @@
           "why": "This is the total variance."
         }
       ],
-      "exhibit": "Actual: 437,000 liters at $0.92. Standard: $0.90 a liter, 432,000 liters allowed."
+      "exhibit": "Actual: 437,000 liters at $0.92. Standard: $0.90 a liter, 432,000 liters allowed.",
+      "from": [
+        "12.3/section-check"
+      ]
     },
     {
       "id": "sc312-6",
@@ -157,6 +175,9 @@
           "text": "$5,000 unfavorable",
           "why": "This is the extra liters only."
         }
+      ],
+      "from": [
+        "12.3/section-check"
       ]
     }
   ]

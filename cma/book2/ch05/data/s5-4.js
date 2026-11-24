@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Standard costing",
   "n": "5.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.4"),
   "brief": {
     "about": "Standard costing values every input at what it should cost for the output achieved. Each part equals the standard quantity allowed for the actual output times the standard price. The Beverages standard cost card gives $12.60 a case (Chapter 18 shows how it is built). The difference between actual cost and standard cost is recorded as variances. Managers study them to control costs, and Book 3 analyzes them in detail.",
     "anim": "stdCard",
@@ -27,9 +27,20 @@
         "p": [
           "Figure F205-05 values the May output at standard. Overhead uses the 1,400 standard machine hours allowed for 70,000 cases, not the 1,414 hours actually used. The standard cost is $882,000."
         ]
+      },
+      {
+        "h": "Standards in the financial statements",
+        "box": "ifrs",
+        "p": [
+          "Both ASC 330 and IAS 2 accept standard costs for inventory only if they approximate actual cost. Standards must be reviewed and updated regularly."
+        ]
       }
     ]
   },
+  "from": [
+    "5.4/ifrs-contrast",
+    "5.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-05",
@@ -81,6 +92,11 @@
       ],
       "traps": [
         "standard-hours-allowed-not-actual-hour"
+      ],
+      "from": [
+        "F205-05",
+        "5.4/t:beverages-may-20",
+        "5.4/exam-trap"
       ]
     },
     {
@@ -106,6 +122,9 @@
           "text": "budgeted base units × actual rate",
           "why": "The budget volume is not the actual output."
         }
+      ],
+      "from": [
+        "5.4/section-check"
       ]
     },
     {
@@ -131,6 +150,9 @@
           "text": "it removes all differences between actual and product cost",
           "why": "Differences become variances."
         }
+      ],
+      "from": [
+        "5.4/section-check"
       ]
     }
   ]

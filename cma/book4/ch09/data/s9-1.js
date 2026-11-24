@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What an accounting information system does",
   "n": "9.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.1"),
   "brief": {
     "about": "An accounting information system captures, processes, stores and reports the economic events of a business. Figure F409-02 sets out those functions with an Orontes example of each. The fifth row is the one that connects this chapter to the rest of the book. A system that captures and reports but does not control what it captures produces numbers nobody should rely on, which is why Chapters 6 and 7 came first.",
     "anim": "aisFlow",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f409-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F409-02",
       "title": "What an accounting information system does",
-      "say": "What an accounting information system does",
-      "caption": "What an AIS does",
-      "col1": "Meaning",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "What an AIS does",
+      "col": "Meaning",
       "rows": [
         {
-          "name": "Capture",
-          "a": "Record each economic event as it happens",
-          "b": "A goods received note raised at the gate"
+          "label": "Capture",
+          "right": "Record each economic event as it happens",
+          "why": "Meaning: Record each economic event as it happens. A goods received note raised at the gate."
         },
         {
-          "name": "Process",
-          "a": "Classify, value and summarise the events",
-          "b": "The invoice matched and posted to payables"
+          "label": "Process",
+          "right": "Classify, value and summarise the events",
+          "why": "Meaning: Classify, value and summarise the events. The invoice matched and posted to payables."
         },
         {
-          "name": "Store",
-          "a": "Keep the record so it can be found again",
-          "b": "The supplier account and the audit trail"
+          "label": "Store",
+          "right": "Keep the record so it can be found again",
+          "why": "Meaning: Keep the record so it can be found again. The supplier account and the audit trail."
         },
         {
-          "name": "Report",
-          "a": "Present the result to whoever must decide",
-          "b": "The payables ageing of Book 1, Chapter 6"
+          "label": "Report",
+          "right": "Present the result to whoever must decide",
+          "why": "Meaning: Present the result to whoever must decide. The payables ageing of Book 1, Chapter 6."
         },
         {
-          "name": "Control",
-          "a": "Ensure what is captured is complete and authorized",
-          "b": "The input controls of Chapter 7"
+          "label": "Control",
+          "right": "Ensure what is captured is complete and authorized",
+          "why": "Meaning: Ensure what is captured is complete and authorized. The input controls of Chapter 7."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "What an accounting information system does",
+      "from": [
+        "F409-02",
+        "9.1/t:what-an-ais-does"
+      ]
     },
     {
       "id": "sc409-1",
@@ -87,6 +89,9 @@
           "text": "is the same as the finance department",
           "why": "A department is people; the system is how events are recorded."
         }
+      ],
+      "from": [
+        "9.1/section-check"
       ]
     },
     {
@@ -112,6 +117,9 @@
           "text": "Only for internal reporting",
           "why": "External reports use non-financial measures too."
         }
+      ],
+      "from": [
+        "9.1/section-check"
       ]
     }
   ]

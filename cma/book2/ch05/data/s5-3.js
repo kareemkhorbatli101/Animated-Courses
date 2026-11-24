@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Normal costing",
   "n": "5.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.3"),
   "brief": {
     "about": "Normal costing keeps actual direct materials and direct labor, but applies overhead with a predetermined overhead rate: budgeted overhead divided by the budgeted allocation base, set before the year starts. Beverages uses $150 per machine hour. Applied overhead equals the actual base times the rate. In May the line ran 1,414 machine hours, so applied overhead was $212,100.",
     "anim": "rateFraction",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "5.3/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f205-04",
       "kind": "figure",
       "file": "F205-04.png",
       "label": "Figure F205-04.",
-      "caption": "Normal costing: actual direct costs plus overhead applied at a predetermined rate."
+      "caption": "Normal costing: actual direct costs plus overhead applied at a predetermined rate.",
+      "from": [
+        "F205-04"
+      ]
     },
     {
       "id": "sc205-5",
@@ -66,6 +72,9 @@
       "exhibit": "Beverages ran 1,414 machine hours in May. The predetermined rate is $150 per machine hour.",
       "traps": [
         "normal-costing-is-not-normal-capacity"
+      ],
+      "from": [
+        "5.3/section-check"
       ]
     },
     {
@@ -91,6 +100,9 @@
           "why": "It is set before the year from budgets.",
           "correct": true
         }
+      ],
+      "from": [
+        "5.3/section-check"
       ]
     }
   ]

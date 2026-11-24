@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Equivalent units: the idea",
   "n": "7.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.3"),
   "brief": {
     "about": "At the end of a month some units are only partly finished. To share costs fairly, process costing expresses partly finished work as a number of whole units: equivalent units. Each cost element has its own count. Materials added at the start are complete for every unit; conversion added evenly may be only partly done. Figure F207-04 shows a tank of 1,000 liters that is 60% through conversion.",
     "anim": "equivUnits",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F207-04.png",
       "label": "Figure F207-04.",
-      "caption": "Equivalent units: the idea behind costing partly finished work."
+      "caption": "Equivalent units: the idea behind costing partly finished work.",
+      "from": [
+        "F207-04"
+      ]
     },
     {
       "id": "sc207-5",
@@ -58,6 +61,10 @@
       ],
       "traps": [
         "no-equivalent-unit-arithmetic"
+      ],
+      "from": [
+        "7.3/exam-trap",
+        "7.3/section-check"
       ]
     },
     {
@@ -84,7 +91,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A tank of 1,000 liters is 60% through conversion; materials were all added at the start."
+      "exhibit": "A tank of 1,000 liters is 60% through conversion; materials were all added at the start.",
+      "from": [
+        "7.3/section-check"
+      ]
     }
   ]
 };

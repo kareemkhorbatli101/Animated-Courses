@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Practical capacity and capacity management",
   "n": "9.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.6"),
   "brief": {
     "about": "Many managers use practical capacity for internal reports. The product carries only the cost of the capacity it uses, and the cost of idle capacity is shown on its own as unused capacity. In 2027 the bottling line could fill 1,000,000 cases but filled 850,000. At $1.80 of fixed overhead per case of practical capacity, 150,000 idle cases cost $270,000. Practical capacity also protects pricing. Practical capacity has limits.",
     "anim": "capacityJar",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F209-09.png",
       "label": "Figure F209-09.",
-      "caption": "A downward demand spiral when prices follow full cost at a falling budget volume."
+      "caption": "A downward demand spiral when prices follow full cost at a falling budget volume.",
+      "from": [
+        "F209-09"
+      ]
     },
     {
       "id": "sc209-11",
@@ -56,6 +59,9 @@
           "text": "removes all fixed overhead",
           "why": "Fixed overhead remains."
         }
+      ],
+      "from": [
+        "9.6/section-check"
       ]
     },
     {
@@ -82,7 +88,10 @@
           "why": "This is all fixed overhead."
         }
       ],
-      "exhibit": "Beverages' practical capacity is 1,000,000 cases and it produced 850,000. Fixed overhead is $1.80 per case at practical capacity."
+      "exhibit": "Beverages' practical capacity is 1,000,000 cases and it produced 850,000. Fixed overhead is $1.80 per case at practical capacity.",
+      "from": [
+        "9.6/section-check"
+      ]
     }
   ]
 };

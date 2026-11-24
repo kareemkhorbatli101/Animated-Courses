@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.1",
   "title": "What data mining is",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s14-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.2",
   "title": "The challenges",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s14-3",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.5",
   "title": "Extended Example 14A: mining the Beverages demand data",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "A printed statement, shares, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -81,6 +81,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the analyst who reported too early",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 3 scenes"
  },
  {
   "id": "review",

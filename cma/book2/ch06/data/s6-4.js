@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Applying overhead",
   "n": "6.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.4"),
   "brief": {
     "about": "Actual overhead is not known until the end of the year, but a job needs a cost when it is finished. So job costing uses normal costing: overhead is applied with a predetermined rate. For 2027 Tahini & Spreads uses $30 per machine hour: $24 fixed plus $6 variable. Chapter 8 shows how the rate is set. Applied overhead equals the actual machine hours used by the job times the predetermined rate.",
     "anim": "rateFraction",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "6.4/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f206-04",
       "kind": "figure",
       "file": "F206-04.png",
       "label": "Figure F206-04.",
-      "caption": "Job costing cost flow: actual overhead in MOH Control, applied overhead to jobs."
+      "caption": "Job costing cost flow: actual overhead in MOH Control, applied overhead to jobs.",
+      "from": [
+        "F206-04"
+      ]
     },
     {
       "id": "sc206-7",
@@ -66,6 +72,9 @@
       "exhibit": "Job T-0302 used 1,000 machine hours. The predetermined rate is $30.",
       "traps": [
         "imputation"
+      ],
+      "from": [
+        "6.4/section-check"
       ]
     },
     {
@@ -91,6 +100,9 @@
           "text": "Dr Work-in-Process Inventory; Cr Manufacturing Overhead Control",
           "why": "Orontes keeps actual and applied overhead in separate accounts."
         }
+      ],
+      "from": [
+        "6.4/section-check"
       ]
     }
   ]

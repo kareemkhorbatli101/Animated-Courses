@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 16A: raising the Gulf transfer price",
   "n": "16.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.6"),
   "brief": {
     "about": "This example works out whether a proposed price rise is worth making. It is exam-core. The finance team proposes raising the price on 100,000 units by $0.20, moving $20,000 of profit from Jordan, taxed at 20%, to the Gulf buyer, taxed at 10%. Figure F316-11 shows a tax saving of $2,000 and extra duty of $1,000, a net gain of $1,000. The controller advises against changing the price for tax reasons alone.",
     "anim": "respCenters",
@@ -48,6 +48,9 @@
       }
     ]
   },
+  "from": [
+    "16.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-11",
@@ -65,6 +68,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F316-11",
+        "16.6/t:raising-the-gulf",
+        "16.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t16-6-0",
+      "kind": "lines",
+      "kicker": "Section 16.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The transfer price changes which division reports the profit",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Supplying from idle capacity costs the company only the variable cost",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "A higher transfer price raises the supplying division's profit",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Buying outside at a price above the company's incremental cost wastes cash",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "A higher transfer price lowers the buying division's profit",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
+    },
+    {
+      "id": "t16-6-1",
+      "kind": "lines",
+      "kicker": "Section 16.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The transfer price changes which division reports the profit",
+          "a": "True for the company",
+          "b": ""
+        },
+        {
+          "name": "Supplying from idle capacity costs the company only the variable cost",
+          "a": "True for the company",
+          "b": ""
+        },
+        {
+          "name": "A higher transfer price raises the supplying division's profit",
+          "a": "True only for one division",
+          "b": ""
+        },
+        {
+          "name": "Buying outside at a price above the company's incremental cost wastes cash",
+          "a": "True for the company",
+          "b": ""
+        },
+        {
+          "name": "A higher transfer price lowers the buying division's profit",
+          "a": "True only for one division",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
       ]
     },
     {
@@ -110,7 +202,10 @@
           "why": "This is the profit shifted, not the gain."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "16.6/section-check"
+      ]
     },
     {
       "id": "sc316-12",
@@ -136,7 +231,10 @@
           "why": "Tax is a separate, cross-border issue."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "16.6/section-check"
+      ]
     }
   ]
 };

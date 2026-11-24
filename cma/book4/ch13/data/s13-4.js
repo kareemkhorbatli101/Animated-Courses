@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Opportunities and challenges",
   "n": "13.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.4"),
   "brief": {
     "about": "Figure F413-05 pairs each opportunity with the challenge that accompanies it, which is how the exam asks about both. The last row deserves attention because it worsens as data grows. With enough variables, patterns appear by chance alone: two series that happen to move together, with no connection between them. More data finds more such patterns, not fewer, and only judgement about what could plausibly cause what separates them from real findings.",
     "anim": "oppChallenge",
@@ -27,47 +27,49 @@
   "scenes": [
     {
       "id": "fig-f413-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F413-05",
       "title": "Opportunities and their matching challenges",
-      "say": "Opportunities and their matching challenges",
-      "caption": "",
-      "col1": "Opportunity (F.4.a, F.4.d)",
-      "col2": "Matching challenge",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Opportunity (F.4.a, F.4.d)",
       "rows": [
         {
-          "name": "Better decisions",
-          "a": "Patterns too large or too fast for a person to see",
-          "b": "Data quality: an answer from poor data is still poor"
+          "label": "Better decisions",
+          "right": "Patterns too large or too fast for a person to see",
+          "why": "Opportunity (F.4.a, F.4.d): Patterns too large or too fast for a person to see. Data quality: an answer from poor data is still poor."
         },
         {
-          "name": "Speed",
-          "a": "Answers while there is still time to act",
-          "b": "Skills: the people who can do this are scarce and expensive"
+          "label": "Speed",
+          "right": "Answers while there is still time to act",
+          "why": "Opportunity (F.4.a, F.4.d): Answers while there is still time to act. Skills: the people who can do this are scarce and expensive."
         },
         {
-          "name": "New questions",
-          "a": "Questions nobody could previously afford to ask",
-          "b": "Cost: storage, tools and time add up before any benefit"
+          "label": "New questions",
+          "right": "Questions nobody could previously afford to ask",
+          "why": "Opportunity (F.4.a, F.4.d): Questions nobody could previously afford to ask. Cost: storage, tools and time add up before any benefit."
         },
         {
-          "name": "Customer understanding",
-          "a": "Behaviour across every channel, not just sales",
-          "b": "Privacy and law: Chapter 11's obligations still apply"
+          "label": "Customer understanding",
+          "right": "Behaviour across every channel, not just sales",
+          "why": "Opportunity (F.4.a, F.4.d): Behaviour across every channel, not just sales. Privacy and law: Chapter 11's obligations still apply."
         },
         {
-          "name": "Operational insight",
-          "a": "Sensor and process data alongside financial data",
-          "b": "Acting on it: an insight nobody acts on changes nothing"
+          "label": "Operational insight",
+          "right": "Sensor and process data alongside financial data",
+          "why": "Opportunity (F.4.a, F.4.d): Sensor and process data alongside financial data. Acting on it: an insight nobody acts on changes nothing."
         },
         {
-          "name": "Competitive position",
-          "a": "Capability competitors cannot quickly copy",
-          "b": "Spurious patterns: more data means more false findings"
+          "label": "Competitive position",
+          "right": "Capability competitors cannot quickly copy",
+          "why": "Opportunity (F.4.a, F.4.d): Capability competitors cannot quickly copy. Spurious patterns: more data means more false findings."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Opportunities and their matching challenges",
+      "from": [
+        "F413-05",
+        "13.4/t:opportunity-f-4"
+      ]
     },
     {
       "id": "sc413-7",
@@ -92,6 +94,9 @@
           "text": "Software cannot handle the volume",
           "why": "Capacity is not the issue."
         }
+      ],
+      "from": [
+        "13.4/section-check"
       ]
     },
     {
@@ -117,6 +122,9 @@
           "why": "The cost of producing the insight has then been spent for nothing.",
           "correct": true
         }
+      ],
+      "from": [
+        "13.4/section-check"
       ]
     }
   ]

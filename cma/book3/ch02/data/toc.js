@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.2",
   "title": "Analysing the internal environment",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s2-3",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.5",
   "title": "Portfolio and competitive analysis",
-  "blurb": "Figures, shares, grid, questions · 6 scenes"
+  "blurb": "Figures, shares, grid, yourturn, questions · 7 scenes"
  },
  {
   "id": "s2-6",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.7",
   "title": "Extended Example 2A: the Orontes strategic review",
-  "blurb": "Shares, the tie lines, questions · 4 scenes"
+  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · tahini exports to the Gulf",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 6 scenes"
  },
  {
   "id": "review",

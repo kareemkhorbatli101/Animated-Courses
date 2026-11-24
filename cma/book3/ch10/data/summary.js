@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "cashLoop"
+    "anim": "cashLoop",
+    "about": "Figure F310-13 brings the chapter together, and closes Part II.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The three pro forma statements translate the budgets into the financial statements the plan would produce, and must agree with each other. The income statement is prepared under several assumptions, because one plan hides the risks. The plan is then tested against the strategic objectives. Every balance-sheet line comes from a schedule, the cash flow statement ends at the cash budget's closing balance, and the statements together show the outside financing required and what the dividend policy leaves in the business."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F310-13.png",
       "label": "Figure F310-13.",
       "caption": "Chapter 10 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F310-13"
+      ]
     },
     {
       "id": "rules",

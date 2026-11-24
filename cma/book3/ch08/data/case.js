@@ -8,9 +8,17 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the tahini operating budget for the second quarter",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "marginStack"
+  },
+  "scenario": {
+    "title": "Case question: the tahini operating budget for the second quarter",
+    "p": [
+      "The Tahini & Spreads division has finished its sales and production budgets for 2028, and the controller, Rana, is now preparing the budgeted income statement for the second quarter for the division's review meeting. The division values its finished jars at a standard full cost: the variable manufacturing cost per jar plus fixed manufacturing overhead spread over its normal monthly volume. Sales in the second quarter are lower than in the summer, when Gulf buyers order most.",
+      "The division's selling costs are of two kinds. Freight to the Gulf buyers is paid per jar, while the sales team, marketing and the division office cost a fixed amount each month. A new assistant has placed the depreciation of the tahini plant in the selling and administrative budget, and Rana must correct the classification before the meeting.",
+      "The division manager, Samir, wants three figures from the budget: the cost of the jars sold, the gross margin and the operating income. He also asks how the contribution margin would change if the freight rate to the Gulf rose next year. Rana will also explain why the budget uses jars sold, not jars produced, for the cost of goods sold."
+    ]
   },
   "scenes": [
     {
@@ -71,7 +79,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F308-14",
+        "Practice/t:tahini-spreads-d"
+      ]
     },
     {
       "id": "c308-1",
@@ -98,30 +110,34 @@
         {
           "name": "Depreciation of the tahini plant",
           "to": "manufacturing-cost",
-          "why": "Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
+          "why": "Cost: Manufacturing cost. Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
         },
         {
           "name": "Freight to Gulf buyers per jar",
           "to": "variable-selling-expense",
-          "why": "Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
+          "why": "Cost: Variable selling expense. Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
         },
         {
           "name": "Sales team salaries",
           "to": "fixed-selling-and-administrative-expense",
-          "why": "Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
+          "why": "Cost: Fixed selling and administrative expense. Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
         },
         {
           "name": "Sesame paste",
           "to": "manufacturing-cost",
-          "why": "Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
+          "why": "Cost: Manufacturing cost. Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
         },
         {
           "name": "Marketing in the Gulf",
           "to": "fixed-selling-and-administrative-expense",
-          "why": "Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
+          "why": "Cost: Fixed selling and administrative expense. Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c308-2",

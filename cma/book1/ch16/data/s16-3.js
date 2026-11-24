@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Full consolidation, proportionate consolidation and the equity method",
   "n": "16.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.3"),
   "brief": {
     "about": "Full consolidation is used for every entity the company controls. The subsidiary's items are added in full, and NCI shows the part the parent does not own. The equity method, which the LOS call 'equity consolidation', is used when the investor has significant influence, usually 20% to 50% of the votes, and for most joint ventures. Proportionate consolidation adds only the investor's share of each asset, liability, revenue and expense. U.S.",
     "anim": "influence",
@@ -68,6 +68,11 @@
       ],
       "traps": [
         "equity-consolidation-is-the-equity-met"
+      ],
+      "from": [
+        "F16-04",
+        "16.3/t:method-when-used",
+        "16.3/exam-trap"
       ]
     },
     {
@@ -94,7 +99,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Orontes holds 30% of Jordan Glass and has significant influence."
+      "exhibit": "Orontes holds 30% of Jordan Glass and has significant influence.",
+      "from": [
+        "16.3/section-check"
+      ]
     },
     {
       "id": "sc16-6",
@@ -120,7 +128,10 @@
           "why": "Only the profit on unsold goods is unrealized."
         }
       ],
-      "say": "Use Figure F16-04. How much unrealized profit on bottles bought from Jordan Glass does Orontes remove (whole USD)?"
+      "say": "Use Figure F16-04. How much unrealized profit on bottles bought from Jordan Glass does Orontes remove (whole USD)?",
+      "from": [
+        "16.3/section-check"
+      ]
     }
   ]
 };

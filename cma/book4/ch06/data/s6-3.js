@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The five systems roles",
   "n": "6.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.3"),
   "brief": {
     "about": "Figure F406-04 names the five roles the exam expects and, for each, the access it must not have. Read the right-hand column as the whole point of the arrangement. The systems analyst designs, the programmer writes, the computer operator runs, the librarian controls the versions, and data control checks what went in and what came out. No one of them can both change the system and use it unobserved.",
     "anim": "sysRoles",
@@ -32,6 +32,9 @@
       "caption": "The five IT roles and what each must not have.",
       "traps": [
         "figure-f406-04-names-the-five-roles-th"
+      ],
+      "from": [
+        "F406-04"
       ]
     },
     {
@@ -57,6 +60,9 @@
           "text": "The data control group",
           "why": "Data control checks input and output."
         }
+      ],
+      "from": [
+        "6.3/section-check"
       ]
     },
     {
@@ -82,6 +88,9 @@
           "text": "Authority to propose a design",
           "why": "Proposing the design is the role itself."
         }
+      ],
+      "from": [
+        "6.3/section-check"
       ]
     }
   ]

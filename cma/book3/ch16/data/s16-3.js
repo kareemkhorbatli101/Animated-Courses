@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The range: minimum and maximum",
   "n": "16.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.3"),
   "brief": {
     "about": "The minimum transfer price is what the supplier must receive to be no worse off: variable cost plus the opportunity cost of anything it gives up. The maximum is what the buyer could pay outside. Figure F316-06 draws the range for Levant and Beverages. Figure F316-07 states the rule. When the minimum is below the maximum, a range exists and any price inside it leaves both divisions better off.",
     "anim": "transferBand",
@@ -29,7 +29,10 @@
       "kind": "figure",
       "file": "F316-06.png",
       "label": "Figure F316-06.",
-      "caption": "The bargaining range for the transfer price."
+      "caption": "The bargaining range for the transfer price.",
+      "from": [
+        "F316-06"
+      ]
     },
     {
       "id": "grid-07",
@@ -78,6 +81,10 @@
           },
           "why": "Formula: no internal transfer should happen."
         }
+      ],
+      "from": [
+        "F316-07",
+        "16.3/t:rule-c-2-j-formu"
       ]
     },
     {
@@ -104,7 +111,10 @@
           "why": "That applies at full capacity."
         }
       ],
-      "exhibit": "Variable cost is $0.50 and the supplier has spare capacity."
+      "exhibit": "Variable cost is $0.50 and the supplier has spare capacity.",
+      "from": [
+        "16.3/section-check"
+      ]
     },
     {
       "id": "sc316-6",
@@ -130,7 +140,10 @@
           "why": "This double-counts the variable cost."
         }
       ],
-      "exhibit": "Variable cost is $0.50 and the supplier sells all it can make outside at $1.10."
+      "exhibit": "Variable cost is $0.50 and the supplier sells all it can make outside at $1.10.",
+      "from": [
+        "16.3/section-check"
+      ]
     }
   ]
 };

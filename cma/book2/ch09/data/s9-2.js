@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The contribution margin",
   "n": "9.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.2"),
   "brief": {
     "about": "The contribution margin is sales minus all variable costs, both manufacturing and selling. It is the amount left to cover fixed costs and then provide profit. Per unit, it is price minus variable cost per unit. A case of juice sells for $20.00. Variable costs are $10.60 to make it and $1.20 to sell it, so each case contributes $8.20. The contribution margin ratio is $8.20 ÷ $20.00 = 41%.",
     "anim": "absVar",
@@ -43,6 +43,10 @@
       }
     ]
   },
+  "from": [
+    "9.2/false-friend-alert",
+    "9.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-04",
@@ -95,6 +99,10 @@
       ],
       "traps": [
         "marge-sur-co-t-variable"
+      ],
+      "from": [
+        "F209-04",
+        "9.2/t:beverages-fy2027"
       ]
     },
     {
@@ -121,7 +129,10 @@
           "why": "This is the price."
         }
       ],
-      "exhibit": "A case sells for $20.00. Variable manufacturing cost is $10.60, variable selling cost $1.20 and full product cost $12.60."
+      "exhibit": "A case sells for $20.00. Variable manufacturing cost is $10.60, variable selling cost $1.20 and full product cost $12.60.",
+      "from": [
+        "9.2/section-check"
+      ]
     },
     {
       "id": "sc209-4",
@@ -146,6 +157,9 @@
           "text": "47%",
           "why": "Variable selling cost is left out."
         }
+      ],
+      "from": [
+        "9.2/section-check"
       ]
     }
   ]

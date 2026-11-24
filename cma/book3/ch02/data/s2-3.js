@@ -9,7 +9,7 @@
   "up": "../",
   "title": "SWOT and situational analysis",
   "n": "2.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.3"),
   "brief": {
     "about": "A SWOT analysis brings the two views together: strengths and weaknesses from inside, opportunities and threats from outside. Figure F302-05 is the Orontes SWOT for 2028. A situational analysis is the wider study of the company's current position that feeds the SWOT.",
     "anim": "bcgMatrix",
@@ -29,7 +29,10 @@
       "kind": "figure",
       "file": "F302-05.png",
       "label": "Figure F302-05.",
-      "caption": "SWOT matrix for Orontes."
+      "caption": "SWOT matrix for Orontes.",
+      "from": [
+        "F302-05"
+      ]
     },
     {
       "id": "sc302-5",
@@ -54,6 +57,9 @@
           "why": "It is a favourable external condition.",
           "correct": true
         }
+      ],
+      "from": [
+        "2.3/section-check"
       ]
     },
     {
@@ -79,6 +85,9 @@
           "text": "Replacing it with a PEST analysis",
           "why": "PEST feeds the SWOT; it does not replace it."
         }
+      ],
+      "from": [
+        "2.3/section-check"
       ]
     }
   ]

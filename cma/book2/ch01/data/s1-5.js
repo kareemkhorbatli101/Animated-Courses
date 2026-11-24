@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Measuring costs and accumulating inventory",
   "n": "1.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.5"),
   "brief": {
     "about": "A cost system answers two questions. How is cost measured: at actual amounts, with a predetermined overhead rate, or at standard? And how is cost collected: by job, by process, by activity, or only at trigger points? Figure F201-06 lists the methods and where this book teaches them. Whatever the method, a manufacturer's product costs move through three inventory accounts. Raw materials inventory holds materials not yet used.",
     "anim": "threeBoxes",
@@ -54,6 +54,10 @@
             "Chapter 6"
           ]
         }
+      ],
+      "from": [
+        "F201-06",
+        "1.5/t:question-method"
       ]
     },
     {
@@ -99,7 +103,12 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F201-07",
+        "1.5/t:halva-line-cost",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -147,6 +156,12 @@
           },
           "why": "Indirect; product cost"
         }
+      ],
+      "from": [
+        "1.5/your-turn",
+        "F201-07",
+        "1.5/t:halva-line-cost",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -173,7 +188,10 @@
           "why": "Ending WIP is added instead of deducted."
         }
       ],
-      "exhibit": "Beginning WIP is $50,000, manufacturing costs added are $800,000 and ending WIP is $70,000."
+      "exhibit": "Beginning WIP is $50,000, manufacturing costs added are $800,000 and ending WIP is $70,000.",
+      "from": [
+        "1.5/section-check"
+      ]
     },
     {
       "id": "sc201-10",
@@ -198,6 +216,9 @@
           "text": "the cost of goods sold",
           "why": "Sold goods leave inventory."
         }
+      ],
+      "from": [
+        "1.5/section-check"
       ]
     }
   ]

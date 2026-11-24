@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Choosing allocation bases",
   "n": "10.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.2"),
   "brief": {
     "about": "The base should follow cause and effect: the activity that makes the service department spend money. Maintenance is allocated on maintenance hours, the Quality Lab on test hours and HR on headcount. Where no causal base exists, managers use benefit received or ability to bear, but these are weaker. Figure F210-03 lists the Orontes bases.",
     "anim": "poolBase",
@@ -86,6 +86,10 @@
           },
           "why": "Allocation base: Headcount at $200 a person. Why: Hiring, payroll and training follow people."
         }
+      ],
+      "from": [
+        "F210-03",
+        "10.2/t:service-departme"
       ]
     },
     {
@@ -111,6 +115,9 @@
           "text": "square meters",
           "why": "Space does not create HR work."
         }
+      ],
+      "from": [
+        "10.2/section-check"
       ]
     },
     {
@@ -137,7 +144,10 @@
           "why": "This is all Quality Lab cost."
         }
       ],
-      "exhibit": "The Quality Lab charges $40 per test hour. Oils used 5,000 test hours."
+      "exhibit": "The Quality Lab charges $40 per test hour. Oils used 5,000 test hours.",
+      "from": [
+        "10.2/section-check"
+      ]
     }
   ]
 };

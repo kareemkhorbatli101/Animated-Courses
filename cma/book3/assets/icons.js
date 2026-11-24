@@ -383,6 +383,12 @@
       g.appendChild(s("rect", { x: 3, y: 2, width: 18, height: 2.6, rx: .8,
                                 class: "ti-on" }));
     }
+    /* THE ALLOWANCE IS A BALANCE; THE EXPENSE IS THE CHARGE THAT BUILDS IT. Both drew the
+       same bar, so two different words had one picture - which is the defect gates/cma_icons
+       I4b exists for. The expense gets the arrow into the balance; the allowance is the bar. */
+    if (part === "expense") {
+      g.appendChild(s("path", { d: "M 12 5 L 12 8.6", class: "ti-arrow" }));
+    }
     if (part === "writeoff") {
       g.appendChild(s("line", { x1: 17, y1: 6, x2: 22, y2: 13, class: "ti-strike" }));
     }
@@ -401,6 +407,13 @@
     if (part === "borrow" || part === "pledge") {
       g.appendChild(s("path", { d: "M 14.6 12 L 9.4 12", class: "ti-arrow" }));
       g.appendChild(s("line", { x1: 12, y1: 4, x2: 12, y2: 8, class: "ti-dash" }));
+    }
+    /* BORROWING IS CASH COMING BACK; A PLEDGE IS THE RECEIVABLE STAYING WHERE IT IS AS
+       SECURITY. Both drew the reverse arrow, so the two words had one picture. The pledge
+       marks the seller's own box, which is where the receivable remains. */
+    if (part === "pledge") {
+      g.appendChild(s("rect", { x: 3.2, y: 17.4, width: 4.6, height: 2.6, rx: .6,
+                                class: "ti-on" }));
     }
     if (part === "recourse") {
       g.appendChild(s("path", { d: "M 18.5 16 L 18.5 21", class: "ti-arrow" }));
@@ -424,6 +437,12 @@
     if (part === "avg" || part === "moving") {
       g.appendChild(s("line", { x1: 2.5, y1: 11.8, x2: 21.5, y2: 11.8,
                                 class: "ti-on-s" }));
+    }
+    /* A WEIGHTED AVERAGE IS ONE RATE FOR THE PERIOD; A MOVING AVERAGE IS RECOMPUTED AFTER
+       EVERY PURCHASE. Both drew the single line, so the two words had one mark. The moving
+       average gets the second, later line it moves to. */
+    if (part === "moving") {
+      g.appendChild(s("line", { x1: 12, y1: 9.4, x2: 21.5, y2: 9.4, class: "ti-on-s" }));
     }
     if (part === "spec") {
       g.appendChild(s("circle", { cx: 12, cy: 9.3, r: 1.6, class: "ti-on" }));
@@ -498,6 +517,12 @@
       g.appendChild(s("rect", { x: 14, y: 16.6, width: 7, height: 3.4, rx: .8,
                                 class: "ti-on" }));
     }
+    /* A MARKDOWN IS A PRICE TAKEN OFF THE RETAIL COLUMN; SHRINKAGE IS GOODS THAT ARE GONE.
+       Both lit the foot of the retail column, so the two words shared one mark. Shrinkage
+       gets the strike: the goods are not there to sell at any price. */
+    if (part === "shrink") {
+      g.appendChild(s("line", { x1: 14, y1: 20.3, x2: 21, y2: 16.3, class: "ti-strike" }));
+    }
     return g;
   };
 
@@ -552,6 +577,13 @@
       g.appendChild(s("line", { x1: 3, y1: 16, x2: 21, y2: 16, class: "ti-dash" }));
       g.appendChild(s("circle", { cx: 20, cy: 16, r: 1.8, class: "ti-on" }));
     }
+    /* THE SALVAGE IS WHERE THE CURVE STOPS; THE CARRYING AMOUNT IS WHERE IT IS NOW. Both drew
+       the end point, so the two words shared one mark. The carrying amount is marked on the
+       curve itself, part-way down, which is what it is. */
+    if (part === "carrying") {
+      g.appendChild(s("circle", { cx: 11.5, cy: 10, r: 1.8, class: "ti-on" }));
+      g.appendChild(s("line", { x1: 3, y1: 10, x2: 11.5, y2: 10, class: "ti-dash" }));
+    }
     if (part === "base") {
       g.appendChild(s("rect", { x: 2, y: 4, width: 2.4, height: 12, rx: .6,
                                 class: "ti-on" }));
@@ -574,6 +606,13 @@
     if (part === "group" || part === "unit") {
       g.appendChild(s("rect", { x: 2, y: 3, width: 20, height: 18, rx: 2,
                                 class: "ti-ring" }));
+    }
+    /* AN ASSET GROUP IS THE SMALLEST GROUP WITH IDENTIFIABLE CASH FLOWS (U.S. GAAP); A
+       CASH-GENERATING UNIT IS THE SMALLEST GROUP GENERATING INDEPENDENT CASH INFLOWS (IFRS).
+       Both drew the ring, so a learner met one picture for two frameworks' words. The unit is
+       the ring with the inflow it generates. */
+    if (part === "unit") {
+      g.appendChild(s("path", { d: "M 12 21.5 L 12 17.5", class: "ti-arrow" }));
     }
     if (part === "goodwill") {
       g.appendChild(s("rect", { x: 3, y: 4, width: 7, height: 4.4, rx: 1,
@@ -1697,6 +1736,15 @@
       if (part === "smart") {
         g.appendChild(s("path", { d: "M 10.6 3.4 L 12 4.8 L 14.4 2.4",
                                   class: "ti-on" }));
+      }
+      /* A SUPPLY CHAIN IS THE LINE OF LINKS; DISTRIBUTED LEDGER IS THE SAME RECORD HELD BY
+         EACH OF THEM. Both drew the three linked blocks, so the two words shared one mark.
+         The distributed one gets the second copy under each link. */
+      if (part === "dist") {
+        [4, 10, 16].forEach(function (x) {
+          g.appendChild(s("rect", { x: x + 0.8, y: 7.2, width: 2.9, height: 2.4, rx: 0.5,
+                                    class: "ti-on" }));
+        });
       }
     }
     return g;
@@ -2823,7 +2871,16 @@
     return out;
   }
 
+  /* `draw` EXISTS FOR THE GATE, exactly as `census` does, and for a sharper reason.
+     gates/cma_icons I4 asks whether a registration actually distinguishes its part, and the
+     only honest way to ask is to render the family twice - once with the part and once with a
+     part that matches nothing - and compare. A regex over this file cannot: the parts of
+     `steps5` are lit by `cl(part, "s" + (i + 1))`, which is a computed name, and a part may be
+     distinguished by `ti-arrow`, `ti-ring`, `ti-dash`, `ti-on-s` or `ti-strike` rather than by
+     `ti-on`. Reading for one of those spellings reported 66 live registrations dead, then 35;
+     rendering twice and comparing reports what a reader would see. */
   root.Icons = { icon: icon, tier: tier, census: census,
                  families: Object.keys(F),
+                 draw: function (fam, part) { return F[fam] ? F[fam](part) : null; },
                  get registered() { return Object.keys(R).length; } };
 })(window, document);

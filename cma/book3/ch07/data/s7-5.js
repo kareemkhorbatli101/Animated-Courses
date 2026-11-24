@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 7A: the manufacturing cost budget and the summer test",
   "n": "7.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.5"),
   "brief": {
     "about": "This example brings the three budgets together and tests the busiest quarter. It is exam-core. Figure F307-11 adds up the manufacturing cost budget for the year: $11,350,600. It uses the concentrate used, not purchased, because stock bought but not used is still an asset. At standard, 901,000 cases × $12.60 = $11,352,600. Figure F307-12 checks every constraint for the summer quarter: machine hours, labor hours, concentrate and storage.",
     "anim": "inputsFan",
@@ -48,6 +48,9 @@
       }
     ]
   },
+  "from": [
+    "7.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-11",
@@ -70,6 +73,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F307-11",
+        "7.5/t:beverages-2028-u",
+        "7.5/exam-trap"
       ]
     },
     {
@@ -132,6 +140,10 @@
           },
           "why": "Needed of available: 48,000 of 50,000 cases (end of Q2). Result: at the limit."
         }
+      ],
+      "from": [
+        "F307-12",
+        "7.5/t:third-quarter-20"
       ]
     },
     {
@@ -177,7 +189,10 @@
           "why": "This is sales revenue."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "7.5/section-check"
+      ]
     },
     {
       "id": "sc307-10",
@@ -203,7 +218,10 @@
           "why": "JIT does not change the cost."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "7.5/section-check"
+      ]
     }
   ]
 };

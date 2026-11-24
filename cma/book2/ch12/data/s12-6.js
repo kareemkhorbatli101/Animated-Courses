@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benefits, limitations and strategic value",
   "n": "12.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.6"),
   "brief": {
     "about": "Activity-based allocation gives more accurate product costs where products differ in complexity. It shows batch-level and product-sustaining costs that a volume rate hides. It also links cost to activities that managers can change. ABC has costs too. It needs data on many drivers, judgment to design the pools, and regular updates. Facility costs are still allocated without a true driver. Figure F212-11 lists the benefits and limitations.",
     "anim": "abcLevels",
@@ -34,35 +34,39 @@
   "scenes": [
     {
       "id": "fig-f212-11",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F212-11",
       "title": "Benefits and limitations of ABC",
-      "say": "Benefits and limitations of ABC",
-      "caption": "Benefits",
-      "col1": "Limitations",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Benefits",
+      "col": "Limitations",
       "rows": [
         {
-          "name": "More accurate product costs where products use activities differently",
-          "a": "Costly to design and keep up to date",
-          "b": ""
+          "label": "More accurate product costs where products use activities differently",
+          "right": "Costly to design and keep up to date",
+          "why": "Limitations: Costly to design and keep up to date."
         },
         {
-          "name": "Shows batch-level and product-sustaining costs that volume rates hide",
-          "a": "Needs judgment to choose pools and drivers",
-          "b": ""
+          "label": "Shows batch-level and product-sustaining costs that volume rates hide",
+          "right": "Needs judgment to choose pools and drivers",
+          "why": "Limitations: Needs judgment to choose pools and drivers."
         },
         {
-          "name": "Better pricing, product-mix and customer decisions. Facility-sustaining costs are still allocated arbitrarily",
-          "note": true
+          "label": "Better pricing, product-mix and customer decisions",
+          "right": "Facility-sustaining costs are still allocated arbitrarily",
+          "why": "Limitations: Facility-sustaining costs are still allocated arbitrarily."
         },
         {
-          "name": "Links cost to activities that managers can change. Must still be adjusted for external reporting rules",
-          "note": true
+          "label": "Links cost to activities that managers can change",
+          "right": "Must still be adjusted for external reporting rules",
+          "why": "Limitations: Must still be adjusted for external reporting rules."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Benefits and limitations of ABC",
+      "from": [
+        "F212-11",
+        "12.6/t:benefits-limitat"
+      ]
     },
     {
       "id": "sc212-11",
@@ -87,6 +91,9 @@
           "text": "It is cheaper than one rate",
           "why": "ABC is more costly to run."
         }
+      ],
+      "from": [
+        "12.6/section-check"
       ]
     },
     {
@@ -112,6 +119,9 @@
           "text": "Ignore the results, because total overhead is unchanged",
           "why": "The split between products matters for decisions."
         }
+      ],
+      "from": [
+        "12.6/section-check"
       ]
     }
   ]

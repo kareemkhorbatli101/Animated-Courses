@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Oils bottle-size mix",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "threeCols"
+  },
+  "scenario": {
+    "title": "Case question: the Oils bottle-size mix",
+    "p": [
+      "The Oils division sells its extra-virgin olive oil in three sizes: 500 ml bottles for supermarkets, 1 liter bottles for most customers, and 5 liter cans for restaurants and hotels. Each size earns a different contribution margin, and the cans earn the most.",
+      "Last month the division sold exactly the number of units it had budgeted in total. The division manager was pleased and told the board that the month had gone to plan. The controller, Rania, is less sure: a hotel group had placed a large order for cans, while a supermarket chain ran a promotion on the small bottles and bought far more of them, and sales of the 1 liter bottles fell well below budget.",
+      "Rania wants the board to see that selling the same number of units in a different mix changes the contribution margin. She will calculate the sales-mix variance for each size, the sales-quantity variance, and the sales-volume variance for the month.",
+      "The new assistant has started the work but has used the budgeted total units as the base for the mix calculation, and Rania must correct it."
+    ]
   },
   "scenes": [
     {
@@ -46,7 +55,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F313-14",
+        "Practice/t:oils-division-on"
+      ]
     },
     {
       "id": "c313-1",
@@ -69,30 +82,34 @@
         {
           "name": "500 ml mix variance",
           "to": "favorable",
-          "why": "Figure F313-11 shows how each variance is read in a service business."
+          "why": "Variance: Favorable. Figure F313-11 shows how each variance is read in a service business."
         },
         {
           "name": "1 liter mix variance",
           "to": "unfavorable",
-          "why": "Figure F313-11 shows how each variance is read in a service business."
+          "why": "Variance: Unfavorable. Figure F313-11 shows how each variance is read in a service business."
         },
         {
           "name": "5 liter mix variance",
           "to": "favorable",
-          "why": "Figure F313-11 shows how each variance is read in a service business."
+          "why": "Variance: Favorable. Figure F313-11 shows how each variance is read in a service business."
         },
         {
           "name": "Sales-quantity variance",
           "to": "unfavorable",
-          "why": "Figure F313-11 shows how each variance is read in a service business."
+          "why": "Variance: Unfavorable. Figure F313-11 shows how each variance is read in a service business."
         },
         {
           "name": "Total sales-volume variance",
           "to": "favorable",
-          "why": "Figure F313-11 shows how each variance is read in a service business."
+          "why": "Variance: Favorable. Figure F313-11 shows how each variance is read in a service business."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "c313-2",

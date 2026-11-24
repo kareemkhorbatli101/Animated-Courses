@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Integrated reporting and sustainability disclosures",
   "n": "18.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.6"),
   "brief": {
     "about": "IFRS S1 and IFRS S2, issued by the ISSB, require disclosure of sustainability and climate risks that affect a company's prospects. They apply only where a jurisdiction adopts them. S1 asks for connected information, an idea taken from integrated reporting, but S1 and S2 disclosures are not an integrated report. In 2024 the ISSB decided not to start a separate integration project, and the boards continue to support the <IR> Framework.",
     "anim": "rules",
@@ -51,6 +51,9 @@
       "exhibit": "A company publishes IFRS S2 climate disclosures.",
       "traps": [
         "not-tested-climate-rules"
+      ],
+      "from": [
+        "18.6/section-check"
       ]
     },
     {
@@ -76,6 +79,9 @@
           "text": "prohibited",
           "why": "Companies may publish one voluntarily."
         }
+      ],
+      "from": [
+        "18.6/section-check"
       ]
     }
   ]

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "aging"
+    "anim": "aging",
+    "about": "Figure F06-11 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A receivable is recorded when only time must pass before payment, at the amount the company expects to receive. Under CECL, receivables are shown net of an allowance for lifetime expected credit losses. The aging schedule gives the required allowance, and the credit loss expense is the amount needed to reach it. Write-offs and recoveries change neither income nor net receivables. A transfer of receivables is a sale only if they are legally isolated, the factor can pledge them, and the seller has no effective control. Otherwise it is a secured borrowing. Recourse adds a liability to a sale, and the holdback is an asset."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F06-11.png",
       "label": "Figure F06-11.",
       "caption": "Chapter 6 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F06-11"
+      ]
     },
     {
       "id": "rules",

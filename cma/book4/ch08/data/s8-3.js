@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Firewalls",
   "n": "8.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.3"),
   "brief": {
     "about": "A firewall sits between two networks and allows or blocks traffic according to rules. It is a border post: everything crossing is examined against a list of what is permitted, and whatever is not permitted is refused. Figure F408-04 sets out the types. Firewalls have three common uses. They guard the boundary between the company and the internet. A firewall is a rule set, and a rule set ages.",
     "anim": "accessGate",
@@ -27,42 +27,48 @@
   "scenes": [
     {
       "id": "fig-f408-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F408-04",
       "title": "Types of firewall",
-      "say": "Types of firewall",
-      "caption": "Type of firewall (E.2.j)",
-      "col1": "What it does",
-      "col2": "Note",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Type of firewall (E.2.j)",
+      "col": "What it does",
       "rows": [
         {
-          "name": "Packet filtering",
-          "a": "Allows or blocks by address and port",
-          "b": "Cheap and fast; blind to content"
+          "label": "Packet filtering",
+          "right": "Allows or blocks by address and port",
+          "why": "What it does: Allows or blocks by address and port. Cheap and fast; blind to content."
         },
         {
-          "name": "Stateful inspection",
-          "a": "Tracks whole conversations, not single packets",
-          "b": "Blocks traffic that does not belong to a session"
+          "label": "Stateful inspection",
+          "right": "Tracks whole conversations, not single packets",
+          "why": "What it does: Tracks whole conversations, not single packets. Blocks traffic that does not belong to a session."
         },
         {
-          "name": "Proxy or application gateway",
-          "a": "Stands between the two sides and inspects content",
-          "b": "Slower; sees what the traffic actually contains"
+          "label": "Proxy or application gateway",
+          "right": "Stands between the two sides and inspects content",
+          "why": "What it does: Stands between the two sides and inspects content. Slower; sees what the traffic actually contains."
         },
         {
-          "name": "Next-generation",
-          "a": "Application-aware, with intrusion prevention built in",
-          "b": "The common corporate standard"
+          "label": "Next-generation",
+          "right": "Application-aware, with intrusion prevention built in",
+          "why": "What it does: Application-aware, with intrusion prevention built in. The common corporate standard."
         },
         {
-          "name": "Web application firewall",
-          "a": "Protects one application from hostile requests",
-          "b": "Used in front of a public website"
+          "label": "Web application firewall",
+          "right": "Protects one application from hostile requests",
+          "why": "What it does: Protects one application from hostile requests. Used in front of a public website."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Types of firewall",
+      "traps": [
+        "what-a-firewall-does-not-do"
+      ],
+      "from": [
+        "F408-04",
+        "8.3/t:type-of-firewall",
+        "8.3/exam-trap"
+      ]
     },
     {
       "id": "sc408-5",
@@ -88,8 +94,8 @@
           "why": "That is an application control."
         }
       ],
-      "traps": [
-        "what-a-firewall-does-not-do"
+      "from": [
+        "8.3/section-check"
       ]
     },
     {
@@ -115,6 +121,9 @@
           "text": "A connection from a blocked address",
           "why": "Address filtering too."
         }
+      ],
+      "from": [
+        "8.3/section-check"
       ]
     }
   ]

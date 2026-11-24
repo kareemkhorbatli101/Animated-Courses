@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "strategyMap"
+    "anim": "strategyMap",
+    "about": "Figure F318-12 brings the chapter, and Book 3, together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A critical success factor is what an organization must do well; a key performance indicator measures it. A balanced scorecard sets objectives, measures, targets and actions across four perspectives: financial, customer, internal process, and learning and growth. An effective scorecard has few measures, each owned and each traceable to the strategy, and mixes leading with lagging indicators. A strategy map shows the cause-and-effect chain between them. Reading the scorecard means reading the pattern, and each measure should be reported as often as it can be acted on."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F318-12.png",
       "label": "Figure F318-12.",
       "caption": "Chapter 18 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F318-12"
+      ]
     },
     {
       "id": "rules",

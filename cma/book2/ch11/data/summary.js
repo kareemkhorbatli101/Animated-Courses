@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "splitPoint"
+    "anim": "splitPoint",
+    "about": "Figure F211-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Joint products have significant value; by-products have small value. Costs before the split-off point are joint and must be allocated; costs after it are separable. By-products reduce joint cost at NRV under the production method or become income when sold under the sales method. The physical measure, sales value at split-off, NRV and constant gross-margin methods all share the same joint cost in different ways. Joint costs are irrelevant to the decision to process further."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F211-14.png",
       "label": "Figure F211-14.",
       "caption": "Chapter 11 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F211-14"
+      ]
     },
     {
       "id": "rules",

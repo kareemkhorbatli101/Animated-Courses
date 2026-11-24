@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Computing product cost with ABC",
   "n": "12.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.4"),
   "brief": {
     "about": "For each pool, the activity rate is the pool cost divided by the total driver quantity. A product's overhead is the rate times the driver quantity it uses, added over all pools. Per pack, overhead for lentils falls from $3.60 to $1.79, and for za'atar it rises from $3.60 to $10.84. Figure F212-08 shows the change. Figure F212-09 adds direct materials and labor.",
     "anim": "abcLevels",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "12.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f212-08",
       "kind": "figure",
       "file": "F212-08.png",
       "label": "Figure F212-08.",
-      "caption": "Overhead per pack: traditional rate compared with ABC."
+      "caption": "Overhead per pack: traditional rate compared with ABC.",
+      "from": [
+        "F212-08"
+      ]
     },
     {
       "id": "fill-06",
@@ -128,65 +134,78 @@
             "c4": "358,000"
           }
         }
+      ],
+      "from": [
+        "F212-06",
+        "12.4/t:activity-pool-co"
       ]
     },
     {
-      "id": "fill-07",
-      "kind": "schedule",
+      "id": "fig-f212-07",
+      "kind": "grid",
       "kicker": "Figure F212-07",
       "title": "Your turn: ABC overhead for za'atar",
-      "say": "Every other column is given. Enter the last figure in each row.",
+      "say": "Your turn: ABC overhead for za'atar (complete the blanks)",
       "caption": "Za'atar",
       "cols": [
-        {
-          "id": "c1",
-          "label": "Use",
-          "given": true
-        },
-        {
-          "id": "c2",
-          "label": "Rate",
-          "given": true
-        },
-        {
-          "id": "c3",
-          "label": "Overhead",
-          "given": false
-        }
+        "Use",
+        "Rate",
+        "Overhead"
       ],
       "rows": [
         {
-          "label": "Receiving and cleaning",
-          "cells": {
-            "c1": "400 receipts",
-            "c2": "$300",
-            "c3": "120,000"
-          }
+          "name": "Receiving and cleaning",
+          "cells": [
+            "400 receipts",
+            "$300",
+            "120,000"
+          ]
         },
         {
-          "label": "Blending setups",
-          "cells": {
-            "c1": "800 setups",
-            "c2": "$300",
-            "c3": "240,000"
-          }
+          "name": "Blending setups",
+          "cells": [
+            "800 setups",
+            "$300",
+            "240,000"
+          ]
         },
         {
-          "label": "Quality testing",
-          "cells": {
-            "c1": "1,200 tests",
-            "c2": "$60",
-            "c3": "72,000"
-          }
+          "name": "Packaging",
+          "cells": [
+            "2,000 packing hours",
+            "$30",
+            "________"
+          ]
         },
         {
-          "label": "Total",
-          "cells": {
-            "c1": "",
-            "c2": "",
-            "c3": "542,000"
-          }
+          "name": "Quality testing",
+          "cells": [
+            "1,200 tests",
+            "$60",
+            "72,000"
+          ]
+        },
+        {
+          "name": "Facility",
+          "cells": [
+            "500 pallet positions",
+            "$100",
+            "________"
+          ]
+        },
+        {
+          "name": "Total",
+          "cells": [
+            "",
+            "",
+            "542,000"
+          ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F212-07",
+        "12.4/t:za-atar-use-rate"
       ]
     },
     {
@@ -233,6 +252,41 @@
             "($4.04)"
           ]
         }
+      ],
+      "from": [
+        "F212-09",
+        "12.4/t:per-pack-price-d"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F212-07",
+      "title": "ABC overhead for za'atar",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F212-07 gives za'atar's use of each activity. Complete the two blank rows.",
+      "blanks": [
+        {
+          "label": "Packaging (za'atar)",
+          "working": "2,000 packing hours × $30 = $60,000",
+          "shown": "$60,000",
+          "answer": 60000,
+          "prompt": "2,000 packing hours × $30 ="
+        },
+        {
+          "label": "Facility (za'atar)",
+          "working": "500 pallet positions × $100 = $50,000",
+          "shown": "$50,000",
+          "answer": 50000,
+          "prompt": "500 pallet positions × $100 ="
+        }
+      ],
+      "caption": "Your turn: ABC overhead for za'atar (complete the blanks)",
+      "from": [
+        "12.4/your-turn",
+        "F212-07",
+        "12.4/t:za-atar-use-rate",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -259,7 +313,10 @@
           "why": "This is the whole pool."
         }
       ],
-      "exhibit": "Quality testing costs $90,000 for 1,500 tests. Za'atar needs 1,200 tests."
+      "exhibit": "Quality testing costs $90,000 for 1,500 tests. Za'atar needs 1,200 tests.",
+      "from": [
+        "12.4/section-check"
+      ]
     },
     {
       "id": "sc212-8",
@@ -285,7 +342,10 @@
           "why": "The split changes even though the total does not."
         }
       ],
-      "say": "Compared with the traditional rate, ABC changes the overhead per pack of lentils from $3.60 to:"
+      "say": "Compared with the traditional rate, ABC changes the overhead per pack of lentils from $3.60 to:",
+      "from": [
+        "12.4/section-check"
+      ]
     }
   ]
 };

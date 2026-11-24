@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Purpose and structure of the balance sheet",
   "n": "2.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.1"),
   "brief": {
     "about": "The balance sheet reports a company's assets, liabilities and equity at one point in time. It answers three questions for investors and lenders. Can the company pay its bills in the coming months? This is liquidity. Can it pay all its debts over time? This is solvency. Can it raise cash or change its plans if something unexpected happens? This is financial flexibility. U.S. Read the figure from the top.",
     "anim": "bands",
@@ -34,6 +34,9 @@
       }
     ]
   },
+  "from": [
+    "2.1/language-focus"
+  ],
   "scenes": [
     {
       "id": "bs-read",
@@ -248,6 +251,12 @@
           "b": "26,445,000",
           "total": true
         }
+      ],
+      "from": [
+        "F02-02",
+        "2.1/t:orontes-foods-in",
+        "Practice/t:account-category",
+        "Answers and explanations/t:account-category"
       ]
     },
     {
@@ -290,6 +299,10 @@
       ],
       "traps": [
         "reading-a-balance-sheet-heading"
+      ],
+      "from": [
+        "F02-02",
+        "2.1/t:orontes-foods-in"
       ]
     },
     {
@@ -381,7 +394,10 @@
           "why": "Financial flexibility is the ability to raise cash or change plans, not to pay current bills."
         }
       ],
-      "exhibit": "A lender wants to know if Orontes can pay the bills that fall due in the next few months."
+      "exhibit": "A lender wants to know if Orontes can pay the bills that fall due in the next few months.",
+      "from": [
+        "2.1/section-check"
+      ]
     },
     {
       "id": "sc2-2",
@@ -406,6 +422,9 @@
           "text": "Balance sheet for 2025",
           "why": "The balance sheet needs a specific date."
         }
+      ],
+      "from": [
+        "2.1/section-check"
       ]
     }
   ]

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "genericStrat"
+    "anim": "genericStrat",
+    "about": "Figure F302-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "External analysis, using PEST and the five forces, shows opportunities and threats; internal analysis of resources and capabilities shows strengths, weaknesses and possible competitive advantages. SWOT combines them. Each business then chooses cost leadership, differentiation or focus. The BCG matrix places units by market growth and relative share, competitive analysis studies the main rivals, and scenario and contingency planning prepare the company for more than one future."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F302-14.png",
       "label": "Figure F302-14.",
       "caption": "Chapter 2 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F302-14"
+      ]
     },
     {
       "id": "rules",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The high-low method",
   "n": "3.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.2"),
   "brief": {
     "about": "The high-low method draws a line through two points: the months with the highest and the lowest activity. The variable rate is the change in cost divided by the change in activity. The fixed cost is what is left at either point. Choose the points by activity, not by cost. In the Oils data the highest cost, $69,400, came in a month with 4,200 machine hours, not in the busiest month.",
     "anim": "scatterLine",
@@ -30,13 +30,19 @@
       }
     ]
   },
+  "from": [
+    "3.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f203-03",
       "kind": "figure",
       "file": "F203-03.png",
       "label": "Figure F203-03.",
-      "caption": "The high-low line through the highest and lowest activity months."
+      "caption": "The high-low line through the highest and lowest activity months.",
+      "from": [
+        "F203-03"
+      ]
     },
     {
       "id": "fig-f203-04",
@@ -80,7 +86,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F203-04",
+        "3.2/t:oils-m-u-high-lo"
+      ]
     },
     {
       "id": "sc203-3",
@@ -108,6 +118,10 @@
       ],
       "traps": [
         "high-activity-not-high-cost"
+      ],
+      "from": [
+        "3.2/exam-trap",
+        "3.2/section-check"
       ]
     },
     {
@@ -134,7 +148,10 @@
           "why": "This is the change in cost, not a rate."
         }
       ],
-      "exhibit": "At 5,000 units a cost is $42,000; at 8,000 units it is $54,000. These are the lowest and highest activity months."
+      "exhibit": "At 5,000 units a cost is $42,000; at 8,000 units it is $54,000. These are the lowest and highest activity months.",
+      "from": [
+        "3.2/section-check"
+      ]
     }
   ]
 };

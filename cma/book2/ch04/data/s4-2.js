@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The doubling table",
   "n": "4.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.2"),
   "brief": {
     "about": "The CMA exam uses the cumulative average-time learning model. At each doubling of cumulative output, the average time for all units so far is the learning rate times the previous average. Total time is the average times the number of units. The table works only at doublings: one, two, four, eight, sixteen units and so on.",
     "anim": "learnCurve",
@@ -30,6 +30,9 @@
       }
     ]
   },
+  "from": [
+    "4.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-03",
@@ -88,6 +91,10 @@
             "c2"
           ]
         }
+      ],
+      "from": [
+        "F204-03",
+        "4.2/t:cumulative-batch"
       ]
     },
     {
@@ -114,7 +121,10 @@
           "correct": true
         }
       ],
-      "say": "Use Figure F204-03. What is the cumulative average time per batch for 4 batches?"
+      "say": "Use Figure F204-03. What is the cumulative average time per batch for 4 batches?",
+      "from": [
+        "4.2/section-check"
+      ]
     },
     {
       "id": "sc204-4",
@@ -139,6 +149,9 @@
           "text": "4,096",
           "why": "This is the total for all 8 batches."
         }
+      ],
+      "from": [
+        "4.2/section-check"
       ]
     }
   ]

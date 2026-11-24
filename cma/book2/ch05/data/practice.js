@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P205-01–P205-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "rateFraction"
   },

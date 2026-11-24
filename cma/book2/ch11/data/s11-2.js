@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The split-off point and separable costs",
   "n": "11.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.2"),
   "brief": {
     "about": "The split-off point is where the joint products become separately identifiable. All costs before it are joint costs: olives, crushing labor and crushing overhead, $1,400,000 for the batch. Costs after split-off that belong to one product are separable costs. Bottling adds $468,000 to EVOO and filtering adds $32,000 to VOO. Figure F211-03 marks the line between the two kinds of cost.",
     "anim": "splitPoint",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F211-03.png",
       "label": "Figure F211-03.",
-      "caption": "Batch H-2711: the split-off point, joint and separable costs."
+      "caption": "Batch H-2711: the split-off point, joint and separable costs.",
+      "from": [
+        "F211-03"
+      ]
     },
     {
       "id": "sc211-3",
@@ -58,6 +61,9 @@
       ],
       "traps": [
         "joint-costs-cannot-be-traced"
+      ],
+      "from": [
+        "11.2/section-check"
       ]
     },
     {
@@ -83,6 +89,9 @@
           "text": "Crushing overhead",
           "why": "Crushing overhead is a joint cost."
         }
+      ],
+      "from": [
+        "11.2/section-check"
       ]
     }
   ]

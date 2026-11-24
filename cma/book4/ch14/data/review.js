@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "relTable"
   },
@@ -114,6 +114,9 @@
       ],
       "traps": [
         "the-filter-decides-the-answer"
+      ],
+      "from": [
+        "14.4/exam-trap"
       ]
     },
     {

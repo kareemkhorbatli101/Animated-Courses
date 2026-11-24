@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What both techniques can and cannot do",
   "n": "16.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.3"),
   "brief": {
     "about": "Figure F416-04 sets out the benefits and limitations of regression and time series analysis, marking which applies to which. The limitation that matters most applies to both, and it is simply stated: each technique assumes that the pattern in the past will continue. A regression fitted before a competitor entered the Gulf market will keep predicting the old volumes. The benefit that matters most also applies to both.",
     "anim": "tsComponents",
@@ -102,6 +102,10 @@
       ],
       "traps": [
         "a-seasonal-factor-from-two-normal-year"
+      ],
+      "from": [
+        "F416-04",
+        "16.3/t:benefit-or-limit"
       ]
     },
     {
@@ -127,6 +131,9 @@
           "text": "Each predicts only a yes or no",
           "why": "Neither is confined to that."
         }
+      ],
+      "from": [
+        "16.3/section-check"
       ]
     },
     {
@@ -152,6 +159,9 @@
           "text": "They are quicker to calculate",
           "why": "High-low is the quicker of the three."
         }
+      ],
+      "from": [
+        "16.3/section-check"
       ]
     }
   ]

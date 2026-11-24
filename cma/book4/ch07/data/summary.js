@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "inputGate"
+    "anim": "inputGate",
+    "about": "Figure F407-08 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "System development controls protect accuracy, validity, safety, security and adaptability, and they are cheapest when designed in rather than added afterwards. Input controls catch errors where correction costs least, through field, format, range, reasonableness and validity checks, check digits, batch totals and closed-loop verification. Processing controls keep the data right in transit and output controls reconcile what leaves against what entered. Storage controls run full, incremental and differential, with an off-site copy and an immutable one, and mirroring is not a backup. A flowchart shows in one picture who holds which duty and where a document is created or lost."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F407-08.png",
       "label": "Figure F407-08.",
       "caption": "Chapter 7 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F407-08"
+      ]
     },
     {
       "id": "rules",

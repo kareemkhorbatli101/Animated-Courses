@@ -91,6 +91,14 @@ window.CHAPTER_TOC = [
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
  },
  {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 1 scenes"
+ },
+ {
   "id": "review",
   "file": "review.html",
   "kind": "back",

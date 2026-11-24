@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 6A: one year of receivables",
   "n": "6.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.4"),
   "brief": {
     "about": "This example follows the Orontes receivables through 2025: the aging schedule, the allowance roll-forward and a transfer to a factor. It is exam-core, because the three are usually tested together. Receivables total $660,000. Applying the loss rate of each bucket gives a required allowance of $34,000, so receivables appear net at $626,000. The allowance opens at $30,000. Two wrong answers are common.",
     "anim": "rollforward",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "6.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-09",
@@ -84,6 +87,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F06-09",
+        "6.4/t:allowance-for-cr",
+        "6.4/exam-trap"
       ]
     },
     {
@@ -118,7 +126,85 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F06-10",
+        "6.4/t:the-transfer-of"
+      ]
+    },
+    {
+      "id": "t6-4-0",
+      "kind": "lines",
+      "kicker": "Section 6.4",
+      "title": "Transfer",
+      "caption": "Transfer",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "T1",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "T2",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "T3",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "T4",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:transfer-categor",
+        "Answers and explanations/t:transfer-categor"
+      ]
+    },
+    {
+      "id": "t6-4-1",
+      "kind": "lines",
+      "kicker": "Section 6.4",
+      "title": "Transfer",
+      "caption": "Transfer",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "T1",
+          "a": "Sale",
+          "b": ""
+        },
+        {
+          "name": "T2",
+          "a": "Sale",
+          "b": ""
+        },
+        {
+          "name": "T3",
+          "a": "Secured borrowing",
+          "b": ""
+        },
+        {
+          "name": "T4",
+          "a": "Secured borrowing",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:transfer-categor",
+        "Answers and explanations/t:transfer-categor"
+      ]
     },
     {
       "id": "ties",
@@ -172,6 +258,9 @@
           "text": "40,000",
           "why": "This adds the required balance to the unadjusted one."
         }
+      ],
+      "from": [
+        "6.4/section-check"
       ]
     },
     {
@@ -197,6 +286,9 @@
           "text": "660,000",
           "why": "This is the gross figure, before the allowance."
         }
+      ],
+      "from": [
+        "6.4/section-check"
       ]
     },
     {
@@ -223,7 +315,10 @@
           "why": "This is the holdback, which is expected to be recovered."
         }
       ],
-      "say": "Use Extended Example 6A. What is the loss on the transfer if it is made with recourse?"
+      "say": "Use Extended Example 6A. What is the loss on the transfer if it is made with recourse?",
+      "from": [
+        "6.4/section-check"
+      ]
     }
   ]
 };

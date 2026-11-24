@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Oils division quarter",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "marginStack"
+  },
+  "scenario": {
+    "title": "Case question: the Oils division quarter",
+    "p": [
+      "The Oils division has closed its quarter. Its manager, Nadia, sets prices for the division's bottled olive oil, approves its marketing and decides how many staff the division employs, but head office owns the bottling plant and decides when it is replaced.",
+      "The quarterly report shows revenue, variable manufacturing costs and variable selling costs, the fixed costs Nadia controls, other fixed costs traceable to the division such as the depreciation of the plant, and a share of head-office costs allocated on revenue. The division sells through supermarkets in Jordan and exports to the Gulf, and both channels use the same bottling plant.",
+      "Nadia is unhappy with the last line. The allocation rose this quarter even though her own revenue was unchanged, because the Beverages division grew. She argues that she cannot be judged on a figure that moves with another division's results.",
+      "The controller, Rania, must calculate the contribution margin, the controllable margin and the segment margin for the quarter, say which of them should be used to judge Nadia and which to judge the division, and advise the board on whether the allocated charge belongs in either measure."
+    ]
   },
   "scenes": [
     {
@@ -56,7 +65,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F315-13",
+        "Practice/t:oils-division-on"
+      ]
     },
     {
       "id": "c315-1",
@@ -87,30 +100,34 @@
         {
           "name": "Olive oil and bottles",
           "to": "variable-cost",
-          "why": "No division is closed on the figure after allocation."
+          "why": "Cost: Variable cost. No division is closed on the figure after allocation."
         },
         {
           "name": "Marketing the manager approved",
           "to": "fixed-cost-the-manager-controls",
-          "why": "No division is closed on the figure after allocation."
+          "why": "Cost: Fixed cost the manager controls. No division is closed on the figure after allocation."
         },
         {
           "name": "Depreciation of the bottling plant",
           "to": "traceable-fixed-cost-the-manager-does-not-control",
-          "why": "No division is closed on the figure after allocation."
+          "why": "Cost: Traceable fixed cost the manager does not control. No division is closed on the figure after allocation."
         },
         {
           "name": "Share of head-office costs",
           "to": "common-cost",
-          "why": "No division is closed on the figure after allocation."
+          "why": "Cost: Common cost. No division is closed on the figure after allocation."
         },
         {
           "name": "Freight to customers per case",
           "to": "variable-cost",
-          "why": "No division is closed on the figure after allocation."
+          "why": "Cost: Variable cost. No division is closed on the figure after allocation."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c315-2",

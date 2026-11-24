@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "bands"
+    "anim": "bands",
+    "about": "Figure F02-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The balance sheet shows assets, liabilities and equity at one date. A classified balance sheet separates current from noncurrent items using one year or the operating cycle, whichever is longer, so users can judge liquidity and solvency. Debt that is due within a year, callable or due on demand is current, unless a waiver or long-term refinancing is in place before the statements are issued; IFRS looks only at rights at the reporting date. Probable, estimable losses are accrued and reasonably possible ones are disclosed, and events after year-end are adjusted only if the condition existed at year-end. The balance sheet relies on historical cost and estimates, omits many intangibles and shows one day, and it links to the other statements through retained earnings, AOCI and cash."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F02-12.png",
       "label": "Figure F02-12.",
       "caption": "Chapter 2 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F02-12"
+      ]
     },
     {
       "id": "rules",

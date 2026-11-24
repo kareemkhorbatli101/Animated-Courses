@@ -9,7 +9,7 @@
   "up": "../",
   "title": "IFRS and covenants",
   "n": "12.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.4"),
   "brief": {
     "about": "IAS 1 asks only one question: at the reporting date, does the company have a right to defer settlement for at least twelve months? Refinancing agreed after the reporting date does not change the classification, even if it happens before the statements are issued. In scenarios A, C and D above, an IFRS company would show the whole commercial paper as current. Covenants follow the same logic.",
     "anim": "rules",
@@ -20,9 +20,19 @@
           "IAS 1 asks only one question: at the reporting date, does the company have a right to defer settlement for at least twelve months? Refinancing agreed after the reporting date does not change the classification, even if it happens before the statements are issued. In scenarios A, C and D above, an IFRS company would show the whole commercial paper as current.",
           "Covenants follow the same logic. Under IFRS, only covenants that must be met on or before the reporting date affect classification; future covenants are disclosed. Figure F12-06 compares the rules."
         ]
+      },
+      {
+        "h": "The IAS 1 amendments of 2024",
+        "box": "ifrs",
+        "p": [
+          "The IAS 1 amendments on classification and covenants apply from January 1, 2024, and are testable now as IFRS contrasts. They confirm that management's intention to refinance does not matter; only rights at the reporting date do."
+        ]
       }
     ]
   },
+  "from": [
+    "12.4/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "ifrs-06",
@@ -49,6 +59,10 @@
           "us": "Accrue if probable (likely) and estimable",
           "ifrs": "Provision if more likely than not; discount if material"
         }
+      ],
+      "from": [
+        "F12-06",
+        "12.4/t:situation-u-s-ga"
       ]
     },
     {
@@ -75,7 +89,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Figure F12-05, scenario A, but Orontes reports under IFRS."
+      "exhibit": "Use Figure F12-05, scenario A, but Orontes reports under IFRS.",
+      "from": [
+        "12.4/section-check"
+      ]
     }
   ]
 };

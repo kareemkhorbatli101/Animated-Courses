@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Credit losses on debt securities",
   "n": "9.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.3"),
   "brief": {
     "about": "HTM securities are measured at amortized cost, so they follow CECL, like the receivables in Chapter 6: the company records an allowance for lifetime expected credit losses from day one. For very safe bonds, such as U.S. Treasury bonds, the expected loss can be zero. AFS securities follow a different model. A security is impaired when its fair value is below its amortized cost.",
     "anim": "curve",
@@ -33,6 +33,9 @@
       }
     ]
   },
+  "from": [
+    "9.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "sc9-5",
@@ -61,6 +64,10 @@
       "exhibit": "Use Case B of the fair-value floor example.",
       "traps": [
         "the-afs-floor"
+      ],
+      "from": [
+        "9.3/exam-trap",
+        "9.3/section-check"
       ]
     },
     {
@@ -87,7 +94,10 @@
           "why": "The loss must be recognized now."
         }
       ],
-      "exhibit": "An AFS bond is below amortized cost, and the company intends to sell it before it recovers."
+      "exhibit": "An AFS bond is below amortized cost, and the company intends to sell it before it recovers.",
+      "from": [
+        "9.3/section-check"
+      ]
     }
   ]
 };

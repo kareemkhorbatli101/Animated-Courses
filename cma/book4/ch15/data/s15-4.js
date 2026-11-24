@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Multiple and logistic regression",
   "n": "15.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.4"),
   "brief": {
     "about": "multiple regression estimates how a quantity depends on several variables at once. logistic regression does the same job where the thing being predicted is a yes or a no. Figure F415-05 distinguishes them. The choice follows entirely from what is being predicted. A quantity, such as cases or cost or hours, calls for multiple regression.",
     "anim": "regPlane",
@@ -76,6 +76,10 @@
           },
           "why": "Predicts: Look at what is being predicted. The output is: A number or a category."
         }
+      ],
+      "from": [
+        "F415-05",
+        "15.4/t:technique-f-4-o"
       ]
     },
     {
@@ -101,6 +105,9 @@
           "text": "Descriptive analytics",
           "why": "Descriptive analytics reports the past."
         }
+      ],
+      "from": [
+        "15.4/section-check"
       ]
     },
     {
@@ -127,7 +134,10 @@
           "why": "It applies across the fitted range."
         }
       ],
-      "say": "A regression coefficient tells you how much the result changes when that variable rises by one:"
+      "say": "A regression coefficient tells you how much the result changes when that variable rises by one:",
+      "from": [
+        "15.4/section-check"
+      ]
     }
   ]
 };

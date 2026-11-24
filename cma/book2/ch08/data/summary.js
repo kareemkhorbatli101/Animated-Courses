@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "appliedActual"
+    "anim": "appliedActual",
+    "about": "Figure F208-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A plantwide rate is simple, while departmental and cost-driver rates follow the real drivers and give more accurate costs at a higher record-keeping cost. Fixed overhead is the cost of capacity; its rate is budgeted fixed overhead divided by a chosen capacity level, and Orontes uses normal capacity. Overhead becomes under- or overapplied through spending, volume and efficiency. At year-end an immaterial difference is closed to COGS and a material one is prorated on the overhead applied in WIP, finished goods and COGS."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F208-14.png",
       "label": "Figure F208-14.",
       "caption": "Chapter 8 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F208-14"
+      ]
     },
     {
       "id": "rules",

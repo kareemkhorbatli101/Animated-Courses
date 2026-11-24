@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "inputGate"
   },
@@ -86,9 +86,6 @@
           "text": "only files marked by the user",
           "why": "Selection is not how the types are defined."
         }
-      ],
-      "traps": [
-        "raid-is-not-a-backup"
       ]
     },
     {

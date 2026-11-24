@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Lower of cost or market",
   "n": "8.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.2"),
   "brief": {
     "about": "Under LCM, market starts with replacement cost: the current cost to buy or make the item again. But market has two limits. It cannot be higher than a ceiling equal to NRV, and it cannot be lower than a floor equal to NRV minus a normal profit margin. The procedure has two steps. First, find market: take the middle value of replacement cost, the ceiling and the floor. Why the limits?",
     "anim": "band",
@@ -45,13 +45,20 @@
       }
     ]
   },
+  "from": [
+    "8.2/false-friend-alert",
+    "8.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f08-04",
       "kind": "figure",
       "file": "F08-04.png",
       "label": "Figure F08-04.",
-      "caption": "LCM number lines: the floor, replacement cost or the ceiling sets market."
+      "caption": "LCM number lines: the floor, replacement cost or the ceiling sets market.",
+      "from": [
+        "F08-04"
+      ]
     },
     {
       "id": "pick-05",
@@ -157,6 +164,11 @@
       "traps": [
         "d-pr-ciation-is-a-write-down",
         "find-market-first"
+      ],
+      "from": [
+        "F08-05",
+        "8.2/t:item-cases-cost",
+        "8.2/exam-trap"
       ]
     },
     {
@@ -182,6 +194,9 @@
           "text": "$36",
           "why": "The ceiling is used only when replacement cost is above it."
         }
+      ],
+      "from": [
+        "8.2/section-check"
       ]
     },
     {
@@ -207,6 +222,9 @@
           "text": "All bases give the same write-down.",
           "why": "Offsetting makes the results different."
         }
+      ],
+      "from": [
+        "8.2/section-check"
       ]
     }
   ]

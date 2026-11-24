@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P213-01–P213-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "whaleCurve"
   },

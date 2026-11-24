@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Developing the master budget",
   "n": "4.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.2"),
   "brief": {
     "about": "The master budget is developed in a fixed order, starting with sales, because every other figure depends on how much the company expects to sell. Figure F304-04 shows the steps for Beverages and the chapters of this book that build each one. The Beverages sales budget is 900,000 cases × $20.00 = $18,000,000. Chapters 6 to 10 turn this figure into production, input, cost, cash and financial statement budgets.",
     "anim": "projectLife",
@@ -27,47 +27,53 @@
   "scenes": [
     {
       "id": "fig-f304-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F304-04",
       "title": "Steps in developing the Beverages master budget",
-      "say": "Steps in developing the Beverages master budget",
-      "caption": "Step",
-      "col1": "Developing the master budget (B.4.c)",
-      "col2": "Beverages 2028",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Step",
+      "col": "Developing the master budget (B.4.c)",
       "rows": [
         {
-          "name": "1",
-          "a": "Top management sets goals and assumptions",
-          "b": "Strategic plan (Chapters 1–3)"
+          "label": "1",
+          "right": "Top management sets goals and assumptions",
+          "why": "Developing the master budget (B.4.c): Top management sets goals and assumptions. Strategic plan (Chapters 1–3)."
         },
         {
-          "name": "2",
-          "a": "Sales budget: volume × price",
-          "b": "900,000 cases × $20.00"
+          "label": "2",
+          "right": "Sales budget: volume × price",
+          "why": "Developing the master budget (B.4.c): Sales budget: volume × price. 900,000 cases × $20.00."
         },
         {
-          "name": "3",
-          "a": "Production and input budgets",
-          "b": "Chapters 6–7"
+          "label": "3",
+          "right": "Production and input budgets",
+          "why": "Developing the master budget (B.4.c): Production and input budgets. Chapters 6–7."
         },
         {
-          "name": "4",
-          "a": "Cost of goods sold, selling and administrative",
-          "b": "Chapter 8"
+          "label": "4",
+          "right": "Cost of goods sold, selling and administrative",
+          "why": "Developing the master budget (B.4.c): Cost of goods sold, selling and administrative. Chapter 8."
         },
         {
-          "name": "5",
-          "a": "Capital and cash budgets",
-          "b": "Chapter 9"
+          "label": "5",
+          "right": "Capital and cash budgets",
+          "why": "Developing the master budget (B.4.c): Capital and cash budgets. Chapter 9."
         },
         {
-          "name": "6",
-          "a": "Budgeted statements; review and approve",
-          "b": "Chapter 10"
+          "label": "6",
+          "right": "Budgeted statements; review and approve",
+          "why": "Developing the master budget (B.4.c): Budgeted statements; review and approve. Chapter 10."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Steps in developing the Beverages master budget",
+      "traps": [
+        "sales-first"
+      ],
+      "from": [
+        "F304-04",
+        "4.2/t:step-developing",
+        "4.2/exam-trap"
+      ]
     },
     {
       "id": "sc304-3",
@@ -93,8 +99,8 @@
           "correct": true
         }
       ],
-      "traps": [
-        "sales-first"
+      "from": [
+        "4.2/section-check"
       ]
     },
     {
@@ -121,7 +127,10 @@
           "why": "Too short."
         }
       ],
-      "exhibit": "Beverages will build a new filling line over nine months starting in October."
+      "exhibit": "Beverages will build a new filling line over nine months starting in October.",
+      "from": [
+        "4.2/section-check"
+      ]
     }
   ]
 };

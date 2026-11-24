@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "absVar"
+    "anim": "absVar",
+    "about": "Figure F209-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Absorption costing includes fixed manufacturing overhead in inventory; variable costing expenses it in the period. The contribution margin is sales minus all variable costs. Income differs only by the fixed overhead that enters or leaves inventory: the change in inventory units times the fixed rate. The capacity level in the denominator changes unit cost, inventory values and pricing; practical capacity shows the cost of unused capacity and helps avoid a downward demand spiral."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F209-14.png",
       "label": "Figure F209-14.",
       "caption": "Chapter 9 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F209-14"
+      ]
     },
     {
       "id": "rules",

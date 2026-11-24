@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Project budgets",
   "n": "4.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.3"),
   "brief": {
     "about": "A project budget plans the costs of one project over its whole life, which may be shorter or longer than a year. It is used for building a plant, installing a new line, launching a product or putting in a new system. A project budget also has a timeline. Figure F304-06 shows when each part of the 9-month project is spent, which the cash budget needs to know.",
     "anim": "activityRate",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "4.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f304-06",
       "kind": "figure",
       "file": "F304-06.png",
       "label": "Figure F304-06.",
-      "caption": "Timeline of the filling-line project budget."
+      "caption": "Timeline of the filling-line project budget.",
+      "from": [
+        "F304-06"
+      ]
     },
     {
       "id": "num-05",
@@ -62,6 +68,10 @@
           "answer": "2500000",
           "why": "Project budget (9 months): 2,500,000."
         }
+      ],
+      "from": [
+        "F304-05",
+        "4.3/t:new-juice-fillin"
       ]
     },
     {
@@ -88,7 +98,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A project needs equipment $1,800,000, installation $300,000, training $100,000, testing $150,000 and a contingency of $150,000."
+      "exhibit": "A project needs equipment $1,800,000, installation $300,000, training $100,000, testing $150,000 and a contingency of $150,000.",
+      "from": [
+        "4.3/section-check"
+      ]
     },
     {
       "id": "sc304-6",
@@ -113,6 +126,9 @@
           "text": "It shows when money is spent",
           "why": "That is a benefit."
         }
+      ],
+      "from": [
+        "4.3/section-check"
       ]
     }
   ]

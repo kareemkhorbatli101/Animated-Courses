@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Capacity and outside suppliers",
   "n": "16.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.4"),
   "brief": {
     "about": "Everything turns on the opportunity cost, and that depends on capacity. Figure F316-08 compares the two situations. This is why a full-cost transfer price can mislead. At $0.80 a case, Beverages sees a cost above the outside offer and refuses internal supply, even though the company is better off supplying inside whenever Levant has spare capacity.",
     "anim": "respCenters",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "16.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f316-08",
       "kind": "figure",
       "file": "F316-08.png",
       "label": "Figure F316-08.",
-      "caption": "How capacity changes the minimum transfer price."
+      "caption": "How capacity changes the minimum transfer price.",
+      "from": [
+        "F316-08"
+      ]
     },
     {
       "id": "fig-f316-09",
@@ -72,6 +78,10 @@
             "Company gains $90,000: buy outside"
           ]
         }
+      ],
+      "from": [
+        "F316-09",
+        "16.4/t:situation-compan"
       ]
     },
     {
@@ -101,6 +111,10 @@
       "exhibit": "The supplier has spare capacity, its variable cost is $0.50, and an outside carrier offers the buyer $1.00.",
       "traps": [
         "ask-about-capacity-first"
+      ],
+      "from": [
+        "16.4/exam-trap",
+        "16.4/section-check"
       ]
     },
     {
@@ -127,7 +141,10 @@
           "why": "That would lose the better outside margin."
         }
       ],
-      "exhibit": "The supplier is at full capacity, earns $0.60 contribution margin outside, and the buyer can purchase outside at $1.00."
+      "exhibit": "The supplier is at full capacity, earns $0.60 contribution margin outside, and the buyer can purchase outside at $1.00.",
+      "from": [
+        "16.4/section-check"
+      ]
     }
   ]
 };

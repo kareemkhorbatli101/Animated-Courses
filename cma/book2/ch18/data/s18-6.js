@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 18A: the juice standard cost card",
   "n": "18.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.6"),
   "brief": {
     "about": "This example puts every standard on one card and shows where each number came from. It is exam-core. Figure F218-13 is the complete card, with the source of each line. The total is $12.60 a case, the standard used throughout Book 2.",
     "anim": "stdCard",
@@ -50,6 +50,9 @@
       }
     ]
   },
+  "from": [
+    "18.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-13",
@@ -147,6 +150,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F218-13",
+        "18.6/t:input-quantity-p",
+        "18.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t18-6-0",
+      "kind": "lines",
+      "kicker": "Section 18.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Assumes no waste, breaks or downtime",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Allows for normal loss and rest breaks",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Set by the engineers without asking the filling team",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Set together with the filling team",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Shows the direction for kaizen",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
+    },
+    {
+      "id": "t18-6-1",
+      "kind": "lines",
+      "kicker": "Section 18.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Assumes no waste, breaks or downtime",
+          "a": "Ideal",
+          "b": ""
+        },
+        {
+          "name": "Allows for normal loss and rest breaks",
+          "a": "Currently attainable",
+          "b": ""
+        },
+        {
+          "name": "Set by the engineers without asking the filling team",
+          "a": "Authoritative",
+          "b": ""
+        },
+        {
+          "name": "Set together with the filling team",
+          "a": "Participative",
+          "b": ""
+        },
+        {
+          "name": "Shows the direction for kaizen",
+          "a": "Ideal",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
       ]
     },
     {
@@ -192,7 +284,10 @@
           "why": "This is the whole card."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "18.6/section-check"
+      ]
     },
     {
       "id": "sc218-12",
@@ -218,7 +313,10 @@
           "why": "This uses the historical average."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "18.6/section-check"
+      ]
     }
   ]
 };

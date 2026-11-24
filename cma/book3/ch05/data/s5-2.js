@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Continuous (rolling) budgets",
   "n": "5.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.2"),
   "brief": {
     "about": "A continuous (rolling) budget always covers the same length of time ahead, usually twelve months. When a month or quarter ends, it is dropped and a new one is added at the end. It suits fast-changing markets, like juice. Figure F305-04 shows how the Beverages budget moves forward one quarter. The quarters in between are also revised with the latest information. The December budget planned 900,000 cases for 2028.",
     "anim": "rollFwd",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F305-04.png",
       "label": "Figure F305-04.",
-      "caption": "A continuous (rolling) budget moves forward one quarter."
+      "caption": "A continuous (rolling) budget moves forward one quarter.",
+      "from": [
+        "F305-04"
+      ]
     },
     {
       "id": "fig-f305-05",
@@ -71,6 +74,10 @@
             "910,000"
           ]
         }
+      ],
+      "from": [
+        "F305-05",
+        "5.2/t:beverages-cases"
       ]
     },
     {
@@ -100,6 +107,9 @@
       "exhibit": "A rolling budget covers Q1 to Q4.",
       "traps": [
         "continuous-rolling-budget-always-covers"
+      ],
+      "from": [
+        "5.2/section-check"
       ]
     },
     {
@@ -125,6 +135,9 @@
           "text": "costs are all fixed",
           "why": "Not the reason for rolling."
         }
+      ],
+      "from": [
+        "5.2/section-check"
       ]
     }
   ]

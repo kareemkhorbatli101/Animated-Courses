@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The challenge of fitting a model",
   "n": "15.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.2"),
   "brief": {
     "about": "A model is a simplification of reality chosen to be useful. The central difficulty is that the data contains both the pattern you want and noise you do not, and no model can separate them perfectly. Figure F415-03 shows what goes wrong at each extreme. underfitting means the model is too simple to capture the pattern: a flat line through a rising relationship explains almost nothing.",
     "anim": "fitCurve",
@@ -33,6 +33,9 @@
       "caption": "Underfitting, a good fit, and overfitting.",
       "traps": [
         "the-central-difficulty-is-that-the-dat"
+      ],
+      "from": [
+        "F415-03"
       ]
     },
     {
@@ -59,7 +62,10 @@
           "why": "The data may be perfectly sound."
         }
       ],
-      "exhibit": "A model passes through every observed point."
+      "exhibit": "A model passes through every observed point.",
+      "from": [
+        "15.2/section-check"
+      ]
     },
     {
       "id": "sc415-4",
@@ -84,6 +90,9 @@
           "why": "A hold-out sample exposes a model that has learned noise.",
           "correct": true
         }
+      ],
+      "from": [
+        "15.2/section-check"
       ]
     }
   ]

@@ -4,7 +4,7 @@
  * titles and the order are the deck's, folded exactly as assets/scene.js folds
  * them, and gates/cma_nav fails if this file and the decks disagree.
  *
- * Chapter 18 of Book 2 - 11 pages, 55 screens.
+ * Chapter 18 of Book 2 - 11 pages, 56 screens.
  */
 window.OUTLINE = {
   "case": [{"id": "c218-1", "title": "Where does each item belong?"}, {"id": "c218-2", "title": "Enter the price standard for sesame paste per kg"}, {"id": "c218-3", "title": "Enter the quantity standard for sesame per jar, in kg"}, {"id": "c218-4", "title": "Enter the standard sesame cost per jar"}, {"id": "c218-5", "title": "Enter the direct labor standard per jar"}, {"id": "c218-6", "title": "The rest and cleaning allowances belong in the time standard because:"}, {"id": "c218-7", "title": "Setting the filling time with a stopwatch study of each step is calledâ€¦"}],
@@ -13,8 +13,8 @@ window.OUTLINE = {
   "s18-1": [{"id": "fill-03", "title": "Worked example: the June 2028 production budget from standards"}, {"id": "sc218-1", "title": "How are cost standards used in budgeting?"}, {"id": "sc218-2", "title": "What is the budgeted standard cost?"}],
   "s18-2": [{"id": "grid-05", "title": "Ideal and currently attainable standards for juice labor"}, {"id": "sc218-3", "title": "A currently attainable standard:"}, {"id": "sc218-4", "title": "Which is the attainable time standard?"}],
   "s18-3": [{"id": "grid-06", "title": "Authoritative and participative standards"}, {"id": "sc218-5", "title": "A standard set by engineers without consulting the people who must meetâ€¦"}, {"id": "sc218-6", "title": "What is the main risk of a participative standard?"}],
-  "s18-4": [{"id": "num-08", "title": "Worked example: the concentrate price standard"}, {"id": "grid-09", "title": "Your turn: the concentrate quantity standard"}, {"id": "num-10", "title": "The direct labor standard for juice"}, {"id": "sc218-7", "title": "What is the price standard?"}, {"id": "sc218-8", "title": "What is the quantity standard?"}],
-  "s18-5": [{"id": "sc218-9", "title": "Setting a labor standard from a time and motion study is:"}, {"id": "sc218-10", "title": "Why did Beverages not use the 12-month average of 0.056 hours as itsâ€¦"}],
+  "s18-4": [{"id": "num-08", "title": "Worked example: the concentrate price standard"}, {"id": "num-10", "title": "The direct labor standard for juice"}, {"id": "yourturn", "title": "The concentrate quantity standard"}, {"id": "sc218-7", "title": "What is the price standard?"}, {"id": "sc218-8", "title": "What is the quantity standard?"}],
+  "s18-5": [{"id": "fig-f218-11", "title": "Activity analysis and historical data compared"}, {"id": "sc218-9", "title": "Setting a labor standard from a time and motion study is:"}, {"id": "sc218-10", "title": "Why did Beverages not use the 12-month average of 0.056 hours as itsâ€¦"}],
   "s18-6": [{"id": "fill-13", "title": "Extended Example: the juice standard cost card"}, {"id": "ties", "title": "Everything ties"}, {"id": "sc218-11", "title": "What is the standard cost of concentrate per case?"}, {"id": "sc218-12", "title": "What is the direct labor standard per case?"}],
   "summary": [{"id": "rules", "title": "The chapter in one paragraph"}, {"id": "traps", "title": "The traps you have got wrong"}],
   "terms": [{"id": "en-ar", "title": "English â†’ Arabic"}, {"id": "ar-en", "title": "Arabic â†’ English"}, {"id": "all", "title": "Every bridged term in the chapter"}]

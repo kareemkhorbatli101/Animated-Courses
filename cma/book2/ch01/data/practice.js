@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P201-01–P201-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "poolBase"
   },

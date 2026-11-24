@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "4.1",
   "title": "The Sarbanes-Oxley sections that matter",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s4-2",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "4.4",
   "title": "Top-down against bottom-up",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s4-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "4.5",
   "title": "The Foreign Corrupt Practices Act",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s4-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "4.6",
   "title": "Extended Example 4A: planning an audit of the Orontes controls",
-  "blurb": "A printed statement, grid, shares, questions · 5 scenes"
+  "blurb": "A printed statement, match, shares, questions · 8 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the filer that thought it was exempt",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 11 scenes"
  },
  {
   "id": "review",

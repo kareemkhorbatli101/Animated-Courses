@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the dashboard that nobody trusted",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "insightLadder"
+  },
+  "scenario": {
+    "title": "Case question: the dashboard that nobody trusted",
+    "p": [
+      "Orontes has built a sales dashboard on the new ERP. It refreshes hourly and shows revenue, cases sold and margin by division, by product family and by market. The board was pleased with it for two months.",
+      "Then the Beverages director and the Foods director presented different margin figures for the same month at the same meeting. Both had taken their number from the dashboard. It emerged that the two divisions had never agreed whether margin is calculated before or after the allocation of distribution cost, and each had configured the view accordingly. No one was given responsibility for defining the measures when the dashboard was built, and the project was treated as a technical exercise.",
+      "Separately, an analyst has reported that cases sold correlate strongly with the number of staff birthdays recorded in the payroll system over the past three years. He has proposed investigating further.",
+      "The sales director has also asked why the dashboard shows what happened but never says what to do about it, and whether more data would fix that. Rania has been asked to answer all three points."
+    ],
+    "note": "Use the scenario above for items C413-1 to C413-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "240,000",
           "to": "data",
-          "why": "Everything up to insight is analysis and can be delegated."
+          "why": "Statement from the case: Data. Everything up to insight is analysis and can be delegated."
         },
         {
           "name": "240,000 cases in the third quarter",
           "to": "information",
-          "why": "Everything up to insight is analysis and can be delegated."
+          "why": "Statement from the case: Information. Everything up to insight is analysis and can be delegated."
         },
         {
           "name": "The third quarter is the peak every year",
           "to": "knowledge",
-          "why": "Everything up to insight is analysis and can be delegated."
+          "why": "Statement from the case: Knowledge. Everything up to insight is analysis and can be delegated."
         },
         {
           "name": "The peak follows temperature rather than the promotion calendar",
           "to": "insight",
-          "why": "Everything up to insight is analysis and can be delegated."
+          "why": "Statement from the case: Insight. Everything up to insight is analysis and can be delegated."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:statement-from-t",
+        "Practice/t:statement-from-t#2",
+        "Answers and explanations/t:statement-from-t"
+      ]
     },
     {
       "id": "c413-2",

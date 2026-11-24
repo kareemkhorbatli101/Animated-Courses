@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benefits and limitations",
   "n": "4.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.5"),
   "brief": {
     "about": "No system suits every purpose. Figure F304-11 compares the benefits and limitations of the three systems. The master budget coordinates everything but can become a fixed ritual. The project budget controls a project well but may miss costs shared with the rest of the business. The activity-based budget explains overhead but needs activity data that many companies do not have.",
     "anim": "projectLife",
@@ -64,6 +64,10 @@
           },
           "why": "Benefits (B.4.d): Shows why overhead changes; finds waste."
         }
+      ],
+      "from": [
+        "F304-11",
+        "4.5/t:system-benefits"
       ]
     },
     {
@@ -92,6 +96,9 @@
       ],
       "traps": [
         "activity-based-budget-explains-overhead"
+      ],
+      "from": [
+        "4.5/section-check"
       ]
     },
     {
@@ -118,7 +125,10 @@
           "why": "Large projects need a budget."
         }
       ],
-      "exhibit": "Orontes will install a new computer system over 14 months."
+      "exhibit": "Orontes will install a new computer system over 14 months.",
+      "from": [
+        "4.5/section-check"
+      ]
     }
   ]
 };

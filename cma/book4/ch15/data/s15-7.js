@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 15A: predicting next quarter's demand",
   "n": "15.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.7"),
   "brief": {
     "about": "This example performs the one calculation this part of the syllabus examines, and then asks how far the answer can be trusted. It is exam-core. Beverages expects to hold the price at $20.00 next quarter, the forecast mean temperature is 26 degrees, and 4 promotion weeks are planned. How many cases should the plant expect? Treating the price coefficient as positive gives 549,673 cases, which is far too high.",
     "anim": "regPlane",
@@ -72,6 +72,10 @@
       }
     ]
   },
+  "from": [
+    "15.7/worked-example",
+    "15.7/worked-example#2"
+  ],
   "scenes": [
     {
       "id": "fig-f415-08",
@@ -106,7 +110,132 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F415-08",
+        "15.7/t:the-question-ask",
+        "Practice/t:question-asked-c",
+        "Practice/t:question-asked-c#2",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:question-asked-c"
+      ]
+    },
+    {
+      "id": "t15-7-0",
+      "kind": "lines",
+      "kicker": "Section 15.7",
+      "title": "Question asked",
+      "caption": "Question asked",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "What were cases sold last quarter?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Why did the third quarter peak?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "How many cases next summer?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "How many shifts should we run?",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:question-asked-c",
+        "Practice/t:question-asked-c#2",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:question-asked-c"
+      ]
+    },
+    {
+      "id": "t15-7-1",
+      "kind": "lines",
+      "kicker": "Section 15.7",
+      "title": "Question asked",
+      "caption": "Question asked",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "What were cases sold last quarter?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Why did the third quarter peak?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "How many cases next summer?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "How many shifts should we run?",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:question-asked-c",
+        "Practice/t:question-asked-c#2",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:question-asked-c"
+      ]
+    },
+    {
+      "id": "t15-7-2",
+      "kind": "lines",
+      "kicker": "Section 15.7",
+      "title": "Question asked",
+      "caption": "Question asked",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "What were cases sold last quarter?",
+          "a": "Descriptive",
+          "b": ""
+        },
+        {
+          "name": "Why did the third quarter peak?",
+          "a": "Diagnostic",
+          "b": ""
+        },
+        {
+          "name": "How many cases next summer?",
+          "a": "Predictive",
+          "b": ""
+        },
+        {
+          "name": "How many shifts should we run?",
+          "a": "Prescriptive",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:question-asked-c",
+        "Practice/t:question-asked-c#2",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:question-asked-c"
+      ]
     },
     {
       "id": "ties",
@@ -128,6 +257,9 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "15.7/exam-trap"
       ]
     },
     {
@@ -170,7 +302,13 @@
           "why": "Prescriptive — it recommends a course of action given the constraints"
         }
       ],
-      "note": "Why: diagnostic analytics drills into the causes and relationships behind what the reporting showed"
+      "note": "Why: diagnostic analytics drills into the causes and relationships behind what the reporting showed",
+      "from": [
+        "15.7/your-turn",
+        "F415-08",
+        "15.7/t:the-question-ask",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc415-13",
@@ -196,7 +334,10 @@
           "why": "This is an observed quarter, not the prediction."
         }
       ],
-      "exhibit": "Use Extended Example 15A."
+      "exhibit": "Use Extended Example 15A.",
+      "from": [
+        "15.7/section-check"
+      ]
     },
     {
       "id": "sc415-14",
@@ -222,7 +363,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 15A."
+      "exhibit": "Use Extended Example 15A.",
+      "from": [
+        "15.7/section-check"
+      ]
     }
   ]
 };

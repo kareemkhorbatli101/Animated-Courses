@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P12-01–P12-20",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "refinance"
   },

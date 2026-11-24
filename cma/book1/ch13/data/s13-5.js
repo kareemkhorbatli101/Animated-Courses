@@ -9,7 +9,7 @@
   "up": "../",
   "title": "IFRS differences and disclosures",
   "n": "13.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.5"),
   "brief": {
     "about": "IAS 12 uses the same balance sheet approach, but Figure F13-10 shows important differences. The biggest one for the exam is the deferred tax asset: IFRS recognizes only the amount it is probable to use, while U.S. GAAP records the full asset and a separate valuation allowance. ASU 2023-09 is testable now for public companies.",
     "anim": "rules",
@@ -30,6 +30,9 @@
       }
     ]
   },
+  "from": [
+    "13.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "ifrs-10",
@@ -68,6 +71,10 @@
       "traps": [
         "asu-2023-09-for-private-companies",
         "provision-for-income-taxes"
+      ],
+      "from": [
+        "F13-10",
+        "13.5/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -94,7 +101,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A tax rate cut has been announced by the government but not yet signed into law. Under IFRS it is substantively enacted."
+      "exhibit": "A tax rate cut has been announced by the government but not yet signed into law. Under IFRS it is substantively enacted.",
+      "from": [
+        "13.5/section-check"
+      ]
     },
     {
       "id": "sc13-10",
@@ -120,7 +130,10 @@
           "why": "Employee taxes are not income taxes of the company."
         }
       ],
-      "say": "Under ASU 2023-09, what must a public company disclose about income taxes paid?"
+      "say": "Under ASU 2023-09, what must a public company disclose about income taxes paid?",
+      "from": [
+        "13.5/section-check"
+      ]
     }
   ]
 };

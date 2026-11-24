@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The direct materials budget",
   "n": "7.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.2"),
   "brief": {
     "about": "The direct materials budget has two parts: the materials to use and the materials to buy. Purchases equal usage plus the desired ending stock minus the beginning stock, just like the production budget. The procurement policy decides how much stock to hold. Bottles, caps and cartons arrive just-in-time, so purchases equal usage, as Figure F307-05 shows. Concentrate travels further and is kept at 10% of the next quarter's needs.",
     "anim": "bridgeBar",
@@ -36,6 +36,9 @@
       }
     ]
   },
+  "from": [
+    "7.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-03",
@@ -133,65 +136,95 @@
       ],
       "traps": [
         "usage-is-not-purchases"
+      ],
+      "from": [
+        "F307-03",
+        "7.2/t:concentrate-budg",
+        "7.2/exam-trap"
       ]
     },
     {
-      "id": "fill-04",
-      "kind": "schedule",
+      "id": "fig-f307-04",
+      "kind": "grid",
       "kicker": "Figure F307-04",
       "title": "Your turn: concentrate in the third and fourth quarters",
-      "say": "Every other column is given. Enter the last figure in each row.",
+      "say": "Your turn: concentrate in the third and fourth quarters (complete the blanks)",
       "caption": "Concentrate budget 2028",
       "cols": [
-        {
-          "id": "c1",
-          "label": "Q1",
-          "given": true
-        },
-        {
-          "id": "c2",
-          "label": "Q2",
-          "given": true
-        },
-        {
-          "id": "c3",
-          "label": "Q3",
-          "given": true
-        },
-        {
-          "id": "c4",
-          "label": "Q4",
-          "given": false
-        }
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
       ],
       "rows": [
         {
-          "label": "Cases to produce",
-          "cells": {
-            "c1": "213,000",
-            "c2": "228,000",
-            "c3": "237,000",
-            "c4": "223,000"
-          }
+          "name": "Cases to produce",
+          "cells": [
+            "213,000",
+            "228,000",
+            "237,000",
+            "223,000"
+          ]
         },
         {
-          "label": "× 6.0 liters = liters needed",
-          "cells": {
-            "c1": "1,278,000",
-            "c2": "1,368,000",
-            "c3": "1,422,000",
-            "c4": "1,338,000"
-          }
+          "name": "× 6.0 liters = liters needed",
+          "cells": [
+            "1,278,000",
+            "1,368,000",
+            "1,422,000",
+            "1,338,000"
+          ]
         },
         {
-          "label": "− Beginning stock",
-          "cells": {
-            "c1": "127,800",
-            "c2": "136,800",
-            "c3": "142,200",
-            "c4": "133,800"
-          }
+          "name": "+ Ending stock (10% of next quarter)",
+          "cells": [
+            "136,800",
+            "142,200",
+            "________",
+            "________"
+          ]
+        },
+        {
+          "name": "= Total liters needed",
+          "cells": [
+            "1,414,800",
+            "1,510,200",
+            "________",
+            "________"
+          ]
+        },
+        {
+          "name": "− Beginning stock",
+          "cells": [
+            "127,800",
+            "136,800",
+            "142,200",
+            "133,800"
+          ]
+        },
+        {
+          "name": "= Liters to buy",
+          "cells": [
+            "1,287,000",
+            "1,373,400",
+            "________",
+            "________"
+          ]
+        },
+        {
+          "name": "× $0.90 = cost of purchases",
+          "cells": [
+            "1,158,300",
+            "1,236,060",
+            "________",
+            "________"
+          ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F307-04",
+        "7.2/t:concentrate-budg#2"
       ]
     },
     {
@@ -259,41 +292,78 @@
             "c5": "540,600"
           }
         }
+      ],
+      "from": [
+        "F307-05",
+        "7.2/t:just-in-time-ite"
       ]
     },
     {
       "id": "fig-f307-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F307-06",
       "title": "Procurement policies and their effect on the materials budget",
-      "say": "Procurement policies and their effect on the materials budget",
-      "caption": "Material",
-      "col1": "Procurement policy (B.5.h)",
-      "col2": "Effect on the materials budget",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Material",
+      "col": "Procurement policy (B.5.h)",
       "rows": [
         {
-          "name": "Concentrate",
-          "a": "Keep 10% of next quarter's needs",
-          "b": "Purchases differ from usage by the change in stock"
+          "label": "Concentrate",
+          "right": "Keep 10% of next quarter's needs",
+          "why": "Procurement policy (B.5.h): Keep 10% of next quarter's needs. Purchases differ from usage by the change in stock."
         },
         {
-          "name": "Bottles (Jordan Glass)",
-          "a": "Just-in-time daily deliveries (Book 2, Chapter 17)",
-          "b": "Purchases = usage; almost no stock"
+          "label": "Bottles (Jordan Glass)",
+          "right": "Just-in-time daily deliveries (Book 2, Chapter 17)",
+          "why": "Procurement policy (B.5.h): Just-in-time daily deliveries (Book 2, Chapter 17). Purchases = usage; almost no stock."
         },
         {
-          "name": "Caps and cartons",
-          "a": "Just-in-time",
-          "b": "Purchases = usage"
+          "label": "Caps and cartons",
+          "right": "Just-in-time",
+          "why": "Procurement policy (B.5.h): Just-in-time. Purchases = usage."
         },
         {
-          "name": "Any item with a minimum order",
-          "a": "Buy in fixed lots",
-          "b": "Purchases rounded up; stock rises"
+          "label": "Any item with a minimum order",
+          "right": "Buy in fixed lots",
+          "why": "Procurement policy (B.5.h): Buy in fixed lots. Purchases rounded up; stock rises."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Procurement policies and their effect on the materials budget",
+      "from": [
+        "F307-06",
+        "7.2/t:material-procure"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F307-04",
+      "title": "Concentrate in the third and fourth quarters",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the blank cells of Figure F307-04. The first quarter of 2029 is planned at 218,000 cases.",
+      "blanks": [
+        {
+          "label": "Q3",
+          "working": "1,422,000 + 133,800 = 1,555,800; − 142,200 = 1,413,600 liters; × $0.90 = $1,272,240",
+          "shown": "$1,272,240",
+          "answer": 1272240,
+          "prompt": "1,422,000 + 133,800 = 1,555,800; − 142,200 = 1,413,600 liters; × $0.90 ="
+        },
+        {
+          "label": "Q4",
+          "working": "1,338,000 + 130,800 (10% of 1,308,000) = 1,468,800; − 133,800 = 1,335,000 liters; × $0.90 = $1,201,500",
+          "shown": "$1,201,500",
+          "answer": 1201500,
+          "prompt": "1,338,000 + 130,800 (10% of 1,308,000) = 1,468,800; − 133,800 = 1,335,000 liters; × $0.90 ="
+        }
+      ],
+      "caption": "Your turn: concentrate in the third and fourth quarters (complete the blanks)",
+      "from": [
+        "7.2/your-turn",
+        "F307-04",
+        "7.2/t:concentrate-budg#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc307-3",
@@ -319,7 +389,10 @@
           "why": "Bottles are still bought."
         }
       ],
-      "exhibit": "Bottles arrive daily just-in-time."
+      "exhibit": "Bottles arrive daily just-in-time.",
+      "from": [
+        "7.2/section-check"
+      ]
     },
     {
       "id": "sc307-4",
@@ -345,7 +418,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Liters needed are 1,278,000; desired ending stock 136,800; beginning stock 127,800."
+      "exhibit": "Liters needed are 1,278,000; desired ending stock 136,800; beginning stock 127,800.",
+      "from": [
+        "7.2/section-check"
+      ]
     }
   ]
 };

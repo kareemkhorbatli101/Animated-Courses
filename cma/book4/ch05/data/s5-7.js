@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 5A: assessing and mitigating the Orontes control risk",
   "n": "5.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.7"),
   "brief": {
     "about": "This example assesses the level of control risk across Orontes and recommends what to do about it. E.1.v is a Level C outcome, one of only six in this book, so the exam will ask for a judgement and a recommendation rather than a definition. Figure F405-09 sets out the assessment. Three areas stand out. Purchasing, because of the failure in Chapter 1.",
     "anim": "remediate",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "5.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-09",
@@ -104,6 +107,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F405-09",
+        "5.7/t:area-control-ris",
+        "5.7/exam-trap"
       ]
     },
     {
@@ -139,7 +147,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F405-10",
+        "5.7/t:situation-how-se",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t5-7-0",
+      "kind": "lines",
+      "kicker": "Section 5.7",
+      "title": "Step taken or still outstanding",
+      "caption": "Step taken or still outstanding",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The control was redesigned and the duty named in a job description",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The revised procedure was circulated to staff",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The new control has operated for a sufficient period",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Someone independent has tested that the control works",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:step-taken-or-st",
+        "Practice/t:step-taken-or-st#2",
+        "Answers and explanations/t:step-taken-or-st"
+      ]
+    },
+    {
+      "id": "t5-7-1",
+      "kind": "lines",
+      "kicker": "Section 5.7",
+      "title": "Step taken or still outstanding",
+      "caption": "Step taken or still outstanding",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The control was redesigned and the duty named in a job description",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The revised procedure was circulated to staff",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The new control has operated for a sufficient period",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Someone independent has tested that the control works",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:step-taken-or-st",
+        "Practice/t:step-taken-or-st#2",
+        "Answers and explanations/t:step-taken-or-st"
+      ]
+    },
+    {
+      "id": "t5-7-2",
+      "kind": "lines",
+      "kicker": "Section 5.7",
+      "title": "Step taken or still outstanding",
+      "caption": "Step taken or still outstanding",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The control was redesigned and the duty named in a job description",
+          "a": "Already done",
+          "b": ""
+        },
+        {
+          "name": "The revised procedure was circulated to staff",
+          "a": "Already done",
+          "b": ""
+        },
+        {
+          "name": "The new control has operated for a sufficient period",
+          "a": "Still outstanding",
+          "b": ""
+        },
+        {
+          "name": "Someone independent has tested that the control works",
+          "a": "Still outstanding",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:step-taken-or-st",
+        "Practice/t:step-taken-or-st#2",
+        "Answers and explanations/t:step-taken-or-st"
+      ]
     },
     {
       "id": "yourturn",
@@ -181,7 +308,13 @@
           "why": "Control deficiency — the detective control works, and the amounts are below the threshold for audit committee attention"
         }
       ],
-      "note": "Why: there is no control to operate, so the deficiency is in the design rather than in how it is carried out"
+      "note": "Why: there is no control to operate, so the deficiency is in the design rather than in how it is carried out",
+      "from": [
+        "5.7/your-turn",
+        "F405-10",
+        "5.7/t:situation-how-se",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc405-13",
@@ -207,7 +340,10 @@
           "why": "Small teams can still separate duties."
         }
       ],
-      "say": "Use Extended Example 5A. Why is control risk at the Levant depot assessed higher than in purchasing?"
+      "say": "Use Extended Example 5A. Why is control risk at the Levant depot assessed higher than in purchasing?",
+      "from": [
+        "5.7/section-check"
+      ]
     },
     {
       "id": "sc405-14",
@@ -233,7 +369,10 @@
           "correct": true
         }
       ],
-      "say": "Use Extended Example 5A. Which recommendation is specific enough to be useful?"
+      "say": "Use Extended Example 5A. Which recommendation is specific enough to be useful?",
+      "from": [
+        "5.7/section-check"
+      ]
     }
   ]
 };

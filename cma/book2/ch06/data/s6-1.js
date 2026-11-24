@@ -9,7 +9,7 @@
   "up": "../",
   "title": "When job order costing fits",
   "n": "6.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.1"),
   "brief": {
     "about": "Job order costing collects costs for each separate job, batch or customer order. It fits when the products are different from each other and each order can be identified from start to finish. Private-label tahini fits well. One job may be a Barada order in plastic tubs, and the next a Gulf retailer's order in glass jars with a different sesame blend. Orontes's Oils division does not use it.",
     "anim": "jobCard",
@@ -48,6 +48,9 @@
           "text": "Bottling extra-virgin olive oil",
           "why": "Bottling is a continuous process."
         }
+      ],
+      "from": [
+        "6.1/section-check"
       ]
     },
     {
@@ -73,6 +76,9 @@
           "text": "the whole product line",
           "why": "A product line contains many different jobs."
         }
+      ],
+      "from": [
+        "6.1/section-check"
       ]
     }
   ]

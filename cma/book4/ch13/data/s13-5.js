@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why data and capability are strategic assets",
   "n": "13.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.5"),
   "brief": {
     "about": "Figure F413-06 sets out why data counts as a strategic asset rather than merely a useful one. The fourth row carries the argument. A competitor can buy the same software tomorrow, and could in principle buy similar data. What cannot be bought quickly is the data science capability: people who know which question is worth asking, which answer is suspect, and how to say so to a board.",
     "anim": "oppChallenge",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f413-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F413-06",
       "title": "Why data and capability are strategic assets",
-      "say": "Why data and capability are strategic assets",
-      "caption": "Why data is a strategic asset (F.4.e)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Why data is a strategic asset (F.4.e)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "It is hard to copy",
-          "a": "A competitor can buy the same software but not your history",
-          "b": "Three years of Gulf order patterns"
+          "label": "It is hard to copy",
+          "right": "A competitor can buy the same software but not your history",
+          "why": "What it means: A competitor can buy the same software but not your history. Three years of Gulf order patterns."
         },
         {
-          "name": "It compounds",
-          "a": "Each year of data makes the next analysis better",
-          "b": "Seasonality is clearer with three years than with one"
+          "label": "It compounds",
+          "right": "Each year of data makes the next analysis better",
+          "why": "What it means: Each year of data makes the next analysis better. Seasonality is clearer with three years than with one."
         },
         {
-          "name": "It is specific to you",
-          "a": "Your data describes your customers and your processes",
-          "b": "Nobody else holds the Orontes plant records"
+          "label": "It is specific to you",
+          "right": "Your data describes your customers and your processes",
+          "why": "What it means: Your data describes your customers and your processes. Nobody else holds the Orontes plant records."
         },
         {
-          "name": "The capability matters more",
-          "a": "Data without people who can use it earns nothing",
-          "b": "The analyst who knows which question to ask"
+          "label": "The capability matters more",
+          "right": "Data without people who can use it earns nothing",
+          "why": "What it means: Data without people who can use it earns nothing. The analyst who knows which question to ask."
         },
         {
-          "name": "It enables, not decides",
-          "a": "It improves the odds; management still chooses",
-          "b": "The Gulf decision of Book 3 remains a judgement"
+          "label": "It enables, not decides",
+          "right": "It improves the odds; management still chooses",
+          "why": "What it means: It improves the odds; management still chooses. The Gulf decision of Book 3 remains a judgement."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Why data and capability are strategic assets",
+      "from": [
+        "F413-06",
+        "13.5/t:why-data-is-a-st"
+      ]
     },
     {
       "id": "sc413-9",
@@ -87,6 +89,9 @@
           "text": "It never becomes obsolete",
           "why": "Old data can become irrelevant."
         }
+      ],
+      "from": [
+        "13.5/section-check"
       ]
     },
     {
@@ -112,6 +117,9 @@
           "why": "Capability cannot be bought quickly.",
           "correct": true
         }
+      ],
+      "from": [
+        "13.5/section-check"
       ]
     }
   ]

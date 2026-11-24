@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 9A: financing the year and handing over to the pro forma statements",
   "n": "9.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.6"),
   "brief": {
     "about": "This example follows the loan through the year and checks the cash budget as a whole. It is exam-core. Figure F309-11 tracks the loan: $1,000,000 borrowed in the first quarter, interest of 2% a quarter on the balance, and repayments as soon as cash rises above the minimum. Figure F309-12 reconciles the year: beginning cash, plus collections, minus disbursements and interest, plus borrowing minus repayment, gives ending cash of $1,702,450.",
     "anim": "cashLoop",
@@ -48,6 +48,9 @@
       }
     ]
   },
+  "from": [
+    "9.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f309-11",
@@ -108,6 +111,10 @@
             "0"
           ]
         }
+      ],
+      "from": [
+        "F309-11",
+        "9.6/t:financing-usd-q1"
       ]
     },
     {
@@ -131,6 +138,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F309-12",
+        "9.6/t:year-2028-usd-am",
+        "9.6/exam-trap"
       ]
     },
     {
@@ -194,6 +206,10 @@
             "c1"
           ]
         }
+      ],
+      "from": [
+        "F309-13",
+        "9.6/t:item-passed-to-t"
       ]
     },
     {
@@ -239,7 +255,10 @@
           "why": "These are the year's collections."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "9.6/section-check"
+      ]
     },
     {
       "id": "sc309-12",
@@ -265,7 +284,10 @@
           "why": "Unrelated."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "9.6/section-check"
+      ]
     }
   ]
 };

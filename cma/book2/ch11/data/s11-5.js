@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Net realizable value and constant gross margin",
   "n": "11.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.5"),
   "brief": {
     "about": "The net realizable value method uses each product's final sales value minus its separable costs. It works when there is no market price at split-off. It is Orontes's policy method. The constant gross-margin percentage method first finds the gross margin of the whole batch, 28%. It then gives each product the joint cost that makes its own margin the same 28%. Figure F211-07 shows both methods step by step.",
     "anim": "splitPoint",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F211-08.png",
       "label": "Figure F211-08.",
-      "caption": "Net joint cost allocated to EVOO and VOO under the four methods."
+      "caption": "Net joint cost allocated to EVOO and VOO under the four methods.",
+      "from": [
+        "F211-08"
+      ]
     },
     {
       "id": "fill-07",
@@ -130,6 +133,11 @@
       ],
       "traps": [
         "final-sales-value-not-nrv"
+      ],
+      "from": [
+        "F211-07",
+        "11.5/t:batch-h-2711-who",
+        "11.5/exam-trap"
       ]
     },
     {
@@ -155,6 +163,9 @@
           "text": "$420,000",
           "why": "Separable cost is not deducted."
         }
+      ],
+      "from": [
+        "11.5/section-check"
       ]
     },
     {
@@ -181,7 +192,10 @@
           "correct": true
         }
       ],
-      "say": "In the constant gross-margin method, what is the batch gross-margin percentage?"
+      "say": "In the constant gross-margin method, what is the batch gross-margin percentage?",
+      "from": [
+        "11.5/section-check"
+      ]
     }
   ]
 };

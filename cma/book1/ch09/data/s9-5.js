@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 9A: one bond, three classifications",
   "n": "9.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.5"),
   "brief": {
     "about": "This example buys one bond and reports it three ways, then adds an equity security for contrast. It is exam-core: the classification decides where the gain or loss appears, and that is what the exam tests. Orontes buys a $100,000 bond paying 6% when the market rate is 5%, so it pays $102,723, a premium of $2,723. Equity securities without significant influence are simpler: fair value through net income, always.",
     "anim": "curve",
@@ -61,6 +61,9 @@
       }
     ]
   },
+  "from": [
+    "9.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "sched-09",
@@ -145,6 +148,11 @@
       },
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F09-09",
+        "9.5/t:year-opening-car",
+        "9.5/exam-trap"
       ]
     },
     {
@@ -208,6 +216,94 @@
           },
           "why": "On the balance sheet: Fair value 101,000. Where the unrealized change goes: Net income. Effect on net income: Interest income 5,136 less the loss."
         }
+      ],
+      "from": [
+        "F09-10",
+        "9.5/t:classification-o"
+      ]
+    },
+    {
+      "id": "t9-5-1",
+      "kind": "lines",
+      "kicker": "Section 9.5",
+      "title": "Investment",
+      "caption": "Investment",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "A",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "B",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "C",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "D",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "E",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:investment-categ",
+        "Answers and explanations/t:investment-categ"
+      ]
+    },
+    {
+      "id": "t9-5-2",
+      "kind": "lines",
+      "kicker": "Section 9.5",
+      "title": "Investment",
+      "caption": "Investment",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "A",
+          "a": "Trading",
+          "b": ""
+        },
+        {
+          "name": "B",
+          "a": "Held-to-maturity",
+          "b": ""
+        },
+        {
+          "name": "C",
+          "a": "Available-for-sale",
+          "b": ""
+        },
+        {
+          "name": "D",
+          "a": "Equity: fair value through net income",
+          "b": ""
+        },
+        {
+          "name": "E",
+          "a": "Equity method",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:investment-categ",
+        "Answers and explanations/t:investment-categ"
       ]
     },
     {
@@ -262,6 +358,9 @@
           "text": "6,000",
           "why": "This is the cash coupon, not the income."
         }
+      ],
+      "from": [
+        "9.5/section-check"
       ]
     },
     {
@@ -288,7 +387,10 @@
           "why": "Amortisation is a separate matter."
         }
       ],
-      "say": "Use Extended Example 9A. Where is the unrealized loss reported if the bond is available for sale?"
+      "say": "Use Extended Example 9A. Where is the unrealized loss reported if the bond is available for sale?",
+      "from": [
+        "9.5/section-check"
+      ]
     },
     {
       "id": "sc9-11",
@@ -314,7 +416,10 @@
           "why": "This is the fair value of the holding."
         }
       ],
-      "say": "Use Extended Example 9A. How much does the equity security add to net income?"
+      "say": "Use Extended Example 9A. How much does the equity security add to net income?",
+      "from": [
+        "9.5/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Responsibility and linked variances",
   "n": "12.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.5"),
   "brief": {
     "about": "A variance is useful only if someone can act on it. Figure F312-12 gives the usual owner of each variance, its main causes and what happened in June. Ownership is a starting point, not a rule. If purchasing buys cheaper, lower-grade concentrate, the price variance is favorable and the usage variance unfavorable, and the plant manager is not to blame. Figure F312-13 lists common links of this kind.",
     "anim": "threeCols",
@@ -101,6 +101,11 @@
       ],
       "traps": [
         "read-the-pair-not-the-single-variance"
+      ],
+      "from": [
+        "F312-12",
+        "12.5/t:variance-usually",
+        "12.5/exam-trap"
       ]
     },
     {
@@ -150,6 +155,10 @@
           },
           "why": "First effect: Rate unfavorable."
         }
+      ],
+      "from": [
+        "F312-13",
+        "12.5/t:decision-first-e"
       ]
     },
     {
@@ -178,6 +187,9 @@
       ],
       "traps": [
         "variance-useful-someone-can-act"
+      ],
+      "from": [
+        "12.5/section-check"
       ]
     },
     {
@@ -204,7 +216,10 @@
           "why": "Possible, but not the first explanation."
         }
       ],
-      "exhibit": "A favorable material price variance appears with an unfavorable usage variance."
+      "exhibit": "A favorable material price variance appears with an unfavorable usage variance.",
+      "from": [
+        "12.5/section-check"
+      ]
     }
   ]
 };

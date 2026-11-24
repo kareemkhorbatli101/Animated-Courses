@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "qualityFour"
+    "anim": "qualityFour",
+    "about": "Figure F216-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Continuous improvement raises quality in many small steps, using kaizen, the PDCA cycle, total quality management and Six Sigma. The ideal standard shows the direction, while attainable standards move toward it each year. The cost of quality has four parts: prevention, appraisal, internal failure and external failure, including hidden lost sales. Spending more on prevention pays when failure and appraisal costs fall by more, and the financial impact is always the net change."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F216-14.png",
       "label": "Figure F216-14.",
       "caption": "Chapter 16 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F216-14"
+      ]
     },
     {
       "id": "rules",

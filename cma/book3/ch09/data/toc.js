@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "9.3",
   "title": "Collections and payments",
-  "blurb": "Schedule, questions · 5 scenes"
+  "blurb": "Schedule, grid, yourturn, questions · 6 scenes"
  },
  {
   "id": "s9-4",

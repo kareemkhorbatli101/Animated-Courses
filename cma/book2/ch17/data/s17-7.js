@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 17A: JIT bottles from Jordan Glass",
   "n": "17.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.7"),
   "brief": {
     "about": "This example measures the financial impact of moving bottle supply from monthly to daily deliveries. It is exam-core. Figure F217-13 compares the two ways of working. The yearly cost falls from $62,000 to $33,000, a saving of $29,000 after the extra delivery and handling costs. The lower inventory also releases $110,000 of cash once. The saving is real but depends on Jordan Glass delivering every day.",
     "anim": "pullPush",
@@ -50,6 +50,9 @@
       }
     ]
   },
+  "from": [
+    "17.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-13",
@@ -136,6 +139,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F217-13",
+        "17.7/t:beverages-bottle",
+        "17.7/exam-trap"
+      ]
+    },
+    {
+      "id": "t17-7-0",
+      "kind": "lines",
+      "kicker": "Section 17.7",
+      "title": "Bottling cost",
+      "caption": "Bottling cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Bottles and caps",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Bottling labor",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Variable overhead",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the bottling line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Allocated plant overhead",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:bottling-cost-ca",
+        "Answers and explanations/t:bottling-cost-ca"
+      ]
+    },
+    {
+      "id": "t17-7-1",
+      "kind": "lines",
+      "kicker": "Section 17.7",
+      "title": "Bottling cost",
+      "caption": "Bottling cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Bottles and caps",
+          "a": "Avoidable",
+          "b": ""
+        },
+        {
+          "name": "Bottling labor",
+          "a": "Avoidable",
+          "b": ""
+        },
+        {
+          "name": "Variable overhead",
+          "a": "Avoidable",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the bottling line",
+          "a": "Not avoidable",
+          "b": ""
+        },
+        {
+          "name": "Allocated plant overhead",
+          "a": "Not avoidable",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:bottling-cost-ca",
+        "Answers and explanations/t:bottling-cost-ca"
       ]
     },
     {
@@ -181,7 +273,10 @@
           "why": "This is the one-time cash released."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "17.7/section-check"
+      ]
     },
     {
       "id": "sc217-14",
@@ -207,7 +302,10 @@
           "why": "Cash is freed, not lost."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "17.7/section-check"
+      ]
     }
   ]
 };

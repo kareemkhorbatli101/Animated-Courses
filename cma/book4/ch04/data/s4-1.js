@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The Sarbanes-Oxley sections that matter",
   "n": "4.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.1"),
   "brief": {
     "about": "The Sarbanes-Oxley Act of 2002 followed a run of accounting failures. Five of its sections concern internal control directly, and Figure F404-02 sets them out. Section 302 and Section 906 both require the CEO and CFO to certify, and candidates often ask why there are two. Section 302 is the civil certification about the content of the report and the controls behind it. Section 404 has two halves that are often confused.",
     "anim": "threeObj",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f404-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F404-02",
       "title": "The Sarbanes-Oxley sections that concern internal control",
-      "say": "The Sarbanes-Oxley sections that concern internal control",
-      "caption": "Section",
-      "col1": "What it requires",
-      "col2": "Who it binds",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Section",
+      "col": "What it requires",
       "rows": [
         {
-          "name": "302",
-          "a": "Certify each quarterly and annual report: it fairly presents, we are responsible for controls, and we have disclosed deficiencies and fraud",
-          "b": "CEO and CFO"
+          "label": "302",
+          "right": "Certify each quarterly and annual report: it fairly presents, we are responsible for controls, and we have disclosed deficiencies and fraud",
+          "why": "What it requires: Certify each quarterly and annual report: it fairly presents, we are responsible for controls, and we have disclosed deficiencies and fraud. CEO and CFO."
         },
         {
-          "name": "404(a)",
-          "a": "Annual management report assessing the effectiveness of internal control over financial reporting",
-          "b": "Management of every issuer"
+          "label": "404(a)",
+          "right": "Annual management report assessing the effectiveness of internal control over financial reporting",
+          "why": "What it requires: Annual management report assessing the effectiveness of internal control over financial reporting. Management of every issuer."
         },
         {
-          "name": "404(b)",
-          "a": "Auditor attests to and reports on internal control, in an integrated audit",
-          "b": "Auditors of accelerated and large accelerated filers"
+          "label": "404(b)",
+          "right": "Auditor attests to and reports on internal control, in an integrated audit",
+          "why": "What it requires: Auditor attests to and reports on internal control, in an integrated audit. Auditors of accelerated and large accelerated filers."
         },
         {
-          "name": "906",
-          "a": "Criminal certification. Knowing violation up to $1m and 10 years; willful up to $5m and 20 years",
-          "b": "CEO and CFO"
+          "label": "906",
+          "right": "Criminal certification. Knowing violation up to $1m and 10 years; willful up to $5m and 20 years",
+          "why": "What it requires: Criminal certification. Knowing violation up to $1m and 10 years; willful up to $5m and 20 years. CEO and CFO."
         },
         {
-          "name": "802",
-          "a": "Destroying or falsifying records to obstruct an investigation, up to 20 years; auditors retain workpapers",
-          "b": "Anyone; auditors for the retention rule"
+          "label": "802",
+          "right": "Destroying or falsifying records to obstruct an investigation, up to 20 years; auditors retain workpapers",
+          "why": "What it requires: Destroying or falsifying records to obstruct an investigation, up to 20 years; auditors retain workpapers. Anyone; auditors for the retention rule."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The Sarbanes-Oxley sections that concern internal control",
+      "from": [
+        "F404-02",
+        "4.1/t:section-what-it"
+      ]
     },
     {
       "id": "sc404-1",
@@ -88,7 +90,10 @@
           "why": "That is the criminal certification."
         }
       ],
-      "say": "Which section requires the CEO and CFO to certify that the report fairly presents and that they are responsible for internal control?"
+      "say": "Which section requires the CEO and CFO to certify that the report fairly presents and that they are responsible for internal control?",
+      "from": [
+        "4.1/section-check"
+      ]
     },
     {
       "id": "sc404-2",
@@ -114,7 +119,10 @@
           "why": "No source gives ten."
         }
       ],
-      "say": "How long must auditors retain workpapers under the statute itself, section 802?"
+      "say": "How long must auditors retain workpapers under the statute itself, section 802?",
+      "from": [
+        "4.1/section-check"
+      ]
     }
   ]
 };

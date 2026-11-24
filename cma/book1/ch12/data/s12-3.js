@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Short-term debt expected to be refinanced",
   "n": "12.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.3"),
   "brief": {
     "about": "A short-term obligation is normally current. It may be shown as noncurrent only if the company intends to refinance it on a long-term basis and shows that it can. Chapter 2 introduced this rule; here we apply it in detail. The company shows its ability in one of two ways, before the statements are issued. Three limits apply. The noncurrent amount cannot exceed the amount refinanced or available.",
     "anim": "refinance",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "12.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f12-04",
       "kind": "figure",
       "file": "F12-04.png",
       "label": "Figure F12-04.",
-      "caption": "Decision chart: can short-term debt be shown as noncurrent?."
+      "caption": "Decision chart: can short-term debt be shown as noncurrent?.",
+      "from": [
+        "F12-04"
+      ]
     },
     {
       "id": "fill-05",
@@ -114,6 +120,11 @@
       ],
       "traps": [
         "refinancing-traps"
+      ],
+      "from": [
+        "F12-05",
+        "12.3/t:suppose-orontes",
+        "12.3/exam-trap"
       ]
     },
     {
@@ -139,6 +150,9 @@
           "text": "The paper was due within one year",
           "why": "Short-term debt can be noncurrent if refinanced properly."
         }
+      ],
+      "from": [
+        "12.3/section-check"
       ]
     },
     {
@@ -165,7 +179,10 @@
           "why": "The noncurrent amount cannot exceed the proceeds."
         }
       ],
-      "say": "Use Figure F12-05, scenario C. How much of the commercial paper is shown as noncurrent (whole USD)?"
+      "say": "Use Figure F12-05, scenario C. How much of the commercial paper is shown as noncurrent (whole USD)?",
+      "from": [
+        "12.3/section-check"
+      ]
     }
   ]
 };

@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.2",
   "title": "What expected value cannot tell you",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s17-3",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.6",
   "title": "The limitations of data analytics",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s17-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.7",
   "title": "Extended Example 17A: the Gulf expansion under uncertainty",
-  "blurb": "A printed statement, the tie lines, shares, questions · 5 scenes"
+  "blurb": "A printed statement, the tie lines, shares, questions · 8 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the number nobody will receive",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 6 scenes"
  },
  {
   "id": "review",

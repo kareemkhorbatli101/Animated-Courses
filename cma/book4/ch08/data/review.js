@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "siteTiers"
   },
@@ -90,9 +90,6 @@
           "text": "detects fraud in transactions",
           "why": "That is an application control."
         }
-      ],
-      "traps": [
-        "what-a-firewall-does-not-do"
       ]
     },
     {

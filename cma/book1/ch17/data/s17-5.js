@@ -9,7 +9,7 @@
   "up": "../",
   "title": "(v) Long-lived assets",
   "n": "17.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.5"),
   "brief": {
     "about": "U.S. GAAP carries property, plant and equipment at cost less depreciation. IAS 16 also allows the revaluation model for a whole class of assets: the assets are carried at fair value, and increases go to a revaluation surplus in OCI. Suppose Orontes's land in Amman cost $2,000,000 and is now worth $2,600,000. Under U.S. GAAP it stays at cost. IFRS requires component depreciation for significant parts with different lives; U.S.",
     "anim": "revalue",
@@ -54,6 +54,10 @@
           "us": "No separate category: cost model",
           "ifrs": "Fair value or cost model (IAS 40)"
         }
+      ],
+      "from": [
+        "F17-06",
+        "17.5/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -80,7 +84,10 @@
           "correct": true
         }
       ],
-      "say": "Use Figure F17-06. Under IFRS with the revaluation model, where does the $600,000 increase in the land's value go?"
+      "say": "Use Figure F17-06. Under IFRS with the revaluation model, where does the $600,000 increase in the land's value go?",
+      "from": [
+        "17.5/section-check"
+      ]
     },
     {
       "id": "sc17-10",
@@ -106,7 +113,10 @@
           "why": "Both parts are depreciated."
         }
       ],
-      "exhibit": "An aircraft has an engine that lasts 5 years and a body that lasts 25 years."
+      "exhibit": "An aircraft has an engine that lasts 5 years and a body that lasts 25 years.",
+      "from": [
+        "17.5/section-check"
+      ]
     }
   ]
 };

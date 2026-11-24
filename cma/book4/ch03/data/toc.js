@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.1",
   "title": "What segregation of duties means",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s3-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.2",
   "title": "The four functional responsibilities",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s3-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.3",
   "title": "Independent checks and verification",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s3-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.4",
   "title": "Safeguarding assets",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s3-5",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.6",
   "title": "Extended Example 3A: redesigning the Orontes purchasing cycle",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "A printed statement, shares, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the Levant Distribution depot",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 12 scenes"
  },
  {
   "id": "review",

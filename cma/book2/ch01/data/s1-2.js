@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Classifying costs",
   "n": "1.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.2"),
   "brief": {
     "about": "A direct cost can be traced to a cost object in an economical way. An indirect cost cannot, so it must be allocated. The supervisor of the tahini line is indirect for one job, but direct for the Tahini & Spreads division. A second classification matters for the statements. Product costs are direct materials, direct labor and manufacturing overhead; they go to inventory first. Two totals appear often in exam questions.",
     "anim": "primeConv",
@@ -38,13 +38,20 @@
       }
     ]
   },
+  "from": [
+    "1.2/false-friend-alert",
+    "1.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f201-02",
       "kind": "figure",
       "file": "F201-02.png",
       "label": "Figure F201-02.",
-      "caption": "Product costs go to inventory and then COGS; period costs are expensed at once."
+      "caption": "Product costs go to inventory and then COGS; period costs are expensed at once.",
+      "from": [
+        "F201-02"
+      ]
     },
     {
       "id": "grid-03",
@@ -155,6 +162,10 @@
       ],
       "traps": [
         "co-t-de-revient"
+      ],
+      "from": [
+        "F201-03",
+        "1.2/t:tahini-spreads-c"
       ]
     },
     {
@@ -180,6 +191,9 @@
           "text": "Indirect materials",
           "why": "Indirect materials are overhead."
         }
+      ],
+      "from": [
+        "1.2/section-check"
       ]
     },
     {
@@ -206,7 +220,10 @@
           "why": "This is total manufacturing cost."
         }
       ],
-      "exhibit": "Direct materials are $300,000, direct labor $250,000 and manufacturing overhead $150,000."
+      "exhibit": "Direct materials are $300,000, direct labor $250,000 and manufacturing overhead $150,000.",
+      "from": [
+        "1.2/section-check"
+      ]
     }
   ]
 };

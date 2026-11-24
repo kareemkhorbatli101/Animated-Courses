@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P318-01–P318-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "strategyMap"
   },

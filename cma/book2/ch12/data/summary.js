@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "abcLevels"
+    "anim": "abcLevels",
+    "about": "Figure F212-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "One volume rate overcosts simple, high-volume products and undercosts complex ones. ABC assigns resources to activity pools with resource drivers and pools to products with activity drivers. Costs sit at unit, batch, product-sustaining and facility levels. Each rate is the pool cost divided by the driver quantity. ABC uses the normal accounts, changes inventory values and gives better information for pricing and product decisions, at the cost of more data and judgment."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F212-14.png",
       "label": "Figure F212-14.",
       "caption": "Chapter 12 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F212-14"
+      ]
     },
     {
       "id": "rules",

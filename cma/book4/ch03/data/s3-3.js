@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Independent checks and verification",
   "n": "3.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.3"),
   "brief": {
     "about": "An independent check is a comparison performed by someone who did not do the work being checked. The word independent is the whole of the control: a reconciliation performed by the person who made the entries proves nothing, because the same misunderstanding or the same intent produced both. Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch. Independent checks are detective rather than preventive.",
     "anim": "preventDetect",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f403-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F403-05",
       "title": "Independent checks and who must perform them",
-      "say": "Independent checks and who must perform them",
-      "caption": "Independent check",
-      "col1": "Who must perform it",
-      "col2": "What it would catch",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Independent check",
+      "col": "Who must perform it",
       "rows": [
         {
-          "name": "Bank reconciliation",
-          "a": "Someone who neither handles cash nor posts the ledger",
-          "b": "Cash recorded but never banked"
+          "label": "Bank reconciliation",
+          "right": "Someone who neither handles cash nor posts the ledger",
+          "why": "Who must perform it: Someone who neither handles cash nor posts the ledger. Cash recorded but never banked."
         },
         {
-          "name": "Stock count",
-          "a": "A team that does not include the storekeeper",
-          "b": "Stock recorded but not present"
+          "label": "Stock count",
+          "right": "A team that does not include the storekeeper",
+          "why": "Who must perform it: A team that does not include the storekeeper. Stock recorded but not present."
         },
         {
-          "name": "Supplier statement reconciliation",
-          "a": "Accounts payable, not the buyer",
-          "b": "Invoices paid twice or paid to the wrong party"
+          "label": "Supplier statement reconciliation",
+          "right": "Accounts payable, not the buyer",
+          "why": "Who must perform it: Accounts payable, not the buyer. Invoices paid twice or paid to the wrong party."
         },
         {
-          "name": "Review of exception reports",
-          "a": "A supervisor, not the clerk who caused the exception",
-          "b": "Overrides and unusual amounts"
+          "label": "Review of exception reports",
+          "right": "A supervisor, not the clerk who caused the exception",
+          "why": "Who must perform it: A supervisor, not the clerk who caused the exception. Overrides and unusual amounts."
         },
         {
-          "name": "Internal audit",
-          "a": "A function reporting to the audit committee, not to the manager audited",
-          "b": "Weaknesses the line would not report on itself"
+          "label": "Internal audit",
+          "right": "A function reporting to the audit committee, not to the manager audited",
+          "why": "Who must perform it: A function reporting to the audit committee, not to the manager audited. Weaknesses the line would not report on itself."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Independent checks and who must perform them",
+      "from": [
+        "F403-05",
+        "3.3/t:independent-chec"
+      ]
     },
     {
       "id": "sc403-5",
@@ -88,7 +90,10 @@
           "why": "It detects rather than prevents."
         }
       ],
-      "say": "Why must a bank reconciliation be performed by someone who neither handles cash nor posts the ledger?"
+      "say": "Why must a bank reconciliation be performed by someone who neither handles cash nor posts the ledger?",
+      "from": [
+        "3.3/section-check"
+      ]
     },
     {
       "id": "sc403-6",
@@ -113,6 +118,9 @@
           "why": "It finds an error after it has occurred.",
           "correct": true
         }
+      ],
+      "from": [
+        "3.3/section-check"
       ]
     }
   ]

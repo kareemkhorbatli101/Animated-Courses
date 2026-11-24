@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Beverages closes 2026",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "appliedActual"
+  },
+  "scenario": {
+    "title": "Case question: Beverages closes 2026",
+    "p": [
+      "In 2026 the Beverages division still used normal costing. At the start of the year it set predetermined overhead rates per machine hour, using the budgeted overhead and the budgeted machine hours of the bottling plant. During the year it applied overhead to production at those rates.",
+      "The division's overhead includes depreciation of the bottling line, plant supervision, power for the fillers and other costs. Some of these costs are fixed and some vary with machine hours. At the end of the year the actual overhead and the applied overhead did not match.",
+      "The difference is material, so the division cannot simply close it to cost of goods sold. The auditors expect it to be prorated over work in process, finished goods and cost of goods sold, in proportion to the overhead applied in each ending balance.",
+      "Omar, the Beverages controller, is preparing the year-end close. He needs the overhead rate, the overhead applied, the amount underapplied and the adjustment for each account. He also wants to explain to the division manager how proration changes the operating income of the year compared with a write-off."
+    ]
   },
   "scenes": [
     {
@@ -71,7 +80,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F208-15",
+        "Practice/t:beverages-fy2026"
+      ]
     },
     {
       "id": "c208-1",
@@ -126,7 +139,11 @@
           "why": "Beverages cost: Fixed overhead."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:beverages-cost-c",
+        "Answers and explanations/t:beverages-cost-c"
+      ]
     },
     {
       "id": "c208-2",

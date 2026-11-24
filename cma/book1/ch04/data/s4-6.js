@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 4A: a full year of equity movements",
   "n": "4.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.6"),
   "brief": {
     "about": "This example follows Orontes equity through 2025, from the opening balance to the closing one. It is exam-core: the statement of changes in equity is where issues, income, other comprehensive income and dividends meet. Equity opens at $16,375,000 and closes at $20,392,975, a rise of $4,017,975. Figure F04-10 sets out the movements by column. Figure F04-11 shows why that last point matters. The statement uses dividends declared, not dividends paid.",
     "anim": "rollforward",
@@ -60,6 +60,9 @@
       }
     ]
   },
+  "from": [
+    "4.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "roll",
@@ -87,6 +90,11 @@
       "sealText": "The last row is the equity section of the balance sheet in Chapter 2.",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F04-10",
+        "4.6/t:orontes-foods-in",
+        "4.6/exam-trap"
       ]
     },
     {
@@ -108,6 +116,9 @@
             }
           ]
         }
+      ],
+      "from": [
+        "F04-03"
       ]
     },
     {
@@ -142,6 +153,10 @@
       ],
       "traps": [
         "equity-is-book-value"
+      ],
+      "from": [
+        "F04-11",
+        "4.6/t:component-as-rep"
       ]
     },
     {
@@ -167,6 +182,9 @@
           "text": "20,842,975",
           "why": "This omits the dividends altogether."
         }
+      ],
+      "from": [
+        "4.6/section-check"
       ]
     },
     {
@@ -193,7 +211,10 @@
           "why": "Accumulated OCI is part of equity."
         }
       ],
-      "say": "Use Extended Example 4A. Where is other comprehensive income reported in the statement?"
+      "say": "Use Extended Example 4A. Where is other comprehensive income reported in the statement?",
+      "from": [
+        "4.6/section-check"
+      ]
     },
     {
       "id": "sc4-13",
@@ -219,7 +240,10 @@
           "why": "A later declaration belongs to the next year."
         }
       ],
-      "say": "Use Extended Example 4A. Which dividend figure belongs in the statement of changes in equity?"
+      "say": "Use Extended Example 4A. Which dividend figure belongs in the statement of changes in equity?",
+      "from": [
+        "4.6/section-check"
+      ]
     }
   ]
 };

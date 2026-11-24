@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "abcLevels"
   },
@@ -39,6 +39,9 @@
       ],
       "traps": [
         "abc-is-not-only-for-factories"
+      ],
+      "from": [
+        "13.1/exam-trap"
       ]
     },
     {
@@ -66,7 +69,6 @@
         }
       ],
       "traps": [
-        "rentabilit",
         "shelf-space-fees-reduce-revenue"
       ]
     },

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 12A: Pulses & Spices in 2027",
   "n": "12.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.7"),
   "brief": {
     "about": "This example records a full year of the Pulses & Spices line with ABC, from overhead to cost of goods sold. The product costs are exam-core; the entries are for depth. Record overhead, direct costs and the application at activity rates. Move completed packs to finished goods, record the sales, close the overhead accounts and check every balance. Figure F212-12 records the year in seven entries. Figure F212-13 posts the entries.",
     "anim": "abcLevels",
@@ -65,13 +65,19 @@
       }
     ]
   },
+  "from": [
+    "12.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f212-13",
       "kind": "figure",
       "file": "F212-13.png",
       "label": "Figure F212-13.",
-      "caption": "Extended Example: overhead, WIP, finished goods and COGS accounts."
+      "caption": "Extended Example: overhead, WIP, finished goods and COGS accounts.",
+      "from": [
+        "F212-13"
+      ]
     },
     {
       "id": "post-12",
@@ -265,6 +271,95 @@
       "logic": {},
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F212-12",
+        "12.7/t:no-account-detai",
+        "12.7/exam-trap"
+      ]
+    },
+    {
+      "id": "t12-7-0",
+      "kind": "lines",
+      "kicker": "Section 12.7",
+      "title": "Overhead item",
+      "caption": "Overhead item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Machine operations",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Setups",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Quality tests",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Recipe design",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Plant manager's salary",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:overhead-item-ca",
+        "Answers and explanations/t:overhead-item-ca"
+      ]
+    },
+    {
+      "id": "t12-7-1",
+      "kind": "lines",
+      "kicker": "Section 12.7",
+      "title": "Overhead item",
+      "caption": "Overhead item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Machine operations",
+          "a": "Unit-level",
+          "b": ""
+        },
+        {
+          "name": "Setups",
+          "a": "Batch-level",
+          "b": ""
+        },
+        {
+          "name": "Quality tests",
+          "a": "Batch-level",
+          "b": ""
+        },
+        {
+          "name": "Recipe design",
+          "a": "Product-sustaining",
+          "b": ""
+        },
+        {
+          "name": "Plant manager's salary",
+          "a": "Facility-sustaining",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:overhead-item-ca",
+        "Answers and explanations/t:overhead-item-ca"
       ]
     },
     {
@@ -310,7 +405,10 @@
           "why": "This is the lentils total."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "12.7/section-check"
+      ]
     },
     {
       "id": "sc212-14",
@@ -336,7 +434,10 @@
           "why": "This is the cost completed."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "12.7/section-check"
+      ]
     }
   ]
 };

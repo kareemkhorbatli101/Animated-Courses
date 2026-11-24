@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "marginStack"
   },
@@ -62,10 +62,7 @@
           "correct": true
         }
       ],
-      "exhibit": "The tahini plant manager controls costs, but the sales team decides volumes and prices.",
-      "traps": [
-        "authority-first-label-second"
-      ]
+      "exhibit": "The tahini plant manager controls costs, but the sales team decides volumes and prices."
     },
     {
       "id": "sc315-5",

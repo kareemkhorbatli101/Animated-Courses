@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Gains and losses",
   "n": "15.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.1"),
   "brief": {
     "about": "A gain or loss is an increase or decrease in equity from a peripheral or incidental transaction: something other than the company's main activities and other than a transaction with owners. Selling an old machine, settling a lawsuit and a change in the value of an investment are examples. Gains and losses are shown net. Losses that arise from operating assets, such as impairments, are usually shown within operating expenses.",
     "anim": "netGain",
@@ -91,6 +91,10 @@
           },
           "why": "Type: Loss. Where it appears: OCI, not net income."
         }
+      ],
+      "from": [
+        "F15-02",
+        "15.1/t:orontes-2025-who"
       ]
     },
     {
@@ -116,6 +120,9 @@
           "text": "Sales of fruit juices",
           "why": "This is a main product."
         }
+      ],
+      "from": [
+        "15.1/section-check"
       ]
     },
     {
@@ -141,6 +148,9 @@
           "why": "Losses on operating assets are usually operating expenses.",
           "correct": true
         }
+      ],
+      "from": [
+        "15.1/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "From production to inputs",
   "n": "7.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.1"),
   "brief": {
     "about": "Every input budget starts from the production budget, not the sales budget, because materials and labor are used when cases are filled, not when they are sold. Figure F307-02 shows the three budgets that follow from production. For each input, the budget multiplies the cases to produce by the quantity per case: liters of concentrate, labor hours and machine hours. The link runs both ways.",
     "anim": "inputsFan",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F307-02.png",
       "label": "Figure F307-02.",
-      "caption": "From the production budget to the input budgets."
+      "caption": "From the production budget to the input budgets.",
+      "from": [
+        "F307-02"
+      ]
     },
     {
       "id": "sc307-1",
@@ -58,6 +61,9 @@
       ],
       "traps": [
         "input-budget-shows-shortage-materials"
+      ],
+      "from": [
+        "7.1/section-check"
       ]
     },
     {
@@ -83,6 +89,9 @@
           "why": "Only the variable part follows the driver.",
           "correct": true
         }
+      ],
+      "from": [
+        "7.1/section-check"
       ]
     }
   ]

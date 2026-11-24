@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "threeActivities"
+    "anim": "threeActivities",
+    "about": "Figure F05-11 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The statement of cash flows explains the change in cash, cash equivalents and restricted cash in three activities. Under U.S. GAAP, interest, dividends received and income taxes are operating, and dividends paid are financing; noncash investing and financing deals are disclosed, not shown in the body. The indirect method starts with net income, adds noncash expenses, removes gains and equity-method income, and adjusts for working capital. The direct method shows receipts and payments but still requires the reconciliation, and indirect-method users disclose interest and taxes paid. Closing cash equals balance sheet cash, and all four statements come from one set of records. Part I is now complete."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F05-11.png",
       "label": "Figure F05-11.",
       "caption": "Chapter 5 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F05-11"
+      ]
     },
     {
       "id": "rules",

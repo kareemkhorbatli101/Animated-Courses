@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Levant's receiving dock",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "processMap"
+  },
+  "scenario": {
+    "title": "Case question: Levant's receiving dock",
+    "p": [
+      "Levant Distribution receives about two thousand trucks a year at its main warehouse. Each truck is unloaded, every carton is counted, the goods are inspected, the receipt is typed into the records and the pallets are put away.",
+      "Drivers often wait for hours, and suppliers complain. The operations manager, Karim, has studied the process with a stopwatch and found that receiving takes four hours per truck, far more than at the best distributors in the region.",
+      "Karim proposes a redesign. Suppliers will send an advance notice of every delivery with barcodes on each pallet. Staff will scan the pallets instead of counting cartons, inspect only a sample, and the records will be created from the notice without typing. The change needs scanners and a small software link. Karim hopes to start the new process in January.",
+      "The finance manager, Nadia, must check Karim's figures before the board meeting. She needs the yearly cost of the current process, the net yearly saving and the net saving over three years. She also wants to benchmark the new process against the best-practice distributor, using the same definition of receiving time."
+    ]
   },
   "scenes": [
     {
@@ -81,7 +90,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F215-15",
+        "Practice/t:levant-receiving"
+      ]
     },
     {
       "id": "c215-1",
@@ -135,7 +148,11 @@
           "why": "Comparison: Generic."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:comparison-categ",
+        "Answers and explanations/t:comparison-categ"
+      ]
     },
     {
       "id": "c215-2",

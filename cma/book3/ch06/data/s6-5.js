@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Preparing the production budget",
   "n": "6.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.5"),
   "brief": {
     "about": "Over the year, production of 901,000 cases is 900,000 cases of sales plus the rise in stock from 42,000 to 43,000. The budget must also be feasible. Figure F306-10 compares production with plant capacity: the third quarter uses 98.8%, leaving only 3,000 cases of spare capacity.",
     "anim": "salesFirst",
@@ -30,13 +30,19 @@
       }
     ]
   },
+  "from": [
+    "6.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f306-10",
       "kind": "figure",
       "file": "F306-10.png",
       "label": "Figure F306-10.",
-      "caption": "Production by quarter against capacity."
+      "caption": "Production by quarter against capacity.",
+      "from": [
+        "F306-10"
+      ]
     },
     {
       "id": "fill-08",
@@ -98,6 +104,11 @@
       ],
       "traps": [
         "watch-the-signs"
+      ],
+      "from": [
+        "F306-08",
+        "6.5/t:production-budge",
+        "6.5/exam-trap"
       ]
     },
     {
@@ -159,6 +170,42 @@
             "________"
           ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F306-09",
+        "6.5/t:production-budge#2"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F306-09",
+      "title": "The third and fourth quarters",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the blank cells of Figure F306-09. The first quarter of 2029 is expected to sell 215,000 cases.",
+      "blanks": [
+        {
+          "label": "Q3",
+          "working": "240,000 + 45,000 = 285,000; − 48,000 = 237,000",
+          "shown": "237,000",
+          "answer": 237000,
+          "prompt": "240,000 + 45,000 = 285,000; − 48,000 ="
+        },
+        {
+          "label": "Q4",
+          "working": "225,000 + 43,000 (20% of 215,000) = 268,000; − 45,000 = 223,000",
+          "shown": "223,000",
+          "answer": 223000,
+          "prompt": "225,000 + 43,000 (20% of 215,000) = 268,000; − 45,000 ="
+        }
+      ],
+      "caption": "Your turn: the third and fourth quarters (complete the blanks)",
+      "from": [
+        "6.5/your-turn",
+        "F306-09",
+        "6.5/t:production-budge#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -185,7 +232,10 @@
           "why": "Both stocks are added."
         }
       ],
-      "exhibit": "Sales 210,000; desired ending stock 45,000; beginning stock 42,000."
+      "exhibit": "Sales 210,000; desired ending stock 45,000; beginning stock 42,000.",
+      "from": [
+        "6.5/section-check"
+      ]
     },
     {
       "id": "sc306-10",
@@ -211,7 +261,10 @@
           "why": "Both stocks are added."
         }
       ],
-      "exhibit": "Over a year, sales are 900,000 cases, beginning stock 42,000 and ending stock 43,000."
+      "exhibit": "Over a year, sales are 900,000 cases, beginning stock 42,000 and ending stock 43,000.",
+      "from": [
+        "6.5/section-check"
+      ]
     }
   ]
 };

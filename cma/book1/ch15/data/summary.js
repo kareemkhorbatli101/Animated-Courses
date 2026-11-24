@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "belowLine"
+    "anim": "belowLine",
+    "about": "Figure F15-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Gains and losses come from peripheral transactions and are shown net; unusual or infrequent items stay in continuing operations, before tax. Expenses are matched with revenue, allocated systematically, or expensed at once as period costs. Comprehensive income is net income plus OCI, and a reclassification adjustment moves realized amounts from AOCI to net income so they are not counted twice. A discontinued operation is a component whose disposal is a strategic shift with a major effect. A held-for-sale group is measured at the lower of carrying amount and fair value less cost to sell, and depreciation stops. Results are shown net of tax below continuing operations, and prior periods are reclassified."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F15-12.png",
       "label": "Figure F15-12.",
       "caption": "Chapter 15 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F15-12"
+      ]
     },
     {
       "id": "rules",

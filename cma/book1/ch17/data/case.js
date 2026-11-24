@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · converting Levant's IFRS figures",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "revalue"
+  },
+  "scenario": {
+    "title": "Case question: converting Levant's IFRS figures",
+    "p": [
+      "Levant Distribution, the Orontes subsidiary, keeps its own books under IFRS because its lenders in the region ask for IFRS statements. Before the group accounts are prepared, its figures must be converted to U.S. GAAP.",
+      "In 2027 Levant capitalized development costs for a new ordering app, reversed part of an earlier inventory write-down, revalued its land, recorded an impairment on its delivery fleet and accounted for a truck lease under the IFRS single lease model.",
+      "The group accountant must decide how each item changes Levant's net income and equity when it is converted, and what the carrying amounts are under U.S. GAAP. The conversion will be reviewed by the group auditors.",
+      "Levant's managing director asks why its profit looks lower in the group accounts than in its local statements, and which differences will continue in future years. Amounts in the exhibit are in thousands of U.S. dollars. The group auditors want the conversion schedule by the end of January. Levant's lenders will continue to receive IFRS statements, so both sets of figures must be reconciled clearly in a short note."
+    ]
   },
   "scenes": [
     {
@@ -60,7 +69,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F17-12",
+        "Practice/t:suppose-levant-d"
+      ]
     },
     {
       "id": "c17-1",
@@ -110,7 +123,11 @@
           "why": "Item: Raises U.S. net income."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c17-2",

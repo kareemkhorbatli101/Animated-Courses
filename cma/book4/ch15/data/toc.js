@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.6",
   "title": "How well does the model fit?",
-  "blurb": "Grid, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s15-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.7",
   "title": "Extended Example 15A: predicting next quarter's demand",
-  "blurb": "A printed statement, the tie lines, shares, questions · 5 scenes"
+  "blurb": "A printed statement, the tie lines, shares, questions · 8 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the forecast for the hot quarter",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 1 scenes"
  },
  {
   "id": "review",

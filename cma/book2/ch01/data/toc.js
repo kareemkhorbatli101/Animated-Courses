@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "1.6",
   "title": "Extended Example 1A: Tahini & Spreads, full year 2027",
-  "blurb": "Figures, post, amounts, the tie lines, questions · 7 scenes"
+  "blurb": "Figures, post, amounts, a printed statement, the tie lines, questions · 9 scenes"
  },
  {
   "id": "summary",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Transfers across borders",
   "n": "16.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.5"),
   "brief": {
     "about": "Orontes sells to the Gulf through a distributor it part-owns, so some transfers cross a border. Figure F316-10 lists the issues that then arise. Tax and tariffs pull in opposite directions. A higher transfer price moves profit to the buying country and cuts tax if the rate there is lower. It also raises the duty paid at the border, because duty is charged on the invoice value. Tax authorities also set rules.",
     "anim": "transferBand",
@@ -27,47 +27,49 @@
   "scenes": [
     {
       "id": "fig-f316-10",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F316-10",
       "title": "Issues in a cross-border transfer",
-      "say": "Issues in a cross-border transfer",
-      "caption": "Issue (C.2.l)",
-      "col1": "Effect on the transfer price",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Issue (C.2.l)",
+      "col": "Effect on the transfer price",
       "rows": [
         {
-          "name": "Tariffs",
-          "a": "A higher transfer price raises the duty paid at the border",
-          "b": "5% on the Gulf shipment"
+          "label": "Tariffs",
+          "right": "A higher transfer price raises the duty paid at the border",
+          "why": "Effect on the transfer price: A higher transfer price raises the duty paid at the border. 5% on the Gulf shipment."
         },
         {
-          "name": "Income taxes",
-          "a": "Profit is taxed where it is reported",
-          "b": "Jordan 20%, the Gulf buyer 10%"
+          "label": "Income taxes",
+          "right": "Profit is taxed where it is reported",
+          "why": "Effect on the transfer price: Profit is taxed where it is reported. Jordan 20%, the Gulf buyer 10%."
         },
         {
-          "name": "Exchange rates",
-          "a": "A price fixed in one currency moves the profit when rates change",
-          "b": "The dinar is pegged to the dollar; Gulf currencies are not"
+          "label": "Exchange rates",
+          "right": "A price fixed in one currency moves the profit when rates change",
+          "why": "Effect on the transfer price: A price fixed in one currency moves the profit when rates change. The dinar is pegged to the dollar; Gulf currencies are not."
         },
         {
-          "name": "Currency restrictions",
-          "a": "Cash may not be remittable, so a high price traps profit abroad",
-          "b": "Watch controls on moving funds out"
+          "label": "Currency restrictions",
+          "right": "Cash may not be remittable, so a high price traps profit abroad",
+          "why": "Effect on the transfer price: Cash may not be remittable, so a high price traps profit abroad. Watch controls on moving funds out."
         },
         {
-          "name": "Expropriation risk",
-          "a": "Assets or balances in a country may be seized",
-          "b": "Keep balances low where the risk is high"
+          "label": "Expropriation risk",
+          "right": "Assets or balances in a country may be seized",
+          "why": "Effect on the transfer price: Assets or balances in a country may be seized. Keep balances low where the risk is high."
         },
         {
-          "name": "Availability of materials and skills",
-          "a": "A division may have to buy inside because nothing else is available",
-          "b": "Specialist bottling in Jordan"
+          "label": "Availability of materials and skills",
+          "right": "A division may have to buy inside because nothing else is available",
+          "why": "Effect on the transfer price: A division may have to buy inside because nothing else is available. Specialist bottling in Jordan."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Issues in a cross-border transfer",
+      "from": [
+        "F316-10",
+        "16.5/t:issue-c-2-l-effe"
+      ]
     },
     {
       "id": "sc316-9",
@@ -95,6 +97,9 @@
       ],
       "traps": [
         "transfer-price-must-defensible-one"
+      ],
+      "from": [
+        "16.5/section-check"
       ]
     },
     {
@@ -121,7 +126,10 @@
           "correct": true
         }
       ],
-      "say": "Which risk argues for keeping profit and balances OUT of a particular country?"
+      "say": "Which risk argues for keeping profit and balances OUT of a particular country?",
+      "from": [
+        "16.5/section-check"
+      ]
     }
   ]
 };

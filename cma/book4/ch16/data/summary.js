@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "tsComponents"
+    "anim": "tsComponents",
+    "about": "Figure F416-08 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A time series combines trend, cyclical, seasonal and irregular components. A four-quarter centred moving average removes the seasonal pattern and most of the noise, leaving the trend; subtracting the trend and averaging by quarter gives seasonal factors, which are adjusted to sum to zero. Both regression and time series analysis use every observation and quantify what they find, and both assume the past pattern will continue. The standard error of the estimate gives the typical distance from the line in the units of the result, goodness of fit measures how closely the model matches the data, and a confidence interval expresses the estimate as a range. Exploratory data analysis comes before all of it, because the eye finds what no statistic reports."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F416-08.png",
       "label": "Figure F416-08.",
       "caption": "Chapter 16 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F416-08"
+      ]
     },
     {
       "id": "rules",

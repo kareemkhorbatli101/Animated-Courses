@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Short-term leases, sale and leaseback, and IFRS 16",
   "n": "14.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.6"),
   "brief": {
     "about": "A short-term lease lasts 12 months or less and has no purchase option that the lessee is reasonably certain to use. A lessee may choose, by class of asset, to keep such leases off the balance sheet and expense the payments straight-line. U.S. GAAP has no exemption for low-value assets. In a sale and leaseback, a company sells an asset and leases it back.",
     "anim": "rules",
@@ -57,6 +57,10 @@
       ],
       "traps": [
         "leases-what-is-new"
+      ],
+      "from": [
+        "F14-09",
+        "14.6/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -83,7 +87,10 @@
           "why": "Three years is more than 12 months."
         }
       ],
-      "exhibit": "Orontes leases office laptops for three years."
+      "exhibit": "Orontes leases office laptops for three years.",
+      "from": [
+        "14.6/section-check"
+      ]
     },
     {
       "id": "sc14-12",
@@ -109,7 +116,10 @@
           "why": "The lessee does not own the building."
         }
       ],
-      "say": "Under IFRS 16, how does a lessee account for a plain building lease that would be an operating lease under U.S. GAAP?"
+      "say": "Under IFRS 16, how does a lessee account for a plain building lease that would be an operating lease under U.S. GAAP?",
+      "from": [
+        "14.6/section-check"
+      ]
     }
   ]
 };

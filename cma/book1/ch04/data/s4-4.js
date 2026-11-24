@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Retained earnings",
   "n": "4.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.4"),
   "brief": {
     "about": "Retained earnings are the profits a company has kept since it began, less the dividends it has declared. A board may set part of retained earnings aside, for example for a new plant. These appropriated retained earnings stay within equity; no costs are ever charged to them. If a company finds an error in earlier financial statements, it does not correct it through this year's net income.",
     "anim": "priorPeriod",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "4.4/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "prior-period",
@@ -131,7 +134,10 @@
           "correct": true
         }
       ],
-      "exhibit": "In 2026 a company finds that it overstated its 2024 depreciation expense."
+      "exhibit": "In 2026 a company finds that it overstated its 2024 depreciation expense.",
+      "from": [
+        "4.4/section-check"
+      ]
     },
     {
       "id": "sc4-8",
@@ -157,7 +163,10 @@
           "why": "Appropriations are set aside by the board from retained earnings."
         }
       ],
-      "exhibit": "An IFRS company reports a 'translation reserve'."
+      "exhibit": "An IFRS company reports a 'translation reserve'.",
+      "from": [
+        "4.4/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The operating budget",
   "n": "8.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.4"),
   "brief": {
     "about": "The operating budget, or budgeted income statement, brings the schedules together: sales, minus cost of goods sold, minus selling and administrative expenses, gives budgeted operating income. Interest and income taxes are added later, in Chapter 10. In contribution format, the same year gives $3,180,000, the flexible budget of Chapter 5 for twelve months. Figure F308-10 explains the $2,000 difference: the rise in stock carries fixed overhead into next year.",
     "anim": "marginStack",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "8.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f308-11",
       "kind": "figure",
       "file": "F308-11.png",
       "label": "Figure F308-11.",
-      "caption": "From sales to operating income, Beverages 2028."
+      "caption": "From sales to operating income, Beverages 2028.",
+      "from": [
+        "F308-11"
+      ]
     },
     {
       "id": "num-09",
@@ -62,6 +68,10 @@
           "answer": "3182000",
           "why": "= Operating income: 3,182,000."
         }
+      ],
+      "from": [
+        "F308-09",
+        "8.4/t:beverages-operat"
       ]
     },
     {
@@ -82,6 +92,10 @@
           "answer": "3182000",
           "why": "= Operating income, functional format: 3,182,000."
         }
+      ],
+      "from": [
+        "F308-10",
+        "8.4/t:reconciling-the"
       ]
     },
     {
@@ -107,6 +121,9 @@
           "why": "Sales − cost of goods sold − selling and admin.",
           "correct": true
         }
+      ],
+      "from": [
+        "8.4/section-check"
       ]
     },
     {
@@ -133,7 +150,10 @@
           "why": "This is gross margin."
         }
       ],
-      "exhibit": "Sales $18,000,000; cost of goods sold $11,338,000; variable selling $1,080,000; fixed selling and admin $2,400,000."
+      "exhibit": "Sales $18,000,000; cost of goods sold $11,338,000; variable selling $1,080,000; fixed selling and admin $2,400,000.",
+      "from": [
+        "8.4/section-check"
+      ]
     }
   ]
 };

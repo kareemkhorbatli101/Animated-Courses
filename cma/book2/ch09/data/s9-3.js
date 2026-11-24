@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Two income statements for the same year",
   "n": "9.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.3"),
   "brief": {
     "about": "The absorption statement uses the gross margin format. Cost of goods sold is at full cost, and the production-volume variance is added when production falls short of the denominator. Selling and administrative costs follow. The variable costing statement uses the contribution format. Variable costs come first, then the contribution margin, then all fixed costs, including the full $1,800,000 of fixed manufacturing overhead. Figure F209-05 puts the two statements side by side.",
     "anim": "absVar",
@@ -91,6 +91,10 @@
             "c3": "2,906,000"
           }
         }
+      ],
+      "from": [
+        "F209-05",
+        "9.3/t:beverages-fy2027"
       ]
     },
     {
@@ -117,7 +121,10 @@
           "why": "This adds all fixed overhead to variable COGS."
         }
       ],
-      "say": "Use Figure F209-05. What is total cost of goods sold, including the production-volume variance, under absorption costing (whole USD)?"
+      "say": "Use Figure F209-05. What is total cost of goods sold, including the production-volume variance, under absorption costing (whole USD)?",
+      "from": [
+        "9.3/section-check"
+      ]
     },
     {
       "id": "sc209-6",
@@ -142,6 +149,9 @@
           "text": "the same format as the published statements",
           "why": "Published statements use absorption costing."
         }
+      ],
+      "from": [
+        "9.3/section-check"
       ]
     }
   ]

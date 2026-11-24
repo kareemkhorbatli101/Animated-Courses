@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The external auditor's responsibilities and opinions",
   "n": "5.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.4"),
   "brief": {
     "about": "The external auditor expresses an opinion on whether the financial statements are fairly presented. For an accelerated filer the auditor also expresses an opinion on internal control over financial reporting, as Chapter 4 explained. Figure F405-05 shows the opinions available on each. The two opinions are independent of each other. The auditor is responsible for obtaining reasonable assurance that the statements are free from material misstatement, whether caused by error or fraud.",
     "anim": "assuranceDial",
@@ -83,6 +83,10 @@
           },
           "why": "On the statements: Available. On internal control: Issued for a scope limitation."
         }
+      ],
+      "from": [
+        "F405-05",
+        "5.4/t:opinion-when-it"
       ]
     },
     {
@@ -108,6 +112,9 @@
           "text": "Disclaimer",
           "why": "Issued for a scope limitation."
         }
+      ],
+      "from": [
+        "5.4/section-check"
       ]
     },
     {
@@ -134,7 +141,10 @@
           "correct": true
         }
       ],
-      "say": "Can a company receive an adverse opinion on internal control and an unqualified opinion on its statements?"
+      "say": "Can a company receive an adverse opinion on internal control and an unqualified opinion on its statements?",
+      "from": [
+        "5.4/section-check"
+      ]
     }
   ]
 };

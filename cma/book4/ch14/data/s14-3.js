@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why mining is iterative, and both art and science",
   "n": "14.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.3"),
   "brief": {
     "about": "Figure F414-04 shows the cycle an analyst actually follows. It is drawn with return arrows because it is never a straight line. A failed evaluation sends the analyst back to the model, to the preparation, or to the question itself. That happens more than once in any real project. A first model that disappoints is the normal case, not a failure of competence.",
     "anim": "clusterClass",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F414-04.png",
       "label": "Figure F414-04.",
-      "caption": "The data mining cycle and its loops."
+      "caption": "The data mining cycle and its loops.",
+      "from": [
+        "F414-04"
+      ]
     },
     {
       "id": "grid-05",
@@ -93,6 +96,10 @@
           },
           "why": "Art or science?: Art."
         }
+      ],
+      "from": [
+        "F414-05",
+        "14.3/t:part-of-the-work"
       ]
     },
     {
@@ -118,6 +125,9 @@
           "text": "Reports are issued monthly",
           "why": "Reporting frequency is unrelated."
         }
+      ],
+      "from": [
+        "14.3/section-check"
       ]
     },
     {
@@ -143,6 +153,9 @@
           "text": "Transforming dates into quarters",
           "why": "A mechanical preprocessing step."
         }
+      ],
+      "from": [
+        "14.3/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Joint products, by-products and scrap",
   "n": "11.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.1"),
   "brief": {
     "about": "Joint products are two or more products from the same process, each with significant sales value. Extra-virgin oil (EVOO) and virgin oil (VOO) are joint products: the press runs to make both. A by-product comes from the same process but has a small sales value compared with the joint products. Pomace, the olive cake left after pressing, is a by-product. Scrap has even less value. Figure F211-02 compares the three.",
     "anim": "splitPoint",
@@ -76,6 +76,10 @@
           },
           "why": "Oils example: Filter residue. Accounting: Credit to overhead or income."
         }
+      ],
+      "from": [
+        "F211-02",
+        "11.1/t:output-test-oils"
       ]
     },
     {
@@ -101,6 +105,9 @@
           "text": "material that is thrown away with no value",
           "why": "Worthless waste is not a by-product."
         }
+      ],
+      "from": [
+        "11.1/section-check"
       ]
     },
     {
@@ -126,6 +133,9 @@
           "why": "The test is relative value.",
           "correct": true
         }
+      ],
+      "from": [
+        "11.1/section-check"
       ]
     }
   ]

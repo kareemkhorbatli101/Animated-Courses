@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Preparing the sales budget",
   "n": "6.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.3"),
   "brief": {
     "about": "A sales budget has three components for each period: units, price per unit and revenue. Companies with several products or channels prepare a line for each and add them up. The quarterly split matters as much as the total: production, purchasing and cash are all planned by quarter or month, following the pattern of sales.",
     "anim": "salesFirst",
@@ -35,6 +35,9 @@
       }
     ]
   },
+  "from": [
+    "6.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-05",
@@ -123,6 +126,10 @@
           },
           "why": "Q1: 4,200,000. Q2: 4,500,000. Q3: 4,800,000. Q4: 4,500,000. Year: 18,000,000."
         }
+      ],
+      "from": [
+        "F306-05",
+        "6.3/t:sales-budget-202"
       ]
     },
     {
@@ -148,6 +155,9 @@
           "text": "assets and liabilities",
           "why": "That is the balance sheet."
         }
+      ],
+      "from": [
+        "6.3/section-check"
       ]
     },
     {
@@ -174,7 +184,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Budgeted sales are 225,000 cases at $20.00."
+      "exhibit": "Budgeted sales are 225,000 cases at $20.00.",
+      "from": [
+        "6.3/section-check"
+      ]
     }
   ]
 };

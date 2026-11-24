@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Supply chain management",
   "n": "17.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.1"),
   "brief": {
     "about": "A supply chain links every company that helps a product reach the final consumer: suppliers, manufacturers, distributors, retailers and customers. Supply chain management coordinates the flows of goods, information and money along the whole chain. Figure F217-02 shows the Tahini & Spreads chain. Goods move toward consumers; orders, forecasts and payments move back. The aim is the right product, in the right place, at the right time and the lowest total cost.",
     "anim": "supplyPlan",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F217-02.png",
       "label": "Figure F217-02.",
-      "caption": "The Tahini & Spreads supply chain."
+      "caption": "The Tahini & Spreads supply chain.",
+      "from": [
+        "F217-02"
+      ]
     },
     {
       "id": "sc217-1",
@@ -55,6 +58,9 @@
           "text": "the marketing budget",
           "why": "It is not a budget."
         }
+      ],
+      "from": [
+        "17.1/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "why": "Payment terms are a separate matter."
         }
       ],
-      "exhibit": "Levant shares daily shop sales with Tahini & Spreads."
+      "exhibit": "Levant shares daily shop sales with Tahini & Spreads.",
+      "from": [
+        "17.1/section-check"
+      ]
     }
   ]
 };

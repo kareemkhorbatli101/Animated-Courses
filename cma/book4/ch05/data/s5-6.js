@@ -9,7 +9,7 @@
   "up": "../",
   "title": "From deficiency to remediation",
   "n": "5.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.6"),
   "brief": {
     "about": "Not every failure is equally serious. Figure F405-07 sets out the three levels of severity and what each one means in practice. A material weakness is the one that matters most, because its existence prevents management from concluding that internal control is effective. The test combines likelihood and magnitude: a reasonable possibility that a material misstatement would not be prevented or detected on a timely basis.",
     "anim": "remediate",
@@ -28,79 +28,83 @@
   "scenes": [
     {
       "id": "fig-f405-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F405-07",
       "title": "Three levels of deficiency",
-      "say": "Three levels of deficiency",
-      "caption": "Severity",
-      "col1": "Definition",
-      "col2": "Consequence",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Severity",
+      "col": "Definition",
       "rows": [
         {
-          "name": "Control deficiency",
-          "a": "The control does not allow staff, in the normal course of their work, to prevent or detect misstatements on a timely basis",
-          "b": "Management decides whether to fix it"
+          "label": "Control deficiency",
+          "right": "The control does not allow staff, in the normal course of their work, to prevent or detect misstatements on a timely basis",
+          "why": "Definition: The control does not allow staff, in the normal course of their work, to prevent or detect misstatements on a timely basis. Management decides whether to fix it."
         },
         {
-          "name": "Significant deficiency",
-          "a": "Less severe than a material weakness, but important enough to merit the attention of those overseeing reporting",
-          "b": "Reported to the audit committee"
+          "label": "Significant deficiency",
+          "right": "Less severe than a material weakness, but important enough to merit the attention of those overseeing reporting",
+          "why": "Definition: Less severe than a material weakness, but important enough to merit the attention of those overseeing reporting. Reported to the audit committee."
         },
         {
-          "name": "Material weakness",
-          "a": "A reasonable possibility that a material misstatement will not be prevented or detected on a timely basis",
-          "b": "Internal control cannot be called effective; disclosed"
+          "label": "Material weakness",
+          "right": "A reasonable possibility that a material misstatement will not be prevented or detected on a timely basis",
+          "why": "Definition: A reasonable possibility that a material misstatement will not be prevented or detected on a timely basis. Internal control cannot be called effective; disclosed."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "Three levels of deficiency",
       "traps": [
         "announcing-a-fix-is-not-remediating-a-"
+      ],
+      "from": [
+        "F405-07",
+        "5.6/t:severity-definit"
       ]
     },
     {
       "id": "fig-f405-08",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F405-08",
       "title": "The six steps of remediation",
-      "say": "The six steps of remediation",
-      "caption": "Step (E.1.y)",
-      "col1": "What it involves",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Step (E.1.y)",
+      "col": "What it involves",
       "rows": [
         {
-          "name": "1. Find the root cause",
-          "a": "Why did the control fail: design, operation, or neither?",
-          "b": "A control that was never assigned to anyone"
+          "label": "1. Find the root cause",
+          "right": "Why did the control fail: design, operation, or neither?",
+          "why": "What it involves: Why did the control fail: design, operation, or neither?. A control that was never assigned to anyone."
         },
         {
-          "name": "2. Redesign",
-          "a": "Change the control, or add one that addresses the cause",
-          "b": "Name supplier approval in a job description"
+          "label": "2. Redesign",
+          "right": "Change the control, or add one that addresses the cause",
+          "why": "What it involves: Change the control, or add one that addresses the cause. Name supplier approval in a job description."
         },
         {
-          "name": "3. Implement",
-          "a": "Put it into operation and tell the people affected",
-          "b": "Update the procedure and train the staff"
+          "label": "3. Implement",
+          "right": "Put it into operation and tell the people affected",
+          "why": "What it involves: Put it into operation and tell the people affected. Update the procedure and train the staff."
         },
         {
-          "name": "4. Operate for a period",
-          "a": "A control must run long enough to be tested",
-          "b": "Usually at least one quarter"
+          "label": "4. Operate for a period",
+          "right": "A control must run long enough to be tested",
+          "why": "What it involves: A control must run long enough to be tested. Usually at least one quarter."
         },
         {
-          "name": "5. Test",
-          "a": "Evidence that it now works, not just that it exists",
-          "b": "Re-perform a sample of approvals"
+          "label": "5. Test",
+          "right": "Evidence that it now works, not just that it exists",
+          "why": "What it involves: Evidence that it now works, not just that it exists. Re-perform a sample of approvals."
         },
         {
-          "name": "6. Conclude and disclose",
-          "a": "Management states whether the weakness is remediated",
-          "b": "Reported in the next assessment"
+          "label": "6. Conclude and disclose",
+          "right": "Management states whether the weakness is remediated",
+          "why": "What it involves: Management states whether the weakness is remediated. Reported in the next assessment."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The six steps of remediation",
+      "from": [
+        "F405-08",
+        "5.6/t:step-e-1-y-what"
+      ]
     },
     {
       "id": "sc405-11",
@@ -125,6 +129,9 @@
           "why": "Likelihood and magnitude together, with no numeric rule.",
           "correct": true
         }
+      ],
+      "from": [
+        "5.6/section-check"
       ]
     },
     {
@@ -151,7 +158,10 @@
           "why": "Management concludes, after testing."
         }
       ],
-      "exhibit": "A company redesigns a failed control and announces the fix in the same month."
+      "exhibit": "A company redesigns a failed control and announces the fix in the same month.",
+      "from": [
+        "5.6/section-check"
+      ]
     }
   ]
 };

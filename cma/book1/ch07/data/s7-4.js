@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Effects on income, taxes and assets",
   "n": "7.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.4"),
   "brief": {
     "about": "When prices are rising, the methods give very different results. FIFO puts the old, cheaper costs into cost of goods sold. So FIFO gives the lowest cost of goods sold, the highest gross profit, the highest income tax and the highest ending inventory. LIFO gives the opposite. The weighted average falls in between. When prices are falling, all these relationships reverse. Figure F07-07 shows the Orontes numbers. Each method has a strength.",
     "anim": "twoMethods",
@@ -44,13 +44,19 @@
       }
     ]
   },
+  "from": [
+    "7.4/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f07-07",
       "kind": "figure",
       "file": "F07-07.png",
       "label": "Figure F07-07.",
-      "caption": "Effects of FIFO, weighted average and LIFO when prices are rising."
+      "caption": "Effects of FIFO, weighted average and LIFO when prices are rising.",
+      "from": [
+        "F07-07"
+      ]
     },
     {
       "id": "sc7-7",
@@ -79,6 +85,10 @@
       "traps": [
         "reserve-does-not-mean-reserve",
         "signs-and-directions"
+      ],
+      "from": [
+        "7.4/exam-trap",
+        "7.4/section-check"
       ]
     },
     {
@@ -105,7 +115,10 @@
           "why": "This adds the ending reserve."
         }
       ],
-      "exhibit": "A company reports LIFO cost of goods sold of 500,000. Its LIFO reserve increased from 30,000 to 45,000 during the year."
+      "exhibit": "A company reports LIFO cost of goods sold of 500,000. Its LIFO reserve increased from 30,000 to 45,000 during the year.",
+      "from": [
+        "7.4/section-check"
+      ]
     }
   ]
 };

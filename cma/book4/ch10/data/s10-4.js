@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Data warehouses and data marts",
   "n": "10.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.4"),
   "brief": {
     "about": "An operational system is built to process one transaction quickly. Analysis asks the opposite question, reading millions of rows at once, and running that against the live system would slow down the people working in it. That is why analysis happens somewhere else. A data warehouse is a separate store holding history across every subject, loaded from the operational systems, read but never updated by transactions.",
     "anim": "warehouseMart",
@@ -27,49 +27,51 @@
   "scenes": [
     {
       "id": "fig-f410-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F410-06",
       "title": "Data warehouse against data mart",
-      "say": "Data warehouse against data mart",
-      "caption": "",
-      "col1": "Data warehouse",
-      "col2": "Data mart",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Data warehouse",
       "rows": [
         {
-          "name": "Purpose",
-          "a": "Supports analysis and decisions across the enterprise",
-          "b": "Supports one department or subject"
+          "label": "Purpose",
+          "right": "Supports analysis and decisions across the enterprise",
+          "why": "Data warehouse: Supports analysis and decisions across the enterprise. Supports one department or subject."
         },
         {
-          "name": "Scope",
-          "a": "All subjects: customers, products, suppliers, plants",
-          "b": "One subject, such as sales or production"
+          "label": "Scope",
+          "right": "All subjects: customers, products, suppliers, plants",
+          "why": "Data warehouse: All subjects: customers, products, suppliers, plants. One subject, such as sales or production."
         },
         {
-          "name": "Source",
-          "a": "Loaded from the operational systems, often overnight",
-          "b": "Usually drawn from the warehouse"
+          "label": "Source",
+          "right": "Loaded from the operational systems, often overnight",
+          "why": "Data warehouse: Loaded from the operational systems, often overnight. Usually drawn from the warehouse."
         },
         {
-          "name": "Time span",
-          "a": "History, kept for years so trends can be seen",
-          "b": "The period that department needs"
+          "label": "Time span",
+          "right": "History, kept for years so trends can be seen",
+          "why": "Data warehouse: History, kept for years so trends can be seen. The period that department needs."
         },
         {
-          "name": "Changed by users?",
-          "a": "No. It is read, not updated by transactions",
-          "b": "No, for the same reason"
+          "label": "Changed by users?",
+          "right": "No. It is read, not updated by transactions",
+          "why": "Data warehouse: No. It is read, not updated by transactions. No, for the same reason."
         },
         {
-          "name": "Why not just query the live system?",
-          "a": "Heavy analysis would slow the system people are working in",
-          "b": "Same reason, on a smaller scale"
+          "label": "Why not just query the live system?",
+          "right": "Heavy analysis would slow the system people are working in",
+          "why": "Data warehouse: Heavy analysis would slow the system people are working in. Same reason, on a smaller scale."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "Data warehouse against data mart",
       "traps": [
         "a-data-warehouse-is-a-separate-store-h"
+      ],
+      "from": [
+        "F410-06",
+        "10.4/t:data-warehouse-d"
       ]
     },
     {
@@ -95,6 +97,9 @@
           "why": "Operational systems are built to process one transaction quickly.",
           "correct": true
         }
+      ],
+      "from": [
+        "10.4/section-check"
       ]
     },
     {
@@ -120,6 +125,9 @@
           "text": "ownership: it belongs to the IT department",
           "why": "Ownership is not the distinction."
         }
+      ],
+      "from": [
+        "10.4/section-check"
       ]
     }
   ]

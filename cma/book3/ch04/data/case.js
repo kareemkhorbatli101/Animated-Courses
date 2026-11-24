@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · budgeting Levant's service costs",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "activityRate"
+  },
+  "scenario": {
+    "title": "Case question: budgeting Levant's service costs",
+    "p": [
+      "Levant Distribution, the Orontes subsidiary that delivers to shops, hotels and supermarkets, is preparing its 2028 budget. In past years its manager, Karim, budgeted warehouse and delivery costs by adding a percentage to last year's total. The costs kept rising, and no one could say why. Last year the total rose again, mainly because more customers asked for rush orders and returned damaged goods.",
+      "This year the controller wants an activity-based budget. Book 2 of this series measured the cost of Levant's main activities: taking an order, making a delivery, handling a rush order and processing a return. The sales team has now planned the number of each activity for 2028.",
+      "Karim is also planning a new cold-storage warehouse that will take about eighteen months to build. He asks whether it should simply be included in next year's normal budget. The warehouse will cost several million dollars, and the board wants its spending tracked separately from Levant's normal costs.",
+      "Finally, the controller wants Karim's staff to understand how Levant's budgets fit into the Orontes master budget, and which parts are operating budgets and which are financial budgets."
+    ]
   },
   "scenes": [
     {
@@ -46,7 +55,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F304-15",
+        "Practice/t:levant-distribut"
+      ]
     },
     {
       "id": "c304-1",
@@ -69,30 +82,34 @@
         {
           "name": "Sales budget",
           "to": "operating-budget",
-          "why": "The master budget is the complete annual budget of the organization."
+          "why": "Budget: Operating budget. The master budget is the complete annual budget of the organization."
         },
         {
           "name": "Delivery cost budget",
           "to": "operating-budget",
-          "why": "The master budget is the complete annual budget of the organization."
+          "why": "Budget: Operating budget. The master budget is the complete annual budget of the organization."
         },
         {
           "name": "Cash budget",
           "to": "financial-budget",
-          "why": "The master budget is the complete annual budget of the organization."
+          "why": "Budget: Financial budget. The master budget is the complete annual budget of the organization."
         },
         {
           "name": "Capital expenditure budget",
           "to": "financial-budget",
-          "why": "The master budget is the complete annual budget of the organization."
+          "why": "Budget: Financial budget. The master budget is the complete annual budget of the organization."
         },
         {
           "name": "Budgeted balance sheet",
           "to": "financial-budget",
-          "why": "The master budget is the complete annual budget of the organization."
+          "why": "Budget: Financial budget. The master budget is the complete annual budget of the organization."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:budget-category",
+        "Answers and explanations/t:budget-category"
+      ]
     },
     {
       "id": "c304-2",

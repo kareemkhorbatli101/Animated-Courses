@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why the internet is riskier",
   "n": "8.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.1"),
   "brief": {
     "about": "A leased line is a connection the company pays for and nobody else uses. The internet is a shared road. The traffic crosses equipment owned by strangers, by a route chosen at the time, and anything on that route can in principle read or alter what passes. Figure F408-02 lists the risks that follow. The difference is one of exposure rather than of kind.",
     "anim": "threatFan",
@@ -27,65 +27,48 @@
   "scenes": [
     {
       "id": "fig-f408-02",
-      "kind": "grid",
+      "kind": "match",
       "kicker": "Figure F408-02",
       "title": "The risks of the internet compared with a private line",
-      "say": "The risks of the internet compared with a private line",
-      "caption": "Internet risk (E.2.h)",
-      "cols": [
-        "Why it arises",
-        "What it looks like",
-        "Main defence"
-      ],
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Internet risk (E.2.h)",
+      "col": "Why it arises",
       "rows": [
         {
-          "name": "Interception",
-          "cells": [
-            "Traffic crosses networks nobody controls",
-            "Reading data in transit",
-            "Encryption"
-          ]
+          "label": "Interception",
+          "right": "Traffic crosses networks nobody controls",
+          "why": "Why it arises: Traffic crosses networks nobody controls. Reading data in transit. Encryption."
         },
         {
-          "name": "Man in the middle",
-          "cells": [
-            "An attacker relays and may alter the conversation",
-            "Altering a payment instruction",
-            "Encryption with authentication"
-          ]
+          "label": "Man in the middle",
+          "right": "An attacker relays and may alter the conversation",
+          "why": "Why it arises: An attacker relays and may alter the conversation. Altering a payment instruction. Encryption with authentication."
         },
         {
-          "name": "Spoofing",
-          "cells": [
-            "A false identity for a site, sender or address",
-            "A convincing but fake supplier portal",
-            "Certificates, authentication"
-          ]
+          "label": "Spoofing",
+          "right": "A false identity for a site, sender or address",
+          "why": "Why it arises: A false identity for a site, sender or address. A convincing but fake supplier portal. Certificates, authentication."
         },
         {
-          "name": "Tampering",
-          "cells": [
-            "Data changed in transit",
-            "An invoice amount altered on the way",
-            "Integrity checks, hashing"
-          ]
+          "label": "Tampering",
+          "right": "Data changed in transit",
+          "why": "Why it arises: Data changed in transit. An invoice amount altered on the way. Integrity checks, hashing."
         },
         {
-          "name": "Denial of service",
-          "cells": [
-            "The service is flooded until it fails",
-            "An order site unavailable for a day",
-            "Filtering, capacity, provider defences"
-          ]
+          "label": "Denial of service",
+          "right": "The service is flooded until it fails",
+          "why": "Why it arises: The service is flooded until it fails. An order site unavailable for a day. Filtering, capacity, provider defences."
         },
         {
-          "name": "Malware delivery",
-          "cells": [
-            "Hostile software carried over the connection",
-            "Ransomware from an attachment",
-            "Filtering, patching, training"
-          ]
+          "label": "Malware delivery",
+          "right": "Hostile software carried over the connection",
+          "why": "Why it arises: Hostile software carried over the connection. Ransomware from an attachment. Filtering, patching, training."
         }
+      ],
+      "caption": "The risks of the internet compared with a private line",
+      "from": [
+        "F408-02",
+        "8.1/t:internet-risk-e"
       ]
     },
     {
@@ -111,6 +94,9 @@
           "why": "Exposure, not a difference in kind.",
           "correct": true
         }
+      ],
+      "from": [
+        "8.1/section-check"
       ]
     },
     {
@@ -137,7 +123,10 @@
           "why": "This concerns data in transit."
         }
       ],
-      "exhibit": "An attacker relays and alters a conversation between two parties who believe they are speaking directly."
+      "exhibit": "An attacker relays and alters a conversation between two parties who believe they are speaking directly.",
+      "from": [
+        "8.1/section-check"
+      ]
     }
   ]
 };

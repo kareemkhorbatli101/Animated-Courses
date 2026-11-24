@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 6A: a late order for the summer",
   "n": "6.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.6"),
   "brief": {
     "about": "In February, Levant asks for 10,000 extra cases in the third quarter for a hotel chain. This example tests whether the production budget can absorb the order. It is exam-core. Higher third-quarter sales raise the second quarter's ending stock, and therefore second-quarter production, as well as third-quarter production. Figure F306-11 shows the result. Third-quarter production would be 245,000 cases, 5,000 above capacity.",
     "anim": "bridgeBar",
@@ -48,6 +48,9 @@
       }
     ]
   },
+  "from": [
+    "6.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-11",
@@ -111,47 +114,137 @@
           "cells": {
             "c1": "—",
             "c2": "5,000"
-          },
-          "given": [
-            "c2"
-          ]
+          }
         }
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F306-11",
+        "6.6/t:beverages-cases",
+        "6.6/exam-trap"
       ]
     },
     {
       "id": "fig-f306-12",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F306-12",
       "title": "Extended Example: options for the cases above capacity",
-      "say": "Extended Example: options for the cases above capacity",
-      "caption": "Options for the 5,000 extra cases",
-      "col1": "Assessment",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Options for the 5,000 extra cases",
+      "col": "Assessment",
+      "rows": [
+        {
+          "label": "Build ahead in the second quarter",
+          "right": "Not possible: the store would already hold 50,000 cases, its limit",
+          "why": "Assessment: Not possible: the store would already hold 50,000 cases, its limit."
+        },
+        {
+          "label": "Overtime shifts in the third quarter",
+          "right": "Adds capacity; costs more per case",
+          "why": "Assessment: Adds capacity; costs more per case."
+        },
+        {
+          "label": "Outsource filling of the extra cases",
+          "right": "Uses outside capacity (Book 2, Chapter 17); check quality",
+          "why": "Assessment: Uses outside capacity (Book 2, Chapter 17); check quality."
+        },
+        {
+          "label": "Accept only part of the order",
+          "right": "Loses $41,000 of contribution margin",
+          "why": "Assessment: Loses $41,000 of contribution margin."
+        }
+      ],
+      "caption": "Extended Example: options for the cases above capacity",
+      "from": [
+        "F306-12",
+        "6.6/t:options-for-the"
+      ]
+    },
+    {
+      "id": "t6-6-0",
+      "kind": "lines",
+      "kicker": "Section 6.6",
+      "title": "Factor",
+      "caption": "Factor",
+      "col1": "Category",
       "col2": "",
       "rows": [
         {
-          "name": "Build ahead in the second quarter. Not possible: the store would already hold 50,000 cases, its limit",
-          "note": true
-        },
-        {
-          "name": "Overtime shifts in the third quarter",
-          "a": "Adds capacity; costs more per case",
+          "name": "Growth of the Gulf tahini market",
+          "a": "",
           "b": ""
         },
         {
-          "name": "Outsource filling of the extra cases. Uses outside capacity (Book 2, Chapter 17); check quality",
-          "note": true
+          "name": "Planned price of the jars",
+          "a": "",
+          "b": ""
         },
         {
-          "name": "Accept only part of the order",
-          "a": "Loses $41,000 of contribution margin",
+          "name": "Ending-stock policy of 10%",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Capacity of the filling line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Shelf life of tahini",
+          "a": "",
           "b": ""
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:factor-category",
+        "Answers and explanations/t:factor-category"
+      ]
+    },
+    {
+      "id": "t6-6-1",
+      "kind": "lines",
+      "kicker": "Section 6.6",
+      "title": "Factor",
+      "caption": "Factor",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Growth of the Gulf tahini market",
+          "a": "Sales forecast",
+          "b": ""
+        },
+        {
+          "name": "Planned price of the jars",
+          "a": "Sales forecast",
+          "b": ""
+        },
+        {
+          "name": "Ending-stock policy of 10%",
+          "a": "Production budget",
+          "b": ""
+        },
+        {
+          "name": "Capacity of the filling line",
+          "a": "Production budget",
+          "b": ""
+        },
+        {
+          "name": "Shelf life of tahini",
+          "a": "Production budget",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:factor-category",
+        "Answers and explanations/t:factor-category"
+      ]
     },
     {
       "id": "ties",
@@ -196,7 +289,10 @@
           "why": "No such rule."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "6.6/section-check"
+      ]
     },
     {
       "id": "sc306-12",
@@ -222,7 +318,10 @@
           "why": "This is third-quarter sales."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "6.6/section-check"
+      ]
     }
   ]
 };

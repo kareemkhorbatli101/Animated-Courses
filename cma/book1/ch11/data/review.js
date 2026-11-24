@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "fivesteps"
   },
@@ -62,10 +62,7 @@
           "correct": true
         }
       ],
-      "exhibit": "A U.S. company believes it is 55% likely to collect the consideration in a new contract.",
-      "traps": [
-        "probable-is-not-50"
-      ]
+      "exhibit": "A U.S. company believes it is 55% likely to collect the consideration in a new contract."
     },
     {
       "id": "sc11-5",

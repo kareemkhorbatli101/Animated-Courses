@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the tahini investment decision",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "riBar"
+  },
+  "scenario": {
+    "title": "Case question: the tahini investment decision",
+    "p": [
+      "The Tahini & Spreads division has been asked to grow, and its manager, Samir, has found a way to do it. A new filling and packing line would let the division supply a Gulf supermarket chain that wants its own-label tahini in large volumes.",
+      "The line would cost a known amount and would add a known amount of operating income each year. Head office expects every division to earn a required rate of return on the assets it uses, and judges divisions on return on investment. The Gulf chain has asked for a three-year supply agreement, so the extra income would be reasonably certain.",
+      "Samir has done the arithmetic and does not like the answer. The project earns more than the required return, but less than the return his division already makes, so accepting it would pull his own measure down. He has told the controller he would rather not proceed.",
+      "Rania, the controller, must calculate the division's return on investment and residual income before and after the project, show the board which measure leads to the decision the company wants, and recommend how Samir should be judged in future."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F317-15",
+        "Practice/t:tahini-spreads-a"
+      ]
     },
     {
       "id": "c317-1",
@@ -74,30 +87,34 @@
         {
           "name": "The project returns more than the required rate of return",
           "to": "supports-accepting",
-          "why": "Both are reported each quarter."
+          "why": "Statement: Supports accepting. Both are reported each quarter."
         },
         {
           "name": "The project would lower the division's return on investment",
           "to": "supports-rejecting",
-          "why": "Both are reported each quarter."
+          "why": "Statement: Supports rejecting. Both are reported each quarter."
         },
         {
           "name": "The project raises the division's residual income",
           "to": "supports-accepting",
-          "why": "Both are reported each quarter."
+          "why": "Statement: Supports accepting. Both are reported each quarter."
         },
         {
           "name": "The company earns more than its cost of capital on the new assets",
           "to": "supports-accepting",
-          "why": "Both are reported each quarter."
+          "why": "Statement: Supports accepting. Both are reported each quarter."
         },
         {
           "name": "The manager's bonus is based on return on investment",
           "to": "supports-rejecting",
-          "why": "Both are reported each quarter."
+          "why": "Statement: Supports rejecting. Both are reported each quarter."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
     },
     {
       "id": "c317-2",

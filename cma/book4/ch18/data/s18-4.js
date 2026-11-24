@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What a picture can and cannot do",
   "n": "18.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.4"),
   "brief": {
     "about": "Figure F418-05 pairs each benefit of visualization with the limitation that accompanies it, and the pairing is deliberate: each limitation is the same property seen from the other side. The first pair carries the argument. The eye reads a pattern in a second that a table would take minutes to yield. That same speed is why a distorted chart persuades before anybody has checked the axis.",
     "anim": "oppChallenge",
@@ -27,47 +27,49 @@
   "scenes": [
     {
       "id": "fig-f418-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F418-05",
       "title": "The benefits of visualization and their matching limitations",
-      "say": "The benefits of visualization and their matching limitations",
-      "caption": "Visualization (F.4.dd)",
-      "col1": "Benefit",
-      "col2": "Matching limitation",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Visualization (F.4.dd)",
+      "col": "Benefit",
       "rows": [
         {
-          "name": "The eye is fast",
-          "a": "A pattern visible in a second would take minutes in a table",
-          "b": "The same speed makes a distorted chart persuasive"
+          "label": "The eye is fast",
+          "right": "A pattern visible in a second would take minutes in a table",
+          "why": "Benefit: A pattern visible in a second would take minutes in a table. The same speed makes a distorted chart persuasive."
         },
         {
-          "name": "It reaches non-specialists",
-          "a": "A board reads a chart it would not read as output",
-          "b": "It can imply precision the data lacks"
+          "label": "It reaches non-specialists",
+          "right": "A board reads a chart it would not read as output",
+          "why": "Benefit: A board reads a chart it would not read as output. It can imply precision the data lacks."
         },
         {
-          "name": "It reveals the unexpected",
-          "a": "Outliers and gaps show themselves",
-          "b": "It can suggest patterns that are coincidence"
+          "label": "It reveals the unexpected",
+          "right": "Outliers and gaps show themselves",
+          "why": "Benefit: Outliers and gaps show themselves. It can suggest patterns that are coincidence."
         },
         {
-          "name": "It compresses volume",
-          "a": "Thousands of trials in one picture",
-          "b": "Compression hides the individual case"
+          "label": "It compresses volume",
+          "right": "Thousands of trials in one picture",
+          "why": "Benefit: Thousands of trials in one picture. Compression hides the individual case."
         },
         {
-          "name": "It aids memory",
-          "a": "A reader recalls a shape, not a number",
-          "b": "A wrong shape is remembered just as well"
+          "label": "It aids memory",
+          "right": "A reader recalls a shape, not a number",
+          "why": "Benefit: A reader recalls a shape, not a number. A wrong shape is remembered just as well."
         },
         {
-          "name": "It supports the argument",
-          "a": "The claim and its evidence sit together",
-          "b": "It never establishes cause"
+          "label": "It supports the argument",
+          "right": "The claim and its evidence sit together",
+          "why": "Benefit: The claim and its evidence sit together. It never establishes cause."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The benefits of visualization and their matching limitations",
+      "from": [
+        "F418-05",
+        "18.4/t:visualization-f"
+      ]
     },
     {
       "id": "sc418-7",
@@ -92,6 +94,9 @@
           "text": "irrelevant to accuracy",
           "why": "It bears directly on how a reader judges."
         }
+      ],
+      "from": [
+        "18.4/section-check"
       ]
     },
     {
@@ -118,7 +123,10 @@
           "why": "No model is being tested."
         }
       ],
-      "exhibit": "A chart shows two series moving closely together."
+      "exhibit": "A chart shows two series moving closely together.",
+      "from": [
+        "18.4/section-check"
+      ]
     }
   ]
 };

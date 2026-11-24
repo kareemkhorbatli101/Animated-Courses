@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.4",
   "title": "Using the regression equation",
-  "blurb": "Amounts, questions · 3 scenes"
+  "blurb": "A printed statement, yourturn, questions · 4 scenes"
  },
  {
   "id": "s3-5",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.7",
   "title": "Extended Example 3A: the Oils maintenance and utilities cost function",
-  "blurb": "Figures, amounts, schedule, the tie lines, questions · 6 scenes"
+  "blurb": "Figures, amounts, schedule, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · Barada's delivery costs",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 5 scenes"
  },
  {
   "id": "review",

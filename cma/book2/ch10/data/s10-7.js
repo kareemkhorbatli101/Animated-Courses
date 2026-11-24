@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 10A: Orontes allocates 2027 service costs",
   "n": "10.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.7"),
   "brief": {
     "about": "This example allocates all four service departments with the policy methods, records the entries and ties the result to the charges used in earlier chapters. The allocation table is exam-core; the entries are for depth. Allocate Maintenance, then the enlarged IT pool, then Quality Lab and HR. Record each step, check that every service account closes, and compare each division's total with its monthly charge. Figure F210-10 gives the result.",
     "anim": "svcArrows",
@@ -62,13 +62,19 @@
       }
     ]
   },
+  "from": [
+    "10.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f210-12",
       "kind": "figure",
       "file": "F210-12.png",
       "label": "Figure F210-12.",
-      "caption": "Extended Example: service and division overhead accounts after the 2027 allocation."
+      "caption": "Extended Example: service and division overhead accounts after the 2027 allocation.",
+      "from": [
+        "F210-12"
+      ]
     },
     {
       "id": "fill-10",
@@ -152,6 +158,12 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F210-10",
+        "10.7/t:division-mainten",
+        "10.7/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -355,7 +367,95 @@
       "grid": false,
       "journalTitle": "Journal entries",
       "lures": {},
-      "logic": {}
+      "logic": {},
+      "from": [
+        "F210-11",
+        "10.7/t:no-account-detai"
+      ]
+    },
+    {
+      "id": "t10-7-0",
+      "kind": "lines",
+      "kicker": "Section 10.7",
+      "title": "Department",
+      "caption": "Department",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Fleet Maintenance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "IT",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Warehouse",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Delivery",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Payroll office",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:department-categ",
+        "Answers and explanations/t:department-categ"
+      ]
+    },
+    {
+      "id": "t10-7-1",
+      "kind": "lines",
+      "kicker": "Section 10.7",
+      "title": "Department",
+      "caption": "Department",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Fleet Maintenance",
+          "a": "Service department",
+          "b": ""
+        },
+        {
+          "name": "IT",
+          "a": "Service department",
+          "b": ""
+        },
+        {
+          "name": "Warehouse",
+          "a": "Operating department",
+          "b": ""
+        },
+        {
+          "name": "Delivery",
+          "a": "Operating department",
+          "b": ""
+        },
+        {
+          "name": "Payroll office",
+          "a": "Service department",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:department-categ",
+        "Answers and explanations/t:department-categ"
+      ]
     },
     {
       "id": "ties",
@@ -405,7 +505,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "10.7/section-check"
+      ]
     },
     {
       "id": "sc210-14",
@@ -431,7 +534,10 @@
           "why": "This is the annual charge."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "10.7/section-check"
+      ]
     }
   ]
 };

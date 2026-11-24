@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Held for sale: criteria and measurement",
   "n": "15.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.5"),
   "brief": {
     "about": "A component can be reported as discontinued before it is sold, once it is held for sale. All six criteria must be met: management with authority commits to a plan; the business is available for immediate sale; an active search for a buyer has begun; a sale is probable within one year; the price is reasonable; and the plan is unlikely to change. Figure F15-08 measures the disposal group on June 30.",
     "anim": "datePeriod",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F15-07.png",
       "label": "Figure F15-07.",
-      "caption": "Timeline of the frozen-foods business: plan, held for sale, sale."
+      "caption": "Timeline of the frozen-foods business: plan, held for sale, sale.",
+      "from": [
+        "F15-07"
+      ]
     },
     {
       "id": "num-08",
@@ -54,6 +57,11 @@
       ],
       "traps": [
         "held-for-sale-traps"
+      ],
+      "from": [
+        "F15-08",
+        "15.5/t:suppose-frozen-f",
+        "15.5/exam-trap"
       ]
     },
     {
@@ -80,7 +88,10 @@
           "why": "This is the whole carrying amount."
         }
       ],
-      "say": "Use Figure F15-08. What loss does Orontes recognize when the frozen-foods business becomes held for sale (whole USD)?"
+      "say": "Use Figure F15-08. What loss does Orontes recognize when the frozen-foods business becomes held for sale (whole USD)?",
+      "from": [
+        "15.5/section-check"
+      ]
     },
     {
       "id": "sc15-10",
@@ -106,7 +117,10 @@
           "why": "This is the remeasurement loss, not depreciation."
         }
       ],
-      "say": "Use Figure F15-07. How much depreciation does Orontes record on the frozen-foods assets for July to September 2026?"
+      "say": "Use Figure F15-07. How much depreciation does Orontes record on the frozen-foods assets for July to September 2026?",
+      "from": [
+        "15.5/section-check"
+      ]
     }
   ]
 };

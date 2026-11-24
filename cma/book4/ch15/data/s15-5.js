@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Using the equation",
   "n": "15.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.5"),
   "brief": {
     "about": "Fitting the eight quarters of Beverages data to price, mean temperature and promotion weeks gives the equation below. Only this calculation is examinable in this part of the syllabus, so it is worth being able to do it without hesitation. Every sign is what a reader would expect, and that is worth checking in any regression before trusting it.",
     "anim": "regPlane",
@@ -38,13 +38,19 @@
       }
     ]
   },
+  "from": [
+    "15.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f415-06",
       "kind": "figure",
       "file": "F415-06.png",
       "label": "Figure F415-06.",
-      "caption": "Beverages demand against temperature, with the fitted line."
+      "caption": "Beverages demand against temperature, with the fitted line.",
+      "from": [
+        "F415-06"
+      ]
     },
     {
       "id": "sc415-9",
@@ -69,6 +75,9 @@
           "text": "It depends on the quarter",
           "why": "A coefficient is constant across the fitted data."
         }
+      ],
+      "from": [
+        "15.5/section-check"
       ]
     },
     {
@@ -94,6 +103,9 @@
           "text": "The number of variables used",
           "why": "That affects the adjusted figure, not this one."
         }
+      ],
+      "from": [
+        "15.5/section-check"
       ]
     }
   ]

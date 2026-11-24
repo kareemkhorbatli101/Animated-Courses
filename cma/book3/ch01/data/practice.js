@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P301-01–P301-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "planHorizon"
   },

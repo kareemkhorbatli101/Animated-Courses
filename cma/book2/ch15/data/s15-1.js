@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Process analysis",
   "n": "15.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.1"),
   "brief": {
     "about": "A business process is a chain of steps that turns an input into a result for a customer, such as an order into cash. Process analysis studies each step: what it does, who does it, how long it takes, what it costs and whether it adds value. The first tool is a process map, a diagram of the steps in order. Figure F215-02 maps Tahini's order-to-cash process.",
     "anim": "processMap",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "15.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f215-02",
       "kind": "figure",
       "file": "F215-02.png",
       "label": "Figure F215-02.",
-      "caption": "Process map: Tahini's order-to-cash process today."
+      "caption": "Process map: Tahini's order-to-cash process today.",
+      "from": [
+        "F215-02"
+      ]
     },
     {
       "id": "fill-03",
@@ -132,6 +138,10 @@
             "c4": "$17.40"
           }
         }
+      ],
+      "from": [
+        "F215-03",
+        "15.1/t:step-staff-cost"
       ]
     },
     {
@@ -157,6 +167,9 @@
           "why": "It looks inside the process, step by step.",
           "correct": true
         }
+      ],
+      "from": [
+        "15.1/section-check"
       ]
     },
     {
@@ -183,7 +196,10 @@
           "why": "The decimal is misplaced."
         }
       ],
-      "exhibit": "Matching a payment takes 0.30 hours at $20 an hour."
+      "exhibit": "Matching a payment takes 0.30 hours at $20 an hour.",
+      "from": [
+        "15.1/section-check"
+      ]
     }
   ]
 };

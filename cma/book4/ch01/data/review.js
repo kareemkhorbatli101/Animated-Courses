@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cosoBase"
   },
@@ -115,6 +115,9 @@
       ],
       "traps": [
         "reasonable-means-high-not-weak"
+      ],
+      "from": [
+        "1.4/exam-trap"
       ]
     },
     {

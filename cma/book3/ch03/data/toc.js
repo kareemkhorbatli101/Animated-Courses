@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.1",
   "title": "What budgets are for",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s3-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.2",
   "title": "The economy, the industry and the budget",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s3-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.4",
   "title": "Time frames and successful budgeting",
-  "blurb": "A printed statement, questions · 4 scenes"
+  "blurb": "Match, questions · 4 scenes"
  },
  {
   "id": "s3-5",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.6",
   "title": "Budgetary slack, revisions and monitoring",
-  "blurb": "Figures, a printed statement, amounts, questions · 5 scenes"
+  "blurb": "Figures, match, amounts, questions · 5 scenes"
  },
  {
   "id": "s3-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.7",
   "title": "Extended Example 3A: agreeing the Beverages sales budget",
-  "blurb": "Schedule, the tie lines, questions · 4 scenes"
+  "blurb": "Schedule, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the Tahini & Spreads budget meeting",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 6 scenes"
  },
  {
   "id": "review",

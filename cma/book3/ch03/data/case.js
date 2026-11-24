@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Tahini & Spreads budget meeting",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "topDownUp"
+  },
+  "scenario": {
+    "title": "Case question: the Tahini & Spreads budget meeting",
+    "p": [
+      "It is October, and the Tahini & Spreads division is preparing its budget for 2028. The division manager, Samir, has proposed sales of 500 g tahini jars that are well below what the controller, Rana, expects from signed orders and market data.",
+      "Samir says a new competitor may enter the Gulf market and that he does not want to promise too much. His bonus is paid when actual contribution margin beats the budget. Rana notes that the orders already signed with Barada and the Gulf importer support a higher figure.",
+      "Rana is also reviewing the plant manager's cost report. It lists the sesame used per jar, the price paid for sesame, the hours worked on the filling line, the depreciation of the plant, and head-office costs allocated to the division. The division's cost reports are prepared monthly.",
+      "The chief executive wants the meeting to end with a budget that is realistic and that the division accepts. She has asked Rana to measure the gap between the two figures and to suggest how to agree the budget without damaging the division's commitment."
+    ]
   },
   "scenes": [
     {
@@ -41,7 +50,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F303-15",
+        "Practice/t:tahini-spreads-d"
+      ]
     },
     {
       "id": "c303-1",
@@ -64,30 +77,34 @@
         {
           "name": "Sesame used per jar",
           "to": "controllable",
-          "why": "Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
+          "why": "Cost on the plant manager's report: Controllable. Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
         },
         {
           "name": "Price paid for sesame",
           "to": "not-controllable",
-          "why": "Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
+          "why": "Cost on the plant manager's report: Not controllable. Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
         },
         {
           "name": "Hours worked on the filling line",
           "to": "controllable",
-          "why": "Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
+          "why": "Cost on the plant manager's report: Controllable. Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
         },
         {
           "name": "Depreciation of the plant",
           "to": "not-controllable",
-          "why": "Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
+          "why": "Cost on the plant manager's report: Not controllable. Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
         },
         {
           "name": "Head-office costs allocated to the division",
           "to": "not-controllable",
-          "why": "Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
+          "why": "Cost on the plant manager's report: Not controllable. Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-on-the-plan",
+        "Answers and explanations/t:cost-on-the-plan"
+      ]
     },
     {
       "id": "c303-2",

@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada's liabilities at the end of 2027",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "refinance"
+  },
+  "scenario": {
+    "title": "Case question: Barada's liabilities at the end of 2027",
+    "p": [
+      "Barada Wholesale is preparing its balance sheet at December 31, 2027. Its liabilities include a bank loan repaid in instalments, a note payable due in 2029, customer deposits, warranty obligations and extended service plans sold to shops.",
+      "Barada gives a standard warranty on the refrigerators it sells to shops, and it also sells separate service plans that extend the cover for two more years. Some repairs were made during the year, and new sales added new obligations.",
+      "The bank agreement contains covenants. The controller must check whether any covenant was breached at the year-end, because a breach can make the whole loan current. She must also split each liability between its current and noncurrent parts.",
+      "Mr Haddad wants the total current liabilities for the bank's liquidity test and an explanation of why the service plans appear as a liability rather than as revenue. Amounts in the exhibit are in thousands of U.S. dollars. Several shops have already asked to renew their service plans for another year. The bank will compare the new figures with last year's balance sheet, so every reclassification must be explained in the notes."
+    ]
   },
   "scenes": [
     {
@@ -72,7 +81,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F12-13",
+        "Practice/t:barada-wholesale"
+      ]
     },
     {
       "id": "c12-1",
@@ -122,7 +135,11 @@
           "why": "Item: Current liability."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c12-2",

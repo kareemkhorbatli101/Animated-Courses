@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Analysing variances and acting on them",
   "n": "14.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.5"),
   "brief": {
     "about": "A variance report is the start of a conversation, not its conclusion. Figure F314-10 gives the five questions to ask before recommending anything. The order matters. Deciding on an action before knowing the cause is the commonest fault in variance reporting, and so is acting on a variance whose cause nobody in the division controls. A favorable variance also deserves a question.",
     "anim": "ohFour",
@@ -27,37 +27,44 @@
   "scenes": [
     {
       "id": "fig-f314-10",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F314-10",
       "title": "Five questions before recommending an action",
-      "say": "Five questions before recommending an action",
-      "caption": "Step (C.1.s)",
-      "col1": "What to ask",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Step (C.1.s)",
+      "col": "What to ask",
       "rows": [
         {
-          "name": "1. Is it significant?. Compare with the rule of Chapter 11 (5% of the budgeted figure)",
-          "note": true
+          "label": "1. Is it significant?",
+          "right": "Compare with the rule of Chapter 11 (5% of the budgeted figure)",
+          "why": "What to ask: Compare with the rule of Chapter 11 (5% of the budgeted figure)."
         },
         {
-          "name": "2. What caused it?. Separate price from quantity, and the plan from the result",
-          "note": true
+          "label": "2. What caused it?",
+          "right": "Separate price from quantity, and the plan from the result",
+          "why": "What to ask: Separate price from quantity, and the plan from the result."
         },
         {
-          "name": "3. Who controls the cause?. A world price rise is not the plant's responsibility",
-          "note": true
+          "label": "3. Who controls the cause?",
+          "right": "A world price rise is not the plant's responsibility",
+          "why": "What to ask: A world price rise is not the plant's responsibility."
         },
         {
-          "name": "4. Is it linked to another variance?. A favorable price beside an unfavorable usage usually has one cause",
-          "note": true
+          "label": "4. Is it linked to another variance?",
+          "right": "A favorable price beside an unfavorable usage usually has one cause",
+          "why": "What to ask: A favorable price beside an unfavorable usage usually has one cause."
         },
         {
-          "name": "5. What action follows?. Remove the cause, change the standard, or accept it and explain",
-          "note": true
+          "label": "5. What action follows?",
+          "right": "Remove the cause, change the standard, or accept it and explain",
+          "why": "What to ask: Remove the cause, change the standard, or accept it and explain."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Five questions before recommending an action",
+      "from": [
+        "F314-10",
+        "14.5/t:step-c-1-s-what"
+      ]
     },
     {
       "id": "sc314-9",
@@ -82,6 +89,9 @@
           "text": "What action should we take?",
           "why": "Action follows the cause."
         }
+      ],
+      "from": [
+        "14.5/section-check"
       ]
     },
     {
@@ -108,7 +118,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A favorable fixed overhead spending variance arose because planned maintenance was cancelled."
+      "exhibit": "A favorable fixed overhead spending variance arose because planned maintenance was cancelled.",
+      "from": [
+        "14.5/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The three risks, defined",
   "n": "5.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.1"),
   "brief": {
     "about": "Chapter 1 introduced the three risks in passing. Figure F405-02 defines each one, and says who can do anything about it. Inherent risk is susceptibility before any control is considered. Control risk is the risk that the system fails to prevent or detect the misstatement in time. Detection risk is the risk that the auditor's own procedures miss it. The practical point is who holds each lever.",
     "anim": "riskStack",
@@ -27,37 +27,39 @@
   "scenes": [
     {
       "id": "fig-f405-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F405-02",
       "title": "The three risks and who can change each",
-      "say": "The three risks and who can change each",
-      "caption": "Risk",
-      "col1": "Definition",
-      "col2": "Who can change it",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Risk",
+      "col": "Definition",
       "rows": [
         {
-          "name": "Inherent risk",
-          "a": "Susceptibility to material misstatement BEFORE considering any control",
-          "b": "Management, by changing what the business does"
+          "label": "Inherent risk",
+          "right": "Susceptibility to material misstatement BEFORE considering any control",
+          "why": "Definition: Susceptibility to material misstatement BEFORE considering any control. Management, by changing what the business does."
         },
         {
-          "name": "Control risk",
-          "a": "The risk that internal control will not prevent or detect it in time",
-          "b": "Management, by designing and operating better controls"
+          "label": "Control risk",
+          "right": "The risk that internal control will not prevent or detect it in time",
+          "why": "Definition: The risk that internal control will not prevent or detect it in time. Management, by designing and operating better controls."
         },
         {
-          "name": "Detection risk",
-          "a": "The risk that the auditor's procedures fail to find it",
-          "b": "The auditor, by changing the nature, timing and extent of testing"
+          "label": "Detection risk",
+          "right": "The risk that the auditor's procedures fail to find it",
+          "why": "Definition: The risk that the auditor's procedures fail to find it. The auditor, by changing the nature, timing and extent of testing."
         },
         {
-          "name": "Audit risk",
-          "a": "inherent x control x detection",
-          "b": "The risk of giving a wrong opinion"
+          "label": "Audit risk",
+          "right": "inherent x control x detection",
+          "why": "Definition: inherent x control x detection. The risk of giving a wrong opinion."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The three risks and who can change each",
+      "from": [
+        "F405-02",
+        "5.1/t:risk-definition"
+      ]
     },
     {
       "id": "sc405-1",
@@ -82,6 +84,9 @@
           "text": "only in cash balances",
           "why": "It applies to any assertion."
         }
+      ],
+      "from": [
+        "5.1/section-check"
       ]
     },
     {
@@ -107,6 +112,9 @@
           "text": "none of the three",
           "why": "Two of the three are management's."
         }
+      ],
+      "from": [
+        "5.1/section-check"
       ]
     }
   ]

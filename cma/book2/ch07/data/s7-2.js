@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Transferred-in costs",
   "n": "7.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.2"),
   "brief": {
     "about": "When units leave a department, their cost goes with them. The entry is: debit Work in Process of the next department, credit Work in Process of the previous one. The next department records these as transferred-in costs. For the next department, transferred-in cost behaves like a material added at the start. Bottling received extra-virgin oil at $8.06 a liter, the cost set by the joint cost allocation in Chapter 11.",
     "anim": "equivUnits",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F207-03.png",
       "label": "Figure F207-03.",
-      "caption": "Bottling cost layers: transferred-in cost, bottles and conversion."
+      "caption": "Bottling cost layers: transferred-in cost, bottles and conversion.",
+      "from": [
+        "F207-03"
+      ]
     },
     {
       "id": "sc207-3",
@@ -56,7 +59,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Extra-virgin oil moves from crushing to bottling."
+      "exhibit": "Extra-virgin oil moves from crushing to bottling.",
+      "from": [
+        "7.2/section-check"
+      ]
     },
     {
       "id": "sc207-4",
@@ -81,6 +87,9 @@
           "text": "conversion only",
           "why": "Materials are left out."
         }
+      ],
+      "from": [
+        "7.2/section-check"
       ]
     }
   ]

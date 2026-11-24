@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P10-01–P10-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "curve"
   },

@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the developer who never left",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "sysRoles"
+  },
+  "scenario": {
+    "title": "Case question: the developer who never left",
+    "p": [
+      "When Orontes installed its payables system six years ago, an external developer named Fadi built it. He was then hired permanently to support it, and no one has reviewed the arrangement since. Fadi writes the code, moves his own changes into production, and holds the database administrator password.",
+      "He also holds a user account in the payables application with rights to release a payment run, which was granted during a staff shortage two years ago and never removed. When a supplier queries a payment, accounts payable forwards the query to Fadi because he can read the database directly and answer fastest. Orontes has no separate database administrator and no written procedure for moving code into production.",
+      "The group controller, Rania, has been asked to review systems security before the Gulf expansion. She has found no evidence of wrongdoing. Fadi is well regarded and has twice worked unpaid weekends to recover from a failed upgrade.",
+      "The chief financial officer is reluctant to change anything, arguing that Fadi is the only person who understands the system and that imposing controls on a trusted employee would be insulting and would slow down support."
+    ],
+    "note": "Use the scenario above for items C406-1 to C406-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "Creating a supplier record directly in the database",
           "to": "authorization",
-          "why": "And he investigates the queries that would reveal any of it, which is reconciliation."
+          "why": "Fadi's access: Authorization."
         },
         {
           "name": "Altering the posting routine in the code",
           "to": "recording",
-          "why": "And he investigates the queries that would reveal any of it, which is reconciliation."
+          "why": "Fadi's access: Recording."
         },
         {
           "name": "Releasing a payment run",
           "to": "custody",
-          "why": "And he investigates the queries that would reveal any of it, which is reconciliation."
+          "why": "Fadi's access: Custody."
         },
         {
           "name": "Investigating supplier payment queries",
           "to": "reconciliation",
-          "why": "And he investigates the queries that would reveal any of it, which is reconciliation."
+          "why": "Fadi's access: Reconciliation."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:fadi-s-access-ca",
+        "Practice/t:fadi-s-access-ca#2",
+        "Answers and explanations/t:fadi-s-access-ca"
+      ]
     },
     {
       "id": "c406-2",
@@ -86,7 +101,7 @@
           "why": "He can alter the posting routine, which is recording."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C406-1 to C406-7."
     },
     {
       "id": "c406-3",

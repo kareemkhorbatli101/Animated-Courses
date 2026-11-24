@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the halva line in 2027",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "absVar"
+  },
+  "scenario": {
+    "title": "Case question: the halva line in 2027",
+    "p": [
+      "In 2027 the halva line of Tahini & Spreads produced more trays than it sold. The line had no halva in inventory at the start of the year, so the unsold trays became ending inventory. Barada and smaller buyers bought the rest at a single price per tray.",
+      "The line's costs include sesame and sugar, direct labor, variable overhead and a fixed overhead budget that is spread over the normal capacity of the line. There are also variable selling costs for each tray sold, and fixed selling and administrative costs.",
+      "The published statements of Orontes use absorption costing, as U.S. GAAP requires. The division manager, however, prefers a variable costing report, because it shows how profit changes with sales. The two reports show different operating incomes for the same year.",
+      "Karim, the division analyst, must prepare both income statements and explain the difference to the manager. He needs the contribution margin, the operating income under each method and the value of ending inventory in the published statements. The exhibit gives the prices, costs and volumes. The manager is also worried that a report which rewards production could encourage the line to build inventory that Barada does not need."
+    ]
   },
   "scenes": [
     {
@@ -61,7 +70,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F209-15",
+        "Practice/t:halva-line-fy202"
+      ]
     },
     {
       "id": "c209-1",
@@ -116,7 +129,11 @@
           "why": "Halva cost: Product cost under absorption only."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:halva-cost-categ",
+        "Answers and explanations/t:halva-cost-categ"
+      ]
     },
     {
       "id": "c209-2",

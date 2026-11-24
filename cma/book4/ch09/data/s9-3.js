@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The transaction cycles",
   "n": "9.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.3"),
   "brief": {
     "about": "Transactions are grouped into cycles, each covering a sequence of related events. Figure F409-04 shows the four operating cycles and the ledger they all feed. The revenue cycle, often called revenue to cash, runs from the customer order to the collection of cash. The expenditure cycle, or expenditure to disbursement, runs from the purchase request to the payment. Each cycle has its own documents, master files and controls.",
     "anim": "cycleRing",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F409-04.png",
       "label": "Figure F409-04.",
-      "caption": "The four transaction cycles feeding the general ledger."
+      "caption": "The four transaction cycles feeding the general ledger.",
+      "from": [
+        "F409-04"
+      ]
     },
     {
       "id": "sc409-5",
@@ -56,6 +59,9 @@
           "text": "general ledger cycle",
           "why": "That receives summaries from the others."
         }
+      ],
+      "from": [
+        "9.3/section-check"
       ]
     },
     {
@@ -81,6 +87,9 @@
           "text": "It operates only at the year end",
           "why": "It operates every period."
         }
+      ],
+      "from": [
+        "9.3/section-check"
       ]
     }
   ]

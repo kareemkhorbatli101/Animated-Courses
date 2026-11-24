@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Enterprise resource planning",
   "n": "17.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.5"),
   "brief": {
     "about": "Enterprise resource planning (ERP) is an integrated system in which sales, purchasing, production, inventory, accounting and human resources all work from one shared database. Figure F217-09 shows the idea. Because data is entered once, the copying and re-typing removed in Chapter 15 disappear across the company. Managers see stock, orders and costs as they change, and MRP runs on live data instead of last month's reports.",
     "anim": "supplyPlan",
@@ -31,50 +31,63 @@
       }
     ]
   },
+  "from": [
+    "17.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f217-09",
       "kind": "figure",
       "file": "F217-09.png",
       "label": "Figure F217-09.",
-      "caption": "ERP: every function works from one shared database."
+      "caption": "ERP: every function works from one shared database.",
+      "from": [
+        "F217-09"
+      ]
     },
     {
       "id": "fig-f217-10",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F217-10",
       "title": "Operational benefits of ERP",
-      "say": "Operational benefits of ERP",
-      "caption": "Operational benefit of ERP",
-      "col1": "Example",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Operational benefit of ERP",
+      "col": "Example",
       "rows": [
         {
-          "name": "Data entered once",
-          "a": "No copying of orders (Chapter 15)",
-          "b": ""
+          "label": "Data entered once",
+          "right": "No copying of orders (Chapter 15)",
+          "why": "Example: No copying of orders (Chapter 15)."
         },
         {
-          "name": "Real-time information. Managers see stock, orders and costs as they change",
-          "note": true
+          "label": "Real-time information",
+          "right": "Managers see stock, orders and costs as they change",
+          "why": "Example: Managers see stock, orders and costs as they change."
         },
         {
-          "name": "Integrated planning",
-          "a": "MRP uses live sales and stock data",
-          "b": ""
+          "label": "Integrated planning",
+          "right": "MRP uses live sales and stock data",
+          "why": "Example: MRP uses live sales and stock data."
         },
         {
-          "name": "Faster period-end close",
-          "a": "Fewer reconciliations between departments",
-          "b": ""
+          "label": "Faster period-end close",
+          "right": "Fewer reconciliations between departments",
+          "why": "Example: Fewer reconciliations between departments."
         },
         {
-          "name": "Better control. Standard processes and a full record of who did what",
-          "note": true
+          "label": "Better control",
+          "right": "Standard processes and a full record of who did what",
+          "why": "Example: Standard processes and a full record of who did what."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Operational benefits of ERP",
+      "traps": [
+        "pgi"
+      ],
+      "from": [
+        "F217-10",
+        "17.5/t:operational-bene"
+      ]
     },
     {
       "id": "sc217-9",
@@ -100,8 +113,8 @@
           "why": "ERP is an integrated system."
         }
       ],
-      "traps": [
-        "pgi"
+      "from": [
+        "17.5/section-check"
       ]
     },
     {
@@ -128,7 +141,10 @@
           "correct": true
         }
       ],
-      "exhibit": "After ERP, a Levant order entered by the customer updates stock, production plans and receivables at once."
+      "exhibit": "After ERP, a Levant order entered by the customer updates stock, production plans and receivables at once.",
+      "from": [
+        "17.5/section-check"
+      ]
     }
   ]
 };

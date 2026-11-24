@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 15A: one period, four layers of income",
   "n": "15.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.7"),
   "brief": {
     "about": "This example assembles the bottom of the Orontes income statement: continuing operations, discontinued operations, net income and comprehensive income. It is exam-core, because the exam tests which layer an item belongs to. Pre-tax income from continuing operations is $4,680 thousand, leaving $3,510 after tax. The discontinued component contributes $150 after tax, so net income is $3,660. Other comprehensive income of $12 gives comprehensive income of $3,672. Three tests settle most cases.",
     "anim": "belowLine",
@@ -59,6 +59,9 @@
       }
     ]
   },
+  "from": [
+    "15.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-10",
@@ -76,6 +79,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F15-10",
+        "15.7/t:orontes-2025-usd",
+        "15.7/exam-trap"
       ]
     },
     {
@@ -127,6 +135,10 @@
             "c3": "450,000"
           }
         }
+      ],
+      "from": [
+        "F15-11",
+        "15.7/t:discontinued-com"
       ]
     },
     {
@@ -177,7 +189,10 @@
           "why": "This is pre-tax continuing operations."
         }
       ],
-      "exhibit": "Use Extended Example 15A."
+      "exhibit": "Use Extended Example 15A.",
+      "from": [
+        "15.7/section-check"
+      ]
     },
     {
       "id": "sc15-14",
@@ -203,7 +218,10 @@
           "why": "It is part of net income."
         }
       ],
-      "exhibit": "Use Extended Example 15A."
+      "exhibit": "Use Extended Example 15A.",
+      "from": [
+        "15.7/section-check"
+      ]
     },
     {
       "id": "sc15-15",
@@ -229,7 +247,10 @@
           "why": "This omits the reclassification."
         }
       ],
-      "exhibit": "Use Extended Example 15A."
+      "exhibit": "Use Extended Example 15A.",
+      "from": [
+        "15.7/section-check"
+      ]
     }
   ]
 };

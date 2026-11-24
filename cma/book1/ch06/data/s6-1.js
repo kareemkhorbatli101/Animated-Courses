@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Recognizing and measuring receivables",
   "n": "6.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.1"),
   "brief": {
     "about": "A company records an account receivable when its right to be paid is unconditional: only the passage of time is needed before payment is due. This usually happens when it delivers the goods or services and transfers control (Chapter 11). If the company still has to do something else before it can bill, for example finish a second delivery, it has a contract asset, not a receivable.",
     "anim": "datePeriod",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F06-02.png",
       "label": "Figure F06-02.",
-      "caption": "Timeline of a receivable from order to collection, using Orontes and GreenBasket data."
+      "caption": "Timeline of a receivable from order to collection, using Orontes and GreenBasket data.",
+      "from": [
+        "F06-02"
+      ]
     },
     {
       "id": "sc6-1",
@@ -60,6 +63,10 @@
       "exhibit": "Orontes has delivered the first of two shipments under one contract. It can bill the customer only after the second shipment.",
       "traps": [
         "receivable-or-contract-asset"
+      ],
+      "from": [
+        "6.1/exam-trap",
+        "6.1/section-check"
       ]
     },
     {
@@ -86,7 +93,10 @@
           "why": "Credit losses are recorded in a separate allowance account, not netted in the receivable."
         }
       ],
-      "exhibit": "A trade receivable is due in 60 days."
+      "exhibit": "A trade receivable is due in 60 days.",
+      "from": [
+        "6.1/section-check"
+      ]
     }
   ]
 };

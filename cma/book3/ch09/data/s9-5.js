@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Credit and payables policies",
   "n": "9.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.5"),
   "brief": {
     "about": "Credit and payables policies change the timing of cash, and therefore the borrowing. Collecting faster from customers brings cash in earlier; paying suppliers faster sends it out earlier. Figure F309-10 tests two changes in the first quarter. Collecting 50% in the quarter of sale would add $420,000 of cash; paying for concentrate in full at once would take more cash out and raise the loan.",
     "anim": "capexPaths",
@@ -66,6 +66,11 @@
       ],
       "traps": [
         "policy-changes-move-cash-not-profit"
+      ],
+      "from": [
+        "F309-10",
+        "9.5/t:first-quarter-20",
+        "9.5/exam-trap"
       ]
     },
     {
@@ -91,6 +96,9 @@
           "text": "change operating income",
           "why": "Only timing changes."
         }
+      ],
+      "from": [
+        "9.5/section-check"
       ]
     },
     {
@@ -117,7 +125,10 @@
           "why": "This is the new amount collected in the quarter."
         }
       ],
-      "exhibit": "First-quarter sales are $4,200,000. The share collected in the quarter of sale rises from 40% to 50%."
+      "exhibit": "First-quarter sales are $4,200,000. The share collected in the quarter of sale rises from 40% to 50%.",
+      "from": [
+        "9.5/section-check"
+      ]
     }
   ]
 };

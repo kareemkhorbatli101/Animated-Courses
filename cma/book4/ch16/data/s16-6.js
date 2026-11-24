@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 16A: decomposing the Beverages series",
   "n": "16.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.6"),
   "brief": {
     "about": "This example performs the decomposition and then says what it is and is not good for. It is exam-core. A four-quarter moving average is taken, then centred so that it lines up with an actual quarter. With 8 observations this gives 4 trend values, from 2027 Q3 to 2028 Q2. The two quarters at each end have no trend value, which is a real cost of the method.",
     "anim": "tsComponents",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "16.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f416-07",
@@ -96,7 +99,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F416-07",
+        "16.6/t:what-is-describe",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t16-6-0",
+      "kind": "lines",
+      "kicker": "Section 16.6",
+      "title": "Movement described",
+      "caption": "Movement described",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Steadily rising demand as the Gulf market opens",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The third quarter peaking every year",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "A multi-year regional downturn",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "A port strike delaying one shipment",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:movement-describ",
+        "Practice/t:movement-describ#2",
+        "Answers and explanations/t:movement-describ"
+      ]
+    },
+    {
+      "id": "t16-6-1",
+      "kind": "lines",
+      "kicker": "Section 16.6",
+      "title": "Movement described",
+      "caption": "Movement described",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Steadily rising demand as the Gulf market opens",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The third quarter peaking every year",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "A multi-year regional downturn",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "A port strike delaying one shipment",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:movement-describ",
+        "Practice/t:movement-describ#2",
+        "Answers and explanations/t:movement-describ"
+      ]
+    },
+    {
+      "id": "t16-6-2",
+      "kind": "lines",
+      "kicker": "Section 16.6",
+      "title": "Movement described",
+      "caption": "Movement described",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Steadily rising demand as the Gulf market opens",
+          "a": "Trend",
+          "b": ""
+        },
+        {
+          "name": "The third quarter peaking every year",
+          "a": "Seasonal",
+          "b": ""
+        },
+        {
+          "name": "A multi-year regional downturn",
+          "a": "Cyclical",
+          "b": ""
+        },
+        {
+          "name": "A port strike delaying one shipment",
+          "a": "Irregular",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:movement-describ",
+        "Practice/t:movement-describ#2",
+        "Answers and explanations/t:movement-describ"
+      ]
     },
     {
       "id": "ties",
@@ -128,6 +250,9 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "16.6/exam-trap"
       ]
     },
     {
@@ -173,6 +298,12 @@
       "note": "Why: seasonal variation returns at the same point each year, so the third quarter peaks in both years here",
       "traps": [
         "the-cyclical-component-cannot-be-seen-"
+      ],
+      "from": [
+        "16.6/your-turn",
+        "F416-07",
+        "16.6/t:what-is-describe",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -199,7 +330,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 16A."
+      "exhibit": "Use Extended Example 16A.",
+      "from": [
+        "16.6/section-check"
+      ]
     },
     {
       "id": "sc416-12",
@@ -225,7 +359,10 @@
           "why": "The trend is the smooth component, not the peak."
         }
       ],
-      "exhibit": "Use Extended Example 16A. A manager congratulates the team on the third-quarter rise."
+      "exhibit": "Use Extended Example 16A. A manager congratulates the team on the third-quarter rise.",
+      "from": [
+        "16.6/section-check"
+      ]
     }
   ]
 };

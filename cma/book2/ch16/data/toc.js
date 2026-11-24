@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.1",
   "title": "Continuous improvement techniques and quality",
-  "blurb": "Figures, a printed statement, amounts, questions · 5 scenes"
+  "blurb": "Figures, match, amounts, questions · 5 scenes"
  },
  {
   "id": "s16-2",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.4",
   "title": "The financial impact of quality improvement",
-  "blurb": "Figures, schedule, amounts, questions · 5 scenes"
+  "blurb": "Figures, schedule, a printed statement, yourturn, questions · 6 scenes"
  },
  {
   "id": "s16-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.5",
   "title": "Extended Example 16A: the total impact on Beverages",
-  "blurb": "Figures, amounts, the tie lines, questions · 5 scenes"
+  "blurb": "Figures, amounts, a printed statement, the tie lines, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -81,6 +81,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · quality costs at Tahini & Spreads",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 5 scenes"
  },
  {
   "id": "review",

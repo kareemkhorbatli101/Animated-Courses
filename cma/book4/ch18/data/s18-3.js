@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Design practices worth following",
   "n": "18.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.3"),
   "brief": {
     "about": "Figure F418-04 collects the rules, each with the reason behind it, because a rule whose reason is understood survives the case it does not quite fit. The aspect ratio deserves more attention than it usually gets. Stretching a chart vertically steepens every trend in it, and the stretch is invisible to a reader who never sees the alternative. Choosing the proportions before seeing the result removes the temptation.",
     "anim": "chartPick",
@@ -27,55 +27,57 @@
   "scenes": [
     {
       "id": "fig-f418-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F418-04",
       "title": "Design practices and the reason for each",
-      "say": "Design practices and the reason for each",
-      "caption": "Practice (F.4.bb)",
-      "col1": "Why",
-      "col2": "Note",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Practice (F.4.bb)",
+      "col": "Why",
       "rows": [
         {
-          "name": "Start a bar chart's axis at zero",
-          "a": "A bar's length is the message; truncating it lies about the ratio",
-          "b": "A line chart may start elsewhere, if labelled"
+          "label": "Start a bar chart's axis at zero",
+          "right": "A bar's length is the message; truncating it lies about the ratio",
+          "why": "Why: A bar's length is the message; truncating it lies about the ratio. A line chart may start elsewhere, if labelled."
         },
         {
-          "name": "Keep the aspect ratio honest",
-          "a": "Stretching a chart vertically steepens every trend",
-          "b": "Choose it before seeing the result"
+          "label": "Keep the aspect ratio honest",
+          "right": "Stretching a chart vertically steepens every trend",
+          "why": "Why: Stretching a chart vertically steepens every trend. Choose it before seeing the result."
         },
         {
-          "name": "Label directly where you can",
-          "a": "A legend makes the eye travel; a label does not",
-          "b": "Put the series name at the end of the line"
+          "label": "Label directly where you can",
+          "right": "A legend makes the eye travel; a label does not",
+          "why": "Why: A legend makes the eye travel; a label does not. Put the series name at the end of the line."
         },
         {
-          "name": "Order categories meaningfully",
-          "a": "By size, or by time; not by the alphabet",
-          "b": "Unless the reader will look a category up"
+          "label": "Order categories meaningfully",
+          "right": "By size, or by time; not by the alphabet",
+          "why": "Why: By size, or by time; not by the alphabet. Unless the reader will look a category up."
         },
         {
-          "name": "Remove what does not inform",
-          "a": "Gridlines, borders and effects compete with the data",
-          "b": "Every mark should carry meaning"
+          "label": "Remove what does not inform",
+          "right": "Gridlines, borders and effects compete with the data",
+          "why": "Why: Gridlines, borders and effects compete with the data. Every mark should carry meaning."
         },
         {
-          "name": "One message per exhibit",
-          "a": "A chart saying three things usually says none",
-          "b": "Draw the second chart"
+          "label": "One message per exhibit",
+          "right": "A chart saying three things usually says none",
+          "why": "Why: A chart saying three things usually says none. Draw the second chart."
         },
         {
-          "name": "Show the caveat",
-          "a": "Sample size, excluded rows, estimated inputs",
-          "b": "Chapter 17's probabilities were estimates"
+          "label": "Show the caveat",
+          "right": "Sample size, excluded rows, estimated inputs",
+          "why": "Why: Sample size, excluded rows, estimated inputs. Chapter 17's probabilities were estimates."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "Design practices and the reason for each",
       "traps": [
         "gridlines",
         "stretching-a-chart-vertically-steepens"
+      ],
+      "from": [
+        "F418-04",
+        "18.3/t:practice-f-4-bb"
       ]
     },
     {
@@ -101,6 +103,9 @@
           "text": "It makes charts consistent in size",
           "why": "Consistency is a side benefit."
         }
+      ],
+      "from": [
+        "18.3/section-check"
       ]
     },
     {
@@ -126,6 +131,9 @@
           "why": "Decoration competes with the data for attention.",
           "correct": true
         }
+      ],
+      "from": [
+        "18.3/section-check"
       ]
     }
   ]

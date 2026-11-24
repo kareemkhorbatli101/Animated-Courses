@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 10A: the three questions an asset asks",
   "n": "10.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.6"),
   "brief": {
     "about": "Every long-lived asset raises the same three questions in turn: how to spread its cost, whether it is still worth its carrying amount, and what happens when it goes. This example answers all three with Orontes figures. It is exam-core. The bottling line costs $1,200,000 with a salvage value of $150,000 and a life of 5 years, so the depreciable base is $1,050,000. The Jordan plant carries at $4,000,000.",
     "anim": "curve",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "10.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "sched-11",
@@ -164,6 +167,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F10-11",
+        "10.6/t:end-of-year-stra",
+        "10.6/exam-trap"
       ]
     },
     {
@@ -191,6 +199,94 @@
           "us": "No",
           "ifrs": "Yes, except for goodwill"
         }
+      ],
+      "from": [
+        "F10-12",
+        "10.6/t:the-jordan-plant"
+      ]
+    },
+    {
+      "id": "t10-6-0",
+      "kind": "lines",
+      "kicker": "Section 10.6",
+      "title": "Asset",
+      "caption": "Asset",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "P",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "W",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "B",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "G",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "V",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:asset-category",
+        "Answers and explanations/t:asset-category"
+      ]
+    },
+    {
+      "id": "t10-6-1",
+      "kind": "lines",
+      "kicker": "Section 10.6",
+      "title": "Asset",
+      "caption": "Asset",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "P",
+          "a": "Two steps: recoverability, then fair value",
+          "b": ""
+        },
+        {
+          "name": "W",
+          "a": "Two steps: recoverability, then fair value",
+          "b": ""
+        },
+        {
+          "name": "B",
+          "a": "One step: carrying amount vs fair value",
+          "b": ""
+        },
+        {
+          "name": "G",
+          "a": "Single-step goodwill test",
+          "b": ""
+        },
+        {
+          "name": "V",
+          "a": "Lower of carrying amount and fair value less cost to sell",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:asset-category",
+        "Answers and explanations/t:asset-category"
       ]
     },
     {
@@ -247,7 +343,10 @@
         }
       ],
       "exhibit": "Use Extended Example 10A.",
-      "say": "What is the carrying amount of the bottling line at the end of year five under double-declining balance?"
+      "say": "What is the carrying amount of the bottling line at the end of year five under double-declining balance?",
+      "from": [
+        "10.6/section-check"
+      ]
     },
     {
       "id": "sc10-12",
@@ -273,7 +372,10 @@
           "why": "U.S. GAAP does impair plant, but only after the recoverability test fails."
         }
       ],
-      "exhibit": "Use Extended Example 10A."
+      "exhibit": "Use Extended Example 10A.",
+      "from": [
+        "10.6/section-check"
+      ]
     },
     {
       "id": "sc10-13",
@@ -299,7 +401,10 @@
           "why": "This is the proceeds, not the gain."
         }
       ],
-      "exhibit": "Use Extended Example 10A."
+      "exhibit": "Use Extended Example 10A.",
+      "from": [
+        "10.6/section-check"
+      ]
     }
   ]
 };

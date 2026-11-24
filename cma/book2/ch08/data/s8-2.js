@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Fixed overhead",
   "n": "8.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.2"),
   "brief": {
     "about": "Fixed overhead is the cost of having capacity: it does not change with activity in the relevant range. Typical components are depreciation, supervision, insurance, property tax, rent or lease costs, and the fixed charges of service departments. Figure F208-04 lists Tahini & Spreads' fixed overhead for 2027: $2,400,000, including $690,000 charged by the service departments (Chapter 10). Keep variable items out of the fixed pool.",
     "anim": "rateFraction",
@@ -43,6 +43,10 @@
           "answer": "2400000",
           "why": "Budgeted fixed overhead: 2,400,000."
         }
+      ],
+      "from": [
+        "F208-04",
+        "8.2/t:tahini-spreads-f"
       ]
     },
     {
@@ -68,6 +72,9 @@
           "text": "Direct labor",
           "why": "Direct labor is a direct cost."
         }
+      ],
+      "from": [
+        "8.2/section-check"
       ]
     },
     {
@@ -93,6 +100,9 @@
           "text": "Power at $6 per machine hour",
           "why": "Power is variable overhead."
         }
+      ],
+      "from": [
+        "8.2/section-check"
       ]
     }
   ]

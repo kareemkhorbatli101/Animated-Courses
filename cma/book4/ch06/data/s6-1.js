@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Segregation inside the systems function",
   "n": "6.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.1"),
   "brief": {
     "about": "A computer concentrates power. A clerk who alters one invoice affects one transaction; a programmer who alters one routine affects every transaction it touches, silently, until someone notices. That is why the systems function has its own segregation rules. Figure F406-02 lists the combinations to avoid and what each would allow. The last row matters most in a small company.",
     "anim": "dutySplit",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f406-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F406-02",
       "title": "Combinations of systems access to avoid",
-      "say": "Combinations of systems access to avoid",
-      "caption": "Combination to avoid",
-      "col1": "What it would allow",
-      "col2": "The control",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Combination to avoid",
+      "col": "What it would allow",
       "rows": [
         {
-          "name": "Programmer with access to live data",
-          "a": "Can write code that benefits him and run it on real records",
-          "b": "Separate development from operations"
+          "label": "Programmer with access to live data",
+          "right": "Can write code that benefits him and run it on real records",
+          "why": "What it would allow: Can write code that benefits him and run it on real records. Separate development from operations."
         },
         {
-          "name": "Operator who can change programs",
-          "a": "Can alter a program, run it, and restore the original",
-          "b": "Program changes go through the librarian"
+          "label": "Operator who can change programs",
+          "right": "Can alter a program, run it, and restore the original",
+          "why": "What it would allow: Can alter a program, run it, and restore the original. Program changes go through the librarian."
         },
         {
-          "name": "Librarian who also programs",
-          "a": "Controls the versions and writes them",
-          "b": "Keep version control independent"
+          "label": "Librarian who also programs",
+          "right": "Controls the versions and writes them",
+          "why": "What it would allow: Controls the versions and writes them. Keep version control independent."
         },
         {
-          "name": "Analyst with production access",
-          "a": "Designs the control and can bypass it",
-          "b": "Design and operation stay apart"
+          "label": "Analyst with production access",
+          "right": "Designs the control and can bypass it",
+          "why": "What it would allow: Designs the control and can bypass it. Design and operation stay apart."
         },
         {
-          "name": "One person holding all system passwords",
-          "a": "Every separation above becomes theoretical",
-          "b": "Split administrative access and log its use"
+          "label": "One person holding all system passwords",
+          "right": "Every separation above becomes theoretical",
+          "why": "What it would allow: Every separation above becomes theoretical. Split administrative access and log its use."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Combinations of systems access to avoid",
+      "from": [
+        "F406-02",
+        "6.1/t:combination-to-a"
+      ]
     },
     {
       "id": "sc406-1",
@@ -87,6 +89,9 @@
           "text": "Systems staff are less trustworthy",
           "why": "Segregation assumes nothing about character."
         }
+      ],
+      "from": [
+        "6.1/section-check"
       ]
     },
     {
@@ -113,7 +118,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A programmer can move his own code changes into production."
+      "exhibit": "A programmer can move his own code changes into production.",
+      "from": [
+        "6.1/section-check"
+      ]
     }
   ]
 };

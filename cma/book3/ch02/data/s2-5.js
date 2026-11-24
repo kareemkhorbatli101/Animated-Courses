@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Portfolio and competitive analysis",
   "n": "2.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.5"),
   "brief": {
     "about": "The BCG growth-share matrix places each business unit by market growth and relative market share: the unit's share divided by the share of its largest competitor. Growth above 10.0% and relative share above 1.0 mark the dividing lines. Figure F302-10 draws the portfolio. Stars need investment to hold their lead, cash cows fund the others, question marks need a decision to invest or withdraw, and dogs are fixed or sold.",
     "anim": "swotGrid",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "2.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f302-10",
       "kind": "figure",
       "file": "F302-10.png",
       "label": "Figure F302-10.",
-      "caption": "BCG growth-share matrix for the Orontes portfolio."
+      "caption": "BCG growth-share matrix for the Orontes portfolio.",
+      "from": [
+        "F302-10"
+      ]
     },
     {
       "id": "grid-08",
@@ -94,6 +100,11 @@
       ],
       "traps": [
         "relative-not-own-share"
+      ],
+      "from": [
+        "F302-08",
+        "2.5/t:unit-2028-market",
+        "2.5/exam-trap"
       ]
     },
     {
@@ -151,6 +162,11 @@
             "________"
           ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F302-09",
+        "2.5/t:unit-2028-market#2"
       ]
     },
     {
@@ -214,6 +230,41 @@
           },
           "why": "Orontes Beverages: Small brand; few flavours. Largest rival: Higher costs."
         }
+      ],
+      "from": [
+        "F302-11",
+        "2.5/t:juice-market-oro"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F302-09",
+      "title": "Placing Beverages and Pulses & Spices",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the blank cells of Figure F302-09.",
+      "blanks": [
+        {
+          "label": "Beverages",
+          "working": "8.0 ÷ 25.0 = 0.32; growth 14.0% → Question mark",
+          "shown": "0.32",
+          "answer": 0.32,
+          "prompt": "8.0 ÷ 25.0 ="
+        },
+        {
+          "label": "Pulses & Spices",
+          "working": "5.0 ÷ 20.0 = 0.25; growth 2.0% → Dog",
+          "shown": "0.25",
+          "answer": 0.25,
+          "prompt": "5.0 ÷ 20.0 ="
+        }
+      ],
+      "caption": "Your turn: relative share and quadrant (complete the blanks)",
+      "from": [
+        "2.5/your-turn",
+        "F302-09",
+        "2.5/t:unit-2028-market#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -240,7 +291,10 @@
           "why": "The division is reversed."
         }
       ],
-      "exhibit": "A unit holds 8% of its market; the largest rival holds 25%."
+      "exhibit": "A unit holds 8% of its market; the largest rival holds 25%.",
+      "from": [
+        "2.5/section-check"
+      ]
     },
     {
       "id": "sc302-10",
@@ -266,7 +320,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A unit has high market growth and a relative share below 1.0."
+      "exhibit": "A unit has high market growth and a relative share below 1.0.",
+      "from": [
+        "2.5/section-check"
+      ]
     }
   ]
 };

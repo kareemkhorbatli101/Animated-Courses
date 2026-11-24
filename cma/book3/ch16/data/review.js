@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "respCenters"
   },
@@ -116,6 +116,9 @@
       "exhibit": "The supplier has spare capacity, its variable cost is $0.50, and an outside carrier offers the buyer $1.00.",
       "traps": [
         "ask-about-capacity-first"
+      ],
+      "from": [
+        "16.4/exam-trap"
       ]
     },
     {

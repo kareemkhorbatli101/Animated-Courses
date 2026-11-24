@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P304-01–P304-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "activityRate"
   },

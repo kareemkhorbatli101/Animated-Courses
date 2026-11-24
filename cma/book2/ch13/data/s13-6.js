@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 13A: Al-Salam's revenue under ASC 606",
   "n": "13.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.6"),
   "brief": {
     "about": "This example records the revenue from Al-Salam Supermarkets, whose rebates and listing fees make its gross sales look larger than its real revenue. The net revenue and customer margin are exam-core; the entries are for depth. Record the sales net of expected rebates, treat the listing fee as a reduction of revenue, pay the rebates, and then build Al-Salam's customer margin. Figure F213-13 records the three entries.",
     "anim": "whaleCurve",
@@ -56,6 +56,9 @@
       }
     ]
   },
+  "from": [
+    "13.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "post-13",
@@ -158,6 +161,105 @@
       "logic": {},
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F213-13",
+        "13.6/t:no-account-detai",
+        "13.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t13-6-0",
+      "kind": "lines",
+      "kicker": "Section 13.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Picking order lines",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Delivery stops",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Invoices",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Key account manager for the chain",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Supermarket channel promotions",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Warehouse rent",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t13-6-1",
+      "kind": "lines",
+      "kicker": "Section 13.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Picking order lines",
+          "a": "Order or delivery level",
+          "b": ""
+        },
+        {
+          "name": "Delivery stops",
+          "a": "Order or delivery level",
+          "b": ""
+        },
+        {
+          "name": "Invoices",
+          "a": "Order or delivery level",
+          "b": ""
+        },
+        {
+          "name": "Key account manager for the chain",
+          "a": "Customer level",
+          "b": ""
+        },
+        {
+          "name": "Supermarket channel promotions",
+          "a": "Channel level",
+          "b": ""
+        },
+        {
+          "name": "Warehouse rent",
+          "a": "Company level",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
       ]
     },
     {
@@ -203,7 +305,10 @@
           "why": "This is gross sales."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "13.6/section-check"
+      ]
     },
     {
       "id": "sc213-12",
@@ -230,7 +335,10 @@
         }
       ],
       "exhibit": "Use the Extended Example.",
-      "say": "What is Al-Salam's customer margin before its key account manager (whole USD)?"
+      "say": "What is Al-Salam's customer margin before its key account manager (whole USD)?",
+      "from": [
+        "13.6/section-check"
+      ]
     }
   ]
 };

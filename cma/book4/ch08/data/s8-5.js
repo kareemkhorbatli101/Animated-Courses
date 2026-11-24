@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Business continuity and disaster recovery",
   "n": "8.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.5"),
   "brief": {
     "about": "Business continuity planning is the work of making sure the critical functions of the business can keep running during and after a disruption. Disaster recovery planning is the part of it that restores the systems and the data. Figure F408-05 separates them. Both start from the business impact analysis, which asks what must not stop, for how long it could stop without serious harm, and what it would cost per day.",
     "anim": "siteTiers",
@@ -29,89 +29,93 @@
   "scenes": [
     {
       "id": "fig-f408-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F408-05",
       "title": "Business continuity planning against disaster recovery planning",
-      "say": "Business continuity planning against disaster recovery planning",
-      "caption": "",
-      "col1": "Business continuity plan (E.2.m)",
-      "col2": "Disaster recovery plan (E.2.n)",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Business continuity plan (E.2.m)",
       "rows": [
         {
-          "name": "Purpose",
-          "a": "Keep critical business functions running during and after a disruption",
-          "b": "Restore the IT systems and the data"
+          "label": "Purpose",
+          "right": "Keep critical business functions running during and after a disruption",
+          "why": "Business continuity plan (E.2.m): Keep critical business functions running during and after a disruption. Restore the IT systems and the data."
         },
         {
-          "name": "Scope",
-          "a": "The whole business: people, premises, suppliers, communications",
-          "b": "Systems, data, networks"
+          "label": "Scope",
+          "right": "The whole business: people, premises, suppliers, communications",
+          "why": "Business continuity plan (E.2.m): The whole business: people, premises, suppliers, communications. Systems, data, networks."
         },
         {
-          "name": "Starts from",
-          "a": "The business impact analysis: what must not stop, and for how long",
-          "b": "The criticality ranking the analysis produced"
+          "label": "Starts from",
+          "right": "The business impact analysis: what must not stop, and for how long",
+          "why": "Business continuity plan (E.2.m): The business impact analysis: what must not stop, and for how long. The criticality ranking the analysis produced."
         },
         {
-          "name": "Key measures",
-          "a": "Maximum tolerable outage for each function",
-          "b": "Recovery time objective and recovery point objective"
+          "label": "Key measures",
+          "right": "Maximum tolerable outage for each function",
+          "why": "Business continuity plan (E.2.m): Maximum tolerable outage for each function. Recovery time objective and recovery point objective."
         },
         {
-          "name": "Relationship",
-          "a": "The wider plan",
-          "b": "The IT part of the wider plan"
+          "label": "Relationship",
+          "right": "The wider plan",
+          "why": "Business continuity plan (E.2.m): The wider plan. The IT part of the wider plan."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "Business continuity planning against disaster recovery planning",
       "traps": [
         "a-plan-that-has-never-been-tested-is-a"
+      ],
+      "from": [
+        "F408-05",
+        "8.5/t:business-continu"
       ]
     },
     {
       "id": "fig-f408-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F408-06",
       "title": "The components of a disaster recovery plan",
-      "say": "The components of a disaster recovery plan",
-      "caption": "Component of a disaster recovery plan",
-      "col1": "What it covers",
-      "col2": "Note",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Component of a disaster recovery plan",
+      "col": "What it covers",
       "rows": [
         {
-          "name": "Roles and a recovery team",
-          "a": "Who decides to invoke the plan, and who does what",
-          "b": "Named people, with deputies"
+          "label": "Roles and a recovery team",
+          "right": "Who decides to invoke the plan, and who does what",
+          "why": "What it covers: Who decides to invoke the plan, and who does what. Named people, with deputies."
         },
         {
-          "name": "Critical application ranking",
-          "a": "Which systems are restored first",
-          "b": "From the business impact analysis"
+          "label": "Critical application ranking",
+          "right": "Which systems are restored first",
+          "why": "What it covers: Which systems are restored first. From the business impact analysis."
         },
         {
-          "name": "Backups and an alternate site",
-          "a": "Where the data and the processing will come from",
-          "b": "Hot, warm or cold, per Figure F408-07"
+          "label": "Backups and an alternate site",
+          "right": "Where the data and the processing will come from",
+          "why": "What it covers: Where the data and the processing will come from. Hot, warm or cold, per Figure F408-07."
         },
         {
-          "name": "Communication plan",
-          "a": "How staff, customers and suppliers are told",
-          "b": "Contact details held off site as well"
+          "label": "Communication plan",
+          "right": "How staff, customers and suppliers are told",
+          "why": "What it covers: How staff, customers and suppliers are told. Contact details held off site as well."
         },
         {
-          "name": "Recovery procedures",
-          "a": "The steps, in order, to bring systems back",
-          "b": "Written to be followed under pressure"
+          "label": "Recovery procedures",
+          "right": "The steps, in order, to bring systems back",
+          "why": "What it covers: The steps, in order, to bring systems back. Written to be followed under pressure."
         },
         {
-          "name": "Testing and updating",
-          "a": "Proof that the plan works, and maintenance of it",
-          "b": "A plan never tested is an assumption"
+          "label": "Testing and updating",
+          "right": "Proof that the plan works, and maintenance of it",
+          "why": "What it covers: Proof that the plan works, and maintenance of it. A plan never tested is an assumption."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The components of a disaster recovery plan",
+      "from": [
+        "F408-06",
+        "8.5/t:component-of-a-d"
+      ]
     },
     {
       "id": "sc408-9",
@@ -136,6 +140,9 @@
           "text": "testing the backups",
           "why": "That is one component of the recovery plan."
         }
+      ],
+      "from": [
+        "8.5/section-check"
       ]
     },
     {
@@ -161,6 +168,9 @@
           "why": "An untested plan is a set of assumptions.",
           "correct": true
         }
+      ],
+      "from": [
+        "8.5/section-check"
       ]
     }
   ]

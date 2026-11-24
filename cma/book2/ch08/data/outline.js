@@ -4,7 +4,7 @@
  * titles and the order are the deck's, folded exactly as assets/scene.js folds
  * them, and gates/cma_nav fails if this file and the decks disagree.
  *
- * Chapter 08 of Book 2 - 11 pages, 52 screens.
+ * Chapter 08 of Book 2 - 11 pages, 54 screens.
  */
 window.OUTLINE = {
   "case": [{"id": "c208-1", "title": "Where does each item belong?"}, {"id": "c208-2", "title": "Enter the fixed overhead rate per machine hour for 2026"}, {"id": "c208-3", "title": "Enter the total overhead applied in 2026"}, {"id": "c208-4", "title": "Enter the underapplied overhead for 2026"}, {"id": "c208-5", "title": "The difference is material. Enter the amount prorated to ending finished goods"}, {"id": "c208-6", "title": "Compared with writing the difference off to COGS, proration makes 2026â€¦"}, {"id": "c208-7", "title": "An immaterial overhead difference at year-end is usually closed to ____."}],
@@ -14,7 +14,7 @@ window.OUTLINE = {
   "s8-2": [{"id": "num-04", "title": "Tahini & Spreads fixed overhead, 2027"}, {"id": "sc208-3", "title": "Which is a component of fixed overhead?"}, {"id": "sc208-4", "title": "Use Figure F208-04. Which amount belongs in Tahini's fixed overhead pool?"}],
   "s8-3": [{"id": "sc208-5", "title": "What is the fixed overhead rate if the denominator is practical capacityâ€¦"}, {"id": "sc208-6", "title": "In an automated grinding department, the best base for fixed overhead isâ€¦"}],
   "s8-4": [{"id": "sc208-7", "title": "Overhead is underapplied when:"}, {"id": "sc208-8", "title": "Fixed overhead will be:"}],
-  "s8-5": [{"id": "sc208-9", "title": "A material under- or overapplied balance at year-end is usually:"}, {"id": "sc208-10", "title": "Proration shares are based on:"}],
+  "s8-5": [{"id": "fig-f208-07", "title": "Closing the difference: write-off or proration"}, {"id": "yourturn", "title": "Share the underapplied overhead"}, {"id": "sc208-9", "title": "A material under- or overapplied balance at year-end is usually:"}, {"id": "sc208-10", "title": "Proration shares are based on:"}],
   "s8-6": [{"id": "fill-10", "title": "Extended Example: proration of the 2027 underapplied overhead"}, {"id": "fill-13", "title": "Extended Example: operating income under the two methods"}, {"id": "ties", "title": "Everything ties"}, {"id": "sc208-11", "title": "How much of the underapplied overhead is added to ending finished goodsâ€¦"}, {"id": "sc208-12", "title": "Compared with a write-off to COGS, proration makes 2027 operating income:"}],
   "summary": [{"id": "rules", "title": "The chapter in one paragraph"}, {"id": "traps", "title": "The traps you have got wrong"}],
   "terms": [{"id": "en-ar", "title": "English â†’ Arabic"}, {"id": "ar-en", "title": "Arabic â†’ English"}, {"id": "all", "title": "Every bridged term in the chapter"}]

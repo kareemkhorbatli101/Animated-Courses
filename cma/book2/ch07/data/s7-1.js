@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Process costing and departments",
   "n": "7.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.1"),
   "brief": {
     "about": "Process costing collects costs by department when identical units move through a continuous flow. It suits oil, juice, cement and chemicals. Each department has its own Work-in-Process account. The Oils division has two departments. Crushing turns olives into extra-virgin oil, virgin oil and pomace. Bottling fills extra-virgin oil into bottles. Figure F207-02 shows the flow. Unit cost in process costing is an average: department cost divided by the units it worked on.",
     "anim": "equivUnits",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F207-02.png",
       "label": "Figure F207-02.",
-      "caption": "Oils process flow: crushing, split-off and bottling, each department with its own WIP account."
+      "caption": "Oils process flow: crushing, split-off and bottling, each department with its own WIP account.",
+      "from": [
+        "F207-02"
+      ]
     },
     {
       "id": "sc207-1",
@@ -58,6 +61,10 @@
       ],
       "traps": [
         "exam-scope-process-costing-is-concept-"
+      ],
+      "from": [
+        "7.1/exam-trap",
+        "7.1/section-check"
       ]
     },
     {
@@ -83,6 +90,9 @@
           "text": "only at year-end",
           "why": "WIP is recorded all year."
         }
+      ],
+      "from": [
+        "7.1/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Hot, warm and cold sites",
   "n": "8.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.6"),
   "brief": {
     "about": "An alternate site is where processing resumes when the main site cannot be used. Figure F408-07 shows the three kinds. The choice is an economic one, and two measures decide it. The recovery time objective is the longest the business can be without the system. The recovery point objective is the most data it can afford to lose, measured in time, which decides how often backups must run.",
     "anim": "siteTiers",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F408-07.png",
       "label": "Figure F408-07.",
-      "caption": "Hot, warm and cold recovery sites."
+      "caption": "Hot, warm and cold recovery sites.",
+      "from": [
+        "F408-07"
+      ]
     },
     {
       "id": "sc408-11",
@@ -55,6 +58,9 @@
           "text": "mirrored site",
           "why": "That is continuous replication."
         }
+      ],
+      "from": [
+        "8.6/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "Who leads the recovery team",
           "why": "That is a staffing matter."
         }
+      ],
+      "from": [
+        "8.6/section-check"
       ]
     }
   ]

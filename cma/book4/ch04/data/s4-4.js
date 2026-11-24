@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Top-down against bottom-up",
   "n": "4.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.4"),
   "brief": {
     "about": "AS 2201 requires the auditor to use a top-down approach to select the controls to test. This is the PCAOB's required and preferred approach, and the exam asks for it by name. Figure F404-05 shows the five steps. The auditor starts at the financial statements and the risk of material misstatement. A bottom-up approach does the opposite. The difference is not merely efficiency, though a top-down audit does cost less.",
     "anim": "auditTopDown",
@@ -34,51 +34,56 @@
       "caption": "The five steps of the top-down, risk-based approach.",
       "traps": [
         "the-difference-is-not-merely-efficienc"
+      ],
+      "from": [
+        "F404-05"
       ]
     },
     {
       "id": "fig-f404-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F404-06",
       "title": "Top-down against bottom-up",
-      "say": "Top-down against bottom-up",
-      "caption": "",
-      "col1": "Top-down, risk-based",
-      "col2": "Bottom-up",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Top-down, risk-based",
       "rows": [
         {
-          "name": "Starting point",
-          "a": "The financial statements and the risk of material misstatement",
-          "b": "Individual process-level controls"
+          "label": "Starting point",
+          "right": "The financial statements and the risk of material misstatement",
+          "why": "Top-down, risk-based: The financial statements and the risk of material misstatement. Individual process-level controls."
         },
         {
-          "name": "Direction",
-          "a": "From risk down to the controls that address it",
-          "b": "From the controls up to whatever they happen to cover"
+          "label": "Direction",
+          "right": "From risk down to the controls that address it",
+          "why": "Top-down, risk-based: From risk down to the controls that address it. From the controls up to whatever they happen to cover."
         },
         {
-          "name": "Scope",
-          "a": "Only controls that address an identified risk",
-          "b": "Potentially every control in the company"
+          "label": "Scope",
+          "right": "Only controls that address an identified risk",
+          "why": "Top-down, risk-based: Only controls that address an identified risk. Potentially every control in the company."
         },
         {
-          "name": "Entity-level controls",
-          "a": "Tested first, and may reduce testing below",
-          "b": "Often tested last or not at all"
+          "label": "Entity-level controls",
+          "right": "Tested first, and may reduce testing below",
+          "why": "Top-down, risk-based: Tested first, and may reduce testing below. Often tested last or not at all."
         },
         {
-          "name": "Cost and evidence",
-          "a": "Less testing, better targeted",
-          "b": "More testing, much of it irrelevant"
+          "label": "Cost and evidence",
+          "right": "Less testing, better targeted",
+          "why": "Top-down, risk-based: Less testing, better targeted. More testing, much of it irrelevant."
         },
         {
-          "name": "PCAOB position",
-          "a": "Required by AS 2201.21",
-          "b": "Not the standard"
+          "label": "PCAOB position",
+          "right": "Required by AS 2201.21",
+          "why": "Top-down, risk-based: Required by AS 2201.21. Not the standard."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Top-down against bottom-up",
+      "from": [
+        "F404-06",
+        "4.4/t:top-down-risk-ba"
+      ]
     },
     {
       "id": "sc404-7",
@@ -103,6 +108,9 @@
           "text": "Statistical sampling of all controls",
           "why": "Sampling is a technique, not an approach to selection."
         }
+      ],
+      "from": [
+        "4.4/section-check"
       ]
     },
     {
@@ -129,7 +137,10 @@
           "correct": true
         }
       ],
-      "exhibit": "An audit plan begins by listing every control in the purchasing cycle and testing each in turn."
+      "exhibit": "An audit plan begins by listing every control in the purchasing cycle and testing each in turn.",
+      "from": [
+        "4.4/section-check"
+      ]
     }
   ]
 };

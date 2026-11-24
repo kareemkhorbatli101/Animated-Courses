@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.1",
   "title": "Measures, goals and feedback",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s17-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.2",
   "title": "Return on investment",
-  "blurb": "Figures, schedule, shares, questions · 5 scenes"
+  "blurb": "Figures, schedule, grid, yourturn, questions · 6 scenes"
  },
  {
   "id": "s17-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.4",
   "title": "Choosing between them",
-  "blurb": "Figures, schedule, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, schedule, match, questions · 5 scenes"
  },
  {
   "id": "s17-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.5",
   "title": "What goes into the figures",
-  "blurb": "Shares, a printed statement, questions · 4 scenes"
+  "blurb": "Shares, match, questions · 4 scenes"
  },
  {
   "id": "s17-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.6",
   "title": "Extended Example 17A: the filling line and the two measures",
-  "blurb": "Shares, the tie lines, questions · 4 scenes"
+  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the tahini investment decision",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 6 scenes"
  },
  {
   "id": "review",

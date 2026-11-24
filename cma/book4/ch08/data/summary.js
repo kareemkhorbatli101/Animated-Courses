@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "siteTiers"
+    "anim": "siteTiers",
+    "about": "Figure F408-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The internet is a shared road, exposing traffic to interception, spoofing, tampering and denial of service, which is why encryption matters far more there than on a private line. Symmetric encryption is fast but must distribute a key; asymmetric encryption avoids that and also gives digital signatures; the two are used together. A firewall filters traffic by rule, but stops neither phishing nor insiders. Backups must be regular, must cover programs as well as data, and must include a copy held away from the site. Business continuity planning keeps the business running and disaster recovery restores the systems, both starting from the business impact analysis. The recovery time objective chooses between a hot, warm and cold site; the recovery point objective chooses the backup frequency."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F408-09.png",
       "label": "Figure F408-09.",
       "caption": "Chapter 8 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F408-09"
+      ]
     },
     {
       "id": "rules",

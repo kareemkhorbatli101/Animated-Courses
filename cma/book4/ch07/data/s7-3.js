@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Storage controls",
   "n": "7.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.3"),
   "brief": {
     "about": "Figure F407-05 sets out the storage controls and the trade-off each one makes. The distinction between incremental and differential backups is the one the exam tests. An incremental copies what has changed since the last backup of any kind. It is quick to take and slow to restore, because every incremental since the last full backup must be applied in order. A differential copies what has changed since the last full backup.",
     "anim": "assetVault",
@@ -27,65 +27,52 @@
   "scenes": [
     {
       "id": "fig-f407-05",
-      "kind": "grid",
+      "kind": "match",
       "kicker": "Figure F407-05",
       "title": "Storage controls and their trade-offs",
-      "say": "Storage controls and their trade-offs",
-      "caption": "Storage control (E.2.g)",
-      "cols": [
-        "What it does",
-        "Trade-off",
-        "Typical"
-      ],
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Storage control (E.2.g)",
+      "col": "What it does",
       "rows": [
         {
-          "name": "Full backup",
-          "cells": [
-            "Copies everything",
-            "Slowest to take, fastest to restore",
-            "Weekly"
-          ]
+          "label": "Full backup",
+          "right": "Copies everything",
+          "why": "What it does: Copies everything. Slowest to take, fastest to restore. Weekly."
         },
         {
-          "name": "Incremental backup",
-          "cells": [
-            "Copies changes since the last backup of ANY type",
-            "Fastest to take, slowest to restore",
-            "Nightly"
-          ]
+          "label": "Incremental backup",
+          "right": "Copies changes since the last backup of ANY type",
+          "why": "What it does: Copies changes since the last backup of ANY type. Fastest to take, slowest to restore. Nightly."
         },
         {
-          "name": "Differential backup",
-          "cells": [
-            "Copies changes since the last FULL backup",
-            "Between the two on both counts",
-            "Nightly, where restore speed matters"
-          ]
+          "label": "Differential backup",
+          "right": "Copies changes since the last FULL backup",
+          "why": "What it does: Copies changes since the last FULL backup. Between the two on both counts. Nightly, where restore speed matters."
         },
         {
-          "name": "Mirroring or replication",
-          "cells": [
-            "A continuously maintained second copy",
-            "Protects against hardware failure, not against error",
-            "Continuous"
-          ]
+          "label": "Mirroring or replication",
+          "right": "A continuously maintained second copy",
+          "why": "What it does: A continuously maintained second copy. Protects against hardware failure, not against error. Continuous."
         },
         {
-          "name": "Off-site or cloud copy",
-          "cells": [
-            "A copy held away from the site",
-            "The only protection against fire or flood",
-            "At least one copy, always"
-          ]
+          "label": "Off-site or cloud copy",
+          "right": "A copy held away from the site",
+          "why": "What it does: A copy held away from the site. The only protection against fire or flood. At least one copy, always."
         },
         {
-          "name": "Immutable or air-gapped copy",
-          "cells": [
-            "A copy that cannot be altered or reached online",
-            "The protection against ransomware",
-            "At least one copy"
-          ]
+          "label": "Immutable or air-gapped copy",
+          "right": "A copy that cannot be altered or reached online",
+          "why": "What it does: A copy that cannot be altered or reached online. The protection against ransomware. At least one copy."
         }
+      ],
+      "caption": "Storage controls and their trade-offs",
+      "traps": [
+        "raid-is-not-a-backup"
+      ],
+      "from": [
+        "F407-05",
+        "7.3/t:storage-control",
+        "7.3/exam-trap"
       ]
     },
     {
@@ -112,8 +99,8 @@
           "why": "Selection is not how the types are defined."
         }
       ],
-      "traps": [
-        "raid-is-not-a-backup"
+      "from": [
+        "7.3/section-check"
       ]
     },
     {
@@ -139,6 +126,9 @@
           "why": "It protects against hardware failure only.",
           "correct": true
         }
+      ],
+      "from": [
+        "7.3/section-check"
       ]
     }
   ]

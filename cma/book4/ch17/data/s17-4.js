@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Simulation and the Monte Carlo technique",
   "n": "17.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.4"),
   "brief": {
     "about": "Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together. A simulation model varies them all, repeatedly, each draw taken from a distribution rather than a single value. The Monte Carlo technique is the standard method. Each trial draws a volume, a margin and a fixed cost at random from their ranges, computes the outcome, and records it.",
     "anim": "monteCloud",
@@ -32,7 +32,10 @@
       "kind": "figure",
       "file": "F417-06.png",
       "label": "Figure F417-06.",
-      "caption": "The distribution of simulated outcomes."
+      "caption": "The distribution of simulated outcomes.",
+      "from": [
+        "F417-06"
+      ]
     },
     {
       "id": "sc417-7",
@@ -57,6 +60,9 @@
           "text": "It requires no probabilities",
           "why": "It needs a distribution for each assumption."
         }
+      ],
+      "from": [
+        "17.4/section-check"
       ]
     },
     {
@@ -82,6 +88,9 @@
           "text": "The probabilities themselves",
           "why": "Those were supplied to it as estimates."
         }
+      ],
+      "from": [
+        "17.4/section-check"
       ]
     }
   ]

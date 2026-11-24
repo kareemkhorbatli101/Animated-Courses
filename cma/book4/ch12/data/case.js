@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · four proposals and a consultant",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "sysRoles"
+  },
+  "scenario": {
+    "title": "Case question: four proposals and a consultant",
+    "p": [
+      "The Orontes ERP has been live for six months. Four proposals are now before the board. The first is a software robot to match supplier invoices against orders and goods received notes, work that accounts payable currently performs for three hours each day and which follows fixed rules on structured data.",
+      "The second is to move the small expenses system to a hosted service run by the supplier, removing the maintenance and the upgrades. The expenses system is standard, is not a competitive advantage, and holds the home addresses of staff who claim mileage.",
+      "The third comes from an external consultant, who proposes recording supplier balances on a blockchain so that they become tamper-evident. Orontes keeps its own books and no other party shares the supplier ledger.",
+      "The fourth is to automate the month-end close exactly as it is performed today. The close takes eleven days and still includes two days reconciling the plant and ledger figures, which the ERP now holds as one value, and a manual upload that no longer exists. No one has examined the close since the ERP went live, and the finance team has asked only for it to run faster."
+    ],
+    "note": "Use the scenario above for items C412-1 to C412-7."
   },
   "scenes": [
     {
@@ -34,25 +44,30 @@
         {
           "name": "The invoice-matching robot",
           "to": "accept",
-          "why": "The close takes eleven days, and the proposal is to automate it as it stands."
+          "why": "Proposal: Accept. The close takes eleven days, and the proposal is to automate it as it stands."
         },
         {
           "name": "The hosted expenses service",
           "to": "accept",
-          "why": "The close takes eleven days, and the proposal is to automate it as it stands."
+          "why": "Proposal: Accept. The close takes eleven days, and the proposal is to automate it as it stands."
         },
         {
           "name": "The blockchain supplier ledger",
           "to": "refuse",
-          "why": "The close takes eleven days, and the proposal is to automate it as it stands."
+          "why": "Proposal: Refuse. The close takes eleven days, and the proposal is to automate it as it stands."
         },
         {
           "name": "Automating the close as it stands",
           "to": "refuse",
-          "why": "The close takes eleven days, and the proposal is to automate it as it stands."
+          "why": "Proposal: Refuse. The close takes eleven days, and the proposal is to automate it as it stands."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:proposal-categor",
+        "Practice/t:proposal-categor#2",
+        "Answers and explanations/t:proposal-categor"
+      ]
     },
     {
       "id": "c412-2",
@@ -78,7 +93,7 @@
           "why": "The close takes eleven days, and the proposal is to automate it as it stands."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C412-1 to C412-7."
     },
     {
       "id": "c412-3",

@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Beverages packaging hall",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "costLine"
+  },
+  "scenario": {
+    "title": "Case question: the Beverages packaging hall",
+    "p": [
+      "The Beverages division packs juice in a packaging hall at its plant. The number of cases packed changes from month to month with orders from Levant Distribution. The hall's costs include electricity, line supervision, shrink wrap and the lease of the wrapping machines.",
+      "Some of these costs are fixed, some vary with the number of cases, and electricity has a fixed part and a variable part. The plant engineer has recorded the electricity cost at two volumes inside the hall's relevant range. The controller has the other monthly costs from the accounts.",
+      "Sami, the Beverages controller, must prepare a flexible budget for the hall. He needs the electricity cost formula, the total cost at a given volume and the fixed costs the hall carries each month. He also wants to explain to the sales team why cost per case falls when the hall is busy, and why his formula only works for normal volumes.",
+      "Levant Distribution has asked whether Beverages can pack more cases at short notice in the summer. Before he answers, Sami wants the cost behavior of every item in the hall to be clear. He knows that a second shift would need another supervisor, so he will keep his formula for the volumes the hall normally handles."
+    ]
   },
   "scenes": [
     {
@@ -56,7 +65,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F202-13",
+        "Practice/t:beverages-packag",
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c202-1",
@@ -110,7 +125,11 @@
           "why": "Cost: Mixed."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c202-2",

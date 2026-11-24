@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.4",
   "title": "Steps in setting direct material and direct labor standards",
-  "blurb": "Figures, amounts, shares, questions · 6 scenes"
+  "blurb": "Figures, amounts, a printed statement, yourturn, questions · 7 scenes"
  },
  {
   "id": "s18-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.5",
   "title": "Techniques for setting standards",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s18-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.6",
   "title": "Extended Example 18A: the juice standard cost card",
-  "blurb": "Schedule, the tie lines, questions · 4 scenes"
+  "blurb": "Schedule, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",

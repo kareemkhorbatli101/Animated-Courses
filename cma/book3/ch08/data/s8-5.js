@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 8A: the quarterly operating budget for the board",
   "n": "8.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.5"),
   "brief": {
     "about": "The board reviews results every quarter, so it wants the operating budget by quarter. This example builds it from the schedules of Chapters 6 to 8. It is exam-core. Figure F308-12 gives sales, cost of goods sold at standard, gross margin, selling and administrative expenses and operating income for each quarter. The year column includes the year-end fixed-overhead adjustment. Operating income follows the season, peaking at $888,000 in the summer quarter.",
     "anim": "bridgeBar",
@@ -42,6 +42,9 @@
       }
     ]
   },
+  "from": [
+    "8.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-12",
@@ -131,6 +134,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F308-12",
+        "8.5/t:beverages-2028-u",
+        "8.5/exam-trap"
+      ]
+    },
+    {
+      "id": "t8-5-0",
+      "kind": "lines",
+      "kicker": "Section 8.5",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Depreciation of the tahini plant",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Freight to Gulf buyers per jar",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sales team salaries",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sesame paste",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Marketing in the Gulf",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t8-5-1",
+      "kind": "lines",
+      "kicker": "Section 8.5",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Depreciation of the tahini plant",
+          "a": "Manufacturing cost",
+          "b": ""
+        },
+        {
+          "name": "Freight to Gulf buyers per jar",
+          "a": "Variable selling expense",
+          "b": ""
+        },
+        {
+          "name": "Sales team salaries",
+          "a": "Fixed selling and administrative expense",
+          "b": ""
+        },
+        {
+          "name": "Sesame paste",
+          "a": "Manufacturing cost",
+          "b": ""
+        },
+        {
+          "name": "Marketing in the Gulf",
+          "a": "Fixed selling and administrative expense",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
       ]
     },
     {
@@ -176,7 +268,10 @@
           "why": "Lower than the third."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "8.5/section-check"
+      ]
     },
     {
       "id": "sc308-10",
@@ -203,7 +298,10 @@
         }
       ],
       "exhibit": "Use the Extended Example.",
-      "say": "Why is functional-format operating income $2,000 higher than contribution-format income?"
+      "say": "Why is functional-format operating income $2,000 higher than contribution-format income?",
+      "from": [
+        "8.5/section-check"
+      ]
     }
   ]
 };

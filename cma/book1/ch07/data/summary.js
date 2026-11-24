@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "layers"
+    "anim": "layers",
+    "about": "Figure F07-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Inventory includes the goods a company controls at year-end, wherever they are. Its cost includes everything needed to bring the goods to their present condition and location, but not abnormal, selling or administrative costs. A cost flow assumption splits the cost of goods available between cost of goods sold and ending inventory. In rising prices, FIFO gives higher income, taxes and inventory, and LIFO gives lower ones; the LIFO reserve connects the two. An error in ending inventory reverses in the next year, so retained earnings are correct after two years."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F07-12.png",
       "label": "Figure F07-12.",
       "caption": "Chapter 7 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F07-12"
+      ]
     },
     {
       "id": "rules",

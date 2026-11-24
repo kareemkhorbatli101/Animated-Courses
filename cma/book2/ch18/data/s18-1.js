@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Cost standards in budgeting",
   "n": "18.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.1"),
   "brief": {
     "about": "A standard is the expected cost of one unit of output under efficient conditions. The standard cost card lists, for one unit, the standard quantity and the standard price of every input. Budgets are built from the card: standard cost per unit times planned units. Figure F218-02 shows the idea for June 2028, when Beverages plans 75,000 cases. The same standards later measure performance.",
     "anim": "stdCard",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "18.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f218-02",
       "kind": "figure",
       "file": "F218-02.png",
       "label": "Figure F218-02.",
-      "caption": "Standards in budgeting: card × planned volume = budget."
+      "caption": "Standards in budgeting: card × planned volume = budget.",
+      "from": [
+        "F218-02"
+      ]
     },
     {
       "id": "fill-03",
@@ -119,6 +125,10 @@
             "c2"
           ]
         }
+      ],
+      "from": [
+        "F218-03",
+        "18.1/t:june-2028-75-000"
       ]
     },
     {
@@ -144,6 +154,9 @@
           "text": "They set selling prices by law",
           "why": "Prices are a separate decision."
         }
+      ],
+      "from": [
+        "18.1/section-check"
       ]
     },
     {
@@ -170,7 +183,10 @@
           "why": "This uses 100,000 cases."
         }
       ],
-      "exhibit": "The standard cost of a case is $12.60. The division plans 75,000 cases in June."
+      "exhibit": "The standard cost of a case is $12.60. The division plans 75,000 cases in June.",
+      "from": [
+        "18.1/section-check"
+      ]
     }
   ]
 };

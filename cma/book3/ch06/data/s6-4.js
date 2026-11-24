@@ -9,7 +9,7 @@
   "up": "../",
   "title": "From sales to production",
   "n": "6.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.4"),
   "brief": {
     "about": "Production does not simply equal sales, because the company holds finished goods. The production budget adds the stock wanted at the end of the period and subtracts the stock already on hand at the start. Figure F306-06 shows the formula. The ending stock comes from the inventory policy. Beverages keeps 20% of next quarter's sales in stock, so that it can meet orders while the next batch is filled.",
     "anim": "bridgeBar",
@@ -30,45 +30,51 @@
       "kind": "figure",
       "file": "F306-06.png",
       "label": "Figure F306-06.",
-      "caption": "How the production budget is calculated."
+      "caption": "How the production budget is calculated.",
+      "from": [
+        "F306-06"
+      ]
     },
     {
       "id": "fig-f306-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F306-07",
       "title": "Factors in the Beverages production budget",
-      "say": "Factors in the Beverages production budget",
-      "caption": "Factor in the production budget (B.5.e)",
-      "col1": "Beverages 2028",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Factor in the production budget (B.5.e)",
+      "col": "Beverages 2028",
       "rows": [
         {
-          "name": "Inventory policy",
-          "a": "Ending stock = 20% of next quarter's sales",
-          "b": ""
+          "label": "Inventory policy",
+          "right": "Ending stock = 20% of next quarter's sales",
+          "why": "Beverages 2028: Ending stock = 20% of next quarter's sales."
         },
         {
-          "name": "Capacity",
-          "a": "240,000 cases a quarter (4,800 machine hours)",
-          "b": ""
+          "label": "Capacity",
+          "right": "240,000 cases a quarter (4,800 machine hours)",
+          "why": "Beverages 2028: 240,000 cases a quarter (4,800 machine hours)."
         },
         {
-          "name": "Storage space",
-          "a": "Room for 50,000 cases",
-          "b": ""
+          "label": "Storage space",
+          "right": "Room for 50,000 cases",
+          "why": "Beverages 2028: Room for 50,000 cases."
         },
         {
-          "name": "Shelf life",
-          "a": "Juice must be sold within nine months",
-          "b": ""
+          "label": "Shelf life",
+          "right": "Juice must be sold within nine months",
+          "why": "Beverages 2028: Juice must be sold within nine months."
         },
         {
-          "name": "Stable workforce. Avoid large swings in production between quarters",
-          "note": true
+          "label": "Stable workforce",
+          "right": "Avoid large swings in production between quarters",
+          "why": "Beverages 2028: Avoid large swings in production between quarters."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Factors in the Beverages production budget",
+      "from": [
+        "F306-07",
+        "6.4/t:factor-in-the-pr"
+      ]
     },
     {
       "id": "sc306-7",
@@ -93,6 +99,9 @@
           "text": "It cannot differ",
           "why": "Inventory changes allow a difference."
         }
+      ],
+      "from": [
+        "6.4/section-check"
       ]
     },
     {
@@ -119,7 +128,10 @@
           "correct": true
         }
       ],
-      "exhibit": "The policy is to hold ending stock of 20% of next quarter's sales. Next quarter's sales are 240,000 cases."
+      "exhibit": "The policy is to hold ending stock of 20% of next quarter's sales. Next quarter's sales are 240,000 cases.",
+      "from": [
+        "6.4/section-check"
+      ]
     }
   ]
 };

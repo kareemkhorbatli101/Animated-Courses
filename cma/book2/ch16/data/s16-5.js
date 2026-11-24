@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 16A: the total impact on Beverages",
   "n": "16.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.5"),
   "brief": {
     "about": "This example adds the quality program and the kaizen event together, as the division manager presented them to the board. It is exam-core. Figure F216-12 sets out the yearly effect. Failure costs fall by $352,500 and appraisal by $40,000, against $110,000 of extra prevention. With the kaizen saving, the total yearly impact is shown on the last line. Figure F216-13 compares the mix of quality costs.",
     "anim": "qualityFour",
@@ -49,13 +49,19 @@
       }
     ]
   },
+  "from": [
+    "16.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f216-13",
       "kind": "figure",
       "file": "F216-13.png",
       "label": "Figure F216-13.",
-      "caption": "Extended Example: the mix of quality costs before and after."
+      "caption": "Extended Example: the mix of quality costs before and after.",
+      "from": [
+        "F216-13"
+      ]
     },
     {
       "id": "num-12",
@@ -78,6 +84,135 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F216-12",
+        "16.5/t:beverages-yearly",
+        "16.5/exam-trap"
+      ]
+    },
+    {
+      "id": "t16-5-0",
+      "kind": "lines",
+      "kicker": "Section 16.5",
+      "title": "Quality cost",
+      "caption": "Quality cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Supplier audits",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Staff training in hygiene",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Testing incoming sesame",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Final inspection of jars",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Scrapped batches",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Reworking under-filled jars",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Returns from Barada",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Handling customer complaints",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Lost sales after a recall (estimate)",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:quality-cost-cat",
+        "Answers and explanations/t:quality-cost-cat"
+      ]
+    },
+    {
+      "id": "t16-5-1",
+      "kind": "lines",
+      "kicker": "Section 16.5",
+      "title": "Quality cost",
+      "caption": "Quality cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Supplier audits",
+          "a": "Prevention",
+          "b": ""
+        },
+        {
+          "name": "Staff training in hygiene",
+          "a": "Prevention",
+          "b": ""
+        },
+        {
+          "name": "Testing incoming sesame",
+          "a": "Appraisal",
+          "b": ""
+        },
+        {
+          "name": "Final inspection of jars",
+          "a": "Appraisal",
+          "b": ""
+        },
+        {
+          "name": "Scrapped batches",
+          "a": "Internal failure",
+          "b": ""
+        },
+        {
+          "name": "Reworking under-filled jars",
+          "a": "Internal failure",
+          "b": ""
+        },
+        {
+          "name": "Returns from Barada",
+          "a": "External failure",
+          "b": ""
+        },
+        {
+          "name": "Handling customer complaints",
+          "a": "External failure",
+          "b": ""
+        },
+        {
+          "name": "Lost sales after a recall (estimate)",
+          "a": "External failure",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:quality-cost-cat",
+        "Answers and explanations/t:quality-cost-cat"
       ]
     },
     {
@@ -124,7 +259,10 @@
         }
       ],
       "exhibit": "Use the Extended Example.",
-      "say": "What is the total yearly financial impact of the quality program and the kaizen event (whole USD)?"
+      "say": "What is the total yearly financial impact of the quality program and the kaizen event (whole USD)?",
+      "from": [
+        "16.5/section-check"
+      ]
     },
     {
       "id": "sc216-10",
@@ -150,7 +288,10 @@
           "why": "Some failures remain."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "16.5/section-check"
+      ]
     }
   ]
 };

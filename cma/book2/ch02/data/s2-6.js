@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 2A: the Oils overhead budget, 2027",
   "n": "2.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.6"),
   "brief": {
     "about": "This example builds a flexible overhead budget from the cost function, tests it at several volumes and records one month's invoices by behavior. The budget calculations are exam-core; the entries are for depth. Oils plans 38,400 machine hours for 2027, but the harvest could give anything from 30,000 to 48,000. Above 51,600 hours a year, a second shift adds $72,000 of maintenance and $180,000 of supervision.",
     "anim": "costLine",
@@ -66,20 +66,29 @@
       }
     ]
   },
+  "from": [
+    "2.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f202-09",
       "kind": "figure",
       "file": "F202-09.png",
       "label": "Figure F202-09.",
-      "caption": "Extended Example: overhead cost per machine hour falls as volume rises."
+      "caption": "Extended Example: overhead cost per machine hour falls as volume rises.",
+      "from": [
+        "F202-09"
+      ]
     },
     {
       "id": "fig-f202-11",
       "kind": "figure",
       "file": "F202-11.png",
       "label": "Figure F202-11.",
-      "caption": "Extended Example: March overhead posted by behavior, keyed to the journal."
+      "caption": "Extended Example: March overhead posted by behavior, keyed to the journal.",
+      "from": [
+        "F202-11"
+      ]
     },
     {
       "id": "fill-08",
@@ -150,6 +159,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F202-08",
+        "2.6/t:oils-overhead-bu",
+        "2.6/exam-trap"
       ]
     },
     {
@@ -250,7 +264,95 @@
       "grid": false,
       "journalTitle": "Journal entries",
       "lures": {},
-      "logic": {}
+      "logic": {},
+      "from": [
+        "F202-10",
+        "2.6/t:no-account-detai"
+      ]
+    },
+    {
+      "id": "t2-6-0",
+      "kind": "lines",
+      "kicker": "Section 2.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Electricity",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Line supervision",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Shrink film",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Forklift rental",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Maintenance",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t2-6-1",
+      "kind": "lines",
+      "kicker": "Section 2.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Electricity",
+          "a": "Mixed",
+          "b": ""
+        },
+        {
+          "name": "Line supervision",
+          "a": "Fixed",
+          "b": ""
+        },
+        {
+          "name": "Shrink film",
+          "a": "Variable",
+          "b": ""
+        },
+        {
+          "name": "Forklift rental",
+          "a": "Step",
+          "b": ""
+        },
+        {
+          "name": "Maintenance",
+          "a": "Mixed",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "ties",
@@ -305,7 +407,10 @@
           "why": "This multiplies a per-hour total by a different volume."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "2.6/section-check"
+      ]
     },
     {
       "id": "sc202-12",
@@ -331,7 +436,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "2.6/section-check"
+      ]
     }
   ]
 };

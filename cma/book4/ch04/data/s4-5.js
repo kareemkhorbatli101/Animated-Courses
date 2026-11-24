@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The Foreign Corrupt Practices Act",
   "n": "4.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.5"),
   "brief": {
     "about": "The Foreign Corrupt Practices Act of 1977 has two sets of provisions, and only one of them is about bribery. Figure F404-07 sets them out. The accounting provisions are the ones this exam cares about. They require an issuer to keep books in reasonable detail that accurately and fairly reflect its transactions. Two points follow that are easy to miss.",
     "anim": "preventDetect",
@@ -27,42 +27,48 @@
   "scenes": [
     {
       "id": "fig-f404-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F404-07",
       "title": "The two sets of FCPA provisions",
-      "say": "The two sets of FCPA provisions",
-      "caption": "FCPA provision (E.1.t)",
-      "col1": "What it says",
-      "col2": "Who it binds",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "FCPA provision (E.1.t)",
+      "col": "What it says",
       "rows": [
         {
-          "name": "Anti-bribery",
-          "a": "Prohibits corruptly offering anything of value to a foreign official to obtain or keep business",
-          "b": "Issuers, domestic concerns, and others acting in U.S. territory"
+          "label": "Anti-bribery",
+          "right": "Prohibits corruptly offering anything of value to a foreign official to obtain or keep business",
+          "why": "What it says: Prohibits corruptly offering anything of value to a foreign official to obtain or keep business. Issuers, domestic concerns, and others acting in U.S. territory."
         },
         {
-          "name": "Books and records",
-          "a": "Keep books in reasonable detail that accurately and fairly reflect transactions and dispositions of assets",
-          "b": "Issuers only"
+          "label": "Books and records",
+          "right": "Keep books in reasonable detail that accurately and fairly reflect transactions and dispositions of assets",
+          "why": "What it says: Keep books in reasonable detail that accurately and fairly reflect transactions and dispositions of assets. Issuers only."
         },
         {
-          "name": "Internal accounting controls",
-          "a": "Maintain a system giving reasonable assurance over authorization, recording, access and periodic comparison",
-          "b": "Issuers only"
+          "label": "Internal accounting controls",
+          "right": "Maintain a system giving reasonable assurance over authorization, recording, access and periodic comparison",
+          "why": "What it says: Maintain a system giving reasonable assurance over authorization, recording, access and periodic comparison. Issuers only."
         },
         {
-          "name": "Exception",
-          "a": "Facilitating payments for routine governmental action, such as processing a visa",
-          "b": "Narrowly read"
+          "label": "Exception",
+          "right": "Facilitating payments for routine governmental action, such as processing a visa",
+          "why": "What it says: Facilitating payments for routine governmental action, such as processing a visa. Narrowly read."
         },
         {
-          "name": "Defenses",
-          "a": "The payment was lawful under written local law; or a reasonable bona fide expenditure",
-          "b": "Two affirmative defenses"
+          "label": "Defenses",
+          "right": "The payment was lawful under written local law; or a reasonable bona fide expenditure",
+          "why": "What it says: The payment was lawful under written local law; or a reasonable bona fide expenditure. Two affirmative defenses."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The two sets of FCPA provisions",
+      "traps": [
+        "the-fcpa-does-not-require-coso"
+      ],
+      "from": [
+        "F404-07",
+        "4.5/t:fcpa-provision-e",
+        "4.5/exam-trap"
+      ]
     },
     {
       "id": "sc404-9",
@@ -88,8 +94,8 @@
           "why": "Officials are covered by a separate 2023 statute."
         }
       ],
-      "traps": [
-        "the-fcpa-does-not-require-coso"
+      "from": [
+        "4.5/section-check"
       ]
     },
     {
@@ -116,7 +122,10 @@
           "why": "Intent to bribe belongs to the other provisions."
         }
       ],
-      "say": "Can a company breach the FCPA accounting provisions without any bribe having been paid?"
+      "say": "Can a company breach the FCPA accounting provisions without any bribe having been paid?",
+      "from": [
+        "4.5/section-check"
+      ]
     }
   ]
 };

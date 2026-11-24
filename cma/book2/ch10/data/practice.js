@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P210-01–P210-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "svcArrows"
   },

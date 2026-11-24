@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "sysRoles"
   },
@@ -87,9 +87,6 @@
           "text": "performed once a year",
           "why": "Volume is what makes it worthwhile."
         }
-      ],
-      "traps": [
-        "a-robot-is-not-judgement"
       ]
     },
     {
@@ -140,9 +137,6 @@
           "text": "a contract between two blockchains",
           "why": "No such arrangement."
         }
-      ],
-      "traps": [
-        "an-honest-assessment-as-at-october-202"
       ]
     },
     {

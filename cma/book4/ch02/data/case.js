@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the chairman who wants both jobs",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "boardLine"
+  },
+  "scenario": {
+    "title": "Case question: the chairman who wants both jobs",
+    "p": [
+      "The chairman of Orontes Foods has proposed that he also take the role of chief executive, arguing that the company is moving quickly into the Gulf and needs one person able to decide. He has asked the board to approve the change at its next meeting.",
+      "The bylaws say the chairman and the chief executive must be different people. The articles of incorporation are silent on the question. Two of the seven directors are executives of the company, and the other five are independent. One of the independent directors is the chairman's brother-in-law. The chairman has held the role for nine years and was previously the company's finance director.",
+      "The chairman has also suggested that, to save cost, the audit committee could meet twice a year rather than four times, and that the external auditor could report to him directly so that the board hears a single consistent account.",
+      "The chief financial officer supports the proposal. Rania, the controller, has been asked to brief the board on what it may and may not do, and on which parts of the proposal would weaken governance even if they were lawful."
+    ],
+    "note": "Use the scenario above for items C402-1 to C402-7."
   },
   "scenes": [
     {
@@ -38,25 +48,30 @@
         {
           "name": "Whether the chairman may also be chief executive",
           "to": "governed-by-the-bylaws",
-          "why": "The distinction the exam tests most often is between oversight and management."
+          "why": "Element of the proposal: Governed by the bylaws. The distinction the exam tests most often is between oversight and management."
         },
         {
           "name": "How often the audit committee meets",
           "to": "governed-by-the-audit-committee",
-          "why": "The distinction the exam tests most often is between oversight and management."
+          "why": "Element of the proposal: Governed by the audit committee. The distinction the exam tests most often is between oversight and management."
         },
         {
           "name": "To whom the external auditor reports",
           "to": "governed-by-the-audit-committee",
-          "why": "The distinction the exam tests most often is between oversight and management."
+          "why": "Element of the proposal: Governed by the audit committee. The distinction the exam tests most often is between oversight and management."
         },
         {
           "name": "Whether combining the roles is wise for Orontes",
           "to": "a-board-judgement-not-a-document",
-          "why": "The distinction the exam tests most often is between oversight and management."
+          "why": "Element of the proposal: A board judgement, not a document. The distinction the exam tests most often is between oversight and management."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:element-of-the-p",
+        "Practice/t:element-of-the-p#2",
+        "Answers and explanations/t:element-of-the-p"
+      ]
     },
     {
       "id": "c402-3",
@@ -82,7 +97,7 @@
           "why": "Every member must be independent."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C402-1 to C402-7."
     },
     {
       "id": "c402-2",

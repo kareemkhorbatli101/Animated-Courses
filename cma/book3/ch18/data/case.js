@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the tahini scorecard",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "strategyMap"
+  },
+  "scenario": {
+    "title": "Case question: the tahini scorecard",
+    "p": [
+      "The Tahini & Spreads division has been asked to grow, and head office wants its progress tracked on a balanced scorecard rather than on profit alone. The division manager, Samir, has agreed five measures for the quarter with the controller, Rania.",
+      "The quarter has now closed. The division's segment margin came in below target, but the Gulf supermarket chain received a higher share of its orders in full than the division had promised, and every operator booked for training on the new line completed it.",
+      "Two results worry Rania. The sesame yield from each kilogram of seed fell short of the standard, which raises the cost of every jar, and complaints from the Jordanian supermarkets were almost double the target.",
+      "Rania must sort the five measures into the four perspectives of the scorecard, count how many were met, read the pattern for the board, and recommend one further measure for the next quarter with the interval at which it should be reported. Head office has made clear that it will judge the division on the whole scorecard, not on the margin alone, and that the measures will be reviewed again at the end of the year."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F318-13",
+        "Practice/t:tahini-spreads-t",
+        "Practice/t:measure-category",
+        "Answers and explanations/t:measure-category"
+      ]
     },
     {
       "id": "c318-1",
@@ -82,30 +97,34 @@
         {
           "name": "Segment margin",
           "to": "financial",
-          "why": "The second commonest is a measure nobody owns."
+          "why": "Measure: Financial. The second commonest is a measure nobody owns."
         },
         {
           "name": "Gulf chain orders delivered in full",
           "to": "customer",
-          "why": "The second commonest is a measure nobody owns."
+          "why": "Measure: Customer. The second commonest is a measure nobody owns."
         },
         {
           "name": "Sesame yield a kilogram of seed",
           "to": "internal-process",
-          "why": "The second commonest is a measure nobody owns."
+          "why": "Measure: Internal process. The second commonest is a measure nobody owns."
         },
         {
           "name": "Operators trained on the new line",
           "to": "learning-and-growth",
-          "why": "The second commonest is a measure nobody owns."
+          "why": "Measure: Learning and growth. The second commonest is a measure nobody owns."
         },
         {
           "name": "Complaints from supermarkets",
           "to": "customer",
-          "why": "The second commonest is a measure nobody owns."
+          "why": "Measure: Customer. The second commonest is a measure nobody owns."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:measure-category",
+        "Answers and explanations/t:measure-category"
+      ]
     },
     {
       "id": "c318-2",

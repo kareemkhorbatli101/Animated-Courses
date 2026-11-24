@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Recommending a depreciation method",
   "n": "10.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.3"),
   "brief": {
     "about": "The best method matches the pattern in which the company uses up the asset's benefits. Figure F10-06 turns this into two questions. A delivery truck wears out with kilometres driven, so units of production fits. A computer server loses value quickly as technology changes, so an accelerated method fits. An office building gives similar service each year, so straight-line fits.",
     "anim": "rules",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F10-06.png",
       "label": "Figure F10-06.",
-      "caption": "Decision path for recommending a depreciation method."
+      "caption": "Decision path for recommending a depreciation method.",
+      "from": [
+        "F10-06"
+      ]
     },
     {
       "id": "sc10-5",
@@ -59,6 +62,10 @@
       "exhibit": "A delivery truck wears out mainly with kilometres driven, and the number of kilometres changes a lot from year to year.",
       "traps": [
         "give-the-reason"
+      ],
+      "from": [
+        "10.3/exam-trap",
+        "10.3/section-check"
       ]
     },
     {
@@ -84,6 +91,9 @@
           "text": "Accelerated methods raise early income.",
           "why": "Accelerated methods lower early income."
         }
+      ],
+      "from": [
+        "10.3/section-check"
       ]
     }
   ]

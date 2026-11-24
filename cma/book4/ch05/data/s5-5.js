@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Testing the adequacy of controls",
   "n": "5.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.5"),
   "brief": {
     "about": "Four methods are available, and the standard ranks them by the strength of the evidence they give. Figure F405-06 shows the ranking. Inquiry asks someone whether the control is performed. Observation watches it being performed. Inspection examines the document the control produced. Re-performance does the control again and compares the result. Each gives more evidence than the one before. Inquiry alone is never sufficient.",
     "anim": "riskStack",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F405-06.png",
       "label": "Figure F405-06.",
-      "caption": "The four testing methods, ranked by the evidence they give."
+      "caption": "The four testing methods, ranked by the evidence they give.",
+      "from": [
+        "F405-06"
+      ]
     },
     {
       "id": "sc405-9",
@@ -55,6 +58,9 @@
           "text": "Inquiry",
           "why": "The weakest of the four."
         }
+      ],
+      "from": [
+        "5.5/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "It is not permitted by the standard",
           "why": "It is permitted, but not on its own."
         }
+      ],
+      "from": [
+        "5.5/section-check"
       ]
     }
   ]

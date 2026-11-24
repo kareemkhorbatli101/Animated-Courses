@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · congratulating the weather",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "tsComponents"
+  },
+  "scenario": {
+    "title": "Case question: congratulating the weather",
+    "p": [
+      "The Beverages division has eight quarters of sales history. Demand peaks in the third quarter of each year and falls back in the first. A four-quarter centred moving average has been computed, giving four trend values that rise steadily across the period.",
+      "Subtracting the trend and averaging by quarter gives seasonal factors of -13,022 for the first quarter, +691 for the second, +20,003 for the third and -7,672 for the fourth. The four have been adjusted so that they sum to zero.",
+      "At the quarterly review the divisional director congratulated the sales team on a large rise in the third quarter and asked for the same again next quarter. He has also asked the analyst to identify the economic cycle in the data, and whether the model can give a forecast accurate to within a few hundred cases.",
+      "The analyst has not yet plotted the series, having gone straight to the computation. The standard error of the estimate for the related regression is 555 cases. No one has yet asked whether the pattern of the past two years can be expected to hold into the next."
+    ],
+    "note": "Use the scenario above for items C416-1 to C416-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "Steadily rising demand as the Gulf market opens",
           "to": "trend",
-          "why": "What is left is close to the trend."
+          "why": "Movement described: Trend. What is left is close to the trend."
         },
         {
           "name": "The third quarter peaking every year",
           "to": "seasonal",
-          "why": "What is left is close to the trend."
+          "why": "Movement described: Seasonal. What is left is close to the trend."
         },
         {
           "name": "A multi-year regional downturn",
           "to": "cyclical",
-          "why": "What is left is close to the trend."
+          "why": "Movement described: Cyclical. What is left is close to the trend."
         },
         {
           "name": "A port strike delaying one shipment",
           "to": "irregular",
-          "why": "What is left is close to the trend."
+          "why": "Movement described: Irregular. What is left is close to the trend."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:movement-describ",
+        "Practice/t:movement-describ#2",
+        "Answers and explanations/t:movement-describ"
+      ]
     },
     {
       "id": "c416-2",
@@ -86,7 +101,7 @@
           "why": "The factors say how much of the third-quarter peak is simply the season."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C416-1 to C416-7."
     },
     {
       "id": "c416-3",

@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P405-01–P405-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cosoBase"
   },

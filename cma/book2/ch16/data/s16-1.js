@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Continuous improvement techniques and quality",
   "n": "16.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.1"),
   "brief": {
     "about": "Continuous improvement means improving processes in many small, regular steps instead of one big change. Each step removes a little waste or a cause of defects, and quality rises over time. The best-known approach is kaizen, in which the people who do the work suggest the improvements. Each change is tested with the PDCA cycle: plan, do, check, act. Figure F216-02 shows the cycle. Two wider approaches support it.",
     "anim": "kaizenStair",
@@ -31,47 +31,55 @@
       }
     ]
   },
+  "from": [
+    "16.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f216-02",
       "kind": "figure",
       "file": "F216-02.png",
       "label": "Figure F216-02.",
-      "caption": "The PDCA cycle behind kaizen."
+      "caption": "The PDCA cycle behind kaizen.",
+      "from": [
+        "F216-02"
+      ]
     },
     {
       "id": "fig-f216-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F216-03",
       "title": "Continuous improvement techniques compared",
-      "say": "Continuous improvement techniques compared",
-      "caption": "Technique",
-      "col1": "Idea",
-      "col2": "Beverages example",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Technique",
+      "col": "Idea",
       "rows": [
         {
-          "name": "Kaizen",
-          "a": "Many small improvements, suggested by the people who do the work",
-          "b": "Shorter changeovers on the filling line"
+          "label": "Kaizen",
+          "right": "Many small improvements, suggested by the people who do the work",
+          "why": "Idea: Many small improvements, suggested by the people who do the work. Shorter changeovers on the filling line."
         },
         {
-          "name": "PDCA cycle",
-          "a": "Plan, do, check, act: test a change before adopting it",
-          "b": "Trying a new cleaning routine on one line first"
+          "label": "PDCA cycle",
+          "right": "Plan, do, check, act: test a change before adopting it",
+          "why": "Idea: Plan, do, check, act: test a change before adopting it. Trying a new cleaning routine on one line first."
         },
         {
-          "name": "Total quality management",
-          "a": "Quality is everyone's job; the customer defines quality",
-          "b": "Drivers report damaged cases at delivery"
+          "label": "Total quality management",
+          "right": "Quality is everyone's job; the customer defines quality",
+          "why": "Idea: Quality is everyone's job; the customer defines quality. Drivers report damaged cases at delivery."
         },
         {
-          "name": "Six Sigma",
-          "a": "Data and statistics to cut defects to very low levels",
-          "b": "Measuring fill-volume variation per bottle"
+          "label": "Six Sigma",
+          "right": "Data and statistics to cut defects to very low levels",
+          "why": "Idea: Data and statistics to cut defects to very low levels. Measuring fill-volume variation per bottle."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Continuous improvement techniques compared",
+      "from": [
+        "F216-03",
+        "16.1/t:technique-idea-b"
+      ]
     },
     {
       "id": "num-04",
@@ -91,6 +99,10 @@
           "answer": "100000",
           "why": "Yearly saving: 100,000."
         }
+      ],
+      "from": [
+        "F216-04",
+        "16.1/t:kaizen-event-on"
       ]
     },
     {
@@ -116,6 +128,9 @@
           "why": "Small steps add up over time.",
           "correct": true
         }
+      ],
+      "from": [
+        "16.1/section-check"
       ]
     },
     {
@@ -142,7 +157,10 @@
           "why": "This uses the full 60 minutes."
         }
       ],
-      "exhibit": "A kaizen event cuts each of 400 changeovers from 60 to 35 minutes. Line time is worth $600 an hour."
+      "exhibit": "A kaizen event cuts each of 400 changeovers from 60 to 35 minutes. Line time is worth $600 an hour.",
+      "from": [
+        "16.1/section-check"
+      ]
     }
   ]
 };

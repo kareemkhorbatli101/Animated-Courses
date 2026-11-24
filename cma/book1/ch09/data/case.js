@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Orontes investment portfolio",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "buckets"
+  },
+  "scenario": {
+    "title": "Case question: the Orontes investment portfolio",
+    "p": [
+      "Orontes holds a small portfolio of investments with its spare cash. At the end of 2025 it held shares and bonds bought for different reasons: some to trade in the short term, some bonds to hold until maturity, some bonds that might be sold, and a large stake in a supplier.",
+      "The stake in the supplier gives Orontes significant influence: it has a seat on the supplier's board and takes part in its decisions. The supplier earned a profit in 2025 and paid a dividend.",
+      "The treasurer must classify each investment, measure it and decide where each change in value is reported: in net income, in other comprehensive income or not at all. She also needs the carrying amount of the stake in the supplier and the income Orontes records from it.",
+      "The controller wants to know what will happen in 2026 if Orontes sells one of the bonds at its year-end fair value. All amounts in the exhibit are in whole U.S. dollars for 2025. She also asks why the dividend from the supplier does not appear as income in the Orontes income statement."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F09-12",
+        "Practice/t:item-investment",
+        "Practice/t:investment-categ",
+        "Answers and explanations/t:investment-categ"
+      ]
     },
     {
       "id": "c9-1",
@@ -109,7 +124,11 @@
           "why": "Investment: Equity method."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:investment-categ",
+        "Answers and explanations/t:investment-categ"
+      ]
     },
     {
       "id": "c9-2",

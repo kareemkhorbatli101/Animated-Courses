@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Which costs belong in inventory?",
   "n": "7.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.2"),
   "brief": {
     "about": "Inventory is recorded at cost. Cost means all the costs needed to bring the goods to their present condition and location. These are inventoriable costs: they stay in inventory as an asset, and they become cost of goods sold when the goods are sold. Other costs are period costs: they are expenses in the period in which they occur. Fixed production overhead needs care.",
     "anim": "cost",
@@ -30,16 +30,86 @@
           "Orontes imports glass bottles for its Amman plant. The invoice is $20,000, and Orontes pays within the discount period, so it takes a 2% discount. Other costs are shown below (whole dollars).",
           "The two costs at the bottom of the table happen after the goods are ready for use. They do not bring the bottles to their present condition and location, so they are expenses."
         ]
+      },
+      {
+        "h": "Cost is almost the same under IAS 2",
+        "box": "ifrs",
+        "p": [
+          "IAS 2 uses the same idea of cost and lists the same exclusions: abnormal waste, storage, administrative overheads and selling costs. The big IFRS difference is in the next section: IAS 2 does not allow LIFO."
+        ]
       }
     ]
   },
+  "from": [
+    "7.2/ifrs-contrast",
+    "7.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f07-03",
       "kind": "figure",
       "file": "F07-03.png",
       "label": "Figure F07-03.",
-      "caption": "Inventoriable costs versus period costs."
+      "caption": "Inventoriable costs versus period costs.",
+      "from": [
+        "F07-03"
+      ]
+    },
+    {
+      "id": "t7-2-0",
+      "kind": "lines",
+      "kicker": "Section 7.2",
+      "title": "Item",
+      "caption": "Item",
+      "col1": "Amount",
+      "col2": "Inventory cost?",
+      "rows": [
+        {
+          "name": "Invoice price",
+          "a": "20,000",
+          "b": "Yes"
+        },
+        {
+          "name": "Purchase discount taken",
+          "a": "(400)",
+          "b": "Yes (reduces cost)"
+        },
+        {
+          "name": "Freight-in from the port to Amman",
+          "a": "1,200",
+          "b": "Yes"
+        },
+        {
+          "name": "Import duty (not refundable)",
+          "a": "900",
+          "b": "Yes"
+        },
+        {
+          "name": "Insurance while the bottles are in transit",
+          "a": "300",
+          "b": "Yes"
+        },
+        {
+          "name": "Freight-out when filled bottles go to customers",
+          "a": "700",
+          "b": "No: selling expense"
+        },
+        {
+          "name": "Storage of finished olive oil",
+          "a": "250",
+          "b": "No: period cost"
+        },
+        {
+          "name": "Cost of the bottles in inventory",
+          "a": "22,000",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "7.2/t:item-amount-inve"
+      ]
     },
     {
       "id": "sc7-3",
@@ -64,6 +134,9 @@
           "text": "Storage of finished goods",
           "why": "Storing finished goods does not bring them to their present condition; it is a period cost."
         }
+      ],
+      "from": [
+        "7.2/section-check"
       ]
     },
     {
@@ -90,7 +163,10 @@
           "why": "This adds freight-out and finished-goods storage, which are period costs."
         }
       ],
-      "exhibit": "Use the glass-bottle example in Section 7.2."
+      "exhibit": "Use the glass-bottle example in Section 7.2.",
+      "from": [
+        "7.2/section-check"
+      ]
     }
   ]
 };

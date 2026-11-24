@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 18A: a year through the six capitals",
   "n": "18.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.7"),
   "brief": {
     "about": "This example reports one Orontes year as an integrated report would, mapping what the company used and created to the six capitals. It is exam-core for the content elements and the capitals. Figure F18-09 maps the Orontes year. Natural capital carries the sharpest figures: 12,000 megawatt hours of electricity of which 30% renewable, and 900,000 cubic metres of water. The irrigation project shows the trade plainly.",
     "anim": "capitals",
@@ -59,6 +59,9 @@
       }
     ]
   },
+  "from": [
+    "18.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-09",
@@ -123,55 +126,152 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F18-09",
+        "18.7/t:capital-what-the",
+        "18.7/exam-trap"
       ]
     },
     {
       "id": "fig-f18-10",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F18-10",
       "title": "The report against the content elements",
-      "say": "Extended Example 18A: the report against the content elements",
-      "caption": "Content element",
-      "col1": "What the report shows",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Content element",
+      "col": "What the report shows",
+      "rows": [
+        {
+          "label": "Organizational overview and external environment",
+          "right": "A Jordanian food producer selling into the Gulf",
+          "why": "What the report shows: A Jordanian food producer selling into the Gulf."
+        },
+        {
+          "label": "Governance",
+          "right": "The board's oversight of the irrigation and energy projects",
+          "why": "What the report shows: The board's oversight of the irrigation and energy projects."
+        },
+        {
+          "label": "Business model",
+          "right": "Inputs, activities, outputs and outcomes across the six capitals",
+          "why": "What the report shows: Inputs, activities, outputs and outcomes across the six capitals."
+        },
+        {
+          "label": "Risks and opportunities",
+          "right": "Water scarcity, energy cost, export demand",
+          "why": "What the report shows: Water scarcity, energy cost, export demand."
+        },
+        {
+          "label": "Strategy and resource allocation",
+          "right": "Where the 2,000,000 and the training budget went",
+          "why": "What the report shows: Where the 2,000,000 and the training budget went."
+        },
+        {
+          "label": "Performance",
+          "right": "The measures in Figure F18-09",
+          "why": "What the report shows: The measures in Figure F18-09."
+        },
+        {
+          "label": "Outlook",
+          "right": "What the capabilities built this year should deliver next",
+          "why": "What the report shows: What the capabilities built this year should deliver next."
+        },
+        {
+          "label": "Basis of preparation",
+          "right": "Which measures are reported and how they are calculated",
+          "why": "What the report shows: Which measures are reported and how they are calculated."
+        }
+      ],
+      "caption": "Extended Example 18A: the report against the content elements",
+      "from": [
+        "F18-10",
+        "18.7/t:content-element"
+      ]
+    },
+    {
+      "id": "t18-7-0",
+      "kind": "lines",
+      "kicker": "Section 18.7",
+      "title": "Disclosure",
+      "caption": "Disclosure",
+      "col1": "Category",
       "col2": "",
       "rows": [
         {
-          "name": "Organizational overview and external environment. A Jordanian food producer selling into the Gulf",
-          "note": true
-        },
-        {
-          "name": "Governance. The board's oversight of the irrigation and energy projects",
-          "note": true
-        },
-        {
-          "name": "Business model. Inputs, activities, outputs and outcomes across the six capitals",
-          "note": true
-        },
-        {
-          "name": "Risks and opportunities",
-          "a": "Water scarcity, energy cost, export demand",
+          "name": "D1 Driver training",
+          "a": "",
           "b": ""
         },
         {
-          "name": "Strategy and resource allocation. Where the 2,000,000 and the training budget went",
-          "note": true
-        },
-        {
-          "name": "Performance",
-          "a": "The measures in Figure F18-09",
+          "name": "D2 Electricity and solar",
+          "a": "",
           "b": ""
         },
         {
-          "name": "Outlook. What the capabilities built this year should deliver next",
-          "note": true
+          "name": "D3 Farmer partnerships",
+          "a": "",
+          "b": ""
         },
         {
-          "name": "Basis of preparation. Which measures are reported and how they are calculated",
-          "note": true
+          "name": "D4 Warehouse staff turnover",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "D5 Packaging waste",
+          "a": "",
+          "b": ""
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:disclosure-categ",
+        "Answers and explanations/t:disclosure-categ"
+      ]
+    },
+    {
+      "id": "t18-7-1",
+      "kind": "lines",
+      "kicker": "Section 18.7",
+      "title": "Disclosure",
+      "caption": "Disclosure",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "D1 Driver training",
+          "a": "Human capital",
+          "b": ""
+        },
+        {
+          "name": "D2 Electricity and solar",
+          "a": "Natural capital",
+          "b": ""
+        },
+        {
+          "name": "D3 Farmer partnerships",
+          "a": "Social and relationship capital",
+          "b": ""
+        },
+        {
+          "name": "D4 Warehouse staff turnover",
+          "a": "Human capital",
+          "b": ""
+        },
+        {
+          "name": "D5 Packaging waste",
+          "a": "Natural capital",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:disclosure-categ",
+        "Answers and explanations/t:disclosure-categ"
+      ]
     },
     {
       "id": "ties",
@@ -221,7 +321,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 18A."
+      "exhibit": "Use Extended Example 18A.",
+      "from": [
+        "18.7/section-check"
+      ]
     },
     {
       "id": "sc18-14",
@@ -247,7 +350,10 @@
           "why": "The framework addresses providers of financial capital, but through all six."
         }
       ],
-      "exhibit": "Use Extended Example 18A."
+      "exhibit": "Use Extended Example 18A.",
+      "from": [
+        "18.7/section-check"
+      ]
     },
     {
       "id": "sc18-15",
@@ -273,7 +379,10 @@
           "why": "That describes a narrower environmental report."
         }
       ],
-      "exhibit": "Use Extended Example 18A."
+      "exhibit": "Use Extended Example 18A.",
+      "from": [
+        "18.7/section-check"
+      ]
     }
   ]
 };

@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P212-01–P212-17",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "abcLevels"
   },

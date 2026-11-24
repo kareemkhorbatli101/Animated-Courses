@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Return on investment",
   "n": "17.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.2"),
   "brief": {
     "about": "Return on investment (ROI) is operating income divided by the operating assets used to earn it. For Beverages: $3,180,000 ÷ $12,000,000 = 26.5%. ROI splits into two parts that managers can act on separately. Figure F317-03 shows the relationship: return on sales multiplied by asset turnover. Reading ROI means asking which part moved.",
     "anim": "riBar",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "17.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f317-03",
       "kind": "figure",
       "file": "F317-03.png",
       "label": "Figure F317-03.",
-      "caption": "ROI as margin times asset turnover."
+      "caption": "ROI as margin times asset turnover.",
+      "from": [
+        "F317-03"
+      ]
     },
     {
       "id": "fill-04",
@@ -115,47 +121,93 @@
             "c5": "0.88"
           }
         }
+      ],
+      "from": [
+        "F317-04",
+        "17.2/t:division-2028-op"
       ]
     },
     {
-      "id": "grid-05",
-      "kind": "shares",
+      "id": "fig-f317-05",
+      "kind": "grid",
       "kicker": "Figure F317-05",
       "title": "Your turn: the Tahini & Spreads ROI (complete the blank)",
-      "say": "Set every column for every row.",
-      "columns": [
+      "say": "Your turn: the Tahini & Spreads ROI (complete the blank)",
+      "caption": "Division, 2028",
+      "cols": [
+        "Operating income",
+        "Operating assets",
+        "ROI",
+        "Margin",
+        "Turnover"
+      ],
+      "rows": [
         {
-          "id": "c3",
-          "label": "ROI",
-          "options": [
-            "$840,000 ÷ $6,000,000 = 14.0%",
+          "name": "Beverages",
+          "cells": [
+            "3,180,000",
+            "12,000,000",
+            "26.5%",
+            "17.7%",
+            "1.50"
+          ]
+        },
+        {
+          "name": "Oils",
+          "cells": [
+            "1,000,000",
+            "5,000,000",
             "20.0%",
-            "26.5%"
+            "11.1%",
+            "1.80"
+          ]
+        },
+        {
+          "name": "Tahini & Spreads",
+          "cells": [
+            "840,000",
+            "6,000,000",
+            "________",
+            "16.0%",
+            "0.88"
           ]
         }
       ],
-      "actions": [
+      "data": true,
+      "from": [
+        "F317-05",
+        "17.2/t:division-2028-op#2"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F317-05",
+      "title": "The Tahini & Spreads ROI",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the blank cell of Figure F317-05.",
+      "blanks": [
         {
-          "label": "Beverages",
-          "cells": {
-            "c3": "26.5%"
-          },
-          "why": "ROI: 26.5%."
+          "label": "Tahini & Spreads ROI",
+          "working": "$840,000 ÷ $6,000,000 = 14.0%",
+          "shown": "14.0%",
+          "answer": 14,
+          "prompt": "$840,000 ÷ $6,000,000 ="
         },
         {
-          "label": "Oils",
-          "cells": {
-            "c3": "20.0%"
-          },
-          "why": "ROI: 20.0%."
-        },
-        {
-          "label": "Tahini & Spreads",
-          "cells": {
-            "c3": "$840,000 ÷ $6,000,000 = 14.0%"
-          },
-          "why": "ROI: $840,000 ÷ $6,000,000 = 14.0%."
+          "label": "Tahini & Spreads residual income",
+          "working": "$840,000 − 12% × $6,000,000 = $120,000",
+          "shown": "$120,000",
+          "answer": 120000,
+          "prompt": "$840,000 − 12% × $6,000,000 ="
         }
+      ],
+      "caption": "Your turn: the Tahini & Spreads ROI (complete the blank)",
+      "from": [
+        "17.2/your-turn",
+        "F317-05",
+        "17.2/t:division-2028-op#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -182,7 +234,10 @@
           "why": "The division is wrong."
         }
       ],
-      "exhibit": "Operating income is $3,180,000 and operating assets $12,000,000."
+      "exhibit": "Operating income is $3,180,000 and operating assets $12,000,000.",
+      "from": [
+        "17.2/section-check"
+      ]
     },
     {
       "id": "sc317-4",
@@ -208,7 +263,10 @@
           "why": "Turnover is ignored."
         }
       ],
-      "exhibit": "A division has a margin of 11.1% and asset turnover of 1.80."
+      "exhibit": "A division has a margin of 11.1% and asset turnover of 1.80.",
+      "from": [
+        "17.2/section-check"
+      ]
     }
   ]
 };

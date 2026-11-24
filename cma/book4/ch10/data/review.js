@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "erpHub"
   },
@@ -62,10 +62,7 @@
           "why": "A consequence, not the mechanism."
         }
       ],
-      "say": "By what single mechanism does ERP answer all six challenges of separate systems?",
-      "traps": [
-        "integration-is-not-the-same-as-interfa"
-      ]
+      "say": "By what single mechanism does ERP answer all six challenges of separate systems?"
     },
     {
       "id": "sc410-5",

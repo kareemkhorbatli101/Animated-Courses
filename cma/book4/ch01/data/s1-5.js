@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 1A: reading a failure back to its cause",
   "n": "1.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.5"),
   "brief": {
     "about": "This example takes a real failure at Orontes and traces it back through the framework. It is exam-core: questions give you the failure and ask which component or which limitation explains it. A purchasing clerk at the Amman plant was able to add a supplier to the approved list and to release payments to it. Over fourteen months, payments went to a supplier that delivered nothing. All three.",
     "anim": "riskStack",
@@ -62,6 +62,9 @@
       }
     ]
   },
+  "from": [
+    "1.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f401-07",
@@ -96,7 +99,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F401-07",
+        "1.5/t:what-happened-wh",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t1-5-0",
+      "kind": "lines",
+      "kicker": "Section 1.5",
+      "title": "Fact from the case",
+      "caption": "Fact from the case",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Payments to new suppliers are easy to disguise",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "One clerk both approved suppliers and released payments",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Nobody reconciled suppliers to goods received for fourteen months",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The approved supplier list was never reviewed",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:fact-from-the-ca",
+        "Practice/t:fact-from-the-ca#2",
+        "Answers and explanations/t:fact-from-the-ca"
+      ]
+    },
+    {
+      "id": "t1-5-1",
+      "kind": "lines",
+      "kicker": "Section 1.5",
+      "title": "Fact from the case",
+      "caption": "Fact from the case",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Payments to new suppliers are easy to disguise",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "One clerk both approved suppliers and released payments",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Nobody reconciled suppliers to goods received for fourteen months",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The approved supplier list was never reviewed",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:fact-from-the-ca",
+        "Practice/t:fact-from-the-ca#2",
+        "Answers and explanations/t:fact-from-the-ca"
+      ]
+    },
+    {
+      "id": "t1-5-2",
+      "kind": "lines",
+      "kicker": "Section 1.5",
+      "title": "Fact from the case",
+      "caption": "Fact from the case",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Payments to new suppliers are easy to disguise",
+          "a": "Inherent risk",
+          "b": ""
+        },
+        {
+          "name": "One clerk both approved suppliers and released payments",
+          "a": "Control risk",
+          "b": ""
+        },
+        {
+          "name": "Nobody reconciled suppliers to goods received for fourteen months",
+          "a": "Detection risk",
+          "b": ""
+        },
+        {
+          "name": "The approved supplier list was never reviewed",
+          "a": "Control risk",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:fact-from-the-ca",
+        "Practice/t:fact-from-the-ca#2",
+        "Answers and explanations/t:fact-from-the-ca"
+      ]
     },
     {
       "id": "yourturn",
@@ -140,6 +262,13 @@
       "note": "Why: the recording and the custody of stock are not separated, so an error or theft is not detected",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "1.5/your-turn",
+        "F401-07",
+        "1.5/t:what-happened-wh",
+        "1.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -165,6 +294,9 @@
           "text": "The duties were not separated",
           "why": "That is control risk."
         }
+      ],
+      "from": [
+        "1.5/section-check"
       ]
     },
     {
@@ -191,7 +323,10 @@
           "why": "That followed from the payments, which would have been stopped."
         }
       ],
-      "say": "Use Extended Example 1A. What could separating supplier approval from payment release NOT have prevented?"
+      "say": "Use Extended Example 1A. What could separating supplier approval from payment release NOT have prevented?",
+      "from": [
+        "1.5/section-check"
+      ]
     }
   ]
 };

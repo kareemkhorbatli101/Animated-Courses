@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 3A: the Oils maintenance and utilities cost function",
   "n": "3.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.7"),
   "brief": {
     "about": "This example runs both methods on the full 24 months of Oils data and turns the result into the 2027 budget. There are no journal entries here: the output is a forecast that feeds the budget. Oils has monthly maintenance and utilities costs for January 2025 to December 2026, with machine hours from 2,000 to 4,300. For 2027 it plans 3,200 machine hours a month, or 38,400 for the year.",
     "anim": "scatterLine",
@@ -62,13 +62,19 @@
       }
     ]
   },
+  "from": [
+    "3.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f203-10",
       "kind": "figure",
       "file": "F203-10.png",
       "label": "Figure F203-10.",
-      "caption": "Extended Example: regression and high-low lines on the 24 Oils months."
+      "caption": "Extended Example: regression and high-low lines on the 24 Oils months.",
+      "from": [
+        "F203-10"
+      ]
     },
     {
       "id": "num-09",
@@ -86,6 +92,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F203-09",
+        "3.7/t:regression-by-ha",
+        "3.7/exam-trap"
       ]
     },
     {
@@ -145,6 +156,94 @@
             "c3": "(38,400)"
           }
         }
+      ],
+      "from": [
+        "F203-11",
+        "3.7/t:oils-m-u-forecas"
+      ]
+    },
+    {
+      "id": "t3-7-0",
+      "kind": "lines",
+      "kicker": "Section 3.7",
+      "title": "Output item",
+      "caption": "Output item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Intercept",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Coefficient on deliveries",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "R²",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "t-statistic on deliveries",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Standard error of the estimate",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:output-item-cate",
+        "Answers and explanations/t:output-item-cate"
+      ]
+    },
+    {
+      "id": "t3-7-1",
+      "kind": "lines",
+      "kicker": "Section 3.7",
+      "title": "Output item",
+      "caption": "Output item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Intercept",
+          "a": "Fixed cost estimate",
+          "b": ""
+        },
+        {
+          "name": "Coefficient on deliveries",
+          "a": "Variable rate",
+          "b": ""
+        },
+        {
+          "name": "R²",
+          "a": "Reliability measure",
+          "b": ""
+        },
+        {
+          "name": "t-statistic on deliveries",
+          "a": "Reliability measure",
+          "b": ""
+        },
+        {
+          "name": "Standard error of the estimate",
+          "a": "Reliability measure",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:output-item-cate",
+        "Answers and explanations/t:output-item-cate"
       ]
     },
     {
@@ -201,7 +300,10 @@
         }
       ],
       "exhibit": "Use the Extended Example.",
-      "say": "What is the 2027 regression forecast for Oils maintenance and utilities (whole USD)?"
+      "say": "What is the 2027 regression forecast for Oils maintenance and utilities (whole USD)?",
+      "from": [
+        "3.7/section-check"
+      ]
     },
     {
       "id": "sc203-14",
@@ -227,7 +329,10 @@
           "why": "High-low does give a fixed cost."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "3.7/section-check"
+      ]
     }
   ]
 };

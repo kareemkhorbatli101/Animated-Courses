@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benefits and challenges",
   "n": "18.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.5"),
   "brief": {
     "about": "Supporters say integrated reporting improves management itself: to report on all the capitals, managers must think about how they connect. It can improve the allocation of capital, give investors a clearer and more concise picture, and encourage a long-term view. There are also challenges. Preparing the report takes time and money, and non-financial capitals such as relationships and skills are hard to measure.",
     "anim": "cost",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F18-08.png",
       "label": "Figure F18-08.",
-      "caption": "Benefits and challenges of integrated reporting."
+      "caption": "Benefits and challenges of integrated reporting.",
+      "from": [
+        "F18-08"
+      ]
     },
     {
       "id": "sc18-9",
@@ -55,6 +58,9 @@
           "why": "Integrated thinking is a key benefit.",
           "correct": true
         }
+      ],
+      "from": [
+        "18.5/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "It is limited to financial information",
           "why": "It covers all six capitals."
         }
+      ],
+      "from": [
+        "18.5/section-check"
       ]
     }
   ]

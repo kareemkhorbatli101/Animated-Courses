@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What counts as a segment",
   "n": "15.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.4"),
   "brief": {
     "about": "A segment is any part of a business for which a manager is responsible and separate figures are useful. Figure F315-07 lists the segments Orontes evaluates. Segments can overlap: the Gulf is a geographical segment that cuts across all three divisions. What matters is that someone is accountable for the result and that the revenue and costs can be traced. External reporting follows the same logic. Under U.S.",
     "anim": "marginStack",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f315-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F315-07",
       "title": "Segments that Orontes evaluates",
-      "say": "Segments that Orontes evaluates",
-      "caption": "Segment type (C.2.e)",
-      "col1": "At Orontes",
-      "col2": "Why it is evaluated",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Segment type (C.2.e)",
+      "col": "At Orontes",
       "rows": [
         {
-          "name": "Divisions",
-          "a": "Beverages, Oils, Tahini & Spreads",
-          "b": "Each has a manager responsible for results"
+          "label": "Divisions",
+          "right": "Beverages, Oils, Tahini & Spreads",
+          "why": "At Orontes: Beverages, Oils, Tahini & Spreads. Each has a manager responsible for results."
         },
         {
-          "name": "Product lines",
-          "a": "Juice flavours; tahini jars and halva",
-          "b": "Shows which products earn their keep (Chapter 13)"
+          "label": "Product lines",
+          "right": "Juice flavours; tahini jars and halva",
+          "why": "At Orontes: Juice flavours; tahini jars and halva. Shows which products earn their keep (Chapter 13)."
         },
         {
-          "name": "Geographical areas",
-          "a": "Jordan, the Gulf, export markets",
-          "b": "Shows where growth and risk lie"
+          "label": "Geographical areas",
+          "right": "Jordan, the Gulf, export markets",
+          "why": "At Orontes: Jordan, the Gulf, export markets. Shows where growth and risk lie."
         },
         {
-          "name": "Customers or channels",
-          "a": "Supermarkets, hotels, Barada",
-          "b": "Book 2, Chapter 13 measured customer profitability"
+          "label": "Customers or channels",
+          "right": "Supermarkets, hotels, Barada",
+          "why": "At Orontes: Supermarkets, hotels, Barada. Book 2, Chapter 13 measured customer profitability."
         },
         {
-          "name": "Reportable segments under ASC 280",
-          "a": "The divisions, as reported to the chief operating decision maker",
-          "b": "External reporting follows internal reporting"
+          "label": "Reportable segments under ASC 280",
+          "right": "The divisions, as reported to the chief operating decision maker",
+          "why": "At Orontes: The divisions, as reported to the chief operating decision maker. External reporting follows internal reporting."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Segments that Orontes evaluates",
+      "from": [
+        "F315-07",
+        "15.4/t:segment-type-c-2"
+      ]
     },
     {
       "id": "sc315-7",
@@ -87,6 +89,9 @@
           "text": "A distribution channel",
           "why": "A common segment."
         }
+      ],
+      "from": [
+        "15.4/section-check"
       ]
     },
     {
@@ -112,6 +117,9 @@
           "text": "Because GAAP requires it",
           "why": "Internal segments are a management choice."
         }
+      ],
+      "from": [
+        "15.4/section-check"
       ]
     }
   ]

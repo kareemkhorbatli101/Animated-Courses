@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Current and noncurrent items",
   "n": "2.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.2"),
   "brief": {
     "about": "Current assets are cash and other assets that the company expects to turn into cash, sell or use up within one year or within its operating cycle, whichever is longer. The operating cycle is the average time from buying materials to collecting cash from customers. Current liabilities are obligations the company expects to settle by using current assets or by creating other current liabilities. Figure F02-03 shows Orontes's cycle.",
     "anim": "cycle",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "2.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f02-03",
       "kind": "figure",
       "file": "F02-03.png",
       "label": "Figure F02-03.",
-      "caption": "Orontes's operating cycle: cash to inventory to receivables to cash."
+      "caption": "Orontes's operating cycle: cash to inventory to receivables to cash.",
+      "from": [
+        "F02-03"
+      ]
     },
     {
       "id": "cycle",
@@ -67,6 +73,10 @@
       "ruleWhy": "Because the cycle is shorter than a year, Orontes uses one year to classify its items. The cycle only takes over when it is longer.",
       "traps": [
         "working-capital-or-the-ratio"
+      ],
+      "from": [
+        "F02-03",
+        "2.2/exam-trap"
       ]
     },
     {
@@ -158,7 +168,11 @@
           "why": "Contract liability. it will be settled by delivering goods within a year."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "F02-04",
+        "2.2/t:item-classificat"
+      ]
     },
     {
       "id": "wc-or-ratio",
@@ -238,6 +252,12 @@
           },
           "why": "Current liability (contract liability): it will be settled by delivering goods within a year."
         }
+      ],
+      "from": [
+        "2.2/your-turn",
+        "F02-04",
+        "2.2/t:item-classificat",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -264,7 +284,10 @@
           "why": "The whole cycle counts as current."
         }
       ],
-      "exhibit": "A cheese maker ages its cheese for two years before sale."
+      "exhibit": "A cheese maker ages its cheese for two years before sale.",
+      "from": [
+        "2.2/section-check"
+      ]
     },
     {
       "id": "sc2-4",
@@ -290,7 +313,10 @@
           "why": "This is the 2025 amount."
         }
       ],
-      "say": "Use Figure F02-02. What was Orontes's working capital at December 31, 2024 (whole USD)?"
+      "say": "Use Figure F02-02. What was Orontes's working capital at December 31, 2024 (whole USD)?",
+      "from": [
+        "2.2/section-check"
+      ]
     }
   ]
 };

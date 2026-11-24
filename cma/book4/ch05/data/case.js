@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the weakness that was announced but not fixed",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cosoBase"
+  },
+  "scenario": {
+    "title": "Case question: the weakness that was announced but not fixed",
+    "p": [
+      "At the end of 2028 the external auditor reported a material weakness at Orontes: one purchasing clerk could both approve suppliers and release payments. Management responded in January by issuing a revised procedure that moved supplier approval to the purchasing manager and named the duty in his job description.",
+      "In February the chief financial officer told the audit committee that the weakness had been remediated and asked for it to be removed from the register. The revised procedure had been circulated, the purchasing manager had acknowledged it, and no further losses had been found.",
+      "The controller, Rania, disagreed. She pointed out that the new control had operated for six weeks, that nobody had yet tested whether the purchasing manager was in fact approving suppliers, and that the only evidence offered was the manager's own statement that he was.",
+      "The audit committee has asked Rania to set out what remains to be done, what kind of evidence would be sufficient, and what the position would be in the annual report if the work is not finished before the year end. Orontes is an accelerated filer, so its auditor reports on internal control as well as on the financial statements."
+    ],
+    "note": "Use the scenario above for items C405-1 to C405-7."
   },
   "scenes": [
     {
@@ -34,25 +44,30 @@
         {
           "name": "The control was redesigned and the duty named in a job description",
           "to": "already-done",
-          "why": "Inquiry alone is never sufficient."
+          "why": "Step taken or still outstanding: Already done. Inquiry alone is never sufficient."
         },
         {
           "name": "The revised procedure was circulated to staff",
           "to": "already-done",
-          "why": "Inquiry alone is never sufficient."
+          "why": "Step taken or still outstanding: Already done. Inquiry alone is never sufficient."
         },
         {
           "name": "The new control has operated for a sufficient period",
           "to": "still-outstanding",
-          "why": "Inquiry alone is never sufficient."
+          "why": "Step taken or still outstanding: Still outstanding. Inquiry alone is never sufficient."
         },
         {
           "name": "Someone independent has tested that the control works",
           "to": "still-outstanding",
-          "why": "Inquiry alone is never sufficient."
+          "why": "Step taken or still outstanding: Still outstanding. Inquiry alone is never sufficient."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:step-taken-or-st",
+        "Practice/t:step-taken-or-st#2",
+        "Answers and explanations/t:step-taken-or-st"
+      ]
     },
     {
       "id": "c405-5",
@@ -78,7 +93,7 @@
           "why": "Figure F405-08 sets out the six steps of remediation."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C405-1 to C405-7."
     },
     {
       "id": "c405-2",

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "revalue"
+    "anim": "revalue",
+    "about": "Figure F17-11 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "In share-based pay, U.S. GAAP allows a straight-line choice for graded vesting; IFRS requires tranche by tranche. Pension remeasurements are amortized from OCI under U.S. GAAP but never recycled under IFRS, and prior service cost is expensed at once only under IFRS. Development costs are expensed under U.S. GAAP and capitalized under IFRS when six criteria are met. LIFO is U.S. only, and write-down reversals are IFRS only. U.S. operating leases have a straight-line cost; IFRS 16 front-loads all leases. Revaluation is allowed only under IFRS. U.S. impairment uses undiscounted cash flows and then fair value, with no reversal; IFRS uses recoverable amount and allows reversal except for goodwill."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F17-11.png",
       "label": "Figure F17-11.",
       "caption": "Chapter 17 summary map: the key difference in each area.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F17-11"
+      ]
     },
     {
       "id": "rules",

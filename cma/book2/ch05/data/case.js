@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · job T-0306 three ways",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "appliedActual"
+  },
+  "scenario": {
+    "title": "Case question: job T-0306 three ways",
+    "p": [
+      "In June 2027 Tahini & Spreads made job T-0306, a batch of private-label tahini for Barada. The job used sesame, direct labor and machine time on the grinders. The division can cost a job in three ways: actual costing, normal costing and standard costing.",
+      "The cost accountant has the job's actual materials, labor and machine hours, the month's actual overhead rates, the division's predetermined overhead rates and the standard cost card for the product. The exhibit gives all of these. The actual overhead rates are known only after the month closes.",
+      "The division manager wants to see the job's cost under each technique before she discusses next year's price with Barada. She also wants to know which technique the division can use to price a similar job during the month, before the actual overhead for that month is known.",
+      "Barada has complained that the prices of private-label jobs change too much from month to month. The manager believes that part of the problem is the way job costs are measured. She wants a method that gives stable job costs during the year and still ties to the actual costs at the year-end close."
+    ]
   },
   "scenes": [
     {
@@ -71,7 +80,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F205-13",
+        "Practice/t:tahini-spreads-a"
+      ]
     },
     {
       "id": "c205-1",
@@ -126,7 +139,11 @@
           "why": "Cost: Direct cost."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c205-2",

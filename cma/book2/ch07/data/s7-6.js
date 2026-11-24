@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The strategic value of cost information",
   "n": "7.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.6"),
   "brief": {
     "about": "Product costs are not only for the balance sheet. Managers use them to set prices, choose the product mix and decide where to improve. A good bottle of extra-virgin oil costs $11.75; any price must cover that and the selling costs. Job costing gives the same kind of information for each order. Tahini job T-0303 cost $346,000 in March (Chapter 6). Cost information also shows where value is lost.",
     "anim": "spoilGate",
@@ -28,37 +28,44 @@
   "scenes": [
     {
       "id": "fig-f207-09",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F207-09",
       "title": "How the Oils division uses cost information",
-      "say": "How the Oils division uses cost information",
-      "caption": "Decision",
-      "col1": "How Oils uses the cost information",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Decision",
+      "col": "How Oils uses the cost information",
       "rows": [
         {
-          "name": "Pricing. A good bottle of EVOO costs $11.75; prices must cover it plus selling costs",
-          "note": true
+          "label": "Pricing",
+          "right": "A good bottle of EVOO costs $11.75; prices must cover it plus selling costs",
+          "why": "How Oils uses the cost information: A good bottle of EVOO costs $11.75; prices must cover it plus selling costs."
         },
         {
-          "name": "Product mix. Compare margins of EVOO, VOO and pomace before changing the mix",
-          "note": true
+          "label": "Product mix",
+          "right": "Compare margins of EVOO, VOO and pomace before changing the mix",
+          "why": "How Oils uses the cost information: Compare margins of EVOO, VOO and pomace before changing the mix."
         },
         {
-          "name": "Quality and spoilage. Each 1,000 liters of abnormal spoilage costs 11,660; target the causes",
-          "note": true
+          "label": "Quality and spoilage",
+          "right": "Each 1,000 liters of abnormal spoilage costs 11,660; target the causes",
+          "why": "How Oils uses the cost information: Each 1,000 liters of abnormal spoilage costs 11,660; target the causes."
         },
         {
-          "name": "Overhead allocation. A poor base distorts product costs (Chapters 8 and 12)",
-          "note": true
+          "label": "Overhead allocation",
+          "right": "A poor base distorts product costs (Chapters 8 and 12)",
+          "why": "How Oils uses the cost information: A poor base distorts product costs (Chapters 8 and 12)."
         },
         {
-          "name": "Make or buy; process or sell. Compare the extra cost of a further process with the extra revenue (Chapter 11)",
-          "note": true
+          "label": "Make or buy; process or sell",
+          "right": "Compare the extra cost of a further process with the extra revenue (Chapter 11)",
+          "why": "How Oils uses the cost information: Compare the extra cost of a further process with the extra revenue (Chapter 11)."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "How the Oils division uses cost information",
+      "from": [
+        "F207-09",
+        "7.6/t:decision-how-oil"
+      ]
     },
     {
       "id": "sc207-11",
@@ -83,6 +90,9 @@
           "text": "Measuring cash balances",
           "why": "Cash is measured separately."
         }
+      ],
+      "from": [
+        "7.6/section-check"
       ]
     },
     {
@@ -108,6 +118,9 @@
           "text": "Revenue is overstated",
           "why": "Revenue is not affected."
         }
+      ],
+      "from": [
+        "7.6/section-check"
       ]
     }
   ]

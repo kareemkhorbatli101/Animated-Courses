@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P215-01–P215-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "processMap"
   },

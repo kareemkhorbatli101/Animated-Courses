@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Expected value",
   "n": "17.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.1"),
   "brief": {
     "about": "The expected value of an uncertain quantity is each possible outcome multiplied by its probability, and the results added together. Figure F417-02 does this for the Gulf export expansion. The expected volume of 237,500 cases is not the middle scenario and not the simple average of the three, which would be 236,667. The probabilities do the work: the most likely case carries half the weight, and the two extremes a quarter each.",
     "anim": "evTree",
@@ -89,6 +89,10 @@
             "c3"
           ]
         }
+      ],
+      "from": [
+        "F417-02",
+        "17.1/t:scenario-cases-p"
       ]
     },
     {
@@ -114,6 +118,9 @@
           "text": "taking the midpoint of the range",
           "why": "The midpoint has no probability behind it."
         }
+      ],
+      "from": [
+        "17.1/section-check"
       ]
     },
     {
@@ -140,7 +147,10 @@
           "why": "That is the investment."
         }
       ],
-      "exhibit": "The expected volume is 237,500 cases."
+      "exhibit": "The expected volume is 237,500 cases.",
+      "from": [
+        "17.1/section-check"
+      ]
     }
   ]
 };

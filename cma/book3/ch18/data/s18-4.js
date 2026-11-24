@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The strategy map",
   "n": "18.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.4"),
   "brief": {
     "about": "A strategy map draws the cause-and-effect links between the objectives in the four perspectives. It is read upward: investment in people improves processes, better processes satisfy customers, and satisfied customers produce the financial result. Figure F318-07 traces one chain at Orontes, from training hours through changeover time and on-time delivery to export share and the return. The map explains why leading indicators matter.",
     "anim": "strategyMap",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F318-07.png",
       "label": "Figure F318-07.",
-      "caption": "A strategy map from training to return on investment."
+      "caption": "A strategy map from training to return on investment.",
+      "from": [
+        "F318-07"
+      ]
     },
     {
       "id": "sc318-7",
@@ -55,6 +58,9 @@
           "text": "the company's markets",
           "why": "That is a market map."
         }
+      ],
+      "from": [
+        "18.4/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "why": "People and systems drive everything above them.",
           "correct": true
         }
+      ],
+      "from": [
+        "18.4/section-check"
       ]
     }
   ]

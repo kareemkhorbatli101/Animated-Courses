@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 2A: four decisions and who makes them",
   "n": "2.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.5"),
   "brief": {
     "about": "This example takes four decisions facing Orontes and asks, for each one, which document governs it and who must act. It is exam-core: questions in this area are nearly always of exactly this shape. Orontes wants to issue new shares to fund the Gulf expansion, but has already issued all the shares its articles authorize. The articles of incorporation must be amended, which requires a shareholder vote.",
     "anim": "govPyramid",
@@ -56,6 +56,9 @@
       }
     ]
   },
+  "from": [
+    "2.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f402-08",
@@ -90,7 +93,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F402-08",
+        "2.5/t:what-is-being-de",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t2-5-0",
+      "kind": "lines",
+      "kicker": "Section 2.5",
+      "title": "Element of the proposal",
+      "caption": "Element of the proposal",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Whether the chairman may also be chief executive",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "How often the audit committee meets",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "To whom the external auditor reports",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Whether combining the roles is wise for Orontes",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:element-of-the-p",
+        "Practice/t:element-of-the-p#2",
+        "Answers and explanations/t:element-of-the-p"
+      ]
+    },
+    {
+      "id": "t2-5-1",
+      "kind": "lines",
+      "kicker": "Section 2.5",
+      "title": "Element of the proposal",
+      "caption": "Element of the proposal",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Whether the chairman may also be chief executive",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "How often the audit committee meets",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "To whom the external auditor reports",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Whether combining the roles is wise for Orontes",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:element-of-the-p",
+        "Practice/t:element-of-the-p#2",
+        "Answers and explanations/t:element-of-the-p"
+      ]
+    },
+    {
+      "id": "t2-5-2",
+      "kind": "lines",
+      "kicker": "Section 2.5",
+      "title": "Element of the proposal",
+      "caption": "Element of the proposal",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Whether the chairman may also be chief executive",
+          "a": "Governed by the bylaws",
+          "b": ""
+        },
+        {
+          "name": "How often the audit committee meets",
+          "a": "Governed by the audit committee",
+          "b": ""
+        },
+        {
+          "name": "To whom the external auditor reports",
+          "a": "Governed by the audit committee",
+          "b": ""
+        },
+        {
+          "name": "Whether combining the roles is wise for Orontes",
+          "a": "A board judgement, not a document",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:element-of-the-p",
+        "Practice/t:element-of-the-p#2",
+        "Answers and explanations/t:element-of-the-p"
+      ]
     },
     {
       "id": "yourturn",
@@ -136,6 +258,13 @@
       "traps": [
         "exam-view",
         "the-board-cannot-do-this-alone"
+      ],
+      "from": [
+        "2.5/your-turn",
+        "F402-08",
+        "2.5/t:what-is-being-de",
+        "2.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -161,6 +290,9 @@
           "why": "The structure protects the auditor's independence from management.",
           "correct": true
         }
+      ],
+      "from": [
+        "2.5/section-check"
       ]
     },
     {
@@ -187,7 +319,10 @@
           "why": "A procedure cannot alter a bylaw."
         }
       ],
-      "say": "Use Extended Example 2A. Who may reduce the board's quorum from five directors to four?"
+      "say": "Use Extended Example 2A. Who may reduce the board's quorum from five directors to four?",
+      "from": [
+        "2.5/section-check"
+      ]
     }
   ]
 };

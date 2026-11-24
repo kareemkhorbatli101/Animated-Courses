@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Levant's two customer groups",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "whaleCurve"
+  },
+  "scenario": {
+    "title": "Case question: Levant's two customer groups",
+    "p": [
+      "Levant Distribution delivers Orontes juices to two groups of customers. A large supermarket chain orders in big lots and takes a few deliveries a week to its central stores. Hundreds of small shops order a few cases at a time and each shop needs its own delivery.",
+      "Levant earns a service fee on every case it handles. Until now the controller has shared warehouse and delivery costs between the two groups in proportion to their fees. On that basis both groups look profitable.",
+      "The new finance manager, Nadia, suspects that the small shops cost far more to serve than their fees suggest. She has measured three activities for 2027: picking order lines in the warehouse, delivery stops and invoices. She has also calculated a rate for each activity.",
+      "Nadia must present an activity-based analysis to the board. She needs the cost to serve each group, the margin of each group under both methods and a recommendation for the small shops. The board chair has warned that dropping the shops would damage Levant's reputation with Orontes. The board meets at the end of the month, so the analysis must be clear enough for directors who are not accountants."
+    ]
   },
   "scenes": [
     {
@@ -46,7 +55,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F213-15",
+        "Practice/t:levant-distribut"
+      ]
     },
     {
       "id": "c213-1",
@@ -105,7 +118,11 @@
           "why": "Cost: Company level."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c213-2",

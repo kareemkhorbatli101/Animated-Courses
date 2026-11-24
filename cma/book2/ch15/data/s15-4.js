@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benchmarking process performance",
   "n": "15.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.4"),
   "brief": {
     "about": "Benchmarking compares a process and its results with those of the best performers. There are four common types, shown in Figure F215-08: internal benchmarking, competitive benchmarking, functional benchmarking and generic benchmarking. Benchmarking follows a cycle: plan, find partners, collect comparable data, analyse the gap and the practices behind it, act, and monitor. Figure F215-09 shows the cycle. Figure F215-10 compares Tahini with a best-practice food distributor from an industry survey.",
     "anim": "kaizenStair",
@@ -31,14 +31,20 @@
       "kind": "figure",
       "file": "F215-09.png",
       "label": "Figure F215-09.",
-      "caption": "The benchmarking cycle."
+      "caption": "The benchmarking cycle.",
+      "from": [
+        "F215-09"
+      ]
     },
     {
       "id": "fig-f215-11",
       "kind": "figure",
       "file": "F215-11.png",
       "label": "Figure F215-11.",
-      "caption": "Tahini's order-to-cash process compared with best practice."
+      "caption": "Tahini's order-to-cash process compared with best practice.",
+      "from": [
+        "F215-11"
+      ]
     },
     {
       "id": "grid-08",
@@ -87,6 +93,10 @@
           },
           "why": "Orontes example: Invoice-to-cash at a global retailer."
         }
+      ],
+      "from": [
+        "F215-08",
+        "15.4/t:type-compare-wit"
       ]
     },
     {
@@ -152,6 +162,10 @@
           },
           "why": "Tahini before: 5. Tahini after: 1. Best practice: 0.5."
         }
+      ],
+      "from": [
+        "F215-10",
+        "15.4/t:measure-tahini-b"
       ]
     },
     {
@@ -180,6 +194,9 @@
       ],
       "traps": [
         "define-the-measure-the-same-way"
+      ],
+      "from": [
+        "15.4/section-check"
       ]
     },
     {
@@ -206,7 +223,10 @@
           "why": "Tahini would look worse, not better."
         }
       ],
-      "exhibit": "Tahini's cost per order includes error correction; the survey figure does not."
+      "exhibit": "Tahini's cost per order includes error correction; the survey figure does not.",
+      "from": [
+        "15.4/section-check"
+      ]
     }
   ]
 };

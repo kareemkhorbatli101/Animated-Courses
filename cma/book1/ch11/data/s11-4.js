@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Step 5: recognizing revenue over time or at a point in time",
   "n": "11.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.4"),
   "brief": {
     "about": "Step 5: recognize revenue when, or as, each obligation is satisfied. An obligation is satisfied over time if the customer receives the benefit as the company performs, if the company improves an asset the customer controls, or if the asset has no other use and the company has a right to payment for work done so far. Payments rarely match revenue.",
     "anim": "datePeriod",
@@ -39,20 +39,29 @@
       }
     ]
   },
+  "from": [
+    "11.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f11-05",
       "kind": "figure",
       "file": "F11-05.png",
       "label": "Figure F11-05.",
-      "caption": "Decision chart: is revenue recognized over time or at a point in time?."
+      "caption": "Decision chart: is revenue recognized over time or at a point in time?.",
+      "from": [
+        "F11-05"
+      ]
     },
     {
       "id": "fig-f11-07",
       "kind": "figure",
       "file": "F11-07.png",
       "label": "Figure F11-07.",
-      "caption": "Cash, revenue and the contract liability on the GreenBasket contract."
+      "caption": "Cash, revenue and the contract liability on the GreenBasket contract.",
+      "from": [
+        "F11-07"
+      ]
     },
     {
       "id": "fill-06",
@@ -111,6 +120,10 @@
             "c4": "515,250"
           }
         }
+      ],
+      "from": [
+        "F11-06",
+        "11.4/t:obligation-alloc"
       ]
     },
     {
@@ -137,7 +150,10 @@
           "why": "This recognizes the whole contract at signing."
         }
       ],
-      "say": "Use Figure F11-06. What is Orontes's 2026 revenue on the GreenBasket contract (whole USD)?"
+      "say": "Use Figure F11-06. What is Orontes's 2026 revenue on the GreenBasket contract (whole USD)?",
+      "from": [
+        "11.4/section-check"
+      ]
     },
     {
       "id": "sc11-8",
@@ -163,7 +179,10 @@
           "why": "No service has been provided yet."
         }
       ],
-      "exhibit": "A customer pays in advance for a service that the company will provide next year."
+      "exhibit": "A customer pays in advance for a service that the company will provide next year.",
+      "from": [
+        "11.4/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Critical success factors and KPIs",
   "n": "18.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.1"),
   "brief": {
     "about": "A critical success factor (CSF) is something an organization must do well if its strategy is to succeed. A key performance indicator (KPI) is the measure that shows how well it is being done. The CSF is the thing; the KPI is the number. Figure F318-02 lists the Orontes factors and the indicator chosen for each. Every one traces back to an objective set in Chapter 1.",
     "anim": "scorecard4",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f318-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F318-02",
       "title": "Critical success factors and the KPI for each",
-      "say": "Critical success factors and the KPI for each",
-      "caption": "Critical success factor",
-      "col1": "KPI that measures it",
-      "col2": "2028",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Critical success factor",
+      "col": "KPI that measures it",
       "rows": [
         {
-          "name": "Win export customers in the Gulf",
-          "a": "Export share of revenue",
-          "b": "target 20.4%, actual 19.6%"
+          "label": "Win export customers in the Gulf",
+          "right": "Export share of revenue",
+          "why": "KPI that measures it: Export share of revenue. target 20.4%, actual 19.6%."
         },
         {
-          "name": "Deliver reliably",
-          "a": "On-time delivery",
-          "b": "target 97%, actual 94%"
+          "label": "Deliver reliably",
+          "right": "On-time delivery",
+          "why": "KPI that measures it: On-time delivery. target 97%, actual 94%."
         },
         {
-          "name": "Run the plant without long stoppages",
-          "a": "Changeover time",
-          "b": "target 30 minutes, actual 42"
+          "label": "Run the plant without long stoppages",
+          "right": "Changeover time",
+          "why": "KPI that measures it: Changeover time. target 30 minutes, actual 42."
         },
         {
-          "name": "Keep skilled operators",
-          "a": "Training hours and staff turnover",
-          "b": "turnover target 8%, actual 7%"
+          "label": "Keep skilled operators",
+          "right": "Training hours and staff turnover",
+          "why": "KPI that measures it: Training hours and staff turnover. turnover target 8%, actual 7%."
         },
         {
-          "name": "Earn the return the group requires",
-          "a": "Return on investment",
-          "b": "target 11.8%, actual 12.6%"
+          "label": "Earn the return the group requires",
+          "right": "Return on investment",
+          "why": "KPI that measures it: Return on investment. target 11.8%, actual 12.6%."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Critical success factors and the KPI for each",
+      "from": [
+        "F318-02",
+        "18.1/t:critical-success"
+      ]
     },
     {
       "id": "sc318-1",
@@ -87,6 +89,9 @@
           "text": "a budget target",
           "why": "A target is a level, not a factor."
         }
+      ],
+      "from": [
+        "18.1/section-check"
       ]
     },
     {
@@ -113,7 +118,10 @@
           "why": "That is the strategy."
         }
       ],
-      "exhibit": "Orontes must deliver reliably to win Gulf customers."
+      "exhibit": "Orontes must deliver reliably to win Gulf customers.",
+      "from": [
+        "18.1/section-check"
+      ]
     }
   ]
 };

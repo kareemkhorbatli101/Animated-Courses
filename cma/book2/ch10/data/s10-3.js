@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The direct method",
   "n": "10.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.3"),
   "brief": {
     "about": "The direct method ignores the services that service departments give each other. Each service department's cost is shared among the production departments only, in proportion to their use. It is simple and common, but it is least accurate when service departments serve each other a lot. The shares are rescaled to the production departments only. Using the original percentages would leave part of the cost unallocated.",
     "anim": "svcArrows",
@@ -36,6 +36,9 @@
       }
     ]
   },
+  "from": [
+    "10.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-04",
@@ -112,6 +115,11 @@
             "c5": "1,280,000"
           }
         }
+      ],
+      "from": [
+        "F210-04",
+        "10.3/t:division-maint-s",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -137,6 +145,9 @@
           "text": "charges fixed costs on actual use",
           "why": "That describes a single rate."
         }
+      ],
+      "from": [
+        "10.3/section-check"
       ]
     },
     {
@@ -163,7 +174,10 @@
           "why": "This also includes IT."
         }
       ],
-      "exhibit": "Maintenance costs $880,000; its shares are IT 20%, Oils 50%, Tahini 20%, Beverages 10%."
+      "exhibit": "Maintenance costs $880,000; its shares are IT 20%, Oils 50%, Tahini 20%, Beverages 10%.",
+      "from": [
+        "10.3/section-check"
+      ]
     }
   ]
 };

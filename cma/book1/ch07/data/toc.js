@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "7.2",
   "title": "Which costs belong in inventory?",
-  "blurb": "Figures, questions · 3 scenes"
+  "blurb": "Figures, a printed statement, questions · 4 scenes"
  },
  {
   "id": "s7-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "7.3",
   "title": "Cost flow assumptions",
-  "blurb": "Figures, grid, yourturn, questions · 6 scenes"
+  "blurb": "Figures, grid, match, yourturn, questions · 7 scenes"
  },
  {
   "id": "s7-4",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "7.6",
   "title": "Extended Example 7A: one year, three cost flows",
-  "blurb": "Shares, schedule, the tie lines, questions · 6 scenes"
+  "blurb": "Shares, schedule, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

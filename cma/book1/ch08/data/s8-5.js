@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Recommending a method",
   "n": "8.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.5"),
   "brief": {
     "about": "A Level C question may give you a set of facts and ask you to recommend a method. Use Figure F08-09 as a decision path, then support your answer with the facts in the question. Always check the facts that can rule a method out. If the company, or its parent, reports under IFRS, LIFO is not possible.",
     "anim": "rules",
@@ -33,13 +33,19 @@
       }
     ]
   },
+  "from": [
+    "8.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f08-09",
       "kind": "figure",
       "file": "F08-09.png",
       "label": "Figure F08-09.",
-      "caption": "Decision path for recommending an inventory cost flow method."
+      "caption": "Decision path for recommending an inventory cost flow method.",
+      "from": [
+        "F08-09"
+      ]
     },
     {
       "id": "sc8-9",
@@ -68,6 +74,10 @@
       "exhibit": "Cedar Retail S.A.L. reports under IFRS. Prices are rising, and it wants lower taxes.",
       "traps": [
         "recommendations-need-reasons"
+      ],
+      "from": [
+        "8.5/exam-trap",
+        "8.5/section-check"
       ]
     },
     {
@@ -94,7 +104,10 @@
           "why": "It does not target taxes and suits only unique items."
         }
       ],
-      "exhibit": "A U.S. company reports under U.S. GAAP. Prices are rising, and management accepts lower reported profits in exchange for the lowest income taxes."
+      "exhibit": "A U.S. company reports under U.S. GAAP. Prices are rising, and management accepts lower reported profits in exchange for the lowest income taxes.",
+      "from": [
+        "8.5/section-check"
+      ]
     }
   ]
 };

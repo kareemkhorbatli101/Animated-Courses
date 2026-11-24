@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "4.6",
   "title": "Extended Example 4A: pricing Barada's second halva order",
-  "blurb": "Figures, schedule, the tie lines, questions · 6 scenes"
+  "blurb": "Figures, schedule, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

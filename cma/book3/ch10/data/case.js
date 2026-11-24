@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the tahini pro forma statements",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cashLoop"
+  },
+  "scenario": {
+    "title": "Case question: the tahini pro forma statements",
+    "p": [
+      "The Tahini & Spreads division has finished its operating and cash budgets for 2028 and must now present pro forma statements to the Orontes board. Its budgeted operating income for the year is known, and the division pays interest on a loan taken out to build its Gulf warehouse. The warehouse was finished last year, so no further capital spending is planned for 2028.",
+      "Group policy sets the income tax rate and a dividend payout rate that every division applies to its net income. Dividends for a year are declared in December and paid to head office early in the following year, so they appear as a liability at the year end.",
+      "The division's controller, Rana, must calculate net income, the dividend, the retained earnings that will appear on the pro forma balance sheet, and the division's return on investment measured on average total assets. The board will compare that return with the group objective of 11.8% for 2028.",
+      "Samir, the division manager, also asks what would happen to net income if sales volume fell by five per cent, and whether the division would then need to borrow more from head office."
+    ]
   },
   "scenes": [
     {
@@ -61,7 +70,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F310-14",
+        "Practice/t:tahini-spreads-a"
+      ]
     },
     {
       "id": "c310-1",
@@ -88,30 +101,34 @@
         {
           "name": "Income tax expense",
           "to": "pro-forma-income-statement",
-          "why": "The statements are also a last check on the plan."
+          "why": "Item: Pro forma income statement. The statements are also a last check on the plan."
         },
         {
           "name": "Dividends payable",
           "to": "pro-forma-balance-sheet",
-          "why": "The statements are also a last check on the plan."
+          "why": "Item: Pro forma balance sheet. The statements are also a last check on the plan."
         },
         {
           "name": "Depreciation added back",
           "to": "pro-forma-statement-of-cash-flows",
-          "why": "The statements are also a last check on the plan."
+          "why": "Item: Pro forma statement of cash flows. The statements are also a last check on the plan."
         },
         {
           "name": "Retained earnings",
           "to": "pro-forma-balance-sheet",
-          "why": "The statements are also a last check on the plan."
+          "why": "Item: Pro forma balance sheet. The statements are also a last check on the plan."
         },
         {
           "name": "Purchase of the new mixer",
           "to": "pro-forma-statement-of-cash-flows",
-          "why": "The statements are also a last check on the plan."
+          "why": "Item: Pro forma statement of cash flows. The statements are also a last check on the plan."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c310-2",

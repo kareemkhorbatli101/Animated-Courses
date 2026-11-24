@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "dutySplit"
   },
@@ -62,10 +62,7 @@
           "why": "One of the four."
         }
       ],
-      "say": "Which is NOT one of the four functional responsibilities that must be separated?",
-      "traps": [
-        "two-duties-not-one-create-the-risk"
-      ]
+      "say": "Which is NOT one of the four functional responsibilities that must be separated?"
     },
     {
       "id": "sc403-5",

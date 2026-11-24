@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 15A: the business case for the new order-to-cash process",
   "n": "15.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.6"),
   "brief": {
     "about": "This example builds the three-year business case the division manager signed. It is exam-core. Figure F215-13 sets out the years. The one-off cost is recovered in 0.75 years, and the net saving over three years is $450,000.",
     "anim": "processMap",
@@ -51,6 +51,9 @@
       }
     ]
   },
+  "from": [
+    "15.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-13",
@@ -108,6 +111,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F215-13",
+        "15.6/t:whole-usd-saving",
+        "15.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t15-6-0",
+      "kind": "lines",
+      "kicker": "Section 15.6",
+      "title": "Comparison",
+      "caption": "Comparison",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Levant's two warehouses",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The Oils division's receiving dock",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Another juice distributor in Amman",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Receiving at a pharmaceutical distributor",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The best receiving process in any industry",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:comparison-categ",
+        "Answers and explanations/t:comparison-categ"
+      ]
+    },
+    {
+      "id": "t15-6-1",
+      "kind": "lines",
+      "kicker": "Section 15.6",
+      "title": "Comparison",
+      "caption": "Comparison",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Levant's two warehouses",
+          "a": "Internal",
+          "b": ""
+        },
+        {
+          "name": "The Oils division's receiving dock",
+          "a": "Internal",
+          "b": ""
+        },
+        {
+          "name": "Another juice distributor in Amman",
+          "a": "Competitive",
+          "b": ""
+        },
+        {
+          "name": "Receiving at a pharmaceutical distributor",
+          "a": "Functional",
+          "b": ""
+        },
+        {
+          "name": "The best receiving process in any industry",
+          "a": "Generic",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:comparison-categ",
+        "Answers and explanations/t:comparison-categ"
       ]
     },
     {
@@ -153,7 +245,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "15.6/section-check"
+      ]
     },
     {
       "id": "sc215-12",
@@ -179,7 +274,10 @@
           "why": "The one-off cost is not deducted."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "15.6/section-check"
+      ]
     }
   ]
 };

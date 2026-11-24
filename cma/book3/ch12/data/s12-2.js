@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The three-column frame",
   "n": "12.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.2"),
   "brief": {
     "about": "Every input variance uses the same three columns. Figure F312-03 shows them: what was spent, a bridge column that keeps the actual quantity but values it at the standard price, and what should have been spent for the output produced. The left gap changes only the price, so it is the price or rate variance. The right gap changes only the quantity, so it is the efficiency or usage variance.",
     "anim": "varSplit",
@@ -30,46 +30,51 @@
       "kind": "figure",
       "file": "F312-03.png",
       "label": "Figure F312-03.",
-      "caption": "The three-column frame for any input variance."
+      "caption": "The three-column frame for any input variance.",
+      "from": [
+        "F312-03"
+      ]
     },
     {
       "id": "fig-f312-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F312-04",
       "title": "Formulas for price and efficiency variances",
-      "say": "Formulas for price and efficiency variances",
-      "caption": "Variance",
-      "col1": "Formula",
-      "col2": "Valued at",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Variance",
+      "col": "Formula",
       "rows": [
         {
-          "name": "Material price",
-          "a": "(AP − SP) × AQ",
-          "b": "actual quantity bought or used"
+          "label": "Material price",
+          "right": "(AP − SP) × AQ",
+          "why": "Formula: (AP − SP) × AQ. actual quantity bought or used."
         },
         {
-          "name": "Material usage",
-          "a": "(AQ − SQ allowed) × SP",
-          "b": "standard price"
+          "label": "Material usage",
+          "right": "(AQ − SQ allowed) × SP",
+          "why": "Formula: (AQ − SQ allowed) × SP. standard price."
         },
         {
-          "name": "Labor rate",
-          "a": "(AR − SR) × AH",
-          "b": "actual hours worked"
+          "label": "Labor rate",
+          "right": "(AR − SR) × AH",
+          "why": "Formula: (AR − SR) × AH. actual hours worked."
         },
         {
-          "name": "Labor efficiency",
-          "a": "(AH − SH allowed) × SR",
-          "b": "standard rate"
+          "label": "Labor efficiency",
+          "right": "(AH − SH allowed) × SR",
+          "why": "Formula: (AH − SH allowed) × SR. standard rate."
         },
         {
-          "name": "Total for an input",
-          "a": "actual cost − standard cost allowed",
-          "b": "both parts together"
+          "label": "Total for an input",
+          "right": "actual cost − standard cost allowed",
+          "why": "Formula: actual cost − standard cost allowed. both parts together."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Formulas for price and efficiency variances",
+      "from": [
+        "F312-04",
+        "12.2/t:variance-formula"
+      ]
     },
     {
       "id": "sc312-3",
@@ -95,7 +100,10 @@
           "why": "This is the difference in cases × 6."
         }
       ],
-      "exhibit": "The standard allows 6 liters a case. The plan was 75,000 cases; 72,000 were produced."
+      "exhibit": "The standard allows 6 liters a case. The plan was 75,000 cases; 72,000 were produced.",
+      "from": [
+        "12.2/section-check"
+      ]
     },
     {
       "id": "sc312-4",
@@ -120,6 +128,9 @@
           "why": "It holds quantity actual and price standard.",
           "correct": true
         }
+      ],
+      "from": [
+        "12.2/section-check"
       ]
     }
   ]

@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "boardLine"
   },
@@ -61,9 +61,6 @@
           "text": "Setting the production schedule",
           "why": "Scheduling is operational."
         }
-      ],
-      "traps": [
-        "oversight-is-not-management"
       ]
     },
     {

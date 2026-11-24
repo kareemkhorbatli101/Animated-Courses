@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "rou"
+    "anim": "rou",
+    "about": "Figure F14-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A lease is the right to control an identified asset for a period. A lessee classifies a lease as finance if it meets any of five criteria, and as operating otherwise. Both types start with a lease liability at the present value of the payments and a right-of-use asset based on it. Finance leases show interest and amortization, so expense is higher early; operating leases show one straight-line cost. Finance-lease principal is a financing cash flow; everything else is operating. Leases of 12 months or less may stay off the balance sheet, and U.S. GAAP has no low-value exemption."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F14-12.png",
       "label": "Figure F14-12.",
       "caption": "Chapter 14 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F14-12"
+      ]
     },
     {
       "id": "rules",

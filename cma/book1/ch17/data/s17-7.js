@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 17A: one company, two frameworks",
   "n": "17.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.7"),
   "brief": {
     "about": "This example takes a single set of facts and reports them under U.S. GAAP and under IFRS, moving from one net income to the other. It is exam-core: the exam gives facts and asks what would change. Net income under U.S. GAAP is $900 thousand. Four differences change it, giving $1,114 under IFRS. Figure F17-09 bridges the two. Figure F17-10 lists all six tested differences with the effect each has here.",
     "anim": "revalue",
@@ -58,6 +58,9 @@
       }
     ]
   },
+  "from": [
+    "17.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-09",
@@ -80,6 +83,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F17-09",
+        "17.7/t:reconciliation-u",
+        "17.7/exam-trap"
       ]
     },
     {
@@ -115,6 +123,10 @@
           "us": "Finance and operating models",
           "ifrs": "One model for all leases"
         }
+      ],
+      "from": [
+        "F17-10",
+        "17.7/t:difference-u-s-g"
       ]
     },
     {
@@ -165,7 +177,10 @@
           "why": "This reverses the direction of the adjustments."
         }
       ],
-      "exhibit": "Use Extended Example 17A."
+      "exhibit": "Use Extended Example 17A.",
+      "from": [
+        "17.7/section-check"
+      ]
     },
     {
       "id": "sc17-14",
@@ -191,7 +206,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 17A."
+      "exhibit": "Use Extended Example 17A.",
+      "from": [
+        "17.7/section-check"
+      ]
     },
     {
       "id": "sc17-15",
@@ -217,7 +235,10 @@
           "why": "The undiscounted step is U.S. GAAP's."
         }
       ],
-      "exhibit": "Use Extended Example 17A."
+      "exhibit": "Use Extended Example 17A.",
+      "from": [
+        "17.7/section-check"
+      ]
     }
   ]
 };

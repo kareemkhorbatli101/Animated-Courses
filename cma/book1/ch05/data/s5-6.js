@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 5A: the Orontes cash flow statement",
   "n": "5.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.6"),
   "brief": {
     "about": "This example builds the 2025 statement by the indirect method and ties it to both balance sheets. It is exam-core: most cash flow questions ask for cash from operations or for one adjustment within it. Net income is $2,969,100. Adjustments of $4,562,000 give cash from operations of $7,531,100. Investing uses $4,179,000, mostly capital spending of $3,000,000 and the Jordan Glass investment of $1,200,000. Dividends are a good test.",
     "anim": "threeActivities",
@@ -60,6 +60,9 @@
       }
     ]
   },
+  "from": [
+    "5.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "reconcile",
@@ -87,6 +90,11 @@
       "sealText": "The three activities explain the change in cash.",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F05-09",
+        "5.6/t:orontes-foods-in",
+        "5.6/exam-trap"
       ]
     },
     {
@@ -128,7 +136,11 @@
           "why": "Wrong: the gain would be counted twice."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "F05-10",
+        "5.6/t:treatment-result"
+      ]
     },
     {
       "id": "sc5-11",
@@ -153,6 +165,9 @@
           "text": "8,738,000",
           "why": "This leaves the disposal gain in operations."
         }
+      ],
+      "from": [
+        "5.6/section-check"
       ]
     },
     {
@@ -179,7 +194,10 @@
           "why": "Disposals are investing, not financing."
         }
       ],
-      "say": "Use Extended Example 5A. Why is the gain on disposal removed from operating activities?"
+      "say": "Use Extended Example 5A. Why is the gain on disposal removed from operating activities?",
+      "from": [
+        "5.6/section-check"
+      ]
     },
     {
       "id": "sc5-13",
@@ -205,7 +223,10 @@
           "why": "This is not a dividend figure at all."
         }
       ],
-      "say": "Use Extended Example 5A. Which dividend figure appears in financing activities?"
+      "say": "Use Extended Example 5A. Which dividend figure appears in financing activities?",
+      "from": [
+        "5.6/section-check"
+      ]
     }
   ]
 };

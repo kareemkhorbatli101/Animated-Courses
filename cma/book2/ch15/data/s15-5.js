@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benchmarking and competitive advantage",
   "n": "15.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.5"),
   "brief": {
     "about": "Benchmarking helps create an advantage in four ways, listed in Figure F215-12. It sets targets that others already achieve, brings in ideas from outside, focuses on measures customers feel, and builds a habit of improving. For Tahini, a four-day cycle time is now a selling point: Barada receives its orders faster than from other suppliers, and fewer invoices need correcting. The advantage lasts only if benchmarking continues.",
     "anim": "kaizenStair",
@@ -31,38 +31,48 @@
       }
     ]
   },
+  "from": [
+    "15.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f215-12",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F215-12",
       "title": "Benefits of benchmarking for competitive advantage",
-      "say": "Benefits of benchmarking for competitive advantage",
-      "caption": "Benefit",
-      "col1": "What it gives the company",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Benefit",
+      "col": "What it gives the company",
       "rows": [
         {
-          "name": "Realistic targets",
-          "a": "Targets based on what others already achieve",
-          "b": ""
+          "label": "Realistic targets",
+          "right": "Targets based on what others already achieve",
+          "why": "What it gives the company: Targets based on what others already achieve."
         },
         {
-          "name": "New ideas. Practices the company would not have thought of",
-          "note": true
+          "label": "New ideas",
+          "right": "Practices the company would not have thought of",
+          "why": "What it gives the company: Practices the company would not have thought of."
         },
         {
-          "name": "Customer focus. Measures such as cycle time that customers feel",
-          "note": true
+          "label": "Customer focus",
+          "right": "Measures such as cycle time that customers feel",
+          "why": "What it gives the company: Measures such as cycle time that customers feel."
         },
         {
-          "name": "Lasting advantage",
-          "a": "A habit of improving faster than rivals",
-          "b": ""
+          "label": "Lasting advantage",
+          "right": "A habit of improving faster than rivals",
+          "why": "What it gives the company: A habit of improving faster than rivals."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Benefits of benchmarking for competitive advantage",
+      "traps": [
+        "talonnage"
+      ],
+      "from": [
+        "F215-12",
+        "15.5/t:benefit-what-it"
+      ]
     },
     {
       "id": "sc215-9",
@@ -88,8 +98,8 @@
           "why": "It needs process analysis."
         }
       ],
-      "traps": [
-        "talonnage"
+      "from": [
+        "15.5/section-check"
       ]
     },
     {
@@ -115,6 +125,9 @@
           "text": "Benchmarking data expire legally",
           "why": "That is not the reason."
         }
+      ],
+      "from": [
+        "15.5/section-check"
       ]
     }
   ]

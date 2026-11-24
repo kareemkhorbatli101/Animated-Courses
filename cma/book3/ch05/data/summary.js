@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "flexLine"
+    "anim": "flexLine",
+    "about": "Figure F305-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Zero-based budgeting justifies every activity from zero through ranked decision packages and funds the approved amounts. A continuous (rolling) budget drops each finished period, adds a new one and revises the rest. A flexible budget uses the cost formula to budget any level of activity, which makes fair comparison possible when volume changes. The system is chosen to fit the situation, and changes are measured by their effect on contribution margin, including any change in volume."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F305-14.png",
       "label": "Figure F305-14.",
       "caption": "Chapter 5 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F305-14"
+      ]
     },
     {
       "id": "rules",

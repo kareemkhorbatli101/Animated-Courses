@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.2",
   "title": "Lean resource management",
-  "blurb": "A printed statement, questions · 4 scenes"
+  "blurb": "Match, questions · 4 scenes"
  },
  {
   "id": "s17-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.3",
   "title": "Material requirements planning",
-  "blurb": "Figures, shares, questions · 4 scenes"
+  "blurb": "Figures, grid, yourturn, questions · 5 scenes"
  },
  {
   "id": "s17-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.4",
   "title": "Just-in-time systems",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s17-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.5",
   "title": "Enterprise resource planning",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s17-6",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.7",
   "title": "Extended Example 17A: JIT bottles from Jordan Glass",
-  "blurb": "Schedule, the tie lines, questions · 4 scenes"
+  "blurb": "Schedule, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · bottling olive oil outside",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 3 scenes"
  },
  {
   "id": "review",

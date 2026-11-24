@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What makes a scorecard effective",
   "n": "18.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.3"),
   "brief": {
     "about": "A scorecard fails more often from its design than from its arithmetic. Figure F318-06 sets out the characteristics of one that works. The commonest fault is too many measures. A board that reviews forty numbers reviews none of them, and managers whose bonus depends on a long list will work on whichever is easiest to move. The second commonest is a measure nobody owns.",
     "anim": "scorecard4",
@@ -27,47 +27,49 @@
   "scenes": [
     {
       "id": "fig-f318-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F318-06",
       "title": "Characteristics of an effective balanced scorecard",
-      "say": "Characteristics of an effective balanced scorecard",
-      "caption": "Characteristic (C.3.o)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Characteristic (C.3.o)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Few measures",
-          "a": "Four to six a perspective, not forty",
-          "b": "Orontes uses 12 in total"
+          "label": "Few measures",
+          "right": "Four to six a perspective, not forty",
+          "why": "What it means: Four to six a perspective, not forty. Orontes uses 12 in total."
         },
         {
-          "name": "Linked to strategy",
-          "a": "Every measure traces to a critical success factor",
-          "b": "Chapter 1 set the objectives"
+          "label": "Linked to strategy",
+          "right": "Every measure traces to a critical success factor",
+          "why": "What it means: Every measure traces to a critical success factor. Chapter 1 set the objectives."
         },
         {
-          "name": "Balanced",
-          "a": "Leading as well as lagging indicators",
-          "b": "Training and changeover time, not only return"
+          "label": "Balanced",
+          "right": "Leading as well as lagging indicators",
+          "why": "What it means: Leading as well as lagging indicators. Training and changeover time, not only return."
         },
         {
-          "name": "Owned",
-          "a": "Each measure has a manager who can influence it",
-          "b": "Changeover time belongs to the plant"
+          "label": "Owned",
+          "right": "Each measure has a manager who can influence it",
+          "why": "What it means: Each measure has a manager who can influence it. Changeover time belongs to the plant."
         },
         {
-          "name": "Measurable and timely",
-          "a": "Data available often enough to act on",
-          "b": "Delivery weekly, return quarterly"
+          "label": "Measurable and timely",
+          "right": "Data available often enough to act on",
+          "why": "What it means: Data available often enough to act on. Delivery weekly, return quarterly."
         },
         {
-          "name": "Reviewed",
-          "a": "Measures change as the strategy changes",
-          "b": "Reviewed with the plan each year"
+          "label": "Reviewed",
+          "right": "Measures change as the strategy changes",
+          "why": "What it means: Measures change as the strategy changes. Reviewed with the plan each year."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Characteristics of an effective balanced scorecard",
+      "from": [
+        "F318-06",
+        "18.3/t:characteristic-c"
+      ]
     },
     {
       "id": "sc318-5",
@@ -93,7 +95,10 @@
           "why": "Not stated."
         }
       ],
-      "exhibit": "A company's scorecard has forty measures and no named owners."
+      "exhibit": "A company's scorecard has forty measures and no named owners.",
+      "from": [
+        "18.3/section-check"
+      ]
     },
     {
       "id": "sc318-6",
@@ -118,6 +123,9 @@
           "text": "measures from one perspective",
           "why": "Four perspectives are needed."
         }
+      ],
+      "from": [
+        "18.3/section-check"
       ]
     }
   ]

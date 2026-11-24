@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The hierarchy of governance documents",
   "n": "2.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.3"),
   "brief": {
     "about": "A company is governed by a stack of documents, each one operating within the limits of the one above it. Figure F402-04 sets out the hierarchy the exam names. The articles of incorporation are filed with the state and create the company: its name, purpose and authorized shares. The bylaws are the company's internal rulebook on how the board meets and how officers are appointed. Two things follow.",
     "anim": "govPyramid",
@@ -33,46 +33,54 @@
       "kind": "figure",
       "file": "F402-04.png",
       "label": "Figure F402-04.",
-      "caption": "The hierarchy of governance documents."
+      "caption": "The hierarchy of governance documents.",
+      "from": [
+        "F402-04"
+      ]
     },
     {
       "id": "fig-f402-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F402-05",
       "title": "Rights and responsibilities along the chain",
-      "say": "Rights and responsibilities along the chain",
-      "caption": "Who",
-      "col1": "Rights and responsibilities (E.1.f)",
-      "col2": "In one line",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Who",
+      "col": "Rights and responsibilities (E.1.f)",
       "rows": [
         {
-          "name": "Shareholders",
-          "a": "Elect and remove directors; vote on the articles, mergers and pay; inspect books; receive declared dividends",
-          "b": "Vote; they do not manage"
+          "label": "Shareholders",
+          "right": "Elect and remove directors; vote on the articles, mergers and pay; inspect books; receive declared dividends",
+          "why": "Rights and responsibilities (E.1.f): Elect and remove directors; vote on the articles, mergers and pay; inspect books; receive declared dividends. Vote; they do not manage."
         },
         {
-          "name": "Board of directors",
-          "a": "Oversight of strategy, risk, control and reporting; duties of care and loyalty",
-          "b": "Direct and monitor; they do not run operations"
+          "label": "Board of directors",
+          "right": "Oversight of strategy, risk, control and reporting; duties of care and loyalty",
+          "why": "Rights and responsibilities (E.1.f): Oversight of strategy, risk, control and reporting; duties of care and loyalty. Direct and monitor; they do not run operations."
         },
         {
-          "name": "Audit committee",
-          "a": "Appoint, pay and oversee the external auditor; handle complaints; every member independent",
-          "b": "Oversee reporting and the auditor"
+          "label": "Audit committee",
+          "right": "Appoint, pay and oversee the external auditor; handle complaints; every member independent",
+          "why": "Rights and responsibilities (E.1.f): Appoint, pay and oversee the external auditor; handle complaints; every member independent. Oversee reporting and the auditor."
         },
         {
-          "name": "CEO",
-          "a": "Runs operations and carries out strategy; signs the certifications",
-          "b": "Manage the company"
+          "label": "CEO",
+          "right": "Runs operations and carries out strategy; signs the certifications",
+          "why": "Rights and responsibilities (E.1.f): Runs operations and carries out strategy; signs the certifications. Manage the company."
         },
         {
-          "name": "CFO",
-          "a": "Financial reporting and the design of internal control over it; signs the certifications",
-          "b": "Own the numbers"
+          "label": "CFO",
+          "right": "Financial reporting and the design of internal control over it; signs the certifications",
+          "why": "Rights and responsibilities (E.1.f): Financial reporting and the design of internal control over it; signs the certifications. Own the numbers."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Rights and responsibilities along the chain",
+      "traps": [
+        "as-of-october-2026"
+      ],
+      "from": [
+        "F402-05",
+        "2.3/t:who-rights-and-r"
+      ]
     },
     {
       "id": "grid-06",
@@ -127,8 +135,9 @@
           "why": "Status: no longer in force."
         }
       ],
-      "traps": [
-        "as-of-october-2026"
+      "from": [
+        "F402-06",
+        "2.3/t:requirement-what"
       ]
     },
     {
@@ -154,6 +163,9 @@
           "text": "An operating procedure",
           "why": "A procedure cannot create shares."
         }
+      ],
+      "from": [
+        "2.3/section-check"
       ]
     },
     {
@@ -179,6 +191,9 @@
           "why": "The hierarchy decides which prevails.",
           "correct": true
         }
+      ],
+      "from": [
+        "2.3/section-check"
       ]
     }
   ]

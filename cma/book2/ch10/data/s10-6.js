@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Single, dual and budgeted rates",
   "n": "10.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.6"),
   "brief": {
     "about": "A single-rate method charges one rate per hour for fixed and variable service costs together. When users need fewer hours than planned, the fixed cost is spread over fewer hours, and one user's change moves cost to the others. A dual-rate method charges variable cost on actual use and fixed cost on the capacity each user planned for. Figure F210-08 compares the two for 2027.",
     "anim": "svcArrows",
@@ -72,6 +72,10 @@
           },
           "why": "Dual rate (budgeted): 12,000 (spending only)."
         }
+      ],
+      "from": [
+        "F210-08",
+        "10.6/t:maintenance-actu"
       ]
     },
     {
@@ -135,6 +139,12 @@
           },
           "why": "Variable at $40: Variable 28,000; total 84,000. Total charge: Variable 28,000; total 84,000."
         }
+      ],
+      "from": [
+        "10.6/your-turn",
+        "F210-09",
+        "10.6/t:user-actual-hour",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -160,6 +170,9 @@
           "why": "Each cost is charged on what causes it.",
           "correct": true
         }
+      ],
+      "from": [
+        "10.6/section-check"
       ]
     },
     {
@@ -185,6 +198,9 @@
           "text": "To hide the service department's costs",
           "why": "The difference is reported, not hidden."
         }
+      ],
+      "from": [
+        "10.6/section-check"
       ]
     }
   ]

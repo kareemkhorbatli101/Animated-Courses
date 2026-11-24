@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Ideal and currently attainable standards",
   "n": "18.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.2"),
   "brief": {
     "about": "An ideal standard assumes perfect conditions: no waste, no rest, no breakdowns. A currently attainable standard allows for normal loss, rest, setups and normal downtime. It is hard but possible for a trained team working efficiently. For juice labor, the ideal is 0.040 hours a case; the standard set is 0.050 hours. Figure F218-05 sets the two kinds of standard side by side.",
     "anim": "stdCard",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "18.2/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f218-04",
       "kind": "figure",
       "file": "F218-04.png",
       "label": "Figure F218-04.",
-      "caption": "Four views of the labor time per case of juice."
+      "caption": "Four views of the labor time per case of juice.",
+      "from": [
+        "F218-04"
+      ]
     },
     {
       "id": "grid-05",
@@ -89,6 +95,10 @@
       ],
       "traps": [
         "th-orique-ou-r-alisable"
+      ],
+      "from": [
+        "F218-05",
+        "18.2/t:ideal-theoretica"
       ]
     },
     {
@@ -114,6 +124,9 @@
           "why": "It is hard but possible.",
           "correct": true
         }
+      ],
+      "from": [
+        "18.2/section-check"
       ]
     },
     {
@@ -140,7 +153,10 @@
           "why": "This is the historical average."
         }
       ],
-      "exhibit": "Basic filling time is 0.040 hours a case. Allowances for rest, cleaning and normal downtime add 0.010 hours."
+      "exhibit": "Basic filling time is 0.040 hours a case. Allowances for rest, cleaning and normal downtime add 0.010 hours.",
+      "from": [
+        "18.2/section-check"
+      ]
     }
   ]
 };

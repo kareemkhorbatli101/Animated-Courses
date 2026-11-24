@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Outside financing and dividend policy",
   "n": "10.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.5"),
   "brief": {
     "about": "Required outside financing is what the plan cannot fund from its own cash. Figure F310-10 shows that Beverages generates $3,702,450 from operations, spends $2,500,000 on the filling line and will pay $1,002,240 of dividends. The division borrowed $1,000,000 during the year but repaid it all, so no outside financing is needed at the year end. The seasonal borrowing of Chapter 9 was a timing need, not a funding gap.",
     "anim": "proForma3",
@@ -44,6 +44,10 @@
           "answer": "-1000000.0",
           "why": "Repaid during the year: (1,000,000)."
         }
+      ],
+      "from": [
+        "F310-10",
+        "10.5/t:financing-need-2"
       ]
     },
     {
@@ -59,6 +63,10 @@
           "answer": "2505600",
           "why": "Net income: 2,505,600."
         }
+      ],
+      "from": [
+        "F310-11",
+        "10.5/t:dividend-policy"
       ]
     },
     {
@@ -85,7 +93,10 @@
           "why": "This is the amount retained."
         }
       ],
-      "exhibit": "Net income is $2,505,600 and the payout rate is 40%."
+      "exhibit": "Net income is $2,505,600 and the payout rate is 40%.",
+      "from": [
+        "10.5/section-check"
+      ]
     },
     {
       "id": "sc310-10",
@@ -111,7 +122,10 @@
           "why": "Interest is an expense, not financing needed."
         }
       ],
-      "exhibit": "A division borrows $1,000,000 during the year and repays it all before the year end."
+      "exhibit": "A division borrows $1,000,000 during the year and repays it all before the year end.",
+      "from": [
+        "10.5/section-check"
+      ]
     }
   ]
 };

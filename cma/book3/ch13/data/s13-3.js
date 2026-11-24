@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Variances in service companies",
   "n": "13.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.3"),
   "brief": {
     "about": "A service company has no finished goods, but it still has standards: hours per delivery, hours per audit, minutes per call. Every variance in Chapters 11 to 13 applies, with labor hours in place of materials. Figure F313-11 shows how each variance is read in a service business. The one difference is that a service cannot be stored.",
     "anim": "mixYield",
@@ -36,6 +36,9 @@
       }
     ]
   },
+  "from": [
+    "13.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-10",
@@ -98,46 +101,52 @@
           },
           "why": "Calculation: (1,260 − 1,200) hours × $6.00. Variance: 360 U."
         }
+      ],
+      "from": [
+        "F313-10",
+        "13.3/t:levant-2-400-del"
       ]
     },
     {
       "id": "fig-f313-11",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F313-11",
       "title": "How each variance is read in a service company",
-      "say": "How each variance is read in a service company",
-      "caption": "Variance",
-      "col1": "In a service company",
-      "col2": "How it is calculated",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Variance",
+      "col": "In a service company",
       "rows": [
         {
-          "name": "Price or rate",
-          "a": "Wage paid to drivers and warehouse staff",
-          "b": "Same formula: (AR − SR) × actual hours"
+          "label": "Price or rate",
+          "right": "Wage paid to drivers and warehouse staff",
+          "why": "In a service company: Wage paid to drivers and warehouse staff. Same formula: (AR − SR) × actual hours."
         },
         {
-          "name": "Efficiency",
-          "a": "Hours per delivery or per order",
-          "b": "Same formula: (AH − SH allowed) × standard rate"
+          "label": "Efficiency",
+          "right": "Hours per delivery or per order",
+          "why": "In a service company: Hours per delivery or per order. Same formula: (AH − SH allowed) × standard rate."
         },
         {
-          "name": "Spending",
-          "a": "Fuel, vehicle running costs, utilities",
-          "b": "Actual overhead − standard rate × actual hours"
+          "label": "Spending",
+          "right": "Fuel, vehicle running costs, utilities",
+          "why": "In a service company: Fuel, vehicle running costs, utilities. Actual overhead − standard rate × actual hours."
         },
         {
-          "name": "Mix",
-          "a": "Share of senior and junior staff, or of service types",
-          "b": "Same formula as a materials or sales mix"
+          "label": "Mix",
+          "right": "Share of senior and junior staff, or of service types",
+          "why": "In a service company: Share of senior and junior staff, or of service types. Same formula as a materials or sales mix."
         },
         {
-          "name": "No inventory",
-          "a": "Services are consumed as produced",
-          "b": "There is no usage variance for stock, but input variances remain"
+          "label": "No inventory",
+          "right": "Services are consumed as produced",
+          "why": "In a service company: Services are consumed as produced. There is no usage variance for stock, but input variances remain."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "How each variance is read in a service company",
+      "from": [
+        "F313-11",
+        "13.3/t:variance-in-a-se"
+      ]
     },
     {
       "id": "sc313-5",
@@ -165,6 +174,9 @@
       ],
       "traps": [
         "one-difference-service-cannot-stored"
+      ],
+      "from": [
+        "13.3/section-check"
       ]
     },
     {
@@ -191,7 +203,10 @@
           "why": "This uses the standard hours allowed."
         }
       ],
-      "exhibit": "Actual variable overhead is $7,980 and the standard rate is $6.00 for each of the 1,260 hours worked."
+      "exhibit": "Actual variable overhead is $7,980 and the standard rate is $6.00 for each of the 1,260 hours worked.",
+      "from": [
+        "13.3/section-check"
+      ]
     }
   ]
 };

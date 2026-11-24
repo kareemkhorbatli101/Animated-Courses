@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.2",
   "title": "Business process reengineering and its savings",
-  "blurb": "Figures, schedule, shares, questions · 5 scenes"
+  "blurb": "Figures, schedule, a printed statement, yourturn, questions · 6 scenes"
  },
  {
   "id": "s15-3",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.5",
   "title": "Benchmarking and competitive advantage",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s15-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.6",
   "title": "Extended Example 15A: the business case for the new order-to-cash process",
-  "blurb": "Shares, the tie lines, questions · 4 scenes"
+  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · Levant's receiving dock",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 2 scenes"
  },
  {
   "id": "review",

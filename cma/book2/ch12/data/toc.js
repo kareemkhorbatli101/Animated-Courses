@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.4",
   "title": "Computing product cost with ABC",
-  "blurb": "Figures, schedule, grid, questions · 6 scenes"
+  "blurb": "Figures, schedule, grid, yourturn, questions · 7 scenes"
  },
  {
   "id": "s12-5",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.6",
   "title": "Benefits, limitations and strategic value",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s12-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.7",
   "title": "Extended Example 12A: Pulses & Spices in 2027",
-  "blurb": "Figures, post, the tie lines, questions · 5 scenes"
+  "blurb": "Figures, post, a printed statement, the tie lines, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · standard and premium juice",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 2 scenes"
  },
  {
   "id": "review",

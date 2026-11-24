@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.6",
   "title": "Extended Example 10A: looking beyond next year",
-  "blurb": "A printed statement, the tie lines, questions · 4 scenes"
+  "blurb": "Match, the tie lines, questions · 4 scenes"
  },
  {
   "id": "summary",

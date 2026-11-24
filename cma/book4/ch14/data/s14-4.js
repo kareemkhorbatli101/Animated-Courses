@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Structured Query Language",
   "n": "14.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.4"),
   "brief": {
     "about": "Structured Query Language (SQL), usually called SQL, is the standard language for asking a relational database for data and for changing what it holds. Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says. Read it as six questions in order. Which columns do I want, from which table, linked to what, keeping which rows, summarised how, and sorted how.",
     "anim": "relTable",
@@ -33,6 +33,9 @@
       "caption": "The parts of a SQL query.",
       "traps": [
         "a-management-accountant-is-not-expecte"
+      ],
+      "from": [
+        "F414-06"
       ]
     },
     {
@@ -61,6 +64,10 @@
       ],
       "traps": [
         "the-filter-decides-the-answer"
+      ],
+      "from": [
+        "14.4/exam-trap",
+        "14.4/section-check"
       ]
     },
     {
@@ -87,7 +94,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Two analysts query the same table and report different totals."
+      "exhibit": "Two analysts query the same table and report different totals.",
+      "from": [
+        "14.4/section-check"
+      ]
     }
   ]
 };

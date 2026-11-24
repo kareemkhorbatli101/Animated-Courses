@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Measuring profitability: the issues",
   "n": "13.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.2"),
   "brief": {
     "about": "Profit can be measured for a product, a customer or a business unit. Each measure raises the same questions: which revenue, which costs, how to allocate shared costs, and which assets and values to use. Figure F213-03 lists them. Revenue comes first. Under ASC 606, rebates and fees paid to a customer for shelf space reduce revenue; they are not selling expenses. A customer's revenue is therefore its net revenue.",
     "anim": "whaleCurve",
@@ -31,40 +31,53 @@
       }
     ]
   },
+  "from": [
+    "13.2/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f213-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F213-03",
       "title": "The issues in measuring profitability",
-      "say": "The issues in measuring profitability",
-      "caption": "Issue",
-      "col1": "Question to answer",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Issue",
+      "col": "Question to answer",
       "rows": [
         {
-          "name": "Cost measurement. Which costs to include: product cost only, or also the cost to serve each customer",
-          "note": true
+          "label": "Cost measurement",
+          "right": "Which costs to include: product cost only, or also the cost to serve each customer",
+          "why": "Question to answer: Which costs to include: product cost only, or also the cost to serve each customer."
         },
         {
-          "name": "Cost allocation. How to assign shared costs: by activity drivers, not by revenue",
-          "note": true
+          "label": "Cost allocation",
+          "right": "How to assign shared costs: by activity drivers, not by revenue",
+          "why": "Question to answer: How to assign shared costs: by activity drivers, not by revenue."
         },
         {
-          "name": "Revenue measurement. Revenue net of rebates, listing fees and other payments to customers (ASC 606)",
-          "note": true
+          "label": "Revenue measurement",
+          "right": "Revenue net of rebates, listing fees and other payments to customers (ASC 606)",
+          "why": "Question to answer: Revenue net of rebates, listing fees and other payments to customers (ASC 606)."
         },
         {
-          "name": "Investment measurement. Which assets each business unit uses, for return measures",
-          "note": true
+          "label": "Investment measurement",
+          "right": "Which assets each business unit uses, for return measures",
+          "why": "Question to answer: Which assets each business unit uses, for return measures."
         },
         {
-          "name": "Valuation. Historical cost or current value of those assets; transfer prices between units",
-          "note": true
+          "label": "Valuation",
+          "right": "Historical cost or current value of those assets; transfer prices between units",
+          "why": "Question to answer: Historical cost or current value of those assets; transfer prices between units."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The issues in measuring profitability",
+      "traps": [
+        "rentabilit"
+      ],
+      "from": [
+        "F213-03",
+        "13.2/t:issue-question-t"
+      ]
     },
     {
       "id": "sc213-3",
@@ -91,8 +104,10 @@
         }
       ],
       "traps": [
-        "rentabilit",
         "shelf-space-fees-reduce-revenue"
+      ],
+      "from": [
+        "13.2/section-check"
       ]
     },
     {
@@ -119,7 +134,10 @@
           "correct": true
         }
       ],
-      "say": "Why can allocating selling and delivery costs by revenue mislead customer profitability?"
+      "say": "Why can allocating selling and delivery costs by revenue mislead customer profitability?",
+      "from": [
+        "13.2/section-check"
+      ]
     }
   ]
 };

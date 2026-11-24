@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 13A: the month in one report",
   "n": "13.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.4"),
   "brief": {
     "about": "This example collects the chapter's variances into the report that goes to the Orontes board. It is exam-core. Figure F313-12 lists each variance with the manager who answers for it. The largest number is the quantity variance: the division simply sold fewer units. The mix variance is smaller but more useful, because it shows that the sales team sold the cheaper jars while halva, the richest product, fell furthest.",
     "anim": "threeCols",
@@ -42,45 +42,138 @@
       }
     ]
   },
+  "from": [
+    "13.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f313-12",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F313-12",
       "title": "Extended Example: the month's mix, yield and service variances",
-      "say": "Extended Example: the month's mix, yield and service variances",
-      "caption": "Variance",
-      "col1": "Amount",
-      "col2": "Who answers, and why",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Variance",
+      "col": "Who answers, and why",
       "rows": [
         {
-          "name": "Sales mix",
-          "a": "4,500 U",
-          "b": "Sales team: the product mix moved to cheaper jars"
+          "label": "Sales mix",
+          "right": "Sales team: the product mix moved to cheaper jars",
+          "why": "Who answers, and why: Sales team: the product mix moved to cheaper jars. 4,500 U."
         },
         {
-          "name": "Sales quantity",
-          "a": "36,000 U",
-          "b": "Sales team and market: fewer units in total"
+          "label": "Sales quantity",
+          "right": "Sales team and market: fewer units in total",
+          "why": "Who answers, and why: Sales team and market: fewer units in total. 36,000 U."
         },
         {
-          "name": "Materials mix (halva)",
-          "a": "420 U",
-          "b": "Plant: more paste, less sugar than the recipe"
+          "label": "Materials mix (halva)",
+          "right": "Plant: more paste, less sugar than the recipe",
+          "why": "Who answers, and why: Plant: more paste, less sugar than the recipe. 420 U."
         },
         {
-          "name": "Materials yield (halva)",
-          "a": "380 U",
-          "b": "Plant: more total input than the standard allows"
+          "label": "Materials yield (halva)",
+          "right": "Plant: more total input than the standard allows",
+          "why": "Who answers, and why: Plant: more total input than the standard allows. 380 U."
         },
         {
-          "name": "Levant labor and overhead",
-          "a": "1,884 U",
-          "b": "Levant: rate, efficiency and spending together"
+          "label": "Levant labor and overhead",
+          "right": "Levant: rate, efficiency and spending together",
+          "why": "Who answers, and why: Levant: rate, efficiency and spending together. 1,884 U."
+        }
+      ],
+      "caption": "Extended Example: the month's mix, yield and service variances",
+      "traps": [
+        "exam-view"
+      ],
+      "from": [
+        "F313-12",
+        "13.4/t:variance-amount",
+        "13.4/exam-trap"
+      ]
+    },
+    {
+      "id": "t13-4-0",
+      "kind": "lines",
+      "kicker": "Section 13.4",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "500 ml mix variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "1 liter mix variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "5 liter mix variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sales-quantity variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Total sales-volume variance",
+          "a": "",
+          "b": ""
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
+    },
+    {
+      "id": "t13-4-1",
+      "kind": "lines",
+      "kicker": "Section 13.4",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "500 ml mix variance",
+          "a": "Favorable",
+          "b": ""
+        },
+        {
+          "name": "1 liter mix variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "5 liter mix variance",
+          "a": "Favorable",
+          "b": ""
+        },
+        {
+          "name": "Sales-quantity variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Total sales-volume variance",
+          "a": "Favorable",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "ties",
@@ -99,9 +192,6 @@
           "answer": "800",
           "why": "Halva mix $420 + yield $380 = usage $800, all unfavorable."
         }
-      ],
-      "traps": [
-        "exam-view"
       ]
     },
     {
@@ -128,7 +218,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "13.4/section-check"
+      ]
     },
     {
       "id": "sc313-8",
@@ -154,7 +247,10 @@
           "why": "Spending belongs to overhead."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "13.4/section-check"
+      ]
     }
   ]
 };

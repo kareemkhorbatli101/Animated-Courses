@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "processMap"
+    "anim": "processMap",
+    "about": "Figure F215-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Process analysis maps and measures each step of a process. Reengineering redesigns the process radically, and its net saving is the old cost minus the new cost minus the cost of the change. Best practice analysis adapts what leaders do. Benchmarking compares processes with internal units, competitors, functional leaders or the best organizations anywhere, using the same definitions on both sides, and it creates a lasting advantage only if it continues."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F215-14.png",
       "label": "Figure F215-14.",
       "caption": "Chapter 15 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F215-14"
+      ]
     },
     {
       "id": "rules",

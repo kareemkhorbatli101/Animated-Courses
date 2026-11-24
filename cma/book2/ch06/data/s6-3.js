@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Recording materials and labor",
   "n": "6.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.3"),
   "brief": {
     "about": "A materials requisition moves materials out of Raw Materials Inventory. If the materials are traced to a job, the debit goes to Work-in-Process Inventory and the job cost sheet. If they are indirect materials, such as cleaning chemicals or machine oil, the debit goes to Manufacturing Overhead Control. Labor time tickets work the same way. Hours on a job are direct labor, debited to Work-in-Process Inventory.",
     "anim": "jobCard",
@@ -52,6 +52,10 @@
       "exhibit": "Machine oil is issued from the storeroom for general use in the factory.",
       "traps": [
         "indirect-costs-do-not-go-to-wip"
+      ],
+      "from": [
+        "6.3/exam-trap",
+        "6.3/section-check"
       ]
     },
     {
@@ -77,6 +81,9 @@
           "text": "Finished Goods Inventory",
           "why": "Costs reach finished goods only through WIP."
         }
+      ],
+      "from": [
+        "6.3/section-check"
       ]
     }
   ]

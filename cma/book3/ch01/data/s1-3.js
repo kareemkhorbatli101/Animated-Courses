@@ -9,7 +9,7 @@
   "up": "../",
   "title": "From mission to long-term goals",
   "n": "1.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.3"),
   "brief": {
     "about": "The mission statement says why the organization exists, what it does and for whom. The vision statement says what it wants to become. Figure F301-05 gives the Orontes statements and the question each one answers. The mission leads to long-term goals: results the company aims to reach by the end of the plan. Good goals turn the mission into numbers and dates, so that progress can be measured.",
     "anim": "planLadder",
@@ -37,6 +37,10 @@
       }
     ]
   },
+  "from": [
+    "1.3/false-friend-alert",
+    "1.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-05",
@@ -80,6 +84,10 @@
       ],
       "traps": [
         "mission-mission"
+      ],
+      "from": [
+        "F301-05",
+        "1.3/t:question-it-answ"
       ]
     },
     {
@@ -136,6 +144,10 @@
           },
           "why": "2032 (goal): 24 h."
         }
+      ],
+      "from": [
+        "F301-06",
+        "1.3/t:long-term-goal-2"
       ]
     },
     {
@@ -162,7 +174,10 @@
           "correct": true
         }
       ],
-      "say": "“To be the first-choice Levant food brand in the Gulf and Europe by 2032” is a:"
+      "say": "“To be the first-choice Levant food brand in the Gulf and Europe by 2032” is a:",
+      "from": [
+        "1.3/section-check"
+      ]
     },
     {
       "id": "sc301-6",
@@ -187,6 +202,9 @@
           "text": "Goals and mission are unrelated",
           "why": "Goals come from the mission."
         }
+      ],
+      "from": [
+        "1.3/section-check"
       ]
     }
   ]

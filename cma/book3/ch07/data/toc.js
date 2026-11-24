@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "7.2",
   "title": "The direct materials budget",
-  "blurb": "Schedule, a printed statement, questions · 6 scenes"
+  "blurb": "Schedule, grid, match, yourturn, questions · 7 scenes"
  },
  {
   "id": "s7-3",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "ABC as a cost accumulation system",
   "n": "12.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.5"),
   "brief": {
     "about": "ABC does not need new ledger accounts. Materials and labor go to work in process as before; overhead is applied at the activity rates instead of one rate. Completed units move to finished goods and then to cost of goods sold, as in job costing. Because unit costs change, inventory values change too. At the end of 2027 the unsold packs are worth $142,550 with ABC and $133,500 with the old rate.",
     "anim": "abcLevels",
@@ -76,6 +76,10 @@
             "c3": "142,550"
           }
         }
+      ],
+      "from": [
+        "F212-10",
+        "12.5/t:fy2027-whole-usd"
       ]
     },
     {
@@ -101,6 +105,9 @@
           "text": "as a period cost",
           "why": "Manufacturing overhead is a product cost."
         }
+      ],
+      "from": [
+        "12.5/section-check"
       ]
     },
     {
@@ -126,6 +133,9 @@
           "why": "Normal spoilage is part of the cost of good output.",
           "correct": true
         }
+      ],
+      "from": [
+        "12.5/section-check"
       ]
     }
   ]

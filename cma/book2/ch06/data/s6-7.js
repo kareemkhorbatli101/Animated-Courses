@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 6A: Tahini & Spreads, March 2027",
   "n": "6.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.7"),
   "brief": {
     "about": "This example follows every cost of one month from the source documents to the income statement. The calculations are exam-core: the exam asks for job costs, inventory values and cost of goods sold. The journal entries and T-accounts are for depth: they show why the numbers move. On March 1, 2027 Raw Materials Inventory was $120,000. Job T-0302 was in process at $64,000, and job T-0215 was in finished goods at $90,000.",
     "anim": "jobCard",
@@ -82,20 +82,29 @@
       }
     ]
   },
+  "from": [
+    "6.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f206-07",
       "kind": "figure",
       "file": "F206-07.png",
       "label": "Figure F206-07.",
-      "caption": "Extended Example: the March cost flow with journal entry numbers."
+      "caption": "Extended Example: the March cost flow with journal entry numbers.",
+      "from": [
+        "F206-07"
+      ]
     },
     {
       "id": "fig-f206-09",
       "kind": "figure",
       "file": "F206-09.png",
       "label": "Figure F206-09.",
-      "caption": "Extended Example: T-accounts for March, keyed to the journal entry numbers."
+      "caption": "Extended Example: T-accounts for March, keyed to the journal entry numbers.",
+      "from": [
+        "F206-09"
+      ]
     },
     {
       "id": "post-08",
@@ -333,6 +342,11 @@
       "logic": {},
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F206-08",
+        "6.7/t:no-account-detai",
+        "6.7/exam-trap"
       ]
     },
     {
@@ -348,6 +362,10 @@
           "answer": "631000",
           "why": "Total manufacturing costs: 631,000."
         }
+      ],
+      "from": [
+        "F206-10",
+        "6.7/t:tahini-spreads-w"
       ]
     },
     {
@@ -399,6 +417,94 @@
           },
           "why": "Job cost sheets: T-0215 and T-0302 (sold). Check: Agrees."
         }
+      ],
+      "from": [
+        "F206-11",
+        "6.7/t:control-account"
+      ]
+    },
+    {
+      "id": "t6-7-0",
+      "kind": "lines",
+      "kicker": "Section 6.7",
+      "title": "April item",
+      "caption": "April item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Direct materials for T-0305",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Indirect materials",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Factory supervisor's wages",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Overhead applied to T-0305",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Completion of T-0304",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:april-item-categ",
+        "Answers and explanations/t:april-item-categ"
+      ]
+    },
+    {
+      "id": "t6-7-1",
+      "kind": "lines",
+      "kicker": "Section 6.7",
+      "title": "April item",
+      "caption": "April item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Direct materials for T-0305",
+          "a": "Work-in-Process Inventory",
+          "b": ""
+        },
+        {
+          "name": "Indirect materials",
+          "a": "Manufacturing Overhead Control",
+          "b": ""
+        },
+        {
+          "name": "Factory supervisor's wages",
+          "a": "Manufacturing Overhead Control",
+          "b": ""
+        },
+        {
+          "name": "Overhead applied to T-0305",
+          "a": "Work-in-Process Inventory",
+          "b": ""
+        },
+        {
+          "name": "Completion of T-0304",
+          "a": "Finished Goods Inventory",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:april-item-categ",
+        "Answers and explanations/t:april-item-categ"
       ]
     },
     {
@@ -454,7 +560,10 @@
           "why": "Ending WIP must be deducted."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "6.7/section-check"
+      ]
     },
     {
       "id": "sc206-14",
@@ -480,7 +589,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "6.7/section-check"
+      ]
     }
   ]
 };

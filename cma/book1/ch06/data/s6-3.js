@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Transferring receivables: sale or secured borrowing?",
   "n": "6.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.3"),
   "brief": {
     "about": "A company that needs cash before its customers pay can use its receivables in two ways. It can use them as collateral for a loan (pledging), or it can transfer them to a finance company called a factor. This is factoring. The accounting question is simple: is the transfer a sale, or is it really a loan? U.S. GAAP treats a transfer as a sale only if three conditions are all met.",
     "anim": "transfer",
@@ -38,23 +38,40 @@
         "p": [
           "The balance sheet effect is the main reason companies care. A sale removes the receivables and adds little or no debt, so ratios such as debt to equity look better. A secured borrowing keeps the receivables and adds a liability. Lenders and analysts read the notes to see which receivables are pledged or transferred."
         ]
+      },
+      {
+        "h": "IFRS 9 looks at risks and rewards",
+        "box": "ifrs",
+        "p": [
+          "IFRS 9 asks first whether the seller has transferred substantially all the risks and rewards of the receivables. Factoring with substantial recourse usually keeps most of the risk with the seller, so under IFRS it often fails derecognition and is treated as borrowing. Under U.S. GAAP the same transfer may qualify as a sale if the three ASC 860 conditions are met."
+        ]
       }
     ]
   },
+  "from": [
+    "6.3/ifrs-contrast",
+    "6.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f06-07",
       "kind": "figure",
       "file": "F06-07.png",
       "label": "Figure F06-07.",
-      "caption": "Decision tree: is a transfer of receivables a sale or a secured borrowing?."
+      "caption": "Decision tree: is a transfer of receivables a sale or a secured borrowing?.",
+      "from": [
+        "F06-07"
+      ]
     },
     {
       "id": "fig-f06-08",
       "kind": "figure",
       "file": "F06-08.png",
       "label": "Figure F06-08.",
-      "caption": "Effects of one transfer as a sale without recourse, a sale with recourse, or a secured borrowing."
+      "caption": "Effects of one transfer as a sale without recourse, a sale with recourse, or a secured borrowing.",
+      "from": [
+        "F06-08"
+      ]
     },
     {
       "id": "sc6-5",
@@ -83,6 +100,10 @@
       "exhibit": "Orontes transfers receivables to a bank but must buy them back before they mature.",
       "traps": [
         "recourse-is-not-the-test"
+      ],
+      "from": [
+        "6.3/exam-trap",
+        "6.3/section-check"
       ]
     },
     {
@@ -109,7 +130,10 @@
           "why": "This treats the holdback as part of the loss."
         }
       ],
-      "exhibit": "Use the Orontes factoring example in Section 6.3."
+      "exhibit": "Use the Orontes factoring example in Section 6.3.",
+      "from": [
+        "6.3/section-check"
+      ]
     }
   ]
 };

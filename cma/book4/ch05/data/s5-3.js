@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The five components in full",
   "n": "5.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.3"),
   "brief": {
     "about": "Chapter 1 named the five components. Figure F405-04 shows them with the number of principles each carries, seventeen in all. The framework sets a demanding test for effectiveness. All five components must be present and functioning, and they must be operating together in an integrated manner. A company with excellent control activities and no monitoring does not have effective internal control; it has four fifths of a system.",
     "anim": "cosoBase",
@@ -33,6 +33,9 @@
       "caption": "The five COSO components and their principles.",
       "traps": [
         "all-five-components-must-be-present-an"
+      ],
+      "from": [
+        "F405-04"
       ]
     },
     {
@@ -58,6 +61,9 @@
           "text": "Twenty",
           "why": "Twenty belongs to the ERM framework."
         }
+      ],
+      "from": [
+        "5.3/section-check"
       ]
     },
     {
@@ -84,7 +90,10 @@
           "why": "Management reaches its own conclusion first."
         }
       ],
-      "exhibit": "A company has strong control activities but performs no monitoring."
+      "exhibit": "A company has strong control activities but performs no monitoring.",
+      "from": [
+        "5.3/section-check"
+      ]
     }
   ]
 };

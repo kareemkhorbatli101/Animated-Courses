@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The elements of an ABC system",
   "n": "12.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.2"),
   "brief": {
     "about": "An activity is a task that uses resources, such as a setup or a quality test. Each activity has an activity cost pool: the total cost of doing it. Activity-based costing assigns overhead to these pools first and then to products. The first stage uses resource drivers, such as the share of staff time spent on each activity. Figure F212-04 fills the five pools.",
     "anim": "poolBase",
@@ -32,13 +32,19 @@
       }
     ]
   },
+  "from": [
+    "12.2/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f212-03",
       "kind": "figure",
       "file": "F212-03.png",
       "label": "Figure F212-03.",
-      "caption": "The two stages of ABC: resource drivers, then activity drivers."
+      "caption": "The two stages of ABC: resource drivers, then activity drivers.",
+      "from": [
+        "F212-03"
+      ]
     },
     {
       "id": "fill-04",
@@ -139,6 +145,10 @@
       "traps": [
         "some-activities-add-cost-not-value",
         "valeur-ajout-e"
+      ],
+      "from": [
+        "F212-04",
+        "12.2/t:resource-receivi"
       ]
     },
     {
@@ -164,6 +174,9 @@
           "text": "a cost pool",
           "why": "The pool is what is being assigned."
         }
+      ],
+      "from": [
+        "12.2/section-check"
       ]
     },
     {
@@ -190,7 +203,10 @@
           "why": "It is a measure, not an activity."
         }
       ],
-      "exhibit": "The share of indirect staff time spent on setups is used to move labor cost into the setup pool."
+      "exhibit": "The share of indirect staff time spent on setups is used to move labor cost into the setup pool.",
+      "from": [
+        "12.2/section-check"
+      ]
     }
   ]
 };

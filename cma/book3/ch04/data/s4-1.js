@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The master budget",
   "n": "4.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.1"),
   "brief": {
     "about": "The master budget is the complete annual budget of the organization. Its purpose is to plan and coordinate every unit for one year, usually split into quarters and months. Every organization prepares one. It has two groups of components. The operating budget plans sales, production and costs, and ends in the budgeted income statement. The financial budget plans capital spending and cash, and ends in the budgeted balance sheet. Every link matters.",
     "anim": "masterMap",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F304-02.png",
       "label": "Figure F304-02.",
-      "caption": "The master budget: operating and financial budgets."
+      "caption": "The master budget: operating and financial budgets.",
+      "from": [
+        "F304-02"
+      ]
     },
     {
       "id": "grid-03",
@@ -72,6 +75,10 @@
           },
           "why": "Project budget: The life of the project."
         }
+      ],
+      "from": [
+        "F304-03",
+        "4.1/t:b-4-a-master-ann"
       ]
     },
     {
@@ -97,6 +104,9 @@
           "text": "One week",
           "why": "Too short."
         }
+      ],
+      "from": [
+        "4.1/section-check"
       ]
     },
     {
@@ -122,6 +132,9 @@
           "text": "The cost of goods sold budget",
           "why": "An operating budget."
         }
+      ],
+      "from": [
+        "4.1/section-check"
       ]
     }
   ]

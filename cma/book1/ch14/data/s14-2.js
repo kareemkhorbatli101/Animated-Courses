@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Finance or operating? The five criteria",
   "n": "14.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.2"),
   "brief": {
     "about": "A lessee classifies each lease at the start. It is a finance lease if it meets any one of five criteria; otherwise it is an operating lease. Figure F14-02 lists them. Many companies use about 75% or more of economic life as a major part, and about 90% or more of fair value as substantially all. Figure F14-03 applies the criteria to Orontes's two leases.",
     "anim": "ladder",
@@ -30,13 +30,19 @@
       }
     ]
   },
+  "from": [
+    "14.2/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f14-02",
       "kind": "figure",
       "file": "F14-02.png",
       "label": "Figure F14-02.",
-      "caption": "The five criteria: one 'yes' makes a lease a finance lease."
+      "caption": "The five criteria: one 'yes' makes a lease a finance lease.",
+      "from": [
+        "F14-02"
+      ]
     },
     {
       "id": "fig-f14-03",
@@ -80,7 +86,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F14-03",
+        "14.2/t:criterion-wareho"
+      ]
     },
     {
       "id": "sc14-3",
@@ -108,6 +118,9 @@
       ],
       "traps": [
         "cr-dit-bail-is-not-a-class"
+      ],
+      "from": [
+        "14.2/section-check"
       ]
     },
     {
@@ -134,7 +147,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A lease has no transfer or purchase option, covers 40% of the asset's life, and the PV of payments is 60% of fair value."
+      "exhibit": "A lease has no transfer or purchase option, covers 40% of the asset's life, and the PV of payments is 60% of fair value.",
+      "from": [
+        "14.2/section-check"
+      ]
     }
   ]
 };

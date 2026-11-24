@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Relational databases",
   "n": "10.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.3"),
   "brief": {
     "about": "A relational database stores data in tables of rows and columns, with tables linked by shared values rather than by position. Figure F410-05 shows two Orontes tables and the link between them. A primary key uniquely identifies each row: no two suppliers may share a supplier number, and none may be left blank. Two control consequences follow directly.",
     "anim": "relTable",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F410-05.png",
       "label": "Figure F410-05.",
-      "caption": "A relational database: two tables joined by a key."
+      "caption": "A relational database: two tables joined by a key.",
+      "from": [
+        "F410-05"
+      ]
     },
     {
       "id": "sc410-5",
@@ -56,6 +59,9 @@
           "text": "is the first column of any table",
           "why": "Position is irrelevant."
         }
+      ],
+      "from": [
+        "10.3/section-check"
       ]
     },
     {
@@ -81,6 +87,9 @@
           "text": "users may not delete records",
           "why": "Deletion is permitted, subject to the keys."
         }
+      ],
+      "from": [
+        "10.3/section-check"
       ]
     }
   ]

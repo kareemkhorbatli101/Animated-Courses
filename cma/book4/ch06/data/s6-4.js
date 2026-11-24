@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Physical and logical access",
   "n": "6.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.4"),
   "brief": {
     "about": "Access control has two halves, shown in Figure F406-05. Physical access controls decide who can reach the machine. Logical access controls decide who can reach the programs and the data. Physical controls are the older idea and still necessary. A server room needs a lock, a record of who entered, and a procedure for destroying old drives. A disk carried out of the building defeats every password on it.",
     "anim": "accessGate",
@@ -32,51 +32,60 @@
       "kind": "figure",
       "file": "F406-05.png",
       "label": "Figure F406-05.",
-      "caption": "Physical access against logical access."
+      "caption": "Physical access against logical access.",
+      "from": [
+        "F406-05"
+      ]
     },
     {
       "id": "fig-f406-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F406-06",
       "title": "Logical access controls",
-      "say": "Logical access controls",
-      "caption": "Logical access control (E.2.e)",
-      "col1": "What it does",
-      "col2": "Note",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Logical access control (E.2.e)",
+      "col": "What it does",
       "rows": [
         {
-          "name": "Unique user identification",
-          "a": "Every action can be traced to one person",
-          "b": "Shared logins make accountability impossible"
+          "label": "Unique user identification",
+          "right": "Every action can be traced to one person",
+          "why": "What it does: Every action can be traced to one person. Shared logins make accountability impossible."
         },
         {
-          "name": "Authentication",
-          "a": "Proves the person is who the ID claims",
-          "b": "Multi-factor is now the normal standard"
+          "label": "Authentication",
+          "right": "Proves the person is who the ID claims",
+          "why": "What it does: Proves the person is who the ID claims. Multi-factor is now the normal standard."
         },
         {
-          "name": "Authorization and least privilege",
-          "a": "Each person has the minimum access the job needs",
-          "b": "Access tends to accumulate as people change roles"
+          "label": "Authorization and least privilege",
+          "right": "Each person has the minimum access the job needs",
+          "why": "What it does: Each person has the minimum access the job needs. Access tends to accumulate as people change roles."
         },
         {
-          "name": "Access reviews",
-          "a": "Someone checks periodically who holds what",
-          "b": "Catches the accumulation above"
+          "label": "Access reviews",
+          "right": "Someone checks periodically who holds what",
+          "why": "What it does: Someone checks periodically who holds what. Catches the accumulation above."
         },
         {
-          "name": "Logging and monitoring",
-          "a": "A record of who did what, reviewed by someone",
-          "b": "A log nobody reads is not a control"
+          "label": "Logging and monitoring",
+          "right": "A record of who did what, reviewed by someone",
+          "why": "What it does: A record of who did what, reviewed by someone. A log nobody reads is not a control."
         },
         {
-          "name": "Removal on exit",
-          "a": "Access ends when employment ends",
-          "b": "Chapter 2 treated this as a personnel control too"
+          "label": "Removal on exit",
+          "right": "Access ends when employment ends",
+          "why": "What it does: Access ends when employment ends. Chapter 2 treated this as a personnel control too."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Logical access controls",
+      "traps": [
+        "a-log-nobody-reads-is-not-a-control"
+      ],
+      "from": [
+        "F406-06",
+        "6.4/t:logical-access-c",
+        "6.4/exam-trap"
+      ]
     },
     {
       "id": "sc406-7",
@@ -102,8 +111,8 @@
           "why": "That reviews logical permissions."
         }
       ],
-      "traps": [
-        "a-log-nobody-reads-is-not-a-control"
+      "from": [
+        "6.4/section-check"
       ]
     },
     {
@@ -129,6 +138,9 @@
           "why": "The review finds rights nobody needs any more.",
           "correct": true
         }
+      ],
+      "from": [
+        "6.4/section-check"
       ]
     }
   ]

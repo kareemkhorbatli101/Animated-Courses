@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "planHorizon"
+    "anim": "planHorizon",
+    "about": "Figure F301-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Strategic planning sets the long-term path from the mission and vision to measurable goals. A strategic plan usually covers three to five years or more, depending on the industry, and is reviewed each year. Short-term objectives, tactics, operational plans and budgets must all fit the strategy. Successful plans are clear, measurable, realistic, shared, resourced and regularly reviewed."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F301-13.png",
       "label": "Figure F301-13.",
       "caption": "Chapter 1 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F301-13"
+      ]
     },
     {
       "id": "rules",

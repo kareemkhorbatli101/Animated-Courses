@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.3",
   "title": "Fixed overhead variances",
-  "blurb": "Figures, amounts, questions · 4 scenes"
+  "blurb": "Figures, a printed statement, yourturn, questions · 5 scenes"
  },
  {
   "id": "s14-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.4",
   "title": "Two-, three- and four-way analysis",
-  "blurb": "Figures, grid, amounts, questions · 5 scenes"
+  "blurb": "Figures, match, amounts, questions · 5 scenes"
  },
  {
   "id": "s14-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.5",
   "title": "Analysing variances and acting on them",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s14-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.6",
   "title": "Extended Example 14A: what June means and what to do",
-  "blurb": "Shares, the tie lines, questions · 4 scenes"
+  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · overhead in the tahini plant",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 2 scenes"
  },
  {
   "id": "review",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Revenue and the core principle",
   "n": "11.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.1"),
   "brief": {
     "about": "Revenue is the inflow from a company's main activities, such as selling goods or providing services. Under ASC 606, a company recognizes revenue when it transfers control of promised goods or services to a customer. It measures revenue at the amount it expects to be entitled to in exchange. Control means the customer can direct the use of the asset and obtain almost all of its benefits.",
     "anim": "fivesteps",
@@ -48,6 +48,9 @@
           "text": "When it sends an invoice",
           "why": "Invoicing does not transfer control."
         }
+      ],
+      "from": [
+        "11.1/section-check"
       ]
     },
     {
@@ -73,6 +76,9 @@
           "text": "Obligations, contract, allocation, transaction price, recognition",
           "why": "The price is allocated after it is determined."
         }
+      ],
+      "from": [
+        "11.1/section-check"
       ]
     }
   ]

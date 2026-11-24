@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Which goods belong in inventory?",
   "n": "7.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.1"),
   "brief": {
     "about": "Inventory means goods held for sale in the ordinary course of business, goods in production, and materials that will be used in production. A retailer such as Barada Wholesale, Inc. has one inventory account. A manufacturer such as Orontes has three: raw materials, work in process and finished goods. The basic rule is simple: include the goods that the company controls on the balance sheet date, wherever they are.",
     "anim": "ship",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "7.1/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f07-02",
       "kind": "figure",
       "file": "F07-02.png",
       "label": "Figure F07-02.",
-      "caption": "Decision tree: should goods be included in inventory at year-end?."
+      "caption": "Decision tree: should goods be included in inventory at year-end?.",
+      "from": [
+        "F07-02"
+      ]
     },
     {
       "id": "sc7-1",
@@ -72,6 +78,10 @@
       "traps": [
         "fob-is-not-the-incoterm-you-know",
         "the-fob-flip"
+      ],
+      "from": [
+        "7.1/exam-trap",
+        "7.1/section-check"
       ]
     },
     {
@@ -98,7 +108,10 @@
           "why": "The consignor keeps the goods in inventory until the consignee sells them."
         }
       ],
-      "exhibit": "Barada Wholesale holds cartons of Orontes tahini on consignment and sells them for a commission."
+      "exhibit": "Barada Wholesale holds cartons of Orontes tahini on consignment and sells them for a commission.",
+      "from": [
+        "7.1/section-check"
+      ]
     }
   ]
 };

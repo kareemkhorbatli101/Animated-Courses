@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the night the batch would not balance",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "inputGate"
+  },
+  "scenario": {
+    "title": "Case question: the night the batch would not balance",
+    "p": [
+      "At the Orontes head office, accounts payable keys supplier invoices in batches of twenty. Before keying, a clerk records three control figures for each batch: the number of documents, the total of the invoice amounts, and a total of the supplier numbers that has no accounting meaning.",
+      "One evening a batch posts with the document count and the invoice total both agreeing, but the third figure differs. The clerk who keyed the batch says the work was careful and suggests the third figure be ignored, since the money agrees and the count agrees.",
+      "The systems team has also reported that the nightly backup now takes four hours and the weekend restore test failed, because one of the nightly files was unreadable. Backups are taken nightly to a server in the same room and copied to a cloud service once a month. The team has asked whether a nightly copy that can be read but not changed would be worth the extra storage cost.",
+      "Rania, the controller, has been asked what the mismatched figure means, whether the clerk's suggestion is safe, and what should change about the backup arrangement before the Gulf expansion increases the volume."
+    ],
+    "note": "Use the scenario above for items C407-1 to C407-7."
   },
   "scenes": [
     {
@@ -38,25 +48,30 @@
         {
           "name": "The count of documents taken before keying",
           "to": "input-control",
-          "why": "The economics are the whole argument for input controls."
+          "why": "Control figure or practice: Input control. The economics are the whole argument for input controls."
         },
         {
           "name": "The total of supplier numbers with no accounting meaning",
           "to": "input-control",
-          "why": "The economics are the whole argument for input controls."
+          "why": "Control figure or practice: Input control. The economics are the whole argument for input controls."
         },
         {
           "name": "Run-to-run totals carried between stages",
           "to": "processing-control",
-          "why": "The economics are the whole argument for input controls."
+          "why": "Control figure or practice: Processing control. The economics are the whole argument for input controls."
         },
         {
           "name": "The monthly copy to a cloud service",
           "to": "storage-control",
-          "why": "The economics are the whole argument for input controls."
+          "why": "Control figure or practice: Storage control. The economics are the whole argument for input controls."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:control-figure-o",
+        "Practice/t:control-figure-o#2",
+        "Answers and explanations/t:control-figure-o"
+      ]
     },
     {
       "id": "c407-2",

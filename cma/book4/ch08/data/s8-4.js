@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why the backup must leave the building",
   "n": "8.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.4"),
   "brief": {
     "about": "Chapter 7 described the types of backup. The question here is simpler and more often got wrong: where the copies are kept. Every copy in one building shares one fate. A fire, a flood or a burst pipe destroys the live system and the backup together. The company then discovers it had been taking backups faithfully for years to no purpose. That is the whole argument for a remote site.",
     "anim": "offsiteCopy",
@@ -48,6 +48,9 @@
           "text": "The auditor cannot see local copies",
           "why": "Visibility is not the reason."
         }
+      ],
+      "from": [
+        "8.4/section-check"
       ]
     },
     {
@@ -73,6 +76,9 @@
           "why": "Both halves are needed to resume processing.",
           "correct": true
         }
+      ],
+      "from": [
+        "8.4/section-check"
       ]
     }
   ]

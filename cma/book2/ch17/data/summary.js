@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "supplyPlan"
+    "anim": "supplyPlan",
+    "about": "Figure F217-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Supply chain management coordinates goods, information and money across companies. Lean removes the eight wastes and brings benefits in time, space and quality. MRP plans materials from the production schedule by netting gross needs against stock and receipts. JIT pulls materials only when needed, and ERP links every function through one database. Outsourcing is judged on avoidable cost plus its risks, and every change is valued by its yearly effect and any one-time release of cash."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F217-14.png",
       "label": "Figure F217-14.",
       "caption": "Chapter 17 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F217-14"
+      ]
     },
     {
       "id": "rules",

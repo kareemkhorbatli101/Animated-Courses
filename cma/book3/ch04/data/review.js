@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "activityRate"
   },
@@ -61,9 +61,6 @@
           "why": "Every other figure depends on expected sales.",
           "correct": true
         }
-      ],
-      "traps": [
-        "sales-first"
       ]
     },
     {

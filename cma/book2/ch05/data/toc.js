@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.1",
   "title": "Three measurement techniques",
-  "blurb": "Grid, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s5-2",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.5",
   "title": "Variable overhead: components, base and rate",
-  "blurb": "Amounts, shares, questions · 4 scenes"
+  "blurb": "Amounts, grid, yourturn, questions · 5 scenes"
  },
  {
   "id": "s5-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.6",
   "title": "Extended Example 5A: one month, three costs",
-  "blurb": "Figures, schedule, post, the tie lines, questions · 7 scenes"
+  "blurb": "Figures, schedule, post, a printed statement, the tie lines, questions · 9 scenes"
  },
  {
   "id": "summary",

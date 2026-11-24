@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the supplier that delivered nothing",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cosoBase"
+  },
+  "scenario": {
+    "title": "Case question: the supplier that delivered nothing",
+    "p": [
+      "Orontes Foods has found that a purchasing clerk at the Amman plant was able to add a supplier to the approved list and also to release payments to that supplier. Over fourteen months, payments went to a company that delivered no goods.",
+      "The clerk had been in the role for three years. The written procurement policy required supplier approval by the purchasing manager, but the manager had delegated the task verbally during a busy period and never took it back. No one reviewed the approved supplier list.",
+      "The loss came to light when a new controller, Rania, reconciled the supplier master file against goods received notes for the first time. The plant manager's bonus depends only on output and cost per case, and he told the board he had no reason to look at supplier records.",
+      "The board has asked Rania to explain which risks were high, which components of internal control failed, which objectives were missed, and whether a cheap control would have prevented the loss entirely. Orontes has three divisions and a subsidiary, and the same procurement policy applies across all of them, so the board also wants to know whether the weakness could exist elsewhere."
+    ],
+    "note": "Use the scenario above for items C401-1 to C401-7."
   },
   "scenes": [
     {
@@ -38,25 +48,30 @@
         {
           "name": "Payments to new suppliers are easy to disguise",
           "to": "inherent-risk",
-          "why": "But it would not stop two people agreeing together, which is collusion, and it would not stop a director instructing the clerk, which is management override."
+          "why": "Fact from the case: Inherent risk."
         },
         {
           "name": "One clerk both approved suppliers and released payments",
           "to": "control-risk",
-          "why": "But it would not stop two people agreeing together, which is collusion, and it would not stop a director instructing the clerk, which is management override."
+          "why": "Fact from the case: Control risk."
         },
         {
           "name": "Nobody reconciled suppliers to goods received for fourteen months",
           "to": "detection-risk",
-          "why": "But it would not stop two people agreeing together, which is collusion, and it would not stop a director instructing the clerk, which is management override."
+          "why": "Fact from the case: Detection risk."
         },
         {
           "name": "The approved supplier list was never reviewed",
           "to": "control-risk",
-          "why": "But it would not stop two people agreeing together, which is collusion, and it would not stop a director instructing the clerk, which is management override."
+          "why": "Fact from the case: Control risk."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:fact-from-the-ca",
+        "Practice/t:fact-from-the-ca#2",
+        "Answers and explanations/t:fact-from-the-ca"
+      ]
     },
     {
       "id": "c401-3",
@@ -82,7 +97,7 @@
           "why": "Internal control serves three categories of objective, set out in Figure F401-03."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C401-1 to C401-7."
     },
     {
       "id": "c401-2",

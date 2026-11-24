@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.7",
   "title": "Extended Example 10A: Orontes allocates 2027 service costs",
-  "blurb": "Figures, schedule, post, the tie lines, questions · 6 scenes"
+  "blurb": "Figures, schedule, post, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

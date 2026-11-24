@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Unusual items and discontinued operations",
   "n": "3.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.3"),
   "brief": {
     "about": "Some items need special attention because they may not happen again. U.S. GAAP no longer has extraordinary items; the FASB removed them in 2015. An unusual or infrequent item, such as a large fire loss, is shown as a separate line within continuing operations, before tax. It is never shown net of tax. Closing one store or stopping one small product does not qualify. Figure F03-07 is an example.",
     "anim": "belowLine",
@@ -23,9 +23,19 @@
           "Figure F03-06 is a decision chart for any item. Ask the questions in order: OCI first, then discontinued operations, then unusual items, and finally main activities or other income and expense.",
           "Figure F03-07 is an example. Suppose that in 2026 Orontes sells its frozen-foods business to focus on beverages and dry foods. This is a strategic shift. The business lost $420,000 before tax during the year, and the sale caused a further loss of $180,000. Each loss reduces tax, so Orontes reports a loss from discontinued operations of $450,000, net of tax."
         ]
+      },
+      {
+        "h": "Discontinued operations under IFRS 5",
+        "box": "ifrs",
+        "p": [
+          "IFRS 5 uses a similar idea: a separate major line of business or geographic area. IFRS also prohibits extraordinary items, so the two frameworks now give very similar results in this area."
+        ]
       }
     ]
   },
+  "from": [
+    "3.3/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "fig-f03-06",
@@ -33,7 +43,10 @@
       "file": "F03-06.png",
       "label": "Figure F03-06.",
       "caption": "Decision chart: where does an item go in the income statement?.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F03-06"
+      ]
     },
     {
       "id": "chart",
@@ -69,6 +82,10 @@
       ],
       "traps": [
         "extraordinary-nostalgia"
+      ],
+      "from": [
+        "F03-06",
+        "3.3/exam-trap"
       ]
     },
     {
@@ -123,6 +140,10 @@
       "partition": true,
       "traps": [
         "strategic-shift"
+      ],
+      "from": [
+        "F03-07",
+        "3.3/t:suppose-orontes"
       ]
     },
     {
@@ -182,7 +203,10 @@
           "why": "No rule sends this loss to OCI."
         }
       ],
-      "exhibit": "A company's warehouse is destroyed by an earthquake, which is rare in its area."
+      "exhibit": "A company's warehouse is destroyed by an earthquake, which is rare in its area.",
+      "from": [
+        "3.3/section-check"
+      ]
     },
     {
       "id": "sc3-6",
@@ -207,6 +231,9 @@
           "text": "A company stops selling one small product in a large range",
           "why": "A small product is not a major line of business."
         }
+      ],
+      "from": [
+        "3.3/section-check"
       ]
     }
   ]

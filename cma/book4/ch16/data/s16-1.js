@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The four components of a time series",
   "n": "16.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.1"),
   "brief": {
     "about": "Any series measured over time can be thought of as four things added together. Figure F416-02 names them. trend is the long-run direction and seasonal variation is the pattern that repeats within the year. Those two are usually the visible ones. cyclical variation is slower and tied to the wider economy. It needs many years of data before it can be told apart from trend at all.",
     "anim": "tsComponents",
@@ -100,6 +100,10 @@
           },
           "why": "What it is: What is left: random, unrepeatable. At Orontes: A port strike delaying one shipment. In this data: The small residual after the other three."
         }
+      ],
+      "from": [
+        "F416-02",
+        "16.1/t:component-f-4-r"
       ]
     },
     {
@@ -125,6 +129,9 @@
           "why": "Hot quarters sell more, every year.",
           "correct": true
         }
+      ],
+      "from": [
+        "16.1/section-check"
       ]
     },
     {
@@ -150,6 +157,9 @@
           "text": "It is the same every year",
           "why": "That would make it seasonal."
         }
+      ],
+      "from": [
+        "16.1/section-check"
       ]
     }
   ]

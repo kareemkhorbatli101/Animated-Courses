@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Four cost behaviors",
   "n": "2.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.1"),
   "brief": {
     "about": "A variable cost changes in total in proportion to activity. Power for the crushers costs $5 for every machine hour, so twice the hours means twice the power bill. A fixed cost stays the same in total when activity changes. Factory supervision costs $420,000 a year whether the crushers run a little or a lot. A step cost is fixed over a band of activity and then jumps.",
     "anim": "costLine",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F202-02.png",
       "label": "Figure F202-02.",
-      "caption": "Four cost behaviors, each shown with an Oils overhead cost."
+      "caption": "Four cost behaviors, each shown with an Oils overhead cost.",
+      "from": [
+        "F202-02"
+      ]
     },
     {
       "id": "sc202-1",
@@ -55,6 +58,9 @@
           "text": "Olive-press ROU amortization",
           "why": "Lease amortization is a committed fixed cost."
         }
+      ],
+      "from": [
+        "2.1/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "why": "A step cost jumps at set levels."
         }
       ],
-      "exhibit": "Oils maintenance and utilities cost $216,000 a year plus $12 per machine hour."
+      "exhibit": "Oils maintenance and utilities cost $216,000 a year plus $12 per machine hour.",
+      "from": [
+        "2.1/section-check"
+      ]
     }
   ]
 };

@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · a sugar-free juice",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "valueChain"
+  },
+  "scenario": {
+    "title": "Case question: a sugar-free juice",
+    "p": [
+      "The Beverages division has developed a sugar-free juice for hotels and gyms. Before launch it spent money on research and recipe development, and it expects to sell the juice for four years before a new product replaces it.",
+      "The product manager, Layla, has prepared a four-year plan. It shows the cases she expects to sell, the price, the manufacturing costs and a heavy marketing budget in the first year. Every case also has a distribution cost. The plan assumes that the price and the cost rates stay the same in all four years.",
+      "The finance director is worried. In the first year the juice will lose money, and she asks whether the division should launch it at all. Layla argues that the juice should be judged on its whole life, not on its first year.",
+      "You are asked to prepare the life-cycle analysis. The division manager wants the downstream costs, the manufacturing costs and the profit over the four years, together with the first-year result. He also wants to know at which stage the division has the best chance to reduce the product's total cost."
+    ]
   },
   "scenes": [
     {
@@ -56,7 +65,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F214-15",
+        "Practice/t:sugar-free-juice"
+      ]
     },
     {
       "id": "c214-1",
@@ -116,7 +129,11 @@
           "why": "Cost: Downstream."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c214-2",

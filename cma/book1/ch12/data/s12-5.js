@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Warranties",
   "n": "12.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.5"),
   "brief": {
     "about": "An assurance-type warranty only promises that a product will work as agreed. It is not a separate performance obligation. The company estimates the repair cost at the time of sale, records warranty expense and a warranty liability, and reduces the liability as repairs are made. A service-type warranty gives the customer an extra service, such as extended cover. Figure F12-09 shows the two balances at year-end.",
     "anim": "accrual",
@@ -32,20 +32,29 @@
       }
     ]
   },
+  "from": [
+    "12.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f12-07",
       "kind": "figure",
       "file": "F12-07.png",
       "label": "Figure F12-07.",
-      "caption": "Decision chart: assurance-type or service-type warranty?."
+      "caption": "Decision chart: assurance-type or service-type warranty?.",
+      "from": [
+        "F12-07"
+      ]
     },
     {
       "id": "fig-f12-09",
       "kind": "figure",
       "file": "F12-09.png",
       "label": "Figure F12-09.",
-      "caption": "Orontes's 2026 warranty liability and extended-plan contract liability."
+      "caption": "Orontes's 2026 warranty liability and extended-plan contract liability.",
+      "from": [
+        "F12-09"
+      ]
     },
     {
       "id": "post-08",
@@ -158,6 +167,11 @@
       "traps": [
         "provision",
         "warranty-traps"
+      ],
+      "from": [
+        "F12-08",
+        "12.5/t:suppose-orontes",
+        "12.5/exam-trap"
       ]
     },
     {
@@ -183,6 +197,9 @@
           "text": "recorded only when repairs are made",
           "why": "The cost belongs to the year of the sale."
         }
+      ],
+      "from": [
+        "12.5/section-check"
       ]
     },
     {
@@ -209,7 +226,10 @@
           "why": "Repairs made reduce the liability."
         }
       ],
-      "say": "Use Figure F12-09. What is Orontes's warranty liability at December 31, 2026 (whole USD)?"
+      "say": "Use Figure F12-09. What is Orontes's warranty liability at December 31, 2026 (whole USD)?",
+      "from": [
+        "12.5/section-check"
+      ]
     },
     {
       "id": "sc12-10",
@@ -235,7 +255,10 @@
           "why": "Revenue is earned over the coverage period, not at the sale."
         }
       ],
-      "say": "Use Figure F12-09. How much revenue from the service plans does Orontes recognize in 2026 (whole USD)?"
+      "say": "Use Figure F12-09. How much revenue from the service plans does Orontes recognize in 2026 (whole USD)?",
+      "from": [
+        "12.5/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Scenario planning and contingency planning",
   "n": "2.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.6"),
   "brief": {
     "about": "Scenario planning prepares for several possible futures instead of one forecast. For tahini exports in 2032, the board considers three scenarios, from open Gulf and EU markets to a new EU import tariff. Figure F302-12 shows the operating income in each. Contingency planning prepares a response in advance and names the trigger that starts it.",
     "anim": "fiveForces",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "2.6/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "grid-12",
@@ -82,6 +85,10 @@
       ],
       "traps": [
         "contingence"
+      ],
+      "from": [
+        "F302-12",
+        "2.6/t:scenario-for-tah"
       ]
     },
     {
@@ -107,6 +114,9 @@
           "text": "setting next year's budget",
           "why": "Budgets come later."
         }
+      ],
+      "from": [
+        "2.6/section-check"
       ]
     },
     {
@@ -133,7 +143,10 @@
           "why": "That compares rivals."
         }
       ],
-      "exhibit": "Orontes will shift export sales to the Gulf if the forecast falls below $1,200,000."
+      "exhibit": "Orontes will shift export sales to the Gulf if the forecast falls below $1,200,000.",
+      "from": [
+        "2.6/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The balanced scorecard and its four perspectives",
   "n": "18.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.2"),
   "brief": {
     "about": "A balanced scorecard is a set of measures drawn from four perspectives, each with its objectives, measures, targets and the actions planned to reach them. It is balanced because financial results alone describe only what has already happened. Each perspective carries the same four components: what the company wants to achieve, the measure that tracks it, the target for the period and the action planned to reach it.",
     "anim": "strategyMap",
@@ -37,13 +37,19 @@
       }
     ]
   },
+  "from": [
+    "18.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f318-03",
       "kind": "figure",
       "file": "F318-03.png",
       "label": "Figure F318-03.",
-      "caption": "The four perspectives of a balanced scorecard."
+      "caption": "The four perspectives of a balanced scorecard.",
+      "from": [
+        "F318-03"
+      ]
     },
     {
       "id": "grid-04",
@@ -149,6 +155,12 @@
       ],
       "traps": [
         "balanced-means-four-perspectives-not-f"
+      ],
+      "from": [
+        "F318-04",
+        "18.2/t:perspective-meas",
+        "18.2/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -217,6 +229,12 @@
             "c4": "________"
           }
         }
+      ],
+      "from": [
+        "18.2/your-turn",
+        "F318-05",
+        "18.2/t:perspective-meas#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -245,6 +263,9 @@
       ],
       "traps": [
         "scorecard-report-produced-after-year"
+      ],
+      "from": [
+        "18.2/section-check"
       ]
     },
     {
@@ -270,6 +291,9 @@
           "why": "It measures how well the plant runs.",
           "correct": true
         }
+      ],
+      "from": [
+        "18.2/section-check"
       ]
     }
   ]

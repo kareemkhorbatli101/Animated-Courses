@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada's first integrated report",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "capitals"
+  },
+  "scenario": {
+    "title": "Case question: Barada's first integrated report",
+    "p": [
+      "In 2028 Barada Wholesale decided to publish its first integrated report. Barada is not listed and reports under U.S. GAAP, but its bank and several large customers asked for a clearer picture of how the business creates value over time.",
+      "The draft report includes disclosures on driver training, electricity from solar panels, partnerships with farmers, staff turnover in the warehouses, packaging waste and the risk of rising fuel prices. The draft also contains two memos from the project team.",
+      "One memo says the report is written mainly for all stakeholders equally. The other suggests linking the fuel-price risk to the strategy and to the delivery costs reported in the financial statements.",
+      "Mr Haddad has asked a reviewer to check the draft against the International <IR> Framework before it goes to the bank. He wants to know which capital each disclosure affects and which content element each part belongs to. The bank's analyst has asked for the final report by the end of the quarter. The reviewer also wants to check that the report explains Barada's business model and its outlook clearly, and that each disclosure is placed in the right part of the report."
+    ]
   },
   "scenes": [
     {
@@ -64,7 +73,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F18-12",
+        "Practice/t:item-barada-whol"
+      ]
     },
     {
       "id": "c18-1",
@@ -114,7 +127,11 @@
           "why": "Disclosure: Natural capital."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:disclosure-categ",
+        "Answers and explanations/t:disclosure-categ"
+      ]
     },
     {
       "id": "c18-2",

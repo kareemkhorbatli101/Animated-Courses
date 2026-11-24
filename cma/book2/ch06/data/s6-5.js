@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Inventory values and cost of goods sold",
   "n": "6.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.5"),
   "brief": {
     "about": "When a job is finished, its total cost moves from Work-in-Process Inventory to Finished Goods Inventory. The total of the jobs finished in a period is the cost of goods manufactured. When the goods are sold, the job cost moves from Finished Goods Inventory to Cost of Goods Sold. At any date, the inventory values come straight from the job cost sheets. Open jobs make up work in process.",
     "anim": "threeBoxes",
@@ -42,47 +42,41 @@
           "answer": "205000",
           "why": "Job cost at March 31: 205,000."
         }
+      ],
+      "from": [
+        "F206-05",
+        "6.5/t:job-t-0304-march"
       ]
     },
     {
       "id": "yourturn",
-      "kind": "shares",
+      "kind": "yourturn",
       "kicker": "Figure F206-04",
       "title": "Complete a job cost sheet",
-      "say": "Figure F206-04 shows the flow. Now use Figure F206-05 to complete the March sheet for job T-0304.",
-      "columns": [
-        {
-          "id": "c0",
-          "label": "Your answer",
-          "options": [
-            "205,000",
-            "75,000",
-            "Work in process"
-          ]
-        }
-      ],
-      "actions": [
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F206-04 shows the flow. Now use Figure F206-05 to complete the March sheet for job T-0304.",
+      "blanks": [
         {
           "label": "Overhead applied",
-          "cells": {
-            "c0": "75,000"
-          },
-          "why": "75,000"
+          "working": "75,000",
+          "shown": "75,000",
+          "answer": 75000,
+          "prompt": ""
         },
         {
           "label": "Job cost at March 31",
-          "cells": {
-            "c0": "205,000"
-          },
-          "why": "205,000"
-        },
-        {
-          "label": "Where is the job on March 31?",
-          "cells": {
-            "c0": "Work in process"
-          },
-          "why": "Work in process (the job is still open)"
+          "working": "205,000",
+          "shown": "205,000",
+          "answer": 205000,
+          "prompt": ""
         }
+      ],
+      "caption": "Job costing cost flow: actual overhead in MOH Control, applied overhead to jobs.",
+      "note": "Work in process (the job is still open)",
+      "from": [
+        "F206-04",
+        "6.5/your-turn",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -112,6 +106,9 @@
       "exhibit": "A job is finished but not yet sold.",
       "traps": [
         "the-sale-price-never-enters-inventory"
+      ],
+      "from": [
+        "6.5/section-check"
       ]
     },
     {
@@ -138,7 +135,10 @@
           "why": "Cost and price are not added."
         }
       ],
-      "exhibit": "A job that cost $380,000 is sold for $500,000."
+      "exhibit": "A job that cost $380,000 is sold for $500,000.",
+      "from": [
+        "6.5/section-check"
+      ]
     }
   ]
 };

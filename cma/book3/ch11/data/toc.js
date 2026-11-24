@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.2",
   "title": "The master-budget variance",
-  "blurb": "Figures, schedule, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, schedule, match, questions · 5 scenes"
  },
  {
   "id": "s11-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.4",
   "title": "Sales-volume, sales-price and flexible-budget variances",
-  "blurb": "Figures, a printed statement, schedule, questions · 5 scenes"
+  "blurb": "Figures, match, schedule, questions · 5 scenes"
  },
  {
   "id": "s11-5",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.6",
   "title": "Extended Example 11A: the June review meeting",
-  "blurb": "Shares, the tie lines, questions · 4 scenes"
+  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the tahini month under review",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 1 scenes"
  },
  {
   "id": "review",

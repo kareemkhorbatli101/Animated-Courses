@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Orontes Dubai sales office",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "aging"
+  },
+  "scenario": {
+    "title": "Case question: Orontes Dubai sales office",
+    "p": [
+      "Orontes runs a small sales office in Dubai that sells tahini and oils to hotels and supermarkets on credit. At the end of 2025 the office manager prepared an aging schedule of the office's receivables, with a loss rate for each age group.",
+      "The office already had an allowance for credit losses from earlier years, and some balances were written off during the year. Orontes uses the current expected credit loss model, so the allowance must cover all the losses it expects over the life of the receivables.",
+      "The office also needed cash quickly. It transferred some receivables to a finance company, some without recourse and one with recourse, and it pledged another group as security for a bank loan. Each transfer must be recorded either as a sale or as a borrowing.",
+      "The Orontes group controller wants the required allowance, the credit loss expense for the year, net receivables and the result of each transfer before the year-end close. All amounts in the exhibit are in whole U.S. dollars. The auditors will also check that each transferred balance was removed from the ledger only when control really passed to the finance company."
+    ]
   },
   "scenes": [
     {
@@ -71,7 +80,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F06-12",
+        "Practice/t:item-details-who"
+      ]
     },
     {
       "id": "c6-4",
@@ -112,7 +125,11 @@
           "why": "Transfer: Secured borrowing."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:transfer-categor",
+        "Answers and explanations/t:transfer-categor"
+      ]
     },
     {
       "id": "c6-1",

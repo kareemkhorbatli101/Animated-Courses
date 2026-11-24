@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What enterprise resource planning is",
   "n": "10.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.1"),
   "brief": {
     "about": "enterprise resource planning (ERP) is a single suite of software modules running on one shared database, covering production, purchasing, sales, payroll, finance and more. Figure F410-02 shows the change it makes. The defining feature is the shared database, not the breadth of the modules. Several separate systems that exchange files are still several systems. One system means one stored value for each fact, which is where every advantage below comes from.",
     "anim": "erpHub",
@@ -31,51 +31,56 @@
       "kind": "figure",
       "file": "F410-02.png",
       "label": "Figure F410-02.",
-      "caption": "Separate systems before, and one ERP on one database after."
+      "caption": "Separate systems before, and one ERP on one database after.",
+      "from": [
+        "F410-02"
+      ]
     },
     {
       "id": "fig-f410-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F410-03",
       "title": "The advantages and disadvantages of ERP",
-      "say": "The advantages and disadvantages of ERP",
-      "caption": "ERP characteristic",
-      "col1": "Advantage",
-      "col2": "Disadvantage",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "ERP characteristic",
+      "col": "Advantage",
       "rows": [
         {
-          "name": "Integration",
-          "a": "One entry serves every module that needs it",
-          "b": "A long and costly implementation"
+          "label": "Integration",
+          "right": "One entry serves every module that needs it",
+          "why": "Advantage: One entry serves every module that needs it. A long and costly implementation."
         },
         {
-          "name": "One version of the data",
-          "a": "Everyone works from the same figure",
-          "b": "Processes must change to fit the software, or customisation costs rise"
+          "label": "One version of the data",
+          "right": "Everyone works from the same figure",
+          "why": "Advantage: Everyone works from the same figure. Processes must change to fit the software, or customisation costs rise."
         },
         {
-          "name": "Real-time information",
-          "a": "A manager sees today, not last month",
-          "b": "Heavy demands on training and change management"
+          "label": "Real-time information",
+          "right": "A manager sees today, not last month",
+          "why": "Advantage: A manager sees today, not last month. Heavy demands on training and change management."
         },
         {
-          "name": "Standard processes",
-          "a": "The same method across divisions and countries",
-          "b": "Less flexibility for a division that genuinely differs"
+          "label": "Standard processes",
+          "right": "The same method across divisions and countries",
+          "why": "Advantage: The same method across divisions and countries. Less flexibility for a division that genuinely differs."
         },
         {
-          "name": "Stronger control and audit trail",
-          "a": "One set of access rules and one trail",
-          "b": "A single point of failure if it stops"
+          "label": "Stronger control and audit trail",
+          "right": "One set of access rules and one trail",
+          "why": "Advantage: One set of access rules and one trail. A single point of failure if it stops."
         },
         {
-          "name": "Scalability",
-          "a": "New sites and companies are added to the same system",
-          "b": "Dependence on one vendor, and the cost of leaving"
+          "label": "Scalability",
+          "right": "New sites and companies are added to the same system",
+          "why": "Advantage: New sites and companies are added to the same system. Dependence on one vendor, and the cost of leaving."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The advantages and disadvantages of ERP",
+      "from": [
+        "F410-03",
+        "10.1/t:erp-characterist"
+      ]
     },
     {
       "id": "sc410-1",
@@ -100,6 +105,9 @@
           "text": "A system that produces financial statements",
           "why": "Every accounting system does that."
         }
+      ],
+      "from": [
+        "10.1/section-check"
       ]
     },
     {
@@ -125,6 +133,9 @@
           "why": "An ERP embodies a way of working.",
           "correct": true
         }
+      ],
+      "from": [
+        "10.1/section-check"
       ]
     }
   ]

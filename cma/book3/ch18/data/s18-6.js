@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 18A: recommending measures for next year",
   "n": "18.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.6"),
   "brief": {
     "about": "The board asks for a short list of measures to put right what 2028 missed, for use in 2029. This example builds it. It is exam-core. Figure F318-11 takes each operational goal, names the measure that fits it, says how often it will be reported and who owns it.",
     "anim": "strategyMap",
@@ -42,6 +42,9 @@
       }
     ]
   },
+  "from": [
+    "18.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-11",
@@ -107,6 +110,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F318-11",
+        "18.6/t:operational-goal",
+        "18.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t18-6-0",
+      "kind": "lines",
+      "kicker": "Section 18.6",
+      "title": "Measure",
+      "caption": "Measure",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Segment margin",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Gulf chain orders delivered in full",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sesame yield a kilogram of seed",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Operators trained on the new line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Complaints from supermarkets",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:measure-category",
+        "Answers and explanations/t:measure-category"
+      ]
+    },
+    {
+      "id": "t18-6-1",
+      "kind": "lines",
+      "kicker": "Section 18.6",
+      "title": "Measure",
+      "caption": "Measure",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Segment margin",
+          "a": "Financial",
+          "b": ""
+        },
+        {
+          "name": "Gulf chain orders delivered in full",
+          "a": "Customer",
+          "b": ""
+        },
+        {
+          "name": "Sesame yield a kilogram of seed",
+          "a": "Internal process",
+          "b": ""
+        },
+        {
+          "name": "Operators trained on the new line",
+          "a": "Learning and growth",
+          "b": ""
+        },
+        {
+          "name": "Complaints from supermarkets",
+          "a": "Customer",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:measure-category",
+        "Answers and explanations/t:measure-category"
       ]
     },
     {
@@ -152,7 +244,10 @@
           "why": "This is the total."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "18.6/section-check"
+      ]
     },
     {
       "id": "sc318-12",
@@ -178,7 +273,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "18.6/section-check"
+      ]
     }
   ]
 };

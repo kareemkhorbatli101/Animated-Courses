@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "8.2",
   "title": "The selling and administrative expense budget",
-  "blurb": "Schedule, grid, questions · 4 scenes"
+  "blurb": "Schedule, grid, yourturn, questions · 5 scenes"
  },
  {
   "id": "s8-3",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "8.5",
   "title": "Extended Example 8A: the quarterly operating budget for the board",
-  "blurb": "Schedule, the tie lines, questions · 4 scenes"
+  "blurb": "Schedule, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",

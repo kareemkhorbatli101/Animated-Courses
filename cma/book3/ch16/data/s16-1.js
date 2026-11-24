@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What a transfer price is for",
   "n": "16.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.1"),
   "brief": {
     "about": "A transfer price is the price one part of a company charges another for goods or services supplied internally. It is revenue to the supplying unit and cost to the buying unit, so the two cancel in the company accounts. Because it cancels, the transfer price has no direct effect on company profit. Its purpose is to influence decisions and to measure performance fairly. The objectives can conflict.",
     "anim": "transferBand",
@@ -27,37 +27,39 @@
   "scenes": [
     {
       "id": "fig-f316-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F316-02",
       "title": "The four objectives of a transfer price",
-      "say": "The four objectives of a transfer price",
-      "caption": "Objective (C.2.h)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Objective (C.2.h)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Goal congruence",
-          "a": "Each manager's best choice is also best for the company",
-          "b": "A floor of variable cost keeps internal supply attractive"
+          "label": "Goal congruence",
+          "right": "Each manager's best choice is also best for the company",
+          "why": "What it means: Each manager's best choice is also best for the company. A floor of variable cost keeps internal supply attractive."
         },
         {
-          "name": "Fair performance evaluation",
-          "a": "Each division's profit reflects its own work",
-          "b": "A price below cost makes the supplier look bad"
+          "label": "Fair performance evaluation",
+          "right": "Each division's profit reflects its own work",
+          "why": "What it means: Each division's profit reflects its own work. A price below cost makes the supplier look bad."
         },
         {
-          "name": "Divisional autonomy",
-          "a": "Managers keep the right to decide",
-          "b": "A negotiated price respects both managers"
+          "label": "Divisional autonomy",
+          "right": "Managers keep the right to decide",
+          "why": "What it means: Managers keep the right to decide. A negotiated price respects both managers."
         },
         {
-          "name": "Company profit after tax",
-          "a": "Cross-border prices affect tariffs and tax",
-          "b": "Set within the rules, not to shift profit"
+          "label": "Company profit after tax",
+          "right": "Cross-border prices affect tariffs and tax",
+          "why": "What it means: Cross-border prices affect tariffs and tax. Set within the rules, not to shift profit."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The four objectives of a transfer price",
+      "from": [
+        "F316-02",
+        "16.1/t:objective-c-2-h"
+      ]
     },
     {
       "id": "sc316-1",
@@ -82,6 +84,9 @@
           "text": "the price paid to a supplier",
           "why": "That is an external purchase."
         }
+      ],
+      "from": [
+        "16.1/section-check"
       ]
     },
     {
@@ -108,7 +113,10 @@
           "why": "Tax matters only across borders, and that is a separate effect."
         }
       ],
-      "say": "What effect does raising a transfer price have on total company profit, holding everything else constant?"
+      "say": "What effect does raising a transfer price have on total company profit, holding everything else constant?",
+      "from": [
+        "16.1/section-check"
+      ]
     }
   ]
 };

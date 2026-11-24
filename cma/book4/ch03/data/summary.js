@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "dutySplit"
+    "anim": "dutySplit",
+    "about": "Figure F403-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Segregation of duties splits a transaction so that no one person can both carry it out and conceal it. Four responsibilities must be held separately: authority to execute, recording, custody of the asset, and periodic reconciliation. Independent checks are performed by someone who did not do the work being checked, and they detect rather than prevent. Safeguarding controls limit physical access and name a custodian who answers for what is held. Prenumbered forms make completeness testable, and authority limits turn an expectation into a rule that can be tested."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F403-09.png",
       "label": "Figure F403-09.",
       "caption": "Chapter 3 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F403-09"
+      ]
     },
     {
       "id": "rules",

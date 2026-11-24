@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Levant Distribution",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "svcArrows"
+  },
+  "scenario": {
+    "title": "Case question: Levant Distribution",
+    "p": [
+      "Levant Distribution is the Orontes subsidiary that distributes its juices across Jordan. It has two operating departments, Warehouse and Delivery, which serve customers directly. It also has two service departments, Fleet Maintenance and IT, which support the rest of the company.",
+      "The service departments also serve each other. Fleet Maintenance services the vans that the IT team uses to visit the warehouses, and IT runs the maintenance scheduling system. The exhibit shows each service department's cost and the share of its work that goes to every other department.",
+      "Levant's managers earn bonuses on their departments' results after service costs, so the allocation method matters to them. The Warehouse manager says the current method charges her too much, and the Delivery manager says the opposite.",
+      "Nadia, the Levant controller, must compare the direct, step-down and reciprocal methods before the board meeting. She needs the amount each method allocates and a recommendation on the most accurate method for two service departments that serve each other. Last year Levant used the direct method because it was simple, but the board now wants an allocation that reflects how the departments really use each other's services."
+    ]
   },
   "scenes": [
     {
@@ -36,7 +45,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F210-14",
+        "Practice/t:levant-distribut"
+      ]
     },
     {
       "id": "c210-1",
@@ -82,7 +95,11 @@
           "why": "Department: Service department."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:department-categ",
+        "Answers and explanations/t:department-categ"
+      ]
     },
     {
       "id": "c210-2",

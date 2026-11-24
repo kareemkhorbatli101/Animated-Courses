@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the number nobody will receive",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "evTree"
+  },
+  "scenario": {
+    "title": "Case question: the number nobody will receive",
+    "p": [
+      "The Orontes board is deciding on the Gulf export expansion, which requires an investment of 2,500,000. Three volume scenarios have been estimated: a pessimistic 150,000 cases with probability 0.25, a most likely 240,000 with probability 0.50, and an optimistic 320,000 with probability 0.25. The margin is 8.20 a case and fixed costs are 900,000.",
+      "The finance director has calculated a single expected contribution and presented it to the board as the figure the project will deliver. A board member has asked what would happen if the margin came under pressure, and another has asked what the worst realistic outcome would be.",
+      "An analyst has since run a simulation of one thousand trials, varying volume, margin and fixed cost together. The mean of the trials is close to the expected value, but the fifth percentile is far below it and the ninety-fifth far above.",
+      "The probabilities were estimated in a meeting by the sales and production managers. Nobody has recorded how they were arrived at, and the simulation output has been reported to the nearest pound. No one has asked what the project would be worth if volume fell below the pessimistic case."
+    ],
+    "note": "Use the scenario above for items C417-1 to C417-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "What is the single probability-weighted outcome?",
           "to": "expected-value",
-          "why": "Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
+          "why": "Question from the board: Expected value. Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
         },
         {
           "name": "Which assumption moves the answer most?",
           "to": "sensitivity-analysis",
-          "why": "Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
+          "why": "Question from the board: Sensitivity analysis. Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
         },
         {
           "name": "What volume is needed to break even?",
           "to": "goal-seeking",
-          "why": "Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
+          "why": "Question from the board: Goal seeking. Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
         },
         {
           "name": "What is the whole range of possible outcomes?",
           "to": "simulation",
-          "why": "Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
+          "why": "Question from the board: Simulation. Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:question-from-th",
+        "Practice/t:question-from-th#2",
+        "Answers and explanations/t:question-from-th"
+      ]
     },
     {
       "id": "c417-2",
@@ -86,7 +101,7 @@
           "why": "Where cash flows fall in different years, each year's expected flow is computed this way and then discounted."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C417-1 to C417-7."
     },
     {
       "id": "c417-3",
@@ -112,7 +127,7 @@
           "why": "Where cash flows fall in different years, each year's expected flow is computed this way and then discounted."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C417-1 to C417-7."
     },
     {
       "id": "c417-4",

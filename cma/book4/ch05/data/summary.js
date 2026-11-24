@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "cosoBase"
+    "anim": "cosoBase",
+    "about": "Figure F405-11 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Inherent risk exists before controls, control risk is the system failing, and detection risk is the auditor's own; only the last is the auditor's to change. Preventive controls act before an error and detective controls after, and both are needed. The COSO framework has five components and seventeen principles, all of which must be present, functioning and operating together. On internal control the auditor's opinion is unqualified or adverse only. Controls are tested by inquiry, observation, inspection and re-performance, in rising order of evidence, and inquiry alone is never enough. A deficiency is remediated only when the new control has operated for a period and been tested."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F405-11.png",
       "label": "Figure F405-11.",
       "caption": "Chapter 5 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F405-11"
+      ]
     },
     {
       "id": "rules",

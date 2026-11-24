@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · quality costs at Tahini & Spreads",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "qualityFour"
+  },
+  "scenario": {
+    "title": "Case question: quality costs at Tahini & Spreads",
+    "p": [
+      "Tahini & Spreads had a difficult year. A batch of jars was recalled, Barada returned several deliveries, and the plant scrapped more batches than usual. The division manager asked the controller for a full picture of what poor quality costs the division. Barada has warned that it will look for another supplier if returns do not fall this year, and the recall was reported in the local press.",
+      "The controller, Rania, collected every quality-related cost for 2027. Some are in the ledger, such as supplier audits, inspections, scrapped batches and returns. One is an estimate: the sales the division lost after the recall.",
+      "The quality team proposes a change. The division would install in-line sensors on the filling line and certify its sesame suppliers, which adds prevention costs every year. In return, final inspection of jars could be reduced, and the team expects failure costs inside and outside the plant to fall.",
+      "Rania must classify the costs, compute the cost of quality before and after the proposal, and give the division manager the net yearly saving. The manager has also asked where the division should spend its next quality dollar."
+    ]
   },
   "scenes": [
     {
@@ -91,7 +100,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F216-15",
+        "Practice/t:tahini-spreads-a",
+        "Practice/t:quality-cost-cat",
+        "Answers and explanations/t:quality-cost-cat"
+      ]
     },
     {
       "id": "c216-1",
@@ -165,7 +180,11 @@
           "why": "Quality cost: External failure."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:quality-cost-cat",
+        "Answers and explanations/t:quality-cost-cat"
+      ]
     },
     {
       "id": "c216-2",

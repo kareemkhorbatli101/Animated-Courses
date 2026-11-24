@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P410-01–P410-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "erpHub"
   },

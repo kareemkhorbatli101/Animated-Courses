@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What makes data Big",
   "n": "13.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.1"),
   "brief": {
     "about": "Big Data is data whose volume, speed or variety puts it beyond what traditional tools were built to handle. Figure F413-02 sets out the four characteristics the exam names. Veracity is the one that matters most to an accountant, and the one most often skipped.",
     "anim": "dataShapes",
@@ -29,7 +29,10 @@
       "kind": "figure",
       "file": "F413-02.png",
       "label": "Figure F413-02.",
-      "caption": "The four Vs of Big Data."
+      "caption": "The four Vs of Big Data.",
+      "from": [
+        "F413-02"
+      ]
     },
     {
       "id": "sc413-1",
@@ -54,6 +57,9 @@
           "why": "Volume, velocity, variety and veracity.",
           "correct": true
         }
+      ],
+      "from": [
+        "13.1/section-check"
       ]
     },
     {
@@ -80,7 +86,10 @@
           "why": "Variety is how many kinds."
         }
       ],
-      "say": "Three spellings of one distributor and fourteen missing delivery dates are a problem of:"
+      "say": "Three spellings of one distributor and fourteen missing delivery dates are a problem of:",
+      "from": [
+        "13.1/section-check"
+      ]
     }
   ]
 };

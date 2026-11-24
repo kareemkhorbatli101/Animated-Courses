@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Material requirements planning",
   "n": "17.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.3"),
   "brief": {
     "about": "Material requirements planning (MRP) calculates which materials are needed, how many, and when to order them. It uses three inputs: the master production schedule, the bill of materials, and the stock records. Figure F217-05 shows the logic. MRP is a push system: it plans purchases from a forecast schedule and pushes materials into production.",
     "anim": "supplyPlan",
@@ -35,75 +35,124 @@
       }
     ]
   },
+  "from": [
+    "17.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f217-05",
       "kind": "figure",
       "file": "F217-05.png",
       "label": "Figure F217-05.",
-      "caption": "How MRP works: inputs and outputs."
+      "caption": "How MRP works: inputs and outputs.",
+      "from": [
+        "F217-05"
+      ]
     },
     {
-      "id": "grid-06",
-      "kind": "shares",
+      "id": "fig-f217-06",
+      "kind": "grid",
       "kicker": "Figure F217-06",
       "title": "Your turn: net bottle requirements",
-      "say": "Set every column for every row.",
-      "columns": [
+      "say": "Your turn: net bottle requirements (complete the blanks)",
+      "caption": "Bottles for juice",
+      "cols": [
+        "Week 1",
+        "Week 2",
+        "Week 3",
+        "Week 4"
+      ],
+      "rows": [
         {
-          "id": "c2",
-          "label": "Week 2",
-          "options": [
+          "name": "Cases planned",
+          "cells": [
+            "18,000",
             "20,000",
+            "22,000",
+            "20,000"
+          ]
+        },
+        {
+          "name": "Gross bottles (× 12)",
+          "cells": [
+            "216,000",
             "240,000",
-            "week 1",
+            "264,000",
+            "240,000"
+          ]
+        },
+        {
+          "name": "Scheduled receipts",
+          "cells": [
+            "(150,000)",
+            "—",
+            "—",
             "—"
+          ]
+        },
+        {
+          "name": "Stock above safety stock",
+          "cells": [
+            "(40,000)",
+            "—",
+            "—",
+            "—"
+          ]
+        },
+        {
+          "name": "Net bottles needed",
+          "cells": [
+            "26,000",
+            "240,000",
+            "________",
+            "________"
+          ]
+        },
+        {
+          "name": "Release the order in",
+          "cells": [
+            "week 0",
+            "week 1",
+            "week 2",
+            "week 3"
           ]
         }
       ],
-      "actions": [
+      "data": true,
+      "from": [
+        "F217-06",
+        "17.3/t:bottles-for-juic"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F217-06",
+      "title": "Bottles for weeks 3 and 4",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F217-06 continues the plan. No stock or receipts remain after week 1. Complete the two blank cells.",
+      "blanks": [
         {
-          "label": "Cases planned",
-          "cells": {
-            "c2": "20,000"
-          },
-          "why": "Week 2: 20,000."
+          "label": "Week 3 net bottles",
+          "working": "22,000 cases × 12 = 264,000",
+          "shown": "264,000",
+          "answer": 264000,
+          "prompt": "22,000 cases × 12 ="
         },
         {
-          "label": "Gross bottles (× 12)",
-          "cells": {
-            "c2": "240,000"
-          },
-          "why": "Week 2: 240,000."
-        },
-        {
-          "label": "Scheduled receipts",
-          "cells": {
-            "c2": "—"
-          },
-          "why": "Week 2: —."
-        },
-        {
-          "label": "Stock above safety stock",
-          "cells": {
-            "c2": "—"
-          },
-          "why": "Week 2: —."
-        },
-        {
-          "label": "Net bottles needed",
-          "cells": {
-            "c2": "240,000"
-          },
-          "why": "Week 2: 240,000."
-        },
-        {
-          "label": "Release the order in",
-          "cells": {
-            "c2": "week 1"
-          },
-          "why": "Week 2: week 1."
+          "label": "Week 4 net bottles",
+          "working": "20,000 cases × 12 = 240,000",
+          "shown": "240,000",
+          "answer": 240000,
+          "prompt": "20,000 cases × 12 ="
         }
+      ],
+      "caption": "Your turn: net bottle requirements (complete the blanks)",
+      "from": [
+        "17.3/your-turn",
+        "F217-06",
+        "17.3/t:bottles-for-juic",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -129,6 +178,9 @@
           "text": "Stock records",
           "why": "It gives stock on hand and on order."
         }
+      ],
+      "from": [
+        "17.3/section-check"
       ]
     },
     {
@@ -155,7 +207,10 @@
           "why": "Stock on hand is ignored."
         }
       ],
-      "exhibit": "Gross needs are 216,000 bottles. Stock on hand is 60,000, safety stock 20,000, and 150,000 are due to arrive."
+      "exhibit": "Gross needs are 216,000 bottles. Stock on hand is 60,000, safety stock 20,000, and 150,000 are due to arrive.",
+      "from": [
+        "17.3/section-check"
+      ]
     }
   ]
 };

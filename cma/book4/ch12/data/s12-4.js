@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Cloud computing and software as a service",
   "n": "12.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.4"),
   "brief": {
     "about": "Cloud computing is on-demand access to a shared pool of computing resources over a network. The recognised definition gives it five characteristics: self-service on demand, broad network access, resources pooled across customers, rapid elasticity, and metered use. Figure F412-05 shows the three service models. Efficiency comes from three of those characteristics. Metered use turns a capital purchase into an operating cost paid only for what is consumed. Two disadvantages deserve weight.",
     "anim": "erpHub",
@@ -32,7 +32,10 @@
       "kind": "figure",
       "file": "F412-05.png",
       "label": "Figure F412-05.",
-      "caption": "The three cloud service models and who manages what."
+      "caption": "The three cloud service models and who manages what.",
+      "from": [
+        "F412-05"
+      ]
     },
     {
       "id": "fig-f412-06",
@@ -76,7 +79,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F412-06",
+        "12.4/t:advantage-of-saa"
+      ]
     },
     {
       "id": "sc412-7",
@@ -101,6 +108,9 @@
           "why": "The three models are infrastructure, platform and software as a service.",
           "correct": true
         }
+      ],
+      "from": [
+        "12.4/section-check"
       ]
     },
     {
@@ -126,6 +136,9 @@
           "text": "It cannot be reached remotely",
           "why": "Remote access is one of its advantages."
         }
+      ],
+      "from": [
+        "12.4/section-check"
       ]
     }
   ]

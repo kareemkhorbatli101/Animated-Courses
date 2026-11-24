@@ -9,7 +9,7 @@
   "up": "../",
   "title": "(vi) Impairment",
   "n": "17.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.6"),
   "brief": {
     "about": "U.S. GAAP tests a held-and-used asset group in two steps. First, it compares the carrying amount with undiscounted future cash flows. Only if the carrying amount is higher does it measure a loss, equal to the carrying amount minus fair value. IAS 36 uses one step. The frameworks also differ after the loss.",
     "anim": "impair",
@@ -34,13 +34,19 @@
       }
     ]
   },
+  "from": [
+    "17.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f17-07",
       "kind": "figure",
       "file": "F17-07.png",
       "label": "Figure F17-07.",
-      "caption": "The same plant under the U.S. two-step test and the IFRS one-step test."
+      "caption": "The same plant under the U.S. two-step test and the IFRS one-step test.",
+      "from": [
+        "F17-07"
+      ]
     },
     {
       "id": "fig-f17-08",
@@ -85,7 +91,11 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F17-08",
+        "17.6/t:statement-u-s-ga"
+      ]
     },
     {
       "id": "yourturn",
@@ -136,6 +146,12 @@
       ],
       "traps": [
         "goodwill-a-proposal-only"
+      ],
+      "from": [
+        "17.6/your-turn",
+        "F17-08",
+        "17.6/t:statement-u-s-ga",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -162,7 +178,10 @@
           "why": "IFRS uses the higher of FVLCD and value in use."
         }
       ],
-      "say": "Use Figure F17-07. What impairment loss does Orontes recognize on the beverage plant under U.S. GAAP and under IFRS (whole USD)?"
+      "say": "Use Figure F17-07. What impairment loss does Orontes recognize on the beverage plant under U.S. GAAP and under IFRS (whole USD)?",
+      "from": [
+        "17.6/section-check"
+      ]
     },
     {
       "id": "sc17-12",
@@ -188,7 +207,10 @@
           "why": "The reversal goes to profit or loss for cost-model assets."
         }
       ],
-      "exhibit": "A year later the plant's recoverable amount rises."
+      "exhibit": "A year later the plant's recoverable amount rises.",
+      "from": [
+        "17.6/section-check"
+      ]
     }
   ]
 };

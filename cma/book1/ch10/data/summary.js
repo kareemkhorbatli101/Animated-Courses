@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "curve"
+    "anim": "curve",
+    "about": "Figure F10-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "PP&E is recorded at the cost of getting it ready for use, including interest on self-built assets. Straight-line, declining-balance, sum-of-the-years'-digits and units-of-production methods charge the same total at different times, and changes in estimates are prospective. The best method matches how the asset's benefits are used. On disposal, depreciation is brought up to date and the gain or loss is proceeds minus carrying amount. PP&E held and used is impaired only if undiscounted cash flows are below carrying amount, and the loss is measured against fair value. Indefinite-lived intangibles use a one-step fair value test, goodwill a single step capped at goodwill, and U.S. GAAP never reverses these losses."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F10-13.png",
       "label": "Figure F10-13.",
       "caption": "Chapter 10 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F10-13"
+      ]
     },
     {
       "id": "rules",

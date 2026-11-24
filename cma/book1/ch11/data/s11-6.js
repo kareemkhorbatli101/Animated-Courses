@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Matching, contract costs and IFRS differences",
   "n": "11.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.6"),
   "brief": {
     "about": "The matching principle says that expenses are recognized in the same period as the revenues they help to earn. Cost of goods sold is recognized when the related sale is recognized. Costs with no future benefit, such as most advertising, are expensed at once, and long-lived assets are depreciated over the periods they serve. Contract costs follow the same idea. Figure F11-10 lists the main differences from IFRS 15.",
     "anim": "rules",
@@ -32,6 +32,9 @@
       }
     ]
   },
+  "from": [
+    "11.6/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "ifrs-10",
@@ -70,6 +73,10 @@
       "traps": [
         "and-produits-constat-s-d-avance",
         "not-yet-testable-asu-2025-07-and-asu-2"
+      ],
+      "from": [
+        "F11-10",
+        "11.6/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -96,7 +103,10 @@
           "why": "It is a contract cost, not part of equipment cost."
         }
       ],
-      "exhibit": "Orontes pays a sales commission of $32,400 to win the two-year GreenBasket contract."
+      "exhibit": "Orontes pays a sales commission of $32,400 to win the two-year GreenBasket contract.",
+      "from": [
+        "11.6/section-check"
+      ]
     },
     {
       "id": "sc11-12",
@@ -122,7 +132,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A company impaired a capitalized contract cost last year. This year the contract becomes profitable again."
+      "exhibit": "A company impaired a capitalized contract cost last year. This year the contract becomes profitable again.",
+      "from": [
+        "11.6/section-check"
+      ]
     }
   ]
 };

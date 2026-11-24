@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P411-01–P411-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "lifeCycle"
   },

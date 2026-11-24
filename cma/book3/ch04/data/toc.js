@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "4.2",
   "title": "Developing the master budget",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s4-3",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "4.6",
   "title": "Extended Example 4A: choosing and building the 2028 budgets",
-  "blurb": "Shares, schedule, the tie lines, questions · 5 scenes"
+  "blurb": "Shares, schedule, a printed statement, the tie lines, questions · 7 scenes"
  },
  {
   "id": "summary",

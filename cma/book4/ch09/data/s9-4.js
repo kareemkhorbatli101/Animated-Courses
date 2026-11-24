@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The cost of separate systems",
   "n": "9.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.4"),
   "brief": {
     "about": "Most companies arrive at several systems rather than choosing them. A plant buys software to schedule production, sales buys something to track customers, and finance keeps the ledger it has always had. Each works. Figure F409-05 sets out what it costs to leave them apart. The first two challenges are the ones candidates name, and the fifth is the one that matters most. There is a control dimension too.",
     "anim": "siloCost",
@@ -27,49 +27,51 @@
   "scenes": [
     {
       "id": "fig-f409-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F409-05",
       "title": "The challenges of separate financial and nonfinancial systems",
-      "say": "The challenges of separate financial and nonfinancial systems",
-      "caption": "Challenge (F.1.c)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Challenge (F.1.c)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Duplicate data entry",
-          "a": "The same fact is keyed into two systems",
-          "b": "Production enters output; accounting enters it again for costing"
+          "label": "Duplicate data entry",
+          "right": "The same fact is keyed into two systems",
+          "why": "What it means: The same fact is keyed into two systems. Production enters output; accounting enters it again for costing."
         },
         {
-          "name": "Data that disagrees",
-          "a": "Two systems hold different versions of the same figure",
-          "b": "The plant says 240,000 cases; the ledger says 238,500"
+          "label": "Data that disagrees",
+          "right": "Two systems hold different versions of the same figure",
+          "why": "What it means: Two systems hold different versions of the same figure. The plant says 240,000 cases; the ledger says 238,500."
         },
         {
-          "name": "Reconciliation effort",
-          "a": "Staff spend time explaining the difference, not analysing it",
-          "b": "Two days a month closing the gap"
+          "label": "Reconciliation effort",
+          "right": "Staff spend time explaining the difference, not analysing it",
+          "why": "What it means: Staff spend time explaining the difference, not analysing it. Two days a month closing the gap."
         },
         {
-          "name": "Delay",
-          "a": "Information waits for a transfer or a monthly extract",
-          "b": "Managers see last month's margin in the third week"
+          "label": "Delay",
+          "right": "Information waits for a transfer or a monthly extract",
+          "why": "What it means: Information waits for a transfer or a monthly extract. Managers see last month's margin in the third week."
         },
         {
-          "name": "No single view",
-          "a": "Nobody can see one customer or product end to end",
-          "b": "Profit by product needs three systems and a spreadsheet"
+          "label": "No single view",
+          "right": "Nobody can see one customer or product end to end",
+          "why": "What it means: Nobody can see one customer or product end to end. Profit by product needs three systems and a spreadsheet."
         },
         {
-          "name": "Weak control",
-          "a": "The transfer between systems is where errors hide",
-          "b": "A manual upload nobody reconciles"
+          "label": "Weak control",
+          "right": "The transfer between systems is where errors hide",
+          "why": "What it means: The transfer between systems is where errors hide. A manual upload nobody reconciles."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "The challenges of separate financial and nonfinancial systems",
       "traps": [
         "a-plant-buys-software-to-schedule-prod"
+      ],
+      "from": [
+        "F409-05",
+        "9.4/t:challenge-f-1-c"
       ]
     },
     {
@@ -95,6 +97,9 @@
           "text": "Different screen layouts",
           "why": "Cosmetic."
         }
+      ],
+      "from": [
+        "9.4/section-check"
       ]
     },
     {
@@ -120,6 +125,9 @@
           "why": "Nobody owns the gap between two owners.",
           "correct": true
         }
+      ],
+      "from": [
+        "9.4/section-check"
       ]
     }
   ]

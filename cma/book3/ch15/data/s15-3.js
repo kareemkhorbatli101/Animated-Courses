@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The contribution margin report",
   "n": "15.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.3"),
   "brief": {
     "about": "A segment report in contribution format has three margins, each answering a different question. Figure F315-04 shows them for Beverages. The contribution margin is revenue less all variable costs: $18,000,000 − $10,620,000 = $7,380,000. It shows what each extra case adds, and it is the figure used throughout Chapters 5 and 11. The controllable margin then deducts the fixed costs the manager can change, such as marketing and supervision.",
     "anim": "respCenters",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "15.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f315-04",
       "kind": "figure",
       "file": "F315-04.png",
       "label": "Figure F315-04.",
-      "caption": "The three margins in a contribution report."
+      "caption": "The three margins in a contribution report.",
+      "from": [
+        "F315-04"
+      ]
     },
     {
       "id": "fill-05",
@@ -153,6 +159,12 @@
       ],
       "traps": [
         "contribution-margin-deducts-only-varia"
+      ],
+      "from": [
+        "F315-05",
+        "15.3/t:orontes-2028-usd",
+        "15.3/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -251,7 +263,12 @@
           ]
         }
       ],
-      "data": true
+      "data": true,
+      "from": [
+        "F315-06",
+        "15.3/t:orontes-2028-usd#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -289,7 +306,13 @@
           ]
         }
       ],
-      "caption": "Your turn: the Tahini & Spreads column (complete the blanks)"
+      "caption": "Your turn: the Tahini & Spreads column (complete the blanks)",
+      "from": [
+        "15.3/your-turn",
+        "F315-06",
+        "15.3/t:orontes-2028-usd#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc315-5",
@@ -315,7 +338,10 @@
           "why": "These are the variable costs."
         }
       ],
-      "exhibit": "Revenue is $18,000,000 and variable costs are $10,620,000."
+      "exhibit": "Revenue is $18,000,000 and variable costs are $10,620,000.",
+      "from": [
+        "15.3/section-check"
+      ]
     },
     {
       "id": "sc315-6",
@@ -340,6 +366,9 @@
           "why": "It covers exactly what the manager can change.",
           "correct": true
         }
+      ],
+      "from": [
+        "15.3/section-check"
       ]
     }
   ]

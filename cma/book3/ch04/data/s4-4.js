@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Activity-based budgeting",
   "n": "4.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.4"),
   "brief": {
     "about": "Activity-based budgeting plans overhead from the activities that planned output will require. It is most useful when products use overhead very differently, as lentils and za'atar do in the Pulses & Spices line. Figure F304-07 shows the logic. Planned output sets the demand for each activity; each demand is multiplied by the activity rate from Book 2, Chapter 12.",
     "anim": "masterMap",
@@ -36,20 +36,29 @@
       }
     ]
   },
+  "from": [
+    "4.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f304-07",
       "kind": "figure",
       "file": "F304-07.png",
       "label": "Figure F304-07.",
-      "caption": "How an activity-based budget is built."
+      "caption": "How an activity-based budget is built.",
+      "from": [
+        "F304-07"
+      ]
     },
     {
       "id": "fig-f304-10",
       "kind": "figure",
       "file": "F304-10.png",
       "label": "Figure F304-10.",
-      "caption": "Activity-based budget against last year plus 3%."
+      "caption": "Activity-based budget against last year plus 3%.",
+      "from": [
+        "F304-10"
+      ]
     },
     {
       "id": "fill-08",
@@ -133,6 +142,11 @@
             "c3"
           ]
         }
+      ],
+      "from": [
+        "F304-08",
+        "4.4/t:pulses-spices-2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -197,7 +211,12 @@
           ]
         }
       ],
-      "data": true
+      "data": true,
+      "from": [
+        "F304-09",
+        "4.4/t:pulses-spices-2#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -229,7 +248,13 @@
           "prompt": ""
         }
       ],
-      "caption": "Your turn: packaging, testing and the total (complete the blanks)"
+      "caption": "Your turn: packaging, testing and the total (complete the blanks)",
+      "from": [
+        "4.4/your-turn",
+        "F304-09",
+        "4.4/t:pulses-spices-2#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc304-7",
@@ -258,6 +283,9 @@
       "exhibit": "Planned setups are 750 and the setup rate is $300.",
       "traps": [
         "facility-costs-do-change-output"
+      ],
+      "from": [
+        "4.4/section-check"
       ]
     },
     {
@@ -284,7 +312,10 @@
           "why": "This is last year plus 3%."
         }
       ],
-      "say": "Use Figure F304-08. What is the activity-based budget for Pulses & Spices overhead in 2028?"
+      "say": "Use Figure F304-08. What is the activity-based budget for Pulses & Spices overhead in 2028?",
+      "from": [
+        "4.4/section-check"
+      ]
     }
   ]
 };

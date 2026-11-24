@@ -9,7 +9,7 @@
   "up": "../",
   "title": "IFRS differences and what is changing",
   "n": "16.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.6"),
   "brief": {
     "about": "IFRS 10 uses one control model: an investor controls an entity if it has power over it, exposure to variable returns, and the ability to use its power to affect those returns. There is no separate VIE model, and an investor can have de facto control with less than half of the votes.",
     "anim": "rules",
@@ -60,6 +60,10 @@
       ],
       "traps": [
         "consolidation-not-yet-testable"
+      ],
+      "from": [
+        "F16-10",
+        "16.6/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -86,7 +90,10 @@
           "why": "This is the NCI, not goodwill."
         }
       ],
-      "exhibit": "An IFRS company measures NCI at its share of the subsidiary's net assets."
+      "exhibit": "An IFRS company measures NCI at its share of the subsidiary's net assets.",
+      "from": [
+        "16.6/section-check"
+      ]
     },
     {
       "id": "sc16-12",
@@ -112,7 +119,10 @@
           "why": "45% gives significant influence, so the equity method applies."
         }
       ],
-      "exhibit": "An investor holds 45% of the votes; the other 55% are spread among thousands of small shareholders."
+      "exhibit": "An investor holds 45% of the votes; the other 55% are spread among thousands of small shareholders.",
+      "from": [
+        "16.6/section-check"
+      ]
     }
   ]
 };

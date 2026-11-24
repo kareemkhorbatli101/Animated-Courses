@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "svcArrows"
+    "anim": "svcArrows",
+    "about": "Figure F210-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Service department costs are allocated so that products carry full cost and users value the services. Bases should follow cause and effect. The direct method ignores service-to-service links, the step-down method recognizes them in one direction, and the reciprocal method recognizes them all. Budgeted dual rates charge variable cost on use and fixed cost on planned capacity, so users do not pay for the service department's waste or idle capacity."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F210-13.png",
       "label": "Figure F210-13.",
       "caption": "Chapter 10 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F210-13"
+      ]
     },
     {
       "id": "rules",

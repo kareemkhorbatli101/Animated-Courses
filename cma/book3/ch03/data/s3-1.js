@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What budgets are for",
   "n": "3.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.1"),
   "brief": {
     "about": "A budget is a quantitative plan for a coming period, usually in money. It turns the strategic plan into short-term objectives: how many cases to sell, what to spend and what profit to earn. It also tells every unit what the others plan to do. The budget cycle in Figure F303-02 runs from the strategic plan to guidelines, preparation, approval, monitoring and revision. Figure F303-03 lists the roles of the budget.",
     "anim": "slackGap",
@@ -31,49 +31,56 @@
       "kind": "figure",
       "file": "F303-02.png",
       "label": "Figure F303-02.",
-      "caption": "The Orontes budget cycle."
+      "caption": "The Orontes budget cycle.",
+      "from": [
+        "F303-02"
+      ]
     },
     {
       "id": "fig-f303-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F303-03",
       "title": "The roles of the budget at Orontes",
-      "say": "The roles of the budget at Orontes",
-      "caption": "Role of the budget",
-      "col1": "At Orontes",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Role of the budget",
+      "col": "At Orontes",
       "rows": [
         {
-          "name": "Planning. turns the strategic plan into next year's targets (B.2.a, B.2.c)",
-          "note": true
+          "label": "Planning",
+          "right": "turns the strategic plan into next year's targets (B.2.a, B.2.c)",
+          "why": "At Orontes: turns the strategic plan into next year's targets (B.2.a, B.2.c)."
         },
         {
-          "name": "Coordination",
-          "a": "matches sales, production and purchasing plans",
-          "b": ""
+          "label": "Coordination",
+          "right": "matches sales, production and purchasing plans",
+          "why": "At Orontes: matches sales, production and purchasing plans."
         },
         {
-          "name": "Communication. tells each unit what is expected and why (B.2.f)",
-          "note": true
+          "label": "Communication",
+          "right": "tells each unit what is expected and why (B.2.f)",
+          "why": "At Orontes: tells each unit what is expected and why (B.2.f)."
         },
         {
-          "name": "Resource allocation",
-          "a": "shares scarce funds and people (B.2.h)",
-          "b": ""
+          "label": "Resource allocation",
+          "right": "shares scarce funds and people (B.2.h)",
+          "why": "At Orontes: shares scarce funds and people (B.2.h)."
         },
         {
-          "name": "Performance measurement",
-          "a": "gives the yardstick for actual results (B.2.d)",
-          "b": ""
+          "label": "Performance measurement",
+          "right": "gives the yardstick for actual results (B.2.d)",
+          "why": "At Orontes: gives the yardstick for actual results (B.2.d)."
         },
         {
-          "name": "Motivation",
-          "a": "sets targets managers accept and work towards",
-          "b": ""
+          "label": "Motivation",
+          "right": "sets targets managers accept and work towards",
+          "why": "At Orontes: sets targets managers accept and work towards."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The roles of the budget at Orontes",
+      "from": [
+        "F303-03",
+        "3.1/t:role-of-the-budg"
+      ]
     },
     {
       "id": "sc303-1",
@@ -101,6 +108,9 @@
       ],
       "traps": [
         "budget-measures-performance-targets-were"
+      ],
+      "from": [
+        "3.1/section-check"
       ]
     },
     {
@@ -126,6 +136,9 @@
           "text": "When it is kept secret from the manager",
           "why": "A secret target cannot guide effort."
         }
+      ],
+      "from": [
+        "3.1/section-check"
       ]
     }
   ]

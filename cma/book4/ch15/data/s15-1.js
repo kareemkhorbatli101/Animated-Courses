@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The four types of analytics",
   "n": "15.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.1"),
   "brief": {
     "about": "Analytics is usually divided into four types by the question each answers. Figure F415-02 sets them out. The order is one of increasing value and difficulty. descriptive analytics is the reporting most companies already do well. diagnostic analytics explains what the reporting showed, and that is where Chapter 13's distinction between knowledge and insight lives. predictive analytics says what will happen, which is this chapter's subject.",
     "anim": "fourAnalytics",
@@ -100,6 +100,10 @@
           },
           "why": "Question: What should we do?. What it does: Optimising a decision under constraints. At Orontes: How many shifts to schedule, given capacity."
         }
+      ],
+      "from": [
+        "F415-02",
+        "15.1/t:type-f-4-m-quest"
       ]
     },
     {
@@ -125,6 +129,9 @@
           "text": "Prescriptive",
           "why": "Prescriptive recommends what to do."
         }
+      ],
+      "from": [
+        "15.1/section-check"
       ]
     },
     {
@@ -150,6 +157,9 @@
           "text": "descriptive analytics",
           "why": "Descriptive summarises it."
         }
+      ],
+      "from": [
+        "15.1/section-check"
       ]
     }
   ]

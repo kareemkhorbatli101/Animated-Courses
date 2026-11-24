@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.2",
   "title": "Choosing the right center",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s15-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.4",
   "title": "What counts as a segment",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s15-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.5",
   "title": "Common costs and how to allocate them",
-  "blurb": "Figures, schedule, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, schedule, match, questions · 5 scenes"
  },
  {
   "id": "s15-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.6",
   "title": "Extended Example 15A: evaluating the three divisions",
-  "blurb": "Schedule, the tie lines, questions · 4 scenes"
+  "blurb": "Schedule, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the Oils division quarter",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 3 scenes"
  },
  {
   "id": "review",

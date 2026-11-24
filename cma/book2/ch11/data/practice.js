@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P211-01–P211-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "splitPoint"
   },

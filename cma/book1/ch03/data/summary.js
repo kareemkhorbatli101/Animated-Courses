@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "waterfall"
+    "anim": "waterfall",
+    "about": "Figure F03-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The income statement shows revenues, expenses, gains and losses for a period. A multi-step statement shows gross profit, operating income and income before income taxes, while a single-step statement reaches the same net income without subtotals. Gains and losses from peripheral transactions are shown net in other income and expense. Unusual or infrequent items are a separate pre-tax line in continuing operations; extraordinary items no longer exist. Discontinued operations appear net of tax below continuing operations. Comprehensive income is net income plus OCI, and OCI builds AOCI. Net income depends on estimates and methods, omits some value changes, and is not the same as cash."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F03-12.png",
       "label": "Figure F03-12.",
       "caption": "Chapter 3 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F03-12"
+      ]
     },
     {
       "id": "rules",

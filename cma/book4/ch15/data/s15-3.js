@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Clustering and classification",
   "n": "15.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.3"),
   "brief": {
     "about": "Both techniques put cases into groups, and the exam asks which is appropriate when. Figure F415-04 answers it. The test is a single question: are the categories already known? classification needs labelled history. It learns from cases whose answer is known, and then assigns new ones. clustering needs no labels at all, because it looks for natural groupings and leaves the analyst to decide what, if anything, they mean.",
     "anim": "clusterClass",
@@ -79,6 +79,10 @@
       ],
       "traps": [
         "which-distributors-behave-alike-has-ne"
+      ],
+      "from": [
+        "F415-04",
+        "15.3/t:technique-f-4-n"
       ]
     },
     {
@@ -105,7 +109,10 @@
           "why": "The question is predictive."
         }
       ],
-      "exhibit": "Orontes records whether each order was returned and wants to predict future returns."
+      "exhibit": "Orontes records whether each order was returned and wants to predict future returns.",
+      "from": [
+        "15.3/section-check"
+      ]
     },
     {
       "id": "sc415-6",
@@ -131,7 +138,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Nobody has ever categorised Orontes distributors, and the company wants to know which behave alike."
+      "exhibit": "Nobody has ever categorised Orontes distributors, and the company wants to know which behave alike.",
+      "from": [
+        "15.3/section-check"
+      ]
     }
   ]
 };

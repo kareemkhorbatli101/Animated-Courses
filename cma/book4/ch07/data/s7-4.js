@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Reading a flowchart for controls",
   "n": "7.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.4"),
   "brief": {
     "about": "A flowchart draws a process as a sequence of steps, decisions and documents. For a control reviewer it does something no written procedure does: it shows, in one picture, who holds which duty and where a document is created or lost. Figure F407-06 shows the redesigned Orontes purchasing cycle. Four questions answer most of what a reviewer needs. Who performs each step, and does any one name appear too often?",
     "anim": "flowRead",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F407-06.png",
       "label": "Figure F407-06.",
-      "caption": "A purchasing flowchart read for control weaknesses."
+      "caption": "A purchasing flowchart read for control weaknesses.",
+      "from": [
+        "F407-06"
+      ]
     },
     {
       "id": "sc407-7",
@@ -56,7 +59,10 @@
           "why": "That belongs in a policy."
         }
       ],
-      "say": "What does a flowchart show a control reviewer that a written procedure does not?"
+      "say": "What does a flowchart show a control reviewer that a written procedure does not?",
+      "from": [
+        "7.4/section-check"
+      ]
     },
     {
       "id": "sc407-8",
@@ -82,7 +88,10 @@
           "why": "Order does not establish separation."
         }
       ],
-      "say": "Reviewing the flowchart in Figure F407-06, which feature shows the segregation is sound?"
+      "say": "Reviewing the flowchart in Figure F407-06, which feature shows the segregation is sound?",
+      "from": [
+        "7.4/section-check"
+      ]
     }
   ]
 };

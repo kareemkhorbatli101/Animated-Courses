@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the tahini month under review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "flexLine"
+  },
+  "scenario": {
+    "title": "Case question: the tahini month under review",
+    "p": [
+      "The Tahini & Spreads division has closed its books for the month, and the result looks disappointing next to the budget. The division manager, Samir, points out that a large Gulf order was delayed, so fewer jars were sold than planned. He also notes that the division raised its price during the month, because a competitor had stopped supplying one chain.",
+      "The controller, Rana, wants to show the review meeting how much of the gap came from the lost volume and how much from everything else. She has the budgeted price, the budgeted variable cost and contribution margin per jar, and the budgeted fixed costs for the month, together with the actual jars sold, the actual price and the actual costs.",
+      "The new assistant has prepared a draft that compares the actual results with the static budget alone. He has also valued the volume shortfall at the selling price, and calculated the price variance on the budgeted number of jars. Rana must correct both calculations.",
+      "Samir wants to know whether the division controlled its costs, once the volume is taken into account."
+    ]
   },
   "scenes": [
     {
@@ -66,7 +75,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F311-14",
+        "Practice/t:tahini-spreads-d"
+      ]
     },
     {
       "id": "c311-1",
@@ -89,30 +102,34 @@
         {
           "name": "Sales-price variance",
           "to": "favorable",
-          "why": "Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
+          "why": "Variance: Favorable. Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
         },
         {
           "name": "Sales-volume variance",
           "to": "unfavorable",
-          "why": "Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
+          "why": "Variance: Unfavorable. Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
         },
         {
           "name": "Variable cost variance",
           "to": "unfavorable",
-          "why": "Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
+          "why": "Variance: Unfavorable. Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
         },
         {
           "name": "Fixed cost variance",
           "to": "unfavorable",
-          "why": "Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
+          "why": "Variance: Unfavorable. Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
         },
         {
           "name": "Flexible-budget variance",
           "to": "favorable",
-          "why": "Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
+          "why": "Variance: Favorable. Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "c311-2",

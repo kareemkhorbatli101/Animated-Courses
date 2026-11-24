@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Multiple regression",
   "n": "3.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.6"),
   "brief": {
     "about": "Multiple regression uses two or more independent variables: y = a + b₁x₁ + b₂x₂. Each coefficient is the cost per unit of its own variable, with the other variables held constant. Suppose Oils also records the number of setups each month. A multiple regression might give $15,000 a month, plus $11.5 per machine hour, plus $150 per setup. Figure F203-08 reads each term.",
     "anim": "scatterLine",
@@ -80,6 +80,12 @@
             "c2": "15,000 + 11.5 × 3,200 + 150 × 20"
           }
         }
+      ],
+      "from": [
+        "F203-08",
+        "3.6/t:suppose-oils-m-u",
+        "Practice/t:output-item-cate",
+        "Answers and explanations/t:output-item-cate"
       ]
     },
     {
@@ -108,6 +114,9 @@
       ],
       "traps": [
         "add-a-driver-only-for-a-cause"
+      ],
+      "from": [
+        "3.6/section-check"
       ]
     },
     {
@@ -134,7 +143,10 @@
           "correct": true
         }
       ],
-      "say": "Using the Figure F203-08 equation, what is the forecast for a month with 3,000 machine hours and 10 setups?"
+      "say": "Using the Figure F203-08 equation, what is the forecast for a month with 3,000 machine hours and 10 setups?",
+      "from": [
+        "3.6/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Value-added and non-value-added activities",
   "n": "14.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.6"),
   "brief": {
     "about": "A value-added activity is one customers would pay for, such as filling and labeling bottles. A non-value-added activity adds cost but no value, such as moving pallets or reworking errors. Some activities, such as final inspection, add no value but are necessary for now. Figure F214-10 classifies the six activities of the bottling line. Of its $800,000 cost, $140,000 is non-value-added. Removing non-value-added activities improves performance without making customers worse off.",
     "anim": "processMap",
@@ -94,6 +94,10 @@
             "c2": "800,000"
           }
         }
+      ],
+      "from": [
+        "F214-10",
+        "14.6/t:bottling-line-ac"
       ]
     },
     {
@@ -151,6 +155,10 @@
             "c2": "90,000"
           }
         }
+      ],
+      "from": [
+        "F214-11",
+        "14.6/t:non-value-added"
       ]
     },
     {
@@ -176,6 +184,9 @@
           "text": "an upstream cost",
           "why": "It happens during production."
         }
+      ],
+      "from": [
+        "14.6/section-check"
       ]
     },
     {
@@ -202,7 +213,10 @@
           "why": "This is the total cost."
         }
       ],
-      "say": "Use Figure F214-10. How much of the bottling line's cost is non-value-added (excluding the necessary inspection)?"
+      "say": "Use Figure F214-10. How much of the bottling line's cost is non-value-added (excluding the necessary inspection)?",
+      "from": [
+        "14.6/section-check"
+      ]
     }
   ]
 };

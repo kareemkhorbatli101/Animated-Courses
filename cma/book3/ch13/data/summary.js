@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "threeCols"
+    "anim": "threeCols",
+    "about": "Figure F313-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "When several products are sold, the sales-volume variance splits in two. The sales-mix variance is measured on the actual total units at each product's budgeted margin, and the sales-quantity variance at the budgeted weighted-average margin. When inputs can be substituted, the usage variance splits into a materials mix variance, measured on the actual total input, and a yield variance, valued at the weighted-average standard price. All of these variances, together with price, efficiency and spending variances, apply in service companies, where hours replace materials and nothing is held in stock."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F313-13.png",
       "label": "Figure F313-13.",
       "caption": "Chapter 13 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F313-13"
+      ]
     },
     {
       "id": "rules",

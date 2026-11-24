@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Choosing the right center",
   "n": "15.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.2"),
   "brief": {
     "about": "The rule is simple to state and easy to break: give a manager only the responsibility that matches the authority. Figure F315-03 matches common situations with a recommended center. At Orontes the tahini plant is a cost center, because the sales team decides what to sell and at what price. Levant Distribution is a profit center, because its manager sets delivery prices and controls its costs. The choice also shapes behavior.",
     "anim": "marginStack",
@@ -27,42 +27,48 @@
   "scenes": [
     {
       "id": "fig-f315-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F315-03",
       "title": "Choosing a responsibility center for a situation",
-      "say": "Choosing a responsibility center for a situation",
-      "caption": "What the manager controls (C.2.b)",
-      "col1": "Recommended center",
-      "col2": "Orontes example",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "What the manager controls (C.2.b)",
+      "col": "Orontes example",
       "rows": [
         {
-          "name": "The manager sets prices and controls costs, but not investment",
-          "a": "Profit center",
-          "b": "Levant Distribution"
+          "label": "The manager sets prices and controls costs, but not investment",
+          "right": "Levant Distribution",
+          "why": "Orontes example: Levant Distribution. Profit center."
         },
         {
-          "name": "The manager controls costs only; another unit decides output",
-          "a": "Cost center",
-          "b": "Tahini plant"
+          "label": "The manager controls costs only; another unit decides output",
+          "right": "Tahini plant",
+          "why": "Orontes example: Tahini plant. Cost center."
         },
         {
-          "name": "The manager controls selling effort but not production costs",
-          "a": "Revenue center",
-          "b": "Regional sales team"
+          "label": "The manager controls selling effort but not production costs",
+          "right": "Regional sales team",
+          "why": "Orontes example: Regional sales team. Revenue center."
         },
         {
-          "name": "The manager decides on new plant and working capital",
-          "a": "Investment center",
-          "b": "Beverages division"
+          "label": "The manager decides on new plant and working capital",
+          "right": "Beverages division",
+          "why": "Orontes example: Beverages division. Investment center."
         },
         {
-          "name": "The manager controls nothing but is charged a share of head office",
-          "a": "No center: the charge is not controllable",
-          "b": "Any division's allocated head-office cost"
+          "label": "The manager controls nothing but is charged a share of head office",
+          "right": "Any division's allocated head-office cost",
+          "why": "Orontes example: Any division's allocated head-office cost. No center: the charge is not controllable."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Choosing a responsibility center for a situation",
+      "traps": [
+        "authority-first-label-second"
+      ],
+      "from": [
+        "F315-03",
+        "15.2/t:what-the-manager",
+        "15.2/exam-trap"
+      ]
     },
     {
       "id": "sc315-3",
@@ -89,8 +95,8 @@
         }
       ],
       "exhibit": "The tahini plant manager controls costs, but the sales team decides volumes and prices.",
-      "traps": [
-        "authority-first-label-second"
+      "from": [
+        "15.2/section-check"
       ]
     },
     {
@@ -117,7 +123,10 @@
           "why": "A profit center excludes the asset decision."
         }
       ],
-      "exhibit": "A division manager sets prices, controls costs and approves new equipment."
+      "exhibit": "A division manager sets prices, controls costs and approves new equipment.",
+      "from": [
+        "15.2/section-check"
+      ]
     }
   ]
 };

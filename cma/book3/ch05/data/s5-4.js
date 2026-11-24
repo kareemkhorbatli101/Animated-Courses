@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Choosing a budget system",
   "n": "5.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.4"),
   "brief": {
     "about": "The right system depends on the situation and the decision. Figure F305-09 matches common situations with a recommended system, including the two systems of Chapter 4. Figure F305-10 sets out the benefits and limitations of the three systems in this chapter. A good recommendation names the system, gives the reason from the situation, and notes the main limitation to manage. Systems are often combined.",
     "anim": "zeroBase",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f305-09",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F305-09",
       "title": "Recommending a budget system for each situation",
-      "say": "Recommending a budget system for each situation",
-      "caption": "Business situation (B.4.e)",
-      "col1": "Recommended system",
-      "col2": "Orontes example",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Business situation (B.4.e)",
+      "col": "Recommended system",
       "rows": [
         {
-          "name": "Costs keep rising with no clear reason; many discretionary costs",
-          "a": "Zero-based budget",
-          "b": "Head office"
+          "label": "Costs keep rising with no clear reason; many discretionary costs",
+          "right": "Zero-based budget",
+          "why": "Recommended system: Zero-based budget. Head office."
         },
         {
-          "name": "Fast-changing market; plans must look a year ahead at all times",
-          "a": "Continuous (rolling) budget",
-          "b": "Beverages sales"
+          "label": "Fast-changing market; plans must look a year ahead at all times",
+          "right": "Continuous (rolling) budget",
+          "why": "Recommended system: Continuous (rolling) budget. Beverages sales."
         },
         {
-          "name": "Volume varies; managers must be judged fairly on costs",
-          "a": "Flexible budget",
-          "b": "Beverages plant"
+          "label": "Volume varies; managers must be judged fairly on costs",
+          "right": "Flexible budget",
+          "why": "Recommended system: Flexible budget. Beverages plant."
         },
         {
-          "name": "One large investment over more than a year",
-          "a": "Project budget (Chapter 4)",
-          "b": "Filling line"
+          "label": "One large investment over more than a year",
+          "right": "Project budget (Chapter 4)",
+          "why": "Recommended system: Project budget (Chapter 4). Filling line."
         },
         {
-          "name": "Overhead used very differently by products",
-          "a": "Activity-based budget (Chapter 4)",
-          "b": "Pulses & Spices"
+          "label": "Overhead used very differently by products",
+          "right": "Activity-based budget (Chapter 4)",
+          "why": "Recommended system: Activity-based budget (Chapter 4). Pulses & Spices."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Recommending a budget system for each situation",
+      "from": [
+        "F305-09",
+        "5.4/t:business-situati"
+      ]
     },
     {
       "id": "grid-10",
@@ -103,6 +105,10 @@
           },
           "why": "Benefits: Fair comparison at the actual volume."
         }
+      ],
+      "from": [
+        "F305-10",
+        "5.4/t:system-benefits"
       ]
     },
     {
@@ -129,7 +135,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Head-office costs have grown for years with no clear reason."
+      "exhibit": "Head-office costs have grown for years with no clear reason.",
+      "from": [
+        "5.4/section-check"
+      ]
     },
     {
       "id": "sc305-8",
@@ -155,7 +164,10 @@
           "why": "Not the tool for volume changes."
         }
       ],
-      "exhibit": "The plant sold 70,000 cases instead of the planned 75,000."
+      "exhibit": "The plant sold 70,000 cases instead of the planned 75,000.",
+      "from": [
+        "5.4/section-check"
+      ]
     }
   ]
 };

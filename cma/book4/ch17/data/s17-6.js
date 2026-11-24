@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The limitations of data analytics",
   "n": "17.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.6"),
   "brief": {
     "about": "This is the last outcome of Part IV and the one that keeps the rest in proportion. Figure F417-07 sets out what analytics cannot do, each limitation illustrated from earlier in this book. The fifth row deserves particular attention in this chapter. The probabilities of 0.25, 0.50 and 0.25 were not measured; somebody estimated them. Every figure computed from them inherits that judgement, however many decimal places the simulation reports.",
     "anim": "oppChallenge",
@@ -27,54 +27,58 @@
   "scenes": [
     {
       "id": "fig-f417-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F417-07",
       "title": "The limitations of data analytics",
-      "say": "The limitations of data analytics",
-      "caption": "Limitation of data analytics (F.4.aa)",
-      "col1": "What it means",
-      "col2": "Where this book met it",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Limitation of data analytics (F.4.aa)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Data quality",
-          "a": "An answer is only as good as what went in",
-          "b": "Chapter 11's duplicates and gaps"
+          "label": "Data quality",
+          "right": "An answer is only as good as what went in",
+          "why": "What it means: An answer is only as good as what went in. Chapter 11's duplicates and gaps."
         },
         {
-          "name": "Association, not cause",
-          "a": "Correlation never establishes causation",
-          "b": "Chapter 14's staff birthdays"
+          "label": "Association, not cause",
+          "right": "Correlation never establishes causation",
+          "why": "What it means: Correlation never establishes causation. Chapter 14's staff birthdays."
         },
         {
-          "name": "The past may not continue",
-          "a": "Every model assumes it does",
-          "b": "Chapter 16's warning"
+          "label": "The past may not continue",
+          "right": "Every model assumes it does",
+          "why": "What it means: Every model assumes it does. Chapter 16's warning."
         },
         {
-          "name": "What is not measured",
-          "a": "Reputation, morale and relationships rarely appear in the data",
-          "b": "The distributor who is difficult but loyal"
+          "label": "What is not measured",
+          "right": "Reputation, morale and relationships rarely appear in the data",
+          "why": "What it means: Reputation, morale and relationships rarely appear in the data. The distributor who is difficult but loyal."
         },
         {
-          "name": "Probabilities are estimates",
-          "a": "A model built on guesses inherits them",
-          "b": "The 0.25 and 0.50 in this chapter"
+          "label": "Probabilities are estimates",
+          "right": "A model built on guesses inherits them",
+          "why": "What it means: A model built on guesses inherits them. The 0.25 and 0.50 in this chapter."
         },
         {
-          "name": "Privacy and ethics",
-          "a": "What can be analysed is not always what should be",
-          "b": "Chapter 11's obligations"
+          "label": "Privacy and ethics",
+          "right": "What can be analysed is not always what should be",
+          "why": "What it means: What can be analysed is not always what should be. Chapter 11's obligations."
         },
         {
-          "name": "It informs, it does not decide",
-          "a": "Management remains accountable for the choice",
-          "b": "The board still votes on the Gulf expansion"
+          "label": "It informs, it does not decide",
+          "right": "Management remains accountable for the choice",
+          "why": "What it means: Management remains accountable for the choice. The board still votes on the Gulf expansion."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "The limitations of data analytics",
       "traps": [
-        "figure-f417-07-sets-out-what-analytics"
+        "figure-f417-07-sets-out-what-analytics",
+        "precision-is-not-accuracy"
+      ],
+      "from": [
+        "F417-07",
+        "17.6/t:limitation-of-da",
+        "17.6/exam-trap"
       ]
     },
     {
@@ -102,8 +106,8 @@
         }
       ],
       "exhibit": "A simulation reports a fifth percentile to the nearest pound.",
-      "traps": [
-        "precision-is-not-accuracy"
+      "from": [
+        "17.6/section-check"
       ]
     },
     {
@@ -129,6 +133,9 @@
           "text": "It applies only to manufacturing",
           "why": "They apply to any decision under uncertainty."
         }
+      ],
+      "from": [
+        "17.6/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Presentation and IFRS differences",
   "n": "15.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.6"),
   "brief": {
     "about": "The results of a discontinued operation, including its operating results and any remeasurement or disposal gain or loss, are shown net of their own tax below income from continuing operations. Public companies also show per-share amounts for discontinued operations. The comparative years are reclassified so that all periods are shown on the same basis. Figure F15-09 compares these rules with IFRS.",
     "anim": "rules",
@@ -31,6 +31,9 @@
       }
     ]
   },
+  "from": [
+    "15.6/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "ifrs-09",
@@ -64,6 +67,10 @@
       ],
       "traps": [
         "r-sultat-exceptionnel-and"
+      ],
+      "from": [
+        "F15-09",
+        "15.6/t:topic-u-s-gaap-i"
       ]
     },
     {
@@ -90,7 +97,10 @@
           "why": "Reclassification is not an error correction."
         }
       ],
-      "exhibit": "A company reports a discontinued operation in 2027."
+      "exhibit": "A company reports a discontinued operation in 2027.",
+      "from": [
+        "15.6/section-check"
+      ]
     },
     {
       "id": "sc15-12",
@@ -116,7 +126,10 @@
           "correct": true
         }
       ],
-      "say": "Under IFRS 5, how is the balance sheet of the previous year presented when a discontinued operation arises this year?"
+      "say": "Under IFRS 5, how is the balance sheet of the previous year presented when a discontinued operation arises this year?",
+      "from": [
+        "15.6/section-check"
+      ]
     }
   ]
 };

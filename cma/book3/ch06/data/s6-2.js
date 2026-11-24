@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The sales forecast",
   "n": "6.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.2"),
   "brief": {
     "about": "The sales forecast is an estimate of what the company could sell. It becomes the sales budget only after management decides on prices, promotions and targets. Figure F306-03 lists the factors the Beverages forecast considers. Past results show trend and season. Figure F306-04 shows that Beverages sales have grown each year and peak every third quarter, when summer demand for juice is highest.",
     "anim": "bridgeBar",
@@ -30,49 +30,60 @@
       "kind": "figure",
       "file": "F306-04.png",
       "label": "Figure F306-04.",
-      "caption": "Beverages sales by quarter, 2026–2028."
+      "caption": "Beverages sales by quarter, 2026–2028.",
+      "from": [
+        "F306-04"
+      ]
     },
     {
       "id": "fig-f306-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F306-03",
       "title": "Factors in the Beverages sales forecast",
-      "say": "Factors in the Beverages sales forecast",
-      "caption": "Factor in the sales forecast (B.5.b)",
-      "col1": "Beverages 2028",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Factor in the sales forecast (B.5.b)",
+      "col": "Beverages 2028",
       "rows": [
         {
-          "name": "The market and the industry",
-          "a": "Juice market growing 14.0% a year (Chapter 2)",
-          "b": ""
+          "label": "The market and the industry",
+          "right": "Juice market growing 14.0% a year (Chapter 2)",
+          "why": "Beverages 2028: Juice market growing 14.0% a year (Chapter 2)."
         },
         {
-          "name": "The economy. Low inflation; the dinar pegged to the US dollar (Chapter 3)",
-          "note": true
+          "label": "The economy",
+          "right": "Low inflation; the dinar pegged to the US dollar (Chapter 3)",
+          "why": "Beverages 2028: Low inflation; the dinar pegged to the US dollar (Chapter 3)."
         },
         {
-          "name": "Past sales and seasons",
-          "a": "Peaks every third quarter (Figure F306-04)",
-          "b": ""
+          "label": "Past sales and seasons",
+          "right": "Peaks every third quarter (Figure F306-04)",
+          "why": "Beverages 2028: Peaks every third quarter (Figure F306-04)."
         },
         {
-          "name": "Prices and promotions",
-          "a": "Price held at $20.00 a case",
-          "b": ""
+          "label": "Prices and promotions",
+          "right": "Price held at $20.00 a case",
+          "why": "Beverages 2028: Price held at $20.00 a case."
         },
         {
-          "name": "Competitors",
-          "a": "The market leader holds a much larger share",
-          "b": ""
+          "label": "Competitors",
+          "right": "The market leader holds a much larger share",
+          "why": "Beverages 2028: The market leader holds a much larger share."
         },
         {
-          "name": "Sales team and customers. Orders already agreed with Levant and the supermarkets",
-          "note": true
+          "label": "Sales team and customers",
+          "right": "Orders already agreed with Levant and the supermarkets",
+          "why": "Beverages 2028: Orders already agreed with Levant and the supermarkets."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Factors in the Beverages sales forecast",
+      "traps": [
+        "forecast-is-not-budget"
+      ],
+      "from": [
+        "F306-03",
+        "6.2/t:factor-in-the-sa",
+        "6.2/exam-trap"
+      ]
     },
     {
       "id": "sc306-3",
@@ -98,8 +109,8 @@
           "correct": true
         }
       ],
-      "traps": [
-        "forecast-is-not-budget"
+      "from": [
+        "6.2/section-check"
       ]
     },
     {
@@ -125,6 +136,9 @@
           "text": "The production budget",
           "why": "Production follows the sales budget."
         }
+      ],
+      "from": [
+        "6.2/section-check"
       ]
     }
   ]

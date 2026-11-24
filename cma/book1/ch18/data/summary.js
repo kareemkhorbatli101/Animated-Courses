@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "capitals"
+    "anim": "capitals",
+    "about": "Figure F18-11 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Integrated thinking drives integrated reporting, the process that produces the integrated report. The primary purpose is to explain to providers of financial capital how the company creates, preserves or erodes value over time; other stakeholders also benefit. Value is described through six capitals, which the business model turns into outputs and outcomes. Seven guiding principles shape how the report is prepared, and eight content elements set what it covers. Integrated reporting can improve thinking and communication, but it is costly, hard to measure and voluntary. The IFRS Foundation now owns the Framework; IFRS S1 and S2 are separate standards."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F18-11.png",
       "label": "Figure F18-11.",
       "caption": "Chapter 18 summary map: the key point of each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F18-11"
+      ]
     },
     {
       "id": "rules",

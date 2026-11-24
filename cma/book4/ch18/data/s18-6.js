@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 18A: presenting the Gulf decision to the board",
   "n": "18.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.6"),
   "brief": {
     "about": "F.4.cc is a Level C outcome, so the exam asks you to choose between visualization options and defend the choice. This example does that for the decision of Chapter 17. Not the method. The board must see three things: that the expansion is expected to contribute 1,047,500, that the realistic range runs from 539,260 to 1,503,517, and that even the low end covers the fixed cost. Not 'Distribution of simulated contribution'.",
     "anim": "chartPick",
@@ -68,6 +68,9 @@
       }
     ]
   },
+  "from": [
+    "18.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f418-07",
@@ -102,7 +105,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F418-07",
+        "18.6/t:what-must-be-sho",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t18-6-0",
+      "kind": "lines",
+      "kicker": "Section 18.6",
+      "title": "Feature of the slide",
+      "caption": "Feature of the slide",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The underlying figures are correct",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The bar chart's axis begins at 205,000",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Two charts and two messages on one slide",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The title names the axes rather than the finding",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:feature-of-the-s",
+        "Practice/t:feature-of-the-s#2",
+        "Answers and explanations/t:feature-of-the-s"
+      ]
+    },
+    {
+      "id": "t18-6-1",
+      "kind": "lines",
+      "kicker": "Section 18.6",
+      "title": "Feature of the slide",
+      "caption": "Feature of the slide",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The underlying figures are correct",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The bar chart's axis begins at 205,000",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Two charts and two messages on one slide",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The title names the axes rather than the finding",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:feature-of-the-s",
+        "Practice/t:feature-of-the-s#2",
+        "Answers and explanations/t:feature-of-the-s"
+      ]
+    },
+    {
+      "id": "t18-6-2",
+      "kind": "lines",
+      "kicker": "Section 18.6",
+      "title": "Feature of the slide",
+      "caption": "Feature of the slide",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "The underlying figures are correct",
+          "a": "Sound",
+          "b": ""
+        },
+        {
+          "name": "The bar chart's axis begins at 205,000",
+          "a": "Defect",
+          "b": ""
+        },
+        {
+          "name": "Two charts and two messages on one slide",
+          "a": "Defect",
+          "b": ""
+        },
+        {
+          "name": "The title names the axes rather than the finding",
+          "a": "Defect",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:feature-of-the-s",
+        "Practice/t:feature-of-the-s#2",
+        "Answers and explanations/t:feature-of-the-s"
+      ]
     },
     {
       "id": "yourturn",
@@ -147,6 +269,13 @@
       "note": "Why: a line chart shows movement over time, and the slope between points carries the message",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "18.6/your-turn",
+        "F418-07",
+        "18.6/t:what-must-be-sho",
+        "18.6/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -173,7 +302,10 @@
           "why": "Preference is not the reason."
         }
       ],
-      "exhibit": "Use Extended Example 18A."
+      "exhibit": "Use Extended Example 18A.",
+      "from": [
+        "18.6/section-check"
+      ]
     },
     {
       "id": "sc418-12",
@@ -199,7 +331,10 @@
           "why": "That is the caveat, honestly shown."
         }
       ],
-      "exhibit": "Use Extended Example 18A."
+      "exhibit": "Use Extended Example 18A.",
+      "from": [
+        "18.6/section-check"
+      ]
     }
   ]
 };

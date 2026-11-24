@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada buys Tadmor Retail",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "group"
+  },
+  "scenario": {
+    "title": "Case question: Barada buys Tadmor Retail",
+    "p": [
+      "On January 1, 2028 Barada Wholesale bought a controlling stake in Tadmor Retail, a chain of grocery shops in Amman. The former owners kept the remaining shares. Barada paid more than the fair value of Tadmor's identifiable net assets.",
+      "Barada also holds other investments: a stake in a supplier that gives it significant influence, a small holding in a listed food company, and an interest in a cold-storage entity that Barada does not own but whose activities it directs.",
+      "During 2028 Barada sold goods to Tadmor at a profit, and some of those goods were still in Tadmor's shops at the year-end. Tadmor also still owed Barada for part of the purchases.",
+      "Barada's controller must prepare its first consolidated statements. She needs the goodwill, the eliminations and the noncontrolling interest, and she must choose the right method for each investment. The bank wants to understand how the group balance sheet differs from Barada's own. Amounts in the exhibit are in thousands of U.S. dollars. The auditors will review the purchase price allocation and the elimination entries. Tadmor's former owners will also receive the consolidated statements, because they still hold shares."
+    ]
   },
   "scenes": [
     {
@@ -72,7 +81,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F16-14",
+        "Practice/t:suppose-barada-w"
+      ]
     },
     {
       "id": "c16-1",
@@ -117,7 +130,11 @@
           "why": "Investment: Full consolidation."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:investment-categ",
+        "Answers and explanations/t:investment-categ"
+      ]
     },
     {
       "id": "c16-2",

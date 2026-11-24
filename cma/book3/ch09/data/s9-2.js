@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why a cash budget?",
   "n": "9.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.2"),
   "brief": {
     "about": "The cash budget plans the cash coming in and going out each period and the cash left at the end. Its purposes are to show shortages early, so that borrowing can be arranged in time, and to show surpluses that can be invested or used to repay loans. It is linked to every other budget. Two things change on the way to the cash budget.",
     "anim": "cashLoop",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F309-04.png",
       "label": "Figure F309-04.",
-      "caption": "Every budget feeds the cash budget."
+      "caption": "Every budget feeds the cash budget.",
+      "from": [
+        "F309-04"
+      ]
     },
     {
       "id": "sc309-3",
@@ -55,6 +58,9 @@
           "why": "So financing can be arranged in time.",
           "correct": true
         }
+      ],
+      "from": [
+        "9.2/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "The capital expenditure budget",
           "why": "Capital spending is paid in cash."
         }
+      ],
+      "from": [
+        "9.2/section-check"
       ]
     }
   ]

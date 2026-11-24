@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The effect of incremental changes",
   "n": "5.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.5"),
   "brief": {
     "about": "Managers often ask how a change would affect the budget: a new price, more volume, a higher cost. The right measure is the change in contribution margin, and the answer must include every effect of the change, such as lost volume after a price rise. Figure F305-12 shows the result: the rise adds $651,600 a year even after losing 27,000 cases.",
     "anim": "rollFwd",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "5.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f305-12",
       "kind": "figure",
       "file": "F305-12.png",
       "label": "Figure F305-12.",
-      "caption": "Contribution margin before and after the price rise."
+      "caption": "Contribution margin before and after the price rise.",
+      "from": [
+        "F305-12"
+      ]
     },
     {
       "id": "fill-11",
@@ -110,6 +116,11 @@
       ],
       "traps": [
         "include-the-lost-volume"
+      ],
+      "from": [
+        "F305-11",
+        "5.5/t:beverages-2028-n",
+        "5.5/exam-trap"
       ]
     },
     {
@@ -136,7 +147,10 @@
           "why": "This uses revenue per case."
         }
       ],
-      "exhibit": "Contribution margin is $8.20 a case and fixed costs do not change."
+      "exhibit": "Contribution margin is $8.20 a case and fixed costs do not change.",
+      "from": [
+        "5.5/section-check"
+      ]
     },
     {
       "id": "sc305-10",
@@ -162,7 +176,10 @@
           "why": "This counts only the lost cases."
         }
       ],
-      "exhibit": "A price rise from $20.00 to $21.00 (variable cost $11.80) cuts volume from 900,000 to 873,000 cases."
+      "exhibit": "A price rise from $20.00 to $21.00 (variable cost $11.80) cuts volume from 900,000 to 873,000 cases.",
+      "from": [
+        "5.5/section-check"
+      ]
     }
   ]
 };

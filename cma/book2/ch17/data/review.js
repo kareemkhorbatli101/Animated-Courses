@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "pullPush"
   },
@@ -139,9 +139,6 @@
           "text": "a planning spreadsheet",
           "why": "ERP is an integrated system."
         }
-      ],
-      "traps": [
-        "pgi"
       ]
     },
     {

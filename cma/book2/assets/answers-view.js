@@ -42,6 +42,17 @@
       if (sc.note) h += ul([li("y", esc(sc.note))]);
       return h;
     }
+    /* MATCH (assets/objects6.js). A kind with no branch here has no answer a reader can look
+       up - two kinds shipped without one - so the branch is written with the renderer. The row
+       is shown as the author prints it: his label, the description that belongs to it, and his
+       whole row as the reason. */
+    if (k === "match") {
+      h = ul((sc.rows || []).map(function (r) {
+        return li("y", "<b>" + esc(r.label) + "</b> → " + esc(r.right) + ". " +
+                       esc(r.why || "")); }));
+      if (sc.note) h += ul([li("y", esc(sc.note))]);
+      return h;
+    }
     if (k === "sort") {
       function lab(id) { var t = (sc.targets || []).filter(function (x) { return x.id === id; })[0];
         return t ? (t.label || (t.reveal ? t.reveal.name : id)) : id; }

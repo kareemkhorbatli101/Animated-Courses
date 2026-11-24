@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why overhead is over- or under-applied",
   "n": "8.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.4"),
   "brief": {
     "about": "Actual overhead collects in Manufacturing Overhead Control; applied overhead collects in Manufacturing Overhead Applied. When actual is more than applied, the difference is underapplied overhead and product costs are too low. When applied is more, the difference is overapplied overhead. There are three causes. Spending can differ from the budget. Actual activity can differ from the denominator, so fixed overhead is applied to more or fewer hours than planned.",
     "anim": "appliedActual",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F208-06.png",
       "label": "Figure F208-06.",
-      "caption": "Why overhead is under- or overapplied, and what each balance means."
+      "caption": "Why overhead is under- or overapplied, and what each balance means.",
+      "from": [
+        "F208-06"
+      ]
     },
     {
       "id": "sc208-7",
@@ -55,6 +58,9 @@
           "why": "Too little was applied to production.",
           "correct": true
         }
+      ],
+      "from": [
+        "8.4/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "why": "A normal shortfall is not expensed at once."
         }
       ],
-      "exhibit": "Actual machine hours are below the denominator level, and spending equals the budget."
+      "exhibit": "Actual machine hours are below the denominator level, and spending equals the budget.",
+      "from": [
+        "8.4/section-check"
+      ]
     }
   ]
 };

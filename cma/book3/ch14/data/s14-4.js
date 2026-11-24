@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Two-, three- and four-way analysis",
   "n": "14.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.4"),
   "brief": {
     "about": "The four variances can be reported in groups. Figure F314-07 shows the same June result in four, three and two parts; Figure F314-08 lists them. In the three-way analysis the two spending variances are combined; here they cancel, which shows why the four-way analysis is more useful. In the two-way analysis everything except volume is called the budget or controllable variance. Whichever grouping is used, the total is the same.",
     "anim": "threeCols",
@@ -30,49 +30,40 @@
       "kind": "figure",
       "file": "F314-07.png",
       "label": "Figure F314-07.",
-      "caption": "The same overhead variance in four, three and two parts."
+      "caption": "The same overhead variance in four, three and two parts.",
+      "from": [
+        "F314-07"
+      ]
     },
     {
       "id": "fig-f314-08",
-      "kind": "grid",
+      "kind": "match",
       "kicker": "Figure F314-08",
       "title": "The same overhead variance in four, three and two parts",
-      "say": "The same overhead variance in four, three and two parts",
-      "caption": "Analysis",
-      "cols": [
-        "Part",
-        "Amount",
-        "Part",
-        "Amount"
-      ],
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Analysis",
+      "col": "Part",
       "rows": [
         {
-          "name": "Four-way",
-          "cells": [
-            "VOH spending",
-            "2,000 F",
-            "VOH efficiency",
-            "1,000 U"
-          ]
+          "label": "Four-way",
+          "right": "VOH spending",
+          "why": "Part: VOH spending. 2,000 F. VOH efficiency. 1,000 U."
         },
         {
-          "name": "Three-way",
-          "cells": [
-            "Spending (variable + fixed)",
-            "—",
-            "Efficiency",
-            "1,000 U"
-          ]
+          "label": "Three-way",
+          "right": "Spending (variable + fixed)",
+          "why": "Part: Spending (variable + fixed). —. Efficiency. 1,000 U."
         },
         {
-          "name": "Two-way",
-          "cells": [
-            "Budget (controllable)",
-            "1,000 U",
-            "Production-volume",
-            "6,000 U"
-          ]
+          "label": "Two-way",
+          "right": "Budget (controllable)",
+          "why": "Part: Budget (controllable). 1,000 U. Production-volume. 6,000 U."
         }
+      ],
+      "caption": "The same overhead variance in four, three and two parts",
+      "from": [
+        "F314-08",
+        "14.4/t:analysis-part-am"
       ]
     },
     {
@@ -93,6 +84,10 @@
           "answer": "216000",
           "why": "Total applied overhead: 216,000."
         }
+      ],
+      "from": [
+        "F314-09",
+        "14.4/t:proof-june-2028"
       ]
     },
     {
@@ -118,6 +113,9 @@
           "text": "price and usage",
           "why": "Those belong to materials."
         }
+      ],
+      "from": [
+        "14.4/section-check"
       ]
     },
     {
@@ -144,7 +142,10 @@
           "why": "This is the volume variance alone."
         }
       ],
-      "exhibit": "Actual overhead is $223,000 and applied overhead $216,000."
+      "exhibit": "Actual overhead is $223,000 and applied overhead $216,000.",
+      "from": [
+        "14.4/section-check"
+      ]
     }
   ]
 };

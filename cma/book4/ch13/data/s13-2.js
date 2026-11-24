@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Structured, semi-structured and unstructured data",
   "n": "13.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.2"),
   "brief": {
     "about": "Variety is easier to grasp once the three kinds are named. Figure F413-03 sets them out with how a business actually uses each. Structured data is what Chapter 10 described: rows and columns with a fixed meaning, which a query can read directly. It is the minority of what a company holds and the overwhelming majority of what it analyses, for the simple reason that it is the easiest to use.",
     "anim": "dataShapes",
@@ -64,6 +64,10 @@
           },
           "why": "What it means: No predefined form at all."
         }
+      ],
+      "from": [
+        "F413-03",
+        "13.2/t:kind-of-data-f-4"
       ]
     },
     {
@@ -89,6 +93,9 @@
           "text": "not data at all",
           "why": "It contains information no table holds."
         }
+      ],
+      "from": [
+        "13.2/section-check"
       ]
     },
     {
@@ -114,6 +121,9 @@
           "text": "Structured data is the hardest to analyse",
           "why": "It is the easiest, which is why it is analysed most."
         }
+      ],
+      "from": [
+        "13.2/section-check"
       ]
     }
   ]

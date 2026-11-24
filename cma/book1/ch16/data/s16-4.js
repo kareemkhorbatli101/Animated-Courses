@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The acquisition: goodwill and noncontrolling interest",
   "n": "16.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.4"),
   "brief": {
     "about": "When a company gains control of a business, it uses the acquisition method. It measures the subsidiary's identifiable assets and liabilities at fair value, and it measures NCI at fair value too. Goodwill is the price paid plus the fair value of NCI, minus the fair value of the net assets. Orontes pays $8,000,000 for 80% of Levant, and the other 20% is worth $1,900,000.",
     "anim": "group",
@@ -39,13 +39,19 @@
       }
     ]
   },
+  "from": [
+    "16.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f16-05",
       "kind": "figure",
       "file": "F16-05.png",
       "label": "Figure F16-05.",
-      "caption": "Goodwill at acquisition: price plus NCI fair value minus net assets at fair value."
+      "caption": "Goodwill at acquisition: price plus NCI fair value minus net assets at fair value.",
+      "from": [
+        "F16-05"
+      ]
     },
     {
       "id": "fig-f16-06",
@@ -89,7 +95,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F16-06",
+        "16.4/t:consolidation-wo"
+      ]
     },
     {
       "id": "sc16-7",
@@ -115,7 +125,10 @@
           "why": "This is the net assets at fair value, not goodwill."
         }
       ],
-      "say": "Use Figure F16-05. What goodwill does Orontes recognize under U.S. GAAP (whole USD)?"
+      "say": "Use Figure F16-05. What goodwill does Orontes recognize under U.S. GAAP (whole USD)?",
+      "from": [
+        "16.4/section-check"
+      ]
     },
     {
       "id": "sc16-8",
@@ -141,7 +154,10 @@
           "why": "There is no new business combination."
         }
       ],
-      "exhibit": "In 2028 Orontes buys another 10% of Levant from the NCI holders and keeps control."
+      "exhibit": "In 2028 Orontes buys another 10% of Levant from the NCI holders and keeps control.",
+      "from": [
+        "16.4/section-check"
+      ]
     }
   ]
 };

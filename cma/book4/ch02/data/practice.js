@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P402-01–P402-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "boardLine"
   },

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The time frame of a strategic plan",
   "n": "1.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.2"),
   "brief": {
     "about": "A strategic plan usually looks three to five years ahead, and sometimes longer. Tactical plans cover one to three years, and operational plans and budgets cover one year or less. Figure F301-03 compares the three. The right time frame depends on the industry. A software company may plan only two or three years ahead because its market changes fast. Orontes uses a plan for 2028 to 2032.",
     "anim": "planHorizon",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F301-04.png",
       "label": "Figure F301-04.",
-      "caption": "The Orontes strategic plan and the annual budget."
+      "caption": "The Orontes strategic plan and the annual budget.",
+      "from": [
+        "F301-04"
+      ]
     },
     {
       "id": "grid-03",
@@ -79,6 +82,10 @@
           },
           "why": "Example: Food production: 5 years is common."
         }
+      ],
+      "from": [
+        "F301-03",
+        "1.2/t:plan-typical-tim"
       ]
     },
     {
@@ -107,6 +114,9 @@
       ],
       "traps": [
         "each-year-plan-reviewed-rolled"
+      ],
+      "from": [
+        "1.2/section-check"
       ]
     },
     {
@@ -133,7 +143,10 @@
           "correct": true
         }
       ],
-      "say": "Why might a software company use a shorter strategic time frame than a food producer?"
+      "say": "Why might a software company use a shorter strategic time frame than a food producer?",
+      "from": [
+        "1.2/section-check"
+      ]
     }
   ]
 };

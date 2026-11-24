@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "aisFlow"
+    "anim": "aisFlow",
+    "about": "Figure F409-07 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "An accounting information system captures, processes, stores, reports and controls the economic events of a business, financial and non-financial alike. In the value chain it is a support activity that touches every primary one, which makes it the only place the whole business can be seen at once. Transactions are grouped into cycles: revenue to cash, expenditure to disbursement, production, and human resources and payroll, each feeding a general ledger and reporting cycle that closes the period and holds the audit trail. Keeping financial and non-financial systems separate costs duplicate entry, figures that disagree, reconciliation effort, delay, the loss of any single view, and a transfer between systems that belongs to nobody."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F409-07.png",
       "label": "Figure F409-07.",
       "caption": "Chapter 9 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F409-07"
+      ]
     },
     {
       "id": "rules",

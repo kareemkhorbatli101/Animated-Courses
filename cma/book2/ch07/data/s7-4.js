@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Spoilage: the ideas, shown in a process",
   "n": "7.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.4"),
   "brief": {
     "about": "Spoilage is units that fail inspection and are thrown away or sold cheaply. Normal spoilage is expected even when operations are efficient. Abnormal spoilage is not expected and could be controlled, for example after a machine failure. In process costing, the cost of normal spoilage becomes part of the cost of good units. The cost of abnormal spoilage is taken out and recorded as a loss in the period.",
     "anim": "spoilGate",
@@ -28,16 +28,30 @@
         "p": [
           "A process finishes 10,000 good units and finds 350 spoiled units at the final inspection. Normal spoilage is 200 units, so 150 units are abnormal. Figure F207-06 turns the units into dollars: a loss of $600, and good units at $4.08 each."
         ]
+      },
+      {
+        "h": "GAAP: abnormal spoilage is a period cost",
+        "box": "ifrs",
+        "p": [
+          "ASC 330 says abnormal amounts of wasted materials (spoilage) are charged to the period, not to inventory. IAS 2 has the same rule. Normal spoilage stays in inventory cost."
+        ]
       }
     ]
   },
+  "from": [
+    "7.4/ifrs-contrast",
+    "7.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f207-05",
       "kind": "figure",
       "file": "F207-05.png",
       "label": "Figure F207-05.",
-      "caption": "Decision chart: where normal and abnormal spoilage costs go."
+      "caption": "Decision chart: where normal and abnormal spoilage costs go.",
+      "from": [
+        "F207-05"
+      ]
     },
     {
       "id": "num-06",
@@ -52,6 +66,10 @@
           "answer": "41400",
           "why": "Total cost: 10,350 units × $4.00: 41,400."
         }
+      ],
+      "from": [
+        "F207-06",
+        "7.4/t:spoilage-worked"
       ]
     },
     {
@@ -77,6 +95,9 @@
           "text": "ignored",
           "why": "Its cost is not ignored."
         }
+      ],
+      "from": [
+        "7.4/section-check"
       ]
     },
     {
@@ -103,7 +124,10 @@
           "why": "Work in process has not passed inspection."
         }
       ],
-      "say": "In process costing, the normal spoilage allowance is usually measured as a percentage of:"
+      "say": "In process costing, the normal spoilage allowance is usually measured as a percentage of:",
+      "from": [
+        "7.4/section-check"
+      ]
     }
   ]
 };

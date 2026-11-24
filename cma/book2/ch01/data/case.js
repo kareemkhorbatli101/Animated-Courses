@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the halva line",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "threeBoxes"
+  },
+  "scenario": {
+    "title": "Case question: the halva line",
+    "p": [
+      "In the second quarter of 2027, Tahini & Spreads ran its halva line for Barada and other buyers. The line mixes sesame paste and sugar, cooks the mix and pours it into trays. A small team of workers runs the line, and a supervisor manages the team. The division also pays for factory utilities, machine depreciation, a sales team and head-office staff.",
+      "Lina, the division accountant, is preparing the quarterly cost report for the halva line. She has the costs of the quarter and the inventory balances at the start and the end of the quarter. Some costs belong to the product and stay in inventory until the halva is sold. Others are period costs and go straight to the income statement.",
+      "The division manager wants three things from the report. First, what it cost to make the halva finished in the quarter. Second, what the halva sold in the quarter cost. Third, the best base for assigning factory utilities to halva batches, because the line now runs longer machine cycles for Barada's large trays.",
+      "Barada has asked for a price for next quarter's trays, so the manager needs the cost figures quickly. Lina notes that the sales team's salaries and the head-office costs must not reach the product cost. She also checks that the materials and labor on the report are the ones actually used on the halva line, not on the tahini lines next to it."
+    ]
   },
   "scenes": [
     {
@@ -101,7 +110,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F201-13",
+        "Practice/t:halva-line-april",
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c201-1",
@@ -156,7 +171,11 @@
           "why": "Cost: Period cost."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "c201-2",

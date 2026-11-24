@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Testing the strategic objectives",
   "n": "10.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.3"),
   "brief": {
     "about": "A plan is not good merely because it is profitable. It must move the company towards the objectives set in the strategic plan. Figure F310-07 compares the pro forma statements with the 2028 objectives of Chapter 1. The division's return on investment is 23.2%: net income divided by average total assets. That is well above the group objective of 11.8%, as a mature division with older assets should be.",
     "anim": "proForma3",
@@ -98,6 +98,10 @@
           },
           "why": "Target: 0.48. Pro forma: to be measured. Result: Not in the budget."
         }
+      ],
+      "from": [
+        "F310-07",
+        "10.3/t:objective-for-20"
       ]
     },
     {
@@ -126,6 +130,9 @@
       ],
       "traps": [
         "some-objectives-such-energy-per"
+      ],
+      "from": [
+        "10.3/section-check"
       ]
     },
     {
@@ -152,7 +159,10 @@
           "correct": true
         }
       ],
-      "exhibit": "The plan meets the profit objective, but an objective on energy per case cannot be seen in the pro forma statements."
+      "exhibit": "The plan meets the profit objective, but an objective on energy per case cannot be seen in the pro forma statements.",
+      "from": [
+        "10.3/section-check"
+      ]
     }
   ]
 };

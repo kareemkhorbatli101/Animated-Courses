@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.6",
   "title": "Extended Example 10A: the three questions an asset asks",
-  "blurb": "Schedule, switch, the tie lines, questions · 6 scenes"
+  "blurb": "Schedule, switch, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

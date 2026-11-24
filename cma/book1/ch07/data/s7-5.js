@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Inventory errors",
   "n": "7.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.5"),
   "brief": {
     "about": "Cost of goods sold depends on the count: beginning inventory plus purchases minus ending inventory. If ending inventory is wrong, cost of goods sold is wrong in the same year. And because this year's ending inventory is next year's beginning inventory, the error moves into the next year too. Look at Figure F07-08. At the end of 2025, Orontes counted some goods twice, so ending inventory was overstated by 40 (USD 000).",
     "anim": "accrual",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "7.5/language-focus"
+  ],
   "scenes": [
     {
       "id": "fig-f07-08",
       "kind": "figure",
       "file": "F07-08.png",
       "label": "Figure F07-08.",
-      "caption": "An overstated ending inventory: income is overstated in year 1 and understated in year 2."
+      "caption": "An overstated ending inventory: income is overstated in year 1 and understated in year 2.",
+      "from": [
+        "F07-08"
+      ]
     },
     {
       "id": "grid-09",
@@ -156,6 +162,10 @@
       ],
       "traps": [
         "over-and-under"
+      ],
+      "from": [
+        "F07-09",
+        "7.5/t:error-in-year-1"
       ]
     },
     {
@@ -182,7 +192,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Ending inventory for 2025 was understated."
+      "exhibit": "Ending inventory for 2025 was understated.",
+      "from": [
+        "7.5/section-check"
+      ]
     },
     {
       "id": "sc7-10",
@@ -208,7 +221,10 @@
           "why": "Inventory is understated, and income is correct."
         }
       ],
-      "exhibit": "A purchase on account at year-end was not recorded, and the goods were not included in the physical count."
+      "exhibit": "A purchase on account at year-end was not recorded, and the goods were not included in the physical count.",
+      "from": [
+        "7.5/section-check"
+      ]
     }
   ]
 };

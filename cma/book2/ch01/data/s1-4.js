@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Cost drivers",
   "n": "1.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.4"),
   "brief": {
     "about": "A cost driver is a factor that causes a cost to change. Grinding sesame takes machine time, so machine hours drive grinding power and maintenance. A new recipe needs a setup, so the number of setups drives setup costs. The link must be causal. Sales revenue may move with factory power costs, but selling more at higher prices does not cause more power use. Drivers work at different levels.",
     "anim": "poolBase",
@@ -103,6 +103,11 @@
       ],
       "traps": [
         "correlation-is-not-causation"
+      ],
+      "from": [
+        "F201-05",
+        "1.4/t:driver-type-cost",
+        "1.4/exam-trap"
       ]
     },
     {
@@ -128,6 +133,9 @@
           "text": "Direct labor hours",
           "why": "Labor hours do not cause setups."
         }
+      ],
+      "from": [
+        "1.4/section-check"
       ]
     },
     {
@@ -153,6 +161,9 @@
           "text": "It is a period cost",
           "why": "Factory depreciation is a product cost."
         }
+      ],
+      "from": [
+        "1.4/section-check"
       ]
     }
   ]

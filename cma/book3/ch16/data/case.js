@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · pressed oil for the halva line",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "respCenters"
+  },
+  "scenario": {
+    "title": "Case question: pressed oil for the halva line",
+    "p": [
+      "The Tahini & Spreads division needs pressed oil for its halva line and has always bought it from the Oils division. Oils presses the oil on equipment it also uses for its own bottled products, and it sells pressed oil to outside food manufacturers at a published price.",
+      "This year the halva line needs more oil than before. Oils can supply part of the quantity from capacity that would otherwise stand idle, but beyond that point every liter sent to Tahini & Spreads is a liter it cannot sell to its outside customers.",
+      "An outside supplier has offered Tahini & Spreads the whole quantity at a price below the Oils market price, and the Tahini manager wants to accept it. The Oils manager objects that his division would then carry its fixed costs with less work to cover them.",
+      "The controller, Rania, must work out the minimum transfer price for the part Oils can supply from spare capacity and for the part that displaces outside sales, and advise the board whether buying from the outside supplier would be good for Orontes as a whole."
+    ]
   },
   "scenes": [
     {
@@ -56,7 +65,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F316-13",
+        "Practice/t:oils-and-tahini"
+      ]
     },
     {
       "id": "c316-1",
@@ -79,30 +92,34 @@
         {
           "name": "The transfer price changes which division reports the profit",
           "to": "true-for-the-company",
-          "why": "A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
+          "why": "Statement: True for the company. A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
         },
         {
           "name": "Supplying from idle capacity costs the company only the variable cost",
           "to": "true-for-the-company",
-          "why": "A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
+          "why": "Statement: True for the company. A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
         },
         {
           "name": "A higher transfer price raises the supplying division's profit",
           "to": "true-only-for-one-division",
-          "why": "A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
+          "why": "Statement: True only for one division. A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
         },
         {
           "name": "Buying outside at a price above the company's incremental cost wastes cash",
           "to": "true-for-the-company",
-          "why": "A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
+          "why": "Statement: True for the company. A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
         },
         {
           "name": "A higher transfer price lowers the buying division's profit",
           "to": "true-only-for-one-division",
-          "why": "A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
+          "why": "Statement: True only for one division. A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
     },
     {
       "id": "c316-2",

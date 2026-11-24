@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Orontes and Qasr Hotels",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "fivesteps"
+  },
+  "scenario": {
+    "title": "Case question: Orontes and Qasr Hotels",
+    "p": [
+      "In 2026 Orontes signed a contract with Qasr Hotels, a hotel group in Amman. Orontes will deliver juice to the hotels every month and train the hotel staff to serve and store the products. Orontes also pays Qasr a fee to list its juices on the hotel menus.",
+      "The contract gives Qasr a volume rebate if it buys more than an agreed amount during the year, and Orontes expects Qasr to earn it. Orontes delivers with its own trucks, and Qasr paid part of the contract price in advance.",
+      "The revenue accountant must apply the five-step model of ASC 606. She must identify the performance obligations, measure the transaction price, allocate it and decide when revenue is recognized. The auditors will pay attention to the rebate and the listing fee.",
+      "The sales director wants to know how much revenue Orontes can report for 2026 and why the advance payment appears as a liability at the year-end. Amounts in the exhibit are in thousands of U.S. dollars. Qasr's purchasing manager has already said that the hotels will probably order more juice next year. The auditors want a clear note on how each part of the contract was measured and when it was recognized."
+    ]
   },
   "scenes": [
     {
@@ -67,7 +76,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F11-14",
+        "Practice/t:item-usd-000-amo"
+      ]
     },
     {
       "id": "c11-1",
@@ -117,7 +130,11 @@
           "why": "Item: Fulfillment cost."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c11-2",

@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · bottling variances in the Oils division",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "varSplit"
+  },
+  "scenario": {
+    "title": "Case question: bottling variances in the Oils division",
+    "p": [
+      "The Oils division bottles extra-virgin olive oil on its own line, as Book 2 described when the division decided not to send the work outside. Each liter should use one bottle at a standard price, and a standard number of minutes on the line at a standard wage rate.",
+      "Last month the division bottled its planned volume of oil. The buyer found a new glass supplier and paid less than the standard price for every bottle, and he bought more bottles than the month needed, to secure the lower price. The line, however, broke more bottles than usual while the operators learned the new supplier's thinner glass, and it also worked more hours than the standard allows.",
+      "The division manager has seen only the total cost of bottles, which is below standard, and has congratulated the buyer. The controller, Rania, wants to show the full picture: the price and usage variances for bottles, and the rate and efficiency variances for labor, and whether the buyer's decision really saved money.",
+      "She must also decide which quantity of bottles to use for the price variance, because the number bought differs from the number used."
+    ]
   },
   "scenes": [
     {
@@ -76,7 +85,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F312-16",
+        "Practice/t:oils-division-ev"
+      ]
     },
     {
       "id": "c312-1",
@@ -99,30 +112,34 @@
         {
           "name": "Bottle price variance",
           "to": "favorable",
-          "why": "Every input variance uses the same three columns."
+          "why": "Variance: Favorable. Every input variance uses the same three columns."
         },
         {
           "name": "Bottle usage variance",
           "to": "unfavorable",
-          "why": "Every input variance uses the same three columns."
+          "why": "Variance: Unfavorable. Every input variance uses the same three columns."
         },
         {
           "name": "Labor rate variance",
           "to": "unfavorable",
-          "why": "Every input variance uses the same three columns."
+          "why": "Variance: Unfavorable. Every input variance uses the same three columns."
         },
         {
           "name": "Labor efficiency variance",
           "to": "unfavorable",
-          "why": "Every input variance uses the same three columns."
+          "why": "Variance: Unfavorable. Every input variance uses the same three columns."
         },
         {
           "name": "Total bottle variance",
           "to": "favorable",
-          "why": "Every input variance uses the same three columns."
+          "why": "Variance: Favorable. Every input variance uses the same three columns."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "c312-2",

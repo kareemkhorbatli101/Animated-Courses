@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Purpose and structure of the statement of cash flows",
   "n": "5.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.1"),
   "brief": {
     "about": "The statement of cash flows reports a company's cash receipts and cash payments for a period. Users need it because profit is not cash. It helps them judge whether the company can produce cash, pay its debts and dividends, and fund its growth without new financing. The statement explains the change in cash, cash equivalents and restricted cash together. Cash flows are grouped into operating activities, investing activities and financing activities.",
     "anim": "threeActivities",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F05-03.png",
       "label": "Figure F05-03.",
-      "caption": "Orontes's 2025 cash flows by activity."
+      "caption": "Orontes's 2025 cash flows by activity.",
+      "from": [
+        "F05-03"
+      ]
     },
     {
       "id": "bs-read",
@@ -228,6 +231,10 @@
           "a": "none",
           "b": ""
         }
+      ],
+      "from": [
+        "F05-02",
+        "5.1/t:orontes-foods-in"
       ]
     },
     {
@@ -255,6 +262,9 @@
           "answer": L.printed.netChangeInCash,
           "why": "Three activities explain the change in cash."
         }
+      ],
+      "from": [
+        "F05-03"
       ]
     },
     {
@@ -311,7 +321,10 @@
           "why": "Cash flows are actual receipts and payments."
         }
       ],
-      "say": "Why do users need a statement of cash flows when they already have an income statement?"
+      "say": "Why do users need a statement of cash flows when they already have an income statement?",
+      "from": [
+        "5.1/section-check"
+      ]
     },
     {
       "id": "sc5-2",
@@ -337,7 +350,10 @@
           "correct": true
         }
       ],
-      "exhibit": "On December 1 a company buys a Treasury bill that matures in five months, on April 30. At December 31 it has two months left to maturity."
+      "exhibit": "On December 1 a company buys a Treasury bill that matures in five months, on April 30. At December 31 it has two months left to maturity.",
+      "from": [
+        "5.1/section-check"
+      ]
     }
   ]
 };

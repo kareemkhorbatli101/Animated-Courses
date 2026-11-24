@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Measuring current and deferred taxes",
   "n": "13.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.3"),
   "brief": {
     "about": "U.S. GAAP uses the balance sheet approach. Current tax is taxable income times the tax rate. Deferred tax liabilities and assets are the temporary differences times the enacted tax rate that will apply when they reverse. Deferred tax expense is the change in the net deferred tax liability during the year. Deferred taxes follow from the same differences. The effective tax rate is total tax expense divided by pretax income: 24.875%.",
     "anim": "twobooks",
@@ -39,6 +39,9 @@
       }
     ]
   },
+  "from": [
+    "13.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-05",
@@ -58,6 +61,10 @@
           "answer": "357000",
           "why": "Current tax expense at 25%: 357,000."
         }
+      ],
+      "from": [
+        "F13-05",
+        "13.3/t:suppose-orontes"
       ]
     },
     {
@@ -115,6 +122,10 @@
             "c2": "24.875%"
           }
         }
+      ],
+      "from": [
+        "F13-06",
+        "13.3/t:suppose-orontes#2"
       ]
     },
     {
@@ -160,7 +171,11 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F13-07",
+        "13.3/t:item-type-create"
+      ]
     },
     {
       "id": "yourturn",
@@ -208,6 +223,12 @@
           },
           "why": "Temporary, taxable (taxed later): DTL"
         }
+      ],
+      "from": [
+        "13.3/your-turn",
+        "F13-07",
+        "13.3/t:item-type-create",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -233,6 +254,9 @@
           "text": "2,000,000",
           "why": "This is book income before any adjustment."
         }
+      ],
+      "from": [
+        "13.3/section-check"
       ]
     },
     {
@@ -259,7 +283,10 @@
           "why": "This ignores the permanent differences."
         }
       ],
-      "say": "Use Figure F13-06. What is Orontes's total income tax expense for 2026 (whole USD)?"
+      "say": "Use Figure F13-06. What is Orontes's total income tax expense for 2026 (whole USD)?",
+      "from": [
+        "13.3/section-check"
+      ]
     }
   ]
 };

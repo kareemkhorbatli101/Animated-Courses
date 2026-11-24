@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What corporate governance is",
   "n": "2.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.1"),
   "brief": {
     "about": "Corporate governance is the system by which a company is directed and held to account. It exists because the people who own a company are usually not the people who run it. The owners need some way to be sure their money is used in their interest. Figure F402-02 shows who answers to whom. One line in that diagram does the most work.",
     "anim": "govPyramid",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F402-02.png",
       "label": "Figure F402-02.",
-      "caption": "Who answers to whom in a governed company."
+      "caption": "Who answers to whom in a governed company.",
+      "from": [
+        "F402-02"
+      ]
     },
     {
       "id": "sc402-1",
@@ -55,6 +58,9 @@
           "why": "Owners need assurance that managers act in their interest.",
           "correct": true
         }
+      ],
+      "from": [
+        "2.1/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "text": "The internal audit department",
           "why": "Internal audit is a separate internal function."
         }
+      ],
+      "from": [
+        "2.1/section-check"
       ]
     }
   ]

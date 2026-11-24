@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Life-cycle costing",
   "n": "14.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.1"),
   "brief": {
     "about": "Life-cycle costing plans and tracks every cost of a product from research to withdrawal. It groups costs into three stages: upstream costs before production, manufacturing costs, and downstream costs after production. Upstream costs include research, design and testing. Downstream costs include marketing, distribution, customer service and the costs of leaving the market. Figure F214-02 shows the three stages for the sugar-free halva.",
     "anim": "valueChain",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "14.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f214-02",
       "kind": "figure",
       "file": "F214-02.png",
       "label": "Figure F214-02.",
-      "caption": "The three stages of the sugar-free halva's life-cycle cost."
+      "caption": "The three stages of the sugar-free halva's life-cycle cost.",
+      "from": [
+        "F214-02"
+      ]
     },
     {
       "id": "fill-03",
@@ -92,26 +98,85 @@
             "c2": "100.0%"
           }
         }
+      ],
+      "from": [
+        "F214-03",
+        "14.1/t:sugar-free-halva"
       ]
     },
     {
-      "id": "num-04",
-      "kind": "number",
+      "id": "fig-f214-04",
+      "kind": "lines",
       "kicker": "Figure F214-04",
       "title": "Your turn: the halva's downstream costs",
-      "unit": "USD",
-      "say": "Work each one out from the figures above it.",
-      "fields": [
+      "say": "Your turn: the halva's downstream costs (complete the blanks)",
+      "caption": "Downstream costs, 510,000 trays",
+      "col1": "Whole USD",
+      "col2": "",
+      "rows": [
         {
-          "label": "Exit costs (2032)",
-          "answer": "30000",
-          "why": "Exit costs (2032): 30,000."
+          "name": "Marketing (5 years)",
+          "a": "520,000",
+          "b": ""
         },
         {
-          "label": "Downstream costs",
-          "answer": "856000",
-          "why": "Downstream costs: 856,000."
+          "name": "Distribution at $0.50 a tray",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Customer service at $0.10 a tray",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Exit costs (2032)",
+          "a": "30,000",
+          "b": ""
+        },
+        {
+          "name": "Downstream costs",
+          "a": "856,000",
+          "b": ""
         }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true,
+      "from": [
+        "F214-04",
+        "14.1/t:downstream-costs"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F214-04",
+      "title": "The halva's downstream costs",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F214-04 lists the downstream costs. Complete the two blank rows.",
+      "blanks": [
+        {
+          "label": "Distribution",
+          "working": "510,000 trays × $0.50 = $255,000",
+          "shown": "$255,000",
+          "answer": 255000,
+          "prompt": "510,000 trays × $0.50 ="
+        },
+        {
+          "label": "Customer service",
+          "working": "510,000 trays × $0.10 = $51,000",
+          "shown": "$51,000",
+          "answer": 51000,
+          "prompt": "510,000 trays × $0.10 ="
+        }
+      ],
+      "caption": "Your turn: the halva's downstream costs (complete the blanks)",
+      "from": [
+        "14.1/your-turn",
+        "F214-04",
+        "14.1/t:downstream-costs",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -137,6 +202,9 @@
           "text": "Labor on the production line",
           "why": "Production labor is a manufacturing cost."
         }
+      ],
+      "from": [
+        "14.1/section-check"
       ]
     },
     {
@@ -163,7 +231,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Upstream costs are $250,000, manufacturing costs $2,082,000 and downstream costs $856,000."
+      "exhibit": "Upstream costs are $250,000, manufacturing costs $2,082,000 and downstream costs $856,000.",
+      "from": [
+        "14.1/section-check"
+      ]
     }
   ]
 };

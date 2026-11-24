@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Which test applies?",
   "n": "8.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.1"),
   "brief": {
     "about": "At each balance sheet date, the company checks whether the cost of its inventory is still recoverable. The test depends on the cost flow method, as Figure F08-02 shows. Net realizable value (NRV) is the estimated selling price in the ordinary course of business, minus the costs to complete, sell and transport the goods. If NRV is below cost, the company records a write-down to NRV.",
     "anim": "band",
@@ -35,16 +35,30 @@
         "p": [
           "The write-down of $4,000 is a loss of 2025. The new amount, $48 a case, is now the cost basis of these cases. If prices recover in 2026, Orontes does not reverse the write-down under U.S. GAAP. A write-down recognized in an interim quarter is the only exception: it may be recovered in a later quarter of the same fiscal year."
         ]
+      },
+      {
+        "h": "IAS 2 reverses write-downs",
+        "box": "ifrs",
+        "p": [
+          "IAS 2 uses LCNRV for all inventories, including retail, and it has no LCM test. When prices recover, IAS 2 requires a reversal, limited to the original write-down. If NRV rises to $53 in 2026, an IFRS company in Orontes's position would reverse $4,000. Under U.S. GAAP the reversal is zero."
+        ]
       }
     ]
   },
+  "from": [
+    "8.1/ifrs-contrast",
+    "8.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f08-02",
       "kind": "figure",
       "file": "F08-02.png",
       "label": "Figure F08-02.",
-      "caption": "Decision: the cost flow method decides whether LCNRV or LCM applies."
+      "caption": "Decision: the cost flow method decides whether LCNRV or LCM applies.",
+      "from": [
+        "F08-02"
+      ]
     },
     {
       "id": "num-03",
@@ -67,6 +81,11 @@
       ],
       "traps": [
         "nrv-has-no-profit-deduction"
+      ],
+      "from": [
+        "F08-03",
+        "8.1/t:orontes-olive-oi",
+        "8.1/exam-trap"
       ]
     },
     {
@@ -93,7 +112,10 @@
           "why": "All inventory is tested for recoverability."
         }
       ],
-      "exhibit": "Orontes measures olive oil using FIFO."
+      "exhibit": "Orontes measures olive oil using FIFO.",
+      "from": [
+        "8.1/section-check"
+      ]
     },
     {
       "id": "sc8-2",
@@ -119,7 +141,10 @@
           "why": "This is the new carrying amount, not the write-down."
         }
       ],
-      "exhibit": "Use the olive-oil example in Figure F08-03."
+      "exhibit": "Use the olive-oil example in Figure F08-03.",
+      "from": [
+        "8.1/section-check"
+      ]
     }
   ]
 };

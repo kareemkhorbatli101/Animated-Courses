@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 15A: evaluating the three divisions",
   "n": "15.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.6"),
   "brief": {
     "about": "This example reads the segment report the way the Orontes board does. It is exam-core. Figure F315-11 sets the three divisions side by side, in dollars and as percentages of revenue. Beverages earns the largest margin in dollars and the highest percentage, which is why it received the capital of Chapter 4. Tahini & Spreads earns $840,000 on a much smaller revenue, and the board has asked it to grow.",
     "anim": "marginStack",
@@ -54,6 +54,9 @@
       }
     ]
   },
+  "from": [
+    "15.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-11",
@@ -123,6 +126,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F315-11",
+        "15.6/t:segment-contribu",
+        "15.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t15-6-0",
+      "kind": "lines",
+      "kicker": "Section 15.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Olive oil and bottles",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Marketing the manager approved",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the bottling plant",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Share of head-office costs",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Freight to customers per case",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t15-6-1",
+      "kind": "lines",
+      "kicker": "Section 15.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Olive oil and bottles",
+          "a": "Variable cost",
+          "b": ""
+        },
+        {
+          "name": "Marketing the manager approved",
+          "a": "Fixed cost the manager controls",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the bottling plant",
+          "a": "Traceable fixed cost the manager does not control",
+          "b": ""
+        },
+        {
+          "name": "Share of head-office costs",
+          "a": "Common cost",
+          "b": ""
+        },
+        {
+          "name": "Freight to customers per case",
+          "a": "Variable cost",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
       ]
     },
     {
@@ -168,7 +260,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "15.6/section-check"
+      ]
     },
     {
       "id": "sc315-12",
@@ -194,7 +289,10 @@
           "why": "It is a fixed common cost."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "15.6/section-check"
+      ]
     }
   ]
 };

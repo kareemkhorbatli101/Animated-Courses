@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the records nobody would delete",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "lifeCycle"
+  },
+  "scenario": {
+    "title": "Case question: the records nobody would delete",
+    "p": [
+      "Orontes has never had a written retention policy. Each department decides for itself what to keep, and the practice has been to keep everything. The new ERP holds twelve years of customer records, including the names, telephone numbers and home addresses of individual buyers at each Gulf distributor. No department has ever been told how long its records should be kept, and nobody has been asked to decide.",
+      "The sales director wants three years of order data analysed for seasonality. The data sits in three tables, uses three currencies, contains one distributor recorded under three spellings, and includes fourteen orders with no delivery date and two with quantities a hundred times the usual.",
+      "Separately, a dispute has arisen with a former distributor in the United Arab Emirates, and lawyers have been instructed. A clerk in sales, tidying old files, has begun deleting correspondence with that distributor because it is more than two years old.",
+      "Rania has been asked to advise on the analysis, on the personal data, and on the clerk's tidying. Jordan's Personal Data Protection Law has applied in full to Orontes since March 2025."
+    ],
+    "note": "Use the scenario above for items C411-1 to C411-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "Joining the three tables into one set",
           "to": "consolidation",
-          "why": "Preprocessing is the work of making it so, and the exam names four steps."
+          "why": "Action required: Consolidation. Preprocessing is the work of making it so, and the exam names four steps."
         },
         {
           "name": "Merging the three spellings of one distributor",
           "to": "cleaning",
-          "why": "Preprocessing is the work of making it so, and the exam names four steps."
+          "why": "Action required: Cleaning. Preprocessing is the work of making it so, and the exam names four steps."
         },
         {
           "name": "Converting three currencies into one",
           "to": "transformation",
-          "why": "Preprocessing is the work of making it so, and the exam names four steps."
+          "why": "Action required: Transformation. Preprocessing is the work of making it so, and the exam names four steps."
         },
         {
           "name": "Replacing monthly columns with quarterly ones",
           "to": "reduction",
-          "why": "Preprocessing is the work of making it so, and the exam names four steps."
+          "why": "Action required: Reduction. Preprocessing is the work of making it so, and the exam names four steps."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:action-required",
+        "Practice/t:action-required#2",
+        "Answers and explanations/t:action-required"
+      ]
     },
     {
       "id": "c411-2",
@@ -86,7 +101,7 @@
           "why": "Fourteen orders have no delivery date."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C411-1 to C411-7."
     },
     {
       "id": "c411-3",

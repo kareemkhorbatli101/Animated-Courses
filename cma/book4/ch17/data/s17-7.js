@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 17A: the Gulf expansion under uncertainty",
   "n": "17.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.7"),
   "brief": {
     "about": "This example works the calculation the exam sets and then shows what the single figure conceals. It is exam-core. At 8.20 a case the expected contribution before fixed cost is 1,947,500. Deducting fixed costs of 900,000 gives 1,047,500, against an investment of 2,500,000. Averaging the three volumes without their probabilities gives 236,667 cases rather than 237,500. Proceed, because even the fifth percentile of 539,260 covers the fixed cost comfortably.",
     "anim": "monteCloud",
@@ -72,6 +72,10 @@
       }
     ]
   },
+  "from": [
+    "17.7/worked-example",
+    "17.7/worked-example#2"
+  ],
   "scenes": [
     {
       "id": "fig-f417-08",
@@ -106,7 +110,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F417-08",
+        "17.7/t:what-is-done-whi",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t17-7-0",
+      "kind": "lines",
+      "kicker": "Section 17.7",
+      "title": "Question from the board",
+      "caption": "Question from the board",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "What is the single probability-weighted outcome?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Which assumption moves the answer most?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "What volume is needed to break even?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "What is the whole range of possible outcomes?",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:question-from-th",
+        "Practice/t:question-from-th#2",
+        "Answers and explanations/t:question-from-th"
+      ]
+    },
+    {
+      "id": "t17-7-1",
+      "kind": "lines",
+      "kicker": "Section 17.7",
+      "title": "Question from the board",
+      "caption": "Question from the board",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "What is the single probability-weighted outcome?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Which assumption moves the answer most?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "What volume is needed to break even?",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "What is the whole range of possible outcomes?",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:question-from-th",
+        "Practice/t:question-from-th#2",
+        "Answers and explanations/t:question-from-th"
+      ]
+    },
+    {
+      "id": "t17-7-2",
+      "kind": "lines",
+      "kicker": "Section 17.7",
+      "title": "Question from the board",
+      "caption": "Question from the board",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "What is the single probability-weighted outcome?",
+          "a": "Expected value",
+          "b": ""
+        },
+        {
+          "name": "Which assumption moves the answer most?",
+          "a": "Sensitivity analysis",
+          "b": ""
+        },
+        {
+          "name": "What volume is needed to break even?",
+          "a": "Goal seeking",
+          "b": ""
+        },
+        {
+          "name": "What is the whole range of possible outcomes?",
+          "a": "Simulation",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:question-from-th",
+        "Practice/t:question-from-th#2",
+        "Answers and explanations/t:question-from-th"
+      ]
     },
     {
       "id": "ties",
@@ -138,6 +261,9 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "17.7/exam-trap"
       ]
     },
     {
@@ -180,7 +306,13 @@
           "why": "Expected value — it gives one number, which is both its convenience and its weakness"
         }
       ],
-      "note": "Why: goal seeking works backwards from a required answer, which is how a break-even volume is found"
+      "note": "Why: goal seeking works backwards from a required answer, which is how a break-even volume is found",
+      "from": [
+        "17.7/your-turn",
+        "F417-08",
+        "17.7/t:what-is-done-whi",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc417-13",
@@ -206,7 +338,10 @@
           "why": "That is the optimistic scenario."
         }
       ],
-      "exhibit": "Use Extended Example 17A."
+      "exhibit": "Use Extended Example 17A.",
+      "from": [
+        "17.7/section-check"
+      ]
     },
     {
       "id": "sc417-14",
@@ -232,7 +367,10 @@
           "why": "Disagreement would be the warning."
         }
       ],
-      "exhibit": "Use Extended Example 17A. The simulation mean is 1,027,152 against an expected value of 1,047,500."
+      "exhibit": "Use Extended Example 17A. The simulation mean is 1,027,152 against an expected value of 1,047,500.",
+      "from": [
+        "17.7/section-check"
+      ]
     }
   ]
 };

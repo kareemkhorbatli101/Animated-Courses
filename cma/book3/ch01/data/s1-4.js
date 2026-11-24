@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Congruence: objectives, tactics, plans and budgets",
   "n": "1.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.4"),
   "brief": {
     "about": "Short-term objectives are measurable results for the coming year that move the company toward its goals. Tactics are the specific actions used to reach them, and the operational plan sets out the people, activities and resources. The budget puts all of this into money. Each level must fit the level above it. This fit is called congruence.",
     "anim": "planHorizon",
@@ -31,14 +31,20 @@
       "kind": "figure",
       "file": "F301-07.png",
       "label": "Figure F301-07.",
-      "caption": "From the 2032 export goal to the 2028 objective."
+      "caption": "From the 2032 export goal to the 2028 objective.",
+      "from": [
+        "F301-07"
+      ]
     },
     {
       "id": "fig-f301-09",
       "kind": "figure",
       "file": "F301-09.png",
       "label": "Figure F301-09.",
-      "caption": "Congruence: one goal traced down to the budget."
+      "caption": "Congruence: one goal traced down to the budget.",
+      "from": [
+        "F301-09"
+      ]
     },
     {
       "id": "fig-f301-08",
@@ -93,6 +99,42 @@
             "14.4 h"
           ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F301-08",
+        "1.4/t:goal-2027-change"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F301-08",
+      "title": "The 2028 objectives",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F301-08 applies the same equal steps to all five goals. Complete the two blank objectives.",
+      "blanks": [
+        {
+          "label": "Return on investment, 2028",
+          "working": "11.0% + (15.0% − 11.0%) ÷ 5 = 11.8%",
+          "shown": "11.8%",
+          "answer": 11.8,
+          "prompt": "11.0% + (15.0% − 11.0%) ÷ 5 ="
+        },
+        {
+          "label": "Energy per case, 2028",
+          "working": "0.50 − (0.50 − 0.40) ÷ 5 = 0.48 kWh",
+          "shown": "0.48",
+          "answer": 0.48,
+          "prompt": "0.50 − (0.50 − 0.40) ÷ 5 ="
+        }
+      ],
+      "caption": "Your turn: the 2028 objectives (complete the blanks)",
+      "from": [
+        "1.4/your-turn",
+        "F301-08",
+        "1.4/t:goal-2027-change",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -119,7 +161,10 @@
           "why": "The step is misread."
         }
       ],
-      "exhibit": "Exports must rise from 18.0% to 30.0% of revenue over five plan years in equal steps."
+      "exhibit": "Exports must rise from 18.0% to 30.0% of revenue over five plan years in equal steps.",
+      "from": [
+        "1.4/section-check"
+      ]
     },
     {
       "id": "sc301-8",
@@ -145,7 +190,10 @@
           "why": "The company will miss its goal."
         }
       ],
-      "exhibit": "Every manager meets the 2028 budget, but the budget cut export marketing although the plan calls for export growth."
+      "exhibit": "Every manager meets the 2028 budget, but the budget cut export marketing although the plan calls for export growth.",
+      "from": [
+        "1.4/section-check"
+      ]
     }
   ]
 };

@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.6",
   "title": "Extended Example 2A: the Oils overhead budget, 2027",
-  "blurb": "Figures, schedule, post, the tie lines, questions · 7 scenes"
+  "blurb": "Figures, schedule, post, a printed statement, the tie lines, questions · 9 scenes"
  },
  {
   "id": "summary",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What expected value cannot tell you",
   "n": "17.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.2"),
   "brief": {
     "about": "Figure F417-03 pairs the benefits of the technique with its shortcomings. Two of those shortcomings decide real cases. The first is that nobody receives the expected value: the outcomes here are 330,000, 1,068,000 and 1,724,000, and 1,047,500 is not among them. It is a weighted average, not a forecast of what will happen. The second is that it is correct over many repetitions.",
     "anim": "evTree",
@@ -27,39 +27,41 @@
   "scenes": [
     {
       "id": "fig-f417-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F417-03",
       "title": "The benefits and shortcomings of expected value",
-      "say": "The benefits and shortcomings of expected value",
-      "caption": "Expected value (B.3.h)",
-      "col1": "Benefit",
-      "col2": "Shortcoming",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Expected value (B.3.h)",
+      "col": "Benefit",
       "rows": [
         {
-          "name": "Uses all the information",
-          "a": "Every outcome and its likelihood enter the figure",
-          "b": "Nobody actually receives the expected value"
+          "label": "Uses all the information",
+          "right": "Every outcome and its likelihood enter the figure",
+          "why": "Benefit: Every outcome and its likelihood enter the figure. Nobody actually receives the expected value."
         },
         {
-          "name": "Comparable across options",
-          "a": "One number per option, so options can be ranked",
-          "b": "It hides the spread entirely"
+          "label": "Comparable across options",
+          "right": "One number per option, so options can be ranked",
+          "why": "Benefit: One number per option, so options can be ranked. It hides the spread entirely."
         },
         {
-          "name": "Correct over many repetitions",
-          "a": "The long-run average of a repeated decision",
-          "b": "A once-only decision is not a long run"
+          "label": "Correct over many repetitions",
+          "right": "The long-run average of a repeated decision",
+          "why": "Benefit: The long-run average of a repeated decision. A once-only decision is not a long run."
         },
         {
-          "name": "Simple to compute and explain",
-          "a": "Multiply and add",
-          "b": "The probabilities are usually estimates, not facts"
+          "label": "Simple to compute and explain",
+          "right": "Multiply and add",
+          "why": "Benefit: Multiply and add. The probabilities are usually estimates, not facts."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "The benefits and shortcomings of expected value",
       "traps": [
         "a-company-choosing-between-two-supplie"
+      ],
+      "from": [
+        "F417-03",
+        "17.2/t:expected-value-b"
       ]
     },
     {
@@ -85,6 +87,9 @@
           "why": "The outcomes here are three specific figures, and the expected value is not among them.",
           "correct": true
         }
+      ],
+      "from": [
+        "17.2/section-check"
       ]
     },
     {
@@ -110,6 +115,9 @@
           "text": "A repeated pricing decision",
           "why": "Also repeated."
         }
+      ],
+      "from": [
+        "17.2/section-check"
       ]
     }
   ]

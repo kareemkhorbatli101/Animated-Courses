@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Variable overhead: components, base and rate",
   "n": "5.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.5"),
   "brief": {
     "about": "Variable overhead is indirect production cost that changes with activity. On the bottling line it has four components: power for the machines, cleaning chemicals, maintenance supplies, and water and steam. Supervision, insurance and depreciation are fixed overhead. The allocation base for variable overhead should be what drives it. The bottling line is automated, so power and supplies follow machine hours, not labor hours. Test the base before you use it.",
     "anim": "rateFraction",
@@ -46,66 +46,94 @@
           "answer": "1",
           "why": "Variable overhead per case: $1.00."
         }
+      ],
+      "from": [
+        "F205-06",
+        "5.5/t:beverages-bottli"
       ]
     },
     {
-      "id": "grid-07",
-      "kind": "shares",
+      "id": "fig-f205-07",
+      "kind": "grid",
       "kicker": "Figure F205-07",
       "title": "Your turn: variable overhead per unit",
-      "say": "Set every column for every row.",
-      "columns": [
+      "say": "Your turn: variable overhead per unit (complete the blanks)",
+      "caption": "Tahini & Spreads product",
+      "cols": [
+        "Machine hours per unit",
+        "VOH per machine hour",
+        "VOH per unit"
+      ],
+      "rows": [
         {
-          "id": "c2",
-          "label": "VOH per machine hour",
-          "options": [
-            "$6"
+          "name": "Tahini jar (1 kg)",
+          "cells": [
+            "0.05",
+            "$6",
+            "$0.30"
           ]
         },
         {
-          "id": "c3",
-          "label": "VOH per unit",
-          "options": [
-            "$0.30",
-            "$0.48",
-            "0.03 × $6 = $0.18",
-            "0.20 × $6 = $1.20"
+          "name": "Halva tray",
+          "cells": [
+            "0.08",
+            "$6",
+            "$0.48"
+          ]
+        },
+        {
+          "name": "Spread jar (400 g)",
+          "cells": [
+            "0.03",
+            "$6",
+            "________"
+          ]
+        },
+        {
+          "name": "Private-label tub (5 kg)",
+          "cells": [
+            "0.20",
+            "$6",
+            "________"
           ]
         }
       ],
-      "actions": [
-        {
-          "label": "Tahini jar (1 kg)",
-          "cells": {
-            "c2": "$6",
-            "c3": "$0.30"
-          },
-          "why": "VOH per machine hour: $6. VOH per unit: $0.30."
-        },
-        {
-          "label": "Halva tray",
-          "cells": {
-            "c2": "$6",
-            "c3": "$0.48"
-          },
-          "why": "VOH per machine hour: $6. VOH per unit: $0.48."
-        },
+      "data": true,
+      "from": [
+        "F205-07",
+        "5.5/t:tahini-spreads-p",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F205-07",
+      "title": "Variable overhead per unit",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F205-07 lists four Tahini & Spreads products. The first two are done. Calculate variable overhead per unit for the others.",
+      "blanks": [
         {
           "label": "Spread jar (400 g)",
-          "cells": {
-            "c2": "$6",
-            "c3": "0.03 × $6 = $0.18"
-          },
-          "why": "VOH per machine hour: $6. VOH per unit: 0.03 × $6 = $0.18."
+          "working": "0.03 × $6 = $0.18",
+          "shown": "$0.18",
+          "answer": 0.18,
+          "prompt": "0.03 × $6 ="
         },
         {
           "label": "Private-label tub (5 kg)",
-          "cells": {
-            "c2": "$6",
-            "c3": "0.20 × $6 = $1.20"
-          },
-          "why": "VOH per machine hour: $6. VOH per unit: 0.20 × $6 = $1.20."
+          "working": "0.20 × $6 = $1.20",
+          "shown": "$1.20",
+          "answer": 1.2,
+          "prompt": "0.20 × $6 ="
         }
+      ],
+      "caption": "Your turn: variable overhead per unit (complete the blanks)",
+      "from": [
+        "5.5/your-turn",
+        "F205-07",
+        "5.5/t:tahini-spreads-p",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -131,6 +159,9 @@
           "why": "Power rises with machine hours.",
           "correct": true
         }
+      ],
+      "from": [
+        "5.5/section-check"
       ]
     },
     {
@@ -157,7 +188,10 @@
           "why": "This is the rate per machine hour."
         }
       ],
-      "exhibit": "Variable overhead is $50 per machine hour and each case needs 0.02 machine hours."
+      "exhibit": "Variable overhead is $50 per machine hour and each case needs 0.02 machine hours.",
+      "from": [
+        "5.5/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Fixed overhead variances",
   "n": "14.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.3"),
   "brief": {
     "about": "Fixed overhead uses a different middle column: the budget, which is the same at any volume. Figure F314-05 shows it. The left gap is the fixed overhead spending variance; the right gap is the production-volume variance. The production-volume variance is not a measure of cost control.",
     "anim": "ohFour",
@@ -35,35 +35,109 @@
       }
     ]
   },
+  "from": [
+    "14.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f314-05",
       "kind": "figure",
       "file": "F314-05.png",
       "label": "Figure F314-05.",
-      "caption": "The three columns applied to fixed overhead."
+      "caption": "The three columns applied to fixed overhead.",
+      "from": [
+        "F314-05"
+      ]
     },
     {
-      "id": "num-06",
-      "kind": "number",
+      "id": "fig-f314-06",
+      "kind": "lines",
       "kicker": "Figure F314-06",
       "title": "Your turn: the fixed overhead variances",
-      "unit": "USD",
-      "say": "Work each one out from the figures above it.",
-      "fields": [
+      "say": "Your turn: the fixed overhead variances (complete the blanks)",
+      "caption": "Fixed overhead, June 2028",
+      "col1": "Amount",
+      "col2": "",
+      "rows": [
         {
-          "label": "Actual fixed overhead",
-          "answer": "152000",
-          "why": "Actual fixed overhead: 152,000."
+          "name": "Budgeted fixed overhead for the month",
+          "a": "150,000",
+          "b": ""
         },
         {
-          "label": "Applied: 1,440 hours × $100.00",
-          "answer": "144000",
-          "why": "Applied: 1,440 hours × $100.00: 144,000."
+          "name": "Denominator volume (75,000 cases)",
+          "a": "1,500 machine hours",
+          "b": ""
+        },
+        {
+          "name": "Fixed overhead rate",
+          "a": "$100.00 an hour ($2.00 a case)",
+          "b": ""
+        },
+        {
+          "name": "Actual fixed overhead",
+          "a": "152,000",
+          "b": ""
+        },
+        {
+          "name": "Applied: 1,440 hours × $100.00",
+          "a": "144,000",
+          "b": ""
+        },
+        {
+          "name": "Spending variance",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Production-volume variance",
+          "a": "________",
+          "b": ""
         }
       ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true,
+      "from": [
+        "F314-06",
+        "14.3/t:fixed-overhead-j"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F314-06",
+      "title": "The fixed overhead variances",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the blank rows of Figure F314-06.",
+      "blanks": [
+        {
+          "label": "Fixed overhead spending variance",
+          "working": "$152,000 − $150,000 = $2,000 unfavorable",
+          "shown": "$2,000",
+          "answer": 2000,
+          "prompt": "$152,000 − $150,000 ="
+        },
+        {
+          "label": "Production-volume variance",
+          "working": "$150,000 − 1,440 × $100.00 = $6,000 unfavorable (3,000 cases × $2.00)",
+          "shown": "$6,000",
+          "answer": 6000,
+          "prompt": "$150,000 − 1,440 × $100.00 ="
+        }
+      ],
+      "caption": "Your turn: the fixed overhead variances (complete the blanks)",
       "traps": [
         "no-fixed-overhead-efficiency-variance"
+      ],
+      "from": [
+        "14.3/your-turn",
+        "F314-06",
+        "14.3/t:fixed-overhead-j",
+        "14.3/exam-trap",
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:variance-categor"
       ]
     },
     {
@@ -93,6 +167,9 @@
       "exhibit": "Budgeted fixed overhead is $150,000 and actual $152,000.",
       "traps": [
         "production-volume-variance-measure-cost"
+      ],
+      "from": [
+        "14.3/section-check"
       ]
     },
     {
@@ -119,7 +196,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Budgeted fixed overhead is $150,000; 1,440 standard hours were allowed at a fixed rate of $100.00."
+      "exhibit": "Budgeted fixed overhead is $150,000; 1,440 standard hours were allowed at a fixed rate of $100.00.",
+      "from": [
+        "14.3/section-check"
+      ]
     }
   ]
 };

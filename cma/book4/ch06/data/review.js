@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "sysRoles"
   },
@@ -111,9 +111,6 @@
           "text": "A quarterly access review",
           "why": "That reviews logical permissions."
         }
-      ],
-      "traps": [
-        "a-log-nobody-reads-is-not-a-control"
       ]
     },
     {

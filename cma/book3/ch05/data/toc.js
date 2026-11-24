@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.4",
   "title": "Choosing a budget system",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "Match, shares, questions · 4 scenes"
  },
  {
   "id": "s5-5",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.6",
   "title": "Extended Example 5A: the 2028 budget review",
-  "blurb": "Shares, the tie lines, questions · 4 scenes"
+  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the Tahini & Spreads flexible budget",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 1 scenes"
  },
  {
   "id": "review",

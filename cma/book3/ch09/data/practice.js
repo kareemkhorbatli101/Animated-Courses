@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P309-01–P309-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "cashLoop"
   },

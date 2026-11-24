@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 11A: preparing the Gulf customer data",
   "n": "11.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.7"),
   "brief": {
     "about": "This example prepares one real dataset for analysis and then asks how long any of it should be kept. F.2.e is a Level C outcome, so the second half asks for a judgement. Orontes wants to analyse three years of Gulf orders. The data sits in the new ERP, but the first two years were loaded from the old system, and the loading was imperfect.",
     "anim": "lifeCycle",
@@ -74,6 +74,9 @@
       }
     ]
   },
+  "from": [
+    "11.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f411-08",
@@ -108,7 +111,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F411-08",
+        "11.7/t:what-was-done-wh",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t11-7-0",
+      "kind": "lines",
+      "kicker": "Section 11.7",
+      "title": "Action required",
+      "caption": "Action required",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Joining the three tables into one set",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Merging the three spellings of one distributor",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Converting three currencies into one",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Replacing monthly columns with quarterly ones",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:action-required",
+        "Practice/t:action-required#2",
+        "Answers and explanations/t:action-required"
+      ]
+    },
+    {
+      "id": "t11-7-1",
+      "kind": "lines",
+      "kicker": "Section 11.7",
+      "title": "Action required",
+      "caption": "Action required",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Joining the three tables into one set",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Merging the three spellings of one distributor",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Converting three currencies into one",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Replacing monthly columns with quarterly ones",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:action-required",
+        "Practice/t:action-required#2",
+        "Answers and explanations/t:action-required"
+      ]
+    },
+    {
+      "id": "t11-7-2",
+      "kind": "lines",
+      "kicker": "Section 11.7",
+      "title": "Action required",
+      "caption": "Action required",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Joining the three tables into one set",
+          "a": "Consolidation",
+          "b": ""
+        },
+        {
+          "name": "Merging the three spellings of one distributor",
+          "a": "Cleaning",
+          "b": ""
+        },
+        {
+          "name": "Converting three currencies into one",
+          "a": "Transformation",
+          "b": ""
+        },
+        {
+          "name": "Replacing monthly columns with quarterly ones",
+          "a": "Reduction",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:action-required",
+        "Practice/t:action-required#2",
+        "Answers and explanations/t:action-required"
+      ]
     },
     {
       "id": "yourturn",
@@ -154,6 +276,13 @@
       "traps": [
         "amounts-are-held-in-three-currencies-a",
         "exam-view"
+      ],
+      "from": [
+        "11.7/your-turn",
+        "F411-08",
+        "11.7/t:what-was-done-wh",
+        "11.7/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -180,7 +309,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 11A."
+      "exhibit": "Use Extended Example 11A.",
+      "from": [
+        "11.7/section-check"
+      ]
     },
     {
       "id": "sc411-14",
@@ -206,7 +338,10 @@
           "why": "That would compound the breach."
         }
       ],
-      "exhibit": "Use Extended Example 11A."
+      "exhibit": "Use Extended Example 11A.",
+      "from": [
+        "11.7/section-check"
+      ]
     }
   ]
 };

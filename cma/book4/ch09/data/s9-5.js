@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 9A: one case of oil, four cycles",
   "n": "9.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.5"),
   "brief": {
     "about": "This example follows a single case of olive oil from the purchase of the olives to the collection of cash, naming the cycle at each step. It is exam-core: questions give an event and ask which cycle it belongs to. The purchasing department raises a request, the manager approves it, the storekeeper receives the delivery and accounts payable pays the farmer.",
     "anim": "cycleRing",
@@ -68,6 +68,9 @@
       }
     ]
   },
+  "from": [
+    "9.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f409-06",
@@ -102,7 +105,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F409-06",
+        "9.5/t:the-steps-which",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t9-5-0",
+      "kind": "lines",
+      "kicker": "Section 9.5",
+      "title": "Event or record",
+      "caption": "Event or record",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Invoicing a Gulf distributor",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Paying the olive farmer",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Issuing materials to the pressing line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Calculating deductions from a worker's gross pay",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:event-or-record",
+        "Practice/t:event-or-record#2",
+        "Answers and explanations/t:event-or-record"
+      ]
+    },
+    {
+      "id": "t9-5-1",
+      "kind": "lines",
+      "kicker": "Section 9.5",
+      "title": "Event or record",
+      "caption": "Event or record",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Invoicing a Gulf distributor",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Paying the olive farmer",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Issuing materials to the pressing line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Calculating deductions from a worker's gross pay",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:event-or-record",
+        "Practice/t:event-or-record#2",
+        "Answers and explanations/t:event-or-record"
+      ]
+    },
+    {
+      "id": "t9-5-2",
+      "kind": "lines",
+      "kicker": "Section 9.5",
+      "title": "Event or record",
+      "caption": "Event or record",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Invoicing a Gulf distributor",
+          "a": "Revenue to cash",
+          "b": ""
+        },
+        {
+          "name": "Paying the olive farmer",
+          "a": "Expenditure to disbursement",
+          "b": ""
+        },
+        {
+          "name": "Issuing materials to the pressing line",
+          "a": "Production",
+          "b": ""
+        },
+        {
+          "name": "Calculating deductions from a worker's gross pay",
+          "a": "Human resources and payroll",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:event-or-record",
+        "Practice/t:event-or-record#2",
+        "Answers and explanations/t:event-or-record"
+      ]
     },
     {
       "id": "yourturn",
@@ -148,6 +270,13 @@
       "traps": [
         "exam-view",
         "the-hours-recorded-against-that-batch-"
+      ],
+      "from": [
+        "9.5/your-turn",
+        "F409-06",
+        "9.5/t:the-steps-which",
+        "9.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -173,6 +302,9 @@
           "text": "the general ledger cycle",
           "why": "The ledger receives only the summaries."
         }
+      ],
+      "from": [
+        "9.5/section-check"
       ]
     },
     {
@@ -199,7 +331,10 @@
           "why": "The ledger holds accruals too."
         }
       ],
-      "say": "Use Extended Example 9A. Why can the ledger not say whether the margin came from a cheap harvest or an efficient shift?"
+      "say": "Use Extended Example 9A. Why can the ledger not say whether the margin came from a cheap harvest or an efficient shift?",
+      "from": [
+        "9.5/section-check"
+      ]
     }
   ]
 };

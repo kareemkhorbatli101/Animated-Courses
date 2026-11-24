@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why book income and taxable income differ",
   "n": "13.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.1"),
   "brief": {
     "about": "Financial statements follow U.S. GAAP and are prepared for investors. Tax returns follow tax law and are prepared for the government. The two sets of rules have different goals, so taxable income is usually not the same as income before income taxes. If a company simply reported the tax it paid, its tax expense would jump around when the rules timed items differently. Interperiod tax allocation solves this.",
     "anim": "twobooks",
@@ -38,6 +38,10 @@
           "answer": "989700",
           "why": "Income tax expense (25% combined federal and state rate): 989,700."
         }
+      ],
+      "from": [
+        "F13-02",
+        "13.1/t:orontes-foods-in"
       ]
     },
     {
@@ -63,6 +67,9 @@
           "why": "Deferred taxes match tax expense to the period of the related income.",
           "correct": true
         }
+      ],
+      "from": [
+        "13.1/section-check"
       ]
     },
     {
@@ -89,7 +96,10 @@
           "why": "This is the balance of the liability, not the change."
         }
       ],
-      "say": "Use Figure F13-02. What is Orontes's deferred tax expense for 2025 (whole USD)?"
+      "say": "Use Figure F13-02. What is Orontes's deferred tax expense for 2025 (whole USD)?",
+      "from": [
+        "13.1/section-check"
+      ]
     }
   ]
 };

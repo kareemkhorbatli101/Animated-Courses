@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Closing the difference at year-end",
   "n": "8.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.5"),
   "brief": {
     "about": "During the year the difference stays open, because monthly differences often cancel out. At year-end it must be closed so that both overhead accounts return to zero. If the difference is immaterial, it is closed to cost of goods sold. If it is material, it is spread by proration over ending work in process, ending finished goods and cost of goods sold.",
     "anim": "appliedActual",
@@ -27,42 +27,48 @@
   "scenes": [
     {
       "id": "fig-f208-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F208-07",
       "title": "Closing the difference: write-off or proration",
-      "say": "Closing the difference: write-off or proration",
-      "caption": "",
-      "col1": "Write off to COGS",
-      "col2": "Prorate",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Prorate",
       "rows": [
         {
-          "name": "When",
-          "a": "Difference is immaterial",
-          "b": "Difference is material"
+          "label": "When",
+          "right": "Difference is material",
+          "why": "Prorate: Difference is material. Difference is immaterial."
         },
         {
-          "name": "Entry",
-          "a": "Dr MOH Applied, Dr (or Cr) COGS; Cr MOH Control",
-          "b": "Dr MOH Applied, Dr WIP, Dr FG, Dr COGS; Cr MOH Control"
+          "label": "Entry",
+          "right": "Dr MOH Applied, Dr WIP, Dr FG, Dr COGS; Cr MOH Control",
+          "why": "Prorate: Dr MOH Applied, Dr WIP, Dr FG, Dr COGS; Cr MOH Control. Dr MOH Applied, Dr (or Cr) COGS; Cr MOH Control."
         },
         {
-          "name": "Basis",
-          "a": "All to COGS",
-          "b": "Current-period overhead applied in ending WIP, FG and COGS"
+          "label": "Basis",
+          "right": "Current-period overhead applied in ending WIP, FG and COGS",
+          "why": "Prorate: Current-period overhead applied in ending WIP, FG and COGS. All to COGS."
         },
         {
-          "name": "Effect",
-          "a": "Simple; COGS absorbs all",
-          "b": "Inventories show nearer-actual cost"
+          "label": "Effect",
+          "right": "Inventories show nearer-actual cost",
+          "why": "Prorate: Inventories show nearer-actual cost. Simple; COGS absorbs all."
         },
         {
-          "name": "GAAP note",
-          "a": "Fine if immaterial",
-          "b": "Abnormal idle capacity is expensed, never prorated (ASC 330)"
+          "label": "GAAP note",
+          "right": "Abnormal idle capacity is expensed, never prorated (ASC 330)",
+          "why": "Prorate: Abnormal idle capacity is expensed, never prorated (ASC 330). Fine if immaterial."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Closing the difference: write-off or proration",
+      "traps": [
+        "prorate-on-applied-overhead"
+      ],
+      "from": [
+        "F208-07",
+        "8.5/t:write-off-to-cog",
+        "8.5/exam-trap"
+      ]
     },
     {
       "id": "fig-f208-08",
@@ -109,6 +115,42 @@
             "230,000"
           ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F208-08",
+        "8.5/t:prorate-the-unde"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F208-08",
+      "title": "Share the underapplied overhead",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F208-08 gives Tahini's applied overhead in each balance. The first share is done. Complete the others.",
+      "blanks": [
+        {
+          "label": "Finished goods share",
+          "working": "20% × 230,000 = 46,000",
+          "shown": "46,000",
+          "answer": 46000,
+          "prompt": "20% × 230,000 ="
+        },
+        {
+          "label": "COGS share",
+          "working": "70% × 230,000 = 161,000",
+          "shown": "161,000",
+          "answer": 161000,
+          "prompt": "70% × 230,000 ="
+        }
+      ],
+      "caption": "Your turn: share the underapplied overhead (complete the blanks)",
+      "from": [
+        "8.5/your-turn",
+        "F208-08",
+        "8.5/t:prorate-the-unde",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -136,8 +178,10 @@
         }
       ],
       "traps": [
-        "both-overhead-accounts-return-to-zero",
-        "prorate-on-applied-overhead"
+        "both-overhead-accounts-return-to-zero"
+      ],
+      "from": [
+        "8.5/section-check"
       ]
     },
     {
@@ -163,6 +207,9 @@
           "why": "The difference relates to this year's applied overhead.",
           "correct": true
         }
+      ],
+      "from": [
+        "8.5/section-check"
       ]
     }
   ]

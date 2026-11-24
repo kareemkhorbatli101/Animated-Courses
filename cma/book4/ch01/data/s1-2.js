@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The three control objectives",
   "n": "1.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.2"),
   "brief": {
     "about": "Internal control serves three categories of objective, set out in Figure F401-03. Everything a control does falls into one of them. The second category is the one most often misremembered. It is reporting, not financial reporting: it covers internal reports as well as external ones, and non-financial information as well as financial. The energy and water figures of Book 3, Chapter 18 fall under it just as the audited accounts do.",
     "anim": "threeObj",
@@ -27,34 +27,36 @@
   "scenes": [
     {
       "id": "fig-f401-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F401-03",
       "title": "The three categories of control objective",
-      "say": "The three categories of control objective",
-      "caption": "Objective category",
-      "col1": "What it covers",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Objective category",
+      "col": "What it covers",
       "rows": [
         {
-          "name": "Operations",
-          "a": "Effectiveness and efficiency, including safeguarding assets",
-          "b": "Spoilage below target; stock not stolen"
+          "label": "Operations",
+          "right": "Effectiveness and efficiency, including safeguarding assets",
+          "why": "What it covers: Effectiveness and efficiency, including safeguarding assets. Spoilage below target; stock not stolen."
         },
         {
-          "name": "Reporting",
-          "a": "Internal AND external, financial AND non-financial",
-          "b": "The monthly management pack; the audited accounts; the energy figures of Book 3"
+          "label": "Reporting",
+          "right": "Internal AND external, financial AND non-financial",
+          "why": "What it covers: Internal AND external, financial AND non-financial. The monthly management pack; the audited accounts; the energy figures of Book 3."
         },
         {
-          "name": "Compliance",
-          "a": "With applicable laws and regulations",
-          "b": "Food safety rules; Jordan's data protection law"
+          "label": "Compliance",
+          "right": "With applicable laws and regulations",
+          "why": "What it covers: With applicable laws and regulations. Food safety rules; Jordan's data protection law."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "The three categories of control objective",
       "traps": [
         "safeguarding-of-assets-is-not-a-fourth"
+      ],
+      "from": [
+        "F401-03",
+        "1.2/t:objective-catego"
       ]
     },
     {
@@ -80,6 +82,9 @@
           "text": "Compliance",
           "why": "A category."
         }
+      ],
+      "from": [
+        "1.2/section-check"
       ]
     },
     {
@@ -105,6 +110,9 @@
           "why": "The 2013 framework widened the category from financial reporting to reporting.",
           "correct": true
         }
+      ],
+      "from": [
+        "1.2/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The direct labor budget",
   "n": "7.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.3"),
   "brief": {
     "about": "The direct labor budget multiplies the cases to produce by the standard hours per case, then by the wage rate. Figure F307-07 gives 45,050 hours and $540,600 for the year. The budget must also be feasible. With 25 operators working 480 hours a quarter, 12,000 hours are available. Figure F307-08 shows that the third quarter uses 98.8% of them, leaving no room for sickness or training.",
     "anim": "inputsFan",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F307-08.png",
       "label": "Figure F307-08.",
-      "caption": "Labor hours needed against hours available."
+      "caption": "Labor hours needed against hours available.",
+      "from": [
+        "F307-08"
+      ]
     },
     {
       "id": "fill-07",
@@ -107,6 +110,10 @@
             "c5": "48,000"
           }
         }
+      ],
+      "from": [
+        "F307-07",
+        "7.3/t:direct-labor-bud"
       ]
     },
     {
@@ -133,7 +140,10 @@
           "why": "This multiplies cases, not hours."
         }
       ],
-      "exhibit": "Production needs 10,650 labor hours at $12.00 an hour."
+      "exhibit": "Production needs 10,650 labor hours at $12.00 an hour.",
+      "from": [
+        "7.3/section-check"
+      ]
     },
     {
       "id": "sc307-6",
@@ -159,7 +169,10 @@
           "correct": true
         }
       ],
-      "exhibit": "The labor budget needs 11,850 hours in a quarter; 12,000 are available."
+      "exhibit": "The labor budget needs 11,850 hours in a quarter; 12,000 are available.",
+      "from": [
+        "7.3/section-check"
+      ]
     }
   ]
 };

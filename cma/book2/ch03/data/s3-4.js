@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Using the regression equation",
   "n": "3.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.4"),
   "brief": {
     "about": "To forecast, put the planned activity into x. At 3,200 machine hours, Oils maintenance and utilities should cost $18,000 + $12 × 3,200 = $56,400. A forecast is only as good as the range of the data. The Oils data run from 2,000 to 4,300 machine hours a month. A forecast inside that range is reasonable; a forecast far outside it is a guess.",
     "anim": "scatterLine",
@@ -25,23 +25,79 @@
   },
   "scenes": [
     {
-      "id": "num-07",
-      "kind": "number",
+      "id": "fig-f203-07",
+      "kind": "lines",
       "kicker": "Figure F203-07",
       "title": "Your turn: forecasts with the regression equation",
-      "unit": "USD",
-      "say": "Work each one out from the figures above it.",
-      "fields": [
+      "say": "Your turn: forecasts with the regression equation (complete the blanks)",
+      "caption": "Machine hours in the month",
+      "col1": "Forecast: 18,000 + 12 × MH",
+      "col2": "",
+      "rows": [
         {
-          "label": "2,500",
-          "answer": "48000",
-          "why": "2,500: 48,000."
+          "name": "2,500",
+          "a": "48,000",
+          "b": ""
         },
         {
-          "label": "3,000",
-          "answer": "54000",
-          "why": "3,000: 54,000."
+          "name": "3,000",
+          "a": "54,000",
+          "b": ""
+        },
+        {
+          "name": "3,600",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "4,000",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "5,000",
+          "a": "________ (careful!)",
+          "b": ""
         }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true,
+      "from": [
+        "F203-07",
+        "3.4/t:machine-hours-in"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F203-07",
+      "title": "Forecast with the equation",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F203-07 gives five months of planned activity. The first two forecasts are done. Complete the rest, and think carefully about the last one.",
+      "blanks": [
+        {
+          "label": "3,600 machine hours",
+          "working": "$61,200",
+          "shown": "$61,200",
+          "answer": 61200,
+          "prompt": ""
+        },
+        {
+          "label": "4,000 machine hours",
+          "working": "$66,000",
+          "shown": "$66,000",
+          "answer": 66000,
+          "prompt": ""
+        }
+      ],
+      "caption": "Your turn: forecasts with the regression equation (complete the blanks)",
+      "note": "The equation gives $78,000, but 5,000 hours is outside the data range (a second shift would start above 4,300 hours), so the forecast is not reliable.",
+      "from": [
+        "3.4/your-turn",
+        "F203-07",
+        "3.4/t:machine-hours-in",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -68,7 +124,10 @@
           "why": "An annual fixed cost is mixed with monthly hours."
         }
       ],
-      "say": "Using y = 18,000 + 12 x, what is the forecast for a month with 3,600 machine hours?"
+      "say": "Using y = 18,000 + 12 x, what is the forecast for a month with 3,600 machine hours?",
+      "from": [
+        "3.4/section-check"
+      ]
     },
     {
       "id": "sc203-8",
@@ -94,7 +153,10 @@
           "correct": true
         }
       ],
-      "exhibit": "The Oils data cover 2,000 to 4,300 machine hours a month."
+      "exhibit": "The Oils data cover 2,000 to 4,300 machine hours a month.",
+      "from": [
+        "3.4/section-check"
+      ]
     }
   ]
 };

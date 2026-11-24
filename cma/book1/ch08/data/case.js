@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Orontes year-end inventory review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "band"
+  },
+  "scenario": {
+    "title": "Case question: Orontes year-end inventory review",
+    "p": [
+      "At the end of 2025 Orontes reviewed five product lines for possible write-downs. Prices of some specialty foods had fallen during the year, and some products were close to their best-before dates. Costs to complete and sell the products were estimated by the sales team.",
+      "Orontes uses LIFO for two product lines and FIFO for the others. The measurement rule depends on the cost method: lower of cost and net realizable value for FIFO and average cost, and lower of cost or market for LIFO and the retail method.",
+      "The controller needs the write-down for each line, the total write-down and the carrying amount of the five lines after the write-downs. The auditors have asked her to show the test item by item.",
+      "The board has also asked what would happen if prices recover in 2026, and how the answer would differ if Orontes reported under IFRS, as some of its Gulf customers do. All amounts in the exhibit are per unit, in whole U.S. dollars. The sales team has already cut prices on two of the lines for the first quarter of the new year."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F08-13",
+        "Practice/t:item-method-unit",
+        "Practice/t:product-line-cat",
+        "Answers and explanations/t:product-line-cat"
+      ]
     },
     {
       "id": "c8-1",
@@ -97,7 +112,11 @@
           "why": "Product line: LCNRV."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:product-line-cat",
+        "Answers and explanations/t:product-line-cat"
+      ]
     },
     {
       "id": "c8-2",

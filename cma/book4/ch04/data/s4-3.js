@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What the PCAOB does",
   "n": "4.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.3"),
   "brief": {
     "about": "The Public Company Accounting Oversight Board was created by the Act itself. Before 2002 the audit profession set its own standards and inspected itself; the PCAOB replaced that arrangement. Figure F404-04 sets out its four roles. For this chapter the second role is the one that matters. A second point is worth knowing because candidates mix it up.",
     "anim": "boardLine",
@@ -72,6 +72,10 @@
           },
           "why": "Why it matters: Sanctions up to barring an auditor."
         }
+      ],
+      "from": [
+        "F404-04",
+        "4.3/t:pcaob-role-e-1-q"
       ]
     },
     {
@@ -97,6 +101,9 @@
           "text": "COSO",
           "why": "COSO publishes a control framework, not auditing standards."
         }
+      ],
+      "from": [
+        "4.3/section-check"
       ]
     },
     {
@@ -122,6 +129,9 @@
           "text": "the audit committee",
           "why": "The committee oversees; it does not issue guidance."
         }
+      ],
+      "from": [
+        "4.3/section-check"
       ]
     }
   ]

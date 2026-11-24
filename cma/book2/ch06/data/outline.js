@@ -4,7 +4,7 @@
  * titles and the order are the deck's, folded exactly as assets/scene.js folds
  * them, and gates/cma_nav fails if this file and the decks disagree.
  *
- * Chapter 06 of Book 2 - 12 pages, 56 screens.
+ * Chapter 06 of Book 2 - 12 pages, 57 screens.
  */
 window.OUTLINE = {
   "case": [{"id": "c206-1", "title": "Where does each item belong?"}, {"id": "c206-2", "title": "Enter the total cost of job T-0304 when it is completed in April"}, {"id": "c206-3", "title": "Enter ending work in process on April 30"}, {"id": "c206-4", "title": "Enter cost of goods manufactured for April"}, {"id": "c206-5", "title": "Enter cost of goods sold for April (before any year-end overhead adjustment)"}, {"id": "c206-6", "title": "April's actual overhead exceeds applied overhead. At April 30 theâ€¦"}, {"id": "c206-7", "title": "When a completed job is sold, its cost moves from finished goods to ____."}],
@@ -15,7 +15,7 @@ window.OUTLINE = {
   "s6-3": [{"id": "sc206-5", "title": "The entry is:"}, {"id": "sc206-6", "title": "The wages of a factory supervisor are debited to:"}],
   "s6-4": [{"id": "sc206-7", "title": "How much overhead is applied (whole USD)?"}, {"id": "sc206-8", "title": "The entry to apply overhead to jobs is:"}],
   "s6-5": [{"id": "num-05", "title": "Your turn: job cost sheet for T-0304"}, {"id": "yourturn", "title": "Complete a job cost sheet"}, {"id": "sc206-9", "title": "Its cost is in:"}, {"id": "sc206-10", "title": "By how much does cost of goods sold increase?"}],
-  "s6-6": [{"id": "sc206-11", "title": "Which is a benefit of job order costing?"}, {"id": "sc206-12", "title": "Which is a limitation of job order costing?"}],
+  "s6-6": [{"id": "fig-f206-06", "title": "Job order costing and process costing"}, {"id": "sc206-11", "title": "Which is a benefit of job order costing?"}, {"id": "sc206-12", "title": "Which is a limitation of job order costing?"}],
   "s6-7": [{"id": "post-08", "title": "Extended Example: general journal, March 2027"}, {"id": "num-10", "title": "Extended Example: schedule of cost of goods manufactured and cost of goods sold"}, {"id": "grid-11", "title": "Extended Example: job cost sheets agree with the control accounts"}, {"id": "ties", "title": "Everything ties"}, {"id": "sc206-13", "title": "What is cost of goods manufactured for March (whole USD)?"}, {"id": "sc206-14", "title": "At March 31, the underapplied overhead of $19,000:"}],
   "summary": [{"id": "rules", "title": "The chapter in one paragraph"}, {"id": "traps", "title": "The traps you have got wrong"}],
   "terms": [{"id": "en-ar", "title": "English â†’ Arabic"}, {"id": "ar-en", "title": "Arabic â†’ English"}, {"id": "all", "title": "Every bridged term in the chapter"}]

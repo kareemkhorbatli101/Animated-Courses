@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Capacity levels and product cost",
   "n": "9.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.5"),
   "brief": {
     "about": "The fixed overhead rate depends on the capacity level in the denominator. Theoretical capacity assumes the plant never stops. Practical capacity allows for normal breaks and maintenance. Normal capacity is average use over several years. Master-budget capacity is this year's plan. The smaller the denominator, the higher the product cost. For a case of juice, full cost ranges from $12.10 at theoretical capacity to $12.85 at master-budget capacity.",
     "anim": "capacityJar",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F209-08.png",
       "label": "Figure F209-08.",
-      "caption": "Full product cost per case at four denominator levels."
+      "caption": "Full product cost per case at four denominator levels.",
+      "from": [
+        "F209-08"
+      ]
     },
     {
       "id": "sc209-9",
@@ -55,6 +58,9 @@
           "why": "The smallest denominator spreads fixed overhead over the fewest units.",
           "correct": true
         }
+      ],
+      "from": [
+        "9.5/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "why": "No such level exists."
         }
       ],
-      "say": "For its published statements under U.S. GAAP, Orontes applies fixed overhead on:"
+      "say": "For its published statements under U.S. GAAP, Orontes applies fixed overhead on:",
+      "from": [
+        "9.5/section-check"
+      ]
     }
   ]
 };

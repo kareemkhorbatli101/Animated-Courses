@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 13A: one number becomes a decision",
   "n": "13.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.7"),
   "brief": {
     "about": "This example takes a single Beverages figure and walks it up the progression to an action. It is exam-core, because the exam gives a statement and asks which step it represents. The number is 240,000. On its own it means nothing at all: it could be cases, dinars, kilometres or an account code. Place it in context and it becomes information: 240,000 cases sold in 2028 Q3.",
     "anim": "insightLadder",
@@ -68,6 +68,9 @@
       }
     ]
   },
+  "from": [
+    "13.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f413-08",
@@ -102,7 +105,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F413-08",
+        "13.7/t:what-is-describe",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t13-7-0",
+      "kind": "lines",
+      "kicker": "Section 13.7",
+      "title": "Statement from the case",
+      "caption": "Statement from the case",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "240,000",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "240,000 cases in the third quarter",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The third quarter is the peak every year",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The peak follows temperature rather than the promotion calendar",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-from-t",
+        "Practice/t:statement-from-t#2",
+        "Answers and explanations/t:statement-from-t"
+      ]
+    },
+    {
+      "id": "t13-7-1",
+      "kind": "lines",
+      "kicker": "Section 13.7",
+      "title": "Statement from the case",
+      "caption": "Statement from the case",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "240,000",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "240,000 cases in the third quarter",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The third quarter is the peak every year",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "The peak follows temperature rather than the promotion calendar",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-from-t",
+        "Practice/t:statement-from-t#2",
+        "Answers and explanations/t:statement-from-t"
+      ]
+    },
+    {
+      "id": "t13-7-2",
+      "kind": "lines",
+      "kicker": "Section 13.7",
+      "title": "Statement from the case",
+      "caption": "Statement from the case",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "240,000",
+          "a": "Data",
+          "b": ""
+        },
+        {
+          "name": "240,000 cases in the third quarter",
+          "a": "Information",
+          "b": ""
+        },
+        {
+          "name": "The third quarter is the peak every year",
+          "a": "Knowledge",
+          "b": ""
+        },
+        {
+          "name": "The peak follows temperature rather than the promotion calendar",
+          "a": "Insight",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-from-t",
+        "Practice/t:statement-from-t#2",
+        "Answers and explanations/t:statement-from-t"
+      ]
     },
     {
       "id": "yourturn",
@@ -147,6 +269,13 @@
       "note": "Why: velocity describes how fast data arrives, and sensor data arrives far faster than monthly reporting",
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "13.7/your-turn",
+        "F413-08",
+        "13.7/t:what-is-describe",
+        "13.7/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -173,7 +302,10 @@
           "why": "Data is a bare fact."
         }
       ],
-      "say": "Use Extended Example 13A. 'The peak follows the heat rather than the promotion calendar' is:"
+      "say": "Use Extended Example 13A. 'The peak follows the heat rather than the promotion calendar' is:",
+      "from": [
+        "13.7/section-check"
+      ]
     },
     {
       "id": "sc413-14",
@@ -199,7 +331,10 @@
           "why": "Size of team does not confer authority."
         }
       ],
-      "exhibit": "Use Extended Example 13A."
+      "exhibit": "Use Extended Example 13A.",
+      "from": [
+        "13.7/section-check"
+      ]
     }
   ]
 };

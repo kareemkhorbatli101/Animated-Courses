@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "capitals"
   },
@@ -112,9 +112,6 @@
           "text": "Connectivity of information",
           "why": "Connectivity is a guiding principle."
         }
-      ],
-      "traps": [
-        "seven-or-eight"
       ]
     },
     {

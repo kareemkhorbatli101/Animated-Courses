@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Value creation and the six capitals",
   "n": "18.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.3"),
   "brief": {
     "about": "The Framework describes value in terms of six capitals: stocks of value that increase, decrease or change as the company works. They are financial capital, manufactured capital, intellectual capital, human capital, social and relationship capital and natural capital. Figure F18-03 gives Orontes examples. In the value creation process, the business model takes capitals as inputs and turns them, through its activities, into outputs: products, by-products and waste.",
     "anim": "capitals",
@@ -41,57 +41,69 @@
       }
     ]
   },
+  "from": [
+    "18.3/false-friend-alert",
+    "18.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f18-04",
       "kind": "figure",
       "file": "F18-04.png",
       "label": "Figure F18-04.",
-      "caption": "The value creation process: capitals, business model, outputs and outcomes."
+      "caption": "The value creation process: capitals, business model, outputs and outcomes.",
+      "from": [
+        "F18-04"
+      ]
     },
     {
       "id": "fig-f18-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F18-03",
       "title": "Orontes's six capitals, 2027",
-      "say": "Suppose: Orontes's six capitals, 2027",
-      "caption": "Capital",
-      "col1": "Orontes examples (2027)",
-      "col2": "Possible measure",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Capital",
+      "col": "Orontes examples (2027)",
       "rows": [
         {
-          "name": "Financial",
-          "a": "Equity and bank loans (Part I)",
-          "b": "Cash flow from operations"
+          "label": "Financial",
+          "right": "Equity and bank loans (Part I)",
+          "why": "Orontes examples (2027): Equity and bank loans (Part I). Cash flow from operations."
         },
         {
-          "name": "Manufactured",
-          "a": "Presses, bottling lines, cold stores",
-          "b": "Plant capacity"
+          "label": "Manufactured",
+          "right": "Presses, bottling lines, cold stores",
+          "why": "Orontes examples (2027): Presses, bottling lines, cold stores. Plant capacity."
         },
         {
-          "name": "Intellectual",
-          "a": "Recipes, brand, new sparkling-juice line",
-          "b": "Share of sales from new products"
+          "label": "Intellectual",
+          "right": "Recipes, brand, new sparkling-juice line",
+          "why": "Orontes examples (2027): Recipes, brand, new sparkling-juice line. Share of sales from new products."
         },
         {
-          "name": "Human",
-          "a": "1,850 employees",
-          "b": "20 training hours per employee"
+          "label": "Human",
+          "right": "1,850 employees",
+          "why": "Orontes examples (2027): 1,850 employees. 20 training hours per employee."
         },
         {
-          "name": "Social and relationship",
-          "a": "2,400 farmers in grower cooperatives; supermarket customers",
-          "b": "Farmer contracts renewed"
+          "label": "Social and relationship",
+          "right": "2,400 farmers in grower cooperatives; supermarket customers",
+          "why": "Orontes examples (2027): 2,400 farmers in grower cooperatives; supermarket customers. Farmer contracts renewed."
         },
         {
-          "name": "Natural",
-          "a": "Olive groves, water, energy",
-          "b": "Water 900,000 m³; renewable electricity 30%"
+          "label": "Natural",
+          "right": "Olive groves, water, energy",
+          "why": "Orontes examples (2027): Olive groves, water, energy. Water 900,000 m³; renewable electricity 30%."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Suppose: Orontes's six capitals, 2027",
+      "traps": [
+        "capitals-capitaux"
+      ],
+      "from": [
+        "F18-03",
+        "18.3/t:capital-orontes"
+      ]
     },
     {
       "id": "fig-f18-05",
@@ -136,7 +148,12 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F18-05",
+        "18.3/t:orontes-disclosu",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -186,8 +203,11 @@
           "why": "Social and relationship capital"
         }
       ],
-      "traps": [
-        "capitals-capitaux"
+      "from": [
+        "18.3/your-turn",
+        "F18-05",
+        "18.3/t:orontes-disclosu",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -213,6 +233,9 @@
           "why": "These are the Framework's six capitals.",
           "correct": true
         }
+      ],
+      "from": [
+        "18.3/section-check"
       ]
     },
     {
@@ -239,7 +262,10 @@
           "why": "Inputs are the capitals used."
         }
       ],
-      "exhibit": "Orontes produces bottled olive oil and olive-pit waste. Its grove water table falls."
+      "exhibit": "Orontes produces bottled olive oil and olive-pit waste. Its grove water table falls.",
+      "from": [
+        "18.3/section-check"
+      ]
     }
   ]
 };

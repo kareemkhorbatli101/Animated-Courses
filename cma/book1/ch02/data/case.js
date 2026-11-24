@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada Wholesale's balance sheet",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "bands"
+  },
+  "scenario": {
+    "title": "Case question: Barada Wholesale's balance sheet",
+    "p": [
+      "Barada Wholesale is preparing its first classified balance sheet at December 31, 2025, using the accounts you met in Chapter 1, after closing. Its bank wants to see current assets and current liabilities separately so that it can judge Barada's liquidity.",
+      "Two events need care. In February 2026, before the statements were issued, a fire damaged a warehouse, although nothing was damaged at the year-end. A supplier has also sued Barada; Barada's lawyers believe a loss is reasonably possible but not probable, and they cannot yet estimate the amount.",
+      "Mr Haddad wants to know which accounts are current and which are noncurrent, how much working capital Barada has, and how the fire and the lawsuit will appear in the statements. He is worried that the bank will read the notes very carefully.",
+      "Barada's accountant uses U.S. GAAP presentation. Deferred taxes, the current part of the bank loan and the dividends payable all need a decision. Amounts in the exhibit are in thousands of U.S. dollars. The bank manager has asked for the statements by the end of March, and Mr Haddad also asks whether the value of Barada's brand appears on the balance sheet."
+    ]
   },
   "scenes": [
     {
@@ -112,7 +121,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F02-13",
+        "Practice/t:account-memo-us",
+        "Practice/t:account-category",
+        "Answers and explanations/t:account-category"
+      ]
     },
     {
       "id": "c2-1",
@@ -166,7 +181,11 @@
           "why": "Account: Equity."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:account-category",
+        "Answers and explanations/t:account-category"
+      ]
     },
     {
       "id": "c2-2",

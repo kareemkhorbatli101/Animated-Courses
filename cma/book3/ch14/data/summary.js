@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "threeCols"
+    "anim": "threeCols",
+    "about": "Figure F314-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Variable overhead has a spending variance, measured against the standard rate applied to the hours worked, and an efficiency variance, which follows the driver. Fixed overhead has a spending variance, actual against budget, and a production-volume variance, budget against the amount applied to the output produced; the second measures absorption, not control. The four variances can be grouped in four, three or two ways, always to the same total. Before acting, ask whether the variance is significant, what caused it, who controls the cause, and whether it is linked to another variance."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F314-12.png",
       "label": "Figure F314-12.",
       "caption": "Chapter 14 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F314-12"
+      ]
     },
     {
       "id": "rules",

@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "8.5",
   "title": "Closing the difference at year-end",
-  "blurb": "A printed statement, grid, questions · 4 scenes"
+  "blurb": "Match, grid, yourturn, questions · 5 scenes"
  },
  {
   "id": "s8-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "8.6",
   "title": "Extended Example 8A: Tahini & Spreads closes 2027",
-  "blurb": "Figures, schedule, grid, the tie lines, questions · 8 scenes"
+  "blurb": "Figures, schedule, grid, a printed statement, the tie lines, questions · 10 scenes"
  },
  {
   "id": "summary",

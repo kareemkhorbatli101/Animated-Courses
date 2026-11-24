@@ -9,7 +9,7 @@
   "up": "../",
   "title": "(i) Share-based payments and employee benefits",
   "n": "17.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.1"),
   "brief": {
     "about": "For share awards that vest in parts, or graded vesting, U.S. GAAP lets a company recognize the cost straight-line over the whole period or tranche by tranche, when the awards have only service conditions. IFRS 2 requires tranche by tranche, which puts more expense in the early years. U.S. GAAP also allows a policy choice to record forfeitures as they occur; IFRS 2 requires an estimate.",
     "anim": "rules",
@@ -58,6 +58,10 @@
           "us": "OCI, amortized over 10 years: 5,000 a year",
           "ifrs": "Expensed at once: 50,000"
         }
+      ],
+      "from": [
+        "F17-02",
+        "17.1/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -84,7 +88,10 @@
           "correct": true
         }
       ],
-      "say": "Use Figure F17-02. How much of Orontes's prior service cost is recognized in 2027 net income under IAS 19 and under U.S. GAAP (whole USD)?"
+      "say": "Use Figure F17-02. How much of Orontes's prior service cost is recognized in 2027 net income under IAS 19 and under U.S. GAAP (whole USD)?",
+      "from": [
+        "17.1/section-check"
+      ]
     },
     {
       "id": "sc17-2",
@@ -110,7 +117,10 @@
           "why": "Expense is recognized over the service period."
         }
       ],
-      "exhibit": "A company grants share options that vest one third each year for three years (service condition only)."
+      "exhibit": "A company grants share options that vest one third each year for three years (service condition only).",
+      "from": [
+        "17.1/section-check"
+      ]
     }
   ]
 };

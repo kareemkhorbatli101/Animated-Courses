@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Reading a scorecard and reporting it",
   "n": "18.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.5"),
   "brief": {
     "about": "Figure F318-08 summarizes the year: 7 of the 12 measures met. The board's reading is that 2028 was a good year that is not building a good 2029. Export share and delivery both missed, and those are the drivers of the strategy set in Chapter 1. How often each measure is reported matters as much as the measure itself.",
     "anim": "scorecard4",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "18.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f318-08",
       "kind": "figure",
       "file": "F318-08.png",
       "label": "Figure F318-08.",
-      "caption": "The 2028 scorecard results by perspective."
+      "caption": "The 2028 scorecard results by perspective.",
+      "from": [
+        "F318-08"
+      ]
     },
     {
       "id": "grid-09",
@@ -101,6 +107,12 @@
       ],
       "traps": [
         "match-the-interval-to-the-decision"
+      ],
+      "from": [
+        "F318-09",
+        "18.5/t:perspective-resu",
+        "18.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -228,6 +240,10 @@
           },
           "why": "Perspective: Learning and growth. Reported: Quarterly."
         }
+      ],
+      "from": [
+        "F318-10",
+        "18.5/t:measure-perspect"
       ]
     },
     {
@@ -254,7 +270,10 @@
           "why": "Not shown by the pattern."
         }
       ],
-      "exhibit": "A scorecard shows every financial measure met but most customer and process measures missed."
+      "exhibit": "A scorecard shows every financial measure met but most customer and process measures missed.",
+      "from": [
+        "18.5/section-check"
+      ]
     },
     {
       "id": "sc318-10",
@@ -279,6 +298,9 @@
           "text": "Staff turnover",
           "why": "It changes slowly."
         }
+      ],
+      "from": [
+        "18.5/section-check"
       ]
     }
   ]

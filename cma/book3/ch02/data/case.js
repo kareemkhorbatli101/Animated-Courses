@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · tahini exports to the Gulf",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "genericStrat"
+  },
+  "scenario": {
+    "title": "Case question: tahini exports to the Gulf",
+    "p": [
+      "Orontes began selling tahini in the Gulf three years ago. Sales have grown fast, but the business is still small next to the market leader, a large regional food group. The board must decide whether to invest more in the Gulf or to keep the business small.",
+      "The strategy team, led by Hala, has gathered data. The Gulf tahini market is growing quickly, and healthy traditional foods are popular. Orontes's brand is well known in Jordan but not yet in the Gulf, and its sales team there has only three people. The market leader has started to cut prices, and the EU may add a tariff that would push more exporters towards the Gulf.",
+      "Hala has also rated the five forces in the Gulf market from 1 (weak) to 5 (strong), and she has prepared three scenarios for the operating income of the Gulf business in 2030.",
+      "The board wants to know where the business sits in the Orontes portfolio, how attractive the market is, which generic strategy suits a premium product sold to a narrow group of buyers, and how far the results could vary."
+    ]
   },
   "scenes": [
     {
@@ -81,7 +90,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F302-15",
+        "Practice/t:gulf-tahini-expo"
+      ]
     },
     {
       "id": "c302-1",
@@ -112,30 +125,34 @@
         {
           "name": "The Orontes tahini brand is well known in Jordan",
           "to": "strength",
-          "why": "A situational analysis is the wider study of the company's current position that feeds the SWOT."
+          "why": "Factor: Strength. A situational analysis is the wider study of the company's current position that feeds the SWOT."
         },
         {
           "name": "The Gulf sales team has only three people",
           "to": "weakness",
-          "why": "A situational analysis is the wider study of the company's current position that feeds the SWOT."
+          "why": "Factor: Weakness. A situational analysis is the wider study of the company's current position that feeds the SWOT."
         },
         {
           "name": "Gulf demand for healthy traditional foods is growing",
           "to": "opportunity",
-          "why": "A situational analysis is the wider study of the company's current position that feeds the SWOT."
+          "why": "Factor: Opportunity. A situational analysis is the wider study of the company's current position that feeds the SWOT."
         },
         {
           "name": "The market leader is cutting prices",
           "to": "threat",
-          "why": "A situational analysis is the wider study of the company's current position that feeds the SWOT."
+          "why": "Factor: Threat. A situational analysis is the wider study of the company's current position that feeds the SWOT."
         },
         {
           "name": "An EU tariff may push more exporters to the Gulf",
           "to": "threat",
-          "why": "A situational analysis is the wider study of the company's current position that feeds the SWOT."
+          "why": "Factor: Threat. A situational analysis is the wider study of the company's current position that feeds the SWOT."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:factor-category",
+        "Answers and explanations/t:factor-category"
+      ]
     },
     {
       "id": "c302-2",

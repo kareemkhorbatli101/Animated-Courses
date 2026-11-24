@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Dividends, stock dividends and stock splits",
   "n": "4.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.3"),
   "brief": {
     "about": "A cash dividend has three dates. On the declaration date the company debits retained earnings and credits dividends payable, a current liability. On the date of record no entry is made; it only decides who is paid. On the payment date the liability is paid. Orontes declared $400,000 in December 2025, so that amount is still payable at year-end. A property dividend is paid with a noncash asset.",
     "anim": "dividendMove",
@@ -110,6 +110,11 @@
       ],
       "traps": [
         "stock-dividend-traps"
+      ],
+      "from": [
+        "F04-06",
+        "4.3/t:type-measured-at",
+        "4.3/exam-trap"
       ]
     },
     {
@@ -177,6 +182,10 @@
       ],
       "traps": [
         "small-at-fair-value"
+      ],
+      "from": [
+        "F04-07",
+        "4.3/t:suppose-orontes"
       ]
     },
     {
@@ -254,6 +263,12 @@
           },
           "why": "Retained earnings: opening balance increases, net of tax. Total equity: increases."
         }
+      ],
+      "from": [
+        "4.3/your-turn",
+        "F04-08",
+        "4.3/t:transaction-reta",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -313,7 +328,10 @@
           "why": "Book value per share is not used."
         }
       ],
-      "exhibit": "A company declares a 5% stock dividend."
+      "exhibit": "A company declares a 5% stock dividend.",
+      "from": [
+        "4.3/section-check"
+      ]
     },
     {
       "id": "sc4-6",
@@ -339,7 +357,10 @@
           "correct": true
         }
       ],
-      "say": "Use Figure F04-07. By how much does the 4% stock dividend reduce Orontes's retained earnings (whole USD)?"
+      "say": "Use Figure F04-07. By how much does the 4% stock dividend reduce Orontes's retained earnings (whole USD)?",
+      "from": [
+        "4.3/section-check"
+      ]
     }
   ]
 };

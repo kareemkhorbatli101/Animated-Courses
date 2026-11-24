@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 14A: should the sugar-free halva be launched?",
   "n": "14.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.7"),
   "brief": {
     "about": "This example sets out the halva's budget year by year and compares the yearly view with the life-cycle view. Both are exam-core. Figure F214-12 shows each year. The launch year, 2028, loses $98,000 because of heavy marketing, and 2032 loses $8,000 because of exit costs. Figure F214-13 adds the years up. Cumulative profit is negative until 2030, then reaches $382,000 over the whole life.",
     "anim": "valueChain",
@@ -55,13 +55,19 @@
       }
     ]
   },
+  "from": [
+    "14.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f214-13",
       "kind": "figure",
       "file": "F214-13.png",
       "label": "Figure F214-13.",
-      "caption": "Extended Example: yearly and cumulative profit of the sugar-free halva."
+      "caption": "Extended Example: yearly and cumulative profit of the sugar-free halva.",
+      "from": [
+        "F214-13"
+      ]
     },
     {
       "id": "fill-12",
@@ -183,6 +189,115 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F214-12",
+        "14.7/t:whole-usd-2027-2",
+        "14.7/exam-trap"
+      ]
+    },
+    {
+      "id": "t14-7-0",
+      "kind": "lines",
+      "kicker": "Section 14.7",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Recipe research",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Taste testing before launch",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Bottles and juice concentrate",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the filling line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Launch advertising",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Delivery to hotels",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Customer complaints line",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t14-7-1",
+      "kind": "lines",
+      "kicker": "Section 14.7",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Recipe research",
+          "a": "Upstream",
+          "b": ""
+        },
+        {
+          "name": "Taste testing before launch",
+          "a": "Upstream",
+          "b": ""
+        },
+        {
+          "name": "Bottles and juice concentrate",
+          "a": "Manufacturing",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the filling line",
+          "a": "Manufacturing",
+          "b": ""
+        },
+        {
+          "name": "Launch advertising",
+          "a": "Downstream",
+          "b": ""
+        },
+        {
+          "name": "Delivery to hotels",
+          "a": "Downstream",
+          "b": ""
+        },
+        {
+          "name": "Customer complaints line",
+          "a": "Downstream",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
       ]
     },
     {
@@ -228,7 +343,10 @@
           "why": "This is revenue."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "14.7/section-check"
+      ]
     },
     {
       "id": "sc214-14",
@@ -254,7 +372,10 @@
           "why": "One year does not decide."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "14.7/section-check"
+      ]
     }
   ]
 };

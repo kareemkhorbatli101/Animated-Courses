@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P409-01–P409-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "aisFlow"
   },

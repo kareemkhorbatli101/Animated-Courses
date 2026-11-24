@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 10A: what Orontes gains, and what it gives up",
   "n": "10.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.6"),
   "brief": {
     "about": "This example judges the Orontes ERP proposal rather than describing it. F.1.i is a Level C outcome, so the exam will ask what performance management makes possible and whether it is worth having. The sales director asked what one case of premium oil cost and how much was labour. Under the present arrangement the answer took two days and arrived unverifiable. Three things, and none of them trivial. Not the software.",
     "anim": "erpHub",
@@ -68,6 +68,9 @@
       }
     ]
   },
+  "from": [
+    "10.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f410-08",
@@ -102,7 +105,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F410-08",
+        "10.6/t:description-what",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t10-6-0",
+      "kind": "lines",
+      "kicker": "Section 10.6",
+      "title": "Feature or request",
+      "caption": "Feature or request",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "One stored value for monthly output",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Processes must change to match the software",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Three years of order lines refreshed for analysis",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Reapplying modifications at every upgrade",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:feature-or-reque",
+        "Practice/t:feature-or-reque#2",
+        "Answers and explanations/t:feature-or-reque"
+      ]
+    },
+    {
+      "id": "t10-6-1",
+      "kind": "lines",
+      "kicker": "Section 10.6",
+      "title": "Feature or request",
+      "caption": "Feature or request",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "One stored value for monthly output",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Processes must change to match the software",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Three years of order lines refreshed for analysis",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Reapplying modifications at every upgrade",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:feature-or-reque",
+        "Practice/t:feature-or-reque#2",
+        "Answers and explanations/t:feature-or-reque"
+      ]
+    },
+    {
+      "id": "t10-6-2",
+      "kind": "lines",
+      "kicker": "Section 10.6",
+      "title": "Feature or request",
+      "caption": "Feature or request",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "One stored value for monthly output",
+          "a": "An ERP advantage",
+          "b": ""
+        },
+        {
+          "name": "Processes must change to match the software",
+          "a": "An ERP disadvantage",
+          "b": ""
+        },
+        {
+          "name": "Three years of order lines refreshed for analysis",
+          "a": "A matter for a data warehouse",
+          "b": ""
+        },
+        {
+          "name": "Reapplying modifications at every upgrade",
+          "a": "An ERP disadvantage",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:feature-or-reque",
+        "Practice/t:feature-or-reque#2",
+        "Answers and explanations/t:feature-or-reque"
+      ]
     },
     {
       "id": "yourturn",
@@ -148,6 +270,13 @@
       "traps": [
         "exam-view",
         "implementations-fail-when-a-company-tr"
+      ],
+      "from": [
+        "10.6/your-turn",
+        "F410-08",
+        "10.6/t:description-what",
+        "10.6/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -174,7 +303,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 10A."
+      "exhibit": "Use Extended Example 10A.",
+      "from": [
+        "10.6/section-check"
+      ]
     },
     {
       "id": "sc410-12",
@@ -200,7 +332,10 @@
           "why": "Sequence is a project decision, not the failure mode."
         }
       ],
-      "exhibit": "Use Extended Example 10A."
+      "exhibit": "Use Extended Example 10A.",
+      "from": [
+        "10.6/section-check"
+      ]
     }
   ]
 };

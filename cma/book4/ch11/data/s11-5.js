@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why a retention policy must be written",
   "n": "11.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.5"),
   "brief": {
     "about": "A record retention policy states how long each kind of record is kept and when it is destroyed. Figure F411-06 sets out why having it written down matters, which is what this Level C outcome asks you to discuss. Two of those reasons deserve emphasis. Consistency protects the company: when everyone destroys to the same published schedule, destruction is routine. A litigation hold is the other.",
     "anim": "lifeCycle",
@@ -28,47 +28,49 @@
   "scenes": [
     {
       "id": "fig-f411-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F411-06",
       "title": "Why a written retention policy matters",
-      "say": "Why a written retention policy matters",
-      "caption": "Why a written policy matters (F.2.e)",
-      "col1": "The reason",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Why a written policy matters (F.2.e)",
+      "col": "The reason",
       "rows": [
         {
-          "name": "Legal and tax requirements",
-          "a": "Records must exist for as long as a law or authority may ask",
-          "b": "Jordanian tax and company law periods"
+          "label": "Legal and tax requirements",
+          "right": "Records must exist for as long as a law or authority may ask",
+          "why": "The reason: Records must exist for as long as a law or authority may ask. Jordanian tax and company law periods."
         },
         {
-          "name": "Audit and contract needs",
-          "a": "Evidence must survive long enough to support a claim or an audit",
-          "b": "Supplier contracts and the records behind them"
+          "label": "Audit and contract needs",
+          "right": "Evidence must survive long enough to support a claim or an audit",
+          "why": "The reason: Evidence must survive long enough to support a claim or an audit. Supplier contracts and the records behind them."
         },
         {
-          "name": "Privacy obligations",
-          "a": "Personal data must be deleted once its purpose has ended",
-          "b": "Jordan's Personal Data Protection Law, in force since 2024"
+          "label": "Privacy obligations",
+          "right": "Personal data must be deleted once its purpose has ended",
+          "why": "The reason: Personal data must be deleted once its purpose has ended. Jordan's Personal Data Protection Law, in force since 2024."
         },
         {
-          "name": "Cost and risk of keeping",
-          "a": "Data held beyond its purpose costs money and can still be stolen",
-          "b": "Twelve years of customer records nobody uses"
+          "label": "Cost and risk of keeping",
+          "right": "Data held beyond its purpose costs money and can still be stolen",
+          "why": "The reason: Data held beyond its purpose costs money and can still be stolen. Twelve years of customer records nobody uses."
         },
         {
-          "name": "Consistency",
-          "a": "Everyone destroys to the same rule, or destruction looks selective",
-          "b": "One schedule, applied by everyone"
+          "label": "Consistency",
+          "right": "Everyone destroys to the same rule, or destruction looks selective",
+          "why": "The reason: Everyone destroys to the same rule, or destruction looks selective. One schedule, applied by everyone."
         },
         {
-          "name": "Litigation hold",
-          "a": "Routine destruction stops once a dispute is foreseeable",
-          "b": "Deleting on schedule during a dispute looks deliberate"
+          "label": "Litigation hold",
+          "right": "Routine destruction stops once a dispute is foreseeable",
+          "why": "The reason: Routine destruction stops once a dispute is foreseeable. Deleting on schedule during a dispute looks deliberate."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Why a written retention policy matters",
+      "from": [
+        "F411-06",
+        "11.5/t:why-a-written-po"
+      ]
     },
     {
       "id": "sc411-9",
@@ -93,6 +95,9 @@
           "why": "Selective destruction looks deliberate even when it is innocent.",
           "correct": true
         }
+      ],
+      "from": [
+        "11.5/section-check"
       ]
     },
     {
@@ -119,7 +124,10 @@
           "why": "The auditor has no role in a litigation hold."
         }
       ],
-      "exhibit": "A dispute becomes foreseeable."
+      "exhibit": "A dispute becomes foreseeable.",
+      "from": [
+        "11.5/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Limitations and links to the other statements",
   "n": "2.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.5"),
   "brief": {
     "about": "The balance sheet is useful, but it is not a valuation of the company. Most assets are at historical cost, not current value: Orontes's land and buildings are shown at what they cost years ago. Many amounts depend on estimates, such as the allowance for credit losses and useful lives. Important resources are missing. Finally, the balance sheet shows one day. The four statements are connected.",
     "anim": "links",
@@ -32,7 +32,10 @@
       "kind": "figure",
       "file": "F02-09.png",
       "label": "Figure F02-09.",
-      "caption": "How the Orontes 2025 statements link to the balance sheet."
+      "caption": "How the Orontes 2025 statements link to the balance sheet.",
+      "from": [
+        "F02-09"
+      ]
     },
     {
       "id": "links",
@@ -100,6 +103,10 @@
       ],
       "traps": [
         "book-value-is-not-market-value"
+      ],
+      "from": [
+        "F02-09",
+        "2.5/exam-trap"
       ]
     },
     {
@@ -133,6 +140,9 @@
       ],
       "traps": [
         "book-value-is-not-market-value"
+      ],
+      "from": [
+        "2.5/exam-trap"
       ]
     },
     {
@@ -192,7 +202,10 @@
           "why": "Land is not depreciated, and depreciation would reduce, not increase, its carrying amount."
         }
       ],
-      "exhibit": "Orontes bought land in 2005 for $400,000. It is worth about $2 million today."
+      "exhibit": "Orontes bought land in 2005 for $400,000. It is worth about $2 million today.",
+      "from": [
+        "2.5/section-check"
+      ]
     },
     {
       "id": "sc2-10",
@@ -218,7 +231,10 @@
           "why": "Dividends paid are a financing outflow, not a balance sheet amount."
         }
       ],
-      "say": "Which amount on the statement of cash flows must equal an amount on the balance sheet?"
+      "say": "Which amount on the statement of cash flows must equal an amount on the balance sheet?",
+      "from": [
+        "2.5/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Internal control risk and how it is managed",
   "n": "1.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.1"),
   "brief": {
     "about": "Internal control is a process, carried out by the board, management and other staff, designed to give reasonable assurance that the organization's objectives will be achieved. It is a process, not a document: a written procedure that nobody follows is not a control. Control risk is the risk that internal control will not prevent or detect a material misstatement in time. It sits beside two others.",
     "anim": "riskStack",
@@ -28,37 +28,39 @@
   "scenes": [
     {
       "id": "fig-f401-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F401-02",
       "title": "The three risks, and the one the auditor controls",
-      "say": "The three risks, and the one the auditor controls",
-      "caption": "Risk",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Risk",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Inherent risk",
-          "a": "How open an assertion is to material misstatement BEFORE considering any control",
-          "b": "Spices are small, valuable and easy to carry out"
+          "label": "Inherent risk",
+          "right": "How open an assertion is to material misstatement BEFORE considering any control",
+          "why": "What it means: How open an assertion is to material misstatement BEFORE considering any control. Spices are small, valuable and easy to carry out."
         },
         {
-          "name": "Control risk",
-          "a": "The risk that internal control will not prevent or detect that misstatement in time",
-          "b": "One storekeeper both receives and records stock"
+          "label": "Control risk",
+          "right": "The risk that internal control will not prevent or detect that misstatement in time",
+          "why": "What it means: The risk that internal control will not prevent or detect that misstatement in time. One storekeeper both receives and records stock."
         },
         {
-          "name": "Detection risk",
-          "a": "The risk that the auditor's own procedures miss it",
-          "b": "The auditor samples only large issues and misses many small ones"
+          "label": "Detection risk",
+          "right": "The risk that the auditor's own procedures miss it",
+          "why": "What it means: The risk that the auditor's own procedures miss it. The auditor samples only large issues and misses many small ones."
         },
         {
-          "name": "Audit risk",
-          "a": "inherent x control x detection",
-          "b": "The only one the auditor can change is detection risk"
+          "label": "Audit risk",
+          "right": "inherent x control x detection",
+          "why": "What it means: inherent x control x detection. The only one the auditor can change is detection risk."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The three risks, and the one the auditor controls",
+      "from": [
+        "F401-02",
+        "1.1/t:risk-what-it-mea"
+      ]
     },
     {
       "id": "sc401-1",
@@ -83,6 +85,9 @@
           "text": "a report signed by the chief financial officer",
           "why": "A certification reports on control; it is not control."
         }
+      ],
+      "from": [
+        "1.1/section-check"
       ]
     },
     {
@@ -108,6 +113,9 @@
           "text": "None of them",
           "why": "Detection risk is the auditor's own."
         }
+      ],
+      "from": [
+        "1.1/section-check"
       ]
     }
   ]

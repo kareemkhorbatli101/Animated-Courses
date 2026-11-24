@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Presentation",
   "n": "14.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.5"),
   "brief": {
     "about": "On the balance sheet, the right-of-use assets and lease liabilities of finance leases are shown separately from those of operating leases, or disclosed with the line items that contain them. Each liability is split into a current part, the principal due within a year, and a noncurrent part. On the income statement, a finance lease shows interest expense and amortization separately; an operating lease shows one lease cost in operating expenses.",
     "anim": "split",
@@ -62,7 +62,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F14-08",
+        "14.5/t:item-finance-lea"
+      ]
     },
     {
       "id": "sc14-9",
@@ -91,6 +95,10 @@
       "say": "Where does Orontes report the principal part of its 2026 olive-press payment in the statement of cash flows?",
       "traps": [
         "cash-flow-traps"
+      ],
+      "from": [
+        "14.5/exam-trap",
+        "14.5/section-check"
       ]
     },
     {
@@ -117,7 +125,10 @@
           "why": "The split applies to finance leases."
         }
       ],
-      "say": "How are the payments on an operating lease classified in the statement of cash flows?"
+      "say": "How are the payments on an operating lease classified in the statement of cash flows?",
+      "from": [
+        "14.5/section-check"
+      ]
     }
   ]
 };

@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the chart that proved too much",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "chartPick"
+  },
+  "scenario": {
+    "title": "Case question: the chart that proved too much",
+    "p": [
+      "The Orontes sales director has prepared a single slide for the board. It shows a bar chart of 2028 quarterly case volumes with the vertical axis beginning at 205,000, under the title 'Quarterly case volumes, 2028'. The third-quarter bar is more than three times the height of the first.",
+      "His conclusion, stated verbally, is that the summer promotion campaign transformed demand and should be doubled next year. The underlying figures are correct and the axis is clearly labelled. The board has thirty minutes for the item and will see the slide once, on a screen, without the underlying workings.",
+      "The same slide carries a second chart, showing cases sold alongside the number of distributor visits made by the sales team over the same period. The two series move together closely. No note records that the promotion weeks were fewest in the peak quarter.",
+      "Rania has been asked to review the slide before it goes to the board. She has the regression of Chapter 15 and the decomposition of Chapter 16 available. She has been asked to comment on the slide itself rather than to redo the analysis behind it."
+    ],
+    "note": "Use the scenario above for items C418-1 to C418-7."
   },
   "scenes": [
     {
@@ -34,25 +44,30 @@
         {
           "name": "The underlying figures are correct",
           "to": "sound",
-          "why": "The strongest single change is in the title."
+          "why": "Feature of the slide: Sound. The strongest single change is in the title."
         },
         {
           "name": "The bar chart's axis begins at 205,000",
           "to": "defect",
-          "why": "The strongest single change is in the title."
+          "why": "Feature of the slide: Defect. The strongest single change is in the title."
         },
         {
           "name": "Two charts and two messages on one slide",
           "to": "defect",
-          "why": "The strongest single change is in the title."
+          "why": "Feature of the slide: Defect. The strongest single change is in the title."
         },
         {
           "name": "The title names the axes rather than the finding",
           "to": "defect",
-          "why": "The strongest single change is in the title."
+          "why": "Feature of the slide: Defect. The strongest single change is in the title."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:feature-of-the-s",
+        "Practice/t:feature-of-the-s#2",
+        "Answers and explanations/t:feature-of-the-s"
+      ]
     },
     {
       "id": "c418-2",

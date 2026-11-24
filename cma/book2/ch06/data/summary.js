@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "jobCard"
+    "anim": "jobCard",
+    "about": "Figure F206-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Job order costing collects costs for each separate job on a job cost sheet. Direct materials and direct labor come from requisitions and time tickets; overhead is applied at a predetermined rate times the actual base. Indirect costs go to Manufacturing Overhead Control. Open job sheets equal work in process, finished unsold sheets equal finished goods, and sold jobs make up cost of goods sold. Job costing gives accurate order costs but needs detailed records, and its overhead is still an allocation."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F206-12.png",
       "label": "Figure F206-12.",
       "caption": "Chapter 6 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F206-12"
+      ]
     },
     {
       "id": "rules",

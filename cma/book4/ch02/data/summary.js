@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "boardLine"
+    "anim": "boardLine",
+    "about": "Figure F402-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Corporate governance is the system by which a company is directed and held to account, and it exists because owners are not managers. The board oversees strategy, risk, control and reporting, appoints and assesses the CEO, and owes duties of care and loyalty; it does not manage. Governance documents form a hierarchy of law, articles of incorporation, bylaws, policies and procedures, and no lower document may contradict a higher one. Every audit committee member must be independent, and the committee, not management, appoints and oversees the external auditor. Personnel policies are themselves controls, because every control is carried out by a person."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F402-09.png",
       "label": "Figure F402-09.",
       "caption": "Chapter 2 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F402-09"
+      ]
     },
     {
       "id": "rules",

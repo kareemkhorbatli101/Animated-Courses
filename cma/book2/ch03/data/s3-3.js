@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Simple regression",
   "n": "3.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.3"),
   "brief": {
     "about": "Regression analysis fits the line that best explains cost using all the data points. In simple regression there is one independent variable x, the activity, and one dependent variable y, the cost. The equation is y = a + b x. The intercept a is the estimated fixed cost for the period. The slope b is the variable cost for each extra unit of activity. Figure F203-05 shows both on a graph.",
     "anim": "scatterLine",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F203-05.png",
       "label": "Figure F203-05.",
-      "caption": "Anatomy of a simple regression line: intercept a and slope b."
+      "caption": "Anatomy of a simple regression line: intercept a and slope b.",
+      "from": [
+        "F203-05"
+      ]
     },
     {
       "id": "fig-f203-06",
@@ -91,6 +94,12 @@
             "Months of data"
           ]
         }
+      ],
+      "from": [
+        "F203-06",
+        "3.3/t:regression-outpu",
+        "Practice/t:output-item-cate",
+        "Answers and explanations/t:output-item-cate"
       ]
     },
     {
@@ -116,6 +125,9 @@
           "text": "the level of activity",
           "why": "Activity is x."
         }
+      ],
+      "from": [
+        "3.3/section-check"
       ]
     },
     {
@@ -142,7 +154,10 @@
           "why": "R² says nothing about the fixed share."
         }
       ],
-      "exhibit": "The Oils regression has R² = 0.987."
+      "exhibit": "The Oils regression has R² = 0.987.",
+      "from": [
+        "3.3/section-check"
+      ]
     }
   ]
 };

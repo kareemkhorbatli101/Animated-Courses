@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "rateFraction"
+    "anim": "rateFraction",
+    "about": "Figure F205-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Actual costing uses actual materials, labor and overhead; it is exact but late, and its unit cost moves with volume. Normal costing applies overhead at a predetermined rate times the actual base, which gives timely, smooth costs. Standard costing values the standard quantities allowed at standard prices and records the differences as variances. Variable overhead is the sum of its components; choose a base that drives them, and multiply the rate by the base per unit."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F205-12.png",
       "label": "Figure F205-12.",
       "caption": "Chapter 5 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F205-12"
+      ]
     },
     {
       "id": "rules",

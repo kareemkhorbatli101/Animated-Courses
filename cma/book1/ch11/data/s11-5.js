@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Special situations",
   "n": "11.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.5"),
   "brief": {
     "about": "When another party is involved, the company must decide whether it is a principal or an agent. A principal controls the good or service before it is transferred and reports revenue gross. An agent only arranges the sale and reports its fee or commission as revenue. Figure F11-08 shows the difference for a drop shipment by Barada. Control is also the test in other cases.",
     "anim": "netGain",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F11-08.png",
       "label": "Figure F11-08.",
-      "caption": "Principal or agent: gross or net revenue on a drop shipment."
+      "caption": "Principal or agent: gross or net revenue on a drop shipment.",
+      "from": [
+        "F11-08"
+      ]
     },
     {
       "id": "fig-f11-09",
@@ -76,7 +79,12 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F11-09",
+        "11.5/t:suppose-barada-s",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -121,6 +129,13 @@
       "caption": "Suppose: Barada's sale with a right of return (complete the blanks)",
       "traps": [
         "special-situation-traps"
+      ],
+      "from": [
+        "11.5/your-turn",
+        "F11-09",
+        "11.5/t:suppose-barada-s",
+        "11.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -147,7 +162,10 @@
           "why": "Gross revenue is for a principal."
         }
       ],
-      "say": "Use Figure F11-08. If Barada is an agent, what revenue does it report (whole USD)?"
+      "say": "Use Figure F11-08. If Barada is an agent, what revenue does it report (whole USD)?",
+      "from": [
+        "11.5/section-check"
+      ]
     },
     {
       "id": "sc11-10",
@@ -173,7 +191,10 @@
           "why": "Timing follows control, not a calendar date."
         }
       ],
-      "exhibit": "Orontes ships olive oil to a shop on consignment."
+      "exhibit": "Orontes ships olive oil to a shop on consignment.",
+      "from": [
+        "11.5/section-check"
+      ]
     }
   ]
 };

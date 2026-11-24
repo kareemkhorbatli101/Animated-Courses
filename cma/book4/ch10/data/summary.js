@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "erpHub"
+    "anim": "erpHub",
+    "about": "Figure F410-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Enterprise resource planning is one suite of modules on one shared database, and the shared database is what defines it. Its advantages are integration, one version of the data, real-time information, standard processes, stronger control and scalability; its costs are a long implementation, processes forced to match the software, training, lost flexibility, a single point of failure and vendor dependence. It answers all six challenges of separate systems by one mechanism: each fact is stored once. A relational database holds rows and columns joined by primary and foreign keys, with referential integrity enforced by the database management system. A data warehouse holds history across every subject; a data mart serves one. Enterprise performance management links strategy to plans, forecasts, reporting and review, making planning driver-based and review timely enough to act on."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F410-09.png",
       "label": "Figure F410-09.",
       "caption": "Chapter 10 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F410-09"
+      ]
     },
     {
       "id": "rules",

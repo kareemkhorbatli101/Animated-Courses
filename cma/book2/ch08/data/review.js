@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "capacityJar"
   },
@@ -143,8 +143,7 @@
         }
       ],
       "traps": [
-        "both-overhead-accounts-return-to-zero",
-        "prorate-on-applied-overhead"
+        "both-overhead-accounts-return-to-zero"
       ]
     },
     {

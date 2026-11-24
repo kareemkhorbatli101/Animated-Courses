@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The indirect method",
   "n": "5.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.3"),
   "brief": {
     "about": "Most U.S. companies use the indirect method for operating activities. It starts with net income and removes everything that is not an operating cash flow. First, add back noncash expenses and losses, such as depreciation, impairments and an increase in deferred tax liabilities. Second, remove gains and losses on investing and financing items; the cash from those sales belongs in investing.",
     "anim": "signs",
@@ -35,6 +35,9 @@
       }
     ]
   },
+  "from": [
+    "5.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f05-06",
@@ -42,7 +45,10 @@
       "file": "F05-06.png",
       "label": "Figure F05-06.",
       "caption": "Sign rules for the indirect method, with Orontes examples.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F05-06"
+      ]
     },
     {
       "id": "signs",
@@ -148,6 +154,10 @@
         "asset-up-subtract",
         "gain-out-proceeds-in",
         "indirect-method-traps"
+      ],
+      "from": [
+        "F05-06",
+        "5.3/exam-trap"
       ]
     },
     {
@@ -204,7 +214,10 @@
           "why": "Working-capital changes must be adjusted."
         }
       ],
-      "say": "Under the indirect method, how does Orontes treat the 384,000 increase in net accounts receivable?"
+      "say": "Under the indirect method, how does Orontes treat the 384,000 increase in net accounts receivable?",
+      "from": [
+        "5.3/section-check"
+      ]
     },
     {
       "id": "sc5-6",
@@ -230,7 +243,10 @@
           "why": "Selling equipment is an investing activity."
         }
       ],
-      "exhibit": "A company sells equipment with a carrying amount of $40,000 for $55,000."
+      "exhibit": "A company sells equipment with a carrying amount of $40,000 for $55,000.",
+      "from": [
+        "5.3/section-check"
+      ]
     }
   ]
 };

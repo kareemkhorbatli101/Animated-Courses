@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Sensitivity, what-if and goal seeking",
   "n": "17.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.3"),
   "brief": {
     "about": "Three related techniques vary the assumptions deliberately. Figure F417-04 distinguishes them. sensitivity analysis changes one assumption at a time and records how far the answer moves. Its purpose is not to forecast but to rank: it tells you which assumption deserves the most effort in estimating, and which can be left rough. Figure F417-05 applies it to the expansion.",
     "anim": "whatIf",
@@ -32,7 +32,10 @@
       "kind": "figure",
       "file": "F417-05.png",
       "label": "Figure F417-05.",
-      "caption": "Sensitivity: how far each assumption moves the answer."
+      "caption": "Sensitivity: how far each assumption moves the answer.",
+      "from": [
+        "F417-05"
+      ]
     },
     {
       "id": "grid-04",
@@ -95,6 +98,10 @@
           },
           "why": "The question it answers: What is the whole range of outcomes?. Varies: All at once, with probabilities."
         }
+      ],
+      "from": [
+        "F417-04",
+        "17.3/t:technique-what-i"
       ]
     },
     {
@@ -120,6 +127,9 @@
           "why": "It says where estimating effort should go.",
           "correct": true
         }
+      ],
+      "from": [
+        "17.3/section-check"
       ]
     },
     {
@@ -145,6 +155,9 @@
           "text": "simulation",
           "why": "Simulation produces a distribution."
         }
+      ],
+      "from": [
+        "17.3/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Enterprise performance management",
   "n": "10.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.5"),
   "brief": {
     "about": "enterprise performance management (EPM), also called corporate or business performance management, is the set of processes and software that links strategy to plans, budgets, forecasts, reporting and review. Figure F410-07 sets out what it covers. It is not a synonym for ERP, and the difference is worth stating plainly. Four things follow for planning, and they are what a Level C question asks about. The software matters less than the discipline.",
     "anim": "lifeCycle",
@@ -29,47 +29,49 @@
   "scenes": [
     {
       "id": "fig-f410-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F410-07",
       "title": "What enterprise performance management covers",
-      "say": "What enterprise performance management covers",
-      "caption": "EPM activity",
-      "col1": "What it does",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "EPM activity",
+      "col": "What it does",
       "rows": [
         {
-          "name": "Strategy",
-          "a": "Turn objectives into measurable targets",
-          "b": "The Gulf expansion becomes a volume and margin target"
+          "label": "Strategy",
+          "right": "Turn objectives into measurable targets",
+          "why": "What it does: Turn objectives into measurable targets. The Gulf expansion becomes a volume and margin target."
         },
         {
-          "name": "Planning and budgeting",
-          "a": "Build the plan from drivers, not last year plus a percentage",
-          "b": "Cases times price, with named assumptions"
+          "label": "Planning and budgeting",
+          "right": "Build the plan from drivers, not last year plus a percentage",
+          "why": "What it does: Build the plan from drivers, not last year plus a percentage. Cases times price, with named assumptions."
         },
         {
-          "name": "Forecasting",
-          "a": "Re-forecast as conditions change, not once a year",
-          "b": "A rolling forecast updated monthly"
+          "label": "Forecasting",
+          "right": "Re-forecast as conditions change, not once a year",
+          "why": "What it does: Re-forecast as conditions change, not once a year. A rolling forecast updated monthly."
         },
         {
-          "name": "Consolidation and reporting",
-          "a": "Combine divisions and report one result",
-          "b": "Three divisions and Levant into one group figure"
+          "label": "Consolidation and reporting",
+          "right": "Combine divisions and report one result",
+          "why": "What it does: Combine divisions and report one result. Three divisions and Levant into one group figure."
         },
         {
-          "name": "Monitoring",
-          "a": "Compare actual with plan and show the gap",
-          "b": "The variance analysis of Book 2"
+          "label": "Monitoring",
+          "right": "Compare actual with plan and show the gap",
+          "why": "What it does: Compare actual with plan and show the gap. The variance analysis of Book 2."
         },
         {
-          "name": "Review and act",
-          "a": "Decide what to change, and feed it back into the plan",
-          "b": "The balanced scorecard of Book 3, Chapter 18"
+          "label": "Review and act",
+          "right": "Decide what to change, and feed it back into the plan",
+          "why": "What it does: Decide what to change, and feed it back into the plan. The balanced scorecard of Book 3, Chapter 18."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "What enterprise performance management covers",
+      "from": [
+        "F410-07",
+        "10.5/t:epm-activity-wha"
+      ]
     },
     {
       "id": "sc410-9",
@@ -94,6 +96,9 @@
           "text": "ERP is used by finance and EPM by operations",
           "why": "Both are used across the business."
         }
+      ],
+      "from": [
+        "10.5/section-check"
       ]
     },
     {
@@ -119,6 +124,9 @@
           "text": "Consolidation and reporting",
           "why": "A core EPM activity."
         }
+      ],
+      "from": [
+        "10.5/section-check"
       ]
     }
   ]

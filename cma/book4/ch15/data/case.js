@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the forecast for the hot quarter",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "regPlane"
+  },
+  "scenario": {
+    "title": "Case question: the forecast for the hot quarter",
+    "p": [
+      "The Beverages division has fitted a regression to eight quarters of data. Cases sold are explained by price, mean temperature and the number of promotion weeks. The price coefficient is negative, and the temperature and promotion coefficients are both positive.",
+      "The model reports an R squared of 0.9989, an adjusted R squared of 0.9982 and a standard error of 555 cases. The divisional accountant has described the model to the board as 'virtually certain' and has proposed using it to set the production plan for the next two years. No hold-out sample was kept, and the model has not been tested against any data it did not see during fitting.",
+      "A junior analyst has raised two points. First, that eight observations and three variables is a small basis for such a claim. Second, that the same technique could be used to predict whether a given distributor will pay late, since that too is recorded in the system.",
+      "The plant manager has separately asked what the model says demand will be if price is held at 20.00, forecast temperature is 26 degrees and four promotion weeks are planned."
+    ],
+    "note": "Use the scenario above for items C415-1 to C415-7."
   },
   "scenes": [
     {
@@ -42,25 +52,31 @@
         {
           "name": "What were cases sold last quarter?",
           "to": "descriptive",
-          "why": "Analytics is usually divided into four types by the question each answers."
+          "why": "Question asked: Descriptive. Analytics is usually divided into four types by the question each answers."
         },
         {
           "name": "Why did the third quarter peak?",
           "to": "diagnostic",
-          "why": "Analytics is usually divided into four types by the question each answers."
+          "why": "Question asked: Diagnostic. Analytics is usually divided into four types by the question each answers."
         },
         {
           "name": "How many cases next summer?",
           "to": "predictive",
-          "why": "Analytics is usually divided into four types by the question each answers."
+          "why": "Question asked: Predictive. Analytics is usually divided into four types by the question each answers."
         },
         {
           "name": "How many shifts should we run?",
           "to": "prescriptive",
-          "why": "Analytics is usually divided into four types by the question each answers."
+          "why": "Question asked: Prescriptive. Analytics is usually divided into four types by the question each answers."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:question-asked-c",
+        "Practice/t:question-asked-c#2",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:question-asked-c"
+      ]
     },
     {
       "id": "c415-2",
@@ -86,7 +102,7 @@
           "why": "It learns from cases whose answer is known, and then assigns new ones."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C415-1 to C415-7."
     },
     {
       "id": "c415-3",

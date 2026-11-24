@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Expense recognition",
   "n": "15.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.2"),
   "brief": {
     "about": "Expenses are recognized in one of three ways. When there is a clear cause and effect, the expense follows the related revenue: cost of goods sold is recognized when the goods are sold. This is the matching principle from Chapter 11. When a cost benefits several periods but cannot be linked to specific revenue, it is spread by systematic and rational allocation.",
     "anim": "cost",
@@ -67,6 +67,10 @@
       ],
       "traps": [
         "dise-expense-disaggregation"
+      ],
+      "from": [
+        "F15-03",
+        "15.2/t:approach-idea-or"
       ]
     },
     {
@@ -93,7 +97,10 @@
           "why": "Expense recognition follows the accrual basis."
         }
       ],
-      "say": "Depreciation of the bottling line is an example of which expense recognition approach?"
+      "say": "Depreciation of the bottling line is an example of which expense recognition approach?",
+      "from": [
+        "15.2/section-check"
+      ]
     },
     {
       "id": "sc15-4",
@@ -119,7 +126,10 @@
           "why": "No clear link to specific future revenue exists."
         }
       ],
-      "exhibit": "Orontes spends $200,000 on a TV advertising campaign that it expects to raise sales next year."
+      "exhibit": "Orontes spends $200,000 on a TV advertising campaign that it expects to raise sales next year.",
+      "from": [
+        "15.2/section-check"
+      ]
     }
   ]
 };

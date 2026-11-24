@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 7A: one year, three cost flows",
   "n": "7.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.6"),
   "brief": {
     "about": "This example runs one purchase sequence through FIFO, LIFO and weighted average, and then shows what each does to profit and tax. It is exam-core: the three methods are usually tested on the same facts. Orontes starts with 1,000 units at $40 and buys three times during the year, ending at $50. That gives 8,000 units costing $372,000. It sells 6,000 units at $70, leaving 2,000 units in stock.",
     "anim": "layers",
@@ -61,6 +61,9 @@
       }
     ]
   },
+  "from": [
+    "7.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-10",
@@ -126,6 +129,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F07-10",
+        "7.6/t:orontes-periodic",
+        "7.6/exam-trap"
       ]
     },
     {
@@ -191,6 +199,84 @@
             "c3"
           ]
         }
+      ],
+      "from": [
+        "F07-11",
+        "7.6/t:orontes-2025-usd"
+      ]
+    },
+    {
+      "id": "t7-6-2",
+      "kind": "lines",
+      "kicker": "Section 7.6",
+      "title": "Memo item",
+      "caption": "Memo item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "M1 (FOB shipping point, bought)",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "M2 (FOB destination, sold)",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "M3 (held for a Beirut producer)",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "M4 (at a Doha consignee)",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:memo-item-catego",
+        "Answers and explanations/t:memo-item-catego"
+      ]
+    },
+    {
+      "id": "t7-6-3",
+      "kind": "lines",
+      "kicker": "Section 7.6",
+      "title": "Memo item",
+      "caption": "Memo item",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "M1 (FOB shipping point, bought)",
+          "a": "Add to the count",
+          "b": ""
+        },
+        {
+          "name": "M2 (FOB destination, sold)",
+          "a": "Add to the count",
+          "b": ""
+        },
+        {
+          "name": "M3 (held for a Beirut producer)",
+          "a": "Subtract from the count",
+          "b": ""
+        },
+        {
+          "name": "M4 (at a Doha consignee)",
+          "a": "Add to the count",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:memo-item-catego",
+        "Answers and explanations/t:memo-item-catego"
       ]
     },
     {
@@ -245,6 +331,9 @@
           "text": "372,000",
           "why": "This is the whole cost of goods available."
         }
+      ],
+      "from": [
+        "7.6/section-check"
       ]
     },
     {
@@ -271,7 +360,10 @@
           "why": "They differ whenever unit costs change."
         }
       ],
-      "say": "Use Extended Example 7A. In this rising market, which method gives the highest gross profit?"
+      "say": "Use Extended Example 7A. In this rising market, which method gives the highest gross profit?",
+      "from": [
+        "7.6/section-check"
+      ]
     },
     {
       "id": "sc7-13",
@@ -292,6 +384,9 @@
           "text": "84,000",
           "why": "This is LIFO ending inventory itself."
         }
+      ],
+      "from": [
+        "7.6/section-check"
       ]
     }
   ]

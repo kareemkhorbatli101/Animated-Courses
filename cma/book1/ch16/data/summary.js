@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "influence"
+    "anim": "influence",
+    "about": "Figure F16-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Consolidated statements present a parent and its subsidiaries as one economic entity. A company first tests whether an entity is a VIE and consolidates it if it is the primary beneficiary; otherwise it consolidates when it holds more than 50% of the votes. Controlled entities are fully consolidated; significant influence and joint ventures use the equity method; proportionate consolidation is rare. At acquisition, NCI is measured at fair value, and goodwill equals the price plus NCI minus net assets at fair value. All intercompany balances and transactions are eliminated in full, and upstream unrealized profit is shared with NCI."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F16-13.png",
       "label": "Figure F16-13.",
       "caption": "Chapter 16 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F16-13"
+      ]
     },
     {
       "id": "rules",

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "cosoBase"
+    "anim": "cosoBase",
+    "about": "Figure F401-08 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Internal control is a process giving reasonable assurance about objectives in three categories: operations, reporting and compliance, where reporting means internal and external, financial and non-financial. Control risk is the risk that control fails to prevent or detect a misstatement, and it sits alongside inherent and detection risk. The control environment is the foundation: structure, philosophy, policies, competence and accountability decide whether every other control works. Assurance is reasonable, never absolute, because of judgment, error, collusion, management override, external events and the cost of control."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F401-08.png",
       "label": "Figure F401-08.",
       "caption": "Chapter 1 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F401-08"
+      ]
     },
     {
       "id": "rules",

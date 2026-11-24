@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "costLine"
+    "anim": "costLine",
+    "about": "Figure F202-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Variable costs change in total with activity and are constant per unit. Fixed costs are constant in total and fall per unit as activity rises. Mixed costs have both parts, and step costs jump at set levels. These rules hold only inside the relevant range and for a stated time frame; in the long run all costs can change. Account analysis separates each cost into its fixed and variable parts to give a cost function for budgets."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F202-12.png",
       "label": "Figure F202-12.",
       "caption": "Chapter 2 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F202-12"
+      ]
     },
     {
       "id": "rules",

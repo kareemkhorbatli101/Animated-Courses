@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The sales budget and the profit plan",
   "n": "6.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.1"),
   "brief": {
     "about": "The master budget is also called the annual profit plan, because it ends in budgeted profit. The sales budget is its first schedule: the planned units and revenue for each period. Almost every other budget depends on it. Figure F306-02 shows how sales drive production, selling expenses, cash collections and the budgeted income statement. That is why the sales budget deserves the most care.",
     "anim": "salesFirst",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F306-02.png",
       "label": "Figure F306-02.",
-      "caption": "The sales budget at the centre of the profit plan."
+      "caption": "The sales budget at the centre of the profit plan.",
+      "from": [
+        "F306-02"
+      ]
     },
     {
       "id": "sc306-1",
@@ -58,6 +61,9 @@
       ],
       "traps": [
         "sales-overstated-company-buys-too"
+      ],
+      "from": [
+        "6.1/section-check"
       ]
     },
     {
@@ -84,7 +90,10 @@
           "why": "Production would be too high."
         }
       ],
-      "exhibit": "The sales budget is 10% too high."
+      "exhibit": "The sales budget is 10% too high.",
+      "from": [
+        "6.1/section-check"
+      ]
     }
   ]
 };

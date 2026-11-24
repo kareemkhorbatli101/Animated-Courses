@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The capital expenditure budget",
   "n": "9.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.1"),
   "brief": {
     "about": "The capital expenditure budget plans spending on long-term assets, such as plant, equipment and systems, by project and by period. Each project is approved separately, usually with capital budgeting methods (a CMA Part 2 topic), and then placed in the quarter when cash will be paid. One investment affects three statements. The capital budget is a financial budget, not part of the operating budget: the purchase itself is not an expense.",
     "anim": "capexPaths",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "9.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f309-03",
       "kind": "figure",
       "file": "F309-03.png",
       "label": "Figure F309-03.",
-      "caption": "How the capital budget reaches the other budgets."
+      "caption": "How the capital budget reaches the other budgets.",
+      "from": [
+        "F309-03"
+      ]
     },
     {
       "id": "fig-f309-02",
@@ -119,6 +125,10 @@
             "2,500,000"
           ]
         }
+      ],
+      "from": [
+        "F309-02",
+        "9.1/t:capital-budget-2"
       ]
     },
     {
@@ -147,6 +157,9 @@
       ],
       "traps": [
         "capital-budget-financial-budget-part"
+      ],
+      "from": [
+        "9.1/section-check"
       ]
     },
     {
@@ -173,7 +186,10 @@
           "why": "This is the whole project."
         }
       ],
-      "exhibit": "A project spends installation $300,000 and half of $100,000 training in the second quarter."
+      "exhibit": "A project spends installation $300,000 and half of $100,000 training in the second quarter.",
+      "from": [
+        "9.1/section-check"
+      ]
     }
   ]
 };

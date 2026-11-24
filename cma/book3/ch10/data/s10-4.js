@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The pro forma balance sheet and statement of cash flows",
   "n": "10.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.4"),
   "brief": {
     "about": "Every line of the pro forma balance sheet comes from a schedule already prepared. Figure F310-08 shows each balance at the start and end of 2028 with its source. Two new liabilities appear: the income tax of $626,400 and the dividend of $1,002,240, both declared for 2028 but paid early in the next year. Total assets of $12,361,970 equal liabilities and equity, as they must.",
     "anim": "cashLoop",
@@ -156,6 +156,13 @@
       ],
       "traps": [
         "depreciation-and-asset-purchases"
+      ],
+      "from": [
+        "F310-08",
+        "10.4/t:pro-forma-balanc",
+        "10.4/exam-trap",
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
       ]
     },
     {
@@ -176,6 +183,10 @@
           "answer": "1202450",
           "why": "Net change in cash: 1,202,450."
         }
+      ],
+      "from": [
+        "F310-09",
+        "10.4/t:pro-forma-statem"
       ]
     },
     {
@@ -202,7 +213,10 @@
           "why": "Not a financing item."
         }
       ],
-      "say": "In the pro forma statement of cash flows, how is depreciation of $800,000 treated?"
+      "say": "In the pro forma statement of cash flows, how is depreciation of $800,000 treated?",
+      "from": [
+        "10.4/section-check"
+      ]
     },
     {
       "id": "sc310-8",
@@ -228,7 +242,10 @@
           "why": "Assets and equity are added."
         }
       ],
-      "exhibit": "Total assets are $12,361,970 and equity is $9,892,580."
+      "exhibit": "Total assets are $12,361,970 and equity is $9,892,580.",
+      "from": [
+        "10.4/section-check"
+      ]
     }
   ]
 };

@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P206-01–P206-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "jobCard"
   },

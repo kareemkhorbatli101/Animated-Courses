@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Orontes impairment review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "impair"
+  },
+  "scenario": {
+    "title": "Case question: the Orontes impairment review",
+    "p": [
+      "At the end of 2025 Orontes reviewed its long-lived assets for impairment. Sales of pastries had fallen, a warehouse was half empty, and the value of one acquired business had dropped. Orontes had also decided to sell some old delivery vans.",
+      "The assets are of different kinds: a production line and a warehouse that are held and used, an indefinite-lived brand, the goodwill of an acquired unit, and the vans. U.S. GAAP applies a different impairment test to each kind, and the vans may now meet the criteria for held for sale.",
+      "The group controller has collected the carrying amounts, the undiscounted future cash flows, the fair values and the costs to sell from the valuation team. She must decide which test applies to each asset, measure any loss and prepare the note for the auditors.",
+      "The board wants to know the total loss for the year, and whether the losses can be reversed if values recover in 2026. The board chair also asks whether the vans should still be depreciated while Orontes looks for a buyer. The auditors have asked for the test of each asset to be shown separately, with the source of every fair value."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F10-14",
+        "Practice/t:item-asset-facts",
+        "Practice/t:asset-category",
+        "Answers and explanations/t:asset-category"
+      ]
     },
     {
       "id": "c10-1",
@@ -105,7 +120,11 @@
           "why": "Asset: Lower of carrying amount and fair value less cost to sell."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:asset-category",
+        "Answers and explanations/t:asset-category"
+      ]
     },
     {
       "id": "c10-2",

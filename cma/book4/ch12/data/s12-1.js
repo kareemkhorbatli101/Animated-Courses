@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The system development life cycle",
   "n": "12.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.1"),
   "brief": {
     "about": "The system development life cycle (SDLC) is the ordered sequence by which a system is planned, built and run. Figure F412-02 shows the five stages the exam names. The two design stages are the pair candidates confuse. Conceptual design answers what the system should do, in the language of the business. Physical design answers how it will do it: the files, the programs, the screens and the controls.",
     "anim": "sysRoles",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F412-02.png",
       "label": "Figure F412-02.",
-      "caption": "The five stages of the system development life cycle."
+      "caption": "The five stages of the system development life cycle.",
+      "from": [
+        "F412-02"
+      ]
     },
     {
       "id": "sc412-1",
@@ -56,7 +59,10 @@
           "correct": true
         }
       ],
-      "say": "Which stage decides what the system should do, in the language of the business?"
+      "say": "Which stage decides what the system should do, in the language of the business?",
+      "from": [
+        "12.1/section-check"
+      ]
     },
     {
       "id": "sc412-2",
@@ -81,6 +87,9 @@
           "text": "the same as a pilot conversion",
           "why": "A pilot runs the new system in one site only."
         }
+      ],
+      "from": [
+        "12.1/section-check"
       ]
     }
   ]

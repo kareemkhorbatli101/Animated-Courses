@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Limitations and links between the four statements",
   "n": "5.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.5"),
   "brief": {
     "about": "Cash flows are harder to manage than profits, but not impossible. A company can raise operating cash near year-end by delaying payments to suppliers or by selling receivables. The statement also shows only one year, and it is not a measure of profit. Important noncash deals, such as buying a building with a mortgage, appear only in the notes. Some classifications are also arbitrary: interest paid is operating under U.S.",
     "anim": "cashLink",
@@ -33,6 +33,9 @@
       }
     ]
   },
+  "from": [
+    "5.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f05-08",
@@ -40,7 +43,10 @@
       "file": "F05-08.png",
       "label": "Figure F05-08.",
       "caption": "How Orontes's four 2025 statements fit together.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F05-08"
+      ]
     },
     {
       "id": "links",
@@ -109,6 +115,9 @@
       "traps": [
         "proposals-and-future-changes",
         "tableau-de-financement"
+      ],
+      "from": [
+        "F05-08"
       ]
     },
     {
@@ -135,7 +144,10 @@
           "correct": true
         }
       ],
-      "say": "How can a company increase its operating cash flow at year-end without improving its business?"
+      "say": "How can a company increase its operating cash flow at year-end without improving its business?",
+      "from": [
+        "5.5/section-check"
+      ]
     },
     {
       "id": "sc5-10",
@@ -161,7 +173,10 @@
           "why": "Dividends paid are a flow, not a balance."
         }
       ],
-      "say": "Which amount on the statement of cash flows must equal an amount on the balance sheet?"
+      "say": "Which amount on the statement of cash flows must equal an amount on the balance sheet?",
+      "from": [
+        "5.5/section-check"
+      ]
     }
   ]
 };

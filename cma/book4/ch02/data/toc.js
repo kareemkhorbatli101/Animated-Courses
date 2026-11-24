@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.2",
   "title": "What the board is responsible for",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s2-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.3",
   "title": "The hierarchy of governance documents",
-  "blurb": "Figures, a printed statement, shares, questions · 5 scenes"
+  "blurb": "Figures, match, shares, questions · 5 scenes"
  },
  {
   "id": "s2-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.4",
   "title": "Why personnel policy is a control",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s2-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.5",
   "title": "Extended Example 2A: four decisions and who makes them",
-  "blurb": "A printed statement, shares, questions · 4 scenes"
+  "blurb": "A printed statement, shares, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -81,6 +81,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the chairman who wants both jobs",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 8 scenes"
  },
  {
   "id": "review",

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "threeBoxes"
+    "anim": "threeBoxes",
+    "about": "Figure F201-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "A cost object is anything whose cost is measured. Direct and indirect depend on the cost object; product and period costs decide whether a cost waits in inventory or is expensed at once. Indirect costs are grouped in pools and assigned with bases that should cause the cost. Product costs flow from raw materials to work in process, finished goods and cost of goods sold, and the schedule of cost of goods manufactured records that flow."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F201-12.png",
       "label": "Figure F201-12.",
       "caption": "Chapter 1 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F201-12"
+      ]
     },
     {
       "id": "rules",

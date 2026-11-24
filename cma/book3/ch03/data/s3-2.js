@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The economy, the industry and the budget",
   "n": "3.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.2"),
   "brief": {
     "about": "Every budget starts from assumptions about the world outside: economic growth, inflation, exchange rates and the state of the industry. If the assumptions are wrong, every number built on them is wrong too. The Beverages sales budget starts from the forecast size of Jordan's juice market, 11,250,000 cases, and Orontes's share of 8.0% from Chapter 2. That gives an evidence-based volume of 900,000 cases. Figure F303-04 lists the main assumptions.",
     "anim": "topDownUp",
@@ -27,42 +27,44 @@
   "scenes": [
     {
       "id": "fig-f303-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F303-04",
       "title": "Economic and industry assumptions behind the Beverages sales budget",
-      "say": "Economic and industry assumptions behind the Beverages sales budget",
-      "caption": "Assumption",
-      "col1": "Value",
-      "col2": "Source and reason",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Assumption",
+      "col": "Source and reason",
       "rows": [
         {
-          "name": "Jordan juice market 2028",
-          "a": "11,250,000 cases",
-          "b": "Industry forecast; market growing 14.0% a year (Chapter 2)"
+          "label": "Jordan juice market 2028",
+          "right": "Industry forecast; market growing 14.0% a year (Chapter 2)",
+          "why": "Source and reason: Industry forecast; market growing 14.0% a year (Chapter 2). 11,250,000 cases."
         },
         {
-          "name": "Orontes share",
-          "a": "8.0%",
-          "b": "From the portfolio review (Chapter 2)"
+          "label": "Orontes share",
+          "right": "From the portfolio review (Chapter 2)",
+          "why": "Source and reason: From the portfolio review (Chapter 2). 8.0%."
         },
         {
-          "name": "Evidence-based sales volume",
-          "a": "900,000 cases",
-          "b": "Market × share"
+          "label": "Evidence-based sales volume",
+          "right": "Market × share",
+          "why": "Source and reason: Market × share. 900,000 cases."
         },
         {
-          "name": "Selling price",
-          "a": "$20.00 a case",
-          "b": "No increase: the dinar is pegged to the US dollar and inflation is low"
+          "label": "Selling price",
+          "right": "No increase: the dinar is pegged to the US dollar and inflation is low",
+          "why": "Source and reason: No increase: the dinar is pegged to the US dollar and inflation is low. $20.00 a case."
         },
         {
-          "name": "Concentrate price",
-          "a": "$0.90 a liter",
-          "b": "Supplier contract; watch world fruit prices"
+          "label": "Concentrate price",
+          "right": "Supplier contract; watch world fruit prices",
+          "why": "Source and reason: Supplier contract; watch world fruit prices. $0.90 a liter."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Economic and industry assumptions behind the Beverages sales budget",
+      "from": [
+        "F303-04",
+        "3.2/t:assumption-value"
+      ]
     },
     {
       "id": "sc303-3",
@@ -87,6 +89,9 @@
           "text": "The company's founding date",
           "why": "Unrelated."
         }
+      ],
+      "from": [
+        "3.2/section-check"
       ]
     },
     {
@@ -113,7 +118,10 @@
           "correct": true
         }
       ],
-      "exhibit": "The juice market is forecast at 11,250,000 cases and Orontes expects an 8% share."
+      "exhibit": "The juice market is forecast at 11,250,000 cases and Orontes expects an 8% share.",
+      "from": [
+        "3.2/section-check"
+      ]
     }
   ]
 };

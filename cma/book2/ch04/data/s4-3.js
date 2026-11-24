@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The learning curve formula",
   "n": "4.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.3"),
   "brief": {
     "about": "For quantities that are not doublings, use the formula Y = a X^b. Y is the cumulative average time per unit, a is the time for the first unit, X is cumulative units, and b = log(learning rate) ÷ log(two). For an 80% curve, b = -0.3219. Three halva batches average 702.1 hours, a total of about 2,106 hours. The learning rate matters a great deal.",
     "anim": "learnCurve",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F204-05.png",
       "label": "Figure F204-05.",
-      "caption": "Total hours for eight batches on an 80% and a 90% curve."
+      "caption": "Total hours for eight batches on an 80% and a 90% curve.",
+      "from": [
+        "F204-05"
+      ]
     },
     {
       "id": "grid-04",
@@ -82,6 +85,10 @@
       ],
       "traps": [
         "the-other-model"
+      ],
+      "from": [
+        "F204-04",
+        "4.3/t:y-a-x-b-a-fir-av"
       ]
     },
     {
@@ -107,6 +114,9 @@
           "text": "0.3219",
           "why": "The exponent is negative: time falls."
         }
+      ],
+      "from": [
+        "4.3/section-check"
       ]
     },
     {
@@ -132,6 +142,9 @@
           "why": "A lower percentage means a larger fall at each doubling.",
           "correct": true
         }
+      ],
+      "from": [
+        "4.3/section-check"
       ]
     }
   ]

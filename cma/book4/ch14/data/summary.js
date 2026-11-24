@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "relTable"
+    "anim": "relTable",
+    "about": "Figure F414-08 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Data mining searches data for patterns, relationships and anomalies not known in advance, and it finds association rather than cause. Its challenges are data quality, size and cost, privacy, spurious findings, overfitting, and knowing when to stop. It is iterative because evaluation routinely sends the analyst back to the model, the preparation or the question, and it is both art and science because the method can be written down while the choice of question and the decision to stop cannot. Structured Query Language asks a relational database which columns, from which table, joined how, keeping which rows, grouped and sorted how. An analyst mines a dataset by starting from the decision, looking before modelling, treating a first impression as a hypothesis, and testing it."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F414-08.png",
       "label": "Figure F414-08.",
       "caption": "Chapter 14 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F414-08"
+      ]
     },
     {
       "id": "rules",

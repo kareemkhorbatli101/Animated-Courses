@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "auditTopDown"
+    "anim": "auditTopDown",
+    "about": "Figure F404-10 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Sarbanes-Oxley requires the CEO and CFO to certify reports under section 302 and, criminally, under section 906; management to assess internal control annually under 404(a); and the auditor to attest under 404(b) for accelerated and large accelerated filers only. Section 802 governs record retention. The PCAOB registers, inspects, disciplines and sets standards for auditors of issuers, and its AS 2201 requires a top-down, risk-based approach that starts at the financial statements and ends at the controls to test. The Foreign Corrupt Practices Act prohibits bribery of foreign officials and, for issuers, requires accurate books and a system of internal accounting controls."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F404-10.png",
       "label": "Figure F404-10.",
       "caption": "Chapter 4 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F404-10"
+      ]
     },
     {
       "id": "rules",

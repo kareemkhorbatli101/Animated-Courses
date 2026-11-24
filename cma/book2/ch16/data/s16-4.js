@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The financial impact of quality improvement",
   "n": "16.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.4"),
   "brief": {
     "about": "Beverages plans a supplier-certification and process-control program. It adds $110,000 a year of prevention, cuts appraisal by $40,000, and is expected to cut internal failure by 45% and external failure by 60%. Figure F216-11 shows the pattern. Prevention rises, and everything else falls by more. The net saving already deducts the extra prevention spending.",
     "anim": "qualityFour",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "16.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f216-11",
       "kind": "figure",
       "file": "F216-11.png",
       "label": "Figure F216-11.",
-      "caption": "Cost of quality by category before and after the program."
+      "caption": "Cost of quality by category before and after the program.",
+      "from": [
+        "F216-11"
+      ]
     },
     {
       "id": "fill-09",
@@ -108,21 +114,85 @@
             "c3": "667,500"
           }
         }
+      ],
+      "from": [
+        "F216-09",
+        "16.4/t:whole-usd-before"
       ]
     },
     {
-      "id": "num-10",
-      "kind": "number",
+      "id": "fig-f216-10",
+      "kind": "lines",
       "kicker": "Figure F216-10",
       "title": "Your turn: the cost of quality after the program",
-      "unit": "USD",
-      "say": "Work each one out from the figures above it.",
-      "fields": [
+      "say": "Your turn: the cost of quality after the program (complete the blanks)",
+      "caption": "Cost of quality after the program",
+      "col1": "Whole USD",
+      "col2": "",
+      "rows": [
         {
-          "label": "Total after the program",
-          "answer": "667500",
-          "why": "Total after the program: 667,500."
+          "name": "Prevention",
+          "a": "230,000",
+          "b": ""
+        },
+        {
+          "name": "Appraisal",
+          "a": "140,000",
+          "b": ""
+        },
+        {
+          "name": "Internal failure (cut by 45%)",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "External failure (cut by 60%)",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Total after the program",
+          "a": "667,500",
+          "b": ""
         }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true,
+      "from": [
+        "F216-10",
+        "16.4/t:cost-of-quality"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F216-10",
+      "title": "The failure costs after the program",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the two blank rows of Figure F216-10.",
+      "blanks": [
+        {
+          "label": "Internal failure after the program",
+          "working": "$250,000 × (100% − 45%) = $137,500",
+          "shown": "$137,500",
+          "answer": 137500,
+          "prompt": "$250,000 × (100% − 45%) ="
+        },
+        {
+          "label": "External failure after the program",
+          "working": "$400,000 × (100% − 60%) = $160,000",
+          "shown": "$160,000",
+          "answer": 160000,
+          "prompt": "$400,000 × (100% − 60%) ="
+        }
+      ],
+      "caption": "Your turn: the cost of quality after the program (complete the blanks)",
+      "from": [
+        "16.4/your-turn",
+        "F216-10",
+        "16.4/t:cost-of-quality",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -149,7 +219,10 @@
           "why": "The extra prevention is not deducted."
         }
       ],
-      "exhibit": "A program adds $110,000 of prevention, cuts appraisal by $40,000 and cuts failure costs by $352,500."
+      "exhibit": "A program adds $110,000 of prevention, cuts appraisal by $40,000 and cuts failure costs by $352,500.",
+      "from": [
+        "16.4/section-check"
+      ]
     },
     {
       "id": "sc216-8",
@@ -175,7 +248,10 @@
           "why": "The percentage is misapplied."
         }
       ],
-      "exhibit": "External failure costs of $400,000 are expected to fall by 60%."
+      "exhibit": "External failure costs of $400,000 are expected to fall by 60%.",
+      "from": [
+        "16.4/section-check"
+      ]
     }
   ]
 };

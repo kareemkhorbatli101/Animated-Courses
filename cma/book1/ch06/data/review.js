@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "transfer"
   },
@@ -40,6 +40,9 @@
       "exhibit": "Orontes has delivered the first of two shipments under one contract. It can bill the customer only after the second shipment.",
       "traps": [
         "receivable-or-contract-asset"
+      ],
+      "from": [
+        "6.1/exam-trap"
       ]
     },
     {
@@ -95,6 +98,9 @@
       "exhibit": "Orontes transfers receivables to a bank but must buy them back before they mature.",
       "traps": [
         "recourse-is-not-the-test"
+      ],
+      "from": [
+        "6.3/exam-trap"
       ]
     },
     {

@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "evTree"
   },
@@ -162,10 +162,7 @@
           "why": "No such requirement."
         }
       ],
-      "exhibit": "A simulation reports a fifth percentile to the nearest pound.",
-      "traps": [
-        "precision-is-not-accuracy"
-      ]
+      "exhibit": "A simulation reports a fifth percentile to the nearest pound."
     },
     {
       "id": "sc417-13",

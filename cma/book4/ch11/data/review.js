@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "lifeCycle"
   },
@@ -111,9 +111,6 @@
           "text": "reduction",
           "why": "Reduction cuts the volume."
         }
-      ],
-      "traps": [
-        "preprocessing-is-not-analysis"
       ]
     },
     {

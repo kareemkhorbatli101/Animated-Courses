@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P202-01–P202-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "costLine"
   },

@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · spoiled jars at Tahini & Spreads",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "spoilGate"
+  },
+  "scenario": {
+    "title": "Case question: spoiled jars at Tahini & Spreads",
+    "p": [
+      "Tahini & Spreads makes tahini, halva and spreads in jobs for Barada and other buyers. Each job has its own cost sheet. In May 2027 the division found spoiled jars on several jobs, and it also reworked and scrapped some output.",
+      "Some spoilage was normal. On one Barada job, the special tolerance that Barada asked for made some jars fail inspection. Other spoiled jars appear on all jobs, and the overhead rate allows for them. Spoiled jars can be sold to a recycler, so each group has a disposal value.",
+      "One event was not normal. A power failure stopped the filling line in the middle of a run, and a full batch of jars was ruined. Efficient operations would not have produced this spoilage. During May the division also reworked some routine jars and sold scrap from all jobs.",
+      "Rania, the division cost accountant, must record the spoilage, rework and scrap correctly before the month closes. The division manager wants to know how much cost stays in the Barada job, how much goes through overhead, and how large the loss from the power failure was. The exhibit gives the costs and the disposal values."
+    ]
   },
   "scenes": [
     {
@@ -51,7 +60,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F207-15",
+        "Practice/t:tahini-spreads-c"
+      ]
     },
     {
       "id": "c207-1",
@@ -101,7 +114,11 @@
           "why": "May event: Manufacturing Overhead Control."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:may-event-catego",
+        "Answers and explanations/t:may-event-catego"
+      ]
     },
     {
       "id": "c207-2",

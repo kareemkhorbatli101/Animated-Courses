@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The cost of property, plant and equipment",
   "n": "10.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.1"),
   "brief": {
     "about": "Property, plant and equipment (PP&E) is recorded at historical cost: everything needed to acquire the asset and get it ready for use. This includes the price, freight, installation, testing and site preparation. When a company buys land with an old building and pulls the building down, the demolition cost is part of the cost of the land. When a company builds an asset for its own use, it capitalizes interest during construction.",
     "anim": "cost",
@@ -21,9 +21,19 @@
           "After purchase, a capital expenditure that extends the asset's life or increases its capacity is added to its cost. A revenue expenditure, such as ordinary repairs and maintenance, is an expense of the period.",
           "When a company builds an asset for its own use, it capitalizes interest during construction. Capitalized interest is the avoidable interest: weighted-average accumulated expenditures × the interest rate, but never more than the interest actually incurred. For example, if Orontes spends on average $2,000 (USD 000) on a new warehouse during the year and the rate on the related loan is 6%, avoidable interest is 120. Actual interest is 150, so Orontes capitalizes 120. Capitalization stops when the asset is substantially complete."
         ]
+      },
+      {
+        "h": "Borrowing costs under IAS 23",
+        "box": "ifrs",
+        "p": [
+          "IAS 23 also capitalizes borrowing costs on qualifying assets. One difference: when a company invests borrowed money for a short time before spending it, IAS 23 deducts the investment income from the amount capitalized. U.S. GAAP generally does not."
+        ]
       }
     ]
   },
+  "from": [
+    "10.1/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "sc10-1",
@@ -48,6 +58,9 @@
           "why": "Installation and testing are needed to get the machine ready for use.",
           "correct": true
         }
+      ],
+      "from": [
+        "10.1/section-check"
       ]
     },
     {
@@ -74,7 +87,10 @@
           "why": "This is the expenditure, not interest."
         }
       ],
-      "exhibit": "Use the capitalized interest example in Section 10.1."
+      "exhibit": "Use the capitalized interest example in Section 10.1.",
+      "from": [
+        "10.1/section-check"
+      ]
     }
   ]
 };

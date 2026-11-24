@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What is a lease?",
   "n": "14.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.1"),
   "brief": {
     "about": "A lease is a contract that gives the right to control the use of an identified asset for a period of time in exchange for payment. The lessee uses the asset; the lessor provides it. The asset must be identified, and the supplier must not have a real right to swap it for another.",
     "anim": "rou",
@@ -47,6 +47,9 @@
           "text": "Orontes buys a delivery van",
           "why": "A purchase is not a lease."
         }
+      ],
+      "from": [
+        "14.1/section-check"
       ]
     },
     {
@@ -73,7 +76,10 @@
           "why": "The lease term is not the asset's life."
         }
       ],
-      "exhibit": "A lease is noncancelable for four years, with a two-year renewal option that the lessee is reasonably certain to use."
+      "exhibit": "A lease is noncancelable for four years, with a two-year renewal option that the lessee is reasonably certain to use.",
+      "from": [
+        "14.1/section-check"
+      ]
     }
   ]
 };

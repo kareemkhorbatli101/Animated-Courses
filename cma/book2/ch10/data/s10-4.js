@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The step-down method",
   "n": "10.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.4"),
   "brief": {
     "about": "The step-down method recognizes some service-to-service links. Service departments are allocated one at a time. A department that has been allocated receives nothing back. Start with the department that serves other service departments the most. Orontes starts with Maintenance: $176,000 goes to IT, so IT's pool becomes $576,000. IT is then shared among the divisions only. Figure F210-05 shows both steps. Step-down is Orontes's policy method.",
     "anim": "svcArrows",
@@ -85,6 +85,12 @@
       ],
       "traps": [
         "use-the-new-pool"
+      ],
+      "from": [
+        "F210-05",
+        "10.4/t:step-1-maintenan",
+        "10.4/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -111,7 +117,10 @@
           "correct": true
         }
       ],
-      "say": "Under step-down with Maintenance first, what amount of IT cost is allocated to the divisions?"
+      "say": "Under step-down with Maintenance first, what amount of IT cost is allocated to the divisions?",
+      "from": [
+        "10.4/section-check"
+      ]
     },
     {
       "id": "sc210-8",
@@ -137,7 +146,10 @@
           "correct": true
         }
       ],
-      "say": "In the step-down method, the first department allocated is usually the one that:"
+      "say": "In the step-down method, the first department allocated is usually the one that:",
+      "from": [
+        "10.4/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Components of equity and the statement of changes in equity",
   "n": "4.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.1"),
   "brief": {
     "about": "The statement of changes in equity explains why each part of equity changed during the period. It separates two kinds of change. Transactions with owners, such as issuing shares and paying dividends, are one kind. Comprehensive income, which the company earns, is the other. Equity has two main parts. Contributed capital is what owners have paid in: common stock and preferred stock at par or stated value, plus additional paid-in capital.",
     "anim": "rollforward",
@@ -31,7 +31,10 @@
       "kind": "figure",
       "file": "F04-03.png",
       "label": "Figure F04-03.",
-      "caption": "Orontes's equity at the end of 2024 and 2025, by component."
+      "caption": "Orontes's equity at the end of 2024 and 2025, by component.",
+      "from": [
+        "F04-03"
+      ]
     },
     {
       "id": "bs-read",
@@ -117,6 +120,10 @@
           ],
           "total": true
         }
+      ],
+      "from": [
+        "F04-02",
+        "4.1/t:orontes-foods-in"
       ]
     },
     {
@@ -177,6 +184,9 @@
           "text": "To report revenues and expenses",
           "why": "That is the income statement."
         }
+      ],
+      "from": [
+        "4.1/section-check"
       ]
     },
     {
@@ -203,7 +213,10 @@
           "why": "This leaves out the dividends declared."
         }
       ],
-      "say": "Use Figure F04-02. What is Orontes's total stockholders' equity at December 31, 2025 (whole USD)?"
+      "say": "Use Figure F04-02. What is Orontes's total stockholders' equity at December 31, 2025 (whole USD)?",
+      "from": [
+        "4.1/section-check"
+      ]
     }
   ]
 };

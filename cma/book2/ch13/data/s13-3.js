@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The customer cost hierarchy and the cost to serve",
   "n": "13.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.3"),
   "brief": {
     "about": "Customer-related costs sit at different levels. Some are caused by each order or delivery; some by keeping one customer, such as a key account manager; some by a whole channel; and some by the company as a whole. Figure F213-04 shows the customer cost hierarchy. The cost to serve is the cost of the activities a customer causes.",
     "anim": "abcLevels",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "13.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f213-04",
       "kind": "figure",
       "file": "F213-04.png",
       "label": "Figure F213-04.",
-      "caption": "The customer cost hierarchy."
+      "caption": "The customer cost hierarchy.",
+      "from": [
+        "F213-04"
+      ]
     },
     {
       "id": "fill-05",
@@ -109,63 +115,101 @@
             "c3": "31,200"
           }
         }
+      ],
+      "from": [
+        "F213-05",
+        "13.3/t:barada-wholesale"
       ]
     },
     {
-      "id": "fill-06",
-      "kind": "schedule",
+      "id": "fig-f213-06",
+      "kind": "grid",
       "kicker": "Figure F213-06",
       "title": "Your turn: the cost to serve Qasr Hotels",
-      "say": "Every other column is given. Enter the last figure in each row.",
+      "say": "Your turn: the cost to serve Qasr Hotels (complete the blanks)",
       "caption": "Qasr Hotels, 2027",
       "cols": [
-        {
-          "id": "c1",
-          "label": "Quantity",
-          "given": true
-        },
-        {
-          "id": "c2",
-          "label": "Rate",
-          "given": true
-        },
-        {
-          "id": "c3",
-          "label": "Cost",
-          "given": false
-        }
+        "Quantity",
+        "Rate",
+        "Cost"
       ],
       "rows": [
         {
-          "label": "Order processing",
-          "cells": {
-            "c1": "300",
-            "c2": "$50",
-            "c3": "15,000"
-          },
-          "given": [
-            "c3"
+          "name": "Order processing",
+          "cells": [
+            "300",
+            "$50",
+            "15,000"
           ]
         },
         {
-          "label": "Returns handling",
-          "cells": {
-            "c1": "20",
-            "c2": "$80",
-            "c3": "1,600"
-          },
-          "given": [
-            "c3"
+          "name": "Deliveries",
+          "cells": [
+            "300",
+            "$120",
+            "________"
           ]
         },
         {
-          "label": "Cost to serve",
-          "cells": {
-            "c1": "",
-            "c2": "",
-            "c3": "82,600"
-          }
+          "name": "Rush orders",
+          "cells": [
+            "150",
+            "$200",
+            "________"
+          ]
+        },
+        {
+          "name": "Returns handling",
+          "cells": [
+            "20",
+            "$80",
+            "1,600"
+          ]
+        },
+        {
+          "name": "Cost to serve",
+          "cells": [
+            "",
+            "",
+            "82,600"
+          ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F213-06",
+        "13.3/t:qasr-hotels-2027"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F213-06",
+      "title": "The cost to serve Qasr Hotels",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F213-06 gives Qasr's activity quantities. Complete the two blank rows.",
+      "blanks": [
+        {
+          "label": "Deliveries (Qasr)",
+          "working": "300 × $120 = $36,000",
+          "shown": "$36,000",
+          "answer": 36000,
+          "prompt": "300 × $120 ="
+        },
+        {
+          "label": "Rush orders (Qasr)",
+          "working": "150 × $200 = $30,000",
+          "shown": "$30,000",
+          "answer": 30000,
+          "prompt": "150 × $200 ="
+        }
+      ],
+      "caption": "Your turn: the cost to serve Qasr Hotels (complete the blanks)",
+      "from": [
+        "13.3/your-turn",
+        "F213-06",
+        "13.3/t:qasr-hotels-2027",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -192,7 +236,10 @@
           "why": "This is the delivery cost."
         }
       ],
-      "exhibit": "Qasr Hotels needed 150 rush orders at $200 each."
+      "exhibit": "Qasr Hotels needed 150 rush orders at $200 each.",
+      "from": [
+        "13.3/section-check"
+      ]
     },
     {
       "id": "sc213-6",
@@ -217,6 +264,9 @@
           "text": "cost of goods sold",
           "why": "It is not a product cost."
         }
+      ],
+      "from": [
+        "13.3/section-check"
       ]
     }
   ]

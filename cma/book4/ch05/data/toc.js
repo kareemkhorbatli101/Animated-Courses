@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.1",
   "title": "The three risks, defined",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s5-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.2",
   "title": "Preventive and detective controls",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s5-3",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.6",
   "title": "From deficiency to remediation",
-  "blurb": "A printed statement, questions · 4 scenes"
+  "blurb": "Match, questions · 4 scenes"
  },
  {
   "id": "s5-7",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.7",
   "title": "Extended Example 5A: assessing and mitigating the Orontes control risk",
-  "blurb": "Shares, a printed statement, questions · 5 scenes"
+  "blurb": "Shares, a printed statement, questions · 8 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the weakness that was announced but not fixed",
   "blurb": "Sorts, amounts, questions · 7 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 5 scenes"
  },
  {
   "id": "review",

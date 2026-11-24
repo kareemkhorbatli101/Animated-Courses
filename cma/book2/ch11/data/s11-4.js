@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Physical measure and sales value at split-off",
   "n": "11.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.4"),
   "brief": {
     "about": "The physical measure method shares joint cost in proportion to a physical quantity, such as liters. It is simple and needs no prices. But it ignores value: a liter of VOO takes the same share as a liter of EVOO, which sells for much more. The sales value at split-off method shares joint cost in proportion to each product's market value at split-off.",
     "anim": "splitPoint",
@@ -35,6 +35,9 @@
       }
     ]
   },
+  "from": [
+    "11.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-05",
@@ -91,57 +94,87 @@
             "c3": "1,300,000"
           }
         }
+      ],
+      "from": [
+        "F211-05",
+        "11.4/t:physical-measure",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
-      "id": "fill-06",
-      "kind": "schedule",
+      "id": "fig-f211-06",
+      "kind": "grid",
       "kicker": "Figure F211-06",
       "title": "Your turn: sales value at split-off",
-      "say": "Every other column is given. Enter the last figure in each row.",
+      "say": "Your turn: sales value at split-off (complete the blanks)",
       "caption": "Sales value at split-off",
       "cols": [
-        {
-          "id": "c1",
-          "label": "Calculation",
-          "given": true
-        },
-        {
-          "id": "c2",
-          "label": "Sales value",
-          "given": false
-        },
-        {
-          "id": "c3",
-          "label": "Joint cost allocated",
-          "given": true
-        }
+        "Calculation",
+        "Sales value",
+        "Joint cost allocated"
       ],
       "rows": [
         {
+          "name": "EVOO",
+          "cells": [
+            "130,000 × $10.40",
+            "1,352,000",
+            "________"
+          ]
+        },
+        {
+          "name": "VOO",
+          "cells": [
+            "70,000 × $3.90",
+            "273,000",
+            "________"
+          ]
+        },
+        {
+          "name": "Total",
+          "cells": [
+            "",
+            "1,625,000",
+            "1,300,000"
+          ]
+        }
+      ],
+      "data": true,
+      "from": [
+        "F211-06",
+        "11.4/t:sales-value-at-s",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F211-06",
+      "title": "Sales value at split-off",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F211-06 gives the sales values at split-off. Share the net joint cost of $1,300,000.",
+      "blanks": [
+        {
           "label": "EVOO",
-          "cells": {
-            "c1": "130,000 × $10.40",
-            "c2": "1,352,000",
-            "c3": "________"
-          }
+          "working": "1,352,000 ÷ 1,625,000 × 1,300,000 = 1,081,600",
+          "shown": "1,081,600",
+          "answer": 1081600,
+          "prompt": "1,352,000 ÷ 1,625,000 × 1,300,000 ="
         },
         {
           "label": "VOO",
-          "cells": {
-            "c1": "70,000 × $3.90",
-            "c2": "273,000",
-            "c3": "________"
-          }
-        },
-        {
-          "label": "Total",
-          "cells": {
-            "c1": "",
-            "c2": "1,625,000",
-            "c3": "1,300,000"
-          }
+          "working": "273,000 ÷ 1,625,000 × 1,300,000 = 218,400",
+          "shown": "218,400",
+          "answer": 218400,
+          "prompt": "273,000 ÷ 1,625,000 × 1,300,000 ="
         }
+      ],
+      "caption": "Your turn: sales value at split-off (complete the blanks)",
+      "from": [
+        "11.4/your-turn",
+        "F211-06",
+        "11.4/t:sales-value-at-s",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -168,7 +201,10 @@
           "why": "This is EVOO's share."
         }
       ],
-      "say": "Under the physical measure method, how much net joint cost goes to VOO (70,000 of 200,000 liters)?"
+      "say": "Under the physical measure method, how much net joint cost goes to VOO (70,000 of 200,000 liters)?",
+      "from": [
+        "11.4/section-check"
+      ]
     },
     {
       "id": "sc211-8",
@@ -194,7 +230,10 @@
           "why": "The by-product NRV is not deducted first."
         }
       ],
-      "say": "Under the sales value at split-off method, how much net joint cost goes to EVOO?"
+      "say": "Under the sales value at split-off method, how much net joint cost goes to EVOO?",
+      "from": [
+        "11.4/section-check"
+      ]
     }
   ]
 };

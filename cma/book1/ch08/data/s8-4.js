@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Advantages and disadvantages of the methods",
   "n": "8.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.4"),
   "brief": {
     "about": "No method is best in every situation. Each one is strong on some goals and weak on others. Figure F08-08 compares them. Read it with two questions in mind: which statement does the method make more useful, and what does it cost the company? The weighted average and specific identification have their own strengths. The main trade-off is between the two statements.",
     "anim": "twoMethods",
@@ -33,6 +33,9 @@
       }
     ]
   },
+  "from": [
+    "8.4/language-focus"
+  ],
   "scenes": [
     {
       "id": "grid-08",
@@ -98,6 +101,10 @@
       ],
       "traps": [
         "words-for-comparing"
+      ],
+      "from": [
+        "F08-08",
+        "8.4/t:criterion-fifo-l"
       ]
     },
     {
@@ -123,6 +130,9 @@
           "text": "It needs the fewest records.",
           "why": "LIFO needs layer records and conformity with tax."
         }
+      ],
+      "from": [
+        "8.4/section-check"
       ]
     },
     {
@@ -149,7 +159,10 @@
           "correct": true
         }
       ],
-      "say": "For large volumes of identical items, the main disadvantage of specific identification is that:"
+      "say": "For large volumes of identical items, the main disadvantage of specific identification is that:",
+      "from": [
+        "8.4/section-check"
+      ]
     }
   ]
 };

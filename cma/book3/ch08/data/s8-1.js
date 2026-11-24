@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The cost of goods sold budget",
   "n": "8.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.1"),
   "brief": {
     "about": "The cost of goods sold budget has three components: beginning finished goods, plus the cost of goods manufactured in the period, minus ending finished goods. Figure F308-02 shows the Beverages figures for the year. The check line explains the result. At standard, 900,000 cases sold × $12.60 = $11,340,000; the budget is $2,000 lower because fixed overhead applied to production is slightly above the fixed overhead budgeted (Chapter 7).",
     "anim": "bridgeBar",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "8.1/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f308-02",
       "kind": "figure",
       "file": "F308-02.png",
       "label": "Figure F308-02.",
-      "caption": "How the cost of goods sold budget is built."
+      "caption": "How the cost of goods sold budget is built.",
+      "from": [
+        "F308-02"
+      ]
     },
     {
       "id": "fill-03",
@@ -114,6 +120,11 @@
       ],
       "traps": [
         "manufactured-is-not-sold"
+      ],
+      "from": [
+        "F308-03",
+        "8.1/t:cost-of-goods-so",
+        "8.1/exam-trap"
       ]
     },
     {
@@ -191,6 +202,10 @@
             "c5": "11,338,000"
           }
         }
+      ],
+      "from": [
+        "F308-04",
+        "8.1/t:by-quarter-usd-q"
       ]
     },
     {
@@ -216,6 +231,9 @@
           "why": "Beginning + manufactured − ending.",
           "correct": true
         }
+      ],
+      "from": [
+        "8.1/section-check"
       ]
     },
     {
@@ -242,7 +260,10 @@
           "why": "The stocks are reversed."
         }
       ],
-      "exhibit": "Beginning finished goods $529,200; cost of goods manufactured $11,350,600; ending finished goods $541,800."
+      "exhibit": "Beginning finished goods $529,200; cost of goods manufactured $11,350,600; ending finished goods $541,800.",
+      "from": [
+        "8.1/section-check"
+      ]
     }
   ]
 };

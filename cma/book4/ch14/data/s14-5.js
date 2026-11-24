@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 14A: mining the Beverages demand data",
   "n": "14.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.5"),
   "brief": {
     "about": "F.4.k asks how an analyst would actually mine a dataset. This example does it, on the Beverages data that Chapter 15 will model formally. The cycle of Figure F414-04 is the structure this example follows, step by step. The question is whether the extra production shift should be scheduled to the promotion calendar, as now, or to something else. A first query ranks the quarters by cases.",
     "anim": "clusterClass",
@@ -75,6 +75,9 @@
       }
     ]
   },
+  "from": [
+    "14.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f414-07",
@@ -109,7 +112,126 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F414-07",
+        "14.5/t:what-is-wanted-w",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t14-5-0",
+      "kind": "lines",
+      "kicker": "Section 14.5",
+      "title": "Stage of the work",
+      "caption": "Stage of the work",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Asking whether the shift schedule should change",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Transforming dates into quarters",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Fitting the regression",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Asking whether the relationship has been tested",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:stage-of-the-wor",
+        "Practice/t:stage-of-the-wor#2",
+        "Answers and explanations/t:stage-of-the-wor"
+      ]
+    },
+    {
+      "id": "t14-5-1",
+      "kind": "lines",
+      "kicker": "Section 14.5",
+      "title": "Stage of the work",
+      "caption": "Stage of the work",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Asking whether the shift schedule should change",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Transforming dates into quarters",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Fitting the regression",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Asking whether the relationship has been tested",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:stage-of-the-wor",
+        "Practice/t:stage-of-the-wor#2",
+        "Answers and explanations/t:stage-of-the-wor"
+      ]
+    },
+    {
+      "id": "t14-5-2",
+      "kind": "lines",
+      "kicker": "Section 14.5",
+      "title": "Stage of the work",
+      "caption": "Stage of the work",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Asking whether the shift schedule should change",
+          "a": "Understand the business",
+          "b": ""
+        },
+        {
+          "name": "Transforming dates into quarters",
+          "a": "Prepare the data",
+          "b": ""
+        },
+        {
+          "name": "Fitting the regression",
+          "a": "Model",
+          "b": ""
+        },
+        {
+          "name": "Asking whether the relationship has been tested",
+          "a": "Evaluate",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:stage-of-the-wor",
+        "Practice/t:stage-of-the-wor#2",
+        "Answers and explanations/t:stage-of-the-wor"
+      ]
     },
     {
       "id": "yourturn",
@@ -155,6 +277,13 @@
       "traps": [
         "exam-view",
         "promotion-weeks-in-those-quarters-were"
+      ],
+      "from": [
+        "14.5/your-turn",
+        "F414-07",
+        "14.5/t:what-is-wanted-w",
+        "14.5/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -181,7 +310,10 @@
           "why": "A recommendation on untested grounds is the error the example warns about."
         }
       ],
-      "exhibit": "Use Extended Example 14A."
+      "exhibit": "Use Extended Example 14A.",
+      "from": [
+        "14.5/section-check"
+      ]
     },
     {
       "id": "sc414-10",
@@ -207,7 +339,10 @@
           "why": "Both coefficients carry their expected signs."
         }
       ],
-      "exhibit": "Use Extended Example 14A."
+      "exhibit": "Use Extended Example 14A.",
+      "from": [
+        "14.5/section-check"
+      ]
     }
   ]
 };

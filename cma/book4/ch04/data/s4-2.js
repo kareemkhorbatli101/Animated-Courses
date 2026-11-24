@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Who must obtain an auditor attestation",
   "n": "4.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.2"),
   "brief": {
     "about": "Section 404(b) binds accelerated filers and large accelerated filers. Non-accelerated filers were permanently exempted by the Dodd-Frank Act in 2010. Figure F404-03 shows the division, and records a proposal that has not been adopted.",
     "anim": "auditTopDown",
@@ -28,7 +28,10 @@
       "kind": "figure",
       "file": "F404-03.png",
       "label": "Figure F404-03.",
-      "caption": "Who must obtain an auditor attestation on internal control."
+      "caption": "Who must obtain an auditor attestation on internal control.",
+      "from": [
+        "F404-03"
+      ]
     },
     {
       "id": "sc404-3",
@@ -57,6 +60,9 @@
       "say": "Which companies must obtain an auditor attestation on internal control under 404(b)?",
       "traps": [
         "as-of-october-2026"
+      ],
+      "from": [
+        "4.2/section-check"
       ]
     },
     {
@@ -83,7 +89,10 @@
           "why": "The result does not change the obligation."
         }
       ],
-      "exhibit": "A smaller reporting company has a public float of $90 million and revenue of $140 million."
+      "exhibit": "A smaller reporting company has a public float of $90 million and revenue of $140 million.",
+      "from": [
+        "4.2/section-check"
+      ]
     }
   ]
 };

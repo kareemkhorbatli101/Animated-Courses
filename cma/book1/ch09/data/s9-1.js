@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Three categories of debt securities",
   "n": "9.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.1"),
   "brief": {
     "about": "A debt security gives its holder a right to interest and to repayment, like a bond. An equity security gives an ownership interest, like shares of common stock. This section is about debt securities. Section 9.4 covers equity securities. When a company buys a debt security, it classifies it into one of three categories, and it reassesses the classification at each reporting date. HTM is a strict category.",
     "anim": "buckets",
@@ -34,7 +34,10 @@
       "kind": "figure",
       "file": "F09-02.png",
       "label": "Figure F09-02.",
-      "caption": "Decision tree for classifying a debt security as trading, held-to-maturity or available-for-sale."
+      "caption": "Decision tree for classifying a debt security as trading, held-to-maturity or available-for-sale.",
+      "from": [
+        "F09-02"
+      ]
     },
     {
       "id": "sc9-1",
@@ -63,6 +66,10 @@
       "exhibit": "Orontes buys a bond and plans to sell it if interest rates fall or if it needs cash.",
       "traps": [
         "intent-decides"
+      ],
+      "from": [
+        "9.1/exam-trap",
+        "9.1/section-check"
       ]
     },
     {
@@ -88,6 +95,9 @@
           "text": "Any security with a fixed maturity date or a dividend",
           "why": "Dividends do not create a maturity."
         }
+      ],
+      "from": [
+        "9.1/section-check"
       ]
     }
   ]

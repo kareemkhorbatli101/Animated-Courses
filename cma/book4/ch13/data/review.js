@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "insightLadder"
   },
@@ -161,9 +161,6 @@
           "text": "a department",
           "why": "It is an arrangement, not an organizational unit."
         }
-      ],
-      "traps": [
-        "business-intelligence-is-not-a-dashboa"
       ]
     },
     {

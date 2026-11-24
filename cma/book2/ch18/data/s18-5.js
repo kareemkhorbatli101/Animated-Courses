@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Techniques for setting standards",
   "n": "18.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.5"),
   "brief": {
     "about": "Activity analysis sets a standard by studying how the work should be done: time and motion studies, recipes and engineering tests. The juice time study found a basic time of 0.040 hours a case. Historical data uses past results. Over the last twelve months, labor averaged 0.056 hours a case, and the best month reached 0.052. Figure F218-11 compares the two techniques. History is quick and real, but it copies past waste.",
     "anim": "processMap",
@@ -30,41 +30,46 @@
       "kind": "figure",
       "file": "F218-12.png",
       "label": "Figure F218-12.",
-      "caption": "Twelve months of labor hours per case against the standard."
+      "caption": "Twelve months of labor hours per case against the standard.",
+      "from": [
+        "F218-12"
+      ]
     },
     {
       "id": "fig-f218-11",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F218-11",
       "title": "Activity analysis and historical data compared",
-      "say": "Activity analysis and historical data compared",
-      "caption": "",
-      "col1": "Activity analysis",
-      "col2": "Historical data",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Activity analysis",
       "rows": [
         {
-          "name": "How",
-          "a": "Study each step: time and motion studies, recipes, engineering tests",
-          "b": "Average past results, adjusted for known changes"
+          "label": "How",
+          "right": "Study each step: time and motion studies, recipes, engineering tests",
+          "why": "Activity analysis: Study each step: time and motion studies, recipes, engineering tests. Average past results, adjusted for known changes."
         },
         {
-          "name": "Strength",
-          "a": "Builds the standard from how the work should be done",
-          "b": "Quick and cheap; based on real results"
+          "label": "Strength",
+          "right": "Builds the standard from how the work should be done",
+          "why": "Activity analysis: Builds the standard from how the work should be done. Quick and cheap; based on real results."
         },
         {
-          "name": "Weakness",
-          "a": "Takes time and expertise",
-          "b": "Copies past waste and inefficiency"
+          "label": "Weakness",
+          "right": "Takes time and expertise",
+          "why": "Activity analysis: Takes time and expertise. Copies past waste and inefficiency."
         },
         {
-          "name": "Juice example",
-          "a": "Time study: 0.040 h + allowances",
-          "b": "12-month average 0.056 h; best month 0.052 h"
+          "label": "Juice example",
+          "right": "Time study: 0.040 h + allowances",
+          "why": "Activity analysis: Time study: 0.040 h + allowances. 12-month average 0.056 h; best month 0.052 h."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Activity analysis and historical data compared",
+      "from": [
+        "F218-11",
+        "18.5/t:activity-analysi"
+      ]
     },
     {
       "id": "sc218-9",
@@ -89,6 +94,9 @@
           "text": "variance analysis",
           "why": "That compares actual with standard."
         }
+      ],
+      "from": [
+        "18.5/section-check"
       ]
     },
     {
@@ -115,7 +123,10 @@
           "correct": true
         }
       ],
-      "say": "Why did Beverages not use the 12-month average of 0.056 hours as its labor standard?"
+      "say": "Why did Beverages not use the 12-month average of 0.056 hours as its labor standard?",
+      "from": [
+        "18.5/section-check"
+      ]
     }
   ]
 };

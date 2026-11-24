@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · sesame processing",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "splitPoint"
+  },
+  "scenario": {
+    "title": "Case question: sesame processing",
+    "p": [
+      "Tahini & Spreads roasts and presses sesame in one joint process. The process yields two main products, tahini base and sesame oil, and a small amount of hulls. The hulls have a low value and are sold to a feed mill.",
+      "Sesame oil is sold as it comes out of the press. Tahini base can also be sold at the split-off point, but the division usually processes it further into jarred tahini, which sells at a higher price. Further processing adds its own costs.",
+      "Orontes values inventory under U.S. GAAP, so the joint cost of the process must be shared between the two main products. The division treats the hulls as a by-product and deducts their value from the joint cost before it shares the rest.",
+      "Mona, the cost accountant, must allocate the joint cost with two methods for the controller's review. The sales team has also asked whether jarring the tahini base is still worth it now that jar prices have risen. The exhibit gives the volumes, prices and costs. The feed mill collects the hulls itself, so selling them costs the division nothing. Both main products are sold to the same Jordanian buyers throughout the year."
+    ]
   },
   "scenes": [
     {
@@ -46,7 +55,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F211-15",
+        "Practice/t:tahini-spreads-d"
+      ]
     },
     {
       "id": "c211-1",
@@ -91,7 +104,11 @@
           "why": "Output: Scrap."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:output-category",
+        "Answers and explanations/t:output-category"
+      ]
     },
     {
       "id": "c211-2",

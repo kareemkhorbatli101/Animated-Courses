@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Limitations and links to the other statements",
   "n": "4.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.5"),
   "brief": {
     "about": "Total equity is a book value: assets minus liabilities, as measured by the accounting rules. It is not what the company is worth. Most assets are at historical cost, and internally built brands and know-how are not recorded. Treasury stock is shown at the price paid, not at today's share price. Figure F04-09 rolls Orontes's retained earnings forward and compares its book value with a market value.",
     "anim": "links",
@@ -32,7 +32,10 @@
       "file": "F04-09.png",
       "label": "Figure F04-09.",
       "caption": "Orontes's 2025 retained earnings roll-forward, and book value versus market value.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F04-09"
+      ]
     },
     {
       "id": "links",
@@ -97,6 +100,9 @@
           "carries": "→",
           "why": "The last row equals the equity section of the balance sheet in Chapter 2."
         }
+      ],
+      "from": [
+        "F04-09"
       ]
     },
     {
@@ -123,7 +129,10 @@
           "correct": true
         }
       ],
-      "say": "Why is Orontes's total equity much lower than the market value of its shares?"
+      "say": "Why is Orontes's total equity much lower than the market value of its shares?",
+      "from": [
+        "4.5/section-check"
+      ]
     },
     {
       "id": "sc4-10",
@@ -149,7 +158,10 @@
           "why": "Dividends payable is a liability on the balance sheet."
         }
       ],
-      "say": "Which amount links the income statement to the statement of changes in equity?"
+      "say": "Which amount links the income statement to the statement of changes in equity?",
+      "from": [
+        "4.5/section-check"
+      ]
     }
   ]
 };

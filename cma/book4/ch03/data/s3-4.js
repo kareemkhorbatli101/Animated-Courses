@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Safeguarding assets",
   "n": "3.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.4"),
   "brief": {
     "about": "A safeguarding control limits who can physically reach an asset and establishes who is answerable for it. These matter most where assets are portable and valuable, which at Orontes means cash, saffron and the spice store rather than the bottling line. Figure F403-06 lists the kinds the exam expects. Custodial accountability deserves attention because it is often forgotten.",
     "anim": "assetVault",
@@ -26,47 +26,49 @@
   "scenes": [
     {
       "id": "fig-f403-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F403-06",
       "title": "Safeguarding controls",
-      "say": "Safeguarding controls",
-      "caption": "Safeguarding control (E.1.l)",
-      "col1": "Examples",
-      "col2": "What it achieves",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Safeguarding control (E.1.l)",
+      "col": "Examples",
       "rows": [
         {
-          "name": "Physical barriers",
-          "a": "Locked stores, fenced yards, safes, restricted areas",
-          "b": "Stops the simple taking of an asset"
+          "label": "Physical barriers",
+          "right": "Locked stores, fenced yards, safes, restricted areas",
+          "why": "Examples: Locked stores, fenced yards, safes, restricted areas. Stops the simple taking of an asset."
         },
         {
-          "name": "Access control",
-          "a": "Badges, keys, biometrics, visitor logs",
-          "b": "Records who was able to reach the asset"
+          "label": "Access control",
+          "right": "Badges, keys, biometrics, visitor logs",
+          "why": "Examples: Badges, keys, biometrics, visitor logs. Records who was able to reach the asset."
         },
         {
-          "name": "Environmental protection",
-          "a": "Fire suppression, cold-chain alarms, backup power",
-          "b": "Protects assets from loss as well as theft"
+          "label": "Environmental protection",
+          "right": "Fire suppression, cold-chain alarms, backup power",
+          "why": "Examples: Fire suppression, cold-chain alarms, backup power. Protects assets from loss as well as theft."
         },
         {
-          "name": "Custodial accountability",
-          "a": "One named custodian per store or cash float",
-          "b": "Makes a shortage someone's responsibility"
+          "label": "Custodial accountability",
+          "right": "One named custodian per store or cash float",
+          "why": "Examples: One named custodian per store or cash float. Makes a shortage someone's responsibility."
         },
         {
-          "name": "Periodic counts",
-          "a": "Independent counts compared with records",
-          "b": "Detects loss that prevention missed"
+          "label": "Periodic counts",
+          "right": "Independent counts compared with records",
+          "why": "Examples: Independent counts compared with records. Detects loss that prevention missed."
         },
         {
-          "name": "Insurance and bonding",
-          "a": "Cover for losses, and fidelity bonds on staff handling cash",
-          "b": "Limits the damage once a loss occurs"
+          "label": "Insurance and bonding",
+          "right": "Cover for losses, and fidelity bonds on staff handling cash",
+          "why": "Examples: Cover for losses, and fidelity bonds on staff handling cash. Limits the damage once a loss occurs."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Safeguarding controls",
+      "from": [
+        "F403-06",
+        "3.4/t:safeguarding-con"
+      ]
     },
     {
       "id": "sc403-7",
@@ -91,6 +93,9 @@
           "text": "An approval limit of 50,000",
           "why": "That is an authority limit."
         }
+      ],
+      "from": [
+        "3.4/section-check"
       ]
     },
     {
@@ -117,7 +122,10 @@
           "why": "Recording is unaffected."
         }
       ],
-      "exhibit": "A store has three keyholders and no named custodian."
+      "exhibit": "A store has three keyholders and no named custodian.",
+      "from": [
+        "3.4/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 3A: agreeing the Beverages sales budget",
   "n": "3.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.7"),
   "brief": {
     "about": "This example follows the budget meeting between the Beverages sales manager and the controller. It is exam-core. Figure F303-13 measures the slack in cases and in contribution margin at $8.20 a case: 80,000 cases, or $656,000, which is 8.9% of the evidence-based volume. The sales manager explains his worry about a new rival. The controller agrees to add a note on this risk, but the budget is set at 900,000 cases.",
     "anim": "slackGap",
@@ -49,6 +49,9 @@
       }
     ]
   },
+  "from": [
+    "3.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-13",
@@ -110,6 +113,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F303-13",
+        "3.7/t:beverages-2028-c",
+        "3.7/exam-trap"
+      ]
+    },
+    {
+      "id": "t3-7-0",
+      "kind": "lines",
+      "kicker": "Section 3.7",
+      "title": "Cost on the plant manager's report",
+      "caption": "Cost on the plant manager's report",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame used per jar",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Price paid for sesame",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Hours worked on the filling line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the plant",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Head-office costs allocated to the division",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-on-the-plan",
+        "Answers and explanations/t:cost-on-the-plan"
+      ]
+    },
+    {
+      "id": "t3-7-1",
+      "kind": "lines",
+      "kicker": "Section 3.7",
+      "title": "Cost on the plant manager's report",
+      "caption": "Cost on the plant manager's report",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame used per jar",
+          "a": "Controllable",
+          "b": ""
+        },
+        {
+          "name": "Price paid for sesame",
+          "a": "Not controllable",
+          "b": ""
+        },
+        {
+          "name": "Hours worked on the filling line",
+          "a": "Controllable",
+          "b": ""
+        },
+        {
+          "name": "Depreciation of the plant",
+          "a": "Not controllable",
+          "b": ""
+        },
+        {
+          "name": "Head-office costs allocated to the division",
+          "a": "Not controllable",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-on-the-plan",
+        "Answers and explanations/t:cost-on-the-plan"
       ]
     },
     {
@@ -155,7 +247,10 @@
           "why": "This is the contribution margin of the agreed budget."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "3.7/section-check"
+      ]
     },
     {
       "id": "sc303-14",
@@ -181,7 +276,10 @@
           "why": "Evidence must be shared."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "3.7/section-check"
+      ]
     }
   ]
 };

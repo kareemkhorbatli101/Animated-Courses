@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "9.7",
   "title": "Extended Example 9A: Beverages, 2027, both ways",
-  "blurb": "Figures, post, the tie lines, questions · 7 scenes"
+  "blurb": "Figures, post, a printed statement, the tie lines, questions · 9 scenes"
  },
  {
   "id": "summary",

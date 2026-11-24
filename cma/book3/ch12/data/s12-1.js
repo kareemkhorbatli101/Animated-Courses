@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Standard costing and why companies use it",
   "n": "12.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.1"),
   "brief": {
     "about": "In a standard costing system, materials, labor and overhead are recorded at standard cost, and the differences between standard and actual are recorded as variances. Inventory and cost of goods sold therefore carry the same cost for every unit, as in Chapter 8. Figure F312-02 gives the main reasons for adopting such a system. Together they explain why Orontes keeps standards even though its actual costs are known.",
     "anim": "threeCols",
@@ -27,37 +27,44 @@
   "scenes": [
     {
       "id": "fig-f312-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F312-02",
       "title": "Reasons for adopting a standard costing system",
-      "say": "Reasons for adopting a standard costing system",
-      "caption": "Reason for a standard costing system (C.1.j)",
-      "col1": "What it gives Orontes",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Reason for a standard costing system (C.1.j)",
+      "col": "What it gives Orontes",
       "rows": [
         {
-          "name": "Simpler record keeping. Inventory and cost of goods sold are recorded at standard, so every unit carries the same cost",
-          "note": true
+          "label": "Simpler record keeping",
+          "right": "Inventory and cost of goods sold are recorded at standard, so every unit carries the same cost",
+          "why": "What it gives Orontes: Inventory and cost of goods sold are recorded at standard, so every unit carries the same cost."
         },
         {
-          "name": "Control by exception. Variances point to what differed from the plan (Chapter 11)",
-          "note": true
+          "label": "Control by exception",
+          "right": "Variances point to what differed from the plan (Chapter 11)",
+          "why": "What it gives Orontes: Variances point to what differed from the plan (Chapter 11)."
         },
         {
-          "name": "Responsibility. Each variance has an owner: purchasing, the plant, the sales team",
-          "note": true
+          "label": "Responsibility",
+          "right": "Each variance has an owner: purchasing, the plant, the sales team",
+          "why": "What it gives Orontes: Each variance has an owner: purchasing, the plant, the sales team."
         },
         {
-          "name": "Budgeting and pricing. The standard card builds the budget (Chapters 6 to 8) and supports price decisions",
-          "note": true
+          "label": "Budgeting and pricing",
+          "right": "The standard card builds the budget (Chapters 6 to 8) and supports price decisions",
+          "why": "What it gives Orontes: The standard card builds the budget (Chapters 6 to 8) and supports price decisions."
         },
         {
-          "name": "Motivation. Clear, attainable targets for each input (Book 2, Chapter 18)",
-          "note": true
+          "label": "Motivation",
+          "right": "Clear, attainable targets for each input (Book 2, Chapter 18)",
+          "why": "What it gives Orontes: Clear, attainable targets for each input (Book 2, Chapter 18)."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Reasons for adopting a standard costing system",
+      "from": [
+        "F312-02",
+        "12.1/t:reason-for-a-sta"
+      ]
     },
     {
       "id": "sc312-1",
@@ -82,6 +89,9 @@
           "text": "replacement cost",
           "why": "Not the basis of standard costing."
         }
+      ],
+      "from": [
+        "12.1/section-check"
       ]
     },
     {
@@ -107,6 +117,9 @@
           "text": "It is required by GAAP",
           "why": "It is a management choice."
         }
+      ],
+      "from": [
+        "12.1/section-check"
       ]
     }
   ]

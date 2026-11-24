@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "cashLoop"
+    "anim": "cashLoop",
+    "about": "Figure F309-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The capital expenditure budget plans long-term spending by project and period; it reaches the cash budget when cash is paid, the income statement through depreciation, and the balance sheet as an asset. The cash budget shows shortages and surpluses early and is linked to every other budget. Collections and payments follow credit and payment terms, non-cash items are left out, and borrowing keeps cash above the minimum. Credit and payables policies change the timing of cash, and therefore the financing."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F309-14.png",
       "label": "Figure F309-14.",
       "caption": "Chapter 9 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F309-14"
+      ]
     },
     {
       "id": "rules",

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Time frames and successful budgeting",
   "n": "3.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.4"),
   "brief": {
     "about": "Each budget has its own time frame. A capital budget follows the life of the project; the master budget covers one year, split into quarters or months; the cash budget may be weekly. Figure F303-06 lists the usual frames. A budget that is too long becomes a guess; one that is too short misses the effect of decisions. The right frame matches the decision it supports.",
     "anim": "topDownUp",
@@ -29,81 +29,85 @@
   "scenes": [
     {
       "id": "fig-f303-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F303-06",
       "title": "Time frames of the main budgets",
-      "say": "Time frames of the main budgets",
-      "caption": "Budget",
-      "col1": "Typical time frame (B.2.i)",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Budget",
+      "col": "Typical time frame (B.2.i)",
       "rows": [
         {
-          "name": "Strategic plan",
-          "a": "3–5 years (Chapter 1)",
-          "b": ""
+          "label": "Strategic plan",
+          "right": "3–5 years (Chapter 1)",
+          "why": "Typical time frame (B.2.i): 3–5 years (Chapter 1)."
         },
         {
-          "name": "Capital budget",
-          "a": "the life of the project, often several years",
-          "b": ""
+          "label": "Capital budget",
+          "right": "the life of the project, often several years",
+          "why": "Typical time frame (B.2.i): the life of the project, often several years."
         },
         {
-          "name": "Master (annual) budget",
-          "a": "one year, split by quarter or month",
-          "b": ""
+          "label": "Master (annual) budget",
+          "right": "one year, split by quarter or month",
+          "why": "Typical time frame (B.2.i): one year, split by quarter or month."
         },
         {
-          "name": "Cash budget",
-          "a": "months or weeks",
-          "b": ""
+          "label": "Cash budget",
+          "right": "months or weeks",
+          "why": "Typical time frame (B.2.i): months or weeks."
         },
         {
-          "name": "Continuous (rolling) budget",
-          "a": "always 12 months ahead (Chapter 5)",
-          "b": ""
+          "label": "Continuous (rolling) budget",
+          "right": "always 12 months ahead (Chapter 5)",
+          "why": "Typical time frame (B.2.i): always 12 months ahead (Chapter 5)."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Time frames of the main budgets",
+      "from": [
+        "F303-06",
+        "3.4/t:budget-typical-t"
+      ]
     },
     {
       "id": "fig-f303-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F303-07",
       "title": "Successful budgeting and the role of top management",
-      "say": "Successful budgeting and the role of top management",
-      "caption": "Successful budget process (B.2.e)",
-      "col1": "Role of top management (B.2.k)",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Successful budget process (B.2.e)",
+      "col": "Role of top management (B.2.k)",
       "rows": [
         {
-          "name": "Linked to strategy",
-          "a": "Top management approves goals and guidelines",
-          "b": ""
+          "label": "Linked to strategy",
+          "right": "Top management approves goals and guidelines",
+          "why": "Role of top management (B.2.k): Top management approves goals and guidelines."
         },
         {
-          "name": "Realistic, evidence-based targets",
-          "a": "Sets the assumptions and resolves conflicts",
-          "b": ""
+          "label": "Realistic, evidence-based targets",
+          "right": "Sets the assumptions and resolves conflicts",
+          "why": "Role of top management (B.2.k): Sets the assumptions and resolves conflicts."
         },
         {
-          "name": "Participation and communication",
-          "a": "Supports the process visibly",
-          "b": ""
+          "label": "Participation and communication",
+          "right": "Supports the process visibly",
+          "why": "Role of top management (B.2.k): Supports the process visibly."
         },
         {
-          "name": "Flexibility with a revision policy",
-          "a": "Approves revisions under the policy",
-          "b": ""
+          "label": "Flexibility with a revision policy",
+          "right": "Approves revisions under the policy",
+          "why": "Role of top management (B.2.k): Approves revisions under the policy."
         },
         {
-          "name": "Timely feedback",
-          "a": "Uses the budget in performance reviews",
-          "b": ""
+          "label": "Timely feedback",
+          "right": "Uses the budget in performance reviews",
+          "why": "Role of top management (B.2.k): Uses the budget in performance reviews."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Successful budgeting and the role of top management",
+      "from": [
+        "F303-07",
+        "3.4/t:successful-budge"
+      ]
     },
     {
       "id": "sc303-7",
@@ -128,6 +132,9 @@
           "text": "One day",
           "why": "Too short."
         }
+      ],
+      "from": [
+        "3.4/section-check"
       ]
     },
     {
@@ -153,6 +160,9 @@
           "text": "Preparing the cash budget personally",
           "why": "Staff prepare the detail."
         }
+      ],
+      "from": [
+        "3.4/section-check"
       ]
     }
   ]

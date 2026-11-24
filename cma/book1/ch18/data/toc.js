@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.3",
   "title": "Value creation and the six capitals",
-  "blurb": "Figures, a printed statement, shares, questions · 6 scenes"
+  "blurb": "Figures, match, a printed statement, shares, questions · 6 scenes"
  },
  {
   "id": "s18-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.4",
   "title": "Guiding principles and content elements",
-  "blurb": "A printed statement, questions · 4 scenes"
+  "blurb": "Match, questions · 4 scenes"
  },
  {
   "id": "s18-5",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.7",
   "title": "Extended Example 18A: a year through the six capitals",
-  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
+  "blurb": "Shares, match, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",
@@ -97,6 +97,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · Barada's first integrated report",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 13 scenes"
  },
  {
   "id": "review",

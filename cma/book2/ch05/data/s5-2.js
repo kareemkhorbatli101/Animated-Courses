@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Actual costing",
   "n": "5.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.2"),
   "brief": {
     "about": "Under actual costing, overhead is assigned only when the period ends and the actual overhead is known. In May Beverages spent $222,600 on overhead, so the full cost was $903,000, or $12.90 a case. Actual costing has two limits. The cost arrives too late for pricing and control during the month. And unit cost jumps with volume, because fixed overhead is spread over whatever the month produces.",
     "anim": "appliedActual",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F205-03.png",
       "label": "Figure F205-03.",
-      "caption": "Fixed overhead per case in a busy and a quiet month under actual and normal costing."
+      "caption": "Fixed overhead per case in a busy and a quiet month under actual and normal costing.",
+      "from": [
+        "F205-03"
+      ]
     },
     {
       "id": "sc205-3",
@@ -59,6 +62,9 @@
       "say": "Under actual costing, why is fixed overhead per case higher in a quiet month?",
       "traps": [
         "actual-costing-waits-for-the-period-end"
+      ],
+      "from": [
+        "5.2/section-check"
       ]
     },
     {
@@ -84,6 +90,9 @@
           "text": "it cannot be audited",
           "why": "Actual costs are easy to audit."
         }
+      ],
+      "from": [
+        "5.2/section-check"
       ]
     }
   ]

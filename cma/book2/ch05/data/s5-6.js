@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 5A: one month, three costs",
   "n": "5.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.6"),
   "brief": {
     "about": "This example costs the same May output three ways and records each in the accounts. The costs per case are exam-core; the entries show where the differences go. Measure each cost part under each technique, record the entries, and see where the difference between actual and product cost goes. Figure F205-08 puts the three side by side. Figure F205-11 compares the cost per case.",
     "anim": "rateFraction",
@@ -67,20 +67,29 @@
       }
     ]
   },
+  "from": [
+    "5.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f205-09",
       "kind": "figure",
       "file": "F205-09.png",
       "label": "Figure F205-09.",
-      "caption": "Extended Example: work in process under the three systems, and the overhead difference."
+      "caption": "Extended Example: work in process under the three systems, and the overhead difference.",
+      "from": [
+        "F205-09"
+      ]
     },
     {
       "id": "fig-f205-11",
       "kind": "figure",
       "file": "F205-11.png",
       "label": "Figure F205-11.",
-      "caption": "Extended Example: cost per case under the three systems."
+      "caption": "Extended Example: cost per case under the three systems.",
+      "from": [
+        "F205-11"
+      ]
     },
     {
       "id": "fill-08",
@@ -164,6 +173,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F205-08",
+        "5.6/t:beverages-may-20",
+        "5.6/exam-trap"
       ]
     },
     {
@@ -332,7 +346,105 @@
       "grid": false,
       "journalTitle": "Journal entries",
       "lures": {},
-      "logic": {}
+      "logic": {},
+      "from": [
+        "F205-10",
+        "5.6/t:no-account-detai"
+      ]
+    },
+    {
+      "id": "t5-6-0",
+      "kind": "lines",
+      "kicker": "Section 5.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Power for the grinders",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Factory insurance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Machine lubricants",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Plant manager's salary",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Jars",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t5-6-1",
+      "kind": "lines",
+      "kicker": "Section 5.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame",
+          "a": "Direct cost",
+          "b": ""
+        },
+        {
+          "name": "Power for the grinders",
+          "a": "Variable overhead",
+          "b": ""
+        },
+        {
+          "name": "Factory insurance",
+          "a": "Fixed overhead",
+          "b": ""
+        },
+        {
+          "name": "Machine lubricants",
+          "a": "Variable overhead",
+          "b": ""
+        },
+        {
+          "name": "Plant manager's salary",
+          "a": "Fixed overhead",
+          "b": ""
+        },
+        {
+          "name": "Jars",
+          "a": "Direct cost",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
     },
     {
       "id": "ties",
@@ -382,7 +494,10 @@
           "why": "This adds the underapplied overhead to actual cost."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "5.6/section-check"
+      ]
     },
     {
       "id": "sc205-12",
@@ -408,7 +523,10 @@
           "why": "That is the normal costing difference."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "5.6/section-check"
+      ]
     }
   ]
 };

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "riBar"
+    "anim": "riBar",
+    "about": "Figure F317-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Performance measures should follow the strategy and reach managers in time to act. Return on investment is operating income divided by operating assets, and equals return on sales times asset turnover. Residual income is operating income less the required return times the investment base. ROI allows divisions of different size to be compared, but can lead a manager to reject a project that earns more than the required return; residual income avoids that fault but cannot be compared across sizes. Both depend on income and asset measurement policies, which must be the same before any comparison is made."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F317-14.png",
       "label": "Figure F317-14.",
       "caption": "Chapter 17 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F317-14"
+      ]
     },
     {
       "id": "rules",

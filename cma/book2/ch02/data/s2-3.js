@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The relevant range",
   "n": "2.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.3"),
   "brief": {
     "about": "The relevant range is the band of activity in which the cost behavior assumptions hold. Oils has data from 2,000 to 4,300 machine hours a month. Inside that range, maintenance and utilities follow $18,000 plus $12 per hour. Outside the range the formula may fail. Above 4,300 hours a month Oils must run a second shift, so the fixed part jumps. A change in assumptions changes the cost.",
     "anim": "costLine",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F202-04.png",
       "label": "Figure F202-04.",
-      "caption": "The relevant range on the 24-month maintenance and utilities data."
+      "caption": "The relevant range on the 24-month maintenance and utilities data.",
+      "from": [
+        "F202-04"
+      ]
     },
     {
       "id": "sc202-5",
@@ -55,6 +58,9 @@
           "text": "the period covered by the budget",
           "why": "That is the time frame."
         }
+      ],
+      "from": [
+        "2.3/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "why": "The step applies above the range."
         }
       ],
-      "exhibit": "Oils has data only between 2,000 and 4,300 machine hours a month."
+      "exhibit": "Oils has data only between 2,000 and 4,300 machine hours a month.",
+      "from": [
+        "2.3/section-check"
+      ]
     }
   ]
 };

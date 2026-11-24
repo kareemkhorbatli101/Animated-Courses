@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Payroll, taxes collected and compensated absences",
   "n": "12.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.2"),
   "brief": {
     "about": "Payroll creates several liabilities. The employer deducts withholding, such as income tax and the employees' share of social security, from gross wages. These amounts belong to the government, so they are liabilities, not expenses. The employer's own payroll taxes, such as its share of social security, are an additional expense. Suppose Barada's gross wages for a month are $40,000. Sales tax and VAT collected from customers are also owed to the government.",
     "anim": "refinance",
@@ -78,7 +78,12 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F12-03",
+        "12.2/t:suppose-barada-o",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -123,7 +128,13 @@
           ]
         }
       ],
-      "caption": "Suppose: Barada's payroll and sales tax for one month (complete the blanks)"
+      "caption": "Suppose: Barada's payroll and sales tax for one month (complete the blanks)",
+      "from": [
+        "12.2/your-turn",
+        "F12-03",
+        "12.2/t:suppose-barada-o",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc12-3",
@@ -149,7 +160,10 @@
           "why": "This includes amounts withheld from employees, which are not the employer's expense."
         }
       ],
-      "say": "Use Section 12.2. What is Barada's employer payroll tax expense for the month (whole USD)?"
+      "say": "Use Section 12.2. What is Barada's employer payroll tax expense for the month (whole USD)?",
+      "from": [
+        "12.2/section-check"
+      ]
     },
     {
       "id": "sc12-4",
@@ -175,7 +189,10 @@
           "why": "Accrual accounting does not wait for payment."
         }
       ],
-      "exhibit": "Employees of a company earn two days of vacation each month. Unused days carry forward to the next year and are paid if the employee leaves."
+      "exhibit": "Employees of a company earn two days of vacation each month. Unused days carry forward to the next year and are paid if the employee leaves.",
+      "from": [
+        "12.2/section-check"
+      ]
     }
   ]
 };

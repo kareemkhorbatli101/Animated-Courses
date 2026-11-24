@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Limitations and links to the other statements",
   "n": "3.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.5"),
   "brief": {
     "about": "Net income depends on many estimates: useful lives, credit losses, impairment tests and warranty costs. Different companies also choose different methods, such as FIFO or LIFO for inventory. Two similar companies can therefore report different profits from the same activity. The income statement also leaves things out. An increase in the value of Orontes's land, or of a brand it built itself, is not reported. Most importantly, net income is not cash.",
     "anim": "incomeVsCash",
@@ -32,13 +32,19 @@
       }
     ]
   },
+  "from": [
+    "3.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f03-09",
       "kind": "figure",
       "file": "F03-09.png",
       "label": "Figure F03-09.",
-      "caption": "Why Orontes's 2025 net income differs from its operating cash flow."
+      "caption": "Why Orontes's 2025 net income differs from its operating cash flow.",
+      "from": [
+        "F03-09"
+      ]
     },
     {
       "id": "links",
@@ -108,6 +114,9 @@
         "coming-changes-dise-and-ifrs-18",
         "income-is-not-cash",
         "r-sultat-and"
+      ],
+      "from": [
+        "F03-09"
       ]
     },
     {
@@ -134,7 +143,10 @@
           "why": "No layout is mandated, and layout does not change net income."
         }
       ],
-      "say": "Why can two similar companies report different net income for the same activity?"
+      "say": "Why can two similar companies report different net income for the same activity?",
+      "from": [
+        "3.5/section-check"
+      ]
     },
     {
       "id": "sc3-10",
@@ -159,6 +171,9 @@
           "text": "It is added to additional paid-in capital",
           "why": "APIC comes from share issues, not income."
         }
+      ],
+      "from": [
+        "3.5/section-check"
       ]
     }
   ]

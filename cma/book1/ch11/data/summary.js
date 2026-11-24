@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "fivesteps"
+    "anim": "fivesteps",
+    "about": "Figure F11-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Revenue is recognized when control of goods or services passes to the customer, at the amount the company expects to receive. The five steps are: identify the contract, identify the performance obligations, determine the transaction price, allocate it by standalone selling prices, and recognize revenue when or as each obligation is satisfied. Variable consideration is estimated and constrained, and payments to customers reduce revenue. Agents report net revenue, expected returns create a refund liability and a separate asset, and consignment is not a sale. Commissions are capitalized and expensed as revenue is earned, following the matching principle."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F11-13.png",
       "label": "Figure F11-13.",
       "caption": "Chapter 11 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F11-13"
+      ]
     },
     {
       "id": "rules",

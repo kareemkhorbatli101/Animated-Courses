@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Using learning curves",
   "n": "4.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.4"),
   "brief": {
     "about": "Learning curves improve three decisions. In pricing, a later order costs less than the first, so a lower price may still cover cost. In budgeting, labor hours fall over the year. In setting standards, a standard based on one early batch is too loose, and one based on later batches is too tight for new staff. Always cost an order with its own incremental hours.",
     "anim": "learnCurve",
@@ -62,7 +62,11 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F204-06",
+        "4.4/t:cumulative-batch"
+      ]
     },
     {
       "id": "yourturn",
@@ -103,6 +107,12 @@
           },
           "why": "4,096 − 2,560 = 1,536 hours"
         }
+      ],
+      "from": [
+        "4.4/your-turn",
+        "F204-06",
+        "4.4/t:cumulative-batch",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -128,6 +138,9 @@
           "text": "the time for the first unit",
           "why": "The first unit is the slowest."
         }
+      ],
+      "from": [
+        "4.4/section-check"
       ]
     },
     {
@@ -154,7 +167,10 @@
           "why": "Only one doubling is applied."
         }
       ],
-      "exhibit": "The first unit takes 100 hours on a 90% cumulative average-time curve."
+      "exhibit": "The first unit takes 100 hours on a 90% cumulative average-time curve.",
+      "from": [
+        "4.4/section-check"
+      ]
     }
   ]
 };

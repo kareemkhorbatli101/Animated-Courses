@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Materials mix and yield variances",
   "n": "13.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("13.2"),
   "brief": {
     "about": "The same idea applies to inputs that can be substituted for each other. Halva is made from sesame paste and sugar in a standard blend; using more paste and less sugar changes the cost even if the total input is unchanged. The usage variance of Chapter 12 therefore splits into a materials mix variance and a materials yield variance. Figure F313-07 shows the three columns, all valued at standard prices.",
     "anim": "threeCols",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "13.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f313-07",
       "kind": "figure",
       "file": "F313-07.png",
       "label": "Figure F313-07.",
-      "caption": "The three columns for a materials blend."
+      "caption": "The three columns for a materials blend.",
+      "from": [
+        "F313-07"
+      ]
     },
     {
       "id": "fig-f313-08",
@@ -109,6 +115,10 @@
             "800 U"
           ]
         }
+      ],
+      "from": [
+        "F313-08",
+        "13.2/t:halva-18-000-pac"
       ]
     },
     {
@@ -176,6 +186,12 @@
             "800 U"
           ]
         }
+      ],
+      "from": [
+        "13.2/your-turn",
+        "F313-09",
+        "13.2/t:halva-18-000-pac#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -205,6 +221,10 @@
       "exhibit": "A blend standard is 60% paste at $2.50 and 40% sugar at $1.00. The plant used 9,200 kg in total, of which 5,800 kg was paste.",
       "traps": [
         "yield-is-valued-at-the-average"
+      ],
+      "from": [
+        "13.2/exam-trap",
+        "13.2/section-check"
       ]
     },
     {
@@ -231,7 +251,10 @@
           "why": "This values the extra input at the paste price."
         }
       ],
-      "exhibit": "The standard allows 9,000 kg and 9,200 kg were used. The weighted-average standard price is $1.90."
+      "exhibit": "The standard allows 9,000 kg and 9,200 kg were used. The weighted-average standard price is $1.90.",
+      "from": [
+        "13.2/section-check"
+      ]
     }
   ]
 };

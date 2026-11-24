@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "lifeCycle"
+    "anim": "lifeCycle",
+    "about": "Figure F411-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Data governance exercises authority and decision rights over data; data management carries those decisions out. Governance decides and management does. COSO's framework applies to data unchanged: the same five components are asked about a different asset. The life cycle runs capture, maintenance, synthesis, usage, analytics, publication, archival and purging, and archival is not purging. Preprocessing consolidates, cleans, transforms and reduces, all before analysis begins. A written retention policy keeps records as long as law and evidence require, destroys them consistently, and stops destruction once a dispute is foreseeable. Controls against attack include vulnerability scanning and penetration testing, biometrics, advanced firewalls, access controls and continuous monitoring."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F411-09.png",
       "label": "Figure F411-09.",
       "caption": "Chapter 11 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F411-09"
+      ]
     },
     {
       "id": "rules",

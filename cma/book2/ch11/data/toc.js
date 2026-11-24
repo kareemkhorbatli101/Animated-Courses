@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.4",
   "title": "Physical measure and sales value at split-off",
-  "blurb": "Schedule, questions · 4 scenes"
+  "blurb": "Schedule, grid, yourturn, questions · 5 scenes"
  },
  {
   "id": "s11-5",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.7",
   "title": "Extended Example 11A: batch H-2711 at split-off",
-  "blurb": "Post, a printed statement, the tie lines, questions · 6 scenes"
+  "blurb": "Post, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

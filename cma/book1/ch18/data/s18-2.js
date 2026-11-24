@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The primary purpose",
   "n": "18.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.2"),
   "brief": {
     "about": "The primary purpose of an integrated report is to explain to providers of financial capital, such as shareholders and lenders, how the company creates, preserves or erodes value over time. This is the exam answer to 'Who is the main audience?'. Other stakeholders also benefit: employees, customers, suppliers, communities, regulators and policymakers. In the United States, integrated reporting is voluntary; U.S. GAAP and the SEC do not require it.",
     "anim": "readers",
@@ -75,6 +75,11 @@
       ],
       "traps": [
         "audience-trap"
+      ],
+      "from": [
+        "F18-02",
+        "18.2/t:report-primary-a",
+        "18.2/exam-trap"
       ]
     },
     {
@@ -100,6 +105,9 @@
           "text": "To replace the financial statements",
           "why": "It refers to the financial statements; it does not replace them."
         }
+      ],
+      "from": [
+        "18.2/section-check"
       ]
     },
     {
@@ -126,7 +134,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Orontes's draft integrated report says it is written 'mainly for our employees'."
+      "exhibit": "Orontes's draft integrated report says it is written 'mainly for our employees'.",
+      "from": [
+        "18.2/section-check"
+      ]
     }
   ]
 };

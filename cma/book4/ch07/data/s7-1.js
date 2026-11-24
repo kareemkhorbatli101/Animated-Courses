@@ -9,7 +9,7 @@
   "up": "../",
   "title": "System development controls",
   "n": "7.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.1"),
   "brief": {
     "about": "Controls are cheapest when they are designed into a system and most expensive when they are added afterwards. System development controls are the ones applied while the system is being built, and Figure F407-02 names the five things they protect. Adaptability is the one candidates overlook. A system that cannot be changed safely will be changed unsafely, because the business will not stop to accommodate it.",
     "anim": "sysRoles",
@@ -27,49 +27,51 @@
   "scenes": [
     {
       "id": "fig-f407-02",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F407-02",
       "title": "What system development controls protect",
-      "say": "What system development controls protect",
-      "caption": "What development controls protect (E.2.c)",
-      "col1": "What it means",
-      "col2": "How it is achieved",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "What development controls protect (E.2.c)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Accuracy",
-          "a": "The system computes what it is supposed to compute",
-          "b": "Test with known data and compare the result"
+          "label": "Accuracy",
+          "right": "The system computes what it is supposed to compute",
+          "why": "What it means: The system computes what it is supposed to compute. Test with known data and compare the result."
         },
         {
-          "name": "Validity",
-          "a": "Only genuine, authorized transactions are processed",
-          "b": "Authorization checks designed into the program"
+          "label": "Validity",
+          "right": "Only genuine, authorized transactions are processed",
+          "why": "What it means: Only genuine, authorized transactions are processed. Authorization checks designed into the program."
         },
         {
-          "name": "Safety",
-          "a": "Data is not lost or corrupted when something fails",
-          "b": "Recovery routines and transaction rollback"
+          "label": "Safety",
+          "right": "Data is not lost or corrupted when something fails",
+          "why": "What it means: Data is not lost or corrupted when something fails. Recovery routines and transaction rollback."
         },
         {
-          "name": "Security",
-          "a": "Only the right people can reach the system",
-          "b": "Access rights built in, not added afterwards"
+          "label": "Security",
+          "right": "Only the right people can reach the system",
+          "why": "What it means: Only the right people can reach the system. Access rights built in, not added afterwards."
         },
         {
-          "name": "Adaptability",
-          "a": "The system can be changed as the business changes",
-          "b": "Documentation and modular design"
+          "label": "Adaptability",
+          "right": "The system can be changed as the business changes",
+          "why": "What it means: The system can be changed as the business changes. Documentation and modular design."
         },
         {
-          "name": "Over all of them",
-          "a": "Users involved, stages approved, testing in a separate environment, changes controlled",
-          "b": "The system development controls of Chapter 12"
+          "label": "Over all of them",
+          "right": "Users involved, stages approved, testing in a separate environment, changes controlled",
+          "why": "What it means: Users involved, stages approved, testing in a separate environment, changes controlled. The system development controls of Chapter 12."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "What system development controls protect",
       "traps": [
         "a-system-that-cannot-be-changed-safely"
+      ],
+      "from": [
+        "F407-02",
+        "7.1/t:what-development"
       ]
     },
     {
@@ -95,6 +97,9 @@
           "text": "Users prefer new systems",
           "why": "Preference is irrelevant."
         }
+      ],
+      "from": [
+        "7.1/section-check"
       ]
     },
     {
@@ -120,6 +125,9 @@
           "why": "The business will not stop to accommodate a rigid system.",
           "correct": true
         }
+      ],
+      "from": [
+        "7.1/section-check"
       ]
     }
   ]

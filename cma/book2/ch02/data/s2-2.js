@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Total cost and cost per unit",
   "n": "2.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.2"),
   "brief": {
     "about": "The two basic behaviors look opposite when you divide by activity. Variable cost is constant per unit but changes in total. Fixed cost is constant in total but changes per unit: the more hours, the lower the fixed cost per hour. Figure F202-03 shows Oils overhead at three levels. Total fixed overhead stays at $2,100,569, but fixed overhead per machine hour falls from $70.02 to $43.76.",
     "anim": "costLine",
@@ -101,6 +101,11 @@
       ],
       "traps": [
         "fixed-cost-per-unit-is-not-fixed"
+      ],
+      "from": [
+        "F202-03",
+        "2.2/t:oils-overhead-fy",
+        "2.2/exam-trap"
       ]
     },
     {
@@ -127,7 +132,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Machine hours rise by 10%, still inside the relevant range."
+      "exhibit": "Machine hours rise by 10%, still inside the relevant range.",
+      "from": [
+        "2.2/section-check"
+      ]
     },
     {
       "id": "sc202-4",
@@ -152,6 +160,9 @@
           "text": "$70.02",
           "why": "This is the rate at the low volume."
         }
+      ],
+      "from": [
+        "2.2/section-check"
       ]
     }
   ]

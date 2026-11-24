@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why allocate service department costs",
   "n": "10.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.1"),
   "brief": {
     "about": "A service department supports other departments but does not make products: at Orontes these are Maintenance, IT, the Quality Lab and HR. A production department works on the products: the Oils, Tahini & Spreads and Beverages divisions. Service costs are allocated for three reasons. Products must carry their full cost for inventory and pricing. Users become careful when a service has a price. Service departments also serve each other.",
     "anim": "svcArrows",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F210-02.png",
       "label": "Figure F210-02.",
-      "caption": "Who serves whom: Maintenance and IT serve each other and the three divisions."
+      "caption": "Who serves whom: Maintenance and IT serve each other and the three divisions.",
+      "from": [
+        "F210-02"
+      ]
     },
     {
       "id": "sc210-1",
@@ -58,6 +61,9 @@
       ],
       "traps": [
         "a-service-department-makes-no-product"
+      ],
+      "from": [
+        "10.1/section-check"
       ]
     },
     {
@@ -83,6 +89,9 @@
           "text": "It removes fixed costs",
           "why": "Fixed costs remain."
         }
+      ],
+      "from": [
+        "10.1/section-check"
       ]
     }
   ]

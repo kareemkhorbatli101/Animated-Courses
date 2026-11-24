@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The master-budget variance",
   "n": "11.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.2"),
   "brief": {
     "about": "The master-budget (static-budget) variance is the difference between the actual result and the master budget. For June, operating income was $17,368 below the plan. The total is not very useful on its own, because the division sold 3,000 fewer cases than planned. Lower volume reduces both revenue and variable costs, so the comparison mixes two different stories. Figure F311-05 lists the benefits and limitations of the master-budget comparison.",
     "anim": "flexLine",
@@ -38,13 +38,19 @@
       }
     ]
   },
+  "from": [
+    "11.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f311-04",
       "kind": "figure",
       "file": "F311-04.png",
       "label": "Figure F311-04.",
-      "caption": "The master-budget variance split into two parts."
+      "caption": "The master-budget variance split into two parts.",
+      "from": [
+        "F311-04"
+      ]
     },
     {
       "id": "fill-03",
@@ -119,34 +125,43 @@
             "c3": "17,368 U"
           }
         }
+      ],
+      "from": [
+        "F311-03",
+        "11.2/t:june-2028-usd-ac",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
       "id": "fig-f311-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F311-05",
       "title": "Benefits and limitations of comparing with the master budget",
-      "say": "Benefits and limitations of comparing with the master budget",
-      "caption": "Benefits of comparing with the master budget (C.1.d)",
-      "col1": "Limitations",
-      "col2": "",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Benefits of comparing with the master budget (C.1.d)",
+      "col": "Limitations",
       "rows": [
         {
-          "name": "Shows the total gap from the plan, including volume",
-          "a": "Mixes volume with prices and efficiency",
-          "b": ""
+          "label": "Shows the total gap from the plan, including volume",
+          "right": "Mixes volume with prices and efficiency",
+          "why": "Limitations: Mixes volume with prices and efficiency."
         },
         {
-          "name": "Simple and well understood. Can blame a manager for a volume shortfall caused by the market",
-          "note": true
+          "label": "Simple and well understood",
+          "right": "Can blame a manager for a volume shortfall caused by the market",
+          "why": "Limitations: Can blame a manager for a volume shortfall caused by the market."
         },
         {
-          "name": "Useful for the board, which approved the plan. Not a fair measure of cost control when volume differs",
-          "note": true
+          "label": "Useful for the board, which approved the plan",
+          "right": "Not a fair measure of cost control when volume differs",
+          "why": "Limitations: Not a fair measure of cost control when volume differs."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Benefits and limitations of comparing with the master budget",
+      "from": [
+        "F311-05",
+        "11.2/t:benefits-of-comp"
+      ]
     },
     {
       "id": "sc311-3",
@@ -172,7 +187,10 @@
           "why": "This is the sales-volume variance."
         }
       ],
-      "exhibit": "Actual operating income is $247,632 and the master budget showed $265,000."
+      "exhibit": "Actual operating income is $247,632 and the master budget showed $265,000.",
+      "from": [
+        "11.2/section-check"
+      ]
     },
     {
       "id": "sc311-4",
@@ -198,7 +216,10 @@
           "correct": true
         }
       ],
-      "say": "What is the main limitation of comparing actual results with the master budget?"
+      "say": "What is the main limitation of comparing actual results with the master budget?",
+      "from": [
+        "11.2/section-check"
+      ]
     }
   ]
 };

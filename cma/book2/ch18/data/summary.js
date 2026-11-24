@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "stdCard"
+    "anim": "stdCard",
+    "about": "Figure F218-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Standards turn into budgets by multiplying the cost per unit by planned output, and later measure actual performance. Currently attainable standards allow for normal loss and breaks; ideal standards show the direction of improvement. Participative standards build acceptance, while management keeps the final decision. A price standard includes discounts, freight and receiving; a quantity standard includes normal loss; labor standards add allowances and benefits. Activity analysis and historical data are used together to set standards that are demanding but fair."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F218-14.png",
       "label": "Figure F218-14.",
       "caption": "Chapter 18 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F218-14"
+      ]
     },
     {
       "id": "rules",

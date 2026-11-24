@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Robotic process automation",
   "n": "12.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.3"),
   "brief": {
     "about": "robotic process automation (RPA) uses software robots to carry out rule-based steps on structured data, working through existing screens as a person would. Figure F412-04 sets out what it does and where it stops. Its appeal is that it needs no integration project. The control point is the one most often missed.",
     "anim": "inputGate",
@@ -27,49 +27,53 @@
   "scenes": [
     {
       "id": "fig-f412-04",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F412-04",
       "title": "What robotic process automation does, and where it stops",
-      "say": "What robotic process automation does, and where it stops",
-      "caption": "Robotic process automation (F.3.c)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Robotic process automation (F.3.c)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "What it does",
-          "a": "Software robots copy rule-based keyboard and mouse steps on structured data",
-          "b": "Matching invoices to orders and flagging exceptions"
+          "label": "What it does",
+          "right": "Software robots copy rule-based keyboard and mouse steps on structured data",
+          "why": "What it means: Software robots copy rule-based keyboard and mouse steps on structured data. Matching invoices to orders and flagging exceptions."
         },
         {
-          "name": "Benefits",
-          "a": "Speed, accuracy, operation outside working hours, a complete log of every action",
-          "b": "A three-hour reconciliation finished overnight"
+          "label": "Benefits",
+          "right": "Speed, accuracy, operation outside working hours, a complete log of every action",
+          "why": "What it means: Speed, accuracy, operation outside working hours, a complete log of every action. A three-hour reconciliation finished overnight."
         },
         {
-          "name": "No change to systems",
-          "a": "It works through existing screens, so no integration project is needed",
-          "b": "Useful where an ERP cannot yet reach"
+          "label": "No change to systems",
+          "right": "It works through existing screens, so no integration project is needed",
+          "why": "What it means: It works through existing screens, so no integration project is needed. Useful where an ERP cannot yet reach."
         },
         {
-          "name": "Limitation: brittleness",
-          "a": "A changed screen or report layout stops the robot",
-          "b": "A vendor update breaks the invoice matching"
+          "label": "Limitation: brittleness",
+          "right": "A changed screen or report layout stops the robot",
+          "why": "What it means: A changed screen or report layout stops the robot. A vendor update breaks the invoice matching."
         },
         {
-          "name": "Limitation: scope",
-          "a": "Only stable, rule-based, structured work; judgement defeats it",
-          "b": "Deciding whether an unusual order is genuine"
+          "label": "Limitation: scope",
+          "right": "Only stable, rule-based, structured work; judgement defeats it",
+          "why": "What it means: Only stable, rule-based, structured work; judgement defeats it. Deciding whether an unusual order is genuine."
         },
         {
-          "name": "Control requirement",
-          "a": "A robot needs its own identity, access rights and segregation",
-          "b": "A robot that can both post and approve is one person with two duties"
+          "label": "Control requirement",
+          "right": "A robot needs its own identity, access rights and segregation",
+          "why": "What it means: A robot needs its own identity, access rights and segregation. A robot that can both post and approve is one person with two duties."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "caption": "What robotic process automation does, and where it stops",
       "traps": [
+        "a-robot-is-not-judgement",
         "where-an-erp-cannot-yet-reach"
+      ],
+      "from": [
+        "F412-04",
+        "12.3/t:robotic-process",
+        "12.3/exam-trap"
       ]
     },
     {
@@ -96,8 +100,8 @@
           "why": "Volume is what makes it worthwhile."
         }
       ],
-      "traps": [
-        "a-robot-is-not-judgement"
+      "from": [
+        "12.3/section-check"
       ]
     },
     {
@@ -124,7 +128,10 @@
           "why": "A robot can be configured or compromised to do harm."
         }
       ],
-      "exhibit": "A robot is configured to post journal entries and also to approve them."
+      "exhibit": "A robot is configured to post journal entries and also to approve them.",
+      "from": [
+        "12.3/section-check"
+      ]
     }
   ]
 };

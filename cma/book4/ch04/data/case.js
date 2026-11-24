@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the filer that thought it was exempt",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "auditTopDown"
+  },
+  "scenario": {
+    "title": "Case question: the filer that thought it was exempt",
+    "p": [
+      "Cedar Foods is a U.S.-listed food company and a competitor of Orontes in the Gulf. Its public float is 90 million dollars and its annual revenue is 140 million dollars. Its chief financial officer has told the board that, as a smaller reporting company, Cedar is exempt from the auditor attestation on internal control and need only file management's own assessment.",
+      "Cedar's auditor disagrees and has proposed an integrated audit. The audit plan the firm has submitted begins by listing every control in the revenue and purchasing cycles and testing each one in sequence, working upward from there.",
+      "Separately, Cedar's Gulf subsidiary has been paying a local agent to speed up customs clearance. The payments are recorded in the books as consultancy fees. No bribe has been alleged, and the agent says the payments simply cover processing. Cedar's accounting records do not describe what the payments were for.",
+      "The board has asked its new controller to advise on three questions: whether Cedar is in fact exempt from the attestation, whether the audit plan follows the required approach, and whether the Gulf payments raise any issue under United States law."
+    ],
+    "note": "Use the scenario above for items C404-1 to C404-7."
   },
   "scenes": [
     {
@@ -38,25 +48,30 @@
         {
           "name": "Management must assess internal control annually",
           "to": "sarbanes-oxley",
-          "why": "The accounting provisions are the ones this exam cares about."
+          "why": "Requirement: Sarbanes-Oxley. The accounting provisions are the ones this exam cares about."
         },
         {
           "name": "The auditor must use a top-down approach",
           "to": "pcaob-standard",
-          "why": "The accounting provisions are the ones this exam cares about."
+          "why": "Requirement: PCAOB standard. The accounting provisions are the ones this exam cares about."
         },
         {
           "name": "Books must accurately and fairly reflect transactions",
           "to": "foreign-corrupt-practices-act",
-          "why": "The accounting provisions are the ones this exam cares about."
+          "why": "Requirement: Foreign Corrupt Practices Act. The accounting provisions are the ones this exam cares about."
         },
         {
           "name": "The CEO and CFO must certify the annual report",
           "to": "sarbanes-oxley",
-          "why": "The accounting provisions are the ones this exam cares about."
+          "why": "Requirement: Sarbanes-Oxley. The accounting provisions are the ones this exam cares about."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:requirement-cate",
+        "Practice/t:requirement-cate#2",
+        "Answers and explanations/t:requirement-cate"
+      ]
     },
     {
       "id": "c404-7",
@@ -82,7 +97,7 @@
           "why": "The PCAOB issues the auditing standards, subject to approval by the SEC, and the standard governing an audit of internal control over financial reporting is AS 2201."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C404-1 to C404-7."
     },
     {
       "id": "c404-2",

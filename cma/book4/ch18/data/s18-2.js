@@ -9,7 +9,7 @@
   "up": "../",
   "title": "How a true chart misleads",
   "n": "18.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.2"),
   "brief": {
     "about": "Distortion rarely involves a false number. Figure F418-03 shows the same four quarters of 2028 drawn two ways. On the left the axis begins at 205,000, and the third-quarter bar towers over the first. On the right it begins at zero, and the four quarters are visibly similar. The third quarter exceeds the first by 14 per cent, which the right-hand chart conveys and the left-hand chart does not.",
     "anim": "misleadAxis",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F418-03.png",
       "label": "Figure F418-03.",
-      "caption": "The same four figures drawn misleadingly and honestly."
+      "caption": "The same four figures drawn misleadingly and honestly.",
+      "from": [
+        "F418-03"
+      ]
     },
     {
       "id": "sc418-3",
@@ -55,6 +58,9 @@
           "why": "Every figure stays correct, which is what makes it effective.",
           "correct": true
         }
+      ],
+      "from": [
+        "18.2/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "why": "Technical readers are misled by shape too."
         }
       ],
-      "exhibit": "A truncated axis is clearly labelled."
+      "exhibit": "A truncated axis is clearly labelled.",
+      "from": [
+        "18.2/section-check"
+      ]
     }
   ]
 };

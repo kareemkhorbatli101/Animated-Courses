@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 8A: Tahini & Spreads closes 2027",
   "n": "8.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.6"),
   "brief": {
     "about": "This example analyzes the year's underapplied overhead, prorates it, records the closing entry and compares the result with a write-off. The proration and its effect on income are exam-core; the variance split previews Book 3. Find the underapplied amount and its causes, test materiality, prorate on applied overhead, record the entry and compare the income effect of the two methods. Figure F208-09 splits the $230,000. Figure F208-13 compares the two methods.",
     "anim": "appliedActual",
@@ -72,20 +72,29 @@
       }
     ]
   },
+  "from": [
+    "8.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f208-09",
       "kind": "figure",
       "file": "F208-09.png",
       "label": "Figure F208-09.",
-      "caption": "Extended Example: the parts of the underapplied overhead."
+      "caption": "Extended Example: the parts of the underapplied overhead.",
+      "from": [
+        "F208-09"
+      ]
     },
     {
       "id": "fig-f208-12",
       "kind": "figure",
       "file": "F208-12.png",
       "label": "Figure F208-12.",
-      "caption": "Extended Example: overhead and inventory T-accounts after proration."
+      "caption": "Extended Example: overhead and inventory T-accounts after proration.",
+      "from": [
+        "F208-12"
+      ]
     },
     {
       "id": "fill-10",
@@ -155,6 +164,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F208-10",
+        "8.6/t:tahini-fy2027-ap",
+        "8.6/exam-trap"
       ]
     },
     {
@@ -178,6 +192,10 @@
             ""
           ]
         }
+      ],
+      "from": [
+        "F208-11",
+        "8.6/t:no-account-detai"
       ]
     },
     {
@@ -221,6 +239,104 @@
             "c2": "2,139,000"
           }
         }
+      ],
+      "from": [
+        "F208-13",
+        "8.6/t:tahini-fy2027-wh"
+      ]
+    },
+    {
+      "id": "t8-6-0",
+      "kind": "lines",
+      "kicker": "Section 8.6",
+      "title": "Beverages cost",
+      "caption": "Beverages cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Depreciation of the bottling line",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Power for the fillers",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Line supervisors",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Cleaning chemicals",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Juice concentrate",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Service department charges",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:beverages-cost-c",
+        "Answers and explanations/t:beverages-cost-c"
+      ]
+    },
+    {
+      "id": "t8-6-1",
+      "kind": "lines",
+      "kicker": "Section 8.6",
+      "title": "Beverages cost",
+      "caption": "Beverages cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Depreciation of the bottling line",
+          "a": "Fixed overhead",
+          "b": ""
+        },
+        {
+          "name": "Power for the fillers",
+          "a": "Variable overhead",
+          "b": ""
+        },
+        {
+          "name": "Line supervisors",
+          "a": "Fixed overhead",
+          "b": ""
+        },
+        {
+          "name": "Cleaning chemicals",
+          "a": "Variable overhead",
+          "b": ""
+        },
+        {
+          "name": "Juice concentrate",
+          "a": "Not overhead",
+          "b": ""
+        },
+        {
+          "name": "Service department charges",
+          "a": "Fixed overhead",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:beverages-cost-c",
+        "Answers and explanations/t:beverages-cost-c"
       ]
     },
     {
@@ -272,7 +388,10 @@
         }
       ],
       "exhibit": "Use the Extended Example.",
-      "say": "How much of the underapplied overhead is added to ending finished goods (whole USD)?"
+      "say": "How much of the underapplied overhead is added to ending finished goods (whole USD)?",
+      "from": [
+        "8.6/section-check"
+      ]
     },
     {
       "id": "sc208-12",
@@ -298,7 +417,10 @@
           "why": "Part of the cost is deferred in inventory."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "8.6/section-check"
+      ]
     }
   ]
 };

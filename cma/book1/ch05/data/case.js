@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada Wholesale's cash flows in 2026",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "signs"
+  },
+  "scenario": {
+    "title": "Case question: Barada Wholesale's cash flows in 2026",
+    "p": [
+      "Barada Wholesale's bank now asks for a statement of cash flows for 2026. The bank wants to see how much cash the business generated from its normal operations, what Barada spent on long-term assets, and how it financed itself.",
+      "The data come from the Barada cases in Chapters 2, 3 and 4. During 2026 Barada settled the lawsuit, received insurance money after the fire, sold the catering equipment, repaid part of its bank loan, bought back shares and paid the dividend declared at the end of 2025.",
+      "Barada's accountant uses the indirect method, which starts from net income and adjusts for noncash items and for changes in working capital. She must also decide where each cash flow belongs and what to disclose about transactions that did not use cash.",
+      "Mr Haddad wants to know why cash from operations differs from net income, and why the dividend declared in December 2026 does not appear as a cash payment this year. Amounts in the exhibit are in thousands of U.S. dollars. The bank will compare the statement with the balance sheets at the start and the end of the year, line by line."
+    ]
   },
   "scenes": [
     {
@@ -116,7 +125,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F05-12",
+        "Practice/t:barada-wholesale"
+      ]
     },
     {
       "id": "c5-1",
@@ -166,7 +179,11 @@
           "why": "Cash flow: Financing."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:cash-flow-catego",
+        "Answers and explanations/t:cash-flow-catego"
+      ]
     },
     {
       "id": "c5-2",

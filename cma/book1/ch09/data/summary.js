@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "buckets"
+    "anim": "buckets",
+    "about": "Figure F09-11 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Debt securities are trading, held-to-maturity or available-for-sale, depending on intent and ability. Trading and AFS securities are at fair value; trading gains and losses go to net income and AFS gains and losses go to OCI until the sale, when they are reclassified. HTM securities stay at amortized cost, and interest revenue always follows the effective-interest method. Credit losses use CECL for HTM and an allowance limited by fair value for AFS. Shares without significant influence are at fair value through net income. With significant influence, the equity method adds the investor's share of income and subtracts dividends."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F09-11.png",
       "label": "Figure F09-11.",
       "caption": "Chapter 9 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F09-11"
+      ]
     },
     {
       "id": "rules",

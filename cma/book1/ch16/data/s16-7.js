@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 16A: one acquisition, from goodwill to the group result",
   "n": "16.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.7"),
   "brief": {
     "about": "This example acquires Levant Distribution, measures goodwill, eliminates the intragroup trading and splits the result between the parent and the non-controlling interest. It is exam-core. Orontes pays $8,000,000 for 80% of Levant, and the non-controlling interest is measured at its fair value of $1,900,000, a total of $9,900,000. The net assets at fair value are $8,500,000, so goodwill is $1,400,000. Figure F16-11 sets out the calculation and the IFRS alternative.",
     "anim": "group",
@@ -61,6 +61,9 @@
       }
     ]
   },
+  "from": [
+    "16.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-11",
@@ -112,6 +115,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F16-11",
+        "16.7/t:acquisition-of-l",
+        "16.7/exam-trap"
       ]
     },
     {
@@ -127,6 +135,84 @@
           "answer": "2031000",
           "why": "Closing balance: 2,031,000."
         }
+      ],
+      "from": [
+        "F16-12",
+        "16.7/t:non-controlling"
+      ]
+    },
+    {
+      "id": "t16-7-0",
+      "kind": "lines",
+      "kicker": "Section 16.7",
+      "title": "Investment",
+      "caption": "Investment",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Tadmor Retail (75%)",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Supplier (30%, significant influence)",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Listed food company (8%)",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Cold-storage SPV that Barada directs and guarantees (VIE)",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:investment-categ",
+        "Answers and explanations/t:investment-categ"
+      ]
+    },
+    {
+      "id": "t16-7-1",
+      "kind": "lines",
+      "kicker": "Section 16.7",
+      "title": "Investment",
+      "caption": "Investment",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Tadmor Retail (75%)",
+          "a": "Full consolidation",
+          "b": ""
+        },
+        {
+          "name": "Supplier (30%, significant influence)",
+          "a": "Equity method",
+          "b": ""
+        },
+        {
+          "name": "Listed food company (8%)",
+          "a": "Fair value through net income",
+          "b": ""
+        },
+        {
+          "name": "Cold-storage SPV that Barada directs and guarantees (VIE)",
+          "a": "Full consolidation",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:investment-categ",
+        "Answers and explanations/t:investment-categ"
       ]
     },
     {
@@ -177,7 +263,10 @@
           "why": "These are the net assets, not goodwill."
         }
       ],
-      "exhibit": "Use Extended Example 16A."
+      "exhibit": "Use Extended Example 16A.",
+      "from": [
+        "16.7/section-check"
+      ]
     },
     {
       "id": "sc16-14",
@@ -203,7 +292,10 @@
           "why": "Consolidation reports the group as one entity."
         }
       ],
-      "exhibit": "Use Extended Example 16A."
+      "exhibit": "Use Extended Example 16A.",
+      "from": [
+        "16.7/section-check"
+      ]
     },
     {
       "id": "sc16-15",
@@ -229,7 +321,10 @@
           "why": "This omits the dividends paid to the non-controlling shareholders."
         }
       ],
-      "exhibit": "Use Extended Example 16A."
+      "exhibit": "Use Extended Example 16A.",
+      "from": [
+        "16.7/section-check"
+      ]
     }
   ]
 };

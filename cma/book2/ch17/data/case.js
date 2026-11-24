@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · bottling olive oil outside",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "supplyPlan"
+  },
+  "scenario": {
+    "title": "Case question: bottling olive oil outside",
+    "p": [
+      "The Oils division bottles its extra-virgin olive oil on its own line. A bottling company in Zarqa has offered to do the work for a fixed price per liter, and its sales manager points out that the offer is below the division's own cost per liter. The quote is valid for one month only.",
+      "The division's bottling cost comes from the Chapter 11 costing: bottles and caps, labor, variable overhead, depreciation of the bottling line and a share of plant overhead. The line is old and has no resale value, and the plant overhead would not change if bottling stopped.",
+      "The Oils manager is tempted by the offer. He also worries about quality, because the oil is sold as a premium product under the Orontes brand, and about depending on one outside company for every bottle the division sells.",
+      "The controller, Omar, must prepare the analysis for the division manager. He needs the avoidable cost of bottling, the cost of buying, and the yearly advantage of the better option, together with the main risk that the numbers do not show."
+    ]
   },
   "scenes": [
     {
@@ -66,7 +75,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F217-15",
+        "Practice/t:oils-bottling-ev",
+        "Practice/t:bottling-cost-ca",
+        "Answers and explanations/t:bottling-cost-ca"
+      ]
     },
     {
       "id": "c217-1",
@@ -112,7 +127,11 @@
           "why": "Bottling cost: Not avoidable."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:bottling-cost-ca",
+        "Answers and explanations/t:bottling-cost-ca"
+      ]
     },
     {
       "id": "c217-2",

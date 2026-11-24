@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 14A: what June means and what to do",
   "n": "14.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.6"),
   "brief": {
     "about": "This example takes the four overhead variances to the review meeting and turns them into decisions. It is exam-core. Figure F314-11 gives the likely cause of each variance and the action the meeting agreed. Only two of the four led to action inside the plant. The favorable spending variance is kept but watched; the volume variance is passed to the sales discussion of Chapter 13, because the plant cannot sell cases.",
     "anim": "threeCols",
@@ -42,6 +42,9 @@
       }
     ]
   },
+  "from": [
+    "14.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-11",
@@ -93,6 +96,97 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F314-11",
+        "14.6/t:variance-amount",
+        "14.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t14-6-0",
+      "kind": "lines",
+      "kicker": "Section 14.6",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Variable overhead spending variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Variable overhead efficiency variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Fixed overhead spending variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Production-volume variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Total overhead variance",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:variance-categor"
+      ]
+    },
+    {
+      "id": "t14-6-1",
+      "kind": "lines",
+      "kicker": "Section 14.6",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Variable overhead spending variance",
+          "a": "Favorable",
+          "b": ""
+        },
+        {
+          "name": "Variable overhead efficiency variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Fixed overhead spending variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Production-volume variance",
+          "a": "Favorable",
+          "b": ""
+        },
+        {
+          "name": "Total overhead variance",
+          "a": "Favorable",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:variance-categor"
       ]
     },
     {
@@ -138,7 +232,10 @@
           "why": "Smaller than the volume variance."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "14.6/section-check"
+      ]
     },
     {
       "id": "sc314-12",
@@ -164,7 +261,10 @@
           "why": "Nothing guarantees that."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "14.6/section-check"
+      ]
     }
   ]
 };

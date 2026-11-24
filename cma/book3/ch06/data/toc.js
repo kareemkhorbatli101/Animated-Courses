@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.2",
   "title": "The sales forecast",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s6-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.4",
   "title": "From sales to production",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, match, questions · 4 scenes"
  },
  {
   "id": "s6-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.5",
   "title": "Preparing the production budget",
-  "blurb": "Figures, schedule, grid, questions · 5 scenes"
+  "blurb": "Figures, schedule, grid, yourturn, questions · 6 scenes"
  },
  {
   "id": "s6-6",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.6",
   "title": "Extended Example 6A: a late order for the summer",
-  "blurb": "Schedule, a printed statement, the tie lines, questions · 5 scenes"
+  "blurb": "Schedule, match, a printed statement, the tie lines, questions · 7 scenes"
  },
  {
   "id": "summary",
@@ -89,6 +89,14 @@ window.CHAPTER_TOC = [
   "n": "◆",
   "title": "Case question · the Tahini & Spreads jar budgets",
   "blurb": "A printed statement, sorts, amounts, questions · 8 scenes"
+ },
+ {
+  "id": "exam",
+  "file": "exam.html",
+  "kind": "back",
+  "n": "◆",
+  "title": "Exam practice",
+  "blurb": "Questions · 3 scenes"
  },
  {
   "id": "review",

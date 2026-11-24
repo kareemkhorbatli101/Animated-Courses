@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.7",
   "title": "Extended Example 14A: one warehouse, two classifications",
-  "blurb": "Schedule, shares, the tie lines, questions · 6 scenes"
+  "blurb": "Schedule, shares, a printed statement, the tie lines, questions · 8 scenes"
  },
  {
   "id": "summary",

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "whaleCurve"
+    "anim": "whaleCurve",
+    "about": "Figure F213-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Service companies use ABC to trace their mostly indirect costs through activities. Profit by customer starts from net revenue, after rebates and listing fees, and deducts product cost, the cost to serve and customer-sustaining costs. The whale curve shows that a few customers earn more than the total profit. Managers are judged on controllable margin, and a customer or product is dropped only when the lost revenue is smaller than the costs that would really go away."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F213-14.png",
       "label": "Figure F213-14.",
       "caption": "Chapter 13 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F213-14"
+      ]
     },
     {
       "id": "rules",

@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P403-01–P403-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "dutySplit"
   },

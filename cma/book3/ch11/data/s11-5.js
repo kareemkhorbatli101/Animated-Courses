@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Investigating variances",
   "n": "11.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.5"),
   "brief": {
     "about": "A cost variance still mixes two causes: the price paid for an input and the quantity used. Figure F311-11 separates them for concentrate and labor, and gives the likely reason for each. The concentrate price variance of $8,740 came from a world price rise, which the plant cannot control; the usage variance of $4,500 and the labor efficiency variance of $960 came from one long changeover.",
     "anim": "varSplit",
@@ -86,6 +86,10 @@
           },
           "why": "Calculation: (3,680 − 3,600) hours × $12.00. Amount: 960 U."
         }
+      ],
+      "from": [
+        "F311-11",
+        "11.5/t:difference-calcu"
       ]
     },
     {
@@ -112,7 +116,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Actual operating income is $247,632 and the flexible budget shows $240,400."
+      "exhibit": "Actual operating income is $247,632 and the flexible budget shows $240,400.",
+      "from": [
+        "11.5/section-check"
+      ]
     },
     {
       "id": "sc311-10",
@@ -138,7 +145,10 @@
           "why": "A large variance deserves investigation."
         }
       ],
-      "exhibit": "The concentrate cost is $13,240 over the flexible budget."
+      "exhibit": "The concentrate cost is $13,240 over the flexible budget.",
+      "from": [
+        "11.5/section-check"
+      ]
     }
   ]
 };

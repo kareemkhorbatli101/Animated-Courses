@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The overhead budget",
   "n": "7.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.4"),
   "brief": {
     "about": "The overhead budget has a variable part and a fixed part. Variable overhead moves with its driver, machine hours, at $50.00 an hour; fixed overhead is budgeted item by item and does not change with production. Figure F307-09 lists the items.",
     "anim": "bridgeBar",
@@ -30,6 +30,9 @@
       }
     ]
   },
+  "from": [
+    "7.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-09",
@@ -124,6 +127,11 @@
       ],
       "traps": [
         "fixed-overhead-does-not-follow-volume"
+      ],
+      "from": [
+        "F307-09",
+        "7.4/t:overhead-item-ra",
+        "7.4/exam-trap"
       ]
     },
     {
@@ -211,6 +219,10 @@
             "c5": "2,701,000"
           }
         }
+      ],
+      "from": [
+        "F307-10",
+        "7.4/t:overhead-budget"
       ]
     },
     {
@@ -237,7 +249,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A quarter needs 4,260 machine hours. Variable overhead is $50 an hour and fixed overhead $450,000 a quarter."
+      "exhibit": "A quarter needs 4,260 machine hours. Variable overhead is $50 an hour and fixed overhead $450,000 a quarter.",
+      "from": [
+        "7.4/section-check"
+      ]
     },
     {
       "id": "sc307-8",
@@ -262,6 +277,9 @@
           "text": "the selling price",
           "why": "Unrelated."
         }
+      ],
+      "from": [
+        "7.4/section-check"
       ]
     }
   ]

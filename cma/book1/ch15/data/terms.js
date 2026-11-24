@@ -9,6 +9,19 @@
   "up": "../",
   "title": "Term bank",
   "brief": {},
+  "from": [
+    "15.1/t:english-exam-ter",
+    "15.1/term-bridge",
+    "15.2/t:english-exam-ter",
+    "15.2/term-bridge",
+    "15.3/t:english-exam-ter",
+    "15.3/term-bridge",
+    "15.4/t:english-exam-ter",
+    "15.4/term-bridge",
+    "15.5/t:english-exam-ter",
+    "15.5/term-bridge",
+    "front/t:english-exam-ter"
+  ],
   "scenes": [
 
     { id: "en-ar", kind: "flash",

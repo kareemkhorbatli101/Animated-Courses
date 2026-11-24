@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada's delivery costs",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "scatterLine"
+  },
+  "scenario": {
+    "title": "Case question: Barada's delivery costs",
+    "p": [
+      "Barada Wholesale delivers Orontes products to shops across Amman with its own vans. Delivery cost includes drivers' wages, fuel, van leases and maintenance. The number of deliveries changes each month with shop orders, and some months are much busier than others.",
+      "Barada's accountant has two years of monthly data on deliveries and delivery cost. She has estimated the cost function in two ways: the high-low method, and a regression on all the months. The regression output reports the intercept, the coefficient on deliveries, R², the standard error and the t-statistics.",
+      "Barada's owner, Mr Haddad, must budget delivery cost for next year. He wants to know what each method says about fixed and variable cost, which estimate is more reliable, and what a busy month would cost. He also wants to understand the regression output before he uses it.",
+      "Last year one winter month was unusually quiet because of heavy snow, and one month before a holiday was unusually busy. Mr Haddad is worried that these two months could distort the estimate. He asks his accountant to explain the numbers in plain words, with the exhibit open, before he signs the budget for the coming year."
+    ]
   },
   "scenes": [
     {
@@ -85,7 +94,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F203-13",
+        "Practice/t:barada-wholesale",
+        "Practice/t:output-item-cate",
+        "Answers and explanations/t:output-item-cate"
+      ]
     },
     {
       "id": "c203-1",
@@ -135,7 +150,11 @@
           "why": "Output item: Reliability measure."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:output-item-cate",
+        "Answers and explanations/t:output-item-cate"
+      ]
     },
     {
       "id": "c203-2",

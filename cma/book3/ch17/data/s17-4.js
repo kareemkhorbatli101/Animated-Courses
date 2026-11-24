@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Choosing between them",
   "n": "17.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.4"),
   "brief": {
     "about": "The two measures can disagree, and the disagreement is the reason both exist. Beverages is offered the filling-line project of Chapter 4: $2,500,000 of assets earning $450,000 a year, a return of 18.0%. Figure F317-08 shows the problem. The project earns well above the 12% the company requires, but below the 26.5% the division already earns, so accepting it pulls the division's ROI down to 25.0%.",
     "anim": "riBar",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "17.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f317-08",
       "kind": "figure",
       "file": "F317-08.png",
       "label": "Figure F317-08.",
-      "caption": "The project's return against the division's ROI and the required return."
+      "caption": "The project's return against the division's ROI and the required return.",
+      "from": [
+        "F317-08"
+      ]
     },
     {
       "id": "fill-09",
@@ -112,36 +118,43 @@
       ],
       "traps": [
         "compare-the-project-with-the-required-"
+      ],
+      "from": [
+        "F317-09",
+        "17.4/t:beverages-and-th",
+        "17.4/exam-trap"
       ]
     },
     {
       "id": "fig-f317-10",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F317-10",
       "title": "Benefits and limitations of ROI and residual income",
-      "say": "Benefits and limitations of ROI and residual income",
-      "caption": "Measure (C.3.i)",
-      "col1": "Benefits",
-      "col2": "Limitations",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Measure (C.3.i)",
+      "col": "Benefits",
       "rows": [
         {
-          "name": "ROI",
-          "a": "A percentage, so divisions of different size can be compared",
-          "b": "Can lead a manager to reject a project that earns more than the required return"
+          "label": "ROI",
+          "right": "A percentage, so divisions of different size can be compared",
+          "why": "Benefits: A percentage, so divisions of different size can be compared. Can lead a manager to reject a project that earns more than the required return."
         },
         {
-          "name": "Residual income",
-          "a": "Accepts every project above the required return, so no suboptimization",
-          "b": "An amount, so a large division will always show more than a small one"
+          "label": "Residual income",
+          "right": "Accepts every project above the required return, so no suboptimization",
+          "why": "Benefits: Accepts every project above the required return, so no suboptimization. An amount, so a large division will always show more than a small one."
         },
         {
-          "name": "Both",
-          "a": "Need an agreed investment base and income measure",
-          "b": "Both can be improved by cutting assets rather than by earning more"
+          "label": "Both",
+          "right": "Need an agreed investment base and income measure",
+          "why": "Benefits: Need an agreed investment base and income measure. Both can be improved by cutting assets rather than by earning more."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Benefits and limitations of ROI and residual income",
+      "from": [
+        "F317-10",
+        "17.4/t:measure-c-3-i-be"
+      ]
     },
     {
       "id": "sc317-7",
@@ -167,7 +180,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A division earning 26.5% is offered a project returning 18%, when the required return is 12%."
+      "exhibit": "A division earning 26.5% is offered a project returning 18%, when the required return is 12%.",
+      "from": [
+        "17.4/section-check"
+      ]
     },
     {
       "id": "sc317-8",
@@ -193,7 +209,10 @@
           "why": "The capital charge is ignored."
         }
       ],
-      "exhibit": "A project needs $2,500,000 and earns $450,000 when the required return is 12%."
+      "exhibit": "A project needs $2,500,000 and earns $450,000 when the required return is 12%.",
+      "from": [
+        "17.4/section-check"
+      ]
     }
   ]
 };

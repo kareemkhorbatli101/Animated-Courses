@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Judging how good a model is",
   "n": "16.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("16.4"),
   "brief": {
     "about": "Three measures are named by the syllabus, and Figure F416-05 distinguishes them. The standard error of the estimate is the typical distance of an observation from the fitted line, expressed in the units of the thing being predicted. For the Beverages model it is 555 cases, which is readable directly: a prediction is typically wrong by about that much.",
     "anim": "fitCurve",
@@ -67,6 +67,11 @@
       ],
       "traps": [
         "a-narrow-interval-is-not-a-better-one"
+      ],
+      "from": [
+        "F416-05",
+        "16.4/t:measure-f-4-t-wh",
+        "16.4/exam-trap"
       ]
     },
     {
@@ -92,6 +97,9 @@
           "text": "between minus one and plus one",
           "why": "That is the correlation coefficient."
         }
+      ],
+      "from": [
+        "16.4/section-check"
       ]
     },
     {
@@ -118,7 +126,10 @@
           "correct": true
         }
       ],
-      "exhibit": "A model produces a very narrow confidence interval on a small sample."
+      "exhibit": "A model produces a very narrow confidence interval on a small sample.",
+      "from": [
+        "16.4/section-check"
+      ]
     }
   ]
 };

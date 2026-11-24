@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Flexible budgets",
   "n": "5.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("5.3"),
   "brief": {
     "about": "A static budget is prepared for one planned level of activity. A flexible budget can be prepared for any level, using the cost formula of each cost: fixed cost plus variable cost per unit. It is used mainly to compare actual costs with what they should have been at the actual volume. The Beverages cost formula for a month is $350,000 of fixed costs plus $11.80 of variable cost per case.",
     "anim": "flexLine",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "5.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f305-06",
       "kind": "figure",
       "file": "F305-06.png",
       "label": "Figure F305-06.",
-      "caption": "The Beverages cost formula as a line."
+      "caption": "The Beverages cost formula as a line.",
+      "from": [
+        "F305-06"
+      ]
     },
     {
       "id": "fill-07",
@@ -110,6 +116,11 @@
             "c4": "306,000"
           }
         }
+      ],
+      "from": [
+        "F305-07",
+        "5.3/t:beverages-one-mo",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -172,7 +183,12 @@
           ]
         }
       ],
-      "data": true
+      "data": true,
+      "from": [
+        "F305-08",
+        "5.3/t:beverages-one-mo#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "yourturn",
@@ -207,7 +223,13 @@
           ]
         }
       ],
-      "caption": "Your turn: the flexible budget at the highest volume (complete the blanks)"
+      "caption": "Your turn: the flexible budget at the highest volume (complete the blanks)",
+      "from": [
+        "5.3/your-turn",
+        "F305-08",
+        "5.3/t:beverages-one-mo#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc305-5",
@@ -233,7 +255,10 @@
           "why": "This is sales at $20."
         }
       ],
-      "exhibit": "Fixed costs are $350,000 a month and variable cost is $11.80 a case."
+      "exhibit": "Fixed costs are $350,000 a month and variable cost is $11.80 a case.",
+      "from": [
+        "5.3/section-check"
+      ]
     },
     {
       "id": "sc305-6",
@@ -258,6 +283,9 @@
           "text": "It ignores fixed costs",
           "why": "It includes fixed costs."
         }
+      ],
+      "from": [
+        "5.3/section-check"
       ]
     }
   ]

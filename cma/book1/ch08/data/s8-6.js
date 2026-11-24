@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 8A: testing and estimating the same inventory",
   "n": "8.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.6"),
   "brief": {
     "about": "This example applies the measurement test to four Orontes products and then estimates the ending inventory of the retail division two ways. It is exam-core: both calculations appear often, and both have a step candidates skip. Figure F08-10 works through the four products. For tahini the floor binds, for chickpeas replacement cost itself, and for date syrup the ceiling. The write-down item by item is $4,500.",
     "anim": "band",
@@ -54,6 +54,9 @@
       }
     ]
   },
+  "from": [
+    "8.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "pick-10",
@@ -158,6 +161,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F08-10",
+        "8.6/t:product-cost-rep",
+        "8.6/exam-trap"
       ]
     },
     {
@@ -214,6 +222,95 @@
             "c2"
           ]
         }
+      ],
+      "from": [
+        "F08-11",
+        "8.6/t:retail-division",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t8-6-1",
+      "kind": "lines",
+      "kicker": "Section 8.6",
+      "title": "Product line",
+      "caption": "Product line",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Pomegranate molasses",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Rose water",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Za'atar mix",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Frozen kibbeh",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Olive-oil soap",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:product-line-cat",
+        "Answers and explanations/t:product-line-cat"
+      ]
+    },
+    {
+      "id": "t8-6-2",
+      "kind": "lines",
+      "kicker": "Section 8.6",
+      "title": "Product line",
+      "caption": "Product line",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Pomegranate molasses",
+          "a": "LCM (market with ceiling and floor)",
+          "b": ""
+        },
+        {
+          "name": "Rose water",
+          "a": "LCM (market with ceiling and floor)",
+          "b": ""
+        },
+        {
+          "name": "Za'atar mix",
+          "a": "LCNRV",
+          "b": ""
+        },
+        {
+          "name": "Frozen kibbeh",
+          "a": "LCNRV",
+          "b": ""
+        },
+        {
+          "name": "Olive-oil soap",
+          "a": "LCNRV",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:product-line-cat",
+        "Answers and explanations/t:product-line-cat"
       ]
     },
     {
@@ -263,6 +360,9 @@
           "text": "122,000",
           "why": "This is total cost before any write-down."
         }
+      ],
+      "from": [
+        "8.6/section-check"
       ]
     },
     {
@@ -289,7 +389,10 @@
           "why": "Cost is what market is compared with, not market itself."
         }
       ],
-      "say": "Use Extended Example 8A. What is market for a product whose replacement cost is above net realizable value?"
+      "say": "Use Extended Example 8A. What is market for a product whose replacement cost is above net realizable value?",
+      "from": [
+        "8.6/section-check"
+      ]
     },
     {
       "id": "sc8-13",
@@ -315,7 +418,10 @@
           "why": "This is cost of goods sold."
         }
       ],
-      "say": "Use Extended Example 8A. What is ending inventory at cost under the conventional retail method?"
+      "say": "Use Extended Example 8A. What is ending inventory at cost under the conventional retail method?",
+      "from": [
+        "8.6/section-check"
+      ]
     }
   ]
 };

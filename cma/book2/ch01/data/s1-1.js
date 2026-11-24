@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Cost objects",
   "n": "1.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.1"),
   "brief": {
     "about": "A cost object is anything for which a separate cost is measured. At Orontes it can be a division, a product line, one private-label job, a customer such as Barada Wholesale, or an activity such as machine setups. Managers choose cost objects to answer questions. What does job T-0303 cost? Is the halva line profitable? How much does it cost to serve Barada? Each question needs a different cost object.",
     "anim": "poolBase",
@@ -48,6 +48,9 @@
           "text": "Accounts payable",
           "why": "Accounts payable is a liability."
         }
+      ],
+      "from": [
+        "1.1/section-check"
       ]
     },
     {
@@ -73,6 +76,9 @@
           "text": "the customer Barada Wholesale",
           "why": "It is not traceable to one customer."
         }
+      ],
+      "from": [
+        "1.1/section-check"
       ]
     }
   ]

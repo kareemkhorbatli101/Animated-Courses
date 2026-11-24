@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Spoilage, rework and scrap in job costing",
   "n": "7.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("7.5"),
   "brief": {
     "about": "Job costing has three cases. Normal spoilage caused by one job's special needs stays in that job. Normal spoilage common to all jobs goes to Manufacturing Overhead Control and is spread through the overhead rate. Abnormal spoilage is a loss. In every case, the disposal value of the spoiled units is recorded first. Figure F207-07 records a spoiled lot on Tahini job T-0305 in each case.",
     "anim": "spoilGate",
@@ -31,91 +31,120 @@
       }
     ]
   },
+  "from": [
+    "7.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f207-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F207-07",
       "title": "Spoilage and scrap in job costing: three cases",
-      "say": "Spoilage and scrap in job costing: three cases",
-      "caption": "Job T-0305: spoiled units cost 4,000; disposal value 500",
-      "col1": "Entry",
-      "col2": "Effect",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Job T-0305: spoiled units cost 4,000; disposal value 500",
+      "col": "Effect",
       "rows": [
         {
-          "name": "Normal, caused by this job's specifications",
-          "a": "Dr Spoiled Goods Inventory 500; Cr WIP (job) 500",
-          "b": "The job keeps the net cost of 3,500"
+          "label": "Normal, caused by this job's specifications",
+          "right": "The job keeps the net cost of 3,500",
+          "why": "Effect: The job keeps the net cost of 3,500. Dr Spoiled Goods Inventory 500; Cr WIP (job) 500."
         },
         {
-          "name": "Normal, common to all jobs",
-          "a": "Dr Spoiled Goods Inventory 500; Dr MOH Control 3,500; Cr WIP (job) 4,000",
-          "b": "Spread to all jobs through the overhead rate"
+          "label": "Normal, common to all jobs",
+          "right": "Spread to all jobs through the overhead rate",
+          "why": "Effect: Spread to all jobs through the overhead rate. Dr Spoiled Goods Inventory 500; Dr MOH Control 3,500; Cr WIP (job) 4,000."
         },
         {
-          "name": "Abnormal",
-          "a": "Dr Spoiled Goods Inventory 500; Dr Loss from Abnormal Spoilage 3,500; Cr WIP (job) 4,000",
-          "b": "Period loss in the income statement"
+          "label": "Abnormal",
+          "right": "Period loss in the income statement",
+          "why": "Effect: Period loss in the income statement. Dr Spoiled Goods Inventory 500; Dr Loss from Abnormal Spoilage 3,500; Cr WIP (job) 4,000."
         },
         {
-          "name": "Scrap sold (common to all jobs)",
-          "a": "Dr Cash 600; Cr MOH Control 600",
-          "b": "Reduces overhead (if specific to a job: Cr WIP of that job)"
+          "label": "Scrap sold (common to all jobs)",
+          "right": "Reduces overhead (if specific to a job: Cr WIP of that job)",
+          "why": "Effect: Reduces overhead (if specific to a job: Cr WIP of that job). Dr Cash 600; Cr MOH Control 600."
+        }
+      ],
+      "caption": "Spoilage and scrap in job costing: three cases",
+      "traps": [
+        "rebuts-d-chets"
+      ],
+      "from": [
+        "F207-07",
+        "7.5/t:job-t-0305-spoil"
+      ]
+    },
+    {
+      "id": "fig-f207-08",
+      "kind": "lines",
+      "kicker": "Figure F207-08",
+      "title": "Your turn: normal or abnormal spoilage",
+      "say": "Your turn: normal or abnormal spoilage (complete the blanks)",
+      "caption": "Normal or abnormal?",
+      "col1": "Done (worked example)",
+      "col2": "Your turn",
+      "rows": [
+        {
+          "name": "Good units",
+          "a": "10,000",
+          "b": "20,000"
+        },
+        {
+          "name": "Spoiled units",
+          "a": "350",
+          "b": "500"
+        },
+        {
+          "name": "Normal spoilage (2% of good)",
+          "a": "200",
+          "b": "________"
+        },
+        {
+          "name": "Abnormal spoilage",
+          "a": "150",
+          "b": "________"
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "data": true,
+      "from": [
+        "F207-08",
+        "7.5/t:normal-or-abnorm"
+      ]
     },
     {
-      "id": "grid-08",
-      "kind": "shares",
+      "id": "yourturn",
+      "kind": "yourturn",
       "kicker": "Figure F207-08",
-      "title": "Your turn: normal or abnormal spoilage",
-      "say": "Set every column for every row.",
-      "columns": [
+      "title": "Normal or abnormal?",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F207-08 repeats the worked example and adds a second process. Split its spoilage into normal and abnormal.",
+      "blanks": [
         {
-          "id": "c2",
-          "label": "Your turn",
-          "options": [
-            "2% × 20,000 = 400 units",
-            "20,000",
-            "500",
-            "500 − 400 = 100 units"
+          "label": "Normal spoilage (your turn)",
+          "working": "2% × 20,000 = 400 units",
+          "shown": "400",
+          "answer": 400,
+          "prompt": "2% × 20,000 ="
+        },
+        {
+          "label": "Abnormal spoilage (your turn)",
+          "working": "500 − 400 = 100 units",
+          "shown": "100",
+          "answer": 100,
+          "prompt": "500 − 400 =",
+          "needs": [
+            0
           ]
         }
       ],
-      "actions": [
-        {
-          "label": "Good units",
-          "cells": {
-            "c2": "20,000"
-          },
-          "why": "Your turn: 20,000."
-        },
-        {
-          "label": "Spoiled units",
-          "cells": {
-            "c2": "500"
-          },
-          "why": "Your turn: 500."
-        },
-        {
-          "label": "Normal spoilage (2% of good)",
-          "cells": {
-            "c2": "2% × 20,000 = 400 units"
-          },
-          "why": "Your turn: 2% × 20,000 = 400 units."
-        },
-        {
-          "label": "Abnormal spoilage",
-          "cells": {
-            "c2": "500 − 400 = 100 units"
-          },
-          "why": "Your turn: 500 − 400 = 100 units."
-        }
-      ],
-      "traps": [
-        "rebuts-d-chets"
+      "caption": "Your turn: normal or abnormal spoilage (complete the blanks)",
+      "from": [
+        "7.5/your-turn",
+        "F207-08",
+        "7.5/t:normal-or-abnorm",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -141,6 +170,9 @@
           "text": "Cost of Goods Sold directly",
           "why": "It goes through overhead."
         }
+      ],
+      "from": [
+        "7.5/section-check"
       ]
     },
     {
@@ -166,6 +198,9 @@
           "why": "Abnormal spoilage is a period loss in every system.",
           "correct": true
         }
+      ],
+      "from": [
+        "7.5/section-check"
       ]
     }
   ]

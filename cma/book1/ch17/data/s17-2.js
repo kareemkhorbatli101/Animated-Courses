@@ -9,7 +9,7 @@
   "up": "../",
   "title": "(ii) Intangible assets",
   "n": "17.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.2"),
   "brief": {
     "about": "The largest intangibles difference is development costs. U.S. GAAP expenses research and development as incurred, with narrow exceptions for software. IAS 38 expenses research but capitalizes development once six criteria are met, such as technical feasibility, intention and ability to complete, and a way to generate future benefits. Suppose Orontes spends $300,000 developing a new sparkling-juice line, and all six criteria are met. Under U.S.",
     "anim": "revalue",
@@ -53,6 +53,10 @@
       ],
       "traps": [
         "intangibles-not-yet-testable"
+      ],
+      "from": [
+        "F17-03",
+        "17.2/t:topic-u-s-gaap-a"
       ]
     },
     {
@@ -79,7 +83,10 @@
           "why": "R&D is not deferred."
         }
       ],
-      "exhibit": "Orontes spends $300,000 developing a new product, and all IAS 38 criteria are met."
+      "exhibit": "Orontes spends $300,000 developing a new product, and all IAS 38 criteria are met.",
+      "from": [
+        "17.2/section-check"
+      ]
     },
     {
       "id": "sc17-4",
@@ -104,6 +111,9 @@
           "text": "Never under either framework",
           "why": "IFRS allows it in limited cases."
         }
+      ],
+      "from": [
+        "17.2/section-check"
       ]
     }
   ]

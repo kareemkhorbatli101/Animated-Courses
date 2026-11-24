@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benefits, limitations and further processing",
   "n": "11.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.6"),
   "brief": {
     "about": "Each method changes reported product margins. Figure F211-09 shows the effect: under the physical measure method VOO loses $67,000, although it is profitable under every value-based method. The physical measure method is simple but ignores value. Sales value at split-off is fair and simple but needs split-off prices. NRV works without split-off prices but depends on estimates of separable costs.",
     "anim": "splitPoint",
@@ -86,6 +86,10 @@
           },
           "why": "EVOO gross margin: 582,400 (28.0%). VOO gross margin: 117,600 (28.0%)."
         }
+      ],
+      "from": [
+        "F211-09",
+        "11.6/t:method-evoo-join"
       ]
     },
     {
@@ -143,6 +147,10 @@
             "c2": "115,000"
           }
         }
+      ],
+      "from": [
+        "F211-10",
+        "11.6/t:sell-at-split-of"
       ]
     },
     {
@@ -168,6 +176,9 @@
           "text": "Sales value at split-off",
           "why": "It is based on value."
         }
+      ],
+      "from": [
+        "11.6/section-check"
       ]
     },
     {
@@ -193,6 +204,9 @@
           "text": "the VOO margin under each allocation method",
           "why": "Allocations are irrelevant to it."
         }
+      ],
+      "from": [
+        "11.6/section-check"
       ]
     }
   ]

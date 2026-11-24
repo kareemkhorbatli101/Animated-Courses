@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "bridgeBar"
+    "anim": "bridgeBar",
+    "about": "Figure F306-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The sales budget is the first schedule of the annual profit plan, and almost every other budget depends on it. It starts from a forecast that considers the market, the economy, prices, competitors, past results and customers, and it sets units, price and revenue for each period. The production budget equals sales plus desired ending inventory minus beginning inventory, and it must respect the inventory policy, capacity, storage and shelf life."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F306-13.png",
       "label": "Figure F306-13.",
       "caption": "Chapter 6 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F306-13"
+      ]
     },
     {
       "id": "rules",

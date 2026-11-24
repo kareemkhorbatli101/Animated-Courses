@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Purpose and structure of the income statement",
   "n": "3.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.1"),
   "brief": {
     "about": "The income statement reports a company's revenues, expenses, gains and losses for a period, usually a year. The result is net income, which increases retained earnings. Where the balance sheet is a photograph, the income statement is a film of the whole year. Investors use it to judge how profitable the company is and to predict its future earnings and cash flows. U.S. GAAP does not require one layout.",
     "anim": "waterfall",
@@ -33,7 +33,10 @@
       "file": "F03-03.png",
       "label": "Figure F03-03.",
       "caption": "Orontes's 2025 results in single-step and multi-step form: the same net income.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F03-03"
+      ]
     },
     {
       "id": "bs-read",
@@ -180,6 +183,13 @@
           "a": "2,967,975",
           "b": ""
         }
+      ],
+      "from": [
+        "F03-02",
+        "3.1/t:orontes-foods-in",
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-answer",
+        "Answers and explanations/t:item-category"
       ]
     },
     {
@@ -243,6 +253,10 @@
           "answer": L.printed.comprehensive,
           "why": "Comprehensive income is net income plus OCI for the period."
         }
+      ],
+      "from": [
+        "F03-04",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -273,6 +287,9 @@
       ],
       "extra": [
         "two steps"
+      ],
+      "from": [
+        "F03-03"
       ]
     },
     {
@@ -298,6 +315,9 @@
           "text": "The statement of financial position",
           "why": "This is the IFRS name for the balance sheet."
         }
+      ],
+      "from": [
+        "3.1/section-check"
       ]
     },
     {
@@ -324,7 +344,10 @@
           "why": "Net income comes from the income statement items alone."
         }
       ],
-      "exhibit": "A company changes from a multi-step to a single-step income statement."
+      "exhibit": "A company changes from a multi-step to a single-step income statement.",
+      "from": [
+        "3.1/section-check"
+      ]
     }
   ]
 };

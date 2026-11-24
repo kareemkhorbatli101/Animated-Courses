@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Measuring debt securities",
   "n": "9.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.2"),
   "brief": {
     "about": "Figure F09-03 summarizes the measurement of every category. Trading and AFS securities are reported at fair value: the price the company would receive if it sold the security in an orderly transaction. HTM securities are reported at amortized cost. The main difference between trading and AFS is where the unrealized holding gain or loss goes. For trading it goes to net income. For AFS it goes to other comprehensive income (OCI).",
     "anim": "buckets",
@@ -55,13 +55,19 @@
       }
     ]
   },
+  "from": [
+    "9.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f09-05",
       "kind": "figure",
       "file": "F09-05.png",
       "label": "Figure F09-05.",
-      "caption": "Timeline of an available-for-sale bond: OCI while held, recycled to net income on sale."
+      "caption": "Timeline of an available-for-sale bond: OCI while held, recycled to net income on sale.",
+      "from": [
+        "F09-05"
+      ]
     },
     {
       "id": "grid-03",
@@ -157,6 +163,11 @@
       ],
       "traps": [
         "where-does-it-go"
+      ],
+      "from": [
+        "F09-03",
+        "9.2/t:category-balance",
+        "9.2/exam-trap"
       ]
     },
     {
@@ -233,6 +244,41 @@
           },
           "why": "Trading: (859) in net income. Available-for-sale: (859) in OCI. Held-to-maturity: not recognized."
         }
+      ],
+      "from": [
+        "F09-04",
+        "9.2/t:2025-whole-usd-t"
+      ]
+    },
+    {
+      "id": "t9-2-0",
+      "kind": "lines",
+      "kicker": "Section 9.2",
+      "title": "Year",
+      "caption": "Year",
+      "col1": "Cash interest",
+      "col2": "Interest revenue",
+      "rows": [
+        {
+          "name": "2025",
+          "a": "6,000",
+          "b": "5,136"
+        },
+        {
+          "name": "2026",
+          "a": "6,000",
+          "b": "5,093"
+        },
+        {
+          "name": "2027",
+          "a": "6,000",
+          "b": "5,048"
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "9.2/t:year-cash-intere"
       ]
     },
     {
@@ -258,6 +304,9 @@
           "text": "6,000",
           "why": "This is the cash interest (face × stated rate)."
         }
+      ],
+      "from": [
+        "9.2/section-check"
       ]
     },
     {
@@ -284,7 +333,10 @@
           "correct": true
         }
       ],
-      "exhibit": "At year-end, the fair value of an available-for-sale bond is below its amortized cost."
+      "exhibit": "At year-end, the fair value of an available-for-sale bond is below its amortized cost.",
+      "from": [
+        "9.2/section-check"
+      ]
     }
   ]
 };

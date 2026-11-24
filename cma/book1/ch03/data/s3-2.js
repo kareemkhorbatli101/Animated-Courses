@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Building the multi-step income statement",
   "n": "3.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.2"),
   "brief": {
     "about": "Gross profit is net sales minus cost of goods sold. It shows how much the company earns on what it sells before its other costs. Orontes's gross profit is $14,700,000, which is 35% of net sales. Operating income is gross profit minus operating expenses: selling, general and administrative expenses, research and development, credit losses and impairments. Interest and income tax are never operating expenses. Orontes's operating income is $4,176,000.",
     "anim": "netGain",
@@ -36,13 +36,19 @@
       }
     ]
   },
+  "from": [
+    "3.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f03-04",
       "kind": "figure",
       "file": "F03-04.png",
       "label": "Figure F03-04.",
-      "caption": "Waterfall from Orontes's 2025 net sales to net income."
+      "caption": "Waterfall from Orontes's 2025 net sales to net income.",
+      "from": [
+        "F03-04"
+      ]
     },
     {
       "id": "sections",
@@ -106,6 +112,13 @@
       "partition": true,
       "traps": [
         "where-the-line-is-drawn"
+      ],
+      "from": [
+        "F03-02",
+        "3.1/t:orontes-foods-in",
+        "3.2/exam-trap",
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
       ]
     },
     {
@@ -139,6 +152,10 @@
       ],
       "traps": [
         "gain-shown-net"
+      ],
+      "from": [
+        "F03-05",
+        "3.2/t:barada-wholesale"
       ]
     },
     {
@@ -174,7 +191,13 @@
           "prompt": "1,240 ÷ 3,100 ="
         }
       ],
-      "caption": "Barada Wholesale — multi-step income statement, 2025 (complete the blanks)"
+      "caption": "Barada Wholesale — multi-step income statement, 2025 (complete the blanks)",
+      "from": [
+        "3.2/your-turn",
+        "F03-05",
+        "3.2/t:barada-wholesale",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc3-3",
@@ -199,6 +222,9 @@
           "text": "14,700,000",
           "why": "This is gross profit, before operating expenses."
         }
+      ],
+      "from": [
+        "3.2/section-check"
       ]
     },
     {
@@ -225,7 +251,10 @@
           "why": "Gains pass through net income first."
         }
       ],
-      "exhibit": "Orontes sells an old delivery van for more than its carrying amount."
+      "exhibit": "Orontes sells an old delivery van for more than its carrying amount.",
+      "from": [
+        "3.2/section-check"
+      ]
     }
   ]
 };

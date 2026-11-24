@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "marginStack"
+    "anim": "marginStack",
+    "about": "Figure F308-13 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The cost of goods sold budget is beginning finished goods plus cost of goods manufactured minus ending finished goods, at standard cost. The selling and administrative budget has variable selling costs per unit and fixed costs by item; only the variable costs reduce the contribution margin. The operating budget combines sales, cost of goods sold and selling and administrative expenses into budgeted operating income, which differs from the contribution-format figure when inventory changes."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F308-13.png",
       "label": "Figure F308-13.",
       "caption": "Chapter 8 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F308-13"
+      ]
     },
     {
       "id": "rules",

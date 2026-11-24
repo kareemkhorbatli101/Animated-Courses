@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P204-01–P204-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "learnCurve"
   },

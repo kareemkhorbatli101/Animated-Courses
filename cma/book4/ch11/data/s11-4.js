@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Preprocessing: getting data ready",
   "n": "11.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.4"),
   "brief": {
     "about": "Raw data is rarely fit for analysis. Preprocessing is the work of making it so, and the exam names four steps. Figure F411-05 sets them out. data cleaning absorbs most of the effort in practice. It covers duplicates, plain errors, missing values and outliers, and each of those raises a judgement rather than a rule. data reduction is the step candidates misread.",
     "anim": "dataShapes",
@@ -27,37 +27,43 @@
   "scenes": [
     {
       "id": "fig-f411-05",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F411-05",
       "title": "The four steps of preprocessing",
-      "say": "The four steps of preprocessing",
-      "caption": "Preprocessing step (F.2.d)",
-      "col1": "What it does",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Preprocessing step (F.2.d)",
+      "col": "What it does",
       "rows": [
         {
-          "name": "Consolidation",
-          "a": "Bring the sources together into one set",
-          "b": "Plant output, payroll hours and ledger cost in one table"
+          "label": "Consolidation",
+          "right": "Bring the sources together into one set",
+          "why": "What it does: Bring the sources together into one set. Plant output, payroll hours and ledger cost in one table."
         },
         {
-          "name": "Cleaning (cleansing)",
-          "a": "Remove duplicates, fix errors, handle missing values and outliers",
-          "b": "Two spellings of one supplier merged; a blank rate filled or flagged"
+          "label": "Cleaning (cleansing)",
+          "right": "Remove duplicates, fix errors, handle missing values and outliers",
+          "why": "What it does: Remove duplicates, fix errors, handle missing values and outliers. Two spellings of one supplier merged; a blank rate filled or flagged."
         },
         {
-          "name": "Transformation",
-          "a": "Put the data into the form the analysis needs",
-          "b": "Dates to quarters, amounts to a single currency, categories coded"
+          "label": "Transformation",
+          "right": "Put the data into the form the analysis needs",
+          "why": "What it does: Put the data into the form the analysis needs. Dates to quarters, amounts to a single currency, categories coded."
         },
         {
-          "name": "Reduction",
-          "a": "Cut the data to what the analysis actually needs",
-          "b": "Twelve monthly columns replaced by four quarterly ones"
+          "label": "Reduction",
+          "right": "Cut the data to what the analysis actually needs",
+          "why": "What it does: Cut the data to what the analysis actually needs. Twelve monthly columns replaced by four quarterly ones."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The four steps of preprocessing",
+      "traps": [
+        "preprocessing-is-not-analysis"
+      ],
+      "from": [
+        "F411-05",
+        "11.4/t:preprocessing-st",
+        "11.4/exam-trap"
+      ]
     },
     {
       "id": "sc411-7",
@@ -83,8 +89,8 @@
           "why": "Reduction cuts the volume."
         }
       ],
-      "traps": [
-        "preprocessing-is-not-analysis"
+      "from": [
+        "11.4/section-check"
       ]
     },
     {
@@ -111,7 +117,10 @@
           "why": "Investigating costs little and settles it."
         }
       ],
-      "exhibit": "An order shows a quantity a hundred times the usual."
+      "exhibit": "An order shows a quantity a hundred times the usual.",
+      "from": [
+        "11.4/section-check"
+      ]
     }
   ]
 };

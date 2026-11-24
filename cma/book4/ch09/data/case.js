@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · what did the case of oil cost?",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "aisFlow"
+  },
+  "scenario": {
+    "title": "Case question: what did the case of oil cost?",
+    "p": [
+      "Orontes runs three systems that do not connect. The plant system schedules production and records the hours and the cases produced on each batch. A separate payroll system holds the same hours for the purpose of paying wages. The accounting system holds the ledger and the costs. None of the three systems was chosen; each was bought by a different department over the past nine years.",
+      "The sales director has asked a simple question: what did one case of premium olive oil cost to make last month, and how much of that was labour? The controller's team exported data from all three systems and spent two days matching batches by date and shift before producing an answer.",
+      "While matching, the team found that the plant system recorded 240,000 cases for the month and the ledger showed 238,500. Nobody could explain the difference, and the monthly upload from the plant system to the ledger is not reconciled by anyone.",
+      "The board is considering whether to replace all three with a single system. The finance director has asked Rania to set out what the present arrangement actually costs, beyond the licence fees, before any proposal is prepared."
+    ],
+    "note": "Use the scenario above for items C409-1 to C409-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "Invoicing a Gulf distributor",
           "to": "revenue-to-cash",
-          "why": "A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
+          "why": "Event or record: Revenue to cash. A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
         },
         {
           "name": "Paying the olive farmer",
           "to": "expenditure-to-disbursement",
-          "why": "A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
+          "why": "Event or record: Expenditure to disbursement. A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
         },
         {
           "name": "Issuing materials to the pressing line",
           "to": "production",
-          "why": "A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
+          "why": "Event or record: Production. A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
         },
         {
           "name": "Calculating deductions from a worker's gross pay",
           "to": "human-resources-and-payroll",
-          "why": "A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
+          "why": "Event or record: Human resources and payroll. A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:event-or-record",
+        "Practice/t:event-or-record#2",
+        "Answers and explanations/t:event-or-record"
+      ]
     },
     {
       "id": "c409-2",

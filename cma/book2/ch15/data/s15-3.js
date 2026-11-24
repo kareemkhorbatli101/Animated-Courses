@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Best practice analysis",
   "n": "15.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.3"),
   "brief": {
     "about": "Best practice analysis finds the practices that make the best performers better and adapts them to one's own organization. The aim is not to copy the result, but to understand how it is achieved. Figure F215-07 lists four practices that Tahini found among leading food distributors, why each works, and which Tahini step it affects. Every one of them removes a non-value-added step. A practice must fit the organization.",
     "anim": "kaizenStair",
@@ -86,6 +86,10 @@
           },
           "why": "Why it works: Less storage and handling. Tahini step it affects: Receiving (Chapter 17)."
         }
+      ],
+      "from": [
+        "F215-07",
+        "15.3/t:best-practice-wh"
       ]
     },
     {
@@ -111,6 +115,9 @@
           "why": "It studies the how, not only the result.",
           "correct": true
         }
+      ],
+      "from": [
+        "15.3/section-check"
       ]
     },
     {
@@ -137,7 +144,10 @@
           "why": "Online ordering works for Barada."
         }
       ],
-      "say": "Why does Tahini keep a phone channel for small shops after moving large customers online?"
+      "say": "Why does Tahini keep a phone channel for small shops after moving large customers online?",
+      "from": [
+        "15.3/section-check"
+      ]
     }
   ]
 };

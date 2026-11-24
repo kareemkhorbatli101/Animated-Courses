@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 1A: Tahini & Spreads, full year 2027",
   "n": "1.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.6"),
   "brief": {
     "about": "This example follows one full year of costs through the accounts and into the division's income statement. The schedules are exam-core: questions often ask for cost of goods manufactured or cost of goods sold. The entries are for depth. On January 1, 2027 Tahini & Spreads held raw materials of $130,000, work in process of $180,000 and finished goods of $420,000. During the year: Separate product costs from period costs.",
     "anim": "threeBoxes",
@@ -78,20 +78,29 @@
       }
     ]
   },
+  "from": [
+    "1.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f201-09",
       "kind": "figure",
       "file": "F201-09.png",
       "label": "Figure F201-09.",
-      "caption": "Extended Example: FY2027 T-accounts for Tahini & Spreads, keyed to the journal."
+      "caption": "Extended Example: FY2027 T-accounts for Tahini & Spreads, keyed to the journal.",
+      "from": [
+        "F201-09"
+      ]
     },
     {
       "id": "fig-f201-11",
       "kind": "figure",
       "file": "F201-11.png",
       "label": "Figure F201-11.",
-      "caption": "Extended Example: where product and period costs appear in the statements."
+      "caption": "Extended Example: where product and period costs appear in the statements.",
+      "from": [
+        "F201-11"
+      ]
     },
     {
       "id": "post-08",
@@ -359,6 +368,11 @@
       "traps": [
         "exam-view",
         "period-costs-never-touch-inventory"
+      ],
+      "from": [
+        "F201-08",
+        "1.6/t:no-account-detai",
+        "1.6/exam-trap"
       ]
     },
     {
@@ -374,6 +388,104 @@
           "answer": "7560000",
           "why": "Total manufacturing costs: 7,560,000."
         }
+      ],
+      "from": [
+        "F201-10",
+        "1.6/t:tahini-spreads-w"
+      ]
+    },
+    {
+      "id": "t1-6-0",
+      "kind": "lines",
+      "kicker": "Section 1.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Factory supervision",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sales commissions",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Jars",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Factory utilities",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Head-office salaries",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
+      ]
+    },
+    {
+      "id": "t1-6-1",
+      "kind": "lines",
+      "kicker": "Section 1.6",
+      "title": "Cost",
+      "caption": "Cost",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sesame",
+          "a": "Direct materials",
+          "b": ""
+        },
+        {
+          "name": "Factory supervision",
+          "a": "Manufacturing overhead",
+          "b": ""
+        },
+        {
+          "name": "Sales commissions",
+          "a": "Period cost",
+          "b": ""
+        },
+        {
+          "name": "Jars",
+          "a": "Direct materials",
+          "b": ""
+        },
+        {
+          "name": "Factory utilities",
+          "a": "Manufacturing overhead",
+          "b": ""
+        },
+        {
+          "name": "Head-office salaries",
+          "a": "Period cost",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:cost-category",
+        "Answers and explanations/t:cost-category"
       ]
     },
     {
@@ -434,7 +546,10 @@
           "why": "Selling and administrative costs are added."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "1.6/section-check"
+      ]
     },
     {
       "id": "sc201-12",
@@ -460,7 +575,10 @@
           "why": "Overhead includes factory costs only."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "1.6/section-check"
+      ]
     }
   ]
 };

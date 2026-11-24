@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.1",
   "title": "Life-cycle costing",
-  "blurb": "Figures, schedule, amounts, questions · 5 scenes"
+  "blurb": "Figures, schedule, a printed statement, yourturn, questions · 6 scenes"
  },
  {
   "id": "s14-2",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.4",
   "title": "The steps in value chain analysis",
-  "blurb": "A printed statement, schedule, questions · 4 scenes"
+  "blurb": "Match, schedule, questions · 4 scenes"
  },
  {
   "id": "s14-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.5",
   "title": "Value chains and competitive advantage",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Match, questions · 3 scenes"
  },
  {
   "id": "s14-6",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.7",
   "title": "Extended Example 14A: should the sugar-free halva be launched?",
-  "blurb": "Figures, schedule, the tie lines, questions · 5 scenes"
+  "blurb": "Figures, schedule, a printed statement, the tie lines, questions · 7 scenes"
  },
  {
   "id": "summary",

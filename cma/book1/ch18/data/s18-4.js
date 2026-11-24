@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Guiding principles and content elements",
   "n": "18.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("18.4"),
   "brief": {
     "about": "The Framework is principles-based: it does not prescribe KPIs or measurement methods. Seven guiding principles shape how the report is prepared, such as connectivity of information, materiality and conciseness. Figure F18-06 lists them with Orontes examples. Eight content elements set what the report covers. The elements are linked, not separate chapters. For example, Orontes's water risk appears under risks and opportunities, drives its strategy, and is measured under performance.",
     "anim": "order",
@@ -28,106 +28,114 @@
   "scenes": [
     {
       "id": "fig-f18-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F18-06",
       "title": "The seven guiding principles",
-      "say": "The seven guiding principles",
-      "caption": "Guiding principle (7)",
-      "col1": "What it means",
-      "col2": "Orontes example",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Guiding principle (7)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Strategic focus and future orientation",
-          "a": "Explain strategy and how it creates value over time",
-          "b": "Plans for the sparkling-juice line to 2030"
+          "label": "Strategic focus and future orientation",
+          "right": "Explain strategy and how it creates value over time",
+          "why": "What it means: Explain strategy and how it creates value over time. Plans for the sparkling-juice line to 2030."
         },
         {
-          "name": "Connectivity of information",
-          "a": "Show how capitals, strategy and performance link",
-          "b": "Irrigation spending linked to water use and grower yields"
+          "label": "Connectivity of information",
+          "right": "Show how capitals, strategy and performance link",
+          "why": "What it means: Show how capitals, strategy and performance link. Irrigation spending linked to water use and grower yields."
         },
         {
-          "name": "Stakeholder relationships",
-          "a": "Explain key relationships and how the company responds",
-          "b": "Work with grower cooperatives"
+          "label": "Stakeholder relationships",
+          "right": "Explain key relationships and how the company responds",
+          "why": "What it means: Explain key relationships and how the company responds. Work with grower cooperatives."
         },
         {
-          "name": "Materiality",
-          "a": "Include matters that substantively affect value creation",
-          "b": "Water scarcity; olive prices"
+          "label": "Materiality",
+          "right": "Include matters that substantively affect value creation",
+          "why": "What it means: Include matters that substantively affect value creation. Water scarcity; olive prices."
         },
         {
-          "name": "Conciseness",
-          "a": "Be short and clear",
-          "b": "Refer to the financial statements rather than repeat them"
+          "label": "Conciseness",
+          "right": "Be short and clear",
+          "why": "What it means: Be short and clear. Refer to the financial statements rather than repeat them."
         },
         {
-          "name": "Reliability and completeness",
-          "a": "Include positive and negative matters, without material error",
-          "b": "Report a failed product launch too"
+          "label": "Reliability and completeness",
+          "right": "Include positive and negative matters, without material error",
+          "why": "What it means: Include positive and negative matters, without material error. Report a failed product launch too."
         },
         {
-          "name": "Consistency and comparability",
-          "a": "Use the same basis over time and allow comparison",
-          "b": "Same water measure every year"
+          "label": "Consistency and comparability",
+          "right": "Use the same basis over time and allow comparison",
+          "why": "What it means: Use the same basis over time and allow comparison. Same water measure every year."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The seven guiding principles",
+      "traps": [
+        "seven-or-eight"
+      ],
+      "from": [
+        "F18-06",
+        "18.4/t:guiding-principl",
+        "18.4/exam-trap"
+      ]
     },
     {
       "id": "fig-f18-07",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F18-07",
       "title": "The eight content elements",
-      "say": "The eight content elements",
-      "caption": "Content element (8)",
-      "col1": "Question it answers",
-      "col2": "Orontes example",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Content element (8)",
+      "col": "Orontes example",
       "rows": [
         {
-          "name": "Organizational overview and external environment",
-          "a": "What does the company do, and where?",
-          "b": "Food producer based in Amman, Jordan, selling across the region"
+          "label": "Organizational overview and external environment",
+          "right": "Food producer based in Amman, Jordan, selling across the region",
+          "why": "Orontes example: Food producer based in Amman, Jordan, selling across the region. What does the company do, and where?."
         },
         {
-          "name": "Governance",
-          "a": "How does governance support value creation?",
-          "b": "Board committee oversees water risk"
+          "label": "Governance",
+          "right": "Board committee oversees water risk",
+          "why": "Orontes example: Board committee oversees water risk. How does governance support value creation?."
         },
         {
-          "name": "Business model",
-          "a": "How does the company turn capitals into value?",
-          "b": "Grow, press, bottle, sell"
+          "label": "Business model",
+          "right": "Grow, press, bottle, sell",
+          "why": "Orontes example: Grow, press, bottle, sell. How does the company turn capitals into value?."
         },
         {
-          "name": "Risks and opportunities",
-          "a": "What could help or harm value creation?",
-          "b": "Water scarcity; demand for healthy drinks"
+          "label": "Risks and opportunities",
+          "right": "Water scarcity; demand for healthy drinks",
+          "why": "Orontes example: Water scarcity; demand for healthy drinks. What could help or harm value creation?."
         },
         {
-          "name": "Strategy and resource allocation",
-          "a": "Where is it going, and how will it get there?",
-          "b": "Invest in irrigation and new products"
+          "label": "Strategy and resource allocation",
+          "right": "Invest in irrigation and new products",
+          "why": "Orontes example: Invest in irrigation and new products. Where is it going, and how will it get there?."
         },
         {
-          "name": "Performance",
-          "a": "What did it achieve, and with what effects on the capitals?",
-          "b": "Renewable electricity 30%"
+          "label": "Performance",
+          "right": "Renewable electricity 30%",
+          "why": "Orontes example: Renewable electricity 30%. What did it achieve, and with what effects on the capitals?."
         },
         {
-          "name": "Outlook",
-          "a": "What challenges and uncertainties lie ahead?",
-          "b": "Olive yields and prices to 2030"
+          "label": "Outlook",
+          "right": "Olive yields and prices to 2030",
+          "why": "Orontes example: Olive yields and prices to 2030. What challenges and uncertainties lie ahead?."
         },
         {
-          "name": "Basis of preparation and presentation",
-          "a": "How were matters chosen and measured?",
-          "b": "Materiality process; measurement methods"
+          "label": "Basis of preparation and presentation",
+          "right": "Materiality process; measurement methods",
+          "why": "Orontes example: Materiality process; measurement methods. How were matters chosen and measured?."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "The eight content elements",
+      "from": [
+        "F18-07",
+        "18.4/t:content-element"
+      ]
     },
     {
       "id": "sc18-7",
@@ -153,8 +161,8 @@
           "why": "Connectivity is a guiding principle."
         }
       ],
-      "traps": [
-        "seven-or-eight"
+      "from": [
+        "18.4/section-check"
       ]
     },
     {
@@ -181,7 +189,10 @@
           "why": "The overview describes what the company does now."
         }
       ],
-      "say": "Orontes writes: 'Olive yields may fall by 2030 as rainfall declines.' Which content element does this belong to?"
+      "say": "Orontes writes: 'Olive yields may fall by 2030 as rainfall declines.' Which content element does this belong to?",
+      "from": [
+        "18.4/section-check"
+      ]
     }
   ]
 };

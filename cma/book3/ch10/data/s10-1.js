@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Purpose and relationships",
   "n": "10.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.1"),
   "brief": {
     "about": "Pro forma financial statements show what the financial statements would look like if the plan happens. The income statement shows planned profit. The pro forma balance sheet shows what the division will own and owe, and the pro forma statement of cash flows shows where cash will come from and go. All three come from the same budgets, so they must agree with one another. Figure F310-02 shows the links.",
     "anim": "proForma3",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F310-02.png",
       "label": "Figure F310-02.",
-      "caption": "How the budgets feed the three pro forma statements."
+      "caption": "How the budgets feed the three pro forma statements.",
+      "from": [
+        "F310-02"
+      ]
     },
     {
       "id": "sc310-1",
@@ -55,6 +58,9 @@
           "why": "They are the budgets in financial statement form.",
           "correct": true
         }
+      ],
+      "from": [
+        "10.1/section-check"
       ]
     },
     {
@@ -81,7 +87,10 @@
           "why": "Adding back depreciation is correct."
         }
       ],
-      "exhibit": "The pro forma statement of cash flows ends at a different cash figure from the cash budget."
+      "exhibit": "The pro forma statement of cash flows ends at a different cash figure from the cash budget.",
+      "from": [
+        "10.1/section-check"
+      ]
     }
   ]
 };

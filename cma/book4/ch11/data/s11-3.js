@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The data life cycle",
   "n": "11.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.3"),
   "brief": {
     "about": "Data has a life, and the exam names eight stages of it. Figure F411-04 sets them out in order. The order matters less than the two distinctions inside it. Synthesis creates new values from existing ones, such as a cost per case derived from hours and output, and those derived values need governing exactly as captured ones do. Analytics examines data for patterns, which is the subject of Part IV.",
     "anim": "lifeCycle",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F411-04.png",
       "label": "Figure F411-04.",
-      "caption": "The eight stages of the data life cycle."
+      "caption": "The eight stages of the data life cycle.",
+      "from": [
+        "F411-04"
+      ]
     },
     {
       "id": "sc411-5",
@@ -55,6 +58,9 @@
           "text": "Archival",
           "why": "Archival moves it out of the live system."
         }
+      ],
+      "from": [
+        "11.3/section-check"
       ]
     },
     {
@@ -80,6 +86,9 @@
           "why": "Archived data remains discoverable in a dispute.",
           "correct": true
         }
+      ],
+      "from": [
+        "11.3/section-check"
       ]
     }
   ]

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "rollforward"
+    "anim": "rollforward",
+    "about": "Figure F04-12 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Equity is contributed capital plus earned capital, less treasury stock, and the statement of changes in equity explains every change. Issued shares credit par to common stock and the excess to APIC; issue costs reduce APIC. Treasury stock is recorded at cost and deducted from equity, and reissues never create gains or losses in net income. Cash, property and scrip dividends reduce retained earnings and total equity; small stock dividends move fair value, large ones move par, and splits need no entry. Prior-year errors adjust opening retained earnings, net of tax. Equity is a book value, not a market value."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F04-12.png",
       "label": "Figure F04-12.",
       "caption": "Chapter 4 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F04-12"
+      ]
     },
     {
       "id": "rules",

@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "spoilGate"
+    "anim": "spoilGate",
+    "about": "Figure F207-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Process costing collects costs by department for identical units, and transferred-in cost moves with the product like a material added at the start. Equivalent units express partly finished work as whole units; the exam tests only the idea. Normal spoilage is part of the cost of good units, abnormal spoilage is a period loss, and the normal rate is based on good output. In job costing, spoilage goes to the job, to overhead or to a loss. Accurate costs support pricing, product mix and quality decisions."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F207-14.png",
       "label": "Figure F207-14.",
       "caption": "Chapter 7 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F207-14"
+      ]
     },
     {
       "id": "rules",

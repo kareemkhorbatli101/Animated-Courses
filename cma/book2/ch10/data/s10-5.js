@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The reciprocal method",
   "n": "10.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("10.5"),
   "brief": {
     "about": "The reciprocal method recognizes all service-to-service links. Write one equation for each service department: its total cost is its own cost plus its share of the other's total. Solving the two equations gives Maintenance a total of $1,000,000 and IT $600,000. These totals are larger than the original costs because they include the services exchanged. Each division then takes its share of both totals. Figure F210-06 shows the steps.",
     "anim": "svcArrows",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "10.5/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f210-07",
       "kind": "figure",
       "file": "F210-07.png",
       "label": "Figure F210-07.",
-      "caption": "The three methods compared: Maintenance and IT cost allocated to each division."
+      "caption": "The three methods compared: Maintenance and IT cost allocated to each division.",
+      "from": [
+        "F210-07"
+      ]
     },
     {
       "id": "num-06",
@@ -55,6 +61,10 @@
       ],
       "traps": [
         "r-ciproque"
+      ],
+      "from": [
+        "F210-06",
+        "10.5/t:reciprocal-metho"
       ]
     },
     {
@@ -81,7 +91,10 @@
           "why": "This is the total of both departments."
         }
       ],
-      "say": "Use Figure F210-06. What is Maintenance's total cost under the reciprocal method?"
+      "say": "Use Figure F210-06. What is Maintenance's total cost under the reciprocal method?",
+      "from": [
+        "10.5/section-check"
+      ]
     },
     {
       "id": "sc210-10",
@@ -106,6 +119,9 @@
           "text": "All are equally accurate",
           "why": "They treat the links differently."
         }
+      ],
+      "from": [
+        "10.5/section-check"
       ]
     }
   ]

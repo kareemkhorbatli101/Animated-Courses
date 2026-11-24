@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Is it a discontinued operation?",
   "n": "15.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.4"),
   "brief": {
     "about": "A disposal is reported as a discontinued operation only if three things are true. First, it is a component of an entity: its operations and cash flows can be clearly separated from the rest of the company. Second, the disposal is a strategic shift that has, or will have, a major effect on operations and results. Third, the component has been sold, abandoned or spun off, or it is held for sale.",
     "anim": "belowLine",
@@ -68,7 +68,11 @@
       ],
       "hint": "Click a line to read it.",
       "read": "Keep reading it while you answer.",
-      "data": true
+      "data": true,
+      "from": [
+        "F15-06",
+        "15.4/t:suppose-these-di"
+      ]
     },
     {
       "id": "yourturn",
@@ -115,6 +119,12 @@
           },
           "why": "No: not a strategic shift."
         }
+      ],
+      "from": [
+        "15.4/your-turn",
+        "F15-06",
+        "15.4/t:suppose-these-di",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -140,6 +150,9 @@
           "text": "Stopping one small product",
           "why": "A small product is not a major line."
         }
+      ],
+      "from": [
+        "15.4/section-check"
       ]
     },
     {
@@ -165,6 +178,9 @@
           "text": "A loss on disposal",
           "why": "Gains and losses both qualify."
         }
+      ],
+      "from": [
+        "15.4/section-check"
       ]
     }
   ]

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 1A: from the Orontes goals to the 2028 plan",
   "n": "1.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("1.6"),
   "brief": {
     "about": "This example follows all five goals from the 2032 targets to the 2028 objectives and the main tactic for each. It is exam-core. Figure F301-12 sets out each goal, its 2028 objective and the tactic that will deliver it. Return on investment must rise from 11.0% to 15.0%, so the first-year objective is 11.8%. Each tactic now needs an owner, an operational plan and a budget line.",
     "anim": "planHorizon",
@@ -49,6 +49,9 @@
       }
     ]
   },
+  "from": [
+    "1.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-12",
@@ -107,6 +110,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F301-12",
+        "1.6/t:goal-2032-goal-2",
+        "1.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t1-6-0",
+      "kind": "lines",
+      "kicker": "Section 1.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "We deliver Orontes products to every shop in Jordan, fresh and on time",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "To be the most reliable food distributor in the Levant",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "97% of deliveries on time by 2030",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "91% of deliveries on time in 2028",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Plan delivery routes each night with new software",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
+      ]
+    },
+    {
+      "id": "t1-6-1",
+      "kind": "lines",
+      "kicker": "Section 1.6",
+      "title": "Statement",
+      "caption": "Statement",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "We deliver Orontes products to every shop in Jordan, fresh and on time",
+          "a": "Mission",
+          "b": ""
+        },
+        {
+          "name": "To be the most reliable food distributor in the Levant",
+          "a": "Vision",
+          "b": ""
+        },
+        {
+          "name": "97% of deliveries on time by 2030",
+          "a": "Long-term goal",
+          "b": ""
+        },
+        {
+          "name": "91% of deliveries on time in 2028",
+          "a": "Short-term objective",
+          "b": ""
+        },
+        {
+          "name": "Plan delivery routes each night with new software",
+          "a": "Tactic",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:statement-catego",
+        "Answers and explanations/t:statement-catego"
       ]
     },
     {
@@ -152,7 +244,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "1.6/section-check"
+      ]
     },
     {
       "id": "sc301-12",
@@ -178,7 +273,10 @@
           "why": "The step is misread."
         }
       ],
-      "exhibit": "Use the Extended Example. Energy per case must fall from 0.50 to 0.40 kWh in equal steps."
+      "exhibit": "Use the Extended Example. Energy per case must fall from 0.50 to 0.40 kWh in equal steps.",
+      "from": [
+        "1.6/section-check"
+      ]
     }
   ]
 };

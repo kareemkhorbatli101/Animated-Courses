@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "learnCurve"
+    "anim": "learnCurve",
+    "about": "Figure F204-11 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Labor time per unit falls as workers repeat a task. Under the cumulative average-time model, each doubling of cumulative output makes the new average equal to the learning rate times the old one. The doubling table gives totals at doublings; the formula Y = aX^b gives any quantity. Cost later orders with their incremental hours, and apply learning only to labor and labor-driven costs. Learning curves and regression both improve estimates, but both rest on assumptions that must be checked."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F204-11.png",
       "label": "Figure F204-11.",
       "caption": "Chapter 4 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F204-11"
+      ]
     },
     {
       "id": "rules",

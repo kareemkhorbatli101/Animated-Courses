@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada Wholesale in 2026",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "belowLine"
+  },
+  "scenario": {
+    "title": "Case question: Barada Wholesale in 2026",
+    "p": [
+      "In 2026 Barada Wholesale had an eventful year. The warehouse fire from the Chapter 2 case destroyed inventory, and the supplier lawsuit was settled. Barada also closed its small catering division, a separate line of business, and sold its equipment.",
+      "The rest of the business performed well. Sales to shops grew, and Barada kept its selling and administrative costs under control. Interest on the bank loan and income tax were paid at the normal rates.",
+      "Barada's accountant must now prepare a multi-step income statement under U.S. GAAP. She must decide where the fire loss, the settlement, interest, income tax and the results of the closed catering division belong. The bank wants to see operating income and income from continuing operations clearly.",
+      "Mr Haddad wants to understand why the loss from the catering division appears below income from continuing operations, and whether the fire loss can be shown as an extraordinary item, as it would have been in the past. Amounts in the exhibit are in thousands of U.S. dollars. The bank has asked for the statement by the end of March, together with a short note on each unusual item."
+    ]
   },
   "scenes": [
     {
@@ -82,7 +91,13 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F03-13",
+        "Practice/t:item-memo-usd-0",
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c3-1",
@@ -109,30 +124,34 @@
         {
           "name": "Fire loss",
           "to": "operating-expenses",
-          "why": "Unusual items stay in continuing operations."
+          "why": "Item: Operating expenses. Unusual items stay in continuing operations."
         },
         {
           "name": "Lawsuit settlement",
           "to": "operating-expenses",
-          "why": "Unusual items stay in continuing operations."
+          "why": "Item: Operating expenses. Unusual items stay in continuing operations."
         },
         {
           "name": "Interest expense",
           "to": "other-income-and-expense",
-          "why": "Unusual items stay in continuing operations."
+          "why": "Item: Other income and expense. Unusual items stay in continuing operations."
         },
         {
           "name": "Gain on sale of equipment",
           "to": "other-income-and-expense",
-          "why": "Unusual items stay in continuing operations."
+          "why": "Item: Other income and expense. Unusual items stay in continuing operations."
         },
         {
           "name": "Loss on sale of the division",
           "to": "discontinued-operations",
-          "why": "Unusual items stay in continuing operations."
+          "why": "Item: Discontinued operations. Unusual items stay in continuing operations."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:item-category",
+        "Answers and explanations/t:item-category"
+      ]
     },
     {
       "id": "c3-2",

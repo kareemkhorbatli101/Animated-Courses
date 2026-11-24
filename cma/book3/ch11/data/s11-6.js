@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 11A: the June review meeting",
   "n": "11.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.6"),
   "brief": {
     "about": "This example follows the monthly review, where the division decides which variances to investigate. It is exam-core. Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item. Figure F311-12 applies the rule to June. Three items pass the rule. Volume was lost to a competitor's promotion, not to poor selling.",
     "anim": "flexLine",
@@ -48,6 +48,9 @@
       }
     ]
   },
+  "from": [
+    "11.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-12",
@@ -106,6 +109,95 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F311-12",
+        "11.6/t:item-variance-sh",
+        "11.6/exam-trap"
+      ]
+    },
+    {
+      "id": "t11-6-0",
+      "kind": "lines",
+      "kicker": "Section 11.6",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sales-price variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Sales-volume variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Variable cost variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Fixed cost variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Flexible-budget variance",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
+    },
+    {
+      "id": "t11-6-1",
+      "kind": "lines",
+      "kicker": "Section 11.6",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sales-price variance",
+          "a": "Favorable",
+          "b": ""
+        },
+        {
+          "name": "Sales-volume variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Variable cost variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Fixed cost variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Flexible-budget variance",
+          "a": "Favorable",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
       ]
     },
     {
@@ -150,6 +242,9 @@
           "text": "investigate only unfavorable variances",
           "why": "Large favorable variances are investigated too."
         }
+      ],
+      "from": [
+        "11.6/section-check"
       ]
     },
     {
@@ -176,7 +271,10 @@
           "why": "Past budgets are not corrected."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "11.6/section-check"
+      ]
     }
   ]
 };

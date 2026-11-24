@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What makes a liability current",
   "n": "12.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.1"),
   "brief": {
     "about": "Current liabilities are obligations that a company expects to settle by using current assets or by creating other current liabilities, normally within one year. They are measured at the amount to be paid. Because the time is short, they are not discounted to present value. Figure F12-02 lists Orontes's current liabilities at the end of 2025, from the balance sheet in Chapter 2. They total $4,280,000.",
     "anim": "split",
@@ -94,6 +94,10 @@
             "c2": "4,280,000"
           }
         }
+      ],
+      "from": [
+        "F12-02",
+        "12.1/t:orontes-december"
       ]
     },
     {
@@ -119,6 +123,9 @@
           "text": "They are shown net of cash",
           "why": "Liabilities are not netted with assets."
         }
+      ],
+      "from": [
+        "12.1/section-check"
       ]
     },
     {
@@ -145,7 +152,10 @@
           "why": "Accruals arise from operations."
         }
       ],
-      "say": "Use Figure F12-02. Which of Orontes's current liabilities comes from a financing activity?"
+      "say": "Use Figure F12-02. Which of Orontes's current liabilities comes from a financing activity?",
+      "from": [
+        "12.1/section-check"
+      ]
     }
   ]
 };

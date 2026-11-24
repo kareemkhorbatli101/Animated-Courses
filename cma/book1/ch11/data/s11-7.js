@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 11A: the five steps on one contract",
   "n": "11.7",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.7"),
   "brief": {
     "about": "This example applies all five revenue steps to a single Orontes contract that bundles goods with services. It is exam-core: the exam almost always tests allocation, and often asks how much revenue belongs to the first year. A distributor agrees to buy 20,000 cases of oil at $40 a case, with 24 months of maintenance and a dispenser installed at the start.",
     "anim": "fivesteps",
@@ -56,6 +56,9 @@
       }
     ]
   },
+  "from": [
+    "11.7/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-11",
@@ -105,6 +108,11 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F11-11",
+        "11.7/t:performance-obli",
+        "11.7/exam-trap"
       ]
     },
     {
@@ -174,6 +182,10 @@
             "c2": "The contract price, not the list price, is what is allocated"
           }
         }
+      ],
+      "from": [
+        "F11-12",
+        "11.7/t:treatment-2025-r"
       ]
     },
     {
@@ -224,7 +236,10 @@
           "why": "This is the whole contract price."
         }
       ],
-      "exhibit": "Use Extended Example 11A."
+      "exhibit": "Use Extended Example 11A.",
+      "from": [
+        "11.7/section-check"
+      ]
     },
     {
       "id": "sc11-14",
@@ -250,7 +265,10 @@
           "why": "This recognises the whole price on signing."
         }
       ],
-      "exhibit": "Use Extended Example 11A."
+      "exhibit": "Use Extended Example 11A.",
+      "from": [
+        "11.7/section-check"
+      ]
     },
     {
       "id": "sc11-15",
@@ -276,7 +294,10 @@
           "why": "The contract price is what gets allocated."
         }
       ],
-      "exhibit": "Use Extended Example 11A."
+      "exhibit": "Use Extended Example 11A.",
+      "from": [
+        "11.7/section-check"
+      ]
     }
   ]
 };

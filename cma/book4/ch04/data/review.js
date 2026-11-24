@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "auditTopDown"
   },
@@ -141,9 +141,6 @@
           "text": "foreign officials",
           "why": "Officials are covered by a separate 2023 statute."
         }
-      ],
-      "traps": [
-        "the-fcpa-does-not-require-coso"
       ]
     },
     {

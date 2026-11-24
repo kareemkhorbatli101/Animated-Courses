@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Controls and tools against cyberattack",
   "n": "11.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("11.6"),
   "brief": {
     "about": "Figure F411-07 lists the controls and tools the exam names, and says whether each prevents or detects. The pair most often confused is the first two. Vulnerability scanning is automated and looks for known weaknesses across everything, which makes it broad, cheap and shallow. Penetration testing is a skilled person attempting an authorized attack, which makes it narrow, expensive and deep.",
     "anim": "accessGate",
@@ -87,6 +87,10 @@
       ],
       "traps": [
         "as-of-october-2026"
+      ],
+      "from": [
+        "F411-07",
+        "11.6/t:control-or-tool"
       ]
     },
     {
@@ -112,6 +116,9 @@
           "text": "They are the same activity",
           "why": "They differ in depth, cost and method."
         }
+      ],
+      "from": [
+        "11.6/section-check"
       ]
     },
     {
@@ -137,6 +144,9 @@
           "text": "detection",
           "why": "It prevents rather than detects."
         }
+      ],
+      "from": [
+        "11.6/section-check"
       ]
     }
   ]

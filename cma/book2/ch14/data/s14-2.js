@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Locked-in costs and the strategic value of the design stage",
   "n": "14.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.2"),
   "brief": {
     "about": "A cost is incurred when the money is spent. It is committed, or locked in, when a decision makes it unavoidable later. The recipe, the tray and the choice of channels fix most future costs long before they are paid. At the end of design, the halva team estimates that 80% of the life-cycle cost is already committed, while only 7.8% has been spent.",
     "anim": "valueChain",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F214-05.png",
       "label": "Figure F214-05.",
-      "caption": "Costs committed and costs incurred over the halva's life."
+      "caption": "Costs committed and costs incurred over the halva's life.",
+      "from": [
+        "F214-05"
+      ]
     },
     {
       "id": "sc214-3",
@@ -60,6 +63,10 @@
       "traps": [
         "after-launch-most-cost-is-committed",
         "committed-is-not-incurred"
+      ],
+      "from": [
+        "14.2/exam-trap",
+        "14.2/section-check"
       ]
     },
     {
@@ -85,6 +92,9 @@
           "text": "Downstream costs are zero",
           "why": "Downstream costs exist later."
         }
+      ],
+      "from": [
+        "14.2/section-check"
       ]
     }
   ]

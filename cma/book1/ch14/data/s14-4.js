@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Subsequent measurement: two expense patterns",
   "n": "14.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.4"),
   "brief": {
     "about": "For a finance lease, the lessee records interest on the liability and, separately, amortization of the right-of-use asset, usually straight-line. Interest is highest at the start, when the liability is largest, so total expense falls each year. Figure F14-05 shows this front-loaded pattern for the olive press. For an operating lease, the lessee records one lease cost, normally the same each year. The liability still grows by interest and falls by payments.",
     "anim": "twoMethods",
@@ -38,13 +38,19 @@
       }
     ]
   },
+  "from": [
+    "14.4/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f14-05",
       "kind": "figure",
       "file": "F14-05.png",
       "label": "Figure F14-05.",
-      "caption": "Finance-lease expense is higher early; an operating lease would be flat."
+      "caption": "Finance-lease expense is higher early; an operating lease would be flat.",
+      "from": [
+        "F14-05"
+      ]
     },
     {
       "id": "sched-06",
@@ -151,6 +157,12 @@
       },
       "traps": [
         "measurement-traps"
+      ],
+      "from": [
+        "F14-06",
+        "14.4/t:year-opening-lia",
+        "14.4/exam-trap",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -274,7 +286,13 @@
       "carry": {
         "from": "c4",
         "to": "c1"
-      }
+      },
+      "from": [
+        "14.4/your-turn",
+        "F14-07",
+        "14.4/t:year-opening-lia#2",
+        "Answers and explanations/t:item-answer"
+      ]
     },
     {
       "id": "sc14-7",
@@ -300,7 +318,10 @@
           "why": "This ignores the payment and the interest."
         }
       ],
-      "say": "Use Figure F14-06. What is the olive-press lease liability at December 31, 2026 (whole USD)?"
+      "say": "Use Figure F14-06. What is the olive-press lease liability at December 31, 2026 (whole USD)?",
+      "from": [
+        "14.4/section-check"
+      ]
     },
     {
       "id": "sc14-8",
@@ -325,6 +346,9 @@
           "text": "109,521",
           "why": "This uses interest plus straight-line amortization, the finance pattern."
         }
+      ],
+      "from": [
+        "14.4/section-check"
       ]
     }
   ]

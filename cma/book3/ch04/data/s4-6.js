@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 4A: choosing and building the 2028 budgets",
   "n": "4.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("4.6"),
   "brief": {
     "about": "This example shows how the controller combines the three systems for 2028. It is exam-core. Figure F304-12 lists the Beverages components, their type and where each figure comes from. Figure F304-13 compares the two ways of budgeting Pulses & Spices overhead, activity by activity. The fall in za'atar volume cuts setups and tests; the rise in lentils adds packing hours; facility costs stay the same.",
     "anim": "activityRate",
@@ -50,6 +50,9 @@
       }
     ]
   },
+  "from": [
+    "4.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "grid-12",
@@ -121,6 +124,13 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F304-12",
+        "4.6/t:beverages-2028-c",
+        "4.6/exam-trap",
+        "Practice/t:budget-category",
+        "Answers and explanations/t:budget-category"
       ]
     },
     {
@@ -196,6 +206,95 @@
             "c3": "99,600"
           }
         }
+      ],
+      "from": [
+        "F304-13",
+        "4.6/t:pulses-spices-ov",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "t4-6-0",
+      "kind": "lines",
+      "kicker": "Section 4.6",
+      "title": "Budget",
+      "caption": "Budget",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sales budget",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Delivery cost budget",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Cash budget",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Capital expenditure budget",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Budgeted balance sheet",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:budget-category",
+        "Answers and explanations/t:budget-category"
+      ]
+    },
+    {
+      "id": "t4-6-1",
+      "kind": "lines",
+      "kicker": "Section 4.6",
+      "title": "Budget",
+      "caption": "Budget",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Sales budget",
+          "a": "Operating budget",
+          "b": ""
+        },
+        {
+          "name": "Delivery cost budget",
+          "a": "Operating budget",
+          "b": ""
+        },
+        {
+          "name": "Cash budget",
+          "a": "Financial budget",
+          "b": ""
+        },
+        {
+          "name": "Capital expenditure budget",
+          "a": "Financial budget",
+          "b": ""
+        },
+        {
+          "name": "Budgeted balance sheet",
+          "a": "Financial budget",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:budget-category",
+        "Answers and explanations/t:budget-category"
       ]
     },
     {
@@ -241,7 +340,10 @@
           "why": "The budget needs volume × price."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "4.6/section-check"
+      ]
     },
     {
       "id": "sc304-12",
@@ -267,7 +369,10 @@
           "why": "This is the incremental budget."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "4.6/section-check"
+      ]
     }
   ]
 };

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 12A: two warranties, two treatments",
   "n": "12.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.6"),
   "brief": {
     "about": "Orontes sells equipment with a warranty included and also sells an extended plan separately. The two look alike to the customer and are accounted for quite differently. This example works both through a full year. It is exam-core. Sales of $3,000,000 carry a warranty expected to cost 2%, so Orontes accrues $60,000 as an expense in the year of sale, matching the cost with the revenue that created it.",
     "anim": "refinance",
@@ -56,6 +56,9 @@
       }
     ]
   },
+  "from": [
+    "12.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "num-10",
@@ -78,46 +81,53 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "F12-10",
+        "12.6/t:assurance-warran",
+        "12.6/exam-trap"
       ]
     },
     {
       "id": "fig-f12-11",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F12-11",
       "title": "Assurance against service warranties",
-      "say": "Extended Example 12A: assurance against service warranties",
-      "caption": "",
-      "col1": "Assurance (included in the price)",
-      "col2": "Service (sold separately)",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Assurance (included in the price)",
       "rows": [
         {
-          "name": "What it is",
-          "a": "A promise that the goods work as described",
-          "b": "A separate performance obligation"
+          "label": "What it is",
+          "right": "A promise that the goods work as described",
+          "why": "Assurance (included in the price): A promise that the goods work as described. A separate performance obligation."
         },
         {
-          "name": "At the sale",
-          "a": "Accrue the expected cost, 60,000",
-          "b": "Record unearned revenue, 48,000"
+          "label": "At the sale",
+          "right": "Accrue the expected cost, 60,000",
+          "why": "Assurance (included in the price): Accrue the expected cost, 60,000. Record unearned revenue, 48,000."
         },
         {
-          "name": "Account created",
-          "a": "Warranty liability",
-          "b": "Contract liability (unearned revenue)"
+          "label": "Account created",
+          "right": "Warranty liability",
+          "why": "Assurance (included in the price): Warranty liability. Contract liability (unearned revenue)."
         },
         {
-          "name": "Effect on income",
-          "a": "Expense now, in the year of sale",
-          "b": "Revenue later, 16,000 a year"
+          "label": "Effect on income",
+          "right": "Expense now, in the year of sale",
+          "why": "Assurance (included in the price): Expense now, in the year of sale. Revenue later, 16,000 a year."
         },
         {
-          "name": "Repairs later",
-          "a": "Reduce the liability",
-          "b": "Expensed as the service is given"
+          "label": "Repairs later",
+          "right": "Reduce the liability",
+          "why": "Assurance (included in the price): Reduce the liability. Expensed as the service is given."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Extended Example 12A: assurance against service warranties",
+      "from": [
+        "F12-11",
+        "12.6/t:assurance-includ"
+      ]
     },
     {
       "id": "ties",
@@ -172,7 +182,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use Extended Example 12A."
+      "exhibit": "Use Extended Example 12A.",
+      "from": [
+        "12.6/section-check"
+      ]
     },
     {
       "id": "sc12-12",
@@ -198,7 +211,10 @@
           "why": "This leaves the repairs out of the roll-forward."
         }
       ],
-      "exhibit": "Use Extended Example 12A."
+      "exhibit": "Use Extended Example 12A.",
+      "from": [
+        "12.6/section-check"
+      ]
     },
     {
       "id": "sc12-13",
@@ -224,7 +240,10 @@
           "why": "Cash received is not an expense."
         }
       ],
-      "exhibit": "Use Extended Example 12A."
+      "exhibit": "Use Extended Example 12A.",
+      "from": [
+        "12.6/section-check"
+      ]
     }
   ]
 };

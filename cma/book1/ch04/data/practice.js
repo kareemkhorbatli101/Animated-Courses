@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P4-01–P4-26",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "rollforward"
   },

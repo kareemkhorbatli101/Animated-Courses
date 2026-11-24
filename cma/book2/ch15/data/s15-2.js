@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Business process reengineering and its savings",
   "n": "15.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.2"),
   "brief": {
     "about": "Business process reengineering is a radical redesign of a process, not a small improvement. Instead of typing orders faster, Tahini lets customers order online; instead of preparing invoices by hand, the invoice is created from the shipment record. Figure F215-04 shows the new process. Two steps disappear, four are shortened, and staff time falls to 0.87 hours per order. Cycle time falls to 4 days, so cash arrives sooner.",
     "anim": "processMap",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F215-04.png",
       "label": "Figure F215-04.",
-      "caption": "Process map: the redesigned order-to-cash process."
+      "caption": "Process map: the redesigned order-to-cash process.",
+      "from": [
+        "F215-04"
+      ]
     },
     {
       "id": "fill-05",
@@ -109,47 +112,80 @@
       ],
       "traps": [
         "gross-is-not-net"
+      ],
+      "from": [
+        "F215-05",
+        "15.2/t:order-to-cash-wh",
+        "15.2/exam-trap"
       ]
     },
     {
-      "id": "grid-06",
-      "kind": "shares",
+      "id": "fig-f215-06",
+      "kind": "lines",
       "kicker": "Figure F215-06",
       "title": "Your turn: the net saving over three years",
-      "say": "Set every column for every row.",
-      "columns": [
+      "say": "Your turn: the net saving over three years (complete the blanks)",
+      "caption": "Three-year view (whole USD)",
+      "col1": "Amount",
+      "col2": "",
+      "rows": [
         {
-          "id": "c1",
-          "label": "Amount",
-          "options": [
-            "$200,000 × 3 = $600,000",
-            "$600,000 − $150,000 = $450,000",
-            "(150,000)"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "label": "Net yearly saving × 3 years",
-          "cells": {
-            "c1": "$200,000 × 3 = $600,000"
-          },
-          "why": "Amount: $200,000 × 3 = $600,000."
+          "name": "Net yearly saving × 3 years",
+          "a": "________",
+          "b": ""
         },
         {
-          "label": "One-off cost of the change",
-          "cells": {
-            "c1": "(150,000)"
-          },
-          "why": "Amount: (150,000)."
+          "name": "One-off cost of the change",
+          "a": "(150,000)",
+          "b": ""
+        },
+        {
+          "name": "Net saving over three years",
+          "a": "________",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true,
+      "from": [
+        "F215-06",
+        "15.2/t:three-year-view",
+        "Answers and explanations/t:item-answer"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F215-06",
+      "title": "The saving over three years",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "The change also has a one-off cost of $150,000. Complete Figure F215-06 to find the net saving over three years.",
+      "blanks": [
+        {
+          "label": "Net yearly saving × 3 years",
+          "working": "$200,000 × 3 = $600,000",
+          "shown": "$600,000",
+          "answer": 600000,
+          "prompt": "$200,000 × 3 ="
         },
         {
           "label": "Net saving over three years",
-          "cells": {
-            "c1": "$600,000 − $150,000 = $450,000"
-          },
-          "why": "Amount: $600,000 − $150,000 = $450,000."
+          "working": "$600,000 − $150,000 = $450,000",
+          "shown": "$450,000",
+          "answer": 450000,
+          "prompt": "$600,000 − $150,000 =",
+          "needs": [
+            0
+          ]
         }
+      ],
+      "caption": "Your turn: the net saving over three years (complete the blanks)",
+      "from": [
+        "15.2/your-turn",
+        "F215-06",
+        "15.2/t:three-year-view",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -176,7 +212,10 @@
           "why": "This is a small improvement."
         }
       ],
-      "say": "Which change is business process reengineering rather than a small improvement?"
+      "say": "Which change is business process reengineering rather than a small improvement?",
+      "from": [
+        "15.2/section-check"
+      ]
     },
     {
       "id": "sc215-4",
@@ -202,7 +241,10 @@
           "why": "The running cost is added."
         }
       ],
-      "exhibit": "A redesign cuts a process's yearly cost from $356,000 to $143,200. The new process has a running cost of $12,800 a year."
+      "exhibit": "A redesign cuts a process's yearly cost from $356,000 to $143,200. The new process has a running cost of $12,800 a year.",
+      "from": [
+        "15.2/section-check"
+      ]
     }
   ]
 };

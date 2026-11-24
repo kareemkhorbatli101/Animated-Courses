@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Common costs and how to allocate them",
   "n": "15.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.5"),
   "brief": {
     "about": "A common cost serves more than one segment and cannot be traced to any of them. Head office costs $1,100,000 a year, the zero-based budget of Chapter 5, and every division is charged a share. Figure F315-08 shows two methods, using a cold store shared by Beverages and Tahini & Spreads. Stand-alone cost allocation shares the cost in proportion to what each would have paid alone.",
     "anim": "respCenters",
@@ -37,13 +37,19 @@
       }
     ]
   },
+  "from": [
+    "15.5/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f315-08",
       "kind": "figure",
       "file": "F315-08.png",
       "label": "Figure F315-08.",
-      "caption": "Two ways of sharing a common cost."
+      "caption": "Two ways of sharing a common cost.",
+      "from": [
+        "F315-08"
+      ]
     },
     {
       "id": "fill-09",
@@ -114,41 +120,48 @@
       ],
       "traps": [
         "never-close-a-segment-on-the-allocated"
+      ],
+      "from": [
+        "F315-09",
+        "15.5/t:shared-cold-stor",
+        "15.5/exam-trap"
       ]
     },
     {
       "id": "fig-f315-10",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F315-10",
       "title": "Why allocating common costs is a problem",
-      "say": "Why allocating common costs is a problem",
-      "caption": "Issue with allocating common costs (C.2.f)",
-      "col1": "Why it matters",
-      "col2": "What to do",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Issue with allocating common costs (C.2.f)",
+      "col": "Why it matters",
       "rows": [
         {
-          "name": "The charge is not controllable",
-          "a": "A manager cannot change head-office cost by working harder",
-          "b": "Report it below the segment margin"
+          "label": "The charge is not controllable",
+          "right": "A manager cannot change head-office cost by working harder",
+          "why": "Why it matters: A manager cannot change head-office cost by working harder. Report it below the segment margin."
         },
         {
-          "name": "The base may be arbitrary",
-          "a": "Revenue, floor space and headcount give different answers",
-          "b": "Choose a base that reflects the use of the service"
+          "label": "The base may be arbitrary",
+          "right": "Revenue, floor space and headcount give different answers",
+          "why": "Why it matters: Revenue, floor space and headcount give different answers. Choose a base that reflects the use of the service."
         },
         {
-          "name": "It can make a good segment look bad",
-          "a": "A segment with a positive segment margin can show a loss after allocation",
-          "b": "Never close a segment on the allocated figure alone"
+          "label": "It can make a good segment look bad",
+          "right": "A segment with a positive segment margin can show a loss after allocation",
+          "why": "Why it matters: A segment with a positive segment margin can show a loss after allocation. Never close a segment on the allocated figure alone."
         },
         {
-          "name": "It can hide the cost of the service",
-          "a": "Users have no reason to economise on a free service",
-          "b": "Charge a rate per use where possible"
+          "label": "It can hide the cost of the service",
+          "right": "Users have no reason to economise on a free service",
+          "why": "Why it matters: Users have no reason to economise on a free service. Charge a rate per use where possible."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Why allocating common costs is a problem",
+      "from": [
+        "F315-10",
+        "15.5/t:issue-with-alloc"
+      ]
     },
     {
       "id": "sc315-9",
@@ -174,7 +187,10 @@
           "why": "This is the incremental allocation to a primary user."
         }
       ],
-      "exhibit": "Two divisions would pay $240,000 and $120,000 alone; shared, the cost is $300,000."
+      "exhibit": "Two divisions would pay $240,000 and $120,000 alone; shared, the cost is $300,000.",
+      "from": [
+        "15.5/section-check"
+      ]
     },
     {
       "id": "sc315-10",
@@ -200,7 +216,10 @@
           "why": "Hiding the figure solves nothing."
         }
       ],
-      "exhibit": "A segment has a positive segment margin but shows a loss after allocated head-office costs."
+      "exhibit": "A segment has a positive segment margin but shows a loss after allocated head-office costs.",
+      "from": [
+        "15.5/section-check"
+      ]
     }
   ]
 };

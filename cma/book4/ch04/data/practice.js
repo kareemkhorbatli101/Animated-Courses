@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P404-01–P404-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "auditTopDown"
   },

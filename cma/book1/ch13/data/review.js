@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "twobooks"
   },
@@ -115,6 +115,9 @@
       "say": "Use Figure F13-08. How does Orontes record the effect of the rate cut enacted in 2027?",
       "traps": [
         "rate-and-allowance-traps"
+      ],
+      "from": [
+        "13.4/exam-trap"
       ]
     },
     {

@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Allocating resources through the budget",
   "n": "3.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("3.3"),
   "brief": {
     "about": "Resources are always scarce. The budget is where the company decides who gets what: money, people, machines and time. The decision should follow the strategy, not the size of each request. Cutting every request by the same percentage would have been simpler, but it would have starved the star and overfed the cash cow. Efficient allocation puts resources where they support the strategy best.",
     "anim": "slackGap",
@@ -36,6 +36,9 @@
       }
     ]
   },
+  "from": [
+    "3.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-05",
@@ -86,6 +89,10 @@
             "c3": "(3,000,000)"
           }
         }
+      ],
+      "from": [
+        "F303-05",
+        "3.3/t:2028-capital-bud"
       ]
     },
     {
@@ -111,6 +118,9 @@
           "text": "to the unit that asked first",
           "why": "Order of requests is irrelevant."
         }
+      ],
+      "from": [
+        "3.3/section-check"
       ]
     },
     {
@@ -137,7 +147,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Units request $10,000,000 of capital; $7,000,000 is available."
+      "exhibit": "Units request $10,000,000 of capital; $7,000,000 is available.",
+      "from": [
+        "3.3/section-check"
+      ]
     }
   ]
 };

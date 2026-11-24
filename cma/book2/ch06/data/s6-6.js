@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Benefits and limitations",
   "n": "6.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("6.6"),
   "brief": {
     "about": "Job costing gives an accurate cost for each order. Managers use it to price new orders, compare the estimate with the actual cost and find unprofitable customers. It also gives the inventory values that the financial statements need. It has limits. It needs many documents and careful records for every job. Overhead is still an allocation, so a poor allocation base can distort job costs; activity-based costing (Chapter 12) is one answer.",
     "anim": "jobCard",
@@ -21,53 +21,65 @@
           "It has limits. It needs many documents and careful records for every job. Overhead is still an allocation, so a poor allocation base can distort job costs; activity-based costing (Chapter 12) is one answer. It also does not suit identical units in a continuous flow.",
           "Figure F206-06 compares job costing with process costing, the other main accumulation system."
         ]
+      },
+      {
+        "h": "U.S. GAAP and IFRS",
+        "box": "ifrs",
+        "p": [
+          "Both ASC 330 and IAS 2 accept job costs as inventory cost when they include a proper share of production overhead. Both require abnormal costs, such as abnormal spoilage or idle capacity, to be expensed rather than added to a job (Chapters 7 and 8)."
+        ]
       }
     ]
   },
+  "from": [
+    "6.6/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "fig-f206-06",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F206-06",
       "title": "Job order costing and process costing",
-      "say": "Job order costing and process costing",
-      "caption": "",
-      "col1": "Job order costing",
-      "col2": "Process costing (Chapter 7)",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "",
+      "col": "Process costing (Chapter 7)",
       "rows": [
         {
-          "name": "Product",
-          "a": "Unique orders (private-label tahini, halva batches)",
-          "b": "Identical units in a continuous flow (olive oil)"
+          "label": "Product",
+          "right": "Identical units in a continuous flow (olive oil)",
+          "why": "Process costing (Chapter 7): Identical units in a continuous flow (olive oil). Unique orders (private-label tahini, halva batches)."
         },
         {
-          "name": "Cost object",
-          "a": "The job",
-          "b": "The process or department"
+          "label": "Cost object",
+          "right": "The process or department",
+          "why": "Process costing (Chapter 7): The process or department. The job."
         },
         {
-          "name": "WIP records",
-          "a": "One job cost sheet per job",
-          "b": "One WIP account per department"
+          "label": "WIP records",
+          "right": "One WIP account per department",
+          "why": "Process costing (Chapter 7): One WIP account per department. One job cost sheet per job."
         },
         {
-          "name": "Unit cost",
-          "a": "Job cost ÷ units in the job",
-          "b": "Department cost ÷ equivalent units"
+          "label": "Unit cost",
+          "right": "Department cost ÷ equivalent units",
+          "why": "Process costing (Chapter 7): Department cost ÷ equivalent units. Job cost ÷ units in the job."
         },
         {
-          "name": "Main benefit",
-          "a": "Accurate cost and price for each order",
-          "b": "Simple records for mass production"
+          "label": "Main benefit",
+          "right": "Simple records for mass production",
+          "why": "Process costing (Chapter 7): Simple records for mass production. Accurate cost and price for each order."
         },
         {
-          "name": "Main limitation",
-          "a": "More records; overhead is still an allocation",
-          "b": "Averages hide differences between units"
+          "label": "Main limitation",
+          "right": "Averages hide differences between units",
+          "why": "Process costing (Chapter 7): Averages hide differences between units. More records; overhead is still an allocation."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "Job order costing and process costing",
+      "from": [
+        "F206-06",
+        "6.6/t:job-order-costin"
+      ]
     },
     {
       "id": "sc206-11",
@@ -92,6 +104,9 @@
           "text": "It is best for a continuous flow of identical units",
           "why": "That setting suits process costing."
         }
+      ],
+      "from": [
+        "6.6/section-check"
       ]
     },
     {
@@ -117,6 +132,9 @@
           "text": "Service firms cannot use it",
           "why": "Law firms and hospitals use job costing."
         }
+      ],
+      "from": [
+        "6.6/section-check"
       ]
     }
   ]

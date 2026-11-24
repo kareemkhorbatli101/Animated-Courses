@@ -9,7 +9,7 @@
   "up": "../",
   "title": "How well does the model fit?",
   "n": "15.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("15.6"),
   "brief": {
     "about": "Figure F415-07 sets out the measures the exam names, with what each tells you and what none of them tells you. The correlation coefficient runs from minus one to plus one and describes a straight-line relationship: its sign gives the direction, its size the strength. Squaring destroys the sign, which is the point candidates most often miss.",
     "anim": "fitCurve",
@@ -27,65 +27,52 @@
   "scenes": [
     {
       "id": "fig-f415-07",
-      "kind": "grid",
+      "kind": "match",
       "kicker": "Figure F415-07",
       "title": "Measures of fit",
-      "say": "Measures of fit",
-      "caption": "Measure (F.4.q)",
-      "cols": [
-        "Range",
-        "What it tells you",
-        "Note"
-      ],
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Measure (F.4.q)",
+      "col": "What it tells you",
       "rows": [
         {
-          "name": "Correlation coefficient, R",
-          "cells": [
-            "Between -1 and +1",
-            "Direction and strength of a straight-line relationship",
-            "Negative means they move oppositely"
-          ]
+          "label": "Correlation coefficient, R",
+          "right": "Direction and strength of a straight-line relationship",
+          "why": "What it tells you: Direction and strength of a straight-line relationship. Between -1 and +1. Negative means they move oppositely."
         },
         {
-          "name": "Coefficient of determination, R squared",
-          "cells": [
-            "Between 0 and 1",
-            "The share of variation in the result that the model explains",
-            "0.90 means 90 per cent explained"
-          ]
+          "label": "Coefficient of determination, R squared",
+          "right": "The share of variation in the result that the model explains",
+          "why": "What it tells you: The share of variation in the result that the model explains. Between 0 and 1. 0.90 means 90 per cent explained."
         },
         {
-          "name": "The link",
-          "cells": [
-            "R squared is R multiplied by itself, in simple regression",
-            "So R of -0.8 gives R squared of 0.64",
-            "The sign disappears when squared"
-          ]
+          "label": "The link",
+          "right": "So R of -0.8 gives R squared of 0.64",
+          "why": "What it tells you: So R of -0.8 gives R squared of 0.64. R squared is R multiplied by itself, in simple regression. The sign disappears when squared."
         },
         {
-          "name": "Adjusted R squared",
-          "cells": [
-            "Always at or below R squared",
-            "Penalises adding variables that do not help",
-            "Use it to compare models of different sizes"
-          ]
+          "label": "Adjusted R squared",
+          "right": "Penalises adding variables that do not help",
+          "why": "What it tells you: Penalises adding variables that do not help. Always at or below R squared. Use it to compare models of different sizes."
         },
         {
-          "name": "Standard error of the estimate",
-          "cells": [
-            "In the units of the result",
-            "The typical distance of a point from the line",
-            "Smaller is better"
-          ]
+          "label": "Standard error of the estimate",
+          "right": "The typical distance of a point from the line",
+          "why": "What it tells you: The typical distance of a point from the line. In the units of the result. Smaller is better."
         },
         {
-          "name": "What none of them prove",
-          "cells": [
-            "Not cause",
-            "A high R squared on unrelated series is still a coincidence",
-            "Chapter 14's warning applies"
-          ]
+          "label": "What none of them prove",
+          "right": "A high R squared on unrelated series is still a coincidence",
+          "why": "What it tells you: A high R squared on unrelated series is still a coincidence. Not cause. Chapter 14's warning applies."
         }
+      ],
+      "caption": "Measures of fit",
+      "traps": [
+        "a-high-r-squared-is-not-proof"
+      ],
+      "from": [
+        "F415-07",
+        "15.6/t:measure-f-4-q-ra",
+        "15.6/exam-trap"
       ]
     },
     {
@@ -112,8 +99,8 @@
           "correct": true
         }
       ],
-      "traps": [
-        "a-high-r-squared-is-not-proof"
+      "from": [
+        "15.6/section-check"
       ]
     },
     {
@@ -139,6 +126,9 @@
           "text": "Ninety per cent of the data was used",
           "why": "All the data is used."
         }
+      ],
+      "from": [
+        "15.6/section-check"
       ]
     }
   ]

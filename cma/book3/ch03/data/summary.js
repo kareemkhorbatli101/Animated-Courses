@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "topDownUp"
+    "anim": "topDownUp",
+    "about": "Figure F303-14 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "Budgets turn the strategic plan into short-term objectives, coordinate and communicate between units, allocate scarce resources and provide the yardstick for performance. They rest on economic and industry assumptions. Each budget needs a suitable time frame, and top management must lead the process. Participation with review gives the best results, and managers are judged only on controllable costs. Slack, measured from the evidence, harms goal congruence; revisions follow a clear policy; and spending is monitored against the budget to date."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F303-14.png",
       "label": "Figure F303-14.",
       "caption": "Chapter 3 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F303-14"
+      ]
     },
     {
       "id": "rules",

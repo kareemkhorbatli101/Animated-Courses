@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Porter's generic strategies",
   "n": "2.4",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.4"),
   "brief": {
     "about": "Porter described three ways to win. Cost leadership sells at or near the market price with the lowest costs. Differentiation offers something customers value and will pay more for. A focus strategy serves a narrow segment, either at low cost or with a difference. Figure F302-06 shows the three strategies. Each Orontes division follows one strategy, as Figure F302-07 shows.",
     "anim": "genericStrat",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F302-06.png",
       "label": "Figure F302-06.",
-      "caption": "Porter's generic strategies and the Orontes divisions."
+      "caption": "Porter's generic strategies and the Orontes divisions.",
+      "from": [
+        "F302-06"
+      ]
     },
     {
       "id": "grid-07",
@@ -93,6 +96,10 @@
           },
           "why": "Generic strategy: Review. How it competes: decide to fix or leave."
         }
+      ],
+      "from": [
+        "F302-07",
+        "2.4/t:unit-generic-str"
       ]
     },
     {
@@ -118,6 +125,9 @@
           "text": "a contingency plan",
           "why": "That is a planning tool, not a strategy."
         }
+      ],
+      "from": [
+        "2.4/section-check"
       ]
     },
     {
@@ -144,7 +154,10 @@
           "why": "It has made a clear choice."
         }
       ],
-      "exhibit": "Orontes Beverages sells mass-market juice at a normal price and aims for the lowest cost per case."
+      "exhibit": "Orontes Beverages sells mass-market juice at a normal price and aims for the lowest cost per case.",
+      "from": [
+        "2.4/section-check"
+      ]
     }
   ]
 };

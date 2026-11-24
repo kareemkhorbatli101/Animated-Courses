@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The value chain",
   "n": "14.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.3"),
   "brief": {
     "about": "The value chain is the chain of activities a company performs to design, make, sell, deliver and support its products. Value chain analysis studies each activity to find where the company can lower cost or add value for customers. Michael Porter divided the chain into two groups. Primary activities make and deliver the product: inbound logistics, operations, outbound logistics, marketing and sales, and service.",
     "anim": "valueChain",
@@ -31,13 +31,19 @@
       }
     ]
   },
+  "from": [
+    "14.3/false-friend-alert"
+  ],
   "scenes": [
     {
       "id": "fig-f214-06",
       "kind": "figure",
       "file": "F214-06.png",
       "label": "Figure F214-06.",
-      "caption": "Porter's value chain for the Oils division."
+      "caption": "Porter's value chain for the Oils division.",
+      "from": [
+        "F214-06"
+      ]
     },
     {
       "id": "sc214-5",
@@ -65,6 +71,9 @@
       ],
       "traps": [
         "cha-ne-de-valeur"
+      ],
+      "from": [
+        "14.3/section-check"
       ]
     },
     {
@@ -90,6 +99,9 @@
           "text": "service",
           "why": "Service supports customers after the sale."
         }
+      ],
+      "from": [
+        "14.3/section-check"
       ]
     }
   ]

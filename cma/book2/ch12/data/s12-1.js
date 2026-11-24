@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Why one overhead rate can mislead",
   "n": "12.1",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.1"),
   "brief": {
     "about": "A traditional system collects overhead in one pool and spreads it with one volume measure, such as direct labor hours. That works when every product uses overhead in the same way as it uses labor. Pulses & Spices has $900,000 of overhead. At $36 a labor hour, lentils receive $720,000 because they use most of the labor. The result is cost distortion.",
     "anim": "abcLevels",
@@ -30,7 +30,10 @@
       "kind": "figure",
       "file": "F212-02.png",
       "label": "Figure F212-02.",
-      "caption": "Traditional one-rate allocation compared with five ABC activity rates."
+      "caption": "Traditional one-rate allocation compared with five ABC activity rates.",
+      "from": [
+        "F212-02"
+      ]
     },
     {
       "id": "sc212-1",
@@ -58,6 +61,10 @@
       ],
       "traps": [
         "volume-drivers-for-batch-costs"
+      ],
+      "from": [
+        "12.1/exam-trap",
+        "12.1/section-check"
       ]
     },
     {
@@ -84,7 +91,10 @@
           "why": "This is the setup activity rate."
         }
       ],
-      "exhibit": "Pulses & Spices has $900,000 of overhead and 7,000 packing hours, but it uses direct labor hours as its single base."
+      "exhibit": "Pulses & Spices has $900,000 of overhead and 7,000 packing hours, but it uses direct labor hours as its single base.",
+      "from": [
+        "12.1/section-check"
+      ]
     }
   ]
 };

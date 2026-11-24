@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Variable overhead variances",
   "n": "14.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.2"),
   "brief": {
     "about": "The three-column frame of Chapter 12 applies without change, with machine hours as the input. Figure F314-03 shows June: the plant ran 1,460 machine hours when 1,440 were allowed for 72,000 cases. The two together make the $1,000 favorable that Chapter 11 reported for variable overhead.",
     "anim": "threeCols",
@@ -35,13 +35,19 @@
       }
     ]
   },
+  "from": [
+    "14.2/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f314-03",
       "kind": "figure",
       "file": "F314-03.png",
       "label": "Figure F314-03.",
-      "caption": "The three columns applied to variable overhead."
+      "caption": "The three columns applied to variable overhead.",
+      "from": [
+        "F314-03"
+      ]
     },
     {
       "id": "num-04",
@@ -61,6 +67,10 @@
           "answer": "71000",
           "why": "Actual variable overhead: 71,000."
         }
+      ],
+      "from": [
+        "F314-04",
+        "14.2/t:variable-overhea"
       ]
     },
     {
@@ -87,7 +97,10 @@
           "why": "This is the total variable overhead variance."
         }
       ],
-      "exhibit": "Actual variable overhead is $71,000 for 1,460 machine hours; the standard rate is $50.00."
+      "exhibit": "Actual variable overhead is $71,000 for 1,460 machine hours; the standard rate is $50.00.",
+      "from": [
+        "14.2/section-check"
+      ]
     },
     {
       "id": "sc314-4",
@@ -113,7 +126,10 @@
           "correct": true
         }
       ],
-      "exhibit": "1,460 hours were worked and 1,440 allowed; the standard rate is $50.00."
+      "exhibit": "1,460 hours were worked and 1,440 allowed; the standard rate is $50.00.",
+      "from": [
+        "14.2/section-check"
+      ]
     }
   ]
 };

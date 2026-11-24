@@ -8,9 +8,23 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
-    "anim": "evTree"
+    "anim": "evTree",
+    "about": "Figure F417-09 brings the chapter together.",
+    "read": [
+      {
+        "h": "Chapter summary",
+        "p": [
+          "The expected value is each outcome multiplied by its probability and summed, and the same arithmetic estimates a future cash flow. It uses all the information and allows options to be ranked, but nobody receives it, it hides the spread, and it is correct only over many repetitions. Sensitivity analysis changes one assumption at a time to find which matters most; what-if changes inputs freely; goal seeking sets the answer and solves for the input. Simulation, usually by the Monte Carlo technique, varies every assumption together across thousands of trials and produces the whole distribution of outcomes. A recommendation names the action and the conditions under which it would change. And analytics has limits. They are data quality, association rather than cause, the assumption that the past continues, what is never measured, estimated probabilities, privacy, and the fact that it informs a decision rather than making one."
+        ]
+      }
+    ],
+    "seal": {
+      "rules": [
+        "Chapter summary"
+      ]
+    }
   },
   "scenes": [
     {
@@ -19,7 +33,10 @@
       "file": "F417-09.png",
       "label": "Figure F417-09.",
       "caption": "Chapter 17 summary map: the key rule for each section.",
-      "inBrief": true
+      "inBrief": true,
+      "from": [
+        "F417-09"
+      ]
     },
     {
       "id": "rules",

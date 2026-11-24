@@ -9,7 +9,7 @@
   "up": "../",
   "title": "From prediction to recommendation",
   "n": "17.5",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("17.5"),
   "brief": {
     "about": "The syllabus asks how predictive techniques are used to draw insights and make recommendations, and the answer is a sequence rather than a technique. Predict the outcome, test which assumptions it depends on, simulate the range, and then state what should be done and under what conditions. A recommendation that names no condition is weaker than one that does. Compare it with the Chapter 15 analyst.",
     "anim": "fourAnalytics",
@@ -48,6 +48,9 @@
           "why": "A recommendation naming no condition is the weaker one.",
           "correct": true
         }
+      ],
+      "from": [
+        "17.5/section-check"
       ]
     },
     {
@@ -73,6 +76,9 @@
           "text": "The third quarter is the peak",
           "why": "A pattern."
         }
+      ],
+      "from": [
+        "17.5/section-check"
       ]
     }
   ]

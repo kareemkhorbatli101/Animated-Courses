@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Initial measurement",
   "n": "14.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("14.3"),
   "brief": {
     "about": "For both types, the lessee records a lease liability and a right-of-use asset at the start. The liability is the present value of the lease payments not yet paid. The discount rate is the rate implicit in the lease if the lessee can find it; otherwise it is the lessee's incremental borrowing rate. Orontes uses 6%, the rate on its bank note from Chapter 1.",
     "anim": "rou",
@@ -80,6 +80,10 @@
             "c2": "866,276"
           }
         }
+      ],
+      "from": [
+        "F14-04",
+        "14.3/t:suppose-january"
       ]
     },
     {
@@ -106,7 +110,10 @@
           "why": "The building's value is not the liability."
         }
       ],
-      "say": "Use Figure F14-04. At what amount does Orontes first record the warehouse lease liability (whole USD)?"
+      "say": "Use Figure F14-04. At what amount does Orontes first record the warehouse lease liability (whole USD)?",
+      "from": [
+        "14.3/section-check"
+      ]
     },
     {
       "id": "sc14-6",
@@ -132,7 +139,10 @@
           "why": "The lessee uses its own rate."
         }
       ],
-      "exhibit": "A lessee cannot determine the rate implicit in the lease."
+      "exhibit": "A lessee cannot determine the rate implicit in the lease.",
+      "from": [
+        "14.3/section-check"
+      ]
     }
   ]
 };

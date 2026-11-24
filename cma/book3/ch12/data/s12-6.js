@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 12A: the June input variance report",
   "n": "12.6",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("12.6"),
   "brief": {
     "about": "This example puts the four variances into the report the division sends to head office. It is exam-core. Figure F312-14 lists each variance with its owner. The four together come to $14,568 unfavorable. Concentrate dominates the report. Its price variance is outside the division's control, but the usage variance and the labor efficiency variance share one cause: the long changeover identified in Chapter 11.",
     "anim": "varSplit",
@@ -42,6 +42,9 @@
       }
     ]
   },
+  "from": [
+    "12.6/worked-example"
+  ],
   "scenes": [
     {
       "id": "fig-f312-14",
@@ -80,7 +83,95 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F312-14",
+        "12.6/t:june-2028-varian"
+      ]
+    },
+    {
+      "id": "t12-6-0",
+      "kind": "lines",
+      "kicker": "Section 12.6",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Bottle price variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Bottle usage variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Labor rate variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Labor efficiency variance",
+          "a": "",
+          "b": ""
+        },
+        {
+          "name": "Total bottle variance",
+          "a": "",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
+    },
+    {
+      "id": "t12-6-1",
+      "kind": "lines",
+      "kicker": "Section 12.6",
+      "title": "Variance",
+      "caption": "Variance",
+      "col1": "Category",
+      "col2": "",
+      "rows": [
+        {
+          "name": "Bottle price variance",
+          "a": "Favorable",
+          "b": ""
+        },
+        {
+          "name": "Bottle usage variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Labor rate variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Labor efficiency variance",
+          "a": "Unfavorable",
+          "b": ""
+        },
+        {
+          "name": "Total bottle variance",
+          "a": "Favorable",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "Practice/t:variance-categor",
+        "Answers and explanations/t:variance-categor"
+      ]
     },
     {
       "id": "ties",
@@ -102,6 +193,9 @@
       ],
       "traps": [
         "exam-view"
+      ],
+      "from": [
+        "12.6/exam-trap"
       ]
     },
     {
@@ -128,7 +222,10 @@
           "correct": true
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "12.6/section-check"
+      ]
     },
     {
       "id": "sc312-12",
@@ -154,7 +251,10 @@
           "why": "Overtime and the changeover are different causes."
         }
       ],
-      "exhibit": "Use the Extended Example."
+      "exhibit": "Use the Extended Example.",
+      "from": [
+        "12.6/section-check"
+      ]
     }
   ]
 };

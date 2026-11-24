@@ -8,7 +8,7 @@
   "id": "practice",
   "up": "../",
   "title": "Practice · P412-01–P412-16",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "sysRoles"
   },

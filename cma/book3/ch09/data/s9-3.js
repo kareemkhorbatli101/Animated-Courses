@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Collections and payments",
   "n": "9.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("9.3"),
   "brief": {
     "about": "Cash collections follow the credit policy, not the sales budget. Beverages collects 40% of each quarter's sales in that quarter and 60% in the next, so the first quarter also collects the rest of last year's fourth-quarter sales. Cash disbursements follow the payment terms in the same way.",
     "anim": "capexPaths",
@@ -35,6 +35,9 @@
       }
     ]
   },
+  "from": [
+    "9.3/worked-example"
+  ],
   "scenes": [
     {
       "id": "fill-05",
@@ -96,6 +99,11 @@
       ],
       "traps": [
         "sales-are-not-collections"
+      ],
+      "from": [
+        "F309-05",
+        "9.3/t:collections-40-i",
+        "9.3/exam-trap"
       ]
     },
     {
@@ -164,74 +172,101 @@
             "c4": "1,236,870"
           }
         }
+      ],
+      "from": [
+        "F309-06",
+        "9.3/t:concentrate-paym"
       ]
     },
     {
-      "id": "fill-07",
-      "kind": "schedule",
+      "id": "fig-f309-07",
+      "kind": "grid",
       "kicker": "Figure F309-07",
       "title": "Your turn: concentrate payments in the third and fourth quarters",
-      "say": "Every other column is given. Enter the last figure in each row.",
+      "say": "Your turn: concentrate payments in the third and fourth quarters (complete the blanks)",
       "caption": "Concentrate payments (USD)",
       "cols": [
-        {
-          "id": "c1",
-          "label": "Q1",
-          "given": true
-        },
-        {
-          "id": "c2",
-          "label": "Q2",
-          "given": false
-        },
-        {
-          "id": "c3",
-          "label": "Q3",
-          "given": true
-        },
-        {
-          "id": "c4",
-          "label": "Q4",
-          "given": true
-        }
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
       ],
       "rows": [
         {
-          "label": "Purchases (Chapter 7)",
-          "cells": {
-            "c1": "1,158,300",
-            "c2": "1,236,060",
-            "c3": "1,272,240",
-            "c4": "1,201,500"
-          }
+          "name": "Purchases (Chapter 7)",
+          "cells": [
+            "1,158,300",
+            "1,236,060",
+            "1,272,240",
+            "1,201,500"
+          ]
         },
         {
-          "label": "Paid from last quarter (50%)",
-          "cells": {
-            "c1": "575,000",
-            "c2": "579,150",
-            "c3": "________",
-            "c4": "________"
-          }
+          "name": "Paid from last quarter (50%)",
+          "cells": [
+            "575,000",
+            "579,150",
+            "________",
+            "________"
+          ]
         },
         {
-          "label": "Paid this quarter (50%)",
-          "cells": {
-            "c1": "579,150",
-            "c2": "618,030",
-            "c3": "________",
-            "c4": "________"
-          }
+          "name": "Paid this quarter (50%)",
+          "cells": [
+            "579,150",
+            "618,030",
+            "________",
+            "________"
+          ]
         },
         {
-          "label": "Cash paid for concentrate",
-          "cells": {
-            "c1": "1,154,150",
-            "c2": "1,197,180",
-            "c3": "________",
-            "c4": "________"
-          }
+          "name": "Cash paid for concentrate",
+          "cells": [
+            "1,154,150",
+            "1,197,180",
+            "________",
+            "________"
+          ]
         }
+      ],
+      "data": true,
+      "from": [
+        "F309-07",
+        "9.3/t:concentrate-paym#2"
+      ]
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F309-07",
+      "title": "Concentrate payments in the third and fourth quarters",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the blank cells of Figure F309-07.",
+      "blanks": [
+        {
+          "label": "Q3",
+          "working": "$1,254,150 = 50% of 1,236,060 + 50% of 1,272,240",
+          "shown": "50%",
+          "answer": 50,
+          "prompt": "$1,254,150 ="
+        },
+        {
+          "label": "Q4",
+          "working": "$1,236,870 = 50% of 1,272,240 + 50% of 1,201,500",
+          "shown": "50%",
+          "answer": 50,
+          "prompt": "$1,236,870 =",
+          "needs": [
+            0
+          ]
+        }
+      ],
+      "caption": "Your turn: concentrate payments in the third and fourth quarters (complete the blanks)",
+      "from": [
+        "9.3/your-turn",
+        "F309-07",
+        "9.3/t:concentrate-paym#2",
+        "Answers and explanations/t:item-answer"
       ]
     },
     {
@@ -257,6 +292,9 @@
           "text": "the depreciation method",
           "why": "Unrelated."
         }
+      ],
+      "from": [
+        "9.3/section-check"
       ]
     },
     {
@@ -283,7 +321,10 @@
           "why": "This treats sales as cash."
         }
       ],
-      "exhibit": "Receivables at the start of the quarter are $2,460,000. Sales are $4,200,000, with 40% collected in the quarter of sale."
+      "exhibit": "Receivables at the start of the quarter are $2,460,000. Sales are $4,200,000, with 40% collected in the quarter of sale.",
+      "from": [
+        "9.3/section-check"
+      ]
     }
   ]
 };

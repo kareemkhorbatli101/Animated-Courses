@@ -9,7 +9,7 @@
   "up": "../",
   "title": "The allocation base and the denominator",
   "n": "8.3",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("8.3"),
   "brief": {
     "about": "The base for fixed overhead should measure how products use capacity. In an automated grinding plant that is machine hours. The base must also be measurable for every job. The fixed overhead rate is budgeted fixed overhead divided by a denominator level of the base. The choice matters: the same $2,400,000 gives $16 per hour at theoretical capacity, $20 at practical capacity, $24 at normal capacity and $25 at master-budget capacity.",
     "anim": "capacityJar",
@@ -21,16 +21,29 @@
           "The fixed overhead rate is budgeted fixed overhead divided by a denominator level of the base. The choice matters: the same $2,400,000 gives $16 per hour at theoretical capacity, $20 at practical capacity, $24 at normal capacity and $25 at master-budget capacity. Figure F208-05 shows all four.",
           "Orontes uses normal capacity: 100,000 machine hours, inside a normal range of 90,000 to 110,000 hours a year, which gives $24 per hour and keeps inventory in line with U.S. GAAP. Chapter 9 shows why managers also look at practical capacity."
         ]
+      },
+      {
+        "h": "ASC 330 and normal capacity",
+        "box": "ifrs",
+        "p": [
+          "U.S. GAAP and IAS 2 allocate fixed production overhead on normal capacity. Fixed overhead per unit is not increased when production is abnormally low; the unallocated amount is expensed in that period."
+        ]
       }
     ]
   },
+  "from": [
+    "8.3/ifrs-contrast"
+  ],
   "scenes": [
     {
       "id": "fig-f208-05",
       "kind": "figure",
       "file": "F208-05.png",
       "label": "Figure F208-05.",
-      "caption": "Fixed overhead rate at four capacity levels for Tahini & Spreads."
+      "caption": "Fixed overhead rate at four capacity levels for Tahini & Spreads.",
+      "from": [
+        "F208-05"
+      ]
     },
     {
       "id": "sc208-5",
@@ -57,7 +70,10 @@
         }
       ],
       "exhibit": "Tahini's budgeted fixed overhead is $2,400,000.",
-      "say": "What is the fixed overhead rate if the denominator is practical capacity of 120,000 machine hours?"
+      "say": "What is the fixed overhead rate if the denominator is practical capacity of 120,000 machine hours?",
+      "from": [
+        "8.3/section-check"
+      ]
     },
     {
       "id": "sc208-6",
@@ -83,7 +99,10 @@
           "why": "Material cost does not drive fixed overhead."
         }
       ],
-      "say": "In an automated grinding department, the best base for fixed overhead is usually:"
+      "say": "In an automated grinding department, the best base for fixed overhead is usually:",
+      "from": [
+        "8.3/section-check"
+      ]
     }
   ]
 };

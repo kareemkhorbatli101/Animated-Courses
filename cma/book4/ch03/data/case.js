@@ -8,9 +8,19 @@
   "id": "case",
   "up": "../",
   "title": "Case question · the Levant Distribution depot",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "dutySplit"
+  },
+  "scenario": {
+    "title": "Case question: the Levant Distribution depot",
+    "p": [
+      "Levant Distribution runs a depot outside Amman that holds packaged goods for delivery to Gulf customers. The depot has four staff. Samir receives deliveries from the Orontes plants and signs for them, holds the keys to the store, and also maintains the depot's stock records on a spreadsheet.",
+      "Nadia raises delivery notes for outgoing loads and approves which customers may collect without prepayment. She reports to the depot manager, Khalid, who approves write-offs of damaged stock and performs the monthly stock count himself because, he says, he knows the goods best.",
+      "Delivery notes are written on pads bought from a stationer and are not numbered. Damaged stock is removed from the store by Samir and written off on Khalid's verbal approval. The depot's stock records have never been reconciled to the plant's dispatch records. Levant has no internal audit function, and the depot has not been visited by anyone from the group finance team for two years.",
+      "The group controller, Rania, has been asked to report on the depot's control weaknesses, to say which single change would do most good, and to advise whether the arrangement could be made safe without hiring anyone."
+    ],
+    "note": "Use the scenario above for items C403-1 to C403-7."
   },
   "scenes": [
     {
@@ -42,25 +52,30 @@
         {
           "name": "Samir holds the keys to the store",
           "to": "custody",
-          "why": "Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
+          "why": "Person and duty: Custody. Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
         },
         {
           "name": "Samir maintains the stock records",
           "to": "recording",
-          "why": "Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
+          "why": "Person and duty: Recording. Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
         },
         {
           "name": "Nadia approves customers for collection without prepayment",
           "to": "authorization",
-          "why": "Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
+          "why": "Person and duty: Authorization. Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
         },
         {
           "name": "Khalid performs the monthly stock count",
           "to": "reconciliation",
-          "why": "Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
+          "why": "Person and duty: Reconciliation. Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:person-and-duty",
+        "Practice/t:person-and-duty#2",
+        "Answers and explanations/t:person-and-duty"
+      ]
     },
     {
       "id": "c403-2",
@@ -86,7 +101,7 @@
           "why": "A person who holds only one of the four can make a mistake or commit a fraud, but someone else will see it."
         }
       ],
-      "hint": "Click a line of the case exhibit to read it."
+      "hint": "Use the scenario above for items C403-1 to C403-7."
     },
     {
       "id": "c403-3",

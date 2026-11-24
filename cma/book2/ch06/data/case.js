@@ -8,9 +8,18 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Tahini & Spreads in April",
-  "terms": L.KEYS,
+  "terms": T.keys(),
   "brief": {
     "anim": "jobCard"
+  },
+  "scenario": {
+    "title": "Case question: Tahini & Spreads in April",
+    "p": [
+      "Tahini & Spreads works job by job. At the start of April 2027, job T-0304 was still in process, and job T-0303 was finished and waiting in finished goods for delivery to Barada. During April the division bought materials, paid its workers, ran its machines and started new jobs.",
+      "Every cost is recorded on a job cost sheet. Direct materials and direct labor are charged to the jobs directly. Overhead is applied to each job with the predetermined rate per machine hour, and actual overhead is collected in a separate account. In April the division completed job T-0304 and delivered job T-0303 to Barada.",
+      "The division controller must close April's books. She needs the cost of the completed job, the balance of work in process at the end of the month, cost of goods manufactured and cost of goods sold. She must also decide what to do with the difference between actual and applied overhead at the end of April.",
+      "The auditors will visit in May, so every balance must agree with the job cost sheets. The controller also wants to show the division manager how the April entries move costs from one inventory account to the next, from raw materials to work in process, then to finished goods and finally to cost of goods sold."
+    ]
   },
   "scenes": [
     {
@@ -58,7 +67,11 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "from": [
+        "F206-13",
+        "Practice/t:tahini-spreads-a"
+      ]
     },
     {
       "id": "c206-1",
@@ -108,7 +121,11 @@
           "why": "April item: Finished Goods Inventory."
         }
       ],
-      "partition": true
+      "partition": true,
+      "from": [
+        "Practice/t:april-item-categ",
+        "Answers and explanations/t:april-item-categ"
+      ]
     },
     {
       "id": "c206-2",

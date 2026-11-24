@@ -9,7 +9,7 @@
   "up": "../",
   "title": "What the board is responsible for",
   "n": "2.2",
-  "terms": L.BRIDGE,
+  "terms": T.bridge("2.2"),
   "brief": {
     "about": "Directors owe the company a duty of care: they must inform themselves before deciding. They also owe a duty of loyalty: the company's interest comes before their own. Figure F402-03 sets out what those duties require in practice. The distinction the exam tests most often is between oversight and management. A board challenges and approves a strategy; it does not write it.",
     "anim": "boardLine",
@@ -26,47 +26,53 @@
   "scenes": [
     {
       "id": "fig-f402-03",
-      "kind": "lines",
+      "kind": "match",
       "kicker": "Figure F402-03",
       "title": "What the board is responsible for",
-      "say": "What the board is responsible for",
-      "caption": "Board responsibility (E.1.d)",
-      "col1": "What it means",
-      "col2": "At Orontes",
+      "say": "Choose the one that belongs to each row. Each is used once.",
+      "label": "Board responsibility (E.1.d)",
+      "col": "What it means",
       "rows": [
         {
-          "name": "Set the tone",
-          "a": "Integrity and ethical values start at the board",
-          "b": "Approves the code of conduct and acts on breaches"
+          "label": "Set the tone",
+          "right": "Integrity and ethical values start at the board",
+          "why": "What it means: Integrity and ethical values start at the board. Approves the code of conduct and acts on breaches."
         },
         {
-          "name": "Oversee strategy",
-          "a": "Challenge and approve the plan, not write it",
-          "b": "Approved the Gulf expansion of Book 3"
+          "label": "Oversee strategy",
+          "right": "Challenge and approve the plan, not write it",
+          "why": "What it means: Challenge and approve the plan, not write it. Approved the Gulf expansion of Book 3."
         },
         {
-          "name": "Oversee risk and control",
-          "a": "Satisfy itself that controls exist and work",
-          "b": "Receives the control testing of Chapter 5"
+          "label": "Oversee risk and control",
+          "right": "Satisfy itself that controls exist and work",
+          "why": "What it means: Satisfy itself that controls exist and work. Receives the control testing of Chapter 5."
         },
         {
-          "name": "Appoint and assess the CEO",
-          "a": "Hire, pay, evaluate and if necessary replace",
-          "b": "Sets the incentives that shape behaviour"
+          "label": "Appoint and assess the CEO",
+          "right": "Hire, pay, evaluate and if necessary replace",
+          "why": "What it means: Hire, pay, evaluate and if necessary replace. Sets the incentives that shape behaviour."
         },
         {
-          "name": "Oversee reporting",
-          "a": "Through the audit committee, oversee the accounts and the auditor",
-          "b": "Approves the annual report"
+          "label": "Oversee reporting",
+          "right": "Through the audit committee, oversee the accounts and the auditor",
+          "why": "What it means: Through the audit committee, oversee the accounts and the auditor. Approves the annual report."
         },
         {
-          "name": "Act for shareholders",
-          "a": "Duties of care and loyalty; no self-dealing",
-          "b": "Declines a contract with a director's own company"
+          "label": "Act for shareholders",
+          "right": "Duties of care and loyalty; no self-dealing",
+          "why": "What it means: Duties of care and loyalty; no self-dealing. Declines a contract with a director's own company."
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "caption": "What the board is responsible for",
+      "traps": [
+        "oversight-is-not-management"
+      ],
+      "from": [
+        "F402-03",
+        "2.2/t:board-responsibi",
+        "2.2/exam-trap"
+      ]
     },
     {
       "id": "sc402-3",
@@ -92,8 +98,8 @@
           "why": "Scheduling is operational."
         }
       ],
-      "traps": [
-        "oversight-is-not-management"
+      "from": [
+        "2.2/section-check"
       ]
     },
     {
@@ -120,7 +126,10 @@
           "why": "A quorum is the number needed to meet."
         }
       ],
-      "say": "A director who declines to approve a contract with a company he part-owns is observing the:"
+      "say": "A director who declines to approve a contract with a company he part-owns is observing the:",
+      "from": [
+        "2.2/section-check"
+      ]
     }
   ]
 };
