@@ -50,19 +50,19 @@ because this book is used in many countries and the unit is whatever currency yo
 | Unit | Title | What it is about | Grammar | Page |
 |---|---|---|---|---|
 | | **Starting Point** | Sixty minutes, three passages, no extra time | | 5 |
-| 1 | **Ninety Seconds a Question** | The shape of the paper | Noun phrases; the words that carry a question | 8 |
-| 2 | **What a Reading Test Measures** | And what it cannot | Question stems and what each demands | 29 |
-| 3 | **Where the Eye Actually Goes** | Fixations, jumps and the small span | Finding the main clause | 49 |
-| 4 | **One Unknown Word in Fifty** | Unknown-word density and comprehension | Word class from position | 69 |
-| 5 | **Five Hundred and Seventy Families** | The academic word list | Word families; nominalization | 90 |
-| 6 | **This, Such, The Latter** | Cohesion, and what carries you across a text | Reference words | 110 |
-| 7 | **Looking for the Wrong Card** | True, false and not given | Negation and scope | 131 |
-| 8 | **What a Paragraph Is About** | Gist, macro-rules and headings | Topic sentences; summarizing | 152 |
-| 9 | **Words a Minute** | Reading rate and automaticity | Participle clauses | 174 |
-| 10 | **How Sure the Writer Is** | Hedges, boosters and stance | Modals of likelihood | 195 |
-| 11 | **A Formula That Counts Syllables** | Readability, and what it ignores | Sentence length and subordination | 218 |
-| 12 | **Six Qualities, No Formula** | Review; what makes a test useful | Paraphrase; review | 240 |
-| | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 262 |
+| 1 | **Ninety Seconds a Question** | The shape of the paper | Noun phrases; the words that carry a question | 9 |
+| 2 | **What a Reading Test Measures** | And what it cannot | Question stems and what each demands | 28 |
+| 3 | **Where the Eye Actually Goes** | Fixations, jumps and the small span | Finding the main clause | 47 |
+| 4 | **One Unknown Word in Fifty** | Unknown-word density and comprehension | Word class from position | 66 |
+| 5 | **Five Hundred and Seventy Families** | The academic word list | Word families; nominalization | 85 |
+| 6 | **This, Such, The Latter** | Cohesion, and what carries you across a text | Reference words | 104 |
+| 7 | **Looking for the Wrong Card** | True, false and not given | Negation and scope | 123 |
+| 8 | **What a Paragraph Is About** | Gist, macro-rules and headings | Topic sentences; summarizing | 142 |
+| 9 | **Words a Minute** | Reading rate and automaticity | Participle clauses | 161 |
+| 10 | **How Sure the Writer Is** | Hedges, boosters and stance | Modals of likelihood | 180 |
+| 11 | **A Formula That Counts Syllables** | Readability, and what it ignores | Sentence length and subordination | 199 |
+| 12 | **Six Qualities, No Formula** | Review; what makes a test useful | Paraphrase; review | 218 |
+| | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 238 |
 
 ## The people
 

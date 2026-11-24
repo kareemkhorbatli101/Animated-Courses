@@ -221,3 +221,78 @@ delay figures in Unit 6, the four versions in Unit 7, the segmentation figures i
 matrix in Unit 9, the term-long split in Unit 10 and the six scores in Unit 11. Each says on its own
 face that it is the invented class's own count, with eleven students, and several of the units stop
 to say why eleven students cannot establish anything.
+
+---
+
+# Book 3 · Plumbline 2 — *Finding, Not Reading*
+
+Target band 5.5 · CEFR B2 · figure prefix `qc` · audio prefix `PL3` · 196 figures · 195 tracks
+
+One paper: Academic Reading. Three passages, forty questions, sixty minutes, and no extra time at the
+end. The book is built on the arithmetic that follows from those four numbers, and on eleven pieces of
+published research about what reading is and what a reading test can measure.
+
+| Unit | Title | Source, as cited in the text | What the text prints as the document's own limit |
+|---|---|---|---|
+| **1** | Ninety Seconds a Question | The published **description of the Academic Reading test**, read 2 May | It describes a design and not your paper: not the topics, not how many questions of each type, not their order, not which passage carries the detailed argument; and it is silent on how to divide the hour, because a method is somebody else's job |
+| **2** | What a Reading Test Measures | **J. Charles Alderson**, *Assessing Reading*, Cambridge University Press, **2000** | A **review of a field** rather than a study, written for test developers, reaching few firm conclusions **on purpose**; it reports that some items are answerable without the text, that background knowledge affects performance, that the question type changes the score, and that named reading skills are hard to separate in candidate data; it is of its period; and it does **not** hold that reading tests are invalid — a measure can be imperfect, well made and the best available at once |
+| **3** | Where the Eye Actually Goes | **Keith Rayner**, *Eye movements in reading and information processing: 20 years of research*, **Psychological Bulletin, 1998** | A review of **laboratory eye-tracking**, mostly with skilled **first-language** readers under controlled conditions; it is about the mechanics of the eye, not comprehension; it says nothing about second-language reading; and it contains **no training** — what it gives is a floor that honest advice about reading faster has to respect |
+| **4** | One Unknown Word in Fifty | **M. Hsueh-Chao Hu and I. S. P. Nation**, *Unknown vocabulary density and reading comprehension*, **Reading in a Foreign Language, 2000** | **One study, one fiction text**, one group of learners, two comprehension measures; the unknown words were **invented**, a clean method with a known cost; the thresholds are **proportions of readers, not switches**; the 98 per cent figure is offered as **probable**; and it says nothing about academic prose or about examinations |
+| **5** | Five Hundred and Seventy Families | **Averil Coxhead**, *A New Academic Word List*, **TESOL Quarterly, 2000** | It **deliberately excludes the most frequent 2,000 words**, so on its own it is one word in ten of a page the reader cannot read; built on a corpus of one period; **coverage varies by discipline**; counting families assumes derivational competence; it is a list and not a syllabus, ordered by frequency rather than usefulness; and later work has proposed alternatives |
+| **6** | This, Such, The Latter | **M. A. K. Halliday and R. Hasan**, *Cohesion in English*, Longman, **1976** | A **description of a language** written for linguists, not a reading method; **cohesion is not coherence**, and a student taught that linkers make writing coherent has been taught something the source does not say; the categories overlap and coding is interpretive; and it is of its period and has been extended since, including by one of its own authors |
+| **7** | Looking for the Wrong Card | **P. C. Wason**, *Reasoning about a rule*, **Quarterly Journal of Experimental Psychology, 1968** | An **abstract** laboratory task with a small group; **performance changes dramatically with everyday content**, so it does not show that people cannot reason; the interpretation has been argued about for fifty years; and it has nothing to do with reading tests — **the connection drawn in the unit is the book's own teaching analogy, stated as such** |
+| **8** | What a Paragraph Is About | **W. Kintsch and T. A. van Dijk**, *Toward a model of text comprehension and production*, **Psychological Review, 1978** | A **formal model** with evidence from recall and summarization; **both authors rebuilt it**, in a book-length reworking in 1983 and in the first author's different architecture in 1988, so the 1978 paper is a stage rather than a position; the macro-rules are a modeling claim, not a demonstrated procedure; and the one-line-first technique comes from the arithmetic, not from the model |
+| **9** | Words a Minute | **William Grabe**, *Reading in a Second Language: Moving from Theory to Practice*, Cambridge University Press, **2009** | A **synthesis** in which the author separates research findings from his own implications for teaching; the rate figures are **approximate** and a group figure says nothing about an individual; the evidence on extensive reading is **uneven in quality**, as the author notes; and it offers no technique that works in a fortnight and says so |
+| **10** | How Sure the Writer Is | **Ken Hyland**, *Metadiscourse: Exploring Interaction in Writing*, Continuum, **2005** | A framework built from corpora of academic writing whose categories are **functional**, so the same word does different work in different places and **any count of hedges is a count of somebody's readings**; conventions vary by discipline and by writing culture; and it is about writing, not a method for answering questions |
+| **11** | A Formula That Counts Syllables | **Rudolf Flesch**, *A new readability yardstick*, **Journal of Applied Psychology, 1948** | It counts **two surface features** and is blind to word frequency, cohesion, argument and the reader's topic familiarity; **chopping sentences in half raises the score and lowers the clarity**; validated on general prose of its period, not academic text and not second-language readers. **The unit also states that this series scores its own reading texts with such a formula, and calls it a floor rather than a judge** |
+| **12** | Six Qualities, No Formula | **L. F. Bachman and A. S. Palmer**, *Language Testing in Practice*, Oxford University Press, **1996**, with a review of the eleven above | The six qualities **cannot be evaluated separately** and **trade off**, and the authors give **no formula** for weighting them: usefulness must be argued for a particular test, used with particular people, for a particular purpose; it is for test developers rather than candidates; and it is of its period, before the field's move towards treating validity as an argument to be built and evaluated |
+
+## Twelve admissions, one per unit
+
+- **Unit 1.** Ninety per cent accuracy and twenty-six marks, because eleven questions were never
+  answered. The hour pays for marks on a sheet, not for care.
+- **Unit 2.** Two of four questions answered with the passage covered. A right answer does not prove
+  that anybody understood anything.
+- **Unit 3.** The clear part of a reader's vision is about fifteen letters wide, and speed-reading
+  courses have been selling the opposite for fifty years.
+- **Unit 4.** Six unknown words in a hundred is below the density at which most readers in one study
+  could retell a text — and four minutes went on a word no question asked about.
+- **Unit 5.** Two hundred and twenty academic word families bought three marks, and the sentences
+  that still stopped the student contained no academic words at all.
+- **Unit 6.** Nineteen marks across one class, traced to five words everybody learned in their first
+  year. Seven of them to one *this*.
+- **Unit 7.** Thirty-one *falses* written where there were nineteen, and in every wrong one there was
+  no sentence to point at.
+- **Unit 8.** Reading eight headings against six paragraphs is forty-eight comparisons. Writing one
+  line first is eight.
+- **Unit 9.** One hundred and forty words a minute means twenty minutes of a sixty-minute paper spent
+  reading, so the eleven blanks were arithmetic rather than carelessness.
+- **Unit 10.** Fourteen marks from five words known since school, four of them hedges.
+- **Unit 11.** The same paragraph scored 18, 44 and 66 with an identical syllable count. The entire
+  difference was punctuation.
+- **Unit 12.** Accuracy fell from ninety per cent to eighty-four and the score rose from twenty-six
+  to thirty-three. Something real was traded for something that counts.
+
+## Figures, passages and invented figures
+
+196 figures, prefix `qc`, generated from `plumbline/_build/spec_qc1.py` to `spec_qc4.py`. No figure in
+this book appears in any other book of this series or in any of its five sister series.
+
+**Every passage, question, heading, option, statement and answer sheet in the book was written for
+it.** No question, passage, heading or prompt from any past examination is reproduced anywhere. The
+invented-word passages in Unit 4, the shaded paragraph in Unit 5, the arrow-mapped paragraph in Unit
+6, the eight statements in Unit 7, the matching-headings task in Unit 8 and the three-version
+paragraph in Unit 11 are all the book's own.
+
+**Every figure attributed to "our own class" is invented** — the timing figures in Unit 1, the
+covered-passage count in Unit 2, the hesitation counts in Unit 3, the density results in Unit 4, the
+shading counts in Unit 5, the reference-word tally in Unit 6, the verdict counts in Unit 7, the
+heading-task times in Unit 8, the reading record in Unit 9, the hedge tally in Unit 10, the three
+readability scores in Unit 11 and the change survey in Unit 12. Each says on its face that it is an
+invented class's own count, with eleven students, and several units stop to say why eleven students
+cannot establish anything.
+
+**The three readability scores in Unit 11 are the one case where a real instrument was applied to an
+invented object.** The formula is published and real; the paragraph is the book's own; and the unit
+exists in order to say that the same instrument approves the reading texts of this series, that it is
+blind to everything that makes them readable, and that it is kept as a floor rather than a judge.
