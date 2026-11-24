@@ -91,6 +91,13 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "diplomacy/level5": ["spec_k1", "spec_k2", "spec_k3", "spec_k4"],
                 "diplomacy/level6": ["spec_l1", "spec_l2", "spec_l3", "spec_l4"],
                 # Keystone (architect series) — specs in architect/_build.
+                # Plumbline (Academic English for IELTS) — specs in plumbline/_build.
+                "plumbline/level1": ["spec_qa1", "spec_qa2", "spec_qa3", "spec_qa4"],
+                "plumbline/level2": ["spec_qb1", "spec_qb2", "spec_qb3", "spec_qb4"],
+                "plumbline/level3": ["spec_qc1", "spec_qc2", "spec_qc3", "spec_qc4"],
+                "plumbline/level4": ["spec_qd1", "spec_qd2", "spec_qd3", "spec_qd4"],
+                "plumbline/level5": ["spec_qe1", "spec_qe2", "spec_qe3", "spec_qe4"],
+                "plumbline/level6": ["spec_qf1", "spec_qf2", "spec_qf3", "spec_qf4"],
                 "architect/level1": ["spec_a1", "spec_a2", "spec_a3", "spec_a4"],
                 "architect/level2": ["spec_b1", "spec_b2", "spec_b3", "spec_b4"],
                 "architect/level3": ["spec_c1", "spec_c2", "spec_c3", "spec_c4"],
@@ -112,7 +119,7 @@ def load_specs(book):
     mods = SPEC_MODULES.get(book)
     if not mods: return {}
     sys.path.insert(0, os.path.join(HERE, "..", "_build"))
-    for _series in ("business", "diplomacy", "architect", "pm"):
+    for _series in ("business", "diplomacy", "architect", "pm", "plumbline"):
         if book.startswith(_series + "/"):
             sys.path.insert(0, os.path.join(HERE, "..", "..", _series, "_build"))
     out = {}
@@ -182,7 +189,12 @@ READ_TARGET = {"starter": (0.0,3.5), "level1": (2.5,4.5), "level2": (3.0,5.0),
                # Throughline: adult project-management readers, A2 to C1
                "pm/level1": (3.5,6.5), "pm/level2": (4.5,7.5),
                "pm/level3": (5.5,8.5), "pm/level4": (6.5,9.5),
-               "pm/level5": (7.5,10.5), "pm/level6": (8.5,11.5)}
+               "pm/level5": (7.5,10.5), "pm/level6": (8.5,11.5),
+               # Plumbline: Academic IELTS candidates. The series starts at B1,
+               # not A2, so the floor of the band is higher than the others'.
+               "plumbline/level1": (5.0,8.0), "plumbline/level2": (5.5,8.5),
+               "plumbline/level3": (6.0,9.5), "plumbline/level4": (6.5,10.0),
+               "plumbline/level5": (7.0,10.5), "plumbline/level6": (8.0,11.5)}
 
 def strip_markup(s):
     s = re.sub(r"%%FIG[^%]*%%", " ", s)
