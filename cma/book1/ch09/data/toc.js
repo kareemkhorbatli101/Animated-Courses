@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "9.2",
   "title": "Measuring debt securities",
-  "blurb": "Figures, shares, a printed statement, questions · 6 scenes"
+  "blurb": "Figures, shares, schedule, questions · 6 scenes"
  },
  {
   "id": "s9-3",

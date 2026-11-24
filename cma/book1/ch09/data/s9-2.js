@@ -251,32 +251,63 @@
       ]
     },
     {
-      "id": "t9-2-0",
-      "kind": "lines",
+      "id": "fill-t9-2-0",
+      "kind": "schedule",
       "kicker": "Section 9.2",
       "title": "Year",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Year",
-      "col1": "Cash interest",
-      "col2": "Interest revenue",
-      "rows": [
+      "cols": [
         {
-          "name": "2025",
-          "a": "6,000",
-          "b": "5,136"
+          "id": "c1",
+          "label": "Cash interest",
+          "given": true
         },
         {
-          "name": "2026",
-          "a": "6,000",
-          "b": "5,093"
+          "id": "c2",
+          "label": "Interest revenue",
+          "given": true
         },
         {
-          "name": "2027",
-          "a": "6,000",
-          "b": "5,048"
+          "id": "c3",
+          "label": "Premium amortized",
+          "given": true
+        },
+        {
+          "id": "c4",
+          "label": "Amortized cost, end",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer.",
+      "rows": [
+        {
+          "label": "2025",
+          "cells": {
+            "c1": "6,000",
+            "c2": "5,136",
+            "c3": "864",
+            "c4": "101,859"
+          }
+        },
+        {
+          "label": "2026",
+          "cells": {
+            "c1": "6,000",
+            "c2": "5,093",
+            "c3": "907",
+            "c4": "100,952"
+          }
+        },
+        {
+          "label": "2027",
+          "cells": {
+            "c1": "6,000",
+            "c2": "5,048",
+            "c3": "952",
+            "c4": "100,000"
+          }
+        }
+      ],
       "from": [
         "9.2/t:year-cash-intere"
       ]
