@@ -165,3 +165,65 @@ reading text ends with the line the publisher wrote about its own limits.
 
 **Book 2 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS2-…`;
 **278 pages**; `Keystone-1-Book2.docx`.
+
+---
+
+# Keystone 2 (Book 3) · B1
+
+Twelve units, twelve source bodies — and this is the book where the balance shifts: **six standards
+and six papers or published research programs**. The sources are **the words and the numbers people
+use to argue about whether a system is any good**, and half of them are not standards at all: a
+queueing identity from 1961, a conference paper from 1967 and its answer from 1988, a theorem from
+2002 and a trade-off added in 2012, a survey-based research program, and a method published as a
+technical report in 2000.
+
+Every number in this book has a denominator, and most of the arguments are about it: three nines of
+what, over what period, measured where; a defect count per what; a severity score assuming which
+exposure; a survey's top quartile defined by whose distribution, in which year.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 | **ISO/IEC 25010:2023**, *SQuaRE — Product quality model*, **second edition**, November 2023 | **Nine characteristics** and their sub-characteristics; the renaming of **usability** as **interaction capability** and of **portability** as **flexibility**; the addition of **safety**; and the positions of **availability** (under reliability) and **scalability** (under flexibility). *Not covered: measures, targets, thresholds, priorities — and quality in use, which is a separate model.* |
+| 2 | **ITU-T Recommendation E.800**, *Definitions of terms related to quality of service*, **September 2008** version | The definitions of **availability** (at a given instant, or within a given time interval) and **reliability** (for a given time interval, under given conditions), and the clause that availability **assumes external resources are provided**. With the arithmetic: three nines is about **8¾ hours a year**, **43 minutes a month**, **10 minutes a week**. *Not covered: any target, any measuring point, and what counts as an outage for your service.* |
+| 3 | **John D. C. Little**, *A Proof for the Queuing Formula: L = λW*, **Operations Research**, **1961** | The identity relating the long-run average **number in a stationary system**, the **arrival rate** and the **time in system**, with **no assumption** about arrival or service distributions or service discipline. Worked both ways: 30 ÷ 200 is a **latency measured without timing anything**. *Not covered: percentiles, variance, why W is what it is — and it does not apply at all past capacity, where no steady state exists.* |
+| 4 | **Gene M. Amdahl**, AFIPS conference proceedings, **1967**; **John L. Gustafson**, *Reevaluating Amdahl's Law*, **Communications of the ACM**, **1988** | The **ceiling** imposed by the sequential fraction of a **fixed-size** problem: one twentieth sequential gives **twenty times**, and sixteen workers give **about nine**. And the later observation that in practice the **problem grows with the machine**, giving near-linear **scaled speed-up**. *Not covered by either: coordination overhead, cost, and where the sequential part is.* |
+| 5 | The **2000** conjecture; **Gilbert and Lynch**, *Brewer's conjecture…*, **ACM SIGACT News**, **2002**; **Abadi**, *Consistency Tradeoffs…*, **IEEE Computer**, **2012** | The formal definitions — **linearizable** consistency, **availability as a response to every request at a non-failing node**, **partition tolerance** as the loss of arbitrarily many messages — and the impossibility result. **A partition is an event, not a choice.** Plus the **latency-against-consistency** trade-off that applies on every normal request. *Not covered: which choice is right, any quantity, and conflict resolution.* |
+| 6 | **Forsgren, Humble and Kim**, *Accelerate*, **2018**, and the annual **State of DevOps** reports from **2014** onwards | The **four delivery measures** — deployment frequency, lead time, change failure rate, time to restore — and the finding that **speed and stability are not opposed**; with performance groups derived by **cluster analysis of each year's survey responses**. *Not covered: causation. The data is **self-reported**, the respondents **self-selected**, the band boundaries **move between years**, and the measures describe a delivery system rather than any individual.* |
+| 7 | **ISO/IEC 5055:2021**, *Automated source code quality measures* | Four measures — **reliability, security, performance efficiency, maintainability** — each a **count of occurrences** of a specified list of **weaknesses** drawn from a public enumeration, computed **automatically** from source code, and including weaknesses that **span several components**. *Not covered: functional correctness, design quality, anything not in source form, and the severity of any weakness in your deployment.* |
+| 8 | **CVSS version 4.0**, published **November 2023**, succeeding version 3.1 of 2019 | The **base, threat, environmental and supplemental** metric groups; the 0.0–10.0 scale and the five bands; the statement that the **base score represents severity** and is to be supplemented; and the supplemental group's **informational status**, which **changes no number**. *Not covered: exposure, reachability, asset value, remediation capacity — and the score is **not a probability**.* |
+| 9 | **ISO/IEC 27001:2022**, published **October 2022**, replacing the 2013 edition | **93 controls in four themes** — 37 organizational, 8 people, 14 physical, 34 technological — against **114 in fourteen clauses** before; and the requirement to produce a **statement of applicability** justifying **every inclusion and exclusion**, Annex A being a **reference set**. *Not covered: any product. Certification covers a **management system within a scope the organization defines**, permits justified exclusions, and guarantees no outcome.* |
+| 10 | **WCAG 2.2**, **W3C Recommendation**, **5 October 2023** | Four principles — **perceivable, operable, understandable, robust** — thirteen guidelines, and success criteria at levels **A, AA, AAA**; **nine new criteria** in 2.2 and one removed; and the requirement that conformance be claimed for a **full page** and for **every page in a process**. *Not covered: every user need — the guidelines say so — and level AAA is **not recommended** as a general policy for entire sites.* |
+| 11 | **ISO/IEC 25012:2008**, *SQuaRE — Data quality model* | **Fifteen characteristics** grouped as **inherent** (accuracy, completeness, consistency, credibility, currentness), **system-dependent** (availability, portability, recoverability) or **both**; and the distinction that decides **who can fix a problem**. *Not covered: thresholds, measures (a separate standard), priorities, and any improvement method.* |
+| 12 | **Bass, Clements and Kazman**, *Software Architecture in Practice*; the **ATAM** technical report, **Software Engineering Institute**, **2000** | The **six-part scenario** — source, stimulus, environment, artifact, response, response measure — and an evaluation whose outputs are **risks, non-risks, sensitivity points and tradeoff points**, with scenarios ranked by **stakeholders** in a utility tree. *Not covered: a score, a pass or fail, and any prioritization on the architect's behalf.* |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1.** Nine words instead of one make the argument possible; printing *owner unknown* beside a
+  target is what makes it happen. One figure had kept an engineer on call for four years for a
+  contract that no longer existed.
+- **Unit 2.** The average was honest and told one customer nothing about their own year. An annual
+  commitment permits nearly nine hours in one go, and almost nobody in the building knew that.
+- **Unit 3.** Nobody was short of data; they were short of one multiplication and the confidence to
+  do it in a meeting.
+- **Unit 4.** A month was spent optimizing for *sooner* when the business needed *more*. The
+  arithmetic was never the hard part; the question was.
+- **Unit 5.** Both settings were right and unchosen, which is not the same as right. Nine minutes of
+  partition got a review; eleven million reads a day got none.
+- **Unit 6.** One number out of a set of four was requested, and exactly that was delivered. The
+  failure rate was the line nobody asked for and the only one worth a meeting.
+- **Unit 7.** Every published figure was correct and every sentence built on it was too broad. The
+  scope was in the standard and not in the report, which is where it was needed.
+- **Unit 8.** Sorting by score needs no evidence and no courage, and it put a nine in dead code ahead
+  of a six on the front door.
+- **Unit 9.** A yes-or-no question was asked and a yes was filed. The document answered a more useful
+  question, in a line nobody read.
+- **Unit 10.** The audit found it and the summary lost it, which is what summaries do to exceptions.
+  Forty minutes of somebody completing the task with a keyboard would have found it before a customer
+  did.
+- **Unit 11.** Fifteen names fixed nothing by themselves. They separated four problems that had been
+  one word, and three of them turned out to be small.
+- **Unit 12.** The conflict was two years old and invisible because two requirements were never on one
+  page. The method produced the argument; two people in a room produced the answer.
+
+**Book 3 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS3-…`;
+**277 pages**; `Keystone-2-Book3.docx`.
