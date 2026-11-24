@@ -294,3 +294,76 @@ series or in its three sister series, and no figure is used twice. The series no
   owner, and its absence looked like four teams being slow — which is what it was read as for a year.
 
 **Book 4 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS4-…`; **283 pages**; `Keystone-3-Book4.docx`.
+
+
+# Keystone 4 (Book 5) · B2
+
+Twelve units, twelve source bodies, and the organizing idea is no longer the subject matter but the
+**kind of authority** each document carries. Two voluntary documents that can require nothing. Two
+legal instruments, one of which applies in stages on four separate dates. Five standards-body
+documents of three different statuses — a certifiable management system standard, guidance that says
+*should*, a technical report that is informative, and a technical specification that is not a full
+standard. And three research proposals with no standing at all, two of which are used everywhere.
+
+An architect who treats those four kinds as interchangeable promises the wrong things to the wrong
+people. Every unit in this book begins by finding the sentence in which a document describes its own
+status, and every unit ends with a page somebody else will be asked to defend in public.
+
+Twelve source bodies carry the twelve reading texts, one per unit, and the Starting Point carries
+none. They divide into **four kinds of authority**, which is the organizing idea of the book: **two
+voluntary frameworks or profiles**, **two legal instruments**, **five International Standards or
+standards-body documents of three different statuses**, and **three research proposals or papers**.
+Each reading text names the document, its number or author, its date, and the limits its own authors
+state. No source appears in any other book of this series or in its three sister series, and no
+figure is used twice. The series note is in `SOURCES.md`.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 | **AI Risk Management Framework 1.0**, National Institute of Standards and Technology, released **January 2023**, with a companion **playbook** | Four core functions — **govern, map, measure, manage** — and the characteristics associated with trustworthiness, including **valid and reliable, safe, secure and resilient, accountable and transparent, explainable, privacy-enhanced, and fair with harmful bias managed**. *Not covered: it is **voluntary**, **non-sector-specific** and **use-case agnostic**; its authors state it is **not a checklist and not a compliance mechanism**; it creates **no obligation**, and it states that the characteristics involve **trade-offs** rather than being independently maximizable. The phrase "we comply with it" has no application.* |
+| 2 | **Regulation (EU) 2024/1689** on artificial intelligence, published in the Official Journal **July 2024**, in force **1 August 2024** | The distinction between **entry into force** and **application**, and the four dates in the text: **2 February 2025** (general provisions and prohibited practices); **2 August 2025** (general-purpose AI models, governance, notifying authorities, most penalties); **2 August 2026** (the general body); **2 August 2027** (high-risk systems that are safety components of products covered by listed Union legislation). Plus the **provider / deployer** distinction. *Not covered: it does not classify any particular system — that follows from its annexes and other product legislation applied to your facts; it provides no technical specification, and **supporting harmonized standards were still being developed**. **Nothing in the unit is legal advice** and the position may change.* |
+| 3 | **ISO/IEC 42001:2023**, *Artificial intelligence — Management system* | A **certifiable** management system standard, with the familiar clause structure: **context, leadership, planning, support, operation, performance evaluation, improvement**; annex **controls** whose applicability the organization determines. *Not covered: a certificate states that an accredited body examined the **management system** within a **scope the organization declared**. **No model is assessed, measured or certified**, and the certificate makes no statement about any model's accuracy, fairness or safety. Two organizations with very different models can hold it equally validly.* |
+| 4 | **ISO/IEC 23894:2023**, *Artificial intelligence — Guidance on risk management* | The structure borrowed from general risk management — **principles, framework, process** — with the six-stage process from **establishing the context** through **identification, analysis, evaluation** and **treatment** to **monitoring and review**; and annexes of **objectives** and **AI-specific risk sources**. *Not covered: it is **guidance**. It uses **should**, **can** and **may**, not **shall**; **no certification exists against it**; it does not determine what level of risk is acceptable — the standard is explicit that this is the organization's own decision.* |
+| 5 | **Model Cards for Model Reporting**, **Mitchell and colleagues**, ACM conference on fairness, accountability and transparency, **2019** | Nine proposed sections — model details, **intended use**, **out-of-scope use**, factors, metrics with **decision thresholds**, evaluation data, training data, **disaggregated** quantitative analyses, and ethical considerations and caveats. *Not covered: it is **a research proposal**. There is **no standard, no required format and no verification mechanism**; nobody checks a model card; and the **disaggregated reporting it recommends depends on group labels** that may be unavailable or unlawful to collect — a limitation the authors acknowledge and do not solve.* |
+| 6 | **Datasheets for Datasets**, **Gebru and colleagues**, first circulated **2018**, published in **Communications of the ACM, 2021** | Seven groups of **questions**: motivation, composition, collection process, preprocessing and labeling, uses, distribution, maintenance — including **who funded it**, **how the data was acquired**, and **what it should not be used for**. *Not covered: a research proposal, not a standard; no required format and no verification. The authors note the questions should be **adapted**, and it **cannot recover information that was never recorded** — which is most of what an existing dataset needs from it.* |
+| 7 | **ISO/IEC 22989:2022**, *Artificial intelligence — Concepts and terminology* | Definitions of the terms the field argues with — **AI system**, **model**, **autonomy**, **transparency**, **explainability**, **bias** as a systematic difference — and the stages of an **AI system life cycle**. *Not covered: it contains **no requirements** and nothing to conform to; it **prescribes no measurements**; and its definitions are **stipulative** — they hold for the purposes of documents that adopt them and **govern nobody's ordinary usage**, including a customer's.* |
+| 8 | **ISO/IEC TR 24028:2020**, *Artificial intelligence — Overview of trustworthiness in artificial intelligence* | Approaches to establishing trust, including transparency, explainability and **controllability**; engineering **pitfalls**; and **threats** with their mitigations — adversarial inputs, **data poisoning**, **model stealing**, information leakage. *Not covered: **TR** means **technical report** — **informative**, with **no requirements and nothing to certify against**. It **does not rank the mitigations**, does not establish that any of them works, and is a **2020 snapshot** of a field that moves quickly.* |
+| 9 | **Article 22 of Regulation (EU) 2016/679**, the general data protection regulation, applicable since **2018** | The right **not to be subject to a decision based solely on automated processing**, including profiling, **producing legal effects or similarly significantly affecting** the person; the three exceptions — **contractual necessity**, **authorization by law with safeguards**, **explicit consent**; and, for the first and third, **suitable measures including at least** the right to **human intervention**, to **express a point of view**, and to **contest the decision**. *Not covered: whether any given processing is **solely** automated, or whether an effect is **similarly significant**, is a legal determination on the facts. **Nothing in the unit is legal advice**, and a reply is not an intervention.* |
+| 10 | **ISO/IEC 25059:2023**, *SQuaRE — Quality model for AI systems* | An **extension** of the SQuaRE product quality model with AI-specific characteristics: **functional adaptability**, **robustness**, **user controllability**, **intervenability** and **transparency**. *Not covered: like the model it extends, it supplies **vocabulary only** — **no measures, no targets, no thresholds**, and **no guidance on which characteristics should be prioritized** for any system. The priority order is a judgment the organization makes and should record.* |
+| 11 | **ISO/IEC TS 4213:2022**, *Artificial intelligence — Assessment of machine learning classification performance* | What must travel with a figure: the **dataset** and its **period**, the **split**, the **threshold**, the **metric** and the fact that it was chosen, the **breakdown**, and the **baseline**. With the worked case: **98.1 per cent accuracy against a majority-class baseline of 98.5 per cent**, and the honest sentence — **recall 41 per cent at a threshold of 0.5 on 4,200 held-out cases**. *Not covered: a **technical specification**, not a full International Standard, and subject to review. It does **not choose the metric**, sets **no acceptable level**, and addresses **classification only** — not regression, ranking or generation.* |
+| 12 | **NIST AI 600-1**, *Generative Artificial Intelligence Profile*, released **July 2024** as a companion to the framework in Unit 1 | Twelve risks **novel to or exacerbated by** generative systems, including **confabulation**, **information integrity**, **data privacy**, **environmental impacts**, **harmful bias and homogenization**, **human-AI configuration**, **intellectual property**, and **value chain and component integration**, with **suggested actions** aligned to the framework's functions. *Not covered: **voluntary**; its actions are **suggested, not required**; it states that its list is **not exhaustive**; and it **does not prioritize** any risk for any organization.* |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1.** Two customer answers said *yes* to a question that cannot be answered, and one of those
+  customers now has a slide claiming its suppliers are framework-compliant. The sentence on the slide
+  came from an email written in under a minute.
+- **Unit 2.** One sentence — *in force, so we are non-compliant* — produced four months of
+  remediation for obligations eighteen months away, while the one-week classification task that
+  decides which obligations ever apply stayed undone.
+- **Unit 3.** Two requirements had sat approved in a handbook for a year. Nobody refused them; a
+  passive sentence can be approved by a room in which nobody thinks it is about them.
+- **Unit 4.** Four rules said *shall*; one was checked. Rewriting three of them as recommendations
+  with a route for reporting a departure produced four departures in a month, where the previous
+  wording had produced none.
+- **Unit 5.** A model evaluated on one region and one freight type was used in weekly staffing
+  decisions for four months, by a team that had read the first two sections of a page that said only
+  what the model does.
+- **Unit 6.** Three weeks and four interviews on one dataset produced forty-one answers and nine that
+  do not exist. Thirty-one of the forty-one came from people and six from documents.
+- **Unit 7.** Two teams used one word in two senses, agreed with each other for forty minutes, and
+  built correctly to different specifications. The company's eleven-page glossary is correct and
+  unopened.
+- **Unit 8.** Three of four internal claims were stronger than the evidence, and all three
+  over-claims were internal. The effect was not that anybody was fooled; it was that no work was
+  done.
+- **Unit 9.** Three customers disputed an automated decision in two years. All three received a
+  courteous reply within a day from three different people, none of whom could change the outcome.
+- **Unit 10.** Three weeks of argument between two senior engineers ended in forty minutes, over an
+  accuracy difference of 0.7 minutes that neither of them had ever said out loud as a number.
+- **Unit 11.** A correctly computed figure of 98.1 per cent supported a rollout. The baseline — what
+  answering *no* to everything scores — is 98.5 per cent, and computing it took four minutes.
+- **Unit 12.** A fluent, confident, well-formatted generated summary containing an invented figure
+  was quoted in a board paper, because it sounded finished. Four risks were missing from a register
+  that had been described as complete.
+
+**Book 5 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS5-…`; **296 pages**; `Keystone-4-Book5.docx`.
