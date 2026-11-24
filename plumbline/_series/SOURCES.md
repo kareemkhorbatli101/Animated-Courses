@@ -461,3 +461,94 @@ paper's own terms that is construct under-representation; and that a book teachi
 paragraph shapes would raise a candidate's band and be pure construct-irrelevant variance. The book's
 position is that the slice is real and the units are built on published work rather than templates.
 The argument against it is printed in full so the reader can decide.
+
+# Book 6 · Plumbline 5 — *Range, Accuracy and the Last Half Band*
+
+Target band 7.5 and above · CEFR C1 · figure prefix `qf` · audio prefix `PL6` · 196 figures · 195
+tracks
+
+The Speaking test, and the thing that decides the last half band everywhere in the examination:
+**range**. At band 6 the obstacle is accuracy; at band 7 it almost never is. The twelve reading texts
+are built on corpus linguistics, psycholinguistics, phonology and measurement, because *why is my
+range narrow* has sixty-five years of published answers and not one of them is a topic word list.
+
+| Unit | Title | Source, as cited in the text | What the text prints as the document's own limit |
+|---|---|---|---|
+| **1** | Four Criteria, Spoken | The published **Speaking band descriptors** and the public statement of how Speaking is assessed, read 7 June | They describe **what each band looks like**, not how to get there: no vocabulary named, no answers prescribed, no model performance, nothing about the topics. They are the **public** versions, with fuller ones used in examiner training and not published. And **a descriptor is not a diagnosis**: *a narrow range* names what a marker heard, not why you have one |
+| **2** | The List That Replaced the List | **Dee Gardner and Mark Davies**, *A New Academic Vocabulary List*, **Applied Linguistics, 2014** | **One corpus** of **American English** over a particular span; a list built from British academic writing or another period would differ. The **coverage figure depends on the corpus** it is measured against. The lemma decisions involve **judgment**, described as rules used rather than the only possible rules. And the authors are clear it is **a list, not a syllabus**, ordered by statistical prominence rather than usefulness |
+| **3** | The Word That Goes With It | **John Sinclair**, *Corpus, Concordance, Collocation*, Oxford University Press, **1991** | An **argument from one lexicographer's reading of concordance lines** in one corpus of its period: **no experiment**, nobody's speech tested, no psychological claim about storage demonstrated. The central claim is **not quantified** — *more of normal text* has no proportion attached. Parts remain **contested**. And it is largely about written text, by an author arguing for a method of making dictionaries, which he says |
+| **4** | Why the Commonest Words Are Short | **George Kingsley Zipf**, *Human Behavior and the Principle of Least Effort*, Addison-Wesley, **1949** | The frequency pattern is robust; **the explanation is not**. Many competing accounts exist, including purely statistical ones in which processes with no speaker produce the same distribution — so **the pattern on its own is not evidence** for the principle of least effort, and the author's account is a **hypothesis**. The book is also famous for **overreach** elsewhere. And the law describes **aggregate text, not a person**: the claim that general words cost a candidate a band is this book's, drawn from Unit 1's descriptors |
+| **5** | What Fluent Speakers Do Not Build | **Andrew Pawley and Frances Hodgetts Syder**, *Two puzzles for linguistic theory*, in *Language and Communication*, ed. Richards and Schmidt, Longman, **1983** | The authors call these **puzzles**, which is the honest word: the paper sets out two problems and offers a hypothesis, not a demonstration. The number of stems is an **estimate of their own**, an order of magnitude rather than a count, **quoted since as though it were measured**. The evidence is largely **observational**. The planning argument rests on assumptions about working memory of its period. And it concerns **first-language speakers** |
+| **6** | From Intention to Articulation | **Willem J. M. Levelt**, *Speaking: From Intention to Articulation*, MIT Press, **1989** | A model of **adult first-language production**, from experimental psycholinguistics and self-repair corpora of its period. **It is not about second-language speaking**, where two lexicons are involved and their interaction is a question the book does not take up. The **architecture has been argued about** — how separate the stages are and whether they run strictly in order — and the author revised parts of it. And it is **not a method**: the advice about paraphrase and editing terms is this book's |
+| **7** | Three Things at Once | **Peter Skehan**, *A Cognitive Approach to Language Learning*, Oxford University Press, **1998** | A **synthesis and framework** from task-based research of its period, not a single study. The trade-off hypothesis has been **argued against at length**: later researchers report conditions under which two dimensions rise together and question whether attention is a single pool at all. The **measures are operationalizations**, and studies counting differently are hard to compare. And it is about **classroom task design**: the distribution across the three parts is this book's |
+| **8** | Which Sounds Actually Matter | **Jennifer Jenkins**, *The Phonology of English as an International Language*, Oxford University Press, **2000** | Explicitly a **proposal**, which the author calls **provisional and revisable**, resting on her own **limited data set** and inviting correction. It has been **argued about ever since** — the omission of word stress and the treatment of the dental fricatives among the disputes. And, stated in bold in the reading text: **it is not the standard the Speaking test assesses against**, which is the published descriptors applied by a trained examiner. What the unit takes from it is a judgment about **priority**, made by this book |
+| **9** | Accent, and Being Understood | **Tracey M. Derwing and Murray J. Munro**, *Second Language Accent and Pronunciation Teaching*, **TESOL Quarterly, 2005** | A **research-based position paper** arguing for a change in practice, not a single experiment. The three dimensions are **constructs with chosen measures**, and the measures shape the findings: comprehensibility is a **rating** — a listener's report of their own effort, not their effort. The studies used **particular first-language groups and particular listeners**, largely in one region, a point the authors make themselves. And it is about pronunciation teaching: the link to the Pronunciation criterion is this book's |
+| **10** | A Language of Your Own | **Larry Selinker**, *Interlanguage*, **IRAL, 1972** | A **short theoretical paper proposing a construct**, reporting **no study**: no learners measured, no hypothesis tested, the five processes offered as an account rather than established. **Fossilization has been argued about ever since** — how long a feature must persist, whether the claim is testable at all — and the reading text states in bold that **nobody can tell you which of your errors is permanent**. The processes **overlap**, attribution is a judgment, and the paper is of its period |
+| **11** | What a Score Must Show | ***Standards for Educational and Psychological Testing***, AERA, APA and NCME, **2014** | **Professional standards with no enforcement mechanism of their own**; where they have force it comes from elsewhere. Produced by **three organizations in one country**, reflecting its measurement tradition and legal context. A **consensus document**, so where the field disagrees the wording accommodates rather than settles. An **edition** that superseded others and will be superseded. And it **evaluates no particular test**: the questions the unit suggests asking are this book's |
+| **12** | The Last Half Band | **Bernard Spolsky**, *Measured Words: The Development of Objective Language Testing*, Oxford University Press, **1995**, with a review of the eleven above | **One historian's account, written by an active participant** in the field he describes — which gives him access and a position, both visible. **Selective** by necessity, resting largely on institutional records from particular countries and languages. And, most importantly: **a history explains how something came to be, not whether it is right**. That the fourteen minutes was arrived at administratively does not show that fourteen minutes is wrong, and the reading text says in so many words that neither the book nor this series makes that argument |
+
+## Twelve admissions, one per unit
+
+- **Unit 1.** Two errors in fourteen minutes, which is a band-8 performance, and *I think* said
+  eleven times, which is not. Four sevens in a row.
+- **Unit 2.** Three wrong word-forms, all of them words he has read hundreds of times, in an essay
+  whose Lexical Resource figure was 7.0 and whose note read *occasional imprecision*.
+- **Unit 3.** Four collocation errors and no grammatical errors. Grammar 7.5, Lexical Resource 6.5,
+  and she produced the right word for all four within two seconds of being asked.
+- **Unit 4.** Five general words said fifty-six times in fourteen minutes — four a minute, every one
+  a choice — by a speaker with no errors and no hesitations.
+- **Unit 5.** Twelve runs in two minutes, nine of them clean. The three with hesitation inside the
+  clause were three places where she was building a stem she already knew.
+- **Unit 6.** Seven self-corrections. Four had an editing term and were not marked at all; three were
+  bare restarts and all three were circled.
+- **Unit 7.** Clauses per utterance highest in Part 3 and errors doubled there, while the minute of
+  planning in Part 2 was spent thinking of ideas.
+- **Unit 8.** A question answered correctly and not the question that was asked. Two years spent on a
+  sound that is not in the proposed core, and nobody had ever mentioned nuclear stress.
+- **Unit 9.** The strongest accent in the class rated eight for comprehensibility; the mildest accent
+  transcribed at forty-eight of sixty. Told to reduce her accent since she was fifteen.
+- **Unit 10.** Twelve errors of five types, three types accounting for nine of them, all three
+  corrected since school — and the rule behind one of them stated in four seconds when asked.
+- **Unit 11.** A course requiring 7.0 overall with no band below 6.5, on a page that states what the
+  numbers are and nothing about what they are taken to mean.
+- **Unit 12.** Five practice tests. Four sevens four times, then one criterion at 7.5 after a week of
+  replacing three general words an answer. The other three did not move.
+
+## Figures, transcripts and invented figures
+
+196 figures, prefix `qf`, generated from `plumbline/_build/spec_qf1.py` to `spec_qf4.py`. No figure in
+this book appears in any other book of this series or in any of its five sister series.
+
+**Every question, card, transcript, model answer, rating sheet, admissions page and realia document
+in the book was written for it.** No question, prompt, recording or transcript from any past
+examination is reproduced anywhere. The repair transcripts in Unit 6, the run-length transcript in
+Unit 5, the rating matrix in Unit 9, the error tally in Unit 10 and the threshold pages in Unit 11 are
+all the book's own.
+
+**Every figure attributed to "our own class" is invented** — the repeated-phrase count in Unit 1, the
+four-form survey in Unit 2, the collocation errors in Unit 3, the ranked word list in Unit 4, the run
+lengths in Unit 5, the repair tally in Unit 6, the three task measures in Unit 7, the stress survey in
+Unit 8, the five rated speakers in Unit 9, the twelve errors in Unit 10, the five score uses in Unit
+11 and the five summary sheets in Unit 12. Each says on its face that it is an invented class's own
+count, with eleven students, and several units stop to say why eleven students cannot establish
+anything.
+
+**Two tables are this book's own reading of a document rather than anything the document says.** The
+matrix of core and non-core pronunciation features against what classrooms actually correct, in Unit
+8, and the table of the test's features against purposes and constraints, in Unit 12, are both ours.
+Each says so, and Unit 12 invites the reader to say which row we have got wrong.
+
+**Unit 2 says that Book 3 of this series taught a method its own source argues against.** That is
+true: Book 3 Unit 5 was built on the 2000 academic word list, and this unit's source is in part a
+critique of it, of its exclusion of the commonest two thousand words and of its word-family basis.
+The reading text states that the earlier list was worth teaching, because it is the list most
+published material still uses and because its own author stated its limits — and that a reader of
+this series is entitled to be told that part of their course rests on a position the field has moved
+past.
+
+**Unit 12 turns the discipline on the whole series.** It states that the examination is a compromise
+arrived at under administrative constraint — fourteen minutes because forty was not affordable — that
+these six books exist because that examination exists, and that if it had been designed differently
+the units would be different units. What it offers in the series' defense is what the series has done
+throughout: every unit built on a real published document, named with its date, with its own authors'
+stated limits printed beside it, and most of those documents not about examinations at all.
