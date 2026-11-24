@@ -84,14 +84,21 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "diplomacy/level3": ["spec_i1", "spec_i2", "spec_i3", "spec_i4"],
                 "diplomacy/level4": ["spec_j1", "spec_j2", "spec_j3", "spec_j4"],
                 "diplomacy/level5": ["spec_k1", "spec_k2", "spec_k3", "spec_k4"],
-                "diplomacy/level6": ["spec_l1", "spec_l2", "spec_l3", "spec_l4"]}
+                "diplomacy/level6": ["spec_l1", "spec_l2", "spec_l3", "spec_l4"],
+                # Keystone (architect series) — specs in architect/_build.
+                "architect/level1": ["spec_a1", "spec_a2", "spec_a3", "spec_a4"],
+                "architect/level2": ["spec_b1", "spec_b2", "spec_b3", "spec_b4"],
+                "architect/level3": ["spec_c1", "spec_c2", "spec_c3", "spec_c4"],
+                "architect/level4": ["spec_d1", "spec_d2", "spec_d3", "spec_d4"],
+                "architect/level5": ["spec_e1", "spec_e2", "spec_e3", "spec_e4"],
+                "architect/level6": ["spec_f1", "spec_f2", "spec_f3", "spec_f4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""
     mods = SPEC_MODULES.get(book)
     if not mods: return {}
     sys.path.insert(0, os.path.join(HERE, "..", "_build"))
-    for _series in ("business", "diplomacy"):
+    for _series in ("business", "diplomacy", "architect"):
         if book.startswith(_series + "/"):
             sys.path.insert(0, os.path.join(HERE, "..", "..", _series, "_build"))
     out = {}
@@ -153,7 +160,11 @@ READ_TARGET = {"starter": (0.0,3.5), "level1": (2.5,4.5), "level2": (3.0,5.0),
                # Foreign Service English: adult professional readers, A2 to C1
                "diplomacy/level1": (3.5,6.5), "diplomacy/level2": (4.5,7.5),
                "diplomacy/level3": (5.5,8.5), "diplomacy/level4": (6.5,9.5),
-               "diplomacy/level5": (7.5,10.5), "diplomacy/level6": (8.5,11.5)}
+               "diplomacy/level5": (7.5,10.5), "diplomacy/level6": (8.5,11.5),
+               # Keystone: adult technical readers, A2 to C1
+               "architect/level1": (3.5,6.5), "architect/level2": (4.5,7.5),
+               "architect/level3": (5.5,8.5), "architect/level4": (6.5,9.5),
+               "architect/level5": (7.5,10.5), "architect/level6": (8.5,11.5)}
 
 def strip_markup(s):
     s = re.sub(r"%%FIG[^%]*%%", " ", s)
