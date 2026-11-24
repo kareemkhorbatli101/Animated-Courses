@@ -12,8 +12,10 @@
   "setting": "by telephone · Bashak ↔ Westgate Metals",
   "settingAr": "عبر الهاتف · بشاك ↔ وستغيت ميتالز",
   "accent": "teal",
-  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
-
+  "narrator": {
+    "voice": "en-US-BrianNeural",
+    "rate": "-6%"
+  },
   "speakers": {
     "rami": {
       "name": "Rami",
@@ -33,7 +35,7 @@
       "name": "Mr. Delgado",
       "role": "Westgate Metals",
       "roleAr": "وستغيت ميتالز",
-      "place": "Shanghai",
+      "place": "Overseas",
       "placeAr": "الخارج",
       "side": "right",
       "look": "delgado",
@@ -44,7 +46,6 @@
       "arRate": "-4%"
     }
   },
-
   "preview": {
     "headline": "Before you listen",
     "headlineAr": "قبل الاستماع",
@@ -70,7 +71,6 @@
       "ar": "عندما يطلب المورّد نقداً، فإن الجواب نادراً ما يكون نعم أو لا. بل عادةً ما يكون شكلاً مختلفاً."
     }
   },
-
   "vocab": {
     "headline": "Useful phrases",
     "headlineAr": "عبارات مفيدة",
@@ -112,7 +112,6 @@
       }
     ]
   },
-
   "dialogue": [
     {
       "sp": "rami",
@@ -121,8 +120,18 @@
       "mood": "brisk",
       "phrase": "Let's confirm the payment terms.",
       "cues": [
-        { "at": "eighty", "icon": "steel", "label": "80 t · S275 plate" },
-        { "at": "payment", "icon": "contract", "label": "payment terms", "tone": "key", "term": true }
+        {
+          "at": "eighty",
+          "icon": "steel",
+          "label": "80 t · S275 plate"
+        },
+        {
+          "at": "payment",
+          "icon": "contract",
+          "label": "payment terms",
+          "tone": "key",
+          "term": true
+        }
       ]
     },
     {
@@ -131,9 +140,24 @@
       "ar": "بالنسبة لطلبية بدرجة فولاذ جديدة بقيمة ٥٨٬٠٠٠ دولار، وافقت لجنة الائتمان لدينا على دفعة مقدمة بنسبة ٥٠٪ مع الطلب، و٥٠٪ مقابل مستندات شحن ممسوحة قبل وصول السفينة.",
       "mood": "firm",
       "cues": [
-        { "at": "$58,000", "icon": "contract", "label": "$58,000 order", "big": true },
-        { "at": "50%", "icon": "cash_tight", "label": "50% advance with order", "tone": "bad" },
-        { "at": "scanned", "icon": "two_docs", "label": "50% vs shipping docs", "tone": "warn" }
+        {
+          "at": "$58,000",
+          "icon": "contract",
+          "label": "$58,000 order",
+          "big": true
+        },
+        {
+          "at": "50%",
+          "icon": "cash_tight",
+          "label": "50% advance with order",
+          "tone": "bad"
+        },
+        {
+          "at": "scanned",
+          "icon": "two_docs",
+          "label": "50% vs shipping docs",
+          "tone": "warn"
+        }
       ]
     },
     {
@@ -142,7 +166,12 @@
       "ar": "هذا صارم بعض الشيء. في طلبيتنا الأخيرة في آذار، دفعنا على الحساب المفتوح بعد ثلاثين يوماً من الوصول.",
       "mood": "concerned",
       "cues": [
-        { "at": "open", "icon": "history_good", "label": "last time: open account, 30 days", "tone": "good" }
+        {
+          "at": "open",
+          "icon": "history_good",
+          "label": "last time: open account, 30 days",
+          "tone": "good"
+        }
       ]
     },
     {
@@ -151,9 +180,24 @@
       "ar": "صحيح، وقد دفعتم في الموعد. لكن تكاليف مصانع الفولاذ قفزت هذا الربع، وشركة تأمين الائتمان لدينا شدّدت الحدود في المنطقة كلها.",
       "mood": "firm",
       "cues": [
-        { "at": "paid", "icon": "approve", "label": "your record is good", "tone": "good" },
-        { "at": "costs", "icon": "profit_loss", "label": "mill costs jumped", "tone": "warn" },
-        { "at": "insurer", "icon": "shield", "label": "credit insurer tightened limits", "tone": "bad" }
+        {
+          "at": "paid",
+          "icon": "approve",
+          "label": "your record is good",
+          "tone": "good"
+        },
+        {
+          "at": "costs",
+          "icon": "profit_loss",
+          "label": "mill costs jumped",
+          "tone": "warn"
+        },
+        {
+          "at": "insurer",
+          "icon": "shield",
+          "label": "credit insurer tightened limits",
+          "tone": "bad"
+        }
       ]
     },
     {
@@ -163,8 +207,21 @@
       "mood": "concerned",
       "phrase": "That ties up our working capital. · Can we meet in the middle?",
       "cues": [
-        { "at": "ties", "icon": "cash_tight", "label": "$29,000 frozen for 6 weeks", "tone": "bad", "big": true, "term": true },
-        { "at": "meet", "icon": "handshake", "label": "meet in the middle?", "tone": "key", "term": true }
+        {
+          "at": "ties",
+          "icon": "cash_tight",
+          "label": "$29,000 frozen for 6 weeks",
+          "tone": "bad",
+          "big": true,
+          "term": true
+        },
+        {
+          "at": "meet",
+          "icon": "handshake",
+          "label": "meet in the middle?",
+          "tone": "key",
+          "term": true
+        }
       ]
     },
     {
@@ -174,7 +231,13 @@
       "mood": "neutral",
       "phrase": "What do you have in mind?",
       "cues": [
-        { "at": "mind", "icon": "question", "label": "What do you have in mind?", "tone": "key", "term": true }
+        {
+          "at": "mind",
+          "icon": "question",
+          "label": "What do you have in mind?",
+          "tone": "key",
+          "term": true
+        }
       ]
     },
     {
@@ -183,9 +246,24 @@
       "ar": "عربون بنسبة عشرين بالمئة عند تأكيد الطلب — ١١٬٦٠٠ دولار — كي يعلم مصنعكم أننا ملتزمون. ثم ٨٠٪ باعتماد مستندي غير قابل للإلغاء مستحق عند الاطلاع عندما تقدّمون بوليصة شحن نظيفة.",
       "mood": "brisk",
       "cues": [
-        { "at": "Twenty", "icon": "money_part", "label": "20% deposit · $11,600", "tone": "good" },
-        { "at": "irrevocable", "icon": "lc", "label": "80% by irrevocable LC", "tone": "key", "big": true },
-        { "at": "clean", "icon": "bill_lading", "label": "against clean Bill of Lading" }
+        {
+          "at": "Twenty",
+          "icon": "money_part",
+          "label": "20% deposit · $11,600",
+          "tone": "good"
+        },
+        {
+          "at": "irrevocable",
+          "icon": "lc",
+          "label": "80% by irrevocable LC",
+          "tone": "key",
+          "big": true
+        },
+        {
+          "at": "clean",
+          "icon": "bill_lading",
+          "label": "against clean Bill of Lading"
+        }
       ]
     },
     {
@@ -195,8 +273,18 @@
       "mood": "warm",
       "phrase": "Payable at sight.",
       "cues": [
-        { "at": "security", "icon": "shield", "label": "bank security for the seller", "tone": "good" },
-        { "at": "director", "icon": "schedule", "label": "goes to the finance director", "tone": "key" }
+        {
+          "at": "security",
+          "icon": "shield",
+          "label": "bank security for the seller",
+          "tone": "good"
+        },
+        {
+          "at": "director",
+          "icon": "schedule",
+          "label": "goes to the finance director",
+          "tone": "key"
+        }
       ]
     },
     {
@@ -205,29 +293,47 @@
       "ar": "أرجو ذلك. إذا وافق اليوم، ستُفرج لينا عن عربون الـ ٢٠٪ صباح الغد.",
       "mood": "warm",
       "cues": [
-        { "at": "release", "icon": "paid", "label": "deposit released tomorrow", "tone": "good", "big": true }
+        {
+          "at": "release",
+          "icon": "paid",
+          "label": "deposit released tomorrow",
+          "tone": "good",
+          "big": true
+        }
       ]
     }
   ],
-
   "takeaway": {
     "en": "When a supplier demands cash up front, do not argue about trust. Offer a different structure: a small deposit plus a Letter of Credit gives them security and keeps your cash working.",
     "ar": "عندما يطالب المورّد بالنقد مقدماً، لا تجادل حول الثقة. بل اعرض هيكلاً مختلفاً: عربون صغير مع اعتماد مستندي يمنحه الضمان ويُبقي سيولتك تعمل.",
     "icon": "lc"
   },
-
   "questions": {
     "headline": "Comprehension",
     "headlineAr": "أسئلة الفهم",
     "items": [
-      { "en": "What payment terms did Westgate's credit committee originally ask for?", "ar": "ما شروط الدفع التي طلبتها لجنة الائتمان في وستغيت في البداية؟" },
-      { "en": "Why did Westgate tighten its terms compared to March?", "ar": "لماذا شدّدت وستغيت شروطها مقارنةً بشهر آذار؟" },
-      { "en": "Why does Rami object to paying 50% in advance?", "ar": "لماذا يعترض رامي على دفع ٥٠٪ مقدماً؟" },
-      { "en": "What compromise structure does Rami propose?", "ar": "ما الهيكل الوسط الذي يقترحه رامي؟" },
-      { "en": "Why is Rami's compromise attractive to Westgate Metals?", "ar": "لماذا يُعدّ حل رامي الوسط جذاباً لشركة وستغيت ميتالز؟" }
+      {
+        "en": "What payment terms did Westgate's credit committee originally ask for?",
+        "ar": "ما شروط الدفع التي طلبتها لجنة الائتمان في وستغيت في البداية؟"
+      },
+      {
+        "en": "Why did Westgate tighten its terms compared to March?",
+        "ar": "لماذا شدّدت وستغيت شروطها مقارنةً بشهر آذار؟"
+      },
+      {
+        "en": "Why does Rami object to paying 50% in advance?",
+        "ar": "لماذا يعترض رامي على دفع ٥٠٪ مقدماً؟"
+      },
+      {
+        "en": "What compromise structure does Rami propose?",
+        "ar": "ما الهيكل الوسط الذي يقترحه رامي؟"
+      },
+      {
+        "en": "Why is Rami's compromise attractive to Westgate Metals?",
+        "ar": "لماذا يُعدّ حل رامي الوسط جذاباً لشركة وستغيت ميتالز؟"
+      }
     ]
   },
-
   "discussion": {
     "headline": "Role-play",
     "headlineAr": "تمثيل الأدوار",
