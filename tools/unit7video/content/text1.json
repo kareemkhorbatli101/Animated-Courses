@@ -1,0 +1,270 @@
+{
+  "id": "text1",
+  "kind": "reading",
+  "unit": "Unit 7 · Finance",
+  "number": "Text 1",
+  "title": "Fifty-four instead of forty-five",
+  "titleAr": "أربعة وخمسون بدلاً من خمسة وأربعين",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "narrator": { "voice": "en-US-AndrewNeural", "rate": "-8%", "look": "narrator_m" },
+  "arVoice": "ar-SY-LaithNeural",
+  "accent": "amber",
+
+  "preview": {
+    "headline": "Before you read",
+    "headlineAr": "قبل القراءة",
+    "lines": [
+      {
+        "en": "You send an invoice to a good customer.",
+        "ar": "أنت تُرسل فاتورة إلى عميل جيّد.",
+        "icon": "invoice_send"
+      },
+      {
+        "en": "The price on the invoice is $9,000 higher than the contract price.",
+        "ar": "السعر في الفاتورة أعلى بتسعة آلاف دولار من سعر العقد.",
+        "icon": "price_gap"
+      },
+      {
+        "en": "What happens when the customer's accountant sees it?",
+        "ar": "ماذا يحدث عندما يراها محاسب العميل؟",
+        "icon": "accountant_look"
+      }
+    ],
+    "teaser": {
+      "en": "One wrong keystroke. Ten days of silence. And $45,000 sitting in the wrong country.",
+      "ar": "ضغطةٌ خاطئة واحدة. عشرة أيام من الصمت. وخمسة وأربعون ألف دولار عالقة في البلد الخطأ."
+    }
+  },
+
+  "vocab": {
+    "headline": "Words to listen for",
+    "headlineAr": "كلمات انتبه لها",
+    "items": [
+      {
+        "term": "transposition",
+        "ipa": "/ˌtræns.pəˈzɪʃ.ən/",
+        "def": "swapping the order of two numbers — writing 54 instead of 45",
+        "ar": "تبديل ترتيب رقمين",
+        "arDef": "كتابة ٥٤ بدلاً من ٤٥ عن طريق قلب الرقمين",
+        "icon": "swap"
+      },
+      {
+        "term": "variance",
+        "ipa": "/ˈveə.ri.əns/",
+        "def": "a difference between two figures",
+        "ar": "فرق / تباين",
+        "arDef": "اختلاف بين رقمين يجب أن يتطابقا",
+        "icon": "variance"
+      },
+      {
+        "term": "purchase order (PO)",
+        "ipa": "/ˈpɜː.tʃəs ˈɔː.dər/",
+        "def": "the buyer's official order — the invoice must match it exactly",
+        "ar": "أمر شراء",
+        "arDef": "طلب الشراء الرسمي الذي يجب أن تطابقه الفاتورة",
+        "icon": "po"
+      },
+      {
+        "term": "credit note",
+        "ipa": "/ˈkred.ɪt nəʊt/",
+        "def": "an official document that cancels or reduces an invoice",
+        "ar": "إشعار دائن",
+        "arDef": "مستند رسمي يُلغي فاتورة أو يُخفّض قيمتها",
+        "icon": "credit_note"
+      },
+      {
+        "term": "audit trail",
+        "ipa": "/ˈɔː.dɪt treɪl/",
+        "def": "a complete record showing every step of a transaction",
+        "ar": "مسار التدقيق",
+        "arDef": "سجل كامل يُظهر كل خطوة في العملية المالية",
+        "icon": "audit_trail"
+      }
+    ]
+  },
+
+  "paragraphs": [
+    {
+      "scene": "office_damascus",
+      "chapter": "The mistake",
+      "chapterAr": "الخطأ",
+      "lines": [
+        {
+          "en": "In May, Bashak shipped 1,000 tonnes of cement to NorthBridge Industrial Trading at $45 a tonne.",
+          "ar": "في أيار، شحنت شركة بشاك ألف طن من الإسمنت إلى شركة نورثبريدج للتجارة الصناعية بسعر خمسة وأربعين دولاراً للطن.",
+          "cues": [
+            { "at": "shipped", "icon": "cargo_ship", "label": "shipped" },
+            { "at": "cement", "icon": "cement", "label": "1,000 tonnes" },
+            { "at": "NorthBridge", "icon": "buyer", "label": "NorthBridge" },
+            { "at": "$45", "icon": "price_tag", "label": "$45 / tonne", "tone": "good" }
+          ]
+        },
+        {
+          "en": "The contract value was $45,000, and the purchase order number was PO-1243.",
+          "ar": "بلغت قيمة العقد خمسة وأربعين ألف دولار، وكان رقم أمر الشراء PO-1243.",
+          "cues": [
+            { "at": "contract", "icon": "contract", "label": "$45,000", "tone": "good", "big": true },
+            { "at": "PO-1243", "icon": "po", "label": "PO-1243" }
+          ]
+        },
+        {
+          "en": "That afternoon, a junior clerk in the Damascus office typed the invoice quickly before going home and wrote $54,000 instead of $45,000 — a simple transposition of two digits.",
+          "ar": "بعد ظهر ذلك اليوم، كتب موظفٌ مبتدئ في مكتب دمشق الفاتورة على عجل قبل عودته إلى المنزل، فسجّل ٥٤٬٠٠٠ دولار بدلاً من ٤٥٬٠٠٠ دولار — وهو مجرّد تبديل في ترتيب رقمين.",
+          "cues": [
+            { "at": "clerk", "icon": "clerk", "label": "junior clerk" },
+            { "at": "quickly", "icon": "rush", "label": "in a hurry", "tone": "warn" },
+            { "at": "$54,000", "icon": "invoice_bad", "label": "$54,000", "tone": "bad", "big": true },
+            { "at": "transposition", "icon": "swap", "label": "transposition", "tone": "bad", "term": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_shanghai",
+      "chapter": "The silence",
+      "chapterAr": "الصمت",
+      "lines": [
+        {
+          "en": "Two days later, Ms. Chen's finance team in Shanghai received the PDF invoice.",
+          "ar": "بعد يومين، استلم فريق السيدة تشين المالي في شنغهاي الفاتورة بصيغة PDF.",
+          "cues": [
+            { "at": "Two", "icon": "calendar2", "label": "2 days later" },
+            { "at": "Shanghai", "icon": "city", "label": "Shanghai" },
+            { "at": "PDF", "icon": "email_doc", "label": "PDF invoice" }
+          ]
+        },
+        {
+          "en": "Their system immediately flagged a $9,000 variance against the purchase order and froze the entire payment run.",
+          "ar": "رصد نظامهم فوراً فرقاً قدره تسعة آلاف دولار مقارنةً بأمر الشراء، وجمّد دفعة السداد بالكامل.",
+          "cues": [
+            { "at": "flagged", "icon": "flag_alert", "label": "flagged", "tone": "bad" },
+            { "at": "$9,000", "icon": "variance", "label": "$9,000 variance", "tone": "bad", "big": true, "term": true },
+            { "at": "froze", "icon": "freeze", "label": "payment frozen", "tone": "bad" }
+          ]
+        },
+        {
+          "en": "Nobody in Shanghai called Damascus; their automated software simply placed the invoice into a \"disputed\" queue.",
+          "ar": "لم يتصل أحد من شنغهاي بدمشق؛ إذ وضع البرنامج الآلي الفاتورة ببساطة في قائمة «المعترض عليها».",
+          "cues": [
+            { "at": "Nobody", "icon": "phone_off", "label": "no phone call", "tone": "warn" },
+            { "at": "automated", "icon": "robot", "label": "automated system" },
+            { "at": "disputed", "icon": "queue", "label": "\"disputed\" queue", "tone": "bad" }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_damascus",
+      "chapter": "The discovery",
+      "chapterAr": "الاكتشاف",
+      "lines": [
+        {
+          "en": "Ten days passed. The due date came and went, and no money arrived in Al-Hasan's bank account.",
+          "ar": "مرّت عشرة أيام. حلّ تاريخ الاستحقاق ومضى، ولم يصل أي مبلغ إلى حساب الحسن المصرفي.",
+          "cues": [
+            { "at": "Ten", "icon": "calendar10", "label": "10 days", "tone": "warn" },
+            { "at": "due", "icon": "due_date", "label": "due date passed", "tone": "bad" },
+            { "at": "money", "icon": "empty_account", "label": "$0 received", "tone": "bad", "big": true }
+          ]
+        },
+        {
+          "en": "Huda checked the payments record, saw INV-2043 marked unpaid, and sent a polite reminder to Ms. Chen.",
+          "ar": "راجعت هدى سجل المدفوعات، فوجدت الفاتورة INV-2043 مؤشَّرة بأنها غير مدفوعة، فأرسلت تذكيراً مهذّباً إلى السيدة تشين.",
+          "cues": [
+            { "at": "Huda", "icon": "accountant_f", "label": "Huda · Accountant" },
+            { "at": "INV-2043", "icon": "invoice_unpaid", "label": "INV-2043 unpaid", "tone": "bad" },
+            { "at": "reminder", "icon": "reminder", "label": "polite reminder", "tone": "good" }
+          ]
+        },
+        {
+          "en": "Ms. Chen replied within an hour: \"We are ready to pay $45,000 today, Huda, but your invoice asks for $54,000.\"",
+          "ar": "ردّت السيدة تشين خلال ساعة: «نحن مستعدون لدفع ٤٥٬٠٠٠ دولار اليوم يا هدى، لكن فاتورتكم تطالب بـ ٥٤٬٠٠٠ دولار.»",
+          "cues": [
+            { "at": "hour", "icon": "clock_fast", "label": "within 1 hour" },
+            { "at": "ready", "icon": "money_ready", "label": "$45,000 ready", "tone": "good" },
+            { "at": "asks", "icon": "invoice_bad", "label": "invoice says $54,000", "tone": "bad" }
+          ]
+        },
+        {
+          "en": "\"Our auditors will not release funds until the document matches the order.\"",
+          "ar": "«لن يُفرج مدققونا عن الأموال حتى تتطابق الوثيقة مع أمر الشراء.»",
+          "cues": [
+            { "at": "auditors", "icon": "auditor", "label": "auditors", "tone": "warn" },
+            { "at": "matches", "icon": "match_docs", "label": "invoice must match PO", "tone": "key", "big": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_damascus",
+      "chapter": "The fix",
+      "chapterAr": "الحل",
+      "lines": [
+        {
+          "en": "Lina reviewed the file with Huda that morning.",
+          "ar": "راجعت لينا الملف مع هدى في ذلك الصباح.",
+          "cues": [
+            { "at": "Lina", "icon": "manager_f", "label": "Lina · Finance Manager" }
+          ]
+        },
+        {
+          "en": "\"Never edit an old invoice number and send it again,\" Lina told the junior clerk.",
+          "ar": "وقالت لينا للموظف المبتدئ: «لا تعدّل أبداً رقم فاتورة قديمة وتعيد إرسالها.»",
+          "cues": [
+            { "at": "Never", "icon": "no_edit", "label": "never edit & resend", "tone": "bad", "big": true }
+          ]
+        },
+        {
+          "en": "\"In proper accounting, you cancel the wrong invoice with a formal credit note for $54,000, and you issue a brand-new invoice with a new number for $45,000.\"",
+          "ar": "«في المحاسبة السليمة، تُلغي الفاتورة الخاطئة بإشعار دائن رسمي بقيمة ٥٤٬٠٠٠ دولار، ثم تُصدر فاتورة جديدة تماماً برقم جديد بقيمة ٤٥٬٠٠٠ دولار.»",
+          "cues": [
+            { "at": "cancel", "icon": "credit_note", "label": "① credit note  −$54,000", "tone": "key", "term": true },
+            { "at": "issue", "icon": "invoice_new", "label": "② new invoice  $45,000", "tone": "key" }
+          ]
+        },
+        {
+          "en": "\"That way the audit trail stays clean.\"",
+          "ar": "«وبهذه الطريقة يبقى مسار التدقيق نظيفاً.»",
+          "cues": [
+            { "at": "audit", "icon": "audit_trail", "label": "audit trail stays clean", "tone": "good", "big": true, "term": true }
+          ]
+        },
+        {
+          "en": "Huda issued both documents before noon, and NorthBridge transferred the $45,000 the following morning.",
+          "ar": "أصدرت هدى كلتا الوثيقتين قبل الظهر، وحوّلت نورثبريدج مبلغ ٤٥٬٠٠٠ دولار في صباح اليوم التالي.",
+          "cues": [
+            { "at": "both", "icon": "two_docs", "label": "both issued by noon", "tone": "good" },
+            { "at": "transferred", "icon": "paid", "label": "$45,000 PAID", "tone": "good", "big": true }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "Never edit an issued invoice. Cancel it with a credit note, then issue a new one with a new number.",
+    "ar": "لا تعدّل فاتورة صادرة أبداً. ألغِها بإشعار دائن، ثم أصدر فاتورة جديدة برقم جديد.",
+    "icon": "audit_trail"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "What caused the $9,000 difference on the invoice?", "ar": "ما سبب الفرق البالغ تسعة آلاف دولار في الفاتورة؟" },
+      { "en": "Why did NorthBridge not pay on the due date, and why did nobody call Damascus?", "ar": "لماذا لم تدفع نورثبريدج في تاريخ الاستحقاق، ولماذا لم يتصل أحد بدمشق؟" },
+      { "en": "How did Huda discover that there was a problem?", "ar": "كيف اكتشفت هدى وجود مشكلة؟" },
+      { "en": "Why did NorthBridge's auditors refuse to release the $45,000?", "ar": "لماذا رفض مدققو نورثبريدج الإفراج عن الخمسة والأربعين ألف دولار؟" },
+      { "en": "What two documents did Lina tell the clerk to issue instead of editing the old invoice?", "ar": "ما الوثيقتان اللتان طلبت لينا إصدارهما بدلاً من تعديل الفاتورة القديمة؟" },
+      { "en": "In your own words, what is the main accounting lesson of this text?", "ar": "بكلماتك الخاصة، ما الدرس المحاسبي الرئيسي في هذا النص؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Talk about it",
+    "headlineAr": "للنقاش",
+    "en": "NorthBridge's automated system froze the invoice without telling anyone. Should a buyer's finance team contact the supplier immediately when an invoice is wrong, or is it always the seller's job to notice?",
+    "ar": "جمّد النظام الآلي لدى نورثبريدج الفاتورة دون إخبار أحد. هل ينبغي على الفريق المالي للمشتري الاتصال بالمورّد فوراً عند وجود خطأ في الفاتورة، أم أن ملاحظة الخطأ مسؤولية البائع دائماً؟"
+  }
+}

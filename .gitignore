@@ -59,3 +59,7 @@ __pycache__/
 # A rule costs nothing and does not forget.
 */*/assets/audio/
 */assets/audio/
+
+# Unit 7 video pipeline: rendered media and TTS output are build artefacts.
+# Same rule as the course audio above - recordings do not live in this repo.
+tools/unit7video/out/

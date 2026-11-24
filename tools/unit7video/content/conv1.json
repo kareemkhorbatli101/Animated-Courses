@@ -1,0 +1,248 @@
+{
+  "id": "conv1",
+  "kind": "dialogue",
+  "unit": "Unit 7 · Finance",
+  "number": "Conversation 1",
+  "title": "Calling two days before the due date",
+  "titleAr": "مكالمة قبل يومين من تاريخ الاستحقاق",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "setting": "by telephone · Damascus ↔ Shanghai",
+  "settingAr": "عبر الهاتف · دمشق ↔ شنغهاي",
+  "accent": "teal",
+  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
+
+  "speakers": {
+    "lina": {
+      "name": "Lina",
+      "role": "Finance Manager, Al-Hasan",
+      "roleAr": "مديرة الشؤون المالية، الحسن",
+      "place": "Damascus",
+      "placeAr": "دمشق",
+      "side": "left",
+      "look": "lina",
+      "color": "#2bb3a3",
+      "voice": "en-US-AvaNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-AmanyNeural",
+      "arRate": "-4%"
+    },
+    "chen": {
+      "name": "Ms. Chen",
+      "role": "NorthBridge Industrial Trading",
+      "roleAr": "نورثبريدج للتجارة الصناعية",
+      "place": "Shanghai",
+      "placeAr": "شنغهاي",
+      "side": "right",
+      "look": "chen",
+      "color": "#e0943a",
+      "voice": "en-US-EmmaNeural",
+      "rate": "-6%",
+      "arVoice": "ar-LB-LaylaNeural",
+      "arRate": "-4%"
+    }
+  },
+
+  "preview": {
+    "headline": "Before you listen",
+    "headlineAr": "قبل الاستماع",
+    "lines": [
+      {
+        "en": "A customer owes $60,000. The money is due this Friday.",
+        "ar": "عميل مدين بستين ألف دولار. المبلغ مستحق يوم الجمعة.",
+        "icon": "invoice_due"
+      },
+      {
+        "en": "Two days early, she picks up the phone — before anything goes wrong.",
+        "ar": "قبل يومين، ترفع السماعة — قبل أن يحدث أي خطأ.",
+        "icon": "phone_call"
+      },
+      {
+        "en": "Listen for how a good customer asks for more time, and how a finance manager says yes without losing control.",
+        "ar": "استمع كيف يطلب العميل الجيد مهلة إضافية، وكيف توافق مديرة الشؤون المالية دون أن تفقد السيطرة.",
+        "icon": "handshake"
+      }
+    ],
+    "teaser": {
+      "en": "The best news about a late payment is the news you get early.",
+      "ar": "أفضل خبر عن دفعة متأخرة هو الخبر الذي يصلك مبكراً."
+    }
+  },
+
+  "vocab": {
+    "headline": "Useful phrases",
+    "headlineAr": "عبارات مفيدة",
+    "items": [
+      {
+        "term": "I'm calling early so there are no surprises.",
+        "def": "warning someone before a problem arrives",
+        "ar": "أتصل مبكراً حتى لا تكون هناك مفاجآت.",
+        "arDef": "تنبيه الطرف الآخر قبل وقوع المشكلة",
+        "icon": "phone_early"
+      },
+      {
+        "term": "Thank you for telling us before the due date.",
+        "def": "rewarding honesty — it protects the relationship",
+        "ar": "شكراً لإخبارنا قبل تاريخ الاستحقاق.",
+        "arDef": "مكافأة الصراحة — فهي تحمي العلاقة",
+        "icon": "thanks"
+      },
+      {
+        "term": "What are you proposing?",
+        "def": "inviting the other side to make an offer",
+        "ar": "ما الذي تقترحينه؟",
+        "arDef": "دعوة الطرف الآخر لتقديم اقتراح",
+        "icon": "question"
+      },
+      {
+        "term": "We can accommodate a split payment.",
+        "def": "agreeing to receive the money in two parts",
+        "ar": "يمكننا استيعاب دفعة مُقسَّمة.",
+        "arDef": "الموافقة على استلام المبلغ على جزأين",
+        "icon": "split"
+      },
+      {
+        "term": "Send me a short email confirming …",
+        "def": "putting a verbal agreement in writing",
+        "ar": "أرسلي لي بريداً قصيراً يؤكّد …",
+        "arDef": "توثيق الاتفاق الشفهي كتابةً",
+        "icon": "email_confirm"
+      }
+    ]
+  },
+
+  "dialogue": [
+    {
+      "sp": "lina",
+      "en": "Good morning, Ms. Chen. Lina speaking in Damascus. How are things in Shanghai?",
+      "ar": "صباح الخير سيدة تشين. معك لينا من دمشق. كيف تسير الأمور في شنغهاي؟",
+      "mood": "warm",
+      "cues": [
+        { "at": "Damascus", "icon": "city", "label": "Damascus", "side": "left" },
+        { "at": "Shanghai", "icon": "city", "label": "Shanghai", "side": "right" }
+      ]
+    },
+    {
+      "sp": "chen",
+      "en": "Good morning, Lina. Busy, and I'm calling early so there are no surprises on Friday.",
+      "ar": "صباح الخير لينا. مشغولة، وأتصل بكِ مبكراً حتى لا تكون هناك مفاجآت يوم الجمعة.",
+      "mood": "brisk",
+      "phrase": "I'm calling early so there are no surprises.",
+      "cues": [
+        { "at": "early", "icon": "phone_early", "label": "calling early", "tone": "good", "term": true },
+        { "at": "Friday", "icon": "calendar_fri", "label": "Friday 15th", "tone": "warn" }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "I appreciate that. Is this about invoice INV-2051 for $60,000?",
+      "ar": "أقدّر لكِ ذلك. هل يتعلق الأمر بالفاتورة INV-2051 بقيمة ستين ألف دولار؟",
+      "mood": "warm",
+      "cues": [
+        { "at": "invoice", "icon": "invoice_due", "label": "INV-2051 · $60,000", "big": true }
+      ]
+    },
+    {
+      "sp": "chen",
+      "en": "Yes. The due date is this Friday, the 15th. Two of our local construction clients delayed their payments to us this week, so our dollar cash balance is tight until Tuesday.",
+      "ar": "نعم. تاريخ الاستحقاق هو الجمعة القادم، الخامس عشر. تأخّر اثنان من عملائنا المحليين في قطاع البناء عن الدفع لنا هذا الأسبوع، لذا فإن رصيدنا النقدي بالدولار ضيّق حتى يوم الثلاثاء.",
+      "mood": "concerned",
+      "cues": [
+        { "at": "due", "icon": "due_date", "label": "due Friday 15th", "tone": "warn" },
+        { "at": "delayed", "icon": "clock_late", "label": "clients paid late", "tone": "bad" },
+        { "at": "tight", "icon": "cash_tight", "label": "cash tight until Tue", "tone": "bad", "big": true }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "Thank you for telling us before the due date, Ms. Chen. You have never missed a payment with us. What are you proposing?",
+      "ar": "شكراً لإخبارنا قبل تاريخ الاستحقاق، سيدة تشين. لم تتأخري قط عن أي دفعة معنا. ما الذي تقترحينه؟",
+      "mood": "warm",
+      "phrase": "Thank you for telling us before the due date.",
+      "cues": [
+        { "at": "Thank", "icon": "thanks", "label": "rewarding honesty", "tone": "good", "term": true },
+        { "at": "never", "icon": "history_good", "label": "perfect payment history", "tone": "good" },
+        { "at": "proposing", "icon": "question", "label": "What are you proposing?", "tone": "key", "term": true }
+      ]
+    },
+    {
+      "sp": "chen",
+      "en": "We can transfer $35,000 on Friday as scheduled, and the remaining $25,000 next Wednesday, the 20th.",
+      "ar": "يمكننا تحويل خمسة وثلاثين ألف دولار يوم الجمعة كما هو مقرر، والمبلغ المتبقي وقدره خمسة وعشرون ألف دولار يوم الأربعاء القادم، العشرين.",
+      "mood": "brisk",
+      "cues": [
+        { "at": "$35,000", "icon": "money_part", "label": "$35,000 · Fri 15", "tone": "good" },
+        { "at": "$25,000", "icon": "money_part", "label": "$25,000 · Wed 20", "tone": "good" }
+      ],
+      "card": "split_plan"
+    },
+    {
+      "sp": "lina",
+      "en": "Let me check our own supplier schedule for next week… Yes, we can accommodate a split payment without affecting our cash flow.",
+      "ar": "دعيني أتحقق من جدول مورّدينا للأسبوع القادم… نعم، يمكننا استيعاب دفعة مُقسَّمة دون التأثير على تدفقنا النقدي.",
+      "mood": "thinking",
+      "phrase": "We can accommodate a split payment.",
+      "cues": [
+        { "at": "check", "icon": "schedule", "label": "check our own outgoings first", "tone": "key" },
+        { "at": "accommodate", "icon": "split", "label": "split payment agreed", "tone": "good", "term": true },
+        { "at": "cash", "icon": "cashflow", "label": "cash flow protected", "tone": "good" }
+      ]
+    },
+    {
+      "sp": "chen",
+      "en": "That helps us enormously. Do you need anything in writing?",
+      "ar": "هذا يساعدنا كثيراً جداً. هل تحتاجين أي شيء كتابةً؟",
+      "mood": "warm",
+      "cues": [
+        { "at": "writing", "icon": "email_confirm", "label": "in writing?", "tone": "key" }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "Yes, please. Send me a short email today confirming the two dates and amounts, and I will reply to approve the extension. Once the second transfer clears on Wednesday, your credit line stays completely unchanged.",
+      "ar": "نعم من فضلك. أرسلي لي اليوم بريداً إلكترونياً قصيراً يؤكّد التاريخين والمبلغين، وسأردّ عليه بالموافقة على التمديد. وبمجرد أن تُصفّى الدفعة الثانية يوم الأربعاء، يبقى سقفكم الائتماني دون أي تغيير.",
+      "mood": "firm",
+      "phrase": "Send me a short email confirming …",
+      "cues": [
+        { "at": "email", "icon": "email_confirm", "label": "short email today", "tone": "key", "term": true },
+        { "at": "approve", "icon": "approve", "label": "written approval", "tone": "good" },
+        { "at": "credit", "icon": "credit_line", "label": "credit line unchanged", "tone": "good", "big": true }
+      ]
+    },
+    {
+      "sp": "chen",
+      "en": "I will send that email within ten minutes. Thank you for being a real partner, Lina.",
+      "ar": "سأرسل ذلك البريد خلال عشر دقائق. شكراً لكِ على كونكِ شريكة حقيقية، لينا.",
+      "mood": "warm",
+      "cues": [
+        { "at": "ten", "icon": "clock_fast", "label": "within 10 minutes", "tone": "good" },
+        { "at": "partner", "icon": "handshake", "label": "a real partner", "tone": "good", "big": true }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "Call before the due date, propose exact dates and amounts, and put it in writing. That is how a late payment stays a partnership.",
+    "ar": "اتصل قبل تاريخ الاستحقاق، واقترح تواريخ ومبالغ محددة، ووثّق ذلك كتابةً. هكذا تبقى الدفعة المتأخرة شراكةً.",
+    "icon": "handshake"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "Why is Ms. Chen calling Lina on Wednesday instead of waiting until Friday?", "ar": "لماذا تتصل السيدة تشين بلينا يوم الأربعاء بدلاً من الانتظار حتى الجمعة؟" },
+      { "en": "Why is NorthBridge's dollar cash balance temporarily tight?", "ar": "لماذا يُعدّ رصيد نورثبريدج النقدي بالدولار ضيّقاً مؤقتاً؟" },
+      { "en": "What exact payment schedule does Ms. Chen propose?", "ar": "ما جدول السداد الدقيق الذي تقترحه السيدة تشين؟" },
+      { "en": "What does Lina check before agreeing to the proposal?", "ar": "ما الذي تتحقق منه لينا قبل الموافقة على الاقتراح؟" },
+      { "en": "What condition does Lina set so that NorthBridge's credit line stays unchanged?", "ar": "ما الشرط الذي تضعه لينا كي يبقى سقف نورثبريدج الائتماني دون تغيير؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Role-play",
+    "headlineAr": "تمثيل الأدوار",
+    "en": "A customer whose last two invoices were paid ten days late calls on the due date asking for two more weeks on a $40,000 balance. Student A is the customer; Student B is Lina, who must protect Al-Hasan's cash while staying polite.",
+    "ar": "عميلٌ تأخّر في سداد آخر فاتورتين عشرة أيام يتصل في تاريخ الاستحقاق طالباً أسبوعين إضافيين على رصيد قدره أربعون ألف دولار. الطالب (أ) هو العميل؛ والطالب (ب) هو لينا، التي عليها حماية سيولة الحسن مع الحفاظ على اللباقة."
+  }
+}
