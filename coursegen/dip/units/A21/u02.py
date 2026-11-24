@@ -1,0 +1,541 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=2,
+title='Who Does What in the Building',
+gram='there is, there are, and prepositions of place',
+ai='learning a building: asking for a plain explanation',
+strap='CEFR A2 · Grammar: there is, there are, and prepositions of place · '
+      'AI: learning a building: asking for a plain explanation',
+cando=['describe where things and people are in a building',
+       'use there is and there are correctly with singular and plural',
+       'ask who is responsible for a task, and who signs it',
+       'ask a system for a plain explanation and then check it with a person',
+       'write six lines describing a section and its work'],
+
+hero=('AN ORGANIGRAM ON THE WALL, AND NOBODY IN THE BOXES',
+      ['There are nine people in the building and eleven boxes on the chart.',
+       'Two of the names left the post last year.'],
+      [(720, 'blue', 'short'), (720, 'teal', 'long'), (720, 'grey', 'short')]),
+hero_cap='The corridor outside the registry, where the chart has hung since the last handover.',
+
+warm=['Is there a chart of your organisation on a wall? Is it correct?',
+      'How do people in your office find out who signs something?',
+      'Who in your building knows everything, and has no title at all?'],
+
+read=[
+ 'There is a chart on the wall outside the registry. It is a square of eleven boxes with '
+ 'names under them. Nour reads it on her second morning. Two of the names are wrong. One '
+ 'officer left the post in March. Another is on leave until November.',
+ 'There are four sections in the Mission. The chancery does the political and economic work. '
+ 'The consular section deals with citizens and with visas. The administration section holds '
+ 'the money, the keys and the building. The press and culture desk is one person, and that '
+ 'person is also the website.',
+ 'The registry is a small room behind the chancery. There is no window in it. Every incoming '
+ 'letter goes through the registry first, and every outgoing letter goes through it last. '
+ 'Firas says that if a document is lost, it is lost in a person, not in the registry.',
+ 'There is one meeting room on the first floor. There are two telephones at the front desk. '
+ 'There is a strong room on the ground floor, and there are three people in the building '
+ 'who may open it. Nour is not one of them, and she will not be one of them this year.',
+ 'On her second afternoon Nour asks a system to explain the structure of a small diplomatic '
+ 'mission. The answer is clear and general and reasonable. It describes a mission that could '
+ 'be anywhere. It does not describe this one, because it has never been inside it.'],
+
+dp1=('Orientation that names people, not boxes', 'Services that give a new officer a current '
+     'list of who signs what, rather than an organisation chart alone, report fewer '
+     'misdirected approvals in an officer’s first months.',
+     'Source: reported practice in diplomatic administration, 2025–2026.'),
+
+c_a=[('Where is the chart?', 'on the wall outside the registry'),
+     ('How many boxes are on the chart?', 'eleven'),
+     ('How many sections are there in the Mission?', 'four'),
+     ('What is in the registry?', 'every incoming and outgoing letter'),
+     ('How many people may open the strong room?', 'three'),
+     ('What is wrong with the system’s explanation?', 'it is general and not about this mission')],
+
+c_b=[('There are eleven people in the Mission.', 'F'),
+     ('The press and culture desk is one person.', 'T'),
+     ('There is a window in the registry.', 'F'),
+     ('Every outgoing letter goes through the registry last.', 'T'),
+     ('Nour may open the strong room.', 'F'),
+     ('The system’s answer describes this mission exactly.', 'F')],
+
+c_c=[('There ____________ a chart on the wall.', 'is'),
+     ('There ____________ four sections in the Mission.', 'are'),
+     ('The registry is ____________ the chancery.', 'behind'),
+     ('There is a strong room ____________ the ground floor.', 'on'),
+     ('There ____________ no window in the registry.', 'is'),
+     ('There ____________ two telephones at the front desk.', 'are')],
+
+c_d=[('Use there is with a ( singular / plural ) noun.', ['singular', 'plural'], 0),
+     ('The chart is ( current / out of date ).', ['out of date', 'current'], 0),
+     ('A lost document is usually lost ( in the registry / in a person ).',
+      ['in a person', 'in the registry'], 0),
+     ('The press and culture desk has ( one person / three people ).',
+      ['one person', 'three people'], 0),
+     ('A general explanation of a mission is ( useful but not enough / wrong ).',
+      ['useful but not enough', 'wrong'], 0)],
+
+c_e=('Where is it? Put each thing in the right column.',
+     [('every incoming letter', 'the registry'),
+      ('the money and the keys', 'administration'),
+      ('a visa application', 'consular section'),
+      ('a political report', 'chancery'),
+      ('the website', 'press and culture'),
+      ('the outgoing post', 'the registry')],
+     ['chancery', 'consular section', 'administration', 'the registry', 'press and culture']),
+
+v_fig_title='THE ROOMS AND THE ROLES',
+v_fig=[('doc', 'a registry'), ('people', 'a line manager'), ('key', 'a strong room'),
+       ('clock', 'a desk diary'), ('door', 'a reception area'), ('chart', 'an organigram')],
+v_fig_cap='Six words for the parts of a building and the people in them.',
+
+vocab=[
+ ('a registry', 'the room or system through which every official document passes'),
+ ('an organigram', 'a chart showing the sections of an organisation and who leads them'),
+ ('a line manager', 'the person an officer reports to day to day'),
+ ('a job description', 'the written statement of what a post is responsible for'),
+ ('a political section', 'the part of a mission that reports on the host country’s affairs'),
+ ('a commercial section', 'the part of a mission that works on trade and investment'),
+ ('a press office', 'the part of a mission that deals with journalists and the public'),
+ ('a strong room', 'a secured room for material that may not be left on a desk'),
+ ('a switchboard', 'the system that receives and passes on telephone calls'),
+ ('a reception area', 'the part of a building where visitors wait'),
+ ('a visitors’ book', 'the record of who entered a building and when'),
+ ('a notice board', 'the board where current information is displayed for staff'),
+ ('a pigeonhole', 'the small open box where an officer’s internal post is left'),
+ ('a desk diary', 'the book or file in which a post records its appointments'),
+ ('a floor plan', 'a drawing showing the rooms on one floor'),
+ ('a meeting room', 'a room kept for meetings rather than for daily work'),
+ ('an intercom', 'the device for speaking between a door and an office'),
+ ('a fire drill', 'the practice of leaving a building safely'),
+ ('an approval', 'the formal agreement that allows an action to be taken'),
+ ('a signature block', 'the line showing who signs a document and in what capacity')],
+
+v_a=[('Every document passes through the ____________.', 'registry'),
+     ('A chart of sections and leaders is an ____________.', 'organigram'),
+     ('The person you report to day to day is your ____________.', 'line manager'),
+     ('Visitors wait in the ____________ area.', 'reception'),
+     ('Secured material is kept in the ____________ room.', 'strong'),
+     ('The practice of leaving a building safely is a ____________.', 'fire drill'),
+     ('Internal post is left in a ____________.', 'pigeonhole'),
+     ('The formal agreement that allows an action is an ____________.', 'approval')],
+
+v_b=[('A job description is the written statement', 'of what a post is responsible for.'),
+     ('A visitors’ book is the record of', 'who entered a building and when.'),
+     ('A switchboard is the system that', 'receives and passes on telephone calls.'),
+     ('A signature block shows who signs a document', 'and in what capacity.'),
+     ('A commercial section works on', 'trade and investment.')],
+
+g_title='Grammar: there is, there are, and prepositions of place',
+g_rule=['There is + singular: There is a meeting room on the first floor.',
+        'There are + plural: There are two telephones at the front desk.',
+        'Negative: There is no window. There are no spare keys.',
+        'Place words: in, on, at, under, behind, next to, between, opposite.'],
+g_fig=('NOT CLEAR',
+       ['It has a meeting room somewhere.',
+        'Telephones exist at the desk.',
+        'The registry is near things.',
+        'Keys, there are not.'],
+       'CLEAR',
+       ['There is a meeting room on the first floor.',
+        'There are two telephones at the front desk.',
+        'The registry is behind the chancery.',
+        'There are no spare keys.'],
+       'four sentences a visitor cannot follow',
+       'the same four, with there is, there are and a place'),
+g_fig_cap='There is or there are, then the thing, then where it is.',
+
+g_a=[('There ____________ a chart on the wall.', 'is'),
+     ('There ____________ four sections in this Mission.', 'are'),
+     ('There ____________ no window in the registry.', 'is'),
+     ('The meeting room is ____________ the first floor.', 'on'),
+     ('The registry is ____________ the chancery.', 'behind'),
+     ('There ____________ two telephones at the front desk.', 'are'),
+     ('Your pigeonhole is ____________ mine and Firas’s.', 'between'),
+     ('The consular door is ____________ the street.', 'on'),
+     ('There ____________ three people who may open the strong room.', 'are')],
+
+g_b=[('There ( are / is ) one meeting room.', ['are', 'is'], 1),
+     ('There ( is / are ) no spare keys.', ['are', 'is'], 0),
+     ('The registry is ( behind / under ) the chancery.', ['behind', 'under'], 0),
+     ('Your post is ( in / on ) your pigeonhole.', ['in', 'on'], 0),
+     ('There are two telephones ( at / in ) the front desk.', ['at', 'in'], 0),
+     ('The strong room is ( on / between ) the ground floor.', ['on', 'between'], 0)],
+
+d1=dict(
+ title='Who signs this?',
+ fig=(['Who signs a letter like this?', 'It depends on what it asks for.'],
+      ['The chart says the Ambassador.', 'The chart is from two postings ago.']),
+ cap='Nour and Dr Kanaan, in the corridor by the chart, on Tuesday.',
+ lines=[('Nour', 'There is a letter for the host ministry. Who signs it?'),
+        ('Dr Kanaan', 'What does it ask for?'),
+        ('Nour', 'An appointment for the Ambassador, in October.'),
+        ('Dr Kanaan', 'Then I sign it. The Ambassador signs letters to ministers.'),
+        ('Nour', 'The chart on the wall says he signs everything.'),
+        ('Dr Kanaan', 'The chart is from two postings ago. There are two dead names on it.'),
+        ('Nour', 'Is there a correct list anywhere?'),
+        ('Dr Kanaan', 'There is one in my head and one in the registry. They do not agree.'),
+        ('Nour', 'Which one is right?'),
+        ('Dr Kanaan', 'Mine. Write it down this week and I will check it.'),
+        ('Nour', 'And then it goes on the wall?'),
+        ('Dr Kanaan', 'Then it goes in the registry. Walls are where lists go to die.')],
+ a=[('Who signs letters to ministers?', 'the Ambassador'),
+    ('Who signs a request for an appointment?', 'Dr Kanaan'),
+    ('How old is the chart?', 'two postings old'),
+    ('Where are the two lists?', 'in Dr Kanaan’s head and in the registry'),
+    ('Where will the new list be kept?', 'in the registry')],
+ b=[('There ____________ a letter for the host ministry.', 'is'),
+    ('There are two ____________ names on it.', 'dead'),
+    ('Write it ____________ this week.', 'down'),
+    ('Walls are where lists go to ____________.', 'die')]),
+
+d2=dict(
+ title='It explained a mission, not this mission',
+ fig=(['The explanation was very clear.', 'Was any of it about us?'],
+      ['Some of it.', 'Which part? That is the question.']),
+ cap='Nour and Firas Obeid, in the administration office, late afternoon.',
+ lines=[('Nour', 'I asked a system to explain how a small mission works.'),
+        ('Firas', 'And?'),
+        ('Nour', 'It was clear. Four sections, a registry, a duty officer.'),
+        ('Firas', 'That is true of most missions. Is it true here?'),
+        ('Nour', 'Mostly. It said the press office has a team.'),
+        ('Firas', 'Our press office is Layla, and Layla is also the website.'),
+        ('Nour', 'So the general answer is wrong.'),
+        ('Firas', 'No. It is general. A general answer is right about nothing in particular.'),
+        ('Nour', 'Then why use it at all?'),
+        ('Firas', 'To know what questions exist. Then you ask me, and I know this building.'),
+        ('Nour', 'And when you are on leave for three weeks in July?')],
+ unresolved=True,
+ a=[('What did Nour ask the system?', 'how a small mission works'),
+    ('What did the answer say about the press office?', 'that it has a team'),
+    ('Who is the press office here?', 'Layla, who is also the website'),
+    ('What is a general answer right about?', 'nothing in particular'),
+    ('What does Firas say the system is for?', 'knowing what questions exist')],
+ b=[('A general answer is right about ____________ in particular.', 'nothing'),
+    ('To know what ____________ exist.', 'questions'),
+    ('Our press office is ____________.', 'Layla'),
+    ('I know this ____________.', 'building')]),
+
+speak=[('There is, there are',
+        ['Student A: describe your floor in eight sentences with there is and there are.',
+         'Use a place word in every sentence.',
+         'Student B: draw it, then say three things that are wrong in the drawing.']),
+       ('Who signs what',
+        ['List five documents your office produces.',
+         'For each, say who prepares it and who signs it.',
+         'Where you do not know, say I do not know and name who would.']),
+       ('The general and the particular',
+        ['Say three things that are true of every office of your kind.',
+         'Then say three things that are true only of yours.',
+         'Your partner decides which list is more useful on a first day.'])],
+
+ext_title='A chart tells you the shape of a mission; a person tells you how it actually works',
+ext_fig=figs.datatable('THE CHART AND THE BUILDING',
+                       ['What the chart says', 'What is true today', 'Who knows'],
+                       [['11 posts', '9 people', 'administration'],
+                        ['a press office', '1 officer, part time', 'Layla Sayegh'],
+                        ['the Ambassador signs', 'the deputy signs most letters', 'Dr Kanaan'],
+                        ['4 sections', '4 sections', 'the chart is right here'],
+                        ['a registry clerk', 'the post is vacant', 'Firas Obeid'],
+                        ['3 key holders', '3 key holders', 'the chart is right here']]),
+ext_fig_cap='Four of the six rows are wrong, and the chart has hung there for two years.',
+ext=[
+ 'Every mission has two structures. The first is on paper. It has boxes, titles and a line '
+ 'from each box to the box above it. The second is the one that works. It is made of people '
+ 'who answer the telephone, people who know the host system, and people who sign.',
+ 'The paper structure is not useless. It tells you the shape of the thing and the language '
+ 'for it. A new officer who cannot name the sections cannot ask a sensible question. But a '
+ 'chart is a photograph, and it was taken some time ago.',
+ 'The working structure changes with every posting. An officer leaves and a task moves. A '
+ 'post is frozen and the work is shared. A local colleague has done the same job for twelve '
+ 'years and knows a procedure that is written down nowhere at all.',
+ 'A system can give you the paper structure of a mission in seconds. It is good at this, '
+ 'because the paper structure of missions is published in many places and is broadly the '
+ 'same everywhere. That is exactly why it cannot give you the second one.',
+ 'So use the general answer as a set of questions, not as a set of facts. Ask the system '
+ 'what sections a mission usually has. Then walk down the corridor and ask a person which of '
+ 'them exists here, who is in it this month, and who actually signs.',
+ 'Learning a building is therefore two jobs. A plain explanation from a system gives you the '
+ 'vocabulary and the shape of the place in four seconds, which is a real saving on a second '
+ 'morning. Asking a person gives you the building itself, and only the second job produces a '
+ 'fact you can act on this month.'],
+
+dp2=('Where new officers lose time', 'Administrative reviews report that new officers lose '
+     'more time to approval sent to the wrong person than to any other procedural error in '
+     'the first three months at a post.',
+     'Source: reported practice in diplomatic administration, 2025–2026.'),
+
+e_a=[('What are the two structures of a mission?', 'the paper one and the working one'),
+     ('What is a chart compared to?', 'a photograph taken some time ago'),
+     ('Why is a chart still useful?', 'it gives the shape and the language for asking'),
+     ('Why can a system give the paper structure easily?', 'it is published and much the same everywhere'),
+     ('What should you do with the general answer?', 'use it as questions to ask a person')],
+e_b=[('The paper structure is useless.', 'F'),
+     ('The working structure changes with every posting.', 'T'),
+     ('A chart is a photograph of a moment.', 'T'),
+     ('A system knows who signs in this mission.', 'F'),
+     ('Local colleagues may know unwritten procedures.', 'T'),
+     ('A new officer should avoid asking people.', 'F')],
+
+w_model='Purpose: so that a new officer knows who to send an approval to. Scope: the 4 '
+        'sections of this Mission; the residence staff are excluded. Inputs: the registry '
+        'file of signature blocks and 1 conversation with the deputy head of mission. '
+        'Criteria: 1 line per section with the section name, the officer, and what that '
+        'officer signs. Done: 1 page, in the registry, by Friday 17:00. Fallback: where a '
+        'post is vacant, write vacant and name the officer covering it.',
+w_fig=figs.spec_card('ONE PAGE, SIX DECISIONS',
+                     [('Purpose', 'so a new officer sends an approval to the right person'),
+                      ('Scope', 'the 4 sections; residence staff excluded'),
+                      ('Inputs', 'the registry file and 1 conversation with the deputy'),
+                      ('Criteria', '1 line per section: section, officer, what they sign'),
+                      ('Done', '1 page, in the registry, by Friday 17:00'),
+                      ('Fallback', 'vacant posts: write vacant and name the cover')]),
+w_fig_cap='The same six lines, now about people instead of letters.',
+w_task='Write six lines describing one section of your own organisation.',
+w_steps=['Line 1: the name of the section and how many people are in it.',
+         'Line 2: what the section is responsible for, in one sentence.',
+         'Line 3: where it is in the building, with a place word.',
+         'Line 4: who leads it, and who that person reports to.',
+         'Line 5: one thing it signs, and one thing it does not.',
+         'Line 6: one thing about it that is not on any chart.'],
+w_bank=['There are … officers in the … section.',
+        'The section is responsible for …',
+        'It is on the … floor, next to …',
+        'It is led by …, who reports to …',
+        'The section signs …, but it does not sign …'],
+w_check=['Is there a number in line 1?',
+         'Is there a place word in line 3?',
+         'Are two names given in line 4?',
+         'Does line 6 say something a chart could not show?'],
+
+t_title='Learning a building: asking for a plain explanation',
+t_fig=figs.split('TWO WAYS TO ASK',
+                 'A question that gets a general answer',
+                 ['How does an embassy work?',
+                  'What sections does a mission have?',
+                  'Who signs diplomatic letters?',
+                  'What is a registry for?'],
+                 'A question that gets you something usable',
+                 ['Which of these sections exist in a mission of 9 people?',
+                  'What questions should I ask about who signs here?',
+                  'Explain the word registry in two sentences.',
+                  'List the approvals a third secretary normally needs.']),
+t_fig_cap='The right-hand questions produce a list you can take to a colleague.',
+t_body=[
+ 'A system is very good at explaining a kind of thing. It has read a great deal about '
+ 'missions in general, and it will tell you in four seconds what sections a mission usually '
+ 'has and what a registry is for. That is a real and useful service on a second morning.',
+ 'It is not good at this building. It has never been inside it. It does not know that the '
+ 'press office is one person, that the registry clerk post is vacant, or that the deputy '
+ 'signs most letters. Those facts are not published anywhere, so nothing has read them.',
+ 'So use a general explanation to make questions, and use people to make facts. Ask the '
+ 'system what a mission usually has, and ask it to explain words you do not know. Then take '
+ 'the list down the corridor and ask which of it is true here, this month, in this building.'],
+t_say=[('Ask for the kind: ', 'Explain what a registry usually does, in two sentences.'),
+       ('Ask for questions: ', 'What should I ask a colleague about who signs here?'),
+       ('Then ask a person: ', 'Which of these is true in this Mission this month?')],
+t_bound='A general explanation does not know which posts are vacant, who is on leave or who '
+        'actually signs in this building, and it will not tell you that it does not know. It '
+        'describes the usual case with the same confidence either way.',
+t_a=[('Explain what a registry usually does, in two ____________.', 'sentences'),
+     ('What should I ask a colleague about who ____________ here?', 'signs'),
+     ('Which of these is true in this Mission this ____________?', 'month'),
+     ('Use a general explanation to make ____________.', 'questions'),
+     ('Use people to make ____________.', 'facts'),
+     ('It has never been ____________ this building.', 'inside')],
+t_b_rubric='Turn each general question into one you could usefully ask here.',
+t_b=[('How does an embassy work?', 'which of these sections exist in a mission of nine people'),
+     ('Who signs letters?', 'what should I ask the deputy about who signs what here'),
+     ('What is a strong room?', 'explain a strong room in two sentences, then ask who holds the keys'),
+     ('What does a press office do?', 'list what a one-person press desk can and cannot cover')],
+
+case=dict(
+ title='The Decision Room · The approval that went to the wrong desk',
+ brief=[
+  'A citizen in Ostport needs an emergency travel document on a Friday. The fee is waived '
+  'in hardship cases. The waiver needs an approval. Nour reads the chart on the wall and '
+  'sends the request to the Ambassador’s office, because the chart says he approves waivers.',
+  'The Ambassador is in Marnach until Monday. The request sits in his pigeonhole. The '
+  'citizen waits. At 15:40 Rim telephones from Ostport and asks why there is no answer.',
+  'Dr Kanaan has approved hardship waivers for two years. The chart was never changed. '
+  'She now has to decide what to do about Friday, and what to do about the chart.'],
+ exhibit=figs.datatable('THE WAIVER, FROM REQUEST TO SILENCE',
+                        ['Time', 'What happened', 'Where it went'],
+                        [['10:05', 'request written', 'Nour’s desk'],
+                         ['10:20', 'sent for approval', 'the Ambassador’s pigeonhole'],
+                         ['10:21', 'Ambassador in Marnach until Monday', 'nobody told Nour'],
+                         ['15:40', 'Ostport telephones', 'the consular section'],
+                         ['15:55', 'deputy approves in 4 minutes', 'Dr Kanaan'],
+                         ['16:30', 'document issued', 'Ostport']]),
+ exhibit_cap='The approval took four minutes. Finding the right desk took five hours and thirty-five minutes.',
+ exhibit_note='Nothing in the file was refused. The request was simply in a box with nobody '
+              'in it, and no part of the system noticed that.',
+ voices=[('Nour Ajami', 'third secretary',
+          'I used the only list in the building. It is on the wall.'),
+         ('Firas Obeid', 'administration',
+          'The wall is not a list. The wall is decoration with names on it.'),
+         ('Dr Suhair Kanaan', 'deputy head of mission',
+          'She did what we told her to do. We told her with a chart we never changed.')],
+ steps=[('Find it', 'Where did the request go, and why?'),
+        ('Compare it', 'How long did the approval take, and how long did the search take?'),
+        ('Infer it', 'What did nobody in the building know on Friday morning?'),
+        ('Weigh it', 'A citizen waiting against the work of keeping a list current.'),
+        ('Decide', 'What is fixed today, and what is fixed permanently?')],
+ analysis=[('Find it. Where did the request go first?', 'the Ambassador’s pigeonhole'),
+           ('Compare it. How long did the approval itself take?', 'four minutes'),
+           ('Infer it. Why did nobody notice for five hours?', 'the request was in an empty box'),
+           ('Weigh it. Who was actually the approver?', 'Dr Kanaan'),
+           ('Decide. What was the real fault?', 'a chart that was never updated')],
+ decision='Decide what Dr Kanaan does, in four lines.',
+ decision_steps=['Say what happens to a request when the named officer is absent.',
+                 'Say who keeps the list of approvers, and where it lives.',
+                 'Say how often it is checked, with a date.',
+                 'Say what happens to the chart on the wall.'],
+ bank=['An approval request names an officer and a deputy for that officer.',
+       'The list of approvers is kept in the registry by the administration section.',
+       'It is checked on the first working day of each month.',
+       'The chart on the wall is removed, because two lists are worse than one.'],
+ outcome='Dr Kanaan approves the waiver at 15:55 and the document is issued at 16:30. She '
+         'takes the chart off the wall the same afternoon. One list of approvers now lives '
+         'in the registry, with a named deputy for every line, and Firas checks it on the '
+         'first working day of each month. Nour writes it, because she is the person who '
+         'most recently did not know.',
+ outcome_q=[('When was the waiver approved?', '15:55'),
+            ('What happened to the chart?', 'it was taken off the wall'),
+            ('Where does the list live now?', 'in the registry'),
+            ('Who checks it, and when?', 'Firas, on the first working day of each month'),
+            ('Who wrote the new list?', 'Nour')],
+ tags=['manager_wrong', 'sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Tell me who does what here',
+ task=['Dr Kanaan asked Nour for something useful about the building.',
+       'This is the instruction, written down at the time, and what came back by noon.'],
+ draft=['Make me a list of who does what here.',
+        'Include the main people.',
+        'Say what each one is responsible for.',
+        'Keep it brief.',
+        'Make it useful for new arrivals.',
+        'I need it fairly soon.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says how many people, or how brief, or by when.',
+ asked=['A list of people', 'What each is responsible for', 'Something useful and brief'],
+ back=['31 names, including 4 who left', 'A paragraph each', 'Nine pages'],
+ gap='Nobody said how many people, which people, or what useful means.',
+ back_cap='Thirty-one names came back because nobody said nine.',
+ back_note='The list included former officers, because nobody said that the list was of '
+           'people now at the post, and the file it was drawn from goes back six years.',
+ diagnosis=[('“who does what here”', 'unscoped set'),
+            ('“the main people”', 'unstated criterion'),
+            ('“what each one is responsible for”', 'unscoped set'),
+            ('“keep it brief”', 'unbounded quantity'),
+            ('“useful for new arrivals”', 'unstated criterion'),
+            ('“fairly soon”', 'unbounded quantity')],
+ rewrite='Rewrite it on the six lines so that only one list can come back.',
+ scaffold=['why the list is needed',
+           'which people, and which are excluded',
+           'where the names come from',
+           'what each line must contain',
+           'how long it is and when it is due',
+           'what to do about a vacant post'],
+ bank=['Purpose: so that a new officer can …',
+       'Scope: the … officers now at the post; former officers excluded',
+       'Inputs: the registry file of signature blocks and the staff list of …',
+       'Criteria: 1 line each: name, section, and the … things that officer signs',
+       'Done: … page, by … on …',
+       'Fallback: a vacant post is listed as vacant with the officer covering it'],
+ check=['Is there a number of people?',
+        'Does it exclude people who have left?',
+        'Does it say what each line must contain?',
+        'Is there a day and a time?'],
+ model=['so that a new officer can send an approval to the right desk',
+        'the 9 officers now at the post; officers who have left are excluded',
+        'the registry file of signature blocks and the staff list of 1 September',
+        '1 line each: name, section, and the 2 things that officer signs',
+        '1 page, by 17:00 on Friday',
+        'a vacant post is listed as vacant, with the officer covering it named'],
+ cost='Nour produced 9 pages and Dr Kanaan read none of them. The second version took '
+      '40 minutes, fits on 1 page, and is still in the registry.'),
+
+feet=dict(
+ title='On Your Feet · A visitor at reception and nobody to send him to',
+ setting=[
+  'It is Wednesday at 16:20. The consular officer is at the hospital with a detained '
+  'citizen and will not be back today. A man arrives at reception. He is polite, tired and '
+  'has travelled four hours. He wants to talk to somebody about a visa for his daughter.',
+  'You are the only officer on the ground floor. You cannot decide visa cases, you do not '
+  'know this case, and you must not give him an answer that sounds like a decision. You '
+  'have about ninety seconds before he decides whether this Mission is any use to him.'],
+ ladder=[('What do you do?', 'give your role honestly, without a title he will misread'),
+         ('Can you look?', 'say what you can and cannot open'),
+         ('Four hours', 'the turn with no good answer')],
+ cap='Three turns. By the third one he is not asking about visas any more.',
+ turns=[('Turn 1 · Visitor', 'Good afternoon. Are you the person who deals with visas?'),
+        ('Turn 2 · Visitor', 'Could you just look at the file and tell me if it is moving?'),
+        ('Turn 3 · Visitor', 'I have travelled four hours to come here. What am I supposed to do now?')],
+ holds=['I am not the visa officer, and I will not pretend to be.',
+        'The officer who can answer this is back tomorrow morning.',
+        'I can write down your name and the reference now.',
+        'I am not able to open that file, and I would rather say so than guess.',
+        'May I give you the telephone number that reaches a person, not a recording?',
+        'What would be most useful to you in the next two days?'],
+ redline='You must not say that the application is fine, that it is moving, or that it will '
+         'be decided by any date, because you do not know and he will repeat whatever you '
+         'say to his family as a promise from the Mission.',
+ score=['Said clearly, in the first sentence, who he is and is not.',
+        'Offered one concrete thing: a name, a number, a time, a written note.',
+        'Did not open a file he is not authorised to open.',
+        'Did not give a date, a view of the case or any word that sounds like a decision.',
+        'Treated four hours of travel as a real fact, not an inconvenience.'],
+ a=[('What is the first thing to say?', 'that you are not the visa officer'),
+    ('When is the visa officer back?', 'tomorrow morning'),
+    ('What may you write down?', 'his name and the reference'),
+    ('What must you never say about the file?', 'that it is fine or moving'),
+    ('Why is a date so dangerous here?', 'he will repeat it to his family as a promise'),
+    ('How should the ninety seconds end?', 'with a question about what would help him most')]),
+
+rev_fig=figs.split('ASKING ABOUT A BUILDING',
+                   'A question with a general answer',
+                   ['How does a mission work?', 'Who signs letters?',
+                    'What is a registry?', 'What sections are there?'],
+                   'A question with an answer you can use',
+                   ['Who signs a hardship waiver here this month?',
+                    'Who covers when that officer is away?',
+                    'Where is the current list kept?',
+                    'Who checks it, and on what day?']),
+rev_fig_cap='Every question on the right names a person, a place or a day.',
+rev=dict(
+ read=[('How many people are in the Mission?', ['nine', 'eleven', 'four', 'three'], 0),
+       ('Who approves hardship waivers?',
+        ['the deputy head of mission', 'the Ambassador', 'the registry', 'the consul'], 0),
+       ('What happened to the chart on the wall?',
+        ['it was removed', 'it was corrected', 'it was copied', 'it was framed'], 0),
+       ('How often is the list of approvers checked?',
+        ['monthly', 'weekly', 'yearly', 'never'], 0)],
+ listen_text='There are four sections in this Mission. There is one meeting room on the '
+             'first floor. There is no window in the registry. There are three people who '
+             'may open the strong room, and the list of approvers is kept in the registry.',
+ listen=[('There are ____________ sections in this Mission.', 'four'),
+         ('There is one meeting room on the ____________ floor.', 'first'),
+         ('There is ____________ window in the registry.', 'no'),
+         ('The list of approvers is kept in the ____________.', 'registry')],
+ speak=['Describe your building to a partner using there is and there are eight times.',
+        'Then say who signs the three most common documents you produce.'],
+ write='Write six lines describing one section of your own organisation.',
+ vocab=[('Every document passes through the ____________.', 'registry'),
+        ('The person you report to is your ____________ manager.', 'line'),
+        ('Visitors wait in the ____________ area.', 'reception'),
+        ('A chart of sections and leaders is an ____________.', 'organigram')],
+ gram=[('There ____________ four sections here.', 'are'),
+       ('There ____________ no lift in this building.', 'is'),
+       ('The pigeonholes are ____________ the two windows.', 'between'),
+       ('There ____________ a meeting room on the first floor.', 'is')]),
+
+found=['Draw your own floor plan and label every room with there is or there are.',
+       'Write the list of who signs the five documents you produce most often.',
+       'Ask one local colleague to tell you one procedure that is written down nowhere.',
+       'Ask a system what questions a new officer should ask, then ask those questions.'],
+end_line='A chart is a photograph. A person is the building. Ask the person.',
+end_next='Next: Your Name, Your Title, Your Card')

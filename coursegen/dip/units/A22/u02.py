@@ -1,0 +1,543 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=2,
+title='Introductions in a Room of Strangers',
+gram='adjectives and adverbs of manner',
+ai='a guest list you can actually use in the room',
+strap='CEFR A2 · Grammar: adjectives and adverbs of manner · '
+      'AI: a guest list you can actually use in the room',
+cando=['introduce myself and others correctly and briefly',
+       'use adjectives and adverbs of manner accurately',
+       'join and leave a conversation politely',
+       'say what a prepared guest list may and may not tell me',
+       'write six lines of notes on people I met'],
+
+hero=('A ROOM OF SIXTY PEOPLE AND A LIST OF FORTY NAMES',
+      ['He greeted her warmly and called her the director of the agency.',
+       'She left that post in March, and three people heard him say it.'],
+      [(720, 'blue', 'short'), (720, 'purple', 'long'), (720, 'orange', 'short')]),
+hero_cap='The first twenty minutes of a reception, when everybody is still standing near the door.',
+
+warm=['How do you introduce yourself at an event where you know nobody?',
+      'What do you do when you cannot remember somebody’s name?',
+      'How do you leave a conversation politely?'],
+
+read=[
+ 'A reception is not a party. It is forty minutes of work, standing up, with a glass in one '
+ 'hand. An officer who arrives with no purpose speaks pleasantly to three people and '
+ 'remembers nothing. An officer who arrives with two names in mind usually gets both.',
+ 'An introduction in English is short. Your name, your rank, your mission. Then a question. '
+ 'Long introductions are a common mistake and they are not polite; they are a way of making '
+ 'the other person wait.',
+ 'Nour learns to join a circle carefully. She stands at the edge, waits for a pause, and is '
+ 'introduced by somebody. If nobody introduces her she waits for the speaker to finish, '
+ 'then says her name quietly and asks a question about what was being said.',
+ 'Before the event Ziad gives her a guest list. It has forty names. A system has added two '
+ 'lines about each: the organisation, the role, and one recent public activity. It took two '
+ 'minutes and it is extremely useful in the room.',
+ 'One line is wrong. A guest is described as the director of a cultural agency. She left '
+ 'that post in March and now runs something else. Ziad greets her warmly by the old title, '
+ 'in front of three other guests, and the correction is hers to make.'],
+
+dp1=('Why guest notes are dated', 'Missions that prepare biographical notes for events '
+     'commonly require each entry to carry the date of its latest confirmation, because '
+     'public sources describing a person’s role are frequently several months behind an '
+     'appointment or a departure.',
+     'Source: reported practice in diplomatic event preparation, 2025–2026.'),
+
+c_a=[('What is a reception, in this reading?', 'forty minutes of work, standing up'),
+     ('What does an officer with two names in mind usually get?', 'both of them'),
+     ('What are the three parts of an introduction?', 'name, rank and mission'),
+     ('How does Nour join a circle?', 'she stands at the edge and waits for a pause'),
+     ('How many names are on the guest list?', 'forty'),
+     ('What was wrong with one line?', 'the guest had left that post in March')],
+
+c_b=[('A reception is a social evening with no purpose.', 'F'),
+     ('Long introductions are polite.', 'F'),
+     ('Nour waits for a pause before speaking.', 'T'),
+     ('The guest list took two minutes to prepare.', 'T'),
+     ('The list was useless in the room.', 'F'),
+     ('Ziad used the correct title.', 'F')],
+
+c_c=[('He greeted her ____________. (warm)', 'warmly'),
+     ('She speaks ____________ in a large room. (quiet)', 'quietly'),
+     ('The list is extremely ____________. (use)', 'useful'),
+     ('He answered the question ____________. (careful)', 'carefully'),
+     ('It was a ____________ mistake. (common)', 'common'),
+     ('She left the circle ____________. (polite)', 'politely')],
+
+c_d=[('An adverb of manner usually describes ( a verb / a noun ).', ['a verb', 'a noun'], 0),
+     ('A good introduction is ( short / detailed ).', ['short', 'detailed'], 0),
+     ('Nour joins a circle by ( waiting for a pause / interrupting ).',
+      ['waiting for a pause', 'interrupting'], 0),
+     ('The guest list was ( useful with one error / useless ).',
+      ['useful with one error', 'useless'], 0),
+     ('The error came from ( an out-of-date public source / an invented fact ).',
+      ['an out-of-date public source', 'an invented fact'], 0)],
+
+c_e=('Adjective or adverb? Put each word in the right column.',
+     [('warmly', 'adverb'),
+      ('useful', 'adjective'),
+      ('quietly', 'adverb'),
+      ('common', 'adjective'),
+      ('politely', 'adverb'),
+      ('short', 'adjective')],
+     ['adjective', 'adverb']),
+
+v_fig_title='A ROOM AND THE PEOPLE IN IT',
+v_fig=[('people', 'an introduction'), ('doc', 'a guest list'), ('chart', 'a biographical note'),
+       ('clock', 'a departure'), ('key', 'a memory aid'), ('speech', 'small talk')],
+v_fig_cap='Six words for forty minutes of standing-up work.',
+
+vocab=[
+ ('an introduction', 'the act of making two people known to each other'),
+ ('a handshake', 'the greeting in which two people take each other’s hand'),
+ ('eye contact', 'the act of looking directly at the person you are speaking to'),
+ ('a greeting', 'the words used on meeting somebody'),
+ ('a mutual acquaintance', 'a person known to both of two others'),
+ ('a guest list', 'the list of people expected at an event'),
+ ('a biographical note', 'a short account of a person’s position and background'),
+ ('a conversation opener', 'the first question or remark that begins a conversation'),
+ ('a circle', 'a group of people standing and talking together'),
+ ('a host country official', 'an officer of the state in which a mission serves'),
+ ('a networking objective', 'the person or subject an officer intends to reach at an event'),
+ ('an approach', 'the way in which one person begins contact with another'),
+ ('a departure', 'the act of leaving a conversation or an event'),
+ ('small talk', 'light conversation that opens the way to something else'),
+ ('a formal introduction', 'an introduction using full names, titles and ranks'),
+ ('an informal introduction', 'an introduction using first names only'),
+ ('a pronunciation', 'the way a word or a name is said'),
+ ('a memory aid', 'something that helps a person remember a name or a fact'),
+ ('an excuse', 'a polite reason given for leaving or for not doing something'),
+ ('a connection', 'a useful link between two people or two organisations')],
+
+v_a=[('The act of making two people known is an ____________.', 'introduction'),
+     ('A person known to both of two others is a mutual ____________.', 'acquaintance'),
+     ('A short account of a person’s position is a ____________ note.', 'biographical'),
+     ('A group standing and talking is a ____________.', 'circle'),
+     ('Light conversation that opens the way is ____________.', 'small talk'),
+     ('The way a name is said is its ____________.', 'pronunciation'),
+     ('A polite reason for leaving is an ____________.', 'excuse'),
+     ('The person you intend to reach is your networking ____________.', 'objective')],
+
+v_b=[('Eye contact is the act of looking directly', 'at the person you are speaking to.'),
+     ('A formal introduction uses full names,', 'titles and ranks.'),
+     ('A host country official is an officer of the state', 'in which a mission serves.'),
+     ('A memory aid is something that helps a person', 'remember a name or a fact.'),
+     ('A conversation opener is the first question', 'that begins a conversation.')],
+
+g_title='Grammar: adjectives and adverbs of manner',
+g_rule=['An adjective describes a noun: a short introduction, a useful list.',
+        'An adverb of manner describes a verb: he spoke briefly, she listened carefully.',
+        'Most adverbs add -ly: warm/warmly, polite/politely, quiet/quietly.',
+        'Some are irregular: good/well, fast/fast, hard/hard, late/late.'],
+g_fig=('WRONG',
+       ['He greeted her warm.',
+        'She speaks very good English, she said it very good.',
+        'It was a politely question.',
+        'He arrived lately.'],
+       'RIGHT',
+       ['He greeted her warmly.',
+        'She speaks very good English and she said it very well.',
+        'It was a polite question.',
+        'He arrived late.'],
+       'four sentences with the wrong form',
+       'the same four, adjective and adverb in place'),
+g_fig_cap='If it describes the action, it needs -ly. If it describes the thing, it does not.',
+
+g_a=[('He greeted her ____________ (warm).', 'warmly'),
+     ('It was a ____________ (short) introduction.', 'short'),
+     ('She listened ____________ (careful) to the answer.', 'carefully'),
+     ('That is a ____________ (common) mistake.', 'common'),
+     ('He speaks English very ____________ (good).', 'well'),
+     ('They arrived ____________ (late) and left early.', 'late'),
+     ('She answered ____________ (polite) and changed the subject.', 'politely'),
+     ('It is an ____________ (extreme) useful list.', 'extremely'),
+     ('He works ____________ (hard) and says little.', 'hard')],
+
+g_b=[('He greeted her ( warm / warmly ).', ['warm', 'warmly'], 1),
+     ('She speaks English ( well / good ).', ['well', 'good'], 0),
+     ('It was a ( polite / politely ) question.', ['polite', 'politely'], 0),
+     ('He arrived ( late / lately ).', ['late', 'lately'], 0),
+     ('An ( extremely / extreme ) useful list.', ['extremely', 'extreme'], 0),
+     ('She listened ( carefully / careful ).', ['carefully', 'careful'], 0)],
+
+d1=dict(
+ title='Say less and ask something',
+ fig=(['I introduced myself for a minute.', 'A minute is forty seconds too long.'],
+      ['What should I say?', 'Name, rank, mission. Then a question.']),
+ cap='Ziad Mikhail and Nour, in the car on the way to a reception.',
+ lines=[('Ziad', 'How long is your introduction?'),
+        ('Nour', 'About a minute. I explain the section and what I do.'),
+        ('Ziad', 'A minute is forty seconds too long. Nobody is listening after twenty.'),
+        ('Nour', 'What should I say?'),
+        ('Ziad', 'Name, rank, mission. Then ask them something.'),
+        ('Nour', 'And if they ask what I do?'),
+        ('Ziad', 'Then tell them, briefly, because now they have asked.'),
+        ('Nour', 'That feels too short to be polite.'),
+        ('Ziad', 'Short is polite. Long is a way of making somebody wait.'),
+        ('Nour', 'What question do I ask?'),
+        ('Ziad', 'Anything that is not the weather and not politics. Their work is best.'),
+        ('Nour', 'Name, rank, mission, question. Twenty seconds.')],
+ a=[('How long was Nour’s introduction?', 'about a minute'),
+    ('How long should it be?', 'about twenty seconds'),
+    ('What are the three parts?', 'name, rank and mission'),
+    ('What comes after them?', 'a question'),
+    ('What makes a long introduction impolite?', 'it makes the other person wait')],
+ b=[('A minute is forty seconds too ____________.', 'long'),
+    ('Then ask them ____________.', 'something'),
+    ('____________ is polite.', 'Short'),
+    ('Their ____________ is best.', 'work')]),
+
+d2=dict(
+ title='She left that post in March',
+ fig=(['The note said director of the agency.', 'She left in March.'],
+      ['Where did the note come from?', 'A page nobody has updated.']),
+ cap='Ziad and Layla Sayegh, after a reception, in the car park.',
+ lines=[('Layla', 'You called her the director of the agency.'),
+        ('Ziad', 'That is what my note said.'),
+        ('Layla', 'She left that post in March. She runs the foundation now.'),
+        ('Ziad', 'Three people heard me.'),
+        ('Layla', 'Four. She corrected you very politely, which was worse.'),
+        ('Ziad', 'Where does a note like that come from?'),
+        ('Layla', 'A public page that nobody has updated since last year.'),
+        ('Ziad', 'The system did not invent it, then.'),
+        ('Layla', 'No. It read carefully and repeated something old.'),
+        ('Ziad', 'So every note needs a date on it.'),
+        ('Layla', 'And who checks forty dates before a reception on a Thursday?')],
+ unresolved=True,
+ a=[('What did Ziad call her?', 'the director of the agency'),
+    ('When did she leave that post?', 'in March'),
+    ('What does she run now?', 'the foundation'),
+    ('Where did the note come from?', 'a public page nobody had updated'),
+    ('What does every note need?', 'a date on it')],
+ b=[('She corrected you very ____________.', 'politely'),
+    ('It read carefully and repeated something ____________.', 'old'),
+    ('Every note needs a ____________ on it.', 'date'),
+    ('She runs the ____________ now.', 'foundation')]),
+
+speak=[('Twenty seconds',
+        ['Introduce yourself to your partner in twenty seconds, then ask a question.',
+         'Your partner times you and answers the question.',
+         'Do it four times, with a different question each time.']),
+       ('Adverbs of manner',
+        ['Describe how six colleagues speak, using adverbs of manner.',
+         'Your partner asks for an example of each.',
+         'Then describe how you speak when you are nervous.']),
+       ('Joining and leaving',
+        ['Student A and B are talking. Student C joins the circle.',
+         'C must join without interrupting and leave within two minutes.',
+         'Change roles until each of you has joined and left twice.'])],
+
+ext_title='A prepared list makes a room usable, and the preparation has a shelf life',
+ext_fig=figs.datatable('FORTY GUESTS, THREE LINES EACH',
+                       ['Line', 'Where it comes from', 'How fast it ages'],
+                       [['name', 'the invitation list', 'stable'],
+                        ['organisation', 'public pages', 'slow'],
+                        ['role', 'public pages', 'fast'],
+                        ['recent activity', 'press and announcements', 'fast'],
+                        ['what we want from them', 'the Mission', 'written by a person'],
+                        ['last confirmed', 'a telephone call', 'a date']]),
+ext_fig_cap='Two lines age in months. One line only exists if somebody at the post writes it.',
+ext=[
+ 'An officer who walks into a room of sixty strangers with no preparation is being paid to '
+ 'drink fruit juice. An officer with a guest list, three lines about each name and two '
+ 'objectives will leave with something the Mission did not have that morning.',
+ 'Building such a list used to take an afternoon. A system now does the dull part in two '
+ 'minutes: match the names, find the organisation, find the role, find one recent public '
+ 'activity. For forty guests, that is genuinely transformative.',
+ 'The weakness is in the word recent. Roles change faster than public pages. A person who '
+ 'left a post in March may still be described by it in November, and the system reports '
+ 'what it reads, carefully and accurately.',
+ 'Getting it wrong is not a small embarrassment. Calling a guest by a position they have lost, in front of others, forces them to correct you in public. The memory of that exchange will outlast anything else said that evening.',
+ 'So put a date beside every role and confirm the half-dozen that matter most. And add the '
+ 'line no system can supply: what the Mission actually wants from this person. That line is '
+ 'written by somebody at the post or it does not exist.'],
+
+dp2=('The line a system cannot write', 'Event preparation guidance commonly distinguishes '
+     'between researched background, which can be assembled automatically, and the '
+     'objective for each contact, which must be set locally by the officer who will be in '
+     'the room.',
+     'Source: reported practice in diplomatic event preparation, 2025–2026.'),
+
+e_a=[('What does an unprepared officer leave with?', 'nothing the Mission did not have'),
+     ('How long does the dull part now take?', 'two minutes for forty guests'),
+     ('Which line ages fastest?', 'the role'),
+     ('Why is a wrong title not a small matter?', 'the guest must correct you in public'),
+     ('Which line can no system supply?', 'what the Mission wants from this person')],
+e_b=[('Preparation used to take an afternoon.', 'T'),
+     ('A system can match names and find roles.', 'T'),
+     ('Public pages update as soon as a role changes.', 'F'),
+     ('A public correction is quickly forgotten.', 'F'),
+     ('Objectives must be set at the post.', 'T'),
+     ('Dates beside roles are unnecessary.', 'F')],
+
+w_model='Purpose: so that 3 officers can work a room of 60 people with the same information. '
+        'Scope: the 40 guests on the host’s list for 14 November; spouses not included. '
+        'Inputs: the host’s list, public sources, and the Mission’s own record of past '
+        'contact. Criteria: 4 lines per guest: name with pronunciation, organisation, role '
+        'with the date it was confirmed, and what the Mission wants. Done: 40 entries on 3 '
+        'pages, by 12:00 on 13 November. Fallback: a role that cannot be confirmed is '
+        'written as formerly, with the date.',
+w_fig=figs.spec_card('FOUR LINES FOR EACH OF FORTY',
+                     [('Purpose', '3 officers, 1 shared picture of the room'),
+                      ('Scope', 'the 40 guests on the host’s list'),
+                      ('Inputs', 'host list, public sources, our own contact record'),
+                      ('Criteria', 'name, organisation, role with date, what we want'),
+                      ('Done', '40 entries on 3 pages by 12:00 on 13 November'),
+                      ('Fallback', 'unconfirmed role: write formerly, with the date')]),
+w_fig_cap='The fourth line is the only one that turns research into work.',
+w_task='Write six lines of notes on people you met at an event.',
+w_steps=['Line 1: the name, with a note on how it is pronounced.',
+         'Line 2: the organisation and the role, as they described it themselves.',
+         'Line 3: one thing they told you that you did not know.',
+         'Line 4: one thing you promised, if you promised anything.',
+         'Line 5: whether they should be contacted again, and by whom.',
+         'Line 6: the date, because the note ages from today.'],
+w_bank=['… , pronounced …',
+        'Described herself as …, which differs from our note.',
+        'Told me that …',
+        'I undertook to …',
+        'Worth a follow-up by …, before …'],
+w_check=['Is the pronunciation noted?',
+         'Is the role as they described it, not as your list said?',
+         'Is any promise recorded?',
+         'Is there a date at the end?'],
+
+t_title='A guest list you can actually use in the room',
+t_fig=figs.split('FORTY NAMES',
+                 'Ask the system for this',
+                 ['match each name to an organisation',
+                  'find the stated role and its source',
+                  'find one recent public activity',
+                  'flag any name it could not match'],
+                 'Write this yourself',
+                 ['what the Mission wants from each one',
+                  'which three you must speak to',
+                  'who we have promised anything to before',
+                  'how the name is pronounced']),
+t_fig_cap='The left column is forty minutes saved. The right column is why you are going.',
+t_body=[
+ 'Ask for four things and refuse the fifth. Organisation, stated role, the source of the '
+ 'role, and one recent public activity. Ask it to flag any name it could not match, because '
+ 'an unmatched name is information too: it means a guest nobody has heard of.',
+ 'Then ask for the dates. Where did the role come from, and when was that page written? A '
+ 'role with a source and a date can be relied on for the six names that matter and '
+ 'confirmed by telephone for the two that matter most.',
+ 'The last line is yours. What does the Mission want from this person? A system can tell '
+ 'you who somebody is. It cannot know that the Mission has been trying to reach their '
+ 'department since June, because that fact exists only in your building.'],
+t_say=[('Ask for the source: ', 'Give the role and the page it came from, with its date.'),
+       ('Ask for the gaps: ', 'List the names you could not match to anything.'),
+       ('Write the last line: ', 'What we want: an introduction to the licensing section.')],
+t_bound='A guest list assembled from public sources does not know who has changed job since '
+        'the page was written, and it cannot know what your Mission wants from anybody. It '
+        'reports a role accurately and has no way of telling you that the role has gone.',
+t_a=[('Give the role and the ____________ it came from.', 'page'),
+     ('List the names you could not ____________.', 'match'),
+     ('What we want: an ____________ to the licensing section.', 'introduction'),
+     ('Roles change faster than public ____________.', 'pages'),
+     ('An unmatched name is ____________ too.', 'information'),
+     ('That fact exists only in your ____________.', 'building')],
+t_b_rubric='Say whether each line can be prepared automatically, and what you would add.',
+t_b=[('Organisation and stated role.', 'yes, with the source and the date of the page'),
+     ('What the Mission wants from this guest.', 'no: it is written at the post'),
+     ('One recent public activity.', 'yes, and check it is the right person'),
+     ('How the name is pronounced.', 'no: ask a local colleague before the event')],
+
+case=dict(
+ title='The Decision Room · The title that had gone',
+ brief=[
+  'For a reception on 14 November the Mission prepares notes on forty guests. The notes are '
+  'assembled in two minutes from public sources and are accurate on thirty-nine of the '
+  'forty. Nobody puts a date beside any role.',
+  'One guest is described as the director of a cultural agency. She left that post in March '
+  'and now runs an independent foundation that the Mission has been trying to reach since '
+  'June, for a scholarship programme.',
+  'Ziad greets her by the old title in front of three other guests. She corrects him '
+  'pleasantly. The conversation continues for four minutes and the scholarship programme is '
+  'never mentioned, because the moment has gone.'],
+ exhibit=figs.datatable('ONE GUEST, FOUR FACTS',
+                        ['Fact', 'In the note', 'Actually', 'Source of the error'],
+                        [['name', 'correct', 'correct', '—'],
+                         ['organisation', 'the cultural agency', 'the foundation', 'an old page'],
+                         ['role', 'director', 'former director', 'the same page'],
+                         ['recent activity', 'a speech in May', 'correct', '—'],
+                         ['what we want', 'not recorded', 'a scholarship programme', 'nobody wrote it'],
+                         ['last confirmed', 'no date', '—', 'no date was asked for']]),
+ exhibit_cap='Two of the six rows were wrong, and the two most useful rows were never filled in at all.',
+ exhibit_note='The system did not invent anything. It read a page written eleven months ago '
+              'and reported it accurately, which is exactly what it was asked to do.',
+ voices=[('Ziad Mikhail', 'commercial attaché',
+          'Thirty-nine notes out of forty were right. I would use the list again tomorrow.'),
+         ('Layla Sayegh', 'press and cultural officer',
+          'So would I. With a date beside every role, and the six that matter telephoned.'),
+         ('Dr Suhair Kanaan', 'deputy head of mission',
+          'And the line nobody wrote. We have wanted that foundation since June and it was not on the page.')],
+ steps=[('Find it', 'Which two rows were wrong?'),
+        ('Compare it', 'What did the note say and what was true?'),
+        ('Infer it', 'Why did the error survive to the reception?'),
+        ('Weigh it', 'Six telephone calls against a programme that lost four months.'),
+        ('Decide', 'What must a guest note carry, and who writes the last line?')],
+ analysis=[('Find it. Which two rows were wrong?', 'the organisation and the role'),
+           ('Compare it. What was she actually doing?', 'running an independent foundation'),
+           ('Infer it. Why did the error survive?', 'no date was asked for or given'),
+           ('Weigh it. What did it cost?', 'the scholarship approach was not made'),
+           ('Decide. Who writes the last line?', 'an officer at the post')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what every role line must carry.',
+                 'Say how many guests are confirmed by telephone, and which.',
+                 'Say who writes the objective line, and when.',
+                 'Say what happens to a note that cannot be confirmed.'],
+ bank=['Every role line carries its source and the date that source was written.',
+       'The 6 guests the Mission most wants are confirmed by telephone before the event.',
+       'The objective line is written by the officer who will attend, the day before.',
+       'An unconfirmed role is written as formerly …, with the date.'],
+ outcome='Layla telephones the foundation the next morning, apologises for nothing and asks '
+         'for a meeting, which is given. From December every role line carries a source and '
+         'a date, the six priority guests are confirmed by telephone, and the officer who '
+         'will attend writes the objective line the day before. The system still builds the '
+         'list in two minutes, which nobody wants to give up.',
+ outcome_q=[('Who telephoned the foundation?', 'Layla'),
+            ('What does every role line now carry?', 'its source and the date'),
+            ('How many guests are confirmed by telephone?', 'six'),
+            ('Who writes the objective line?', 'the officer who will attend'),
+            ('Is the system still used?', 'yes, for the list itself')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Give me something on the guests',
+ task=['An officer asked for background before a reception with sixty people.',
+       'This is the instruction as it was sent, and what came back.'],
+ draft=['Give me something on the guests.',
+        'The ones worth knowing about.',
+        'A bit of background on each.',
+        'Nothing too long.',
+        'Make sure it is current.',
+        'I need it before the event.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says how many guests, how much background, or by when.',
+ asked=['Something on the guests', 'The ones worth knowing', 'Current background'],
+ back=['60 entries', 'Up to 2 paragraphs each', 'No dates on any role'],
+ gap='Nobody said how many, which guests, how long each entry is, or how current is tested.',
+ back_cap='Sixty entries arrived, nine pages long, and not one of them carried a date.',
+ back_note='Worth knowing about was read as everybody, because no test was given. Current '
+           'was read as taken from the most recent page found, which is not the same thing.',
+ diagnosis=[('“something on the guests”', 'unscoped set'),
+            ('“the ones worth knowing about”', 'unstated criterion'),
+            ('“a bit of background”', 'unbounded quantity'),
+            ('“nothing too long”', 'unbounded quantity'),
+            ('“make sure it is current”', 'unstated criterion'),
+            ('“the guests”', 'unscoped set')],
+ rewrite='Rewrite it on the six lines so that one usable list can come back.',
+ scaffold=['why the notes are needed and who will carry them',
+           'which guests, and how many',
+           'which sources may be used',
+           'what each entry contains, line by line',
+           'how long the whole thing is, and when it is due',
+           'what to do with a role that cannot be dated'],
+ bank=['Purpose: so that … officers can …',
+       'Scope: the … guests on the host’s list; spouses excluded',
+       'Inputs: the host list, public sources with dates, our own contact record',
+       'Criteria: … lines each: name, organisation, role with source and date, objective',
+       'Done: … entries on … pages, by … on …',
+       'Fallback: a role that cannot be dated is written as formerly …'],
+ check=['Is there a number of guests?',
+        'Does it say which sources count?',
+        'Does every entry carry a date?',
+        'Is there a page limit and a deadline?'],
+ model=['so that 3 officers can work the room with the same picture of it',
+        'the 40 guests on the host’s list of 7 November; spouses excluded',
+        'the host list, public sources with their dates, and our own contact record',
+        '4 lines each: name with pronunciation, organisation, role with source and date, objective',
+        '40 entries on 3 pages, by 12:00 on 13 November',
+        'a role that cannot be dated is written as formerly …, with the year'],
+ cost='60 entries over 9 pages were read by nobody in full and produced 1 public correction. '
+      '40 entries on 3 pages were carried by 3 officers and produced 2 meetings.'),
+
+feet=dict(
+ title='On Your Feet · Joining a circle of four strangers',
+ setting=[
+  'You are at a reception and the person who brought you has been taken away. Four people '
+  'are standing in a circle, talking in English about something you half hear. One of them '
+  'is a guest you were sent to meet.',
+  'You have to get into the circle, be introduced, and reach your objective, all without '
+  'interrupting and without talking about yourself for more than twenty seconds. You have '
+  'about ninety seconds before the circle breaks up and your guest leaves with somebody else.'],
+ ladder=[('Standing outside', 'enter without interrupting'),
+         ('Who are you?', 'twenty seconds, then a question'),
+         ('A question to you', 'the turn that hands you the room')],
+ cap='Three turns. The third one gives you what you came for, if you are ready.',
+ turns=[('Turn 1 · A guest', '(the circle pauses; one of them half turns towards you)'),
+        ('Turn 2 · The same guest', 'I am sorry, I do not think we have met. You are with…?'),
+        ('Turn 3 · Your objective', 'Ah — and what does your Mission make of the new licensing rules?')],
+ holds=['May I join you? I did not want to interrupt.',
+        'Nour Ajami, third secretary at the Mission of our country.',
+        'I was listening to what you said about the port — may I ask what happens next?',
+        'I am not the right person to answer that, but I can tell you who is.',
+        'My colleague follows the licensing work closely. May I introduce you?',
+        'Before you go, may I take a card? I would like to write to you properly.'],
+ redline='You must not give a view on the licensing rules, because you have no instruction '
+         'and the answer will be repeated as the Mission’s position. Do not talk about '
+         'yourself for longer than twenty seconds, and do not stay once the circle has '
+         'given you what you came for.',
+ score=['Entered the circle in one short sentence, without cutting anybody off.',
+        'Gave name, rank and mission in under twenty seconds.',
+        'Asked a question about something already being discussed.',
+        'Declined the policy question and offered a named colleague instead.',
+        'Left with a card or an agreed next step.'],
+ a=[('How do you enter the circle?', 'with one short sentence, after a pause'),
+    ('What three things does your introduction give?', 'name, rank and mission'),
+    ('What should your first question be about?', 'something already being discussed'),
+    ('What do you do with the licensing question?', 'decline it and name the right colleague'),
+    ('How long may you talk about yourself?', 'about twenty seconds'),
+    ('What do you leave with?', 'a card or an agreed next step')]),
+
+rev_fig=figs.split('IN THE ROOM',
+                   'A guest note you cannot use',
+                   ['Director of the agency.',
+                    'Important person.',
+                    'Involved in culture.',
+                    'Worth meeting.'],
+                   'A guest note you can use',
+                   ['Former director; now runs the foundation (page of May).',
+                    'Confirmed by telephone, 12 November.',
+                    'Spoke on heritage funding in May.',
+                    'We want: a scholarship meeting, asked since June.']),
+rev_fig_cap='The right-hand column carries a date, a source and a purpose.',
+rev=dict(
+ read=[('How long should an introduction be?',
+        ['about twenty seconds', 'about a minute', 'two minutes', 'as long as needed'], 0),
+       ('Which line of a guest note ages fastest?',
+        ['the role', 'the name', 'the organisation', 'the pronunciation'], 0),
+       ('Who writes the objective line?',
+        ['the officer attending', 'the system', 'the host', 'the capital'], 0),
+       ('How many priority guests are confirmed by telephone?',
+        ['six', 'forty', 'two', 'none'], 0)],
+ listen_text='Ask for the organisation, the stated role, the source of the role and one '
+             'recent activity. Ask it to flag the names it could not match. Then write the '
+             'line it cannot write: what the Mission wants from this person.',
+ listen=[('Ask for the ____________ of the role.', 'source'),
+         ('Ask it to flag the names it could not ____________.', 'match'),
+         ('Write the line it cannot ____________.', 'write'),
+         ('What the Mission ____________ from this person.', 'wants')],
+ speak=['Introduce yourself to three partners in twenty seconds each, with a question.',
+        'Each partner then introduces you to a fourth person, formally.'],
+ write='Write six lines of notes on people you met at an event.',
+ vocab=[('A group standing and talking is a ____________.', 'circle'),
+        ('A short account of a person’s position is a ____________ note.', 'biographical'),
+        ('A polite reason for leaving is an ____________.', 'excuse'),
+        ('The way a name is said is its ____________.', 'pronunciation')],
+ gram=[('He greeted her ____________. (warm)', 'warmly'),
+       ('She speaks English very ____________. (good)', 'well'),
+       ('It was a ____________ question. (polite)', 'polite'),
+       ('They arrived ____________. (late)', 'late')]),
+
+found=['Practise a twenty-second introduction until it is the same every time.',
+       'Add a source and a date to every role in your next event list.',
+       'Write the objective line for the five guests you most want to reach.',
+       'Learn five ways to leave a conversation politely and use one each week.'],
+end_line='The list tells you who they are. Only you know what the Mission wants from them.',
+end_next='Next: Small Talk With a Purpose')

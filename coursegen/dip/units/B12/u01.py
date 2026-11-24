@@ -1,0 +1,548 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=1,
+title='A Field Visit Is Approved',
+gram='the past perfect in a sequence of events',
+ai='a briefing pack for a visit, from open sources',
+strap='CEFR B1 · Grammar: the past perfect in a sequence of events · '
+      'AI: a briefing pack for a visit, from open sources',
+cando=['order past events correctly with the past perfect',
+       'describe how a field visit is planned and approved',
+       'build a background pack from open sources',
+       'say what an open-source pack cannot contain',
+       'write a six-line visit plan'],
+
+hero=('FOURTEEN PAGES ABOUT A PROVINCE, AND NOT ONE NAME WORTH HAVING',
+      ['The pack was accurate, current and beautifully organised.',
+       'Everything in it had been published by somebody who wanted it published.'],
+      [(720, 'teal', 'long'), (720, 'grey', 'short'), (720, 'blue', 'short')]),
+hero_cap='A road out of Calmar at seven in the morning, two hundred kilometres before the first meeting.',
+
+warm=['When did you last travel for work outside a capital city?',
+      'What do you need to know before you arrive somewhere you have never been?',
+      'Who decides whether a journey is worth making?'],
+
+read=[
+ 'A mission that never leaves the capital knows one city and calls it a country. Ziad '
+ 'Mikhail had been at the post for fourteen months before he made his first field visit, '
+ 'and by then he had formed several opinions that the visit corrected in two days.',
+ 'A field visit is approved, not simply taken. Somebody writes a visit objective, somebody '
+ 'checks the cost, somebody looks at the roads and the season, and somebody senior signs. '
+ 'The Mission has a duty of care that does not stop at the city boundary.',
+ 'Before he left, Ziad asked a system for a background pack on the province. It came back '
+ 'in four minutes: fourteen pages, well organised, with the main industries, the recent '
+ 'public investments, the names of the regional authorities and a short history.',
+ 'It was accurate. Every figure checked out. The organisation was better than anything he '
+ 'would have assembled by Thursday evening. He read it twice on the road and it was worth '
+ 'the four minutes many times over.',
+ 'It was also entirely made of things that somebody had chosen to publish. There was '
+ 'nothing in it about who actually decides a licence in that province, which families do '
+ 'not speak to each other, or why the new road stops four kilometres short of the border.'],
+
+dp1=('What open sources can and cannot give', 'Analytical practice commonly distinguishes '
+     'open-source background, which establishes structure and chronology, from field '
+     'reporting, which establishes influence and intent, and treats the first as '
+     'preparation for the second rather than a substitute.',
+     'Source: reported analytical practice, 2025–2026.'),
+
+c_a=[('How long had Ziad been at the post?', 'fourteen months'),
+     ('What does a mission that never leaves the capital know?', 'one city'),
+     ('Name three things that are checked before a visit.', 'the objective, the cost, the roads'),
+     ('How long did the background pack take?', 'four minutes'),
+     ('What was in it?', 'industries, investments, authorities and a short history'),
+     ('What was missing?', 'who decides, which families do not speak, why the road stops')],
+
+c_b=[('Ziad had visited the province in his first month.', 'F'),
+     ('A field visit requires approval.', 'T'),
+     ('The pack contained errors of fact.', 'F'),
+     ('The pack was better organised than his own would have been.', 'T'),
+     ('Open sources explain who really decides.', 'F'),
+     ('The duty of care stops at the city boundary.', 'F')],
+
+c_c=[('He ____________ been at the post for fourteen months before he went.', 'had'),
+     ('By the time he arrived, the meeting ____________ already begun.', 'had'),
+     ('She ____________ read the pack twice before the first meeting.', 'had'),
+     ('They ____________ not told him that the road was closed.', 'had'),
+     ('After he ____________ met the governor, he understood the licence question.', 'had'),
+     ('The investment ____________ been announced in March, before the election.', 'had')],
+
+c_d=[('The past perfect shows ( the later one / the earlier of two past events ).', ['the later one', 'the earlier of two past events'], 1),
+     ('An open-source pack is made of ( what somebody published / confidential material ).',
+      ['what somebody published', 'confidential material'], 0),
+     ('The pack was ( accurate but incomplete / full of errors ).',
+      ['accurate but incomplete', 'full of errors'], 0),
+     ('Field visits are ( approved / taken at will ).', ['approved', 'taken at will'], 0),
+     ('A mission that never travels knows ( one city / the country ).',
+      ['one city', 'the country'], 0)],
+
+c_e=('Earlier or later? Put each event in the right column.',
+     [('he had been at the post fourteen months', 'earlier'),
+      ('he made his first field visit', 'later'),
+      ('the investment had been announced', 'earlier'),
+      ('the election took place', 'later'),
+      ('she had read the pack twice', 'earlier'),
+      ('the meeting began', 'later')],
+     ['earlier', 'later']),
+
+v_fig_title='BEFORE THE CAR LEAVES',
+v_fig=[('doc', 'a background pack'), ('map', 'a journey plan'), ('key', 'a travel clearance'),
+       ('clock', 'a check-in protocol'), ('chart', 'a visit objective'), ('people', 'a local host')],
+v_fig_cap='Six words for the hour of work that decides whether two days are worth anything.',
+
+vocab=[
+ ('a field visit', 'an official journey away from the capital to see a place and its people'),
+ ('a travel clearance', 'the permission required before an officer travels within the host state'),
+ ('a security brief', 'the written account of the risks of a journey and how they are managed'),
+ ('a background pack', 'the collected material prepared for a visitor before a visit'),
+ ('an open source', 'information anybody may lawfully obtain without special access'),
+ ('a source list', 'the record of where each piece of information came from'),
+ ('a duty of care', 'the obligation of an employer for the safety of its staff'),
+ ('a risk assessment', 'the written judgement of what may go wrong and what is done about it'),
+ ('a per diem', 'the daily allowance paid to an officer travelling on duty'),
+ ('a mission order', 'the document authorising an officer to travel and stating the purpose'),
+ ('a regional office', 'a government office outside the capital, serving one area'),
+ ('a local host', 'the person or body receiving a visitor in a place'),
+ ('a road condition', 'the state of a route at a given season or hour'),
+ ('a journey plan', 'the written route, timings and stopping points of a trip'),
+ ('an accommodation booking', 'the reservation of a place to stay'),
+ ('a check-in protocol', 'the agreed times at which a traveller reports that they are safe'),
+ ('an emergency contact', 'the person to be telephoned if something goes wrong'),
+ ('a visit objective', 'the single thing the journey is meant to achieve'),
+ ('a cost estimate', 'the expected total expense of an activity'),
+ ('a return report', 'the account written after a journey, for those who did not go')],
+
+v_a=[('The permission required before travelling is a travel ____________.', 'clearance'),
+     ('Information anybody may lawfully obtain is an ____________.', 'open source'),
+     ('The daily allowance for an officer on duty is a ____________.', 'per diem'),
+     ('The agreed times for reporting safety are a check-in ____________.', 'protocol'),
+     ('The single thing a journey must achieve is a visit ____________.', 'objective'),
+     ('The written route and timings are a ____________ plan.', 'journey'),
+     ('The account written after a journey is a ____________ report.', 'return'),
+     ('The obligation of an employer for staff safety is a duty of ____________.', 'care')],
+
+v_b=[('A risk assessment is the written judgement of what may go wrong', 'and what is done about it.'),
+     ('A mission order is the document authorising an officer to travel', 'and stating the purpose.'),
+     ('A regional office is a government office outside the capital,', 'serving one area.'),
+     ('A source list is the record of where', 'each piece of information came from.'),
+     ('A local host is the person or body', 'receiving a visitor in a place.')],
+
+g_title='Grammar: the past perfect in a sequence of events',
+g_rule=['had + past participle marks the earlier of two past events.',
+        'Use it with before, after, by the time, already, never … until.',
+        'The later event stays in the past simple: After he had read it, he left.',
+        'Where the order is already clear, the past simple is often enough.'],
+g_fig=('UNCLEAR ORDER',
+       ['He was at the post fourteen months. He made a visit.',
+        'The meeting began. He arrived.',
+        'They did not tell him. The road was closed.',
+        'She read the pack. The first meeting started.'],
+       'CLEAR ORDER',
+       ['He had been at the post fourteen months before he made a visit.',
+        'By the time he arrived, the meeting had already begun.',
+        'They had not told him that the road was closed.',
+        'She had read the pack before the first meeting started.'],
+       'four pairs the reader must put in order',
+       'the same four, already in order'),
+g_fig_cap='The past perfect does the reader’s work for them.',
+
+g_a=[('He ____________ (be) at the post fourteen months before he travelled.', 'had been'),
+     ('By the time he arrived, the meeting ____________ (begin).', 'had begun'),
+     ('They ____________ (not tell) him that the road was closed.', 'had not told'),
+     ('After he ____________ (read) the pack, he changed two questions.', 'had read'),
+     ('The investment ____________ (be) announced before the election.', 'had been'),
+     ('She ____________ (never visit) the province until that week.', 'had never visited'),
+     ('When he got there, the governor ____________ (already leave).', 'had already left'),
+     ('He realised that he ____________ (form) his opinion from one city.', 'had formed'),
+     ('By March they ____________ (complete) only four kilometres of the road.', 'had completed')],
+
+g_b=[('By the time he arrived, the meeting ( had begun / begun ).', ['had begun', 'begun'], 0),
+     ('He ( had been / was being ) at the post a year before he travelled.',
+      ['had been', 'was being'], 0),
+     ('After he ( had read / has read ) it, he left.', ['had read', 'has read'], 0),
+     ('They ( had not told / did not told ) him.', ['had not told', 'did not told'], 0),
+     ('She had ( never visited / never visit ) the province.',
+      ['never visited', 'never visit'], 0),
+     ('The governor ( had already left / already leaving ).',
+      ['had already left', 'already leaving'], 0)],
+
+d1=dict(
+ title='Fourteen months and one city',
+ fig=(['You have been here fourteen months.', 'And seen one city.'],
+      ['It is where the ministries are.', 'It is where the ministries are.']),
+ cap='Dr Suhair Kanaan and Ziad Mikhail, approving a mission order.',
+ lines=[('Dr Kanaan', 'You had been here fourteen months before you asked to travel.'),
+        ('Ziad', 'The ministries are in Calmar.'),
+        ('Dr Kanaan', 'They are. And the licences are signed in the provinces.'),
+        ('Ziad', 'I have read a great deal about the provinces.'),
+        ('Dr Kanaan', 'So had I, before I went. I was wrong about three things in two days.'),
+        ('Ziad', 'Which three?'),
+        ('Dr Kanaan', 'Who decides, who is listened to, and how long anything takes.'),
+        ('Ziad', 'None of which is published.'),
+        ('Dr Kanaan', 'None of which is published anywhere, in any country, ever.'),
+        ('Ziad', 'Then what is the pack for?'),
+        ('Dr Kanaan', 'So that you do not spend your first morning learning what a map could have told you.'),
+        ('Ziad', 'Structure from the pack. People from the road.')],
+ a=[('How long had Ziad been at the post?', 'fourteen months'),
+    ('Where are licences signed?', 'in the provinces'),
+    ('What three things was Dr Kanaan wrong about?', 'who decides, who is listened to, how long things take'),
+    ('Where are those things published?', 'nowhere'),
+    ('What is the pack for?', 'so the first morning is not spent on what a map could tell you')],
+ b=[('You ____________ been here fourteen months.', 'had'),
+    ('So ____________ I, before I went.', 'had'),
+    ('None of which is ____________ .', 'published'),
+    ('Structure from the pack. People from the ____________ .', 'road')]),
+
+d2=dict(
+ title='Everything in it had been published on purpose',
+ fig=(['Fourteen pages, four minutes.', 'And all of it accurate.'],
+      ['So what is wrong with it?', 'Nothing. Ask what is not in it.']),
+ cap='Ziad and Rim Haddad, in the car, somewhere after the second checkpoint.',
+ lines=[('Ziad', 'The pack is accurate. I have checked eleven figures.'),
+        ('Rim', 'I believe you. Ask a different question.'),
+        ('Ziad', 'Which question?'),
+        ('Rim', 'Who published each of those eleven figures, and why.'),
+        ('Ziad', 'The regional office, mostly. And the chamber of commerce.'),
+        ('Rim', 'Both of whom want investment, and neither of whom will mention a dispute.'),
+        ('Ziad', 'So the pack is true and shaped.'),
+        ('Rim', 'Everything in it had been published by somebody who wanted it published.'),
+        ('Ziad', 'And what is not published?'),
+        ('Rim', 'Why the road stops four kilometres short of the border.'),
+        ('Ziad', 'Which we will find out by asking three people this afternoon.'),
+        ('Rim', 'And what do we do in a province where nobody will tell us even that?')],
+ unresolved=True,
+ a=[('How many figures had Ziad checked?', 'eleven'),
+    ('What question should he ask instead?', 'who published each figure, and why'),
+    ('Who published most of them?', 'the regional office and the chamber of commerce'),
+    ('What will they not mention?', 'a dispute'),
+    ('What is not published?', 'why the road stops short of the border')],
+ b=[('The pack is true and ____________ .', 'shaped'),
+    ('Everything in it ____________ been published on purpose.', 'had'),
+    ('Why the road ____________ four kilometres short.', 'stops'),
+    ('By ____________ three people this afternoon.', 'asking')]),
+
+speak=[('Put it in order',
+        ['Describe six past sequences from your work with the past perfect.',
+         'Your partner says which event came first.',
+         'Any sentence where the order is unclear is rewritten.']),
+       ('Before you travel',
+        ['Plan a two-day visit aloud: objective, route, host, check-in, cost.',
+         'Your partner asks what could go wrong at each stage.',
+         'Decide which single thing you would not travel without.']),
+       ('Who published it?',
+        ['Name four facts you rely on at work.',
+         'For each, say who published it and why they might have.',
+         'Your partner says which of the four they would check.'])],
+
+ext_title='Open sources give you the structure of a place; the road gives you the people',
+ext_fig=figs.datatable('FOURTEEN PAGES, SIX QUESTIONS',
+                       ['Question', 'Answered by the pack?', 'Answered by the visit?'],
+                       [['what industries are there', 'yes', '—'],
+                        ['what has been invested, and when', 'yes', '—'],
+                        ['who holds which office', 'yes', '—'],
+                        ['who actually decides a licence', 'no', 'yes'],
+                        ['which families do not speak', 'no', 'yes'],
+                        ['why the road stops short', 'no', 'yes']]),
+ext_fig_cap='Three questions answered in four minutes, three in two days, and nobody needed to choose.',
+ext=[
+ 'A background pack built from open sources is one of the best uses of a system in this '
+ 'course. Fourteen pages in four minutes, organised, sourced and accurate, is better '
+ 'preparation than most officers assemble in an evening, and it costs almost nothing.',
+ 'It gives you structure. Who holds which office, what has been built, which industries '
+ 'matter, what the population is, what happened in the last five years. All of this is '
+ 'published, stable and checkable, and knowing it stops you wasting a first meeting.',
+ 'What it cannot give you is influence. Open sources describe formal authority. They do not '
+ 'describe who is listened to, which official has been quietly moved aside, or which family '
+ 'controls the only working port on that coast.',
+ 'There is a second limit, and it is the one officers forget. Everything in an open-source '
+ 'pack has been published by somebody with a reason to publish it. A regional investment '
+ 'office does not publish the dispute that is holding up the road.',
+ 'So read the pack as the map and the visit as the territory. Use the four minutes to learn '
+ 'the structure, then spend the two days on the three questions no document will ever '
+ 'answer: who decides, who is listened to, and what nobody will say first.'],
+
+dp2=('Why publication is a filter', 'Open-source analysis commonly treats the motive for '
+     'publication as part of the evidence, since material reaches the public domain '
+     'because somebody chose to place it there, and silence on a subject is not an absence '
+     'of fact.',
+     'Source: reported open-source practice, 2025–2026.'),
+
+e_a=[('What does a background pack give you?', 'structure: offices, industries, investments, history'),
+     ('What can it not give you?', 'influence: who is listened to and who really decides'),
+     ('What has everything in it in common?', 'somebody chose to publish it'),
+     ('What will an investment office not publish?', 'a dispute holding up a road'),
+     ('What are the three questions for the road?', 'who decides, who is listened to, what nobody says first')],
+e_b=[('A pack of this kind takes an evening to assemble.', 'F'),
+     ('Open sources describe formal authority well.', 'T'),
+     ('Silence in open sources means nothing happened.', 'F'),
+     ('The motive for publication is part of the evidence.', 'T'),
+     ('The pack and the visit answer the same questions.', 'F'),
+     ('Knowing the structure saves a first meeting.', 'T')],
+
+w_model='Purpose: so that the Mission learns who decides licences in the eastern province. '
+        'Scope: 2 days, 3 towns; the port is not included. Inputs: the open-source pack of '
+        '4 March and the 2 contacts given by the chamber of commerce. Criteria: 6 lines '
+        'giving the objective, the route with timings, the local host at each stop, the '
+        'check-in times, the cost estimate, and what will be reported on return. Done: 6 '
+        'lines approved by the deputy head of mission by 6 March. Fallback: if a road is '
+        'closed, the Marnach leg is dropped rather than the first meeting.',
+w_fig=figs.spec_card('SIX LINES BEFORE A CAR LEAVES',
+                     [('Purpose', 'learn who decides licences in the eastern province'),
+                      ('Scope', '2 days, 3 towns, port excluded'),
+                      ('Inputs', 'the pack of 4 March and 2 named contacts'),
+                      ('Criteria', 'objective, route, hosts, check-in, cost, report'),
+                      ('Done', 'approved by the deputy by 6 March'),
+                      ('Fallback', 'road closed: drop the Marnach leg, not the first meeting')]),
+w_fig_cap='A visit plan is a safety document and a purpose document at the same time.',
+w_task='Write a six-line plan for a visit outside your own capital.',
+w_steps=['Line 1: the one thing the journey must achieve.',
+         'Line 2: the route and the timings, with the worst journey time.',
+         'Line 3: who is expecting you at each stop, by name.',
+         'Line 4: the check-in times and who you report to.',
+         'Line 5: the cost estimate, with the largest single item.',
+         'Line 6: what you will write on return, and by when.'],
+w_bank=['Objective: to establish … .',
+        'Route: … to … (… hours at this season), then … .',
+        'Expected by: … at … ; … at … .',
+        'Check-in at … and … , to … .',
+        'On return: a … -line report by … .'],
+w_check=['Does line 1 name one objective, not three?',
+         'Is the worst journey time used, not the average?',
+         'Is a person named at each stop?',
+         'Is there a check-in time and a named recipient?'],
+
+t_title='A briefing pack for a visit, from open sources',
+t_fig=figs.split('BEFORE A FIELD VISIT',
+                 'Ask for this',
+                 ['who holds which office, with dates',
+                  'what has been built or announced, and when',
+                  'the industries and the main employers',
+                  'a source for every figure'],
+                 'Find this on the road',
+                 ['who actually signs a licence',
+                  'who is listened to in the room',
+                  'why a project has stopped',
+                  'what nobody mentions first']),
+t_fig_cap='The left column is four minutes. The right column is the reason you are driving.',
+t_body=[
+ 'Ask for structure and for sources. Who holds which office and since when, what has been '
+ 'announced and by whom, which industries employ people, what the population is. Then ask '
+ 'for a source beside every figure, because a pack without sources cannot be argued with.',
+ 'Ask also for the publication question, which most officers never put: who published each '
+ 'of these, and what would they have had a reason not to publish? That single question '
+ 'turns a pack from a summary into evidence with a known shape.',
+ 'Then leave the pack in the car. The three things you are driving for are who actually '
+ 'decides, who is actually listened to, and what nobody mentions first. None of them is '
+ 'published anywhere, and all three are learned by sitting in rooms.'],
+t_say=[('Ask for structure: ', 'Who holds which office in this province, and since when?'),
+       ('Ask for sources: ', 'Give the source and the date beside every figure.'),
+       ('Ask the filter question: ', 'Who published these, and what would they omit?')],
+t_bound='An open-source pack contains only what somebody chose to publish, so it describes '
+        'formal authority and not influence. It cannot tell you who is listened to, and it '
+        'will not mention the dispute that nobody has written down.',
+t_a=[('Who holds which ____________ in this province?', 'office'),
+     ('Give the ____________ and the date beside every figure.', 'source'),
+     ('Who published these, and what would they ____________?', 'omit'),
+     ('It describes formal authority and not ____________.', 'influence'),
+     ('It cannot tell you who is ____________ to.', 'listened'),
+     ('The dispute that nobody has written ____________.', 'down')],
+t_b_rubric='Say whether each question can be answered from open sources.',
+t_b=[('Who is the governor, and since when?', 'yes: formal office-holding is published'),
+     ('Who actually decides a licence?', 'no: influence is not published anywhere'),
+     ('What investment was announced in March?', 'yes, with the source and the announcer'),
+     ('Why does the new road stop short?', 'no: this is learned by asking people on the spot')],
+
+case=dict(
+ title='The Decision Room · The road that stopped four kilometres short',
+ brief=[
+  'The Mission is asked whether to support a transport project in the eastern province. The '
+  'open-source pack shows a new road, announced two years ago, with the budget, the '
+  'contractor and the completion date, all accurate.',
+  'On the second day of a field visit Ziad sees that the road stops four kilometres short '
+  'of the border crossing it was built to serve. Nothing published mentions this. Three '
+  'separate people mention it within an hour of being asked.',
+  'The reason is a land dispute between two families, one of which supplies the contractor. '
+  'It has been unresolved for eleven months. The Mission has to decide what to report, what '
+  'to recommend, and how to describe a fact that cannot be sourced to any document.'],
+ exhibit=figs.datatable('WHAT THE PACK SAID AND WHAT THE ROAD SHOWED',
+                        ['Fact', 'In the pack', 'On the ground'],
+                        [['road announced', 'yes, with date', 'correct'],
+                         ['budget', 'yes', 'correct'],
+                         ['contractor', 'yes', 'correct'],
+                         ['completion date', 'last September', 'not completed'],
+                         ['distance built', 'not stated', '4 km short'],
+                         ['reason', 'not mentioned', 'a land dispute']]),
+ exhibit_cap='Four published facts, all true, and the two that decide the recommendation are not published at all.',
+ exhibit_note='Nothing in the pack was wrong. The pack was made of announcements, and an '
+              'announcement is made at the beginning of a project, not at the point where '
+              'it stops.',
+ voices=[('Ziad Mikhail', 'commercial attaché',
+          'The pack saved me a day of reading. I would ask for one before every visit.'),
+         ('Rim Haddad', 'consular assistant',
+          'And it would have let you recommend a road that has not reached anywhere for eleven months.'),
+         ('Dr Suhair Kanaan', 'deputy head of mission',
+          'The question is how we write a fact that three people told us and no document says.')],
+ steps=[('Find it', 'What did the visit establish that the pack did not?'),
+        ('Compare it', 'Which facts were published and which were not?'),
+        ('Infer it', 'Why would an announcement never mention this?'),
+        ('Weigh it', 'A recommendation on published facts against a two-day journey.'),
+        ('Decide', 'How is an unsourced but corroborated fact reported?')],
+ analysis=[('Find it. What did the visit establish?', 'that the road stops four kilometres short'),
+           ('Compare it. What was published?', 'the announcement, the budget, the contractor and the date'),
+           ('Infer it. Why is the stoppage unpublished?', 'announcements are made at the start, not at a halt'),
+           ('Weigh it. What would the pack alone have produced?', 'a recommendation to support a stalled road'),
+           ('Decide. How is such a fact reported?', 'as observed, with the number of independent sources')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what an open-source pack is used for.',
+                 'Say what must be established on the ground.',
+                 'Say how an unsourced but corroborated fact is written.',
+                 'Say what a recommendation may not rest on.'],
+ bank=['An open-source pack establishes structure, chronology and formal office-holding.',
+       'Influence, obstruction and local disputes are established by visiting and asking.',
+       'A fact from the field is reported as observed, with the number of independent sources.',
+       'No recommendation rests on announcements alone where the Mission has not visited.'],
+ outcome='The Mission reports the road as four kilometres short, observed directly, with the '
+         'dispute attributed to three independent local sources and named as unconfirmed by '
+         'any document. The recommendation is to wait. In September the dispute is settled '
+         'and the road is finished, and the capital remembers which Mission said wait.',
+ outcome_q=[('How was the distance reported?', 'as observed directly'),
+            ('How was the dispute attributed?', 'to three independent local sources, unconfirmed by documents'),
+            ('What was recommended?', 'to wait'),
+            ('What happened in September?', 'the dispute was settled and the road finished'),
+            ('What does the capital remember?', 'which Mission said wait')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Get me something on the province',
+ task=['Before a field visit an officer asked for background on a province he had never seen.',
+       'This is the instruction as it was sent, and what came back.'],
+ draft=['Get me something on the province.',
+        'The usual background.',
+        'Recent developments especially.',
+        'Keep it manageable.',
+        'Make sure it is up to date.',
+        'I need it before I go.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says which questions the pack is meant to answer.',
+ asked=['Background on the province', 'Recent developments', 'Up to date'],
+ back=['41 pages', 'No sources on 18 figures', '0 of the 3 questions answered'],
+ gap='Nobody said what the visit is for, which questions matter, or that sources are required.',
+ back_cap='Forty-one pages, eighteen unsourced figures, and none of the three questions that mattered.',
+ back_note='Up to date was read as most recently published, which for a stalled project '
+           'means the announcement, not the stoppage.',
+ diagnosis=[('“something on the province”', 'hidden assumption'),
+            ('“the usual background”', 'hidden assumption'),
+            ('“recent developments”', 'unstated criterion'),
+            ('“up to date”', 'unstated criterion'),
+            ('“keep it manageable”', 'unbounded quantity'),
+            ('“before I go”', 'unbounded quantity')],
+ rewrite='Rewrite it on the six lines so that the pack prepares a specific visit.',
+ scaffold=['why the officer is travelling at all',
+           'which province, which towns, and what is excluded',
+           'which kinds of source may be used, and what must accompany each figure',
+           'which questions the pack must answer, listed',
+           'how long it is and when it is needed',
+           'what to do with a question open sources cannot answer'],
+ bank=['Purpose: so that … can establish … during a visit on … ',
+       'Scope: the … province, the towns of … ; the port is excluded',
+       'Inputs: published sources only; every figure carries its source and date',
+       'Criteria: … pages answering the … listed questions, with office-holders and dates',
+       'Done: … pages by … on … ',
+       'Fallback: a question open sources cannot answer is listed separately as a visit question'],
+ check=['Is the purpose of the visit stated?',
+        'Are the questions listed?',
+        'Is a source required for every figure?',
+        'Is there a page limit and a date?'],
+ model=['so that the Mission can establish who decides licences during a visit on 9 to 10 March',
+        'the eastern province, the towns of Marnach, Rhen and Ostveld; the port is excluded',
+        'published sources only; every figure carries its source and the date of publication',
+        '8 pages answering the 6 listed questions, with office-holders and the dates they took office',
+        '8 pages by 17:00 on 6 March',
+        'a question open sources cannot answer is listed separately as a question for the visit'],
+ cost='41 pages took 3 hours to read and answered 0 of the 3 questions the visit existed for. '
+      '8 pages with sources took 4 minutes to produce and 20 minutes to read.'),
+
+feet=dict(
+ title='On Your Feet · The governor asks what you already know',
+ setting=[
+  'You are shown into a regional governor’s office twenty minutes early. He is courteous, '
+  'busy and faintly amused that a diplomat has driven two hundred kilometres. His first '
+  'question, before you have sat down, is what you already know about his province.',
+  'You have read fourteen pages. Everything you know came from documents his own office '
+  'published. If you recite them you sound like a pack; if you pretend to know nothing you '
+  'waste the meeting. You have about ninety seconds.'],
+ ladder=[('What do you know?', 'show preparation without reciting'),
+         ('That is all published', 'he names your sources for you'),
+         ('So what do you want?', 'the turn that asks for your real question')],
+ cap='Three turns, and the third one is the only reason you drove.',
+ turns=[('Turn 1 · Governor', 'So. What does your Mission already know about this province?'),
+        ('Turn 2 · Governor', 'All of that is on our own website. You could have stayed in Calmar.'),
+        ('Turn 3 · Governor', 'So why have you come? What is it you actually want to know?')],
+ holds=['I have read what your office publishes, and it is better than most.',
+        'What I have is the structure. What I do not have is the practice.',
+        'I came because a road and a licence are not the same on paper as on the ground.',
+        'May I ask you three questions that no document can answer?',
+        'Who signs a licence of this kind in practice, and at what stage?',
+        'And what would you want a foreign mission to understand that nobody writes down?'],
+ redline='You must not recite the pack back to him, you must not pretend you have not read '
+         'it, and you must not ask about the dispute directly in a first meeting. Do not '
+         'imply that his published material is advertising, however shaped it is.',
+ score=['Acknowledged the published material and credited it.',
+        'Named the distinction between structure and practice.',
+        'Asked permission before putting the real questions.',
+        'Asked about process, not about the dispute.',
+        'Invited him to say what outsiders usually fail to understand.'],
+ a=[('What do you acknowledge first?', 'that you have read what his office publishes'),
+    ('What distinction do you name?', 'between structure and practice'),
+    ('What do you ask before the real questions?', 'his permission'),
+    ('What must you not ask about yet?', 'the dispute'),
+    ('What must you not imply?', 'that his published material is advertising'),
+    ('What is the best final question?', 'what outsiders usually fail to understand')]),
+
+rev_fig=figs.split('A BACKGROUND PACK',
+                   'What it can tell you',
+                   ['who holds which office, and since when',
+                    'what was announced, and by whom',
+                    'the main industries and employers',
+                    'what was built, and when'],
+                   'What only the road tells you',
+                   ['who actually signs a licence',
+                    'who is listened to in that room',
+                    'why the road stops short',
+                    'what nobody mentions first']),
+rev_fig_cap='The left column is four minutes. The right column is two days and the reason for them.',
+rev=dict(
+ read=[('How long had Ziad been at the post?',
+        ['fourteen months', 'fourteen days', 'four years', 'a week'], 0),
+       ('How long did the pack take to produce?',
+        ['four minutes', 'four hours', 'an evening', 'two days'], 0),
+       ('What was not in the pack?',
+        ['why the road stops short', 'the budget', 'the contractor', 'the announcement'], 0),
+       ('How was the dispute attributed in the report?',
+        ['to three independent local sources', 'to a document', 'to the governor', 'to nobody'], 0)],
+ listen_text='Ask for structure and for sources. Who holds which office and since when, what '
+             'was announced and by whom. Then ask who published each figure and what they '
+             'would have had a reason not to publish.',
+ listen=[('Ask for structure and for ____________.', 'sources'),
+         ('Who holds which office and ____________ when.', 'since'),
+         ('Who ____________ each figure?', 'published'),
+         ('What would they have had a reason not to ____________?', 'publish')],
+ speak=['Describe six past sequences using the past perfect, then plan a visit aloud.',
+        'Your partner asks who published each fact you rely on.'],
+ write='Write a six-line plan for a visit outside your own capital.',
+ vocab=[('The permission required before travelling is a travel ____________.', 'clearance'),
+        ('The agreed times for reporting safety are a check-in ____________.', 'protocol'),
+        ('The single thing a journey must achieve is a visit ____________.', 'objective'),
+        ('The account written after a journey is a ____________ report.', 'return')],
+ gram=[('He ____________ been at the post a year before he travelled.', 'had'),
+       ('By the time he arrived, the meeting ____________ begun.', 'had'),
+       ('They ____________ not told him the road was closed.', 'had'),
+       ('She had ____________ visited the province before. (never)', 'never')]),
+
+found=['Ask for a source and a date beside every figure in your next background pack.',
+       'Write the three questions your next visit exists to answer.',
+       'Ask of one published fact: who put this in the public domain, and why?',
+       'Plan one journey with the worst recorded road time, not the average.'],
+end_line='The pack is the map. The road is the territory. Ask who published the map.',
+end_next='Next: Meeting a Regional Authority')

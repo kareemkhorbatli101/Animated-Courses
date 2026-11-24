@@ -1,0 +1,542 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=1,
+title='An Invitation Arrives',
+gram='would like, shall and the language of invitation',
+ai='an invitation read correctly: date, dress, who is invited',
+strap='CEFR A2 · Grammar: would like, shall and the language of invitation · '
+      'AI: an invitation read correctly: date, dress, who is invited',
+cando=['invite somebody politely and accept or decline an invitation',
+       'use would like and shall correctly',
+       'read an invitation card for date, dress and who is invited',
+       'say what a system can and cannot tell me about an invitation',
+       'write a four-line acceptance or regret'],
+
+hero=('A CARD ON A DESK, AND FOUR QUESTIONS NOBODY ASKED',
+      ['The date was right. The dress code was right.',
+       'The card said the Ambassador, and the Mission sent somebody else.'],
+      [(720, 'purple', 'long'), (720, 'blue', 'short'), (720, 'teal', 'long')]),
+hero_cap='An engraved card in the chancery in-tray, nine days before the event.',
+
+warm=['What does an invitation tell you besides the time and the place?',
+      'How do you say no to an invitation without causing offence?',
+      'Who in your organisation decides which invitations are accepted?'],
+
+read=[
+ 'The Mission receives about forty invitations a month. Some are important and some are '
+ 'not, and the card itself rarely says which. Tarek sorts them on a Monday. He would like '
+ 'an hour to do it and he usually has twenty minutes.',
+ 'An invitation carries four pieces of information. The date and time. The dress code. The '
+ 'place. And, most important of all, who exactly is invited. The fourth is the one that is '
+ 'read fastest and understood worst.',
+ 'A card that says His Excellency the Ambassador is an invitation to one person. A card '
+ 'that says the Ambassador and Mrs Hourani is an invitation to two. A card that says the '
+ 'Mission of our country is an invitation to the institution, and anybody suitable may go.',
+ 'Nour asked a system to read the month’s invitations and build a table: date, time, venue, '
+ 'dress code, who is invited. It produced the table in forty seconds and it was accurate '
+ 'about dates, times and venues, which are written plainly on every card.',
+ 'It was not accurate about the fourth column. Where a card said His Excellency, it wrote '
+ 'the Mission, because that is what most invitations mean and the system had no way of '
+ 'knowing that this one did not.'],
+
+dp1=('What a card is really saying', 'Protocol guidance commonly stresses that the form of '
+     'address on an invitation defines who may attend, and that substituting a junior '
+     'officer for a named head of mission is read as a deliberate signal rather than an '
+     'administrative convenience.',
+     'Source: reported protocol practice, 2025–2026.'),
+
+c_a=[('How many invitations does the Mission receive a month?', 'about forty'),
+     ('How long does Tarek usually have to sort them?', 'twenty minutes'),
+     ('What are the four pieces of information?', 'date and time, dress, place, who is invited'),
+     ('Which one is understood worst?', 'who is invited'),
+     ('How long did the system take to build the table?', 'forty seconds'),
+     ('Which column was wrong?', 'who is invited')],
+
+c_b=[('The card usually says whether it is important.', 'F'),
+     ('An invitation to His Excellency is for one person.', 'T'),
+     ('An invitation to the Mission may be accepted by anybody suitable.', 'T'),
+     ('The system got the venues wrong.', 'F'),
+     ('The system knew this card was an exception.', 'F'),
+     ('Tarek sorts invitations on a Monday.', 'T')],
+
+c_c=[('I would ____________ to accept, thank you.', 'like'),
+     ('____________ we say seven o’clock?', 'Shall'),
+     ('The Ambassador would be ____________ to attend.', 'delighted'),
+     ('____________ I reply on your behalf?', 'Shall'),
+     ('We would ____________ to invite you to dinner.', 'like'),
+     ('The Mission ____________ the honour of the invitation.', 'acknowledges')],
+
+c_d=[('Would like is ( less / more ) formal than want.', ['less', 'more'], 1),
+     ('Shall I is used for ( an offer / a prediction ).', ['an offer', 'a prediction'], 0),
+     ('A card naming the Ambassador invites ( one person / the Mission ).',
+      ['one person', 'the Mission'], 0),
+     ('The system was accurate about ( dates and venues / who was invited ).',
+      ['dates and venues', 'who was invited'], 0),
+     ('Sending a junior instead of a named head of mission is read as ( a signal / an accident ).',
+      ['a signal', 'an accident'], 0)],
+
+c_e=('What kind of invitation? Put each one in the right column.',
+     [('His Excellency the Ambassador', 'one named person'),
+      ('The Ambassador and Mrs Hourani', 'a named couple'),
+      ('The Mission of our country', 'the institution'),
+      ('Dr Suhair Kanaan', 'one named person'),
+      ('A representative of the Mission', 'the institution'),
+      ('Mr and Mrs Mikhail', 'a named couple')],
+     ['one named person', 'a named couple', 'the institution']),
+
+v_fig_title='THE CARD AND WHAT IS ON IT',
+v_fig=[('doc', 'an invitation'), ('clock', 'a carriage time'), ('people', 'a guest of honour'),
+       ('key', 'a dress code'), ('door', 'a venue'), ('flag', 'a national day')],
+v_fig_cap='Six words printed on a card that decide what the evening is.',
+
+vocab=[
+ ('an invitation', 'a written or spoken request that somebody attend an event'),
+ ('an RSVP', 'the request that a guest reply, and the reply itself'),
+ ('a dress code', 'the standard of dress expected at an event'),
+ ('a host', 'the person or body giving an event'),
+ ('a guest of honour', 'the person in whose honour an event is given'),
+ ('a venue', 'the place at which an event is held'),
+ ('a reception', 'a standing event with drinks, usually for many guests'),
+ ('a formal dinner', 'a seated meal with a placement and a dress code'),
+ ('a working lunch', 'a meal at which business is actually transacted'),
+ ('a buffet', 'a meal where guests serve themselves from a table'),
+ ('an acceptance', 'a reply agreeing to attend'),
+ ('a regret', 'a polite reply declining an invitation'),
+ ('an arrival time', 'the period within which guests are expected to arrive'),
+ ('a national day', 'the day a state marks its own foundation or independence'),
+ ('black tie', 'a dress code requiring a dinner jacket or its equivalent'),
+ ('lounge suit', 'a dress code requiring an ordinary business suit'),
+ ('an open invitation', 'an invitation that may be used at any time'),
+ ('a reciprocal invitation', 'an invitation given in return for one received'),
+ ('a co-host', 'a second person or body giving an event jointly'),
+ ('a carriage time', 'the hour at which guests are expected to leave')],
+
+v_a=[('The request that a guest reply is an ____________.', 'RSVP'),
+     ('The standard of dress expected is the ____________ code.', 'dress'),
+     ('The person in whose honour an event is given is the guest of ____________.', 'honour'),
+     ('A polite reply declining is a ____________.', 'regret'),
+     ('The hour guests are expected to leave is the ____________ time.', 'carriage'),
+     ('A meal where guests serve themselves is a ____________.', 'buffet'),
+     ('An invitation given in return is a ____________ invitation.', 'reciprocal'),
+     ('A dress code requiring a dinner jacket is ____________ tie.', 'black')],
+
+v_b=[('A reception is a standing event with drinks,', 'usually for many guests.'),
+     ('A formal dinner is a seated meal with', 'a placement and a dress code.'),
+     ('A national day is the day a state marks', 'its own foundation or independence.'),
+     ('A co-host is a second person or body', 'giving an event jointly.'),
+     ('A working lunch is a meal at which', 'business is actually transacted.')],
+
+g_title='Grammar: would like, shall and the language of invitation',
+g_rule=['would like + to + verb is a polite want: I would like to accept.',
+        'Would you like …? is a polite offer or invitation.',
+        'Shall I …? and Shall we …? make offers and suggestions.',
+        'Formal replies use the third person: The Mission has the honour to accept.'],
+g_fig=('TOO DIRECT',
+       ['I want to come.',
+        'Do you want to have dinner?',
+        'I will reply for you, yes?',
+        'We cannot come.'],
+       'RIGHT FOR AN INVITATION',
+       ['I would like to accept, thank you.',
+        'Would you like to join us for dinner?',
+        'Shall I reply on your behalf?',
+        'The Mission regrets that it is unable to attend.'],
+       'four sentences that sound blunt on a card',
+       'the same four, in the language of invitation'),
+g_fig_cap='Would like asks. Shall offers. The third person does both without a person.',
+
+g_a=[('I would ____________ to accept, thank you.', 'like'),
+     ('____________ we say half past seven?', 'Shall'),
+     ('____________ you like to join us on Thursday?', 'Would'),
+     ('____________ I reply on the Ambassador’s behalf?', 'Shall'),
+     ('The Mission would be ____________ to attend.', 'delighted'),
+     ('We would ____________ to invite you to the national day.', 'like'),
+     ('____________ I put it in the diary?', 'Shall'),
+     ('The Ambassador would ____________ to meet you first.', 'like'),
+     ('____________ we invite the co-host as well?', 'Shall')],
+
+g_b=[('I ( would like / want ) to accept.', ['would like', 'want'], 0),
+     ('( Shall I / Will I ) reply for you?', ['Shall I', 'Will I'], 0),
+     ('( Would you like / Do you want ) to join us?', ['Would you like', 'Do you want'], 0),
+     ('The Mission ( regrets that it is unable / cannot ) to attend.',
+      ['regrets that it is unable', 'cannot'], 0),
+     ('We would like ( to invite / inviting ) you.', ['to invite', 'inviting'], 0),
+     ('( Shall we / Do we shall ) say Thursday?', ['Shall we', 'Do we shall'], 0)],
+
+d1=dict(
+ title='Who exactly is invited?',
+ fig=(['Forty cards, one table.', 'And one column that matters.'],
+      ['Who is invited.', 'The card knows. Read the card.']),
+ cap='Tarek Sabbagh and Nour, sorting the month’s invitations on a Monday.',
+ lines=[('Tarek', 'Forty cards. Would you like to sort them with me?'),
+        ('Nour', 'I made a table. Date, time, venue, dress, who is invited.'),
+        ('Tarek', 'Good. Show me the last column.'),
+        ('Nour', 'Mostly it says the Mission.'),
+        ('Tarek', 'This one says His Excellency the Ambassador.'),
+        ('Nour', 'My table says the Mission for that one too.'),
+        ('Tarek', 'Then your table is wrong, and it is wrong in the only way that matters.'),
+        ('Nour', 'Shall I check all forty by hand?'),
+        ('Tarek', 'Check the fourth column by hand. The other three you may trust.'),
+        ('Nour', 'Why is that column different?'),
+        ('Tarek', 'Because it is the only one that is a decision and not a fact.'),
+        ('Nour', 'Then I shall read forty fourth columns every month.')],
+ a=[('How many cards are there?', 'forty'),
+    ('What are the five columns?', 'date, time, venue, dress and who is invited'),
+    ('Which column was wrong?', 'who is invited'),
+    ('Which columns may be trusted?', 'date, time and venue'),
+    ('Why is the fourth column different?', 'it is a decision, not a fact')],
+ b=[('Would you ____________ to sort them with me?', 'like'),
+    ('____________ I check all forty by hand?', 'Shall'),
+    ('It is the only one that is a ____________.', 'decision'),
+    ('Then I ____________ read forty fourth columns.', 'shall')]),
+
+d2=dict(
+ title='It is usually the Mission',
+ fig=(['Most cards mean the Mission.', 'Most is not all.'],
+      ['It had no way to know.', 'No. But we did.']),
+ cap='Nour and Dr Suhair Kanaan, after the event, on a Friday morning.',
+ lines=[('Dr Kanaan', 'The card named the Ambassador. We sent a third secretary.'),
+        ('Nour', 'My table said the Mission.'),
+        ('Dr Kanaan', 'Where did the table come from?'),
+        ('Nour', 'A system read the cards. It is right about dates and venues every time.'),
+        ('Dr Kanaan', 'And about who is invited?'),
+        ('Nour', 'It wrote what most cards mean, not what this card said.'),
+        ('Dr Kanaan', 'That is a reasonable guess and a serious error.'),
+        ('Nour', 'It had no way to know this one was different.'),
+        ('Dr Kanaan', 'No. But a human reader would have seen His Excellency in capital letters.'),
+        ('Nour', 'So the fourth column is always read by a person.'),
+        ('Dr Kanaan', 'Always. And when forty cards arrive on a day I am in Rhene?')],
+ unresolved=True,
+ a=[('Who did the card name?', 'the Ambassador'),
+    ('Who did the Mission send?', 'a third secretary'),
+    ('What is the system right about every time?', 'dates and venues'),
+    ('What did it write in the fourth column?', 'what most cards mean'),
+    ('What must always be read by a person?', 'the fourth column')],
+ b=[('It wrote what ____________ cards mean.', 'most'),
+    ('That is a reasonable ____________ and a serious error.', 'guess'),
+    ('A human reader would have seen ____________ letters.', 'capital'),
+    ('The fourth column is always read by a ____________.', 'person')]),
+
+speak=[('Invite and reply',
+        ['Invite your partner to four different events, politely.',
+         'Your partner accepts two and declines two.',
+         'Every reply must use would like or the third person.']),
+       ('Shall I?',
+        ['Offer your partner six kinds of help with Shall I …?',
+         'Your partner accepts three and redirects three.',
+         'Change roles and do it again, faster.']),
+       ('Read the card',
+        ['Describe an invitation you have received, in six sentences.',
+         'Say who exactly was invited, and how you knew.',
+         'Your partner says what they would have checked.'])],
+
+ext_title='Three columns a system reads perfectly, and one it has to guess',
+ext_fig=figs.datatable('FORTY INVITATIONS, FIVE COLUMNS',
+                       ['Column', 'Written plainly on the card', 'Safe to automate'],
+                       [['date', 'yes', 'yes'],
+                        ['time', 'yes', 'yes'],
+                        ['venue', 'yes', 'yes'],
+                        ['dress code', 'usually', 'with a check'],
+                        ['who is invited', 'yes, but in a form', 'no'],
+                        ['why it matters', 'never', 'no']]),
+ext_fig_cap='Three columns are transcription. Two are judgement, and one of those is not on the card at all.',
+ext=[
+ 'Representation is work, and it begins with a pile of cards. A medium-sized mission '
+ 'receives several hundred invitations a year. Somebody has to decide which are accepted, '
+ 'by whom, and what the Mission is saying by the choice.',
+ 'An invitation read correctly gives you four things: the date, the dress code, the place '
+ 'and the person invited. Three of these are printed plainly and can be transcribed by '
+ 'anything that can read. A system builds that table in under a minute and makes no errors.',
+ 'The fourth is different. Who is invited is written in a form that carries meaning: a '
+ 'name, a title, a couple, an institution. The words are plain. What they imply about who '
+ 'may attend instead is not on the card at all.',
+ 'There is a fifth question that is never written anywhere. Why does this invitation '
+ 'matter? A card from a small cultural association may matter more this month than a card '
+ 'from a large ministry, and only a person at the post knows that.',
+ 'So let a system do the transcription and keep the judgement. Date, time and venue in a '
+ 'table in forty seconds. Who is invited, read by a human being, every time, because that '
+ 'column is a decision about what the Mission signals by turning up.'],
+
+dp2=('Why substitution is read as a signal', 'Protocol literature commonly notes that '
+     'attendance at the named level is itself a form of communication, and that a '
+     'last-minute substitution without explanation is interpreted by hosts as a deliberate '
+     'downgrading of the occasion.',
+     'Source: reported protocol practice, 2025–2026.'),
+
+e_a=[('How many invitations does a medium-sized mission receive?', 'several hundred a year'),
+     ('Which three columns can be transcribed safely?', 'date, time and venue'),
+     ('What makes the fourth column different?', 'it is written in a form that carries meaning'),
+     ('What is the fifth question?', 'why this invitation matters'),
+     ('Who can answer the fifth question?', 'a person at the post')],
+e_b=[('Representation begins with a pile of cards.', 'T'),
+     ('A system makes errors with dates.', 'F'),
+     ('Who may attend instead is printed on the card.', 'F'),
+     ('Why an invitation matters is never written.', 'T'),
+     ('Judgement should be kept by people.', 'T'),
+     ('A small association can matter more than a ministry.', 'T')],
+
+w_model='Purpose: reply to one invitation so that the host knows exactly who is coming. '
+        'Scope: the dinner of 14 November only. Inputs: the card of 2 November and the '
+        'Ambassador’s diary. Criteria: 4 lines giving the acceptance or regret, the name and '
+        'rank of who will attend, the arrival time, and a reciprocal line. Done: 4 lines, '
+        'sent by 17:00 on 5 November. Fallback: if the named guest cannot attend, the '
+        'Mission asks the host whether a substitute is welcome rather than sending one.',
+w_fig=figs.spec_card('FOUR LINES AND NO AMBIGUITY',
+                     [('Purpose', 'the host knows exactly who is coming'),
+                      ('Scope', 'the dinner of 14 November only'),
+                      ('Inputs', 'the card of 2 November and the diary'),
+                      ('Criteria', 'accept or regret, name and rank, arrival, reciprocal line'),
+                      ('Done', 'sent by 17:00 on 5 November'),
+                      ('Fallback', 'ask whether a substitute is welcome; do not send one')]),
+w_fig_cap='A reply that names a person ends the host’s uncertainty about the evening.',
+w_task='Write a four-line acceptance or regret for an invitation.',
+w_steps=['Line 1: thank the host and name the event with its date.',
+         'Line 2: accept or decline, in the third person.',
+         'Line 3: name exactly who will attend, with rank.',
+         'Line 4: one courteous closing line, or a reciprocal offer.'],
+w_bank=['The Mission has the honour to acknowledge the invitation of …',
+        'The Mission has pleasure in accepting …',
+        'The Mission regrets that it is unable to accept …',
+        'The Mission will be represented by …, …',
+        'The Mission looks forward to welcoming … on a future occasion.'],
+w_check=['Is the event named with its date?',
+         'Is the reply in the third person throughout?',
+         'Is the attending officer named with a rank?',
+         'Does the last line leave the relationship open?'],
+
+t_title='An invitation read correctly: date, dress, who is invited',
+t_fig=figs.split('ONE CARD, TWO KINDS OF LINE',
+                 'Transcribe it',
+                 ['Thursday 14 November',
+                  '19:00 for 19:30',
+                  'the Rhen Palace, east door',
+                  'lounge suit'],
+                 'Read it yourself',
+                 ['His Excellency the Ambassador',
+                  'and Mrs Hourani',
+                  'a representative of the Mission',
+                  'in honour of the visiting delegation']),
+t_fig_cap='The left column is printing. The right column is who the Mission must be that evening.',
+t_body=[
+ 'Give the system the cards and ask for a table: date, time, venue, dress code, and the '
+ 'exact words of the addressee line, copied and not interpreted. That instruction matters: '
+ 'copied, not interpreted. Then the table is useful and the judgement stays with you.',
+ 'An invitation read correctly tells you four things, and the system can be trusted with '
+ 'three of them. The date, the time and the venue are printed plainly and it transcribes '
+ 'them perfectly. The dress code is usually printed and occasionally implied.',
+ 'The fourth is the addressee, and it is a decision disguised as a line of text. A system '
+ 'will normalise it to the most common case, because that is what most cards mean. Read the '
+ 'exact words yourself, and decide who may go instead, which is never written down.'],
+t_say=[('Ask for transcription: ', 'Copy the addressee line exactly; do not interpret it.'),
+       ('Keep the judgement: ', 'I will decide who attends; you give me the four facts.'),
+       ('Check the implication: ', 'This card names one person. May anybody go instead?')],
+t_bound='A system reading an invitation does not know that a named head of mission cannot be '
+        'replaced without asking, and it will normalise an unusual addressee line to the '
+        'usual one. It is transcribing text; it is not reading a signal.',
+t_a=[('Copy the addressee line exactly; do not ____________ it.', 'interpret'),
+     ('I will decide who ____________.', 'attends'),
+     ('This card names one ____________.', 'person'),
+     ('It will ____________ an unusual line to the usual one.', 'normalise'),
+     ('It is transcribing text; it is not reading a ____________.', 'signal'),
+     ('The date, time and ____________ are printed plainly.', 'venue')],
+t_b_rubric='Say whether each line may be transcribed or must be read by a person.',
+t_b=[('Thursday 14 November, 19:00 for 19:30.', 'transcribe: it is printed plainly'),
+     ('His Excellency the Ambassador.', 'read by a person: it names one individual'),
+     ('Lounge suit.', 'transcribe, then check what it means at this post'),
+     ('In honour of the visiting delegation.', 'read by a person: it tells you why it matters')],
+
+case=dict(
+ title='The Decision Room · The card that named one person',
+ brief=[
+  'The Chamber of Commerce of Calmar gives a dinner on 14 November in honour of a visiting '
+  'delegation. The card is addressed to His Excellency the Ambassador. The Mission’s table '
+  'of invitations, built from the cards in under a minute, records the invitee as the '
+  'Mission.',
+  'The Ambassador is in Marnach on 14 November. Nobody asks the host whether a substitute '
+  'is welcome. A third secretary attends in his place and is seated at the far end of the '
+  'room, at a table laid for the Mission that nobody had expected to need.',
+  'Four days later the Chamber writes to the Mission. The letter is polite. It says that '
+  'the Chamber had hoped to present a proposal to the Ambassador personally, and that it '
+  'will seek another occasion in the spring.'],
+ exhibit=figs.datatable('WHAT THE CARD SAID AND WHAT THE TABLE SAID',
+                        ['Field', 'On the card', 'In the table', 'Correct?'],
+                        [['date', '14 November', '14 November', 'yes'],
+                         ['time', '19:00 for 19:30', '19:00', 'nearly'],
+                         ['venue', 'Chamber hall, east door', 'Chamber hall', 'yes'],
+                         ['dress', 'lounge suit', 'lounge suit', 'yes'],
+                         ['invitee', 'His Excellency the Ambassador', 'the Mission', 'no'],
+                         ['purpose', 'in honour of the delegation', 'not recorded', 'no']]),
+ exhibit_cap='Four fields right, one field wrong, and the wrong one cost a proposal.',
+ exhibit_note='The table was not careless. It recorded the usual meaning of an addressee '
+              'line. This card was the one in forty that meant exactly what it said.',
+ voices=[('Nour Ajami', 'third secretary',
+          'The table was accurate in four columns out of six. I was proud of it on Monday.'),
+         ('Tarek Sabbagh', 'protocol and liaison',
+          'A card that names a man is a request for that man. Everything else is us deciding.'),
+         ('Dr Suhair Kanaan', 'deputy head of mission',
+          'I approved the attendance list without opening a single card. That is the error.')],
+ steps=[('Find it', 'Which field in the table was wrong?'),
+        ('Compare it', 'What did the card say and what did the table record?'),
+        ('Infer it', 'Why did nobody notice before the dinner?'),
+        ('Weigh it', 'Twenty minutes of reading cards against a proposal deferred to spring.'),
+        ('Decide', 'Who reads the addressee line, and what happens when the named guest cannot go?')],
+ analysis=[('Find it. Which field was wrong?', 'the invitee'),
+           ('Compare it. What did the card say?', 'His Excellency the Ambassador'),
+           ('Infer it. Why did nobody notice?', 'the attendance list was approved without opening the cards'),
+           ('Weigh it. What did the error cost?', 'a proposal deferred to the spring'),
+           ('Decide. What should have been asked?', 'whether a substitute was welcome')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say who reads the addressee line on every card.',
+                 'Say what the table must record about the addressee.',
+                 'Say what the Mission does when a named guest cannot attend.',
+                 'Say what is recorded about why an invitation matters.'],
+ bank=['The addressee line is copied word for word and read by the protocol officer.',
+       'The table records the exact words, never a summary of them.',
+       'Where a named guest cannot attend, the Mission asks the host before substituting.',
+       'A one-line note of why the invitation matters is added by the officer who knows.'],
+ outcome='Dr Kanaan replies to the Chamber the same day, says plainly that the Mission '
+         'should have asked, and offers the Ambassador for a meeting in December rather '
+         'than waiting for the spring. The Chamber accepts. The table now copies the addressee line exactly, and Tarek reads all forty every month. A column headed why this matters is filled in by whoever knows, in one line, or left empty.',
+ outcome_q=[('What did Dr Kanaan offer?', 'a meeting with the Ambassador in December'),
+            ('How is the addressee line recorded now?', 'copied word for word'),
+            ('Who reads all forty cards?', 'Tarek'),
+            ('What is the new column?', 'why this matters'),
+            ('What happens if nobody knows why it matters?', 'the column is left empty')],
+ tags=['manager_wrong']),
+
+lab=dict(
+ title='Brief Lab · Reply to the invitations',
+ task=['The Mission had a month of unanswered cards and somebody had to clear them.',
+       'This is the instruction as it was given, and what came back.'],
+ draft=['Reply to the invitations.',
+        'Accept the ones we should go to.',
+        'Send regrets for the others.',
+        'Say who is coming.',
+        'Make the replies sound right.',
+        'Clear the pile this week.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says which invitations, or who decides what we should go to.',
+ asked=['Replies to the invitations', 'The ones we should go to', 'Who is coming'],
+ back=['41 replies', '12 acceptances nobody had approved', '9 naming the Mission, not a person'],
+ gap='Nobody said which cards, who decides attendance, or how the attendee is named.',
+ back_cap='Forty-one replies went out and twelve of them committed an officer who had not been asked.',
+ back_note='The replies were courteous and correctly formatted. The question of who was '
+           'being committed to what was never in the instruction at all.',
+ diagnosis=[('“the invitations”', 'unscoped set'),
+            ('“the ones we should go to”', 'unstated criterion'),
+            ('“say who is coming”', 'ambiguous referent'),
+            ('“sound right”', 'unstated criterion'),
+            ('“the pile”', 'unscoped set'),
+            ('“this week”', 'ambiguous referent')],
+ rewrite='Rewrite it on the six lines so that no reply can commit anybody who has not agreed.',
+ scaffold=['why the replies must go now',
+           'which cards, by date received',
+           'which diary and which approval the attendance rests on',
+           'what each reply must contain',
+           'how many replies, and by when',
+           'what to do when attendance has not been approved'],
+ bank=['Purpose: so that hosts know who is coming and can place them',
+       'Scope: the … cards received between … and …; standing invitations excluded',
+       'Inputs: the attendance decisions approved by … on …',
+       'Criteria: each reply names the event, the date, the decision and the officer attending',
+       'Done: … replies, signed, sent by … on …',
+       'Fallback: where attendance is not approved, the reply is held and listed, not sent'],
+ check=['Are the cards identified by the dates they arrived?',
+        'Is the approver named?',
+        'Does every reply name an officer?',
+        'Is there a day and a time?'],
+ model=['so that hosts know who is coming and can place them at table',
+        'the 23 cards received between 1 and 30 November; standing invitations excluded',
+        'the attendance decisions approved by the deputy head of mission on 2 December',
+        'each reply names the event, the date, the decision and the officer attending, by rank',
+        '23 replies, signed, sent by 16:00 on 4 December',
+        'where attendance is not approved, the reply is held and listed, not sent'],
+ cost='41 replies went out in 2 days and 12 of them had to be corrected by telephone. '
+      '23 approved replies took 3 hours and none of them was corrected.'),
+
+feet=dict(
+ title='On Your Feet · The host asks you to say a few words',
+ setting=[
+  'You are at a reception given by a business association. You are there to listen and to '
+  'be seen. Forty minutes in, the host takes your elbow, smiles, and says that it would be '
+  'wonderful if you said a few words after the speeches.',
+  'You have no instruction to speak, no agreed line on anything, and no idea who is in the '
+  'room. Refusing badly insults a host in front of guests. Accepting badly commits your '
+  'country in public. You have about ninety seconds, standing, holding a glass.'],
+ ladder=[('A few words', 'decline the speech without declining the host'),
+         ('Only two minutes', 'resist the shrinking of the request'),
+         ('The press are here', 'the turn that raises the cost of saying no')],
+ cap='Three turns. Each one makes the request smaller and the risk larger.',
+ turns=[('Turn 1 · Host', 'It would be wonderful if you said a few words after the speeches.'),
+        ('Turn 2 · Host', 'Just two minutes. Something about your country’s priorities here.'),
+        ('Turn 3 · Host', 'We have two journalists with us this evening. It would be a shame not to.')],
+ holds=['That is very kind, and I am not able to speak for the Mission this evening.',
+        'I would not want to say something less considered than your guests deserve.',
+        'May I propose instead that I thank you briefly on behalf of the Mission?',
+        'Anything about priorities should come from the Ambassador, and I will ask him.',
+        'If there are journalists, it is all the more important that I do not improvise.',
+        'Would you like me to arrange a proper contribution for your next event?'],
+ redline='You must not speak on your country’s priorities without instructions, you must '
+         'not say anything on the record to a journalist you have not been introduced to, '
+         'and you must not tell the host that you are too junior, because that insults both '
+         'of you and invites him to find somebody more senior next time.',
+ score=['Declined in the first sentence, warmly and without excuses.',
+        'Offered a smaller, safe alternative instead of a flat refusal.',
+        'Named the Ambassador as the right source rather than a rule.',
+        'Treated the presence of journalists as a reason to be more careful, not less.',
+        'Left the host with something to look forward to.'],
+ a=[('What do you do in the first sentence?', 'decline warmly, without excuses'),
+    ('What safe alternative can you offer?', 'a brief word of thanks on behalf of the Mission'),
+    ('Who should speak about priorities?', 'the Ambassador'),
+    ('What do journalists change?', 'they make improvising more dangerous, not less'),
+    ('What must you not say about yourself?', 'that you are too junior'),
+    ('How should the exchange end?', 'with an offer for the host’s next event')]),
+
+rev_fig=figs.split('AN INVITATION',
+                   'A table you cannot act on',
+                   ['14 Nov, Chamber, suit, the Mission',
+                    'Dinner, evening, someone should go',
+                    'Important, probably',
+                    'Reply soon'],
+                   'A table you can act on',
+                   ['14 Nov, 19:00 for 19:30, Chamber hall, east door',
+                    'Addressee: His Excellency the Ambassador',
+                    'Why it matters: a proposal for the Mission',
+                    'Reply approved by the deputy, 5 Nov']),
+rev_fig_cap='The right-hand column copies the card and records the decision separately.',
+rev=dict(
+ read=[('How many invitations does the Mission receive a month?',
+        ['about forty', 'about ten', 'about four', 'about a hundred'], 0),
+       ('Which column must a person read?',
+        ['who is invited', 'the date', 'the venue', 'the time'], 0),
+       ('What should the Mission do if a named guest cannot attend?',
+        ['ask the host first', 'send a substitute', 'decline silently', 'send two officers'], 0),
+       ('What is never written on a card?',
+        ['why it matters', 'the dress code', 'the venue', 'the date'], 0)],
+ listen_text='Give the system the cards and ask for a table: date, time, venue, dress code, '
+             'and the addressee line copied exactly and not interpreted. Three of those are '
+             'transcription. The addressee line is a decision, and you make it.',
+ listen=[('Ask for the addressee line copied ____________.', 'exactly'),
+         ('Do not let it be ____________.', 'interpreted'),
+         ('Three of those are ____________.', 'transcription'),
+         ('The addressee line is a ____________.', 'decision')],
+ speak=['Invite your partner to three events and reply to three of theirs.',
+        'One reply must be a regret that keeps the relationship open.'],
+ write='Write a four-line acceptance or regret for an invitation.',
+ vocab=[('The standard of dress expected is the ____________ code.', 'dress'),
+        ('A polite reply declining is a ____________.', 'regret'),
+        ('The hour guests are expected to leave is the ____________ time.', 'carriage'),
+        ('The person in whose honour an event is given is the guest of ____________.', 'honour')],
+ gram=[('I would ____________ to accept.', 'like'),
+       ('____________ I reply on your behalf?', 'Shall'),
+       ('____________ you like to join us?', 'Would'),
+       ('The Mission ____________ that it is unable to attend.', 'regrets')]),
+
+found=['Build a table of this month’s invitations with the addressee line copied exactly.',
+       'Write one acceptance and one regret, and have a colleague read both aloud.',
+       'Learn the dress codes used at your post and what each one means in practice.',
+       'Practise declining a request to speak, warmly, in two sentences.'],
+end_line='Three columns are printing. The fourth is a decision about who the Mission is tonight.',
+end_next='Next: Introductions in a Room of Strangers')

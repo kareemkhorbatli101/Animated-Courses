@@ -1,0 +1,567 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=6,
+title='A Contract, and What It Actually Says',
+gram='obligations in a contract: shall, is entitled to, is liable for',
+ai='a contract read for the obligations it places on your own side',
+strap='CEFR B1 · Grammar: obligations in a contract: shall, is entitled to, is liable for · '
+      'AI: a contract read for the obligations it places on your own side',
+cando=['read a contract for your own obligations first',
+       'distinguish shall from is entitled to',
+       'find the response time and what counts as a working day',
+       'say which clauses you would actually enforce',
+       'write a six-line tasking for a contract read'],
+
+hero=('READ YOUR OWN OBLIGATIONS FIRST.',
+      ['Everybody reads what the supplier must do.',
+       'The clause that hurts you is the one about what you must.'],
+      [(300, 'teal', 'short'), (900, 'blue', 'long'), (300, 'grey', 'short')]),
+hero_cap='Thirty-one pages, four obligations on you, and one definition of a working day.',
+
+warm=['Where is the contract for the service you rely on most?',
+      'What does it require of your own organisation?',
+      'What service credit has anybody ever claimed?'],
+
+vocab=[
+ ('an obligation on the supplier', 'what they must do'),
+ ('an obligation on you', 'what you must do, often overlooked'),
+ ('a response time in hours', 'the clock the contract sets'),
+ ('a response time in working hours only', 'a clock that stops at five'),
+ ('a definition of a working day', 'the clause that changes every deadline'),
+ ('a notice period', 'how long before a change takes effect'),
+ ('a termination clause', 'how the contract can be ended'),
+ ('a clause that favours one side', 'a term to negotiate or accept knowingly'),
+ ('a service credit nobody has ever claimed', 'a remedy in theory only'),
+ ('a liability cap', 'the limit on what can be recovered'),
+ ('an exclusion for anything consequential', 'the clause that removes most real losses'),
+ ('an indemnity you have given', 'a promise to cover somebody else’s loss'),
+ ('a variation agreed by email', 'a change that may not be binding'),
+ ('a variation that needed signing', 'a change the contract requires in writing'),
+ ('a renewal that happens automatically', 'a contract that renews unless stopped'),
+ ('a renewal you must give notice to stop', 'the date to put in a diary'),
+ ('a contract nobody can find', 'the commonest contractual problem'),
+ ('a contract manager named in the document', 'the person who must be told things'),
+ ('a clause you can enforce', 'a term with a remedy attached'),
+ ('a clause you would never enforce', 'a term kept for the relationship’s sake')],
+
+read=[
+ 'Thirty-one pages arrive with a laundry service. Everybody reads the pages about '
+ 'what the supplier shall do.',
+ 'Read your own obligations first. You shall provide access between six and eight; '
+ 'you shall report shortages within twenty-four hours; you shall nominate a '
+ 'contract manager in writing.',
+ 'Then find the definitions. A four-hour response time means nothing until you '
+ 'know that working hours are eight to six, Monday to Friday, excluding public '
+ 'holidays.',
+ 'Look for the remedies you could actually use. A service credit of two per cent '
+ 'that nobody has ever claimed is not a remedy; it is a paragraph.',
+ 'And put the renewal date in a diary with three months’ notice before it. A '
+ 'contract that renews automatically while nobody is looking is how an '
+ 'organisation keeps a service it stopped wanting in 2023.'],
+
+dp1=('Contract management', 'Procurement guidance commonly recommends identifying '
+     'the obligations a contract places on the purchasing organisation, '
+     'understanding definitions of response times and working days, recording '
+     'notice and renewal dates, and nominating a named contract manager. Terms '
+     'are governed by the contract itself and by local law.',
+     'Source: general contract management guidance, 2025–2026.'),
+
+c_a=[('What does everybody read?', 'the pages about what the supplier shall do'),
+     ('What should be read first?', 'your own obligations'),
+     ('What are the three obligations given?', 'access between six and eight, reporting shortages within twenty-four hours, and nominating a contract manager'),
+     ('Why do definitions matter?', 'because a four-hour response means nothing without the working hours'),
+     ('What is an unclaimed service credit?', 'a paragraph rather than a remedy'),
+     ('What goes in a diary?', 'the renewal date, with three months’ notice before it')],
+
+c_b=[('Your own obligations are read first.', 'T'),
+     ('A response time is clear without definitions.', 'F'),
+     ('Shortages must be reported within twenty-four hours.', 'T'),
+     ('An unclaimed service credit is a real remedy.', 'F'),
+     ('A contract manager is nominated in writing.', 'T'),
+     ('Renewal dates go in a diary with notice.', 'T')],
+
+c_c=[('The trust ____________ provide access between six and eight.', 'shall'),
+     ('The supplier ____________ entitled to charge for a wasted visit.', 'is'),
+     ('The supplier ____________ liable for loss of the linen itself.', 'is'),
+     ('A working day ____________ eight to six, Monday to Friday.', 'means'),
+     ('Notice ____________ be given three months before renewal.', 'must'),
+     ('We ____________ nominated a contract manager in writing.', 'have')],
+
+c_d=[('Read ( your own obligations / the supplier’s promises ) first.', ['your own obligations', 'the supplier’s promises'], 0),
+     ('Find ( the definitions / the signatures ) before the response times.',
+      ['the definitions', 'the signatures'], 0),
+     ('Treat an unclaimed credit as ( a paragraph / a remedy ).',
+      ['a paragraph', 'a remedy'], 0),
+     ('Diarise ( the notice date / the renewal date only ).',
+      ['the notice date', 'the renewal date only'], 0),
+     ('Nominate a contract manager ( in writing / informally ).',
+      ['in writing', 'informally'], 0)],
+
+c_e=('An obligation on you, an obligation on them, a definition or a remedy? '
+     'Decide what each clause is.',
+     [('the trust shall provide access between six and eight', 'an obligation on you'),
+      ('the supplier shall collect twice daily', 'an obligation on them'),
+      ('working hours mean eight to six, Monday to Friday', 'a definition'),
+      ('a service credit of two per cent of the monthly charge', 'a remedy'),
+      ('the trust shall report shortages within twenty-four hours', 'an obligation on you'),
+      ('liability is capped at the annual contract value', 'a remedy')],
+     ['an obligation on you', 'an obligation on them', 'a definition',
+      'a remedy']),
+
+v_fig_title='SIX WORDS OF A CONTRACT READ PROPERLY',
+v_fig=[('doc', 'an obligation on you'), ('clock', 'a definition of a working day'),
+       ('scale', 'a liability cap'),
+       ('key', 'a renewal you must give notice to stop'),
+       ('people', 'a contract manager named in the document'),
+       ('note', 'a clause you can enforce')],
+v_fig_cap='Six words for thirty-one pages and four obligations.',
+
+v_a=[('A clock that stops at five is a response time in ____________ hours only.', 'working'),
+     ('How long before a change takes effect is a ____________ period.', 'notice'),
+     ('A remedy in theory only is a service credit nobody has ever ____________.', 'claimed'),
+     ('The clause that removes most real losses is an exclusion for anything ____________.', 'consequential'),
+     ('A promise to cover somebody else’s loss is an ____________ you have given.', 'indemnity'),
+     ('A change that may not be binding is a variation agreed by ____________.', 'email'),
+     ('The commonest contractual problem is a contract nobody can ____________.', 'find'),
+     ('A term kept for the relationship’s sake is a clause you would never ____________.', 'enforce')],
+
+v_b=[('An obligation on you is what you must do,', 'often overlooked.'),
+     ('A termination clause is how the contract', 'can be ended.'),
+     ('A liability cap is the limit on what', 'can be recovered.'),
+     ('A renewal that happens automatically is a contract', 'that renews unless stopped.'),
+     ('A contract manager named in the document is the person', 'who must be told things.')],
+
+g_title='Grammar: obligations in a contract: shall, is entitled to, is liable for',
+g_rule=['Shall creates an obligation. The trust shall provide access between six '
+        'and eight. Read every shall whose subject is your own organisation '
+        'before anything else.',
+        'Is entitled to creates a right, usually to money or to refuse. The '
+        'supplier is entitled to charge for a wasted visit, which is a cost that '
+        'arrives from your own failure.',
+        'Is liable for allocates loss. The supplier is liable for loss of the '
+        'linen itself; note what is not mentioned, because that is where your risk '
+        'sits.',
+        'Means defines, and a definition beats everything else in the document. '
+        'Working hours mean eight to six, Monday to Friday, excluding public '
+        'holidays.'],
+g_fig=('LOOSE',
+       ['The supplier has agreed a four-hour response.',
+        'There are penalties if they fail to perform.',
+        'The contract runs for three years.',
+        'Our obligations are the usual ones.'],
+       'PRECISE',
+       ['The supplier shall respond within four working hours, which the contract defines as eight to six, Monday to Friday.',
+        'A service credit of two per cent is available on written claim within thirty days.',
+        'The contract renews automatically unless we give three months’ notice before the fourteenth of June.',
+        'The trust shall provide access between six and eight, report shortages within twenty-four hours, and nominate a contract manager in writing.'],
+       'four sentences that will surprise you',
+       'four sentences you can manage a contract with'),
+g_fig_cap='Shall. Is entitled to. Is liable for. And means, which beats them all.',
+
+g_a=[('The trust ____________ provide access between six and eight.', 'shall'),
+     ('The supplier ____________ entitled to charge for a wasted visit.', 'is'),
+     ('The supplier ____________ liable for loss of the linen.', 'is'),
+     ('Working hours ____________ eight to six.', 'mean'),
+     ('A service credit of two ____________ cent is available.', 'per'),
+     ('On written claim ____________ thirty days.', 'within'),
+     ('The contract renews ____________ unless we give notice.', 'automatically'),
+     ('Three months’ notice ____________ the fourteenth of June.', 'before'),
+     ('We ____________ nominated a contract manager.', 'have')],
+
+g_b=[('( they have agreed a four-hour response / the supplier shall respond within four working hours ) — the obligation.', ['they have agreed a four-hour response', 'the supplier shall respond within four working hours'], 1),
+     ('( working hours mean eight to six, Monday to Friday / during normal hours ) — the definition.',
+      ['working hours mean eight to six, Monday to Friday', 'during normal hours'], 0),
+     ('( a service credit of two per cent on written claim within thirty days / there are penalties ) — the remedy.',
+      ['a service credit of two per cent on written claim within thirty days', 'there are penalties'], 0),
+     ('( renews unless we give notice before the fourteenth of June / runs for three years ) — the renewal.',
+      ['renews unless we give notice before the fourteenth of June', 'runs for three years'], 0),
+     ('( the trust shall provide access between six and eight / our obligations are the usual ones ) — your own obligation.',
+      ['the trust shall provide access between six and eight', 'our obligations are the usual ones'], 0),
+     ('( the supplier is entitled to charge for a wasted visit / they may charge in some circumstances ) — their right.',
+      ['the supplier is entitled to charge for a wasted visit', 'they may charge in some circumstances'], 0)],
+
+d1=dict(
+ title='Four obligations on us',
+ fig=(['Thirty-one pages.', 'Four obligations.'],
+      ['One definition.', 'One diary date.']),
+ cap='Hana Kowalczyk and Nadia Belkacem, procurement, over a laundry contract.',
+ lines=[('Nadia', 'Everybody has read the four-hour response time. Nobody has read page nineteen.'),
+        ('Hana', 'What is on page nineteen?'),
+        ('Nadia', 'Four obligations on us. Access between six and eight, shortages reported within twenty-four hours, a named contract manager, and a monthly meeting.'),
+        ('Hana', 'We have never nominated a contract manager.'),
+        ('Nadia', 'Which is why they have been sending notices to somebody who left in 2023.'),
+        ('Hana', 'And the four hours?'),
+        ('Nadia', 'Four working hours, and working hours mean eight to six, Monday to Friday. A Friday evening failure is a Monday afternoon response.'),
+        ('Hana', 'That is not what the ward thinks it bought.'),
+        ('Nadia', 'It is what we signed. We can pay for an out-of-hours response or we can plan for Monday.'),
+        ('Hana', 'What about the service credits?'),
+        ('Nadia', 'Two per cent, on written claim within thirty days. We have never made one in four years.'),
+        ('Hana', 'Then either we start claiming or we stop pretending the credit is a protection.')],
+ a=[('What is on page nineteen?', 'four obligations on the trust'),
+    ('What has never been done?', 'nominating a contract manager'),
+    ('What do working hours mean?', 'eight to six, Monday to Friday'),
+    ('What is a Friday evening failure?', 'a Monday afternoon response'),
+    ('How many service credits have been claimed?', 'none in four years')],
+ b=[('Four obligations ____________ us.', 'on'),
+    ('Working hours ____________ eight to six.', 'mean'),
+    ('On written ____________ within thirty days.', 'claim'),
+    ('We ____________ never made one.', 'have')]),
+
+d2=dict(
+ title='The renewal nobody stopped',
+ fig=(['Notice due March.', 'Nobody diarised it.'],
+      ['Renewed for 3 years.', 'Service not wanted.']),
+ cap='Hana Kowalczyk and Omar Haddad, finance.',
+ lines=[('Omar', 'We are in year two of a three-year renewal of a service we decided to stop in 2023.'),
+        ('Hana', 'Notice had to be given three months before the fourteenth of June. Nobody diarised it.'),
+        ('Omar', 'Whose diary?'),
+        ('Hana', 'That is the problem. The contract names a contract manager and we never nominated one.'),
+        ('Omar', 'Can we terminate for convenience?'),
+        ('Hana', 'There is no such clause. There is termination for material breach, and they have not breached anything.'),
+        ('Omar', 'So we pay for two more years of something nobody uses.'),
+        ('Hana', 'Or we negotiate. They want a reference and a longer term on another site.'),
+        ('Omar', 'That is not a contractual right, it is a favour.'),
+        ('Hana', 'It is a negotiation, and it is the only route left, because the contractual route closed in March 2024.'),
+        ('Omar', 'I want a register of every renewal date with a name against it.'),
+        ('Hana', 'So do I, and it will take about three weeks to build and will save this every year.')],
+ unresolved=True,
+ a=[('What has been renewed?', 'a three-year contract for a service stopped in 2023'),
+    ('When was notice due?', 'three months before the fourteenth of June'),
+    ('Why was it missed?', 'no contract manager had been nominated'),
+    ('Is there termination for convenience?', 'no, only for material breach'),
+    ('What does Omar want?', 'a register of every renewal date with a name against it')],
+ b=[('Nobody ____________ it.', 'diarised'),
+    ('There is no such ____________.', 'clause'),
+    ('Termination for material ____________.', 'breach'),
+    ('A register with a ____________ against it.', 'name')]),
+
+speak=[('Our obligations first',
+        ['Your partner describes six contracts.',
+         'Ask what each requires of your own organisation.',
+         'Three each, then swap.']),
+       ('What does it mean',
+        ['Your partner quotes six response times.',
+         'Ask for the definition of working hours and recalculate.',
+         'Three each, then swap.']),
+       ('Enforce or not',
+        ['Your partner gives you six remedies.',
+         'Say which you would actually use, and why.',
+         'Three each, then swap.'])],
+
+ext_title='A contract read for the obligations it places on your own side',
+ext_fig=figs.datatable('WHAT THE READ CARRIES',
+                       ['Line', 'Content'],
+                       [['our obligations', 'every shall with us as subject'],
+                        ['definitions', 'working day, hours, response'],
+                        ['their obligations', 'what they must do, and by when'],
+                        ['remedies', 'what we could claim, and how'],
+                        ['dates', 'notice, renewal and termination'],
+                        ['names', 'who must be nominated or told']]),
+ext_fig_cap='Six lines from thirty-one pages, and the first is the one nobody reads.',
+ext=[
+ 'A contract read for the obligations it places on your own side finds the four '
+ 'things you promised, which are the things that will go wrong.',
+ 'Give it the contract with its schedules, the definitions section, and the '
+ 'service as it is actually delivered today.',
+ 'Ask for every obligation whose subject is your own organisation, listed with '
+ 'the page and clause, because those are the ones nobody has read.',
+ 'Ask it to recalculate every response time using the contract’s own definition '
+ 'of working hours, so that a four-hour promise is stated in real days.',
+ 'Ask for the notice and renewal dates, and for the name the contract requires you '
+ 'to nominate, which is usually a post that has changed hands twice.',
+ 'What it cannot do is decide whether to claim a service credit against a supplier '
+ 'you depend on. That is a judgement about a relationship, and the contract does '
+ 'not contain it.'],
+
+dp2=('Contract obligations', 'Contract management literature commonly reports '
+     'that purchaser obligations are a frequent source of disputes and additional '
+     'charges, that response times are often misunderstood where working-hour '
+     'definitions are narrow, and that automatic renewal is a common cause of '
+     'unwanted continuation.',
+     'Source: general contract management literature, 2025–2026.'),
+
+e_a=[('What does the read find?', 'the four things you promised, which are the things that will go wrong'),
+     ('What three things are given to it?', 'the contract with schedules, the definitions and the service as delivered'),
+     ('What is listed with page and clause?', 'every obligation whose subject is your own organisation'),
+     ('What is recalculated?', 'every response time, using the contract’s definition of working hours'),
+     ('What name is sought?', 'the one the contract requires you to nominate')],
+e_b=[('Our own obligations are listed first.', 'T'),
+     ('Response times are recalculated in real days.', 'T'),
+     ('It decides whether to claim a credit.', 'F'),
+     ('Notice and renewal dates are extracted.', 'T'),
+     ('Purchaser obligations often cause disputes.', 'T'),
+     ('Automatic renewal rarely causes problems.', 'F')],
+
+w_model='Purpose: so that we know what we promised before we complain about what '
+       'they promised. Scope: service contracts for which I hold the operational '
+       'relationship; legal interpretation is for the legal team, and signature '
+       'authority rests with the director of finance. Inputs: the contract with '
+       'all schedules, the definitions section, the service as actually delivered, '
+       'the history of any variations, and the names of current postholders. '
+       'Criteria: every obligation with us as subject listed by clause and page; '
+       'every response time recalculated against the contract’s own definition of '
+       'working hours; remedies listed with how they are claimed and whether any '
+       'has ever been claimed; notice, renewal and termination dates extracted; '
+       'and the nominated contract manager identified or flagged as never '
+       'nominated. Done: a two-page summary with the clause references, held with '
+       'the contract and reviewed annually. Fallback: where a variation was agreed '
+       'by email but the contract requires signature, I flag it as possibly '
+       'unenforceable rather than relying on it.',
+w_fig=figs.spec_card('SIX LINES FOR A CONTRACT READ',
+                     [('Purpose', 'know what we promised first'),
+                      ('Scope', 'contracts I hold operationally; not legal advice'),
+                      ('Inputs', 'contract, schedules, definitions, delivery, variations'),
+                      ('Criteria', 'our obligations, real response times, remedies, dates'),
+                      ('Done', 'a two-page summary, reviewed annually'),
+                      ('Fallback', 'an emailed variation: flag it as doubtful')]),
+w_fig_cap='Six lines, and the fifth one is what prevents a three-year renewal.',
+w_task='Write a six-line tasking for a contract read.',
+w_steps=['Line 1: say what you must know before complaining.',
+         'Line 2: say which contracts are yours, and what is not yours to decide.',
+         'Line 3: say what you are giving it.',
+         'Line 4: say what the read must extract.',
+         'Line 5: say what is produced and how often it is revisited.',
+         'Line 6: say what you do with a variation agreed informally.'],
+w_bank=['Purpose: so that we know what we promised before we complain about what they promised',
+        'Scope: service contracts for which I hold the operational relationship; legal interpretation is for the legal team and signature authority rests with the director of finance',
+        'Inputs: the contract with all schedules, the definitions section, the service as actually delivered, the history of any variations, and the names of current postholders',
+        'Criteria: every obligation with us as subject listed by clause and page; response times recalculated against the contract’s own working-hour definition; remedies listed with how they are claimed and whether any ever has been; notice, renewal and termination dates extracted; the nominated contract manager identified or flagged',
+        'Done: a two-page summary with clause references, held with the contract and reviewed annually',
+        'Fallback: where a variation was agreed by email but the contract requires signature, I flag it as possibly unenforceable rather than relying on it'],
+w_check=['Are our own obligations listed first?',
+         'Are response times in real days?',
+         'Are the notice and renewal dates extracted?',
+         'Is the contract manager identified?'],
+
+t_title='A contract read for the obligations it places on your own side',
+t_fig=figs.split('THIRTY-ONE PAGES AND FOUR PROMISES',
+                 'It can extract',
+                 ['every shall that binds us',
+                  'response times in real days',
+                  'remedies and how to claim them',
+                  'notice and renewal dates'],
+                 'It must not decide',
+                 ['whether to claim a credit',
+                  'what the clause means in law',
+                  'whether to end the contract',
+                  'what the relationship is worth']),
+t_fig_cap='It extracts the clauses. Whether to claim against a supplier is a relationship.',
+t_body=[
+ 'Give it the contract with all schedules, the definitions section and the service '
+ 'as actually delivered.',
+ 'A contract read for the obligations it places on your own side returns every '
+ 'shall with us as its subject.',
+ 'Then ask for the response times recalculated in real days.'],
+t_say=[('We shall: ', 'Provide access between six and eight.'),
+       ('Means: ', 'Working hours are eight to six, weekdays.'),
+       ('Notice: ', 'Three months before the fourteenth of June.')],
+t_bound='It cannot decide whether to claim two per cent against a supplier you '
+        'depend on, and it will not know what that would cost you in goodwill.',
+t_a=[('Give it the contract with all ____________.', 'schedules'),
+     ('And the ____________ section.', 'definitions'),
+     ('And the service as actually ____________.', 'delivered'),
+     ('Ask for every ____________ with us as subject.', 'shall'),
+     ('And response times in ____________ days.', 'real'),
+     ('And the ____________ and renewal dates.', 'notice')],
+t_b_rubric='Say what the contract read should do with each item.',
+t_b=[('“a four-hour response time”', 'recalculate it against working hours'),
+     ('“our obligations are the usual ones”', 'list every shall that binds us'),
+     ('a service credit never claimed', 'say how it is claimed and that none has been'),
+     ('a renewal in fourteen months', 'extract the notice date and name an owner')],
+
+case=dict(
+ title='The Decision Room · The service nobody could stop buying',
+ brief=[
+  'A hospital held forty-one service contracts without a central record of notice '
+  'and renewal dates, and without a nominated contract manager for each.',
+  'Over three years, 11 contracts renewed automatically. 4 of those were for '
+  'services the organisation had decided to change or stop. The additional '
+  'committed spend was about 310,000. In 9 of the 41 contracts the named contract '
+  'manager had left the organisation.',
+  'A register of notice dates with a named owner for each contract was built. Over '
+  'the following three years unwanted automatic renewals fell to none and '
+  'additional committed spend to nil.'],
+ exhibit=figs.datatable('THREE YEARS OF SERVICE CONTRACTS',
+                        ['Item', 'Before / After'],
+                        [['contracts held', '41 / 39'],
+                         ['automatic renewals', '11 / 7'],
+                         ['renewals of unwanted services', '4 / 0'],
+                         ['additional committed spend', '310,000 / 0'],
+                         ['contracts whose named manager had left', '9 / 0'],
+                         ['weeks of work to build the register', '0 / 3']]),
+ exhibit_cap='Three weeks of work against three hundred and ten thousand pounds.',
+ exhibit_note='The four unwanted renewals were not decisions. They were dates '
+              'that passed while nobody held the diary.',
+ voices=[('A service manager', 'about the register',
+          'We have a contracts team. Keeping a second list of dates duplicates their work.'),
+         ('Hana Kowalczyk', 'people manager',
+          'The contracts team holds the documents. Nobody held the dates, and four of them passed.'),
+         ('Nadia Belkacem', 'procurement',
+          'A notice date with no name against it is a date that will be missed.')],
+ steps=[('Find it', 'How many contracts renewed automatically?'),
+        ('Compare it', 'Renewals against services still wanted.'),
+        ('Infer it', 'Why did the dates pass?'),
+        ('Weigh it', 'Three weeks of work against the committed spend.'),
+        ('Decide', 'What must exist for every contract?')],
+ analysis=[('Find it. How many?', '11 of 41'),
+           ('Compare it. How many unwanted?', '4 of the 11'),
+           ('Infer it. Why?', 'because no person held the notice date'),
+           ('Weigh it. What was traded?', 'three weeks of work for 310,000 of committed spend'),
+           ('Decide. What must exist?', 'a register of notice dates with a named owner')],
+ decision='Write the rule, in four lines.',
+ decision_steps=['Say what must be recorded for every contract.',
+                 'Say who must be named.',
+                 'Say what is read before a complaint is made.',
+                 'Say how a response time is understood.'],
+ bank=['Every service contract is recorded with its notice date, renewal date and termination provisions in a single register.',
+       'Every contract has a named contract manager who is a current member of staff, and the supplier is notified of the name in writing.',
+       'Before any complaint of underperformance, the obligations the contract places on this organisation are read and checked.',
+       'Every response time is stated in the register in real elapsed days, calculated using the contract’s own definition of working hours.'],
+ outcome='The hospital adopts the four lines. Unwanted automatic renewals fall '
+         'from four in three years to none, additional committed spend from three '
+         'hundred and ten thousand to nothing, contracts whose named manager had '
+         'left from nine to none, and the register takes three weeks to build.',
+ outcome_q=[('What happened to unwanted renewals?', 'they fell from four to none'),
+            ('What happened to additional committed spend?', 'it fell from 310,000 to nothing'),
+            ('What happened to absent contract managers?', 'there were none'),
+            ('How long did the register take?', 'three weeks'),
+            ('Over what period?', 'three years')],
+ tags=['manager_wrong', 'sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · They have agreed a four-hour response',
+ task=['This was the summary of a contract circulated to three wards.',
+       'This is what it said.'],
+ draft=['The supplier has agreed a four-hour response time.',
+        'There are penalties if they fail to perform.',
+        'The contract runs for three years from signature.',
+        'Our own obligations are the usual ones.',
+        'Any problems should be reported to the supplier promptly.',
+        'The contract is held centrally if anyone needs it.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines summarising a contract, and not one clause reference.',
+ asked=['a four-hour response time', 'penalties if they fail',
+        'the usual ones'],
+ back=['11 of 41 contracts renewing automatically',
+       '4 of them unwanted', '310,000 of committed spend'],
+ gap='Nobody could tell what four hours meant, what the penalty was, what the wards must do, or when notice was due.',
+ back_cap='Six lines that will be quoted on a Friday evening and found to be wrong.',
+ back_note='“Our own obligations are the usual ones” summarises page nineteen, '
+           'where four obligations sit that nobody has ever performed.',
+ diagnosis=[('“the usual ones”', 'unscoped set'),
+            ('“any problems”', 'unscoped set'),
+            ('“penalties”', 'unstated criterion'),
+            ('“promptly”', 'unstated criterion'),
+            ('“a four-hour response time”', 'unstated exception'),
+            ('“reported to the supplier”', 'unstated exception')],
+ rewrite='Rewrite it on the six lines so that a ward knows what to expect on a Friday.',
+ scaffold=['what you must know before complaining',
+           'which contracts are yours, and what is not yours to decide',
+           'what you are giving it',
+           'what the read must extract',
+           'what is produced and how often it is revisited',
+           'what you do with a variation agreed informally'],
+ bank=['Purpose: so that we know what we promised before we complain about what they promised',
+       'Scope: service contracts for which I hold the operational relationship; legal interpretation is for the legal team, and signature authority rests with the director of finance',
+       'Inputs: the contract with all schedules, the definitions section, the service as actually delivered, the history of any variations, and the names of current postholders',
+       'Criteria: every obligation with us as subject listed by clause and page; every response time recalculated against the contract’s own definition of working hours; remedies listed with how they are claimed and whether any has ever been claimed; notice, renewal and termination dates extracted; and the nominated contract manager identified or flagged as never nominated',
+       'Done: a two-page summary with the clause references, held with the contract and reviewed annually',
+       'Fallback: where a variation was agreed by email but the contract requires signature, I flag it as possibly unenforceable rather than relying on it'],
+ check=['Are our obligations listed by clause?',
+        'Is the response time in real days?',
+        'Is the remedy and its claim route stated?',
+        'Is the notice date given?'],
+ model=['so that we know what we promised before we complain about what they promised',
+        'service contracts for which I hold the operational relationship; legal interpretation is for the legal team, and signature authority rests with the director of finance',
+        'the contract with all schedules, the definitions section, the service as actually delivered, the history of any variations, and the names of current postholders',
+        'every obligation with us as subject listed by clause and page; every response time recalculated against the contract’s own definition of working hours; remedies listed with how they are claimed and whether any has ever been claimed; notice, renewal and termination dates extracted; and the nominated contract manager identified or flagged as never nominated',
+        'a two-page summary with the clause references, held with the contract and reviewed annually',
+        'where a variation was agreed by email but the contract requires signature, I flag it as possibly unenforceable rather than relying on it'],
+ cost='11 of 41 contracts renewing automatically, 4 of them unwanted, and 310,000 committed.'),
+
+lang=dict(
+ title='The Unwelcome Number · Telling a ward its four-hour response is Monday',
+ setting=[
+  'A ward has been told for two years that the laundry contract guarantees a '
+  'four-hour response. On a Friday evening the real answer is Monday afternoon.',
+  'Hana has to say so, without blaming the ward or the colleague who summarised '
+  'the contract.'],
+ ladder=[('A ward relying on a promise', 'and a definition nobody read'),
+         ('Four hours', 'that mean Monday afternoon'),
+         ('Either let the belief stand', 'or say it and offer a plan')],
+ cap='Four working hours, one definition, and a Friday evening.',
+ turns=[('Turn 1 · Hana', 'The four-hour response is four working hours, and the contract defines those as eight to six on weekdays.'),
+        ('Turn 2 · Ward sister', 'So on a Friday night we have nothing until Monday.'),
+        ('Turn 3 · Hana', 'Until Monday afternoon, and that has been true since we signed in 2022.')],
+ holds=['Nobody misled you; the summary we all used left the definition out.',
+        'We can buy an out-of-hours response, and I shall get the price this week.',
+        'Or we hold two days of stock on the ward, which is about eleven cubic feet.',
+        'Until one of those is agreed, I shall tell every ward what the real answer is.',
+        'The service credit is two per cent on written claim, and we have never claimed it.',
+        'If you think the stock option is unworkable on your ward, tell me and I shall pursue the price instead.'],
+ redline='Never let a service summary omit the definition that changes it, and '
+         'never leave a ward planning on a promise that does not exist.',
+ score=['Gave the definition in the first sentence.',
+        'Took the error onto the summary, not the ward.',
+        'Offered two concrete options.',
+        'Undertook to correct every ward.',
+        'Left the choice between options open.'],
+ a=[('What does four hours mean?', 'four working hours, eight to six on weekdays'),
+    ('What is the real Friday answer?', 'Monday afternoon'),
+    ('Since when has that been true?', 'since the contract was signed in 2022'),
+    ('What two options are offered?', 'buying an out-of-hours response, or holding two days of stock'),
+    ('What has never been claimed?', 'the two per cent service credit'),
+    ('What is the redline?', 'never let a summary omit the definition that changes it')]),
+
+rev_fig=figs.split('A CONTRACT READ',
+                   'Say',
+                   ['the trust shall provide access between six and eight',
+                    'working hours mean eight to six, weekdays',
+                    'two per cent on written claim within thirty days',
+                    'notice three months before the fourteenth of June'],
+                   'Never say',
+                   ['they have agreed a four-hour response',
+                    'there are penalties',
+                    'our obligations are the usual ones',
+                    'the contract is held centrally']),
+rev_fig_cap='Four sentences you can manage a contract with, and four that will surprise you.',
+rev=dict(
+ read=[('What should be read first?',
+        ['your own obligations', 'the supplier’s promises',
+         'the price schedule', 'the signatures'], 0),
+       ('What do working hours mean in the example?',
+        ['eight to six, Monday to Friday', 'twenty-four hours a day',
+         'any time the ward is open', 'eight to eight, every day'], 0),
+       ('What is an unclaimed service credit?',
+        ['a paragraph rather than a remedy', 'a guaranteed payment',
+         'a penalty on the supplier', 'a termination right'], 0),
+       ('What goes in a diary?',
+        ['the notice date before renewal', 'the signature date',
+         'the first invoice', 'the annual review'], 0)],
+ listen_text='Give it the contract with all schedules, the definitions section and '
+             'the service as actually delivered. Ask for every shall with us as '
+             'subject.',
+ listen=[('Give it the contract with all ____________.', 'schedules'),
+         ('And the ____________ section.', 'definitions'),
+         ('And the service as actually ____________.', 'delivered'),
+         ('Ask for every ____________ with us as subject.', 'shall')],
+ speak=['Ask six contracts what they require of your own side.',
+        'Then recalculate six response times in real days.'],
+ write='Write a six-line tasking for a contract read.',
+ vocab=[('What they must do is an obligation on the ____________.', 'supplier'),
+        ('The clause that changes every deadline is a definition of a working ____________.', 'day'),
+        ('How the contract can be ended is a ____________ clause.', 'termination'),
+        ('A term with a remedy attached is a clause you can ____________.', 'enforce')],
+ gram=[('We ____________ nominated a contract manager.', 'have'),
+       ('Three months’ notice ____________ the fourteenth of June.', 'before'),
+       ('On written claim ____________ thirty days.', 'within'),
+       ('A service credit of two ____________ cent is available.', 'per')]),
+
+found=['Read every obligation that binds your own side first.',
+       'Find the definitions before you believe a response time.',
+       'Treat a remedy nobody has claimed as a paragraph.',
+       'Diarise the notice date, with a name against it.'],
+end_line='Four of eleven automatic renewals were for services the organisation had decided to stop, and none of them was a decision; they were dates nobody held.',
+end_next='Next: Buying Something: Writing the Specification')

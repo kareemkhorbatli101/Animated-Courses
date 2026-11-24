@@ -1,0 +1,547 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=5,
+title='Universities and Scholarships',
+gram='articles with institutions, countries and titles',
+ai='the scholarship question a general system answers wrongly',
+strap='CEFR B1 · Grammar: articles with institutions, countries and titles · '
+      'AI: the scholarship question a general system answers wrongly',
+cando=['use a, the and zero article correctly with institutions and titles',
+       'explain how a scholarship scheme works to an applicant',
+       'say why a general answer about a deadline is dangerous',
+       'publish information in a form that can be quoted back',
+       'write a six-line public note on a scheme'],
+
+hero=('A CONFIDENT ANSWER ABOUT A DEADLINE THAT HAD MOVED',
+      ['She asked a system and it told her 30 April, which had been true.',
+       'The Mission had moved it to 14 March and said so on one page.'],
+      [(720, 'teal', 'long'), (720, 'blue', 'short'), (720, 'grey', 'short')]),
+hero_cap='A kitchen table in Ostport, with an application form and a date that was six weeks old.',
+
+warm=['Where would you look first for the rules of a scholarship?',
+      'Who do you believe when two sources give different dates?',
+      'What makes information easy to quote back correctly?'],
+
+read=[
+ 'The Mission runs a small scholarship scheme. Eighteen places a year, for study at '
+ 'universities in our country, open to nationals of the host state and to our own nationals '
+ 'resident here. It is administered by one officer and a half.',
+ 'Most of the work is answering questions. How old must I be? Does a diploma from the '
+ 'Technical Institute count? Is the language test required for the Faculty of Medicine? Can '
+ 'I apply if I already hold a degree?',
+ 'The answers exist. They are on the Mission’s page, in nine paragraphs, and they are '
+ 'correct. They are also written in a way that is hard to quote: long sentences, no dates '
+ 'at the top, and the deadline buried in the seventh paragraph.',
+ 'In February the deadline moved from 30 April to 14 March, because the university year had '
+ 'been brought forward. The page was updated the same day. Nothing else was.',
+ 'A student in Ostport asked a general system in March when applications closed. It '
+ 'answered 30 April, confidently and in good English, because that was the date on every '
+ 'other page it had ever seen. She applied on 2 April.'],
+
+dp1=('Why authoritative pages are dated', 'Public information practice commonly requires a '
+     'visible date of last revision and a single authoritative page for each scheme, '
+     'because secondary descriptions and cached copies continue to circulate long after a '
+     'change.',
+     'Source: reported public information practice, 2025–2026.'),
+
+c_a=[('How many scholarship places are there a year?', 'eighteen'),
+     ('Who may apply?', 'nationals of the host state and our nationals resident there'),
+     ('Where are the answers?', 'on the Mission’s page, in nine paragraphs'),
+     ('What is wrong with the page?', 'it is hard to quote and the deadline is buried'),
+     ('When did the deadline move?', 'in February, from 30 April to 14 March'),
+     ('What did the system tell the student?', '30 April')],
+
+c_b=[('The scheme has eighty places.', 'F'),
+     ('Most of the work is answering questions.', 'T'),
+     ('The page was wrong.', 'F'),
+     ('The deadline is at the top of the page.', 'F'),
+     ('The system gave the old date.', 'T'),
+     ('The student applied before the real deadline.', 'F')],
+
+c_c=[('She studied at ____________ Technical Institute in Ostport.', 'the'),
+     ('He is reading medicine at ____________ university in our country.', 'a'),
+     ('____________ Regional Council funds four places.', 'The'),
+     ('She holds ____________ degree in engineering.', 'a'),
+     ('The scheme is run by ____________ Mission.', 'the'),
+     ('He hopes to study at ____________ Faculty of Medicine.', 'the')],
+
+c_d=[('Use the with ( a country / a named institution of a known kind ).', ['a country', 'a named institution of a known kind'], 1),
+     ('Use no article with ( most country names / institutions ).',
+      ['most country names', 'institutions'], 0),
+     ('A title before a name takes ( no article / the ).', ['no article', 'the'], 0),
+     ('The page was ( correct but hard to quote / wrong ).',
+      ['correct but hard to quote', 'wrong'], 0),
+     ('The system repeated ( the most common date / an invented date ).',
+      ['the most common date', 'an invented date'], 0)],
+
+c_e=('A, the or no article? Put each phrase in the right column.',
+     [('Technical Institute, named', 'the'),
+      ('Verenia', 'no article'),
+      ('university, any one', 'a'),
+      ('Ambassador Hourani', 'no article'),
+      ('Faculty of Medicine', 'the'),
+      ('scholarship, one of many', 'a')],
+     ['a', 'the', 'no article']),
+
+v_fig_title='A SCHEME AND ITS RULES',
+v_fig=[('doc', 'a transcript of records'), ('key', 'a degree recognition'), ('people', 'an alumni network'),
+       ('clock', 'an academic year'), ('chart', 'an equivalence'), ('bank', 'a maintenance grant')],
+v_fig_cap='Six words that decide whether a young person studies abroad.',
+
+vocab=[
+ ('a scholarship', 'financial support awarded for study, usually on merit or need'),
+ ('a tuition fee', 'the sum charged by an institution for teaching'),
+ ('an academic year', 'the period in which a course of study runs'),
+ ('a transcript of records', 'the official list of courses taken and marks obtained'),
+ ('a degree recognition', 'the acceptance of a foreign qualification as equivalent'),
+ ('an equivalence', 'the formal statement that one qualification matches another'),
+ ('an entrance examination', 'a test taken to gain admission to a course'),
+ ('a supervisor of studies', 'the academic responsible for a student’s programme'),
+ ('a research grant', 'money awarded to carry out a defined piece of research'),
+ ('an exchange agreement', 'an arrangement under which institutions send students to each other'),
+ ('a student visa condition', 'a requirement attached to permission to stay and study'),
+ ('a maintenance grant', 'money paid to a student to live on'),
+ ('a language requirement', 'the level of language a course demands before admission'),
+ ('an accreditation body', 'the organisation that approves courses and institutions'),
+ ('a faculty', 'a department or group of departments within a university'),
+ ('a cohort', 'the group of students admitted in the same year'),
+ ('an internship', 'a period of supervised work experience, often unpaid'),
+ ('a return obligation', 'a requirement to go home for a period after studying'),
+ ('a credential check', 'the verification that a qualification is genuine'),
+ ('an application window', 'the period during which applications may be made')],
+
+v_a=[('The official list of courses and marks is a ____________ of records.', 'transcript'),
+     ('The formal statement that one qualification matches another is an ____________.', 'equivalence'),
+     ('Money paid to a student to live on is a ____________ grant.', 'maintenance'),
+     ('The organisation that approves courses is an ____________ body.', 'accreditation'),
+     ('The group admitted in the same year is a ____________.', 'cohort'),
+     ('A requirement to go home after studying is a ____________ obligation.', 'return'),
+     ('The verification that a qualification is genuine is a ____________ check.', 'credential'),
+     ('The period during which applications may be made is an application ____________.', 'window')],
+
+v_b=[('An exchange agreement is an arrangement under which institutions', 'send students to each other.'),
+     ('A student visa condition is a requirement attached', 'to permission to stay and study.'),
+     ('A supervisor of studies is the academic responsible', 'for a student’s programme.'),
+     ('A language requirement is the level of language', 'a course demands before admission.'),
+     ('An internship is a period of supervised work experience,', 'often unpaid.')],
+
+g_title='Grammar: articles with institutions, countries and titles',
+g_rule=['No article with most countries: Verenia, Oristan. But: the Regional Council.',
+        'the with named institutions of a known kind: the Technical Institute, the Faculty of Medicine.',
+        'a with one of many: a university, a scholarship, a faculty.',
+        'No article with a title before a name: Ambassador Hourani, Professor Said.'],
+g_fig=('WRONG',
+       ['She studied at Technical Institute.',
+        'He is reading medicine at the university, any one.',
+        'The Verenia has eleven universities.',
+        'She met the Ambassador Hourani.'],
+       'RIGHT',
+       ['She studied at the Technical Institute.',
+        'He is reading medicine at a university.',
+        'Verenia has eleven universities.',
+        'She met Ambassador Hourani.'],
+       'four article errors that mark a text as translated',
+       'the same four, as English uses them'),
+g_fig_cap='Named institution: the. One of many: a. Country or title plus name: nothing.',
+
+g_a=[('She studied at ____________ Technical Institute.', 'the'),
+     ('He is reading medicine at ____________ university in our country.', 'a'),
+     ('____________ Regional Council funds four places.', 'The'),
+     ('She holds ____________ degree in engineering.', 'a'),
+     ('The scheme is run by ____________ Mission.', 'the'),
+     ('He applied to ____________ Faculty of Medicine.', 'the'),
+     ('He studies at ____________ Faculty of Law.', 'the'),
+     ('She attended ____________ Technical Institute in Ostport.', 'the'),
+     ('He is ____________ supervisor of studies for this cohort.', 'the')],
+
+g_b=[('She studied at ( the Technical Institute / Technical Institute ).', ['the Technical Institute', 'Technical Institute'], 0),
+     ('He studies at ( a university / the university ) in our country.',
+      ['a university', 'the university'], 0),
+     ('( Verenia / The Verenia ) has eleven universities.', ['Verenia', 'The Verenia'], 0),
+     ('She met ( Ambassador Hourani / the Ambassador Hourani ).',
+      ['Ambassador Hourani', 'the Ambassador Hourani'], 0),
+     ('He applied to ( the Faculty of Medicine / Faculty of Medicine ).',
+      ['the Faculty of Medicine', 'Faculty of Medicine'], 0),
+     ('( The Regional Council / Regional Council ) funds four places.',
+      ['The Regional Council', 'Regional Council'], 0)],
+
+d1=dict(
+ title='Where did she get April?',
+ fig=(['She applied on the second of April.', 'The deadline was 14 March.'],
+      ['Where did she get April?', 'From everywhere except our page.']),
+ cap='Layla Sayegh and Ziad Mikhail, with a late application on the desk.',
+ lines=[('Layla', 'She applied on 2 April. The deadline was 14 March.'),
+        ('Ziad', 'Where did she get April?'),
+        ('Layla', 'She asked a general system. It said 30 April.'),
+        ('Ziad', 'Which was true until February.'),
+        ('Layla', 'And is still on four other pages, two of them ours from last year.'),
+        ('Ziad', 'So the correct date exists in exactly one place.'),
+        ('Layla', 'In the seventh paragraph of a page with no date at the top.'),
+        ('Ziad', 'Is she out of time?'),
+        ('Layla', 'She is. And she is nineteen, and she did everything carefully.'),
+        ('Ziad', 'Everything except doubting a confident answer.'),
+        ('Layla', 'Which is a lot to ask of a nineteen-year-old in a second language.'),
+        ('Ziad', 'Then the fault is the page, not the student.')],
+ a=[('When did she apply?', 'on 2 April'),
+    ('What was the deadline?', '14 March'),
+    ('Where did April come from?', 'a general system, repeating the old date'),
+    ('Where is the correct date?', 'in the seventh paragraph of one page'),
+    ('Whose fault is it?', 'the page’s, not the student’s')],
+ b=[('It said 30 ____________.', 'April'),
+    ('Which was true until ____________.', 'February'),
+    ('The correct date exists in exactly one ____________.', 'place'),
+    ('Everything except ____________ a confident answer.', 'doubting')]),
+
+d2=dict(
+ title='It repeated what everybody else said',
+ fig=(['It was not wrong on purpose.', 'It was wrong on average.'],
+      ['Meaning?', 'Four pages said April. One said March.']),
+ cap='Ziad and Rim Haddad, about how to stop it happening again.',
+ lines=[('Rim', 'The system was not inventing. It was averaging.'),
+        ('Ziad', 'Four pages said April and one said March.'),
+        ('Rim', 'And the one that said March was the only one that mattered.'),
+        ('Ziad', 'How would anything know that?'),
+        ('Rim', 'By us saying so, in a form that can be read and quoted.'),
+        ('Ziad', 'A date at the top of the page. The scheme name. The year.'),
+        ('Rim', 'And one short paragraph that answers the five questions people actually ask.'),
+        ('Ziad', 'And taking the old pages down, which nobody ever does.'),
+        ('Rim', 'Nobody ever does, and that is where half of these answers come from.'),
+        ('Ziad', 'So the work is not writing. It is removing.'),
+        ('Rim', 'Removing, dating and repeating. Three dull things that would have saved her year.'),
+        ('Ziad', 'And what about the pages that are not ours at all?')],
+ unresolved=True,
+ a=[('What was the system doing?', 'averaging, not inventing'),
+    ('How many pages said April?', 'four'),
+    ('What must the Mission do to its page?', 'date it and answer the five real questions'),
+    ('What does nobody ever do?', 'take the old pages down'),
+    ('What are the three dull things?', 'removing, dating and repeating')],
+ b=[('It was wrong on ____________.', 'average'),
+    ('In a form that can be read and ____________.', 'quoted'),
+    ('The work is not writing. It is ____________.', 'removing'),
+    ('Three dull things that would have saved her ____________.', 'year')]),
+
+speak=[('Articles',
+        ['Describe six institutions and four countries aloud.',
+         'Your partner corrects every article.',
+         'Then do the same with six people and their titles.']),
+       ('Explain the scheme',
+        ['Explain a scheme you know in eight sentences.',
+         'Your partner asks the five questions an applicant would ask.',
+         'Say which of the five your explanation failed to answer.']),
+       ('Where did you read that?',
+        ['Your partner states four facts about a procedure.',
+         'Ask where each one came from and when it was last checked.',
+         'Decide which one you would act on today.'])],
+
+ext_title='A confident wrong answer is produced by agreement, and agreement is produced by old pages',
+ext_fig=figs.datatable('FIVE PAGES, ONE DEADLINE',
+                       ['Page', 'Date given', 'Last updated', 'Authoritative?'],
+                       [['the Mission page', '14 March', 'February', 'yes'],
+                        ['the Mission page, 2025 copy', '30 April', 'last year', 'no'],
+                        ['a university listing', '30 April', '2 years ago', 'no'],
+                        ['a student forum', '30 April', 'unknown', 'no'],
+                        ['an education agency', '30 April', 'unknown', 'no'],
+                        ['what a general system returns', '30 April', '—', '—']]),
+ext_fig_cap='One page is right and four are old, so the usual answer is the wrong one.',
+ext=[
+ 'Scholarship administration is mostly answering the same five questions. Who may apply, '
+ 'what qualifications count, what the language requirement is, what the deadline is, and '
+ 'what happens after an award. Everything else is paperwork.',
+ 'Those answers exist on a Mission page and are correct. The trouble is that the page is '
+ 'written as prose for a reader who starts at the beginning, and almost nobody reads it '
+ 'that way. They ask somebody, or they ask a system.',
+ 'A general system answers by weighing what it has read, and what it has read includes last '
+ 'year’s version of your page, a university listing from two years ago, two agency sites '
+ 'and a forum. If four of those say April, April is what comes back.',
+ 'It is not inventing and it is not careless. It is reporting the balance of what exists, '
+ 'and the balance of what exists is almost always out of date, because nobody ever removes '
+ 'anything from the internet, including missions.',
+ 'So the remedy is unglamorous. Put the date of the last revision at the top. Answer the '
+ 'five questions in five short paragraphs with headings. Take down every superseded page '
+ 'you control. Then repeat the dates in every message you send to anybody.'],
+
+dp2=('Remove as well as publish', 'Information management practice commonly treats removal '
+     'of superseded material as part of publication, since outdated pages under an '
+     'organisation’s own control are a frequent source of incorrect public answers.',
+     'Source: reported information management practice, 2025–2026.'),
+
+e_a=[('What are the five questions?', 'who may apply, what counts, the language, the deadline, what follows'),
+     ('Why does nobody read the page properly?', 'it is prose and people ask somebody instead'),
+     ('How does a general system answer?', 'by weighing what it has read'),
+     ('Why is the balance usually out of date?', 'nobody removes old pages'),
+     ('What are the four remedies?', 'date it, use headings, remove old pages, repeat the dates')],
+e_b=[('Most scholarship work is complex judgement.', 'F'),
+     ('The Mission page was incorrect.', 'F'),
+     ('A general system invents dates.', 'F'),
+     ('Old pages stay online indefinitely.', 'T'),
+     ('Removal is part of publication.', 'T'),
+     ('Headings help a reader who does not start at the beginning.', 'T')],
+
+w_model='Purpose: so that an applicant and anybody answering on our behalf finds one date '
+        'and one set of rules. Scope: the scholarship scheme for the 2026 academic year; '
+        'research grants are described separately. Inputs: the scheme rules as amended on 9 '
+        'February. Criteria: 6 lines, with the revision date in the first line, each of the '
+        '5 common questions answered in 1 sentence, and the deadline repeated in the last '
+        'line. Done: published and all superseded pages removed, by 16 February. Fallback: '
+        'where a rule is still under discussion, the line says so and gives a date for the '
+        'answer.',
+w_fig=figs.spec_card('SIX LINES THAT CAN BE QUOTED',
+                     [('Purpose', 'one date, one set of rules, quotable'),
+                      ('Scope', 'the 2026 scheme; research grants separate'),
+                      ('Inputs', 'the rules as amended on 9 February'),
+                      ('Criteria', 'revision date first, 5 questions, deadline repeated'),
+                      ('Done', 'published and old pages removed by 16 February'),
+                      ('Fallback', 'an undecided rule says so, with a date')]),
+w_fig_cap='The last line repeats the deadline because the last line is what people copy.',
+w_task='Write a six-line public note on a scheme you administer.',
+w_steps=['Line 1: the scheme, the year and the date this text was last revised.',
+         'Line 2: who may apply, and who may not.',
+         'Line 3: what qualifications count, with one example that is usually asked about.',
+         'Line 4: the language requirement, as a level and a test name.',
+         'Line 5: what happens after an award, in one sentence.',
+         'Line 6: the deadline, written in full, repeated from line 1.'],
+w_bank=['Scholarship scheme 2026. This page was last revised on … .',
+        'Open to … . Not open to … .',
+        'A diploma from … counts if … .',
+        'Applicants must hold … at level … .',
+        'Applications close at 23:59 on Saturday 14 March 2026.'],
+w_check=['Is the revision date in the first line?',
+         'Is the deadline written in full and repeated?',
+         'Does line 2 say who may not apply?',
+         'Would each line survive being quoted on its own?'],
+
+t_title='The scholarship question a general system answers wrongly',
+t_fig=figs.split('A PUBLIC SCHEME',
+                 'Why wrong answers spread',
+                 ['last year’s page is still online',
+                  'agency sites copy each other',
+                  'the right page has no date on it',
+                  'the deadline is in paragraph seven'],
+                 'What makes a right answer win',
+                 ['a revision date at the top',
+                  'five headed questions, one each',
+                  'superseded pages taken down',
+                  'the date repeated in every message']),
+t_fig_cap='You cannot correct the internet. You can make your own page the easiest thing to quote.',
+t_body=[
+ 'You will not stop people asking a general system, and you should not try. Students ask '
+ 'what is nearest and fastest, in whatever language they are most comfortable in, at eleven '
+ 'at night, which is exactly when your counter is closed.',
+ 'What you can do is change what such a system finds. A dated page, with five headed '
+ 'answers in short sentences, written in the words applicants actually use, is far more '
+ 'likely to be reflected accurately than nine paragraphs of careful prose.',
+ 'And remove what you have superseded. Half the wrong answers in circulation about your own '
+ 'scheme are your own old pages, still online, still indexed, still being weighed equally '
+ 'against the page you corrected in February.'],
+t_say=[('Date it: ', 'This page was last revised on 9 February 2026.'),
+       ('Head the questions: ', 'Who may apply. What counts. Language. Deadline. After the award.'),
+       ('Remove the rest: ', 'The 2025 page comes down today, not when somebody has time.')],
+t_bound='A general system reports the balance of what it has read, which includes your own '
+        'superseded pages and every site that copied them. It cannot know which page is '
+        'authoritative unless the difference is visible on the page itself.',
+t_a=[('This page was last ____________ on 9 February.', 'revised'),
+     ('Who may apply. What ____________.', 'counts'),
+     ('The 2025 page comes down ____________.', 'today'),
+     ('It reports the ____________ of what it has read.', 'balance'),
+     ('It cannot know which page is ____________.', 'authoritative'),
+     ('Unless the difference is ____________ on the page.', 'visible')],
+t_b_rubric='Say what each measure would change.',
+t_b=[('Putting a revision date at the top.',
+      'it tells a reader and a system which version is current'),
+     ('Taking down last year’s page.', 'it removes a competing answer you control'),
+     ('Using headings for the five questions.', 'it lets a reader who starts in the middle find the answer'),
+     ('Repeating the deadline in the last line.', 'the last line is what people copy and send on')],
+
+case=dict(
+ title='The Decision Room · The date that was true last year',
+ brief=[
+  'In February the Mission brings the scholarship deadline forward from 30 April to 14 '
+  'March, because the university year has moved. The Mission page is updated the same day. '
+  'Last year’s page remains online, as do four other descriptions of the scheme.',
+  'A nineteen-year-old in Ostport asks a general system in March when applications close. '
+  'It answers 30 April, confidently and in good English, because four of the five sources '
+  'it can see say so. She prepares carefully and applies on 2 April.',
+  'She is out of time. The scheme is heavily oversubscribed and there is no discretion to '
+  'accept a late application without unfairness to those who applied on time. She has a '
+  'transcript, two references and a language certificate, and no place.'],
+ exhibit=figs.datatable('FIVE SOURCES IN MARCH',
+                        ['Source', 'Deadline given', 'Controlled by the Mission?'],
+                        [['Mission page, current', '14 March', 'yes'],
+                         ['Mission page, 2025', '30 April', 'yes'],
+                         ['university listing', '30 April', 'no'],
+                         ['education agency', '30 April', 'no'],
+                         ['student forum', '30 April', 'no'],
+                         ['what the student was told', '30 April', '—']]),
+ exhibit_cap='Two of the five wrong sources belonged to the Mission.',
+ exhibit_note='The current page was correct from the day of the change. It was also '
+              'undated, unheaded and outnumbered four to one by pages describing the '
+              'previous year.',
+ voices=[('Layla Sayegh', 'press and cultural officer',
+          'We updated the page the same day. I was rather pleased with how fast we were.'),
+         ('Rim Haddad', 'consular assistant',
+          'And left last year’s page up, which is the one half the agencies still link to.'),
+         ('Ziad Mikhail', 'commercial attaché',
+          'She is nineteen and she did everything right except doubt a confident sentence.')],
+ steps=[('Find it', 'How many sources gave the wrong date?'),
+        ('Compare it', 'Which of them did the Mission control?'),
+        ('Infer it', 'Why did the correct page not prevail?'),
+        ('Weigh it', 'Removing two old pages against one lost academic year.'),
+        ('Decide', 'What does publishing a change actually require?')],
+ analysis=[('Find it. How many sources were wrong?', 'four'),
+           ('Compare it. How many did the Mission control?', 'two'),
+           ('Infer it. Why did the right page lose?', 'it was undated and outnumbered'),
+           ('Weigh it. What did it cost?', 'an academic year for a careful applicant'),
+           ('Decide. What does publishing require?', 'dating, heading, removing and repeating')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what appears at the top of every scheme page.',
+                 'Say what happens to superseded pages, and when.',
+                 'Say how the five common questions are presented.',
+                 'Say what every message about the scheme must repeat.'],
+ bank=['Every scheme page carries the date of its last revision in the first line.',
+       'A superseded page is removed on the day the change is published.',
+       'The 5 common questions are answered under their own headings, 1 sentence each.',
+       'Every message about the scheme repeats the deadline in full.'],
+ outcome='The Mission cannot admit the late application without being unfair to others, and '
+         'says so to the student in person. It rewrites the page in six dated, headed lines, '
+         'removes two superseded pages the same afternoon, and writes to the four external '
+         'sites it can identify. The following year it opens the scheme with a dated notice '
+         'and repeats the deadline in every message. Late applications fall from nine to one.',
+ outcome_q=[('Could the late application be accepted?', 'no, it would be unfair to others'),
+            ('How was the student told?', 'in person'),
+            ('What happened to the superseded pages?', 'they were removed the same afternoon'),
+            ('What is repeated in every message?', 'the deadline, in full'),
+            ('How many late applications the next year?', 'one, down from nine')],
+ tags=['manager_wrong', 'sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Answer the scholarship questions',
+ task=['An officer was asked to deal with enquiries about the scholarship scheme.',
+       'This is the instruction as it was given, and what the season produced.'],
+ draft=['Answer the scholarship questions.',
+        'Point people at the website.',
+        'Deal with anything unusual yourself.',
+        'Keep the answers consistent.',
+        'Do not spend all day on it.',
+        'Let me know if there are problems.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says which page, or what consistent means.',
+ asked=['Questions answered', 'People pointed at the website', 'Consistent answers'],
+ back=['211 enquiries', '3 different deadlines quoted by staff', '9 late applications'],
+ gap='Nobody named the authoritative page, required the date to be quoted, or removed old pages.',
+ back_cap='Two hundred and eleven enquiries and three different deadlines, all quoted in good faith.',
+ back_note='Point people at the website is unusable when the Mission has four websites, two '
+           'of which it has forgotten that it owns.',
+ diagnosis=[('“anything unusual”', 'unstated exception'),
+            ('“if there are problems”', 'unstated exception'),
+            ('“the website”', 'ambiguous referent'),
+            ('“keep the answers consistent”', 'ambiguous referent'),
+            ('“as many as you can”', 'unbounded quantity'),
+            ('“do not spend all day”', 'unbounded quantity')],
+ rewrite='Rewrite it on the six lines so that one date is quoted by everybody.',
+ scaffold=['why the Mission answers these questions at all',
+           'which enquiries are covered and which are referred',
+           'which single page is authoritative, and its revision date',
+           'what every answer must contain',
+           'how many may be handled and by when',
+           'what happens when an answer is not on the page'],
+ bank=['Purpose: so that every applicant receives the same answer from the Mission',
+       'Scope: enquiries about the … scheme; research grants are referred to …',
+       'Inputs: the page at … , revised on … ; no other source is quoted',
+       'Criteria: every answer repeats the deadline in full and the revision date',
+       'Done: answered within … working days, using the 5 standard replies',
+       'Fallback: a question not answered on the page is referred to … , not improvised'],
+ check=['Is one page named as authoritative?',
+        'Must the deadline be repeated in full?',
+        'Is there a time limit for answering?',
+        'Does it forbid improvising an answer?'],
+ model=['so that every applicant receives the same answer from the Mission',
+        'enquiries about the 2026 scholarship scheme; research grants are referred to the attaché',
+        'the scheme page revised on 9 February 2026; no other source is quoted',
+        'every answer repeats the deadline in full and gives the page revision date',
+        'answered within 2 working days, using the 5 standard replies',
+        'a question not answered on the page is referred to the cultural officer, not improvised'],
+ cost='3 different deadlines quoted by staff produced 9 late applications in 1 season. '
+      '5 standard replies and 1 dated page reduced that to 1.'),
+
+feet=dict(
+ title='On Your Feet · A parent whose daughter missed the date',
+ setting=[
+  'A man is at the counter with his daughter’s application, which arrived nineteen days '
+  'after the deadline. He is polite, extremely upset, and has brought a printout of the '
+  'answer she was given, which says 30 April.',
+  'The scheme is oversubscribed and the deadline cannot be moved for one applicant. Two of '
+  'the five wrong sources were the Mission’s own pages. You have about ninety seconds, and '
+  'his daughter is standing beside him.'],
+ ladder=[('She was told April', 'accept the Mission’s share of the fault'),
+         ('Then make an exception', 'the request you cannot grant'),
+         ('You have ruined her year', 'the turn that is entirely fair')],
+ cap='Three turns, and the person most affected is listening to every word.',
+ turns=[('Turn 1 · Parent', 'She was told 30 April. Here it is, printed. Who told her that?'),
+        ('Turn 2 · Parent', 'Then you must make an exception. The mistake is yours, not hers.'),
+        ('Turn 3 · Parent', 'You have ruined her year. Do you understand that?')],
+ holds=['Two of the pages that said April were ours, and I am not going to pretend otherwise.',
+        'I cannot accept the application, and I will explain why that is not about her.',
+        'If I accept one late application, I take a place from somebody who met the date.',
+        'What I can do is write to her university contact and ask about the January intake.',
+        'And I will send you, today, the three other schemes she is eligible for.',
+        'I am sorry. The fault is ours and the consequence is hers, and I know what that is worth.'],
+ redline='You must not blame the student, you must not blame a system she consulted, and '
+         'you must not promise to reconsider the application. Do not say that the rules are '
+         'the rules without first accepting the Mission’s own part in the error.',
+ score=['Accepted the Mission’s share of the fault in the first sentence.',
+        'Refused the exception by reference to other applicants, not to rules.',
+        'Offered two concrete alternatives, with dates.',
+        'Apologised plainly and without qualification.',
+        'Spoke to the daughter as well as to the father.'],
+ a=[('What do you accept first?', 'the Mission’s share of the fault'),
+    ('Why can you not make an exception?', 'it would take a place from somebody who met the date'),
+    ('What two things can you offer?', 'a word with the university contact and other schemes'),
+    ('What must you not blame?', 'the student or the system she asked'),
+    ('What must you not promise?', 'to reconsider the application'),
+    ('Who else is in the conversation?', 'the daughter, who is listening')]),
+
+rev_fig=figs.split('A PUBLIC PAGE',
+                   'Easy to get wrong',
+                   ['nine paragraphs of prose',
+                    'no date anywhere on the page',
+                    'the deadline in paragraph seven',
+                    'last year’s version still online'],
+                   'Hard to get wrong',
+                   ['revised 9 February 2026, at the top',
+                    'five headed questions, one sentence each',
+                    'the deadline in the first and last lines',
+                    'superseded pages removed the same day']),
+rev_fig_cap='The right-hand column survives being quoted by somebody who read only one line.',
+rev=dict(
+ read=[('How many scholarship places are there?', ['eighteen', 'eighty', 'five', 'two'], 0),
+       ('When did the deadline move?', ['in February', 'in April', 'in March', 'it did not'], 0),
+       ('How many wrong sources were the Mission’s own?', ['two', 'none', 'four', 'one'], 0),
+       ('What appears in the first line of a scheme page?',
+        ['the revision date', 'the fee', 'the address', 'the history'], 0)],
+ listen_text='Put the date of the last revision at the top. Answer the five questions under '
+             'headings, one sentence each. Take down every superseded page you control. '
+             'Then repeat the deadline in every message you send.',
+ listen=[('Put the date of the last ____________ at the top.', 'revision'),
+         ('Answer the five questions under ____________.', 'headings'),
+         ('Take down every ____________ page you control.', 'superseded'),
+         ('Repeat the ____________ in every message.', 'deadline')],
+ speak=['Describe six institutions and four countries, with correct articles.',
+        'Then explain a scheme in eight sentences and answer the five standard questions.'],
+ write='Write a six-line public note on a scheme you administer.',
+ vocab=[('The official list of courses and marks is a ____________ of records.', 'transcript'),
+        ('Money paid to a student to live on is a ____________ grant.', 'maintenance'),
+        ('The group admitted in the same year is a ____________.', 'cohort'),
+        ('The period during which applications may be made is an application ____________.', 'window')],
+ gram=[('She studied at ____________ Technical Institute.', 'the'),
+       ('He studies at ____________ university in our country.', 'a'),
+       ('He applied to ____________ Faculty of Medicine.', 'the'),
+       ('She won ____________ scholarship last year.', 'a')]),
+
+found=['Put a revision date on every public page your section controls.',
+       'Find and remove the superseded pages your own organisation still has online.',
+       'Rewrite one page as five headed questions with one sentence each.',
+       'Repeat the key date in the first and last lines of every message you send.'],
+end_line='You cannot correct the internet. You can date your page and take your old ones down.',
+end_next='Next: A Local Journalist at an Event')

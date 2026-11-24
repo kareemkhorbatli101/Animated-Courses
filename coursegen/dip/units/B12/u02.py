@@ -1,0 +1,550 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=2,
+title='Meeting a Regional Authority',
+gram='non-defining relative clauses',
+ai='who you are about to meet, and what is actually known',
+strap='CEFR B1 · Grammar: non-defining relative clauses · '
+      'AI: who you are about to meet, and what is actually known',
+cando=['add background with non-defining relative clauses',
+       'describe how regional authority works alongside a capital',
+       'build a biographical note that distinguishes fact from allegation',
+       'say what may never go into a note about a person',
+       'write a six-line biographical note'],
+
+hero=('A NOTE WITH ONE SENTENCE THAT CHANGED HOW AN OFFICER SAT',
+      ['Three facts, two dates and one allegation from a partisan site.',
+       'He did not mention it, and the governor could see that he had read it.'],
+      [(720, 'blue', 'short'), (720, 'purple', 'long'), (720, 'grey', 'short')]),
+hero_cap='A waiting room in a provincial headquarters, with a four-line note folded in a pocket.',
+
+warm=['What do you want to know about somebody before you meet them officially?',
+      'What would you not want a stranger to have read about you?',
+      'How do you tell a fact from an allegation?'],
+
+read=[
+ 'Regional authority is real and is usually underestimated by diplomats. A governor, who '
+ 'may be appointed or elected depending on the country, can hold powers over land, '
+ 'licensing, public works and policing that the capital cannot easily override.',
+ 'Missions therefore prepare a note before meeting one. A biographical note is four or five '
+ 'lines: the office, the date of appointment, the previous post, the areas the person '
+ 'actually decides, and anything the Mission has promised or asked before.',
+ 'Ziad asked for a note on Governor Hald, who had taken office nineteen months earlier. The '
+ 'note came back with three accurate facts, two correct dates and one further sentence, '
+ 'which reported an allegation about a construction contract.',
+ 'The allegation came from a local site which is openly partisan and which has published '
+ 'similar claims about four other officials. No court, no inquiry and no mainstream outlet '
+ 'has ever reported it. The note gave it one line, like the others.',
+ 'Ziad read the note twice. He did not mention the allegation and he did not believe it. He '
+ 'sat slightly differently for the first ten minutes, and Governor Hald, who has met a '
+ 'great many foreign officials, noticed.'],
+
+dp1=('Why allegations are handled separately', 'Reporting guidance commonly requires that '
+     'unverified allegations about named individuals be recorded separately from '
+     'biographical fact, with their source and status, because an unmarked allegation is '
+     'read by later users as part of the record.',
+     'Source: reported reporting practice, 2025–2026.'),
+
+c_a=[('What powers may a governor hold?', 'land, licensing, public works and policing'),
+     ('How long is a biographical note?', 'four or five lines'),
+     ('What does it contain?', 'the office, the date, the previous post, what they decide, past contact'),
+     ('How long had Governor Hald been in office?', 'nineteen months'),
+     ('Where did the allegation come from?', 'an openly partisan local site'),
+     ('What did Ziad do about it?', 'he did not mention it and did not believe it')],
+
+c_b=[('Regional authority is usually overestimated by diplomats.', 'F'),
+     ('A governor may hold powers over licensing.', 'T'),
+     ('The allegation had been reported by a court.', 'F'),
+     ('The note marked the allegation as unverified.', 'F'),
+     ('Ziad believed the allegation.', 'F'),
+     ('The governor noticed a change in his manner.', 'T')],
+
+c_c=[('Governor Hald, ____________ took office in June, decides licences.', 'who'),
+     ('The note, ____________ was four lines long, contained one allegation.', 'which'),
+     ('The site, ____________ claims are often repeated, is openly partisan.', 'whose'),
+     ('Marnach, ____________ the meeting took place, is 200 kilometres away.', 'where'),
+     ('In June, ____________ he took office, the road had already stalled.', 'when'),
+     ('His predecessor, ____________ nobody had briefed us about, is now in the capital.', 'whom')],
+
+c_d=[('A non-defining clause adds ( extra information / the identification ).', ['extra information', 'the identification'], 0),
+     ('A non-defining clause is separated by ( commas / nothing ).',
+      ['commas', 'nothing'], 0),
+     ('The allegation was ( unverified / proved ).', ['unverified', 'proved'], 0),
+     ('The note treated it ( like the other lines / as separate ).',
+      ['like the other lines', 'as separate'], 0),
+     ('The governor noticed ( a change in manner / the note itself ).',
+      ['a change in manner', 'the note itself'], 0)],
+
+c_e=('Defining or non-defining? Put each clause in the right column.',
+     [('Governor Hald, who took office in June,', 'non-defining'),
+      ('the officer who took the call', 'defining'),
+      ('the note, which was four lines long,', 'non-defining'),
+      ('the site that published the claim', 'defining'),
+      ('Marnach, where the meeting took place,', 'non-defining'),
+      ('the province where licences are signed', 'defining')],
+     ['defining', 'non-defining']),
+
+v_fig_title='A PROVINCE AND ITS POWERS',
+v_fig=[('people', 'a regional authority'), ('doc', 'a devolved power'), ('key', 'a planning permission'),
+       ('chart', 'a regional budget'), ('door', 'a municipality'), ('flag', 'a joint statement')],
+v_fig_cap='Six words for the authority that is not in the capital.',
+
+vocab=[
+ ('a regional authority', 'the body governing an area below the national level'),
+ ('a governor', 'the senior official heading a province or region'),
+ ('a municipality', 'the authority governing a town or city'),
+ ('a provincial department', 'a part of regional government dealing with one subject'),
+ ('a chamber of commerce', 'an association of businesses in an area'),
+ ('a protocol equivalence', 'the judgement of which local rank matches which visiting rank'),
+ ('an opening remark', 'the first substantive thing said in a meeting'),
+ ('an agenda item', 'one subject on the list for a meeting'),
+ ('a translation of a title', 'the rendering of an official title into another language'),
+ ('a regional budget', 'the money a region may spend and the rules attached to it'),
+ ('a devolved power', 'a power exercised regionally rather than by the capital'),
+ ('a planning permission', 'official consent for a building or a development'),
+ ('a public work', 'a road, bridge or building paid for from public money'),
+ ('a delegation of authority', 'the formal passing of a power from one office to another'),
+ ('a local election cycle', 'the regular timetable of local elections'),
+ ('a civic association', 'a local body representing residents or an interest'),
+ ('a regional grievance', 'a long-standing complaint of a region against the centre'),
+ ('a courtesy gift', 'a small gift given on an official visit'),
+ ('a joint statement', 'a text issued by two parties together'),
+ ('a photograph for the local press', 'an arranged image for publication in a local newspaper')],
+
+v_a=[('The senior official heading a province is a ____________.', 'governor'),
+     ('A power exercised regionally rather than centrally is a ____________ power.', 'devolved'),
+     ('Official consent for a building is a planning ____________.', 'permission'),
+     ('The judgement of which local rank matches a visiting rank is a protocol ____________.', 'equivalence'),
+     ('A long-standing complaint against the centre is a regional ____________.', 'grievance'),
+     ('A road or bridge paid for publicly is a public ____________.', 'work'),
+     ('The formal passing of a power is a ____________ of authority.', 'delegation'),
+     ('A text issued by two parties together is a ____________ statement.', 'joint')],
+
+v_b=[('A municipality is the authority governing', 'a town or city.'),
+     ('A chamber of commerce is an association', 'of businesses in an area.'),
+     ('A regional budget is the money a region may spend', 'and the rules attached to it.'),
+     ('A civic association is a local body representing', 'residents or an interest.'),
+     ('An agenda item is one subject', 'on the list for a meeting.')],
+
+g_title='Grammar: non-defining relative clauses',
+g_rule=['A non-defining clause adds information that could be removed: Hald, who took office in June, …',
+        'It is always marked by commas, and that may never be used in it.',
+        'Use whom after a preposition or as an object in formal writing.',
+        'A defining clause identifies and takes no commas: the officer who took the call.'],
+g_fig=('WRONG',
+       ['Governor Hald that took office in June decides licences.',
+        'The note which was four lines contained an allegation.',
+        'Marnach that is 200 km away was the venue.',
+        'His predecessor who nobody briefed us about left.'],
+       'RIGHT',
+       ['Governor Hald, who took office in June, decides licences.',
+        'The note, which was four lines long, contained an allegation.',
+        'Marnach, which is 200 km away, was the venue.',
+        'His predecessor, whom nobody briefed us about, left.'],
+       'four additions without commas or with that',
+       'the same four, correctly non-defining'),
+g_fig_cap='Commas mean you could remove the clause. No commas mean you could not.',
+
+g_a=[('Governor Hald, ____________ took office in June, signs the licences.', 'who'),
+     ('The note, ____________ was four lines long, contained one allegation.', 'which'),
+     ('The site, ____________ claims are often repeated, is partisan.', 'whose'),
+     ('Marnach, ____________ the meeting took place, is 200 kilometres away.', 'where'),
+     ('In June, ____________ he took office, the road had already stalled.', 'when'),
+     ('His predecessor, ____________ nobody briefed us about, is in the capital.', 'whom'),
+     ('The chamber, ____________ supports the project, has 90 members.', 'which'),
+     ('The governor, ____________ I had met once before, remembered the file.', 'whom'),
+     ('The budget, ____________ was agreed in March, has not been spent.', 'which')],
+
+g_b=[('Governor Hald, ( that / who ) took office in June, signs them.', ['that', 'who'], 1),
+     ('The note, ( which / that ) was four lines long, had an allegation.',
+      ['which', 'that'], 0),
+     ('The site, ( whose / who’s ) claims are repeated, is partisan.',
+      ['whose', 'who’s'], 0),
+     ('Marnach, ( where / which ) the meeting took place, is far away.',
+      ['where', 'which'], 0),
+     ('His predecessor, ( whom / who ) nobody briefed us about, left.',
+      ['whom', 'who'], 0),
+     ('The officer ( who / , who , ) took the call wrote six facts.',
+      ['who', ', who , '], 0)],
+
+d1=dict(
+ title='Four facts and one allegation',
+ fig=(['Five lines. Four are facts.', 'And the fifth?'],
+      ['An allegation.', 'From whom, and proved by whom?']),
+ cap='Rim Haddad and Ziad Mikhail, in the car before the meeting.',
+ lines=[('Rim', 'Read me the note.'),
+        ('Ziad', 'Office, date of appointment, previous post, what he decides. Then one more line.'),
+        ('Rim', 'Which says?'),
+        ('Ziad', 'That there are claims about a construction contract.'),
+        ('Rim', 'Claims by whom?'),
+        ('Ziad', 'A local site. Openly partisan. It has said the same about four other officials.'),
+        ('Rim', 'Has a court said anything? An inquiry? A newspaper that is not that site?'),
+        ('Ziad', 'Nothing.'),
+        ('Rim', 'Then it is not background. It is a rumour with a footnote.'),
+        ('Ziad', 'I was not going to mention it.'),
+        ('Rim', 'You do not have to mention it. You will sit differently, and he will see it.'),
+        ('Ziad', 'Then it should not have been in the note at all.')],
+ a=[('How many lines are in the note?', 'five'),
+    ('What does the fifth line say?', 'that there are claims about a construction contract'),
+    ('Who made the claims?', 'an openly partisan local site'),
+    ('What has a court said?', 'nothing'),
+    ('What does Rim call it?', 'a rumour with a footnote')],
+ b=[('Claims by ____________?', 'whom'),
+    ('It has said the same about ____________ other officials.', 'four'),
+    ('It is a rumour with a ____________.', 'footnote'),
+    ('You will sit ____________.', 'differently')]),
+
+d2=dict(
+ title='It found it, so it reported it',
+ fig=(['Why was it in the note at all?', 'Because it exists.'],
+      ['Existing is not the test.', 'It has no other test.']),
+ cap='Ziad and Dr Suhair Kanaan, after the visit.',
+ lines=[('Dr Kanaan', 'Why was the allegation in the note?'),
+        ('Ziad', 'Because it is published and the note was built from what is published.'),
+        ('Dr Kanaan', 'And it gave the partisan site the same weight as the official record.'),
+        ('Ziad', 'It gave each one line.'),
+        ('Dr Kanaan', 'Which is a judgement, made silently, in favour of the loudest source.'),
+        ('Ziad', 'It could have marked it.'),
+        ('Dr Kanaan', 'Only if we had asked. We asked for background on a person.'),
+        ('Ziad', 'So the instruction was wrong, not the answer.'),
+        ('Dr Kanaan', 'Both were reasonable. Together they produced something nobody wanted.'),
+        ('Ziad', 'Then the rule is: facts in the note, allegations in a separate paragraph with their source.'),
+        ('Dr Kanaan', 'And nothing at all unless two independent sources have reported it.'),
+        ('Ziad', 'And when the allegation is true and only one site has the courage to print it?')],
+ unresolved=True,
+ a=[('Why was the allegation included?', 'because it is published'),
+    ('What weight did it receive?', 'the same as the official record'),
+    ('Why was that a judgement?', 'it favoured the loudest source silently'),
+    ('What is the new rule?', 'facts in the note, allegations separately with their source'),
+    ('What threshold is set?', 'two independent sources')],
+ b=[('Because it is ____________.', 'published'),
+    ('A judgement made ____________.', 'silently'),
+    ('Facts in the note, allegations in a separate ____________.', 'paragraph'),
+    ('Two ____________ sources.', 'independent')]),
+
+speak=[('Add the background',
+        ['Describe six colleagues or places with non-defining clauses.',
+         'Your partner removes the clause and checks the sentence still works.',
+         'Any sentence using that is corrected.']),
+       ('Fact or allegation',
+        ['Read out eight statements about a public figure.',
+         'Your partner sorts them into fact, allegation and opinion.',
+         'Decide which of the eight you would put in a note.']),
+       ('Before a meeting',
+        ['Build a five-line note on somebody your partner will meet.',
+         'Your partner asks for the source of each line.',
+         'Remove any line whose source you cannot name.'])],
+
+ext_title='A note about a person is read by people who will never meet them',
+ext_fig=figs.datatable('FIVE LINES ABOUT ONE OFFICIAL',
+                       ['Line', 'Source', 'Status'],
+                       [['office and date of appointment', 'official gazette', 'fact'],
+                        ['previous post', 'official gazette', 'fact'],
+                        ['powers over licensing', 'regional statute', 'fact'],
+                        ['our last contact, March', 'our own file', 'fact'],
+                        ['claims about a contract', 'one partisan site', 'allegation'],
+                        ['effect on the officer', '—', 'he sat differently']]),
+ext_fig_cap='Four sourced facts and one unverified line, given equal space on one page.',
+ext=[
+ 'A biographical note is a small document with a long life. It is copied into visit packs, '
+ 'pasted into later notes and read by officers who will never meet the person described. '
+ 'Whatever is in it tends to stay in it, and to acquire authority by being repeated.',
+ 'Building one is work a system does well. The office, the date of appointment, the '
+ 'previous post, the formal powers, the public statements: these are published, checkable '
+ 'and dull to assemble by hand, and four minutes produces a better note than an hour would.',
+ 'The difficulty is that a search finds everything, and everything includes claims. A '
+ 'partisan site, a disgruntled former contractor and a court judgment all appear as text, '
+ 'and a note built from text gives each of them a line.',
+ 'An allegation with a line of its own, in the same typeface as the facts, is not neutral. '
+ 'It changes how an officer sits in a chair. The person opposite has usually spent years '
+ 'reading faces, and they will see it even if nothing is said.',
+ 'So split the document. Facts, with sources, in the note. Allegations, with their source '
+ 'and their status, in a separate paragraph that is read deliberately. And nothing at all '
+ 'unless two independent sources have published it, because one site is not a fact.'],
+
+dp2=('Two sources, or a separate paragraph', 'Practice in preparing briefing material on '
+     'individuals commonly requires either corroboration by two independent sources or '
+     'explicit separation of allegation from fact, to prevent unverified claims acquiring '
+     'standing through repetition.',
+     'Source: reported briefing practice, 2025–2026.'),
+
+e_a=[('Why is a biographical note long-lived?', 'it is copied into later packs and read by others'),
+     ('What does a system assemble well?', 'office, dates, previous posts, formal powers, public statements'),
+     ('What does a search also find?', 'claims and allegations'),
+     ('Why is an unmarked allegation not neutral?', 'it changes how an officer behaves'),
+     ('What is the threshold for inclusion?', 'two independent sources')],
+e_b=[('A biographical note is quickly forgotten.', 'F'),
+     ('Formal powers are published and checkable.', 'T'),
+     ('A system can tell a partisan site from a court.', 'F'),
+     ('An unmarked allegation has no effect.', 'F'),
+     ('Allegations belong in a separate paragraph.', 'T'),
+     ('One site is enough to establish a fact.', 'F')],
+
+w_model='Purpose: so that an officer meets this person knowing what is established and what '
+        'is merely said. Scope: Governor Hald, for the meeting of 9 March; his family and '
+        'private life are excluded. Inputs: the official gazette, the regional statute and '
+        'the Mission’s own contact record. Criteria: 6 lines of fact, each with its source, '
+        'and allegations only in a separate paragraph with their source and status. Done: 6 '
+        'lines by 17:00 on 7 March. Fallback: an allegation reported by fewer than 2 '
+        'independent sources is omitted entirely.',
+w_fig=figs.spec_card('SIX LINES AND A SEPARATE PARAGRAPH',
+                     [('Purpose', 'what is established, and what is merely said'),
+                      ('Scope', 'Governor Hald; private life excluded'),
+                      ('Inputs', 'gazette, statute, our own contact record'),
+                      ('Criteria', '6 sourced facts; allegations separately, with status'),
+                      ('Done', 'by 17:00 on 7 March'),
+                      ('Fallback', 'fewer than 2 independent sources: omit entirely')]),
+w_fig_cap='The separation is the whole document. Everything else is typing.',
+w_task='Write a six-line biographical note on somebody you deal with officially.',
+w_steps=['Line 1: the office held and the date it was taken up, with the source.',
+         'Line 2: the previous post, with the source.',
+         'Line 3: what this person can actually decide, with the legal source.',
+         'Line 4: the Mission’s last contact, with the date.',
+         'Line 5: one public statement of theirs that is relevant, quoted and dated.',
+         'Line 6: what we want from this meeting.'],
+w_bank=['… , Governor of … since … (gazette of …).',
+        'Previously … , … to … .',
+        'Decides … under article … of the regional statute.',
+        'Last contact: … , … .',
+        'Said publicly on … : “…”.'],
+w_check=['Does every line of fact carry a source?',
+         'Is there any allegation in the six lines?',
+         'Is line 3 about powers, not about reputation?',
+         'Does line 6 say what we want, not what we fear?'],
+
+t_title='Who you are about to meet, and what is actually known',
+t_fig=figs.split('A NOTE ON A PERSON',
+                 'Ask for this',
+                 ['office, date, and the gazette reference',
+                  'formal powers, with the statute',
+                  'public statements, quoted and dated',
+                  'our own record of past contact'],
+                 'Never in the note',
+                 ['claims from a single source',
+                  'anything about family or health',
+                  'a characterisation of their motives',
+                  'anything you could not show them']),
+t_fig_cap='The test for the left column is a source. The test for the right column is a person.',
+t_body=[
+ 'Ask for the sourced skeleton: office, date, previous post, formal powers with the statute '
+ 'that confers them, public statements quoted and dated. This is exactly the kind of '
+ 'assembly a system does better and faster than an officer the night before.',
+ 'Then set a hard boundary. No claim enters the note unless two independent sources have '
+ 'published it. Anything that fails that test goes in a separate paragraph, marked as an '
+ 'allegation, with its source named, or it is left out entirely.',
+ 'The reason is not legal delicacy. It is that an officer who has read an unmarked '
+ 'allegation behaves differently, and the person opposite has spent a career reading '
+ 'behaviour. A rumour you never mention can still lose you a meeting.'],
+t_say=[('Ask for the skeleton: ', 'Office, date, powers and sources. Nothing else.'),
+       ('Set the threshold: ', 'No claim unless two independent sources have published it.'),
+       ('Separate the rest: ', 'Allegations in their own paragraph, with the source named.')],
+t_bound='A note assembled from published text cannot weigh a source, so a partisan site and '
+        'an official gazette arrive as two lines of equal length. It does not know that one '
+        'of them has made the same claim about four other officials.',
+t_a=[('Office, date, powers and ____________.', 'sources'),
+     ('No claim unless two ____________ sources have published it.', 'independent'),
+     ('Allegations in their own ____________.', 'paragraph'),
+     ('It cannot ____________ a source.', 'weigh'),
+     ('A partisan site and an official gazette arrive as two lines of equal ____________.', 'length'),
+     ('It has made the same claim about ____________ other officials.', 'four')],
+t_b_rubric='Say whether each line belongs in the note, and why.',
+t_b=[('Governor since June, per the gazette.', 'yes: sourced fact'),
+     ('Claims about a contract, one site.', 'no: a single source, and partisan'),
+     ('Decides licences under article 12.', 'yes: the statute is the source'),
+     ('Said to be close to the contractor.', 'no: a characterisation with no source')],
+
+case=dict(
+ title='The Decision Room · The line that changed how he sat',
+ brief=[
+  'Before a first meeting with a regional governor, the Mission prepares a five-line note. '
+  'Four lines are sourced facts. The fifth reports an allegation about a construction '
+  'contract, taken from a local site which is openly partisan.',
+  'No court, inquiry or other outlet has reported it, and the same site has published '
+  'similar claims about four other officials in two years. The note gives it one line, in '
+  'the same form as the facts.',
+  'The officer does not mention the allegation and does not believe it. The meeting is '
+  'correct but cool, and ends after thirty-five minutes instead of the hour that had been '
+  'offered. Two months later the Mission learns that the governor mentioned the visit to a '
+  'colleague as an example of foreigners arriving with opinions.'],
+ exhibit=figs.datatable('WHAT THE NOTE CONTAINED',
+                        ['Line', 'Source', 'Independent corroboration'],
+                        [['office and date', 'official gazette', 'n/a'],
+                         ['previous post', 'official gazette', 'n/a'],
+                         ['licensing powers', 'regional statute', 'n/a'],
+                         ['last contact', 'our own file', 'n/a'],
+                         ['contract allegation', '1 partisan site', 'none'],
+                         ['meeting length offered', '60 minutes', 'ended at 35']]),
+ exhibit_cap='Four lines with sources, one without, and the one without was the only one that affected the meeting.',
+ exhibit_note='Nobody repeated the allegation and nobody believed it. Its only effect was '
+              'on the manner of a man who had read it twenty minutes earlier.',
+ voices=[('Ziad Mikhail', 'commercial attaché',
+          'The note was four minutes of work and three of the four facts I did not know.'),
+         ('Rim Haddad', 'consular assistant',
+          'And the fifth line cost you twenty-five minutes with the man who signs the licences.'),
+         ('Dr Suhair Kanaan', 'deputy head of mission',
+          'We asked for background on a person. We should have asked for sourced facts about an office.')],
+ steps=[('Find it', 'Which line had no corroboration?'),
+        ('Compare it', 'How did the note present it against the sourced lines?'),
+        ('Infer it', 'How did an unmentioned line affect the meeting?'),
+        ('Weigh it', 'A separate paragraph against twenty-five lost minutes.'),
+        ('Decide', 'What enters a biographical note, and what does not?')],
+ analysis=[('Find it. Which line was uncorroborated?', 'the allegation about the contract'),
+           ('Compare it. How was it presented?', 'as one line, like the sourced facts'),
+           ('Infer it. How did it affect the meeting?', 'it changed the officer’s manner'),
+           ('Weigh it. What did it cost?', 'twenty-five minutes and the governor’s impression'),
+           ('Decide. What is the threshold?', 'two independent sources, or a separate paragraph')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what the note itself may contain.',
+                 'Say where an allegation goes, if anywhere.',
+                 'Say the threshold for mentioning a claim at all.',
+                 'Say what is never written about a person.'],
+ bank=['The note contains sourced facts about an office and its powers, and nothing else.',
+       'An allegation goes in a separate paragraph, with its source and its status.',
+       'No claim is recorded unless 2 independent sources have published it.',
+       'Family, health and motive are never written about a person we deal with officially.'],
+ outcome='The Mission rewrites its note template. Six sourced lines about the office; a '
+         'separate, clearly headed paragraph for anything alleged, with the source named and '
+         'the status stated; nothing at all below two independent sources; and no line about '
+         'family, health or motive. Ziad asks for a second meeting in June, which is given, '
+         'and which lasts fifty minutes.',
+ outcome_q=[('How many sourced lines does the template have?', 'six'),
+            ('Where do allegations go?', 'in a separate, clearly headed paragraph'),
+            ('What is the threshold?', 'two independent sources'),
+            ('What is never written?', 'family, health or motive'),
+            ('How long was the second meeting?', 'fifty minutes')],
+ tags=['manager_wrong', 'sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Tell me about the governor',
+ task=['An officer asked for background before a first meeting with a regional governor.',
+       'This is the instruction as it was sent, and what came back.'],
+ draft=['Tell me about the governor.',
+        'Everything we know.',
+        'Anything useful from the press.',
+        'Keep it short.',
+        'Flag anything I should be aware of.',
+        'I need it before I travel.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says what kind of thing may be written about a person.',
+ asked=['Everything we know', 'Anything useful from the press', 'Anything to be aware of'],
+ back=['5 lines', '1 unsourced allegation', '0 statutes cited'],
+ gap='Nobody said that facts need sources, or where an allegation may appear, or the threshold.',
+ back_cap='Five lines about a man, one of which no court has ever examined.',
+ back_note='Anything I should be aware of is an instruction to include rumour, because '
+           'rumour is exactly the kind of thing that sounds like something to be aware of.',
+ diagnosis=[('“everything we know”', 'unscoped set'),
+            ('“useful”', 'unscoped set'),
+            ('“anything I should be aware of”', 'unstated exception'),
+            ('“anything useful from the press”', 'unstated exception'),
+            ('“keep it short”', 'unbounded quantity'),
+            ('“before I travel”', 'unbounded quantity')],
+ rewrite='Rewrite it on the six lines so that no unverified claim can reach the note.',
+ scaffold=['why the note is needed and who will read it later',
+           'which person, and what is excluded',
+           'which sources count, and what must accompany each line',
+           'what the note may contain and where anything else goes',
+           'how long it is and when it is due',
+           'what happens to a claim below the threshold'],
+ bank=['Purpose: so that the officer meets … knowing what is established',
+       'Scope: … in his official capacity; family, health and private life excluded',
+       'Inputs: the official gazette, the regional statute, our own contact record',
+       'Criteria: … sourced lines about the office and its powers; nothing unsourced',
+       'Done: … lines by … on … ',
+       'Fallback: a claim with fewer than 2 independent sources is omitted entirely'],
+ check=['Does it exclude private life?',
+        'Does every line require a source?',
+        'Is there a threshold for claims?',
+        'Does it say where an allegation may appear?'],
+ model=['so that the officer meets Governor Hald knowing what is established and what is not',
+        'Governor Hald in his official capacity; family, health and private life are excluded',
+        'the official gazette, the regional statute and the Mission’s own contact record',
+        '6 sourced lines about the office and its powers; nothing unsourced in the note itself',
+        '6 lines by 17:00 on 7 March, with any allegation in a separate headed paragraph',
+        'a claim published by fewer than 2 independent sources is omitted entirely'],
+ cost='1 unsourced line cost 25 minutes of a 60-minute meeting and 2 months of goodwill. '
+      '6 sourced lines take the same 4 minutes to assemble.'),
+
+feet=dict(
+ title='On Your Feet · The governor raises the rumour himself',
+ setting=[
+  'Twenty minutes into the meeting the governor stops, smiles, and says that he assumes '
+  'you have read what the local site says about him, and asks whether your Mission believes '
+  'it. His deputy and a note-taker are in the room.',
+  'You have read it. You do not believe it. You cannot say that you have not read it, and '
+  'you cannot discuss an allegation about a serving official with him or about him. You '
+  'have about ninety seconds.'],
+ ladder=[('Have you read it?', 'answer honestly without endorsing'),
+         ('Do you believe it?', 'the question you must not answer either way'),
+         ('Everybody believes it', 'the turn that invites you to agree')],
+ cap='Three turns, two witnesses, and a question with no safe silence.',
+ turns=[('Turn 1 · Governor', 'I assume you have read what they write about me online.'),
+        ('Turn 2 · Governor', 'And does your Mission believe it?'),
+        ('Turn 3 · Governor', 'Everybody believes it. You may as well say so.')],
+ holds=['I have seen it, and I would rather say so than pretend otherwise.',
+        'My Mission does not form views on allegations that no court has examined.',
+        'I came to understand how licences are decided, not to assess you.',
+        'If I believed everything published about my own country, I would be no use here.',
+        'What I rely on is the statute and what you tell me.',
+        'May we go back to the question of the licence, which is why I drove two hundred kilometres?'],
+ redline='You must not say you have not read it, you must not say whether you believe it, '
+         'and you must not agree that everybody believes it. Do not offer sympathy, because '
+         'sympathy implies that you have an opinion about the facts.',
+ score=['Admitted having seen it, immediately and without embarrassment.',
+        'Declined to express belief or disbelief, as a matter of Mission practice.',
+        'Named what the Mission does rely on.',
+        'Avoided sympathy and avoided agreement.',
+        'Returned the meeting to its purpose.'],
+ a=[('What do you admit at once?', 'that you have seen it'),
+    ('What do you decline to say?', 'whether you believe it'),
+    ('What does the Mission rely on?', 'the statute and what he tells you'),
+    ('Why avoid sympathy?', 'it implies an opinion about the facts'),
+    ('What must you not agree with?', 'that everybody believes it'),
+    ('How does the exchange end?', 'by returning to the purpose of the visit')]),
+
+rev_fig=figs.split('A LINE IN A NOTE',
+                   'Does not belong',
+                   ['Claims about a contract (one site).',
+                    'Said to be close to the contractor.',
+                    'Reputedly difficult to deal with.',
+                    'His family owns land in the area.'],
+                   'Belongs, with its source',
+                   ['Governor since June (gazette of 14 June).',
+                    'Decides licences under article 12.',
+                    'Said publicly on 3 May: “…”.',
+                    'Last contact: our note of 9 March.']),
+rev_fig_cap='Every line on the right could be shown to the person it describes.',
+rev=dict(
+ read=[('How many lines were in the note?', ['five', 'two', 'ten', 'one'], 0),
+       ('Where did the allegation come from?',
+        ['one partisan site', 'a court', 'a newspaper', 'the gazette'], 0),
+       ('What is the threshold for recording a claim?',
+        ['two independent sources', 'one source', 'any source', 'none'], 0),
+       ('What is never written about a person?',
+        ['family, health or motive', 'their office', 'their powers', 'their statements'], 0)],
+ listen_text='Ask for the sourced skeleton: office, date, previous post, formal powers with '
+             'the statute, public statements quoted and dated. Then set the threshold: no '
+             'claim unless two independent sources have published it.',
+ listen=[('Ask for the sourced ____________.', 'skeleton'),
+         ('Formal powers with the ____________.', 'statute'),
+         ('Public statements quoted and ____________.', 'dated'),
+         ('No claim unless two ____________ sources.', 'independent')],
+ speak=['Describe six people or places with non-defining clauses, correctly punctuated.',
+        'Then sort eight statements about a public figure into fact, allegation and opinion.'],
+ write='Write a six-line biographical note on somebody you deal with officially.',
+ vocab=[('The senior official heading a province is a ____________.', 'governor'),
+        ('A power exercised regionally is a ____________ power.', 'devolved'),
+        ('A long-standing complaint against the centre is a regional ____________.', 'grievance'),
+        ('Official consent for a building is a planning ____________.', 'permission')],
+ gram=[('Governor Hald, ____________ took office in June, signs them.', 'who'),
+       ('The note, ____________ was five lines long, had an allegation.', 'which'),
+       ('The site, ____________ claims are repeated, is partisan.', 'whose'),
+       ('Marnach, ____________ the meeting took place, is far away.', 'where')]),
+
+found=['Rewrite one of your own briefing notes so that every line carries a source.',
+       'Move every allegation in your files into a separate, headed paragraph.',
+       'Set a threshold for claims in your section and write it down.',
+       'Ask of your next note: could I show this to the person it describes?'],
+end_line='Sourced facts in the note. Allegations in their own paragraph, or not at all.',
+end_next='Next: A Trade Enquiry at the Door')

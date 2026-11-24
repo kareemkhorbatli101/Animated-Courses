@@ -1,0 +1,561 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=6,
+title='The First Hour',
+gram='plain English for translation: one idea, one clause, the active voice',
+ai='the first hour when something happens at post',
+strap='CEFR B2 · Grammar: plain English for translation — one idea, one clause, the active voice · '
+      'AI: the first hour when something happens at post',
+cando=['write plain English that translates without loss',
+       'act in the first hour of an incident at post',
+       'separate confirmed facts from reports',
+       'issue a holding line with a time for the next update',
+       'write a six-line tasking for a first-hour note'],
+
+hero=('AT TWENTY PAST SEVEN NOBODY KNEW HOW MANY PEOPLE WERE IN THE BUILDING',
+      ['Four confirmed facts. Eleven reports. One question that mattered.',
+       'The answer took nineteen minutes and should have taken four.'],
+      [(1120, 'grey', 'long'), (240, 'teal', 'short'), (280, 'blue', 'short')]),
+hero_cap='The first hour of an incident at post, as recorded in the duty officer’s log.',
+
+warm=['What happens in the first hour of an emergency in your work?',
+      'Who decides what is said?',
+      'What is the first thing anybody should establish?'],
+
+read=[
+ 'Something happens at nineteen minutes past seven in the evening. By half past seven the '
+ 'Mission has four confirmed facts, eleven unconfirmed reports and three telephone calls '
+ 'waiting.',
+ 'The first question is not what has happened but who is in the building and whether they are '
+ 'accounted for. That answer takes nineteen minutes, because no list of who is in the building '
+ 'after six o’clock exists.',
+ 'The duty officer drafts a holding line. It is accurate, and it contains one sentence of '
+ 'twenty-eight words with two subordinate clauses, which will be translated by four outlets '
+ 'within the hour.',
+ 'Plain English matters more in the first hour than at any other time. One idea to a sentence, '
+ 'one clause, the active voice, and a named time for the next update: these are not stylistic '
+ 'preferences but the only properties that survive translation under pressure.',
+ 'The log records everything. What it does not record, because nobody wrote it down, is the '
+ 'moment at which each fact moved from reported to confirmed.'],
+
+dp1=('First-hour practice', 'Crisis practice commonly requires accounting for personnel before '
+     'any external communication, the separation of confirmed facts from reports in a timed '
+     'log, and a holding statement naming the time of the next update.',
+     'Source: general crisis management guidance, 2025–2026.'),
+
+c_a=[('When did it happen?', 'at nineteen minutes past seven'),
+     ('How many confirmed facts by half past seven?', 'four'),
+     ('How many unconfirmed reports?', 'eleven'),
+     ('What is the first question?', 'who is in the building and whether they are accounted for'),
+     ('How long did that take?', 'nineteen minutes'),
+     ('Why?', 'no list of people in the building after six existed')],
+
+c_b=[('The holding line was inaccurate.', 'F'),
+     ('Twenty-eight words is a good length in the first hour.', 'F'),
+     ('Four outlets would translate it.', 'T'),
+     ('A personnel list existed.', 'F'),
+     ('The log recorded when facts were confirmed.', 'F'),
+     ('Plain English matters most in the first hour.', 'T')],
+
+c_c=[('The duty officer ____________ the Ambassador at seven twenty-two.', 'telephoned'),
+     ('We ____________ all eleven members of staff by seven forty.', 'accounted for'),
+     ('The police ____________ the street at seven thirty-five.', 'closed'),
+     ('We ____________ a holding line at seven fifty.', 'issued'),
+     ('The next update ____________ at nine o’clock.', 'follows'),
+     ('A local colleague ____________ the original announcement.', 'translated')],
+
+c_d=[('Plain English for translation uses ( one clause a sentence / three ).', ['one clause a sentence', 'three'], 0),
+     ('The active voice names ( the actor / nobody ).', ['the actor', 'nobody'], 0),
+     ('A holding line should name ( the time of the next update / a cause ).',
+      ['the time of the next update', 'a cause'], 0),
+     ('The first question in an incident is ( personnel / the public line ).',
+      ['personnel', 'the public line'], 0),
+     ('A log should record ( when a fact was confirmed / only the fact ).',
+      ['when a fact was confirmed', 'only the fact'], 0)],
+
+c_e=('Survives pressure or not? Put each feature in the right column.',
+     [('one idea to a sentence', 'survives'),
+      ('a twenty-eight-word sentence', 'does not survive'),
+      ('the active voice with a named actor', 'survives'),
+      ('a passive with no actor', 'does not survive'),
+      ('a stated time for the next update', 'survives'),
+      ('“in due course”', 'does not survive')],
+     ['survives', 'does not survive']),
+
+v_fig_title='THE FIRST HOUR IN SIX WORDS',
+v_fig=[('clock', 'a first hour'), ('doc', 'a duty officer’s log'), ('key', 'a confirmed fact'),
+       ('chart', 'a holding line'), ('people', 'a roll call of staff'), ('speech', 'a time of the next update')],
+v_fig_cap='Six words for sixty minutes in which everything written down will be read later.',
+
+vocab=[
+ ('a first hour', 'the hour after something happens'),
+ ('a duty officer’s log', 'the timed record kept by the officer on duty'),
+ ('a confirmed fact', 'something established by a reliable source'),
+ ('an unconfirmed report', 'something said but not established'),
+ ('a holding line', 'a short statement issued before the facts are complete'),
+ ('a time of the next update', 'when more will be said'),
+ ('a notification of next of kin', 'telling a person’s family'),
+ ('a crisis telephone number', 'the number the public may call'),
+ ('a single point of contact', 'one named person for enquiries'),
+ ('an instruction to staff', 'what staff are told to do'),
+ ('a securing of a building', 'making premises safe and closed'),
+ ('a roll call of staff', 'checking that everybody is accounted for'),
+ ('a liaison with local authorities', 'contact with host-country services'),
+ ('a message to families', 'what is said to relatives of staff'),
+ ('a question of numbers', 'how many people are involved'),
+ ('an avoidance of speculation', 'refusing to guess in public'),
+ ('a first public line', 'the first thing said publicly'),
+ ('a post on social media', 'a short public message online'),
+ ('a time stamp', 'the recorded time of an entry'),
+ ('a decision log', 'the record of what was decided and when')],
+
+v_a=[('The timed record kept by the officer on duty is a duty officer’s ____________.', 'log'),
+     ('Something said but not established is an ____________ report.', 'unconfirmed'),
+     ('A short statement issued before the facts are complete is a ____________ line.', 'holding'),
+     ('Checking that everybody is accounted for is a ____________ of staff.', 'roll call'),
+     ('Refusing to guess in public is an ____________ of speculation.', 'avoidance'),
+     ('The recorded time of an entry is a ____________.', 'time stamp'),
+     ('One named person for enquiries is a single point of ____________.', 'contact'),
+     ('The record of what was decided and when is a ____________ log.', 'decision')],
+
+v_b=[('A first hour is the hour', 'after something happens.'),
+     ('A confirmed fact is something established', 'by a reliable source.'),
+     ('A securing of a building is making premises', 'safe and closed.'),
+     ('A message to families is what is said', 'to relatives of staff.'),
+     ('A time of the next update is when', 'more will be said.')],
+
+g_title='Grammar: plain English for translation — one idea, one clause, the active voice',
+g_rule=['One idea to a sentence, and one clause where possible: the police closed the street at '
+        'seven thirty-five.',
+        'The active voice names the actor, which a translator needs and a passive hides: we '
+        'accounted for all eleven members of staff, not all staff have been accounted for.',
+        'Times, numbers and places are given exactly, in figures and words together where there '
+        'is any doubt: at seven thirty-five; eleven members of staff.',
+        'No idiom, no metaphor, no hedging phrase that cannot be translated: in due course and '
+        'as appropriate should be a stated time and a stated condition.'],
+g_fig=('LOOSE',
+       ['The street has been closed off in the area concerned.',
+        'All staff have been accounted for as appropriate.',
+        'A further update will be issued in due course.',
+        'The situation is being monitored and assessed.'],
+       'PRECISE',
+       ['The police closed the street at seven thirty-five.',
+        'We accounted for all eleven members of staff by seven forty.',
+        'We shall issue a further statement at nine o’clock.',
+        'The duty officer is in the Mission and is in contact with the police.'],
+       'four passive sentences with no actor and no time',
+       'the same four with an actor, a time and one clause'),
+g_fig_cap='Actor, verb, object, time. In the first hour nothing else survives.',
+
+g_a=[('The duty officer ____________ the Ambassador at seven twenty-two.', 'telephoned'),
+     ('We ____________ all eleven members of staff by seven forty.', 'accounted for'),
+     ('The police ____________ the street at seven thirty-five.', 'closed'),
+     ('We ____________ a holding line at seven fifty.', 'issued'),
+     ('We shall ____________ a further statement at nine o’clock.', 'issue'),
+     ('A local colleague ____________ the original announcement.', 'translated'),
+     ('The consul ____________ the family at eight fifteen.', 'telephoned'),
+     ('We ____________ the crisis number on our website at eight o’clock.', 'published'),
+     ('The host authorities ____________ us at eight twenty.', 'informed')],
+
+g_b=[('( The street has been closed off in the area concerned / The police closed the street at seven thirty-five ) — actor and time.', ['The street has been closed off in the area concerned', 'The police closed the street at seven thirty-five'], 1),
+     ('( We accounted for all eleven members of staff / All staff have been accounted for as appropriate ) — actor and number.',
+      ['We accounted for all eleven members of staff',
+       'All staff have been accounted for as appropriate'], 0),
+     ('( We shall issue a further statement at nine o’clock / A further update will be issued in due course ) — a time.',
+      ['We shall issue a further statement at nine o’clock',
+       'A further update will be issued in due course'], 0),
+     ('( The duty officer is in contact with the police / The situation is being monitored and assessed ) — concrete.',
+      ['The duty officer is in contact with the police',
+       'The situation is being monitored and assessed'], 0),
+     ('( The consul telephoned the family at eight fifteen / The family has been contacted ) — who and when.',
+      ['The consul telephoned the family at eight fifteen', 'The family has been contacted'], 0),
+     ('( We published the crisis number at eight o’clock / The crisis number has been made available ) — actor and time.',
+      ['We published the crisis number at eight o’clock',
+       'The crisis number has been made available'], 0)],
+
+d1=dict(
+ title='Nineteen minutes',
+ fig=(['Who is in the building?', 'We are establishing that.'],
+      ['How long will that take?', 'Nineteen minutes, it turned out.']),
+ cap='Ambassador Clara Mendel and Tomas Bergh, at seven forty.',
+ lines=[('Mendel', 'Before anything else: who is in the building?'),
+        ('Tomas', 'Eleven people, all accounted for as of seven forty.'),
+        ('Mendel', 'That took nineteen minutes.'),
+        ('Tomas', 'Because we have no list of who is here after six o’clock.'),
+        ('Mendel', 'Then that is the first thing we fix tomorrow.'),
+        ('Tomas', 'A sheet by the door, signed in and out, and a copy to the duty telephone.'),
+        ('Mendel', 'And tonight?'),
+        ('Tomas', 'Four confirmed facts, eleven reports, and the police have closed the street.'),
+        ('Mendel', 'Which of the eleven reports would change what we say?'),
+        ('Tomas', 'Two. The number of people outside, and whether the alarm came from our building or the next.'),
+        ('Mendel', 'Then we confirm those two and say nothing about the other nine.'),
+        ('Tomas', 'And I am logging the time each fact moves from reported to confirmed.')],
+ a=[('What is the first question?', 'who is in the building'),
+    ('How many people were in it?', 'eleven, all accounted for'),
+    ('Why did it take nineteen minutes?', 'there was no list of people present after six'),
+    ('Which two reports matter?', 'the number outside, and which building the alarm came from'),
+    ('What is Tomas logging?', 'the time each fact moves from reported to confirmed')],
+ b=[('All ____________ for as of seven forty.', 'accounted'),
+    ('A sheet by the ____________.', 'door'),
+    ('The police have ____________ the street.', 'closed'),
+    ('Say nothing about the other ____________.', 'nine')]),
+
+d2=dict(
+ title='Twenty-eight words at seven fifty',
+ fig=(['It is accurate.', 'It is one sentence of twenty-eight words.'],
+      ['Does that matter?', 'Four outlets will translate it tonight.']),
+ cap='Mendel and Yuki Tanaka, over the holding line.',
+ lines=[('Yuki', 'Your holding line is accurate and it is one sentence of twenty-eight words.'),
+        ('Mendel', 'With two subordinate clauses, I am afraid.'),
+        ('Yuki', 'Four outlets will translate it within the hour, under pressure, by machine.'),
+        ('Mendel', 'Then give me the plain version.'),
+        ('Yuki', 'Four sentences. There was an incident near the Mission at seven nineteen. All eleven of our staff are safe. The police have closed the street. We shall say more at nine o’clock.'),
+        ('Mendel', 'Shorter than mine and it says more.'),
+        ('Yuki', 'It says four things, each in one clause, each with an actor and a time.'),
+        ('Mendel', 'And the nine unconfirmed reports?'),
+        ('Yuki', 'Not mentioned. We say what we know and when we shall say more.'),
+        ('Mendel', 'Add the crisis number, and that the Mission is not open to the public tonight.'),
+        ('Yuki', 'Six sentences, then. And I will post it in both languages at the same minute.'),
+        ('Mendel', 'And if we have nothing new to say at nine o’clock?')],
+ unresolved=True,
+ a=[('What is wrong with the holding line?', 'it is one sentence of twenty-eight words'),
+    ('Who will translate it?', 'four outlets, by machine, under pressure'),
+    ('What is the plain version?', 'four short sentences'),
+    ('What is not mentioned?', 'the nine unconfirmed reports'),
+    ('What is added?', 'the crisis number and the closure to the public')],
+ b=[('Each in one ____________.', 'clause'),
+    ('Each with an actor and a ____________.', 'time'),
+    ('We say what we ____________.', 'know'),
+    ('In both ____________ at the same minute.', 'languages')]),
+
+speak=[('Actor, verb, time',
+        ['Describe eight events from your day.',
+         'Give each in one clause, active, with a time.',
+         'Your partner objects to any passive or missing actor.']),
+       ('Confirmed or reported',
+        ['Your partner gives you ten statements about an incident.',
+         'Sort them into confirmed and reported.',
+         'Say which two would change what you say publicly.']),
+       ('Four sentences',
+        ['Describe an emergency in four sentences of one clause each.',
+         'End with a time for the next update.',
+         'Your partner translates it back and compares.'])],
+
+ext_title='In the first hour, plain English is not a style but a safety measure',
+ext_fig=figs.datatable('THE FIRST HOUR, IN ORDER',
+                       ['Minute', 'Action'],
+                       [['0–5', 'account for staff; start the log'],
+                        ['5–15', 'secure the building; contact the police'],
+                        ['15–25', 'separate confirmed facts from reports'],
+                        ['25–35', 'inform the capital; brief the staff'],
+                        ['35–50', 'issue the holding line, both languages'],
+                        ['50–60', 'fix the time of the next update']]),
+ext_fig_cap='Six blocks of ten minutes, and the public line is the fifth of them, not the first.',
+ext=[
+ 'In the first hour of an incident, drafting help is genuinely valuable and the discipline of '
+ 'the instruction matters more than at any other time, because nothing will be revised and '
+ 'everything will be read.',
+ 'The order is fixed and the public line is not first. Account for people; start a timed log; '
+ 'secure the premises; establish which facts are confirmed and by whom; inform the capital; '
+ 'and only then say something publicly.',
+ 'The holding line itself obeys four rules. One idea to a sentence and one clause where '
+ 'possible. The active voice with a named actor. Every time, number and place stated exactly. '
+ 'And a named hour for the next update, because in due course cannot be translated and will not '
+ 'be believed.',
+ 'Nothing unconfirmed is mentioned, and the absence is not explained. A holding line says what '
+ 'is known, who is safe, what the authorities have done and when more will be said. Nine '
+ 'unconfirmed reports have no place in it, and a sentence beginning we are aware of reports '
+ 'repeats them.',
+ 'The log is the other half of the hour’s work, and the part that is always neglected. It '
+ 'records the time at which each fact moved from reported to confirmed and who confirmed it, '
+ 'because in two days somebody will ask when the Mission knew, and only the log can answer.',
+ 'And the holding line is issued in both languages at the same minute, by the Mission, so that '
+ 'the first translation in circulation is the one the Mission chose.'],
+
+dp2=('Holding statements', 'Crisis communication practice commonly requires that a holding '
+     'statement contain only confirmed information, state what has been done, and specify the '
+     'time of the next communication, in preference to indefinite formulations.',
+     'Source: general crisis management guidance, 2025–2026.'),
+
+e_a=[('What is not first in the order?', 'the public line'),
+     ('What is first?', 'accounting for people and starting the log'),
+     ('What four rules govern the holding line?', 'one clause, active voice, exact facts, a named hour'),
+     ('What has no place in it?', 'unconfirmed reports'),
+     ('What does the log record?', 'when each fact was confirmed, and by whom')],
+e_b=[('The public line comes first.', 'F'),
+     ('“In due course” can be translated reliably.', 'F'),
+     ('A holding line may mention reports it is aware of.', 'F'),
+     ('The log is usually neglected.', 'T'),
+     ('Both languages should be issued at the same minute.', 'T'),
+     ('Nothing in the first hour will be revised.', 'T')],
+
+w_model='Purpose: so that everything we say in the first hour is true when it is read in two '
+        'days and in four languages. Scope: the incident at seven nineteen this evening; the '
+        'report to the capital is a separate document. Inputs: the duty officer’s log as it '
+        'stands, the four confirmed facts with the name of the person who confirmed each, and '
+        'the police statement. Criteria: one idea to a sentence and one clause where possible; '
+        'the active voice with a named actor; every time, number and place stated exactly; no '
+        'unconfirmed report mentioned and no reference to reports at all; a named hour for the '
+        'next update; the whole in no more than six sentences, in both languages, for issue at '
+        'the same minute. Done: with me in ten minutes. Fallback: where a fact is not confirmed '
+        'by a named person, it is omitted and recorded in the log as pending.',
+w_fig=figs.spec_card('SIX LINES FOR A FIRST-HOUR NOTE',
+                     [('Purpose', 'true in two days and in four languages'),
+                      ('Scope', 'the incident at seven nineteen'),
+                      ('Inputs', 'the log, four confirmed facts with names, the police statement'),
+                      ('Criteria', 'one clause; active; exact; no reports; a named hour; six sentences'),
+                      ('Done', 'ten minutes'),
+                      ('Fallback', 'unconfirmed: omit and log as pending')]),
+w_fig_cap='Six sentences, both languages, same minute. Everything else waits for nine o’clock.',
+w_task='Write a six-line tasking for a first-hour holding line.',
+w_steps=['Line 1: say what must be true later.',
+         'Line 2: say which incident, and what is separate.',
+         'Line 3: say what you are giving it.',
+         'Line 4: say the sentence rule, the voice, the exactness, the prohibition and the hour.',
+         'Line 5: say by when.',
+         'Line 6: say what happens to an unconfirmed fact.'],
+w_bank=['Purpose: so that everything we say in the first hour is true when it is read in two days and in four languages',
+        'Scope: the incident at … this evening; the report to the capital is a separate document',
+        'Inputs: the duty officer’s log, the confirmed facts with the name of the person who confirmed each, and the police statement',
+        'Criteria: one idea to a sentence and one clause where possible; the active voice with a named actor; every time, number and place exact; no unconfirmed report mentioned; a named hour for the next update; no more than six sentences, in both languages, issued at the same minute',
+        'Done: with me in … . Fallback: where a fact is not confirmed by a named person, it is omitted and recorded in the log as pending'],
+w_check=['Is every sentence one clause and active?',
+         'Are all times and numbers exact?',
+         'Are unconfirmed reports excluded entirely?',
+         'Is a named hour given for the next update?'],
+
+t_title='The first hour when something happens at post',
+t_fig=figs.split('SIXTY MINUTES',
+                 'Before anything public',
+                 ['account for people',
+                  'start a timed log',
+                  'secure the premises',
+                  'confirm facts by name'],
+                 'Then six sentences',
+                 ['one clause each',
+                  'active, with a named actor',
+                  'nothing unconfirmed',
+                  'a named hour for the next word']),
+t_fig_cap='The left column is the hour. The right column is the forty seconds everybody sees.',
+t_body=[
+ 'Fix the order before the words. Account for people; begin a timed log; secure the premises; '
+ 'establish which facts are confirmed and by whom; inform the capital. The public line is the '
+ 'fifth thing, not the first.',
+ 'Then require the holding line in plain English for translation: one idea to a sentence, one '
+ 'clause where possible, the active voice with a named actor, every time and number exact, and '
+ 'a named hour for the next update rather than in due course.',
+ 'Mention nothing unconfirmed, and do not refer to reports at all, since a sentence beginning '
+ 'we are aware of reports repeats them. Issue the line in both languages at the same minute, '
+ 'and keep logging the time at which each fact becomes confirmed, because in two days somebody '
+ 'will ask when the Mission knew.'],
+t_say=[('Fix the order: ', 'People, log, premises, confirmation, capital, then the public line.'),
+       ('Set the form: ', 'One clause a sentence, active, with every time exact.'),
+       ('Name the hour: ', 'We shall say more at nine o’clock.')],
+t_bound='It can draft quickly and well, and it cannot know who is in the building, which of '
+        'eleven reports is true, or who confirmed what and when. Nothing it writes can be '
+        'safer than the facts you give it.',
+t_a=[('Account for ____________ first.', 'people'),
+     ('Begin a ____________ log.', 'timed'),
+     ('One ____________ a sentence.', 'clause'),
+     ('With every ____________ exact.', 'time'),
+     ('We shall say more at ____________ o’clock.', 'nine'),
+     ('Somebody will ask when the Mission ____________.', 'knew')],
+t_b_rubric='Say whether each sentence belongs in a first-hour line.',
+t_b=[('“All eleven of our staff are safe.”', 'yes: confirmed, exact, active'),
+     ('“We are aware of reports of injuries.”', 'no: it repeats the reports'),
+     ('“The police closed the street at seven thirty-five.”', 'yes'),
+     ('“A further update will be issued in due course.”', 'no: name the hour')],
+
+case=dict(
+ title='The Decision Room · Nineteen minutes and twenty-eight words',
+ brief=[
+  'An incident occurs near a Mission at nineteen minutes past seven in the evening. Eleven '
+  'members of staff are in the building; no list of who is present after six o’clock exists.',
+  'Accounting for all eleven takes nineteen minutes. By half past seven there are four '
+  'confirmed facts and eleven unconfirmed reports. Three outlets have telephoned.',
+  'A holding line is drafted at seven fifty. It is accurate and consists of one sentence of '
+  'twenty-eight words with two subordinate clauses, and it says that a further update will be '
+  'issued in due course. Four outlets will translate it by machine within the hour.'],
+ exhibit=figs.datatable('THE FIRST HOUR AS LOGGED',
+                        ['Time', 'What happened'],
+                        [['19:19', 'the incident'],
+                         ['19:22', 'the duty officer telephoned the Ambassador'],
+                         ['19:40', 'all eleven staff accounted for'],
+                         ['19:35', 'the police closed the street'],
+                         ['19:50', 'the holding line drafted, 28 words'],
+                         ['—', 'no record of when facts became confirmed']]),
+ exhibit_cap='A log with times for events and none for the moment each fact was established.',
+ exhibit_note='Everything in the log is accurate. The question that will be asked in two days '
+              '— when did the Mission know — is the one thing it cannot answer.',
+ voices=[('Tomas Bergh', 'head of administration',
+          'Nineteen minutes, because we have no list of who is in the building after six.'),
+         ('Yuki Tanaka', 'press officer',
+          'Four sentences of one clause each say more than your twenty-eight words, and they translate.'),
+         ('Ambassador Clara Mendel', 'head of mission',
+          'And in due course will not be believed in any language.')],
+ steps=[('Find it', 'What happened in the first hour?'),
+        ('Compare it', 'Twenty-eight words against four sentences.'),
+        ('Infer it', 'Why did accounting take nineteen minutes?'),
+        ('Weigh it', 'A sign-in sheet by the door.'),
+        ('Decide', 'What governs the first hour?')],
+ analysis=[('Find it. What was done?', 'staff accounted for, police contacted, a line drafted'),
+           ('Compare it. What was wrong with the line?', 'one sentence, two clauses, no named hour'),
+           ('Infer it. Why nineteen minutes?', 'no list of people present after six'),
+           ('Weigh it. What does the fix cost?', 'a sheet by the door'),
+           ('Decide. What governs it?', 'order first, then plain English and a named hour')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what is done before anything is said publicly.',
+                 'Say how the holding line is written.',
+                 'Say what is excluded from it.',
+                 'Say what the log must record.'],
+ bank=['Before anything is said publicly, staff are accounted for, the premises are secured, a timed log is begun and the capital is informed.',
+       'The holding line carries one idea to a sentence in the active voice, with every time and number exact and a named hour for the next update.',
+       'No unconfirmed report is mentioned, and the line makes no reference to reports at all.',
+       'The log records the time at which each fact moved from reported to confirmed, and the name of the person who confirmed it.'],
+ outcome='The line is reissued at eight o’clock in six sentences in both languages, and three '
+         'of the four outlets carry it in full. A sign-in sheet is in place by the following '
+         'evening, and the next roll call, four months later, takes four minutes. When the '
+         'capital asks on the third day when the Mission knew that the alarm came from the '
+         'adjacent building, the log gives the answer to the minute.',
+ outcome_q=[('When was the line reissued?', 'at eight o’clock, in six sentences'),
+            ('How many outlets carried it in full?', 'three of four'),
+            ('When was the sign-in sheet in place?', 'by the following evening'),
+            ('How long did the next roll call take?', 'four minutes'),
+            ('What answered the capital’s question?', 'the log, to the minute')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Get me something out',
+ task=['A head of mission asked for a statement in the first hour of an incident.',
+       'This is the instruction as it was given, and what came back.'],
+ draft=['Get me something out quickly.',
+        'Say what we know.',
+        'Reassure people where you can.',
+        'Mention the reports.',
+        'Say more if it changes.',
+        'Now.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and “mention the reports” put nine unconfirmed claims into our own statement.',
+ asked=['Say what we know', 'Where you can', 'Mention the reports'],
+ back=['28 words', '1 sentence', '2 unconfirmed reports repeated'],
+ gap='Nobody said that the line would be machine-translated by four outlets within the hour.',
+ back_cap='One accurate sentence of twenty-eight words, repeating two reports and naming no hour.',
+ back_note='“Where you can” and “if it changes” name no condition, and in the first hour only facts, times and a '
+           'named hour reassure anybody.',
+ diagnosis=[('“something out”', 'unscoped set'),
+            ('“where you can”', 'missing condition'),
+            ('“mention the reports”', 'hidden assumption'),
+            ('“if it changes”', 'missing condition'),
+            ('“now”', 'unscoped set'),
+            ('“what we know”', 'hidden assumption')],
+ rewrite='Rewrite it on the six lines so that the statement survives translation and two days.',
+ scaffold=['what must be true later',
+           'which incident, and what is separate',
+           'what you are giving it',
+           'the sentence rule, the voice, the exactness, the prohibition and the hour',
+           'by when',
+           'what happens to an unconfirmed fact'],
+ bank=['Purpose: so that everything we say in the first hour is true when it is read in two days and in four languages',
+       'Scope: the incident at seven nineteen this evening; the report to the capital is a separate document',
+       'Inputs: the duty officer’s log as it stands, the four confirmed facts with the name of the person who confirmed each, and the police statement',
+       'Criteria: one idea to a sentence and one clause where possible; the active voice with a named actor; every time, number and place stated exactly; no unconfirmed report mentioned and no reference to reports at all; a named hour for the next update; the whole in no more than six sentences, in both languages, for issue at the same minute',
+       'Done: with me in ten minutes',
+       'Fallback: where a fact is not confirmed by a named person, it is omitted and recorded in the log as pending'],
+ check=['Is every sentence one clause and active?',
+        'Are times and numbers exact?',
+        'Are reports excluded entirely?',
+        'Is the next hour named?'],
+ model=['so that everything we say in the first hour is true when it is read in two days and in four languages',
+        'the incident at seven nineteen this evening; the report to the capital is a separate document',
+        'the duty officer’s log as it stands, the four confirmed facts with the name of the person who confirmed each, and the police statement',
+        'one idea to a sentence and one clause where possible; the active voice with a named actor; every time, number and place stated exactly; no unconfirmed report mentioned and no reference to reports at all; a named hour for the next update; the whole in no more than six sentences, in both languages, for issue at the same minute',
+        'with me in ten minutes',
+        'where a fact is not confirmed by a named person, it is omitted and recorded in the log as pending'],
+ cost='28 words, 1 sentence, 2 unconfirmed reports repeated and no hour named for the next word.'),
+
+lang=dict(
+ title='Across the Language Line · A statement issued in one language first',
+ setting=[
+  'The holding line is issued in English at seven fifty. The host-language version follows at '
+  'eight twelve, twenty-two minutes later, because it is being checked.',
+  'In those twenty-two minutes two outlets publish their own machine translations. One renders '
+  'all eleven of our staff are safe as our eleven staff have survived, which is a different and '
+  'much graver sentence.'],
+ ladder=[('English at seven fifty', 'the host language at eight twelve'),
+         ('Twenty-two minutes', 'of other people’s translations'),
+         ('“are safe”', 'rendered as “have survived”')],
+ cap='A gap of twenty-two minutes, filled by translations nobody at the Mission chose.',
+ turns=[('Turn 1 · Yuki', 'The host-language version is still being checked.'),
+        ('Turn 2 · Mendel', 'How long?'),
+        ('Turn 3 · Yuki', 'Twenty minutes. And two outlets have already translated it themselves.')],
+ holds=['We shall issue both versions at the same minute, even if that delays the English.',
+        'A gap of twenty minutes is twenty minutes of other people’s wording.',
+        'Could we keep a pre-translated set of standard sentences for this purpose?',
+        'Which of our standard sentences would you want checked in advance?',
+        'I would rather be ten minutes later in both than ten minutes earlier in one.',
+        'I will record the two renderings that appeared in the gap.'],
+ redline='Never issue in one language and let the gap be filled by others, and never leave a '
+         'sentence about staff safety to somebody else’s rendering.',
+ score=['Decided to issue both at the same minute.',
+        'Named the cost of the gap.',
+        'Proposed pre-translated standard sentences.',
+        'Preferred lateness in both to speed in one.',
+        'Recorded the renderings that appeared.'],
+ a=[('When was the English issued?', 'at seven fifty'),
+    ('And the host language?', 'at eight twelve'),
+    ('What happened in the gap?', 'two outlets published their own translations'),
+    ('How was “are safe” rendered?', 'as “have survived”'),
+    ('What is the remedy?', 'issuing both at the same minute, with pre-translated sentences'),
+    ('What must never be left to others?', 'a sentence about staff safety')]),
+
+rev_fig=figs.split('THE FIRST HOUR',
+                   'In order',
+                   ['people accounted for',
+                    'log begun',
+                    'premises secured',
+                    'capital informed'],
+                   'Then the line',
+                   ['six sentences',
+                    'one clause each',
+                    'nothing unconfirmed',
+                    'both languages, same minute']),
+rev_fig_cap='Four actions and four properties, and the hour is survivable.',
+rev=dict(
+ read=[('When did the incident occur?',
+        ['at nineteen minutes past seven', 'at half past seven',
+         'at eight o’clock', 'at seven fifty'], 0),
+       ('How long did accounting for staff take?',
+        ['nineteen minutes', 'four minutes', 'an hour', 'twenty-two minutes'], 0),
+       ('What was wrong with the holding line?',
+        ['one sentence of twenty-eight words', 'it was inaccurate',
+         'it was too short', 'it named an hour'], 0),
+       ('What should replace “in due course”?',
+        ['a named hour', 'a shorter phrase',
+         'nothing', 'a reference to reports'], 0)],
+ listen_text='Fix the order first: people, log, premises, confirmation, capital, then the '
+             'public line in six sentences of one clause each, active, exact, with a named hour '
+             'and nothing unconfirmed.',
+ listen=[('Fix the ____________ first.', 'order'),
+         ('People, log, ____________, confirmation.', 'premises'),
+         ('Six sentences of one ____________ each.', 'clause'),
+         ('With a named ____________.', 'hour')],
+ speak=['Describe eight events in one active clause each, with a time.',
+        'Then give a four-sentence holding line ending in a named hour.'],
+ write='Write a six-line tasking for a first-hour holding line.',
+ vocab=[('Something said but not established is an ____________ report.', 'unconfirmed'),
+        ('Checking that everybody is accounted for is a ____________ of staff.', 'roll call'),
+        ('Refusing to guess in public is an ____________ of speculation.', 'avoidance'),
+        ('The record of what was decided and when is a ____________ log.', 'decision')],
+ gram=[('The consul ____________ the family at eight fifteen.', 'telephoned'),
+       ('We ____________ the crisis number on our website at eight o’clock.', 'published'),
+       ('The host authorities ____________ us at eight twenty.', 'informed'),
+       ('The Ambassador ____________ the staff in the hall at eight thirty.', 'briefed')]),
+
+found=['Account for people and start a timed log before anything is said publicly.',
+       'Write one idea to a sentence, active, with every time and number exact.',
+       'Mention nothing unconfirmed, and do not refer to reports at all.',
+       'Name the hour of the next update, and issue both languages at the same minute.'],
+end_line='In two days somebody will ask when you knew. Only the log can answer.',
+end_next='Next: Speaking to a Community That Is Not Your Own')

@@ -1,0 +1,562 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=7,
+title='Who Will Vote With You, and Who Says So',
+gram='passive reporting: it is understood, it was agreed, it was noted',
+ai='a coalition mapped from what delegations have said in public',
+strap='CEFR B2 · Grammar: passive reporting — it is understood, it was agreed, it was noted · '
+      'AI: a coalition mapped from what delegations have said in public',
+cando=['report positions in the passive without attributing them wrongly',
+       'map a coalition from what delegations have said in public',
+       'distinguish a declared position from a private indication',
+       'see what a map of public statements cannot tell you',
+       'write a six-line tasking for a coalition map'],
+
+hero=('TWENTY-ONE DELEGATIONS MAPPED FROM THE RECORD, AND FOUR OF THE MAP WAS WRONG',
+      ['Every entry was supported by a public statement.',
+       'Four of the twenty-one had changed their position in a corridor.'],
+      [(1020, 'teal', 'long'), (280, 'grey', 'short'), (300, 'blue', 'short')]),
+hero_cap='A coalition map built from eleven plenary records and four group statements.',
+
+warm=['How do you know who agrees with you at a meeting?',
+      'What is the difference between a public and a private position?',
+      'Which is more reliable, and for what purpose?'],
+
+read=[
+ 'A map is produced of twenty-one delegations’ positions on the draft decision, built from '
+ 'eleven plenary records, four group statements and two press releases. Every entry is '
+ 'supported by a citation.',
+ 'It is understood from those sources that nine delegations support the text, five oppose it, '
+ 'four have reserved and three have not spoken. The map is accurate as to what was said.',
+ 'Four of the twenty-one, however, have moved. Two now support a text they criticised in '
+ 'plenary, having obtained a drafting change; one has been instructed to abstain; and one is '
+ 'waiting to see what a larger neighbour does.',
+ 'None of those four movements appears in any record, and none will appear until a vote is '
+ 'taken. It was noted in a corridor, which is not a source that can be cited.',
+ 'A map of public positions is therefore an exact answer to a question about the past. The '
+ 'question that matters is what delegations will do tomorrow afternoon, and that is answered by '
+ 'walking round the room.'],
+
+dp1=('Public and private positions', 'Practice distinguishes positions stated on the record, '
+     'which may be cited, from indications given informally, which are customarily reported to '
+     'a capital without attribution and never quoted publicly.',
+     'Source: general conference practice literature, 2025–2026.'),
+
+c_a=[('How many delegations are mapped?', 'twenty-one'),
+     ('From how many plenary records?', 'eleven'),
+     ('How many support the text, on the record?', 'nine'),
+     ('How many have moved?', 'four'),
+     ('Why has one delegation changed to support?', 'it obtained a drafting change'),
+     ('Where were the movements noted?', 'in a corridor')],
+
+c_b=[('The map contained errors of citation.', 'F'),
+     ('Four movements appear in the records.', 'F'),
+     ('A corridor indication can be cited.', 'F'),
+     ('The map answers a question about the past.', 'T'),
+     ('Three delegations have not spoken.', 'T'),
+     ('Walking round the room is unnecessary.', 'F')],
+
+c_c=[('It ____________ understood that nine delegations support the text.', 'is'),
+     ('It ____________ agreed that the item would be taken on Thursday.', 'was'),
+     ('It ____________ noted that one delegation had not received instructions.', 'was'),
+     ('It is ____________ that the group will meet before the session.', 'expected'),
+     ('It was ____________ that the text would be revised overnight.', 'indicated'),
+     ('It is not ____________ whether the fourth delegation will abstain.', 'known')],
+
+c_d=[('It is understood that attributes the information to ( the speaker / nobody in particular ).', ['the speaker', 'nobody in particular'], 1),
+     ('It was agreed records ( a collective outcome / one delegation’s view ).',
+      ['a collective outcome', 'one delegation’s view'], 0),
+     ('It was noted is weaker than ( it was agreed / it is understood ).',
+      ['it was agreed', 'it is understood'], 0),
+     ('A public map answers a question about ( the past / tomorrow ).',
+      ['the past', 'tomorrow'], 0),
+     ('A corridor indication is ( reported without attribution / quoted ).',
+      ['reported without attribution', 'quoted'], 0)],
+
+c_e=('Citable or not citable? Put each source in the right column.',
+     [('a statement in plenary', 'citable'),
+      ('a remark in a corridor', 'not citable'),
+      ('a group statement', 'citable'),
+      ('a private indication from a delegate', 'not citable'),
+      ('a published press release', 'citable'),
+      ('an impression from a dinner', 'not citable')],
+     ['citable', 'not citable']),
+
+v_fig_title='A COALITION IN SIX WORDS',
+v_fig=[('people', 'a coalition'), ('speech', 'a public position'), ('chart', 'a count of votes'),
+       ('key', 'a swing delegation'), ('clock', 'an abstention pattern'), ('doc', 'a voting record')],
+v_fig_cap='Six words for the arithmetic that decides whether a text is adopted.',
+
+vocab=[
+ ('a coalition', 'a group acting together on an issue'),
+ ('a like-minded group', 'delegations holding similar views'),
+ ('a co-sponsor', 'a delegation joining a proposal'),
+ ('a public position', 'a position stated on the record'),
+ ('a statement in plenary', 'a statement made in a full meeting'),
+ ('a voting record', 'the record of how delegations voted'),
+ ('a swing delegation', 'one whose vote could go either way'),
+ ('a group coordinator', 'the delegation speaking for a group'),
+ ('a regional group', 'delegations grouped by region'),
+ ('an abstention pattern', 'how a delegation habitually abstains'),
+ ('a declared support', 'support stated openly'),
+ ('a private indication', 'a position given informally'),
+ ('a count of votes', 'the arithmetic of support'),
+ ('a required majority', 'the number of votes needed'),
+ ('a procedural vote', 'a vote on how to proceed'),
+ ('a roll call', 'a vote taken delegation by delegation'),
+ ('a block of votes', 'votes cast together'),
+ ('a deal across groups', 'an arrangement between groups'),
+ ('a public commitment', 'a promise made openly'),
+ ('an inference from silence', 'a conclusion drawn from saying nothing')],
+
+v_a=[('One whose vote could go either way is a ____________ delegation.', 'swing'),
+     ('The delegation speaking for a group is a group ____________.', 'coordinator'),
+     ('A position given informally is a ____________ indication.', 'private'),
+     ('The number of votes needed is the required ____________.', 'majority'),
+     ('A vote taken delegation by delegation is a ____________.', 'roll call'),
+     ('A conclusion drawn from saying nothing is an ____________ from silence.', 'inference'),
+     ('A delegation joining a proposal is a ____________.', 'co-sponsor'),
+     ('How a delegation habitually abstains is an ____________ pattern.', 'abstention')],
+
+v_b=[('A coalition is a group', 'acting together on an issue.'),
+     ('A public position is a position', 'stated on the record.'),
+     ('A block of votes is votes', 'cast together.'),
+     ('A deal across groups is an arrangement', 'between groups.'),
+     ('A procedural vote is a vote', 'on how to proceed.')],
+
+g_title='Grammar: passive reporting — it is understood, it was agreed, it was noted',
+g_rule=['It is understood that reports information without attributing it: it is understood '
+        'that nine delegations support the text. It protects a source and signals that the '
+        'information is not first-hand.',
+        'It was agreed records a collective outcome: it was agreed that the item would be taken '
+        'on Thursday. Only use it where agreement was in fact reached.',
+        'It was noted is the weakest of the three. It records that something was said in a '
+        'meeting without any implication that anybody accepted it.',
+        'Choose among them deliberately. Writing it was agreed where only it was noted is true '
+        'manufactures a decision, and a record is read later by people who were not there.'],
+g_fig=('LOOSE',
+       ['Everybody agreed the item goes to Thursday.',
+        'People say nine delegations are in favour.',
+        'Somebody mentioned the instructions problem.',
+        'They are going to revise the text, apparently.'],
+       'PRECISE',
+       ['It was agreed that the item would be taken on Thursday.',
+        'It is understood that nine delegations support the text.',
+        'It was noted that one delegation had not received instructions.',
+        'It was indicated that the text would be revised overnight.'],
+       'four reports in loose, attributed English',
+       'the same four in the passive reporting register'),
+g_fig_cap='Understood, agreed, noted, indicated: four different claims about how solid a thing is.',
+
+g_a=[('It ____________ understood that nine delegations support the text.', 'is'),
+     ('It ____________ agreed that the item would be taken on Thursday.', 'was'),
+     ('It ____________ noted that one delegation had not received instructions.', 'was'),
+     ('It is ____________ that the group will meet before the session.', 'expected'),
+     ('It was ____________ that the text would be revised overnight.', 'indicated'),
+     ('It is not ____________ whether the fourth delegation will abstain.', 'known'),
+     ('It ____________ been suggested that the item be deferred.', 'has'),
+     ('It ____________ widely assumed that the group would abstain together.', 'is'),
+     ('It ____________ recalled that the matter was decided last year.', 'was')],
+
+g_b=[('( It was agreed that the item would be taken on Thursday / Everybody agreed about Thursday ) — record register.', ['It was agreed that the item would be taken on Thursday', 'Everybody agreed about Thursday'], 0),
+     ('( It is understood that nine delegations support the text / People say nine are in favour ) — protects the source.',
+      ['It is understood that nine delegations support the text',
+       'People say nine are in favour'], 0),
+     ('( It was noted that instructions had not arrived / It was agreed that instructions had not arrived ) — accurate.',
+      ['It was noted that instructions had not arrived',
+       'It was agreed that instructions had not arrived'], 0),
+     ('( It was indicated that the text would be revised / They are going to revise it, apparently ) — register.',
+      ['It was indicated that the text would be revised',
+       'They are going to revise it, apparently'], 0),
+     ('( It is not known whether the delegation will abstain / Nobody knows anything about the abstention ) — record.',
+      ['It is not known whether the delegation will abstain',
+       'Nobody knows anything about the abstention'], 0),
+     ('( It has been suggested that the item be deferred / It was agreed to defer the item ) — only noted.',
+      ['It has been suggested that the item be deferred',
+       'It was agreed to defer the item'], 0)],
+
+d1=dict(
+ title='Nine, five, four and three',
+ fig=(['Twenty-one delegations mapped.', 'And four of them have moved.'],
+      ['Since when?', 'Since the record was made.']),
+ cap='Elena Duarte and Ambassador Clara Mendel, before the afternoon session.',
+ lines=[('Mendel', 'How does the room stand?'),
+        ('Elena', 'On the record: nine with us, five against, four reserved, three silent.'),
+        ('Mendel', 'And off the record?'),
+        ('Elena', 'Two of the five have moved to support, having obtained a drafting change on Tuesday.'),
+        ('Mendel', 'How do you know?'),
+        ('Elena', 'One told me in the corridor and the other confirmed it to a colleague.'),
+        ('Mendel', 'Which I cannot cite anywhere.'),
+        ('Elena', 'You cannot cite it, and you can count on it. Those are different things.'),
+        ('Mendel', 'And the three silent delegations?'),
+        ('Elena', 'One is waiting for its neighbour, one has no instructions, and one has not attended.'),
+        ('Mendel', 'The map told you none of that.'),
+        ('Elena', 'The map told me what twenty-one delegations said. The room told me what four of them will do.')],
+ a=[('How does the record stand?', 'nine with, five against, four reserved, three silent'),
+    ('How many have moved?', 'two of the five, to support'),
+    ('Why?', 'they obtained a drafting change'),
+    ('Can it be cited?', 'no, but it can be counted on'),
+    ('What about the three silent delegations?', 'one waiting, one without instructions, one absent')],
+ b=[('Four ____________, three silent.', 'reserved'),
+    ('Having obtained a drafting ____________.', 'change'),
+    ('You cannot cite it, and you can ____________ on it.', 'count'),
+    ('The room told me what four of them will ____________.', 'do')]),
+
+d2=dict(
+ title='What silence is worth',
+ fig=(['Three have said nothing.', 'For three different reasons.'],
+      ['Does the map say which?', 'A map cannot read a silence.']),
+ cap='Elena and Farida Haddad, over the map on the morning of the vote.',
+ lines=[('Farida', 'Your map lists three delegations as position unknown.'),
+        ('Elena', 'Which is honest and useless.'),
+        ('Farida', 'Can we do better before three o’clock?'),
+        ('Elena', 'We can ask them. Not about the text, which would be pressing, but about the procedure.'),
+        ('Farida', 'What is the difference?'),
+        ('Elena', 'Asking whether they expect to speak on the item tells me almost as much and asks nothing of them.'),
+        ('Farida', 'And if they say they expect to speak?'),
+        ('Elena', 'Then they have instructions, and a delegation with instructions on a contested item usually has a position.'),
+        ('Farida', 'And if they say they have not decided whether to speak?'),
+        ('Elena', 'Then they are probably waiting for somebody, and the useful question is for whom.'),
+        ('Farida', 'None of which goes in the map.'),
+        ('Elena', 'All of which goes in a line to the capital marked as impression. And how do I mark an inference I would act on but not defend?')],
+ unresolved=True,
+ a=[('How are the three listed?', 'as position unknown'),
+    ('What does Elena call that?', 'honest and useless'),
+    ('What will she ask about?', 'the procedure, not the text'),
+    ('What does expecting to speak imply?', 'that they have instructions'),
+    ('Where does the inference go?', 'in a line to the capital, marked as impression')],
+ b=[('Which would be ____________.', 'pressing'),
+    ('Asks ____________ of them.', 'nothing'),
+    ('Probably waiting for ____________.', 'somebody'),
+    ('Marked as ____________.', 'impression')]),
+
+speak=[('Four kinds of solidity',
+        ['Report six things from a meeting you attended.',
+         'Use it was agreed, it is understood, it was noted and it was indicated.',
+         'Your partner challenges any that claims too much.']),
+       ('Citable or countable',
+        ['Tell your partner six things you believe about a negotiation.',
+         'They sort them into citable and merely countable.',
+         'Say which you would put in writing to a capital.']),
+       ('Ask about the procedure',
+        ['Your partner is a silent delegation.',
+         'Find out their position by asking only procedural questions.',
+         'They refuse to answer anything substantive.'])],
+
+ext_title='A map of what was said is an exact answer to a question about the past',
+ext_fig=figs.datatable('TWENTY-ONE DELEGATIONS, TWO VERSIONS',
+                       ['Category', 'On the record', 'In the room'],
+                       [['support', '9', '11'],
+                        ['oppose', '5', '3'],
+                        ['reserved', '4', '3'],
+                        ['instructed to abstain', '0', '1'],
+                        ['waiting for another', '0', '1'],
+                        ['position unknown', '3', '2']]),
+ext_fig_cap='Two accurate columns, counted a day apart, with four delegations in different rows.',
+ext=[
+ 'Mapping the public positions of twenty-one delegations is a task of exactly the right shape '
+ 'for a machine: many sources, a single question, and an output that can be cited line by line.',
+ 'The output should be required to carry its citations, and every entry should be dated, since '
+ 'a position stated eleven days ago and a position stated this morning are different facts '
+ 'about the same delegation.',
+ 'What such a map cannot contain is movement. A delegation that changes its position in a '
+ 'corridor leaves no trace in any record until it votes, and the four most important entries in '
+ 'any map are usually the four that have moved since the sources were written.',
+ 'The map is therefore the beginning of the work rather than its result. Its proper use is to '
+ 'identify which delegations must be spoken to: those whose position is unknown, those whose '
+ 'position is stated but old, and those who obtained a drafting change after stating it.',
+ 'In reporting the result, the distinction between what may be cited and what may be counted '
+ 'on must be kept absolutely. A corridor indication is reported to a capital without '
+ 'attribution, in the passive, and never repeated in a room where the delegation concerned '
+ 'could be embarrassed by it.',
+ 'And silence is to be investigated rather than recorded. Three delegations may be silent for '
+ 'three unrelated reasons, and the procedural question — do you expect to speak on this item? — '
+ 'yields most of the answer while asking nothing of anybody.'],
+
+dp2=('Reporting informal indications', 'Reporting practice commonly requires informal '
+     'indications to be conveyed in impersonal form and without attribution, and prohibits '
+     'their repetition in any forum where the source could be identified.',
+     'Source: general conference practice literature, 2025–2026.'),
+
+e_a=[('What shape of task is mapping?', 'many sources, one question, citable output'),
+     ('Why must entries be dated?', 'an old position and a new one are different facts'),
+     ('What can a map not contain?', 'movement'),
+     ('What is the map’s proper use?', 'identifying whom to speak to'),
+     ('How is silence treated?', 'investigated with a procedural question')],
+e_b=[('A map of public positions is the result of the work.', 'F'),
+     ('Positions should be dated.', 'T'),
+     ('A corridor indication may be quoted in plenary.', 'F'),
+     ('Movement leaves a trace in the record.', 'F'),
+     ('Silence has a single explanation.', 'F'),
+     ('A procedural question asks little of anybody.', 'T')],
+
+w_model='Purpose: so that I know which delegations to speak to before three o’clock tomorrow. '
+        'Scope: the twenty-one delegations on the speakers’ list for item 6; the observers are '
+        'not covered. Inputs: the eleven plenary records of this session, the four group '
+        'statements, and the two press releases. Criteria: one line per delegation giving the '
+        'position as stated, the source cited, and the date of the statement; delegations whose '
+        'most recent statement is more than a week old flagged separately; delegations that have '
+        'not spoken listed as not stated rather than assigned a position; no inference from '
+        'silence and no inference from group membership. Done: with me by eight tomorrow '
+        'morning. Fallback: where two statements by the same delegation conflict, both are given '
+        'with their dates and no reconciliation is attempted.',
+w_fig=figs.spec_card('SIX LINES FOR A COALITION MAP',
+                     [('Purpose', 'know whom to speak to before three o’clock'),
+                      ('Scope', 'the twenty-one on the speakers’ list'),
+                      ('Inputs', 'eleven records, four group statements, two releases'),
+                      ('Criteria', 'position, source, date; old statements flagged; no inference'),
+                      ('Done', 'by eight tomorrow morning'),
+                      ('Fallback', 'conflicting statements: give both with dates')]),
+w_fig_cap='“No inference from silence and none from group membership” is what keeps a map honest.',
+w_task='Write a six-line tasking for a coalition map.',
+w_steps=['Line 1: say what the map is for.',
+         'Line 2: say which delegations, and who is excluded.',
+         'Line 3: say what you are giving it.',
+         'Line 4: say the citations, the dates, the flags and the two prohibitions.',
+         'Line 5: say by when.',
+         'Line 6: say what happens where statements conflict.'],
+w_bank=['Purpose: so that I know which delegations to speak to before … ',
+        'Scope: the … delegations on the speakers’ list for item … ; … are not covered',
+        'Inputs: the plenary records of this session, the group statements, and the press releases',
+        'Criteria: one line per delegation giving the position as stated, the source cited and the date; statements more than a week old flagged; delegations that have not spoken listed as not stated; no inference from silence and none from group membership',
+        'Done: with me by … . Fallback: where two statements conflict, both are given with their dates and no reconciliation is attempted'],
+w_check=['Is every entry cited and dated?',
+         'Are old statements flagged?',
+         'Is inference prohibited?',
+         'Are conflicts preserved rather than resolved?'],
+
+t_title='A coalition mapped from what delegations have said in public',
+t_fig=figs.split('TWENTY-ONE DELEGATIONS',
+                 'The map gives',
+                 ['the position as stated',
+                  'the source and the date',
+                  'the group statements',
+                  'who has not spoken'],
+                 'The room gives',
+                 ['who has moved',
+                  'who is waiting for whom',
+                  'who has no instructions',
+                  'what a drafting change bought']),
+t_fig_cap='The map tells you whom to talk to. It cannot tell you what they will do.',
+t_body=[
+ 'Require a citation and a date on every line, and require delegations that have not spoken to '
+ 'be listed as not stated rather than assigned a position by inference from their group.',
+ 'Prohibit inference expressly, in two forms: no inference from silence, and none from group '
+ 'membership. A delegation that has said nothing has said nothing, and a group coordinator '
+ 'speaks for the group only on what the group has agreed.',
+ 'Then use the map for its proper purpose, which is a list of conversations: the delegations '
+ 'whose position is unknown, those whose statement is a week old, and those who obtained a '
+ 'drafting change after speaking. What they tell you in a corridor is reported to the capital '
+ 'in the passive and without attribution, and repeated in no room at all.'],
+t_say=[('Require citations: ', 'Position as stated, source cited, date of the statement.'),
+       ('Prohibit inference: ', 'No inference from silence and none from group membership.'),
+       ('Use it as a list: ', 'Whom must I speak to before three o’clock?')],
+t_bound='It can only map what has been said and recorded. The four delegations that moved in a '
+        'corridor yesterday will appear in exactly the position they publicly left, and nothing '
+        'in the sources will suggest otherwise.',
+t_a=[('Position as stated, ____________ cited.', 'source'),
+     ('And the ____________ of the statement.', 'date'),
+     ('No inference from ____________.', 'silence'),
+     ('And none from ____________ membership.', 'group'),
+     ('Whom must I ____________ to before three o’clock?', 'speak'),
+     ('Reported to the capital in the ____________.', 'passive')],
+t_b_rubric='Say whether each belongs in the map.',
+t_b=[('A position stated in plenary, with the date.', 'yes'),
+     ('A corridor indication of movement.', 'no: to the capital, unattributed'),
+     ('A delegation listed as supportive because its group is.', 'no: that is inference'),
+     ('A delegation listed as not stated.', 'yes')],
+
+case=dict(
+ title='The Decision Room · Twenty-one positions, four of them yesterday’s',
+ brief=[
+  'A contested draft decision is expected to be put to the body at three o’clock. Twenty-one '
+  'delegations are on the speakers’ list.',
+  'A map built from eleven plenary records, four group statements and two press releases shows '
+  'nine in support, five opposed, four reserved and three not stated. Every entry carries a '
+  'citation.',
+  'Since the sources were written, two of the five opposed delegations have obtained a drafting '
+  'change and now intend to support; one of the reserved delegations has been instructed to '
+  'abstain; and one of the three silent delegations is waiting to see how a larger neighbour '
+  'votes. None of this appears in any record.'],
+ exhibit=figs.datatable('WHERE THE MAP WAS WRONG, AND WHY',
+                        ['Delegation', 'Map', 'Reality'],
+                        [['first', 'opposed', 'supports after a drafting change'],
+                         ['second', 'opposed', 'supports after a drafting change'],
+                         ['third', 'reserved', 'instructed to abstain'],
+                         ['fourth', 'not stated', 'waiting for a neighbour'],
+                         ['other seventeen', 'as stated', 'as stated'],
+                         ['citations', 'all correct', 'all correct']]),
+ exhibit_cap='Seventeen entries right, four entries a day out of date, and not one citation wrong.',
+ exhibit_note='The map is an accurate record of public statements. Public statements are a '
+              'record of the past, and a negotiation is a record of yesterday afternoon.',
+ voices=[('Elena Duarte', 'delegate, the Assembly',
+          'The map told me what they said. Four conversations told me what they will do.'),
+         ('Ambassador Clara Mendel', 'head of mission',
+          'And what I may cite and what I may count on must never be written in the same column.'),
+         ('Farida Haddad', 'protocol and interpreting',
+          'Three delegations were silent for three different reasons, and the map had one row for all three.')],
+ steps=[('Find it', 'What did the map contain?'),
+        ('Compare it', 'The map against the room.'),
+        ('Infer it', 'Why were four entries wrong?'),
+        ('Weigh it', 'Four conversations before three o’clock.'),
+        ('Decide', 'What is a public map for?')],
+ analysis=[('Find it. What was produced?', 'a cited map of twenty-one positions'),
+           ('Compare it. What differed?', 'four delegations had moved'),
+           ('Infer it. Why?', 'movement leaves no trace in the record'),
+           ('Weigh it. What is required?', 'four conversations, and a procedural question'),
+           ('Decide. What is it for?', 'a list of whom to speak to')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what every line of a map must carry.',
+                 'Say what may not be inferred.',
+                 'Say what the map is used for.',
+                 'Say how an informal indication is handled.'],
+ bank=['Every line of a coalition map carries the position as stated, the source and the date.',
+       'Nothing is inferred from silence or from group membership; a delegation that has not spoken is listed as not stated.',
+       'The map is used to produce a list of delegations to be spoken to before the decision.',
+       'An informal indication is reported to the capital in impersonal form without attribution, and repeated in no meeting.'],
+ outcome='The four conversations take place between nine and noon. The two delegations confirm '
+         'their movement, the instruction to abstain is confirmed indirectly, and the silent '
+         'delegation says it expects to speak after its neighbour. The text is adopted at ten '
+         'minutes past three with eleven in support, and the mission thereafter requires every '
+         'map to be dated line by line and to end with the list of conversations it implies.',
+ outcome_q=[('When did the conversations take place?', 'between nine and noon'),
+            ('What did the two delegations confirm?', 'their movement to support'),
+            ('What did the silent delegation say?', 'that it expects to speak after its neighbour'),
+            ('How many supported at the vote?', 'eleven'),
+            ('What does the mission now require?', 'dated lines and a list of conversations')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Map the room for me',
+ task=['A delegate asked for a map of the room before a contested decision.',
+       'This is the instruction as it was given, and what came back.'],
+ draft=['Map the room for me before tomorrow.',
+        'Who is with us and who is against.',
+        'Use the records.',
+        'Twenty-one delegations.',
+        'All twenty-one, with no exceptions.',
+        'Tonight.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and “who is with us” asked for a conclusion the records cannot support.',
+ asked=['Who is with us', 'Use the records', 'All twenty-one, no exceptions'],
+ back=['21 delegations placed', '4 categories', '0 dates given'],
+ gap='Nobody required dates or forbade inference, so three silent delegations were placed with their groups.',
+ back_cap='A clear table of twenty-one delegations, in which four entries are a day out of date.',
+ back_note='“Who is with us and who is against” has only two columns, and a room of twenty-one '
+           'delegations always needs five.',
+ diagnosis=[('“map the room”', 'unscoped set'),
+            ('“who is with us”', 'hidden assumption'),
+            ('“use the records”', 'unscoped set'),
+            ('“all twenty-one”', 'unstated exception'),
+            ('“with no exceptions”', 'unstated exception'),
+            ('“against”', 'hidden assumption')],
+ rewrite='Rewrite it on the six lines so that nothing is inferred and everything is dated.',
+ scaffold=['what the map is for',
+           'which delegations, and who is excluded',
+           'what you are giving it',
+           'the citations, the dates, the flags and the two prohibitions',
+           'by when',
+           'what happens where statements conflict'],
+ bank=['Purpose: so that I know which delegations to speak to before three o’clock tomorrow',
+       'Scope: the twenty-one delegations on the speakers’ list for item 6; the observers are not covered',
+       'Inputs: the eleven plenary records of this session, the four group statements, and the two press releases',
+       'Criteria: one line per delegation giving the position as stated, the source cited, and the date of the statement; delegations whose most recent statement is more than a week old flagged separately; delegations that have not spoken listed as not stated; no inference from silence and no inference from group membership',
+       'Done: with me by eight tomorrow morning',
+       'Fallback: where two statements by the same delegation conflict, both are given with their dates and no reconciliation is attempted'],
+ check=['Is every line dated?',
+        'Is inference prohibited?',
+        'Are unspoken positions marked not stated?',
+        'Are conflicts preserved?'],
+ model=['so that I know which delegations to speak to before three o’clock tomorrow',
+        'the twenty-one delegations on the speakers’ list for item 6; the observers are not covered',
+        'the eleven plenary records of this session, the four group statements, and the two press releases',
+        'one line per delegation giving the position as stated, the source cited, and the date of the statement; delegations whose most recent statement is more than a week old flagged separately; delegations that have not spoken listed as not stated rather than assigned a position; no inference from silence and no inference from group membership',
+        'with me by eight tomorrow morning',
+        'where two statements by the same delegation conflict, both are given with their dates and no reconciliation is attempted'],
+ cost='21 delegations placed, 0 dates, and four positions counted a day after they changed.'),
+
+lang=dict(
+ title='Across the Language Line · A group statement that binds nobody',
+ setting=[
+  'A group coordinator makes a statement on behalf of the group. In the practice of that group, '
+  'such a statement expresses a common view on principle and leaves each member free on the '
+  'text.',
+  'A map built in English records all eleven members of the group as supporting the text, on '
+  'the authority of their coordinator, and the capital counts eleven votes that do not exist.'],
+ ladder=[('A statement on behalf of a group', 'binding on principle only'),
+         ('Eleven members recorded as supporting', 'in the map'),
+         ('A count of votes', 'overstated by several')],
+ cap='A coordinator’s statement, read as a commitment by everybody behind it.',
+ turns=[('Turn 1 · The coordinator', 'The group supports the objective of the draft decision.'),
+        ('Turn 2 · Elena', 'Does that extend to the text as it now stands?'),
+        ('Turn 3 · The coordinator', 'Each member will speak for itself on the text.')],
+ holds=['May I ask whether the group statement covers the text or the objective?',
+        'In our records we would otherwise count eleven delegations.',
+        'Are members free to take their own position on the paragraphs?',
+        'I am not trying to divide the group; I am trying to count correctly.',
+        'Would you prefer that we record the group as supporting the objective?',
+        'I will record the statement as made and attribute nothing to the members.'],
+ redline='Never record the members of a group as holding the coordinator’s position, and never '
+         'be seen to be seeking to divide a group.',
+ score=['Asked whether the statement covers text or objective.',
+        'Explained the counting consequence.',
+        'Asked whether members are free on paragraphs.',
+        'Disclaimed any attempt to divide.',
+        'Recorded the statement as made, with nothing attributed.'],
+ a=[('What does the group statement cover?', 'the objective, not the text'),
+    ('How was it recorded?', 'as eleven delegations supporting'),
+    ('What did the capital count?', 'eleven votes that do not exist'),
+    ('What should be asked?', 'whether the statement covers the text'),
+    ('What should be recorded?', 'the statement as made, with nothing attributed'),
+    ('What must be avoided?', 'appearing to divide the group')]),
+
+rev_fig=figs.split('A MAP AND A ROOM',
+                   'The map',
+                   ['positions as stated',
+                    'sources and dates',
+                    'group statements',
+                    'who has not spoken'],
+                   'The room',
+                   ['who has moved',
+                    'who waits for whom',
+                    'who lacks instructions',
+                    'what a change bought']),
+rev_fig_cap='The map is produced in an hour. The room takes a morning and decides the vote.',
+rev=dict(
+ read=[('How many delegations were mapped?',
+        ['twenty-one', 'nine', 'eleven', 'four'], 0),
+       ('How many entries were out of date?',
+        ['four', 'none', 'nine', 'seventeen'], 0),
+       ('Where were the movements noted?',
+        ['in a corridor', 'in plenary',
+         'in a press release', 'in a group statement'], 0),
+       ('What may not be inferred?',
+        ['a position from silence', 'a date from a record',
+         'a source from a citation', 'nothing'], 0)],
+ listen_text='Require a citation and a date on every line, prohibit inference from silence and '
+             'from group membership, and use the map as a list of the delegations you must speak '
+             'to before the decision.',
+ listen=[('Require a citation and a ____________ on every line.', 'date'),
+         ('Prohibit inference from ____________.', 'silence'),
+         ('And from ____________ membership.', 'group'),
+         ('Use the map as a list of ____________.', 'delegations')],
+ speak=['Report six meeting outcomes using it was agreed, it is understood and it was noted.',
+        'Then find a silent delegation’s position by procedural questions alone.'],
+ write='Write a six-line tasking for a coalition map.',
+ vocab=[('One whose vote could go either way is a ____________ delegation.', 'swing'),
+        ('A position given informally is a ____________ indication.', 'private'),
+        ('A vote taken delegation by delegation is a ____________.', 'roll call'),
+        ('A conclusion drawn from saying nothing is an ____________ from silence.', 'inference')],
+ gram=[('It ____________ been suggested that the item be deferred.', 'has'),
+       ('It ____________ widely assumed that the group would abstain together.', 'is'),
+       ('It ____________ recalled that the matter was decided last year.', 'was'),
+       ('It is not ____________ whether the delegation will abstain.', 'known')]),
+
+found=['Date every line of a map and cite every position.',
+       'Infer nothing from silence and nothing from group membership.',
+       'Use the map to decide whom to speak to, not what the room will do.',
+       'Report corridor indications in the passive, without attribution, to the capital only.'],
+end_line='A map records what was said. A vote records what delegations do.',
+end_next='Next: Drafting in Nobody’s First Language')

@@ -1,0 +1,541 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=3,
+title='Your Name, Your Title, Your Card',
+gram='possessives, titles and the order of names',
+ai='your name and your title, correct in another language',
+strap='CEFR A2 · Grammar: possessives, titles and the order of names · '
+      'AI: your name and your title, correct in another language',
+cando=['say and spell my name and rank in a way a stranger can write down',
+       'use possessive forms correctly with names and titles',
+       'explain the difference between a rank and a form of address',
+       'check a transliteration of a name before it is printed',
+       'write a four-line note correcting an entry about me'],
+
+hero=('ONE OFFICER, THREE SPELLINGS, TWO LISTS',
+      ['The host ministry has her as Ajami, Nour and as N. Adjami.',
+       'The bank has a third spelling. None of them is wrong by accident.'],
+      [(720, 'teal', 'long'), (720, 'grey', 'short'), (720, 'purple', 'long')]),
+hero_cap='Three documents on one desk, each with a different version of the same name.',
+
+warm=['How many ways can your name be written in another alphabet?',
+      'Has anybody ever written your name wrongly on an official paper?',
+      'What is the difference between what you are called and what you are?'],
+
+read=[
+ 'Nour Ajami has one name. The host ministry has two versions of it. Her accreditation '
+ 'request says Ajami, Nour. The ministry’s reply says N. Adjami. The bank, which copied the '
+ 'reply, has a third version. All three refer to one officer.',
+ 'This is not a small thing. The diplomatic list is printed once a year. An entry in it is '
+ 'the official record of who is accredited. A duplicate entry can mean a second file, a '
+ 'second number and a long afternoon in an office explaining that you are one person.',
+ 'Tarek Sabbagh deals with protocol. He says the rule is simple. Choose one spelling. Use '
+ 'it on every document, in every year, for the whole posting. Never improve it later, '
+ 'because a better spelling in year two creates a second officer.',
+ 'There is also the question of title. Nour’s rank is third secretary. That is what she is. '
+ 'Her form of address is Ms Ajami, or Nour among colleagues. A rank goes on a list. A form '
+ 'of address is what somebody says to your face, and the two are not the same.',
+ 'On Thursday Nour asks a system to put her name and rank into the host language. The answer '
+ 'arrives at once. The name is transliterated in a way that is common and reasonable. It is '
+ 'also not the spelling on her accreditation, and only a person could have known that.'],
+
+dp1=('One spelling, for the whole posting', 'Protocol offices commonly advise that an '
+     'officer fix one transliteration of a name at accreditation and use it unchanged for '
+     'the whole tour, because duplicate entries on a diplomatic list create duplicate '
+     'records in tax, customs and bank systems.',
+     'Source: reported protocol practice, 2025–2026.'),
+
+c_a=[('How many versions of her name exist?', 'three'),
+     ('Which document is printed once a year?', 'the diplomatic list'),
+     ('What can a duplicate entry create?', 'a second file and a second number'),
+     ('What is Tarek Sabbagh’s rule?', 'choose one spelling and never change it'),
+     ('What is Nour’s rank?', 'third secretary'),
+     ('What was wrong with the system’s transliteration?', 'it did not match her accreditation')],
+
+c_b=[('Nour has three official spellings of one name.', 'T'),
+     ('The diplomatic list is printed every month.', 'F'),
+     ('Improving a spelling in year two is a good idea.', 'F'),
+     ('A rank and a form of address are the same thing.', 'F'),
+     ('The system’s transliteration was unreasonable.', 'F'),
+     ('Only a person could know which spelling was accredited.', 'T')],
+
+c_c=[('Nour’s accreditation says ____________, Nour.', 'Ajami'),
+     ('The ministry’s reply says N. ____________.', 'Adjami'),
+     ('The diplomatic ____________ is printed once a year.', 'list'),
+     ('Her ____________ is third secretary.', 'rank'),
+     ('Her form of ____________ is Ms Ajami.', 'address'),
+     ('A better spelling in year two creates a second ____________.', 'officer')],
+
+c_d=[('A rank is what you ( are called / are ).', ['are called', 'are'], 1),
+     ('A form of address is what somebody ( says to you / prints in a list ).',
+      ['says to you', 'prints in a list'], 0),
+     ('Tarek’s rule is one spelling for ( the whole posting / each year ).',
+      ['the whole posting', 'each year'], 0),
+     ('The system’s answer was ( reasonable but not accredited / clearly wrong ).',
+      ['reasonable but not accredited', 'clearly wrong'], 0),
+     ('A duplicate entry costs you ( an afternoon / nothing ).', ['an afternoon', 'nothing'], 0)],
+
+c_e=('Rank, address or record? Put each one in the right column.',
+     [('third secretary', 'rank'),
+      ('Ms Ajami', 'form of address'),
+      ('the diplomatic list', 'record'),
+      ('Your Excellency', 'form of address'),
+      ('deputy head of mission', 'rank'),
+      ('the accreditation card', 'record')],
+     ['rank', 'form of address', 'record']),
+
+v_fig_title='A NAME, A RANK AND A CARD',
+v_fig=[('doc', 'a transliteration'), ('people', 'a form of address'), ('key', 'an accreditation card'),
+       ('chart', 'a precedence list'), ('clock', 'a tour of duty'), ('flag', 'a courtesy title')],
+v_fig_cap='Six words that decide how a stranger writes you down.',
+
+vocab=[
+ ('a transliteration', 'a name written in the letters of another alphabet'),
+ ('a form of address', 'the words used when speaking or writing to a person'),
+ ('a courtesy title', 'a title used out of politeness rather than by appointment'),
+ ('a rank', 'the formal grade of an officer in a diplomatic service'),
+ ('a given name', 'the name a person is given at birth, before the family name'),
+ ('a family name', 'the name shared with a person’s family'),
+ ('a name order', 'the order in which given and family names are written'),
+ ('an accreditation card', 'the card issued by a host state to an accredited officer'),
+ ('a precedence list', 'the order in which officers are seated and announced'),
+ ('a tour of duty', 'the whole period an officer serves at one post'),
+ ('a business card', 'the small printed card carrying a name, rank and contact details'),
+ ('a salutation', 'the opening words of a letter, such as Dear Minister'),
+ ('an honorific', 'a word of respect used before a name or title'),
+ ('initials', 'the first letters of a person’s names, used as a short form'),
+ ('a signature', 'a person’s own mark of agreement at the end of a document'),
+ ('a capacity', 'the role in which a person signs or acts'),
+ ('a name badge', 'the label worn at an event showing a name and organisation'),
+ ('a misspelling', 'a wrong spelling of a word or a name'),
+ ('a duplicate record', 'a second record of the same person or thing'),
+ ('an entitlement', 'something an officer is formally allowed to receive')],
+
+v_a=[('A name written in another alphabet is a ____________.', 'transliteration'),
+     ('The words used when speaking to a person are a form of ____________.', 'address'),
+     ('The formal grade of an officer is a ____________.', 'rank'),
+     ('The order of seating and announcing is the ____________ list.', 'precedence'),
+     ('The whole period at one post is a ____________ of duty.', 'tour'),
+     ('A second record of the same person is a ____________ record.', 'duplicate'),
+     ('Something you are formally allowed to receive is an ____________.', 'entitlement'),
+     ('The role in which you sign is your ____________.', 'capacity')],
+
+v_b=[('A courtesy title is a title used out of politeness', 'rather than by appointment.'),
+     ('An accreditation card is the card issued by a host state', 'to an accredited officer.'),
+     ('A salutation is the opening words of a letter,', 'such as Dear Minister.'),
+     ('Initials are the first letters of a person’s names,', 'used as a short form.'),
+     ('A name badge is the label worn at an event', 'showing a name and organisation.')],
+
+g_title='Grammar: possessives, titles and the order of names',
+g_rule=['Add ’s to a singular name: Nour’s card, the Ambassador’s car, Firas’s keys.',
+        'Add only an apostrophe after a plural s: the officers’ cards, the ministers’ cars.',
+        'A title before a name takes no article: Ambassador Hourani, not the Ambassador Hourani.',
+        'Say the family name last in English: Nour Ajami, Ms Ajami, never Ms Nour.'],
+g_fig=('WRONG',
+       ['the Ambassador Hourani',
+        'Ms Nour, third secretary',
+        'the card of Nour',
+        'the officers card’s'],
+       'RIGHT',
+       ['Ambassador Hourani',
+        'Ms Ajami, third secretary',
+        'Nour’s card',
+        'the officers’ cards'],
+       'four forms that will be copied wrongly',
+       'the same four, written so they copy correctly'),
+g_fig_cap='The apostrophe goes before the s for one person and after it for many.',
+
+g_a=[('This is ____________ (Nour) card.', 'Nour’s'),
+     ('The ____________ (Ambassador) car is outside.', 'Ambassador’s'),
+     ('Those are the ____________ (officers) pigeonholes.', 'officers’'),
+     ('____________ (Ambassador) Hourani arrives at ten.', 'Ambassador'),
+     ('Please write to ____________ (Ms) Ajami.', 'Ms'),
+     ('That is ____________ (Firas) key, not mine.', 'Firas’s'),
+     ('The ____________ (Mission) address is on the card.', 'Mission’s'),
+     ('Both ____________ (secretaries) names were misspelled.', 'secretaries’'),
+     ('We used the ____________ (host ministry) spelling.', 'host ministry’s')],
+
+g_b=[('This is ( Nour’s / Nours’ ) card.', ['Nour’s', 'Nours’'], 0),
+     ('Write to ( Ms Ajami / Ms Nour ).', ['Ms Ajami', 'Ms Nour'], 0),
+     ('( Ambassador Hourani / The Ambassador Hourani ) will sign it.',
+      ['Ambassador Hourani', 'The Ambassador Hourani'], 0),
+     ('These are the ( officers’ / officer’s ) cards, all nine of them.',
+      ['officers’', 'officer’s'], 0),
+     ('It is the ( Mission’s / Missions’ ) only car.', ['Mission’s', 'Missions’'], 0),
+     ('Her family name comes ( last / first ) in English.', ['last', 'first'], 0)],
+
+d1=dict(
+ title='Which spelling is the real one?',
+ fig=(['They have you twice.', 'Twice? With one name?'],
+      ['Two spellings, two people.', 'And two numbers, and two files.']),
+ cap='Tarek Sabbagh and Nour, in the protocol file, on Wednesday morning.',
+ lines=[('Tarek', 'The host ministry has you twice.'),
+        ('Nour', 'Twice? I sent one form.'),
+        ('Tarek', 'You sent one form. They typed two spellings. Now there are two of you.'),
+        ('Nour', 'Which spelling is the real one?'),
+        ('Tarek', 'The one on your accreditation. Not the better one. The accredited one.'),
+        ('Nour', 'The other spelling is closer to how my name sounds.'),
+        ('Tarek', 'I believe you. Use it and you will have three files by March.'),
+        ('Nour', 'So I never correct it?'),
+        ('Tarek', 'You correct it once, now, in writing, and then never again.'),
+        ('Nour', 'And the bank?'),
+        ('Tarek', 'The bank copied the ministry. Fix the ministry and the bank follows.'),
+        ('Nour', 'One spelling for the whole tour.')],
+ a=[('How many entries does the ministry have?', 'two'),
+    ('Which spelling is the real one?', 'the one on the accreditation'),
+    ('What happens if she uses a better spelling?', 'she will have three files'),
+    ('How many times may she correct it?', 'once, now, in writing'),
+    ('Why fix the ministry first?', 'the bank copied the ministry')],
+ b=[('They have you ____________.', 'twice'),
+    ('Not the better one. The ____________ one.', 'accredited'),
+    ('You correct it ____________, now, in writing.', 'once'),
+    ('One spelling for the whole ____________.', 'tour')]),
+
+d2=dict(
+ title='It gave me a name I have never had',
+ fig=(['It transliterated my name.', 'Beautifully, I expect.'],
+      ['Very beautifully.', 'And not the one on your card.']),
+ cap='Nour and Layla Sayegh, before a printing order goes out.',
+ lines=[('Nour', 'I asked for my name and rank in the host language.'),
+        ('Layla', 'And it gave you something elegant.'),
+        ('Nour', 'It did. It also gave me a spelling I have never used.'),
+        ('Layla', 'That is the normal answer. It is the common form, not your form.'),
+        ('Nour', 'Is the common form wrong?'),
+        ('Layla', 'No. It is right for a name like yours. It is not right for you.'),
+        ('Nour', 'How would it know the difference?'),
+        ('Layla', 'It would not. Your accreditation is not a public document.'),
+        ('Nour', 'So I should give it the spelling instead of asking for one.'),
+        ('Layla', 'Yes. Ask it to use your spelling and to put the rank into the host language.'),
+        ('Nour', 'And if the rank has no exact equivalent here?')],
+ unresolved=True,
+ a=[('What did Nour ask for?', 'her name and rank in the host language'),
+    ('What did the system give?', 'the common form, not her form'),
+    ('Is the common form wrong?', 'no, it is right for a name like hers'),
+    ('Why can the system not know her spelling?', 'her accreditation is not public'),
+    ('What should she do instead?', 'give it her spelling and ask for the rank')],
+ b=[('It is the common form, not ____________ form.', 'your'),
+    ('Your accreditation is not a ____________ document.', 'public'),
+    ('Ask it to use your ____________.', 'spelling'),
+    ('Put the ____________ into the host language.', 'rank')]),
+
+speak=[('Spell it so a stranger can write it',
+        ['Student A: say your name, then spell the family name slowly.',
+         'Student B: write it down without asking twice.',
+         'Compare. If it is wrong, find the letter that caused it.']),
+       ('Rank and address',
+        ['Say five ranks in your service and the form of address for each.',
+         'Your partner says which is the rank and which is the address.',
+         'Decide which one belongs on a list and which belongs in a room.']),
+       ('The card',
+        ['Design a business card aloud, line by line, in six lines.',
+         'Say which line you would never change during a whole tour.',
+         'Your partner says which line a stranger will copy wrongly.'])],
+
+ext_title='A name is a record, and a record is only useful if it never moves',
+ext_fig=figs.datatable('ONE OFFICER, THREE RECORDS',
+                       ['Where', 'The spelling used', 'Consequence'],
+                       [['accreditation request', 'Ajami, Nour', 'the accredited entry'],
+                        ['diplomatic list', 'N. Adjami', 'a second person exists'],
+                        ['bank account', 'Adjami N.', 'copied from the list'],
+                        ['customs file', 'Ajami, Nour', 'does not match the bank'],
+                        ['business cards', 'Nour Ajami', 'correct, but not the list'],
+                        ['name badge at an event', 'Nour Adjami', 'copied from the list']]),
+ext_fig_cap='Six records, two people, one officer, and four hours of somebody’s week.',
+ext=[
+ 'A diplomatic name is not a personal matter. It is an index. Tax offices, customs, banks, '
+ 'security passes and the diplomatic list all use it to connect one person to one set of '
+ 'entitlements, and each of them copies the spelling it was first given.',
+ 'This is why protocol officers are strict about something that looks trivial. The cost of '
+ 'a second spelling is not embarrassment. It is a duplicate record, and a duplicate record '
+ 'has to be unmade by a human being in an office, one system at a time.',
+ 'The same is true of rank. A rank is a position in a service, and it maps to entitlements, '
+ 'seating and precedence. A form of address is a social act. Officers who confuse the two '
+ 'either sound rude or claim something they do not hold.',
+ 'Systems are good at transliteration in general and bad at your name in particular. They '
+ 'produce the common form, which is usually reasonable and sometimes beautiful, and they '
+ 'have no way of knowing which form a host ministry typed into a file last March.',
+ 'So the instruction is the other way round. Do not ask a system what your name is. Tell it '
+ 'your name, exactly as accredited, and ask it to place that spelling correctly in a '
+ 'sentence, a letter or a form of address in the host language.'],
+
+dp2=('Why duplicates are expensive', 'Administrative reports describe duplicate personal '
+     'records as among the slowest errors to correct at a post, because each downstream '
+     'system must be amended separately and by hand.',
+     'Source: reported practice in diplomatic administration, 2025–2026.'),
+
+e_a=[('What is a diplomatic name, in this reading?', 'an index that connects a person to entitlements'),
+     ('What is the real cost of a second spelling?', 'a duplicate record that must be unmade by hand'),
+     ('What does a rank map to?', 'entitlements, seating and precedence'),
+     ('What are systems good at?', 'transliteration in general'),
+     ('What is the correct instruction?', 'give the system your accredited spelling')],
+e_b=[('A name is only a personal matter.', 'F'),
+     ('Each system copies the spelling it was first given.', 'T'),
+     ('A form of address is a social act.', 'T'),
+     ('Systems know which spelling a ministry typed.', 'F'),
+     ('You should ask a system what your name is.', 'F'),
+     ('Duplicate records are corrected automatically.', 'F')],
+
+w_model='Purpose: correct one entry on the diplomatic list so that one officer has one '
+        'record. Scope: my own entry only; no other officer is affected. Inputs: the '
+        'accreditation request of 3 September and the list entry of 2 October. Criteria: 4 '
+        'lines naming the wrong form, the accredited form, the date of accreditation and '
+        'the request. Done: 4 lines, signed by the deputy head of mission, sent by 12:00 '
+        'tomorrow. Fallback: if the list is already at the printer, ask for a correction '
+        'slip and give the printer’s deadline.',
+w_fig=figs.spec_card('FOUR LINES THAT UNMAKE A SECOND PERSON',
+                     [('Purpose', 'one officer, one record'),
+                      ('Scope', 'my entry only'),
+                      ('Inputs', 'accreditation of 3 September, list of 2 October'),
+                      ('Criteria', '4 lines: wrong form, right form, date, request'),
+                      ('Done', '4 lines, signed by the deputy, by 12:00 tomorrow'),
+                      ('Fallback', 'already printing: ask for a correction slip')]),
+w_fig_cap='A correction is a small letter that has to be exactly right once.',
+w_task='Write four lines correcting an entry about yourself in an official record.',
+w_steps=['Line 1: the record, with its date.',
+         'Line 2: the form that appears, written exactly as it appears.',
+         'Line 3: the correct form, with the document that establishes it.',
+         'Line 4: what you ask for, and by when.',
+         'Use a possessive correctly at least once.'],
+w_bank=['The … list of … carries my name as …',
+        'My accredited name is …, as shown in the accreditation request of …',
+        'I should be grateful if the entry could be amended to …',
+        'I should be grateful for confirmation by …',
+        'No other officer’s entry is affected by this request.'],
+w_check=['Is the wrong form quoted exactly?',
+         'Is a document named in line 3?',
+         'Is there a date in line 4?',
+         'Is every possessive apostrophe in the right place?'],
+
+t_title='Your name and your title, correct in another language',
+t_fig=figs.split('TWO INSTRUCTIONS',
+                 'Asks the system to decide',
+                 ['Transliterate my name.',
+                  'What is my rank in the host language?',
+                  'Write my title for a card.',
+                  'How should I be addressed here?'],
+                 'Tells the system what is fixed',
+                 ['Use this spelling exactly: …',
+                  'My rank is third secretary; give the host equivalent and say if there is none.',
+                  'Put this spelling and this rank on one card line.',
+                  'Give two forms of address and say which is more formal.']),
+t_fig_cap='The left column invents a person. The right column places a person who exists.',
+t_body=[
+ 'There are two different jobs here, and they look like one. The first is a question of '
+ 'fact: how is my name spelled on my accreditation? No system can answer that, because the '
+ 'document is not public. Only your file answers it.',
+ 'The second is a question of language: given this spelling and this rank, how do I write '
+ 'them in the host language, in a salutation, on a card, in a seating list? A system is '
+ 'genuinely useful here, and much faster than looking it up.',
+ 'So reverse the usual instruction. Supply the fixed things — the exact spelling, the exact '
+ 'rank — and ask only for the language around them. Then ask a second question that most '
+ 'officers forget: is there any rank in the host service that this could be confused with?'],
+t_say=[('Fix the spelling: ', 'Use this spelling exactly, letter for letter: …'),
+       ('Name the rank: ', 'My rank is third secretary. Give the host-language equivalent.'),
+       ('Ask for the risk: ', 'What local rank could this be confused with, and why?')],
+t_bound='A transliteration tool does not know which spelling a host ministry has already '
+        'recorded, and it cannot see your accreditation. It will offer the usual form for a '
+        'name like yours and will not warn you that this is a guess about you.',
+t_a=[('Use this spelling exactly, letter for ____________.', 'letter'),
+     ('My rank is third ____________.', 'secretary'),
+     ('Give the host-language ____________.', 'equivalent'),
+     ('What local rank could this be ____________ with?', 'confused'),
+     ('No system can see your ____________.', 'accreditation'),
+     ('It offers the ____________ form for a name like yours.', 'usual')],
+t_b_rubric='Rewrite each instruction so that it supplies the fixed facts.',
+t_b=[('Transliterate my name.', 'use this exact spelling and place it in a host-language sentence'),
+     ('What is my rank here?', 'my rank is third secretary; give the host equivalent or say there is none'),
+     ('Write my card.', 'put this spelling and this rank on one line in the host language'),
+     ('How do I sign a letter?', 'give a salutation and a signature block for this rank')],
+
+case=dict(
+ title='The Decision Room · The officer who was two people',
+ brief=[
+  'In October the diplomatic list is printed. Nour appears twice: once as Ajami, Nour, '
+  'third secretary, and once as N. Adjami, attaché. The second entry is a typing error made '
+  'in the host ministry eight weeks earlier, and nobody at the Mission read the proof.',
+  'In November the customs office refuses a routine clearance. Its file is under Ajami. The '
+  'bank, which opened an account from the printed list, holds Adjami. The two records do '
+  'not match, so the clearance is blocked and an officer spends two days on it.',
+  'Tarek Sabbagh wants one spelling fixed for the whole Mission and a proof read every year. '
+  'Firas says the proof arrives in August, when half the staff are on leave.'],
+ exhibit=figs.datatable('WHERE THE TWO ENTRIES WENT',
+                        ['System', 'Spelling held', 'Source', 'Effect'],
+                        [['diplomatic list', 'both', 'host ministry', 'two officers exist'],
+                         ['customs', 'Ajami', 'accreditation', 'clearance file'],
+                         ['bank', 'Adjami', 'printed list', 'account name'],
+                         ['security pass', 'Ajami', 'the Mission', 'correct'],
+                         ['tax exemption', 'Adjami', 'printed list', 'wrong officer'],
+                         ['seating at a dinner', 'Adjami', 'printed list', 'wrong precedence']]),
+ exhibit_cap='Four of the six systems copied a typing error, because the list is what people copy.',
+ exhibit_note='Nobody made a second mistake. One mistake was copied five times, which is '
+              'how most administrative errors actually grow.',
+ voices=[('Tarek Sabbagh', 'protocol and liaison',
+          'One spelling, fixed at accreditation, read on the proof every August.'),
+         ('Firas Obeid', 'administration',
+          'In August there are four of us here. Somebody will sign the proof unread.'),
+         ('Dr Suhair Kanaan', 'deputy head of mission',
+          'Then the rule is not read the proof. The rule is who reads it, by name.')],
+ steps=[('Find it', 'Where did the second spelling come from?'),
+        ('Compare it', 'Which systems copied the list, and which copied the accreditation?'),
+        ('Infer it', 'Why did one error become six records?'),
+        ('Weigh it', 'A proof read in August against two days lost in November.'),
+        ('Decide', 'Who reads the proof, and what happens if nobody can?')],
+ analysis=[('Find it. Where did the error start?', 'a typing error in the host ministry'),
+           ('Compare it. How many systems copied the list?', 'four'),
+           ('Infer it. Which system was correct?', 'the security pass'),
+           ('Weigh it. Why did the clearance fail?', 'the customs and bank records did not match'),
+           ('Decide. What is the weakness of Tarek’s rule?', 'August is the leave month')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say which spelling is the Mission’s single spelling, and where it is held.',
+                 'Say who reads the annual proof, by post and not by name.',
+                 'Say what happens when that officer is on leave.',
+                 'Say what the Mission does if an error is printed anyway.'],
+ bank=['The accredited spelling is the Mission’s only spelling, held in the registry.',
+       'The proof of the diplomatic list is read by the protocol officer.',
+       'In the protocol officer’s absence it is read by the administration officer.',
+       'Where an error is printed, a correction slip is requested within 5 working days.'],
+ outcome='Dr Kanaan writes four lines. The accredited spelling is the only spelling and it '
+         'lives in the registry. The proof is read by the protocol officer, and by the '
+         'administration officer when protocol is away. An error printed anyway is chased '
+         'with a correction slip inside five working days. Nour’s duplicate takes eleven '
+         'weeks to disappear from the last system.',
+ outcome_q=[('Where does the single spelling live?', 'in the registry'),
+            ('Who reads the proof?', 'the protocol officer'),
+            ('Who reads it in that officer’s absence?', 'the administration officer'),
+            ('How quickly is a correction slip requested?', 'within five working days'),
+            ('How long did the duplicate take to disappear?', 'eleven weeks')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Print cards for everyone',
+ task=['The Mission needed business cards before a national day reception.',
+       'This is the instruction as it was given, and what the printer sent back.'],
+ draft=['Print cards for everyone.',
+        'Put the usual details on them.',
+        'Use the host language as well.',
+        'Order enough.',
+        'Make them look right.',
+        'We need them for the reception.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says how many people, how many cards, or by when.',
+ asked=['Cards for everyone', 'The usual details', 'Enough of them'],
+ back=['11 names, 2 of them former staff', 'Ranks in two languages, 3 wrong', '4,000 cards'],
+ gap='Nobody said which eleven, which details, or how many cards each.',
+ back_cap='Four thousand cards arrived, and two of the names had left the post.',
+ back_note='The printer used the staff list from the previous year, because no list was '
+           'attached and that was the only list the printer had ever been sent.',
+ diagnosis=[('“cards for everyone”', 'unscoped set'),
+            ('“the usual details”', 'unstated criterion'),
+            ('“order enough”', 'unbounded quantity'),
+            ('“make them look right”', 'unstated criterion'),
+            ('“use the host language as well”', 'unscoped set'),
+            ('“for the reception”', 'unbounded quantity')],
+ rewrite='Rewrite it on the six lines so that only one order can come back.',
+ scaffold=['why the cards are needed',
+           'which officers, by list and date',
+           'where the spellings and ranks come from',
+           'what appears on each card',
+           'how many cards each, and the delivery date',
+           'what to do about a rank with no local equivalent'],
+ bank=['Purpose: so that officers can exchange cards at …',
+       'Scope: the … officers on the staff list of …; former officers excluded',
+       'Inputs: the registry file of accredited spellings and ranks',
+       'Criteria: … lines per card: name, rank, section, telephone, address',
+       'Done: … cards each, delivered by … on …',
+       'Fallback: a rank with no local equivalent is printed in English only'],
+ check=['Is there a number of officers?',
+        'Is a source named for the spellings?',
+        'Is there a number of cards per officer?',
+        'Is there a delivery date and time?'],
+ model=['so that officers can exchange cards at the reception on 28 November',
+        'the 9 officers on the staff list of 1 November; former officers excluded',
+        'the registry file of accredited spellings and ranks',
+        '5 lines per card: name, rank, section, telephone, address',
+        '200 cards each, delivered by 12:00 on 24 November',
+        'a rank with no local equivalent is printed in English only, and protocol is told'],
+ cost='4,000 cards cost more than the reception itself. 200 of them could not be given to '
+      'anybody, because the 2 officers named on them had left the country.'),
+
+feet=dict(
+ title='On Your Feet · They have your name wrong, in public',
+ setting=[
+  'You are at a small reception. A senior official from the host ministry introduces you to '
+  'two guests. He gets your family name slightly wrong, and he gives you a rank you do not '
+  'hold: he calls you the Mission’s press attaché. The guests are now looking at you.',
+  'You need three things at once: the right name, the right rank, and no embarrassment for '
+  'the man who introduced you. He is useful to the Mission and he is trying to be kind. '
+  'You have about ninety seconds and you are standing up.'],
+ ladder=[('Wrong name', 'correct it once, lightly, and move on'),
+         ('Wrong rank', 'correct the fact without correcting the man'),
+         ('A question for the press attaché', 'the turn you must not answer')],
+ cap='Three turns. The third one invites you into a job that is not yours.',
+ turns=[('Turn 1 · Guest', 'Ms Adjami, very good to meet you. Did I say that correctly?'),
+        ('Turn 2 · Guest', 'And you handle the press for the Mission, is that right?'),
+        ('Turn 3 · Guest', 'Good. Then what is your Mission’s position on the new port rules?')],
+ holds=['It is Ajami, actually — but Nour is easier for all of us.',
+        'Close. The stress is on the first syllable.',
+        'Not quite: I am the third secretary. Layla Sayegh handles the press.',
+        'That is a question for my colleague, and I would rather she answered it properly.',
+        'I can make sure the question reaches the right person tomorrow.',
+        'May I take your card so that she can write to you directly?'],
+ redline='You must not give a Mission position on anything, however small, because you have '
+         'not been instructed to and the guest will quote it as the Mission’s view. You must '
+         'not claim the rank you were given, and you must not correct the official publicly '
+         'in a way that makes him look careless.',
+ score=['Corrected the name once, briefly, without making it a subject.',
+        'Corrected the rank by naming the right colleague instead of denying the wrong one.',
+        'Gave no position, no hint of a position and no personal opinion.',
+        'Left the official’s dignity intact.',
+        'Ended with something concrete: a card, a name, a next step.'],
+ a=[('How many times do you correct the name?', 'once'),
+    ('What rank were you given wrongly?', 'press attaché'),
+    ('How do you correct a rank politely?', 'by naming the colleague whose job it is'),
+    ('What must you not give?', 'a Mission position'),
+    ('Why is the third question dangerous?', 'the guest will quote your answer as the Mission’s view'),
+    ('What concrete step can end the exchange?', 'taking the guest’s card for the right colleague')]),
+
+rev_fig=figs.split('NAMES AND RANKS',
+                   'Will be copied wrongly',
+                   ['the Ambassador Hourani', 'Ms Nour',
+                    'a better spelling than last year', 'press attaché, more or less'],
+                   'Will be copied correctly',
+                   ['Ambassador Hourani',
+                    'Ms Ajami, third secretary',
+                    'the accredited spelling, unchanged',
+                    'third secretary; press is Layla Sayegh']),
+rev_fig_cap='The right-hand column can be written down by a stranger without asking twice.',
+rev=dict(
+ read=[('How many spellings of her name existed?', ['three', 'two', 'four', 'one'], 0),
+       ('Which spelling is the Mission’s single spelling?',
+        ['the accredited one', 'the clearest one', 'the printed one', 'the bank’s one'], 0),
+       ('Who reads the annual proof?',
+        ['the protocol officer', 'the Ambassador', 'the registry', 'the printer'], 0),
+       ('What must you never give at a reception without instructions?',
+        ['a Mission position', 'your card', 'your name', 'your rank'], 0)],
+ listen_text='Your name is an index. Every system copies the spelling it was first given. '
+             'Fix one spelling at accreditation and use it for the whole tour. A rank is '
+             'what you are. A form of address is what people say to you.',
+ listen=[('Your name is an ____________.', 'index'),
+         ('Every system copies the spelling it was first ____________.', 'given'),
+         ('Use it for the whole ____________.', 'tour'),
+         ('A form of ____________ is what people say to you.', 'address')],
+ speak=['Introduce yourself and one colleague, giving rank and section for both.',
+        'Your partner writes both names down and reads them back.'],
+ write='Write four lines correcting an entry about yourself in an official record.',
+ vocab=[('A name in another alphabet is a ____________.', 'transliteration'),
+        ('The order of seating is the ____________ list.', 'precedence'),
+        ('A second record of one person is a ____________ record.', 'duplicate'),
+        ('The whole period at a post is a ____________ of duty.', 'tour')],
+ gram=[('This is ____________ card. (Nour)', 'Nour’s'),
+       ('Those are the ____________ cards. (officers)', 'officers’'),
+       ('Please write to ____________ Ajami.', 'Ms'),
+       ('____________ Hourani will sign it. (Ambassador)', 'Ambassador')]),
+
+found=['Write your accredited spelling on one card and keep it in your wallet for the tour.',
+       'List the five systems at your post that hold your name, and check them once.',
+       'Learn the host-language form of your own rank, and one rank it resembles.',
+       'Practise correcting a mispronounced name in one short sentence, twice this week.'],
+end_line='One spelling, one rank, one record. Fix it once and never improve it.',
+end_next='Next: Accreditation and the Host Ministry')

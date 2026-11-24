@@ -1,0 +1,558 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=5,
+title='A Story You Cannot Read',
+gram='modal perfects for accountability: should have, could have, need not have',
+ai='a false story in a language you cannot read',
+strap='CEFR B2 · Grammar: modal perfects for accountability — should have, could have, need not have · '
+      'AI: a false story in a language you cannot read',
+cando=['use should have, could have and need not have precisely',
+       'assess a false story in a language you do not read',
+       'see what a fluent translation conceals about a source',
+       'decide whether to answer a story at all',
+       'write a six-line tasking for an assessment of a story'],
+
+hero=('A FLUENT TRANSLATION OF A STORY WITH NO SOURCE IN IT',
+      ['The English read like a serious newspaper.',
+       'The original cited one anonymous official and a screenshot.'],
+      [(1060, 'teal', 'long'), (280, 'grey', 'short'), (260, 'blue', 'short')]),
+hero_cap='A story in a language nobody at the Mission reads, and its machine translation.',
+
+warm=['How do you judge a story in a language you cannot read?',
+      'What does a translation not tell you?',
+      'When is answering a story worse than ignoring it?'],
+
+read=[
+ 'A story appears in a language nobody at the Mission reads. The machine translation is fluent, '
+ 'confident and well ordered, and reads like the work of a serious newspaper.',
+ 'The original, read by a local colleague, cites one unnamed official, one screenshot of a '
+ 'document nobody has seen, and a phrase that in that language signals rumour rather than '
+ 'report.',
+ 'None of this survives translation. Fluency is a property of the translation and not of the '
+ 'source, and a good rendering makes a thin story read exactly like a solid one.',
+ 'The Mission should have asked a local colleague to read the original before it drafted '
+ 'anything. It need not have drafted at all: the outlet has a reach of some four thousand '
+ 'readers and no other outlet had picked the story up.',
+ 'A rebuttal would have carried the story to an audience a hundred times larger, which is the '
+ 'commonest way in which a false story becomes a true problem.'],
+
+dp1=('Assessing a story', 'Practice in media handling commonly requires assessment of a '
+     'story’s sourcing, its reach and its uptake elsewhere before any response is considered, '
+     'and treats rebuttal as itself a form of amplification.',
+     'Source: general media practice literature, 2025–2026.'),
+
+c_a=[('In what language did the story appear?', 'one nobody at the Mission reads'),
+     ('How did the translation read?', 'fluent, confident and well ordered'),
+     ('What did the original cite?', 'one unnamed official and a screenshot'),
+     ('What does the phrase signal in that language?', 'rumour rather than report'),
+     ('What is the outlet’s reach?', 'about four thousand readers'),
+     ('Had anybody else picked it up?', 'no')],
+
+c_b=[('The translation was inaccurate.', 'F'),
+     ('Fluency indicates a solid source.', 'F'),
+     ('A local colleague read the original.', 'T'),
+     ('A rebuttal would have reduced the reach.', 'F'),
+     ('The story had been picked up elsewhere.', 'F'),
+     ('Rebuttal is a form of amplification.', 'T')],
+
+c_c=[('We ____________ have asked a local colleague to read the original.', 'should'),
+     ('We ____________ have drafted anything at all.', 'need not'),
+     ('A rebuttal ____________ have carried it to a hundred times the audience.', 'would'),
+     ('They ____________ have checked the screenshot, and did not.', 'could'),
+     ('I ____________ not have worried: nobody else took the story.', 'need'),
+     ('We ____________ have waited forty-eight hours before deciding.', 'should')],
+
+c_d=[('Should have expresses ( a possibility / an obligation not met ).', ['a possibility', 'an obligation not met'], 1),
+     ('Could have expresses ( an unrealised possibility / a duty ).',
+      ['an unrealised possibility', 'a duty'], 0),
+     ('Need not have means ( it was done and was unnecessary / it was not done ).',
+      ['it was done and was unnecessary', 'it was not done'], 0),
+     ('Fluency in a translation reflects ( the translation / the source ).',
+      ['the translation', 'the source'], 0),
+     ('A rebuttal of a small story ( amplifies it / contains it ).',
+      ['amplifies it', 'contains it'], 0)],
+
+c_e=('Obligation, possibility or needless action? Put each form in the right column.',
+     [('we should have asked first', 'obligation'),
+      ('they could have checked the screenshot', 'possibility'),
+      ('we need not have drafted anything', 'needless action'),
+      ('I should have telephoned the editor', 'obligation'),
+      ('she could have read the original', 'possibility'),
+      ('you need not have come in at midnight', 'needless action')],
+     ['obligation', 'possibility', 'needless action']),
+
+v_fig_title='A FALSE STORY IN SIX WORDS',
+v_fig=[('doc', 'a false story'), ('key', 'a claim without a source'), ('chart', 'a reach of a story'),
+       ('clock', 'a first appearance of a claim'), ('people', 'a trusted local voice'), ('speech', 'a rebuttal that spreads it')],
+v_fig_cap='Six words for a story you cannot read and may not need to answer.',
+
+vocab=[
+ ('a false story', 'a published account that is untrue'),
+ ('a machine translation', 'a translation produced automatically'),
+ ('a fluent rendering', 'a translation that reads smoothly'),
+ ('a claim without a source', 'an assertion with nothing behind it'),
+ ('an anonymous account', 'a story from an unnamed person'),
+ ('a screenshot circulated', 'an image of a document passed round'),
+ ('a reach of a story', 'how many people see it'),
+ ('an amplification', 'the spreading of a story further'),
+ ('a correction that arrives late', 'a correction published after the harm'),
+ ('a right of reply', 'the right to answer in the same outlet'),
+ ('a local fact checker', 'somebody locally who verifies claims'),
+ ('a chronology of a rumour', 'the order in which a claim spread'),
+ ('a first appearance of a claim', 'where a claim was published first'),
+ ('a plausible detail', 'a detail that makes a story credible'),
+ ('an implausible detail', 'a detail that does not fit'),
+ ('a silence as a response', 'deliberately saying nothing'),
+ ('a rebuttal that spreads it', 'a denial that widens the audience'),
+ ('a trusted local voice', 'somebody local whom people believe'),
+ ('a quiet correction', 'a correction made without publicity'),
+ ('a record of what was published', 'a kept copy of the original text')],
+
+v_a=[('A translation that reads smoothly is a ____________ rendering.', 'fluent'),
+     ('An assertion with nothing behind it is a claim without a ____________.', 'source'),
+     ('How many people see a story is its ____________.', 'reach'),
+     ('The order in which a claim spread is a ____________ of a rumour.', 'chronology'),
+     ('A denial that widens the audience is a ____________ that spreads it.', 'rebuttal'),
+     ('Somebody local whom people believe is a trusted local ____________.', 'voice'),
+     ('A correction made without publicity is a ____________ correction.', 'quiet'),
+     ('A kept copy of the original text is a ____________ of what was published.', 'record')],
+
+v_b=[('A machine translation is a translation', 'produced automatically.'),
+     ('An anonymous account is a story', 'from an unnamed person.'),
+     ('A plausible detail is a detail', 'that makes a story credible.'),
+     ('A silence as a response is deliberately', 'saying nothing.'),
+     ('A right of reply is the right to answer', 'in the same outlet.')],
+
+g_title='Grammar: modal perfects for accountability — should have, could have, need not have',
+g_rule=['Should have + past participle marks an obligation that was not met: we should have '
+        'asked a local colleague to read the original.',
+        'Could have marks a possibility that was not taken: they could have checked the '
+        'screenshot, and did not.',
+        'Need not have marks something that was done and was unnecessary: we need not have '
+        'drafted anything at all. Did not need to means it was not done.',
+        'These forms allocate responsibility, so choose them deliberately. Should have blames; '
+        'could have observes; need not have excuses the result while regretting the effort.'],
+g_fig=('LOOSE',
+       ['It was a mistake not to ask a local colleague.',
+        'They had the chance to check the screenshot.',
+        'All that drafting was a waste of time.',
+        'We did not have to worry about it in the end.'],
+       'PRECISE',
+       ['We should have asked a local colleague to read the original.',
+        'They could have checked the screenshot, and did not.',
+        'We need not have drafted anything at all.',
+        'I need not have worried: nobody else took the story.'],
+       'four judgements expressed in loose English',
+       'the same four with the modal perfect that fits'),
+g_fig_cap='Should have blames, could have observes, need not have regrets the effort only.',
+
+g_a=[('We ____________ have asked a local colleague to read the original.', 'should'),
+     ('We ____________ have drafted anything at all.', 'need not'),
+     ('A rebuttal ____________ have carried it to a hundred times the audience.', 'would'),
+     ('They ____________ have checked the screenshot, and did not.', 'could'),
+     ('I ____________ not have worried: nobody else took the story.', 'need'),
+     ('We ____________ have waited forty-eight hours before deciding.', 'should'),
+     ('The editor ____________ have telephoned us before publishing.', 'could'),
+     ('You ____________ not have come in at midnight; it waited until morning.', 'need'),
+     ('We ____________ have kept a copy of the original text.', 'should')],
+
+g_b=[('( We should have asked a local colleague / It was a mistake not to ask ) — accountability.', ['We should have asked a local colleague', 'It was a mistake not to ask'], 0),
+     ('( They could have checked the screenshot / They had the chance to check it ) — register.',
+      ['They could have checked the screenshot', 'They had the chance to check it'], 0),
+     ('( We need not have drafted anything / We did not need to draft anything ) — it was drafted.',
+      ['We need not have drafted anything', 'We did not need to draft anything'], 0),
+     ('( I need not have worried / I should not have worried ) — effort, not fault.',
+      ['I need not have worried', 'I should not have worried'], 0),
+     ('( The editor could have telephoned us / The editor should have telephoned us ) — observation, not blame.',
+      ['The editor could have telephoned us', 'The editor should have telephoned us'], 0),
+     ('( We should have kept a copy / We could have kept a copy ) — an obligation.',
+      ['We should have kept a copy', 'We could have kept a copy'], 0)],
+
+d1=dict(
+ title='Fluent, confident, and sourced on nothing',
+ fig=(['It reads like a serious paper.', 'In English it does.'],
+      ['And in the original?', 'One unnamed official.']),
+ cap='Ambassador Clara Mendel and Amara Sow, over the translation.',
+ lines=[('Mendel', 'This reads like the work of a serious newspaper.'),
+        ('Amara', 'In English it does. I have read the original.'),
+        ('Mendel', 'And?'),
+        ('Amara', 'One unnamed official, one screenshot of a document nobody has seen, and a phrase that in our language means it is being said.'),
+        ('Mendel', 'Which signals rumour.'),
+        ('Amara', 'Any reader there would know it. None of it survives into English.'),
+        ('Mendel', 'Because the translation is good.'),
+        ('Amara', 'Because the translation is fluent. Fluency belongs to the translation, not to the source.'),
+        ('Mendel', 'We should have asked you before we drafted a reply.'),
+        ('Amara', 'And you need not have drafted at all. The outlet has four thousand readers and nobody else has taken it.'),
+        ('Mendel', 'A rebuttal would reach four hundred thousand.'),
+        ('Amara', 'Which is how a small false story becomes a national one.')],
+ a=[('How did the translation read?', 'like the work of a serious newspaper'),
+    ('What did the original cite?', 'one unnamed official and an unseen screenshot'),
+    ('What does the phrase signal?', 'rumour'),
+    ('Whose property is fluency?', 'the translation’s'),
+    ('What is the outlet’s reach?', 'four thousand readers')],
+ b=[('It is being ____________.', 'said'),
+    ('Fluency belongs to the ____________.', 'translation'),
+    ('You ____________ have drafted at all.', 'need not'),
+    ('A rebuttal would reach four ____________ thousand.', 'hundred')]),
+
+d2=dict(
+ title='Forty-eight hours',
+ fig=(['Do we answer?', 'Not today.'],
+      ['And if it spreads?', 'Then we answer tomorrow, with more.']),
+ cap='Mendel and Yuki Tanaka, deciding on a response.',
+ lines=[('Yuki', 'My recommendation is to answer nothing for forty-eight hours.'),
+        ('Mendel', 'Which feels like doing nothing while a falsehood stands.'),
+        ('Yuki', 'It is doing three things. We keep a dated copy of the original, we ask two local colleagues to watch for uptake, and we draft and do not send.'),
+        ('Mendel', 'Why draft at all?'),
+        ('Yuki', 'Because if a serious outlet takes it on Thursday we shall have four hours, not four days.'),
+        ('Mendel', 'And if nobody takes it?'),
+        ('Yuki', 'Then the draft goes in the file and the story dies where it was born.'),
+        ('Mendel', 'What would change your advice?'),
+        ('Yuki', 'Uptake by an outlet with national reach, a question from a ministry, or a named source.'),
+        ('Mendel', 'And if it reaches the capital before it reaches a national outlet?'),
+        ('Yuki', 'Then we brief the capital privately, which is not a rebuttal and does not amplify.'),
+        ('Mendel', 'And if the capital instructs us to answer publicly anyway?')],
+ unresolved=True,
+ a=[('What is the recommendation?', 'to answer nothing for forty-eight hours'),
+    ('What three things are done meanwhile?', 'keep a dated copy, watch for uptake, draft and hold'),
+    ('Why draft?', 'to have four hours rather than four days if it spreads'),
+    ('What would change the advice?', 'national uptake, a ministry question, or a named source'),
+    ('What is done if it reaches the capital?', 'a private briefing, which does not amplify')],
+ b=[('A dated ____________ of the original.', 'copy'),
+    ('Watch for ____________.', 'uptake'),
+    ('The story dies where it was ____________.', 'born'),
+    ('Which is not a ____________.', 'rebuttal')]),
+
+speak=[('Three modal perfects',
+        ['Describe six things that went wrong recently.',
+         'Use should have, could have and need not have, twice each.',
+         'Your partner says whether you blamed, observed or excused.']),
+       ('What the translation hides',
+        ['Describe a story you have read in translation.',
+         'Your partner asks what its sources were.',
+         'Say what you cannot establish without the original.']),
+       ('Answer or wait',
+        ['Your partner describes a false story about your organisation.',
+         'Decide whether to answer, and say what would change your mind.',
+         'They add one fact at a time until you would answer.'])],
+
+ext_title='Fluency belongs to the translation, and reach decides the response',
+ext_fig=figs.datatable('WHAT THE TRANSLATION DID AND DID NOT CARRY',
+                       ['In the original', 'In the translation'],
+                       [['a phrase signalling rumour', 'a plain assertion'],
+                        ['one unnamed official', 'sources say'],
+                        ['a screenshot nobody has seen', 'a document seen by the paper'],
+                        ['a local idiom of doubt', 'omitted'],
+                        ['an outlet of four thousand readers', 'no indication of reach'],
+                        ['no uptake elsewhere', 'no indication of uptake']]),
+ext_fig_cap='Six properties of the source, and none of them visible in good English.',
+ext=[
+ 'A story in a language you do not read can be translated in seconds, and the translation will '
+ 'be fluent. That fluency is the first and largest trap, because fluency is a property of the '
+ 'translation and tells you nothing whatever about the source.',
+ 'A thin story and a solid story translate into the same confident English. A phrase that in '
+ 'the original marks a rumour disappears; a hedge becomes an assertion; and an unnamed official '
+ 'becomes sources say, which in English sounds like a newspaper and not like a corridor.',
+ 'So the instruction must ask for what the translation cannot supply, and it must be read by '
+ 'somebody who reads the language: the sources actually cited, by name or as unnamed; what '
+ 'documents exist and whether anybody has seen them; and the register of the original, '
+ 'including any phrase that locally signals rumour.',
+ 'Then ask for the facts that decide the response rather than the truth of the story: the '
+ 'outlet’s reach, whether any other outlet has taken it, and where the claim first appeared. A '
+ 'false story in an outlet of four thousand readers, taken up by nobody, is not yet a problem.',
+ 'Rebuttal is amplification. A denial from a mission carries a story to the audience of the '
+ 'mission’s own credibility, which is usually a hundred times larger than the outlet that '
+ 'published it, and the denial repeats the claim in a form that can be quoted.',
+ 'The usual right answer is to prepare and to wait: keep a dated copy of the original, have '
+ 'local colleagues watch for uptake, draft a response and do not send it. We need not have '
+ 'answered most of the stories we have answered, and we should have read more of them in the '
+ 'original first.'],
+
+dp2=('Reach and uptake', 'Media handling practice commonly assesses an outlet’s reach and '
+     'whether a claim has been taken up elsewhere before deciding whether to respond, since '
+     'response extends a claim to the responder’s own audience.',
+     'Source: general media practice literature, 2025–2026.'),
+
+e_a=[('What is the first trap?', 'the fluency of the translation'),
+     ('What happens to a hedge in translation?', 'it becomes an assertion'),
+     ('Who must read the original?', 'somebody who reads the language'),
+     ('Which facts decide the response?', 'reach, uptake and first appearance'),
+     ('What is the usual right answer?', 'prepare and wait')],
+e_b=[('Fluency indicates a reliable source.', 'F'),
+     ('“Sources say” may render one unnamed official.', 'T'),
+     ('Rebuttal contains a story.', 'F'),
+     ('A dated copy of the original should be kept.', 'T'),
+     ('Uptake elsewhere changes the assessment.', 'T'),
+     ('A draft should always be sent.', 'F')],
+
+w_model='Purpose: so that I can decide whether to respond at all, and not merely whether the '
+        'story is true. Scope: the article published this morning in the Tarrow weekly; the '
+        'social media posts referring to it are covered separately. Inputs: the original text, '
+        'Amara’s reading of it, and our own record of the facts. Criteria: the sources actually '
+        'cited, named or unnamed; whether any document referred to has been seen by the writer; '
+        'the register of the original, including any phrase that locally signals rumour; the '
+        'outlet’s circulation; whether any other outlet has carried the claim; and where the '
+        'claim first appeared, with dates. Done: with me within three hours, before anything is '
+        'drafted for issue. Fallback: where the register of the original cannot be established, '
+        'the assessment says so rather than relying on the translation.',
+w_fig=figs.spec_card('SIX LINES FOR AN ASSESSMENT',
+                     [('Purpose', 'decide whether to respond at all'),
+                      ('Scope', 'this morning’s article; social media separately'),
+                      ('Inputs', 'the original, a local reading, our own record'),
+                      ('Criteria', 'sources, documents, register, reach, uptake, first appearance'),
+                      ('Done', 'three hours, before anything is drafted'),
+                      ('Fallback', 'register unestablished: say so')]),
+w_fig_cap='The purpose line is the whole discipline: whether, before true or false.',
+w_task='Write a six-line tasking for the assessment of a story.',
+w_steps=['Line 1: say what you must be able to decide.',
+         'Line 2: say which item, and what is covered separately.',
+         'Line 3: say what you are giving it.',
+         'Line 4: say the sources, the documents, the register, the reach and the uptake.',
+         'Line 5: say by when, and what waits on it.',
+         'Line 6: say what happens where the register cannot be established.'],
+w_bank=['Purpose: so that I can decide whether to respond at all, and not merely whether the story is true',
+        'Scope: the article published … in … ; the social media posts are covered separately',
+        'Inputs: the original text, a local colleague’s reading of it, and our own record of the facts',
+        'Criteria: the sources actually cited, named or unnamed; whether any document has been seen; the register of the original, including any phrase signalling rumour; the outlet’s circulation; whether any other outlet has carried it; and where the claim first appeared, with dates',
+        'Done: with me within … , before anything is drafted for issue. Fallback: where the register cannot be established, the assessment says so rather than relying on the translation'],
+w_check=['Does it ask whether to respond, not only whether it is true?',
+         'Are the actual sources identified?',
+         'Is reach and uptake reported?',
+         'Is reliance on the translation forbidden?'],
+
+t_title='A false story in a language you cannot read',
+t_fig=figs.split('A STORY YOU CANNOT READ',
+                 'Translation gives',
+                 ['the apparent content',
+                  'fluent English',
+                  'a confident tone',
+                  'an order of paragraphs'],
+                 'A local reader gives',
+                 ['the sources as cited',
+                  'the register of doubt',
+                  'what document exists',
+                  'how it reads locally']),
+t_fig_cap='The left column is free and misleading. The right column takes an hour and decides everything.',
+t_body=[
+ 'Ask the question that matters before the question of truth: whether to respond at all. That '
+ 'turns on the outlet’s reach, whether anybody else has carried the claim, and where it first '
+ 'appeared.',
+ 'Then ask for what a translation cannot show, and have it read by somebody who reads the '
+ 'language: the sources actually cited, whether any document referred to has been seen by '
+ 'anybody, and the register of the original, including phrases that signal rumour locally and '
+ 'disappear in English.',
+ 'Prepare and wait. Keep a dated copy of the original, ask two local colleagues to watch for '
+ 'uptake, and draft a response that you do not send. A rebuttal carries the story to your own '
+ 'audience, which is usually a hundred times larger than the outlet that published it.'],
+t_say=[('Ask the first question: ', 'Whether to respond, before whether it is true.'),
+       ('Require the original: ', 'The sources as cited, read by somebody who reads the language.'),
+       ('Hold the draft: ', 'Draft it, date the original, and send nothing for forty-eight hours.')],
+t_bound='A translation is fluent whatever it translates. It cannot tell you that the original '
+        'used a phrase meaning it is being said, that the screenshot has been seen by nobody, '
+        'or that the outlet has four thousand readers.',
+t_a=[('Whether to ____________, before whether it is true.', 'respond'),
+     ('The sources as ____________.', 'cited'),
+     ('Read by somebody who reads the ____________.', 'language'),
+     ('Keep a ____________ copy of the original.', 'dated'),
+     ('Draft it and send nothing for ____________ hours.', 'forty-eight'),
+     ('A rebuttal carries the story to your own ____________.', 'audience')],
+t_b_rubric='Say whether each can be established from the translation.',
+t_b=[('The apparent content of the story.', 'yes'),
+     ('Whether the key phrase signals rumour.', 'no: a local reader'),
+     ('The outlet’s circulation.', 'no: a separate enquiry'),
+     ('Whether another outlet has carried it.', 'no: monitoring')],
+
+case=dict(
+ title='The Decision Room · Four thousand readers and a fluent translation',
+ brief=[
+  'An article in a language nobody at the Mission reads makes a serious and false allegation. '
+  'Its machine translation is fluent and reads like the work of a national newspaper.',
+  'A local colleague reads the original. It cites one unnamed official, refers to a screenshot '
+  'of a document nobody has seen, and uses a phrase that in that language marks a claim as '
+  'rumour. None of these features appears in the translation.',
+  'The outlet has a circulation of about four thousand. No other outlet has carried the claim. '
+  'A rebuttal drafted overnight runs to two hundred words and repeats the allegation twice.'],
+ exhibit=figs.datatable('THE DECISION, ON THREE FACTS',
+                        ['Fact', 'Effect on the decision'],
+                        [['circulation about four thousand', 'low reach'],
+                         ['no uptake elsewhere', 'no amplification yet'],
+                         ['one unnamed source', 'thin sourcing'],
+                         ['document unseen', 'unverifiable'],
+                         ['phrase signalling rumour', 'local readers discount it'],
+                         ['rebuttal of 200 words', 'would reach 400,000']]),
+ exhibit_cap='Five facts suggesting restraint, and one draft that would undo all five.',
+ exhibit_note='The rebuttal is accurate and well written. Issuing it would multiply the '
+              'audience of the allegation by a hundred and supply a quotable version of it.',
+ voices=[('Amara Sow', 'senior locally engaged assistant',
+          'Fluency belongs to the translation. Any local reader would have seen the phrase that means it is being said.'),
+         ('Yuki Tanaka', 'press officer',
+          'Draft it, date the original, watch for uptake, and send nothing for forty-eight hours.'),
+         ('Ambassador Clara Mendel', 'head of mission',
+          'Which feels like inaction, and is the only action that does not help them.')],
+ steps=[('Find it', 'What does the original say?'),
+        ('Compare it', 'The original against the translation.'),
+        ('Infer it', 'Why did the translation mislead?'),
+        ('Weigh it', 'Four thousand readers against four hundred thousand.'),
+        ('Decide', 'When is a story answered?')],
+ analysis=[('Find it. What was cited?', 'one unnamed official and an unseen screenshot'),
+           ('Compare it. What was lost?', 'the register of rumour'),
+           ('Infer it. Why?', 'fluency is a property of the translation'),
+           ('Weigh it. What would rebuttal cost?', 'a hundredfold increase in reach'),
+           ('Decide. When is it answered?', 'on uptake, a named source, or an official question')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what is established before any response.',
+                 'Say who reads the original.',
+                 'Say what is done in the first forty-eight hours.',
+                 'Say what would trigger a response.'],
+ bank=['Before any response, the outlet’s reach, the uptake elsewhere and the first appearance of the claim are established.',
+       'The original is read by a colleague who reads the language, and the translation is not relied on for sourcing or register.',
+       'In the first forty-eight hours a dated copy is kept, uptake is monitored, and a response is drafted and not sent.',
+       'A response is issued on uptake by an outlet of significant reach, a named source, or an official question from the host authorities.'],
+ outcome='Nothing is issued. Uptake is monitored for a week and no other outlet carries the '
+         'claim; the story is not mentioned again after the fourth day. The capital is briefed '
+         'privately on the second day. Eleven weeks later the same outlet publishes a similar '
+         'claim, this time with a named source, and the held draft is issued within three hours '
+         'with the sourcing point made in its second sentence.',
+ outcome_q=[('What was issued at the time?', 'nothing'),
+            ('How long was uptake monitored?', 'a week'),
+            ('When was the capital briefed?', 'on the second day, privately'),
+            ('What happened eleven weeks later?', 'a similar claim with a named source'),
+            ('How fast was the response then?', 'within three hours')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Tell me if this story is true',
+ task=['A head of mission asked for an assessment of a story in a language nobody reads.',
+       'This is the instruction as it was given, and what came back.'],
+ draft=['Tell me if this story is true.',
+        'Translate it.',
+        'Check the claims.',
+        'Draft a rebuttal.',
+        'Rebut it if it spreads.',
+        'Before lunch if you can.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and “draft a rebuttal” decided the response before the assessment existed.',
+ asked=['Translate it', 'Check the claims', 'If it spreads'],
+ back=['1 fluent translation', '4 claims checked', '0 facts about reach or sourcing'],
+ gap='Nobody asked about the outlet’s reach, the sources as cited, or whether to respond at all.',
+ back_cap='A fluent translation, four claims refuted, and a rebuttal that would multiply the audience by a hundred.',
+ back_note='“Tell me if this story is true” is the second question. The first is whether the '
+           'story is worth answering, and it turns on facts no translation contains.',
+ diagnosis=[('“if this story is true”', 'hidden assumption'),
+            ('“draft a rebuttal”', 'hidden assumption'),
+            ('“check the claims”', 'unstated criterion'),
+            ('“if it spreads”', 'missing condition'),
+            ('“if you can”', 'missing condition'),
+            ('“translate it”', 'unstated criterion')],
+ rewrite='Rewrite it on the six lines so that the decision to respond comes before the drafting.',
+ scaffold=['what you must be able to decide',
+           'which item, and what is covered separately',
+           'what you are giving it',
+           'the sources, the documents, the register, the reach and the uptake',
+           'by when, and what waits on it',
+           'what happens where the register cannot be established'],
+ bank=['Purpose: so that I can decide whether to respond at all, and not merely whether the story is true',
+       'Scope: the article published this morning in the Tarrow weekly; the social media posts referring to it are covered separately',
+       'Inputs: the original text, Amara’s reading of it, and our own record of the facts',
+       'Criteria: the sources actually cited, named or unnamed; whether any document referred to has been seen by the writer; the register of the original, including any phrase that locally signals rumour; the outlet’s circulation; whether any other outlet has carried the claim; and where the claim first appeared, with dates',
+       'Done: with me within three hours, before anything is drafted for issue',
+       'Fallback: where the register of the original cannot be established, the assessment says so rather than relying on the translation'],
+ check=['Is the first question whether to respond?',
+        'Are the actual sources identified?',
+        'Is reach and uptake established?',
+        'Is the translation excluded as evidence of register?'],
+ model=['so that I can decide whether to respond at all, and not merely whether the story is true',
+        'the article published this morning in the Tarrow weekly; the social media posts referring to it are covered separately',
+        'the original text, Amara’s reading of it, and our own record of the facts',
+        'the sources actually cited, named or unnamed; whether any document referred to has been seen by the writer; the register of the original, including any phrase that locally signals rumour; the outlet’s circulation; whether any other outlet has carried the claim; and where the claim first appeared, with dates',
+        'with me within three hours, before anything is drafted for issue',
+        'where the register of the original cannot be established, the assessment says so rather than relying on the translation'],
+ cost='1 translation, 4 claims checked, 0 facts about reach, and a rebuttal that would reach 400,000.'),
+
+lang=dict(
+ title='Across the Language Line · A phrase that means “it is being said”',
+ setting=[
+  'The original story uses a verbal construction which, in that language, marks what follows as '
+  'hearsay. Every reader of the original understands that the writer is not vouching for it.',
+  'The translation renders the construction as a plain statement, because English has no '
+  'grammatical equivalent and the nearest formulations — it is said that, reportedly — were not '
+  'chosen.'],
+ ladder=[('A hearsay construction', 'in the original grammar'),
+         ('A plain statement', 'in the English'),
+         ('A reader at the Mission', 'who sees an assertion')],
+ cap='A grammatical hedge in one language, and no hedge at all in the other.',
+ turns=[('Turn 1 · Mendel', 'The translation says plainly that the Mission paid for the land.'),
+        ('Turn 2 · Amara', 'The original uses the form that means it is being said that.'),
+        ('Turn 3 · Mendel', 'Then the writer has not asserted it at all.')],
+ holds=['Could you tell me how the original marks that sentence?',
+        'Does the construction vouch for the claim or report it?',
+        'How would a local reader take it?',
+        'I would rather know the register than the content.',
+        'Could you mark every hedged sentence in the original for me?',
+        'I will record that the claim was reported as hearsay in the original.'],
+ redline='Never treat a translated sentence as an assertion without checking the original’s '
+         'register, and never accuse a writer of asserting what their grammar reported.',
+ score=['Asked how the original marks the sentence.',
+        'Asked whether the construction vouches or reports.',
+        'Asked how a local reader would take it.',
+        'Preferred register to content.',
+        'Recorded the hearsay marking.'],
+ a=[('What does the construction mark?', 'hearsay'),
+    ('What does every local reader understand?', 'that the writer is not vouching for it'),
+    ('How was it translated?', 'as a plain statement'),
+    ('Why?', 'English has no grammatical equivalent'),
+    ('What should be asked for?', 'every hedged sentence marked in the original'),
+    ('What must not be done?', 'accuse the writer of asserting it')]),
+
+rev_fig=figs.split('BEFORE YOU ANSWER',
+                   'Establish',
+                   ['the outlet’s reach',
+                    'uptake elsewhere',
+                    'the sources as cited',
+                    'the register of the original'],
+                   'Then do',
+                   ['keep a dated copy',
+                    'monitor for a week',
+                    'draft and hold',
+                    'brief the capital privately']),
+rev_fig_cap='Four facts and four actions, and most stories die where they were born.',
+rev=dict(
+ read=[('What did the original cite?',
+        ['one unnamed official and an unseen screenshot', 'three named sources',
+         'a court document', 'nothing at all'], 0),
+       ('What is the outlet’s reach?',
+        ['about four thousand', 'four hundred thousand',
+         'a million', 'unknown'], 0),
+       ('What does a rebuttal do?',
+        ['amplifies the story', 'contains the story',
+         'corrects the record', 'nothing'], 0),
+       ('What would justify a response?',
+        ['uptake by a larger outlet', 'the story being false',
+         'an unnamed source', 'a screenshot'], 0)],
+ listen_text='Ask whether to respond before whether it is true; require the original to be '
+             'read by somebody who reads the language; establish reach, uptake and first '
+             'appearance; then draft and hold.',
+ listen=[('Ask whether to ____________ before whether it is true.', 'respond'),
+         ('Require the ____________ to be read locally.', 'original'),
+         ('Establish reach, ____________ and first appearance.', 'uptake'),
+         ('Then draft and ____________.', 'hold')],
+ speak=['Use should have, could have and need not have twice each about recent events.',
+        'Then decide whether to answer a false story, and say what would change your mind.'],
+ write='Write a six-line tasking for the assessment of a story.',
+ vocab=[('A translation that reads smoothly is a ____________ rendering.', 'fluent'),
+        ('How many people see a story is its ____________.', 'reach'),
+        ('A denial that widens the audience is a ____________ that spreads it.', 'rebuttal'),
+        ('A correction made without publicity is a ____________ correction.', 'quiet')],
+ gram=[('The editor ____________ have telephoned us before publishing.', 'could'),
+       ('You ____________ not have come in at midnight; it waited until morning.', 'need'),
+       ('We ____________ have kept a copy of the original text.', 'should'),
+       ('They ____________ have telephoned us before publishing, and chose not to.', 'could')]),
+
+found=['Ask whether to respond before asking whether a story is true.',
+       'Have the original read by somebody who reads the language.',
+       'Establish reach, uptake and first appearance before anything is drafted.',
+       'Draft, date the original, monitor, and send nothing for forty-eight hours.'],
+end_line='Fluency belongs to the translation. Reach decides the response.',
+end_next='Next: The First Hour')

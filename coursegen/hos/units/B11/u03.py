@@ -1,0 +1,565 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=3,
+title='A Trend, and the Sentence That Follows',
+gram='direction over time: has risen from, has fallen to, over the last',
+ai='a series of figures turned into a direction with a window',
+strap='CEFR B1 · Grammar: direction over time: has risen from, has fallen to, over the last · '
+      'AI: a series of figures turned into a direction with a window',
+cando=['state a direction with a window and two end points',
+       'refuse to call two points a trend',
+       'distinguish a seasonal rise from a shift in level',
+       'say what you cannot yet attribute',
+       'write a six-line tasking for a trend statement'],
+
+hero=('TWO POINTS ARE A LINE. THEY ARE NOT A TREND.',
+      ['A trend needs a window, a direction,',
+       'and the honesty to say what caused nothing.'],
+      [(300, 'teal', 'short'), (900, 'blue', 'long'), (300, 'grey', 'short')]),
+hero_cap='Twelve points, one January, and the sentence a board will quote for a year.',
+
+warm=['What rose last month where you work?',
+      'How many months of data do you look at before saying so?',
+      'What rises every January regardless of what anybody does?'],
+
+vocab=[
+ ('a series of twelve points', 'the minimum a direction can rest on'),
+ ('a window of three months', 'a view too short for most questions'),
+ ('a window of three years', 'a view long enough to see a level'),
+ ('a direction you can state', 'a movement the data supports'),
+ ('a direction you cannot state yet', 'a movement still inside the noise'),
+ ('a single point that looks like a trend', 'one month doing all the work'),
+ ('a seasonal rise every January', 'a pattern that repeats annually'),
+ ('a level that has shifted permanently', 'a step change in the series'),
+ ('a spike with one cause', 'an outlier you can explain'),
+ ('a run of seven points above the mean', 'a signal rather than noise'),
+ ('a point outside the usual variation', 'a figure worth investigating'),
+ ('a line fitted to noise', 'a trend that exists only in the drawing'),
+ ('a forecast you should not give', 'a projection the data cannot support'),
+ ('a baseline chosen carefully', 'a starting point you can defend'),
+ ('a baseline chosen badly', 'a starting point that makes the story'),
+ ('an axis that starts at zero', 'a scale that shows proportion'),
+ ('an axis that does not', 'a scale that magnifies movement'),
+ ('a change you can attribute', 'a movement with an identified cause'),
+ ('a change you cannot attribute', 'a movement whose cause is unknown'),
+ ('a sentence that follows from the chart', 'the only claim the data permits')],
+
+read=[
+ 'Delayed discharges rose from nineteen to thirty-one last month, and somebody '
+ 'will call that a trend before lunch.',
+ 'It is one point. Over the last twelve months the figure has moved between '
+ 'seventeen and thirty-three, so thirty-one is high but not outside the usual '
+ 'variation.',
+ 'A direction needs a window and two end points. Over the last three years the '
+ 'monthly mean has risen from twenty-one to twenty-eight. That is a trend, and it '
+ 'is a different claim from last month’s number.',
+ 'Separate the three things people confuse: a seasonal rise that happens every '
+ 'January, a permanent shift in level, and a single spike with one explicable '
+ 'cause.',
+ 'Then write the sentence the chart actually supports, and say plainly what you '
+ 'cannot attribute. The rise has not been attributed to any single change in '
+ 'practice is a complete and honest sentence.'],
+
+dp1=('Variation', 'Statistical process guidance commonly recommends examining a '
+     'series of at least twelve points before describing a direction, '
+     'distinguishing common-cause from special-cause variation, and stating the '
+     'window used. Methods are set out in standard quality improvement texts.',
+     'Source: general statistical process control guidance, 2025–2026.'),
+
+c_a=[('What did delayed discharges do?', 'rose from nineteen to thirty-one last month'),
+     ('What range has the figure moved in over twelve months?', 'between seventeen and thirty-three'),
+     ('What does a direction need?', 'a window and two end points'),
+     ('What has the three-year monthly mean done?', 'risen from twenty-one to twenty-eight'),
+     ('What three things do people confuse?', 'a seasonal rise, a permanent shift and a single spike'),
+     ('What is a complete and honest sentence?', 'that the rise has not been attributed to any single change in practice')],
+
+c_b=[('One point is enough to establish a trend.', 'F'),
+     ('Thirty-one is high but within the usual variation.', 'T'),
+     ('A window must be stated.', 'T'),
+     ('A seasonal rise and a shift in level are the same thing.', 'F'),
+     ('The three-year mean has risen from twenty-one to twenty-eight.', 'T'),
+     ('You may say what you cannot attribute.', 'T')],
+
+c_c=[('It ____________ risen from nineteen to thirty-one.', 'has'),
+     ('____________ the last twelve months.', 'Over'),
+     ('The mean has ____________ to twenty-eight.', 'risen'),
+     ('It has ____________ between seventeen and thirty-three.', 'moved'),
+     ('Delayed discharges have ____________ to twenty-two.', 'fallen'),
+     ('The rise has not ____________ attributed to any one change.', 'been')],
+
+c_d=[('Look at ( two points / twelve points ) before stating a direction.', ['two points', 'twelve points'], 1),
+     ('State ( the window / the author ) with every direction.',
+      ['the window', 'the author'], 0),
+     ('Treat a January rise as ( seasonal until shown otherwise / a new trend ).',
+      ['seasonal until shown otherwise', 'a new trend'], 0),
+     ('Say what you ( cannot attribute / suspect caused it ).',
+      ['cannot attribute', 'suspect caused it'], 0),
+     ('Choose a baseline you can ( defend / build a story on ).',
+      ['defend', 'build a story on'], 0)],
+
+c_e=('Common variation, special cause, seasonal or a shift in level? Decide what '
+     'each is.',
+     [('thirty-one in a series that moves between seventeen and thirty-three', 'common variation'),
+      ('a spike of ninety-one in the week of a system outage', 'special cause'),
+      ('a rise every January for six consecutive years', 'seasonal'),
+      ('a mean of twenty-one for three years, then twenty-eight for two', 'a shift in level'),
+      ('twenty-four in the same series', 'common variation'),
+      ('a run of nine consecutive points above the mean', 'a shift in level')],
+     ['common variation', 'special cause', 'seasonal', 'a shift in level']),
+
+v_fig_title='SIX WORDS OF A TREND STATED PROPERLY',
+v_fig=[('scale', 'a series of twelve points'), ('clock', 'a window of three years'),
+       ('key', 'a level that has shifted permanently'),
+       ('doc', 'a baseline chosen carefully'),
+       ('note', 'a sentence that follows from the chart'),
+       ('people', 'a change you cannot attribute')],
+v_fig_cap='Six words for twelve points and one defensible sentence.',
+
+v_a=[('The minimum a direction can rest on is a series of ____________ points.', 'twelve'),
+     ('A movement still inside the noise is a direction you cannot state ____________.', 'yet'),
+     ('One month doing all the work is a single point that looks like a ____________.', 'trend'),
+     ('A step change in the series is a level that has shifted ____________.', 'permanently'),
+     ('A trend that exists only in the drawing is a line fitted to ____________.', 'noise'),
+     ('A starting point that makes the story is a baseline chosen ____________.', 'badly'),
+     ('A scale that magnifies movement is an axis that does ____________.', 'not'),
+     ('The only claim the data permits is a sentence that ____________ from the chart.', 'follows')],
+
+v_b=[('A spike with one cause is an outlier', 'you can explain.'),
+     ('A run of seven points above the mean is a signal', 'rather than noise.'),
+     ('A forecast you should not give is a projection', 'the data cannot support.'),
+     ('An axis that starts at zero is a scale', 'that shows proportion.'),
+     ('A change you can attribute is a movement', 'with an identified cause.')],
+
+g_title='Grammar: direction over time: has risen from, has fallen to, over the last',
+g_rule=['Use has risen from and has fallen to with both end points. It has risen '
+        'from twenty-one to twenty-eight. One end point on its own is half a '
+        'claim.',
+        'Use over the last for the window, and make the window a real one: over '
+        'the last three years, not over recent years.',
+        'Use has moved between for a series that is not going anywhere. It has '
+        'moved between seventeen and thirty-three over the last twelve months.',
+        'Use has not been attributed to for honesty about cause. The passive is '
+        'right here, because the point is that nobody has shown it, not that you '
+        'personally cannot.'],
+g_fig=('LOOSE',
+       ['Delayed discharges are rising sharply.',
+        'The trend has been upwards for some time.',
+        'Last month was the worst for years.',
+        'This is clearly linked to the new discharge process.'],
+       'PRECISE',
+       ['Delayed discharges were thirty-one in October, against nineteen in September.',
+        'Over the last twelve months the figure has moved between seventeen and thirty-three.',
+        'Over the last three years the monthly mean has risen from twenty-one to twenty-eight.',
+        'The rise has not been attributed to the new discharge process, which began after the mean had already moved.'],
+       'four sentences that will be quoted for a year',
+       'four sentences that are true for a year'),
+g_fig_cap='Has risen from, to. Over the last. Has moved between. Has not been attributed.',
+
+g_a=[('It ____________ risen from twenty-one to twenty-eight.', 'has'),
+     ('____________ the last three years.', 'Over'),
+     ('It has moved ____________ seventeen and thirty-three.', 'between'),
+     ('Thirty-one in October, ____________ nineteen in September.', 'against'),
+     ('The rise has not been ____________ to the new process.', 'attributed'),
+     ('The process began ____________ the mean had moved.', 'after'),
+     ('It has ____________ to twenty-two this month.', 'fallen'),
+     ('A run ____________ seven points above the mean.', 'of'),
+     ('The level ____________ shifted in 2024.', 'has')],
+
+g_b=[('( thirty-one in October against nineteen in September / rising sharply ) — the two points.', ['thirty-one in October against nineteen in September', 'rising sharply'], 0),
+     ('( over the last twelve months / for some time ) — the window.',
+      ['over the last twelve months', 'for some time'], 0),
+     ('( has moved between seventeen and thirty-three / has been up and down ) — the variation.',
+      ['has moved between seventeen and thirty-three', 'has been up and down'], 0),
+     ('( the mean has risen from twenty-one to twenty-eight / the trend is upwards ) — the direction.',
+      ['the mean has risen from twenty-one to twenty-eight', 'the trend is upwards'], 0),
+     ('( has not been attributed to the new process / is clearly linked to the new process ) — the cause.',
+      ['has not been attributed to the new process', 'is clearly linked to the new process'], 0),
+     ('( the worst since March 2023 / the worst for years ) — the superlative.',
+      ['the worst since March 2023', 'the worst for years'], 0)],
+
+d1=dict(
+ title='One point and a window',
+ fig=(['One month: 31.', 'Twelve months: 17 to 33.'],
+      ['Three years: 21 to 28.', 'One sentence.']),
+ cap='Tomás Ferreira and Amara Nwosu, operations manager, over a chart.',
+ lines=[('Amara', 'Thirty-one delayed discharges in October. The board will want to know what has gone wrong.'),
+        ('Tomás', 'Over the last twelve months the figure has moved between seventeen and thirty-three.'),
+        ('Amara', 'So October is nothing?'),
+        ('Tomás', 'October is high and inside the usual variation. That is two statements, and both go in the paper.'),
+        ('Amara', 'Then there is no trend.'),
+        ('Tomás', 'There is a trend, but it is not last month. Over three years the monthly mean has risen from twenty-one to twenty-eight.'),
+        ('Amara', 'That is worse news than October, and nobody has mentioned it.'),
+        ('Tomás', 'Because it never produced a dramatic month. It rose about two a year, which is invisible in any single meeting.'),
+        ('Amara', 'Can we say the new discharge process caused the rise?'),
+        ('Tomás', 'We cannot. The mean had already moved before it began, and I shall write that sentence in the paper.'),
+        ('Amara', 'The executive will not enjoy a paper that says we do not know why.'),
+        ('Tomás', 'They will enjoy it more than a paper that blames the process and is corrected in April.')],
+ a=[('How many delayed discharges in October?', 'thirty-one'),
+    ('What is the twelve-month range?', 'between seventeen and thirty-three'),
+    ('What has the three-year mean done?', 'risen from twenty-one to twenty-eight'),
+    ('Why was the trend never noticed?', 'it rose about two a year, invisible in any one meeting'),
+    ('Why can the new process not be blamed?', 'the mean had already moved before it began')],
+ b=[('It ____________ moved between seventeen and thirty-three.', 'has'),
+    ('____________ three years the mean has risen.', 'Over'),
+    ('It rose about two ____________ year.', 'a'),
+    ('The mean had already ____________ before it began.', 'moved')]),
+
+d2=dict(
+ title='The chart with the clipped axis',
+ fig=(['Axis from 18 to 33.', 'Looks like a cliff.'],
+      ['Axis from 0.', 'Looks like a line.']),
+ cap='Tomás Ferreira and Peter Lindqvist, non-executive director.',
+ lines=[('Peter', 'Your predecessor’s chart made this look like a collapse.'),
+        ('Tomás', 'The axis started at eighteen. On an axis from zero it is a gentle slope.'),
+        ('Peter', 'Which is the honest chart?'),
+        ('Tomás', 'Both are arithmetically correct, which is the uncomfortable part of the question.'),
+        ('Peter', 'Then give me a rule rather than a judgement each time.'),
+        ('Tomás', 'My rule is: from zero where the question is how big, clipped where the question is whether it has moved.'),
+        ('Peter', 'And you state which on the chart?'),
+        ('Tomás', 'In the caption, with the axis range, so nobody has to notice it for themselves.'),
+        ('Peter', 'Some people will say a caption is not enough.'),
+        ('Tomás', 'They may be right. A clipped axis in a board pack has a way of becoming a slide in a public meeting.'),
+        ('Peter', 'Then use zero for anything that may leave the building.'),
+        ('Tomás', 'I shall, with the clipped version beside it, labelled, for the people who need to see the movement.')],
+ unresolved=True,
+ a=[('Where did the old axis start?', 'at eighteen'),
+    ('How does it look from zero?', 'a gentle slope'),
+    ('Are both charts correct?', 'yes, arithmetically'),
+    ('What is Tomás’s rule?', 'zero for how big, clipped for whether it moved'),
+    ('What does Peter suggest for public material?', 'use zero for anything that may leave the building')],
+ b=[('The axis ____________ at eighteen.', 'started'),
+    ('Both are arithmetically ____________.', 'correct'),
+    ('In the ____________, with the axis range.', 'caption'),
+    ('Use zero for anything that may ____________ the building.', 'leave')]),
+
+speak=[('Window and end points',
+        ['Your partner reads out six movements.',
+         'Restate each with a window and two end points.',
+         'Three each, then swap.']),
+       ('Is that a trend',
+        ['Your partner gives you six series of figures.',
+         'Say whether a direction can be stated, and why.',
+         'Three each, then swap.']),
+       ('What you cannot attribute',
+        ['Your partner proposes six causes for six movements.',
+         'Say what has not been attributed, and what would be needed.',
+         'Three each, then swap.'])],
+
+ext_title='A series of figures turned into a direction with a window',
+ext_fig=figs.datatable('WHAT THE DIRECTION CARRIES',
+                       ['Line', 'Content'],
+                       [['the window', 'how many points, over what period'],
+                        ['the end points', 'the figure at each end'],
+                        ['the range', 'the highest and lowest in the window'],
+                        ['the classification', 'common cause, special cause or shift'],
+                        ['the seasonality', 'whether the month repeats annually'],
+                        ['attribution', 'what has and has not been shown']]),
+ext_fig_cap='Six lines, and the last one is the one a committee will test.',
+ext=[
+ 'A series of figures turned into a direction with a window turns a chart into one '
+ 'sentence that will survive being quoted.',
+ 'Give it the full series rather than the last two points, the dates of any change '
+ 'in definition or process, and the window you intend to describe.',
+ 'Ask for the direction with both end points and the window stated, and for the '
+ 'range the series has covered within it.',
+ 'Ask it to classify the latest point as common variation, a special cause or part '
+ 'of a shift in level, using the rules of the method rather than impression.',
+ 'Ask for a seasonality check against the same month in previous years, because a '
+ 'January rise six years running is not news.',
+ 'What it cannot do is tell you why. Attribution needs a change you can date and a '
+ 'comparison group, and without them the honest sentence says so.'],
+
+dp2=('Interpreting series', 'Statistical process literature commonly reports that '
+     'single-point comparisons are a frequent source of incorrect inference in '
+     'routine reporting, and that run rules applied to twelve or more points '
+     'identify sustained shifts more reliably.',
+     'Source: general statistical process control literature, 2025–2026.'),
+
+e_a=[('What does the direction turn a chart into?', 'one sentence that will survive being quoted'),
+     ('What three things are given to it?', 'the full series, the dates of definition or process changes, and the window'),
+     ('What comes with the direction?', 'both end points, the window and the range'),
+     ('What three classifications are used?', 'common variation, a special cause, or part of a shift in level'),
+     ('Why check seasonality?', 'because a January rise six years running is not news')],
+e_b=[('The full series is given, not the last two points.', 'T'),
+     ('The range within the window is stated.', 'T'),
+     ('It tells you why the figure moved.', 'F'),
+     ('Seasonality is checked against previous years.', 'T'),
+     ('Single-point comparisons often mislead.', 'T'),
+     ('Run rules work best on two points.', 'F')],
+
+w_model='Purpose: so that no direction is stated in this organisation without a '
+       'window, two end points and an honest line about attribution. Scope: '
+       'operational and activity series produced by my team; clinical outcome '
+       'series belong to clinical audit, and no causal claim about clinical '
+       'practice is mine to make. Inputs: the full series rather than its last two '
+       'points, the dates of every change in definition, process or data source, '
+       'the same month in previous years, and the window I intend to describe. '
+       'Criteria: the window and both end points stated; the range covered within '
+       'the window; the latest point classified by the method as common cause, '
+       'special cause or part of a shift; a seasonality comparison; and one '
+       'sentence saying what has not been attributed. Done: the sentence is '
+       'published with the chart, the axis range in the caption, and the series '
+       'available to any reader. Fallback: where the window contains fewer than '
+       'twelve points, I describe the movement and state that no direction can yet '
+       'be supported.',
+w_fig=figs.spec_card('SIX LINES FOR A TREND STATEMENT',
+                     [('Purpose', 'no direction without a window and end points'),
+                      ('Scope', 'operational series; not clinical causation'),
+                      ('Inputs', 'full series, change dates, previous years, window'),
+                      ('Criteria', 'window, end points, range, classification'),
+                      ('Done', 'published with the chart and the axis range'),
+                      ('Fallback', 'under twelve points, state that none can be supported')]),
+w_fig_cap='Six lines, and the sixth one is what twelve points actually mean.',
+w_task='Write a six-line tasking for a trend statement.',
+w_steps=['Line 1: say what may never be stated without a window.',
+         'Line 2: say which series are yours, and which claims are not.',
+         'Line 3: say what you are giving it.',
+         'Line 4: say what the statement must carry.',
+         'Line 5: say what is published with it.',
+         'Line 6: say what you do with fewer than twelve points.'],
+w_bank=['Purpose: so that no direction is stated in this organisation without a window, two end points and an honest line about attribution',
+        'Scope: operational and activity series produced by my team; clinical outcome series belong to clinical audit and no causal claim about clinical practice is mine',
+        'Inputs: the full series rather than its last two points, the dates of every change in definition, process or data source, the same month in previous years, and the window I intend to describe',
+        'Criteria: the window and both end points stated; the range covered within the window; the latest point classified as common cause, special cause or part of a shift; a seasonality comparison; one sentence on what has not been attributed',
+        'Done: the sentence is published with the chart, the axis range in the caption, and the series available to any reader',
+        'Fallback: where the window contains fewer than twelve points, I describe the movement and state that no direction can yet be supported'],
+w_check=['Is the window stated?',
+         'Are both end points given?',
+         'Is the latest point classified?',
+         'Is attribution handled honestly?'],
+
+t_title='A series of figures turned into a direction with a window',
+t_fig=figs.split('TWELVE POINTS AND ONE SENTENCE',
+                 'It can supply',
+                 ['the window and end points',
+                  'the range covered',
+                  'the classification of a point',
+                  'a seasonality comparison'],
+                 'It must not supply',
+                 ['a cause',
+                  'a forecast you cannot support',
+                  'a chosen baseline',
+                  'what the board should do']),
+t_fig_cap='It supplies the direction. Attribution needs a dated change and a comparison.',
+t_body=[
+ 'Give it the full series, the dates of any change in definition or process, and '
+ 'the window you intend to describe.',
+ 'A series of figures turned into a direction with a window returns the end points, '
+ 'the range and a classification.',
+ 'Then ask for a seasonality comparison against the same month in previous years.'],
+t_say=[('Over the last: ', 'Three years, thirty-six points.'),
+       ('Has risen from: ', 'Twenty-one to twenty-eight.'),
+       ('Not attributed: ', 'To the new discharge process.')],
+t_bound='It cannot tell you why the mean moved, and it will not invent the '
+        'comparison group that attribution would need.',
+t_a=[('Give it the full ____________.', 'series'),
+     ('And the dates of any ____________ in definition.', 'change'),
+     ('And the ____________ you intend to describe.', 'window'),
+     ('Ask for both ____________ points.', 'end'),
+     ('And the ____________ covered.', 'range'),
+     ('And a ____________ comparison.', 'seasonality')],
+t_b_rubric='Say what the trend work should do with each item.',
+t_b=[('“rising sharply”', 'give the window and both end points'),
+     ('one high month in a wide range', 'classify it as common variation'),
+     ('a January rise six years running', 'report it as seasonal'),
+     ('“clearly caused by the new process”', 'say what has not been attributed')],
+
+case=dict(
+ title='The Decision Room · The month that was called a trend',
+ brief=[
+  'A hospital board received monthly operational reports comparing the latest '
+  'month with the one before. Rises were described as deteriorating and falls as '
+  'improving.',
+  'Over two years, 24 monthly reports produced 19 narrative statements of '
+  'direction. A retrospective review using twelve-point run rules found that 4 of '
+  'the 19 were supported; 11 described common variation and 4 described '
+  'seasonality.',
+  'Reports were then required to state a window of at least twelve points, both '
+  'end points and a classification. Statements of direction fell to 6 in 24 '
+  'reports, of which 5 were supported on review.'],
+ exhibit=figs.datatable('TWO YEARS OF BOARD REPORTING',
+                        ['Item', 'Before / After'],
+                        [['monthly reports', '24 / 24'],
+                         ['narrative statements of direction', '19 / 6'],
+                         ['statements supported on review', '4 / 5'],
+                         ['statements describing common variation', '11 / 1'],
+                         ['improvement projects started on one month', '7 / 1'],
+                         ['projects closed with no measurable effect', '5 / 1']]),
+ exhibit_cap='Fewer statements of direction, and almost all of them true.',
+ exhibit_note='Seven improvement projects were launched on a single month’s '
+              'figure. Five closed without a measurable effect, because there had '
+              'been nothing to improve.',
+ voices=[('An executive', 'about caution',
+          'A board meets monthly. If we can only speak after twelve months, we are not managing anything.'),
+         ('Tomás Ferreira', 'information manager',
+          'You can speak every month. What you cannot do every month is use the word trend.'),
+         ('A project manager', 'about a closed project',
+          'I spent five months improving a figure that had never actually got worse.')],
+ steps=[('Find it', 'How many statements of direction were made?'),
+        ('Compare it', 'Statements made against statements supported.'),
+        ('Infer it', 'Why did monthly comparison mislead?'),
+        ('Weigh it', 'Timely narrative against five wasted projects.'),
+        ('Decide', 'What must a statement of direction carry?')],
+ analysis=[('Find it. How many statements?', '19 in 24 reports'),
+           ('Compare it. How many supported?', '4 of the 19'),
+           ('Infer it. Why mislead?', 'because month-to-month movement is mostly common variation'),
+           ('Weigh it. What was traded?', 'a monthly narrative for five projects with nothing to improve'),
+           ('Decide. What must it carry?', 'a window of twelve points, both end points and a classification')],
+ decision='Write the rule, in four lines.',
+ decision_steps=['Say what a statement of direction must carry.',
+                 'Say how the latest point is described.',
+                 'Say how seasonality is handled.',
+                 'Say what may be claimed about cause.']
+ ,
+ bank=['Any statement that a figure is rising or falling states the window used, which contains at least twelve points, and the figure at each end of it.',
+       'The latest point is described as common variation, a special cause or part of a shift in level, according to the method in use.',
+       'Any monthly figure is compared with the same month in previous years before seasonality is ruled out.',
+       'No change is attributed to an intervention unless the intervention can be dated and a comparison is available; otherwise the report states that the change has not been attributed.'],
+ outcome='The hospital adopts the four lines. Over the following two years '
+         'narrative statements of direction fall from 19 to 6 while those '
+         'supported on review rise from 4 to 5, projects started on a single '
+         'month’s figure fall from 7 to 1, and projects closed with no measurable '
+         'effect fall from 5 to 1.',
+ outcome_q=[('What happened to statements of direction?', 'they fell from 19 to 6'),
+            ('What happened to supported statements?', 'they rose from 4 to 5'),
+            ('What happened to projects started on one month?', 'they fell from 7 to 1'),
+            ('What happened to projects closed with no effect?', 'they fell from 5 to 1'),
+            ('Over what period?', 'two years')],
+ tags=['manager_wrong', 'sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Delayed discharges are rising sharply',
+ task=['This was the operational narrative in a board report.',
+       'This is what it said.'],
+ draft=['Delayed discharges are rising sharply.',
+        'The trend has been upwards for some time now.',
+        'Last month was the worst we have seen for years.',
+        'This is clearly linked to the new discharge process.',
+        'Other sites appear to be doing rather better.',
+        'A recovery plan is being developed as a priority.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines about a chart, with no window and no end points.',
+ asked=['rising sharply', 'for some time now',
+        'clearly linked to the new discharge process'],
+ back=['19 statements of direction in 24 reports',
+       '4 supported on review', '5 projects closed with no effect'],
+ gap='Nobody could tell over what window, between which figures, or on what basis the process was blamed.',
+ back_cap='Six lines that started a five-month project to improve a stable figure.',
+ back_note='“The worst we have seen for years” described a figure the series had '
+           'reached twice in the previous eleven months.',
+ diagnosis=[('“for some time now”', 'unbounded quantity'),
+            ('“for years”', 'unbounded quantity'),
+            ('“other sites”', 'unscoped set'),
+            ('“rather better”', 'unscoped set'),
+            ('“clearly linked”', 'missing condition'),
+            ('“as a priority”', 'missing condition')],
+ rewrite='Rewrite it on the six lines so that the board gets one sentence that stays true.',
+ scaffold=['what may never be stated without a window',
+           'which series are yours, and which claims are not',
+           'what you are giving it',
+           'what the statement must carry',
+           'what is published with it',
+           'what you do with fewer than twelve points'],
+ bank=['Purpose: so that no direction is stated in this organisation without a window, two end points and an honest line about attribution',
+       'Scope: operational and activity series produced by my team; clinical outcome series belong to clinical audit, and no causal claim about clinical practice is mine to make',
+       'Inputs: the full series rather than its last two points, the dates of every change in definition, process or data source, the same month in previous years, and the window I intend to describe',
+       'Criteria: the window and both end points stated; the range covered within the window; the latest point classified by the method as common cause, special cause or part of a shift; a seasonality comparison; and one sentence saying what has not been attributed',
+       'Done: the sentence is published with the chart, the axis range in the caption, and the series available to any reader',
+       'Fallback: where the window contains fewer than twelve points, I describe the movement and state that no direction can yet be supported'],
+ check=['Is the window stated?',
+        'Are both end points given?',
+        'Is the latest point classified?',
+        'Is the attribution claim honest?'],
+ model=['so that no direction is stated in this organisation without a window, two end points and an honest line about attribution',
+        'operational and activity series produced by my team; clinical outcome series belong to clinical audit, and no causal claim about clinical practice is mine to make',
+        'the full series rather than its last two points, the dates of every change in definition, process or data source, the same month in previous years, and the window I intend to describe',
+        'the window and both end points stated; the range covered within the window; the latest point classified by the method as common cause, special cause or part of a shift; a seasonality comparison; and one sentence saying what has not been attributed',
+        'the sentence is published with the chart, the axis range in the caption, and the series available to any reader',
+        'where the window contains fewer than twelve points, I describe the movement and state that no direction can yet be supported'],
+ cost='19 statements of direction with 4 supported, and 5 projects closed with no measurable effect.'),
+
+lang=dict(
+ title='The Unwelcome Number · Telling a board the trend it acted on was noise',
+ setting=[
+  'A board started seven improvement projects on single-month figures. Five closed '
+  'with no measurable effect. Tomás must say that the figures had not moved.',
+  'He has to do it without suggesting the board was foolish, and without '
+  'discouraging it from acting at all.'],
+ ladder=[('A board that acted quickly', 'on figures that had not moved'),
+         ('Nineteen statements of direction', 'of which four were supported'),
+         ('Either keep the monthly narrative', 'or name the five closed projects')],
+ cap='Nineteen statements, four supported, five projects and five months of work.',
+ turns=[('Turn 1 · Tomás', 'Of nineteen statements of direction in two years, four were supported on review.'),
+        ('Turn 2 · Executive', 'So we should have waited a year before doing anything.'),
+        ('Turn 3 · Tomás', 'No. You should have acted on four of them, and not on the eleven that were ordinary variation.')],
+ holds=['Every month you can still see the figure and ask what it is doing.',
+        'What changes is that the word trend needs twelve points behind it.',
+        'One project manager spent five months improving a figure that had never worsened.',
+        'The three-year rise in delayed discharges is real, and nobody mentioned it for three years.',
+        'I shall put the classification in the report, so you can see which statements carry weight.',
+        'And if the new rule stops you acting on something that turns out to matter, tell me and I shall change it.'],
+ redline='Never describe a single month as a trend, and never let caution about '
+         'noise become an excuse for ignoring a three-year rise.',
+ score=['Gave the proportion supported in the first sentence.',
+        'Did not accuse the board of carelessness.',
+        'Named the wasted five months concretely.',
+        'Pointed to the real trend nobody had reported.',
+        'Left the rule open to revision.'],
+ a=[('How many statements were supported?', 'four of nineteen'),
+    ('What should the board have done?', 'acted on the four, not the eleven'),
+    ('What did one project manager spend?', 'five months on a figure that had never worsened'),
+    ('What real trend had been missed?', 'the three-year rise in delayed discharges'),
+    ('What will go in the report?', 'the classification of each point'),
+    ('What is the redline?', 'never describe a single month as a trend')]),
+
+rev_fig=figs.split('A TREND STATED',
+                   'Say',
+                   ['thirty-one in October against nineteen in September',
+                    'over the last twelve months, between seventeen and thirty-three',
+                    'over three years the mean has risen from twenty-one to twenty-eight',
+                    'the rise has not been attributed to the new process'],
+                   'Never say',
+                   ['rising sharply',
+                    'upwards for some time',
+                    'the worst for years',
+                    'clearly linked to the new process']),
+rev_fig_cap='Four sentences that stay true, and four that are corrected in April.',
+rev=dict(
+ read=[('How many points does a direction rest on?',
+        ['at least twelve', 'two', 'three', 'six'], 0),
+       ('What is thirty-one in a series of seventeen to thirty-three?',
+        ['high but common variation', 'a special cause',
+         'a shift in level', 'a seasonal peak'], 0),
+       ('What has the three-year mean done?',
+        ['risen from twenty-one to twenty-eight', 'fallen to nineteen',
+         'stayed at twenty-one', 'doubled'], 0),
+       ('What does attribution require?',
+        ['a dated change and a comparison', 'a plausible story',
+         'a board decision', 'a twelve-point series'], 0)],
+ listen_text='Give it the full series, the dates of any change in definition or '
+             'process, and the window you intend to describe. Ask for both end '
+             'points.',
+ listen=[('Give it the full ____________.', 'series'),
+         ('And the dates of any ____________ in definition.', 'change'),
+         ('And the ____________ you intend to describe.', 'window'),
+         ('Ask for both ____________ points.', 'end')],
+ speak=['Restate six movements with a window and two end points.',
+        'Then classify each latest point.'],
+ write='Write a six-line tasking for a trend statement.',
+ vocab=[('A view too short for most questions is a window of three ____________.', 'months'),
+        ('A pattern that repeats annually is a seasonal rise every ____________.', 'January'),
+        ('A figure worth investigating is a point outside the usual ____________.', 'variation'),
+        ('A movement whose cause is unknown is a change you cannot ____________.', 'attribute')],
+ gram=[('The level ____________ shifted in 2024.', 'has'),
+       ('A run ____________ seven points above the mean.', 'of'),
+       ('It has ____________ to twenty-two this month.', 'fallen'),
+       ('The process began ____________ the mean had moved.', 'after')]),
+
+found=['State a window and two end points, or state nothing.',
+       'Classify the latest point before you narrate it.',
+       'Check the same month in previous years before calling it news.',
+       'Say what has not been attributed, and why it cannot be yet.'],
+end_line='Four of nineteen statements of direction were supported; five projects closed having improved figures that had never got worse.',
+end_next='Next: A Dashboard Nobody Reads')

@@ -1,0 +1,560 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=9,
+title='The Record for People Who Were Not There',
+gram='cross-reference in a long text: the above, the foregoing, under paragraph',
+ai='a record written for people who were not in the room',
+strap='CEFR B2 · Grammar: cross-reference in a long text — the above, the foregoing, under paragraph · '
+      'AI: a record written for people who were not in the room',
+cando=['cross-refer precisely in a long document',
+       'write a record for readers who were not in the room',
+       'separate what was decided from what was said',
+       'allocate next steps by name and date',
+       'write a six-line tasking for a record of a session'],
+
+hero=('A FAITHFUL RECORD OF FOUR DAYS, AND NOBODY COULD TELL WHAT HAD BEEN DECIDED',
+      ['Eleven pages, in the order things were said.',
+       'The three decisions were on pages four, seven and ten.'],
+      [(1120, 'grey', 'long'), (260, 'blue', 'short'), (240, 'teal', 'short')]),
+hero_cap='The record of a four-day session, as first drafted and as finally issued.',
+
+warm=['Who reads the record of a meeting you attend?',
+      'What do they need from it?',
+      'What do you remember that the record does not say?'],
+
+read=[
+ 'The record of the session runs to eleven pages and follows the order of the four days. It is '
+ 'accurate throughout, and every intervention of substance is reflected in it.',
+ 'Its readers are in the capital and were not in the room. For them the document has three '
+ 'purposes: to establish what was decided, to say what each decision requires of us, and to '
+ 'identify what remains open.',
+ 'The three decisions appear on pages four, seven and ten, in the order in which they happened, '
+ 'each embedded in the discussion that produced it, and none of them under a heading that says '
+ 'decision.',
+ 'What follows from the decisions is nowhere stated, because in the room it was obvious. The '
+ 'foregoing, as a lawyer would say, requires action by three different people, and the record '
+ 'names none of them.',
+ 'A record ordered by time is a record written for the people who were there. A record ordered '
+ 'by consequence is written for the people who were not, and they are the only people who will '
+ 'read it.'],
+
+dp1=('Records for absent readers', 'Record practice commonly distinguishes a chronological '
+     'account, which serves participants, from an outcome-ordered record, which serves readers '
+     'who were absent and must act upon it.',
+     'Source: general record practice literature, 2025–2026.'),
+
+c_a=[('How long is the record?', 'eleven pages'),
+     ('In what order is it written?', 'the order of the four days'),
+     ('Where are the three decisions?', 'on pages four, seven and ten'),
+     ('Who are its readers?', 'people in the capital who were not in the room'),
+     ('What are its three purposes?', 'what was decided, what it requires, what remains open'),
+     ('How many people must act?', 'three')],
+
+c_b=[('The record is inaccurate.', 'F'),
+     ('The decisions are under decision headings.', 'F'),
+     ('The consequences are stated.', 'F'),
+     ('Chronological order serves participants.', 'T'),
+     ('The readers were present.', 'F'),
+     ('Three different people must act.', 'T')],
+
+c_c=[('The decision referred to ____________ was taken on Wednesday.', 'above'),
+     ('The ____________ three paragraphs concern reporting only.', 'foregoing'),
+     ('Under ____________ 7, each party must submit data annually.', 'paragraph'),
+     ('This follows from the ____________ and requires no further decision.', 'foregoing'),
+     ('The text ____________ at annex II contains the agreed wording.', 'reproduced'),
+     ('As stated ____________, no instruction has yet been received.', 'above')],
+
+c_d=[('The above refers to ( something later / something earlier in the text ).', ['something later', 'something earlier in the text'], 1),
+     ('The foregoing refers to ( what has just been said / the whole document ).',
+      ['what has just been said', 'the whole document'], 0),
+     ('Under paragraph 7 means ( by virtue of paragraph 7 / below paragraph 7 ).',
+      ['by virtue of paragraph 7', 'below paragraph 7'], 0),
+     ('A record for absent readers is ordered by ( consequence / time ).',
+      ['consequence', 'time'], 0),
+     ('The decisions in the draft were ( embedded in discussion / separately headed ).',
+      ['embedded in discussion', 'separately headed'], 0)],
+
+c_e=('Decided, said or open? Put each item in the right column.',
+     [('the committee adopted the text of annex II', 'decided'),
+      ('one delegation thought the timetable optimistic', 'said'),
+      ('the funding of the mechanism was not settled', 'open'),
+      ('the item will be taken again in March', 'decided'),
+      ('several delegations recalled their reservations', 'said'),
+      ('who chairs the drafting group is undetermined', 'open')],
+     ['decided', 'said', 'open']),
+
+v_fig_title='A RECORD IN SIX WORDS',
+v_fig=[('doc', 'a summary record'), ('key', 'a decision as adopted'), ('chart', 'a point left open'),
+       ('clock', 'a next step allocated'), ('people', 'a reader who was absent'), ('speech', 'a chair’s summary')],
+v_fig_cap='Six words for the document that will be the only memory of four days.',
+
+vocab=[
+ ('a record of a meeting', 'the written account of what occurred'),
+ ('a summary record', 'a record giving the substance, not every word'),
+ ('a verbatim record', 'a record of every word spoken'),
+ ('a chair’s summary', 'the chair’s account of where matters stand'),
+ ('an outcome document', 'the text expressing what was agreed'),
+ ('a decision as adopted', 'the decision in its final wording'),
+ ('a point left open', 'a matter not settled'),
+ ('a next step allocated', 'an action assigned to somebody'),
+ ('an attribution of a view', 'naming who held an opinion'),
+ ('a reader who was absent', 'somebody reading who was not present'),
+ ('a chronology of a session', 'the order in which things happened'),
+ ('a cross-reference to a paragraph', 'a pointer to another paragraph'),
+ ('a foregoing paragraph', 'a paragraph already given'),
+ ('an annex referred to', 'an attachment the text points to'),
+ ('a numbering of paragraphs', 'the system of paragraph numbers'),
+ ('a date of a record', 'when the record was made'),
+ ('a circulation list', 'who receives the document'),
+ ('a correction to a record', 'a change made after issue'),
+ ('an approval of a record', 'formal acceptance of the account'),
+ ('a reference of a file', 'the code identifying the file')],
+
+v_a=[('A record giving the substance is a ____________ record.', 'summary'),
+     ('The decision in its final wording is a decision as ____________.', 'adopted'),
+     ('An action assigned to somebody is a next step ____________.', 'allocated'),
+     ('A paragraph already given is a ____________ paragraph.', 'foregoing'),
+     ('Who receives the document is a ____________ list.', 'circulation'),
+     ('A change made after issue is a ____________ to a record.', 'correction'),
+     ('Naming who held an opinion is an ____________ of a view.', 'attribution'),
+     ('The code identifying the file is a ____________ of a file.', 'reference')],
+
+v_b=[('A verbatim record is a record', 'of every word spoken.'),
+     ('A chair’s summary is the chair’s account', 'of where matters stand.'),
+     ('A point left open is a matter', 'not settled.'),
+     ('A reader who was absent is somebody reading', 'who was not present.'),
+     ('An approval of a record is formal acceptance', 'of the account.')],
+
+g_title='Grammar: cross-reference in a long text — the above, the foregoing, under paragraph',
+g_rule=['The above refers back to something already stated: the decision referred to above was '
+        'taken on Wednesday. It must have exactly one possible referent.',
+        'The foregoing refers to what has just been said, usually the preceding paragraph or '
+        'paragraphs: this follows from the foregoing.',
+        'Under paragraph 7 means by virtue of paragraph 7, not below it. In paragraph 7 means '
+        'located in it; the two are not interchangeable.',
+        'Vague cross-reference is the commonest defect of long records. Where more than one '
+        'referent is possible, name the paragraph: as stated in paragraph 11, not as stated '
+        'above.'],
+g_fig=('LOOSE',
+       ['As mentioned before, this is still open.',
+        'This follows from what was said.',
+        'In paragraph 7 each party must submit data.',
+        'See the text above at the annex.'],
+       'PRECISE',
+       ['As stated in paragraph 11, the matter remains open.',
+        'This follows from the foregoing.',
+        'Under paragraph 7, each party shall submit data annually.',
+        'The text reproduced at annex II contains the agreed wording.'],
+       'four vague cross-references',
+       'the same four with exactly one possible referent'),
+g_fig_cap='One referent only, and name the paragraph wherever two are possible.',
+
+g_a=[('The decision referred to ____________ was taken on Wednesday.', 'above'),
+     ('The ____________ three paragraphs concern reporting only.', 'foregoing'),
+     ('Under ____________ 7, each party must submit data annually.', 'paragraph'),
+     ('This follows from the ____________ and requires no further decision.', 'foregoing'),
+     ('The text ____________ at annex II contains the agreed wording.', 'reproduced'),
+     ('As stated ____________, no instruction has yet been received.', 'above'),
+     ('As set out in ____________ 11, the funding is unresolved.', 'paragraph'),
+     ('Nothing in the ____________ affects the position under paragraph 4.', 'foregoing'),
+     ('The obligation ____________ paragraph 9 applies from January.', 'under')],
+
+g_b=[('( As stated in paragraph 11 / As mentioned before ) — one referent.', ['As stated in paragraph 11', 'As mentioned before'], 0),
+     ('( This follows from the foregoing / This follows from what was said ) — register.',
+      ['This follows from the foregoing', 'This follows from what was said'], 0),
+     ('( Under paragraph 7, each party shall submit data / In paragraph 7 each party must submit data ) — by virtue of.',
+      ['Under paragraph 7, each party shall submit data',
+       'In paragraph 7 each party must submit data'], 0),
+     ('( The text reproduced at annex II / See the text above at the annex ) — precise.',
+      ['The text reproduced at annex II', 'See the text above at the annex'], 0),
+     ('( Nothing in the foregoing affects paragraph 4 / Nothing above affects anything ) — precise.',
+      ['Nothing in the foregoing affects paragraph 4',
+       'Nothing above affects anything'], 0),
+     ('( the obligation under paragraph 9 / the obligation in paragraph 9, under it ) — fixed form.',
+      ['the obligation under paragraph 9', 'the obligation in paragraph 9, under it'], 0)],
+
+d1=dict(
+ title='Pages four, seven and ten',
+ fig=(['Eleven pages, all accurate.', 'And what did we decide?'],
+      ['Three things.', 'Then why are they on three pages?']),
+ cap='Elena Duarte and Peter Novak, on the line after the session.',
+ lines=[('Peter', 'I have read your eleven pages twice and I am not sure what we decided.'),
+        ('Elena', 'Three things. They are on pages four, seven and ten.'),
+        ('Peter', 'In the middle of the discussions that produced them.'),
+        ('Elena', 'Which is where they happened.'),
+        ('Peter', 'And I was not there, so I do not need to know where they happened.'),
+        ('Elena', 'You need to know what they require of us.'),
+        ('Peter', 'Which the record does not say, because in the room it was obvious.'),
+        ('Elena', 'Three people must do something by the fifteenth and the record names none of them.'),
+        ('Peter', 'Then put the decisions first, each with what it requires and who does it.'),
+        ('Elena', 'And the discussion afterwards, for anybody who wants the reasoning.'),
+        ('Peter', 'And a third part for what is still open, with the date it must be settled by.'),
+        ('Elena', 'Three parts: decided, requires, open. The chronology becomes an annex.')],
+ a=[('How many times had Peter read it?', 'twice'),
+    ('What was he unsure of?', 'what had been decided'),
+    ('Where are the decisions?', 'on pages four, seven and ten'),
+    ('What does the record not say?', 'what the decisions require, and who acts'),
+    ('What structure do they agree?', 'decided, requires, open, with the chronology as an annex')],
+ b=[('In the middle of the ____________.', 'discussions'),
+    ('In the room it was ____________.', 'obvious'),
+    ('Three people must do something by the ____________.', 'fifteenth'),
+    ('The chronology becomes an ____________.', 'annex')]),
+
+d2=dict(
+ title='Who said that, and does it matter',
+ fig=(['Shall I name the delegations?', 'For which parts?'],
+      ['All of them?', 'Only where it changes what we do.']),
+ cap='Elena and Farida Haddad, revising the record.',
+ lines=[('Farida', 'Do we attribute the views, or report them generally?'),
+        ('Elena', 'Where attribution changes what the capital would do, we name the delegation.'),
+        ('Farida', 'And where it does not?'),
+        ('Elena', 'Several delegations expressed concern is enough, and it is safer.'),
+        ('Farida', 'Safer for whom?'),
+        ('Elena', 'For the delegation that spoke informally, and for us when the record is read in six months.'),
+        ('Farida', 'And the chair’s summary?'),
+        ('Elena', 'Quoted entire. The chair’s summary is what the body will be taken to have agreed.'),
+        ('Farida', 'Even where we think it goes further than the discussion did?'),
+        ('Elena', 'Especially then, with our own observation beneath it in a separate line.'),
+        ('Farida', 'And the points left open — how do we stop them being forgotten?'),
+        ('Elena', 'Each with a date and a name. A point open with no date is a point abandoned, and whose name do we put where the action belongs to the capital?')],
+ unresolved=True,
+ a=[('When are delegations named?', 'where attribution changes what the capital would do'),
+    ('What is used otherwise?', 'several delegations expressed concern'),
+    ('How is the chair’s summary treated?', 'quoted entire'),
+    ('Why?', 'it is what the body will be taken to have agreed'),
+    ('What does an open point need?', 'a date and a name')],
+ b=[('Where it ____________ what the capital would do.', 'changes'),
+    ('Quoted ____________.', 'entire'),
+    ('With our own ____________ beneath it.', 'observation'),
+    ('A point open with no date is a point ____________.', 'abandoned')]),
+
+speak=[('Name the paragraph',
+        ['Make six cross-references in a document you know.',
+         'Your partner objects to any that has two possible referents.',
+         'Replace each with a numbered reference.']),
+       ('Decided, said, open',
+        ['Describe a meeting you attended in nine sentences.',
+         'Your partner sorts each sentence into decided, said or open.',
+         'Rewrite anything that cannot be sorted.']),
+       ('A date and a name',
+        ['List four things left unresolved in your own work.',
+         'Give each a date and a name.',
+         'Your partner challenges any date you cannot justify.'])],
+
+ext_title='A record is read by people who need to act, not by people who were there',
+ext_fig=figs.datatable('THE SAME SESSION, TWO RECORDS',
+                       ['Chronological record', 'Outcome-ordered record'],
+                       [['day one: opening statements', 'decisions: three, with wording'],
+                        ['day two: general debate', 'what each requires of us'],
+                        ['day three: drafting group', 'who acts, and by when'],
+                        ['day four: adoption', 'points left open, with dates'],
+                        ['decisions on pages 4, 7, 10', 'the chair’s summary, quoted'],
+                        ['consequences nowhere', 'the chronology, at annex']]),
+ext_fig_cap='Eleven pages of accurate narrative, and two pages that can be acted on.',
+ext=[
+ 'A record of a four-day session can be produced quickly and faithfully from notes, audio and '
+ 'the documents distributed, and the result will be a competent chronological account.',
+ 'Chronology, however, is the structure of a record written for participants. It answers the '
+ 'question what happened, in the order in which it happened, and participants are the only '
+ 'people who do not need the answer.',
+ 'The readers who matter were not in the room. They require three things in this order: what '
+ 'was decided, in the adopted wording; what each decision requires of the mission, with the '
+ 'person responsible and the date; and what remains open, with the date by which it must be '
+ 'settled.',
+ 'The discussion that produced the decisions belongs after those three parts, and the '
+ 'chronology belongs in an annex. Nothing is lost by this ordering, and the eleven pages become '
+ 'two pages and nine of annex.',
+ 'Attribution requires judgement rather than a rule. Delegations are named where attribution '
+ 'changes what the capital would do, and reported collectively where it does not, which '
+ 'protects both an informal source and the mission when the record is read in six months.',
+ 'And the chair’s summary is quoted entire, because it is what the body will be taken to have '
+ 'agreed, with any observation of your own in a separate line beneath it. A record that '
+ 'paraphrases a chair’s summary has replaced the only authoritative text in the document with '
+ 'an opinion about it.'],
+
+dp2=('Open points', 'Record practice commonly requires that matters left unresolved be listed '
+     'with the date by which resolution is required and the person or body responsible, in the '
+     'absence of which such matters are customarily not pursued.',
+     'Source: general record practice literature, 2025–2026.'),
+
+e_a=[('Whom does chronology serve?', 'the participants'),
+     ('What do absent readers require first?', 'what was decided, in the adopted wording'),
+     ('What comes second?', 'what each decision requires, with a name and a date'),
+     ('Where does the chronology belong?', 'in an annex'),
+     ('How is the chair’s summary treated?', 'quoted entire')],
+e_b=[('Participants need the chronology most.', 'F'),
+     ('Open points need dates and names.', 'T'),
+     ('Attribution follows a fixed rule.', 'F'),
+     ('A chair’s summary may be paraphrased.', 'F'),
+     ('The outcome-ordered record is shorter.', 'T'),
+     ('Nothing is lost by reordering.', 'T')],
+
+w_model='Purpose: so that three colleagues in the capital who were not present can act on this '
+        'session without asking me a question. Scope: the four days of the September session; '
+        'the bilateral meetings held in the margins are reported separately. Inputs: my notes, '
+        'the documents distributed, and the chair’s summary as issued. Criteria: three numbered '
+        'parts in this order — the decisions in their adopted wording; what each requires of the '
+        'mission, with the responsible officer and the date; and the points left open, each with '
+        'a date and a name; the chair’s summary quoted entire with any observation of mine in a '
+        'separate line; delegations named only where attribution would change what the capital '
+        'does; the chronology at annex; no cross-reference that admits two referents. Done: with '
+        'the capital within two working days. Fallback: where I am uncertain whether a matter '
+        'was decided or merely discussed, it goes in the open part with the uncertainty stated.',
+w_fig=figs.spec_card('SIX LINES FOR A RECORD',
+                     [('Purpose', 'three absent colleagues can act without asking'),
+                      ('Scope', 'the four days; margins reported separately'),
+                      ('Inputs', 'notes, documents, the chair’s summary'),
+                      ('Criteria', 'decided / requires / open; summary quoted; chronology at annex'),
+                      ('Done', 'within two working days'),
+                      ('Fallback', 'uncertain? the open part, with the uncertainty stated')]),
+w_fig_cap='The purpose line names the readers, and the readers determine the structure.',
+w_task='Write a six-line tasking for the record of a session.',
+w_steps=['Line 1: say who must be able to act, and without what.',
+         'Line 2: say which days, and what is reported separately.',
+         'Line 3: say what you are giving it.',
+         'Line 4: say the three parts, the quoting, the attribution rule and the annex.',
+         'Line 5: say by when.',
+         'Line 6: say what happens where you are uncertain.'],
+w_bank=['Purpose: so that colleagues who were not present can act on this session without asking me a question',
+        'Scope: the … days of the … session; … are reported separately',
+        'Inputs: my notes, the documents distributed, and the chair’s summary as issued',
+        'Criteria: three numbered parts — decisions in adopted wording; what each requires, with officer and date; points left open with a date and a name; the chair’s summary quoted entire; delegations named only where attribution changes what the capital does; the chronology at annex; no cross-reference admitting two referents',
+        'Done: with the capital within … . Fallback: where I am uncertain whether a matter was decided, it goes in the open part with the uncertainty stated'],
+w_check=['Are the three parts in that order?',
+         'Is the chair’s summary quoted entire?',
+         'Does every open point have a date and a name?',
+         'Is the chronology in an annex?'],
+
+t_title='A record written for people who were not in the room',
+t_fig=figs.split('ELEVEN PAGES OR TWO',
+                 'Chronology gives',
+                 ['what happened, in order',
+                  'who spoke, and when',
+                  'the shape of the debate',
+                  'a complete narrative'],
+                 'Consequence gives',
+                 ['what was decided',
+                  'what it requires of us',
+                  'who acts, and by when',
+                  'what is still open']),
+t_fig_cap='Write the right-hand column first, and put the left-hand column at annex.',
+t_body=[
+ 'Name the readers in the instruction, because the readers determine the structure: three '
+ 'colleagues in the capital who were not present and must act without asking you a question.',
+ 'Require three numbered parts in a fixed order — the decisions in their adopted wording; what '
+ 'each requires of the mission, with the responsible officer and the date; and the points left '
+ 'open, each with a date and a name — and require the chronology to be placed at annex.',
+ 'Require the chair’s summary to be quoted entire, since it is what the body will be taken to '
+ 'have agreed, and forbid cross-references that admit two referents: name the paragraph rather '
+ 'than writing as stated above.'],
+t_say=[('Name the readers: ', 'Three colleagues who were not present and must act on it.'),
+       ('Fix the order: ', 'Decided, requires, open; the chronology at annex.'),
+       ('Protect the summary: ', 'The chair’s summary quoted entire, with my observation separate.')],
+t_bound='Given notes and audio, it will produce a chronological account, because that is what '
+        'the sources are. Nothing in a day’s notes says which of three decisions requires action '
+        'by whom, and the obvious consequences were obvious only in the room.',
+t_a=[('Name the ____________ in the instruction.', 'readers'),
+     ('Three numbered ____________ in a fixed order.', 'parts'),
+     ('With the responsible officer and the ____________.', 'date'),
+     ('The chronology at ____________.', 'annex'),
+     ('The chair’s summary quoted ____________.', 'entire'),
+     ('Name the ____________ rather than writing as stated above.', 'paragraph')],
+t_b_rubric='Say in which part of the record each item belongs.',
+t_b=[('The adopted wording of a decision.', 'part one: decided'),
+     ('A deadline of the fifteenth for our submission.', 'part two: requires'),
+     ('The unresolved question of who chairs the group.', 'part three: open'),
+     ('Four interventions in the general debate.', 'the annex: chronology')],
+
+case=dict(
+ title='The Decision Room · Eleven accurate pages nobody could act on',
+ brief=[
+  'A four-day session produces three decisions. The record is drafted overnight, runs to eleven '
+  'pages, follows the chronology of the four days and is accurate in every particular.',
+  'Its readers are three officials in the capital, none of whom attended. The decisions appear '
+  'on pages four, seven and ten, embedded in the discussions that produced them, under no '
+  'heading identifying them as decisions.',
+  'What the decisions require of the mission is nowhere stated; three different officers must '
+  'act, two of them by the fifteenth. Four matters were left open, none of which carries a date.'],
+ exhibit=figs.datatable('WHAT THE READERS HAD TO DO',
+                        ['Question', 'Where the answer was'],
+                        [['what was decided?', 'pages 4, 7 and 10'],
+                         ['in what wording?', 'quoted on page 10 only'],
+                         ['what must we do?', 'nowhere'],
+                         ['by when?', 'nowhere'],
+                         ['who does it?', 'nowhere'],
+                         ['what is still open?', 'scattered through eleven pages']]),
+ exhibit_cap='Six questions a reader has, and two of them answerable from the document.',
+ exhibit_note='The record is a faithful account of four days. It is written in the structure '
+              'that serves the only readers who do not need it.',
+ voices=[('Peter Novak', 'desk officer, the capital',
+          'I read it twice and telephoned to ask what we had decided, which is the test the record failed.'),
+         ('Elena Duarte', 'delegate, the Assembly',
+          'The consequences were obvious in the room, which is why none of them is written down.'),
+         ('Farida Haddad', 'protocol and interpreting',
+          'And four open points with no dates are four points that will not be raised again.')],
+ steps=[('Find it', 'What does the record contain?'),
+        ('Compare it', 'Chronology against consequence.'),
+        ('Infer it', 'Why is it ordered that way?'),
+        ('Weigh it', 'Two pages and nine of annex.'),
+        ('Decide', 'How is a record structured?')],
+ analysis=[('Find it. What was produced?', 'eleven accurate chronological pages'),
+           ('Compare it. What is missing?', 'requirements, names, dates and open points'),
+           ('Infer it. Why?', 'the sources are notes taken in time order'),
+           ('Weigh it. What is the remedy?', 'three parts, with the chronology at annex'),
+           ('Decide. How is it structured?', 'decided, requires, open, then the narrative')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what the first three parts of a record are.',
+                 'Say what every open point carries.',
+                 'Say how the chair’s summary is treated.',
+                 'Say where the chronology goes.'],
+ bank=['Every record opens with three numbered parts: the decisions in their adopted wording; what each requires, with the officer responsible and the date; and the points left open.',
+       'Each open point carries a date by which it must be settled and the name of the person who will settle it.',
+       'The chair’s summary is quoted entire, with any observation of the delegation in a separate line beneath it.',
+       'The chronological account is placed at annex, and no cross-reference is used that admits two referents.'],
+ outcome='The record is reissued as two pages with nine of annex. The three officers act within '
+         'the deadlines, two of the four open points are settled before the next session because '
+         'they carried dates, and the capital adopts the three-part structure for records of all '
+         'multilateral sessions. The chronological annex is read, so far as anybody can '
+         'establish, twice in a year.',
+ outcome_q=[('How was it reissued?', 'two pages with nine of annex'),
+            ('What happened to the deadlines?', 'the three officers acted within them'),
+            ('How many open points were settled?', 'two of four'),
+            ('Why?', 'they carried dates'),
+            ('How often was the annex read?', 'twice in a year')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Write up the session',
+ task=['A delegate asked for the record of a four-day multilateral session.',
+       'This is the instruction as it was given, and what came back.'],
+ draft=['Write up the session for the capital.',
+        'All four days.',
+        'What was said and decided.',
+        'Everything, with no exceptions.',
+        'Eleven pages or so.',
+        'Overnight.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and “all four days” fixed the structure before anybody thought about the reader.',
+ asked=['All four days', 'What was said and decided', 'Everything, no exceptions'],
+ back=['11 pages', '3 decisions recorded', '0 next steps allocated'],
+ gap='Nobody named the readers, so the record was written in the structure of the sources.',
+ back_cap='A complete and accurate account in which no reader can find what the mission must do.',
+ back_note='“Accurate and complete” is satisfied by a chronology. A reader who must act needs '
+           'a structure, and structure is never implied by accuracy.',
+ diagnosis=[('“write up the session”', 'hidden assumption'),
+            ('“all four days”', 'hidden assumption'),
+            ('“everything”', 'unstated exception'),
+            ('“eleven pages or so”', 'unbounded quantity'),
+            ('“with no exceptions”', 'unstated exception'),
+            ('“overnight”', 'unbounded quantity')],
+ rewrite='Rewrite it on the six lines so that an absent reader can act without asking a question.',
+ scaffold=['who must be able to act, and without what',
+           'which days, and what is reported separately',
+           'what you are giving it',
+           'the three parts, the quoting, the attribution rule and the annex',
+           'by when',
+           'what happens where you are uncertain'],
+ bank=['Purpose: so that three colleagues in the capital who were not present can act on this session without asking me a question',
+       'Scope: the four days of the September session; the bilateral meetings held in the margins are reported separately',
+       'Inputs: my notes, the documents distributed, and the chair’s summary as issued',
+       'Criteria: three numbered parts in this order — the decisions in their adopted wording; what each requires of the mission, with the responsible officer and the date; and the points left open, each with a date and a name; the chair’s summary quoted entire with any observation of mine in a separate line; delegations named only where attribution would change what the capital does; the chronology at annex; no cross-reference that admits two referents',
+       'Done: with the capital within two working days',
+       'Fallback: where I am uncertain whether a matter was decided or merely discussed, it goes in the open part with the uncertainty stated'],
+ check=['Are the readers named?',
+        'Are the three parts in order?',
+        'Does every open point carry a date and a name?',
+        'Is the chronology at annex?'],
+ model=['so that three colleagues in the capital who were not present can act on this session without asking me a question',
+        'the four days of the September session; the bilateral meetings held in the margins are reported separately',
+        'my notes, the documents distributed, and the chair’s summary as issued',
+        'three numbered parts in this order — the decisions in their adopted wording; what each requires of the mission, with the responsible officer and the date; and the points left open, each with a date and a name; the chair’s summary quoted entire with any observation of mine in a separate line; delegations named only where attribution would change what the capital does; the chronology at annex; no cross-reference that admits two referents',
+        'with the capital within two working days',
+        'where I am uncertain whether a matter was decided or merely discussed, it goes in the open part with the uncertainty stated'],
+ cost='11 pages, 3 decisions buried and 0 next steps, in a document read twice by three people.'),
+
+lang=dict(
+ title='Across the Language Line · A chair who summarised in a second language',
+ setting=[
+  'The chair sums up in English, which is not her first language, and says that the committee '
+  'has agreed to consider the proposal favourably.',
+  'In her own language the expression she is rendering means to examine it without prejudice. '
+  'Two delegations record a commitment to support; three record a commitment to examine; the '
+  'chair meant the second.'],
+ ladder=[('An expression in the chair’s language', 'to examine without prejudice'),
+         ('“consider favourably” in English', 'which suggests support'),
+         ('Five records', 'in two incompatible versions')],
+ cap='A summing-up in a second language, recorded five ways in three capitals.',
+ turns=[('Turn 1 · The chair', 'The committee will consider the proposal favourably.'),
+        ('Turn 2 · Elena', 'With your permission, may I ask what the summary records?'),
+        ('Turn 3 · The chair', 'That the proposal will be examined without prejudice.')],
+ holds=['With your permission, may I ask how the summary will be recorded?',
+        'In English, considering favourably suggests an inclination to support.',
+        'Is the intention that the proposal be examined without prejudice?',
+        'I ask because our records will differ otherwise.',
+        'Would the chair be content for the secretariat to use the second formulation?',
+        'I will record the chair’s clarification and the words she used.'],
+ redline='Never record a chair’s summing-up in a formulation she did not use, and never put a '
+         'chair in the position of appearing to have changed her summary.',
+ score=['Asked how the summary would be recorded.',
+        'Explained the English implication.',
+        'Offered the narrower formulation as a question.',
+        'Gave the reason: divergent records.',
+        'Recorded the clarification and the words used.'],
+ a=[('What did the chair say in English?', 'that the committee will consider the proposal favourably'),
+    ('What did she mean?', 'that it will be examined without prejudice'),
+    ('How many versions were recorded?', 'two incompatible ones'),
+    ('What should be asked?', 'how the summary will be recorded'),
+    ('What should be recorded?', 'the clarification and the words used'),
+    ('What must be avoided?', 'appearing to make the chair change her summary')]),
+
+rev_fig=figs.split('A RECORD IN THREE PARTS',
+                   'In the body',
+                   ['the decisions, as adopted',
+                    'what each requires',
+                    'who acts, by when',
+                    'what is still open'],
+                   'At annex',
+                   ['the chronology',
+                    'the general debate',
+                    'the interventions',
+                    'the documents list']),
+rev_fig_cap='Two pages that are acted on, and nine that are available if anybody asks.',
+rev=dict(
+ read=[('How long was the first record?',
+        ['eleven pages', 'two pages', 'four pages', 'nine pages'], 0),
+       ('Where were the three decisions?',
+        ['on pages four, seven and ten', 'on page one',
+         'in an annex', 'in the chair’s summary'], 0),
+       ('What did the record not state?',
+        ['what the decisions required', 'what was said',
+         'who attended', 'the dates of the session'], 0),
+       ('What does every open point need?',
+        ['a date and a name', 'a paragraph number',
+         'a citation', 'nothing'], 0)],
+ listen_text='Name the readers, require three numbered parts — decided, requires, open — put '
+             'the chronology at annex, quote the chair’s summary entire, and allow no '
+             'cross-reference with two possible referents.',
+ listen=[('Name the ____________.', 'readers'),
+         ('Three numbered parts: decided, requires, ____________.', 'open'),
+         ('The chronology at ____________.', 'annex'),
+         ('Quote the chair’s summary ____________.', 'entire')],
+ speak=['Make six cross-references with exactly one possible referent each.',
+        'Then describe a meeting in three parts: decided, requires, open.'],
+ write='Write a six-line tasking for the record of a session.',
+ vocab=[('A record giving the substance is a ____________ record.', 'summary'),
+        ('An action assigned to somebody is a next step ____________.', 'allocated'),
+        ('A paragraph already given is a ____________ paragraph.', 'foregoing'),
+        ('A change made after issue is a ____________ to a record.', 'correction')],
+ gram=[('As set out in ____________ 11, the funding is unresolved.', 'paragraph'),
+       ('Nothing in the ____________ affects the position under paragraph 4.', 'foregoing'),
+       ('The obligation ____________ paragraph 9 applies from January.', 'under'),
+       ('The annex ____________ to in paragraph 12 has not been circulated.', 'referred')]),
+
+found=['Name the readers before you choose the structure.',
+       'Open with decisions, requirements and open points, and put the chronology at annex.',
+       'Give every open point a date and a name, or it will not be raised again.',
+       'Quote a chair’s summary entire, and keep your own observation in a separate line.'],
+end_line='Chronology serves the people who were there. Nobody else will read it.',
+end_next='Next: What Consensus Covered')

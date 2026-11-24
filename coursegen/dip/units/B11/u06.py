@@ -1,0 +1,548 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=6,
+title='The Duty Phone at Two in the Morning',
+gram='indirect questions and polite enquiry',
+ai='the duty phone: a script you can follow when half awake',
+strap='CEFR B1 · Grammar: indirect questions and polite enquiry · '
+      'AI: the duty phone: a script you can follow when half awake',
+cando=['ask indirect questions politely and accurately',
+       'describe how an out-of-hours duty system works',
+       'follow and improve a duty script',
+       'say why a script must begin with where you are now',
+       'write a six-line duty script'],
+
+hero=('A SCRIPT THAT ASKED NINE GOOD QUESTIONS AND NOT THE FIRST ONE',
+      ['Could you tell me what has happened? asked the officer, at ten past two.',
+       'The line went dead at the fourth question, and nobody knew where she was.'],
+      [(720, 'blue', 'short'), (720, 'grey', 'short'), (720, 'teal', 'long')]),
+hero_cap='A kitchen table at ten past two in the morning, with a duty phone and a printed card.',
+
+warm=['Who answers your organisation’s telephone outside working hours?',
+      'What is the first question you would ask a stranger in trouble at night?',
+      'How well do you think clearly at two in the morning?'],
+
+read=[
+ 'Every mission keeps a duty phone. It is carried in turn, it rings rarely, and when it '
+ 'rings the officer holding it has about four seconds of clear thought before they are '
+ 'fully awake. Everything about the system is designed around that fact.',
+ 'The calls divide into three kinds. Most are not emergencies at all and could have waited '
+ 'until Monday. A few are genuine and ordinary: a lost passport, a hospital, a traveller '
+ 'with no money. A very small number are serious and will be remembered for years.',
+ 'The duty officer works from a script. Not because officers cannot think, but because at '
+ 'ten past two nobody thinks in the right order. A script asks the questions in the order '
+ 'that matters, and it does not forget the fourth one because the third one was upsetting.',
+ 'In February the section replaced its old card with a script generated from two hundred '
+ 'logged calls. It was better than the card in almost every way: clearer, better ordered, '
+ 'and it covered six situations the card had never mentioned.',
+ 'It opened with the question the logs most often began with: could you tell me what has '
+ 'happened? That is a good question and it is not the first one. The first one is where '
+ 'you are now, because a call can end at any moment.'],
+
+dp1=('The first question is location', 'Emergency call-handling practice commonly places '
+     'the caller’s present location and a call-back number before the nature of the '
+     'incident, because a call that is cut off can still be acted on if those two facts '
+     'have been captured.',
+     'Source: reported emergency call-handling practice, 2025–2026.'),
+
+c_a=[('How often does the duty phone ring?', 'rarely'),
+     ('How many kinds of call are there?', 'three'),
+     ('Why is a script used?', 'at two in the morning nobody thinks in the right order'),
+     ('Where did the new script come from?', 'two hundred logged calls'),
+     ('What question did it open with?', 'could you tell me what has happened'),
+     ('What should the first question be?', 'where you are now')],
+
+c_b=[('Most duty calls are genuine emergencies.', 'F'),
+     ('A script exists because officers cannot think.', 'F'),
+     ('The new script was worse than the old card.', 'F'),
+     ('It covered six new situations.', 'T'),
+     ('What has happened is a bad question.', 'F'),
+     ('A call can end at any moment.', 'T')],
+
+c_c=[('Could you tell me ____________ you are now?', 'where'),
+     ('Do you know ____________ the number is?', 'what'),
+     ('May I ask ____________ you are travelling alone?', 'whether'),
+     ('Could you tell me ____________ it happened?', 'when'),
+     ('Do you know ____________ took her to the hospital?', 'who'),
+     ('Can you tell me ____________ you are calling from a mobile?', 'if')],
+
+c_d=[('In an indirect question the word order is ( like a statement / like a question ).', ['like a statement', 'like a question'], 0),
+     ('The first question on a duty call should be ( location / the story ).',
+      ['location', 'the story'], 0),
+     ('Most duty calls are ( not emergencies / serious ).', ['not emergencies', 'serious'], 0),
+     ('The new script was built from ( logged calls / a textbook ).',
+      ['logged calls', 'a textbook'], 0),
+     ('A script protects against ( forgetting under stress / lack of knowledge ).',
+      ['forgetting under stress', 'lack of knowledge'], 0)],
+
+c_e=('Direct or indirect? Put each question in the right column.',
+     [('Where are you now?', 'direct'),
+      ('Could you tell me where you are now?', 'indirect'),
+      ('What is the number?', 'direct'),
+      ('Do you know what the number is?', 'indirect'),
+      ('Are you alone?', 'direct'),
+      ('May I ask whether you are alone?', 'indirect')],
+     ['direct', 'indirect']),
+
+v_fig_title='THE NIGHT AND THE TELEPHONE',
+v_fig=[('clock', 'an out-of-hours rota'), ('doc', 'a call log'), ('chart', 'a decision tree'),
+       ('key', 'a call-out'), ('people', 'a contact tree'), ('door', 'a stand-down')],
+v_fig_cap='Six words for the hours when a mission is one person and a telephone.',
+
+vocab=[
+ ('an out-of-hours rota', 'the list showing who carries the duty phone and when'),
+ ('a call log', 'the record of calls received, with times and outcomes'),
+ ('a decision tree', 'a set of questions in which each answer leads to the next step'),
+ ('a checklist', 'a list of items to be confirmed in order'),
+ ('a script', 'the written words an officer uses, in a fixed order'),
+ ('a cut-off time', 'the hour after which a different procedure applies'),
+ ('a call-out', 'the summoning of an officer to deal with something at once'),
+ ('a stand-down', 'the formal end of an alert'),
+ ('a situation report', 'a short written account of what is known at a given time'),
+ ('a casualty', 'a person injured or killed in an incident'),
+ ('an incident', 'an event requiring a response'),
+ ('a time of first contact', 'the moment the mission first learned of something'),
+ ('a verification step', 'an action taken to confirm that information is correct'),
+ ('a false alarm', 'a report of something that turns out not to have happened'),
+ ('an escalation path', 'the order in which people are told as a matter grows'),
+ ('a contact tree', 'the list of who telephones whom, in order'),
+ ('a wake-up call', 'a call that must be answered even when a person is asleep'),
+ ('a night shift', 'a period of duty worked during the night'),
+ ('a fatigue error', 'a mistake made because the person making it was tired'),
+ ('a confirmation call', 'a second call made to check that a message was received')],
+
+v_a=[('The list showing who carries the duty phone is an ____________ rota.', 'out-of-hours'),
+     ('A set of questions in which each answer leads on is a decision ____________.', 'tree'),
+     ('The formal end of an alert is a ____________.', 'stand-down'),
+     ('The moment the mission first learned of something is the time of first ____________.', 'contact'),
+     ('A report of something that did not happen is a ____________ alarm.', 'false'),
+     ('The order in which people are told is an ____________ path.', 'escalation'),
+     ('A mistake made through tiredness is a ____________ error.', 'fatigue'),
+     ('A short written account of what is known is a situation ____________.', 'report')],
+
+v_b=[('A call log is the record of calls received,', 'with times and outcomes.'),
+     ('A cut-off time is the hour after which', 'a different procedure applies.'),
+     ('A verification step is an action taken', 'to confirm that information is correct.'),
+     ('A contact tree is the list of who telephones whom,', 'in order.'),
+     ('A confirmation call is a second call made', 'to check that a message was received.')],
+
+g_title='Grammar: indirect questions and polite enquiry',
+g_rule=['Indirect questions use statement word order: Could you tell me where you are?',
+        'No do or did: Do you know what the number is? not what does the number is.',
+        'For yes/no questions use if or whether: May I ask whether you are alone?',
+        'Openers: Could you tell me…, Do you know…, May I ask…, I wonder whether…'],
+g_fig=('WRONG',
+       ['Could you tell me where are you?',
+        'Do you know what is the number?',
+        'May I ask are you alone?',
+        'Can you tell me when did it happen?'],
+       'RIGHT',
+       ['Could you tell me where you are?',
+        'Do you know what the number is?',
+        'May I ask whether you are alone?',
+        'Can you tell me when it happened?'],
+       'four polite questions with question word order',
+       'the same four, with statement word order'),
+g_fig_cap='Once you have said could you tell me, the rest is a statement.',
+
+g_a=[('Could you tell me where ____________ (you are) now?', 'you are'),
+     ('Do you know what ____________ (the number is)?', 'the number is'),
+     ('May I ask ____________ you are travelling alone?', 'whether'),
+     ('Can you tell me when ____________ (it happened)?', 'it happened'),
+     ('Do you know who ____________ (took her) to the hospital?', 'took her'),
+     ('I wonder ____________ you could spell the street name.', 'whether'),
+     ('Could you tell me how long ____________ (you have been) there?', 'you have been'),
+     ('May I ask why ____________ (you did not) call earlier?', 'you did not'),
+     ('Do you know ____________ there is anybody with her?', 'whether')],
+
+g_b=[('Could you tell me where ( are you / you are )?', ['are you', 'you are'], 1),
+     ('Do you know what ( the number is / is the number )?',
+      ['the number is', 'is the number'], 0),
+     ('May I ask ( whether you are / are you ) alone?', ['whether you are', 'are you'], 0),
+     ('Can you tell me when ( it happened / did it happen )?',
+      ['it happened', 'did it happen'], 0),
+     ('I wonder ( whether / that ) you could spell it.', ['whether', 'that'], 0),
+     ('Do you know who ( took her / did take her ) there?', ['took her', 'did take her'], 0)],
+
+d1=dict(
+ title='Where are you now?',
+ fig=(['The line went dead at question four.', 'What were one to three?'],
+      ['What happened, when, who with.', 'And not where she was.']),
+ cap='Bassel Tannous and Nour, the morning after a call at ten past two.',
+ lines=[('Bassel', 'The call ended at the fourth question.'),
+        ('Nour', 'What were the first three?'),
+        ('Bassel', 'What has happened. When did it happen. Who is with you.'),
+        ('Nour', 'All good questions.'),
+        ('Bassel', 'All good, and none of them is where are you now.'),
+        ('Nour', 'She had already said she was in the north.'),
+        ('Bassel', 'The north is four hundred kilometres long.'),
+        ('Nour', 'Could we not call her back?'),
+        ('Bassel', 'The number was a hotel reception, and the hotel had six branches.'),
+        ('Nour', 'So the first question has to be location.'),
+        ('Bassel', 'Location, then a number that reaches her directly. Everything else is second.'),
+        ('Nour', 'Even if she is crying?'),
+        ('Bassel', 'Especially then, because that is when a call is most likely to end.')],
+ a=[('At which question did the call end?', 'the fourth'),
+    ('What were the first three?', 'what happened, when, and who is with you'),
+    ('What was missing?', 'where are you now'),
+    ('Why was the number useless?', 'it was a hotel reception with six branches'),
+    ('What are the first two questions now?', 'location, then a direct number')],
+ b=[('The call ____________ at the fourth question.', 'ended'),
+    ('The north is four hundred kilometres ____________.', 'long'),
+    ('A number that ____________ her directly.', 'reaches'),
+    ('That is when a call is most likely to ____________.', 'end')]),
+
+d2=dict(
+ title='A better script that was still missing one line',
+ fig=(['It was built from two hundred calls.', 'And it was better?'],
+      ['In every way but one.', 'The one that was never asked.']),
+ cap='Rim Haddad and Bassel, rebuilding the duty card.',
+ lines=[('Rim', 'The new script is better than the old card. I want to say that first.'),
+        ('Bassel', 'It is. It covers six situations we had never written down.'),
+        ('Rim', 'It was built from what we actually said on two hundred calls.'),
+        ('Bassel', 'Which is why it opens the way we open.'),
+        ('Rim', 'And we open badly. We always have.'),
+        ('Bassel', 'So it learned our habit and made it tidier.'),
+        ('Rim', 'It cannot know that the habit is the fault.'),
+        ('Bassel', 'No. It can tell us what we do. It cannot tell us what we should do.'),
+        ('Rim', 'Then we put location and a direct number at the top, by hand.'),
+        ('Bassel', 'And we keep the other nine questions, which are better than mine were.'),
+        ('Rim', 'If the call ends after two questions, we still have something.'),
+        ('Bassel', 'And if the caller will not say where they are, because somebody is listening?')],
+ unresolved=True,
+ a=[('What was the new script built from?', 'two hundred logged calls'),
+    ('Why does it open badly?', 'it learned the section’s own habit'),
+    ('What can it tell them?', 'what they do, not what they should do'),
+    ('What goes at the top now?', 'location and a direct number'),
+    ('What is kept?', 'the other nine questions')],
+ b=[('It learned our habit and made it ____________.', 'tidier'),
+    ('It cannot tell us what we ____________ do.', 'should'),
+    ('We put location and a direct ____________ at the top.', 'number'),
+    ('If the call ____________ after two questions, we still have something.', 'ends')]),
+
+speak=[('Ask it politely',
+        ['Turn twelve direct questions into indirect ones, aloud.',
+         'Your partner rejects any with question word order.',
+         'Then do six in the other direction, from indirect to direct.']),
+       ('Two in the morning',
+        ['Student A telephones in difficulty; Student B follows a script.',
+         'B must obtain location and a direct number within thirty seconds.',
+         'A ends the call at a random moment. See what B has.']),
+       ('What we do and what we should do',
+        ['Describe how your organisation actually handles something.',
+         'Then describe how it should handle it.',
+         'Your partner says which parts of the habit are worth keeping.'])],
+
+ext_title='A script built from what you do will polish your habits, including the bad ones',
+ext_fig=figs.datatable('TWO HUNDRED LOGGED CALLS',
+                       ['Question', 'Asked first in', 'Should be asked'],
+                       [['what has happened', '164 calls', 'third'],
+                        ['where are you now', '21 calls', 'first'],
+                        ['a direct number', '9 calls', 'second'],
+                        ['who is with you', '4 calls', 'fourth'],
+                        ['are you safe now', '2 calls', 'fifth'],
+                        ['is anybody listening', '0 calls', 'sometimes sixth']]),
+ext_fig_cap='The habit and the right order are almost exactly opposite.',
+ext=[
+ 'A duty script is one of the clearest wins available to a small mission. It costs nothing, '
+ 'it is used a few times a month, and it protects the one moment when an officer is least '
+ 'able to protect themselves: the first ninety seconds after being woken.',
+ 'Building one from the section’s own logged calls is a good idea and produces a better '
+ 'script than most officers would write from memory. It captures the situations that '
+ 'actually arise, in the words the section actually uses, including several nobody had '
+ 'thought to write down.',
+ 'The danger is subtle. A script learned from what a section does will reproduce what the '
+ 'section does, polished and better organised. If the section has always opened with what '
+ 'has happened, the script will open with what has happened, and it will do so confidently.',
+ 'Habits are not evidence. The right first question on an emergency call is where are you '
+ 'now, followed by a number that reaches the caller directly, because a call can end at any '
+ 'moment and those two facts allow everything else to be done without the caller.',
+ 'So use the logs for coverage and a person for order. Ask what situations appear, what '
+ 'questions were useful, what nobody thought to ask. Then put the two questions that '
+ 'survive a dropped line at the top yourself, and keep the rest.'],
+
+dp2=('Why order matters more than content', 'Call-handling guidance commonly notes that the '
+     'sequence of questions is more important than their completeness, because an '
+     'interrupted call yields only the answers given before the interruption.',
+     'Source: reported emergency call-handling practice, 2025–2026.'),
+
+e_a=[('What does a duty script protect?', 'the first ninety seconds after an officer is woken'),
+     ('What is good about building one from logs?', 'it captures the situations that actually arise'),
+     ('What is the danger?', 'it reproduces the section’s habits, polished'),
+     ('What are the right first two questions?', 'where are you now, and a direct number'),
+     ('How should the logs be used?', 'for coverage, with a person deciding the order')],
+e_b=[('A duty script is expensive.', 'F'),
+     ('Logs show what situations actually arise.', 'T'),
+     ('A habit is a kind of evidence.', 'F'),
+     ('An interrupted call yields only early answers.', 'T'),
+     ('Order matters less than completeness.', 'F'),
+     ('The script covered situations nobody had written down.', 'T')],
+
+w_model='Purpose: so that an officer woken at 02:00 captures the two facts that survive a '
+        'dropped call. Scope: calls to the duty phone; counter and daytime calls are '
+        'covered separately. Inputs: 200 logged calls for coverage, and the consul for '
+        'order. Criteria: 6 numbered questions, the first being location and the second a '
+        'direct number, each under 12 words. Done: 6 lines on a card by every duty phone, '
+        'by 1 March. Fallback: if the caller will not give a location, ask for the nearest '
+        'landmark and do not press.',
+w_fig=figs.spec_card('SIX QUESTIONS IN ORDER',
+                     [('Purpose', 'the two facts that survive a dropped call'),
+                      ('Scope', 'duty phone calls only'),
+                      ('Inputs', '200 logs for coverage, the consul for order'),
+                      ('Criteria', 'location first, direct number second, under 12 words each'),
+                      ('Done', 'a card by every duty phone by 1 March'),
+                      ('Fallback', 'no location: ask for the nearest landmark, do not press')]),
+w_fig_cap='A card is read in the dark, so every line is short and numbered.',
+w_task='Write a six-line duty script.',
+w_steps=['Question 1: where the caller is now, in under twelve words.',
+         'Question 2: a number that reaches the caller directly.',
+         'Question 3: what has happened.',
+         'Question 4: who is with them.',
+         'Question 5: whether they are safe at this moment.',
+         'Line 6: what you say before you hang up, word for word.'],
+w_bank=['Could you tell me exactly where you are at the moment?',
+        'Do you know a number where I can reach you directly?',
+        'Could you tell me what has happened?',
+        'May I ask whether anybody is with you?',
+        'I am going to telephone you back in … minutes from this number.'],
+w_check=['Is location the first question?',
+         'Is every question under twelve words?',
+         'Are all the questions indirect and polite?',
+         'Does line 6 give a time and a number?'],
+
+t_title='The duty phone: a script you can follow when half awake',
+t_fig=figs.split('BUILDING A DUTY SCRIPT',
+                 'Use the logs for this',
+                 ['which situations actually arise',
+                  'which questions produced useful answers',
+                  'what wording callers understood',
+                  'what nobody ever thought to ask'],
+                 'Decide this yourself',
+                 ['which question comes first',
+                  'what must survive a dropped line',
+                  'what you say before you hang up',
+                  'when to leave the script entirely']),
+t_fig_cap='Coverage from the logs. Order from a person who has thought about dropped calls.',
+t_body=[
+ 'Give the logs to a system and ask three questions of them. What situations occur? Which '
+ 'questions produced answers that were used later? Which questions were never asked at all? '
+ 'The third answer is the most valuable and the hardest to see from inside a section.',
+ 'What you must not do is ask for a script. A script built from the logs will be an '
+ 'improved version of the section’s habits, and habits are not the same as good practice. '
+ 'A bad opening, repeated two hundred times, looks like evidence of a good opening.',
+ 'So write the order yourself, around one question: if this call ends after twenty seconds, '
+ 'what must I already have? Location and a direct number. Everything else, however '
+ 'important, is third, and a tired officer with a numbered card will get there.'],
+t_say=[('Ask what occurs: ', 'Which situations appear in these 200 calls, and how often?'),
+       ('Ask what is missing: ', 'Which questions were never asked in any of them?'),
+       ('Set the order yourself: ', 'Location first, direct number second, whatever the logs show.')],
+t_bound='A script generated from past calls reproduces the practice it was trained on, '
+        'including its mistakes. It cannot tell you that your usual opening question is the '
+        'wrong one, because every example it has seen begins that way.',
+t_a=[('Which situations appear in these two hundred ____________?', 'calls'),
+     ('Which questions were ____________ asked?', 'never'),
+     ('Location first, direct ____________ second.', 'number'),
+     ('It reproduces the practice it was ____________ on.', 'trained'),
+     ('Every example it has seen ____________ that way.', 'begins'),
+     ('If this call ends after twenty ____________, what must I have?', 'seconds')],
+t_b_rubric='Say what the logs can and cannot settle.',
+t_b=[('Which situations arise at night.', 'the logs can settle this, and should'),
+     ('Which question should come first.', 'the logs cannot settle this; they record a habit'),
+     ('What wording callers understood.', 'the logs can help, where answers followed'),
+     ('What nobody ever asked.', 'the logs show the gap, which is their best use')],
+
+case=dict(
+ title='The Decision Room · The call that ended at question four',
+ brief=[
+  'At 02:10 the duty phone rings. A woman says that her husband has been taken to a '
+  'hospital somewhere in the north and that she does not know what to do. The officer '
+  'follows the new script, which opens with what has happened.',
+  'At the fourth question the line goes dead. The officer has the story, the time and the '
+  'names. He does not have her location or a number that reaches her: the number shown is a '
+  'hotel reception, and that chain has six branches in the north.',
+  'It takes until 06:40 to find her, by telephoning all six hotels. Nothing worse happened '
+  'in those four and a half hours, and the officer spent all of them believing that '
+  'something might be.'],
+ exhibit=figs.datatable('THE FIRST FOUR QUESTIONS',
+                        ['Order', 'Question asked', 'Answer obtained', 'Useful after the call?'],
+                        [['1', 'what has happened', 'yes', 'no'],
+                         ['2', 'when did it happen', 'yes', 'no'],
+                         ['3', 'who is with you', 'yes', 'no'],
+                         ['4', 'where are you now', 'line dropped', '—'],
+                         ['not asked', 'a direct number', '—', '—'],
+                         ['result', '—', '—', '4h 30m to locate']]),
+ exhibit_cap='Three questions answered, and not one of the three could be used once the line went dead.',
+ exhibit_note='The script was better than what it replaced. Its only fault was the order, '
+              'and the order came from two hundred examples of the section doing it wrongly.',
+ voices=[('Bassel Tannous', 'consul',
+          'The script is good. It covers six situations the old card never mentioned.'),
+         ('Rim Haddad', 'consular assistant',
+          'It is good and it opens the way we have always opened, which is how we lost her for four hours.'),
+         ('Nour Ajami', 'third secretary',
+          'It was built from our own calls. We taught it a habit and it gave the habit back, tidied.')],
+ steps=[('Find it', 'Which question was asked fourth?'),
+        ('Compare it', 'Which answers were useful after the line dropped?'),
+        ('Infer it', 'Why did the script open as it did?'),
+        ('Weigh it', 'Two reordered questions against four and a half hours of searching.'),
+        ('Decide', 'How is the order of a duty script decided?')],
+ analysis=[('Find it. Which question was fourth?', 'where are you now'),
+           ('Compare it. Which answers were useful afterwards?', 'none of the three'),
+           ('Infer it. Why did it open that way?', 'it was built from two hundred calls that opened that way'),
+           ('Weigh it. What did it cost?', 'four and a half hours to locate the caller'),
+           ('Decide. Who decides the order?', 'a person, around the question of a dropped call')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what the logs are used for.',
+                 'Say who decides the order of the questions.',
+                 'Say what the first two questions must be.',
+                 'Say what happens if a caller will not give a location.'],
+ bank=['The logs are used to find which situations occur and which questions were never asked.',
+       'The order of the script is decided by the consul, not by the logs.',
+       'The first question is the caller’s present location; the second is a direct number.',
+       'Where a caller will not give a location, the nearest landmark is asked for and not pressed.'],
+ outcome='The script keeps all eleven of its questions and changes their order. Location '
+         'first, a direct number second, and a line at the end that the officer says before '
+         'hanging up: I am going to telephone you back in ten minutes from this number. '
+         'Bassel writes the order himself and records why, so that the next officer who '
+         'regenerates the script from the logs does not quietly undo it.',
+ outcome_q=[('How many questions does the script keep?', 'eleven'),
+            ('What changed?', 'their order'),
+            ('What is the first question?', 'where the caller is now'),
+            ('What does the officer say before hanging up?', 'that they will call back in ten minutes'),
+            ('Why did Bassel record the reason?', 'so a later regeneration does not undo it')],
+ tags=['sceptic_right']),
+
+lab=dict(
+ title='Brief Lab · Cover the duty phone this weekend',
+ task=['A junior officer was asked to carry the duty phone for the first time.',
+       'This is the instruction as it was given, and what the weekend produced.'],
+ draft=['Cover the duty phone this weekend.',
+        'Answer anything that comes in.',
+        'Take the usual details.',
+        'Escalate if it is serious.',
+        'Write it up afterwards.',
+        'Call me if you are not sure.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and not one of them says which details, in which order, or what serious means.',
+ asked=['The phone covered', 'The usual details', 'Serious cases escalated'],
+ back=['9 calls', '3 with no location recorded', '1 escalated at 09:00 on Monday'],
+ gap='Nobody said the order of questions, the triggers for escalation, or when a write-up is due.',
+ back_cap='Nine calls, three without a location, and one escalation that waited until Monday.',
+ back_note='Call me if you are not sure sounds generous and is unusable at 02:00 by somebody '
+           'who does not want to wake their consul for a lost passport.',
+ diagnosis=[('“anything that comes in”', 'unscoped set'),
+            ('“the usual details”', 'unscoped set'),
+            ('“if it is serious”', 'unstated criterion'),
+            ('“call me if you are not sure”', 'unstated criterion'),
+            ('“write it up afterwards”', 'undefined done'),
+            ('“escalate”', 'undefined done')],
+ rewrite='Rewrite it on the six lines so that a tired officer cannot get the order wrong.',
+ scaffold=['why the duty phone exists',
+           'which calls are covered and which are not',
+           'the questions, in order, with the first two named',
+           'what escalation means, by trigger and by minutes',
+           'what is written, where and by when',
+           'what to do when the officer is unsure'],
+ bank=['Purpose: so that a citizen in difficulty at night reaches a person who can act',
+       'Scope: calls to the duty number between … and … ; counter enquiries are not covered',
+       'Inputs: the duty card, read in order; nothing is improvised',
+       'Criteria: question 1 is location, question 2 is a direct number, then the other … ',
+       'Done: a 6-line log entry before going back to sleep, and a call to … within … minutes',
+       'Fallback: if unsure, treat the call as serious and telephone the consul'],
+ check=['Are the first two questions named?',
+        'Is escalation defined by trigger and minutes?',
+        'Is the write-up required before sleep?',
+        'Does the unsure case have a default?'],
+ model=['so that a citizen in difficulty at night reaches a person who can act',
+        'calls to the duty number between 17:00 Friday and 08:00 Monday; counter enquiries excluded',
+        'the duty card, read in order; nothing is improvised at 02:00',
+        'question 1 is location, question 2 is a direct number, then the other 9 in order',
+        'a 6-line log entry before going back to sleep; the consul is called within 30 minutes on any trigger',
+        'if the officer is unsure, the call is treated as serious and the consul is telephoned'],
+ cost='3 calls without a location cost 4 hours 30 minutes of searching on 1 occasion. '
+      '2 reordered questions would have cost nothing at all.'),
+
+feet=dict(
+ title='On Your Feet · Ten past two, and the line may not hold',
+ setting=[
+  'The duty phone wakes you at 02:10. A woman is speaking quickly, in a mixture of English '
+  'and the local language, and the line is poor. You can hear that she is outdoors. You '
+  'have been awake for eleven seconds.',
+  'You have a numbered card beside the bed. You do not know yet whether this is serious. '
+  'You do know that the line may drop at any moment, and that everything depends on what '
+  'you have before it does.'],
+ ladder=[('Where are you?', 'the first question, always'),
+         ('A number that reaches you', 'the second, before anything else'),
+         ('Please help me', 'the turn that pulls you off the card')],
+ cap='Three turns, a bad line, and a card you must not abandon.',
+ turns=[('Turn 1 · Caller', '(speaking quickly, poor line) They have taken him, they have taken him —'),
+        ('Turn 2 · Caller', 'I do not know, somewhere near the station, it was two hours ago —'),
+        ('Turn 3 · Caller', 'Please, please help me, I do not know what to do, are you listening?')],
+ holds=['I am listening and I am going to help. Could you tell me exactly where you are now?',
+        'Which town, and what is the nearest building you can see?',
+        'Do you know a number where I can reach you directly, in case we are cut off?',
+        'Thank you. I have both of those written down.',
+        'Now could you tell me what has happened, from the beginning?',
+        'If we are cut off, I will telephone you back in five minutes from this number.'],
+ redline='You must not begin with what has happened, you must not leave the card because '
+         'the caller is distressed, and you must not promise an outcome. Do not end the '
+         'call without telling her that you will ring back and when.',
+ score=['Asked for a location in the first sentence, while saying you are listening.',
+        'Took a direct number before taking the story.',
+        'Repeated both back so that they were certainly correct.',
+        'Stayed on the card under emotional pressure.',
+        'Told her you would ring back, with a time and a number.'],
+ a=[('What is the first question?', 'where she is now'),
+    ('What is the second?', 'a number that reaches her directly'),
+    ('What do you do with both?', 'repeat them back'),
+    ('Why not start with the story?', 'the line may drop and the story cannot be acted on'),
+    ('What must you not promise?', 'an outcome'),
+    ('What do you say before ending?', 'that you will ring back, with a time and a number')]),
+
+rev_fig=figs.split('A DUTY CALL',
+                   'An order that fails',
+                   ['What has happened?',
+                    'When did it happen?',
+                    'Who is with you?',
+                    'And where are you?'],
+                   'An order that survives',
+                   ['Where are you now, exactly?',
+                    'A number that reaches you directly?',
+                    'What has happened?',
+                    'Who is with you?']),
+rev_fig_cap='The right-hand order gives you something to act on after twenty seconds.',
+rev=dict(
+ read=[('How many logged calls built the script?',
+        ['two hundred', 'twenty', 'two thousand', 'nine'], 0),
+       ('What should the first question be?',
+        ['where you are now', 'what has happened', 'when it happened', 'who is with you'], 0),
+       ('How long did it take to find the caller?',
+        ['four and a half hours', 'ten minutes', 'two days', 'one hour'], 0),
+       ('Who decides the order of a duty script?',
+        ['the consul', 'the logs', 'the caller', 'the system'], 0)],
+ listen_text='Use the logs for coverage and a person for order. Ask which situations occur '
+             'and which questions were never asked. Then put location and a direct number '
+             'at the top yourself, because a call can end at any moment.',
+ listen=[('Use the logs for ____________.', 'coverage'),
+         ('Ask which questions were ____________ asked.', 'never'),
+         ('Put location and a direct ____________ at the top.', 'number'),
+         ('A call can end at any ____________.', 'moment')],
+ speak=['Turn twelve direct questions into polite indirect ones at speed.',
+        'Then take a duty call from your partner and obtain two facts in thirty seconds.'],
+ write='Write a six-line duty script.',
+ vocab=[('The list of who carries the duty phone is an ____________ rota.', 'out-of-hours'),
+        ('The formal end of an alert is a ____________.', 'stand-down'),
+        ('A mistake made through tiredness is a ____________ error.', 'fatigue'),
+        ('The order in which people are told is an ____________ path.', 'escalation')],
+ gram=[('Could you tell me where ____________ now?', 'you are'),
+       ('Do you know what ____________?', 'the number is'),
+       ('May I ask ____________ you are alone?', 'whether'),
+       ('Can you tell me when ____________?', 'it happened')]),
+
+found=['Write your own duty card with location as question one and test it on a colleague.',
+       'Read your section’s call logs and list the questions nobody ever asked.',
+       'Practise obtaining a location and a number in under thirty seconds.',
+       'Write down why your script is in its order, so that nobody quietly reverses it.'],
+end_line='Logs give coverage. A person gives the order. Location first, because lines drop.',
+end_next='Next: Notes That Become a Record')

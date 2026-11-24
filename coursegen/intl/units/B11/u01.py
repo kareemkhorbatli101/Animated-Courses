@@ -1,0 +1,552 @@
+# -*- coding: utf-8 -*-
+import figs
+
+U = dict(
+num=1,
+title='The Window Opens',
+gram='the passive in procedure and instruction',
+ai='a queue triaged when the desk shares no language with it',
+strap='CEFR B1 · Grammar: the passive in procedure and instruction · '
+      'AI: a queue triaged when the desk shares no language with it',
+cando=['use the passive to describe a procedure clearly',
+       'sort a queue of enquiries into urgent and routine',
+       'explain a process to somebody who is anxious',
+       'say which enquiry a system will sort wrongly',
+       'write a six-line tasking for triage at a counter'],
+
+hero=('FORTY-ONE PEOPLE, ELEVEN LANGUAGES, AND ONE WHO SHOULD NOT HAVE BEEN WAITING',
+      ['The sorting was fast, consistent and right about forty of them.',
+       'The forty-first had a flight in four hours and had written nothing down.'],
+      [(720, 'grey', 'short'), (720, 'teal', 'long'), (720, 'blue', 'short')]),
+hero_cap='The consular section in Port Sable at nine o’clock, with the window about to open.',
+
+warm=['What happens in the first ten minutes when a public counter opens?',
+      'How do you tell an urgent case from an ordinary one?',
+      'What does somebody in trouble look like in a queue?'],
+
+read=[
+ 'The consular window opens at nine. By a quarter past, forty-one people are waiting, and '
+ 'they have come with eleven languages between them.',
+ 'Each person fills in a short slip: name, document, and in two lines what they want. Some '
+ 'write in English, most write in the host language, and four write in a third language that '
+ 'nobody at the desk reads.',
+ 'Daniel Osei has the slips photographed and sorted. A system reads all forty-one, '
+ 'translates them, and groups them into five queues: passports, visas, certificates, '
+ 'notarial work and other.',
+ 'The sorting takes two minutes and is consistent, which the old method never was. The old '
+ 'method was Amara reading slips in the doorway while the queue grew behind her.',
+ 'One slip says only: my son, hospital, Tuesday. It is sorted into other, because it asks '
+ 'for nothing. The woman who wrote it has been at the hospital since Tuesday and her flight '
+ 'home leaves in four hours.'],
+
+dp1=('Triage at a public counter', 'Consular practice commonly provides for the early '
+     'identification of urgent cases at a public counter, since the cases that cannot wait '
+     'are frequently the ones that are least clearly expressed.',
+     'Source: general consular practice literature, 2025–2026.'),
+
+c_a=[('What time does the window open?', 'at nine'),
+     ('How many people are waiting at a quarter past?', 'forty-one'),
+     ('How many languages are there?', 'eleven'),
+     ('How long does the sorting take?', 'two minutes'),
+     ('Into how many queues?', 'five'),
+     ('What does the difficult slip say?', 'my son, hospital, Tuesday')],
+
+c_b=[('Everybody writes in English.', 'F'),
+     ('The sorting is quicker than the old method.', 'T'),
+     ('The old method was consistent.', 'F'),
+     ('The difficult slip asks for a document.', 'F'),
+     ('The woman has been at the hospital since Tuesday.', 'T'),
+     ('Her flight leaves tomorrow.', 'F')],
+
+c_c=[('The slips ____________ collected at the door.', 'are'),
+     ('Each slip ____________ photographed before it is sorted.', 'is'),
+     ('Urgent cases ____________ taken to an officer at once.', 'are'),
+     ('The queue ____________ called in order of arrival.', 'is'),
+     ('Documents ____________ checked at the second window.', 'are'),
+     ('Nothing ____________ decided at the counter itself.', 'is')],
+
+c_d=[('The passive is used in procedure because ( it is polite / the actor is obvious or unimportant ).', ['it is polite', 'the actor is obvious or unimportant'], 1),
+     ('“The slips are collected” is ( passive / active ).', ['passive', 'active'], 0),
+     ('The sorting was wrong about ( one slip / most slips ).', ['one slip', 'most slips'], 0),
+     ('The difficult slip was sorted into other because ( it asked for nothing / it was in English ).',
+      ['it asked for nothing', 'it was in English'], 0),
+     ('An urgent case is often ( badly expressed / clearly written ).',
+      ['badly expressed', 'clearly written'], 0)],
+
+c_e=('Passive, active or instruction? Put each one in the right column.',
+     [('The slips are collected at the door', 'passive'),
+      ('Collect the slips at the door', 'instruction'),
+      ('Amara collects the slips', 'active'),
+      ('Urgent cases are taken to an officer', 'passive'),
+      ('Take urgent cases to an officer', 'instruction'),
+      ('The officer sees them first', 'active')],
+     ['passive', 'instruction', 'active']),
+
+v_fig_title='A PUBLIC COUNTER IN SIX WORDS',
+v_fig=[('people', 'a queue'), ('doc', 'an enquiry slip'), ('key', 'a triage'),
+       ('clock', 'a waiting time'), ('chart', 'a case category'), ('speech', 'a counter interview')],
+v_fig_cap='Six words for the first fifteen minutes of a consular morning.',
+
+vocab=[
+ ('a queue', 'a line of people waiting'),
+ ('an enquiry slip', 'a short form saying what a caller wants'),
+ ('a triage', 'the sorting of cases by urgency'),
+ ('a waiting time', 'how long people wait to be seen'),
+ ('a case category', 'the group a case belongs to'),
+ ('a counter interview', 'a short conversation at a public window'),
+ ('a walk-in', 'a caller who comes without an appointment'),
+ ('an appointment slot', 'a time booked for one caller'),
+ ('an urgent case', 'a case that cannot wait'),
+ ('a routine case', 'a case that can wait its turn'),
+ ('a referral', 'sending a case to somebody else'),
+ ('a case number', 'the number given to a case'),
+ ('a public hour', 'an hour when the public may come'),
+ ('a screen announcement', 'information shown on a screen'),
+ ('a ticket number', 'a number showing a caller’s turn'),
+ ('a first contact', 'the first time a person reaches the Mission'),
+ ('a distressed caller', 'a person who is upset or frightened'),
+ ('a standard enquiry', 'a question the section answers every day'),
+ ('an out-of-hours case', 'a case that arrives when the office is shut'),
+ ('a second window', 'a counter used for checking documents')],
+
+v_a=[('The sorting of cases by urgency is a ____________.', 'triage'),
+     ('A caller who comes without an appointment is a ____________.', 'walk-in'),
+     ('A case that cannot wait is an ____________ case.', 'urgent'),
+     ('Sending a case to somebody else is a ____________.', 'referral'),
+     ('A number showing a caller’s turn is a ____________ number.', 'ticket'),
+     ('A person who is upset or frightened is a ____________ caller.', 'distressed'),
+     ('A case that arrives when the office is shut is an ____________ case.', 'out-of-hours'),
+     ('The first time a person reaches the Mission is a first ____________.', 'contact')],
+
+v_b=[('An enquiry slip is a short form', 'saying what a caller wants.'),
+     ('A counter interview is a short conversation', 'at a public window.'),
+     ('A case category is the group', 'a case belongs to.'),
+     ('A standard enquiry is a question', 'the section answers every day.'),
+     ('A second window is a counter', 'used for checking documents.')],
+
+g_title='Grammar: the passive in procedure and instruction',
+g_rule=['The passive puts the action first and the actor last, or leaves the actor out: the '
+        'slips are collected at the door.',
+        'It is the usual voice for describing a procedure, because the actor is obvious or '
+        'does not matter.',
+        'Form it with be plus the past participle: is checked, are taken, was refused.',
+        'Use the active when a particular person must act: Amara sees distressed callers first.'],
+g_fig=('LOOSE',
+       ['Somebody collects the slips at the door.',
+        'We photograph each slip before sorting.',
+        'They take urgent cases to an officer.',
+        'Nobody decides anything at the counter.'],
+       'PRECISE',
+       ['The slips are collected at the door.',
+        'Each slip is photographed before it is sorted.',
+        'Urgent cases are taken to an officer at once.',
+        'Nothing is decided at the counter itself.'],
+       'four procedures told as stories about people',
+       'the same four as procedures that anybody can follow'),
+g_fig_cap='A procedure in the passive survives a change of staff. A story does not.',
+
+g_a=[('The slips ____________ collected at the door.', 'are'),
+     ('Each slip ____________ photographed before it is sorted.', 'is'),
+     ('Urgent cases ____________ taken to an officer at once.', 'are'),
+     ('The queue ____________ called in order of arrival.', 'is'),
+     ('Documents ____________ checked at the second window.', 'are'),
+     ('Nothing ____________ decided at the counter itself.', 'is'),
+     ('The case ____________ referred to the duty officer yesterday.', 'was'),
+     ('Ticket numbers ____________ issued from eight forty-five.', 'are'),
+     ('No fee ____________ taken in cash at this counter.', 'is')],
+
+g_b=[('( The slips are collected at the door / Somebody collects the slips ) — a procedure.', ['The slips are collected at the door', 'Somebody collects the slips'], 0),
+     ('( Urgent cases are taken to an officer / They take urgent cases ) — no actor needed.',
+      ['Urgent cases are taken to an officer', 'They take urgent cases'], 0),
+     ('( Amara sees distressed callers first / Distressed callers are seen first ) — name the person.',
+      ['Amara sees distressed callers first', 'Distressed callers are seen first'], 0),
+     ('( The case was referred yesterday / They referred the case yesterday ) — procedure in the past.',
+      ['The case was referred yesterday', 'They referred the case yesterday'], 0),
+     ('( No fee is taken in cash / We do not take cash ) — a rule on a notice.',
+      ['No fee is taken in cash', 'We do not take cash'], 0),
+     ('( Each slip is photographed / Each slip photographs ) — correct passive.',
+      ['Each slip is photographed', 'Each slip photographs'], 0)],
+
+d1=dict(
+ title='Five queues in two minutes',
+ fig=(['Forty-one slips, eleven languages.', 'And how long did it take?'],
+      ['Two minutes.', 'Amara used to take twenty.']),
+ cap='Daniel Osei and Amara Sow, at a quarter past nine.',
+ lines=[('Daniel', 'Forty-one slips this morning, in eleven languages.'),
+        ('Amara', 'And they are sorted already?'),
+        ('Daniel', 'In two minutes. Five queues: passports, visas, certificates, notarial, other.'),
+        ('Amara', 'It used to take me twenty minutes, and I sorted them differently on a bad day.'),
+        ('Daniel', 'That is the gain. It is consistent, and it reads the four slips we cannot.'),
+        ('Amara', 'Show me the “other” queue.'),
+        ('Daniel', 'Six slips. A lost receipt, two questions about fees, a complaint, a pension form.'),
+        ('Amara', 'And this one. My son, hospital, Tuesday.'),
+        ('Daniel', 'It asks for nothing, so it went into other.'),
+        ('Amara', 'It asks for everything. Where is she?'),
+        ('Daniel', 'Third row, by the window, with a bag.'),
+        ('Amara', 'Then bring her in now, and I will take the rest of the queue myself.')],
+ a=[('How many slips were there?', 'forty-one, in eleven languages'),
+    ('How long did the sorting take?', 'two minutes'),
+    ('How long did Amara take?', 'twenty minutes'),
+    ('Why did the slip go into “other”?', 'it asked for nothing'),
+    ('What does Amara do?', 'brings the woman in at once')],
+ b=[('It is ____________, and it reads the four slips we cannot.', 'consistent'),
+    ('It asks for ____________.', 'everything'),
+    ('Third row, by the ____________.', 'window'),
+    ('Bring her in ____________.', 'now')]),
+
+d2=dict(
+ title='Four hours to a flight',
+ fig=(['Her flight is at two.', 'And her son?'],
+      ['Still in hospital.', 'Then nothing else matters today.']),
+ cap='Amara Sow and Daniel Osei, twenty minutes later.',
+ lines=[('Amara', 'Her son was admitted on Tuesday. She has not slept since.'),
+        ('Daniel', 'And the flight?'),
+        ('Amara', 'Two o’clock. She has a ticket she cannot change and a passport that expires in June.'),
+        ('Daniel', 'So she does not need a document. She needs to decide whether to fly.'),
+        ('Amara', 'She needs somebody to tell her what happens if she stays.'),
+        ('Daniel', 'Which is twenty minutes of our morning and the whole of her year.'),
+        ('Amara', 'Her slip said eight words, and four of them were names.'),
+        ('Daniel', 'People in trouble write the fewest words. They assume we know.'),
+        ('Amara', 'So the shortest slips should be read by a person first.'),
+        ('Daniel', 'Yes. Any slip under ten words, and any slip with a hospital in it.'),
+        ('Amara', 'I will write that rule on the sorting sheet this afternoon.'),
+        ('Daniel', 'And what do we do with the ones that are simply badly written?')],
+ unresolved=True,
+ a=[('When was her son admitted?', 'on Tuesday'),
+    ('When is her flight?', 'at two o’clock'),
+    ('What does she actually need?', 'to know what happens if she stays'),
+    ('How long was her slip?', 'eight words'),
+    ('What rule will Amara write?', 'short slips and hospital slips go to a person first')],
+ b=[('She has not ____________ since.', 'slept'),
+    ('People in trouble write the ____________ words.', 'fewest'),
+    ('They assume we ____________.', 'know'),
+    ('Any slip under ____________ words.', 'ten')]),
+
+speak=[('Describe the procedure',
+        ['Describe a procedure at your work in nine passive sentences.',
+         'Your partner says who actually does each action.',
+         'Change three of them to the active where a person must be named.']),
+       ('Sort the queue',
+        ['Your partner reads you eight short enquiries.',
+         'Sort them into urgent and routine, and say why.',
+         'Agree which one you would read twice.']),
+       ('Eight words',
+        ['Write an enquiry of eight words that hides something serious.',
+         'Exchange with your partner.',
+         'Say what you would ask the writer first.'])],
+
+ext_title='Sorting is fast, consistent and literal, and the urgent case is often the one that asks for nothing',
+ext_fig=figs.datatable('FORTY-ONE SLIPS, FIVE QUEUES',
+                       ['Queue', 'Slips', 'Correctly sorted?'],
+                       [['passports', '14', 'yes'],
+                        ['visas', '9', 'yes'],
+                        ['certificates', '7', 'yes'],
+                        ['notarial', '5', 'yes'],
+                        ['other', '6', '5 of 6'],
+                        ['“my son, hospital, Tuesday”', 'in other', 'should have been first']]),
+ext_fig_cap='Forty of forty-one sorted correctly, and the forty-first had four hours.',
+ext=[
+ 'A consular counter produces a particular kind of material: short, handwritten, in many '
+ 'languages, written by people who are tired, worried or in a hurry. Sorting it by hand is '
+ 'slow and uneven, and the unevenness is the real problem.',
+ 'A system sorts forty-one slips into five categories in two minutes, reads the four that '
+ 'nobody at the desk can read, and sorts them the same way on a bad Monday as on a quiet '
+ 'Thursday.',
+ 'That consistency is worth more than the speed. The old method depended on who was in the '
+ 'doorway and how long the queue was, and nobody could say afterwards why a slip had gone '
+ 'where it went.',
+ 'Sorting works on what is written. A slip that asks for a passport is a passport case. A '
+ 'slip that asks for nothing is sorted into “other”, because “other” is what a system does '
+ 'with a sentence it cannot place.',
+ 'People in trouble write the fewest words. They assume that the Mission already knows about '
+ 'the accident, the hospital and the flight, because the whole of their week has been about '
+ 'nothing else.',
+ 'So add two rules to any sorting: every slip of fewer than ten words is read by a person, '
+ 'and every slip containing a hospital, a police station or a child is read by a person. '
+ 'Both rules cost about a minute a day.'],
+
+dp2=('Expression and urgency', 'Studies of public-service counters commonly find no '
+     'relationship between the clarity of a written enquiry and its urgency, and often an '
+     'inverse one, since distressed callers write less and assume more.',
+     'Source: general public service practice literature, 2025–2026.'),
+
+e_a=[('What kind of material does a counter produce?', 'short handwritten notes in many languages'),
+     ('What is the real problem with sorting by hand?', 'it is uneven'),
+     ('Why is consistency worth more than speed?', 'nobody could explain the old sorting'),
+     ('What does a system do with a sentence it cannot place?', 'puts it in other'),
+     ('What two rules should be added?',
+      'short slips and slips naming a hospital go to a person')],
+e_b=[('Counter enquiries are long and clear.', 'F'),
+     ('Hand sorting is uneven.', 'T'),
+     ('Consistency matters more than speed here.', 'T'),
+     ('An urgent case is always clearly written.', 'F'),
+     ('Distressed people write fewer words.', 'T'),
+     ('The two extra rules are expensive.', 'F')],
+
+w_model='Purpose: so that no urgent case waits in the general queue. Scope: the morning '
+        'counter session; appointments made in advance are handled separately. Inputs: '
+        'photographs of all enquiry slips and the five standing categories. Criteria: every '
+        'slip translated and assigned to one category, with the original wording kept beside '
+        'it; every slip of fewer than ten words flagged for a person; every slip naming a '
+        'hospital, a police station or a child flagged for a person. Done: the sorted list '
+        'with the duty officer by 09:20. Fallback: a flagged slip is read by Amara before '
+        'anybody is called to the window.',
+w_fig=figs.spec_card('SIX LINES FOR A MORNING QUEUE',
+                     [('Purpose', 'no urgent case waits in the general queue'),
+                      ('Scope', 'the morning counter session'),
+                      ('Inputs', 'photographs of the slips and five categories'),
+                      ('Criteria', 'translate, categorise, flag short slips and hospitals'),
+                      ('Done', 'with the duty officer by 09:20'),
+                      ('Fallback', 'a flagged slip is read by a person first')]),
+w_fig_cap='The two flags in line 4 are what a category list cannot do for you.',
+w_task='Write a six-line tasking for triage at a counter.',
+w_steps=['Line 1: say what must not happen.',
+         'Line 2: say which session, and what is handled separately.',
+         'Line 3: say what you are giving it.',
+         'Line 4: say the categories and the two flags.',
+         'Line 5: say when the list is ready and for whom.',
+         'Line 6: say what happens to a flagged slip.'],
+w_bank=['Purpose: so that no … case waits in … ',
+        'Scope: the … session; … are handled separately',
+        'Inputs: photographs of all … and the … standing categories',
+        'Criteria: every slip translated and assigned, with the original wording kept; every slip of fewer than … words flagged; every slip naming … flagged',
+        'Done: the sorted list with … by … . Fallback: a flagged slip is read by … '],
+w_check=['Does line 4 keep the original wording?',
+         'Are short slips flagged?',
+         'Are hospitals and police stations flagged?',
+         'Does line 6 name a person?'],
+
+t_title='A queue triaged when the desk shares no language with it',
+t_fig=figs.split('FORTY-ONE SLIPS AT NINE O’CLOCK',
+                 'A system can',
+                 ['read eleven languages',
+                  'sort into five categories',
+                  'sort the same way every day',
+                  'keep the original wording'],
+                 'Only a person can',
+                 ['hear what is not asked for',
+                  'see the bag and the sleepless face',
+                  'ask one question at the window',
+                  'decide who is called first']),
+t_fig_cap='Two minutes for the sorting. One minute for the two slips a person must read.',
+t_body=[
+ 'A queue is triaged well when the desk shares no language with it only if the triage is '
+ 'honest about that. Photograph the slips and ask for each one to be translated and assigned '
+ 'to a standing category, with the original wording kept beside the translation so that '
+ 'nothing is lost between the two.',
+ 'Ask for two flags that have nothing to do with categories: any slip of fewer than ten '
+ 'words, and any slip that names a hospital, a police station, a court or a child. Those '
+ 'flags cost nothing and catch the cases that ask for nothing.',
+ 'Then have a person read the flagged slips before the window opens. The woman with eight '
+ 'words and a bag is not asking for a document. She is asking somebody to tell her what '
+ 'happens if she misses her flight.'],
+t_say=[('Ask for the sorting: ', 'Translate each slip and assign it to one of these five categories.'),
+       ('Ask for the original: ', 'Keep the original wording beside the translation.'),
+       ('Ask for flags: ', 'Flag every slip under ten words and every slip naming a hospital.')],
+t_bound='Sorting works on what is written. It cannot see a face, a bag or a boarding pass, '
+        'and it cannot know that the shortest slip in the pile belongs to the only person in '
+        'the room who has not slept since Tuesday.',
+t_a=[('Translate each slip and assign it to one ____________.', 'category'),
+     ('Keep the original ____________ beside the translation.', 'wording'),
+     ('Flag every slip under ten ____________.', 'words'),
+     ('And every slip naming a ____________.', 'hospital'),
+     ('Sorting works on what is ____________.', 'written'),
+     ('It cannot see a face, a bag or a ____________ pass.', 'boarding')],
+t_b_rubric='Say whether sorting can place each slip correctly.',
+t_b=[('“Passport expires in June, new one please.”', 'yes: it says what it wants'),
+     ('“My son, hospital, Tuesday.”', 'no: it asks for nothing'),
+     ('“Fee for a certified copy?”', 'yes: a standard enquiry'),
+     ('“I was told to come here.”', 'no: a person must ask by whom')],
+
+case=dict(
+ title='The Decision Room · Eight words in the “other” queue',
+ brief=[
+  'Forty-one people are waiting when the consular window opens. Their enquiry slips are '
+  'written in eleven languages, four of them in a language nobody at the desk reads. A '
+  'sorted list of five categories is produced in two minutes.',
+  'Forty of the forty-one are correctly placed. The forty-first says, in full: “my son, '
+  'hospital, Tuesday”. It asks for no document and names no service, so it is placed in the '
+  '“other” queue, which is called last.',
+  'The woman who wrote it has been at a hospital since Tuesday. Her flight home leaves at two '
+  'o’clock, her ticket cannot be changed, and she does not know what will happen to her son '
+  'if she leaves or what will happen to her job if she stays.'],
+ exhibit=figs.datatable('THE SLIPS THAT WERE HARD',
+                        ['Slip', 'Words', 'Sorted as', 'Should have been'],
+                        [['“passport expires in June”', '5', 'passports', 'passports'],
+                         ['“fee for certified copy?”', '4', 'certificates', 'certificates'],
+                         ['“my son, hospital, Tuesday”', '4', 'other', 'first, with a person'],
+                         ['“I was told to come”', '5', 'other', 'a question at the window'],
+                         ['“police, my brother, Friday”', '4', 'other', 'first, with a person'],
+                         ['37 others', '12–40', 'correct', 'correct']]),
+ exhibit_cap='Three slips of four or five words, and two of them were the morning’s real work.',
+ exhibit_note='The sorting rule was applied correctly to every slip. The rule is about what '
+              'is asked for, and these slips ask for nothing.',
+ voices=[('Daniel Osei', 'consul',
+          'Two minutes instead of twenty, and the same sorting on a Monday as on a Thursday.'),
+         ('Amara Sow', 'senior locally engaged assistant',
+          'And the woman with eight words and a bag was going to be called at half past twelve.'),
+         ('Ines Pereira', 'deputy head of mission',
+          'So we keep the sorting and we add two flags that cost a minute a day.')],
+ steps=[('Find it', 'What did the sorting do well?'),
+        ('Compare it', 'The slips that were sorted correctly and the ones that were not.'),
+        ('Infer it', 'Why did the urgent slip go to “other”?'),
+        ('Weigh it', 'Eighteen minutes saved against four hours.'),
+        ('Decide', 'What rules are added to the sorting?')],
+ analysis=[('Find it. What was good?', 'forty of forty-one, consistently, in two minutes'),
+           ('Compare it. What differed?', 'the short slips that asked for nothing'),
+           ('Infer it. Why?', 'sorting works on what is asked for'),
+           ('Weigh it. What is the balance?', 'a real gain, plus two flags'),
+           ('Decide. What is added?', 'flags for short slips and for hospitals and police')],
+ decision='Decide the rule, in four lines.',
+ decision_steps=['Say what the sorting produces.',
+                 'Say what is kept beside each translation.',
+                 'Say which slips are flagged.',
+                 'Say who reads a flagged slip, and when.'],
+ bank=['Every slip is translated and assigned to one of the five standing categories.',
+       'The original wording is kept beside the translation, word for word.',
+       'Any slip of fewer than ten words is flagged, and so is any slip naming a hospital, a police station, a court or a child.',
+       'A flagged slip is read by an experienced officer before the window opens.'],
+ outcome='The woman is called first. She is told, in twenty minutes, what her options are, '
+         'which ticket rules apply and who at the hospital can write a letter for her '
+         'employer. She stays. The two flags are added to the sorting sheet that afternoon, '
+         'and in the following month they catch eleven slips, of which three were urgent.',
+ outcome_q=[('When was the woman called?', 'first'),
+            ('How long did it take?', 'twenty minutes'),
+            ('What did she decide?', 'to stay'),
+            ('When were the flags added?', 'that afternoon'),
+            ('How many urgent slips did they catch?', 'three of eleven')],
+ tags=['manager_wrong']),
+
+lab=dict(
+ title='Brief Lab · Sort the queue for me',
+ task=['A consul asked for the morning’s enquiry slips to be sorted.',
+       'This is the instruction as it was given, and what came back.'],
+ draft=['Sort the queue for me.',
+        'The usual categories.',
+        'Put the urgent ones first.',
+        'Translate anything I cannot read.',
+        'Keep it quick.',
+        'The window opens at nine.'],
+ marks={0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6},
+ draft_cap='Six lines, and the third one asks for a judgement the slips do not support.',
+ asked=['The usual categories', 'Urgent first', 'Translate the rest'],
+ back=['41 slips sorted', '5 categories', '0 flags for short slips'],
+ gap='Nobody said what makes a case urgent, or that short slips must be read by a person.',
+ back_cap='Five clean queues, with the only urgent case of the morning in the last one.',
+ back_note='“Put the urgent ones first” sounds like the right instruction and cannot be '
+           'followed, because urgency is not written on the slips that have it.',
+ diagnosis=[('“the usual categories”', 'unscoped set'),
+            ('“anything I cannot read”', 'unscoped set'),
+            ('“the urgent ones”', 'unstated criterion'),
+            ('“keep it quick”', 'unstated criterion'),
+            ('“sort the queue”', 'undefined done'),
+            ('“at nine”', 'undefined done')],
+ rewrite='Rewrite it on the six lines so that the cases that ask for nothing are seen.',
+ scaffold=['what must not happen',
+           'which session, and what is handled separately',
+           'what you are giving it',
+           'the categories, the original wording and the two flags',
+           'when the list is ready and for whom',
+           'what happens to a flagged slip'],
+ bank=['Purpose: so that no urgent case waits in the general queue',
+       'Scope: the … session; appointments are handled separately',
+       'Inputs: photographs of all slips and the … standing categories',
+       'Criteria: every slip translated and assigned, original wording kept; slips under … words flagged; slips naming … flagged',
+       'Done: the sorted list with … by … ',
+       'Fallback: a flagged slip is read by … before anybody is called'],
+ check=['Is the original wording kept?',
+        'Are short slips flagged?',
+        'Are hospitals and police stations named?',
+        'Does a person read the flags?'],
+ model=['so that no urgent case waits in the general queue',
+        'the morning counter session; appointments made in advance are handled separately',
+        'photographs of all enquiry slips and the 5 standing categories',
+        'every slip translated and assigned to one category, with the original wording kept beside it; every slip of fewer than 10 words flagged; every slip naming a hospital, a police station, a court or a child flagged',
+        'the sorted list with the duty officer by 09:20',
+        'a flagged slip is read by Amara before anybody is called to the window'],
+ cost='1 slip of 4 words was queued for 12:30. The flight was at 14:00.'),
+
+lang=dict(
+ title='Across the Language Line · “Is finished” at a counter',
+ setting=[
+  'A caller at the window says, in careful English, “My passport is finished.” Daniel '
+  'understands that the passport is damaged or has been taken, and begins to explain how a '
+  'police report is made.',
+  'The caller means that the passport has expired. In his language the same verb covers '
+  'both, and he has translated it exactly. Five minutes go by before either of them notices '
+  'that they are discussing different problems.'],
+ ladder=[('My passport is finished', 'one verb, two problems'),
+         ('Where did you lose it?', 'the wrong question, politely asked'),
+         ('It is in my bag', 'the sentence that reveals the misunderstanding')],
+ cap='One word, five minutes, and two people being helpful at each other.',
+ turns=[('Turn 1 · The caller', 'My passport is finished.'),
+        ('Turn 2 · Daniel', 'I am sorry. Where did you lose it?'),
+        ('Turn 3 · The caller', 'No — it is here, in my bag. It is finished.')],
+ holds=['May I see it? Then we will both be looking at the same thing.',
+        'Do you mean the date has passed, or that it is lost?',
+        'Let me say it back to you: your passport is here, and the date has expired.',
+        'I will write two words and you tell me which one is right: expired, or lost.',
+        'Shall we start again? Tell me what you need to do next week.',
+        'I am sorry — that was my mistake, not yours.'],
+ redline='Do not act on a translated word that could cover two situations. Never begin a '
+         'procedure before you have seen the document, and do not let a caller apologise for '
+         'your misunderstanding.',
+ score=['Asked to see the document.',
+        'Offered two alternatives instead of guessing.',
+        'Repeated the understanding back for confirmation.',
+        'Started again without blaming the caller.',
+        'Took responsibility for the misunderstanding.'],
+ a=[('What did the caller mean?', 'that the passport had expired'),
+    ('What did Daniel understand?', 'that it was lost or damaged'),
+    ('Why did it happen?', 'one verb in his language covers both'),
+    ('What is the fastest repair?', 'asking to see the document'),
+    ('What question helps?', 'do you mean expired, or lost'),
+    ('Who should apologise?', 'the officer, not the caller')]),
+
+rev_fig=figs.split('A MORNING QUEUE',
+                   'Sorted by machine',
+                   ['eleven languages read',
+                    'five categories',
+                    'the same rule every day',
+                    'the original wording kept'],
+                   'Read by a person',
+                   ['every slip under ten words',
+                    'every hospital or police station',
+                    'every slip naming a child',
+                    'anything that asks for nothing']),
+rev_fig_cap='Two minutes of sorting and one minute of reading, and nobody waits four hours.',
+rev=dict(
+ read=[('How many people were waiting?',
+        ['forty-one', 'eleven', 'five', 'twenty'], 0),
+       ('How long did the sorting take?',
+        ['two minutes', 'twenty minutes', 'an hour', 'all morning'], 0),
+       ('Where was the urgent slip placed?',
+        ['in “other”', 'first', 'in passports', 'nowhere'], 0),
+       ('What do people in trouble write?',
+        ['the fewest words', 'the most words', 'nothing', 'in English'], 0)],
+ listen_text='Photograph the slips and ask for each to be translated and assigned to a '
+             'category, with the original wording kept. Then flag every slip under ten words '
+             'and every slip naming a hospital, a police station or a child, and have a '
+             'person read them first.',
+ listen=[('Ask for each slip to be ____________ and assigned.', 'translated'),
+         ('With the original ____________ kept.', 'wording'),
+         ('Flag every slip under ten ____________.', 'words'),
+         ('And have a ____________ read them first.', 'person')],
+ speak=['Describe a procedure in nine passive sentences.',
+        'Then sort eight short enquiries into urgent and routine, and say why.'],
+ write='Write a six-line tasking for triage at a counter.',
+ vocab=[('The sorting of cases by urgency is a ____________.', 'triage'),
+        ('A caller who comes without an appointment is a ____________.', 'walk-in'),
+        ('Sending a case to somebody else is a ____________.', 'referral'),
+        ('A person who is upset or frightened is a ____________ caller.', 'distressed')],
+ gram=[('The case ____________ referred to the duty officer yesterday.', 'was'),
+       ('Ticket numbers ____________ issued from eight forty-five.', 'are'),
+       ('No fee ____________ taken in cash at this counter.', 'is'),
+       ('The old notices ____________ removed last winter.', 'were')]),
+
+found=['Keep the original wording beside every translation.',
+       'Flag every enquiry of fewer than ten words for a person to read.',
+       'Flag every enquiry naming a hospital, a police station, a court or a child.',
+       'Ask to see a document before you begin a procedure.'],
+end_line='Sorting reads what was asked. A person hears what was not.',
+end_next='Next: A Citizen in Trouble, in Another Language')
