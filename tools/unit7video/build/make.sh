@@ -27,7 +27,7 @@ if [ "${SKIP_FRAMES:-0}" != "1" ]; then
 fi
 
 echo "[mux] encoding $ID.mp4"
-ffmpeg -v warning -stats -y \
+ffmpeg -v error -nostats -y \
   -framerate 25 -i "$OUT/frames/f%06d.jpg" \
   -i "$OUT/voice.m4a" \
   -map 0:v -map 1:a \

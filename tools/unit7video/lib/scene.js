@@ -550,7 +550,7 @@ function seek(t) {
   E.prog.style.width = (t / TL.duration * 1920).toFixed(1) + 'px';
 
   var body = s.type === 'line' || s.type === 'turn';
-  E.sky.style.opacity = (body && TL.kind === 'reading') ? '.18' : '0';
+  E.sky.style.opacity = (body && TL.kind === 'reading') ? '.10' : '0';
 
   if (i !== cur) { enter(i); cur = i; }
 
