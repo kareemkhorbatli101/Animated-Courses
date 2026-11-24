@@ -161,3 +161,62 @@ here because the arithmetic of a schedule is easy and the reasons schedules are 
 196 figures, prefixed `pb`, none reused from any other book in this series or its four sister
 series. 195 audio cues, prefixed `TL2`: three in the Starting Point and sixteen in each of the
 twelve units, in the fixed positions documented in the book's own back matter.
+
+---
+
+## Book 3 · Throughline 2 (B1)
+
+Twelve units, under the title *Measure, Report, Decide*. The Starting Point carries no source body.
+This is the book in which the series turns on itself: the measure recommended in Book 2 as a model
+benefit is the one Unit 11 shows distorting the work within nine months.
+
+| Unit | Title | Source, with its edition or date | What the reading prints as the document's own limit |
+|---|---|---|---|
+| 1 | Forty-One Per Cent of What | **ISO 21508:2018**, *Earned value management in project and programme management* | Guidance, not for certification: no thresholds for action, no method for measuring physical progress, no reporting frequency; its results depend entirely on the quality of the baseline |
+| 2 | Behind, in Weeks | **W. Lipke**, *Schedule is Different*, **The Measurable News, 2003** | A technique published in a practitioners' newsletter rather than a standard; it inherits the baseline and the progress measurement, is a whole-project measure that names no late activity, and its forecast assumes present performance continues |
+| 3 | The One Technique We Use | **IEC 31010:2019**, *Risk management — Risk assessment techniques*, second edition, replacing **ISO/IEC 31010:2009** | It describes techniques with their strengths and limitations and declines to prescribe any; many require data or expertise that may be unavailable; and it states that risk assessment supports a decision rather than making one |
+| 4 | Quality Is Not an Inspection | **ISO 10006:2017**, *Quality management — Guidelines for quality management in projects*, third edition, replacing 2003 | Guidance, not requirements, not for certification and not a management system standard; it specifies no product quality requirements and does not describe how to manage a project |
+| 5 | The Column Nobody Fills In | **European Commission**, *Aid Delivery Methods, Volume 1: Project Cycle Management Guidelines*, **March 2004** | Written for the Commission's external assistance programmes rather than commercial projects; the guidelines warn against mechanical or bureaucratic application, require objectively verifiable indicators without providing a test of verifiability, and present one chosen logic without the alternatives |
+| 6 | If, Then, and the Thing in Between | **W. K. Kellogg Foundation**, *Logic Model Development Guide*, **2004** | A practical guide for non-profit programme planning rather than a project standard; it displays a theory of change and provides no test of it; it notes that outcomes are frequently outside the programme's control and warns against models that amount to a list of activities |
+| 7 | Two Companies, One Objective | **ISO 44001:2017**, *Collaborative business relationship management systems — Requirements and framework*, replacing **BS 11000-1:2010** | Certifiable, but certification concerns the existence and operation of the system rather than the quality of any relationship; it does not address contract terms, commercial dispute resolution, or the alignment of the parties' incentives |
+| 8 | What We Have Learned, in Writing | **ISO 30401:2018**, *Knowledge management systems — Requirements* | Certifiable; it states that knowledge management is distinct from information and document management; it prescribes no tools, taxonomies or methods, does not determine what knowledge to retain, and certification proves nothing about what anybody knows |
+| 9 | What a Measure Is Made Of | **ISO/IEC/IEEE 15939:2017**, *Systems and software engineering — Measurement process* | It defines a process and an information model and prescribes no measures; it does not determine which information needs matter; it cannot establish whether a measure validly represents the concept of interest; and it is written for systems and software engineering |
+| 10 | Two Hours, Not Two Days | **ISO 22301:2019**, *Security and resilience — Business continuity management systems — Requirements*, second edition, replacing 2012 | Certifiable; it sets no recovery time objectives and prescribes no continuity solution, which follow from the organization's own business impact analysis; it does not address project delivery risk; and certification concerns the system rather than the effectiveness of any plan |
+| 11 | When a Measure Becomes a Target | **C. A. E. Goodhart, 1975**, *Problems of Monetary Management: The U.K. Experience*; and **M. Strathern, 1997**, *"Improving ratings": audit in the British University system*, European Review | Goodhart's claim concerns monetary aggregates; the phrasing universally attributed to him is Strathern's, from an article on university audit; a related formulation is Campbell's, 1979; neither addresses project measurement, neither offers a remedy, and the popular phrasing is broad enough that no observation would contradict it |
+| 12 | One Page a Month | **ISO 9001:2015**, *Quality management systems — Requirements*, clause 9 (performance evaluation) | It specifies the inputs a management review must consider and no format, length, frequency or particular measures; it addresses the management system rather than any project; and certification concerns the existence and operation of that system |
+
+### Honesty notes, Book 3
+
+- **Unit 1.** The arithmetic of earned value is flawless, and everything uncertain has already
+  happened by the time the division is done. Fourteen of thirty-eight packages scored themselves,
+  twelve points high, and not one of those fourteen people was being dishonest.
+- **Unit 2.** The money-based schedule index improves as a project gets later and reads 1.00 on the
+  last day of the latest project in a company's history. The repair is three lines of arithmetic on
+  figures the cost report already holds.
+- **Unit 3.** Book 1 said the five-by-five matrix is not in ISO 31000, which is true; Unit 3 corrects
+  the implication, because the matrix is in IEC 31010 as one technique among many, with its
+  limitations printed beside it.
+- **Unit 4.** Three hundred and eleven records about the concrete and two about how the company runs
+  projects, because one of those two things can be certified and the other cannot.
+- **Unit 5.** *Stakeholders remain supportive* cannot be false, which is worse than being wrong.
+  Rewriting the fourth column found ninety thousand of somebody else's work in four days.
+- **Unit 6.** The funding case rested on the single arrow the client's own log contradicted, and the
+  project was still worth building — for a benefit nobody had written down.
+- **Unit 7.** Two competent companies managed one risk in opposite directions for four months with
+  nothing hidden, because the two registers had never been in the same room.
+- **Unit 8.** Two hundred and twelve lessons, nine openings, no document changed. The destination
+  was wrong, not the intention.
+- **Unit 9.** Two numbers on a board report traced to nothing at all, and at least one reader had
+  been treating one of them as a fact about resignations.
+- **Unit 10.** A continuity plan read perfectly for six years with a seized valve in the middle of
+  it, and two correct documents in two organizations differed by a factor of twenty-four.
+- **Unit 11.** All four measures were met. The best measure in this course distorted the work within
+  nine months, and the famous sentence about it is by the wrong author in its famous form.
+- **Unit 12.** A clause two pages long, in a standard the company is proud of, went unread for
+  eleven years, with every audit correct throughout.
+
+### Figures and audio, Book 3
+
+196 figures, prefixed `pc`, none reused from any other book in this series or its four sister
+series. 195 audio cues, prefixed `TL3`: three in the Starting Point and sixteen in each of the
+twelve units, in the fixed positions documented in the book's own back matter.
