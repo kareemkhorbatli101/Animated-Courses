@@ -282,3 +282,68 @@ is not a study guide for any examination.
 196 figures, prefixed `pd`, none reused from any other book in this series or its four sister
 series. 195 audio cues, prefixed `TL4`: three in the Starting Point and sixteen in each of the
 twelve units, in the fixed positions documented in the book's own back matter.
+
+## Book 5 · Throughline 4 (B2)
+
+Twelve units, under the title *Money, Contracts, Benefits*. The Starting Point carries no source
+body. This is the book in which the series' method turns into a single habit, stated in Unit 12: in
+every one of the eleven stories the document was honest about itself and somebody used it for the
+adjacent purpose. Money has no currency symbol anywhere in it, because a symbol is a jurisdiction and
+the book is written for people whose contracts cross several.
+
+| Unit | Title | Source, with its edition or date | What the reading prints as the document's own limit |
+|---|---|---|---|
+| 1 | How Good Is This Number? | **AACE International Recommended Practice No. 18R-97**, *Cost Estimate Classification System — As Applied in Engineering, Procurement, and Construction for the Process Industries*, **first issued 1997** and revised since | A **recommended practice**, not a standard; estimates are classified by **degree of project definition**; its accuracy ranges are **typical** and depend on reference-data quality, the inclusion of contingency and systemic risks; and it contains **no cost data of any kind**. It cannot stop a class 5 figure becoming a budget, which is the only failure in the story |
+| 2 | The Curve Nobody Put in the Bid | **T. P. Wright**, *Factors Affecting the Cost of Airplanes*, **Journal of the Aeronautical Sciences, February 1936** | An **empirical relationship observed in airframe manufacture** between cumulative output and labor per unit; the improvement percentage is an observation from that industry and period rather than a constant; it concerns **direct labor on repeated identical units and not material**; and it **presumes continuity of production** — which an eleven-week interruption removed |
+| 3 | Thirty Years, Not Three | **ISO 15686-5:2017**, *Buildings and constructed assets — Service life planning — Part 5: Life-cycle costing*, second edition, replacing **2008** | It distinguishes **life-cycle cost from whole-life cost** and requires the period of analysis, the discount rate, the basis and the inclusions and exclusions to be **stated**; it contains **no cost data** and **sets no rate, period or service life**; and it presents life-cycle costing as a means of **comparing options**, not of forecasting actual future expenditure |
+| 4 | The Rate Does the Arguing | **European Commission**, *Guide to Cost-Benefit Analysis of Investment Projects*, **December 2014** | Its financial and social discount rates and its sector reference periods are **benchmarks** from which a justified departure is permitted; its **shadow prices and conversion factors depend on national data it does not supply**; and it states that cost-benefit analysis is **one input to a decision and not the decision**, distributional and strategic questions lying outside the monetized result |
+| 5 | Within Twenty-Eight Days | **FIDIC Conditions of Contract for Construction, Second Edition, 2017**, published by the International Federation of Consulting Engineers, replacing **1999** | A **standard form intended to be amended by Particular Conditions**, which **prevail over the printed General Conditions**; its printed periods are frequently amended in practice; it is written for **works designed by the employer**; and nothing in it is legal advice or a substitute for the contract a party has signed |
+| 6 | The Warning Nobody Gave | The **NEC4 Engineering and Construction Contract**, published **June 2017** by the Institution of Civil Engineers | Written in the **present tense** and designed to be **actively administered** within short stated periods; its **option clauses and contract data** substantially determine what is agreed; **compensation event assessment depends on an accepted programme**, which it cannot produce by itself; and its early warning clause creates a **route and not a motive** |
+| 7 | What the Price Does Not Include | The **Incoterms 2020** rules, published by the International Chamber of Commerce, in force **1 January 2020**, replacing **2010** | They allocate the arrangement of carriage and insurance, the division of costs and the point at which risk passes; they are **incorporated into a contract of sale and are not one**; and they do **not** deal with the **transfer of ownership**, the **price or payment terms**, the **applicable law**, dispute resolution, **remedies for breach**, sanctions, prohibitions or tariffs |
+| 8 | Lowest Price and Best Value | **ISO 10845-1:2020**, *Construction procurement — Part 1: Processes, methods and procedures* | It specifies **processes, methods and procedures** for a procurement system intended to be fair, equitable, transparent, competitive and cost-effective, including **methods of evaluating tender offers** — but it does **not prescribe an organization's policy, its weightings or its criteria**, says nothing about the resulting contract, and **cannot make a criterion discriminate** |
+| 9 | Should, Not Shall | **ISO 20400:2017**, *Sustainable procurement — Guidance* | It states of itself that it is **not a management system standard** and is **not intended for certification**; it is written as **recommendations rather than requirements**; and it establishes **no thresholds, metrics, targets or definitions** of sustainable goods and services |
+| 10 | Line of Sight | **ISO 55000:2014**, *Asset management — Overview, principles and terminology* | **Overview, principles and terminology only** — the requirements sit in a separate standard and the application guidance in a third; it specifies **no financial, accounting or technical requirements** for managing any asset type; and it prescribes **no intervention, replacement or condition-assessment method** |
+| 11 | Who Decides It Worked | The evaluation criteria of the **Development Assistance Committee of the OECD**, **as revised in 2019** — six criteria, adding **coherence** | Intended for the evaluation of **development interventions**; the criteria are **criteria and not indicators** and prescribe **no measurement method**; they carry **no weighting**, so nothing says whether a failure on efficiency outweighs a success on impact; and the accompanying guidance states that they should be applied **thoughtfully rather than as a checklist** |
+| 12 | One Page of Money Decisions | **IAS 37**, *Provisions, Contingent Liabilities and Contingent Assets* | A **financial reporting standard**: a provision is recognized only where a **present obligation arises from a past event**, an **outflow is probable** and the amount can be **estimated reliably**; contingent liabilities are **disclosed, not recognized**; **provisions for future operating losses are prohibited**; and it **regulates a statement of position, not a plan** — its *probable* is not a risk register's *probable* |
+
+### The honesty notes, Book 5
+
+- **Unit 1.** A figure of 12 issued at class 5 with a range of 6 to 24 became a budget because a board
+  template had one cell for a cost; the outcome of 16.1 was reported as a 34 per cent overrun and was
+  inside the issued range.
+- **Unit 2.** Forty-six identical units priced at the first unit's rate: 8,280 hours against about
+  4,400 on an 85 per cent curve — and 5,150 actually used, because the client withdrew access for
+  eleven weeks and four of six fitters changed.
+- **Unit 3.** Three years says option A and thirty years says option B; the correction that reduced
+  B's advantage from 0.71 to 0.50 ran against the writer's own recommendation and is in her second
+  paragraph.
+- **Unit 4.** A scheme with a financial net present value of −6.2 and an economic one of +14.8, whose
+  economic case would reach zero if one figure transferred from a study abroad fell by 23 per cent —
+  and a survey to replace it costs a quarter of one per cent of the capital cost.
+- **Unit 5.** A claim of 1.34 lost on day 36 against a period of 21 that the particular conditions had
+  shortened and that the company's own site instruction pack still showed as 28.
+- **Unit 6.** Five people knew in week three and the matter was raised in week fourteen, because the
+  industry teaches that you never bring a problem without an answer — and the clause says *could*.
+- **Unit 7.** *CIF site* on a purchase order: a sea rule naming an inland destination, risk passing on
+  board 1,900 km before a transformer was damaged on a road, and 186 uninsured with the supplier
+  entirely compliant.
+- **Unit 8.** Four tenders decided by a weighting carried over from a pipe order, with a fifth of the
+  quality points on a criterion all four bidders passed, and the ranking reversing at the company's
+  own design weighting.
+- **Unit 9.** Six contract clauses saying *should*, four of them carrying thirty quality marks, none
+  ever enforced — and a replacement requirement that two plant hire firms in eleven could have met,
+  rewritten after eleven telephone calls.
+- **Unit 10.** Four of thirty-one asset management actions reach the organizational plan, one of the
+  twenty-two untraceable ones is a handrail, and the energy benefit that justified the dearer pump was
+  measured by nobody for two years.
+- **Unit 11.** Four criteria positive, one negative and undefended, one refused with a reason — and
+  the criterion added in 2019 found two schemes abstracting from one aquifer, approved fourteen months
+  apart by two organizations that had each followed their own procedure correctly.
+- **Unit 12.** A project contingency of 1.90 and a recognized provision of 0.34, both figures correct,
+  one shared word, and three years in which each side assumed the other was carrying the difference.
+
+### Figures and audio, Book 5
+
+196 figures, prefixed `pe`, none reused from any other book in this series or its four sister
+series. 195 audio cues, prefixed `TL5`: three in the Starting Point and sixteen in each of the
+twelve units, in the fixed positions documented in the book's own back matter.
