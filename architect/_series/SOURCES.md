@@ -103,3 +103,65 @@ sentence this whole series is built to teach.
 
 **Book 1 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS1-…`;
 **267 pages**; `Keystone-Foundation-Book1.docx`.
+
+---
+
+# Keystone 1 (Book 2) · A2+ → B1
+
+Twelve units, twelve source bodies. At this level the sources are **the promise between two
+systems**: a description format, a validation vocabulary, a method that is neither safe nor
+idempotent, a caching specification, the syntax of an address, an event envelope, a schema
+resolution rule, a header that announces a shutdown, a token's seven optional claims, a naming
+procedure, an error format, and two wire protocols that mean exactly the same thing.
+
+The twelve traps are all one trap: somebody read a specification as a promise it never made. Every
+reading text ends with the line the publisher wrote about its own limits.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 | **The OpenAPI Specification, version 3.1.0**, released **February 2021** | The top-level fields of a description document, including **optional paths** and the **webhooks** field; the **alignment of its schema rules with the 2020-12 schema specification**; and the field declaring a schema dialect. **A valid document can describe an interface that has never existed.** *Not covered: implementing, testing, enforcing, versioning or generating anything.* |
+| 2 | **JSON Schema: A Media Type for Describing JSON Documents**, the **2020-12** draft of **December 2020**, with its validation companion | **Assertion** and **annotation** keywords; the rule that **properties a schema does not describe are unconstrained and therefore permitted**; the **independence of required from properties**; and **format as an annotation by default**, with assertion behavior in a separate vocabulary. **It is an expired Internet draft, not a standard.** *Not covered: whether the data is correct, what the sender meant, or anything about fields you did not mention.* |
+| 3 | **RFC 5789**, *PATCH Method for HTTP*, **March 2010** | The method is **neither safe nor idempotent**; the set of changes **must be applied atomically**; a request **can be made idempotent** with a **conditional request**; and the response header announcing accepted patch formats. *Not covered: any patch document format at all — the specification defines none.* |
+| 4 | **RFC 9111**, *HTTP Caching*, **June 2022**, replacing the 2014 specification | **Freshness lifetime** and **age**; **max-age**, **no-store**, **no-cache** and **private**; and the permission for a cache to **assign a heuristic expiration time when no explicit expiration is present**. **no-store forbids keeping; no-cache forbids reuse without checking.** *Not covered: which lifetime your service should choose, and any way to clear a cache you do not own.* |
+| 5 | **RFC 3986**, *Uniform Resource Identifier (URI): Generic Syntax*, **January 2005** | The **five components**; **scheme and host compared without regard to case**; the **fragment separated before dereference**, so it never reaches the server; **unreserved and reserved characters** and **percent-encoding**; and the **ladder of comparison methods**, with the stated preference for **false negatives over false positives**. *Not covered: what an address means, and whether two addresses identify one thing.* |
+| 6 | **The CloudEvents specification, version 1.0.2**, published by its working group under the **Cloud Native Computing Foundation** | **Four required attributes** and four optional ones; and the requirement that a producer make **source and id unique together for each distinct event**, with the consequence that a consumer **may treat a repeated pair as a duplicate**. *Not covered: the transport, delivery, ordering, the data format, type meanings and authorization — bindings and formats are separate documents.* |
+| 7 | **The Apache Avro specification**, *Schema Resolution*, as published with the project's releases | The **writer's** and **reader's** schemas; a field only the writer has is **ignored**; a reader's field the writer did not write takes the reader's **default**, and **where there is no default an error is signalled**; enumerated-symbol resolution; **field aliases**; and the permitted **widenings**. *Not covered: whether your change is safe for your users, schema versioning, and compatibility checking.* |
+| 8 | **RFC 8594**, *The Sunset HTTP Response Header Field*, **May 2019**, an **Informational** document | A header carrying a **date at which the resource is expected to become unresponsive**, and a registered **link relation** to further information. **The absence of the header carries no information.** *Not covered: any obligation at all, what happens afterwards, the reason, a migration, or any notice period.* |
+| 9 | **RFC 7519**, *JSON Web Token*, **May 2015** | **Seven registered claim names**, and the statement that use of **each is optional**; the requirement **not to accept a token on or after its expiration time**, with a **small** allowance for clock skew; the requirement that a party processing a token **identify itself in the audience claim or reject the token**; and **numeric dates in seconds** since 1970 in universal time. *Not covered: what a claim entitles anybody to do, the signature and algorithms (separate documents), and any secrecy — the claims are **encoded, not encrypted**.* |
+| 10 | **RFC 6838**, *Media Type Specifications and Registration Procedures*, **January 2013**, a **Best Current Practice** | Type, subtype and parameters, compared **without regard to case**; the **standards**, **vendor**, **personal** and **unregistered** trees with their prefixes; **structured syntax suffixes** and their own registry; and the registration **template and review procedure**. *Not covered: whether the content is valid, whether an implementation conforms, what the fields mean, and format versioning.* |
+| 11 | **RFC 9457**, *Problem Details for HTTP APIs*, **July 2023**, replacing RFC 7807 of March 2016 | The **type**, **title**, **status**, **detail** and **instance** members and their audiences; the guidance that **consumers should not parse the detail**; the **type as an identifier that need not be dereferenced**; the **advisory** status member; extension members; and the **registry for problem types**. *Not covered: your error taxonomy, which status code to use, how many problems to report, and any wording.* |
+| 12 | **RFC 9113**, *HTTP/2*, and **RFC 9114**, *HTTP/3*, both **June 2022** | **Binary framing**, **stream multiplexing**, **field compression**, the **transport change** in the newer version, and the requirement that **field names be lower case**, a message with an upper-case name being **malformed**. **Both documents define message expression only.** *Not covered: the semantics of methods, status codes, header fields, caching and content — all defined elsewhere.* |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1.** A reader cannot check your documentation against anything except your documentation.
+  Everything a stranger trusts about you, they trust because you published it.
+- **Unit 2.** *We validate* is true and much narrower than it sounds. The defaults made the decision,
+  and defaults are written by people who are not in the room.
+- **Unit 3.** Three teams each did the reasonable thing — a sensible library default, a correct
+  retry, an interface that never said a version marker was needed — and a customer's credit limit was
+  wrong for six days.
+- **Unit 4.** *We do not cache that* answers what your service does. The question was what your
+  response permits, and the two have different owners.
+- **Unit 5.** Almost everybody learns this syntax from examples, and examples teach you what works
+  rather than what is true. One sentence published in 2005 defeated a careful engineer for a year.
+- **Unit 6.** *At least once* is a precise promise read optimistically everywhere. It says duplicates
+  are normal and that handling them is the reader's job.
+- **Unit 7.** The team that makes the change and the team that suffers from it are rarely the same
+  team, and the gap is measured in weeks. A test that reads yesterday is the only mechanism that
+  closes it.
+- **Unit 8.** A process written to be completed is satisfied by sending something rather than by
+  anybody receiving it. Silence counted as consent for five weeks.
+- **Unit 9.** The checks that break your laptop on the first day get written. The checks that only
+  fail in production do not, and the audience check is the clearest example in this book.
+- **Unit 10.** Nobody chose badly: each company chose the best word, which is how collisions happen
+  in a shared space. The prefix exists so that the best word is available to everybody at once.
+- **Unit 11.** Give a client only prose and your sentences become part of your interface — and then
+  you cannot improve your own product. The cheapest field on the page was the one support thanked
+  them for.
+- **Unit 12.** Two protocol versions deliberately changed nothing about meaning. That restraint is
+  why the world's interface documentation survived both, and the same discipline is available inside
+  one company.
+
+**Book 2 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS2-…`;
+**278 pages**; `Keystone-1-Book2.docx`.
