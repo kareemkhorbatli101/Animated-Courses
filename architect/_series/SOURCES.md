@@ -227,3 +227,70 @@ exposure; a survey's top quartile defined by whose distribution, in which year.
 
 **Book 3 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS3-…`;
 **277 pages**; `Keystone-2-Book3.docx`.
+
+
+# Keystone 3 (Book 4) · B1+
+
+Twelve units, twelve source bodies, and a third kind of document joins the shelf: **five standards,
+four published papers or experience reports, and three published methods or models**. An architect
+reads all three kinds in a working week and they do not carry the same authority, so this book makes
+the difference explicit. A standard has an edition and a date. A paper has authors, a venue and a
+year. A method has one author, an opinion and, usually, a sentence admitting it.
+
+Every unit in this book ends in the same place: a page somebody will read when everybody who wrote it
+has left. The language is for that reader.
+
+Twelve source bodies carry the twelve reading texts, one per unit, and the Starting Point carries
+none. **Five are standards, four are published papers or experience reports, and three are published
+methods or models** — the mixture this book is built on, because an architect reads all three kinds in
+a week and they do not carry the same authority. Each reading text names the document, its edition,
+date or venue, and the limits its own authors state. No source appears in any other book of this
+series or in its three sister series, and no figure is used twice. The series note is in `SOURCES.md`.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 | **Michael Nygard**, *Documenting Architecture Decisions*, a blog post of **November 2011** | The form: a **short record per decision**, with **title, status, context, decision, consequences**, and the rule that a record is **superseded rather than edited**. *Not covered: what to decide, how to decide, which decisions are worth a record, and any process for approving one. It is one engineer's proposal, published informally, and its authority is entirely that people found it useful.* |
+| 2 | **Melvin E. Conway**, *How Do Committees Invent?*, ***Datamation***, **April 1968** | The observation that a design **mirrors the communication structure** of the organization that produced it, and the author's own framing of it as a consequence of **how the work is divided**. *Not covered: the organization chart, which is a drawing of one possible structure and not the structure. The paper offers no remedy, no measurement, and no claim that reorganizing produces a better design.* |
+| 3 | **The Twelve-Factor App**, **Adam Wiggins**, first published **2011** | Three of the twelve factors read closely — **configuration in the environment**, **strict separation of build and run**, and **disposable processes** — in the method's own imperative voice. *Not covered: the method is **opinionated and dated by design**. It assumes a particular deployment model, says so, and three of its instructions are **assumptions rather than rules** once that model changes. A departure is not a defect.* |
+| 4 | **The C4 model**, **Simon Brown**, published **from 2011 onwards** | Four levels — **context, container, component, code** — each a separate diagram for a separate audience; and the requirement that every diagram carry a **title, a key and a date**. The word **container** is flagged as overloaded and must be defined on the page. *Not covered: a notation. The model is deliberately notation-independent, prescribes no tool, and says nothing about which diagrams are worth keeping.* |
+| 5 | **ISO/IEC/IEEE 29148:2018**, *Requirements engineering* | Nine characteristics of a well-formed requirement — including **unambiguous**, **singular**, **feasible**, **traceable** and, above all, **verifiable** — and characteristics of a requirement **set**, including **completeness** and **consistency**. *Not covered: how to elicit a requirement, how to prioritize, how to write a verification, and what to do about a need that is real and not yet verifiable.* |
+| 6 | **The fallacies of distributed computing**, attributed to **L. Peter Deutsch** around **1994**, with later additions associated with **James Gosling**; circulated and extended by others since | Eight assumptions that fail — the network is reliable, latency is zero, bandwidth is infinite, the network is secure, the topology does not change, there is one administrator, transport cost is zero, the network is homogeneous. *Not covered: anything. **It is a list, not a theory**, its **attribution is uncertain**, it was never published as a paper, and the eighth item was added later by somebody else.* |
+| 7 | **Hector Garcia-Molina** and **Kenneth Salem**, *Sagas*, **ACM SIGMOD**, **1987** | A long transaction as a **sequence of steps**, each with a **compensating transaction**; recovery by running compensations **backward** or completing **forward**. **Compensation is not rollback**: it is a new action, written by you, which can itself fail, and some steps have no compensation at all. *Not covered: steps that cannot be compensated — an email sent, money moved to a third party — beyond the advice to order them last; and the paper assumes compensations exist.* |
+| 8 | **Michael J. Fischer**, **Nancy A. Lynch** and **Michael S. Paterson**, *Impossibility of Distributed Consensus with One Faulty Process*, ***Journal of the ACM***, **1985** | The result: in an **asynchronous** model with **one** faulty process, **no deterministic protocol** guarantees both **agreement** and **termination**. What is lost is **liveness**, not safety: **it stops; it does not lie**. *Not covered: practice. The model assumes **no bound on message delay**, which is stronger than most real networks, and the result says nothing about randomized protocols, failure detectors, or how long real systems actually take.* |
+| 9 | **Ward Cunningham**, *The WyCash Portfolio Management System*, an experience report at **OOPSLA 1992**, and his **later public correction** | The original metaphor — shipping to learn, then **consolidating** what you learned — and the author's own statement decades later that he was **never in favor of writing code poorly**. **The metaphor has no principal, no rate, no schedule and no creditor**, and the four sentences that replace it: what we did, what we now know, what reshaping costs, who pays until then. *Not covered: any quantity. **There is no interest rate**, no way to compute a balance, and the metaphor was a way of explaining a decision to non-programmers rather than a measurement.* |
+| 10 | **ISO/IEC/IEEE 15288**, *System life cycle processes*, in the edition of **2023**; the **2015** edition defined **thirty** processes | Four process groups — **agreement**, **organizational project-enabling**, **technical management**, **technical** — with examples from each; **tailoring** as an expectation; and conformance claimed against a **declared and tailored process set**, not against the whole. *Not covered: a life cycle model, an order of processes, any documents (it names **outcomes**), and how to perform any process — those are methods.* |
+| 11 | **The Apache License, Version 2.0**, **January 2004**, **Section 4**; and short **license identifiers** from a published license list | The four conditions on redistribution: **a copy of the license** to recipients; **prominent notices on modified files**; **retention of copyright, patent, trademark and attribution notices** except those not pertaining to the derivative work; and **a readable copy of the attribution notices in any NOTICE file**. Plus what a short identifier is: **a label, not a license text, and not a determination** — some are deprecated in favor of clearer ones. *Not covered: what counts as distribution in any given arrangement. **Nothing in the unit is legal advice**, and the unit asks one question rather than answering it.* |
+| 12 | **ISO/IEC/IEEE 42020**, *Architecture processes*, in the edition held, dated **2019** | Six architecture processes — **governance, management, conceptualization, evaluation, elaboration and enablement** — and the observation that **enablement** is the one most often absent, because it has no natural owner and its absence looks like several teams being slow. *Not covered: an order, a document set, or **how** to perform any process. Like its life cycle companion it expects **tailoring** and prescribes no method, and it will not tell you which process you are missing.* |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1.** The record that mattered was the one nobody had written: a decision taken in a corridor,
+  defended for four years by people who had each inherited it from somebody else.
+- **Unit 2.** The four services were not a design. They were a reporting line, drawn in software, and
+  the reorganization that would have changed them was the one decision nobody had the authority to
+  propose.
+- **Unit 3.** Three of the twelve instructions were assumptions, said so in the original text, and had
+  been quoted as rules in two internal documents by people who had read neither.
+- **Unit 4.** Four diagrams, one of them undated, and the undated one was the one everybody used.
+  Three lines of heading would have made the other three usable.
+- **Unit 5.** Eleven of nineteen requirements were unverifiable, and every one of them had been
+  approved. The open-questions list was two lines long and had not existed at all.
+- **Unit 6.** The assumption was not that the network was reliable. It was that somebody else had
+  already thought about it, which is the ninth fallacy and the only one that is nobody's fault in
+  particular.
+- **Unit 7.** The step that could not be undone was an email, and it went out before the payment that
+  justified it. Reordering two lines would have cost an afternoon.
+- **Unit 8.** Four weeks were spent configuring a timeout to remove an uncertainty that a 1985 proof
+  says cannot be removed. The proof was eight pages and nobody had read it.
+- **Unit 9.** The metaphor won the argument and then was used, for two years, to justify exactly what
+  its author had said he was never in favor of.
+- **Unit 10.** Two whole processes were missing, and they were found by reading a list in an afternoon
+  rather than by anything going wrong. Four teams kept their own copy of one customer list, and three
+  of the copies disagreed.
+- **Unit 11.** Forty-one components, eleven license files, and no file marked as changed. Nobody
+  decided that, and three people had already asked the wrong question and waited three weeks for the
+  reply.
+- **Unit 12.** Five of six processes performed well. The missing one was the least rewarding, had no
+  owner, and its absence looked like four teams being slow — which is what it was read as for a year.
+
+**Book 4 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS4-…`; **283 pages**; `Keystone-3-Book4.docx`.
