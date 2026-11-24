@@ -39,7 +39,13 @@ BOOKS = [("wayfinder/starter", "Wayfinder-Starter-Book1"),
          ("architect/level3",  "Keystone-2-Book3"),
          ("architect/level4",  "Keystone-3-Book4"),
          ("architect/level5",  "Keystone-4-Book5"),
-         ("architect/level6",  "Keystone-5-Book6")]
+         ("architect/level6",  "Keystone-5-Book6"),
+         ("pm/level1",         "Throughline-Foundation-Book1"),
+         ("pm/level2",         "Throughline-1-Book2"),
+         ("pm/level3",         "Throughline-2-Book3"),
+         ("pm/level4",         "Throughline-3-Book4"),
+         ("pm/level5",         "Throughline-4-Book5"),
+         ("pm/level6",         "Throughline-5-Book6")]
 
 HEAD = re.compile(r'^(UNIT \d+|Starting Point|STARTING POINT|Grammar reference|Audio index.*|'
                   r'Word list|Academic word list|Sources|Closing)$')

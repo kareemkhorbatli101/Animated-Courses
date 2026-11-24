@@ -61,7 +61,12 @@ PROPER_NOUNS = ["UN Environment Programme", "World Food Programme",
                 "Labour Organization",
                 # The ILO publishes this indicator under this name. Renaming a cited
                 # indicator is a worse error than a British spelling.
-                "labour income share", "Labour income share"]
+                "labour income share", "Labour income share",
+                # ISO 21506:2018 defines "programme" with that spelling, and the
+                # Throughline series uses it as the standard's defined term
+                # throughout. "Program" is a different word in that vocabulary,
+                # so Americanizing it would rename a defined term.
+                "programme", "Programme", "programmes"]
 
 SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "level1":  ["spec_v1", "spec_v2", "spec_v3"],
@@ -91,14 +96,23 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "architect/level3": ["spec_c1", "spec_c2", "spec_c3", "spec_c4"],
                 "architect/level4": ["spec_d1", "spec_d2", "spec_d3", "spec_d4"],
                 "architect/level5": ["spec_e1", "spec_e2", "spec_e3", "spec_e4"],
-                "architect/level6": ["spec_f1", "spec_f2", "spec_f3", "spec_f4"]}
+                "architect/level6": ["spec_f1", "spec_f2", "spec_f3", "spec_f4"],
+                # Throughline (project management series) — specs in pm/_build.
+                # Two-letter figure prefixes: the single letters were used up by
+                # the first four series.
+                "pm/level1": ["spec_pa1", "spec_pa2", "spec_pa3", "spec_pa4"],
+                "pm/level2": ["spec_pb1", "spec_pb2", "spec_pb3", "spec_pb4"],
+                "pm/level3": ["spec_pc1", "spec_pc2", "spec_pc3", "spec_pc4"],
+                "pm/level4": ["spec_pd1", "spec_pd2", "spec_pd3", "spec_pd4"],
+                "pm/level5": ["spec_pe1", "spec_pe2", "spec_pe3", "spec_pe4"],
+                "pm/level6": ["spec_pf1", "spec_pf2", "spec_pf3", "spec_pf4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""
     mods = SPEC_MODULES.get(book)
     if not mods: return {}
     sys.path.insert(0, os.path.join(HERE, "..", "_build"))
-    for _series in ("business", "diplomacy", "architect"):
+    for _series in ("business", "diplomacy", "architect", "pm"):
         if book.startswith(_series + "/"):
             sys.path.insert(0, os.path.join(HERE, "..", "..", _series, "_build"))
     out = {}
@@ -164,7 +178,11 @@ READ_TARGET = {"starter": (0.0,3.5), "level1": (2.5,4.5), "level2": (3.0,5.0),
                # Keystone: adult technical readers, A2 to C1
                "architect/level1": (3.5,6.5), "architect/level2": (4.5,7.5),
                "architect/level3": (5.5,8.5), "architect/level4": (6.5,9.5),
-               "architect/level5": (7.5,10.5), "architect/level6": (8.5,11.5)}
+               "architect/level5": (7.5,10.5), "architect/level6": (8.5,11.5),
+               # Throughline: adult project-management readers, A2 to C1
+               "pm/level1": (3.5,6.5), "pm/level2": (4.5,7.5),
+               "pm/level3": (5.5,8.5), "pm/level4": (6.5,9.5),
+               "pm/level5": (7.5,10.5), "pm/level6": (8.5,11.5)}
 
 def strip_markup(s):
     s = re.sub(r"%%FIG[^%]*%%", " ", s)
