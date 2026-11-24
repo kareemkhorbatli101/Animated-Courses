@@ -220,3 +220,65 @@ benefit is the one Unit 11 shows distorting the work within nine months.
 196 figures, prefixed `pc`, none reused from any other book in this series or its four sister
 series. 195 audio cues, prefixed `TL3`: three in the Starting Point and sixteen in each of the
 twelve units, in the fixed positions documented in the book's own back matter.
+
+## Book 4 · Throughline 3 (B1+)
+
+Twelve units, under the title *Methods and Their Owners*. The Starting Point carries no source body.
+This is the book of named methods, and the only one in the series whose sources were mostly written
+by organizations that sell training and credentials against them. Every unit therefore asks the same
+four questions of its document — who publishes it, which edition is in front of you, what does it
+claim to be, and what does it say it does not cover — and prints the answers. The book is not
+affiliated with, endorsed by or derived from any of the bodies whose documents it discusses, and it
+is not a study guide for any examination.
+
+| Unit | Title | Source, with its edition or date | What the reading prints as the document's own limit |
+|---|---|---|---|
+| 1 | The Edition You Are Holding | A **body-of-knowledge guide**, **7th edition, 2021**, published by a professional association; the **6th edition, 2017** had forty-nine processes | It presents **twelve principles** and **eight performance domains** rather than a process set, expects tailoring, and states that it is **not a methodology** and does not prescribe how to perform any activity. The company's 112-page procedure, written against the previous edition, left **71 pages** referring to a structure the guide no longer uses |
+| 2 | Seven, Seven and Seven | A **structured project management method**, **7th edition, 2023**, published by the company that owns and certifies it | All seven principles must be applied for a project to be run **using the method's name**; tailoring must be recorded; and the method **prescribes no tolerance values** — they are set by those governing the project, and in this programme they were never written down at all |
+| 3 | Over, Not Instead Of | A **manifesto for software development**, **February 2001**, **17 signatories**, **68 words** in its four value statements | Its own closing sentence states that **the items on the right have value**; it is addressed to **software development**; and it prescribes **no practice, role, document or method**. The project it is quoted at is **30 per cent** able to iterate |
+| 4 | The Guide That Refuses | A **guide to a development framework**, **November 2020**, by its two authors, **13 pages** | The framework is **deliberately incomplete**, its elements are **indivisible**, and implementing only parts of it is **not the framework it names**. It prescribes no technique, tool, metric or document. The subcontractor held **7 of 11** elements and used the name |
+| 5 | What Have You Seen Them Do | An **individual competence baseline**, **version 4, 2015**, published by a project management association — **29 elements** in three areas | It describes competence elements and key indicators for **individuals**, is **not a methodology**, does not describe how to manage a project, and **provides no scoring scheme**: assessment schemes belong to the certifying bodies that use it |
+| 6 | The Number Nobody Can Check | An **industry report on project outcomes, first published 1994**, with two peer-reviewed critiques — **Information and Software Technology (2006)** and **IEEE Software (2010)** | The report's **sampling method, questionnaire and success definitions have never been published**, so the figure **cannot be verified**; and **neither critique asserts that the projects concerned succeeded**. The company's own 44 projects give **9** by the strict definition and **41** accepted by the client |
+| 7 | Round Again, With the Risks First | **B. W. Boehm**, *A Spiral Model of Software Development and Enhancement*, **IEEE Computer, May 1988**, with the same author's **2000** follow-up | It is written for **software development and enhancement**, **depends on risk-assessment expertise**, and its author noted that its steps **required further elaboration** and that it fits **awkwardly with fixed-price acquisition**. The 2000 paper exists because processes were using the model's name **without its invariants** |
+| 8 | Somebody From Outside | A **gateway review process** published by a government commerce office in **2007**, now operated by that country's infrastructure and projects authority — **six review points, 0 to 5** | It describes itself as a **short, independent, confidential** review held **before** key decisions; reports are addressed to the **senior responsible owner**; the team **recommends and holds no authority**; and each review is a **point-in-time assessment based on the documents made available and the interviews conducted** in the period |
+| 9 | Must-Meet and Should-Meet | **R. G. Cooper**, *Stage-Gate Systems: A New Tool for Managing New Products*, **Business Horizons, May–June 1990** | A **practitioner account** addressed to **new product development**, arguing for the system it describes rather than **reporting a controlled trial**; its gates depend on decision-makers **willing and able to stop projects**, a condition the system cannot supply. The same author has since written about gates degenerating into **tollgates** |
+| 10 | Eight Steps and a Burning Platform | **J. P. Kotter**, *Leading Change*, **Harvard Business School Press, 1996**, developing *Leading Change: Why Transformation Efforts Fail*, **Harvard Business Review, March–April 1995** | A **practitioner account** based on the author's observation of organizations during consulting work; it **does not report a controlled study** and publishes **neither sample nor measures**. The widely circulated figure of **70 per cent does not appear in it**: the book says **more than half** the companies observed **failed in the first phase** |
+| 11 | Who Actually Said It | **W. A. Shewhart**, *Statistical Method from the Viewpoint of Quality Control*, **1939**, **edited by W. E. Deming**; and **W. E. Deming**, *The New Economics*, **1993** | The 1939 book is a **statistics text on the quality control of manufactured product**, not about projects, and the letters **P, D, C and A do not appear in it**. The 1993 book sets out **plan–do–study–act**, objects to the word **"check"**, and **attributes the cycle to Shewhart**. The content of the **1950 lectures** reaches us **largely through secondary accounts** |
+| 12 | One Page of Method Decisions | **ISO/IEC/IEEE 12207**, *Systems and software engineering — Software life cycle processes*, in the edition held, dated **2017** | It provides for **full or tailored conformance** and requires a tailored claim to **declare the tailoring**; it is written for **software life cycle processes**; it prescribes **no life cycle model, document set or method**; and it offers **no judgment as to whether a given tailoring decision is sound** |
+
+### The honesty notes, Book 4
+
+- **Unit 1.** Nothing in the 112 pages became untrue when the edition changed. Seventy-one pages
+  lost their parent, and nobody noticed for four years because nobody reads a procedure forwards.
+- **Unit 2.** Fourteen people certified in a method the company applies five sevenths of, and the
+  two principles skipped are the two that would have reported something upwards.
+- **Unit 3.** The sentence that protects documentation is **in** the sixty-eight words, which makes
+  dropping four handover manuals a decision the company made and then attributed to a manifesto.
+- **Unit 4.** Every method in this book expects to be tailored except the shortest one, which says in
+  plain words that its parts are indivisible — and four of the eleven elements missing on site are
+  the four that let somebody outside the team see what is true.
+- **Unit 5.** A self-assessment measures willingness to claim. The man who wrote *fine* in nine
+  boxes was second of eleven on colleague evidence, and nine of eleven could not state the strategy
+  whose area they had scored.
+- **Unit 6.** Fourteen tenders quoted a number nobody in the office had read, three citation steps
+  from a document whose method is unpublished. *Cannot be verified* is not the same as *not true*.
+- **Unit 7.** Nine hundred in week three against sixty thousand in month nine, for the same
+  question — and two of the four "cycles" were laps, because a fixed-price contract left nothing to
+  commit at the end of a turn.
+- **Unit 8.** Four days, fourteen of sixty-one people, forty-one documents the project chose itself,
+  and the uncomfortable file left in a drawer. The silence in that report is largely the project's.
+- **Unit 9.** Thirty-one projects through one gate in four years with no stops, because every
+  criterion was a score and a score cannot refuse. The author of the four new questions wrote the
+  one that caught his own project.
+- **Unit 10.** Forty-one days presenting, zero days removing. Nobody spoke in favor of the
+  three-signature rule and nobody needed to, because silence is free and effective.
+- **Unit 11.** Forty-eight ticked boxes, every one of them honest, and no written conclusion in three
+  years — because the word in the third box asks whether we did it, not whether it worked.
+- **Unit 12.** Thirty-four elements of ninety-five, with a name and a date against every omission.
+  The two rows carrying a warning are the rows that make the other nine believable.
+
+### Figures and audio, Book 4
+
+196 figures, prefixed `pd`, none reused from any other book in this series or its four sister
+series. 195 audio cues, prefixed `TL4`: three in the Starting Point and sixteen in each of the
+twelve units, in the fixed positions documented in the book's own back matter.
