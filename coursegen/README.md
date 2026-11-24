@@ -19,6 +19,7 @@ identical in every one; only `series.py` differs.
 | `cyb` | English for Cybersecurity |
 | `ngo` | English for NGOs — New Syria Edition |
 | `col` | English for College Students — International Edition |
+| `hsc` | English for High School Students — International Edition |
 
 ## The harness
 
