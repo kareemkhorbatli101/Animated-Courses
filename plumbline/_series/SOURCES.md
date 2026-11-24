@@ -144,3 +144,80 @@ Where a figure prints figures that look like published data but are not — the 
 first-language table in Unit 4, the sense shares in Unit 8, the class curves in Units 9 and 10 — the
 figure says on its face that the numbers are the book's own illustration or the invented class's own
 count, and tells the reader to go and look up the published ones.
+
+---
+
+# Book 2 · Plumbline 1 — *The Mark You Lost*
+
+Target band 5.0 · CEFR B1+ · figure prefix `qb` · audio prefix `PL2` · 196 figures · 195 tracks
+
+One paper: Listening. Twelve units, twelve sources, and only two of them about the examination. The
+other ten are about how a stream of speech is cut into words, what happens to small words when
+nobody is being careful, what a listener has decided by the third sound, how long a name survives
+between hearing it and writing it, what a lecture's own sentences give you free, and how wide the
+number at the end is.
+
+| Unit | Title | Source, as cited in the text | What the text prints as the document's own limit |
+|---|---|---|---|
+| **1** | Four Parts, Forty Questions | The **guide for teachers** published by the test owners, read 11 February | It names the question types that **may** appear — not which will, how many of each, or in what order; it says nothing about the content of any recording; it is revised, so the edition is part of the citation; and it is written to explain the paper's purpose, not how to answer quickly |
+| **2** | The Stream | **Richard Cauldwell**, *Phonology for Listening: Teaching the Stream of Speech*, Speech in Action, **2013** | A pedagogic account for teachers, with its own terminology, built from close listening to recordings; the three-way division (greenhouse, garden, jungle) is a **teaching device**, not an experimental finding, and the author does not claim otherwise; it reports no trial, gives no timetable and promises no gain in any score |
+| **3** | The Words That Disappear | **Gillian Brown**, *Listening to Spoken English*, Longman, **1977**; second edition **1990** | A description based mainly on one variety — educated southern British English of the period — written before large spoken corpora; the second edition revised it rather than replacing it; **no rule in it is absolute**, since how much is elided depends on the speaker, the speed and the style; and it describes the language rather than teaching it |
+| **4** | Slips of the Ear | **Z. S. Bond**, *Slips of the Ear: Errors in the Perception of Casual Conversation*, Academic Press, **1999** | Every slip in it is one somebody **noticed**, so it can describe what misperceptions look like and cannot say how often they happen — the author is explicit about this; it is English casual conversation of one period, largely by native-speaking listeners; it does not claim to describe what learners mishear; and being observational it establishes no cause |
+| **5** | The Brain Guesses Early | **W. D. Marslen-Wilson and A. Welsh**, *Processing interactions and lexical access during word recognition in continuous speech*, **Cognitive Psychology, 1978** | A laboratory model from shadowing and mispronunciation-detection tasks with a small number of native-speaking participants; **the first author revised the role of context in work published in 1987**; it says nothing about learners, nothing about whether recognition can be trained, and nothing about any examination |
+| **6** | Holding It While You Write | **A. D. Baddeley and G. Hitch**, *Working Memory*, in *The Psychology of Learning and Motivation*, vol. 8, **1974** | A model, revised continuously since, with a fourth component — the episodic buffer — added by the first author in **2000**, so four parts cannot be cited to the 1974 paper; the evidence is digit span and reasoning under load, not writing answers; capacity figures vary with material and measurement, so *two seconds* is an order of magnitude; and it is a model of a system, not a technique |
+| **7** | The Lecture Has a Shape | **C. A. Chaudron and J. C. Richards**, *The effect of discourse markers on the comprehension of lectures*, **Applied Linguistics, 1986** | One study, one institution, one group of learners, on lectures prepared for the experiment; the measure was a comprehension and recall test rather than a band; **the effects were real but modest**; and it cannot say what any particular lecturer will do — some never signpost at all |
+| **8** | Where the Stress Falls | **A. Cutler and D. M. Carter**, *The predominance of strong initial syllables in the English vocabulary*, **Computer Speech and Language, 1987** | It establishes a **count** of a vocabulary at the time of counting; that listeners **use** the pattern is an **inference**, supported by other work and not demonstrated here about any individual; the strategy has a known failure in words like *result*, *agree* and *allow*; and the paper says nothing about learners and contains no exercise |
+| **9** | Accents You Have Not Heard | **R. C. Major, S. F. Fitzmaurice, F. Bunta and C. Balasubramanian**, *The effects of nonnative accents on listening comprehension: implications for ESL assessment*, **TESOL Quarterly, 2002** | Particular accents, particular listener groups, particular materials; the effects were **small** and **not consistent** across groups; **the authors explicitly ask readers not to generalize** beyond the varieties tested; and it is not a study of this examination and makes no claim about any band. The unit keeps it strictly apart from the test owners' own published statement that a range of accents is used |
+| **10** | Being Taught to Listen | **L. Vandergrift and M. H. Tafaghodtari**, *Teaching L2 learners how to listen does make a difference: an empirical study*, **Language Learning, 2010** | One quasi-experimental study, one term, one institution, one language pair, using **intact classes** rather than individuals assigned at random; the outcome was a listening test, not a band; the method cannot be separated from the teacher who delivered it; and *the less skilled gained most* is a subgroup result awaiting replication |
+| **11** | The Score You Cannot Feel | **L. J. Cronbach**, *Coefficient alpha and the internal structure of tests*, **Psychometrika, 1951** | The coefficient is a property of a **set of items answered by a group**, not of a test; it is **not** a measure of whether a test measures one thing; it rises with the number of items whatever their quality; **the author wrote critically about its use in work published after his death in 2004**; and the paper contains no reliability figure for any examination |
+| **12** | Forty Marks, One Band | The published **indicative raw-score guidance** for Listening, with a review of the eleven above | It is described as **indicative**; the number of correct answers that reaches a band is worked out **for each version**, so it is not the table used on your paper; it says nothing about the width round your own score; and it cannot be run backwards — a practice score of 23 is 23 answers on one morning, not a band |
+
+## Twelve admissions, one per unit
+
+- **Unit 1.** Every student who was surprised by a question type was surprised by something the guide
+  never claimed to tell them. And almost every student practices the part they are already best at.
+- **Unit 2.** Four thousand words, and four words out of nine from four seconds of real speech. The
+  words were never the problem, and nobody finds out until the jungle arrives in Part 3.
+- **Unit 3.** The commonest words in English are the ones learners cannot hear, because they were
+  learned in their full form and are met flattened.
+- **Unit 4.** A mishearing is real English with the right rhythm, which is why it is believed, and
+  why the only available check is whether the answer fits the printed words round the gap.
+- **Unit 5.** Eleven of nineteen blank gaps were answerable from the printed words alone, with no
+  recording at all. The student who found that out called it cheating.
+- **Unit 6.** Three blanks in a row is one problem and two casualties, and the repair is to write
+  fewer words — which feels careless to everybody who was ever taught to answer in full sentences.
+- **Unit 7.** The small joining words are the ones courses teach. The sentences that announce the
+  shape are the ones that helped, and they arrive in the first forty seconds, free.
+- **Unit 8.** The strategy that finds most word beginnings in English is the strategy that produced
+  *sult* on an answer line. It worked perfectly and gave the wrong answer.
+- **Unit 9.** Two students, one recording, opposite rankings. With two people it is about two people,
+  and a rumor about accents is almost always larger than the evidence behind it.
+- **Unit 10.** Thirty-eight practice papers bought two marks. One slow cycle found that three of four
+  errors came from the wording of the questions, which no score would ever have said.
+- **Unit 11.** Everybody believes their highest score, including the people who know better. A
+  number has a width, and no result slip in the world prints it.
+- **Unit 12.** Forty marks become one band through a table published as a guide. Count marks.
+
+## Figures, audio and invented figures
+
+196 figures, prefix `qb`, generated from `plumbline/_build/spec_qb1.py` to `spec_qb4.py`. No figure
+in this book appears in any other book of this series or in any of its five sister series.
+
+195 audio tracks, prefix `PL2`. **In a book about recordings, the back matter states four things
+about its own audio:** the focused-listening tracks are deliberately uneven in speed, because a book
+teaching the difference between careful and spontaneous speech cannot illustrate it with careful
+speech only; every number is said twice; transcripts are printed where the exercise needs them and
+withheld where printing one would turn a listening exercise into a reading exercise; and none of it
+is a sample of the examination, for which there is only the test owners' own published sample
+material.
+
+**Every transcript, extract, question page and answer sheet in the book was written for it**,
+including every example of mishearing: the collection described in Unit 4 is real, and the examples
+printed in the book's own table are the book's own.
+
+**Every figure attributed to "our own class" is invented** — the four-second counts in Unit 2, the
+weak-form counts in Unit 3, the slip tally in Unit 4, the recognition-point figures in Unit 5, the
+delay figures in Unit 6, the four versions in Unit 7, the segmentation figures in Unit 8, the accent
+matrix in Unit 9, the term-long split in Unit 10 and the six scores in Unit 11. Each says on its own
+face that it is the invented class's own count, with eleven students, and several of the units stop
+to say why eleven students cannot establish anything.
