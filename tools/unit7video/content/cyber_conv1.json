@@ -1,0 +1,367 @@
+{
+  "id": "cyber_conv1",
+  "kind": "dialogue",
+  "mode": "phone",
+  "arabicAudio": false,
+  "unit": "Cybersecurity · Unit 1",
+  "number": "Conversation 1",
+  "title": "Can it wait until Sunday?",
+  "titleAr": "هل يمكن أن ينتظر حتى الأحد؟",
+  "level": "CEFR B1.1",
+  "course": "English for Foreign Ministry Staff — Information Security",
+  "setting": "by internal telephone · server room ↔ security office",
+  "settingAr": "عبر الهاتف الداخلي · غرفة الخوادم ↔ مكتب الأمن",
+  "accent": "cyber",
+  "narrator": {
+    "voice": "en-US-BrianNeural",
+    "rate": "-8%"
+  },
+  "speakers": {
+    "omar": {
+      "name": "Omar",
+      "role": "Systems Administrator",
+      "roleAr": "مسؤول الأنظمة",
+      "place": "Server room",
+      "placeAr": "غرفة الخوادم",
+      "side": "left",
+      "look": "omar",
+      "color": "#5ea9f0",
+      "voice": "en-US-GuyNeural",
+      "rate": "-8%",
+      "arVoice": "ar-SY-LaithNeural",
+      "arRate": "-4%",
+      "backdrop": "datacenter"
+    },
+    "rana": {
+      "name": "Ms. Rana",
+      "role": "Head of Information Security",
+      "roleAr": "رئيسة أمن المعلومات",
+      "place": "Security office",
+      "placeAr": "مكتب الأمن",
+      "side": "right",
+      "look": "rana",
+      "color": "#d98b3a",
+      "voice": "en-US-AvaNeural",
+      "rate": "-8%",
+      "arVoice": "ar-SY-AmanyNeural",
+      "arRate": "-4%",
+      "backdrop": "damascus"
+    }
+  },
+  "preview": {
+    "headline": "Before you listen",
+    "headlineAr": "قبل الاستماع",
+    "lines": [
+      {
+        "en": "The VPN company has sent an urgent alert. An attacker can get in without a password.",
+        "ar": "أرسلت الشركة المصنّعة للشبكة الافتراضية تنبيهاً عاجلاً. يمكن للمهاجم الدخول دون كلمة مرور.",
+        "icon": "alert_mail"
+      },
+      {
+        "en": "Two hundred people are online, and four embassies are in a video meeting.",
+        "ar": "مئتا شخص متصلون الآن، وأربع سفارات في اجتماع مرئي.",
+        "icon": "video_meet"
+      },
+      {
+        "en": "Listen for how they protect the network without stopping the ministry's work.",
+        "ar": "استمع كيف يحميان الشبكة دون إيقاف عمل الوزارة.",
+        "icon": "handshake"
+      }
+    ],
+    "teaser": {
+      "en": "Security says now. Operations says Sunday. Somebody has to find the middle.",
+      "ar": "الأمن يقول الآن. والتشغيل يقول الأحد. وعلى أحدهم أن يجد الحل الوسط."
+    }
+  },
+  "vocab": {
+    "headline": "Useful phrases",
+    "headlineAr": "عبارات مفيدة",
+    "items": [
+      {
+        "term": "Did you see the alert …?",
+        "def": "opening a call about something urgent you both received",
+        "ar": "هل رأيتِ التنبيه …؟",
+        "arDef": "بدء المكالمة بأمر عاجل وصل إليكما معاً",
+        "icon": "alert_mail"
+      },
+      {
+        "term": "How bad is it?",
+        "def": "asking for the size of the risk in one question",
+        "ar": "ما مدى خطورته؟",
+        "arDef": "سؤال واحد يحدّد حجم الخطر",
+        "icon": "question"
+      },
+      {
+        "term": "Let's find a middle way.",
+        "def": "refusing both extremes and asking for a third option",
+        "ar": "لنجد حلاً وسطاً.",
+        "arDef": "رفض الحلّين المتطرفين وطلب خيار ثالث",
+        "icon": "handshake"
+      },
+      {
+        "term": "… so that nobody is surprised.",
+        "def": "telling people before you interrupt their work",
+        "ar": "… كي لا يُفاجأ أحد.",
+        "arDef": "إبلاغ الناس قبل مقاطعة عملهم",
+        "icon": "broadcast"
+      },
+      {
+        "term": "I'll test it on the backup server first.",
+        "def": "trying a change somewhere safe before the real system",
+        "ar": "سأختبرها على الخادم الاحتياطي أولاً.",
+        "arDef": "تجربة التغيير في مكان آمن قبل النظام الحقيقي",
+        "icon": "backup"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "sp": "omar",
+      "en": "Good morning, Ms. Rana. It's Omar in the server room. Did you see the alert from the VPN company?",
+      "ar": "صباح الخير سيدة رنا. معك عمر من غرفة الخوادم. هل رأيتِ التنبيه الوارد من الشركة المصنّعة للشبكة الافتراضية؟",
+      "mood": "brisk",
+      "phrase": "Did you see the alert …?",
+      "cues": [
+        {
+          "at": "server",
+          "icon": "server",
+          "label": "server room"
+        },
+        {
+          "at": "alert",
+          "icon": "alert_mail",
+          "label": "vendor alert",
+          "tone": "warn",
+          "term": true
+        }
+      ]
+    },
+    {
+      "sp": "rana",
+      "en": "I did. I was going to call you. How bad is it?",
+      "ar": "نعم رأيته. كنت على وشك الاتصال بك. ما مدى خطورته؟",
+      "mood": "brisk",
+      "phrase": "How bad is it?",
+      "cues": [
+        {
+          "at": "bad",
+          "icon": "question",
+          "label": "How bad is it?",
+          "tone": "key",
+          "term": true
+        }
+      ]
+    },
+    {
+      "sp": "omar",
+      "en": "It's bad. An attacker can get in without a password. The company has already released a patch.",
+      "ar": "إنه خطير. يمكن للمهاجم الدخول دون كلمة مرور. وقد أصدرت الشركة رقعة برمجية بالفعل.",
+      "mood": "concerned",
+      "cues": [
+        {
+          "at": "attacker",
+          "icon": "padlock_open",
+          "label": "in without a password",
+          "tone": "bad",
+          "big": true
+        },
+        {
+          "at": "patch",
+          "icon": "patch",
+          "label": "patch already released",
+          "tone": "good"
+        }
+      ]
+    },
+    {
+      "sp": "rana",
+      "en": "Good. When can you install it?",
+      "ar": "جيد. متى يمكنك تثبيتها؟",
+      "mood": "neutral",
+      "cues": []
+    },
+    {
+      "sp": "omar",
+      "en": "That is why I'm calling. Right now we have about two hundred users online, and four embassies are in a video meeting. I would like to do it on Sunday night.",
+      "ar": "لهذا السبب أتصل. لدينا الآن نحو مئتي مستخدم متصل، وأربع سفارات في اجتماع مرئي. أودّ أن أفعلها ليلة الأحد.",
+      "mood": "concerned",
+      "cues": [
+        {
+          "at": "hundred",
+          "icon": "users_group",
+          "label": "200 users online",
+          "tone": "warn"
+        },
+        {
+          "at": "embassies",
+          "icon": "video_meet",
+          "label": "4 embassies in a meeting",
+          "tone": "warn"
+        },
+        {
+          "at": "Sunday",
+          "icon": "calendar_fri",
+          "label": "\"Sunday night\"",
+          "tone": "bad",
+          "big": true
+        }
+      ]
+    },
+    {
+      "sp": "rana",
+      "en": "I understand the problem, but Sunday is five days away. When a patch becomes public, the attackers read it too. It shows them exactly where the weakness is.",
+      "ar": "أتفهّم المشكلة، لكن الأحد يبعد خمسة أيام. فحين تُنشر الرقعة علناً، يقرؤها المهاجمون أيضاً. إنها تدلّهم بدقة على موضع الثغرة.",
+      "mood": "firm",
+      "cues": [
+        {
+          "at": "five",
+          "icon": "countdown",
+          "label": "5 days of open door",
+          "tone": "bad",
+          "big": true
+        },
+        {
+          "at": "attackers",
+          "icon": "globe_scan",
+          "label": "the patch is a map",
+          "tone": "bad"
+        }
+      ]
+    },
+    {
+      "sp": "omar",
+      "en": "So you want me to disconnect everybody now?",
+      "ar": "إذن تريدينني أن أقطع الاتصال عن الجميع الآن؟",
+      "mood": "concerned",
+      "cues": []
+    },
+    {
+      "sp": "rana",
+      "en": "No. Let's find a middle way. How long does the patch take?",
+      "ar": "لا. لنجد حلاً وسطاً. كم تستغرق الرقعة؟",
+      "mood": "warm",
+      "phrase": "Let's find a middle way.",
+      "cues": [
+        {
+          "at": "middle",
+          "icon": "handshake",
+          "label": "find a middle way",
+          "tone": "key",
+          "big": true,
+          "term": true
+        }
+      ]
+    },
+    {
+      "sp": "omar",
+      "en": "About twenty minutes, with the restart.",
+      "ar": "نحو عشرين دقيقة، مع إعادة التشغيل.",
+      "mood": "neutral",
+      "cues": [
+        {
+          "at": "twenty",
+          "icon": "restart",
+          "label": "20 min, incl. restart"
+        }
+      ]
+    },
+    {
+      "sp": "rana",
+      "en": "Then do it in the lunch break, at one o'clock. Send a message to all staff now, so that nobody is surprised. I will inform the embassies myself.",
+      "ar": "إذن نفّذها في استراحة الغداء، في الساعة الواحدة. أرسل رسالة إلى جميع الموظفين الآن كي لا يُفاجأ أحد. وسأبلّغ السفارات بنفسي.",
+      "mood": "firm",
+      "phrase": "… so that nobody is surprised.",
+      "cues": [
+        {
+          "at": "lunch",
+          "icon": "clock_fast",
+          "label": "patch at 13:00",
+          "tone": "good",
+          "big": true
+        },
+        {
+          "at": "message",
+          "icon": "broadcast",
+          "label": "warn all staff first",
+          "tone": "good",
+          "term": true
+        }
+      ]
+    },
+    {
+      "sp": "omar",
+      "en": "That works. I'll test it on the backup server first.",
+      "ar": "هذا مناسب. سأختبرها على الخادم الاحتياطي أولاً.",
+      "mood": "warm",
+      "phrase": "I'll test it on the backup server first.",
+      "cues": [
+        {
+          "at": "test",
+          "icon": "backup",
+          "label": "test on backup first",
+          "tone": "good",
+          "big": true,
+          "term": true
+        }
+      ]
+    },
+    {
+      "sp": "rana",
+      "en": "Perfect. And Omar — send me the log afterwards. I want to see who was knocking on that door this morning.",
+      "ar": "ممتاز. وعمر — أرسل لي سجل الأحداث بعد ذلك. أريد أن أرى من كان يطرق ذلك الباب هذا الصباح.",
+      "mood": "warm",
+      "cues": [
+        {
+          "at": "log",
+          "icon": "log_list",
+          "label": "send me the log",
+          "tone": "key"
+        },
+        {
+          "at": "knocking",
+          "icon": "door_open",
+          "label": "who was at the door?",
+          "tone": "bad",
+          "big": true
+        }
+      ]
+    }
+  ],
+  "takeaway": {
+    "en": "Security and operations both have a real problem. The answer is rarely now or never — it is a short, announced window, tested first.",
+    "ar": "لدى كلٍّ من الأمن والتشغيل مشكلة حقيقية. والحل نادراً ما يكون الآن أو أبداً — بل نافذة قصيرة مُعلَنة، تُختبر أولاً.",
+    "icon": "handshake"
+  },
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      {
+        "en": "Why does Omar telephone Ms. Rana?",
+        "ar": "لماذا يتصل عمر بالسيدة رنا؟"
+      },
+      {
+        "en": "What can an attacker do because of this weakness?",
+        "ar": "ما الذي يستطيع المهاجم فعله بسبب هذه الثغرة؟"
+      },
+      {
+        "en": "Why does Omar want to wait until Sunday night?",
+        "ar": "لماذا يريد عمر الانتظار حتى ليلة الأحد؟"
+      },
+      {
+        "en": "Why does Ms. Rana say that waiting five days is dangerous?",
+        "ar": "لماذا تقول السيدة رنا إن الانتظار خمسة أيام خطير؟"
+      },
+      {
+        "en": "What four things do they agree to do?",
+        "ar": "ما الأمور الأربعة التي يتفقان على تنفيذها؟"
+      }
+    ]
+  },
+  "discussion": {
+    "headline": "Role-play",
+    "headlineAr": "تمثيل الأدوار",
+    "en": "Student A is a systems administrator who wants to postpone a patch until the weekend, because an important video conference is running. Student B is the head of information security, who must protect the network and also keep the service working.",
+    "ar": "الطالب (أ) مسؤول أنظمة يريد تأجيل الرقعة البرمجية إلى عطلة نهاية الأسبوع، لأن هناك مؤتمراً مرئياً مهماً جارياً. والطالب (ب) رئيس أمن المعلومات، الذي عليه حماية الشبكة والحفاظ على استمرار الخدمة في آنٍ واحد."
+  }
+}

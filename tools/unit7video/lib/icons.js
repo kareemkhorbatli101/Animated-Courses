@@ -172,6 +172,60 @@
   I.hold_back    = '<path class="f" d="M5 14h30v20H5z"/><path d="M5 14h30v20H5z"/><circle cx="20" cy="24" r="5"/>' +
                    '<path d="M41 14v20" stroke-width="4"/><path d="M44 18l-5 6 5 6" stroke-width="3"/>';
 
+  /* ---- cybersecurity ---------------------------------------------------- */
+  const LOCKBODY = '<path class="f" d="M9 21h30v22H9z"/><path d="M9 21h30v22H9z"/>' +
+                   '<circle cx="24" cy="29" r="3"/><path d="M24 32v5"/>';
+  I.padlock      = LOCKBODY + '<path d="M16 21v-6a8 8 0 0 1 16 0v6"/>';
+  I.padlock_open = LOCKBODY + '<path d="M16 21v-6a8 8 0 0 1 16 0"/>';
+  I.vpn          = '<path class="f" d="M4 24c0-9 9-14 20-14s20 5 20 14-9 14-20 14S4 33 4 24z"/>' +
+                   '<path d="M4 24c0-9 9-14 20-14s20 5 20 14-9 14-20 14S4 33 4 24z"/>' +
+                   '<path d="M14 24c0-6 4-10 10-10s10 4 10 10-4 10-10 10-10-4-10-10z"/>' +
+                   '<path d="M24 14v20"/>';
+  I.server       = '<path class="f" d="M7 7h34v12H7zM7 22h34v12H7z"/>' +
+                   '<path d="M7 7h34v12H7zM7 22h34v12H7z"/>' +
+                   '<path d="M13 13h.5M13 28h.5M19 13h10M19 28h10"/>' +
+                   '<path d="M15 34v6M33 34v6M11 40h26"/>';
+  I.edge_device  = '<path class="f" d="M15 16h18v16H15z"/><path d="M15 16h18v16H15z"/>' +
+                   '<path d="M21 22h6M21 27h6"/><path d="M2 24h12M34 24h12"/>' +
+                   '<circle cx="4" cy="24" r="3"/><circle cx="44" cy="24" r="3"/>' +
+                   '<path d="M15 10v-4M33 10v-4M15 38v4M33 38v4" opacity=".6"/>';
+  I.patch        = '<circle cx="24" cy="24" r="17" class="f"/><circle cx="24" cy="24" r="17"/>' +
+                   '<path d="M24 16v16M16 24h16" stroke-width="3.6"/>';
+  I.globe_scan   = '<circle cx="24" cy="24" r="17" class="f"/><circle cx="24" cy="24" r="17"/>' +
+                   '<path d="M7 24h34M24 7c5 5 5 29 0 34M24 7c-5 5-5 29 0 34"/>' +
+                   '<path d="M24 24l13-9" stroke-width="3"/>';
+  I.alert_mail   = '<path class="f" d="M5 12h30v22H5z"/><path d="M5 12h30v22H5z"/><path d="M5 14l15 11 15-11"/>' +
+                   '<circle cx="38" cy="12" r="9" class="f"/><circle cx="38" cy="12" r="9"/>' +
+                   '<path d="M38 7v6M38 16v.5"/>';
+  I.users_group  = '<circle cx="17" cy="16" r="7" class="f"/><circle cx="17" cy="16" r="7"/>' +
+                   '<path class="f" d="M4 40c0-8 6-12 13-12s13 4 13 12z"/>' +
+                   '<path d="M4 40c0-8 6-12 13-12s13 4 13 12z"/>' +
+                   '<path d="M33 11a7 7 0 0 1 0 12M34 29c6 1 10 5 10 11"/>';
+  I.broadcast    = '<circle cx="24" cy="24" r="5" class="f"/><circle cx="24" cy="24" r="5"/>' +
+                   '<path d="M15 15a13 13 0 0 0 0 18M33 15a13 13 0 0 1 0 18"/>' +
+                   '<path d="M8 8a23 23 0 0 0 0 32M40 8a23 23 0 0 1 0 32"/>';
+  I.log_list     = '<path class="f" d="M8 5h32v38H8z"/><path d="M8 5h32v38H8z"/>' +
+                   '<path d="M14 14h2M14 22h2M14 30h2M14 38h2M21 14h13M21 22h13M21 30h9M21 38h13"/>';
+  I.restart      = '<path class="f" d="M24 7a17 17 0 1 1-13 6"/>' +
+                   '<path d="M24 7a17 17 0 1 1-13 6"/><path d="M11 3v10h10"/>';
+  I.backup       = '<path class="f" d="M6 12c0-3 8-6 18-6s18 3 18 6-8 6-18 6-18-3-18-6z"/>' +
+                   '<path d="M6 12c0-3 8-6 18-6s18 3 18 6-8 6-18 6-18-3-18-6z"/>' +
+                   '<path d="M6 12v12c0 3 8 6 18 6s18-3 18-6V12M6 24v12c0 3 8 6 18 6s18-3 18-6V24"/>';
+  I.video_meet   = '<path class="f" d="M5 13h24v22H5z"/><path d="M5 13h24v22H5z"/>' +
+                   '<path d="M29 21l14-7v20l-14-7z"/>';
+  I.hacker       = '<circle cx="24" cy="15" r="8" class="f"/><circle cx="24" cy="15" r="8"/>' +
+                   '<path d="M13 14h22" stroke-width="5"/>' +
+                   '<path class="f" d="M9 43c0-8 7-13 15-13s15 5 15 13z"/>' +
+                   '<path d="M9 43c0-8 7-13 15-13s15 5 15 13z"/>';
+  I.door_open    = '<path d="M6 43h36"/><path class="f" d="M12 6h18v37H12z"/>' +
+                   '<path d="M12 6h18v37H12z"/><path d="M30 10l8-4v36l-8-4"/><circle cx="17" cy="25" r="1.8"/>';
+  I.countdown    = '<circle cx="24" cy="26" r="16" class="f"/><circle cx="24" cy="26" r="16"/>' +
+                   '<path d="M24 16v10h8"/><path d="M18 5h12M24 5v5"/>';
+  I.training     = '<path class="f" d="M5 14h38v24H5z"/><path d="M5 14h38v24H5zM5 38l6 6h26l6-6"/>' +
+                   '<path d="M13 22h22M13 29h14"/>';
+  I.phishing     = '<path class="f" d="M5 10h26v18H5z"/><path d="M5 10h26v18H5z"/><path d="M5 12l13 9 13-9"/>' +
+                   '<path d="M38 12c0 8-8 10-8 18a8 8 0 0 0 8 8c4 0 6-2 6-5"/><circle cx="38" cy="8" r="3"/>';
+
   /* ---------------------------------------------------------------------- */
   I.fallback = '<circle cx="24" cy="24" r="16" class="f"/><circle cx="24" cy="24" r="16"/><path d="M24 16v10M24 32v.5"/>';
 

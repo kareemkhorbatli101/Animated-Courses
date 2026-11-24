@@ -6,7 +6,8 @@
 'use strict';
 
 var TL = null, SEG = [], cur = -1, prevIdx = -1;
-var TR = 0.42;                     // panel crossfade
+var TR = 0.42;
+var ACCENT_RGB = '245,185,66';                     // panel crossfade
 var $ = function (s) { return document.querySelector(s); };
 var E = {};
 
@@ -38,6 +39,17 @@ function put(el, o, tx, ty, sc, rot) {
   if (sc !== undefined && sc !== 1) tr += ' scale(' + sc.toFixed(4) + ')';
   if (rot) tr += ' rotate(' + rot.toFixed(2) + 'deg)';
   el.style.transform = tr;
+}
+
+/* one server rack for the data-centre backdrop */
+function RACK(x, top) {
+  var y = 276 - top, w = 84, out = '<rect x="' + x + '" y="' + y + '" width="' + w +
+    '" height="' + top + '"/>';
+  for (var i = y + 12; i < 270; i += 18) {
+    out += '<rect x="' + (x + 10) + '" y="' + i + '" width="' + (w - 20) +
+           '" height="7" opacity=".45"/>';
+  }
+  return out;
 }
 
 /* ------------------------------------------------------------- skylines */
@@ -73,6 +85,14 @@ var SKY = {
     '<rect x="820" y="140" width="76" height="90"/><rect x="930" y="96" width="46" height="134"/>' +
     '<path d="M930 96l23-26 23 26z"/>' +
     '<rect x="1010" y="160" width="80" height="70"/><rect x="1120" y="130" width="60" height="100"/>' +
+    '</g></svg>',
+  datacenter:
+    '<svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax meet">' +
+    '<g fill="currentColor">' +
+    '<rect x="0" y="276" width="1200" height="24"/>' +
+    RACK(40, 96) + RACK(150, 60) + RACK(258, 130) + RACK(366, 80) +
+    RACK(474, 110) + RACK(582, 52) + RACK(690, 124) + RACK(798, 74) +
+    RACK(906, 104) + RACK(1014, 64) + RACK(1108, 92) +
     '</g></svg>'
 };
 
@@ -178,7 +198,7 @@ function renderCueStage(host, s, t, W, H, mode) {
     el.style.transform = 'translateY(' + ((1 - inP) * 46 + fy).toFixed(2) + 'px) scale(' +
       (0.76 + 0.24 * inP).toFixed(4) + ')';
     el.style.boxShadow = fl > 0
-      ? '0 24px 60px rgba(0,0,0,.42), 0 0 ' + (54 * fl).toFixed(0) + 'px rgba(245,185,66,' + (.5 * fl).toFixed(2) + ')'
+      ? '0 24px 60px rgba(0,0,0,.42), 0 0 ' + (54 * fl).toFixed(0) + 'px rgba(' + ACCENT_RGB + ',' + (.5 * fl).toFixed(2) + ')'
       : '0 24px 60px rgba(0,0,0,.42)';
   });
 }
@@ -213,10 +233,13 @@ function speaking(words, base, t) {
 /* ================================================================= init */
 function init(tl) {
   TL = tl; SEG = tl.segments;
-  document.documentElement.style.setProperty('--accent',
-    tl.accent === 'teal' ? 'var(--teal)' : 'var(--amber)');
-  document.documentElement.style.setProperty('--accentInk',
-    tl.accent === 'teal' ? '#04231f' : '#2a1c05');
+  var ACC = { teal: ['var(--teal)', '#04231f'], cyber: ['var(--cyber)', '#06203a'],
+              amber: ['var(--amber)', '#2a1c05'] };
+  var acc = ACC[tl.accent] || ACC.amber;
+  document.documentElement.style.setProperty('--accent', acc[0]);
+  document.documentElement.style.setProperty('--accentInk', acc[1]);
+  ACCENT_RGB = { teal: '47,185,168', cyber: '94,169,240',
+                 amber: '245,185,66' }[tl.accent] || '245,185,66';
 
   E = {
     stage: $('#stage'), bgGlow: $('#bgGlow'), bgGrid: $('#bgGrid'), sky: $('#skyline'),
@@ -249,7 +272,8 @@ function init(tl) {
     E.sides = {};
     [[E.sideL, L, keys[0], 'left'], [E.sideR, R, keys[1], 'right']].forEach(function (a) {
       var host = a[0], s = a[1], key = a[2], side = a[3];
-      host.querySelector('.sky').innerHTML = SKY[s.place.toLowerCase()] || SKY.shanghai;
+      host.querySelector('.sky').innerHTML =
+        SKY[String(s.backdrop || s.place).toLowerCase()] || SKY.shanghai;
       host.querySelector('.sky').style.color = s.color;
       var phone = tl.meta.mode !== 'inPerson';
       host.querySelector('.fig').innerHTML = '<svg viewBox="0 30 400 430">' +
@@ -338,8 +362,6 @@ function enter(i) {
     case 'chapter':
       $('#cpIdx').textContent = String(d.index + 1).padStart(2, '0');
       $('#cpEn').textContent = d.en; $('#cpAr').textContent = d.ar;
-      E.sky.innerHTML = SKY[d.scene === 'office_shanghai' ? 'shanghai' : 'damascus'];
-      E.sky.style.color = '#8fb6dd';
       break;
     case 'line':
       buildWords(E.subEn, s.words || []);
@@ -418,8 +440,8 @@ function paint(s, lt, t, alpha) {
         var pr = act ? eo4(stag(lt, 0, .5)) : 1;
         row.style.opacity = (act ? pr : seen ? .46 : .1).toFixed(3);
         row.style.transform = 'translateY(' + ((act ? (1 - pr) * 34 : 0)).toFixed(1) + 'px)';
-        row.style.borderColor = act ? 'rgba(245,185,66,.42)' : 'rgba(255,255,255,.12)';
-        row.style.background = act ? 'rgba(245,185,66,.1)' : 'rgba(255,255,255,.055)';
+        row.style.borderColor = act ? 'rgba(' + ACCENT_RGB + ',.42)' : 'rgba(255,255,255,.12)';
+        row.style.background = act ? 'rgba(' + ACCENT_RGB + ',.1)' : 'rgba(255,255,255,.055)';
       });
       break;
     }
@@ -563,6 +585,15 @@ function seek(t) {
 
   var body = s.type === 'line' || s.type === 'turn';
   E.sky.style.opacity = (body && TL.kind === 'reading') ? '.10' : '0';
+
+  /* backdrop is derived from whichever segment is active, so any frame can be
+     rendered on its own */
+  var want = s.data.scene;
+  if (want && E.sky._sig !== want) {
+    E.sky.innerHTML = SKY[String(want).replace('office_', '')] || SKY.damascus;
+    E.sky.style.color = '#8fb6dd';
+    E.sky._sig = want;
+  }
 
   if (i !== cur) { enter(i); cur = i; }
 

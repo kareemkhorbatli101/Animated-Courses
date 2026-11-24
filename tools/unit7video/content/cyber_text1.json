@@ -1,0 +1,388 @@
+{
+  "id": "cyber_text1",
+  "kind": "reading",
+  "unit": "Cybersecurity · Unit 1",
+  "number": "Text 1",
+  "title": "The door nobody closed",
+  "titleAr": "البابُ الذي لم يُغلقه أحد",
+  "level": "CEFR B1.1",
+  "course": "English for Foreign Ministry Staff — Information Security",
+  "narrator": {
+    "voice": "en-US-AndrewNeural",
+    "rate": "-10%",
+    "look": "narrator_m"
+  },
+  "accent": "cyber",
+  "preview": {
+    "headline": "Before you read",
+    "headlineAr": "قبل القراءة",
+    "lines": [
+      {
+        "en": "Your VPN is the door that staff use to reach the ministry network.",
+        "ar": "شبكتك الافتراضية الخاصة هي الباب الذي يستخدمه الموظفون للوصول إلى شبكة الوزارة.",
+        "icon": "vpn"
+      },
+      {
+        "en": "The company that makes it says there is a serious weakness in the software.",
+        "ar": "الشركة المُصنّعة تقول إن هناك ثغرة خطيرة في البرنامج.",
+        "icon": "alert_mail"
+      },
+      {
+        "en": "How fast must you fix it?",
+        "ar": "ما السرعة التي يجب أن تُصلحها بها؟",
+        "icon": "countdown"
+      }
+    ],
+    "teaser": {
+      "en": "A patch tells you where the hole is. It tells the attackers too.",
+      "ar": "الرقعة البرمجية تدلّك على مكان الثغرة. وهي تدلّ المهاجمين عليها أيضاً."
+    }
+  },
+  "vocab": {
+    "headline": "Words to listen for",
+    "headlineAr": "كلمات انتبه لها",
+    "items": [
+      {
+        "term": "a patch",
+        "ipa": "/pætʃ/",
+        "def": "a fix for a weakness in a piece of software",
+        "ar": "رقعة برمجية / تحديث أمني",
+        "arDef": "إصلاح يُعالج ثغرة في أحد البرامج",
+        "icon": "patch"
+      },
+      {
+        "term": "an edge device",
+        "ipa": "/edʒ dɪˈvaɪs/",
+        "def": "a machine between the internet and the inside of a network",
+        "ar": "جهاز طرفي حدودي",
+        "arDef": "جهاز يقع بين الإنترنت وداخل الشبكة، مثل جهاز الـ VPN",
+        "icon": "edge_device"
+      },
+      {
+        "term": "to scan",
+        "ipa": "/skæn/",
+        "def": "to look at very many computers quickly, to find a weak one",
+        "ar": "يمسح / يفحص",
+        "arDef": "فحص عدد هائل من الأجهزة بسرعة بحثاً عن جهاز ضعيف",
+        "icon": "globe_scan"
+      },
+      {
+        "term": "a weakness",
+        "ipa": "/ˈwiːknəs/",
+        "def": "a fault that lets an attacker do something they should not",
+        "ar": "ثغرة / نقطة ضعف",
+        "arDef": "خلل يتيح للمهاجم فعل ما لا يُسمح له به",
+        "icon": "padlock_open"
+      },
+      {
+        "term": "a log",
+        "ipa": "/lɒɡ/",
+        "def": "a record of what happened on a system",
+        "ar": "سجل الأحداث",
+        "arDef": "سجلّ يوثّق ما جرى على النظام",
+        "icon": "log_list"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "scene": "datacenter",
+      "chapter": "The message",
+      "chapterAr": "الرسالة",
+      "lines": [
+        {
+          "en": "On Tuesday morning, Omar opened his email. There was an urgent message from the company that makes the ministry's VPN.",
+          "ar": "صباح الثلاثاء، فتح عمر بريده الإلكتروني. كانت هناك رسالة عاجلة من الشركة المُصنّعة لشبكة الوزارة الافتراضية الخاصة.",
+          "cues": [
+            {
+              "at": "Omar",
+              "icon": "clerk",
+              "label": "Omar · Systems Administrator"
+            },
+            {
+              "at": "urgent",
+              "icon": "alert_mail",
+              "label": "urgent vendor alert",
+              "tone": "warn",
+              "big": true
+            }
+          ]
+        },
+        {
+          "en": "The VPN is the door that staff use to reach the internal network from home or from an embassy abroad.",
+          "ar": "الشبكة الافتراضية الخاصة هي الباب الذي يستخدمه الموظفون للوصول إلى الشبكة الداخلية من المنزل أو من سفارة في الخارج.",
+          "cues": [
+            {
+              "at": "door",
+              "icon": "vpn",
+              "label": "the VPN = the door",
+              "tone": "key",
+              "big": true,
+              "term": true
+            },
+            {
+              "at": "embassy",
+              "icon": "city",
+              "label": "staff · home · embassies"
+            }
+          ]
+        },
+        {
+          "en": "The message said that the software had a serious weakness. An attacker could get in without a password.",
+          "ar": "قالت الرسالة إن البرنامج يحتوي على ثغرة خطيرة. وأنه يمكن للمهاجم الدخول دون كلمة مرور.",
+          "cues": [
+            {
+              "at": "weakness",
+              "icon": "padlock_open",
+              "label": "serious weakness",
+              "tone": "bad",
+              "term": true
+            },
+            {
+              "at": "attacker",
+              "icon": "hacker",
+              "label": "in without a password",
+              "tone": "bad",
+              "big": true
+            }
+          ]
+        },
+        {
+          "en": "The company had already written a fix. A fix like this is called a patch. Omar had to install it.",
+          "ar": "كانت الشركة قد كتبت الإصلاح بالفعل. ويُسمّى هذا الإصلاح رقعة برمجية. وكان على عمر تثبيتها.",
+          "cues": [
+            {
+              "at": "patch",
+              "icon": "patch",
+              "label": "a patch = the fix",
+              "tone": "good",
+              "big": true,
+              "term": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "datacenter",
+      "chapter": "Not now, please",
+      "chapterAr": "ليس الآن من فضلك",
+      "lines": [
+        {
+          "en": "Omar looked at the clock. It was a quarter past nine. Two hundred people were working on the system.",
+          "ar": "نظر عمر إلى الساعة. كانت التاسعة والربع. وكان مئتا شخص يعملون على النظام.",
+          "cues": [
+            {
+              "at": "clock",
+              "icon": "clock_fast",
+              "label": "09:15",
+              "tone": "warn"
+            },
+            {
+              "at": "hundred",
+              "icon": "users_group",
+              "label": "200 users online",
+              "tone": "warn",
+              "big": true
+            }
+          ]
+        },
+        {
+          "en": "\"If I patch it now, everybody loses the connection for twenty minutes,\" he thought. \"I will do it on Sunday night, when the building is quiet.\"",
+          "ar": "وفكّر: «إذا ثبّتُ الرقعة الآن، سيفقد الجميع الاتصال لمدة عشرين دقيقة. سأفعلها ليلة الأحد، حين يهدأ المبنى.»",
+          "cues": [
+            {
+              "at": "twenty",
+              "icon": "countdown",
+              "label": "20 minutes of downtime",
+              "tone": "warn"
+            },
+            {
+              "at": "Sunday",
+              "icon": "calendar_fri",
+              "label": "\"I'll do it Sunday\"",
+              "tone": "bad",
+              "big": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "datacenter",
+      "chapter": "Why Sunday is too late",
+      "chapterAr": "لماذا يُعدّ الأحد متأخراً",
+      "lines": [
+        {
+          "en": "Ms. Rana, the head of information security, did not agree. She showed Omar a report on her screen.",
+          "ar": "لم توافق السيدة رنا، رئيسة أمن المعلومات. وأرته تقريراً على شاشتها.",
+          "cues": [
+            {
+              "at": "Rana",
+              "icon": "manager_f",
+              "label": "Ms. Rana · Head of InfoSec"
+            }
+          ]
+        },
+        {
+          "en": "Devices that sit between the internet and the inside of a network are called edge devices. A VPN is one of them.",
+          "ar": "الأجهزة التي تقع بين الإنترنت وداخل الشبكة تُسمّى أجهزة طرفية حدودية. وجهاز الشبكة الافتراضية الخاصة واحد منها.",
+          "cues": [
+            {
+              "at": "edge",
+              "icon": "edge_device",
+              "label": "edge device",
+              "tone": "key",
+              "big": true,
+              "term": true
+            }
+          ]
+        },
+        {
+          "en": "In 2026 these devices became the most common way into government networks. Attackers scan the whole internet to find them.",
+          "ar": "في عام ٢٠٢٦ أصبحت هذه الأجهزة الطريق الأكثر شيوعاً للدخول إلى الشبكات الحكومية. والمهاجمون يمسحون الإنترنت بأكمله للعثور عليها.",
+          "cues": [
+            {
+              "at": "common",
+              "icon": "door_open",
+              "label": "the #1 way in, 2026",
+              "tone": "bad",
+              "big": true
+            },
+            {
+              "at": "scan",
+              "icon": "globe_scan",
+              "label": "scanning the whole internet",
+              "tone": "bad",
+              "term": true
+            }
+          ]
+        },
+        {
+          "en": "They often start only a few hours after a patch becomes public. \"The patch tells the attackers where the hole is,\" she said. \"Sunday is five days away.\"",
+          "ar": "وغالباً ما يبدأون بعد ساعات قليلة فقط من إعلان الرقعة. وقالت: «الرقعة تدلّ المهاجمين على مكان الثغرة. والأحد يبعد خمسة أيام.»",
+          "cues": [
+            {
+              "at": "hours",
+              "icon": "clock_fast",
+              "label": "attacks start in hours",
+              "tone": "bad"
+            },
+            {
+              "at": "five",
+              "icon": "countdown",
+              "label": "Sunday = 5 days away",
+              "tone": "bad",
+              "big": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "datacenter",
+      "chapter": "The middle way",
+      "chapterAr": "الحل الوسط",
+      "lines": [
+        {
+          "en": "So they made a plan together. At half past twelve, during the lunch break, Omar sent a short message to all staff.",
+          "ar": "فوضعا خطة معاً. في الثانية عشرة والنصف، أثناء استراحة الغداء، أرسل عمر رسالة قصيرة إلى جميع الموظفين.",
+          "cues": [
+            {
+              "at": "plan",
+              "icon": "handshake",
+              "label": "a plan together",
+              "tone": "good"
+            },
+            {
+              "at": "message",
+              "icon": "broadcast",
+              "label": "tell everyone first",
+              "tone": "good",
+              "big": true
+            }
+          ]
+        },
+        {
+          "en": "At one o'clock he installed the patch. The VPN was down for eighteen minutes. Nobody complained.",
+          "ar": "وفي الساعة الواحدة ثبّت الرقعة. وتوقفت الشبكة ثماني عشرة دقيقة. ولم يشتكِ أحد.",
+          "cues": [
+            {
+              "at": "installed",
+              "icon": "patch",
+              "label": "patched at 13:00",
+              "tone": "good",
+              "big": true
+            },
+            {
+              "at": "eighteen",
+              "icon": "restart",
+              "label": "18 minutes down",
+              "tone": "good"
+            }
+          ]
+        },
+        {
+          "en": "That evening Omar read the security log. Between ten in the morning and one in the afternoon, unknown computers had tried to reach the ministry VPN forty-one times.",
+          "ar": "وفي ذلك المساء قرأ عمر سجل الأحداث الأمني. فبين العاشرة صباحاً والواحدة ظهراً، حاولت أجهزة مجهولة الوصول إلى شبكة الوزارة إحدى وأربعين مرة.",
+          "cues": [
+            {
+              "at": "log",
+              "icon": "log_list",
+              "label": "the security log",
+              "term": true
+            },
+            {
+              "at": "forty-one",
+              "icon": "hacker",
+              "label": "41 attempts in 3 hours",
+              "tone": "bad",
+              "big": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "takeaway": {
+    "en": "An edge device is the front door of the ministry. When the maker publishes a patch, the clock starts for you and for the attacker at the same moment.",
+    "ar": "الجهاز الطرفي الحدودي هو الباب الأمامي للوزارة. وحين تنشر الشركة المصنّعة رقعةً برمجية، تبدأ الساعة لك وللمهاجم في اللحظة نفسها.",
+    "icon": "edge_device"
+  },
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      {
+        "en": "What is the VPN used for at the ministry?",
+        "ar": "ما الغرض من استخدام الشبكة الافتراضية الخاصة في الوزارة؟"
+      },
+      {
+        "en": "What did the message from the VPN company say?",
+        "ar": "ماذا قالت الرسالة الواردة من الشركة المصنّعة؟"
+      },
+      {
+        "en": "Why did Omar want to wait until Sunday night?",
+        "ar": "لماذا أراد عمر الانتظار حتى ليلة الأحد؟"
+      },
+      {
+        "en": "What is an edge device, and why do attackers like them?",
+        "ar": "ما الجهاز الطرفي الحدودي، ولماذا يفضّله المهاجمون؟"
+      },
+      {
+        "en": "What three things did Omar and Ms. Rana finally agree to do?",
+        "ar": "ما الأمور الثلاثة التي اتفق عليها عمر والسيدة رنا في النهاية؟"
+      },
+      {
+        "en": "What did the security log show that evening?",
+        "ar": "ماذا أظهر سجل الأحداث الأمني في ذلك المساء؟"
+      }
+    ]
+  },
+  "discussion": {
+    "headline": "Talk about it",
+    "headlineAr": "للنقاش",
+    "en": "Some teams install a patch immediately, even in working hours. Others wait for a quiet night, so that citizens and staff are not disturbed. Which is right for a ministry that serves the public, and who should make that decision?",
+    "ar": "بعض الفرق تُثبّت الرقعة فوراً، حتى في ساعات العمل. وفرقٌ أخرى تنتظر ليلةً هادئة كي لا يتأثر المواطنون والموظفون. أيّ النهجين أصحّ لوزارة تخدم الجمهور، ومن الذي ينبغي أن يتخذ هذا القرار؟"
+  }
+}

@@ -20,7 +20,7 @@
 :root{
   --bg0:#081322; --bg1:#0e2439; --bg2:#15375a;
   --ink:#eef4fb; --muted:#8fa9c4; --dim:#5f7e9d;
-  --amber:#f5b942; --teal:#2fb9a8; --good:#46c583; --bad:#ef6e57; --key:#6aa9f5;
+  --amber:#f5b942; --teal:#2fb9a8; --cyber:#5ea9f0; --good:#46c583; --bad:#ef6e57; --key:#6aa9f5;
   --accent:var(--amber); --accentInk:#2a1c05;
   --card:rgba(255,255,255,.055); --cardLine:rgba(255,255,255,.12);
   --shadow:0 24px 60px rgba(0,0,0,.42);
@@ -101,8 +101,8 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
   margin-bottom:26px;background:var(--card);border:1px solid var(--cardLine);
   will-change:opacity,transform}
 .pvRow .bul{flex:0 0 94px;height:94px;border-radius:24px;display:flex;align-items:center;
-  justify-content:center;font-size:52px;background:rgba(245,185,66,.14);color:var(--accent);
-  border:1px solid rgba(245,185,66,.3)}
+  justify-content:center;font-size:52px;background:color-mix(in srgb, var(--accent) 14%, transparent);color:var(--accent);
+  border:1px solid color-mix(in srgb, var(--accent) 30%, transparent)}
 .pvRow .tx{flex:1;min-width:0}
 .pvRow .en{font-size:42px;font-weight:600;line-height:1.3}
 .pvRow .ar{font-size:36px;color:#b7cfe6;margin-top:14px;font-weight:400}
@@ -123,8 +123,8 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
 #vcCard:before{content:'';position:absolute;left:0;top:0;bottom:0;width:10px;background:var(--accent)}
 #vcTop{display:flex;align-items:center;gap:40px}
 #vcIco{flex:0 0 136px;height:136px;border-radius:32px;display:flex;align-items:center;
-  justify-content:center;font-size:78px;background:rgba(245,185,66,.14);color:var(--accent);
-  border:1px solid rgba(245,185,66,.32)}
+  justify-content:center;font-size:78px;background:color-mix(in srgb, var(--accent) 14%, transparent);color:var(--accent);
+  border:1px solid color-mix(in srgb, var(--accent) 32%, transparent)}
 #vcTerm{font-size:68px;font-weight:800;letter-spacing:-1px;line-height:1.1}
 #vcIpa{font-size:28px;color:var(--dim);margin-top:10px;font-weight:500}
 #vcCount{margin-left:auto;font-size:24px;font-weight:700;color:var(--dim);
@@ -148,7 +148,7 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
 #rdNook{position:absolute;left:70px;top:118px;width:420px;height:530px;z-index:22;
   border-radius:30px;overflow:hidden;border:1px solid var(--cardLine);
   background:
-    radial-gradient(330px 300px at 50% 36%, rgba(245,185,66,.18), transparent 72%),
+    radial-gradient(330px 300px at 50% 36%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 72%),
     linear-gradient(180deg,#14304b,#0c2036)}
 #rdChar{position:absolute;left:0;top:0;width:100%;height:100%;z-index:23}
 #rdChar svg{width:100%;height:100%;overflow:visible}
@@ -170,7 +170,7 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
 .cue.good .ci{color:var(--good)}
 .cue.bad{border-color:rgba(239,110,87,.45);background:rgba(239,110,87,.1)}
 .cue.bad .ci{color:var(--bad)}
-.cue.warn{border-color:rgba(245,185,66,.45);background:rgba(245,185,66,.1)}
+.cue.warn{border-color:color-mix(in srgb, var(--accent) 45%, transparent);background:color-mix(in srgb, var(--accent) 10%, transparent)}
 .cue.warn .ci{color:var(--amber)}
 .cue.key{border-color:rgba(106,169,245,.5);background:rgba(106,169,245,.12)}
 .cue.key .ci{color:var(--key)}
@@ -239,8 +239,8 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
 /* takeaway */
 #pTakeaway{display:flex;align-items:center;justify-content:center;padding:0 170px}
 #tkCard{width:100%;max-width:1560px;border-radius:38px;padding:70px 80px;
-  background:linear-gradient(135deg,rgba(245,185,66,.16),rgba(245,185,66,.05));
-  border:1px solid rgba(245,185,66,.38);box-shadow:var(--shadow);text-align:center}
+  background:linear-gradient(135deg,color-mix(in srgb, var(--accent) 16%, transparent),color-mix(in srgb, var(--accent) 5%, transparent));
+  border:1px solid color-mix(in srgb, var(--accent) 38%, transparent);box-shadow:var(--shadow);text-align:center}
 #tkIco{font-size:110px;color:var(--accent);display:flex;justify-content:center}
 #tkLabel{font-size:22px;font-weight:800;letter-spacing:4px;color:var(--accent);
   text-transform:uppercase;margin-top:28px}
@@ -259,7 +259,7 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
 .qRow .qt{flex:1;min-width:0}
 .qRow .en{font-size:33px;font-weight:600;line-height:1.3;color:#c9d9e9}
 .qRow .ar{font-size:28px;color:#8fa9c4;margin-top:10px;display:none}
-.qRow.act{background:rgba(245,185,66,.12);border-color:rgba(245,185,66,.42)}
+.qRow.act{background:color-mix(in srgb, var(--accent) 12%, transparent);border-color:color-mix(in srgb, var(--accent) 42%, transparent)}
 .qRow.act .n{background:var(--accent);color:var(--accentInk)}
 .qRow.act .en{color:#fff;font-size:36px}
 .qRow.act .ar{display:block;color:#c6dcf0}

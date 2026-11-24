@@ -34,6 +34,16 @@
       shirt: '#fdfbf6', jacket: '#6b4a8c', jacketDark: '#4d3566', tie: null,
       style: 'long', beard: false, glasses: true, earring: true
     },
+    omar: {
+      skin: '#c9925f', skinShade: '#ad7847', hair: '#1e1711', hairLight: '#332719',
+      shirt: '#dfeaf5', jacket: '#2f4f63', jacketDark: '#203847', tie: null,
+      style: 'short', beard: true, glasses: true
+    },
+    rana: {
+      skin: '#d7a076', skinShade: '#bb8457', hair: '#17120f', hairLight: '#2a211b',
+      shirt: '#ffffff', jacket: '#2b5f94', jacketDark: '#1d4369', tie: null,
+      style: 'bob', beard: false, glasses: false, earring: true
+    },
     bilal: {
       skin: '#c08f60', skinShade: '#a37448', hair: '#1c1510', hairLight: '#2f241a',
       shirt: '#f0d9a8', jacket: '#7a6134', jacketDark: '#5a4724', tie: null,
