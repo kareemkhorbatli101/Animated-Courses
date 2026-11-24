@@ -251,8 +251,9 @@ function init(tl) {
       var host = a[0], s = a[1], key = a[2], side = a[3];
       host.querySelector('.sky').innerHTML = SKY[s.place.toLowerCase()] || SKY.shanghai;
       host.querySelector('.sky').style.color = s.color;
+      var phone = tl.meta.mode !== 'inPerson';
       host.querySelector('.fig').innerHTML = '<svg viewBox="0 30 400 430">' +
-        CHAR.build(s.look) + handset(side, s.look) + '</svg>';
+        CHAR.build(s.look) + (phone ? handset(side, s.look) : '') + '</svg>';
       host.querySelector('.plate .nm').textContent = s.name;
       host.querySelector('.plate .rl').textContent = s.role;
       host.querySelector('.loc').textContent = s.place;
@@ -270,6 +271,7 @@ function init(tl) {
     $('#clDots').innerHTML = dots;
     E.clDots = [].slice.call($('#clDots').children);
     E.clArc = $('#clArc');
+    if (tl.meta.mode === 'inPerson') E.callLink.style.display = 'none';
   }
   window.__ready = true;
 }
@@ -347,8 +349,12 @@ function enter(i) {
       break;
     case 'turn':
       buildWords(E.subEn, s.words || []);
-      E.subAr.innerHTML = '';
-      buildWords(E.subAr, s.words2 || []);
+      if (s.words2 && s.words2.length) {
+        buildWords(E.subAr, s.words2);
+      } else {                       // subtitle only - no Arabic recording
+        E.subAr.textContent = d.ar;
+        E.subAr._w = null;
+      }
       E.subSpk.style.display = 'flex';
       var pill = E.subSpk.querySelector('.pill');
       pill.textContent = d.speaker.name;
@@ -451,7 +457,7 @@ function paint(s, lt, t, alpha) {
     case 'turn': {
       var b1 = s.audioAt, b2 = s.audio2At;
       var sp1 = speaking(s.words || [], b1, t);
-      var sp2 = speaking(s.words2 || [], b2, t);
+      var sp2 = b2 === undefined ? 0 : speaking(s.words2 || [], b2, t);
       var talking = sp1 || sp2;
       Object.keys(E.sides).forEach(function (k) {
         var S = E.sides[k], act = k === d.sp;
@@ -478,11 +484,17 @@ function paint(s, lt, t, alpha) {
         c.setAttribute('fill', d.speaker.color);
       });
       renderCueStage(E.cueStage2, s, t, 600, 436, 'stack');
-      var arMode = t >= b2 - .15;
-      paintWords(E.subEn, s.words || [], b1, t, arMode);
-      E.subEn.style.opacity = arMode ? '.5' : '1';
-      paintWords(E.subAr, s.words2 || [], b2, t, false);
-      put(E.subAr, eo3(stag(lt, .25, .6)), 0, 0);
+      if (b2 === undefined) {          // subtitle-only Arabic
+        paintWords(E.subEn, s.words || [], b1, t, false);
+        E.subEn.style.opacity = '1';
+        put(E.subAr, eo3(stag(lt, .22, .55)), 0, 0);
+      } else {
+        var arMode = t >= b2 - .15;
+        paintWords(E.subEn, s.words || [], b1, t, arMode);
+        E.subEn.style.opacity = arMode ? '.5' : '1';
+        paintWords(E.subAr, s.words2 || [], b2, t, false);
+        put(E.subAr, eo3(stag(lt, .25, .6)), 0, 0);
+      }
       break;
     }
     case 'takeaway': {

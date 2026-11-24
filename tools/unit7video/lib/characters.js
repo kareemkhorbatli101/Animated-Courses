@@ -18,6 +18,26 @@
       skin: '#eac4a0', skinShade: '#d2a988', hair: '#17141a', hairLight: '#2a2430',
       shirt: '#f7f1e8', jacket: '#a8572c', jacketDark: '#7d3f1f', tie: null,
       style: 'long', beard: false, glasses: true, earring: true
+    },
+    rami: {
+      skin: '#cf9a69', skinShade: '#b47f50', hair: '#241b14', hairLight: '#39291c',
+      shirt: '#eaf1f8', jacket: '#37506b', jacketDark: '#27394d', tie: null,
+      style: 'short', beard: false, glasses: false
+    },
+    delgado: {
+      skin: '#e0b48d', skinShade: '#c79a74', hair: '#6d6a68', hairLight: '#8a8683',
+      shirt: '#ffffff', jacket: '#4a4f58', jacketDark: '#343940', tie: '#8c3b3b',
+      style: 'short', beard: true, glasses: true
+    },
+    huda: {
+      skin: '#d9a173', skinShade: '#bd8656', hair: '#1a1512', hairLight: '#2d2520',
+      shirt: '#fdfbf6', jacket: '#6b4a8c', jacketDark: '#4d3566', tie: null,
+      style: 'long', beard: false, glasses: true, earring: true
+    },
+    bilal: {
+      skin: '#c08f60', skinShade: '#a37448', hair: '#1c1510', hairLight: '#2f241a',
+      shirt: '#f0d9a8', jacket: '#7a6134', jacketDark: '#5a4724', tie: null,
+      style: 'short', beard: true, glasses: false
     }
   };
 

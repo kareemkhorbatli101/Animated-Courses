@@ -1,0 +1,237 @@
+{
+  "id": "conv2",
+  "kind": "dialogue",
+  "mode": "phone",
+  "arabicAudio": false,
+  "unit": "Unit 7 · Finance",
+  "number": "Conversation 2",
+  "title": "No credit for a first order",
+  "titleAr": "لا ائتمان على أول طلبية",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "setting": "by telephone · Bashak ↔ Westgate Metals",
+  "settingAr": "عبر الهاتف · بشاك ↔ وستغيت ميتالز",
+  "accent": "teal",
+  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
+
+  "speakers": {
+    "rami": {
+      "name": "Rami",
+      "role": "Import Manager, Bashak",
+      "roleAr": "مدير الاستيراد، بشاك",
+      "place": "Damascus",
+      "placeAr": "دمشق",
+      "side": "left",
+      "look": "rami",
+      "color": "#2bb3a3",
+      "voice": "en-US-GuyNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-LaithNeural",
+      "arRate": "-4%"
+    },
+    "delgado": {
+      "name": "Mr. Delgado",
+      "role": "Westgate Metals",
+      "roleAr": "وستغيت ميتالز",
+      "place": "Shanghai",
+      "placeAr": "الخارج",
+      "side": "right",
+      "look": "delgado",
+      "color": "#d98b3a",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-LaithNeural",
+      "arRate": "-4%"
+    }
+  },
+
+  "preview": {
+    "headline": "Before you listen",
+    "headlineAr": "قبل الاستماع",
+    "lines": [
+      {
+        "en": "Bashak wants eighty tonnes of steel plate, worth $58,000.",
+        "ar": "تريد بشاك ثمانين طناً من ألواح الفولاذ بقيمة ٥٨٬٠٠٠ دولار.",
+        "icon": "steel"
+      },
+      {
+        "en": "Last time they paid thirty days after arrival. This time the supplier wants half the money up front.",
+        "ar": "في المرة السابقة دفعوا بعد ثلاثين يوماً من الوصول. وهذه المرة يريد المورّد نصف المبلغ مقدماً.",
+        "icon": "cash_tight"
+      },
+      {
+        "en": "Listen for how Rami meets him in the middle without tying up $29,000 for six weeks.",
+        "ar": "استمع كيف يلتقي رامي معه في منتصف الطريق دون تجميد ٢٩٬٠٠٠ دولار لستة أسابيع.",
+        "icon": "split"
+      }
+    ],
+    "teaser": {
+      "en": "When a supplier asks for cash, the answer is rarely yes or no. It is usually a different shape.",
+      "ar": "عندما يطلب المورّد نقداً، فإن الجواب نادراً ما يكون نعم أو لا. بل عادةً ما يكون شكلاً مختلفاً."
+    }
+  },
+
+  "vocab": {
+    "headline": "Useful phrases",
+    "headlineAr": "عبارات مفيدة",
+    "items": [
+      {
+        "term": "Let's confirm the payment terms.",
+        "def": "moving from price to how and when the money is paid",
+        "ar": "لنؤكّد شروط الدفع.",
+        "arDef": "الانتقال من السعر إلى كيفية الدفع وموعده",
+        "icon": "contract"
+      },
+      {
+        "term": "That ties up our working capital.",
+        "def": "money paid early cannot be used for anything else",
+        "ar": "هذا يُجمّد رأس مالنا العامل.",
+        "arDef": "المال المدفوع مبكراً لا يمكن استخدامه في شيء آخر",
+        "icon": "cash_tight"
+      },
+      {
+        "term": "Can we meet in the middle?",
+        "def": "inviting a compromise instead of refusing",
+        "ar": "هل يمكننا أن نلتقي في المنتصف؟",
+        "arDef": "دعوة إلى حلٍّ وسط بدلاً من الرفض",
+        "icon": "handshake"
+      },
+      {
+        "term": "What do you have in mind?",
+        "def": "asking the other side to put a number on it",
+        "ar": "ما الذي يدور في ذهنك؟",
+        "arDef": "دعوة الطرف الآخر لتحديد رقم أو اقتراح",
+        "icon": "question"
+      },
+      {
+        "term": "Payable at sight.",
+        "def": "the bank pays as soon as correct documents are presented",
+        "ar": "مستحق الدفع عند الاطلاع.",
+        "arDef": "يدفع المصرف فور تقديم المستندات الصحيحة",
+        "icon": "lc"
+      }
+    ]
+  },
+
+  "dialogue": [
+    {
+      "sp": "rami",
+      "en": "Mr. Delgado, we've agreed on the price and delivery schedule for the eighty tonnes of S275 steel plate. Now let's confirm the payment terms.",
+      "ar": "سيد ديلغادو، لقد اتفقنا على السعر وجدول التسليم لثمانين طناً من ألواح الفولاذ S275. والآن لنؤكّد شروط الدفع.",
+      "mood": "brisk",
+      "phrase": "Let's confirm the payment terms.",
+      "cues": [
+        { "at": "eighty", "icon": "steel", "label": "80 t · S275 plate" },
+        { "at": "payment", "icon": "contract", "label": "payment terms", "tone": "key", "term": true }
+      ]
+    },
+    {
+      "sp": "delgado",
+      "en": "For a new steel grade order of $58,000, our credit committee approved 50% advance payment with the order, and 50% against scanned shipping documents before the vessel arrives.",
+      "ar": "بالنسبة لطلبية بدرجة فولاذ جديدة بقيمة ٥٨٬٠٠٠ دولار، وافقت لجنة الائتمان لدينا على دفعة مقدمة بنسبة ٥٠٪ مع الطلب، و٥٠٪ مقابل مستندات شحن ممسوحة قبل وصول السفينة.",
+      "mood": "firm",
+      "cues": [
+        { "at": "$58,000", "icon": "contract", "label": "$58,000 order", "big": true },
+        { "at": "50%", "icon": "cash_tight", "label": "50% advance with order", "tone": "bad" },
+        { "at": "scanned", "icon": "two_docs", "label": "50% vs shipping docs", "tone": "warn" }
+      ]
+    },
+    {
+      "sp": "rami",
+      "en": "That's quite strict. On our last order in March, we paid on open account thirty days after arrival.",
+      "ar": "هذا صارم بعض الشيء. في طلبيتنا الأخيرة في آذار، دفعنا على الحساب المفتوح بعد ثلاثين يوماً من الوصول.",
+      "mood": "concerned",
+      "cues": [
+        { "at": "open", "icon": "history_good", "label": "last time: open account, 30 days", "tone": "good" }
+      ]
+    },
+    {
+      "sp": "delgado",
+      "en": "True, and you paid on time. However, steel mill costs have jumped this quarter, and our credit insurer has tightened limits across the region.",
+      "ar": "صحيح، وقد دفعتم في الموعد. لكن تكاليف مصانع الفولاذ قفزت هذا الربع، وشركة تأمين الائتمان لدينا شدّدت الحدود في المنطقة كلها.",
+      "mood": "firm",
+      "cues": [
+        { "at": "paid", "icon": "approve", "label": "your record is good", "tone": "good" },
+        { "at": "costs", "icon": "profit_loss", "label": "mill costs jumped", "tone": "warn" },
+        { "at": "insurer", "icon": "shield", "label": "credit insurer tightened limits", "tone": "bad" }
+      ]
+    },
+    {
+      "sp": "rami",
+      "en": "Paying 50% up front ties up $29,000 of our working capital for six weeks while the steel is being rolled and shipped. Can we meet in the middle?",
+      "ar": "دفع ٥٠٪ مقدماً يُجمّد ٢٩٬٠٠٠ دولار من رأس مالنا العامل لستة أسابيع بينما يُدرفل الفولاذ ويُشحن. هل يمكننا أن نلتقي في المنتصف؟",
+      "mood": "concerned",
+      "phrase": "That ties up our working capital. · Can we meet in the middle?",
+      "cues": [
+        { "at": "ties", "icon": "cash_tight", "label": "$29,000 frozen for 6 weeks", "tone": "bad", "big": true, "term": true },
+        { "at": "meet", "icon": "handshake", "label": "meet in the middle?", "tone": "key", "term": true }
+      ]
+    },
+    {
+      "sp": "delgado",
+      "en": "What do you have in mind?",
+      "ar": "ما الذي يدور في ذهنك؟",
+      "mood": "neutral",
+      "phrase": "What do you have in mind?",
+      "cues": [
+        { "at": "mind", "icon": "question", "label": "What do you have in mind?", "tone": "key", "term": true }
+      ]
+    },
+    {
+      "sp": "rami",
+      "en": "Twenty percent deposit on order confirmation — $11,600 — so your mill knows we're committed. Then 80% by irrevocable Letter of Credit payable at sight when you present the clean Bill of Lading.",
+      "ar": "عربون بنسبة عشرين بالمئة عند تأكيد الطلب — ١١٬٦٠٠ دولار — كي يعلم مصنعكم أننا ملتزمون. ثم ٨٠٪ باعتماد مستندي غير قابل للإلغاء مستحق عند الاطلاع عندما تقدّمون بوليصة شحن نظيفة.",
+      "mood": "brisk",
+      "cues": [
+        { "at": "Twenty", "icon": "money_part", "label": "20% deposit · $11,600", "tone": "good" },
+        { "at": "irrevocable", "icon": "lc", "label": "80% by irrevocable LC", "tone": "key", "big": true },
+        { "at": "clean", "icon": "bill_lading", "label": "against clean Bill of Lading" }
+      ]
+    },
+    {
+      "sp": "delgado",
+      "en": "An LC at sight gives us bank security without forcing you to advance the full half. Let me put that to my finance director this afternoon.",
+      "ar": "الاعتماد المستندي عند الاطلاع يمنحنا ضماناً مصرفياً دون إجباركم على دفع النصف كاملاً مقدماً. دعني أعرض ذلك على مديري المالي بعد ظهر اليوم.",
+      "mood": "warm",
+      "phrase": "Payable at sight.",
+      "cues": [
+        { "at": "security", "icon": "shield", "label": "bank security for the seller", "tone": "good" },
+        { "at": "director", "icon": "schedule", "label": "goes to the finance director", "tone": "key" }
+      ]
+    },
+    {
+      "sp": "rami",
+      "en": "Please do. If he agrees today, Lina will release the 20% deposit tomorrow morning.",
+      "ar": "أرجو ذلك. إذا وافق اليوم، ستُفرج لينا عن عربون الـ ٢٠٪ صباح الغد.",
+      "mood": "warm",
+      "cues": [
+        { "at": "release", "icon": "paid", "label": "deposit released tomorrow", "tone": "good", "big": true }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "When a supplier demands cash up front, do not argue about trust. Offer a different structure: a small deposit plus a Letter of Credit gives them security and keeps your cash working.",
+    "ar": "عندما يطالب المورّد بالنقد مقدماً، لا تجادل حول الثقة. بل اعرض هيكلاً مختلفاً: عربون صغير مع اعتماد مستندي يمنحه الضمان ويُبقي سيولتك تعمل.",
+    "icon": "lc"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "What payment terms did Westgate's credit committee originally ask for?", "ar": "ما شروط الدفع التي طلبتها لجنة الائتمان في وستغيت في البداية؟" },
+      { "en": "Why did Westgate tighten its terms compared to March?", "ar": "لماذا شدّدت وستغيت شروطها مقارنةً بشهر آذار؟" },
+      { "en": "Why does Rami object to paying 50% in advance?", "ar": "لماذا يعترض رامي على دفع ٥٠٪ مقدماً؟" },
+      { "en": "What compromise structure does Rami propose?", "ar": "ما الهيكل الوسط الذي يقترحه رامي؟" },
+      { "en": "Why is Rami's compromise attractive to Westgate Metals?", "ar": "لماذا يُعدّ حل رامي الوسط جذاباً لشركة وستغيت ميتالز؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Role-play",
+    "headlineAr": "تمثيل الأدوار",
+    "en": "Student A is a new supplier demanding 100% cash before production begins on a $30,000 machine. Student B is Rami, negotiating a staged payment: deposit, before shipment, and after commissioning.",
+    "ar": "الطالب (أ) مورّد جديد يطالب بالدفع النقدي الكامل قبل بدء الإنتاج على آلة بقيمة ٣٠٬٠٠٠ دولار. والطالب (ب) هو رامي، يتفاوض على دفع على مراحل: عربون، وقبل الشحن، وبعد التشغيل."
+  }
+}

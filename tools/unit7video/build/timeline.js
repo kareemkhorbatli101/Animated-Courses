@@ -15,6 +15,7 @@ const P = {
   gapTeaser: 1.35,
   gapVocab: 0.8,
   gapLine: 0.42,
+  gapTurnRead: 0.66,
   gapAr: 0.3,
   chapter: 2.3,
   gapTake: 1.7,
@@ -108,17 +109,23 @@ function main() {
     c.dialogue.forEach((ln, i) => {
       const sp = c.speakers[ln.sp];
       const dEn = d(`d${i}`), dAr = d(`d${i}a`);
-      const dur = P.lead + dEn + P.gapAr + dAr + P.gapLine;
+      const dubbed = !!U[`d${i}a`];
+      // Undubbed turns still need a beat to read the Arabic subtitle, but
+      // nothing like the time a spoken translation would take.
+      const dur = dubbed ? P.lead + dEn + P.gapAr + dAr + P.gapLine
+                         : P.lead + dEn + P.gapTurnRead;
       const s = seg('turn', dur, {
         sp: ln.sp, speaker: sp, en: ln.en, ar: ln.ar,
         cues: ln.cues || [], mood: ln.mood || 'neutral',
         phrase: ln.phrase || null, card: ln.card || null,
         index: i, total: c.dialogue.length
       }, `d${i}`);
-      const at = round(s.t0 + P.lead + dEn + P.gapAr);
-      s.utt2 = `d${i}a`; s.audio2At = at; s.words2 = U[`d${i}a`].words;
-      s.audio2Dur = dAr;
-      audio.push({ file: U[`d${i}a`].file, at, dur: dAr });
+      if (dubbed) {
+        const at = round(s.t0 + P.lead + dEn + P.gapAr);
+        s.utt2 = `d${i}a`; s.audio2At = at; s.words2 = U[`d${i}a`].words;
+        s.audio2Dur = dAr;
+        audio.push({ file: U[`d${i}a`].file, at, dur: dAr });
+      }
     });
   }
 
@@ -166,6 +173,7 @@ function main() {
     meta: {
       unit: c.unit, number: c.number, title: c.title, titleAr: c.titleAr,
       level: c.level, course: c.course, speakers: c.speakers || null,
+      mode: c.mode || 'phone', arabicAudio: c.arabicAudio !== false,
       narratorLook: (c.narrator && c.narrator.look) || 'narrator_m'
     },
     segments: segs,

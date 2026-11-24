@@ -105,6 +105,73 @@
                    '<path class="f" d="M12 18h11v12H12zM25 12h11v18H25z"/><path d="M12 18h11v12H12zM25 12h11v18H25z"/>' +
                    '<path d="M3 43c4 0 4 2 8 2s4-2 8-2 4 2 8 2 4-2 8-2 4 2 8 2"/>';
 
+  /* ---- banking detail --------------------------------------------------- */
+  const BANKFRONT = '<path class="f" d="M7 20h34v18H7z"/><path d="M7 20h34v18H7zM4 20L24 8l20 12M5 42h38"/>' +
+                    '<path d="M14 26v8M24 26v8M34 26v8"/>';
+  I.bank_send    = BANKFRONT + '<path d="M30 15h12M37 10l5 5-5 5" stroke-width="3"/>';
+  I.bank_chain   = '<path class="f" d="M3 18h12v14H3zM33 18h12v14H33z"/>' +
+                   '<path d="M3 18h12v14H3zM33 18h12v14H33zM2 32h14M32 32h14"/>' +
+                   '<path d="M3 18L9 12l6 6M33 18l6-6 6 6"/>' +
+                   '<circle cx="24" cy="25" r="7" class="f"/><circle cx="24" cy="25" r="7"/>' +
+                   '<path d="M15 25h2M31 25h2"/>';
+  I.swift        = '<path class="f" d="M5 11h38v26H5z"/><path d="M5 11h38v26H5z"/>' +
+                   '<path d="M5 18h38"/><path d="M11 25h10M11 31h16M27 25h10"/>' +
+                   '<path d="M9 14.5h2M14 14.5h2M19 14.5h2"/>';
+  I.statement    = DOC + '<path d="M17 20h14M17 26h14M17 32h14M17 38h8"/>';
+  I.ref_line     = '<path class="f" d="M5 16h38v16H5z"/><path d="M5 16h38v16H5z"/>' +
+                   '<path d="M11 24h14" stroke-width="3.2"/><path d="M29 24h8" stroke-dasharray="2 4"/>';
+  I.no_name      = '<circle cx="24" cy="17" r="8" class="f"/><circle cx="24" cy="17" r="8"/>' +
+                   '<path class="f" d="M10 43c0-8 6-13 14-13s14 5 14 13z"/>' +
+                   '<path d="M10 43c0-8 6-13 14-13s14 5 14 13z"/><path d="M6 7l36 34" stroke-width="3.4"/>';
+  I.scissors     = '<circle cx="11" cy="37" r="6" class="f"/><circle cx="11" cy="37" r="6"/>' +
+                   '<circle cx="11" cy="11" r="6" class="f"/><circle cx="11" cy="11" r="6"/>' +
+                   '<path d="M16 14l26 22M16 34L42 12"/>';
+  I.deduct       = '<circle cx="24" cy="24" r="17" class="f"/><circle cx="24" cy="24" r="17"/>' +
+                   '<path d="M15 24h18" stroke-width="4"/>';
+  I.write_off    = DOC + '<path d="M17 21h14M17 27h10"/><path d="M12 38l24-18" stroke-width="3.4"/>';
+  I.ledger       = '<path class="f" d="M9 6h28a2 2 0 0 1 2 2v34a2 2 0 0 1-2 2H9z"/>' +
+                   '<path d="M9 6h28a2 2 0 0 1 2 2v34a2 2 0 0 1-2 2H9zM9 6v38M15 6v38"/>' +
+                   '<path d="M21 16h12M21 24h12M21 32h8"/>';
+  I.sha_our      = '<path class="f" d="M5 10h17v12H5zM26 26h17v12H26z"/>' +
+                   '<path d="M5 10h17v12H5zM26 26h17v12H26z"/>' +
+                   '<path d="M26 16h13M34 11l5 5-5 5M22 32H9M14 27l-5 5 5 5"/>';
+  I.profit_loss  = '<path d="M6 40V8M6 40h36"/><path d="M11 32l8-9 7 6 13-15"/>' +
+                   '<path d="M32 14h7v7"/><path class="f" d="M11 32l8-9 7 6 13-15v26H11z"/>';
+  I.lc           = DOC + '<path d="M17 21h14M17 27h9"/><circle cx="31" cy="34" r="9" class="f"/>' +
+                   '<circle cx="31" cy="34" r="9"/><path d="M31 29.5l1.6 3.3 3.6.5-2.6 2.5.6 3.6-3.2-1.7-3.2 1.7.6-3.6-2.6-2.5 3.6-.5z"/>';
+  I.bill_lading  = DOC + '<path d="M17 20h14M17 26h10"/><path d="M14 36h16M24 31l5 5-5 5"/>' +
+                   '<path d="M33 20h6" stroke-width="3"/>';
+  I.shield       = '<path class="f" d="M24 4l17 7v14c0 11-7 17-17 21-10-4-17-10-17-21V11z"/>' +
+                   '<path d="M24 4l17 7v14c0 11-7 17-17 21-10-4-17-10-17-21V11z"/>' +
+                   '<path d="M16 24l6 6 11-12" stroke-width="3"/>';
+
+  /* ---- places, goods, paperwork ----------------------------------------- */
+  I.factory      = '<path class="f" d="M5 43V22l11 7V22l11 7V12h16v31z"/>' +
+                   '<path d="M5 43V22l11 7V22l11 7V12h16v31zM3 43h42"/><path d="M36 20h4M36 28h4"/>';
+  I.shop         = '<path class="f" d="M7 20h34v23H7z"/><path d="M7 20h34v23H7zM4 20l4-9h32l4 9z"/>' +
+                   '<path d="M4 20c0 4 3 6 6.5 6S17 24 17 20M17 20c0 4 3 6 7 6s7-2 7-6M31 20c0 4 3 6 6.5 6S44 24 44 20"/>' +
+                   '<path d="M19 43V31h10v12"/>';
+  I.water        = '<path class="f" d="M24 5c8 11 14 17 14 25a14 14 0 0 1-28 0c0-8 6-14 14-25z"/>' +
+                   '<path d="M24 5c8 11 14 17 14 25a14 14 0 0 1-28 0c0-8 6-14 14-25z"/>' +
+                   '<path d="M17 31c0 5 3 8 7 9"/>';
+  I.steel        = '<path class="f" d="M6 16h30l6 8H12z"/><path d="M6 16h30l6 8H12zM12 24v18M42 24v18M12 42h30V24"/>' +
+                   '<path d="M20 24v18M28 24v18M35 24v18"/>';
+  I.three_docs   = '<path class="f" d="M4 10h11l4 4v22H4z"/><path d="M4 10h11l4 4v22H4z"/>' +
+                   '<path class="f" d="M17 14h11l4 4v22H17z"/><path d="M17 14h11l4 4v22H17z"/>' +
+                   '<path class="f" d="M30 18h11l4 4v22H30z"/><path d="M30 18h11l4 4v22H30z"/>';
+  I.crane        = '<path d="M10 43h16M18 43V12M18 12h22M40 12v9M18 12L8 20h10"/>' +
+                   '<path class="f" d="M34 21h12v10H34z"/><path d="M34 21h12v10H34z"/><path d="M40 12v9"/>' +
+                   '<path d="M13 43v-6h10v6"/>';
+  I.handwritten  = '<path class="f" d="M9 6h30v36H9z"/><path d="M9 6h30v36H9z"/>' +
+                   '<path d="M15 17c3-4 5 3 8-1s5 3 9-1M15 26c3-4 5 3 8-1s5 3 9-1M15 35h10"/>';
+  I.no_stamp     = '<circle cx="24" cy="24" r="14" class="f"/><circle cx="24" cy="24" r="14"/>' +
+                   '<circle cx="24" cy="24" r="8"/><path d="M6 6l36 36" stroke-width="3.6"/>';
+  I.stamped_invoice = DOC + '<path d="M17 20h14M17 26h9"/>' +
+                   '<circle cx="31" cy="34" r="9" class="f"/><circle cx="31" cy="34" r="9"/>' +
+                   '<circle cx="31" cy="34" r="5"/>';
+  I.hold_back    = '<path class="f" d="M5 14h30v20H5z"/><path d="M5 14h30v20H5z"/><circle cx="20" cy="24" r="5"/>' +
+                   '<path d="M41 14v20" stroke-width="4"/><path d="M44 18l-5 6 5 6" stroke-width="3"/>';
+
   /* ---------------------------------------------------------------------- */
   I.fallback = '<circle cx="24" cy="24" r="16" class="f"/><circle cx="24" cy="24" r="16"/><path d="M24 16v10M24 32v.5"/>';
 

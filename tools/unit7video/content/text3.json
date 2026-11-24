@@ -1,0 +1,277 @@
+{
+  "id": "text3",
+  "kind": "reading",
+  "unit": "Unit 7 · Finance",
+  "number": "Text 3",
+  "title": "The missing seventy-five dollars",
+  "titleAr": "الخمسة والسبعون دولاراً المفقودة",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "narrator": { "voice": "en-US-AndrewNeural", "rate": "-8%", "look": "narrator_m" },
+  "accent": "amber",
+
+  "preview": {
+    "headline": "Before you read",
+    "headlineAr": "قبل القراءة",
+    "lines": [
+      {
+        "en": "Your invoice is for $25,000. The customer pays on time.",
+        "ar": "فاتورتك بقيمة ٢٥٬٠٠٠ دولار. والعميل يدفع في موعده.",
+        "icon": "invoice_due"
+      },
+      {
+        "en": "But only $24,925 arrives in your account.",
+        "ar": "لكن ما يصل إلى حسابك هو ٢٤٬٩٢٥ دولاراً فقط.",
+        "icon": "price_gap"
+      },
+      {
+        "en": "Who took the $75 — and should you ask the customer for it?",
+        "ar": "من أخذ الخمسة والسبعين دولاراً — وهل ينبغي أن تطلبها من العميل؟",
+        "icon": "question"
+      }
+    ],
+    "teaser": {
+      "en": "Seventy-five dollars is nothing. Seventy-five dollars, forty times a year, is three thousand.",
+      "ar": "خمسة وسبعون دولاراً لا تعني شيئاً. لكن خمسة وسبعين دولاراً أربعين مرة في السنة تعني ثلاثة آلاف."
+    }
+  },
+
+  "vocab": {
+    "headline": "Words to listen for",
+    "headlineAr": "كلمات انتبه لها",
+    "items": [
+      {
+        "term": "correspondent bank",
+        "ipa": "/ˌkɒrɪˈspɒndənt bæŋk/",
+        "def": "a bank that acts as a middleman between two other banks",
+        "ar": "مصرف مراسل",
+        "arDef": "مصرف وسيط بين مصرف المُرسِل ومصرف المستفيد",
+        "icon": "bank_chain"
+      },
+      {
+        "term": "deducted",
+        "ipa": "/dɪˈdʌktɪd/",
+        "def": "taken away from a total amount",
+        "ar": "مقتطَع / مخصوم",
+        "arDef": "مبلغ أُخذ من أصل المبلغ الإجمالي",
+        "icon": "deduct"
+      },
+      {
+        "term": "to write it off",
+        "ipa": "/raɪt ɪt ˈɒf/",
+        "def": "to accept a small loss and remove it from the accounts",
+        "ar": "شطبه من الحسابات",
+        "arDef": "قبول خسارة صغيرة وإزالتها من السجلات",
+        "icon": "write_off"
+      },
+      {
+        "term": "ledger",
+        "ipa": "/ˈledʒə/",
+        "def": "the main accounting book of a company",
+        "ar": "دفتر الأستاذ",
+        "arDef": "السجل المحاسبي الرئيسي للشركة",
+        "icon": "ledger"
+      },
+      {
+        "term": "SHA and OUR",
+        "ipa": "/ʃeə/ /aʊə/",
+        "def": "transfer codes: SHA splits the bank charges, OUR means the sender pays them all",
+        "ar": "رمزا التحويل SHA و OUR",
+        "arDef": "SHA يعني اقتسام رسوم المصارف، وOUR يعني أن المُرسِل يدفعها كاملة",
+        "icon": "sha_our"
+      }
+    ]
+  },
+
+  "paragraphs": [
+    {
+      "scene": "office_damascus",
+      "chapter": "The contract was clear",
+      "chapterAr": "كان العقد واضحاً",
+      "lines": [
+        {
+          "en": "Westgate Metals sold thirty tonnes of specialty steel bar to Bashak.",
+          "ar": "باعت شركة وستغيت ميتالز ثلاثين طناً من قضبان الفولاذ الخاص إلى شركة بشاك.",
+          "cues": [
+            { "at": "Westgate", "icon": "factory", "label": "Westgate Metals" },
+            { "at": "steel", "icon": "steel", "label": "30 tonnes steel bar" }
+          ]
+        },
+        {
+          "en": "And in a separate export deal, Bashak sold processed industrial minerals to a buyer in Europe for $25,000.",
+          "ar": "وفي صفقة تصدير منفصلة، باعت بشاك معادن صناعية مُعالَجة إلى مشترٍ في أوروبا بقيمة ٢٥٬٠٠٠ دولار.",
+          "cues": [
+            { "at": "Europe", "icon": "buyer", "label": "buyer in Europe" },
+            { "at": "$25,000", "icon": "contract", "label": "$25,000 invoice", "tone": "good", "big": true }
+          ]
+        },
+        {
+          "en": "The contract stated clearly: Payment by telegraphic transfer, all bank charges for buyer's account.",
+          "ar": "ونصّ العقد بوضوح: الدفع بحوالة برقية، وجميع الرسوم المصرفية على حساب المشتري.",
+          "cues": [
+            { "at": "charges", "icon": "sha_our", "label": "all bank charges = buyer", "tone": "key", "big": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_damascus",
+      "chapter": "Seventy-five dollars short",
+      "chapterAr": "نقصٌ قدره خمسة وسبعون",
+      "lines": [
+        {
+          "en": "The European buyer paid three days before the due date and emailed Huda a copy of the payment receipt showing $25,000 sent.",
+          "ar": "دفع المشتري الأوروبي قبل تاريخ الاستحقاق بثلاثة أيام، وأرسل إلى هدى نسخة من إيصال الدفع تُظهر إرسال ٢٥٬٠٠٠ دولار.",
+          "cues": [
+            { "at": "three", "icon": "clock_fast", "label": "paid 3 days early", "tone": "good" },
+            { "at": "receipt", "icon": "email_doc", "label": "receipt: $25,000 sent", "tone": "good" }
+          ]
+        },
+        {
+          "en": "When the funds landed in Damascus two days later, however, the credited amount was $24,925.",
+          "ar": "لكن عندما وصلت الأموال إلى دمشق بعد يومين، كان المبلغ المُقيَّد ٢٤٬٩٢٥ دولاراً.",
+          "cues": [
+            { "at": "credited", "icon": "price_gap", "label": "$24,925 credited", "tone": "bad", "big": true }
+          ]
+        },
+        {
+          "en": "Seventy-five dollars had vanished along the route.",
+          "ar": "لقد اختفى خمسة وسبعون دولاراً في الطريق.",
+          "cues": [
+            { "at": "Seventy-five", "icon": "deduct", "label": "−$75 missing", "tone": "bad", "big": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_damascus",
+      "chapter": "SHA or OUR",
+      "chapterAr": "‏SHA أم OUR",
+      "lines": [
+        {
+          "en": "Karim looked at the SWIFT breakdown with Huda.",
+          "ar": "راجع كريم تفصيل رسالة سويفت مع هدى.",
+          "cues": [
+            { "at": "Karim", "icon": "clerk", "label": "Karim · Finance" }
+          ]
+        },
+        {
+          "en": "When money travels internationally, it often passes through one or two correspondent banks between the sender's bank and the receiver's bank.",
+          "ar": "عندما تنتقل الأموال دولياً، فإنها غالباً تمرّ عبر مصرف أو مصرفين مراسلين بين مصرف المُرسِل ومصرف المستلم.",
+          "cues": [
+            { "at": "correspondent", "icon": "bank_chain", "label": "correspondent banks in the middle", "tone": "key", "big": true, "term": true }
+          ]
+        },
+        {
+          "en": "On the payment instruction, the buyer's clerk had ticked SHA, shared charges, instead of OUR, all charges paid by sender.",
+          "ar": "وفي تعليمات الدفع، كان موظف المشتري قد أشّر على SHA أي اقتسام الرسوم، بدلاً من OUR أي أن المُرسِل يدفع جميع الرسوم.",
+          "cues": [
+            { "at": "SHA", "icon": "sha_our", "label": "SHA ticked", "tone": "bad" },
+            { "at": "OUR", "icon": "approve", "label": "OUR was required", "tone": "good" }
+          ]
+        },
+        {
+          "en": "As a result, the buyer's bank charged the buyer locally, while the intermediary bank deducted $75 straight from the principal amount.",
+          "ar": "ونتيجةً لذلك، حمّل مصرف المشتري المشتري الرسوم محلياً، بينما اقتطع المصرف الوسيط ٧٥ دولاراً مباشرةً من أصل المبلغ.",
+          "cues": [
+            { "at": "intermediary", "icon": "bank_chain", "label": "intermediary bank" },
+            { "at": "deducted", "icon": "deduct", "label": "−$75 from the principal", "tone": "bad", "big": true, "term": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_damascus",
+      "chapter": "Small money, big principle",
+      "chapterAr": "مبلغٌ صغير، مبدأٌ كبير",
+      "lines": [
+        {
+          "en": "\"It is only seventy-five dollars,\" said Fadi when he heard about it. \"Shall we just write it off?\"",
+          "ar": "«إنها خمسة وسبعون دولاراً فقط،» قال فادي عندما سمع بالأمر. «هل نشطبها ببساطة؟»",
+          "cues": [
+            { "at": "write", "icon": "write_off", "label": "just write it off?", "tone": "warn", "term": true }
+          ]
+        },
+        {
+          "en": "\"On one invoice, yes,\" said Lina. \"Across forty export invoices a year, seventy-five dollars each is $3,000 of pure profit lost.\"",
+          "ar": "«على فاتورة واحدة، نعم،» قالت لينا. «لكن على أربعين فاتورة تصدير في السنة، فإن خمسة وسبعين دولاراً لكل منها تعني ٣٬٠٠٠ دولار من الربح الصافي ضائعة.»",
+          "cues": [
+            { "at": "forty", "icon": "ledger", "label": "40 export invoices a year" },
+            { "at": "$3,000", "icon": "profit_loss", "label": "$3,000 profit lost", "tone": "bad", "big": true }
+          ]
+        },
+        {
+          "en": "\"Worse, if Huda marks a $25,000 invoice as paid when only $24,925 arrived, our ledger will not balance at year-end.\"",
+          "ar": "«والأسوأ، إذا أشّرت هدى على فاتورة بـ ٢٥٬٠٠٠ دولار بأنها مدفوعة بينما وصل ٢٤٬٩٢٥ دولاراً فقط، فلن يتوازن دفتر أستاذنا في نهاية السنة.»",
+          "cues": [
+            { "at": "ledger", "icon": "ledger", "label": "ledger will not balance", "tone": "bad", "big": true, "term": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_damascus",
+      "chapter": "The friendly, factual email",
+      "chapterAr": "رسالةٌ ودّية وواقعية",
+      "lines": [
+        {
+          "en": "Huda wrote a friendly, factual email attaching the SWIFT breakdown.",
+          "ar": "كتبت هدى رسالة إلكترونية ودّية وواقعية، أرفقت بها تفصيل رسالة سويفت.",
+          "cues": [
+            { "at": "friendly", "icon": "email_confirm", "label": "friendly + factual", "tone": "good" }
+          ]
+        },
+        {
+          "en": "She thanked the buyer for paying early, and noted the $75 intermediary deduction under the SHA code.",
+          "ar": "شكرت المشتري على الدفع المبكر، وأشارت إلى اقتطاع الـ ٧٥ دولاراً من المصرف الوسيط بموجب الرمز SHA.",
+          "cues": [
+            { "at": "thanked", "icon": "thanks", "label": "thank first", "tone": "good" },
+            { "at": "noted", "icon": "swift", "label": "evidence attached", "tone": "key" }
+          ]
+        },
+        {
+          "en": "Then she asked them either to add $75 to their next invoice settlement, or to instruct their bank to use code OUR in future.",
+          "ar": "ثم طلبت منهم إما إضافة ٧٥ دولاراً إلى تسوية فاتورتهم التالية، أو توجيه مصرفهم لاستخدام الرمز OUR مستقبلاً.",
+          "cues": [
+            { "at": "add", "icon": "money_part", "label": "① add $75 next time", "tone": "key" },
+            { "at": "instruct", "icon": "sha_our", "label": "② use code OUR", "tone": "key" }
+          ]
+        },
+        {
+          "en": "The buyer apologized and added the $75 to their next order the following week.",
+          "ar": "اعتذر المشتري وأضاف الـ ٧٥ دولاراً إلى طلبيته التالية في الأسبوع التالي.",
+          "cues": [
+            { "at": "apologized", "icon": "handshake", "label": "relationship intact", "tone": "good" },
+            { "at": "added", "icon": "paid", "label": "$75 recovered", "tone": "good", "big": true }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "Ask for the small difference, politely and with evidence. It protects the ledger, the profit and the relationship all at once.",
+    "ar": "اطلب الفرق الصغير بلباقة ومع إثبات. فذلك يحمي الدفتر والربح والعلاقة في آنٍ واحد.",
+    "icon": "ledger"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "What did the sales contract say about bank charges?", "ar": "ماذا نصّ عقد البيع بشأن الرسوم المصرفية؟" },
+      { "en": "How much money did the buyer send, and how much arrived in Damascus?", "ar": "كم أرسل المشتري، وكم وصل إلى دمشق؟" },
+      { "en": "Explain the difference between transfer codes SHA and OUR.", "ar": "اشرح الفرق بين رمزي التحويل SHA و OUR." },
+      { "en": "Why did Lina refuse to simply ignore the $75 loss? Give two reasons.", "ar": "لماذا رفضت لينا تجاهل خسارة الـ ٧٥ دولاراً ببساطة؟ اذكر سببين." },
+      { "en": "What two options did Huda offer the buyer to settle the $75 difference?", "ar": "ما الخياران اللذان عرضتهما هدى على المشتري لتسوية فرق الـ ٧٥ دولاراً؟" },
+      { "en": "How did the buyer respond?", "ar": "كيف ردّ المشتري؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Talk about it",
+    "headlineAr": "للنقاش",
+    "en": "Suppose this were a one-time customer who would never order again, and a second bank transfer would cost $40 in fees just to send $75. What would you advise Lina to do then?",
+    "ar": "لنفترض أن هذا عميل لمرة واحدة لن يطلب مجدداً أبداً، وأن حوالة مصرفية ثانية ستكلّف ٤٠ دولاراً من الرسوم لإرسال ٧٥ دولاراً فقط. بماذا تنصح لينا حينئذٍ؟"
+  }
+}

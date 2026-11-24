@@ -251,18 +251,26 @@ def plan_dialogue(c):
         add(f"pv{i}", ln["en"], nv, nr)
     add("pvt", p["teaser"]["en"], nv, "-12%")
 
+    # Arabic is spoken only when the lesson asks for it. With
+    # "arabicAudio": false the Arabic stays on screen as subtitles and no
+    # dubbing time is reserved anywhere in the video.
+    dub = c.get("arabicAudio", True)
+
     for i, it in enumerate(c["vocab"]["items"]):
         add(f"vc{i}", it["term"], nv, "-10%")
-        add(f"vc{i}a", it["ar"], AR_N, AR_NR, lang="ar")
+        if dub:
+            add(f"vc{i}a", it["ar"], AR_N, AR_NR, lang="ar")
 
     for i, ln in enumerate(c["dialogue"]):
         sp = c["speakers"][ln["sp"]]
         add(f"d{i}", ln["en"], sp["voice"], sp.get("rate", "+0%"), sp=ln["sp"])
-        add(f"d{i}a", ln["ar"], sp["arVoice"], sp.get("arRate", "+0%"),
-            lang="ar", sp=ln["sp"])
+        if dub:
+            add(f"d{i}a", ln["ar"], sp["arVoice"], sp.get("arRate", "+0%"),
+                lang="ar", sp=ln["sp"])
 
     add("take", c["takeaway"]["en"], nv, "-12%")
-    add("takea", c["takeaway"]["ar"], AR_N, "-8%", lang="ar")
+    if dub:
+        add("takea", c["takeaway"]["ar"], AR_N, "-8%", lang="ar")
 
     for i, it in enumerate(c["questions"]["items"]):
         add(f"q{i}", it["en"], nv, nr)
