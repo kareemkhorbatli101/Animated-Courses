@@ -102,3 +102,62 @@ Twelve units. The Starting Point carries no source body.
 196 figures, prefixed `pa`, none reused from any other book in this series or its four sister
 series. 195 audio cues, prefixed `TL1`: three in the Starting Point and sixteen in each of the
 twelve units, in fixed positions documented in the book's own back matter.
+
+---
+
+## Book 2 · Throughline 1 (A2+ to B1)
+
+Twelve units, under the title *Plan, Estimate, Sequence*. The Starting Point carries no source
+body. Seven of the twelve sources are not methods at all: a magazine column, a book of essays, a
+business novel, three papers of psychology and economics, and a government guidance note. They are
+here because the arithmetic of a schedule is easy and the reasons schedules are wrong are not.
+
+| Unit | Title | Source, with its edition or date | What the reading prints as the document's own limit |
+|---|---|---|---|
+| 1 | What Cannot Start Until | **J. E. Kelley Jr. and M. R. Walker**, *Critical-Path Planning and Scheduling*, **Eastern Joint Computer Conference, December 1959**, from work begun at DuPont c. 1957 | It computes the longest route from the durations and dependencies it is given: one fixed number per activity, no uncertainty, no resource availability in its original form, and no judgment about whether the dependencies are real |
+| 2 | Three Numbers, Not One | ***PERT Summary Report, Phase 1***, Special Projects Office, Bureau of Naval Weapons, Department of the Navy, **July 1958** | The three-point weights follow from a distribution assumed for ease of hand computation, not from measurement; the spread is modeled along one path and not across merges; and the claim that the method itself saved time on Polaris was questioned in Sapolsky, *The Polaris System Development*, Harvard University Press, 1972 |
+| 3 | Work Expands | **C. Northcote Parkinson**, *Parkinson's Law*, **The Economist, 19 November 1955**; later the opening chapter of the book, John Murray, 1958 | A satirical essay by a naval historian whose statistics concern the growth of administrative staff, not the duration of tasks; it offers no measurement of project work and does not claim work can be done in any period chosen for it |
+| 4 | Why We Always Say Six Weeks | **R. Buehler, D. Griffin and M. Ross**, *Exploring the "planning fallacy"*, **Journal of Personality and Social Psychology, 1994**; the term is from Kahneman and Tversky, 1979 | It measured individuals predicting their own academic tasks, not project teams; its inside/outside-view explanation is an interpretation; and it offers no corrected figure to use in place of a prediction |
+| 5 | Ask What Happened Last Time | **B. Flyvbjerg**, *From Nobel Prize to Project Management: Getting Risks Right*, **Project Management Journal, August 2006**; overrun figures from Flyvbjerg, Holm and Buhl, JAPA 2002 | It needs comparable completed projects with recorded outturns, produces a distribution rather than an explanation, leaves the choice of reference class as a judgment, and does not address deliberate misrepresentation |
+| 6 | The Number You Add on Purpose | Supplementary guidance on **optimism bias** issued with a government treasury's appraisal green book, first published **2003**, based on a **2002** review of fifty large public procurement projects | The percentages are upper bounds to be reduced only with evidence; they derive from one country's public projects of that period; the guidance addresses appraisal rather than delivery, does not replace risk analysis, and offers no test of whether a project is standard |
+| 7 | Adding People to a Late Project | **F. P. Brooks Jr.**, *The Mythical Man-Month: Essays on Software Engineering*, **Addison-Wesley, 1975**; anniversary edition 1995 | Essays from experience rather than a controlled study; the claims are stated for software projects; no formula for team size or training cost; and the argument applies only to work that cannot be partitioned without communication |
+| 8 | Where the Safety Went | **E. M. Goldratt**, *Critical Chain*, **North River Press, 1997** | A business novel: its support is anecdotal and case-based, the fifty-per-cent cut is a rule of thumb, buffer management depends on honest remaining durations, and it does not address tasks whose dates are contractual |
+| 9 | What a Plan Has to Contain | **ISO/IEC/IEEE 16326:2019**, *Systems and software engineering — Life cycle processes — Project management*, second edition, replacing 2009 | It specifies the content of a plan and prescribes no length, format, tool or level of detail; it is written for systems and software projects and requires tailoring; and conformance concerns the document, not the accuracy of the plan |
+| 10 | A Programme Is Not a Big Project | **ISO 21503:2022**, *Project, programme and portfolio management — Guidance on programme management*, second edition, replacing 2017 | Guidance, not for certification: no structure, roles, size or method; no threshold for when work should be a programme; and no method for measuring benefits |
+| 11 | Choosing What Not to Do | **ISO 21504:2022**, *Project, programme and portfolio management — Guidance on portfolio management*, second edition, replacing 2015 | Guidance, not for certification: no selection or prioritization method, no scoring model or weights, no portfolio size; alignment required without defining the objectives; and nothing on the consequences of terminating a component |
+| 12 | Two Pages for the Whole Plan | **D. R. Hofstadter**, *Gödel, Escher, Bach: An Eternal Golden Braid*, **Basic Books, 1979** | A self-referential joke within a book about mathematics and mind: not a study, no method, no measurement, and unfalsifiable by construction, so no guidance for action |
+
+### Honesty notes, Book 2
+
+- **Unit 1.** The arithmetic has been exact since 1959 and has never once asked whether the
+  dependencies it was handed are real. Nine activities with no predecessor hid five weeks.
+- **Unit 2.** The weights in the most widely taught estimating formula in the world were chosen
+  because the sums had to be done by hand in 1958.
+- **Unit 3.** A satirical column about naval office staff is quoted at the people doing the work, by
+  organizations whose own reporting pack has grown from four pages to thirty-one.
+- **Unit 4.** The participants' own worst case was beaten on average. The paper measures the error
+  and declines to supply a replacement number.
+- **Unit 5.** Everything after step one is arithmetic, and step one — which projects count — is also
+  the easiest place to produce the answer you wanted. The author says so himself.
+- **Unit 6.** Fifty projects, one country, two decades ago, and still the most useful figure in a
+  board paper, because it is the one that has to be argued away from in public.
+- **Unit 7.** A book of essays about 1960s software explains both halves: why four extra detailers
+  made a drawing package later, and why three crews made a fence three times faster.
+- **Unit 8.** A novel. The arithmetic took an afternoon; what made it work was one sentence signed
+  before anybody was asked for a number, and two welders who refused until it existed.
+- **Unit 9.** A plan can contain all fourteen required sections, conform completely, and be wrong in
+  every figure it holds. The only requirement a standard can test is whether a subject is
+  addressed.
+- **Unit 10.** The guidance asks for a benefit with a number, a date and an owner — and that owner
+  is usually in another organization, will be there years after the team has dispersed, and has to
+  agree to be named.
+- **Unit 11.** Three projects stopped in six years, none at a review. The guidance says a portfolio
+  should be balanced against capacity and says nothing whatever about the meeting.
+- **Unit 12.** The best-written source in the whole book cannot be disproved by anything, which is
+  exactly why it appears in the back matter and not in the plan.
+
+### Figures and audio, Book 2
+
+196 figures, prefixed `pb`, none reused from any other book in this series or its four sister
+series. 195 audio cues, prefixed `TL2`: three in the Starting Point and sixteen in each of the
+twelve units, in the fixed positions documented in the book's own back matter.
