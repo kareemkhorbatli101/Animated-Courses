@@ -296,3 +296,85 @@ cannot establish anything.
 invented object.** The formula is published and real; the paragraph is the book's own; and the unit
 exists in order to say that the same instrument approves the reading texts of this series, that it is
 blind to everything that makes them readable, and that it is kept as a floor rather than a judge.
+
+# Book 4 · Plumbline 3 — *Describing What Is There*
+
+Target band 6.0 · CEFR B2 · figure prefix `qd` · audio prefix `PL4` · 196 figures · 195 tracks
+
+One task: Academic Writing Task 1. A hundred and fifty words, twenty minutes, four equally weighted
+criteria, and one distinction the whole book turns on — describe what is there, not why it is there.
+The twelve reading texts are built on the history and the research of statistical graphics, because
+the question *what is worth describing in this figure* turns out to have two hundred and forty years
+of published answers.
+
+| Unit | Title | Source, as cited in the text | What the text prints as the document's own limit |
+|---|---|---|---|
+| **1** | Four Criteria, Equally Weighted | The published **Writing Task 1 band descriptors** and the public statement of how Task 1 is assessed, read 12 May | They describe **what each band looks like**, not how to get there: they name no vocabulary, prescribe no structure, give no model answer and say nothing about which figure you will be given. A scale is a description of an outcome, not a method — which is why a book like this exists and why no book like this is official |
+| **2** | The First Line Graph | **William Playfair**, *The Commercial and Political Atlas*, London, **1786** (third edition **1801**) | A **commercial and political argument illustrated with figures**, not a study of how people read charts: Playfair measured nobody and tested nothing, and his claim that a figure is read faster and remembered longer is an assertion from a man selling a new method. Some captions make political claims the plates cannot establish, and parts of the underlying data have been questioned since. It is about **drawing** a graph, not describing one |
+| **3** | Making a Number Visible | **Florence Nightingale**, *Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army*, London, **1858**, and the mortality diagram printed in it | **One campaigner's diagram of one army in one war**, drawn to persuade. It is not an experiment about charts and establishes nothing about part-whole figures in general. Its areas have been criticized since, because **area is read much less accurately than length** — which is Unit 4's subject. The completeness of the army returns behind it has been questioned. It changed a policy and would still fail a modern design review |
+| **4** | What the Eye Does Accurately | **William S. Cleveland and Robert McGill**, *Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods*, **Journal of the American Statistical Association, 1984** | Two experiments with **specific stimuli** and **a specific group of participants**; the ordering is offered as **a guide to designing graphs, not a law of perception**, and the authors say so. Later work has complicated parts of it. And it is about **accuracy of extraction only** — not about which figure is remembered, understood or persuasive. The unit notes that the 1858 diagram of Unit 3 scores badly on this ordering and changed a policy anyway |
+| **5** | Four Data Sets, One Average | **F. J. Anscombe**, *Graphs in Statistical Analysis*, **The American Statistician, 1973** | The four data sets are **not observations**: they were **built** to have matching statistics and different shapes, which is what makes the demonstration work and what it cannot be used for — nobody should claim that real data behaves like this or that a correlation of 0.82 is generally untrustworthy. It is a **short paper in a teaching journal**, an argument and a demonstration, reporting no experiment and measuring nobody; and the moral was **not new in 1973**, as the author does not claim |
+| **6** | Ink That Carries No Data | **Edward R. Tufte**, *The Visual Display of Quantitative Information*, Graphics Press, **1983** | An **argument about design**, made with historical examples and the author's own redrawings. It is **not an experimental study**: it does not test readers, measure reading times or count errors, and the ratio is **proposed**, not derived from data about how people read. Parts of it have been **disputed** — later work has argued that some decoration helps readers remember a figure. The strongest form of *remove all non-data ink* is **a position, not a finding**. And it is about making figures, which a candidate is not doing |
+| **7** | A Process Has Stages | **ISO 5807**, *Information processing — Documentation symbols and conventions for data, program and system flowcharts, program network charts and system resources charts*, first edition **1985** | The standard has since been **withdrawn**: it is no longer current, and later modeling notations are what formal process documentation now uses. Quoting it as current would be wrong. Most diagrams in general use follow its conventions **loosely, by inheritance**; many do not follow them at all, and an examination diagram is under **no obligation** to. It says nothing whatever about English |
+| **8** | A Map Is a Selection | **Mark Monmonier**, *How to Lie with Maps*, University of Chicago Press, **1991** | An **argument illustrated with examples**, addressed to map users and makers, not an experimental study: it does not test readers or measure how often anybody is misled. It says nothing about examinations and nothing about English. And its strongest claim needs reading carefully — **to select is not to deceive**; the book does not say map makers are liars, and borrowing the title's word while dropping the argument gets it backwards |
+| **9** | Two Effective Digits | **A. S. C. Ehrenberg**, *Rudiments of numeracy*, **Journal of the Royal Statistical Society, Series A, 1977** | A paper of **recommendations**, supported by examples and long commercial experience; **not a controlled experiment**, and it does not measure how many digits people retain. The two-digit recommendation has been **disputed** and the paper itself calls it a rule of thumb. It is **wrong for some purposes**: financial accounts, engineering tolerances, scientific constants and anything legally binding need every digit they have. The use made of it in Task 1 is this book's point, not the paper's |
+| **10** | A True Figure, Misleading | **Darrell Huff**, *How to Lie with Statistics*, W. W. Norton, **1954** | **Not research**: no original data, no experiment, and a case made with invented and anecdotal examples, some unsourced. It is an entertainment and an argument, and the author does not claim otherwise. Its advice is also **not all sound by modern standards** — statisticians have argued that the strong form of *always start at zero* is wrong for some data and that the honest answer is to label the axis clearly. The text also records that published accounts of the author's later career have him **engaged by the tobacco industry**, and notes that the technique of doubting a figure is available to anybody |
+| **11** | Where the Figures Came From | ***Fundamental Principles of Official Statistics***, adopted by the **United Nations Statistical Commission in 1994** and endorsed by the **General Assembly in 2014** | **Principles, not a guarantee**: they are **not enforceable** — no inspector, no sanction, no certificate — and a country can endorse them and publish figures that meet none of them. They apply to **official** statistics only, not to a company, a campaign, a newspaper or a private survey, which is most of what a candidate will meet. And they are about **production, not reading**: nothing in them tells you how to describe a chart, and nothing in them is about English |
+| **12** | How to Write a Quantity | **ISO 80000-1**, *Quantities and units — Part 1: General*, second edition **2022** (first edition **2009**), with a review of the eleven above | A **technical document** addressed to measurement science. It is **not a style guide for general prose**, it is **not free to obtain**, and most publishers and house styles **do not follow it**: *25kg* and *15%* are normal in published English and nobody is penalized for them. It is therefore a **convention**, not a rule of English — with one exception, the difference between a percent and a percentage point, which is a difference in meaning. And it says nothing about examinations, describing a figure, or choosing a verb: **there is no standard for any of that**, which is what the other eleven units were for |
+
+## Twelve admissions, one per unit
+
+- **Unit 1.** Three criteria at six and one at five, and the forty-one words of explanation were taken
+  from the criterion that scored lowest.
+- **Unit 2.** The same eight figures as a table and as a line. The verbs were never the problem; the
+  nine missing figures were.
+- **Unit 3.** Eleven readers estimated one share from a pie at anything between 70 and 88 per cent.
+  Read off a stacked bar, every one of them said 82.
+- **Unit 4.** Four per cent mean error from bars on one baseline, twenty-seven per cent from a shaded
+  map, and the chart that changed a policy in 1858 encodes by area.
+- **Unit 5.** Four sentences about one number and two sentences about six rows. Every figure in the
+  answer was correct.
+- **Unit 6.** Eight sentences about a figure carrying seven numbers. Two were about colors, and four
+  of the seven numbers never appeared.
+- **Unit 7.** Eight stages, in order, all correct, and eleven minutes left over. The loop arrow was
+  the only mark on the page that was not a rectangle or an arrow.
+- **Unit 8.** Six new features, one disappearance, and nothing at all about the half of the island
+  that had not changed — which is the half that gives the change a size.
+- **Unit 9.** Five of twenty figures copied to nine digits, 162 words, and three quarters of the
+  table missing. Every figure correct.
+- **Unit 10.** *Dramatically*, *soared* and *massive*, about a rise of four percent. Lexical Resource
+  6.5, Grammar 7.0, Task Achievement 5.5, and the examiner's comment was one word.
+- **Unit 11.** One word added that the chart did not use — *government* — and one left out that it
+  did: *provisional*.
+- **Unit 12.** Eleven practice bands: 5.0, 5.0, 5.5, 5.0, 5.5, 6.0, 5.5, 6.0, 6.5, 6.0, 6.5. The
+  average of 5.68 conceals the range, which is the point Unit 5 made.
+
+## Figures, tasks and invented figures
+
+196 figures, prefix `qd`, generated from `plumbline/_build/spec_qd1.py` to `spec_qd4.py`. No figure in
+this book appears in any other book of this series or in any of its five sister series.
+
+**Every chart, table, process diagram, map, practice task, model answer and realia document in the
+book was written or drawn for it.** No question, figure, passage or prompt from any past examination
+is reproduced anywhere. The grouped bar chart in Unit 4, the six-row table in Unit 5, the decorated
+chart in Unit 6, the eight-stage process in Unit 7, the two island maps in Unit 8, the twenty-figure
+table in Unit 9, the truncated line graph in Unit 10 and the sourced bar chart in Unit 11 are all the
+book's own.
+
+**Every figure attributed to "our own class" is invented** — the four criterion averages in Unit 1,
+the reading preference survey in Unit 2, the three shares and the eleven-reader estimates in Unit 3,
+the estimation errors in Unit 4, the table in Unit 5, the six data-ink proportions in Unit 6, the
+task-difficulty survey in Unit 7, the task-preference survey in Unit 8, the long-number survey in
+Unit 9, the verb survey in Unit 10, the five source lines in Unit 11 and the eleven practice bands in
+Unit 12. Each says on its face that it is an invented class's own count, with eleven students, and
+several units stop to say why eleven students cannot establish anything.
+
+**Two figures are illustrations of a real idea applied to invented data, and say so.** The six
+proportions of data ink in Unit 6 illustrate the 1983 ratio and were counted by nobody; the five
+source lines in Unit 11 illustrate what principle 3 produces and were collected from nowhere. Both
+charts carry that admission on their faces.
+
+**The two line graphs in Unit 10 plot the same five invented figures twice, once from zero and once
+from 94.** The figures are the book's own. The effect is not: a rise of four percent fills the page,
+and the unit exists to say that a candidate who reads the line instead of the axis will write a word
+that costs a band.
