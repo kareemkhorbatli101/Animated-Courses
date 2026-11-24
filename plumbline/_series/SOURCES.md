@@ -378,3 +378,86 @@ charts carry that admission on their faces.
 from 94.** The figures are the book's own. The effect is not: a rise of four percent fills the page,
 and the unit exists to say that a candidate who reads the line instead of the axis will write a word
 that costs a band.
+
+# Book 5 · Plumbline 4 — *The Position You Can Defend*
+
+Target band 6.5 to 7.0 · CEFR B2+ · figure prefix `qe` · audio prefix `PL5` · 196 figures · 195 tracks
+
+One task: Academic Writing Task 2. Two hundred and fifty words, forty minutes, four equally weighted
+criteria, and one distinction the whole book turns on — a topic is not a position. The twelve reading
+texts are built on the study of argument, of paragraphs, of composing and of assessment, because the
+question *what makes this essay worth reading* has sixty-five years of published answers and almost
+none of them is a template.
+
+| Unit | Title | Source, as cited in the text | What the text prints as the document's own limit |
+|---|---|---|---|
+| **1** | A Position, Not a Topic | The published **Writing Task 2 band descriptors** and the public statement of how Task 2 is assessed, read 19 May | They describe **what each band looks like**, not how to get there: no vocabulary named, no essay shape prescribed, no model answer, nothing about which statement you will be given. They are also the **public** versions — fuller descriptors are used in examiner training, are not published, and this book does not claim to know what is in them |
+| **2** | Claim, Grounds, Warrant | **Stephen Toulmin**, *The Uses of Argument*, Cambridge University Press, **1958** | The author presents the layout as an **analytical tool, not a procedure**, and calls his own account a **sketch** rather than a finished theory. The categories have been **argued about ever since**: where grounds end and warrants begin is often unclear, and two analysts routinely divide one argument differently. It is philosophy addressed to philosophers, not about writing or examinations, and it reports **no study** |
+| **3** | What You Can Leave Unsaid | **H. P. Grice**, *Logic and Conversation*, in *Syntax and Semantics 3: Speech Acts*, ed. Cole and Morgan, **1975** (delivered **1967**) | A **published lecture**: an argument with invented examples, no data, no hearers measured, no evidence beyond the author's own intuitions. The maxims have **not been agreed since** — later work reduced them to one principle of relevance, others multiplied them, others again called them culturally specific. And it is about **conversation**, not writing: an essay has no turn-taking, no feedback and no shared situation |
+| **4** | The Sentence After the First One | **Francis Christensen**, *A Generative Rhetoric of the Paragraph*, College Composition and Communication, **1965** | Built by analyzing **published professional prose**, not student writing, and the paper offers **no evidence** that teaching the scheme improves anybody's essays: no experiment, no comparison group, no measurement. The claim that paragraphs have a topic sentence has been **contradicted since** — later studies found them in a **minority** of published expository paragraphs. And the numbering is **interpretive** |
+| **5** | The Questions It Has to Survive | **Douglas Walton**, *Informal Logic: A Pragmatic Approach*, second edition, Cambridge University Press, **2008** (first edition **1989**) | A **textbook**: a synthesis and a set of proposals, reporting **no experiment** and measuring nobody's reasoning. The list of schemes is **not closed or agreed** — different authors give different lists, and the author's own changed between editions. Whether a move is a fallacy depends on the **dialogue** it occurs in, which makes the judgment contextual and means **no checklist settles it** |
+| **6** | What Would Change Your Mind | **Deanna Kuhn**, *The Skills of Argument*, Cambridge University Press, **1991** | An **interview study** of **three topics** in **one country** at one period. What counted as evidence rather than pseudo-evidence was **coded by the researcher's criteria**, which are themselves arguable. People were asked to produce arguments **on the spot**, and somebody who cannot in an interview may manage it given a week and a pen. The education finding is **correlational**. And it is a study of reasoning, not of English |
+| **7** | Why Writing Is Not Speech | **Douglas Biber**, *Variation Across Speech and Writing*, Cambridge University Press, **1988** | A **frequency count, not a prescription**: nothing in it says a good essay should have any particular count of anything. The dimensions are the output of a **statistical procedure** and their **names are the author's interpretation** — another analyst could group the same features differently. The corpora are of their **period** and of **two national varieties**, collected before most of the writing anybody now does. And it studies first-language users |
+| **8** | Three Moves in an Introduction | **John M. Swales**, *Genre Analysis: English in Academic and Research Settings*, Cambridge University Press, **1990** | A **description of research article introductions** — a genre a candidate is not writing — built from particular disciplines at a particular time, and **descriptive** rather than prescriptive. The author **revised it himself** in a later book, reworking the second move, so the 1990 version is a stage rather than a settled result. Conventions differ by discipline and language, and the **discourse community** concept has been argued about ever since |
+| **9** | Telling, and Transforming | **Carl Bereiter and Marlene Scardamalia**, *The Psychology of Written Composition*, Lawrence Erlbaum, **1987** | The two accounts are **models, not observed types of person**, and both are **competent processes** — the authors are explicit that knowledge-telling is not a deficiency. The evidence is largely **think-aloud protocols** and experiments, mostly with **children and school students** in one country, and asking somebody to narrate their thinking **changes the task**. It concerns first-language writers in school settings with no clock running, and assigns nobody a band |
+| **10** | Planning, Writing, Reviewing | **Linda Flower and John R. Hayes**, *A Cognitive Process Theory of Writing*, College Composition and Communication, **1981** | Built from **think-aloud protocols of a small number of writers**; protocols record only what gets said, and being asked to narrate changes the task. A theory of **process, not of quality**, predicting no score. **Criticized at length** for treating writing as something inside one head and leaving out the social situation — a later generation rebuilt the field around that objection, and the authors revised the model themselves. And it concerns untimed first-language composing |
+| **11** | Two Examiners, One Script | **Sara Cushing Weigle**, *Assessing Writing*, Cambridge University Press, **2002** | A **textbook**: a synthesis of a field, not a study. The rater research it summarizes was conducted on **particular tests, with particular raters, in particular settings**, and how much of it describes this examination is not something the book says. It is of its **period**, before much movement in method and automated scoring. And it **cannot tell you about your examiner**: it describes a distribution, and nothing in it licenses blaming a marker or crediting luck |
+| **12** | What a Score Does Next | **Samuel Messick**, *Validity and washback in language testing*, Language Testing, **1996**, with a review of the eleven above | A **conceptual paper**: a theoretical argument reporting **no data**, measuring washback nowhere, testing none of its claims empirically. Washback has been **argued about ever since** — its extent, whether the test or its use produces it, and whether a teaching change can be shown to have been caused by a test at all. The author's wider validity framework has also been debated and reorganized by others. And it is for test developers: it gives candidates no advice and names no bands |
+
+## Twelve admissions, one per unit
+
+- **Unit 1.** Three hundred and twenty words, two questions in the prompt, one answered. Lexical
+  Resource 7.0 and Task Response 5.5, and one criterion out of four held the other three down.
+- **Unit 2.** A hundred and ten words, three accurate examples, and the marker wrote
+  *underdeveloped*. The missing sentence was a principle, not a fourth example.
+- **Unit 3.** The word *some*, circled four times in one essay, by a writer whose position was that
+  the benefits outweigh the costs.
+- **Unit 4.** Five sentences, three accurate examples, and a level pattern of 1, 2, 2, 2, 2. A
+  hundred and forty words and two levels.
+- **Unit 5.** A Nobel laureate in chemistry, cited accurately, on school funding. The first of the
+  five questions passed and the second failed.
+- **Unit 6.** A hundred and twenty words answering an objection nobody holds, by a student who could
+  name the real one in four seconds.
+- **Unit 7.** Six nominalizations in one paragraph, four of them with nobody in them. Lexical
+  Resource rose a band and Coherence fell one.
+- **Unit 8.** A two-sentence introduction, both sentences correct, and the best sentence in the essay
+  produced out loud four seconds after being asked and never written down.
+- **Unit 9.** Six minutes of planning that produced four lines, which became four paragraphs.
+  Coherence 7.0 and Task Response 6.0, and the plan contained nothing the essay did not.
+- **Unit 10.** Fourteen of forty minutes on the first paragraph. It is the best paragraph in the
+  essay and it cost him the conclusion.
+- **Unit 11.** One script, two trained readers, 6.0 and 6.5, and two comments naming the same
+  paragraph.
+- **Unit 12.** Eleven practice essays: 5.5, 5.5, 6.0, 5.5, 6.0, 6.5, 6.0, 6.5, 6.5, 6.0, 6.5. She
+  needs 7.0 and has never reached it, and four memorized templates would reliably get her 6.5.
+
+## Figures, prompts and invented figures
+
+196 figures, prefix `qe`, generated from `plumbline/_build/spec_qe1.py` to `spec_qe4.py`. No figure in
+this book appears in any other book of this series or in any of its five sister series.
+
+**Every prompt, model paragraph, model essay, plan, marked script and realia document in the book was
+written for it.** No statement, question or prompt from any past examination is reproduced anywhere.
+The two introductions in Unit 8, the two plans in Unit 9, the two conclusions in Unit 10, the
+double-marked script in Unit 11 and the full essay in Unit 12 are all the book's own.
+
+**Every figure attributed to "our own class" is invented** — the four criterion averages in Unit 1,
+the thin-paragraph survey in Unit 2, the hedging survey in Unit 3, the two level patterns in Unit 4,
+the fallacy survey in Unit 5, the four falling bars in Unit 6, the pronoun counts in Unit 7, the five
+introductions in Unit 8, the five plans in Unit 9, the forty-minute timeline in Unit 10, the six
+double-marked scripts in Unit 11 and the eleven practice bands in Unit 12. Each says on its face that
+it is an invented class's own count, with eleven students, and several units stop to say why eleven
+students cannot establish anything.
+
+**Three figures in this book carry no numbers on purpose.** The four falling bars in Unit 6 and the
+genre line in Unit 7 show an ordering and nothing more, and the timeline in Unit 10 is one invented
+writer's forty minutes. Each says so in its caption, because a figure that illustrates a pattern and
+one that reports data are not the same object — which is Book 4's lesson, arriving here.
+
+**Unit 12 turns the discipline on this book, by name.** It states that a preparation book is
+washback; that this one exists because the examination exists; that the task it prepares for is a
+narrow slice of writing — no research, no sources, no revision, no reader you know; that on the 1996
+paper's own terms that is construct under-representation; and that a book teaching four memorized
+paragraph shapes would raise a candidate's band and be pure construct-irrelevant variance. The book's
+position is that the slice is real and the units are built on published work rather than templates.
+The argument against it is printed in full so the reader can decide.
