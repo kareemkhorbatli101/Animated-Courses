@@ -347,3 +347,87 @@ the book is written for people whose contracts cross several.
 196 figures, prefixed `pe`, none reused from any other book in this series or its four sister
 series. 195 audio cues, prefixed `TL5`: three in the Starting Point and sixteen in each of the
 twelve units, in the fixed positions documented in the book's own back matter.
+
+## Book 6 · Throughline 5 (B2+ to C1)
+
+Twelve units, under the title *Governance, Assurance, Closure*. The Starting Point carries no source
+body. This is the last book of the series and the only one whose sources are mostly **arguments
+rather than instructions**: six books and papers, one official commission report, one independent
+review panel report, and four international standards. Two of its units — 5 and 6 — are about the
+same 1986 accident: the commission that investigated it, and the study published ten years later
+which argues that the commission reached for the wrong kind of explanation of the launch decision.
+**Neither unit summarizes the accident, reconstructs any conversation or invents any detail**, and
+neither suggests that anybody involved was careless. They are in the book because holding two serious
+accounts of one event is the most advanced thing the series asks of a reader.
+
+| Unit | Title | Source, with its edition or date | What the reading prints as the source's own limit |
+|---|---|---|---|
+| 1 | The Hiding Hand | **A. O. Hirschman**, *The Principle of the Hiding Hand*, **The Public Interest, Winter 1967**, and *Development Projects Observed* of the same year; with the critique of **B. Flyvbjerg and C. Sunstein, 2016** | It rests on **eleven observed projects**, is presented as **providential and unplannable**, reports **no frequency or sample frame**, and its author states that **a difficulty cannot be hidden from oneself deliberately** — so it cannot authorize a decision not to investigate. The 2016 critique argues from a far larger sample that the benevolent form is **rare** |
+| 2 | The Incubation Period | **B. A. Turner**, *Man-Made Disasters*, **first published 1978**; second edition **1997** with **N. Pidgeon** | A **sociological account derived from official inquiry reports**, so it inherits their framing and covers only failures serious enough to be inquired into; it is **not a predictive method** and offers **no way of identifying an incubation period from within one** |
+| 3 | Tightly Coupled | **C. Perrow**, *Normal Accidents: Living with High-Risk Technologies*, **1984**; second edition **1999** | A **classification of systems, not a probability**: the placement of any system in a quadrant is a **judgment**; it offers no likelihood of accident; and its central claim is **contested** by researchers of high-reliability organizations |
+| 4 | The Holes Line Up | **J. Reason**, *Managing the Risks of Organizational Accidents*, **1997**, developing *Human Error*, **1990** | An **organizing metaphor rather than a quantitative model**: **no number of layers**, **no method of counting holes**, **no probabilities** and **no order of priority** among remedies — and it has been criticized for encouraging exactly the tidy diagram it invites |
+| 5 | What the Commission Found | **Report of the Presidential Commission on the Space Shuttle Challenger Accident**, **submitted June 1986** | Charged with determining **probable cause** and recommending corrective action; it is **not a determination of legal liability**, it **states where it was unable to reach conclusions**, and it was produced **within a few months** on the evidence then available |
+| 6 | Normal, By Then | **D. Vaughan**, *The Challenger Launch Decision*, **1996** | A reinterpretation of **one decision in one organization**, drawing on the earlier commission's own archive; it offers **no threshold at which drift becomes dangerous** and **no detection method**, and its reinterpretation of the official account is **contested** |
+| 7 | An Audit Is a Sample | **ISO 19011:2018**, *Guidelines for auditing management systems*, third edition, replacing **2011** | **Guidance**, not requirements, so nothing can be certified against it; it prescribes **no sample size or sampling method**; and its evidence-based approach states that audit conclusions rest on **samples** and therefore carry **uncertainty of which those acting on them should be aware** |
+| 8 | Accountable, Not Responsible | **ISO 37000:2021**, *Governance of organizations — Guidance* | **Guidance**, not certifiable; it prescribes **no governance structure, board composition or legal duties**; it does not say how many people should be accountable for anything; and it **cannot create a governing body that wishes to be told things** |
+| 9 | The Obligation Register | **ISO 37301:2021**, *Compliance management systems — Requirements with guidance for use*, replacing the guidance standard of **2014** | Certification attests to the **management system and not to actual compliance**; the standard **identifies nobody's obligations for them** and **does not grade them by importance**; and it requires a compliance culture it **cannot create** |
+| 10 | Two Things, One Word | **The Report of the BP U.S. Refineries Independent Safety Review Panel**, **January 2007** | It examined **five refineries of one company**, **was not the investigation of the 2005 accident** that preceded it, **states that its findings may not be applicable** to other facilities or companies, and had **no authority to implement** its ten recommendations |
+| 11 | Who Can Say It | **S. Dekker**, *Just Culture*, **first published 2007**, with later editions | An **argument rather than a standard**: **no test of culpability**, no threshold for recklessness, and no method for the genuinely hard case; it is **contested** by those who hold that accountability requires consequences; and it states that the line between acceptable and unacceptable behavior is **drawn by particular parties rather than discovered** |
+| 12 | One Page of Accountabilities | **ISO 37002:2021**, *Whistleblowing management systems — Guidelines* | **Guidelines**, not certifiable; they **create no legal rights or protections**, which come from law and differ by jurisdiction; they do not address the legal requirements of any country; and they **cannot create the trust** on which the system they describe entirely depends |
+
+### The honesty notes, Book 6
+
+- **Unit 1.** Three of twenty-three completed projects showed the mechanism the essay describes, nine
+  showed its opposite, and all three of the first group are in the company's capability statement
+  while none of the nine is.
+- **Unit 2.** Nine signals over seventeen months, held by seven people in four systems, a notebook
+  and an email thread, with nobody holding more than three — and **two further signals, equally
+  discrepant, that led nowhere and stay in the report**, because an incubation period is identified
+  by its ending.
+- **Unit 3.** The operator's trip breached the procedure and was correct, and the procedure is not
+  badly drafted: a plant that is both tightly coupled and interactively complex needs a centralized
+  and a local response in the same forty seconds.
+- **Unit 4.** Three of the four holes were opened by reasonable, recorded decisions; the fourth was
+  an absence nobody had ever proposed, refused or reviewed; and the defense that worked had not been
+  mentioned in any meeting since 2021.
+- **Unit 5.** A finding printed beside a demand reads as an accusation — and an investigation that
+  concludes everything has concluded too much.
+- **Unit 6.** Seventeen approvals, each correct and each one the reviewer would have granted, and a
+  number nobody chose; and two of the five recorded drifts were from standards that were never once
+  met in six years.
+- **Unit 7.** Twelve records of two hundred and thirty-one, three nonconformities, no point estimate
+  — and a 2022 audit of the same process that found nothing, having examined five records from one
+  month without saying so.
+- **Unit 8.** Eleven blank rows in an accountability column were eleven activities the sponsor
+  answered for without having been told, and the word itself carried five senses in four documents.
+- **Unit 9.** Fifty-five of one hundred and forty-seven obligations were created by the company
+  itself, twenty-three of them in tender documents by writers who did not know, and three of those
+  are being breached now.
+- **Unit 10.** An injury rate that fell from 2.1 to 0.4 over six years is real, measures personal and
+  not process safety, and could not have shown the worst event of the year, in which nobody was hurt.
+- **Unit 11.** Forty-one reports, then nine, then four — after one procedurally correct disciplinary
+  decision and seventeen months of silence following a report that was right eleven months early.
+- **Unit 12.** A policy that says anonymity depends on the size of the group a report concerns, and
+  that on a site of six staff the reader should assume they can be identified — the sentence most
+  likely to be removed in review and the only one that makes the rest believable.
+
+### Figures and audio, Book 6
+
+196 figures, prefixed `pf`, none reused from any other book in this series or its four sister
+series. 195 audio cues, prefixed `TL6`: three in the Starting Point and sixteen in each of the
+twelve units, in the fixed positions documented in the book's own back matter.
+
+## The series, closed
+
+**Six books. Seventy-two units. Seventy-two source bodies, none of them reused anywhere in
+Throughline or in its four sister series.** Every reading text names its document, its edition or
+date and its publisher or author, and then prints what that document says it does **not** cover.
+Every person, team, company, project, number and incident across all six books is invented;
+Lindhurst does not exist.
+
+The series arrives, in six different vocabularies, at one sentence: **a document is only safe to use
+once you know what it does not claim.** A class 5 estimate is not a budget. A learning curve does not
+cover steel. A life-cycle cost is not a whole-life cost. A notice is not an argument. A delivery term
+is silent on title. A balance sheet is not a risk register. A sample is not a population. A
+certificate is not compliance. An injury rate is not process safety. And a policy with the word
+*anonymous* in it is not anonymity on a site of six.
