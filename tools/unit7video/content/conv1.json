@@ -10,8 +10,10 @@
   "setting": "by telephone · Damascus ↔ Shanghai",
   "settingAr": "عبر الهاتف · دمشق ↔ شنغهاي",
   "accent": "teal",
-  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
-
+  "narrator": {
+    "voice": "en-US-BrianNeural",
+    "rate": "-6%"
+  },
   "speakers": {
     "lina": {
       "name": "Lina",
@@ -42,7 +44,6 @@
       "arRate": "-4%"
     }
   },
-
   "preview": {
     "headline": "Before you listen",
     "headlineAr": "قبل الاستماع",
@@ -68,7 +69,6 @@
       "ar": "أفضل خبر عن دفعة متأخرة هو الخبر الذي يصلك مبكراً."
     }
   },
-
   "vocab": {
     "headline": "Useful phrases",
     "headlineAr": "عبارات مفيدة",
@@ -110,7 +110,6 @@
       }
     ]
   },
-
   "dialogue": [
     {
       "sp": "lina",
@@ -118,8 +117,18 @@
       "ar": "صباح الخير سيدة تشين. معك لينا من دمشق. كيف تسير الأمور في شنغهاي؟",
       "mood": "warm",
       "cues": [
-        { "at": "Damascus", "icon": "city", "label": "Damascus", "side": "left" },
-        { "at": "Shanghai", "icon": "city", "label": "Shanghai", "side": "right" }
+        {
+          "at": "Damascus",
+          "icon": "city",
+          "label": "Damascus",
+          "side": "left"
+        },
+        {
+          "at": "Shanghai",
+          "icon": "city",
+          "label": "Shanghai",
+          "side": "right"
+        }
       ]
     },
     {
@@ -129,8 +138,19 @@
       "mood": "brisk",
       "phrase": "I'm calling early so there are no surprises.",
       "cues": [
-        { "at": "early", "icon": "phone_early", "label": "calling early", "tone": "good", "term": true },
-        { "at": "Friday", "icon": "calendar_fri", "label": "Friday 15th", "tone": "warn" }
+        {
+          "at": "early",
+          "icon": "phone_early",
+          "label": "calling early",
+          "tone": "good",
+          "term": true
+        },
+        {
+          "at": "Friday",
+          "icon": "calendar_fri",
+          "label": "Friday 15th",
+          "tone": "warn"
+        }
       ]
     },
     {
@@ -139,7 +159,12 @@
       "ar": "أقدّر لكِ ذلك. هل يتعلق الأمر بالفاتورة INV-2051 بقيمة ستين ألف دولار؟",
       "mood": "warm",
       "cues": [
-        { "at": "invoice", "icon": "invoice_due", "label": "INV-2051 · $60,000", "big": true }
+        {
+          "at": "invoice",
+          "icon": "invoice_due",
+          "label": "INV-2051 · $60,000",
+          "big": true
+        }
       ]
     },
     {
@@ -148,9 +173,25 @@
       "ar": "نعم. تاريخ الاستحقاق هو الجمعة القادم، الخامس عشر. تأخّر اثنان من عملائنا المحليين في قطاع البناء عن الدفع لنا هذا الأسبوع، لذا فإن رصيدنا النقدي بالدولار ضيّق حتى يوم الثلاثاء.",
       "mood": "concerned",
       "cues": [
-        { "at": "due", "icon": "due_date", "label": "due Friday 15th", "tone": "warn" },
-        { "at": "delayed", "icon": "clock_late", "label": "clients paid late", "tone": "bad" },
-        { "at": "tight", "icon": "cash_tight", "label": "cash tight until Tue", "tone": "bad", "big": true }
+        {
+          "at": "due",
+          "icon": "due_date",
+          "label": "due Friday 15th",
+          "tone": "warn"
+        },
+        {
+          "at": "delayed",
+          "icon": "clock_late",
+          "label": "clients paid late",
+          "tone": "bad"
+        },
+        {
+          "at": "tight",
+          "icon": "cash_tight",
+          "label": "cash tight until Tue",
+          "tone": "bad",
+          "big": true
+        }
       ]
     },
     {
@@ -160,9 +201,26 @@
       "mood": "warm",
       "phrase": "Thank you for telling us before the due date.",
       "cues": [
-        { "at": "Thank", "icon": "thanks", "label": "rewarding honesty", "tone": "good", "term": true },
-        { "at": "never", "icon": "history_good", "label": "perfect payment history", "tone": "good" },
-        { "at": "proposing", "icon": "question", "label": "What are you proposing?", "tone": "key", "term": true }
+        {
+          "at": "Thank",
+          "icon": "thanks",
+          "label": "rewarding honesty",
+          "tone": "good",
+          "term": true
+        },
+        {
+          "at": "never",
+          "icon": "history_good",
+          "label": "perfect payment history",
+          "tone": "good"
+        },
+        {
+          "at": "proposing",
+          "icon": "question",
+          "label": "What are you proposing?",
+          "tone": "key",
+          "term": true
+        }
       ]
     },
     {
@@ -171,8 +229,18 @@
       "ar": "يمكننا تحويل خمسة وثلاثين ألف دولار يوم الجمعة كما هو مقرر، والمبلغ المتبقي وقدره خمسة وعشرون ألف دولار يوم الأربعاء القادم، العشرين.",
       "mood": "brisk",
       "cues": [
-        { "at": "$35,000", "icon": "money_part", "label": "$35,000 · Fri 15", "tone": "good" },
-        { "at": "$25,000", "icon": "money_part", "label": "$25,000 · Wed 20", "tone": "good" }
+        {
+          "at": "$35,000",
+          "icon": "money_part",
+          "label": "$35,000 · Fri 15",
+          "tone": "good"
+        },
+        {
+          "at": "$25,000",
+          "icon": "money_part",
+          "label": "$25,000 · Wed 20",
+          "tone": "good"
+        }
       ],
       "card": "split_plan"
     },
@@ -183,9 +251,25 @@
       "mood": "thinking",
       "phrase": "We can accommodate a split payment.",
       "cues": [
-        { "at": "check", "icon": "schedule", "label": "check our own outgoings first", "tone": "key" },
-        { "at": "accommodate", "icon": "split", "label": "split payment agreed", "tone": "good", "term": true },
-        { "at": "cash", "icon": "cashflow", "label": "cash flow protected", "tone": "good" }
+        {
+          "at": "check",
+          "icon": "schedule",
+          "label": "check our own outgoings first",
+          "tone": "key"
+        },
+        {
+          "at": "accommodate",
+          "icon": "split",
+          "label": "split payment agreed",
+          "tone": "good",
+          "term": true
+        },
+        {
+          "at": "cash",
+          "icon": "cashflow",
+          "label": "cash flow protected",
+          "tone": "good"
+        }
       ]
     },
     {
@@ -194,7 +278,12 @@
       "ar": "هذا يساعدنا كثيراً جداً. هل تحتاجين أي شيء كتابةً؟",
       "mood": "warm",
       "cues": [
-        { "at": "writing", "icon": "email_confirm", "label": "in writing?", "tone": "key" }
+        {
+          "at": "writing",
+          "icon": "email_confirm",
+          "label": "in writing?",
+          "tone": "key"
+        }
       ]
     },
     {
@@ -204,9 +293,26 @@
       "mood": "firm",
       "phrase": "Send me a short email confirming …",
       "cues": [
-        { "at": "email", "icon": "email_confirm", "label": "short email today", "tone": "key", "term": true },
-        { "at": "approve", "icon": "approve", "label": "written approval", "tone": "good" },
-        { "at": "credit", "icon": "credit_line", "label": "credit line unchanged", "tone": "good", "big": true }
+        {
+          "at": "email",
+          "icon": "email_confirm",
+          "label": "short email today",
+          "tone": "key",
+          "term": true
+        },
+        {
+          "at": "approve",
+          "icon": "approve",
+          "label": "written approval",
+          "tone": "good"
+        },
+        {
+          "at": "credit",
+          "icon": "credit_line",
+          "label": "credit line unchanged",
+          "tone": "good",
+          "big": true
+        }
       ]
     },
     {
@@ -215,34 +321,58 @@
       "ar": "سأرسل ذلك البريد خلال عشر دقائق. شكراً لكِ على كونكِ شريكة حقيقية، لينا.",
       "mood": "warm",
       "cues": [
-        { "at": "ten", "icon": "clock_fast", "label": "within 10 minutes", "tone": "good" },
-        { "at": "partner", "icon": "handshake", "label": "a real partner", "tone": "good", "big": true }
+        {
+          "at": "ten",
+          "icon": "clock_fast",
+          "label": "within 10 minutes",
+          "tone": "good"
+        },
+        {
+          "at": "partner",
+          "icon": "handshake",
+          "label": "a real partner",
+          "tone": "good",
+          "big": true
+        }
       ]
     }
   ],
-
   "takeaway": {
     "en": "Call before the due date, propose exact dates and amounts, and put it in writing. That is how a late payment stays a partnership.",
     "ar": "اتصل قبل تاريخ الاستحقاق، واقترح تواريخ ومبالغ محددة، ووثّق ذلك كتابةً. هكذا تبقى الدفعة المتأخرة شراكةً.",
     "icon": "handshake"
   },
-
   "questions": {
     "headline": "Comprehension",
     "headlineAr": "أسئلة الفهم",
     "items": [
-      { "en": "Why is Ms. Chen calling Lina on Wednesday instead of waiting until Friday?", "ar": "لماذا تتصل السيدة تشين بلينا يوم الأربعاء بدلاً من الانتظار حتى الجمعة؟" },
-      { "en": "Why is NorthBridge's dollar cash balance temporarily tight?", "ar": "لماذا يُعدّ رصيد نورثبريدج النقدي بالدولار ضيّقاً مؤقتاً؟" },
-      { "en": "What exact payment schedule does Ms. Chen propose?", "ar": "ما جدول السداد الدقيق الذي تقترحه السيدة تشين؟" },
-      { "en": "What does Lina check before agreeing to the proposal?", "ar": "ما الذي تتحقق منه لينا قبل الموافقة على الاقتراح؟" },
-      { "en": "What condition does Lina set so that NorthBridge's credit line stays unchanged?", "ar": "ما الشرط الذي تضعه لينا كي يبقى سقف نورثبريدج الائتماني دون تغيير؟" }
+      {
+        "en": "Why is Ms. Chen calling Lina on Wednesday instead of waiting until Friday?",
+        "ar": "لماذا تتصل السيدة تشين بلينا يوم الأربعاء بدلاً من الانتظار حتى الجمعة؟"
+      },
+      {
+        "en": "Why is NorthBridge's dollar cash balance temporarily tight?",
+        "ar": "لماذا يُعدّ رصيد نورثبريدج النقدي بالدولار ضيّقاً مؤقتاً؟"
+      },
+      {
+        "en": "What exact payment schedule does Ms. Chen propose?",
+        "ar": "ما جدول السداد الدقيق الذي تقترحه السيدة تشين؟"
+      },
+      {
+        "en": "What does Lina check before agreeing to the proposal?",
+        "ar": "ما الذي تتحقق منه لينا قبل الموافقة على الاقتراح؟"
+      },
+      {
+        "en": "What condition does Lina set so that NorthBridge's credit line stays unchanged?",
+        "ar": "ما الشرط الذي تضعه لينا كي يبقى سقف نورثبريدج الائتماني دون تغيير؟"
+      }
     ]
   },
-
   "discussion": {
     "headline": "Role-play",
     "headlineAr": "تمثيل الأدوار",
     "en": "A customer whose last two invoices were paid ten days late calls on the due date asking for two more weeks on a $40,000 balance. Student A is the customer; Student B is Lina, who must protect Al-Hasan's cash while staying polite.",
     "ar": "عميلٌ تأخّر في سداد آخر فاتورتين عشرة أيام يتصل في تاريخ الاستحقاق طالباً أسبوعين إضافيين على رصيد قدره أربعون ألف دولار. الطالب (أ) هو العميل؛ والطالب (ب) هو لينا، التي عليها حماية سيولة الحسن مع الحفاظ على اللباقة."
-  }
+  },
+  "arabicAudio": false
 }
