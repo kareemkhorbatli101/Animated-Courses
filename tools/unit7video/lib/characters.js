@@ -44,6 +44,11 @@
       shirt: '#ffffff', jacket: '#2b5f94', jacketDark: '#1d4369', tie: null,
       style: 'bob', beard: false, glasses: false, earring: true
     },
+    maya: {
+      skin: '#e6bb93', skinShade: '#cb9c72', hair: '#3a2415', hairLight: '#53361f',
+      shirt: '#fffaf2', jacket: '#a33d5e', jacketDark: '#7a2b45', tie: null,
+      style: 'long', beard: false, glasses: false, earring: true
+    },
     bilal: {
       skin: '#c08f60', skinShade: '#a37448', hair: '#1c1510', hairLight: '#2f241a',
       shirt: '#f0d9a8', jacket: '#7a6134', jacketDark: '#5a4724', tie: null,

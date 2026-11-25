@@ -226,6 +226,48 @@
   I.phishing     = '<path class="f" d="M5 10h26v18H5z"/><path d="M5 10h26v18H5z"/><path d="M5 12l13 9 13-9"/>' +
                    '<path d="M38 12c0 8-8 10-8 18a8 8 0 0 0 8 8c4 0 6-2 6-5"/><circle cx="38" cy="8" r="3"/>';
 
+
+  /* ---- goods, duplicates, stock ----------------------------------------- */
+  I.valve        = '<circle cx="24" cy="24" r="9" class="f"/><circle cx="24" cy="24" r="9"/>' +
+                   '<path d="M24 15v18M2 24h13M33 24h13"/>' +
+                   '<path d="M15 17h-4v14h4M33 17h4v14h-4"/><path d="M18 10h12M24 10v5"/>';
+  I.lorry        = '<path class="f" d="M3 14h22v18H3z"/><path d="M3 14h22v18H3z"/>' +
+                   '<path class="f" d="M25 20h9l7 7v5H25z"/><path d="M25 20h9l7 7v5H25z"/>' +
+                   '<circle cx="13" cy="36" r="4"/><circle cx="34" cy="36" r="4"/><path d="M3 32h42"/>';
+  I.pouch        = '<path class="f" d="M8 12h32v28H8z"/><path d="M8 12h32v28H8z"/>' +
+                   '<path d="M8 12l16 12 16-12"/><path d="M14 6h20v6H14z"/>';
+  I.stamp_ok     = DOC + '<path d="M17 20h14M17 26h9"/>' +
+                   '<circle cx="31" cy="34" r="9" class="f"/><circle cx="31" cy="34" r="9"/>' +
+                   '<path d="M27 34l3 3 6-7" stroke-width="3"/>';
+  I.suffix_tag   = '<path class="f" d="M4 16h26v16H4z"/><path d="M4 16h26v16H4z"/>' +
+                   '<path d="M10 24h14"/><path class="f" d="M32 14h12v20H32z"/>' +
+                   '<path d="M32 14h12v20H32z" stroke-dasharray="4 3"/><path d="M36 24h4"/>';
+  I.duplicate    = '<path class="f" d="M4 10h40v12H4zM4 26h40v12H4z"/>' +
+                   '<path d="M4 10h40v12H4zM4 26h40v12H4z"/>' +
+                   '<path d="M10 16h14M30 16h8M10 32h14M30 32h8"/>';
+  I.batch_pay    = '<path class="f" d="M5 9h30v10H5zM5 20h30v10H5zM5 31h30v10H5z"/>' +
+                   '<path d="M5 9h30v10H5zM5 20h30v10H5zM5 31h30v10H5z"/>' +
+                   '<path d="M11 14h10M11 25h10M11 36h10"/>' +
+                   '<path d="M40 14v24M36 34l4 4 4-4" stroke-width="3"/>';
+  I.block_rule   = '<circle cx="24" cy="24" r="17" class="f"/><circle cx="24" cy="24" r="17"/>' +
+                   '<path d="M12 12l24 24" stroke-width="4"/>';
+  I.refund_slow  = '<path class="f" d="M6 13h30v20H6z"/><path d="M6 13h30v20H6z"/><circle cx="21" cy="23" r="5"/>' +
+                   '<path d="M44 20a14 14 0 1 1-5-9"/><path d="M44 10v10h-10"/>';
+  I.crate        = '<path class="f" d="M6 12h36v30H6z"/><path d="M6 12h36v30H6z"/>' +
+                   '<path d="M6 22h36M6 32h36M18 12v30M30 12v30"/>';
+  I.bottle_bad   = '<path class="f" d="M18 16h12v26a2 2 0 0 1-2 2H20a2 2 0 0 1-2-2z"/>' +
+                   '<path d="M18 16h12v26a2 2 0 0 1-2 2H20a2 2 0 0 1-2-2z"/>' +
+                   '<path d="M20 16v-5h8v5M21 6h6"/><path d="M14 25l-6-5M34 25l6-5M24 4V1"/>';
+  I.inspect      = DOC + '<path d="M17 20h12M17 26h8"/>' +
+                   '<circle cx="31" cy="33" r="7" class="f"/><circle cx="31" cy="33" r="7"/>' +
+                   '<path d="M36 38l6 6"/>';
+  I.net_balance  = '<path d="M24 8v32M8 16h32"/><path class="f" d="M4 30l6-12 6 12zM32 30l6-12 6 12z"/>' +
+                   '<path d="M4 30a6 6 0 0 0 12 0M32 30a6 6 0 0 0 12 0"/><path d="M18 42h12"/>';
+  I.books_close  = '<path class="f" d="M6 8h16a4 4 0 0 1 4 4v28a4 4 0 0 0-4-4H6z"/>' +
+                   '<path d="M6 8h16a4 4 0 0 1 4 4v28a4 4 0 0 0-4-4H6z"/>' +
+                   '<path class="f" d="M42 8H26a4 4 0 0 0-4 4v28a4 4 0 0 1 4-4h16z"/>' +
+                   '<path d="M42 8H26a4 4 0 0 0-4 4v28a4 4 0 0 1 4-4h16z"/>';
+
   /* ---------------------------------------------------------------------- */
   I.fallback = '<circle cx="24" cy="24" r="16" class="f"/><circle cx="24" cy="24" r="16"/><path d="M24 16v10M24 32v.5"/>';
 
