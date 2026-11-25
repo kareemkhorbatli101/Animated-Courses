@@ -66,3 +66,6 @@ tools/unit7video/out/
 
 # Cyber pack build output (docx is regenerated from pack.py)
 tools/cyberpack/out/
+
+# Slow editions are derived from the normal lesson by build/make_slow.py
+tools/unit7video/content/*_slow*.json

@@ -200,17 +200,34 @@ def probe(path):
     return float(out.stdout.strip())
 
 
+def scale_rate(rate, scale):
+    """Scale an edge-tts rate string by a factor.
+
+    Rates are percentages relative to the voice's natural speed, so "-8%" is
+    0.92x. Scaling by 0.8 gives 0.736x, written back as "-26%". This keeps a
+    slow edition exactly as slow relative to every line, including the lines
+    that were already slowed for emphasis.
+    """
+    if scale == 1.0:
+        return rate
+    m = re.match(r"^([+-]?\d+(?:\.\d+)?)%$", str(rate).strip())
+    base = 1.0 + (float(m.group(1)) / 100.0 if m else 0.0)
+    pct = (base * scale - 1.0) * 100.0
+    return f"{pct:+.0f}%"
+
+
 # --------------------------------------------------------------------------
 # Utterance plans
 # --------------------------------------------------------------------------
 
 def plan_reading(c):
+    sc = float(c.get("speechScale", 1.0))
     nv, nr = c["narrator"]["voice"], c["narrator"].get("rate", "+0%")
     u = []
 
     def add(uid, text, voice=nv, rate=nr, lang="en", **meta):
-        u.append({"id": uid, "text": text, "voice": voice, "rate": rate,
-                  "lang": lang, "meta": meta})
+        u.append({"id": uid, "text": text, "voice": voice,
+                  "rate": scale_rate(rate, sc), "lang": lang, "meta": meta})
 
     add("title", f"{c['number']}. {c['title']}.")
     p = c["preview"]
@@ -237,13 +254,14 @@ def plan_reading(c):
 
 
 def plan_dialogue(c):
+    sc = float(c.get("speechScale", 1.0))
     nv, nr = c["narrator"]["voice"], c["narrator"].get("rate", "+0%")
     AR_N, AR_NR = "ar-SY-LaithNeural", "-4%"
     u = []
 
     def add(uid, text, voice, rate, lang="en", **meta):
-        u.append({"id": uid, "text": text, "voice": voice, "rate": rate,
-                  "lang": lang, "meta": meta})
+        u.append({"id": uid, "text": text, "voice": voice,
+                  "rate": scale_rate(rate, sc), "lang": lang, "meta": meta})
 
     add("title", f"{c['number']}. {c['title']}.", nv, nr)
     p = c["preview"]
