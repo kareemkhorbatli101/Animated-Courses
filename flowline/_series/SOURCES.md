@@ -238,3 +238,54 @@ And Samir Khoury, whose refrain from Book 1 returns in four units: *what is it w
 **Money in this book.** Figures are printed without currency symbols **and without currency names**,
 because the series teaches the reasoning and not a market. A figure in Unit 12 is *two point one five
 a barrel*, in whatever unit the reader's own contracts use.
+
+# Book 5 · Flowline 4 — *Risk, Integrity and the Permit*
+
+CEFR B2 · figure prefix `re` · audio prefix `FL5` · 196 figures · 195 tracks
+
+This is the only book in the series that adds no new plant. Every one of its twelve sources is a
+document written after somebody was killed, or in order to stop it. Unit 12 is the review, and its
+source — an argument that counting what goes wrong is the wrong way round — is the only document in
+the series that disagrees with the other eleven on principle.
+
+**Three of the twelve disagree with each other on purpose**, and they are printed as they are. A 1931
+book attributes most accidents to the unsafe acts of individuals. A 1997 paper says organizations
+migrate towards their boundaries through ordinary, legitimate pressures that nobody decides on. A 2014
+book says counting the things that go wrong tells you very little about safety. All three have been
+enormously influential, and a reader who finishes the book should be able to say what each one is good
+for and where each one misleads.
+
+| Unit | The unit | The source | What the source itself says it does not cover |
+|---|---|---|---|
+| **Start** | How Things Actually Go Wrong | The four shapes of a bad day, drawn from the twelve documents that follow | Nearly every investigation in this book found a **drift** or a **stale assumption**, and almost none found a simple violation on its own. The first shape has somebody to blame and the others do not, which is why the first is the one most often reported |
+| **1** | The Pyramid on the Wall | **H. W. Heinrich**, *Industrial Accident Prevention: A Scientific Approach*, McGraw-Hill, **1931** | The data came from insurers' records and employers' reports of the 1920s and **was never published in a re-examinable form**; later researchers have looked. The proportion attributed to unsafe acts came from a **cause box on a form**, in an era with an expected answer. **The ratio concerns injuries**, not fires, releases or structural failures. *Unverifiable* is not *false*, and a figure repeated for ninety years has been **repeated rather than reproduced** |
+| **2** | The Year the Injury Figures Were Good | The **US Chemical Safety and Hazard Investigation Board** report on the **BP Texas City** explosion and fire of 23 March 2005, published **2007**, with *The Report of the BP U.S. Refineries Independent Safety Review Panel*, **January 2007** | Findings and **recommendations**, not law. One event, one site, one company's refineries. **The panel's remit was management systems and culture, explicitly not the cause of the accident.** Neither document establishes individual liability. **The mechanism travels; the conclusion does not** |
+| **3** | Imagining It Before It Happens | **Trevor Kletz**, *HAZOP and HAZAN*, Institution of Chemical Engineers, **1983** and later editions, with **IEC 61882** | It cannot find a hazard **nobody in the room knows about**, and **the composition of the team is the single biggest determinant of quality** — usually decided by who was available. It is performed **on a drawing**. It is a **photograph** of a plant on a day. And **the most common failure of the method is in follow-up**: an action closed as *no action required* with no reason has been deleted, not answered |
+| **4** | Choosing the Method | **ISO 17776:2016**, *Major accident hazard management during the design of new installations* | A standard about **choosing** methods, not a method. **No threshold** for tolerable risk — those come from national regulators. Its scope is the **design of new offshore installations**. And it states honestly that the decisions that matter most are available only at the beginning, **when the least is known** |
+| **5** | The Permit and the Handover | ***The Public Inquiry into the Piper Alpha Disaster***, report by the Hon. Lord Cullen, HMSO, **1990**, in two volumes | One event, one installation, **the regulatory regime of that time**; nothing in it says any other operator's system was the same. **Not a criminal proceeding: it does not establish individual liability.** Its 106 recommendations are addressed to one industry in one country. It produced better permit forms everywhere in the world and **could not produce the conversation they exist to prompt** |
+| **6** | Why Plants Drift | **Jens Rasmussen**, "Risk management in a dynamic society: a modelling problem", *Safety Science*, **1997** | A **framework**, not a method: no procedure, no forms. It **does not tell you where the boundary is** — only that it is unmarked and must be marked, and where to mark it is your judgment. It **predicts nothing** about any particular plant. And a systemic account **does not excuse anybody** from noticing |
+| **7** | Going Inside the Vessel | **29 CFR 1910.146**, *Permit-Required Confined Spaces*, Occupational Safety and Health Administration, United States | **One country's law; it does not apply here.** It sets **minimums**, and has a separate standard for construction work. It cannot make a rescue arrangement real — in many organizations the arrangement is a **telephone number** nobody has rung — and it cannot stop a person going in to help somebody they can see, which is the pattern in a very high proportion of these deaths |
+| **8** | Proving the Line Is Dead | **HSG253**, *The safe isolation of plant and equipment*, Health and Safety Executive of Great Britain, second edition **2006** | **Guidance from another country; it does not apply here**, and there it supports legal duties rather than replacing them. It **cannot tell you what is in the line** — a dead leg is exactly where nobody has looked. It cannot detect a **passing valve** for you. And it cannot make the proving step happen on a Friday afternoon, when a gauge watched for twenty minutes looks like four people doing nothing |
+| **9** | The Day It Is in the Water | ***Tiered preparedness and response***, an **IPIECA–IOGP** Good Practice Guide, **2015**, with the **International Convention on Oil Pollution Preparedness, Response and Co-operation, 1990** | The guide is **good practice and binds nobody**. The convention binds **states, not companies**, and **does not promise any operator a response**. **Tiers are defined by resources and distance, not by spill size**, and the guide is explicit about that misunderstanding. Neither can make a plan real: **an unexercised plan is a hypothesis**, and neither changes the arithmetic of the first hour |
+| **10** | Sixty Years of Small Leaks | ***Environmental Assessment of Ogoniland***, **United Nations Environment Programme**, **2011** | **One region**, not the whole Niger Delta; the findings describe what its samples found, where they were taken, and the sampling program is described so that it can be argued with. The health observations are **not an epidemiological study**. It is **not an attribution of legal liability**, and the proportions attributable to operational failure and to third-party interference are **contested**. And it **could not recover a baseline**: where none exists, an assessment can describe the condition now and cannot fully separate what each contributor added |
+| **11** | Why Nobody Learned | **Andrew Hopkins**, *Failure to Learn: The BP Texas City Refinery Disaster*, CCH Australia, **2008** | **One author's analysis, not an official finding**, and he says so. **Other analysts emphasize different factors**, and the disagreement is part of the literature. One company, one refinery. And it **cannot be implemented**: three of its five arguments are about how attention and information behave in large organizations, which no management system can be configured to fix |
+| **12** | Counting the Wrong Things | **Erik Hollnagel**, *Safety-I and Safety-II: The Past and Future of Safety Management*, Ashgate, **2014** | It **does not say stop investigating accidents** — the second view **complements** the first, and the author is explicit. It does not say procedures are unnecessary, only that they are approximations. **It does not tell you what to measure**, which is the honest weakness of the argument and the main criticism of it. And it is an **argument**, widely contested, which has not displaced the older view in practice |
+
+**Book 5's honesty core.** **The paper is not the protection; the conversation it forces is the
+protection, and the paper is the evidence that the conversation happened.** Four of the twelve units
+are about a signature — a permit, an isolation certificate, an entry authorization, a handover — and
+in all four a system where the conversation has stopped and the signing continues looks, from the
+outside, exactly like a system that is working. The book's other thread is a list of figures none of
+which was false and every one of which was read as evidence of something it did not measure: a pyramid
+with no retrievable data, an excellent injury year beside a deteriorating plant, a safeguard that
+existed only on a drawing, twelve approvals and no decision, three gas readings two hours old, a valve
+closed and never proved, four hours assumed against seven measured, a certificate that certified a
+surface, and the same finding three times, getting softer on the way up.
+
+**Two people carry this book.** Yusuf Khalaf, the HSE officer, whose line is *who signs, and what are
+they signing?* And Samira Qassab, the instrument technician, whose refrain appears in five units: *and
+what tested it?*
+
+**The standing sentence applies most of all to this book.** Safety information in a language course is
+not a substitute for a competent person, a procedure and a permit. Nothing in Book 5 authorizes
+anybody to issue a permit, isolate a line, enter a confined space, assess a risk or sign anything.
