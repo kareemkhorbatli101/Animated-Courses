@@ -1,0 +1,432 @@
+# -*- coding: utf-8 -*-
+"""Second-edition figure primitives: clinical diagrams and language panels.
+
+Every primitive returns (svg_inner, height, defs) and is rendered by
+art2.render2. Nothing here is decorative: each figure is the thing a task
+operates on.
+"""
+from art2 import *
+import art2 as A
+
+
+# ------------------------------------------------------------------ frame
+def _head(height, title, defs_idx=None):
+    o = [rect(0, 0, W, height, BG, stroke=BORDER, sw=4)]
+    if title:
+        o.append(rect(0, 0, W, BAND, ACCENT))
+        size = 84
+        while text_w(title, size, bold=True) > W - 160 and size > 40:
+            size -= 2
+        o.append(t(W / 2, BAND * 0.68, title, size, '#FFFFFF', bold=True))
+    return o
+
+
+# -------------------------------------------------------- 1 tooth section
+def tooth_section(title='A MOLAR IN SECTION', labels=None, show_key=True,
+                  caption_terms=None):
+    """Cross-section of a lower molar in bone, layers labelled by pin."""
+    H = 1760
+    o = _head(H, title)
+    cx, top = 1080, 400
+    # --- supporting bone (left and right of the roots)
+    o.append(rect(220, 1000, 1720, 560, BONE, stroke=BORDER, sw=3))
+    o.append(hatched(220, 1000, 1720, 560, 1))
+    # --- gum
+    o.append(path('M 220 1000 Q 520 930 760 1000 L 760 1060 L 220 1060 Z',
+                  fill=GUM, stroke=BORDER, sw=3))
+    o.append(path('M 1400 1000 Q 1640 930 1940 1000 L 1940 1060 L 1400 1060 Z',
+                  fill=GUM, stroke=BORDER, sw=3))
+    # --- enamel crown
+    crown = ('M 760 1000 L 760 640 Q 760 470 880 430 Q 940 410 1000 470 '
+             'Q 1040 510 1080 470 Q 1120 430 1180 420 Q 1300 440 1340 600 '
+             'L 1400 1000 Z')
+    o.append(path(crown, fill=ENAMEL, stroke=LEAD, sw=5))
+    # --- dentine body (crown + roots)
+    dent = ('M 820 1000 L 820 660 Q 830 540 900 505 Q 960 490 1010 545 '
+            'Q 1050 580 1090 540 Q 1140 495 1190 495 Q 1280 520 1300 640 '
+            'L 1340 1000 '
+            'L 1310 1240 Q 1290 1430 1215 1480 Q 1165 1500 1150 1430 '
+            'L 1120 1120 L 1020 1120 L 985 1430 Q 968 1500 918 1478 '
+            'Q 845 1428 828 1238 Z')
+    o.append(path(dent, fill=DENTINE, stroke=LEAD, sw=4))
+    # --- pulp chamber and canals
+    pulp = ('M 905 1000 L 905 700 Q 920 620 975 605 Q 1020 598 1055 640 '
+            'Q 1085 672 1115 640 Q 1150 605 1190 610 Q 1235 640 1248 720 '
+            'L 1255 1000 L 1238 1230 Q 1225 1370 1185 1400 Q 1162 1412 1155 1360 '
+            'L 1128 1060 L 1012 1060 L 988 1360 Q 980 1412 955 1398 '
+            'Q 915 1366 902 1226 Z')
+    o.append(path(pulp, fill=PULP, stroke=LEAD, sw=4))
+    # --- periodontal ligament hint (dashed line along the root)
+    o.append(path('M 820 1010 L 828 1238 Q 845 1428 918 1478',
+                  stroke='#8A6E4B', sw=6))
+    o.append(path('M 1340 1010 L 1310 1240 Q 1290 1430 1215 1480',
+                  stroke='#8A6E4B', sw=6))
+    labels = labels or ['enamel', 'dentine', 'pulp', 'root canal',
+                        'gum (gingiva)', 'bone', 'periodontal ligament']
+    pts = [(790, 800), (1296, 880), (1080, 800), (1190, 1330),
+           (640, 975), (470, 1250), (1306, 1215)]
+    for i, (px, py) in enumerate(pts[:len(labels)], 1):
+        o.append(pin(px, py, i))
+    if show_key:
+        key, _ = label_key(2040, 520, labels, size=48, title='KEY')
+        o.append(key)
+    if caption_terms:
+        o.append(t(140, H - 70, caption_terms, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, hatch_def(1)
+
+
+# ------------------------------------------------------- 2 dentition map
+FDI_UPPER_R = ['18', '17', '16', '15', '14', '13', '12', '11']
+FDI_UPPER_L = ['21', '22', '23', '24', '25', '26', '27', '28']
+FDI_LOWER_R = ['48', '47', '46', '45', '44', '43', '42', '41']
+FDI_LOWER_L = ['31', '32', '33', '34', '35', '36', '37', '38']
+UNIV_UPPER = ['1', '2', '3', '4', '5', '6', '7', '8',
+              '9', '10', '11', '12', '13', '14', '15', '16']
+UNIV_LOWER = ['32', '31', '30', '29', '28', '27', '26', '25',
+              '24', '23', '22', '21', '20', '19', '18', '17']
+
+
+def _tooth_glyph(x, y, w, h, kind, fill=ENAMEL):
+    if kind == 'molar':
+        return path('M %.1f %.1f Q %.1f %.1f %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                    % (x, y + h, x, y + h * 0.18, x + w * 0.5, y,
+                       x + w, y + h * 0.18, x + w, y + h, x + w, y + h),
+                    fill=fill, stroke=LEAD, sw=3)
+    if kind == 'premolar':
+        return path('M %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f '
+                    'Q %.1f %.1f %.1f %.1f L %.1f %.1f Z'
+                    % (x + w * 0.12, y + h, x + w * 0.12, y + h * 0.30,
+                       x + w * 0.30, y, x + w * 0.50, y + h * 0.16,
+                       x + w * 0.70, y, x + w * 0.88, y + h * 0.30,
+                       x + w * 0.88, y + h),
+                    fill=fill, stroke=LEAD, sw=3)
+    if kind == 'canine':
+        return path('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                    % (x + w * 0.5, y, x + w * 0.88, y + h, x + w * 0.12, y + h),
+                    fill=fill, stroke=LEAD, sw=3)
+    return path('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                % (x + w * 0.26, y + h, x + w * 0.22, y + h * 0.22,
+                   x + w * 0.78, y + h * 0.22, x + w * 0.74, y + h),
+                fill=fill, stroke=LEAD, sw=3)
+
+
+KINDS = ['molar', 'molar', 'molar', 'premolar', 'premolar',
+         'canine', 'incisor', 'incisor']
+
+
+def dentition_map(title='THE PERMANENT DENTITION  ·  FDI NOTATION',
+                  highlight=None, show_universal=False, note=None):
+    """Full mouth, FDI by default. highlight = list of FDI codes to shade."""
+    H = 1560 if not show_universal else 1700
+    o = _head(H, title)
+    highlight = set(highlight or [])
+    tw, th, gap = 150, 190, 14
+    total = 16 * tw + 15 * gap
+    x0 = (W - total) / 2
+    rows = [(FDI_UPPER_R[::-1] + FDI_UPPER_L, 400, 'UPPER  (quadrants 1 and 2)'),
+            (FDI_LOWER_R[::-1] + FDI_LOWER_L, 980, 'LOWER  (quadrants 4 and 3)')]
+    for codes, y, caption in rows:
+        kinds = KINDS[::-1] * 2
+        o.append(t(140, y - 70, caption, 46, MUTE, anchor='start'))
+        for i, code in enumerate(codes):
+            x = x0 + i * (tw + gap)
+            fill = HILITE if code in highlight else ENAMEL
+            o.append(_tooth_glyph(x, y, tw, th, kinds[i], fill))
+            o.append(t(x + tw / 2, y + th + 56, code, 44, LEAD, bold=code in highlight))
+            if show_universal:
+                u = (UNIV_UPPER if y < 900 else UNIV_LOWER)[i]
+                o.append(t(x + tw / 2, y + th + 112, u, 40, '#8A3B2E'))
+    o.append(line(W / 2, 330, W / 2, 1270, MUTE, 4, dash='18,14'))
+    o.append(t(W / 2, 300, 'midline', 40, MUTE))
+    if show_universal:
+        o.append(t(140, H - 150, 'black = FDI (ISO 3950)', 42, LEAD, anchor='start'))
+        o.append(t(140, H - 96, 'red = Universal (US)', 42, '#8A3B2E', anchor='start'))
+    if note:
+        o.append(t(140, H - 48, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ----------------------------------------------------- 3 instrument plate
+def instrument_plate(title, items, note=None):
+    """items = [(name, kind, what_it_is_for), ...] kind in mirror|probe|
+    excavator|forceps|elevator|scaler|syringe|handpiece"""
+    rows = len(items)
+    H = 330 + rows * 230 + 120
+    o = _head(H, title)
+    y = 330
+    for i, (name, kind, use) in enumerate(items, 1):
+        o.append(rect(140, y, W - 280, 200, '#FFFFFF', stroke=BORDER, sw=3, rx=18))
+        o.append(pin(210, y + 100, i, r=36))
+        o.append(_instrument_glyph(300, y + 100, kind))
+        o.append(t(1180, y + 78, name, 54, INK, bold=True, anchor='start'))
+        o.append(t(1180, y + 148, use, 44, MUTE, anchor='start'))
+        y += 230
+    if note:
+        o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+def _instrument_glyph(x, cy, kind):
+    """A side-on instrument, 820 wide, drawn around (x, cy)."""
+    o = []
+    L = 820
+    # handle, common to all
+    o.append(rect(x, cy - 16, L * 0.56, 32, METAL, stroke=LEAD, sw=3, rx=14))
+    for g in range(6):
+        o.append(line(x + 60 + g * 26, cy - 16, x + 60 + g * 26, cy + 16, LEAD, 3))
+    hx = x + L * 0.56
+    if kind == 'mirror':
+        o.append(line(hx, cy, hx + 120, cy - 30, METAL, 10))
+        o.append(circ(hx + 190, cy - 48, 66, '#DCE9F2', stroke=LEAD, sw=4))
+    elif kind == 'probe':
+        o.append(path('M %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                      % (hx, cy, hx + 150, cy - 26, hx + 230, cy - 40, hx + 240, cy + 30),
+                      stroke=LEAD, sw=8))
+    elif kind == 'excavator':
+        o.append(line(hx, cy, hx + 140, cy - 24, METAL, 10))
+        o.append(path('M %.1f %.1f a 44 44 0 1 0 1 0' % (hx + 190, cy - 34),
+                      fill='#FFFFFF', stroke=LEAD, sw=5))
+    elif kind == 'tweezers':
+        o.append(path('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                      % (hx, cy - 10, hx + 130, cy - 70, hx + 250, cy - 20),
+                      stroke=LEAD, sw=8))
+        o.append(path('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                      % (hx, cy + 10, hx + 130, cy + 20, hx + 250, cy - 10),
+                      stroke=LEAD, sw=8))
+    elif kind == 'perioprobe':
+        o.append(line(hx, cy, hx + 120, cy - 26, METAL, 10))
+        o.append(line(hx + 120, cy - 26, hx + 250, cy - 54, LEAD, 9))
+        for g in range(5):
+            gx = hx + 136 + g * 24
+            gy = cy - 29 - g * 5.4
+            o.append(line(gx, gy - 14, gx, gy + 14, '#FFFFFF', 4))
+    elif kind == 'scaler':
+        o.append(path('M %.1f %.1f L %.1f %.1f L %.1f %.1f'
+                      % (hx, cy, hx + 150, cy - 50, hx + 250, cy + 10),
+                      stroke=LEAD, sw=8))
+    elif kind == 'forceps':
+        o.append(path('M %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                      % (x, cy - 40, hx + 60, cy - 70, hx + 190, cy - 40, hx + 230, cy - 6),
+                      stroke=LEAD, sw=10))
+        o.append(path('M %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                      % (x, cy + 40, hx + 60, cy + 70, hx + 190, cy + 40, hx + 230, cy + 6),
+                      stroke=LEAD, sw=10))
+    elif kind == 'elevator':
+        o.append(line(hx, cy, hx + 160, cy, METAL, 12))
+        o.append(path('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                      % (hx + 160, cy - 34, hx + 260, cy, hx + 160, cy + 34),
+                      fill='#FFFFFF', stroke=LEAD, sw=4))
+    elif kind == 'syringe':
+        o.append(rect(hx, cy - 34, 190, 68, PLASTIC, stroke=LEAD, sw=4, rx=10))
+        o.append(line(hx + 190, cy, hx + 300, cy, LEAD, 6))
+    elif kind == 'handpiece':
+        o.append(rect(hx, cy - 40, 170, 80, '#FFFFFF', stroke=LEAD, sw=4, rx=24))
+        o.append(circ(hx + 200, cy - 10, 36, METAL, stroke=LEAD, sw=4))
+    else:
+        o.append(line(hx, cy, hx + 230, cy, LEAD, 8))
+    return ''.join(o)
+
+
+# -------------------------------------------------------- 4 set plate
+def set_plate(title, items, note='Learn these eight. The rest are for recognition only.'):
+    """The productive core as a labelled picture: items=[(term, gloss)]"""
+    H = 330 + ((len(items) + 1) // 2) * 190 + 90
+    o = _head(H, title)
+    y = 320
+    for i, (term, gloss) in enumerate(items):
+        col = i % 2
+        x = 140 + col * ((W - 280) / 2 + 20)
+        wbox = (W - 300) / 2
+        if col == 0 and i:
+            y += 190
+        o.append(rect(x, y, wbox, 168, '#FFFFFF', stroke=BORDER, sw=3, rx=16))
+        o.append(pin(x + 62, y + 84, i + 1, r=34))
+        o.append(t(x + 124, y + 70, term, 50, INK, bold=True, anchor='start'))
+        o.append(t(x + 124, y + 130, gloss, 40, MUTE, anchor='start'))
+    o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# -------------------------------------------------------- 5 phrase box
+def phrase_box(title, groups, note=None):
+    """groups = [(function, [chunk, chunk, ...]), ...]"""
+    rows = sum(1 + len(c) for _, c in groups)
+    H = 320 + rows * 76 + 110
+    o = _head(H, title)
+    y = 320
+    for func, chunks in groups:
+        o.append(rect(140, y, W - 280, 64, STRIP, stroke=BORDER, sw=3, rx=12))
+        o.append(t(170, y + 46, func.upper(), 44, ACCENT, bold=True, anchor='start'))
+        y += 76
+        for ch in chunks:
+            o.append(t(220, y + 48, '•  ' + ch, 48, INK, anchor='start'))
+            y += 76
+        y += 10
+    if note:
+        o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# -------------------------------------------------------- 6 step sequence
+def step_sequence(title, steps, stop_points=None, note=None):
+    """steps = [(n, text)], stop_points = set of indices where work stops"""
+    H = 330 + len(steps) * 196 + 100
+    o = _head(H, title)
+    stop_points = set(stop_points or [])
+    y = 320
+    for i, s in enumerate(steps, 1):
+        isstop = i in stop_points
+        o.append(rect(140, y, W - 280, 168, HILITE if isstop else '#FFFFFF',
+                      stroke=LEAD if isstop else BORDER, sw=5 if isstop else 3, rx=18))
+        o.append(circ(230, y + 84, 48, ACCENT))
+        o.append(t(230, y + 100, str(i), 56, '#FFFFFF', bold=True))
+        o.append(t(330, y + 100, s, 50, INK, anchor='start'))
+        if isstop:
+            o.append(t(W - 190, y + 100, 'STOP', 46, '#8A3B2E', bold=True, anchor='end'))
+        if i < len(steps):
+            o.append(arrow(230, y + 168, 230, y + 196, MUTE, 5, 20))
+        y += 196
+    if note:
+        o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# -------------------------------------------------------- 7 annotated form
+def form_annotated(title, heading, fields, callouts=None, note=None):
+    """fields = [(label, value)] ; callouts = [(field_index, text)]"""
+    H = 340 + len(fields) * 104 + 220
+    o = _head(H, title)
+    fx, fw = 160, 1560
+    o.append(rect(fx, 300, fw, len(fields) * 104 + 120, PAPER, stroke=LEAD, sw=4, rx=10))
+    o.append(t(fx + 40, 376, heading, 54, INK, bold=True, anchor='start'))
+    o.append(line(fx + 40, 400, fx + fw - 40, 400, BORDER, 3))
+    y = 470
+    ypos = []
+    for lab, val in fields:
+        o.append(t(fx + 40, y, lab, 42, MUTE, anchor='start'))
+        o.append(t(fx + 620, y, val, 46, INK, anchor='start'))
+        o.append(line(fx + 600, y + 16, fx + fw - 40, y + 16, '#C9D3DC', 2))
+        ypos.append(y)
+        y += 104
+    for idx, text in (callouts or []):
+        yy = ypos[idx]
+        o.append(pin(fx + fw + 40, yy - 14, idx + 1, r=32))
+        o.append(t(fx + fw + 96, yy, text, 42, INK, anchor='start'))
+    if note:
+        o.append(t(160, H - 50, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# -------------------------------------------------------- 8 contrast
+def contrast(title, loose_t, loose, precise_t, precise, foot_l='', foot_r=''):
+    rows = max(len(loose), len(precise))
+    H = 340 + rows * 128 + 190
+    o = _head(H, title)
+    cw = (W - 320) / 2
+    for k, (ht, items, foot, col) in enumerate(
+            [(loose_t, loose, foot_l, '#8A3B2E'), (precise_t, precise, foot_r, ACCENT)]):
+        x = 150 + k * (cw + 20)
+        o.append(rect(x, 300, cw, rows * 128 + 150, '#FFFFFF', stroke=col, sw=5, rx=18))
+        o.append(rect(x, 300, cw, 84, col))
+        o.append(t(x + cw / 2, 360, ht, 52, '#FFFFFF', bold=True))
+        yy = 460
+        for s in items:
+            for ln in wrap(s, 34):
+                o.append(t(x + 40, yy, ln, 42, INK, anchor='start'))
+                yy += 52
+            yy += 28
+        o.append(t(x + cw / 2, 300 + rows * 128 + 118, foot, 40, col, italic=True))
+    return ''.join(o), H, ''
+
+
+# -------------------------------------------------------- 9 morph builder
+def morph_builder(title, rows, note=None):
+    """rows = [(prefix, root, suffix, word, meaning)] - student series"""
+    H = 340 + len(rows) * 210 + 110
+    o = _head(H, title)
+    y = 320
+    bw = 420
+    for pre, root, suf, word, meaning in rows:
+        x = 160
+        for part, col, lab in [(pre, PLASTIC, 'prefix'), (root, HILITE, 'root'),
+                               (suf, '#D9EAD3', 'suffix')]:
+            o.append(rect(x, y, bw, 110, col if part else '#EFEFEF',
+                          stroke=LEAD, sw=4, rx=14))
+            o.append(t(x + bw / 2, y + 70, part or '—', 54, INK, bold=True))
+            o.append(t(x + bw / 2, y + 150, lab, 36, MUTE))
+            x += bw + 30
+            if part is not rows[0][2]:
+                o.append(t(x - 18, y + 72, '+', 48, MUTE))
+        o.append(arrow(x + 20, y + 55, x + 130, y + 55, LEAD, 6))
+        o.append(t(x + 160, y + 52, word, 56, ACCENT, bold=True, anchor='start'))
+        o.append(t(x + 160, y + 118, meaning, 40, MUTE, anchor='start'))
+        y += 210
+    if note:
+        o.append(t(160, H - 50, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 10 chair scene
+def chair_scene(title='THE SURGERY', labels=None, note=None):
+    """The dental chair and the things round it, called out by pin."""
+    H = 1500
+    o = _head(H, title)
+    # floor
+    o.append(line(140, 1230, W - 140, 1230, MUTE, 4))
+    # chair: base, column, seat, back, headrest
+    o.append(rect(880, 1130, 420, 60, METAL, stroke=LEAD, sw=4, rx=16))
+    o.append(rect(1040, 900, 100, 240, METAL, stroke=LEAD, sw=4, rx=10))
+    o.append(path('M 700 900 L 1500 900 Q 1560 900 1560 850 L 1560 800 '
+                  'Q 1560 760 1500 760 L 760 760 Q 700 760 700 820 Z',
+                  fill=PLASTIC, stroke=LEAD, sw=4))
+    o.append(path('M 700 820 L 700 900 L 480 900 Q 420 900 420 840 '
+                  'L 420 560 Q 420 500 480 500 L 560 500 Q 620 500 620 560 '
+                  'L 640 800 Q 648 820 700 820 Z',
+                  fill=PLASTIC, stroke=LEAD, sw=4))
+    o.append(rect(380, 400, 220, 130, PLASTIC, stroke=LEAD, sw=4, rx=28))
+    # operating light on an arm
+    o.append(line(1560, 800, 1700, 560, METAL, 12))
+    o.append(line(1700, 560, 1180, 420, METAL, 12))
+    o.append(path('M 1060 380 L 1300 380 L 1250 470 L 1110 470 Z',
+                  fill='#FFF6D6', stroke=LEAD, sw=4))
+    # bracket table
+    o.append(rect(1620, 820, 420, 40, METAL, stroke=LEAD, sw=4, rx=10))
+    o.append(rect(1700, 860, 60, 280, METAL, stroke=LEAD, sw=3))
+    for i in range(4):
+        o.append(rect(1660 + i * 90, 788, 60, 24, '#FFFFFF', stroke=LEAD, sw=3, rx=8))
+    # spittoon / bowl
+    o.append(circ(2180, 840, 92, '#FFFFFF', stroke=LEAD, sw=4))
+    o.append(rect(2140, 930, 80, 210, METAL, stroke=LEAD, sw=3))
+    labels = labels or ['the chair', 'the headrest', 'the operating light',
+                        'the bracket table', 'the bowl']
+    pts = [(1100, 830), (490, 465), (1180, 425), (1830, 805), (2180, 840)]
+    for i, (px, py) in enumerate(pts[:len(labels)], 1):
+        o.append(pin(px, py, i))
+    key, _ = label_key(2380, 420, labels, size=46, title='KEY')
+    o.append(key)
+    if note:
+        o.append(t(140, H - 60, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 11 two-person scene
+def exchange(title, left_name, left_lines, right_name, right_lines, note=None):
+    """Two speakers and what each says - the shape of an exchange."""
+    rows = max(len(left_lines), len(right_lines))
+    H = 330 + rows * 150 + 150
+    o = _head(H, title)
+    cw = (W - 340) / 2
+    for k, (name, lines, col) in enumerate(
+            [(left_name, left_lines, ACCENT), (right_name, right_lines, '#8A3B2E')]):
+        x = 150 + k * (cw + 40)
+        o.append(rect(x, 300, cw, 80, col))
+        o.append(t(x + cw / 2, 356, name, 50, '#FFFFFF', bold=True))
+        yy = 440
+        for s in lines:
+            o.append(rect(x, yy - 54, cw, 112, '#FFFFFF', stroke=BORDER, sw=3, rx=18))
+            for j, ln in enumerate(wrap(s, 30)[:2]):
+                o.append(t(x + 30, yy - 10 + j * 50, ln, 40, INK, anchor='start'))
+            yy += 150
+    if note:
+        o.append(t(150, H - 60, note, 40, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''

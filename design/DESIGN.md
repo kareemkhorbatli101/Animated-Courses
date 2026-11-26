@@ -176,3 +176,83 @@ essays about a step in place of scripted exchanges; gendered role glosses.
 3. Whether the productive/receptive split lands at 8–10, or should be 6–8 at A2.
 
 These are stated so the pilot can answer them with evidence rather than taste.
+
+---
+
+## 10. What the pilot established (measured, not projected)
+
+Four units built end to end: Dentists 2e A2.1 units 1–2, Dental Students A2.2
+units 1–2, each with teacher's notes written after it.
+
+### The three open questions, answered
+
+**1. Register bands must be split into production and reception.** The student
+A2.2 unit failed the register gate at 14.51 words a sentence against the A2 band
+of 8.5–12.5. Rewriting it into that band would have stopped it being textbook
+prose, which is the thing the student series exists to teach. A learner reads
+longer sentences than they produce, especially when every term has been
+previewed and glossed. The gates now carry `BANDS_P` (production, the
+practitioner series) and `BANDS_S` (reception, the student series), one step
+wider at the same CEFR level, with a cap of 30 rather than 26 at A2. **This is
+an architecture change, and it came from the pilot, not from taste.**
+
+**2. 3×3×3×3 does not fit a ninety-minute lesson, and should not be made to.**
+A unit is a bank, not a lesson plan. The teacher's book now carries two routes,
+and the per-unit notes name *which* listening, reading and speaking to keep on
+the short route and why. The three-of-each standard stays: it is what makes the
+book usable across a term rather than a week.
+
+**3. The productive core is right at 8–10.** Both A2 units carry eight and the
+preview takes 20 minutes in the practitioner book and 22–25 in the student book.
+Six would have been thin; twelve would not have fitted.
+
+### Measurements that correct the plan's arithmetic
+
+| | Planned | Measured |
+|---|---|---|
+| Words per practitioner unit | 6,000–7,000 | **6,460** |
+| Words per student unit | 8,000–14,000 | **7,600** |
+| Printed pages per unit | not estimated | **35** |
+| Figures per unit | 24–30 | **18–20** |
+| Teacher's notes per unit | 3,000–5,000 words | **1,800** |
+
+Consequences: a ten-unit book runs to about **350 printed pages**, not the
+First Edition's 200 — the skills core roughly doubles the extent. Teacher's
+books are **lighter than planned**, around 20k words a title rather than 35–50k,
+because the procedure is written tightly and the answer key is generated. The
+student series is not dramatically longer than the practitioner series in words;
+it is longer in *reading*, which is where its weight sits.
+
+### The two timing tables
+
+The practitioner preview takes 20 minutes; the student preview takes 22–25, for
+the same eight items, because in the student series six of the eight are new
+*concepts* and not only new words. The teacher's book front matter should carry
+two timing tables, not one.
+
+### What the loop caught that no gate could
+
+Writing the teacher's notes after each unit found four things the gates passed:
+
+- a figure sitting inside a speaking task that the task never asked anybody to
+  look at (fixed: the task now requires pointing at it and naming a layer);
+- a listening too long to play three times in the lesson it belongs to (fixed in
+  the route, with the transcript given out on the third pass);
+- a vocabulary task that asks learners to produce FDI numbers before the lecture
+  that teaches the system (the rule is carried in the task instruction, so it
+  works, but the numbering belongs on the preview page in the full book);
+- the best text in a unit sitting third in the reading sequence, where a short
+  route never reaches it.
+
+This is the argument for the loop. Three of those four are invisible to any
+automated check, and all four were found by writing down how the lesson runs.
+
+### Carried forward as open
+
+- the collision figure is now used in three places across two series; shared
+  figures should live in one module, not be duplicated per series;
+- "four six, not forty-six" is taught without its reason, and a safety point
+  given without a reason is one learners drop when busy — it should become a
+  line in the student book;
+- three readings of 450–650 words at student A2.2 may still prove too much in
+  practice; the route names one as the class text, which is the hedge.
