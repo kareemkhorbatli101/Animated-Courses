@@ -14,7 +14,8 @@ for pass in 1 2 3; do
   for b in 1 2 3 4 5 6; do python3 -I "$ROOT/architect/_build/build_book${b}.py" >/dev/null; done
   for b in 1 2 3 4 5 6; do python3 -I "$ROOT/pm/_build/build_book${b}.py" >/dev/null; done
   for b in 1 2 3 4 5 6; do python3 -I "$ROOT/plumbline/_build/build_book${b}.py" >/dev/null; done
-  for d in wayfinder business diplomacy architect pm plumbline; do
+for b in 1 2 3 4 5 6; do python3 -I "$ROOT/flowline/_build/build_book${b}.py" >/dev/null; done
+  for d in wayfinder business diplomacy architect pm plumbline flowline; do
     ( cd "$ROOT/$d" && for f in *.docx; do
         [ -e "$f" ] || continue
         timeout 900 soffice --headless --convert-to pdf --outdir "$PDF" "$f" >/dev/null 2>&1

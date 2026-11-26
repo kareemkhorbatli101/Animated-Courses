@@ -10,11 +10,12 @@ import os, re, sys
 
 SERIES = {"wayfinder": "W", "business": "CL", "diplomacy": "DIP",
           "architect": "KS", "pm": "TL",
-          "plumbline": "PL"}
+          "plumbline": "PL",
+          "flowline": "FL"}
 
 def prefix_for(path):
     full = os.path.abspath(path)
-    m = re.search(r"[\\/](business|wayfinder|diplomacy|architect|pm|plumbline)[\\/]([a-z0-9]+)[\\/]", full)
+    m = re.search(r"[\\/](business|wayfinder|diplomacy|architect|pm|plumbline|flowline)[\\/]([a-z0-9]+)[\\/]", full)
     if not m:
         raise SystemExit("cannot tell which series %s belongs to" % path)
     series, lvl = m.group(1), m.group(2)

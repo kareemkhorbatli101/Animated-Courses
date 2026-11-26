@@ -1,23 +1,31 @@
 # -*- coding: utf-8 -*-
 """Renumber the audio cues in a unit file, in document order.
 
-The prefix comes from the book's directory, so a file in business/level3 gets
-CL3 and one in business/level4 gets CL4. Hard-coding it here is what put Book
-2's prefix into Book 3, which the gates could not catch: they check the shape
-of a cue id and its uniqueness, not whether it names the right book.
+The prefix comes from the book's own path, so a file in plumbline/level3 gets PL3.
+Hard-coding a prefix here is what once put one book's prefix into another,
+which the gates could not catch: they check the shape of a cue id and its
+uniqueness, not whether it names the right book.
 """
 import os, re, sys
 
+SERIES = {"wayfinder": "W", "business": "CL", "diplomacy": "DIP",
+          "architect": "KS", "pm": "TL",
+          "plumbline": "PL",
+          "flowline": "FL"}
+
 def prefix_for(path):
     full = os.path.abspath(path)
-    m = re.search(r"[\\/](?:business|wayfinder)[\\/]([a-z0-9]+)[\\/]", full)
+    m = re.search(r"[\\/](business|wayfinder|diplomacy|architect|pm|plumbline|flowline)[\\/]([a-z0-9]+)[\\/]", full)
     if not m:
-        raise SystemExit("cannot tell which book %s belongs to" % path)
-    lvl = m.group(1)
-    n = re.search(r"\d+", lvl)
-    if lvl == "starter": return "CL0"
-    if not n: raise SystemExit("cannot read a level number from %r" % lvl)
-    return "CL%s" % n.group(0)
+        raise SystemExit("cannot tell which series %s belongs to" % path)
+    series, lvl = m.group(1), m.group(2)
+    stem = SERIES[series]
+    if lvl == "starter":
+        return "%s1" % stem
+    d = re.search(r"\d+", lvl)
+    if not d:
+        raise SystemExit("cannot read a level number from %r" % lvl)
+    return "%s%s" % (stem, d.group(0))
 
 for p in sys.argv[1:]:
     pre = prefix_for(p)

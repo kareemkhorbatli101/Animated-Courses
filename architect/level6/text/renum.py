@@ -1,20 +1,21 @@
 # -*- coding: utf-8 -*-
 """Renumber the audio cues in a unit file, in document order.
 
-The prefix comes from the book's own path, so a file in diplomacy/level3 gets
-DIP3 and one in business/level4 gets CL4. Hard-coding a prefix here is what
-once put Book 2's prefix into Book 3, which the gates could not catch: they
-check the shape of a cue id and its uniqueness, not whether it names the right
-book.
+The prefix comes from the book's own path, so a file in plumbline/level3 gets PL3.
+Hard-coding a prefix here is what once put one book's prefix into another,
+which the gates could not catch: they check the shape of a cue id and its
+uniqueness, not whether it names the right book.
 """
 import os, re, sys
 
 SERIES = {"wayfinder": "W", "business": "CL", "diplomacy": "DIP",
-          "architect": "KS"}
+          "architect": "KS", "pm": "TL",
+          "plumbline": "PL",
+          "flowline": "FL"}
 
 def prefix_for(path):
     full = os.path.abspath(path)
-    m = re.search(r"[\\/](business|wayfinder|diplomacy|architect)[\\/]([a-z0-9]+)[\\/]", full)
+    m = re.search(r"[\\/](business|wayfinder|diplomacy|architect|pm|plumbline|flowline)[\\/]([a-z0-9]+)[\\/]", full)
     if not m:
         raise SystemExit("cannot tell which series %s belongs to" % path)
     series, lvl = m.group(1), m.group(2)

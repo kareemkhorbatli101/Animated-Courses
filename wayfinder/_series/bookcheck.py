@@ -104,6 +104,14 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "architect/level4": ["spec_d1", "spec_d2", "spec_d3", "spec_d4"],
                 "architect/level5": ["spec_e1", "spec_e2", "spec_e3", "spec_e4"],
                 "architect/level6": ["spec_f1", "spec_f2", "spec_f3", "spec_f4"],
+                # Flowline (English for the Oil and Gas Industries, Syrian
+                # Edition) — specs in flowline/_build. Prefixes ra-rf.
+                "flowline/level1": ["spec_ra1", "spec_ra2", "spec_ra3", "spec_ra4"],
+                "flowline/level2": ["spec_rb1", "spec_rb2", "spec_rb3", "spec_rb4"],
+                "flowline/level3": ["spec_rc1", "spec_rc2", "spec_rc3", "spec_rc4"],
+                "flowline/level4": ["spec_rd1", "spec_rd2", "spec_rd3", "spec_rd4"],
+                "flowline/level5": ["spec_re1", "spec_re2", "spec_re3", "spec_re4"],
+                "flowline/level6": ["spec_rf1", "spec_rf2", "spec_rf3", "spec_rf4"],
                 # Throughline (project management series) — specs in pm/_build.
                 # Two-letter figure prefixes: the single letters were used up by
                 # the first four series.
@@ -119,7 +127,8 @@ def load_specs(book):
     mods = SPEC_MODULES.get(book)
     if not mods: return {}
     sys.path.insert(0, os.path.join(HERE, "..", "_build"))
-    for _series in ("business", "diplomacy", "architect", "pm", "plumbline"):
+    for _series in ("business", "diplomacy", "architect", "pm", "plumbline",
+                    "flowline"):
         if book.startswith(_series + "/"):
             sys.path.insert(0, os.path.join(HERE, "..", "..", _series, "_build"))
     out = {}
@@ -194,7 +203,13 @@ READ_TARGET = {"starter": (0.0,3.5), "level1": (2.5,4.5), "level2": (3.0,5.0),
                # not A2, so the floor of the band is higher than the others'.
                "plumbline/level1": (5.0,8.0), "plumbline/level2": (5.5,8.5),
                "plumbline/level3": (6.0,9.5), "plumbline/level4": (6.5,10.0),
-               "plumbline/level5": (7.0,10.5), "plumbline/level6": (8.0,11.5)}
+               "plumbline/level5": (7.0,10.5), "plumbline/level6": (8.0,11.5),
+               # Flowline: adult oil and gas field and plant readers, A2 to C1.
+               # Technical prose carries long compound nouns that push FK up,
+               # so the ceiling is a half point above the other A2-to-C1 series.
+               "flowline/level1": (3.5,7.0), "flowline/level2": (4.5,8.0),
+               "flowline/level3": (5.5,9.0), "flowline/level4": (6.5,10.0),
+               "flowline/level5": (7.5,11.0), "flowline/level6": (8.5,12.0)}
 
 def strip_markup(s):
     s = re.sub(r"%%FIG[^%]*%%", " ", s)
