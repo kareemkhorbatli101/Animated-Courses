@@ -374,5 +374,6 @@
     "en": "A customer whose last two invoices were paid ten days late calls on the due date asking for two more weeks on a $40,000 balance. Student A is the customer; Student B is Lina, who must protect Al-Hasan's cash while staying polite.",
     "ar": "عميلٌ تأخّر في سداد آخر فاتورتين عشرة أيام يتصل في تاريخ الاستحقاق طالباً أسبوعين إضافيين على رصيد قدره أربعون ألف دولار. الطالب (أ) هو العميل؛ والطالب (ب) هو لينا، التي عليها حماية سيولة الحسن مع الحفاظ على اللباقة."
   },
-  "arabicAudio": false
+  "arabicAudio": false,
+  "speechScale": 0.8
 }

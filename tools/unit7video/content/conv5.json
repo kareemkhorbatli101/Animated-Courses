@@ -1,0 +1,250 @@
+{
+  "id": "conv5",
+  "kind": "dialogue",
+  "mode": "inPerson",
+  "arabicAudio": false,
+  "speechScale": 0.8,
+  "unit": "Unit 7 · Finance",
+  "number": "Conversation 5",
+  "title": "Beat the bank cut-off",
+  "titleAr": "اسبق موعد إغلاق المصرف",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "setting": "face to face · 1:15 p.m. on a Thursday",
+  "settingAr": "وجهاً لوجه · الواحدة والربع ظهر الخميس",
+  "accent": "teal",
+  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
+
+  "speakers": {
+    "samir": {
+      "name": "Mr. Samir",
+      "role": "Freight and Customs, Komosh",
+      "roleAr": "الشحن والجمارك، كوموش",
+      "place": "Damascus",
+      "placeAr": "دمشق",
+      "backdrop": "port",
+      "side": "left",
+      "look": "delgado",
+      "color": "#d98b3a",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-LaithNeural",
+      "arRate": "-4%"
+    },
+    "huda": {
+      "name": "Huda",
+      "role": "Accountant, head office",
+      "roleAr": "محاسبة، الإدارة العامة",
+      "place": "Damascus",
+      "placeAr": "دمشق",
+      "backdrop": "damascus",
+      "side": "right",
+      "look": "huda",
+      "color": "#8a6bbf",
+      "voice": "en-US-JennyNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-AmanyNeural",
+      "arRate": "-4%"
+    }
+  },
+
+  "preview": {
+    "headline": "Before you listen",
+    "headlineAr": "قبل الاستماع",
+    "lines": [
+      {
+        "en": "It is 1:15 on a Thursday. The bank stops sending transfers at two o'clock.",
+        "ar": "إنها الواحدة والربع من يوم الخميس. والمصرف يتوقف عن إرسال الحوالات في الساعة الثانية.",
+        "icon": "countdown"
+      },
+      {
+        "en": "Three containers are waiting at the port, and the port office closes at three.",
+        "ar": "ثلاث حاويات تنتظر في الميناء، ومكتب الميناء يُغلق في الثالثة.",
+        "icon": "cargo_ship"
+      },
+      {
+        "en": "Listen for how they move fast without breaking a single rule.",
+        "ar": "استمع كيف يتحركان بسرعة دون خرق أي قاعدة.",
+        "icon": "shield"
+      }
+    ],
+    "teaser": {
+      "en": "Forty-five minutes, two signatures, and $1,125 of port charges that never happened.",
+      "ar": "خمس وأربعون دقيقة، وتوقيعان، وألف ومئة وخمسة وعشرون دولاراً من رسوم الميناء لم تُدفع قط."
+    }
+  },
+
+  "vocab": {
+    "headline": "Useful phrases",
+    "headlineAr": "عبارات مفيدة",
+    "items": [
+      {
+        "term": "The bank's cut-off time is …",
+        "def": "the hour after which a transfer waits until the next working day",
+        "ar": "موعد إغلاق المصرف هو …",
+        "arDef": "الساعة التي تنتظر بعدها الحوالة حتى يوم العمل التالي",
+        "icon": "countdown"
+      },
+      {
+        "term": "cleared funds",
+        "def": "money that has actually arrived and can be used",
+        "ar": "أموال مُصفّاة",
+        "arDef": "مبالغ وصلت فعلاً وأصبحت قابلة للاستخدام",
+        "icon": "paid"
+      },
+      {
+        "term": "Transfers over $3,000 require dual authorization.",
+        "def": "two people must approve, and nobody may skip it",
+        "ar": "الحوالات التي تتجاوز ٣٬٠٠٠ دولار تتطلب تفويضاً مزدوجاً.",
+        "arDef": "يجب أن يوافق شخصان، ولا يحق لأحد تخطّي ذلك",
+        "icon": "shield"
+      },
+      {
+        "term": "demurrage",
+        "def": "the charge for leaving containers at the port too long",
+        "ar": "غرامة التأخير (أرضيات)",
+        "arDef": "رسوم تُفرض عند بقاء الحاويات في الميناء مدة أطول من المسموح",
+        "icon": "crate"
+      },
+      {
+        "term": "a stamped payment advice",
+        "def": "the bank's proof that the transfer has been sent",
+        "ar": "إشعار دفع مختوم",
+        "arDef": "إثبات من المصرف بأن الحوالة قد أُرسلت",
+        "icon": "stamp_ok"
+      }
+    ]
+  },
+
+  "dialogue": [
+    {
+      "sp": "samir",
+      "en": "Huda, I need an urgent bank transfer of $4,800 to the Lattakia port agent today.",
+      "ar": "هدى، أحتاج إلى حوالة مصرفية عاجلة بقيمة ٤٬٨٠٠ دولار إلى وكيل ميناء اللاذقية اليوم.",
+      "mood": "brisk",
+      "cues": [
+        { "at": "urgent", "icon": "money_part", "label": "$4,800 to the port agent", "big": true },
+        { "at": "Lattakia", "icon": "cargo_ship", "label": "Lattakia port" }
+      ]
+    },
+    {
+      "sp": "huda",
+      "en": "Today is Thursday, Samir. Our bank's wire cut-off time is two o'clock. If it goes in at five past two, the money sits until Sunday morning.",
+      "ar": "اليوم هو الخميس يا سمير. وموعد إغلاق الحوالات في مصرفنا هو الساعة الثانية. فإذا أُدخلت في الثانية وخمس دقائق، يبقى المبلغ معلّقاً حتى صباح الأحد.",
+      "mood": "firm",
+      "phrase": "The bank's cut-off time is …",
+      "cues": [
+        { "at": "cut-off", "icon": "countdown", "label": "cut-off 14:00 Thursday", "tone": "warn", "term": true },
+        {
+          "at": "sits", "kind": "compare",
+          "a": { "label": "In by 14:00", "value": "goes today", "tone": "good" },
+          "b": { "label": "In at 14:05", "value": "waits to Sunday", "tone": "bad" },
+          "note": "five minutes, three days"
+        }
+      ]
+    },
+    {
+      "sp": "samir",
+      "en": "If the agent doesn't have cleared funds before the port office closes at three, our three containers stay in the yard all weekend — and demurrage will cost us $1,125.",
+      "ar": "إذا لم تصل إلى الوكيل أموال مُصفّاة قبل إغلاق مكتب الميناء في الثالثة، ستبقى حاوياتنا الثلاث في الساحة طوال عطلة نهاية الأسبوع — وستكلّفنا غرامة التأخير ١٬١٢٥ دولار.",
+      "mood": "concerned",
+      "phrase": "cleared funds",
+      "cues": [
+        { "at": "cleared", "icon": "paid", "label": "cleared funds before 15:00", "tone": "key", "term": true },
+        { "at": "containers", "icon": "crate", "label": "3 containers stuck all weekend", "tone": "bad" },
+        { "at": "demurrage", "icon": "profit_loss", "label": "demurrage: $1,125", "tone": "bad", "big": true, "term": true }
+      ]
+    },
+    {
+      "sp": "huda",
+      "en": "All right, let's move fast. Do you have the agent's pro-forma invoice and IBAN details ready?",
+      "ar": "حسناً، لنتحرك بسرعة. هل لديك الفاتورة المبدئية للوكيل وتفاصيل الآيبان جاهزة؟",
+      "mood": "brisk",
+      "cues": [
+        { "at": "pro-forma", "icon": "invoice", "label": "pro-forma invoice + IBAN", "tone": "key" }
+      ]
+    },
+    {
+      "sp": "samir",
+      "en": "Right here in my hand, signed by Rami.",
+      "ar": "هنا في يدي، وموقّعة من رامي.",
+      "mood": "warm",
+      "cues": [
+        { "at": "signed", "icon": "stamp_ok", "label": "already signed by Rami", "tone": "good" }
+      ]
+    },
+    {
+      "sp": "huda",
+      "en": "Good. I'll enter the payment into the online banking portal right now. Go upstairs and ask Lina to log in with her security token immediately — transfers over $3,000 require dual authorization.",
+      "ar": "جيد. سأُدخل الدفعة في بوابة المصرف الإلكترونية الآن. اصعد واطلب من لينا تسجيل الدخول برمزها الأمني فوراً — فالحوالات التي تتجاوز ٣٬٠٠٠ دولار تتطلب تفويضاً مزدوجاً.",
+      "mood": "firm",
+      "phrase": "Transfers over $3,000 require dual authorization.",
+      "cues": [
+        { "at": "enter", "icon": "batch_pay", "label": "① Huda enters the payment", "tone": "key" },
+        { "at": "dual", "icon": "shield", "label": "② dual authorization over $3,000", "tone": "key", "big": true, "term": true }
+      ]
+    },
+    {
+      "sp": "samir",
+      "en": "I'm on my way to Lina's office now. Will we get a bank confirmation slip today?",
+      "ar": "أنا في طريقي إلى مكتب لينا الآن. هل سنحصل على إشعار تأكيد من المصرف اليوم؟",
+      "mood": "brisk",
+      "cues": [
+        { "at": "confirmation", "icon": "question", "label": "proof for the agent?", "tone": "key" }
+      ]
+    },
+    {
+      "sp": "huda",
+      "en": "As soon as Lina clicks approve, the portal generates a stamped payment advice. I'll email it to you and the port agent within five minutes, so he can release the containers before three.",
+      "ar": "بمجرد أن تضغط لينا على الموافقة، تُصدر البوابة إشعار دفع مختوماً. سأرسله إليك وإلى وكيل الميناء بالبريد الإلكتروني خلال خمس دقائق، كي يتمكن من الإفراج عن الحاويات قبل الثالثة.",
+      "mood": "warm",
+      "phrase": "a stamped payment advice",
+      "cues": [
+        {
+          "at": "generates", "kind": "doc", "tone": "good", "docType": "payment advice",
+          "title": "stamped by the portal",
+          "rows": [
+            ["To Lattakia port agent", "$4,800"],
+            ["Entered by Huda · approved by Lina", "13:4x"],
+            ["Emailed to agent", "within 5 min"]
+          ],
+          "totalLabel": "Containers released by", "total": "15:00"
+        }
+      ]
+    },
+    {
+      "sp": "samir",
+      "en": "You just saved us over a thousand dollars in port fees, Huda.",
+      "ar": "لقد وفّرتِ علينا للتو أكثر من ألف دولار من رسوم الميناء يا هدى.",
+      "mood": "warm",
+      "cues": [
+        { "at": "saved", "icon": "paid", "label": "$1,125 demurrage avoided", "tone": "good", "big": true }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "A deadline is not a reason to skip a control. Know the cut-off, have the documents ready, and get the second signature — fast and correct at the same time.",
+    "ar": "الموعد النهائي ليس سبباً لتخطّي إجراء رقابي. اعرف موعد الإغلاق، وجهّز المستندات، واحصل على التوقيع الثاني — بسرعة وصواب في آنٍ واحد.",
+    "icon": "shield"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "What happens if a bank transfer is submitted after two o'clock on a Thursday?", "ar": "ماذا يحدث إذا قُدّمت الحوالة بعد الساعة الثانية يوم الخميس؟" },
+      { "en": "How much will the weekend delay cost Komosh if the port agent is not paid today?", "ar": "كم سيكلّف تأخير عطلة نهاية الأسبوع شركة كوموش إذا لم يُدفع لوكيل الميناء اليوم؟" },
+      { "en": "What documents does Mr. Samir already have ready?", "ar": "ما المستندات التي يحملها السيد سمير جاهزة بالفعل؟" },
+      { "en": "Why does Huda need Lina to log in immediately?", "ar": "لماذا تحتاج هدى إلى أن تسجّل لينا الدخول فوراً؟" },
+      { "en": "How will the port agent know the payment has been sent before three o'clock?", "ar": "كيف سيعرف وكيل الميناء أن الدفعة أُرسلت قبل الساعة الثالثة؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Role-play",
+    "headlineAr": "تمثيل الأدوار",
+    "en": "It is 1:50 p.m. on Thursday, and Lina is out at a meeting with Mr. Tarek. Student A (Mr. Samir) urges Huda to bypass dual authorization. Student B (Huda) refuses to break a security rule and finds another way to reach Lina.",
+    "ar": "إنها الواحدة وخمسون دقيقة ظهر الخميس، ولينا خارج المكتب في اجتماع مع السيد طارق. الطالب (أ) وهو السيد سمير يحثّ هدى على تخطّي التفويض المزدوج. والطالب (ب) وهي هدى ترفض خرق قاعدة أمنية وتجد وسيلة أخرى للوصول إلى لينا."
+  }
+}

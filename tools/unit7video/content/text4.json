@@ -1,0 +1,410 @@
+{
+  "id": "text4",
+  "kind": "reading",
+  "unit": "Unit 7 · Finance",
+  "number": "Text 4",
+  "title": "Paid twice for the same valves",
+  "titleAr": "دُفِع مرتين ثمن الصمامات ذاتها",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "narrator": {
+    "voice": "en-US-AndrewNeural",
+    "rate": "-8%",
+    "look": "narrator_m"
+  },
+  "accent": "amber",
+  "speechScale": 0.8,
+  "preview": {
+    "headline": "Before you read",
+    "headlineAr": "قبل القراءة",
+    "lines": [
+      {
+        "en": "A supplier sends the same invoice twice — once by email, once inside the delivery envelope.",
+        "ar": "يرسل مورّد الفاتورة نفسها مرتين — مرة بالبريد الإلكتروني ومرة داخل ظرف التسليم.",
+        "icon": "two_docs"
+      },
+      {
+        "en": "The two copies have slightly different numbers and arrive four days apart.",
+        "ar": "تحمل النسختان رقمين مختلفين قليلاً وتصلان بفارق أربعة أيام.",
+        "icon": "suffix_tag"
+      },
+      {
+        "en": "How could a busy office accidentally pay both?",
+        "ar": "كيف يمكن لمكتب مزدحم أن يدفعهما معاً دون قصد؟",
+        "icon": "duplicate"
+      }
+    ],
+    "teaser": {
+      "en": "One letter at the end of a number. Fourteen thousand six hundred dollars.",
+      "ar": "حرفٌ واحد في نهاية رقم. وأربعة عشر ألفاً وستمئة دولار."
+    }
+  },
+  "vocab": {
+    "headline": "Words to listen for",
+    "headlineAr": "كلمات انتبه لها",
+    "items": [
+      {
+        "term": "a suffix",
+        "ipa": "/ˈsʌf.ɪks/",
+        "def": "letters or numbers added to the end of a reference code",
+        "ar": "لاحقة",
+        "arDef": "حروف أو أرقام تُضاف إلى نهاية رمز مرجعي",
+        "icon": "suffix_tag"
+      },
+      {
+        "term": "the payables schedule",
+        "ipa": "/ˈpeɪ.ə.blz ˈʃed.juːl/",
+        "def": "the list of bills a company still needs to pay",
+        "ar": "جدول الذمم الدائنة",
+        "arDef": "قائمة الفواتير التي ما زال على الشركة سدادها",
+        "icon": "ledger"
+      },
+      {
+        "term": "a batch payment",
+        "ipa": "/bætʃ ˈpeɪ.mənt/",
+        "def": "a group of payments processed together",
+        "ar": "دفعة مجمّعة",
+        "arDef": "مجموعة مدفوعات تُنفَّذ معاً في عملية واحدة",
+        "icon": "batch_pay"
+      },
+      {
+        "term": "to authorize",
+        "ipa": "/ˈɔː.θər.aɪz/",
+        "def": "to give official permission for a payment to go ahead",
+        "ar": "يعتمد / يأذن",
+        "arDef": "منح الإذن الرسمي بتنفيذ الدفعة",
+        "icon": "approve"
+      },
+      {
+        "term": "a duplicate check",
+        "ipa": "/ˈdjuː.plɪ.kət tʃek/",
+        "def": "a search for two records that are really the same bill",
+        "ar": "فحص التكرار",
+        "arDef": "بحث عن قيدين يمثّلان في الحقيقة الفاتورة نفسها",
+        "icon": "duplicate"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "scene": "plant",
+      "chapter": "The order",
+      "chapterAr": "الطلبية",
+      "lines": [
+        {
+          "en": "In April, Maham ordered twenty-four industrial butterfly valves from a supplier in Turkey for the Hama water-tank project.",
+          "ar": "في نيسان، طلبت شركة مهام أربعاً وعشرين صمّام فراشة صناعياً من مورّد في تركيا لمشروع خزان المياه في حماة.",
+          "cues": [
+            {
+              "at": "twenty-four",
+              "icon": "valve",
+              "label": "24 butterfly valves"
+            },
+            {
+              "at": "Turkey",
+              "icon": "factory",
+              "label": "Anadolu Valves · Turkey"
+            },
+            {
+              "at": "Hama",
+              "icon": "water",
+              "label": "Hama water-tank project"
+            }
+          ]
+        },
+        {
+          "en": "The total price was $14,600.",
+          "ar": "وبلغ السعر الإجمالي ١٤٬٦٠٠ دولار.",
+          "cues": [
+            {
+              "at": "total",
+              "icon": "contract",
+              "label": "$14,600 · PO-3319",
+              "tone": "good",
+              "big": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "plant",
+      "chapter": "Two papers, one invoice",
+      "chapterAr": "ورقتان لفاتورةٍ واحدة",
+      "lines": [
+        {
+          "en": "When the lorry arrived at the Hama site, the supplier's driver handed Eng. Bilal a sealed plastic pouch containing the packing list and a printed paper invoice numbered TR-908.",
+          "ar": "عندما وصلت الشاحنة إلى موقع حماة، سلّم سائق المورّد المهندس بلال ظرفاً بلاستيكياً مختوماً يحتوي على قائمة التعبئة وفاتورة ورقية مطبوعة تحمل الرقم TR-908.",
+          "cues": [
+            {
+              "at": "lorry",
+              "icon": "lorry",
+              "label": "delivery at the Hama site"
+            },
+            {
+              "at": "pouch",
+              "icon": "pouch",
+              "label": "packing list + paper invoice"
+            },
+            {
+              "at": "TR-908",
+              "icon": "invoice",
+              "label": "paper copy · TR-908",
+              "tone": "warn"
+            }
+          ]
+        },
+        {
+          "en": "Eng. Bilal signed the delivery note, stamped the paper invoice \"Goods Received\", and sent it to Damascus in the weekly internal mail bag.",
+          "ar": "وقّع المهندس بلال إشعار التسليم، وختم الفاتورة الورقية بعبارة «تم استلام البضاعة»، وأرسلها إلى دمشق في حقيبة البريد الداخلي الأسبوعية.",
+          "cues": [
+            {
+              "at": "stamped",
+              "icon": "stamp_ok",
+              "label": "stamped \"Goods Received\"",
+              "tone": "good"
+            },
+            {
+              "at": "mail",
+              "icon": "pouch",
+              "label": "weekly internal mail bag"
+            }
+          ]
+        },
+        {
+          "en": "Meanwhile, the supplier's accounts department in Istanbul had already emailed a PDF of the exact same invoice — numbered TR-908-A — directly to Fadi in Admin.",
+          "ar": "وفي الوقت نفسه، كانت إدارة حسابات المورّد في إسطنبول قد أرسلت بالبريد الإلكتروني نسخة PDF من الفاتورة ذاتها تماماً — برقم TR-908-A — مباشرةً إلى فادي في الإدارة.",
+          "cues": [
+            {
+              "at": "emailed",
+              "icon": "email_doc",
+              "label": "PDF emailed straight to Admin",
+              "tone": "warn"
+            },
+            {
+              "at": "TR-908-A",
+              "kind": "compare",
+              "term": true,
+              "a": {
+                "label": "Came with the lorry",
+                "value": "TR-908",
+                "tone": "warn"
+              },
+              "b": {
+                "label": "Came by email",
+                "value": "TR-908-A",
+                "tone": "warn"
+              },
+              "note": "same invoice — one letter of difference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "office_damascus",
+      "chapter": "Two clerks, two entries",
+      "chapterAr": "موظفان وقيدان",
+      "lines": [
+        {
+          "en": "Because the two documents had slightly different suffixes and arrived four days apart, two different clerks entered them into the payables schedule.",
+          "ar": "ولأن الوثيقتين حملتا لاحقتين مختلفتين قليلاً ووصلتا بفارق أربعة أيام، أدخلهما موظفان مختلفان في جدول الذمم الدائنة.",
+          "cues": [
+            {
+              "at": "suffixes",
+              "icon": "suffix_tag",
+              "label": "different suffixes",
+              "tone": "bad",
+              "term": true
+            },
+            {
+              "at": "four",
+              "icon": "calendar2",
+              "label": "4 days apart"
+            },
+            {
+              "at": "clerks",
+              "icon": "duplicate",
+              "label": "entered twice",
+              "tone": "bad",
+              "big": true
+            }
+          ]
+        },
+        {
+          "en": "On the last Thursday of the month, Huda prepared the batch payment list.",
+          "ar": "في آخر خميس من الشهر، أعدّت هدى قائمة الدفعات المجمّعة.",
+          "cues": [
+            {
+              "at": "Huda",
+              "icon": "accountant_f",
+              "label": "Huda · Accountant"
+            },
+            {
+              "at": "batch",
+              "icon": "batch_pay",
+              "label": "the monthly batch payment",
+              "term": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "bank",
+      "chapter": "The duplicate check",
+      "chapterAr": "فحص التكرار",
+      "lines": [
+        {
+          "en": "Fortunately, before Lina authorized the bank transfers, she ran her standard duplicate-check across supplier name, purchase order number, and exact dollar amount.",
+          "ar": "ولحسن الحظ، قبل أن تعتمد لينا الحوالات المصرفية، شغّلت فحص التكرار المعتاد لديها عبر اسم المورّد ورقم أمر الشراء والمبلغ الدقيق بالدولار.",
+          "cues": [
+            {
+              "at": "Lina",
+              "icon": "manager_f",
+              "label": "Lina · Finance Manager"
+            },
+            {
+              "at": "duplicate-check",
+              "icon": "auditor",
+              "label": "name + PO + exact amount",
+              "tone": "key",
+              "big": true,
+              "term": true
+            }
+          ]
+        },
+        {
+          "en": "The screen highlighted two lines: Anadolu Valves — PO-3319 — $14,600, and Anadolu Valves — PO-3319 — $14,600.",
+          "ar": "أبرزت الشاشة سطرين: أنادولو للصمامات — PO-3319 — ١٤٬٦٠٠ دولار، وأنادولو للصمامات — PO-3319 — ١٤٬٦٠٠ دولار.",
+          "cues": [
+            {
+              "at": "highlighted",
+              "kind": "doc",
+              "tone": "bad",
+              "docType": "payables schedule",
+              "title": "duplicate found",
+              "rows": [
+                [
+                  "Anadolu Valves · PO-3319 · TR-908",
+                  "$14,600"
+                ],
+                [
+                  "Anadolu Valves · PO-3319 · TR-908-A",
+                  "$14,600"
+                ]
+              ],
+              "totalLabel": "About to be paid",
+              "total": "$29,200"
+            }
+          ]
+        },
+        {
+          "en": "\"If we had transferred $29,200 today,\" Lina told the team, \"getting $14,600 back from an overseas supplier takes weeks of paperwork and loses exchange fees.\"",
+          "ar": "وقالت لينا للفريق: «لو كنا حوّلنا ٢٩٬٢٠٠ دولار اليوم، لاستغرقت استعادة ١٤٬٦٠٠ دولار من مورّد خارجي أسابيع من المعاملات الورقية، ولخسرنا رسوم الصرف.»",
+          "cues": [
+            {
+              "at": "$29,200",
+              "kind": "compare",
+              "a": {
+                "label": "Would have gone out",
+                "value": "$29,200",
+                "tone": "bad"
+              },
+              "b": {
+                "label": "Actually owed",
+                "value": "$14,600",
+                "tone": "good"
+              },
+              "note": "caught before the transfer"
+            },
+            {
+              "at": "weeks",
+              "icon": "refund_slow",
+              "label": "weeks to claw it back",
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "en": "She removed the second entry and stapled the paper copy to the PDF printout.",
+          "ar": "فحذفت القيد الثاني، ودبّست النسخة الورقية مع مطبوعة الـ PDF.",
+          "cues": [
+            {
+              "at": "removed",
+              "icon": "approve",
+              "label": "second entry removed",
+              "tone": "good"
+            },
+            {
+              "at": "stapled",
+              "icon": "two_docs",
+              "label": "both copies filed as one",
+              "tone": "good"
+            }
+          ]
+        },
+        {
+          "en": "Then she wrote a new rule for Admin: no invoice is entered into the ledger without a valid Purchase Order number, and the system must block any second invoice against a closed PO.",
+          "ar": "ثم كتبت قاعدة جديدة للإدارة: لا تُدخَل أي فاتورة في دفتر الأستاذ دون رقم أمر شراء صحيح، وعلى النظام أن يمنع أي فاتورة ثانية مقابل أمر شراء مُغلق.",
+          "cues": [
+            {
+              "at": "no",
+              "icon": "po",
+              "label": "① no invoice without a valid PO",
+              "tone": "key"
+            },
+            {
+              "at": "block",
+              "icon": "block_rule",
+              "label": "② block a 2nd invoice on a closed PO",
+              "tone": "key",
+              "big": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "takeaway": {
+    "en": "A duplicate invoice never looks like a duplicate. Match on supplier, purchase order and exact amount before you release a batch — not after.",
+    "ar": "الفاتورة المكرّرة لا تبدو أبداً مكرّرة. طابِق اسم المورّد وأمر الشراء والمبلغ الدقيق قبل تحرير الدفعة المجمّعة، لا بعدها.",
+    "icon": "duplicate"
+  },
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      {
+        "en": "How did the two copies of the invoice reach Damascus?",
+        "ar": "كيف وصلت نسختا الفاتورة إلى دمشق؟"
+      },
+      {
+        "en": "Why did the clerks enter the same invoice twice without noticing?",
+        "ar": "لماذا أدخل الموظفان الفاتورة نفسها مرتين دون أن يلاحظا؟"
+      },
+      {
+        "en": "What three fields did Lina check before authorizing the monthly bank transfers?",
+        "ar": "ما الحقول الثلاثة التي فحصتها لينا قبل اعتماد الحوالات الشهرية؟"
+      },
+      {
+        "en": "Why would recovering an overpayment from an overseas supplier be difficult?",
+        "ar": "لماذا يصعب استرداد مبلغ زائد من مورّد في الخارج؟"
+      },
+      {
+        "en": "What two-part rule did Lina introduce to prevent duplicate payments in future?",
+        "ar": "ما القاعدة المكوّنة من جزأين التي وضعتها لينا لمنع الدفع المكرّر مستقبلاً؟"
+      },
+      {
+        "en": "In your own words, why is a purchase order number so important here?",
+        "ar": "بكلماتك الخاصة، لماذا يُعدّ رقم أمر الشراء مهماً إلى هذا الحد هنا؟"
+      }
+    ]
+  },
+  "discussion": {
+    "headline": "Talk about it",
+    "headlineAr": "للنقاش",
+    "en": "Many small companies do not use purchase orders for urgent site purchases. What risks does a finance manager face when engineers order parts by phone without a PO?",
+    "ar": "كثير من الشركات الصغيرة لا تستخدم أوامر شراء للمشتريات العاجلة في المواقع. ما المخاطر التي تواجه مدير الشؤون المالية حين يطلب المهندسون قطعاً عبر الهاتف دون أمر شراء؟"
+  }
+}

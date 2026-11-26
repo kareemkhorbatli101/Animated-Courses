@@ -1,0 +1,268 @@
+{
+  "id": "conv4",
+  "kind": "dialogue",
+  "mode": "phone",
+  "arabicAudio": false,
+  "speechScale": 0.8,
+  "unit": "Unit 7 · Finance",
+  "number": "Conversation 4",
+  "title": "We need a credit note, not a discount next year",
+  "titleAr": "نحتاج إشعاراً دائناً، لا خصماً في العام القادم",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "setting": "by telephone · Alten IL ↔ head office",
+  "settingAr": "عبر الهاتف · ألتِن ↔ الإدارة العامة",
+  "accent": "teal",
+  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
+
+  "speakers": {
+    "maya": {
+      "name": "Ms. Maya",
+      "role": "Retail, Alten IL",
+      "roleAr": "التجزئة، ألتِن",
+      "place": "Damascus",
+      "placeAr": "ألتِن",
+      "backdrop": "plant",
+      "side": "left",
+      "look": "maya",
+      "color": "#c9577c",
+      "voice": "en-US-MichelleNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-AmanyNeural",
+      "arRate": "-4%"
+    },
+    "lina": {
+      "name": "Lina",
+      "role": "Finance Manager, Al-Hasan",
+      "roleAr": "مديرة الشؤون المالية، الحسن",
+      "place": "Damascus",
+      "placeAr": "دمشق",
+      "backdrop": "damascus",
+      "side": "right",
+      "look": "lina",
+      "color": "#2bb3a3",
+      "voice": "en-US-AvaNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-AmanyNeural",
+      "arRate": "-4%"
+    }
+  },
+
+  "preview": {
+    "headline": "Before you listen",
+    "headlineAr": "قبل الاستماع",
+    "lines": [
+      {
+        "en": "Six hundred bottles were billed. Forty-five of them arrived broken.",
+        "ar": "فُوترت ستمئة عبوة. ووصلت خمس وأربعون منها مكسورة.",
+        "icon": "bottle_bad"
+      },
+      {
+        "en": "One side offers money off the next order. The other wants a document today.",
+        "ar": "طرفٌ يعرض خصماً على الطلبية التالية. والآخر يريد مستنداً اليوم.",
+        "icon": "credit_note"
+      },
+      {
+        "en": "Listen for why the date on a document matters more than the amount.",
+        "ar": "استمع لماذا يكون تاريخ المستند أهم من قيمته.",
+        "icon": "books_close"
+      }
+    ],
+    "teaser": {
+      "en": "A friendly promise next month is an open invoice this month.",
+      "ar": "وعدٌ ودّي في الشهر القادم يعني فاتورة مفتوحة هذا الشهر."
+    }
+  },
+
+  "vocab": {
+    "headline": "Useful phrases",
+    "headlineAr": "عبارات مفيدة",
+    "items": [
+      {
+        "term": "We were billed …",
+        "def": "stating what the supplier charged, before disputing it",
+        "ar": "لقد فُوترنا …",
+        "arDef": "ذكر ما طالب به المورّد قبل الاعتراض عليه",
+        "icon": "invoice_due"
+      },
+      {
+        "term": "I can't close my books with an open invoice.",
+        "def": "the accounting reason, not a complaint",
+        "ar": "لا أستطيع إقفال دفاتري بفاتورة مفتوحة.",
+        "arDef": "سببٌ محاسبي، وليس شكوى",
+        "icon": "books_close"
+      },
+      {
+        "term": "An informal promise creates messy accounting.",
+        "def": "why a verbal offer is not good enough",
+        "ar": "الوعد غير الرسمي يُنشئ محاسبةً مشوّشة.",
+        "arDef": "لماذا لا يكفي العرض الشفهي",
+        "icon": "handwritten"
+      },
+      {
+        "term": "Issue an official credit note against invoice …",
+        "def": "asking for the right document, by name and number",
+        "ar": "أصدروا إشعاراً دائناً رسمياً مقابل الفاتورة …",
+        "arDef": "طلب المستند الصحيح باسمه ورقمه",
+        "icon": "credit_note"
+      },
+      {
+        "term": "Pay the net balance.",
+        "def": "the amount left after the credit note is applied",
+        "ar": "ادفعوا الرصيد الصافي.",
+        "arDef": "المبلغ المتبقي بعد تطبيق الإشعار الدائن",
+        "icon": "net_balance"
+      }
+    ]
+  },
+
+  "dialogue": [
+    {
+      "sp": "maya",
+      "en": "Lina, I'm looking at our monthly stock statement from Bashak. We were billed $7,200 for six hundred bottles of industrial cleaner.",
+      "ar": "لينا، أنا أنظر إلى كشف المخزون الشهري من بشاك. لقد فُوترنا ٧٬٢٠٠ دولار مقابل ستمئة عبوة من المنظّف الصناعي.",
+      "mood": "brisk",
+      "phrase": "We were billed …",
+      "cues": [
+        { "at": "billed", "icon": "invoice_due", "label": "INV-2062 · $7,200", "big": true, "term": true },
+        { "at": "six", "icon": "crate", "label": "600 bottles" }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "Yes, that matches the delivery note from last Tuesday.",
+      "ar": "نعم، هذا يطابق إشعار التسليم من الثلاثاء الماضي.",
+      "mood": "neutral",
+      "cues": [
+        { "at": "matches", "icon": "match_docs", "label": "matches the delivery note", "tone": "good" }
+      ]
+    },
+    {
+      "sp": "maya",
+      "en": "Except forty-five bottles arrived with cracked caps and leaked in transit. Ms. Dana inspected them and signed the damage report on Wednesday.",
+      "ar": "باستثناء خمس وأربعين عبوة وصلت بأغطية متشققة وتسرّبت أثناء النقل. فحصتها السيدة دانا ووقّعت تقرير التلف يوم الأربعاء.",
+      "mood": "concerned",
+      "cues": [
+        { "at": "forty-five", "icon": "bottle_bad", "label": "45 bottles damaged", "tone": "bad", "big": true },
+        { "at": "inspected", "icon": "inspect", "label": "Dana's signed damage report", "tone": "key" }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "I saw Dana's report — $540 worth of damaged stock. Rami suggested taking $540 off your next order.",
+      "ar": "رأيت تقرير دانا — بضاعة تالفة بقيمة ٥٤٠ دولاراً. اقترح رامي خصم ٥٤٠ دولاراً من طلبيتكم التالية.",
+      "mood": "neutral",
+      "cues": [
+        { "at": "$540", "icon": "deduct", "label": "$540 of damaged stock", "tone": "bad" },
+        { "at": "suggested", "icon": "handwritten", "label": "Rami: take it off next order", "tone": "warn" }
+      ]
+    },
+    {
+      "sp": "maya",
+      "en": "That's what I'm calling about. I can't close my retail books for May with an open $7,200 invoice when I only have $6,660 of sellable stock.",
+      "ar": "لهذا أتصل. لا أستطيع إقفال دفاتر التجزئة لشهر أيار بفاتورة مفتوحة قيمتها ٧٬٢٠٠ دولار بينما لديّ بضاعة قابلة للبيع بقيمة ٦٬٦٦٠ دولاراً فقط.",
+      "mood": "firm",
+      "phrase": "I can't close my books with an open invoice.",
+      "cues": [
+        {
+          "at": "open", "kind": "compare", "term": true,
+          "a": { "label": "Invoiced", "value": "$7,200", "tone": "bad" },
+          "b": { "label": "Sellable stock", "value": "$6,660", "tone": "good" },
+          "note": "the $540 gap has to live somewhere"
+        }
+      ]
+    },
+    {
+      "sp": "maya",
+      "en": "If we wait until next month's order, my May profit-and-loss statement will look wrong.",
+      "ar": "وإذا انتظرنا طلبية الشهر القادم، سيبدو بيان الأرباح والخسائر لشهر أيار خاطئاً.",
+      "mood": "firm",
+      "cues": [
+        { "at": "profit-and-loss", "icon": "profit_loss", "label": "May P&L would be wrong", "tone": "bad", "big": true }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "You're completely right. An informal promise on a future order creates messy accounting for both companies.",
+      "ar": "أنتِ محقّة تماماً. فالوعد غير الرسمي على طلبية مستقبلية يُنشئ محاسبةً مشوّشة لكلتا الشركتين.",
+      "mood": "warm",
+      "phrase": "An informal promise creates messy accounting.",
+      "cues": [
+        { "at": "informal", "icon": "handwritten", "label": "informal promise = messy books", "tone": "bad", "term": true }
+      ]
+    },
+    {
+      "sp": "maya",
+      "en": "Exactly. Can Huda issue an official credit note for $540, dated May 30th, against invoice INV-2062?",
+      "ar": "تماماً. هل يمكن لهدى إصدار إشعار دائن رسمي بقيمة ٥٤٠ دولاراً بتاريخ ٣٠ أيار مقابل الفاتورة INV-2062؟",
+      "mood": "brisk",
+      "phrase": "Issue an official credit note against invoice …",
+      "cues": [
+        { "at": "credit", "icon": "credit_note", "label": "official credit note", "tone": "key", "term": true },
+        { "at": "dated", "icon": "calendar_fri", "label": "dated 30 May — inside the month", "tone": "key", "big": true }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "Yes. I will have Huda issue credit note CN-114 for $540 today, referencing Dana's inspection report.",
+      "ar": "نعم. سأطلب من هدى إصدار إشعار دائن CN-114 بقيمة ٥٤٠ دولاراً اليوم، مع الإشارة إلى تقرير فحص دانا.",
+      "mood": "warm",
+      "cues": [
+        {
+          "at": "issue", "kind": "doc", "tone": "good", "docType": "credit note",
+          "title": "CN-114 · 30 May",
+          "rows": [
+            ["Against invoice INV-2062", "$7,200"],
+            ["45 bottles damaged (Dana's report)", "−$540"]
+          ],
+          "totalLabel": "Net balance to pay", "total": "$6,660"
+        }
+      ]
+    },
+    {
+      "sp": "lina",
+      "en": "Then you pay the net balance of $6,660 to close May cleanly.",
+      "ar": "ثم تدفعين الرصيد الصافي وقدره ٦٬٦٦٠ دولاراً لإقفال أيار بشكل نظيف.",
+      "mood": "warm",
+      "phrase": "Pay the net balance.",
+      "cues": [
+        { "at": "net", "icon": "net_balance", "label": "pay the net balance", "tone": "good", "big": true, "term": true }
+      ]
+    },
+    {
+      "sp": "maya",
+      "en": "That keeps my auditor happy and clears the account. Thank you, Lina.",
+      "ar": "هذا يُرضي مدققي ويُصفّي الحساب. شكراً لكِ لينا.",
+      "mood": "warm",
+      "cues": [
+        { "at": "auditor", "icon": "auditor", "label": "auditor satisfied", "tone": "good" },
+        { "at": "clears", "icon": "books_close", "label": "May closed cleanly", "tone": "good", "big": true }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "Short delivery is corrected with a credit note dated inside the same month — not with a friendly discount next time. The document is what closes the books.",
+    "ar": "النقص في التسليم يُصحَّح بإشعار دائن مؤرَّخ داخل الشهر نفسه، لا بخصم ودّي في المرة القادمة. فالمستند هو ما يُقفل الدفاتر.",
+    "icon": "credit_note"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "How much was Alten IL billed, and what was the value of the damaged bottles?", "ar": "كم فُوترت ألتِن، وما قيمة العبوات التالفة؟" },
+      { "en": "What solution had Rami originally suggested?", "ar": "ما الحل الذي اقترحه رامي في البداية؟" },
+      { "en": "Why did Ms. Maya reject waiting until the next order?", "ar": "لماذا رفضت السيدة مايا الانتظار حتى الطلبية التالية؟" },
+      { "en": "What exact document will Huda issue, and what net amount will Ms. Maya pay?", "ar": "ما المستند الذي ستصدره هدى بالضبط، وما المبلغ الصافي الذي ستدفعه السيدة مايا؟" },
+      { "en": "Why does Lina agree that informal promises on future orders are bad practice?", "ar": "لماذا توافق لينا على أن الوعود غير الرسمية بشأن الطلبيات المستقبلية ممارسة سيئة؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Role-play",
+    "headlineAr": "تمثيل الأدوار",
+    "en": "Student A is a supplier who wants to make up for short-delivered goods by sending extra free boxes next month instead of issuing a credit note. Student B is Lina, insisting on a formal credit note today.",
+    "ar": "الطالب (أ) مورّد يريد تعويض النقص في التسليم بإرسال صناديق مجانية إضافية الشهر القادم بدلاً من إصدار إشعار دائن. والطالب (ب) هو لينا، التي تصرّ على إشعار دائن رسمي اليوم."
+  }
+}

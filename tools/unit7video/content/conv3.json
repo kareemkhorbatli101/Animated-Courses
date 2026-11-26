@@ -12,8 +12,10 @@
   "setting": "face to face · the Damascus office",
   "settingAr": "وجهاً لوجه · مكتب دمشق",
   "accent": "teal",
-  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
-
+  "narrator": {
+    "voice": "en-US-BrianNeural",
+    "rate": "-6%"
+  },
   "speakers": {
     "huda": {
       "name": "Huda",
@@ -44,7 +46,6 @@
       "arRate": "-4%"
     }
   },
-
   "preview": {
     "headline": "Before you listen",
     "headlineAr": "قبل الاستماع",
@@ -70,7 +71,6 @@
       "ar": "«لا أشكّ في أنك استأجرت الرافعة. المشكلة في الورقة التي أرفقتها.»"
     }
   },
-
   "vocab": {
     "headline": "Useful phrases",
     "headlineAr": "عبارات مفيدة",
@@ -112,7 +112,6 @@
       }
     ]
   },
-
   "dialogue": [
     {
       "sp": "huda",
@@ -121,8 +120,20 @@
       "mood": "firm",
       "phrase": "I have to hold back …",
       "cues": [
-        { "at": "approve", "icon": "approve", "label": "hotel + fuel approved", "tone": "good" },
-        { "at": "hold", "icon": "hold_back", "label": "$320 held back", "tone": "bad", "big": true, "term": true }
+        {
+          "at": "approve",
+          "icon": "approve",
+          "label": "hotel + fuel approved",
+          "tone": "good"
+        },
+        {
+          "at": "hold",
+          "icon": "hold_back",
+          "label": "$320 held back",
+          "tone": "bad",
+          "big": true,
+          "term": true
+        }
       ]
     },
     {
@@ -131,7 +142,12 @@
       "ar": "ثلاثمئة وعشرون دولاراً؟ كان ذلك لاستئجار الرافعة الطارئ عندما وصل المولّد!",
       "mood": "concerned",
       "cues": [
-        { "at": "emergency", "icon": "crane", "label": "emergency crane hire", "tone": "warn" }
+        {
+          "at": "emergency",
+          "icon": "crane",
+          "label": "emergency crane hire",
+          "tone": "warn"
+        }
       ]
     },
     {
@@ -141,9 +157,26 @@
       "mood": "warm",
       "phrase": "I don't doubt … The problem is …",
       "cues": [
-        { "at": "doubt", "icon": "thanks", "label": "not about trust", "tone": "good", "term": true },
-        { "at": "handwritten", "icon": "handwritten", "label": "handwritten cash memo", "tone": "bad" },
-        { "at": "stamp", "icon": "no_stamp", "label": "no stamp · no tax number", "tone": "bad", "big": true }
+        {
+          "at": "doubt",
+          "icon": "thanks",
+          "label": "not about trust",
+          "tone": "good",
+          "term": true
+        },
+        {
+          "at": "handwritten",
+          "icon": "handwritten",
+          "label": "handwritten cash memo",
+          "tone": "bad"
+        },
+        {
+          "at": "stamp",
+          "icon": "no_stamp",
+          "label": "no stamp · no tax number",
+          "tone": "bad",
+          "big": true
+        }
       ]
     },
     {
@@ -152,8 +185,16 @@
       "ar": "كان مشغّل الرافعة سائقاً مستقلاً عند بوابة الموقع في السادسة مساءً. ولم يكن لديه دفتر فواتير مطبوع في مقصورته.",
       "mood": "concerned",
       "cues": [
-        { "at": "independent", "icon": "clerk", "label": "independent driver" },
-        { "at": "six", "icon": "clock_late", "label": "6 p.m. at the site gate" }
+        {
+          "at": "independent",
+          "icon": "clerk",
+          "label": "independent driver"
+        },
+        {
+          "at": "six",
+          "icon": "clock_late",
+          "label": "6 p.m. at the site gate"
+        }
       ]
     },
     {
@@ -163,9 +204,25 @@
       "mood": "warm",
       "phrase": "The tax auditor will disallow the expense.",
       "cues": [
-        { "at": "understand", "icon": "thanks", "label": "she understands the site", "tone": "good" },
-        { "at": "auditor", "icon": "auditor", "label": "tax auditor disallows it", "tone": "bad", "term": true },
-        { "at": "fine", "icon": "profit_loss", "label": "and fines the company", "tone": "bad" }
+        {
+          "at": "understand",
+          "icon": "thanks",
+          "label": "she understands the site",
+          "tone": "good"
+        },
+        {
+          "at": "auditor",
+          "icon": "auditor",
+          "label": "tax auditor disallows it",
+          "tone": "bad",
+          "term": true
+        },
+        {
+          "at": "fine",
+          "icon": "profit_loss",
+          "label": "and fines the company",
+          "tone": "bad"
+        }
       ]
     },
     {
@@ -174,7 +231,12 @@
       "ar": "إذن أخسر ٣٢٠ دولاراً من جيبي الخاص؟",
       "mood": "concerned",
       "cues": [
-        { "at": "lose", "icon": "cash_tight", "label": "out of his own pocket?", "tone": "warn" }
+        {
+          "at": "lose",
+          "icon": "cash_tight",
+          "label": "out of his own pocket?",
+          "tone": "warn"
+        }
       ]
     },
     {
@@ -184,8 +246,20 @@
       "mood": "warm",
       "phrase": "Let's fix the paperwork so you get reimbursed properly.",
       "cues": [
-        { "at": "fix", "icon": "approve", "label": "fix the paperwork, not the man", "tone": "good", "big": true, "term": true },
-        { "at": "registered", "icon": "factory", "label": "a registered business?", "tone": "key" }
+        {
+          "at": "fix",
+          "icon": "approve",
+          "label": "fix the paperwork, not the man",
+          "tone": "good",
+          "big": true,
+          "term": true
+        },
+        {
+          "at": "registered",
+          "icon": "factory",
+          "label": "a registered business?",
+          "tone": "key"
+        }
       ]
     },
     {
@@ -194,7 +268,12 @@
       "ar": "نعم، شركة النور لخدمات الرفع. لديّ رقم هاتفه.",
       "mood": "warm",
       "cues": [
-        { "at": "Al-Nour", "icon": "factory", "label": "Al-Nour Lifting Services", "tone": "good" }
+        {
+          "at": "Al-Nour",
+          "icon": "factory",
+          "label": "Al-Nour Lifting Services",
+          "tone": "good"
+        }
       ]
     },
     {
@@ -204,8 +283,20 @@
       "mood": "firm",
       "phrase": "an official stamped tax invoice",
       "cues": [
-        { "at": "stamped", "icon": "stamped_invoice", "label": "① stamped tax invoice", "tone": "key", "big": true, "term": true },
-        { "at": "photo", "icon": "email_doc", "label": "photo now, original by courier", "tone": "key" }
+        {
+          "at": "stamped",
+          "icon": "stamped_invoice",
+          "label": "① stamped tax invoice",
+          "tone": "key",
+          "big": true,
+          "term": true
+        },
+        {
+          "at": "photo",
+          "icon": "email_doc",
+          "label": "photo now, original by courier",
+          "tone": "key"
+        }
       ]
     },
     {
@@ -214,34 +305,58 @@
       "ar": "ووقّع أيضاً نموذج شراء طارئ مع رامي. وبمجرد وصول الفاتورة المختومة، سأدفع لك الـ ٣٢٠ دولاراً نقداً.",
       "mood": "warm",
       "cues": [
-        { "at": "emergency-purchase", "icon": "two_docs", "label": "② emergency-purchase form", "tone": "key" },
-        { "at": "pay", "icon": "paid", "label": "$320 reimbursed", "tone": "good", "big": true }
+        {
+          "at": "emergency-purchase",
+          "icon": "two_docs",
+          "label": "② emergency-purchase form",
+          "tone": "key"
+        },
+        {
+          "at": "pay",
+          "icon": "paid",
+          "label": "$320 reimbursed",
+          "tone": "good",
+          "big": true
+        }
       ]
     }
   ],
-
   "takeaway": {
     "en": "Never argue about whether the expense was real. Say what the auditor needs, then show the person exactly how to get it.",
     "ar": "لا تجادل أبداً حول ما إذا كانت النفقة حقيقية. بل وضّح ما يحتاجه المدقق، ثم أرشد الشخص بدقة إلى كيفية الحصول عليه.",
     "icon": "stamped_invoice"
   },
-
   "questions": {
     "headline": "Comprehension",
     "headlineAr": "أسئلة الفهم",
     "items": [
-      { "en": "How much of Eng. Bilal's expense claim did Huda hold back, and what was it for?", "ar": "كم احتجزت هدى من مطالبة نفقات المهندس بلال، ولأي غرض كان المبلغ؟" },
-      { "en": "What two things were missing from the paper Bilal submitted?", "ar": "ما الشيئان اللذان كانا ناقصين في الورقة التي قدّمها بلال؟" },
-      { "en": "Why can Huda not accept a handwritten cash memo in the official accounts?", "ar": "لماذا لا تستطيع هدى قبول مذكّرة نقدية مكتوبة بخط اليد في الحسابات الرسمية؟" },
-      { "en": "What two steps must Bilal take so Huda can reimburse him?", "ar": "ما الخطوتان اللتان يجب أن يتّخذهما بلال كي تتمكّن هدى من ردّ نفقاته؟" },
-      { "en": "Find one sentence where Huda shows she understands Bilal's situation.", "ar": "اعثر على جملة واحدة تُظهر فيها هدى تفهّمها لوضع بلال." }
+      {
+        "en": "How much of Eng. Bilal's expense claim did Huda hold back, and what was it for?",
+        "ar": "كم احتجزت هدى من مطالبة نفقات المهندس بلال، ولأي غرض كان المبلغ؟"
+      },
+      {
+        "en": "What two things were missing from the paper Bilal submitted?",
+        "ar": "ما الشيئان اللذان كانا ناقصين في الورقة التي قدّمها بلال؟"
+      },
+      {
+        "en": "Why can Huda not accept a handwritten cash memo in the official accounts?",
+        "ar": "لماذا لا تستطيع هدى قبول مذكّرة نقدية مكتوبة بخط اليد في الحسابات الرسمية؟"
+      },
+      {
+        "en": "What two steps must Bilal take so Huda can reimburse him?",
+        "ar": "ما الخطوتان اللتان يجب أن يتّخذهما بلال كي تتمكّن هدى من ردّ نفقاته؟"
+      },
+      {
+        "en": "Find one sentence where Huda shows she understands Bilal's situation.",
+        "ar": "اعثر على جملة واحدة تُظهر فيها هدى تفهّمها لوضع بلال."
+      }
     ]
   },
-
   "discussion": {
     "headline": "Role-play",
     "headlineAr": "تمثيل الأدوار",
     "en": "Student A is a sales rep who paid $180 in cash for a client dinner abroad and lost the restaurant receipt. Student B is Huda, explaining the company audit rules and what alternative proof might be acceptable.",
     "ar": "الطالب (أ) مندوب مبيعات دفع ١٨٠ دولاراً نقداً لعشاء مع عميل في الخارج وفقد إيصال المطعم. والطالب (ب) هو هدى، تشرح قواعد التدقيق في الشركة وما الإثبات البديل الذي قد يكون مقبولاً."
-  }
+  },
+  "speechScale": 0.8
 }

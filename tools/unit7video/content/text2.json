@@ -7,9 +7,12 @@
   "titleAr": "مالٌ في المصرف بلا اسمٍ عليه",
   "level": "CEFR B1",
   "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
-  "narrator": { "voice": "en-US-AndrewNeural", "rate": "-8%", "look": "narrator_m" },
+  "narrator": {
+    "voice": "en-US-AndrewNeural",
+    "rate": "-8%",
+    "look": "narrator_m"
+  },
   "accent": "amber",
-
   "preview": {
     "headline": "Before you read",
     "headlineAr": "قبل القراءة",
@@ -35,7 +38,6 @@
       "ar": "ثلاث شركات كانت تنتظر المبلغ نفسه تقريباً. والتخمين كان سيصبح رهاناً بنصف فرصة على ثقة عميل."
     }
   },
-
   "vocab": {
     "headline": "Words to listen for",
     "headlineAr": "كلمات انتبه لها",
@@ -82,10 +84,9 @@
       }
     ]
   },
-
   "paragraphs": [
     {
-      "scene": "office_damascus",
+      "scene": "bank",
       "chapter": "The nameless payment",
       "chapterAr": "دفعةٌ بلا اسم",
       "lines": [
@@ -93,37 +94,73 @@
           "en": "On a busy Thursday morning, Huda downloaded the weekly bank statement for Al-Hasan Holding Group.",
           "ar": "في صباح خميسٍ مزدحم، حمّلت هدى كشف الحساب المصرفي الأسبوعي لمجموعة الحسن القابضة.",
           "cues": [
-            { "at": "Huda", "icon": "accountant_f", "label": "Huda · Accountant" },
-            { "at": "statement", "icon": "statement", "label": "weekly bank statement" }
+            {
+              "at": "Huda",
+              "icon": "accountant_f",
+              "label": "Huda · Accountant"
+            },
+            {
+              "at": "statement",
+              "icon": "statement",
+              "label": "weekly bank statement"
+            }
           ]
         },
         {
           "en": "Near the bottom of the page was an incoming international wire transfer of $18,400.",
           "ar": "وقرب أسفل الصفحة كانت هناك حوالة مصرفية دولية واردة بقيمة ١٨٬٤٠٠ دولار.",
           "cues": [
-            { "at": "wire", "icon": "money_ready", "label": "$18,400 received", "tone": "good", "big": true, "term": true }
+            {
+              "at": "wire",
+              "icon": "money_ready",
+              "label": "$18,400 received",
+              "tone": "good",
+              "big": true,
+              "term": true
+            }
           ]
         },
         {
           "en": "Next to it, the reference line read only: TRF/INTL/88412 — PAYMENT.",
           "ar": "وبجانبها لم تحمل خانة البيان سوى: TRF/INTL/88412 — PAYMENT.",
           "cues": [
-            { "at": "reference", "icon": "ref_line", "label": "TRF/INTL/88412 — PAYMENT", "tone": "warn", "big": true }
+            {
+              "at": "reference",
+              "icon": "ref_line",
+              "label": "TRF/INTL/88412 — PAYMENT",
+              "tone": "warn",
+              "big": true
+            }
           ]
         },
         {
           "en": "There was no sender name, no purchase order, and no invoice number.",
           "ar": "لم يكن هناك اسم مُرسِل، ولا أمر شراء، ولا رقم فاتورة.",
           "cues": [
-            { "at": "sender", "icon": "no_name", "label": "no sender name", "tone": "bad" },
-            { "at": "purchase", "icon": "po", "label": "no PO number", "tone": "bad" },
-            { "at": "invoice", "icon": "invoice_unpaid", "label": "no invoice number", "tone": "bad" }
+            {
+              "at": "sender",
+              "icon": "no_name",
+              "label": "no sender name",
+              "tone": "bad"
+            },
+            {
+              "at": "purchase",
+              "icon": "po",
+              "label": "no PO number",
+              "tone": "bad"
+            },
+            {
+              "at": "invoice",
+              "icon": "invoice_unpaid",
+              "label": "no invoice number",
+              "tone": "bad"
+            }
           ]
         }
       ]
     },
     {
-      "scene": "office_damascus",
+      "scene": "damascus",
       "chapter": "Three candidates",
       "chapterAr": "ثلاثة احتمالات",
       "lines": [
@@ -131,34 +168,71 @@
           "en": "At that moment, three different Group companies were expecting payments of around $18,000.",
           "ar": "في تلك اللحظة، كانت ثلاث شركات مختلفة من المجموعة تنتظر دفعات بحدود ١٨٬٠٠٠ دولار.",
           "cues": [
-            { "at": "three", "icon": "three_docs", "label": "3 companies waiting", "tone": "warn", "big": true }
+            {
+              "at": "three",
+              "kind": "doc",
+              "tone": "warn",
+              "docType": "who is owed ~$18,000?",
+              "title": "TRF/INTL/88412",
+              "rows": [
+                [
+                  "Chemco — buyer in Jordan",
+                  "$18,400"
+                ],
+                [
+                  "Alten IL — retail distributor",
+                  "$18,250"
+                ],
+                [
+                  "Maham — water project",
+                  "$18,400"
+                ]
+              ],
+              "totalLabel": "Received, sender unknown",
+              "total": "$18,400"
+            }
           ]
         },
         {
           "en": "Chemco had an open invoice with a buyer in Jordan for $18,400.",
           "ar": "كانت لدى شركة كيمكو فاتورة مفتوحة مع مشترٍ في الأردن بقيمة ١٨٬٤٠٠ دولار.",
           "cues": [
-            { "at": "Chemco", "icon": "factory", "label": "Chemco · Jordan · $18,400", "tone": "warn" }
+            {
+              "at": "Chemco",
+              "icon": "factory",
+              "label": "Chemco · Jordan · $18,400",
+              "tone": "warn"
+            }
           ]
         },
         {
           "en": "Alten IL was waiting for $18,250 from a retail distributor.",
           "ar": "وكانت شركة ألتِن تنتظر ١٨٬٢٥٠ دولاراً من موزّع تجزئة.",
           "cues": [
-            { "at": "Alten", "icon": "shop", "label": "Alten IL · $18,250", "tone": "key" }
+            {
+              "at": "Alten",
+              "icon": "shop",
+              "label": "Alten IL · $18,250",
+              "tone": "key"
+            }
           ]
         },
         {
           "en": "And Maham had issued an interim certificate for $18,400 on a water project.",
           "ar": "وكانت شركة مهام قد أصدرت شهادة إنجاز مرحلية بقيمة ١٨٬٤٠٠ دولار على مشروع مياه.",
           "cues": [
-            { "at": "Maham", "icon": "water", "label": "Maham · water project · $18,400", "tone": "warn" }
+            {
+              "at": "Maham",
+              "icon": "water",
+              "label": "Maham · water project · $18,400",
+              "tone": "warn"
+            }
           ]
         }
       ]
     },
     {
-      "scene": "office_damascus",
+      "scene": "bank",
       "chapter": "Park it, don't guess",
       "chapterAr": "علّقها ولا تُخمّن",
       "lines": [
@@ -166,22 +240,43 @@
           "en": "\"If I post this money to the wrong customer's account,\" Huda explained to Karim, \"we will send a payment reminder to someone who already paid, and we will give free credit to someone who hasn't.\"",
           "ar": "«إذا قيّدتُ هذا المبلغ في حساب العميل الخطأ،» شرحت هدى لكريم، «فسنرسل تذكيراً بالدفع إلى شخصٍ قد دفع فعلاً، وسنمنح ائتماناً مجانياً لشخصٍ لم يدفع.»",
           "cues": [
-            { "at": "reminder", "icon": "reminder", "label": "chasing someone who paid", "tone": "bad" },
-            { "at": "free", "icon": "credit_line", "label": "free credit to someone who didn't", "tone": "bad" }
+            {
+              "at": "reminder",
+              "icon": "reminder",
+              "label": "chasing someone who paid",
+              "tone": "bad"
+            },
+            {
+              "at": "free",
+              "icon": "credit_line",
+              "label": "free credit to someone who didn't",
+              "tone": "bad"
+            }
           ]
         },
         {
           "en": "She placed the $18,400 into a temporary suspense account and began investigating.",
           "ar": "فوضعت مبلغ ١٨٬٤٠٠ دولار في حساب معلّق مؤقت، وبدأت التحقق.",
           "cues": [
-            { "at": "suspense", "icon": "queue", "label": "suspense account", "tone": "key", "big": true, "term": true },
-            { "at": "investigating", "icon": "auditor", "label": "investigate first" }
+            {
+              "at": "suspense",
+              "icon": "queue",
+              "label": "suspense account",
+              "tone": "key",
+              "big": true,
+              "term": true
+            },
+            {
+              "at": "investigating",
+              "icon": "auditor",
+              "label": "investigate first"
+            }
           ]
         }
       ]
     },
     {
-      "scene": "office_damascus",
+      "scene": "bank",
       "chapter": "The SWIFT trail",
       "chapterAr": "أثر رسالة سويفت",
       "lines": [
@@ -189,37 +284,73 @@
           "en": "First, she called Al-Hasan's corporate bank in Damascus and asked for the full SWIFT MT103 message.",
           "ar": "أولاً، اتصلت بالمصرف التجاري للحسن في دمشق وطلبت رسالة سويفت MT103 كاملة.",
           "cues": [
-            { "at": "called", "icon": "phone_call", "label": "call the bank" },
-            { "at": "SWIFT", "icon": "swift", "label": "SWIFT MT103", "tone": "key", "term": true }
+            {
+              "at": "called",
+              "icon": "phone_call",
+              "label": "call the bank"
+            },
+            {
+              "at": "SWIFT",
+              "icon": "swift",
+              "label": "SWIFT MT103",
+              "tone": "key",
+              "term": true
+            }
           ]
         },
         {
           "en": "It is the detailed bank-to-bank receipt that sits behind every international transfer.",
           "ar": "وهي الإيصال التفصيلي بين المصرفين الذي يقف خلف كل حوالة دولية.",
           "cues": [
-            { "at": "receipt", "icon": "two_docs", "label": "bank-to-bank receipt" }
+            {
+              "at": "receipt",
+              "icon": "two_docs",
+              "label": "bank-to-bank receipt"
+            }
           ]
         },
         {
           "en": "Two hours later, the bank emailed the SWIFT slip. Field 50 showed the ordering customer's name: Al-Mizan Contracting, Amman — Maham's client.",
           "ar": "بعد ساعتين، أرسل المصرف قسيمة سويفت بالبريد الإلكتروني. أظهر الحقل ٥٠ اسم العميل الآمر: شركة الميزان للمقاولات، عمّان — وهي عميلة شركة مهام.",
           "cues": [
-            { "at": "Field", "icon": "swift", "label": "Field 50 · ordering customer", "tone": "key" },
-            { "at": "Al-Mizan", "icon": "buyer", "label": "Al-Mizan Contracting, Amman", "tone": "good", "big": true }
+            {
+              "at": "Field",
+              "icon": "swift",
+              "label": "Field 50 · ordering customer",
+              "tone": "key"
+            },
+            {
+              "at": "Al-Mizan",
+              "icon": "buyer",
+              "label": "Al-Mizan Contracting, Amman",
+              "tone": "good",
+              "big": true
+            }
           ]
         },
         {
           "en": "Field 70 showed why the reference had disappeared: the remitting bank had cut off the text after twenty characters.",
           "ar": "وأظهر الحقل ٧٠ سبب اختفاء البيان: فقد قطع المصرف المُحوِّل النص بعد عشرين حرفاً.",
           "cues": [
-            { "at": "remitting", "icon": "bank_send", "label": "remitting bank", "term": true },
-            { "at": "cut", "icon": "scissors", "label": "text cut at 20 characters", "tone": "bad", "big": true }
+            {
+              "at": "remitting",
+              "icon": "bank_send",
+              "label": "remitting bank",
+              "term": true
+            },
+            {
+              "at": "cut",
+              "icon": "scissors",
+              "label": "text cut at 20 characters",
+              "tone": "bad",
+              "big": true
+            }
           ]
         }
       ]
     },
     {
-      "scene": "office_damascus",
+      "scene": "damascus",
       "chapter": "The fix",
       "chapterAr": "الحل",
       "lines": [
@@ -227,45 +358,82 @@
           "en": "Huda cleared the suspense account and matched the payment to Maham's invoice.",
           "ar": "أغلقت هدى الحساب المعلّق وطابقت الدفعة مع فاتورة شركة مهام.",
           "cues": [
-            { "at": "cleared", "icon": "approve", "label": "suspense cleared", "tone": "good" },
-            { "at": "matched", "icon": "match_docs", "label": "matched to Maham", "tone": "good" }
+            {
+              "at": "cleared",
+              "icon": "approve",
+              "label": "suspense cleared",
+              "tone": "good"
+            },
+            {
+              "at": "matched",
+              "icon": "match_docs",
+              "label": "matched to Maham",
+              "tone": "good"
+            }
           ]
         },
         {
           "en": "Then she added a new line to Al-Hasan's invoice footer: Please quote Invoice Number only in the first 15 characters of your transfer reference.",
           "ar": "ثم أضافت سطراً جديداً في تذييل فواتير الحسن: يُرجى ذكر رقم الفاتورة فقط ضمن أول ١٥ حرفاً من بيان الحوالة.",
           "cues": [
-            { "at": "footer", "icon": "invoice_new", "label": "new invoice footer", "tone": "good" },
-            { "at": "quote", "icon": "ref_line", "label": "Invoice No. in first 15 characters", "tone": "good", "big": true }
+            {
+              "at": "footer",
+              "icon": "invoice_new",
+              "label": "new invoice footer",
+              "tone": "good"
+            },
+            {
+              "at": "quote",
+              "icon": "ref_line",
+              "label": "Invoice No. in first 15 characters",
+              "tone": "good",
+              "big": true
+            }
           ]
         }
       ]
     }
   ],
-
   "takeaway": {
     "en": "Never guess who paid you. Park an unknown payment in a suspense account, get the SWIFT message, and then fix the form so it cannot happen again.",
     "ar": "لا تُخمّن أبداً من الذي دفع لك. ضع الدفعة المجهولة في حساب معلّق، واحصل على رسالة سويفت، ثم عدّل النموذج كي لا يتكرر الأمر.",
     "icon": "swift"
   },
-
   "questions": {
     "headline": "Comprehension",
     "headlineAr": "أسئلة الفهم",
     "items": [
-      { "en": "Why could Huda not immediately match the $18,400 transfer to an invoice?", "ar": "لماذا لم تستطع هدى مطابقة حوالة الـ ١٨٬٤٠٠ دولار بفاتورة على الفور؟" },
-      { "en": "Which two Group companies were expecting the exact same amount of $18,400?", "ar": "ما الشركتان في المجموعة اللتان كانتا تنتظران المبلغ نفسه تماماً: ١٨٬٤٠٠ دولار؟" },
-      { "en": "What two problems would happen if Huda posted the money to the wrong account?", "ar": "ما المشكلتان اللتان ستحدثان لو قيّدت هدى المبلغ في الحساب الخطأ؟" },
-      { "en": "Where did she record the money while she investigated?", "ar": "أين سجّلت المبلغ أثناء قيامها بالتحقق؟" },
-      { "en": "How did Huda finally discover who sent the money, and why had the reference vanished?", "ar": "كيف اكتشفت هدى في النهاية من أرسل المبلغ، ولماذا اختفى البيان؟" },
-      { "en": "What change did Huda make to Al-Hasan's invoice template afterwards?", "ar": "ما التعديل الذي أجرته هدى على نموذج فواتير الحسن بعد ذلك؟" }
+      {
+        "en": "Why could Huda not immediately match the $18,400 transfer to an invoice?",
+        "ar": "لماذا لم تستطع هدى مطابقة حوالة الـ ١٨٬٤٠٠ دولار بفاتورة على الفور؟"
+      },
+      {
+        "en": "Which two Group companies were expecting the exact same amount of $18,400?",
+        "ar": "ما الشركتان في المجموعة اللتان كانتا تنتظران المبلغ نفسه تماماً: ١٨٬٤٠٠ دولار؟"
+      },
+      {
+        "en": "What two problems would happen if Huda posted the money to the wrong account?",
+        "ar": "ما المشكلتان اللتان ستحدثان لو قيّدت هدى المبلغ في الحساب الخطأ؟"
+      },
+      {
+        "en": "Where did she record the money while she investigated?",
+        "ar": "أين سجّلت المبلغ أثناء قيامها بالتحقق؟"
+      },
+      {
+        "en": "How did Huda finally discover who sent the money, and why had the reference vanished?",
+        "ar": "كيف اكتشفت هدى في النهاية من أرسل المبلغ، ولماذا اختفى البيان؟"
+      },
+      {
+        "en": "What change did Huda make to Al-Hasan's invoice template afterwards?",
+        "ar": "ما التعديل الذي أجرته هدى على نموذج فواتير الحسن بعد ذلك؟"
+      }
     ]
   },
-
   "discussion": {
     "headline": "Talk about it",
     "headlineAr": "للنقاش",
     "en": "Some companies wait for the customer to complain before they trace an unknown payment. Why is Huda's proactive check better for business relationships?",
     "ar": "بعض الشركات تنتظر شكوى العميل قبل تتبّع دفعة مجهولة. لماذا يُعدّ تحقّق هدى الاستباقي أفضل لعلاقات العمل؟"
-  }
+  },
+  "speechScale": 0.8
 }

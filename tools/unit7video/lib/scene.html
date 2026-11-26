@@ -157,7 +157,7 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
   font-size:21px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;
   color:var(--accent);text-align:center}
 
-#cueStage{position:absolute;left:540px;right:70px;top:118px;height:530px;z-index:25}
+#cueStage{position:absolute;left:540px;right:70px;top:166px;height:482px;z-index:25}
 .cue{position:absolute;border-radius:26px;background:rgba(255,255,255,.075);
   border:1px solid var(--cardLine);box-shadow:var(--shadow);display:flex;flex-direction:column;
   align-items:center;justify-content:center;gap:18px;padding:26px 22px;text-align:center;
@@ -184,6 +184,48 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
 .cue.row.big .ci{font-size:60px}
 .cue.row.big .cl{font-size:30px}
 .cue.row .tag{left:auto;right:18px;transform:none}
+
+
+/* ---- richer cue cards: comparisons and document mock-ups ---- */
+.cue.wide{flex-direction:column;gap:14px}
+.cue.cmp{flex-direction:row;align-items:stretch;gap:0;padding:0;overflow:hidden}
+.cue.cmp .half{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;padding:22px 16px}
+.cue.cmp .half .lb{font-size:21px;font-weight:600;color:#9fb6cc;letter-spacing:.4px}
+.cue.cmp .half .vl{font-size:52px;font-weight:800;letter-spacing:-1.2px;line-height:1}
+.cue.cmp .half.bad{background:rgba(239,110,87,.13)} .cue.cmp .half.bad .vl{color:var(--bad)}
+.cue.cmp .half.good{background:rgba(70,197,131,.13)} .cue.cmp .half.good .vl{color:var(--good)}
+.cue.cmp .half.key{background:rgba(106,169,245,.13)} .cue.cmp .half.key .vl{color:var(--key)}
+.cue.cmp .half.warn{background:rgba(245,185,66,.13)} .cue.cmp .half.warn .vl{color:var(--amber)}
+.cue.cmp .vs{display:flex;align-items:center;justify-content:center;width:62px;font-size:20px;
+  font-weight:800;color:#8fa9c4;background:rgba(0,0,0,.26);letter-spacing:1px}
+.cue.cmp .note{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);font-size:19px;
+  font-weight:700;color:var(--accent);white-space:nowrap}
+
+.cue.docm{align-items:stretch;justify-content:flex-start;padding:0;overflow:hidden;
+  background:rgba(255,255,255,.085)}
+.cue.docm .dhead{display:flex;align-items:center;justify-content:space-between;
+  padding:14px 24px;background:rgba(255,255,255,.1);border-bottom:1px solid var(--cardLine)}
+.cue.docm .dtype{font-size:18px;font-weight:800;letter-spacing:2.2px;color:var(--accent);
+  text-transform:uppercase}
+.cue.docm .dno{font-size:22px;font-weight:700;color:#cfe0f2}
+.cue.docm .drow{display:flex;justify-content:space-between;gap:18px;padding:9px 24px;
+  font-size:25px;font-weight:600;color:#dbe7f3}
+.cue.docm .drow span:last-child{font-variant-numeric:tabular-nums;white-space:nowrap}
+.cue.docm .dtot{display:flex;justify-content:space-between;padding:12px 24px;margin-top:auto;
+  border-top:1px solid var(--cardLine);font-size:29px;font-weight:800}
+.cue.docm .dtot .amt{color:var(--accent);font-variant-numeric:tabular-nums}
+.cue.docm.bad .dtot .amt{color:var(--bad)} .cue.docm.good .dtot .amt{color:var(--good)}
+
+/* ---- chapter rail: where you are in the story ---- */
+#rail{position:absolute;left:540px;right:70px;top:104px;height:30px;z-index:26;display:none;
+  align-items:center;gap:10px}
+#rail .seg{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.14);position:relative}
+#rail .seg.done{background:rgba(255,255,255,.3)}
+#rail .seg.act{background:var(--accent);box-shadow:0 0 14px var(--accent)}
+#rail .seg .nm{position:absolute;top:10px;left:0;font-size:16px;font-weight:700;
+  letter-spacing:.8px;text-transform:uppercase;color:#7f99b4;white-space:nowrap}
+#rail .seg.act .nm{color:var(--accent)}
 
 /* subtitles */
 #subs{position:absolute;left:70px;right:70px;top:692px;bottom:34px;z-index:30;border-radius:30px;
@@ -332,6 +374,7 @@ body{font-family:Inter,sans-serif;color:var(--ink);-webkit-font-smoothing:antial
 
   <div class="panel hidden" id="pLine">
     <div id="rdNook"><div id="rdChar"></div><div id="rdCap"></div></div>
+    <div id="rail"></div>
     <div id="cueStage"></div>
   </div>
 

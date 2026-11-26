@@ -1,0 +1,255 @@
+{
+  "id": "text6",
+  "kind": "reading",
+  "unit": "Unit 7 · Finance",
+  "number": "Text 6",
+  "title": "One letter wrong on the Letter of Credit",
+  "titleAr": "كلمةٌ واحدة خاطئة في الاعتماد المستندي",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "narrator": { "voice": "en-US-AndrewNeural", "rate": "-8%", "look": "narrator_m" },
+  "accent": "amber",
+  "speechScale": 0.8,
+
+  "preview": {
+    "headline": "Before you read",
+    "headlineAr": "قبل القراءة",
+    "lines": [
+      {
+        "en": "A bank guarantees $120,000 as soon as you present the shipping documents.",
+        "ar": "يضمن المصرف مئة وعشرين ألف دولار فور تقديمك مستندات الشحن.",
+        "icon": "lc"
+      },
+      {
+        "en": "One word on your invoice is spelled differently from the bank's text.",
+        "ar": "كلمة واحدة في فاتورتك مكتوبة بصيغة مختلفة عن نص المصرف.",
+        "icon": "suffix_tag"
+      },
+      {
+        "en": "Can the bank refuse to pay?",
+        "ar": "هل يستطيع المصرف رفض الدفع؟",
+        "icon": "question"
+      }
+    ],
+    "teaser": {
+      "en": "Two thousand five hundred tonnes of perfect cement, and a bank that will not look at it.",
+      "ar": "ألفان وخمسمئة طن من الإسمنت السليم، ومصرفٌ لا ينظر إليها."
+    }
+  },
+
+  "vocab": {
+    "headline": "Words to listen for",
+    "headlineAr": "كلمات انتبه لها",
+    "items": [
+      {
+        "term": "irrevocable",
+        "ipa": "/ɪˈrev.ə.kə.bəl/",
+        "def": "cannot be cancelled or changed without everyone's agreement",
+        "ar": "غير قابل للإلغاء",
+        "arDef": "لا يمكن إلغاؤه أو تعديله دون موافقة جميع الأطراف",
+        "icon": "lc"
+      },
+      {
+        "term": "a discrepancy",
+        "ipa": "/dɪˈskrep.ən.si/",
+        "def": "a difference or mismatch between two official documents",
+        "ar": "تضارب / اختلاف مستندي",
+        "arDef": "فرق أو عدم تطابق بين وثيقتين رسميتين",
+        "icon": "match_docs"
+      },
+      {
+        "term": "to waive",
+        "ipa": "/weɪv/",
+        "def": "to formally agree not to enforce a rule or an error",
+        "ar": "يتنازل عن / يُسقط",
+        "arDef": "الموافقة رسمياً على عدم التمسك بقاعدة أو خطأ",
+        "icon": "approve"
+      },
+      {
+        "term": "UCP 600",
+        "ipa": "/ˌjuː siː ˈpiː sɪks ˈhʌn.drəd/",
+        "def": "the international rules governing Letters of Credit",
+        "ar": "الأصول الموحّدة UCP 600",
+        "arDef": "القواعد الدولية التي تحكم الاعتمادات المستندية",
+        "icon": "shield"
+      },
+      {
+        "term": "Bill of Lading",
+        "ipa": "/bɪl əv ˈleɪ.dɪŋ/",
+        "def": "the shipping document proving the goods were loaded",
+        "ar": "بوليصة الشحن",
+        "arDef": "مستند الشحن الذي يثبت تحميل البضاعة",
+        "icon": "bill_lading"
+      }
+    ]
+  },
+
+  "paragraphs": [
+    {
+      "scene": "port",
+      "chapter": "The biggest order of the year",
+      "chapterAr": "أكبر طلبية في العام",
+      "lines": [
+        {
+          "en": "In October, Bashak won its largest export order of the year: two thousand five hundred tonnes of bagged cement for a construction group in East Africa, worth $120,000.",
+          "ar": "في تشرين الأول، فازت شركة بشاك بأكبر طلبية تصدير في العام: ألفان وخمسمئة طن من الإسمنت المعبّأ لمجموعة إنشاءات في شرق أفريقيا، بقيمة ١٢٠٬٠٠٠ دولار.",
+          "cues": [
+            { "at": "two", "icon": "cement", "label": "2,500 tonnes bagged cement" },
+            { "at": "$120,000", "icon": "contract", "label": "$120,000 export order", "tone": "good", "big": true }
+          ]
+        },
+        {
+          "en": "Because it was a first-time buyer, Lina and Mr. Tarek insisted on an irrevocable Letter of Credit confirmed by a prime international bank.",
+          "ar": "ولأنه مشترٍ لأول مرة، أصرّت لينا والسيد طارق على اعتماد مستندي غير قابل للإلغاء مُعزَّز من مصرف دولي من الدرجة الأولى.",
+          "cues": [
+            { "at": "first-time", "icon": "buyer", "label": "first-time buyer", "tone": "warn" },
+            { "at": "irrevocable", "icon": "lc", "label": "irrevocable, confirmed LC", "tone": "key", "big": true, "term": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "port",
+      "chapter": "The documents go in",
+      "chapterAr": "تقديم المستندات",
+      "lines": [
+        {
+          "en": "Komosh loaded the vessel on schedule in Lattakia, and Mr. Samir handed Huda the clean Bill of Lading, the Certificate of Origin, and the packing list.",
+          "ar": "حمّلت كوموش السفينة في موعدها في اللاذقية، وسلّم السيد سمير هدى بوليصة الشحن النظيفة وشهادة المنشأ وقائمة التعبئة.",
+          "cues": [
+            { "at": "loaded", "icon": "cargo_ship", "label": "loaded on schedule, Lattakia", "tone": "good" },
+            { "at": "clean", "icon": "bill_lading", "label": "clean Bill of Lading", "term": true }
+          ]
+        },
+        {
+          "en": "Huda prepared the commercial invoice and took the complete set of documents to Al-Hasan's bank in Damascus to claim the $120,000.",
+          "ar": "أعدّت هدى الفاتورة التجارية، وحملت المجموعة الكاملة من المستندات إلى مصرف الحسن في دمشق للمطالبة بالمئة والعشرين ألف دولار.",
+          "cues": [
+            { "at": "invoice", "icon": "invoice", "label": "commercial invoice" },
+            { "at": "claim", "icon": "bank_send", "label": "present documents, claim $120,000", "tone": "key" }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "bank",
+      "chapter": "Two discrepancies",
+      "chapterAr": "تضاربان مستنديان",
+      "lines": [
+        {
+          "en": "Two days later, the bank called Lina with bad news. The confirming bank had rejected the documents because of two discrepancies.",
+          "ar": "بعد يومين، اتصل المصرف بلينا بخبر سيئ. فقد رفض المصرف المعزِّز المستندات بسبب تضاربين.",
+          "cues": [
+            { "at": "rejected", "icon": "block_rule", "label": "documents rejected", "tone": "bad", "big": true },
+            { "at": "discrepancies", "icon": "match_docs", "label": "two discrepancies", "tone": "bad", "term": true }
+          ]
+        },
+        {
+          "en": "First, the Letter of Credit described the goods as Portland Cement in fifty kilogram kraft paper bags, whereas Huda's invoice wrote Portland Cement in fifty kilogram paper bags.",
+          "ar": "أولاً، وصف الاعتماد المستندي البضاعة بأنها إسمنت بورتلاندي في أكياس ورق كرافت زنة خمسين كيلوغراماً، بينما كتبت فاتورة هدى إسمنت بورتلاندي في أكياس ورقية زنة خمسين كيلوغراماً.",
+          "cues": [
+            {
+              "at": "whereas", "kind": "compare", "term": true,
+              "a": { "label": "The LC says", "value": "kraft paper bags", "tone": "good" },
+              "b": { "label": "The invoice says", "value": "paper bags", "tone": "bad" },
+              "note": "one missing word: kraft"
+            }
+          ]
+        },
+        {
+          "en": "Second, the Bill of Lading was presented twenty-two days after shipment, while the Letter of Credit allowed only twenty-one.",
+          "ar": "ثانياً، قُدّمت بوليصة الشحن بعد اثنين وعشرين يوماً من الشحن، بينما كان الاعتماد يسمح بواحد وعشرين يوماً فقط.",
+          "cues": [
+            {
+              "at": "twenty-two", "kind": "compare",
+              "a": { "label": "LC allowed", "value": "21 days", "tone": "good" },
+              "b": { "label": "Presented after", "value": "22 days", "tone": "bad" },
+              "note": "one day late"
+            }
+          ]
+        },
+        {
+          "en": "Under international banking rules, known as UCP 600, banks deal only in documents, not in goods.",
+          "ar": "وبموجب القواعد المصرفية الدولية المعروفة بـ UCP 600، تتعامل المصارف مع المستندات فقط، لا مع البضائع.",
+          "cues": [
+            { "at": "UCP", "icon": "shield", "label": "UCP 600", "tone": "key", "term": true },
+            { "at": "documents", "icon": "two_docs", "label": "banks deal in documents, not goods", "tone": "key", "big": true }
+          ]
+        },
+        {
+          "en": "Even though two thousand five hundred tonnes of perfect cement were already sitting at the buyer's port, the bank's guarantee was now suspended.",
+          "ar": "ورغم أن ألفين وخمسمئة طن من الإسمنت السليم كانت موجودة فعلاً في ميناء المشتري، فقد عُلّق ضمان المصرف.",
+          "cues": [
+            { "at": "perfect", "icon": "cargo_ship", "label": "the cement is perfect", "tone": "good" },
+            { "at": "suspended", "icon": "freeze", "label": "guarantee suspended", "tone": "bad", "big": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "bank",
+      "chapter": "Lucky this time",
+      "chapterAr": "محظوظون هذه المرة",
+      "lines": [
+        {
+          "en": "Worse, the bank charged a one hundred and fifty dollar discrepancy fee, and asked the buyer whether they would waive the errors.",
+          "ar": "والأسوأ، أن المصرف فرض رسم تضارب مستندي قدره مئة وخمسون دولاراً، وسأل المشتري إن كان سيتنازل عن الأخطاء.",
+          "cues": [
+            { "at": "charged", "icon": "deduct", "label": "$150 discrepancy fee", "tone": "bad" },
+            { "at": "waive", "icon": "approve", "label": "will the buyer waive it?", "tone": "warn", "term": true }
+          ]
+        },
+        {
+          "en": "Fortunately, the buyer needed the cement urgently and accepted the waiver within forty-eight hours, releasing the $120,000.",
+          "ar": "لحسن الحظ، كان المشتري بحاجة ماسّة إلى الإسمنت، فقبل التنازل خلال ثمانٍ وأربعين ساعة، فأُفرج عن المئة والعشرين ألف دولار.",
+          "cues": [
+            { "at": "accepted", "icon": "approve", "label": "waiver accepted in 48 h", "tone": "good" },
+            { "at": "releasing", "icon": "paid", "label": "$120,000 released", "tone": "good", "big": true }
+          ]
+        },
+        {
+          "en": "\"We were lucky this time,\" Mr. Tarek told the finance and logistics teams. \"If cement prices had fallen that week, a dishonest buyer could have used that missing word to demand a ten per cent discount.\"",
+          "ar": "وقال السيد طارق لفريقي المالية واللوجستيات: «كنا محظوظين هذه المرة. فلو انخفضت أسعار الإسمنت ذلك الأسبوع، لاستطاع مشترٍ غير أمين استخدام تلك الكلمة الناقصة للمطالبة بخصم عشرة بالمئة.»",
+          "cues": [
+            { "at": "dishonest", "icon": "hacker", "label": "leverage for a bad buyer", "tone": "bad" },
+            { "at": "discount", "icon": "profit_loss", "label": "−10% = −$12,000", "tone": "bad", "big": true }
+          ]
+        },
+        {
+          "en": "\"From today, Huda and Mr. Samir check every Letter of Credit word for word before the ship sails.\"",
+          "ar": "«واعتباراً من اليوم، تفحص هدى والسيد سمير كل اعتماد مستندي كلمةً كلمة قبل أن تبحر السفينة.»",
+          "cues": [
+            { "at": "word", "icon": "match_docs", "label": "check the LC word for word", "tone": "good", "big": true },
+            { "at": "sails", "icon": "cargo_ship", "label": "before the ship sails", "tone": "key" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "A Letter of Credit pays against documents, not against goods. Copy the bank's wording exactly, and check it before the vessel leaves — not after.",
+    "ar": "الاعتماد المستندي يدفع مقابل المستندات لا مقابل البضائع. انسخ صيغة المصرف حرفياً، وافحصها قبل مغادرة السفينة لا بعدها.",
+    "icon": "lc"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "Why did Al-Hasan insist on a Letter of Credit for this $120,000 order?", "ar": "لماذا أصرّ الحسن على اعتماد مستندي لهذه الطلبية البالغة ١٢٠٬٠٠٠ دولار؟" },
+      { "en": "What were the two discrepancies that caused the bank to reject the documents?", "ar": "ما التضاربان اللذان دفعا المصرف إلى رفض المستندات؟" },
+      { "en": "Why did the bank refuse to pay even though the cement itself was completely fine?", "ar": "لماذا رفض المصرف الدفع رغم أن الإسمنت نفسه كان سليماً تماماً؟" },
+      { "en": "What two consequences did the discrepancies trigger?", "ar": "ما النتيجتان اللتان ترتّبتا على التضاربين؟" },
+      { "en": "What risk did Mr. Tarek point out if market prices had dropped?", "ar": "ما الخطر الذي أشار إليه السيد طارق لو انخفضت أسعار السوق؟" },
+      { "en": "What new procedure did Mr. Tarek order for future LC shipments?", "ar": "ما الإجراء الجديد الذي أمر به السيد طارق لشحنات الاعتمادات المستقبلية؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Talk about it",
+    "headlineAr": "للنقاش",
+    "en": "Why do banks check Letters of Credit so strictly, word for word, instead of checking the actual goods on the ship?",
+    "ar": "لماذا تفحص المصارف الاعتمادات المستندية بهذه الصرامة، كلمةً كلمة، بدلاً من فحص البضاعة الفعلية على السفينة؟"
+  }
+}

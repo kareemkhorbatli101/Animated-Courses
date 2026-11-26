@@ -339,5 +339,6 @@
     "headlineAr": "تمثيل الأدوار",
     "en": "Student A is a new supplier demanding 100% cash before production begins on a $30,000 machine. Student B is Rami, negotiating a staged payment: deposit, before shipment, and after commissioning.",
     "ar": "الطالب (أ) مورّد جديد يطالب بالدفع النقدي الكامل قبل بدء الإنتاج على آلة بقيمة ٣٠٬٠٠٠ دولار. والطالب (ب) هو رامي، يتفاوض على دفع على مراحل: عربون، وقبل الشحن، وبعد التشغيل."
-  }
+  },
+  "speechScale": 0.8
 }

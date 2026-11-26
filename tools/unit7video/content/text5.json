@@ -1,0 +1,247 @@
+{
+  "id": "text5",
+  "kind": "reading",
+  "unit": "Unit 7 · Finance",
+  "number": "Text 5",
+  "title": "Dollars, euros, and the Friday rate",
+  "titleAr": "دولارات ويوروهات وسعرُ يوم الجمعة",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "narrator": { "voice": "en-US-AndrewNeural", "rate": "-8%", "look": "narrator_m" },
+  "accent": "amber",
+  "speechScale": 0.8,
+
+  "preview": {
+    "headline": "Before you read",
+    "headlineAr": "قبل القراءة",
+    "lines": [
+      {
+        "en": "You sign a contract in euros, but you want to pay in US dollars.",
+        "ar": "توقّع عقداً باليورو، لكنك تريد الدفع بالدولار الأمريكي.",
+        "icon": "sha_our"
+      },
+      {
+        "en": "Between nine in the morning and two in the afternoon, the rate moves.",
+        "ar": "بين التاسعة صباحاً والثانية ظهراً، يتحرّك سعر الصرف.",
+        "icon": "profit_loss"
+      },
+      {
+        "en": "Why might the two companies disagree about how much money is owed?",
+        "ar": "لماذا قد تختلف الشركتان على قيمة المبلغ المستحق؟",
+        "icon": "question"
+      }
+    ],
+    "teaser": {
+      "en": "Five hours. Three hundred dollars. And nobody did anything wrong.",
+      "ar": "خمس ساعات. ثلاثمئة دولار. ولم يُخطئ أحد."
+    }
+  },
+
+  "vocab": {
+    "headline": "Words to listen for",
+    "headlineAr": "كلمات انتبه لها",
+    "items": [
+      {
+        "term": "exchange rate",
+        "ipa": "/ɪksˈtʃeɪndʒ reɪt/",
+        "def": "the price of one currency in terms of another",
+        "ar": "سعر الصرف",
+        "arDef": "قيمة عملة مقابل عملة أخرى",
+        "icon": "sha_our"
+      },
+      {
+        "term": "value date",
+        "ipa": "/ˈvæl.juː deɪt/",
+        "def": "the official date on which money becomes available to the receiver",
+        "ar": "تاريخ القيمة",
+        "arDef": "التاريخ الرسمي الذي تصبح فيه الأموال متاحة للمستفيد",
+        "icon": "due_date"
+      },
+      {
+        "term": "beneficiary",
+        "ipa": "/ˌben.ɪˈfɪʃ.ər.i/",
+        "def": "the person or company receiving a payment",
+        "ar": "المستفيد",
+        "arDef": "الشخص أو الشركة التي تتلقى الدفعة",
+        "icon": "buyer"
+      },
+      {
+        "term": "excess",
+        "ipa": "/ˈek.ses/",
+        "def": "more than the required amount",
+        "ar": "الفائض",
+        "arDef": "ما زاد عن المبلغ المطلوب",
+        "icon": "deduct"
+      },
+      {
+        "term": "reference rate",
+        "ipa": "/ˈref.rəns reɪt/",
+        "def": "an official published rate that both sides agree to use",
+        "ar": "السعر المرجعي",
+        "arDef": "سعر رسمي منشور يتفق الطرفان على اعتماده",
+        "icon": "bank_chain"
+      }
+    ]
+  },
+
+  "paragraphs": [
+    {
+      "scene": "plant",
+      "chapter": "A euro invoice",
+      "chapterAr": "فاتورةٌ باليورو",
+      "lines": [
+        {
+          "en": "In June, Chemco agreed to buy specialized laboratory testing reagents from a German supplier.",
+          "ar": "في حزيران، اتفقت شركة كيمكو على شراء كواشف مخبرية متخصّصة للفحص من مورّد ألماني.",
+          "cues": [
+            { "at": "Chemco", "icon": "factory", "label": "Chemco · laboratory reagents" },
+            { "at": "German", "icon": "buyer", "label": "German supplier" }
+          ]
+        },
+        {
+          "en": "The quoted price was twenty thousand euros, payable thirty days after delivery.",
+          "ar": "وكان السعر المعروض عشرين ألف يورو، تُدفع بعد ثلاثين يوماً من التسليم.",
+          "cues": [
+            { "at": "quoted", "icon": "contract", "label": "€20,000 · 30 days", "tone": "good", "big": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "bank",
+      "chapter": "The wrong pocket is full",
+      "chapterAr": "الجيب الممتلئ هو الخطأ",
+      "lines": [
+        {
+          "en": "When the thirty days ended, Al-Hasan's euro account was temporarily low, because two European customers had delayed their settlements.",
+          "ar": "عندما انتهت الثلاثون يوماً، كان حساب الحسن باليورو منخفضاً مؤقتاً، لأن عميلين أوروبيين تأخّرا في السداد.",
+          "cues": [
+            { "at": "euro", "icon": "cash_tight", "label": "euro account low", "tone": "bad" },
+            { "at": "delayed", "icon": "clock_late", "label": "two customers paid late", "tone": "warn" }
+          ]
+        },
+        {
+          "en": "The US dollar account, however, held plenty of cash. Rami asked Lina if Al-Hasan could pay the German supplier in US dollars instead.",
+          "ar": "لكن حساب الدولار الأمريكي كان يحوي سيولة وفيرة. فسأل رامي لينا إن كان بإمكان الحسن الدفع للمورّد الألماني بالدولار بدلاً من ذلك.",
+          "cues": [
+            { "at": "dollar", "icon": "money_ready", "label": "dollar account full", "tone": "good" },
+            { "at": "instead", "icon": "sha_our", "label": "pay in USD instead?", "tone": "key" }
+          ]
+        },
+        {
+          "en": "\"We can,\" said Lina, \"but we must agree on the exchange rate in writing before Huda sends a single cent.\"",
+          "ar": "قالت لينا: «يمكننا ذلك، لكن علينا الاتفاق على سعر الصرف كتابةً قبل أن ترسل هدى سنتاً واحداً.»",
+          "cues": [
+            { "at": "writing", "icon": "email_confirm", "label": "agree the rate in writing first", "tone": "key", "big": true, "term": true }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "bank",
+      "chapter": "Five hours, three hundred dollars",
+      "chapterAr": "خمس ساعات وثلاثمئة دولار",
+      "lines": [
+        {
+          "en": "The supplier agreed to accept US dollars, provided Al-Hasan used the European Central Bank reference rate on the value date of the transfer.",
+          "ar": "وافق المورّد على قبول الدولار الأمريكي، شريطة أن يستخدم الحسن السعر المرجعي للبنك المركزي الأوروبي في تاريخ قيمة الحوالة.",
+          "cues": [
+            { "at": "reference", "icon": "bank_chain", "label": "ECB reference rate", "tone": "key", "term": true },
+            { "at": "value", "icon": "due_date", "label": "on the value date", "term": true }
+          ]
+        },
+        {
+          "en": "On Friday morning at nine o'clock, the rate was 1.08 dollars to one euro, making twenty thousand euros equal to $21,600.",
+          "ar": "صباح الجمعة في التاسعة، كان السعر ١٫٠٨ دولار لليورو الواحد، أي أن عشرين ألف يورو تعادل ٢١٬٦٠٠ دولار.",
+          "cues": [
+            { "at": "nine", "icon": "clock_fast", "label": "09:00 · rate 1.08" },
+            { "at": "$21,600", "icon": "money_ready", "label": "€20,000 = $21,600", "tone": "good", "big": true }
+          ]
+        },
+        {
+          "en": "By the time Huda initiated the transfer at two o'clock, currency markets had moved to 1.095, which would cost $21,900 — a three hundred dollar difference in five hours.",
+          "ar": "وبحلول الوقت الذي بدأت فيه هدى الحوالة عند الثانية، كانت أسواق العملات قد تحرّكت إلى ١٫٠٩٥، أي بتكلفة ٢١٬٩٠٠ دولار — بفارق ثلاثمئة دولار خلال خمس ساعات.",
+          "cues": [
+            {
+              "at": "moved", "kind": "compare",
+              "a": { "label": "09:00 · rate 1.08", "value": "$21,600", "tone": "good" },
+              "b": { "label": "14:00 · rate 1.095", "value": "$21,900", "tone": "bad" },
+              "note": "+$300 in five hours, same €20,000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "bank",
+      "chapter": "Pay the euros, not the dollars",
+      "chapterAr": "ادفع اليورو لا الدولار",
+      "lines": [
+        {
+          "en": "Worse, if Al-Hasan had simply sent $21,600 without confirming the time-stamp of the rate, the German supplier's bank would have converted the dollars at its own commercial retail rate.",
+          "ar": "والأسوأ، لو أن الحسن أرسل ببساطة ٢١٬٦٠٠ دولار دون تأكيد توقيت السعر، لكان مصرف المورّد الألماني قد حوّل الدولارات بسعره التجاري للتجزئة.",
+          "cues": [
+            { "at": "converted", "icon": "bank_chain", "label": "their bank picks the rate", "tone": "bad" }
+          ]
+        },
+        {
+          "en": "That would have left Al-Hasan two hundred and eighty euros short on the invoice.",
+          "ar": "وكان ذلك سيترك الحسن مديناً بمئتين وثمانين يورو على الفاتورة.",
+          "cues": [
+            { "at": "short", "icon": "deduct", "label": "€280 short — invoice still open", "tone": "bad", "big": true }
+          ]
+        },
+        {
+          "en": "So Lina instructed Huda to send $21,950, with an explicit instruction to the bank: credit beneficiary the exact amount of twenty thousand euros, and return any excess dollars.",
+          "ar": "لذلك أوعزت لينا إلى هدى بإرسال ٢١٬٩٥٠ دولاراً، مع تعليمات صريحة للمصرف: قيّد لحساب المستفيد مبلغ عشرين ألف يورو بالضبط، وأعِد أي دولارات فائضة.",
+          "cues": [
+            {
+              "at": "credit", "kind": "doc", "tone": "key", "docType": "transfer instruction",
+              "title": "to the bank",
+              "rows": [
+                ["Send", "$21,950"],
+                ["Credit beneficiary exactly", "€20,000.00"],
+                ["Return any excess USD", "to sender"]
+              ],
+              "totalLabel": "Returned next day", "total": "$50"
+            }
+          ]
+        },
+        {
+          "en": "That way the supplier received every euro cent owed, the invoice closed cleanly, and fifty dollars was credited back to Damascus the next day.",
+          "ar": "وبهذه الطريقة استلم المورّد كل سنت يورو مستحق، وأُغلقت الفاتورة بنظافة، وأُعيد قيد خمسين دولاراً إلى دمشق في اليوم التالي.",
+          "cues": [
+            { "at": "received", "icon": "paid", "label": "€20,000.00 exactly", "tone": "good", "big": true },
+            { "at": "credited", "icon": "approve", "label": "$50 excess returned", "tone": "good" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "When you pay a foreign invoice in a different currency, fix the rate in writing and instruct the bank in the invoice currency. Let the excess come back to you.",
+    "ar": "عندما تسدّد فاتورة أجنبية بعملة مختلفة، ثبّت السعر كتابةً وأصدر التعليمات للمصرف بعملة الفاتورة. ودع الفائض يعود إليك.",
+    "icon": "sha_our"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "Why did Al-Hasan want to pay a euro invoice using US dollars?", "ar": "لماذا أراد الحسن سداد فاتورة باليورو باستخدام الدولار الأمريكي؟" },
+      { "en": "What condition did the German supplier set for accepting US dollars?", "ar": "ما الشرط الذي وضعه المورّد الألماني لقبول الدولار الأمريكي؟" },
+      { "en": "How much did the dollar cost of €20,000 change between nine and two on Friday?", "ar": "كم تغيّرت تكلفة العشرين ألف يورو بالدولار بين التاسعة والثانية يوم الجمعة؟" },
+      { "en": "What would have happened if Huda had simply sent $21,600 without an exact-euro instruction?", "ar": "ماذا كان سيحدث لو أرسلت هدى ٢١٬٦٠٠ دولار فقط دون تعليمات بمبلغ اليورو بالضبط؟" },
+      { "en": "How did Lina guarantee that the supplier received the exact €20,000?", "ar": "كيف ضمنت لينا أن يستلم المورّد عشرين ألف يورو بالضبط؟" },
+      { "en": "Why is the value date more important here than the date of the contract?", "ar": "لماذا يُعدّ تاريخ القيمة هنا أهم من تاريخ العقد؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Talk about it",
+    "headlineAr": "للنقاش",
+    "en": "When a company buys in euros and sells in dollars, currency swings can wipe out profit. How can an import-export company protect itself against exchange-rate changes?",
+    "ar": "عندما تشتري الشركة باليورو وتبيع بالدولار، قد تمحو تقلبات العملة الربح. كيف يمكن لشركة استيراد وتصدير أن تحمي نفسها من تغيّرات أسعار الصرف؟"
+  }
+}

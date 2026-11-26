@@ -93,6 +93,45 @@ var SKY = {
     RACK(40, 96) + RACK(150, 60) + RACK(258, 130) + RACK(366, 80) +
     RACK(474, 110) + RACK(582, 52) + RACK(690, 124) + RACK(798, 74) +
     RACK(906, 104) + RACK(1014, 64) + RACK(1108, 92) +
+    '</g></svg>',
+  port:
+    '<svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax meet">' +
+    '<g fill="currentColor">' +
+    '<rect x="0" y="262" width="1200" height="38"/>' +
+    /* gantry cranes */
+    '<path d="M70 262V96h190v166h-18V114H88v148z"/><rect x="60" y="86" width="210" height="14"/>' +
+    '<rect x="150" y="100" width="12" height="70"/><rect x="128" y="166" width="56" height="30"/>' +
+    '<path d="M430 262V76h190v186h-18V94H448v168z"/><rect x="420" y="66" width="210" height="14"/>' +
+    '<rect x="510" y="80" width="12" height="86"/><rect x="488" y="162" width="56" height="30"/>' +
+    /* stacked containers */
+    '<rect x="700" y="214" width="86" height="24"/><rect x="700" y="240" width="86" height="24"/>' +
+    '<rect x="794" y="240" width="86" height="24"/><rect x="888" y="214" width="86" height="24"/>' +
+    '<rect x="888" y="240" width="86" height="24"/><rect x="982" y="240" width="86" height="24"/>' +
+    '<rect x="1076" y="214" width="86" height="50"/>' +
+    '</g></svg>',
+  plant:
+    '<svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax meet">' +
+    '<g fill="currentColor">' +
+    '<rect x="0" y="266" width="1200" height="34"/>' +
+    '<path d="M60 266V150l70 44V150l70 44V96h120v170z"/>' +
+    '<rect x="196" y="60" width="26" height="40"/><rect x="246" y="60" width="26" height="40"/>' +
+    '<path d="M360 266V176h150v90z"/><rect x="396" y="130" width="22" height="48"/>' +
+    '<circle cx="620" cy="190" r="56"/><rect x="564" y="190" width="112" height="76"/>' +
+    '<path d="M740 266V140h110v126z"/><rect x="770" y="104" width="20" height="38"/>' +
+    '<path d="M900 266V170l64 38v-38l64 38v58z"/>' +
+    '<rect x="1060" y="196" width="110" height="70"/>' +
+    '</g></svg>',
+  bank:
+    '<svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax meet">' +
+    '<g fill="currentColor">' +
+    '<rect x="0" y="268" width="1200" height="32"/>' +
+    '<path d="M300 268V120h600v148z" opacity=".55"/>' +
+    '<path d="M280 120L600 30l320 90z"/><rect x="280" y="120" width="640" height="18"/>' +
+    '<rect x="350" y="150" width="34" height="112"/><rect x="440" y="150" width="34" height="112"/>' +
+    '<rect x="530" y="150" width="34" height="112"/><rect x="620" y="150" width="34" height="112"/>' +
+    '<rect x="710" y="150" width="34" height="112"/><rect x="800" y="150" width="34" height="112"/>' +
+    '<rect x="270" y="262" width="660" height="14"/>' +
+    '<rect x="80" y="200" width="120" height="68"/><rect x="1000" y="190" width="130" height="78"/>' +
     '</g></svg>'
 };
 
@@ -116,36 +155,79 @@ function handset(side, look) {
 }
 
 /* ------------------------------------------------------------ cue layout */
-function layoutCues(n, W, H, mode) {
-  var g = 34, out = [], w, h, x0, y0;
+function layoutCues(cues, W, H, mode) {
+  var g = 30, out = [], i;
 
   if (mode === 'stack') {                       // one column of wide rows
-    h = Math.min(126, (H - g * (n - 1)) / n);
-    y0 = (H - (h * n + g * (n - 1))) / 2;
-    for (var i = 0; i < n; i++) out.push({ x: 0, y: y0 + i * (h + g), w: W, h: h });
+    var hh = Math.min(126, (H - g * (cues.length - 1)) / cues.length);
+    var yy = (H - (hh * cues.length + g * (cues.length - 1))) / 2;
+    for (i = 0; i < cues.length; i++) out.push({ x: 0, y: yy + i * (hh + g), w: W, h: hh });
     return out;
   }
 
-  if (n <= 1) {
-    w = Math.min(620, W * .52); h = Math.min(340, H * .64);
-    return [{ x: (W - w) / 2, y: (H - h) / 2, w: w, h: h }];
+  /* pack into rows: a wide card takes a row to itself, plain cards pair up */
+  var rows = [], cur = [];
+  for (i = 0; i < cues.length; i++) {
+    if (isWide(cues[i])) {
+      if (cur.length) { rows.push(cur); cur = []; }
+      rows.push([cues[i]]);
+    } else {
+      cur.push(cues[i]);
+      if (cur.length === 2) { rows.push(cur); cur = []; }
+    }
   }
-  if (n === 2) {
-    w = Math.min(560, (W - g) / 2); h = Math.min(336, H * .64);
-    y0 = (H - h) / 2; x0 = (W - (w * 2 + g)) / 2;
-    return [{ x: x0, y: y0, w: w, h: h }, { x: x0 + w + g, y: y0, w: w, h: h }];
+  if (cur.length) rows.push(cur);
+
+  /* rows ask for the height their content needs, then shrink together if the
+     stage cannot give them all of it */
+  var n = rows.length, prefs = [], r;
+  for (r = 0; r < n; r++) {
+    var only = rows[r].length === 1 ? rows[r][0] : null;
+    prefs.push(only && only.kind === 'doc' ? 304
+             : only && only.kind === 'compare' ? 248
+             : only ? 264 : 240);
   }
-  w = Math.min(540, (W - g) / 2); h = Math.min(252, (H - g) / 2);
-  var y1 = (H - (h * 2 + g)) / 2;
-  x0 = (W - (w * 2 + g)) / 2;
-  out.push({ x: x0, y: y1, w: w, h: h });
-  out.push({ x: x0 + w + g, y: y1, w: w, h: h });
-  if (n === 3) out.push({ x: (W - w) / 2, y: y1 + h + g, w: w, h: h });
-  else {
-    out.push({ x: x0, y: y1 + h + g, w: w, h: h });
-    out.push({ x: x0 + w + g, y: y1 + h + g, w: w, h: h });
+  /* a document card has a floor: its header, rows and total cannot be squeezed.
+     Plain cards give up their space first, and only if that is not enough does
+     everything shrink together. */
+  var floors = [];
+  for (r = 0; r < n; r++) {
+    var o = rows[r].length === 1 ? rows[r][0] : null;
+    floors.push(o && o.kind === 'doc' ? Math.min(prefs[r], 96 + 52 * ((o.rows || []).length + (o.total ? 1 : 0)))
+              : 150);
   }
-  return out.slice(0, n);
+  var budget = H - g * (n - 1);
+  var want = prefs.reduce(function (a, b) { return a + b; }, 0);
+  if (want > budget) {
+    var slack = want - budget;
+    var giveable = 0;
+    for (r = 0; r < n; r++) giveable += prefs[r] - floors[r];
+    if (giveable >= slack && giveable > 0) {
+      for (r = 0; r < n; r++) prefs[r] -= (prefs[r] - floors[r]) * (slack / giveable);
+    } else {
+      var k = budget / want;
+      for (r = 0; r < n; r++) prefs[r] = prefs[r] * k;
+    }
+  }
+  var used = prefs.reduce(function (a, b) { return a + b; }, 0) + g * (n - 1);
+  var y0 = (H - used) / 2, idx = 0, acc = y0;
+  for (r = 0; r < n; r++) {
+    var row = rows[r], y = acc, h = prefs[r];
+    acc += h + g;
+    if (row.length === 1) {
+      var w = isWide(row[0]) ? Math.min(1060, W) : Math.min(620, W * 0.52);
+      out[idx++] = { x: (W - w) / 2, y: y, w: w, h: h };
+    } else {
+      var w2 = Math.min(540, (W - g) / 2), x0 = (W - (w2 * 2 + g)) / 2;
+      out[idx++] = { x: x0, y: y, w: w2, h: h };
+      out[idx++] = { x: x0 + w2 + g, y: y, w: w2, h: h };
+    }
+  }
+  return out;
+}
+
+function isWide(c) {
+  return c.kind === 'compare' || c.kind === 'doc' || c.wide === true;
 }
 
 /* resolve each cue's absolute fire time from the word timings */
@@ -167,10 +249,36 @@ function prepCues(s) {
 }
 
 function cueHTML(c, mode) {
-  var cls = 'cue' + (c.tone ? ' ' + c.tone : '') + (c.big ? ' big' : '') +
-            (mode === 'stack' ? ' row' : '');
-  return '<div class="' + cls + '">' +
-    (c.term ? '<span class="tag">KEY TERM</span>' : '') +
+  var tone = c.tone ? ' ' + c.tone : '';
+  var tag = c.term ? '<span class="tag">KEY TERM</span>' : '';
+
+  if (c.kind === 'compare') {
+    return '<div class="cue cmp' + tone + '">' + tag +
+      '<div class="half ' + (c.a.tone || 'bad') + '">' +
+        '<span class="lb">' + esc(c.a.label) + '</span>' +
+        '<span class="vl">' + esc(c.a.value) + '</span></div>' +
+      '<div class="vs">vs</div>' +
+      '<div class="half ' + (c.b.tone || 'good') + '">' +
+        '<span class="lb">' + esc(c.b.label) + '</span>' +
+        '<span class="vl">' + esc(c.b.value) + '</span></div>' +
+      (c.note ? '<span class="note">' + esc(c.note) + '</span>' : '') +
+      '</div>';
+  }
+
+  if (c.kind === 'doc') {
+    var rows = (c.rows || []).map(function (r) {
+      return '<div class="drow"><span>' + esc(r[0]) + '</span><span>' + esc(r[1]) + '</span></div>';
+    }).join('');
+    return '<div class="cue docm' + tone + '">' + tag +
+      '<div class="dhead"><span class="dtype">' + esc(c.docType || 'document') + '</span>' +
+      '<span class="dno">' + esc(c.title || '') + '</span></div>' + rows +
+      (c.total ? '<div class="dtot"><span>' + esc(c.totalLabel || 'Total') + '</span>' +
+                 '<span class="amt">' + esc(c.total) + '</span></div>' : '') +
+      '</div>';
+  }
+
+  var cls = 'cue' + tone + (c.big ? ' big' : '') + (mode === 'stack' ? ' row' : '');
+  return '<div class="' + cls + '">' + tag +
     '<span class="ci">' + window.icon(c.icon) + '</span>' +
     '<span class="cl">' + esc(c.label) + '</span></div>';
 }
@@ -180,7 +288,7 @@ function renderCueStage(host, s, t, W, H, mode) {
   if (host._sig !== s.t0) {
     host.innerHTML = list.map(function (x) { return cueHTML(x.c, mode); }).join('');
     host._sig = s.t0;
-    host._pos = layoutCues(list.length, W, H, mode);
+    host._pos = layoutCues(list.map(function (x) { return x.c; }), W, H, mode);
     host._els = [].slice.call(host.children);
   }
   var endFade = s.t0 + s.dur;
@@ -230,6 +338,30 @@ function speaking(words, base, t) {
   return 0;
 }
 
+
+/* the chapter rail: one segment per chapter, derived from the timeline so it
+   is correct on any frame a worker happens to start at */
+function buildRail(tl) {
+  var chapters = tl.segments.filter(function (x) { return x.type === 'chapter'; });
+  if (!chapters.length) return null;
+  E.rail.innerHTML = chapters.map(function (c) {
+    return '<div class="seg"><span class="nm">' + esc(c.data.en) + '</span></div>';
+  }).join('');
+  return { els: [].slice.call(E.rail.children), list: chapters };
+}
+
+function paintRail(s) {
+  if (!E.railData) return;
+  var i = s.data.para !== undefined ? s.data.para
+        : (s.type === 'chapter' ? s.data.index : -1);
+  E.rail.style.display = (i >= 0) ? 'flex' : 'none';
+  if (i < 0) return;
+  E.railData.els.forEach(function (el, n) {
+    var cls = 'seg' + (n === i ? ' act' : (n < i ? ' done' : ''));
+    if (el.className !== cls) el.className = cls;
+  });
+}
+
 /* ================================================================= init */
 function init(tl) {
   TL = tl; SEG = tl.segments;
@@ -250,7 +382,7 @@ function init(tl) {
     pTeaser: $('#pTeaser'), pVocab: $('#pVocab'), pChapter: $('#pChapter'),
     pLine: $('#pLine'), pTurn: $('#pTurn'), pTakeaway: $('#pTakeaway'),
     pQuestion: $('#pQuestion'), pDiscussion: $('#pDiscussion'), pOutro: $('#pOutro'),
-    cueStage: $('#cueStage'), cueStage2: $('#cueStage2'),
+    cueStage: $('#cueStage'), cueStage2: $('#cueStage2'), rail: $('#rail'),
     rdChar: $('#rdChar'), rdCap: $('#rdCap'), callLink: $('#callLink'),
     sideL: $('#sideL'), sideR: $('#sideR')
   };
@@ -297,6 +429,7 @@ function init(tl) {
     E.clArc = $('#clArc');
     if (tl.meta.mode === 'inPerson') E.callLink.style.display = 'none';
   }
+  E.railData = buildRail(tl);
   window.__ready = true;
 }
 
@@ -596,6 +729,7 @@ function seek(t) {
   }
 
   if (i !== cur) { enter(i); cur = i; }
+  paintRail(s);
 
   /* show the active panel, crossfade the previous one out */
   var act = panelOf(s.type);

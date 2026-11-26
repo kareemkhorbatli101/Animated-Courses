@@ -1,0 +1,254 @@
+{
+  "id": "conv6",
+  "kind": "dialogue",
+  "mode": "inPerson",
+  "arabicAudio": false,
+  "speechScale": 0.8,
+  "unit": "Unit 7 · Finance",
+  "number": "Conversation 6",
+  "title": "We're in the same Group — why send an invoice?",
+  "titleAr": "نحن في المجموعة ذاتها — فلماذا نُرسل فاتورة؟",
+  "level": "CEFR B1",
+  "course": "Al-Hasan International — English for Trade, Industry & Global Partnerships",
+  "setting": "face to face · the Damascus head office",
+  "settingAr": "وجهاً لوجه · الإدارة العامة في دمشق",
+  "accent": "teal",
+  "narrator": { "voice": "en-US-BrianNeural", "rate": "-6%" },
+
+  "speakers": {
+    "fadi": {
+      "name": "Fadi",
+      "role": "Admin, head office",
+      "roleAr": "الإدارة، المكتب الرئيسي",
+      "place": "Damascus",
+      "placeAr": "دمشق",
+      "backdrop": "damascus",
+      "side": "left",
+      "look": "rami",
+      "color": "#5ea9f0",
+      "voice": "en-US-GuyNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-LaithNeural",
+      "arRate": "-4%"
+    },
+    "karim": {
+      "name": "Karim",
+      "role": "Finance & Accounts",
+      "roleAr": "المالية والحسابات",
+      "place": "Damascus",
+      "placeAr": "دمشق",
+      "backdrop": "bank",
+      "side": "right",
+      "look": "omar",
+      "color": "#2bb3a3",
+      "voice": "en-US-EricNeural",
+      "rate": "-6%",
+      "arVoice": "ar-SY-LaithNeural",
+      "arRate": "-4%"
+    }
+  },
+
+  "preview": {
+    "headline": "Before you listen",
+    "headlineAr": "قبل الاستماع",
+    "lines": [
+      {
+        "en": "One Group company moved cement for another Group company.",
+        "ar": "نقلت إحدى شركات المجموعة إسمنتاً لشركة أخرى في المجموعة ذاتها.",
+        "icon": "lorry"
+      },
+      {
+        "en": "Moving $6,500 from one pocket to another does not change the Group's total cash.",
+        "ar": "نقل ٦٬٥٠٠ دولار من جيب إلى آخر لا يغيّر إجمالي سيولة المجموعة.",
+        "icon": "net_balance"
+      },
+      {
+        "en": "So why does the accountant still insist on an invoice?",
+        "ar": "فلماذا ما زال المحاسب يصرّ على إصدار فاتورة؟",
+        "icon": "question"
+      }
+    ],
+    "teaser": {
+      "en": "It doesn't change the cash. It changes whether you know who is making money.",
+      "ar": "إنها لا تغيّر السيولة. بل تغيّر معرفتك بمن يحقق الربح فعلاً."
+    }
+  },
+
+  "vocab": {
+    "headline": "Useful phrases",
+    "headlineAr": "عبارات مفيدة",
+    "items": [
+      {
+        "term": "Moving money from one pocket to another.",
+        "def": "the argument that an internal transfer changes nothing",
+        "ar": "نقل المال من جيب إلى آخر.",
+        "arDef": "الحجة القائلة إن التحويل الداخلي لا يغيّر شيئاً",
+        "icon": "net_balance"
+      },
+      {
+        "term": "making a profit on paper",
+        "def": "looking profitable only because a real cost is hidden",
+        "ar": "ربحٌ على الورق",
+        "arDef": "الظهور بمظهر الرابح لأن تكلفة حقيقية مخفية",
+        "icon": "profit_loss"
+      },
+      {
+        "term": "a separate legal entity",
+        "def": "a company with its own tax file and its own accounts",
+        "ar": "كيان قانوني منفصل",
+        "arDef": "شركة لها ملفها الضريبي وحساباتها المستقلة",
+        "icon": "shield"
+      },
+      {
+        "term": "fair market rates",
+        "def": "the price an outside company would have charged",
+        "ar": "أسعار السوق العادلة",
+        "arDef": "السعر الذي كانت ستتقاضاه شركة خارجية",
+        "icon": "price_tag"
+      },
+      {
+        "term": "the inter-company ledger",
+        "def": "the record of what each Group company owes the others",
+        "ar": "دفتر الحسابات بين الشركات",
+        "arDef": "سجل ما تدين به كل شركة في المجموعة للأخرى",
+        "icon": "ledger"
+      }
+    ]
+  },
+
+  "dialogue": [
+    {
+      "sp": "fadi",
+      "en": "Karim, Komosh moved one thousand tonnes of cement from the Aleppo plant to Lattakia port for Bashak last week. Do I really need to raise an internal invoice for $6,500?",
+      "ar": "كريم، نقلت كوموش ألف طن من الإسمنت من مصنع حلب إلى ميناء اللاذقية لصالح بشاك الأسبوع الماضي. هل عليّ فعلاً إصدار فاتورة داخلية بقيمة ٦٬٥٠٠ دولار؟",
+      "mood": "brisk",
+      "cues": [
+        { "at": "moved", "icon": "lorry", "label": "1,000 t · Aleppo → Lattakia" },
+        { "at": "internal", "icon": "invoice", "label": "internal invoice · $6,500", "tone": "key", "big": true }
+      ]
+    },
+    {
+      "sp": "karim",
+      "en": "Yes, Fadi. Every single time.",
+      "ar": "نعم يا فادي. في كل مرة دون استثناء.",
+      "mood": "firm",
+      "cues": [
+        { "at": "Every", "icon": "approve", "label": "every single time", "tone": "key", "big": true }
+      ]
+    },
+    {
+      "sp": "fadi",
+      "en": "Why? Bashak, Komosh and the Aleppo factory are all owned by Al-Hasan Holding Group. Moving $6,500 from one pocket to another doesn't change the Group's total cash.",
+      "ar": "لماذا؟ فبشاك وكوموش ومصنع حلب جميعها مملوكة لمجموعة الحسن القابضة. ونقل ٦٬٥٠٠ دولار من جيب إلى آخر لا يغيّر إجمالي سيولة المجموعة.",
+      "mood": "concerned",
+      "phrase": "Moving money from one pocket to another.",
+      "cues": [
+        { "at": "pocket", "icon": "net_balance", "label": "same Group, same total cash", "tone": "warn", "term": true }
+      ]
+    },
+    {
+      "sp": "karim",
+      "en": "It doesn't change total cash, you're right. It changes whether we know which company is actually making a profit.",
+      "ar": "صحيح، إنها لا تغيّر إجمالي السيولة. لكنها تغيّر معرفتنا بأي شركة تحقق ربحاً فعلياً.",
+      "mood": "firm",
+      "cues": [
+        { "at": "which", "icon": "profit_loss", "label": "who is really profitable?", "tone": "key", "big": true }
+      ]
+    },
+    {
+      "sp": "fadi",
+      "en": "How do you mean?",
+      "ar": "كيف تقصد؟",
+      "mood": "neutral",
+      "cues": []
+    },
+    {
+      "sp": "karim",
+      "en": "Suppose Komosh carries Bashak's cement for free. Then Bashak looks very profitable on paper, because its transport cost appears to be zero, while Komosh looks like it is losing money on fuel and drivers.",
+      "ar": "لنفترض أن كوموش تنقل إسمنت بشاك مجاناً. عندها تبدو بشاك مربحة جداً على الورق، لأن تكلفة النقل لديها تظهر صفراً، بينما تبدو كوموش وكأنها تخسر على الوقود والسائقين.",
+      "mood": "firm",
+      "phrase": "making a profit on paper",
+      "cues": [
+        {
+          "at": "profitable", "kind": "compare", "term": true,
+          "a": { "label": "Bashak looks", "value": "very profitable", "tone": "bad" },
+          "b": { "label": "Komosh looks", "value": "loss-making", "tone": "bad" },
+          "note": "both pictures are false"
+        }
+      ]
+    },
+    {
+      "sp": "karim",
+      "en": "Worse, Rami might quote a low export price to NorthBridge, because he forgot the real six dollars fifty a tonne haulage cost.",
+      "ar": "والأسوأ، قد يعرض رامي سعر تصدير منخفضاً على نورثبريدج، لأنه نسي تكلفة النقل الحقيقية البالغة ستة دولارات ونصف للطن.",
+      "mood": "firm",
+      "cues": [
+        {
+          "at": "quote", "kind": "doc", "tone": "bad", "docType": "export price, per tonne",
+          "title": "if haulage is invisible",
+          "rows": [
+            ["Cement cost Rami can see", "included"],
+            ["Real haulage cost he forgot", "$6.50 / t"]
+          ],
+          "totalLabel": "Quoted to NorthBridge", "total": "too low"
+        }
+      ]
+    },
+    {
+      "sp": "fadi",
+      "en": "I hadn't thought of the pricing side. What about tax and auditors?",
+      "ar": "لم أفكّر في جانب التسعير. وماذا عن الضرائب والمدققين؟",
+      "mood": "concerned",
+      "cues": [
+        { "at": "tax", "icon": "auditor", "label": "and the tax side?", "tone": "key" }
+      ]
+    },
+    {
+      "sp": "karim",
+      "en": "Each company is a separate legal entity with its own tax file. Inter-company services must be invoiced at fair market rates and settled through the inter-company ledger.",
+      "ar": "كل شركة كيان قانوني منفصل له ملفه الضريبي الخاص. ويجب أن تُفوتَر الخدمات بين الشركات بأسعار السوق العادلة وأن تُسوّى عبر دفتر الحسابات بين الشركات.",
+      "mood": "firm",
+      "phrase": "a separate legal entity",
+      "cues": [
+        { "at": "separate", "icon": "shield", "label": "separate legal entity, own tax file", "tone": "key", "term": true },
+        { "at": "fair", "icon": "price_tag", "label": "at fair market rates", "tone": "key" },
+        { "at": "ledger", "icon": "ledger", "label": "settled on the inter-company ledger", "tone": "good", "big": true, "term": true }
+      ]
+    },
+    {
+      "sp": "fadi",
+      "en": "Understood. I'll issue Komosh's invoice to Bashak today and copy Huda.",
+      "ar": "فهمت. سأصدر فاتورة كوموش إلى بشاك اليوم وأرسل نسخة إلى هدى.",
+      "mood": "warm",
+      "cues": [
+        { "at": "issue", "icon": "invoice_new", "label": "invoice issued today", "tone": "good", "big": true },
+        { "at": "copy", "icon": "email_confirm", "label": "copy to Huda", "tone": "good" }
+      ]
+    }
+  ],
+
+  "takeaway": {
+    "en": "An inter-company invoice does not move money out of the Group. It tells you which company earns, what a job really costs, and what price you can safely quote.",
+    "ar": "الفاتورة بين شركات المجموعة لا تُخرج المال من المجموعة. بل تُخبرك أي شركة تربح، وكم تكلّف المهمة فعلاً، وبأي سعر يمكنك العرض بأمان.",
+    "icon": "ledger"
+  },
+
+  "questions": {
+    "headline": "Comprehension",
+    "headlineAr": "أسئلة الفهم",
+    "items": [
+      { "en": "What service did Komosh provide for Bashak, and what was the cost?", "ar": "ما الخدمة التي قدّمتها كوموش لبشاك، وكم كانت التكلفة؟" },
+      { "en": "Why did Fadi think an internal invoice was unnecessary?", "ar": "لماذا ظنّ فادي أن الفاتورة الداخلية غير ضرورية؟" },
+      { "en": "Give two distortion problems Karim says would happen if Komosh worked for free.", "ar": "اذكر مشكلتي تشويه يقول كريم إنهما ستحدثان لو عملت كوموش مجاناً." },
+      { "en": "Why is Rami's export pricing affected by internal transport invoices?", "ar": "لماذا يتأثر تسعير رامي للتصدير بفواتير النقل الداخلية؟" },
+      { "en": "What legal and tax reason requires separate invoices between Group companies?", "ar": "ما السبب القانوني والضريبي الذي يوجب فواتير منفصلة بين شركات المجموعة؟" }
+    ]
+  },
+
+  "discussion": {
+    "headline": "Role-play",
+    "headlineAr": "تمثيل الأدوار",
+    "en": "Student A is a branch manager who wants to borrow three technicians from Maham for two weeks as a favour between friends. Student B is Karim, explaining why Maham must bill the branch for the technicians' hours.",
+    "ar": "الطالب (أ) مدير فرع يريد استعارة ثلاثة فنيين من شركة مهام لمدة أسبوعين على سبيل المجاملة بين الأصدقاء. والطالب (ب) هو كريم، الذي يشرح لماذا يجب على مهام أن تُفوتر الفرع مقابل ساعات عمل الفنيين."
+  }
+}
