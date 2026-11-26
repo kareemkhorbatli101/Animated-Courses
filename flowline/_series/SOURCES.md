@@ -108,3 +108,45 @@ units the real lesson is that a correct number can be useless. A rating is corre
 permission. A volume is correct and means nothing without its base. A zero is correct and may be a
 shut isolation valve. A permit can have every valve in the right position and one empty box. An award
 for three years without a lost-time injury can be accurate and not true.
+
+---
+
+# Book 2 · Flowline 1 — *From Reservoir to Tank*
+
+CEFR A2+ to B1 · figure prefix `rb` · audio prefix `FL2` · 196 figures · 195 tracks
+
+Every one of the twelve units carries a source. Unit 12 is the review, and its source — the resources
+classification system — is the document the whole book has been walking toward.
+
+Four of the twelve are single-author papers older than most of the industry's standards: Darcy in
+1856, Arps in 1945, Gilbert in 1954, Vogel in 1968. They are here because a paper written by one
+person solving one problem states its own assumptions far more plainly than a committee document
+does, and because the reservoir has not changed since.
+
+| Unit | Title | Source, as cited in the text | What the text prints as the document's own limit |
+|---|---|---|---|
+| **1** | How Oil Moves Through Rock | Henry Darcy, ***Les Fontaines Publiques de la Ville de Dijon***, Paris, **1856** | Water, one fluid, at low velocity, through loose uniform sand, on one sample. Empirical, and holds while the flow is laminar. Says nothing about oil, gas and water moving together, and nothing about a reservoir twelve kilometers across |
+| **2** | What Pushes It Out | L. P. Dake, ***Fundamentals of Reservoir Engineering***, Elsevier, **1978** | A textbook, not a standard. The material balance contains **no geometry at all**, so it cannot say where to drill. It needs an average reservoir pressure and accurate cumulative production, and the aquifer estimate is drawn from the same pressure history it is used to explain |
+| **3** | The Stack on the Wellhead | **API Standard 53**, *Blowout Prevention Equipment Systems for Drilling Wells*, **2012** edition | An equipment standard: not a well control procedure and not a well design document. A passed test shows that equipment held that pressure, from that direction, in that configuration, on that day. Shear rams are qualified against particular pipe sizes and grades |
+| **4** | Nine Decisions in a Row | National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling, ***Deep Water***, Report to the President, **January 2011** | A presidential commission's report, written to a deadline, about deepwater drilling in one jurisdiction. **Not a finding of legal liability.** The commission said publicly it had no power to compel testimony, and other investigations of the same event reached overlapping but not identical conclusions |
+| **5** | How Fast Will It Flow | J. V. Vogel, "Inflow Performance Relationships for Solution-Gas Drive Wells", ***Journal of Petroleum Technology***, **1968** | Built from **twenty-one computed hypothetical cases**, not from field measurements, and the paper says so. For solution-gas drive. Assumes no significant well damage. Its maximum rate is at zero bottomhole pressure — a construct, not an operating point |
+| **6** | Lifting It With Gas | W. E. Gilbert, "Flowing and Gas-lift Well Performance", in ***Drilling and Production Practice***, API, **1954** | Curves drawn by hand from measurements on particular wells, particular tubing sizes and fluids, in field units. Empirical, not a theory of multiphase flow. The choke relationship holds only in critical flow, and the curves cannot tell you whether a lift system is actually working |
+| **7** | The Curve That Goes Down | J. J. Arps, "Analysis of Decline Curves", ***Transactions of the AIME***, **1945** | Empirical equations for fitting observed data, not derived from reservoir physics. They assume the well is produced the same way throughout, that nothing is done to it, and that nothing changes around it — **three assumptions an operating company violates deliberately, several times a year** |
+| **8** | Three Streams Out of One Vessel | **API Specification 12J**, *Specification for Oil and Gas Separators* | A specification for a vessel, not a process design for a facility. Its sizing assumes known inlet conditions and a fluid that separates. It says nothing about how the vessel is operated, and a nameplate records what the vessel was built to handle rather than what it will do with today's stream |
+| **9** | Where the Water Goes | The **Underground Injection Control** program of the US Environmental Protection Agency, Class II rules at **40 CFR Parts 144 and 146** | Applies in one jurisdiction only and is **not the law in Syria**; the unit says so twice, and says plainly why it quotes another country's regulation. Its purpose is drinking water, not the environment generally, and it does not cover the surface. *Mechanical integrity* is a defined term: no significant leak, by the test applied, on the day of the test |
+| **10** | Proving the Meter | API, ***Manual of Petroleum Measurement Standards***, **Chapter 4, *Proving Systems***, and **Chapter 12, *Calculation of Petroleum Quantities*** | Chapter 12 makes two parties agree on one answer; it does not improve a measurement, and a precisely computed figure from a badly proved meter is a precise wrong number. A meter factor belongs to the conditions it was found at. Neither chapter says how often to prove, and the prover has its own calibration and uncertainty |
+| **11** | Counting Failures Properly | **ISO 14224:2016**, *Petroleum, petrochemical and natural gas industries — Collection and exchange of reliability and maintenance data for equipment* | A standard about how to write things down. It sets no target, no benchmark and no acceptable failure rate, and it does not do the analysis. Data quality depends on the competence of the people recording. It makes comparison **possible, not automatic**: two organizations following it can still be uncomparable if they drew their boundaries differently |
+| **12** | How Much Oil Do We Have | The ***Petroleum Resources Management System***, SPE, WPC, AAPG and SPEE, **2018** revision | A set of guidelines for classification, **not a reporting regulation**; securities regulators have their own differing definitions, so one field can honestly carry two numbers. Reserves are a property of a **project**, not of a reservoir, and the certainty percentages describe the **estimate** rather than the rock |
+
+**Book 2's honesty core.** The book follows the oil forward and the numbers get worse as it goes. A
+permeability from a thumb-sized plug; a material balance missing the two pressure surveys from the two
+years the trend changed; a decline curve fitted before two undated workovers; a meter factor measured
+at a flow rate the meter no longer runs at; a failure history with blank cause fields. Unit 12 shows
+all five standing behind a single reserves figure that is honest, properly reviewed and almost
+certainly the right order of magnitude — and asks how to write it so that a reader knows both things
+at once.
+
+**One real event.** Unit 4 is about the Macondo blowout of 20 April 2010, in which eleven people were
+killed. It is the only real incident in the series, it is sourced entirely to the named published
+inquiry report, and the unit states that other investigations of the same event reached conclusions
+that overlap and are not identical.
