@@ -654,6 +654,21 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
+ICON_NAMES = set('''bone book bowl brush calendar card chair clock cross door ear
+form gloves gum light mask mirror pen person phone probe speech tick tooth tray
+water xray'''.split())
+
+
+def as_icon(name):
+    """Resolve anything a unit passes - an icon name or a taught term.
+
+    part_recap is given the unit's own words as often as it is given icon
+    names, and an unknown name used to fall through to a lettered circle.
+    """
+    n = (name or 'speech').strip().lower()
+    return n if n in ICON_NAMES else pick_icon(n)
+
+
 ICON_FOR = {
  'surgery': 'door', 'waiting': 'clock', 'waiting room': 'clock', 'chair': 'chair',
  'headrest': 'chair', 'nurse': 'person', 'dental nurse': 'person',
@@ -981,7 +996,8 @@ def cover2(title_lines, sub, level_badge, book_badge, series, edition, bullets,
 # ------------------------------------------------------- 19 part recap
 
 def part_recap(title, lines, icons=None, question=None, target_h=None,
-               foot='Close the book. Say the four words you have just used.'):
+               foot='Close the book. Say the four words you have just used.',
+               cards=None):
     """The figure that closes a part and fills the foot of its page.
 
     `lines` are what the part actually taught, in the part's own words;
@@ -1032,10 +1048,30 @@ def part_recap(title, lines, icons=None, question=None, target_h=None,
         wrapped = [wrap_w(s_, size, tw - 120) for s_ in lines]
         body_h = sum(len(w) * lh + 30 for w in wrapped)
     slack = H - natural()
-    if show_icons:
-        grow = min(int(slack * 0.5), 460)
+    # The pictures take the slack first, up to the width they have to share,
+    # and the rest goes into spacing. A recap with a whole page to fill then
+    # reads as a plate rather than as air, and the circles never collide.
+    if show_icons and slack > 0:
+        step_w = (W - 600) / max(1, len(icons) - 1) if len(icons) > 1 else (W - 600)
+        room = max(0, min(int(step_w * 0.92), 1050) - icon_h)
+        grow = min(slack, room)
         icon_h += grow
         slack -= grow
+    # Room still left after the pictures and a line of spacing is given to the
+    # part's own words as cards, so a full page is filled with something to
+    # retrieve rather than with air.
+    card_rows, card_h, card_cols = [], 0, 4
+    cards = [c for c in (cards or []) if c][:8]
+    if cards:
+        cw_ = (W - 300 - (card_cols - 1) * 26) / card_cols
+        wrapped_c = [wrap_w(c, FS_SMALL, cw_ - 40, True) for c in cards]
+        nmax = max(len(x) for x in wrapped_c)
+        nrows = (len(wrapped_c) + card_cols - 1) // card_cols
+        want = nrows * (int(FS_SMALL * 1.3) * nmax + 170) + 80
+        if slack >= want + 80:
+            card_rows = wrapped_c
+            card_h = min(slack - 60, want + int((slack - want) * 0.45))
+            slack -= card_h
     pad_extra = int(slack / max(1, len(lines) + 1))
     o = _head(H, title)
     y = BAND + 70
@@ -1045,7 +1081,7 @@ def part_recap(title, lines, icons=None, question=None, target_h=None,
             cx = 300 + i * step if len(icons) > 1 else W / 2
             o.append(circ(cx, y + icon_h * 0.46, icon_h * 0.40, '#FFFFFF',
                           stroke=ACCENT, sw=5))
-            o.append(icon(ic, cx, y + icon_h * 0.46, icon_h / 300.0 * 1.15))
+            o.append(icon(as_icon(ic), cx, y + icon_h * 0.46, icon_h / 300.0 * 1.15))
         y += icon_h + 34
     else:
         y += 10
@@ -1058,6 +1094,24 @@ def part_recap(title, lines, icons=None, question=None, target_h=None,
             o.append(t(260, ty, ln, size, INK, anchor='start'))
             ty += lh
         y += len(wlines) * lh + 26 + pad_extra
+    if card_rows:
+        cw_ = (W - 300 - (card_cols - 1) * 26) / card_cols
+        nrows = (len(card_rows) + card_cols - 1) // card_cols
+        rh_ = (card_h - 50) / max(1, nrows)
+        for k, wl in enumerate(card_rows):
+            r_, c_ = divmod(k, card_cols)
+            x_ = 150 + c_ * (cw_ + 26)
+            y_ = y + 20 + r_ * rh_
+            o.append(rect(x_, y_, cw_, rh_ - 20, '#FFFFFF', stroke=BORDER, sw=3, rx=18))
+            inner = rh_ - 20
+            lab_h = len(wl) * int(FS_SMALL * 1.3) + 26
+            o.append(icon(as_icon(cards[k]), x_ + cw_ / 2, y_ + (inner - lab_h) * 0.50,
+                          min(1.2, (inner - lab_h) * 0.80 / 190.0)))
+            ty_ = y_ + inner - lab_h + FS_SMALL
+            for ln in wl:
+                o.append(t(x_ + cw_ / 2, ty_, ln, FS_SMALL, INK, bold=True))
+                ty_ += int(FS_SMALL * 1.3)
+        y += card_h
     if show_q:
         qh = int(FS_HEAD * 1.32) + 56
         o.append(rect(150, H - 90 - qh, W - 300, qh, HILITE, stroke=LEAD, sw=4, rx=18))

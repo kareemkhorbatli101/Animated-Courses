@@ -48,7 +48,7 @@ def add(p):
 def fig(tag, built, cap):
     inner, h, defs = built
     figno[1] += 1
-    p = os.path.join(MEDIA, '%s_%02d.png' % (tag, figno[1]))
+    p = os.path.join(MEDIA, 'u%02d_%s_%03d.png' % (figno[0], tag, figno[1]))
     art2.render2(inner, h, p, defs)
     out.append(R.picture(add(p), art2.W, h, tag))
     out.append(R.caption('TEACHER FIG %d.%d  %s' % (figno[0], figno[1], cap)))

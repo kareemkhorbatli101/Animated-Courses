@@ -46,3 +46,18 @@ cma/book*/source/
 .playwright-mcp/
 __pycache__/
 *.pyc
+
+# ---------------------------------------------------------------------------
+# Second-edition build output.
+#
+# coursegen2 draws every figure from source: ./fitbuild.sh rebuilds a book
+# byte for byte from the unit files plus the measured fit targets, which are
+# committed. The rendered PNGs and the full-size student PDFs are therefore
+# derived, and at three units they already run to a quarter of a gigabyte.
+# This repository is public and is also the live site, so derived binaries of
+# that size do not belong in it. The teacher's books are small and are kept,
+# because they are what a reviewer is most likely to want to read.
+coursegen2/*/media/
+coursegen2/*/out/*.docx
+coursegen2/den2/out/English_for_Dentists*In_the_Chair_print.pdf
+coursegen2/dens/out/English_for_Dental_Students*Clinic_print.pdf

@@ -460,3 +460,36 @@ showed that the unit's own model for 6.3 stopped before the saying-back, that
 the form had no box for a number of painkillers, and that three of the unit's
 words turn on /p/, which Arabic does not have. All four were fixed in the
 learner's book.
+
+
+### 12.7  Two faults the built book showed that no gate could
+
+Both were found by reading the finished PDF, which is why the PDF is read.
+
+**Figure files collided across units.** A figure's filename was built from its
+tag and its figure number, and the number restarts at every unit while the
+tags repeat. Unit 3's case figure therefore overwrote Unit 1's on disk, and
+because the archive is assembled at the end of the build, *both* references
+resolved to whichever had been written last. Unit 1 of the Dentists book shipped
+a panel headed with Unit 3's case. The filename now carries the unit number.
+No gate could have caught this: every count, caption and cross-reference was
+correct, and only the pixels were wrong.
+
+**A term passed where an icon name was expected.** `part_recap` is given the
+unit's own words as often as it is given icon names, and an unknown name fell
+through to a lettered circle - so the recap after the preview showed four
+circles each containing the letter T, for "the". `as_icon()` now resolves
+anything through `pick_icon`, and an icon-name registry makes the test explicit.
+
+### 12.8  What a closing figure does with a whole page
+
+A part whose content ends near the foot of a page pushes its closing figure to
+a page of its own, and the figure then has about 700 points to fill. Three
+summary lines in that space is air, not design. The figure now spends the room
+in this order: the type grows first, then the pictures, up to the width they
+have to share, and what is left becomes **the part's own words as retrieval
+cards** - eight for the preview and the review, the task answers for a
+vocabulary or reading part, the checklist for a role-play or a writing task,
+the case's words for a case. A full-page recap is therefore a retrieval page,
+and the measurement loop reports 34 pt as the worst white at any part ending
+in either book.
