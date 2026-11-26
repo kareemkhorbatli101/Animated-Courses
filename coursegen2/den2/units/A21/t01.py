@@ -137,3 +137,210 @@ defects=[
  'Every exercise now carries two visuals: a bank that organises the answers in no particular order, and the same answers as picture cards. The bank is generated from the exercise itself, so it cannot drift from the answer key, and the shuffle is seeded so the book is reproducible.',
  'Each of the ten parts now ends on a page boundary. Where a part would otherwise leave a page half empty it closes with a figure that teaches something rather than with white space.'
 ])
+
+T.update(
+route_steps=['Warm-up: the three questions on the board, answered by them (5).',
+             'Preview: the eight words, the sentences, task 2.1 (20).',
+             'Vocabulary 3.1 and 3.4, whole sentences only (10).',
+             'Grammar: the three rules, the contrast figure, 4.1 orally (10).',
+             'Listening 1 only: pre-task, play, play, post-task (15).',
+             'Speaking 6.1 and 6.2, modelled by you first (15).',
+             'Reading 1, scanned not read (10).',
+             'One case from part 9, in threes (8).',
+             'Review 10.1 and 10.3, then the can-do boxes (5).'],
+route_stops=[2],
+board=['Good morning. My name is ______. This is ______, who is working with me.',
+       'Can you tell me your name, please?   And your date of birth?',
+       'I am going to put the chair back now.   Is that comfortable?',
+       '(leave a blank column headed: HOW DO YOU KNOW IT IS THE RIGHT PATIENT?)'],
+
+glossary=[
+ ['the surgery', 'العيادة / غرفة المعالجة',
+  'Syrian practice says العيادة for the room and for the practice. If the class needs '
+  'the two kept apart, use غرفة المعالجة for the room.'],
+ ['the waiting room', 'غرفة الانتظار', 'No difficulty. Drill the English stress: WAITing room.'],
+ ['the chair', 'كرسي الأسنان', 'Learners often say “the bed”. The Arabic is a chair, so '
+  'point at the word, not at a translation.'],
+ ['the headrest', 'مسند الرأس', 'Two words in English, one idea. Many learners have the '
+  'Arabic and no English at all for this.'],
+ ['the dental nurse', 'مساعدة طبيب الأسنان / المساعِدة',
+  'In Syria المساعِدة is what is said at the chair. “Assistant” is also heard in English; '
+  'this course uses nurse because it is what a patient will read on a notice.'],
+ ['an appointment', 'موعد', 'The commonest error is “I have appointment”. Drill the article.'],
+ ['to sit back', 'يستلقي / يميل للخلف',
+  'Not “lie down”, which a patient hears as something longer and more serious.'],
+ ['comfortable', 'مريح', 'Four syllables in careless English, three in natural English: '
+  'COMF-ter-bul. Teach the three.'],
+ ['the record', 'الملف / السجل', 'Receptive here, productive in Unit 2.'],
+ ['date of birth', 'تاريخ الميلاد', 'Say it as three things: day, month, year.'],
+],
+
+l1_traps=[
+ ('I have appointment at ten.', 'I have an appointment at ten.',
+  'Arabic has no indefinite article, so learners drop a/an in exactly the places this '
+  'unit needs them. Correct it every time in part 2; after that, correct it once a lesson.',
+  'العربية لا تستخدم أداة تنكير، فيميل المتعلّم إلى حذف a/an. صحّح النمط لا الكلمة.'),
+ ('When it started?', 'When did it start?',
+  'Arabic forms a question by intonation alone, so the auxiliary disappears. This is the '
+  'single most useful correction you will make in this book, and it returns in Unit 3.',
+  'في العربية يُصاغ السؤال بالنبرة، لذلك يسقط الفعل المساعد. أعِد صياغة السؤال كاملاً.'),
+ ('She is my nurse. He write everything.', 'She is my nurse. She writes everything.',
+  'Arabic marks gender on the verb, English on the pronoun. A learner tracking gender in '
+  'the wrong place produces he for a woman. Point at the person, not at the grammar.',
+  'العربية تُظهر الجنس في الفعل، والإنكليزية في الضمير. أشِر إلى الشخص عند التصحيح.'),
+ ('Please sit on the chair.', 'Please sit in the chair.',
+  'A dental chair is sat in, not on, because the patient is held by it. Teach it as a '
+  'fixed pair with the noun, not as a rule about prepositions.',
+  'يقال sit in the chair لأن الكرسي يحتضن المريض. علّمها كعبارة ثابتة.'),
+],
+
+expansion=[
+ ('the surgery', 'the practice, the clinic, reception, the laboratory',
+  'When a learner already works somewhere with more than one room.'),
+ ('the dental nurse', 'the hygienist, the technician, the practice manager',
+  'Only if they will meet these people in English. Unit 4 teaches them properly.'),
+ ('an appointment', 'to book, to cancel, to rearrange, a cancellation',
+  'A strong group can take the verbs now; a weak one should wait for Book 1 Unit 8.'),
+ ('comfortable', 'uncomfortable, too far back, a little higher',
+  'Useful at once, because a patient will say one of these in the first two minutes.'),
+],
+
+engagement=[
+ ('Silent cards', 'Photocopy the icon figure, cut it up, hold one card up and say nothing. '
+  'The class says the word. Twelve cards take ninety seconds and wake a nine o’clock room.'),
+ ('Wrong on purpose', 'You play the dentist and do it badly: no names, chair moved in '
+  'silence, no identity check. They stop you. Every time they stop you, write the missing '
+  'sentence on the board. It becomes their list, not yours.'),
+ ('Two chairs at the front', 'Put two chairs facing the class and run every role-play '
+  'there, not in a circle. Standing where a patient can see you changes what learners say.'),
+ ('The clock on the board', 'Write 2:00 on the board and time the whole first two minutes. '
+  'Groups that are told the real length stop padding it.'),
+ ('Name and birth date relay', 'Each learner says a name and a date of birth once. The next '
+  'learner must repeat it back correctly before saying their own. Six learners, two '
+  'minutes, and the read-back habit is started.'),
+],
+
+sample_answers=[
+ ('1.1  “What do you say to a patient in the first ten seconds?”',
+  'Good morning. My name is Nadia Haddad. This is Mei-Ling Chen, who is working with me '
+  'today. Can you tell me your name, please?',
+  'صباح الخير. اسمي ... وهذه مساعدتي ... هل تتفضل باسمك؟'),
+ ('1.1  “How do you know the patient in your chair is the right patient?”',
+  'Because I ask them for two things — their name and their date of birth — and I compare '
+  'both with the record in front of me. I do not read the name out for them to agree with.',
+  'لأنني أسأل عن شيئين: الاسم وتاريخ الميلاد، وأقارنهما بالملف. لا أقرأ الاسم لِيوافق عليه.'),
+ ('6.1  A good first turn', 'Good morning. My name is Yusuf Rahman. This is Mei-Ling, my '
+  'dental nurse. Can you tell me your name, please? Thank you. And your date of birth?'),
+ ('6.3  The whole two minutes, a model that would pass',
+  'Good morning, Mrs Mabaso. My name is Nadia Haddad. This is Mei-Ling, who is working '
+  'with me. Can you tell me your name, please? And your date of birth? Thank you. Please '
+  'sit down in the chair. I am going to put the chair back now. Is that comfortable? '
+  'Good. I am going to look first, and then I will tell you what I have found.'),
+ ('8.2  A message for reception that works',
+  'For reception. Mrs Mabaso, 10.20 Thursday. She asked whether she can move to an '
+  'afternoon. Any afternoon next week is fine for her except Tuesday. Please telephone '
+  'her before Friday. — N. Haddad, 12 March.'),
+],
+
+cases_intro='Part 9 is three cases, and they are the part a first-time teacher is most '
+            'tempted to cut. Do not cut all three. A case is where the language of this '
+            'unit stops being a drill and starts being used to hold a position. Eight '
+            'minutes on one case is worth more than twenty more minutes of 3.2.',
+case_notes=[
+ dict(first='Almost every class says “ask for the date of birth” within ten seconds, and '
+            'then stops, because they think they have finished. They have answered half '
+            'of it: they have said what the question is, not who asks it or when.',
+      positions=[('Reception asks, before the patient stands up.',
+                  'Catches it at the cheapest moment and costs nobody any time.'),
+                 ('The dentist asks again in the surgery.',
+                  'Standard practice in many places: two identifiers, asked twice, by two '
+                  'different people.'),
+                 ('Both, and the tray stays covered until the second check.',
+                  'The strongest answer, and the one a class rarely reaches without being '
+                  'pushed towards the tray.')],
+      push=['“Who asks?” — until they name a person, not a practice.',
+            '“The tray is already out. Does that change anything?” Most classes have not '
+            'noticed the tray, and it is the detail that makes this a real case.',
+            '“What do you write on the card that has no date of birth on it?” This takes '
+            'them back to Unit 1’s record and is where the language gets harder.'],
+      arabic='إذا توقّف النقاش: اسألهم مَن يسأل ومتى، لا ما هو السؤال. ثم أشِر إلى أن '
+             'صينية المعالجة جاهزة قبل التحقق من هوية المريض.',
+      wrap='Close by writing the group’s one sentence on the board and asking the room to '
+           'find the one fact it rests on. If a sentence rests on no fact, it is an '
+           'opinion, and this case is not about opinions.',
+      poles=['Ask once, at the desk', 'Ask twice, by two people'],
+      marks=['Reception only', 'Reception, dentist if unsure', 'Both, every time',
+             'Both, and nothing uncovered until the second']),
+ dict(first='The class will say “speak louder”, because that is what the dentist in the '
+            'case did. Let them say it, then ask what happened when she did.',
+      positions=[('Change the speed, not the volume.',
+                  'The most common real cause, and the cheapest thing to try.'),
+                 ('Move so the patient can see your face.',
+                  'A patient who lipreads needs you in front of them, not above them.'),
+                 ('Sit the chair up before asking again.',
+                  'Nobody hears well lying flat with a light in their eyes.')],
+      push=['“She said it louder and it did not work. Why not?”',
+            '“Where are you standing when you ask?” Almost nobody has pictured the room.',
+            '“What do you do if the third attempt also fails?” The useful answer is to '
+            'write the question down, and that is a sentence they will need in Book 3.'],
+      arabic='المريض لم يسمع، فرفعت الطبيبة صوتها. اسأل الصف: لماذا لم ينجح ذلك؟ '
+             'غالباً المشكلة في السرعة أو في موقع الطبيبة لا في الصوت.',
+      wrap='End by having two learners run the same exchange twice: once louder, once '
+           'slower and face to face. The room hears the difference and nobody has to be '
+           'told which worked.',
+      poles=['It is about volume', 'It is about position and speed'],
+      marks=['Say it louder', 'Say it slower', 'Move and say it again',
+             'Sit the chair up first']),
+ dict(first='Most classes answer “apologise to the patient” and stop. The case is '
+            'interesting because there are two people to speak to and an order between them.',
+      positions=[('Patient first, nurse afterwards and privately.',
+                  'The patient is the one who was frightened, and a correction given in '
+                  'front of them makes it worse.'),
+                 ('Nurse first, in one short sentence, then the patient.',
+                  'Defensible if the chair is still moving and the nurse has her hand on it.'),
+                 ('Nothing to the nurse at all, today.',
+                  'Some practices take this to a team meeting rather than the chairside. '
+                  'Ask whether that means it will actually happen.')],
+      push=['“What exactly do you say to the patient?” Insist on the sentence, not the '
+            'intention.',
+            '“Would you say it in front of the patient?” This is where the class divides.',
+            '“What would you want said to you, if you were the nurse?”'],
+      arabic='هناك شخصان يجب مخاطبتهما: المريض والمساعِدة. اسأل عن الترتيب، وعن الجملة '
+             'نفسها لا عن النية.',
+      wrap='Write both sentences on the board, side by side, and ask which one the class '
+           'would be happy to have overheard. That is the test, and it is a language test.',
+      poles=['Say it now, in the room', 'Say it later, in private'],
+      marks=['Patient only', 'Patient, then nurse privately',
+             'Nurse first, briefly', 'Team meeting, not now']),
+],
+
+marking=[
+ ['The record has two names on line one',
+  'both the dentist and the nurse are named; initials are enough'],
+ ['Line two says what was done, not what was planned',
+  'the verb is in the past, and nothing in it is conditional'],
+ ['Line three carries a date',
+  'any date in a recognisable form; do not penalise the format'],
+ ['The message answers reception’s next question',
+  'the time window and the deadline are both there'],
+ ['Articles', 'count them, but mark them once at the end, not through the text'],
+],
+
+photocopiable=dict(
+ title='The identity check, as a card for the chairside',
+ lines=['Ask the patient to say their own name. Do not read it out for them to agree with.',
+        'Ask for the date of birth.',
+        'Compare both with the record in front of you, not from memory.',
+        'If either does not match, stop and ask reception before anything else happens.',
+        'If the patient cannot answer, that is information. Write it down.'],
+ fig=None, fig_cap=''),
+)
+T['defects'] = list(T.get('defects', [])) + [
+ 'Writing the Arabic glossary showed that “the dental nurse” had no example sentence a '
+ 'patient would ever hear. The example in the unit was changed to “This is Mei-Ling, my '
+ 'dental nurse.”',
+ 'Working out what to say in case 3 showed that the unit taught “I am going to …” but '
+ 'never modelled it being said by the nurse. A nurse line was added to listening 5.2.',
+ 'The sample answer for 6.3 came out longer than the unit’s own model, which meant the '
+ 'model was too thin. The model in 6.3 now runs the whole two minutes.',
+]

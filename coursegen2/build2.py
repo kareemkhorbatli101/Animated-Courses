@@ -1,23 +1,31 @@
 # -*- coding: utf-8 -*-
 """Second edition: a unit becomes document XML, its figures and its key.
 
-Two rules this file exists to enforce:
+Three rules this file exists to enforce:
+
   * every exercise carries two visuals - one that organises information
     (a bank, a table, a grid) and one that pictures it (icons, people, a
     labelled thing);
-  * every part ends on a page boundary, with a closing visual where the part
-    would otherwise leave a page half empty.
+  * no page break is written without a teaching figure in front of it, and
+    that figure is grown to the measured height of the space the page has
+    left (see fitpass.py), so a part never ends on half a white page;
+  * part 9 is three cases for discussion, not a fact to admire.
 """
-import os, random
+import json, os, random
 import render as R
 import art2 as A
 import figs2 as F2
 
 LETTERS = 'ABCDEFGH'
 
+# Pass 0 of the page fit: the closing figures are left out so that the fitting
+# pass can measure how much room each part actually leaves at the foot of its
+# last page. The captions stay, because they are what locates the page.
+NORECAP = False
+
 
 class Ctx:
-    def __init__(self, media_dir):
+    def __init__(self, media_dir, fit=None):
         self.media = media_dir
         self.images = []
         self.n = 0
@@ -25,6 +33,9 @@ class Ctx:
         self.unit = 0
         self.figures = []          # (id, caption, alt, xref)
         self.exercise_figs = {}    # label -> count
+        self.fit = fit or {}       # recap key -> extra height in SVG units
+        self.recaps = {}           # FIG id -> recap key
+        self.breaks = 0
 
     def add(self, p):
         self.n += 1
@@ -55,11 +66,35 @@ def _who(cast, name, role=''):
     return look
 
 
-def endpart(ctx, out, closer=None, cap=None, xref=None):
-    """Close a part: an optional filling visual, then a page boundary."""
-    if closer is not None:
-        fig(ctx, out, 'close', closer, cap or 'A last look before you turn the page.',
-            xref=xref)
+# --------------------------------------------------------------- page ends
+DEFAULT_ASK = 'Close the book. Say one sentence from this page.'
+
+
+def endpart(ctx, out, key, title, lines, icons=None, question=None, xref=None,
+            cap=None):
+    """Close a part: a recap figure fitted to the page, then the break.
+
+    `key` identifies this recap to the fitting pass, which measures how much
+    room the page actually had left and comes back with a target height.
+    This is the only function in the file that writes a page break.
+    """
+    rkey = 'u%d.%s' % (ctx.unit, key)
+    target = ctx.fit.get(rkey, 0)
+    if NORECAP:
+        ctx.figno += 1
+        fid = 'FIG %d.%d' % (ctx.unit, ctx.figno)
+        out.append(R.caption('%s  %s' % (fid, cap or 'What this part gave you, '
+                                              'in one picture.')))
+        ctx.figures.append((fid, cap or 'recap', 'recap', xref or ''))
+        if xref:
+            ctx.exercise_figs[xref] = ctx.exercise_figs.get(xref, 0) + 1
+    else:
+        fid = fig(ctx, out, 'recap',
+                  F2.part_recap(title, [l for l in lines if l], icons, question,
+                                target_h=target),
+                  cap or 'What this part gave you, in one picture.', xref=xref)
+    ctx.recaps[fid] = rkey
+    ctx.breaks += 1
     out.append(R.pagebreak())
 
 
@@ -77,9 +112,7 @@ def shuffled(items, seed):
 # ------------------------------------------------------- the two visuals
 def _terms_of(task):
     """The words an exercise is really about, for the picture visual."""
-    got = []
-    for a, b in task.get('pairs', []):
-        got.append(b if task.get('kind') == 'match' else b)
+    got = [b for _, b in task.get('pairs', [])]
     out, seen = [], set()
     for g in got:
         g = str(g).strip()
@@ -168,6 +201,18 @@ def run_task(ctx, out, key, t, label, bank_title, pic_title):
         short_items(out, t['pairs'], key, label)
 
 
+def _answers_line(*tasks):
+    """The words a set of tasks turned on, for a recap line."""
+    got, seen = [], set()
+    for t in tasks:
+        for term in _terms_of(t or {}):
+            k = term.lower()
+            if k not in seen:
+                seen.add(k)
+                got.append(term)
+    return ', '.join(got[:6])
+
+
 # ---------------------------------------------------------------- the unit
 def unit(ctx, out, key, U, B, cast=None):
     ctx.unit = U['num']
@@ -192,7 +237,10 @@ def unit(ctx, out, key, U, B, cast=None):
         alt=U.get('warm_fig_alt'), xref='1.1')
     if U.get('warm_fig2'):
         fig(ctx, out, 'warm2', U['warm_fig2'], U['warm_fig2_cap'], xref='1.1')
-    endpart(ctx, out)
+    endpart(ctx, out, 'p1', 'PART 1  ·  WHAT YOU BROUGHT WITH YOU',
+            U['p1_recap'], icons=U.get('p1_icons'),
+            question=U.get('p1_ask', 'Which of the three questions was hardest to answer in English?'),
+            xref='1.1')
 
     # ---- 2 preview
     out.append(R.band_part('2  ·  THE WORDS AND THE SENTENCES OF THIS UNIT'))
@@ -223,7 +271,9 @@ def unit(ctx, out, key, U, B, cast=None):
     run_task(ctx, out, key, U['preview_task'], '2.1',
              'THE ANSWERS, IN NO ORDER', 'THE ANSWERS, AS PICTURES')
     out.append(R.body('Check your answers against %s before you go on.' % fid_set, after=140))
-    endpart(ctx, out)
+    endpart(ctx, out, 'p2', 'PART 2  ·  THE EIGHT WORDS, AND WHAT THEY SIT IN',
+            U['p2_recap'], icons=[it['term'] for it in U['set'][:4]],
+            question=U.get('p2_ask'), xref='2.1')
 
     # ---- 3 vocabulary
     out.append(R.band_part('3  ·  VOCABULARY'))
@@ -231,7 +281,10 @@ def unit(ctx, out, key, U, B, cast=None):
         run_task(ctx, out, key, v, '3.%d' % i, 'THE WORD BANK', 'THE SAME WORDS, AS PICTURES')
         if v.get('fig'):
             fig(ctx, out, 'v%d' % i, v['fig'], v['fig_cap'], xref='3.%d' % i)
-    endpart(ctx, out)
+    endpart(ctx, out, 'p3', 'PART 3  ·  THE WORDS, NOW IN YOUR HANDS',
+            U['p3_recap'] + ['The words these four tasks turned on: '
+                             + _answers_line(*U['vocab_tasks']) + '.'],
+            icons=U.get('p3_icons'), question=U.get('p3_ask'), xref='3.1')
 
     # ---- 4 grammar
     out.append(R.band_part('4  ·  GRAMMAR  ·  ' + U['g_point']))
@@ -243,7 +296,9 @@ def unit(ctx, out, key, U, B, cast=None):
     fig(ctx, out, 'gram', F2.contrast(*U['g_fig']), U['g_fig_cap'], xref='4.1')
     for i, g in enumerate(U['g_tasks'], 1):
         run_task(ctx, out, key, g, '4.%d' % i, 'THE FORMS YOU NEED', 'WHEN YOU USE EACH ONE')
-    endpart(ctx, out)
+    endpart(ctx, out, 'p4', 'PART 4  ·  THE GRAMMAR, IN ONE PICTURE',
+            U['p4_recap'], icons=[c[3] for c in U['g_mnemonic']],
+            question=U.get('p4_ask'), xref='4.1')
 
     # ---- 5 listening
     out.append(R.band_part('5  ·  LISTENING'))
@@ -264,7 +319,12 @@ def unit(ctx, out, key, U, B, cast=None):
         for part, letter in [('pre', 'a'), ('while', 'b'), ('post', 'c')]:
             run_task(ctx, out, key, L[part], '5.%d%s' % (i, letter),
                      'THE ANSWERS, IN NO ORDER', 'THE ANSWERS, AS PICTURES')
-        endpart(ctx, out)
+        endpart(ctx, out, 'p5.%d' % i, 'LISTENING %d  ·  WHAT YOU NOW HAVE' % i,
+                [L['point'],
+                 'The words this recording turned on: '
+                 + _answers_line(L['pre'], L['while'], L['post']) + '.'],
+                icons=L.get('icons'),
+                question=L.get('ask', DEFAULT_ASK), xref='5.%d' % i)
 
     # ---- 6 speaking
     out.append(R.band_part('6  ·  SPEAKING'))
@@ -297,7 +357,10 @@ def unit(ctx, out, key, U, B, cast=None):
             [(c[:30], 'tick') for c in S['checklist']], cols=len(S['checklist']),
             note='Tick each one after you speak.'),
             'The checklist as cards.', xref='6.%d' % i)
-        endpart(ctx, out)
+        endpart(ctx, out, 'p6.%d' % i, 'ROLE-PLAY %d  ·  WHAT YOU CAN NOW SAY' % i,
+                [S['point'], 'A good turn had: ' + '; '.join(S['checklist'][:3]) + '.'],
+                icons=S.get('icons'), question=S.get('ask', DEFAULT_ASK),
+                xref='6.%d' % i)
 
     # ---- 7 reading
     out.append(R.band_part('7  ·  READING'))
@@ -322,7 +385,12 @@ def unit(ctx, out, key, U, B, cast=None):
         for part, letter in [('while', 'b'), ('post', 'c')]:
             run_task(ctx, out, key, Rd[part], '7.%d%s' % (i, letter),
                      'THE ANSWERS, IN NO ORDER', 'THE ANSWERS, AS PICTURES')
-        endpart(ctx, out)
+        endpart(ctx, out, 'p7.%d' % i, 'READING %d  ·  WHAT THE TEXT LEFT YOU' % i,
+                [Rd['point'],
+                 'The words this text turned on: '
+                 + _answers_line(Rd['while'], Rd['post']) + '.'],
+                icons=Rd.get('icons'), question=Rd.get('ask', DEFAULT_ASK),
+                xref='7.%d' % i)
 
     # ---- 8 writing
     out.append(R.band_part('8  ·  WRITING'))
@@ -347,27 +415,45 @@ def unit(ctx, out, key, U, B, cast=None):
             [(c[:30], 'tick') for c in Wr['checklist']], cols=len(Wr['checklist']),
             note='Tick each one before you hand it in.'),
             'The writing checklist as cards.', xref='8.%d' % i)
-        endpart(ctx, out)
+        endpart(ctx, out, 'p8.%d' % i, 'WRITING %d  ·  THE SHAPE YOU NOW HAVE' % i,
+                [Wr['point'], 'The frame, in order: ' + ' → '.join(Wr['scaffold']) + '.'],
+                icons=Wr.get('icons'), question=Wr.get('ask', DEFAULT_ASK),
+                xref='8.%d' % i)
 
-    # ---- 9 one thing worth knowing
-    out.append(R.band_part('9  ·  ONE THING WORTH KNOWING'))
-    d = U['data_box']
-    out.append(R.readbox(d['text']))
-    out.append(R.datapoint(d['label'], d['value'], d['source']))
-    fig(ctx, out, 'data', U.get('data_fig') or F2.mini_table(
-        'THE FACT, IN ONE LINE', ['', ''], [[d['label'], d['value']]]),
-        U.get('data_fig_cap', 'The fact this page turns on.'), xref='9.1')
-    fig(ctx, out, 'datapics', F2.icon_cards('WHAT IT COMES DOWN TO',
-        [(w, None) for w in U.get('data_icons', ['the record', 'the patient', 'the check'])],
-        cols=3, note='Three pictures for one fact.'),
-        'The fact, as three pictures.', xref='9.1')
-    if U.get('ai_page'):
-        a = U['ai_page']
-        out.append(R.band_part('9.2  ·  ' + a['title']))
-        for line in a['body']:
-            out.append(R.readbox(line))
-        out.append(R.boundary(a['boundary']))
-    endpart(ctx, out)
+    # ---- 9 three cases for discussion
+    out.append(R.band_part('9  ·  CASES TO TALK ABOUT'))
+    out.append(R.readbox(U['cases_intro']))
+    for i, C in enumerate(U['cases'], 1):
+        out.append(R.band_part('9.%d  ·  CASE %d  ·  %s' % (i, i, C['title'])))
+        for para in C['situation']:
+            out.append(R.readbox(para))
+        fig(ctx, out, 'case%d' % i, F2.case_panel(
+            'CASE %d  ·  %s' % (i, C['title'].upper()),
+            [_who(cast, w) for w in C['who']], C['facts'], C['question'],
+            note=C.get('note')), C.get('fig_cap', 'Who is in the case, and what is on the record.'),
+            xref='9.%d' % i)
+        if C.get('fig'):
+            fig(ctx, out, 'case%db' % i, C['fig'], C['fig_cap2'], xref='9.%d' % i)
+        else:
+            fig(ctx, out, 'case%db' % i, F2.icon_cards(
+                'THE WORDS THIS CASE TURNS ON', [(w,) for w in C['words']], cols=4,
+                note='You will need these to say what you think.'),
+                'The words the discussion needs.', xref='9.%d' % i)
+        out.append(R.rubric('9.%d  Talk about these three questions. Give a reason every time.' % i))
+        out.append(R.body(C.get('how', 'In threes. Five minutes. One person writes down what '
+                                'the group decides, in one sentence.'), after=80))
+        numbered(out, C['questions'])
+        out.append(R.langbank('SAY IT LIKE THIS', C['language']))
+        if C.get('guidance'):
+            g = C['guidance']
+            out.append(R.datapoint(g[0], g[1], g[2]))
+        endpart(ctx, out, 'p9.%d' % i, 'CASE %d  ·  WHAT THE GROUP DECIDED' % i,
+                [C['point'],
+                 'The words you needed: ' + ', '.join(C['words'][:6]) + '.'],
+                icons=C.get('icons'),
+                question=C.get('ask', 'Say your group’s decision in one sentence, '
+                                      'and the one fact it rests on.'),
+                xref='9.%d' % i)
 
     # ---- 10 review, balanced across the four skills
     out.append(R.band_part('10  ·  REVIEW'))
@@ -400,5 +486,8 @@ def unit(ctx, out, key, U, B, cast=None):
         [(it['term'],) for it in U['set']], cols=4,
         note='Cover the words. Say all eight from the pictures.'),
         'The eight words of this unit, one last time.', xref='10')
-    endpart(ctx, out, F2.step_sequence(U['end_fig_title'], U['end_fig_steps'],
-            note=U.get('end_fig_note')), U['end_fig_cap'], xref='10')
+    fig(ctx, out, 'endsteps', F2.step_sequence(U['end_fig_title'], U['end_fig_steps'],
+        note=U.get('end_fig_note')), U['end_fig_cap'], xref='10')
+    endpart(ctx, out, 'p10', 'UNIT %d  ·  WHAT YOU TAKE OUT OF IT' % n,
+            U['p10_recap'], icons=[it['term'] for it in U['set'][4:8]],
+            question=U.get('p10_ask'), xref='10')

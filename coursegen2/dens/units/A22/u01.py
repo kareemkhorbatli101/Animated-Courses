@@ -710,15 +710,15 @@ reading=[
                items=['Why does looking come before feeling?',
                       'Why are seeing and feeling recorded separately?']),
       text=[
-       'Examination of the floor of the mouth is a short procedure that students are taught '
-       'early, because it is simple to do and because the area is one where changes must not '
-       'be missed.',
+       'Examination of the floor of the mouth is a short procedure. Students are taught '
+       'it early, for two reasons. It is simple to do, and the area is one where changes '
+       'must not be missed.',
        'Begin by explaining. Tell the patient that you are going to look under the tongue, '
        'that it will take about a minute, and that you will tell them before you touch '
        'anything. Ask whether that is all right, and wait for the answer. Permission is not '
        'a small thing you do quickly.',
-       'Seat the patient so that the mouth is at the height of your own elbow, and adjust the '
-       'light so that it falls into the floor of the mouth rather than onto the tongue. A '
+       'Seat the patient so that the mouth is at the height of your own elbow. Then adjust '
+       'the light so that it falls into the floor of the mouth, and not onto the tongue. A '
        'great deal of what is missed in this area is missed because the light was wrong.',
        'Ask the patient to lift the tongue to the roof of the mouth. From this position you '
        'can see the floor of the mouth, the lingual frenum, and the openings of the ducts '
@@ -727,9 +727,9 @@ reading=[
        'if you need to, but do not press on the tissue yet. The colour and the surface are '
        'what you are looking at, and both change the moment a finger moves across them.',
        'Then palpate. The floor of the mouth is examined bimanually, which means with two '
-       'hands: one finger inside the mouth, and the fingers of the other hand under the chin, '
-       'so that the tissue is felt between them. You are feeling for anything firm, and for '
-       'anything that the patient reports as tender.',
+       'hands. One finger goes inside the mouth, and the fingers of the other hand go under '
+       'the chin, so that the tissue is felt between them. You are feeling for anything '
+       'firm, and for anything that the patient reports as tender.',
        'Finally, record. Write what you saw, then write what you felt, and keep the two '
        'apart. A note that says floor of mouth normal tells the next reader nothing about '
        'which of the two you actually did.',
@@ -944,4 +944,170 @@ end_fig_steps=['Eight terms for the parts of the oral cavity.',
                'The difference between a description and a judgement.'],
 end_fig_note='The last one is the one your supervisor will care about in the clinic.',
 end_fig_cap='Unit 1, on one page.',
+)
+
+U.pop('data_box', None)
+U.update(
+p1_recap=['You have said, in your own words, what you already call the parts of the '
+          'mouth, and where your words and the English words do not line up.',
+          'You have seen the four boundaries a textbook uses to close the oral cavity: '
+          'the lips in front, the cheeks at the sides, the palate above and the floor '
+          'below.'],
+p1_ask='Which boundary of the oral cavity is the hardest one to point at? Why that one?',
+p1_icons=['gum', 'ear', 'bone', 'tooth'],
+p2_recap=['Eight words you can now define: the oral cavity, the vestibule, the hard '
+          'palate, the soft palate, the gingiva, mucosa, the frenum and the floor of '
+          'the mouth.',
+          'One sentence pattern an examiner accepts: X is the Y that Z, where Y names '
+          'the class and Z says what makes it different from the rest of that class.',
+          'One distinction you will be asked about all year: the vestibule is outside '
+          'the teeth, and the oral cavity proper is inside them.'],
+p2_ask='Define the vestibule in one sentence, using the pattern on this page.',
+p3_recap=['You have moved from recognising these terms in a reading to producing them '
+          'under a question.',
+          'The lecture in part 5 uses all eight. Say them out loud before you listen.'],
+p3_ask='Name the three structures a tongue has to move past to reach the hard palate.',
+p3_icons=['gum', 'tooth', 'bone', 'ear'],
+p4_recap=['Is defines. Consists of divides a whole into its parts. Is covered with '
+          'names the surface rather than the thing.',
+          'An examiner can tell which of the three you meant from the verb alone, so '
+          'the verb is not decoration.'],
+p4_ask='Say one sentence with each of the three verbs about the hard palate.',
+p10_recap=['You can name, define and locate the parts of the oral cavity in English, '
+           'and say which textbook class each one belongs to.',
+           'You can take notes from a lecture under headings and turn them into an '
+           'answer an examiner would accept.',
+           'Unit 2 counts and numbers what sits inside this cavity. Every term here '
+           'runs under it.'],
+p10_ask='Close the book and define four of the eight terms to the person next to you.',
+)
+
+for _i, _pt in enumerate([
+    'You now know how a lecturer signals that a definition is coming, and what to write '
+    'down when that signal arrives.',
+    'You now know what an unanswered tutorial question sounds like, and that the useful '
+    'move is to say which part of it you can answer.',
+    'You now know how a supervisor asks in the clinic: a point, a pause, and one word '
+    'expected back.']):
+    U['listening'][_i]['point'] = _pt
+U['listening'][0]['ask'] = 'Which three words told you a definition was coming?'
+
+for _i, _pt in enumerate([
+    'You can present a structure in thirty seconds: class, position, surface, function.',
+    'You can give a reason as well as a name, which is the difference between a pass '
+    'and a good answer.',
+    'You can answer a supervisor at the chair in one word when one word is what is '
+    'wanted, and in a sentence when it is not.']):
+    U['speaking'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'A textbook page divides before it describes. Find the division first and the detail '
+    'stops being a list.',
+    'A written case moves from what was seen to what it means, and keeps the two apart '
+    'on the page.',
+    'A procedure is written in the order the hands move, which is not always the order '
+    'the eye looks.']):
+    U['reading'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'A definition an examiner accepts names the class first and the difference second.',
+    'A short examination answer answers the question that was asked, in its own words.',
+    'A label is a noun; the sentence under it is where the marks are.']):
+    U['writing'][_i]['point'] = _pt
+
+U.update(
+cases_intro='Three cases from a first-year clinic and a first-year tutorial. None of '
+            'them has a single correct answer, and each one turns on a term from this '
+            'unit. Work in threes. Say what you would do, and give your reason in '
+            'English every time.',
+cases=[
+ dict(tier='B', title='Two students, two different answers',
+  situation=['In a tutorial, Dr Nilsen points at the tissue between the lower lip and '
+             'the lower teeth and asks what it is called.',
+             'Leila says it is the vestibule. Daniel says it is the oral mucosa. Both '
+             'students are using a term correctly, and neither of them is answering '
+             'the other one. Dr Nilsen says nothing and waits.'],
+  who=['Leila Mansour', 'Daniel Owusu'],
+  facts=['One answer names a space; the other names a tissue.',
+         'Both terms are used correctly in the textbook.',
+         'The question was “what is it called”, not “what is it made of”.',
+         'Neither student has said which class their term belongs to.'],
+  question='Which answer does the question ask for, and how would you say so politely?',
+  questions=['Why can both answers be right and still not be equal here?',
+             'What single word would you add to Daniel’s answer to make it fit?',
+             'How would you ask the lecturer to say which one she wants?'],
+  words=['the vestibule', 'mucosa', 'the oral cavity', 'the gingiva', 'the frenum'],
+  language=[('Separating two kinds of answer',
+             ['One of these names a space and the other names a tissue.',
+              'If the question is about the surface, then …',
+              'Both are correct, but they answer different questions.']),
+            ('Asking a lecturer to be exact',
+             ['Could I check which one you are asking for?',
+              'Do you want the space or the lining?'])],
+  how='In threes. Six minutes. Write the one sentence you would say out loud.',
+  point='You can tell two correct answers apart by the class each one belongs to.',
+  ask='Say which class each student named, in one sentence for each.',
+  note='The disagreement here is about the question, not about the anatomy.',
+  icons=['gum', 'speech', 'book', 'person'],
+  guidance=('Reference anatomy', 'Three kinds of oral mucosa: lining, masticatory '
+            'and specialised',
+            'General anatomy reference works; professional guidance, 2025–2026.')),
+ dict(tier='C', title='The label that was in the wrong place',
+  situation=['Daniel hands in a labelled diagram of the oral cavity. Everything is '
+             'spelled correctly and the handwriting is clear.',
+             'His line for the hard palate ends on the soft palate, about a centimetre '
+             'behind the join. The sentence he wrote under the label describes the hard '
+             'palate exactly, and says it is bony.'],
+  who=['Daniel Owusu', 'Dr Petra Nilsen'],
+  facts=['The term is spelled correctly and used correctly in the sentence.',
+         'The line points at the structure behind the one the term names.',
+         'The written sentence describes the right structure.',
+         'There is no mark scheme on the sheet.'],
+  question='Is this a mistake about anatomy, or a mistake about drawing a line?',
+  questions=['What does the sentence tell you that the line does not?',
+             'How would you mark this, and what would you write in the margin?',
+             'What would you ask Daniel before you decided?'],
+  words=['the hard palate', 'the soft palate', 'mucosa', 'the oral cavity', 'the gingiva'],
+  language=[('Saying what the evidence shows',
+             ['The sentence shows that he knows …',
+              'The line shows only that …',
+              'I cannot tell from this whether …']),
+            ('Asking a student to show you',
+             ['Point at it on the model and say it again.',
+              'Read me your own sentence and then look at your line.'])],
+  how='In threes. Six minutes. One person argues that it is a drawing error.',
+  point='You can separate what a student knows from what a student drew, and say which '
+        'the evidence supports.',
+  ask='Say the one question you would ask Daniel, and what each answer would prove.',
+  note='Both readings are defensible. Say which one you would test first, and how.',
+  icons=['bone', 'pen', 'book', 'gum']),
+ dict(tier='C', title='The supervisor who asked for one word',
+  situation=['At the chair, Dr Rahman holds the mirror against the inside of the cheek '
+             'and says, “Leila. This?”',
+             'Leila gives a full definition: the class, the position and what it is '
+             'covered with. It takes twenty seconds. The patient is waiting with an '
+             'open mouth. Dr Rahman says, “Yes. Next one.”'],
+  who=['Dr Yusuf Rahman', 'Leila Mansour'],
+  facts=['The question was one word long.',
+         'The answer was correct and took twenty seconds.',
+         'A patient was holding their mouth open while it was given.',
+         'The supervisor accepted the answer and moved on.'],
+  question='Was the long answer wrong here, and what decides that?',
+  questions=['What does the length of the supervisor’s question tell you?',
+             'When is the full definition the right answer at the chair?',
+             'What would you say to Leila afterwards, and in how many sentences?'],
+  words=['mucosa', 'the vestibule', 'the gingiva', 'the oral cavity', 'the frenum'],
+  language=[('Matching the answer to the question',
+             ['A one-word question usually wants …',
+              'If the patient is waiting, then …',
+              'The full answer belongs in the tutorial, not …']),
+            ('Giving a colleague feedback kindly',
+             ['That was right, and next time you could …',
+              'Nothing was wrong with it except the length.'])],
+  how='In threes. Six minutes. Time the twenty-second answer with a watch first.',
+  point='You can judge how long an answer should be from how the question was asked.',
+  ask='Say the one-word answer, then the twenty-second one, and say when each belongs.',
+  note='There is no rule here that holds everywhere. Say what yours depends on.',
+  icons=['mirror', 'speech', 'clock', 'person']),
+],
 )

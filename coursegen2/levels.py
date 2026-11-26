@@ -157,6 +157,13 @@ wound wrap write wrong yard year yellow yes yesterday yet young
 """.split())
 
 B1 = A2 | set("""
+alive depth upset loose skip skips skipped overlap overlaps vertical
+easily easier continuous continuously centimetre centimetres metre metres
+abroad action actions aloud classmate classmates simply shorten shortens
+shortened lengthen lengthened
+award awards awarded parallel correction corrections locate locates located
+heal heals healed band bands script scripts decoration whose cell cells
+numb drill drills drilled drilling socket sockets edge edges volume
 absolutely abstract academic access accommodation account accurate achieve acknowledge
 acquire adapt adequate adjust administration admire admit advantage adventure advertise
 affect afford agency agenda aggressive aim alarm alcohol alternative ambition analyse
@@ -272,6 +279,10 @@ validate variable verify viable vigorous warrant whereby widespread
 # any level. This set is allowed in the student series only, and it is small
 # and closed on purpose.
 ACADEMIC = set("""
+composition structural interchangeable memorise memorises memorised
+stimulus stimuli consequence consequences examinable scheme schemes marker markers
+clause clauses defensible division divisions dictate dictates dictated
+dictation notation notations
 define defines defined defining definition definitions describe describes
 described describing description descriptions classify classifies classified
 classifying classification category categories feature features example
@@ -313,7 +324,7 @@ december
 IRREGULAR = {
  'am': 'be', 'is': 'be', 'are': 'be', 'was': 'be', 'were': 'be', 'been': 'be',
  'being': 'be', 'has': 'have', 'had': 'have', 'having': 'have', 'does': 'do',
- 'did': 'do', 'done': 'do', 'doing': 'do', 'goes': 'go', 'went': 'go',
+ 'bit': 'bite', 'bitten': 'bite', 'did': 'do', 'done': 'do', 'doing': 'do', 'goes': 'go', 'went': 'go',
  'gone': 'go', 'going': 'go', 'says': 'say', 'said': 'say', 'saw': 'see',
  'seen': 'see', 'seeing': 'see', 'told': 'tell', 'telling': 'tell',
  'wrote': 'write', 'written': 'write', 'writing': 'write', 'ran': 'run',
@@ -362,6 +373,8 @@ nobody anybody everybody somebody myself yourself himself herself itself
 ourselves yourselves themselves whenever wherever whoever whatever however
 anywhere everywhere nowhere somewhere
 tray treatment trays treatments
+verb verbs noun nouns adjective adjectives question questions
+sentence sentences word words phrase phrases column columns row rows
 """.split()) | NUMBERS
 
 SUFFIXES = [("ies", "y"), ("ied", "y"), ("ier", "y"), ("iest", "y"),
@@ -375,24 +388,38 @@ WORD = re.compile(r"[A-Za-z][A-Za-z'’-]*")
 
 
 def _forms(w):
-    """Every reasonable base form of a surface word."""
+    """Every reasonable base form of a surface word.
+
+    Affixes are stripped to a fixed point rather than once, so that a word
+    carrying both a prefix and a suffix - uncovered, rewritten, misreported -
+    reaches the base the word lists actually hold.
+    """
     w = w.lower().replace('’', "'")
     out = {w}
-    if w in IRREGULAR:
-        out.add(IRREGULAR[w])
-    for suf, rep in SUFFIXES:
-        if w.endswith(suf) and len(w) - len(suf) >= 2:
-            base = w[:len(w) - len(suf)] + rep
-            out.add(base)
-            out.add(base + 'e')          # live/lived, use/using
-            if len(base) > 2 and base[-1] == base[-2]:
-                out.add(base[:-1])       # stop/stopped, run/running
-    for pre in PREFIXES:
-        if w.startswith(pre) and len(w) - len(pre) >= 3:
-            out.add(w[len(pre):])
-    for part in w.split('-'):
-        if len(part) > 2:
-            out.add(part)
+    frontier = {w}
+    for _ in range(3):
+        new = set()
+        for x in frontier:
+            if x in IRREGULAR:
+                new.add(IRREGULAR[x])
+            for suf, rep in SUFFIXES:
+                if x.endswith(suf) and len(x) - len(suf) >= 2:
+                    base = x[:len(x) - len(suf)] + rep
+                    new.add(base)
+                    new.add(base + 'e')          # live/lived, use/using
+                    if len(base) > 2 and base[-1] == base[-2]:
+                        new.add(base[:-1])       # stop/stopped, run/running
+            for pre in PREFIXES:
+                if x.startswith(pre) and len(x) - len(pre) >= 3:
+                    new.add(x[len(pre):])
+            for part in x.split('-'):
+                if len(part) > 2:
+                    new.add(part)
+        new -= out
+        if not new:
+            break
+        out |= new
+        frontier = new
     return out
 
 

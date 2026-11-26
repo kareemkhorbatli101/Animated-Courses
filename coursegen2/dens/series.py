@@ -21,7 +21,7 @@ SCHOOL = 'Northgate School of Dentistry'
 
 BOOKS = {
  'A22': dict(code='A22', level='A2', bandge='A2.2', book='BOOK 1', emblem='tooth',
-   title=['English for', 'Dental Students'], sub='The Mouth and the Clinic',
+   cover_lines=['English for', 'Dental Students'], sub='The Mouth and the Clinic',
    blurb=['Book 1 is the first term. Leila Mansour learns the mouth in English:',
           'its parts, its surfaces, the dentition and how it is numbered, the',
           'instruments on a tray, the rules of a clinic, and how to follow a',
@@ -38,7 +38,7 @@ BOOKS = {
           'Reading a Textbook Page',
           'Writing a Definition That Survives an Examiner']),
  'B11': dict(code='B11', level='B1', bandge='B1.1', book='BOOK 2', emblem='flask',
-   title=['English for', 'Dental Students'], sub='Structure and Material',
+   cover_lines=['English for', 'Dental Students'], sub='Structure and Material',
    blurb=['Book 2 is oral histology, anatomy and dental materials.'],
    units=['Enamel', 'Dentine and Pulp', 'The Periodontium',
           'The Head and the Neck', 'Saliva',
@@ -46,7 +46,7 @@ BOOKS = {
           'The Laboratory Report', 'A Process, Described',
           'Answering a Short Examination Question']),
  'B12': dict(code='B12', level='B1', bandge='B1.2', book='BOOK 3', emblem='chart',
-   title=['English for', 'Dental Students'], sub='Disease and the Procedures That Answer It',
+   cover_lines=['English for', 'Dental Students'], sub='Disease and the Procedures That Answer It',
    blurb=['Book 3 is pathology, and the preclinical procedures that answer it.'],
    units=['How Caries Begins', 'The Periodontal Pocket', 'Pulpitis',
           'Infection, and How It Spreads', 'Reading a Radiograph',
@@ -54,7 +54,7 @@ BOOKS = {
           'Extraction, in Principle', 'Writing Up a Preclinical Exercise',
           'The Case, Presented']),
  'B21': dict(code='B21', level='B2', bandge='B2.1', book='BOOK 4', emblem='chair',
-   title=['English for', 'Dental Students'], sub='Your First Patients, Under Supervision',
+   cover_lines=['English for', 'Dental Students'], sub='Your First Patients, Under Supervision',
    blurb=['Book 4 is the move from the bench to the chair.'],
    units=['The First Appointment You Run', 'Taking a History Yourself',
           'Explaining to a Patient, Not a Tutor', 'Asking Your Supervisor',
@@ -62,7 +62,7 @@ BOOKS = {
           'Consent, and Your Part in It', 'When You Are Out of Your Depth',
           'Handing a Patient Over', 'The Clinic Log']),
  'B22': dict(code='B22', level='B2', bandge='B2.2', book='BOOK 5', emblem='book',
-   title=['English for', 'Dental Students'], sub='Evidence, Reading and Judgement',
+   cover_lines=['English for', 'Dental Students'], sub='Evidence, Reading and Judgement',
    blurb=['Book 5 is reading the literature and arguing from it.'],
    units=['What a Paper Claims', 'What the Numbers Show',
           'What the Study Could Not Control', 'Two Papers That Disagree',
@@ -70,7 +70,7 @@ BOOKS = {
           'Citing Without Copying', 'A Poster and Its Three Minutes',
           'Defending a Reading in a Seminar', 'When the Evidence Runs Out']),
  'C11': dict(code='C11', level='C1', bandge='C1.1', book='BOOK 6', emblem='globe',
-   title=['English for', 'Dental Students'], sub='The Case, the Viva and What Comes Next',
+   cover_lines=['English for', 'Dental Students'], sub='The Case, the Viva and What Comes Next',
    blurb=['Book 6 is the end of the degree and the start of the work.'],
    units=['The Case Report', 'The Long Case', 'The Viva: Being Asked Why',
           'Defending a Treatment Plan', 'Admitting the Limits of Your Case',
@@ -127,6 +127,13 @@ duct ducts cusp cusps erupt erupts erupted extract extracted extraction
 abnormal elastic chin elbow swallow swallows swallowed swallowing
 clinic clinics clinical clinically tissue tissues organ organs
 crown crowns root roots neck margin margins attached attachment
+gum gums rinse rinses rinsed rinsing spit spits allergy allergies
+canal canals chamber chambers inflamed inflammation recede recedes
+receded recession opposing regrow regrown regrows exposed exposure
+tubule tubules histology ligament ligaments mineral minerals
+probe probes probed numbness anaesthetise anaesthetised
+mask masks gown gowns glove gloves
+allergic painkiller painkillers
 sound unsound bite bites biting keratin keratinise keratinised ligament
 millimetre millimetres moist muscle muscles opening openings receptor receptors
 seal seals sealed tender tough firm firmer stiff crush crushes crushing

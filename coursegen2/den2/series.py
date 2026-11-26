@@ -23,7 +23,7 @@ LAB = 'Northgate Dental Laboratory'
 
 BOOKS = {
  'A21': dict(code='A21', level='A2', bandge='A2.1', book='BOOK 1', emblem='chair',
-   title=['English for', 'Dentists'], sub='In the Chair',
+   cover_lines=['English for', 'Dentists'], sub='In the Chair',
    blurb=['Book 1 is the patient visit, from the first word to the last.',
           'Nadia Haddad meets the patient, seats them, looks in the mouth,',
           'says what she is going to do, agrees how the patient stops her,',
@@ -40,23 +40,23 @@ BOOKS = {
           'Writing the Notes the Same Day',
           'Closing the Surgery']),
  'A22': dict(code='A22', level='A2', bandge='A2.2', book='BOOK 2', emblem='tray',
-   title=['English for', 'Dentists'], sub='The Procedure and the Week',
+   cover_lines=['English for', 'Dentists'], sub='The Procedure and the Week',
    blurb=['Book 2 is the work itself and the week around it.'],
    units=['The Tray for the Job', 'A Filling, Step by Step',
           'Isolation and Suction', 'The Decontamination Cycle',
           'The Appointment Book', 'A Written Estimate',
           'Stock, and What Ran Out', 'A Patient Who Cannot Pay Today',
           'The Record That Must Be Complete', 'The Week in One Page']),
- 'B11': dict(code='B11', level='B1', bandge='B1.1', book='BOOK 3', emblem='talk',
-   title=['English for', 'Dentists'], sub='Explaining, Consenting, Instructing',
+ 'B11': dict(code='B11', level='B1', bandge='B1.1', book='BOOK 3', emblem='speech',
+   cover_lines=['English for', 'Dentists'], sub='Explaining, Consenting, Instructing',
    blurb=['Book 3 is the language of explanation and agreement.'],
    units=['Explaining What You Found', 'Explaining the Options',
           'The Cost, and What It Covers', 'Consent, and What It Is Not',
           'Explaining a Radiograph', 'Instructions a Patient Will Follow',
           'Saying No to a Request', 'Breaking Bad News Gently',
           'The Anxious Patient', 'The Patient Who Does Not Come Back']),
- 'B12': dict(code='B12', level='B1', bandge='B1.2', book='BOOK 4', emblem='doc',
-   title=['English for', 'Dentists'], sub='Referrals, the Laboratory and the Record',
+ 'B12': dict(code='B12', level='B1', bandge='B1.2', book='BOOK 4', emblem='form',
+   cover_lines=['English for', 'Dentists'], sub='Referrals, the Laboratory and the Record',
    blurb=['Book 4 is the written side of the practice.'],
    units=['A Referral Letter', 'A Laboratory Prescription',
           'Reading a Report Back', 'Charting Without Ambiguity',
@@ -64,7 +64,7 @@ BOOKS = {
           'Scope of Practice, in Writing', 'The Radiograph Report',
           'Notes Somebody Else Must Read', 'A Year of Records']),
  'B21': dict(code='B21', level='B2', bandge='B2.1', book='BOOK 5', emblem='alert',
-   title=['English for', 'Dentists'], sub='When Something Goes Wrong',
+   cover_lines=['English for', 'Dentists'], sub='When Something Goes Wrong',
    blurb=['Book 5 is the worst week.'],
    units=['The First Ten Minutes', 'A Medical Emergency in the Chair',
           'Telling a Patient Something Went Wrong', 'Correcting a Record',
@@ -72,7 +72,7 @@ BOOKS = {
           'The Investigation Interview', 'Causes Without a Culprit',
           'An Inspector in the Practice', 'Telling the Team']),
  'B22': dict(code='B22', level='B2', bandge='B2.2', book='BOOK 6', emblem='globe',
-   title=['English for', 'Dentists'], sub='The Practice, the Profession and the Public',
+   cover_lines=['English for', 'Dentists'], sub='The Practice, the Profession and the Public',
    blurb=['Book 6 is the practice inside a profession and a community.'],
    units=['A Practice Meeting That Decides Something', 'A Policy for the Practice',
           'An Associate and a Shared Problem', 'Answering the Regulator Exactly',
@@ -126,6 +126,13 @@ duct ducts cusp cusps erupt erupts erupted extract extracted extraction
 abnormal elastic chin elbow swallow swallows swallowed swallowing
 clinic clinics clinical clinically tissue tissues organ organs
 crown crowns root roots neck margin margins attached attachment
+gum gums rinse rinses rinsed rinsing spit spits allergy allergies
+canal canals chamber chambers inflamed inflammation recede recedes
+receded recession opposing regrow regrown regrows exposed exposure
+tubule tubules histology ligament ligaments mineral minerals
+probe probes probed numbness anaesthetise anaesthetised
+mask masks gown gowns glove gloves
+allergic painkiller painkillers
 sound unsound bite bites biting keratin keratinise keratinised ligament
 millimetre millimetres moist muscle muscles opening openings receptor receptors
 seal seals sealed tender tough firm firmer stiff crush crushes crushing

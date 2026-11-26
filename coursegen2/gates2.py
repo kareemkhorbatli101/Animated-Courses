@@ -148,7 +148,9 @@ def check_unit(U, level, series_kind, fails, warns):
     for r in U.get('reading', []):
         prose += r['text']
     prose += [U.get('preview_intro', ''), U.get('listen_intro', '')]
-    prose += [U['data_box']['text']]
+    prose += [U.get('cases_intro', '')]
+    for C in U.get('cases', []):
+        prose += C['situation']
     ss = sentences([p for p in prose if p])
     if ss:
         msl = sum(len(s.split()) for s in ss) / len(ss)
@@ -167,8 +169,9 @@ def check_unit(U, level, series_kind, fails, warns):
     for i, r in enumerate(U.get('reading', []), 1):
         if r.get('source_tier') == 'A' and not r.get('source'):
             P('reading %d is Tier A with no source' % i)
-    if U['data_box'].get('tier') == 'A' and not U['data_box'].get('source'):
-        P('data box is Tier A with no source')
+    for i, C in enumerate(U.get('cases', []), 1):
+        if C.get('tier') == 'A' and not C.get('guidance'):
+            P('case %d is Tier A with no cited guidance' % i)
 
     # --- dissent forbidden below B1.2
     if level in ('A2.1', 'A2.2', 'B1.1') and U.get('dissent'):
@@ -208,7 +211,19 @@ def check_level(U, band, series_kind, domain, fails, warns):
     for Wr in U.get('writing', []):
         texts += Wr['model'] + Wr['scaffold'] + Wr['checklist'] + [Wr['rubric'], Wr['how']]
     texts += [U['preview_intro'], U['listen_intro'], U.get('review_intro', ''), U['strap']]
-    texts += U['warm'] + U['can_do'] + U['g_rule'] + [U['data_box']['text']]
+    texts += U['warm'] + U['can_do'] + U['g_rule'] + [U.get('cases_intro', '')]
+    for C in U.get('cases', []):
+        texts += C['situation'] + C['questions'] + C['facts'] + list(C['words'])
+        texts += [C['question'], C['point'], C.get('how', ''), C.get('ask', ''),
+                  C.get('note', ''), C['title']]
+        texts += [c for _, chunks in C['language'] for c in chunks]
+    for grp in ('p1_recap', 'p2_recap', 'p3_recap', 'p4_recap', 'p10_recap'):
+        texts += U.get(grp, [])
+    for k in ('p1_ask', 'p2_ask', 'p3_ask', 'p4_ask', 'p10_ask'):
+        texts += [U.get(k) or '']
+    for grp in ('listening', 'speaking', 'reading', 'writing'):
+        for it in U.get(grp, []):
+            texts += [it.get('point', ''), it.get('ask', '')]
     for grp in ('vocab_tasks', 'g_tasks', 'review'):
         for t in U.get(grp, []):
             texts += [t.get('rubric', ''), t.get('how', '') or '', t.get('example', '') or '']
@@ -255,6 +270,84 @@ def check_figures(figures, fails, warns, floor=18):
             fails.append('%s has no alt text' % fid)
         if not xref:
             warns.append('%s is not cross-referenced from a task' % fid)
+
+
+# Part 9 used to be a fact in a box. A fact is not a task: it gave the class
+# nothing to do and nothing to disagree about. It is now three cases, and a
+# case has to be arguable, answerable at the level, and settled by something
+# the unit has actually taught.
+YESNO = ('is ', 'are ', 'was ', 'were ', 'do ', 'does ', 'did ', 'can ',
+         'could ', 'should ', 'would ', 'will ', 'has ', 'have ', 'must ')
+
+
+def check_cases(U, level, series_kind, fails, warns):
+    n = U['num']
+    P = lambda m: fails.append('U%d: %s' % (n, m))
+    Wn = lambda m: warns.append('U%d: %s' % (n, m))
+    cases = U.get('cases', [])
+    if len(cases) != 3:
+        P('part 9 has %d cases (needs 3)' % len(cases))
+    if not U.get('cases_intro'):
+        P('part 9 has no introduction')
+    titles = [C.get('title', '') for C in cases]
+    if len(set(titles)) != len(titles):
+        P('two cases share a title')
+    for i, C in enumerate(cases, 1):
+        for need in ('title', 'situation', 'who', 'facts', 'question',
+                     'questions', 'language', 'words', 'point'):
+            if not C.get(need):
+                P('case %d has no %s' % (i, need))
+        qs = C.get('questions', [])
+        if len(qs) != 3:
+            P('case %d has %d discussion questions (needs 3)' % (i, len(qs)))
+        for q in qs:
+            if q.strip().lower().startswith(YESNO):
+                P('case %d question is answerable yes/no: "%s"' % (i, q))
+        if len(C.get('words', [])) < 4:
+            P('case %d names fewer than four words the talk needs' % i)
+        nw = sum(words(p) for p in C.get('situation', []))
+        if not (45 <= nw <= 140):
+            Wn('case %d situation is %d words (aim 45-140)' % (i, nw))
+        if len(C.get('who', [])) not in (1, 2):
+            P('case %d draws %d people (needs 1 or 2)' % (i, len(C.get('who', []))))
+        if not any(len(ch) for _, ch in C.get('language', [])):
+            P('case %d has an empty language box' % i)
+
+
+def check_recaps(U, ctx, fails, warns):
+    """No page break may be written without a teaching figure in front of it."""
+    want = ('p1_recap', 'p2_recap', 'p3_recap', 'p4_recap', 'p10_recap')
+    for k in want:
+        if not U.get(k):
+            fails.append('U%d: no recap lines for %s' % (U['num'], k.split('_')[0]))
+    for grp in ('listening', 'speaking', 'reading', 'writing'):
+        for i, it in enumerate(U.get(grp, []), 1):
+            if not it.get('point'):
+                fails.append('U%d: %s %d has no closing point' % (U['num'], grp, i))
+    for i, C in enumerate(U.get('cases', []), 1):
+        if not C.get('point'):
+            fails.append('U%d: case %d has no closing point' % (U['num'], i))
+
+
+def check_breaks(ctx, fails, warns):
+    if ctx.breaks != len(ctx.recaps):
+        fails.append('%d page breaks but %d closing figures'
+                     % (ctx.breaks, len(ctx.recaps)))
+
+
+def check_fit(fit_report, fails, warns, slack_pt=42):
+    """What the printed pages actually look like, measured off the PDF.
+
+    fit_report maps a recap key to the points of white left under it on the
+    page it landed on. Anything over `slack_pt` is a part that ends on a
+    half-empty page, which is the thing this round set out to remove.
+    """
+    bad = {k: v for k, v in (fit_report or {}).items() if v > slack_pt}
+    for k in sorted(bad, key=lambda k: -bad[k])[:12]:
+        fails.append('%s leaves %.0fpt of white at the foot of its page'
+                     % (k, bad[k]))
+    if len(bad) > 12:
+        fails.append('and %d more parts ending on a half-empty page' % (len(bad) - 12))
 
 
 def report(name, fails, warns):

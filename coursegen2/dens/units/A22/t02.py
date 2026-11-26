@@ -148,3 +148,220 @@ defects=[
  'The numbering drill now has a mnemonic figure of its own, and the teaching conversation is drawn. On the short route, teach from the two figures and leave the rule list for homework.',
  'Each exercise carries a bank and a set of picture cards, which solves a problem this unit had in the first round: students who could recite the rule but could not produce a number under pressure. They can now point at a card before they have to speak.'
 ])
+
+T.update(
+route_steps=['Warm-up: how they were taught to number teeth (5).',
+             'Preview: eight terms, the counting patterns, task 2.1 (25).',
+             'Vocabulary 3.2 and 3.3 (10).',
+             'Grammar: there are / each / every / the first (10).',
+             'Listening 5.1, the three-notation lecture — the one to keep (15).',
+             'Speaking 6.2, teaching the system to somebody who does not have it (12).',
+             'Reading 7.2, the case of the wrong tooth (10).',
+             'Case 1, Tooth 14 twice — do this one if you do only one (8).',
+             'Review 10.1 (5).'],
+route_stops=[2],
+board=['11 12 13 14 15 16 17 18   |   21 22 23 24 25 26 27 28',
+       '41 42 43 44 45 46 47 48   |   31 32 33 34 35 36 37 38',
+       'First digit = quadrant.   Second digit = position from the midline.',
+       '(leave a blank column headed: SAY IT HOW?   one four, or fourteen?)'],
+
+glossary=[
+ ['the dentition', 'مجموعة الأسنان / الإسنان',
+  'No single settled Syrian word; مجموعة الأسنان is understood everywhere. Use the English '
+  'and the picture together.'],
+ ['a quadrant', 'ربع (الربع السني)',
+  'Exact and immediate in Arabic. Use it to fix the first digit in two seconds.'],
+ ['the midline', 'الخط المتوسط', 'The reference point for the whole system. Draw it.'],
+ ['an incisor', 'قاطعة (قواطع)', 'Plural قواطع. The English plural is regular.'],
+ ['a canine', 'ناب (أنياب)',
+  'Learners know this one cold. Use it as the anchor and count outwards from it.'],
+ ['a premolar', 'ضاحك (ضواحك)',
+  'ضاحك is the Syrian and standard Arabic term. Learners who studied in English-medium '
+  'programmes sometimes only have the English.'],
+ ['a molar', 'رحى (أرحاء) / طاحونة',
+  'Both are heard in Syria; طاحونة is the colloquial one. Either is fine in Arabic; the '
+  'English is molar.'],
+ ['notation', 'الترقيم السني / نظام الترقيم',
+  'The whole unit turns on this word. Make sure every learner can say it before part 5.'],
+ ['a chart', 'المخطط السني / الشارت', 'الشارت is what is said in clinic. Accept it in Arabic.'],
+ ['to call out', 'يملي / ينادي الأرقام',
+  'Receptive, but worth the Arabic because it names the role one person plays in charting.'],
+],
+
+l1_traps=[
+ ('There is four quadrants.', 'There are four quadrants.',
+  'The singular there is again, and in this unit it is in almost every sentence a learner '
+  'produces. Correct it every time today.',
+  'لا تمييز في العربية بين there is وthere are. اليوم تحديداً صحّح العدد في كل مرة.'),
+ ('Each teeth has a number.', 'Each tooth has a number.',
+  'Each and every take the singular in English. Arabic كل takes the plural freely, so the '
+  'transfer is direct and the class will all make it at once.',
+  '«كل» في العربية تقبل الجمع، أما each/every في الإنكليزية فتأخذ المفرد.'),
+ ('The number of the tooth is fourteen.', 'The tooth is one four.',
+  'Not a grammar error but a safety one, and it is this unit’s whole point. Say the '
+  'digits. Teach it as a rule of the room, not as a preference.',
+  'تُقرأ الأرقام السنية رقماً رقماً: واحد أربعة، لا أربعة عشر. قاعدة سلامة لا تفضيل.'),
+ ('In the FDI the first number is the quadrant.',
+  'In FDI notation, the first digit is the quadrant.',
+  'Two small things that matter: no article before FDI, and digit rather than number. '
+  'Both will be marked in a written answer.',
+  'بلا أداة تعريف قبل FDI، وكلمة digit لا number.'),
+],
+
+expansion=[
+ ('notation', 'the Universal system, the Palmer system, a designation',
+  'The unit already contrasts FDI and Universal. Palmer is worth ten seconds for a class '
+  'that will read older records.'),
+ ('a quadrant', 'a sextant, an arch, the dental arches',
+  'Sextant only if they will meet periodontal charting this year.'),
+ ('a molar', 'the first permanent molar, a third molar, a wisdom tooth',
+  'The last two are a pair worth teaching now: patients say one and records say the other.'),
+ ('the dentition', 'the primary dentition, the mixed dentition, the permanent dentition',
+  'Take all three if the class sees children. The adjectives are the examinable part.'),
+],
+
+engagement=[
+ ('Number tennis', 'You say a tooth name, a learner says the FDI number; they say a '
+  'number, the next learner says the name. Keep it fast and stop at the first mistake.'),
+ ('Two systems, two walls', 'Put FDI on one wall and Universal on the other. Call a '
+  'tooth; learners walk to the wall whose system they are using. The disagreement is '
+  'physical and nobody has to be told it is dangerous.'),
+ ('Say it behind a mask', 'Hand out paper masks, or have learners cover their mouths. '
+  'Then run the charting drill. “Fourteen” and “forty” stop being distinguishable, and '
+  'the class works out the rule themselves.'),
+ ('The blank form', 'Give out the case form from reading 7.2 with the notation line '
+  'blank. Ask each learner to fill in a tooth. Collect them and read the contradictions out.'),
+ ('Chart your partner', 'In pairs, with a mirror, one learner calls and the other writes. '
+  'No tooth may be written until it has been said back. Ten minutes, and the whole unit '
+  'is in their hands.'),
+],
+
+sample_answers=[
+ ('1.1  “How were you taught to number teeth?”',
+  'Some of us were taught FDI from the first year and some were taught the Palmer grid '
+  'first and FDI afterwards. Most of us have never written Universal, but we have all '
+  'read a record that used it.',
+  'بعضنا تعلّم نظام FDI منذ السنة الأولى وبعضنا تعلّم شبكة Palmer أولاً. ومعظمنا قرأ '
+  'سجلاً مكتوباً بنظام Universal دون أن يكتب به.'),
+ ('6.2  Teaching the system to somebody who does not have it',
+  'There are four quadrants, two above and two below. The first digit tells you which '
+  'quadrant, going clockwise from the patient’s upper right. The second digit tells you '
+  'how far the tooth is from the midline, counting outwards from one to eight. So one '
+  'four is the fourth tooth from the midline in the upper right, which is the first '
+  'premolar. Say the digits separately: one four, not fourteen.'),
+ ('8.2  A short examination answer comparing two systems',
+  'FDI and Universal both give every permanent tooth a unique designation, and both are '
+  'written on charts used internationally. They differ in what the digits mean. FDI uses '
+  'two digits, the first for the quadrant and the second for the position from the '
+  'midline, so no FDI number has a second digit above eight. Universal numbers the '
+  'permanent teeth one to thirty-two in a single sequence. The consequence is that the '
+  'same two characters can denote different teeth in the two systems, which is why a '
+  'referral that gives a number without naming its system cannot be acted on.'),
+ ('9  Closing case 1 in one sentence',
+  'We would not touch either tooth until the referring clinic had told us which notation '
+  'they were using, and we would put the notation on our own letters from now on.'),
+],
+
+cases_intro='These three cases are the most useful eight minutes in the book, because '
+            'tooth notation is the place where a language error becomes a clinical one. '
+            'If you run only one case all term, run case 1.',
+case_notes=[
+ dict(first='Half the class says “it must be FDI, everybody uses FDI”. That is exactly '
+            'the assumption the case is about. Let it be said, then ask how they know.',
+      positions=[('Telephone the referring clinic before the patient sits down.',
+                  'The only answer that removes the ambiguity rather than managing it.'),
+                 ('Examine, chart in your own notation, and write back.',
+                  'Defensible: nothing irreversible happens, and the letter forces the '
+                  'issue. Ask what the patient is told meanwhile.'),
+                 ('Treat the FDI reading, because it is the commoner standard.',
+                  'Indefensible once said out loud, and that is why it is worth hearing. '
+                  'Let a learner argue it and let the room take it apart.')],
+      push=['“How do you know which system the letter used?” Press until somebody says '
+            '“we do not”.',
+            '“What would you add to your own letters?” The answer is four words — '
+            '“FDI notation” — and it is the whole lesson.',
+            '“The patient is in the waiting room. What do they get told?” The English for '
+            'this is harder than the clinical decision.'],
+      arabic='الرقم 14 يعني سناً مختلفاً في كل نظام. اسأل الصف: كيف تعرفون أي نظام استُعمل؟ '
+             'لا يمكن معرفته من الرسالة.',
+      wrap='Write the sentence they would add to their own referral letters on the board '
+           'and leave it up for the rest of the course.',
+      poles=['Act on the likely reading', 'Do nothing until it is confirmed'],
+      marks=['Assume FDI', 'Examine and write back', 'Telephone now',
+             'Telephone, and change your own letters']),
+
+ dict(first='The class will take Daniel’s side because 15 is the right answer, and will '
+            'not notice that they have not said why the other method is wrong.',
+      positions=[('The second digit counts every tooth from the midline.',
+                  'The definition, and it settles the case in one sentence.'),
+                 ('Both methods are internally consistent; only one is FDI.',
+                  'The sophisticated answer, and worth drawing out.'),
+                 ('Draw the quadrant and count together.',
+                  'The practical answer, and it takes ten seconds. Push them towards '
+                  'actually doing it on the board.')],
+      push=['“Where exactly did the second student start counting?”',
+            '“How would you say that without telling her she is stupid?” This is the '
+            'language the case exists for.',
+            '“Draw it.” Make somebody draw it on the board. The argument ends.'],
+      arabic='الخلاف ليس في العدّ بل في نقطة البداية. الرقم الثاني يعدّ كل الأسنان من الخط '
+             'المتوسط، لا الضواحك وحدها.',
+      wrap='End with one drawn quadrant on the board, numbered, and leave it there for '
+           'the writing task.',
+      poles=['Count the type', 'Count every tooth'],
+      marks=['Count premolars only', 'Count from the canine', 'Count from the midline',
+             'Draw it and count together']),
+
+ dict(first='Somebody always says “but everyone understood”, which is the strongest '
+            'argument against the rule and the reason the case exists.',
+      positions=[('Keep the rule: it is written for the bad day, not the good one.',
+                  'The safety argument, and the one most practices take.'),
+                 ('A rule nobody can justify will not be followed.',
+                  'A real objection. Make them answer it rather than ignore it.'),
+                 ('Write it down as a practice rule, whichever way you decide.',
+                  'The answer that ends the argument, and the one to push towards.')],
+      push=['“Put a mask on and say fourteen and forty.” Do this. It takes ten seconds '
+            'and it does the arguing for you.',
+            '“Nothing went wrong in a year. What does that prove?”',
+            '“Where would you write the rule down, so a new nurse finds it?”'],
+      arabic='جرّبوا قول fourteen وforty خلف الكمامة. الفرق يختفي. القاعدة مكتوبة لليوم '
+             'السيئ لا لليوم الجيد.',
+      wrap='Finish by writing the practice rule as one sentence, in English, with a place '
+           'named where it would hang.',
+      poles=['Nothing went wrong, so the rule is fussy',
+             'The rule is for the day something does'],
+      marks=['Say it either way', 'Digits in clinic only', 'Digits always',
+             'Digits always, and written on the wall']),
+],
+
+marking=[
+ ['Both systems are named before they are compared',
+  'the answer says what is being compared before saying how they differ'],
+ ['What they share comes before how they differ',
+  'at least one clause of common ground'],
+ ['The digits are described, not just the numbers',
+  'the word digit is used, and each digit is accounted for'],
+ ['The consequence is clinical, not academic',
+  'the last clause is about what can or cannot be acted on'],
+ ['Each / every take a singular', 'mark this one here; it is the unit’s grammar'],
+],
+
+photocopiable=dict(
+ title='Charting with two people: the rule of the room',
+ lines=['The caller says the quadrant first, then the tooth, then the finding.',
+        'Digits are said one at a time. One four. Not fourteen.',
+        'The writer says the whole entry back before writing it.',
+        'The caller says yes, or says it again. Silence is not agreement.',
+        'If a number has a second digit above eight, it is not FDI. Stop and ask.',
+        'Every chart carries the name of the notation it is written in.'],
+ fig=None, fig_cap=''),
+)
+T['defects'] = list(T.get('defects', [])) + [
+ 'Preparing case 1 showed that the unit never actually told learners what to add to '
+ 'their own letters. The phrase “FDI notation” was added to the writing checklist for 8.2.',
+ 'The Arabic glossary exposed that ضاحك and طاحونة are both live Syrian usage and that '
+ 'the unit assumed one Arabic term per English one. A note was added here, and the '
+ 'receptive set now carries both English plurals.',
+ 'The masked-speech activity showed that the unit argued for digit-by-digit reading but '
+ 'never gave learners a minimal pair to hear. “Fourteen / forty” was added to the '
+ 'pronunciation notes and to the review listening.',
+]

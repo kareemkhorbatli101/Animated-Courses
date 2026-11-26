@@ -326,3 +326,137 @@ sentence. A speaker's name was printed on every line including consecutive lines
 by the same speaker; it now prints only when the speaker changes. The cover
 overflowed; it is rebuilt with every string fitted to the measure before it is
 drawn, and the dead space is filled with an icon strip.
+
+---
+
+## 12  Third pilot round: the page, the case and the glossed teacher's book
+
+This round answers a review of the second pilot that listed, in order: hair and
+labels overlapping the drawn people; figure type too small against the body
+text; speech lines falling outside their bubbles; part 9 vague; and white space
+still left at the foot of a part. It adds the third unit of each book and
+rewrites the teacher's book. Every point is recorded here with what was
+actually changed, so that nothing is quietly dropped.
+
+### 12.1  The drawn people
+
+`art2.person()` was rewritten. Hair is no longer a free-floating shape near the
+skull: `_arc_cap()` draws it along an arc of an ellipse concentric with the head,
+so the two outlines cannot part company, and the hairline is a curve that meets
+the skull at the temples. Everything that belongs behind the head — a plait, a
+bun, a headscarf drape — is drawn before the head, so it can never land on a
+cheek. The draw order is now: back hair, neck, tunic, collar, ears, skull,
+front hair, face, mask, glasses.
+
+`person_box(s, style)` returns the drawn extent of a person, and
+`person_card()` is the single function every cast strip, conversation, case
+panel and cover now goes through. A caller gets the body's real bottom edge and
+places the name below it. **No caller can print a label across a tunic**, which
+is what the review caught on the cast page and in the conversation figure.
+Cards in a row are given a uniform height and the drawing is centred in it.
+
+### 12.2  Figure type, measured in points
+
+One SVG unit, at the printed width of a figure, is 0.1505 pt. The first round
+set figure labels at 40 units, which prints at **6 pt** against 11 pt body text —
+which is exactly the complaint that the matching choices looked larger than the
+table they belonged to. `art2` now defines `pt()` and the named sizes
+`FS_TITLE / FS_HEAD / FS_BODY / FS_SMALL / FS_NOTE`, and **no figure sets a bare
+number any more**. Figure body text prints at 10 pt.
+
+Alongside that, `wrap_w()` wraps by measured width instead of counting
+characters, `fit()` shrinks a string until it provably fits, and `bubble2()`
+sizes itself from its own wrapped text and returns its height. The pilot's
+speech bubble drew a fixed 100-unit box and truncated to two lines; that is how
+a third line ended up printed outside the border, and it cannot now happen.
+`mini_table`, `icon_cards`, `set_plate`, `phrase_box`, `step_sequence`,
+`contrast`, `morph_builder`, `grammar_mnemonic`, `form_annotated` and
+`conversation` were all re-laid out against measured text.
+
+### 12.3  Part 9: three cases, not one fact
+
+"One thing worth knowing" was a fact in a box. A fact is not a task: it gave a
+class nothing to do and nothing to disagree about. Part 9 is now **three cases**
+per unit. Each has a situation at level, a drawn `case_panel` showing who is in
+it and what is on the record, a second visual of the words the talk needs,
+**three open discussion questions**, a language box of frames for holding a
+position, and — where the case rests on professional practice — the cited
+guidance that used to sit in the data box, so the sourcing survives.
+
+`gates2.check_cases` enforces it: three cases, three questions each, no question
+answerable yes/no, a situation of 45–140 words, one or two people, a non-empty
+language box, at least four words named, and a closing point.
+
+### 12.4  No page break without a figure, and the figure is measured to the page
+
+The rule is now structural: **`endpart()` is the only function in `build2.py`
+that writes a page break, and it always emits a closing figure first.**
+`check_breaks` fails a build where the count of breaks and the count of closing
+figures differ. Every one of the ten parts, and every listening, role-play,
+reading, writing task and case inside them, ends on a recap figure built from
+that part's own content.
+
+How big that figure should be is not guessable, so it is measured:
+
+* **Pass 0** builds the book with `--norecap`: the closing figures are left out
+  and only their captions remain. `fitpass.py` converts the result to PDF,
+  finds the page each caption landed on, rasterises it and measures the lowest
+  row of ink. That gap is the room the part actually leaves.
+* **Pass 1** rebuilds with each gap as a target height. `part_recap()` grows
+  into it — type first, then pictures, then spacing — or compresses into it by
+  dropping the icon strip and then the question strip.
+* **Passes 2 and 3** re-measure and correct, and a final `--verify` pass writes
+  what the printed pages look like. `check_fit` fails any part that still
+  leaves more than 42 pt of white at the foot of its page.
+
+A figure is capped at one page's printable height, and the picture paragraph
+carries `w:keepNext` so a figure and its caption cannot be split.
+
+### 12.5  The level guard, completed
+
+Clearing three new units found real gaps in the word lists rather than real
+drift. `levels._forms()` now strips affixes **to a fixed point** rather than
+once, so a word carrying both a prefix and a suffix — *uncovered*, *rewritten* —
+reaches the base the lists hold. The B1 list gained the ordinary English it was
+missing (*alive, depth, overlap, vertical, award, parallel, heal, band, script,
+whose, cells, numb, drill, socket, easily, continuous, simply, abroad, aloud*),
+the student series' ACADEMIC set gained *composition, structural,
+interchangeable, memorise, stimulus, consequence, examinable, scheme, marker,
+clause, defensible, division, dictate*, and the dental DOMAIN gained *canal,
+chamber, inflamed, recession, opposing, regrown, exposed, tubule, ligament,
+mineral, gum, rinse, allergy, painkiller, mask*. `bit → bite` was added to the
+irregular map.
+
+The paraphrase-first rule held. Where the guard fired on content rather than on
+a list gap, the sentence was rewritten and nothing was cut: *in one breath* →
+*together, without stopping*; *could defend* → *could give good reasons for*;
+*a patient whose mouth is open* → *a patient with an open mouth*; *saying
+“unknown”* → *that says nothing at all*.
+
+### 12.6  The teacher's book
+
+Rewritten, and rewritten against the units rather than after them. Each unit's
+notes now carry: a ninety-minute route as a drawn sequence; what to put on the
+board before the class comes in; stage-by-stage procedure; **a bilingual
+glossary with Syrian clinical usage first where it differs** from the standard
+term; **the Arabic-speaker interference points** that this unit actually
+produces, each with the wrong form, the right form, the reason and an Arabic
+note; an expansion list that is never tested; five ways to run the material;
+**a sample answer for every open task**, with Arabic where it helps; what they
+get wrong; pronunciation; what else to do with the figures; a page for the
+teacher who is not a clinician; **notes on all three cases** — what a class says
+first, the positions that can be defended, where to push, the language to feed
+in, an Arabic prompt for when the discussion stops, and a drawn opinion line for
+a class that will not start; a marking table; homework; a photocopiable; and the
+defects the writing of these notes found in the unit itself.
+
+`render.py` gained `arun`, `ar_para`, `bilingual`, `gloss_table`,
+`sample_answer` and `trap`, all setting Arabic as complex script so Word shapes
+and orders it correctly whatever the Latin font around it.
+
+The feedback loop is real and is printed. Writing the Dentists Unit 3 notes
+showed that the unit's own model for 6.3 stopped before the saying-back, that
+*an allergy from* was a predictable transfer the unit never warned about, that
+the form had no box for a number of painkillers, and that three of the unit's
+words turn on /p/, which Arabic does not have. All four were fixed in the
+learner's book.

@@ -665,7 +665,14 @@ reading=[
        'system down anywhere he could see it.',
        'The case is taught to first-year students for one reason. Nineteen was not a slip of '
        'the hand. It was a reasonable decision taken with missing information, by somebody '
-       'who was trying to be helpful, and it still produced the wrong tooth.'],
+       'who was trying to be helpful, and it still produced the wrong tooth.',
+       'There is a last point worth making about the blank line itself. Nobody had left it '
+       'blank on purpose. The form had been redrawn the year before, and in the redrawing '
+       'the words at the top of it had been shortened. What had read notation used in this '
+       'clinic now read, simply, notation.',
+       'That is a small change, and it passed every reading the form was given. It only '
+       'became visible on the day somebody filled the form in who did not already know '
+       'the answer.'],
       **{'while': dict(kind='short', rubric='Answer in a few words.',
                example='Which system did the clinic use?  (FDI)',
                pairs=[('Which system did the clinic use?', 'FDI'),
@@ -931,4 +938,165 @@ end_fig_steps=['Four types of tooth, with what each one does.',
                'The difference between a finding and a judgement, in a chart.'],
 end_fig_note='The fourth one is the one that keeps a wrong crown out of a patient’s mouth.',
 end_fig_cap='Unit 2, on one page.',
+)
+
+U.pop('data_box', None)
+U.update(
+p1_recap=['You have said how you were taught to number teeth, and found out that the '
+          'person next to you may have been taught a different way.',
+          'You have seen the four quadrants and the midline that divides them, which '
+          'is the frame every notation in this unit is built on.'],
+p1_ask='How many teeth are there in one adult quadrant, and how do you know?',
+p1_icons=['tooth', 'form', 'card', 'pen'],
+p2_recap=['Eight words you can now define: the dentition, a quadrant, the midline, an '
+          'incisor, a canine, a premolar, a molar and notation.',
+          'One sentence pattern for classifying: there are four types of tooth, each '
+          'of which does a different job.',
+          'One distinction that matters in every clinic: a tooth has a name, a position '
+          'and a number, and only the number is safe to say out loud.'],
+p2_ask='Say what a premolar does that a molar does not, in one sentence.',
+p3_recap=['You have moved from recognising a tooth type to counting, ordering and '
+          'numbering it.',
+          'The lecture in part 5 compares three notations. Say the eight terms out '
+          'loud before you listen to it.'],
+p3_ask='Count the teeth of one quadrant out loud, from the midline backwards.',
+p3_icons=['tooth', 'form', 'book', 'pen'],
+p4_recap=['There are counts. Each and every single one out of a set. The first, the '
+          'second and the third put a tooth in its place in a row.',
+          'An examiner can see from your determiners whether you have understood that '
+          'a quadrant is a set, not a list.'],
+p4_ask='Say one sentence with each, one with every, and say why they are not the same.',
+p10_recap=['You can read and write any tooth in FDI notation, and say what the two '
+           'digits each stand for.',
+           'You can explain to somebody trained on another system why the same two '
+           'digits can mean two different teeth, which is the thing that causes harm.',
+           'Unit 3 puts these numbers on a chart. The notation you learned here is '
+           'what that chart is written in.'],
+p10_ask='Write one tooth in all three notations, and say which one you would speak aloud.',
+)
+
+for _i, _pt in enumerate([
+    'You now know how a lecturer compares three systems without saying which is best, '
+    'and what you are expected to write down while she does it.',
+    'You now know what a naming drill sounds like under time, and that saying the '
+    'quadrant first buys you the second you need.',
+    'You now know how charting is dictated and read back at the chair, and where in '
+    'that exchange an error is caught.']):
+    U['listening'][_i]['point'] = _pt
+U['listening'][0]['ask'] = 'What did the lecturer say was the same in all three systems?'
+
+for _i, _pt in enumerate([
+    'You can present a type of tooth as a class: what it is, where it sits, what it does.',
+    'You can teach a system to somebody who does not have it, which is a harder test '
+    'of understanding than being examined on it.',
+    'You can answer a number question at the chair without taking your eyes off the '
+    'mouth.']):
+    U['speaking'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'A textbook sequence is an argument about order, not a list to memorise.',
+    'A written case shows how a numbering error travels through a practice before '
+    'anybody notices it.',
+    'A charting procedure is written so that two people, not one, carry the record.']):
+    U['reading'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'Four definitions in one paragraph have to stay parallel, or the reader stops '
+    'believing all four.',
+    'An examination answer that compares two systems has to say what they share before '
+    'it says how they differ.',
+    'A labelled dentition is only as good as the sentence that says which notation it '
+    'is written in.']):
+    U['writing'][_i]['point'] = _pt
+
+U.update(
+cases_intro='Three cases in which a number meant two different things to two different '
+            'people. Each one is arguable. Work in threes. Say what you would do, and '
+            'give your reason in English every time.',
+cases=[
+ dict(tier='A', title='Tooth 14, twice',
+  situation=['A referral letter arrives from a clinic abroad. It asks for work on '
+             '“tooth 14”. The letter does not say which notation it uses.',
+             'In FDI, 14 is an upper right first premolar. In the Universal system, 14 '
+             'is an upper left second molar. Both teeth are present in this patient’s '
+             'mouth, and neither has anything wrong recorded against it.'],
+  who=['Dr Yusuf Rahman', 'Leila Mansour'],
+  facts=['The letter gives a number and no notation.',
+         'The two readings of that number name different teeth in different quadrants.',
+         'Both teeth are present and neither is charted as needing work.',
+         'The patient is already in the waiting room.'],
+  question='What is the next action, and who takes it?',
+  questions=['What makes this number unsafe, when neither reading is wrong?',
+             'What would you do before the patient sits down, and what after?',
+             'What would you add to your own letters so that this cannot happen to them?'],
+  words=['notation', 'a quadrant', 'the midline', 'a premolar', 'a molar', 'the dentition'],
+  language=[('Naming the ambiguity',
+             ['This number can be read in two ways.',
+              'Without the notation, 14 could mean …',
+              'The two readings are in different quadrants.']),
+            ('Saying what you would do',
+             ['I would not start until …', 'I would telephone the referring clinic and …',
+              'I would write the notation on every letter, because …'])],
+  how='In threes. Eight minutes. Write the sentence you would put in the reply.',
+  point='You can explain why a number without its system is not information.',
+  ask='Say what 14 means in each system, and what you would ask to settle it.',
+  note='Guessing is one of the available actions. Say what it would cost here.',
+  icons=['form', 'tooth', 'phone', 'card'],
+  guidance=('Standard', 'FDI two-digit notation (ISO 3950)',
+            'ISO 3950, Dentistry — Designation system for teeth and areas of the oral cavity.')),
+ dict(tier='C', title='The student who counted from the wrong end',
+  situation=['Daniel is charting with a supervisor. He is asked for the second premolar '
+             'in the upper right quadrant and he says 15.',
+             'He has counted from the midline outwards, which is correct. A classmate '
+             'watching says 14, because she counted the premolars only and started from '
+             'the canine. Both of them can say why their own number is right.'],
+  who=['Daniel Owusu', 'Leila Mansour'],
+  facts=['One student counted every tooth from the midline.',
+         'The other counted only the premolars, starting behind the canine.',
+         'Both methods give a number, and the numbers are different.',
+         'Only one of the two methods is what FDI notation means.'],
+  question='Which method does the notation define, and how would you show it?',
+  questions=['Where exactly does the second method go wrong?',
+             'How would you explain it without saying anybody is stupid?',
+             'What would you draw to settle it in ten seconds?'],
+  words=['notation', 'a quadrant', 'the midline', 'a premolar', 'a canine', 'an incisor'],
+  language=[('Showing rather than telling',
+             ['Start at the midline and count outwards.',
+              'The second digit counts every tooth, not every premolar.',
+              'Let us both count out loud from the same place.']),
+            ('Disagreeing with a classmate kindly',
+             ['I think we are starting from different places.',
+              'Your method would work if the question were …'])],
+  how='In threes. Six minutes. Draw one quadrant and number it together.',
+  point='You can find the point at which two correct-sounding methods part company.',
+  ask='Say where each student started counting, and which start the system defines.',
+  note='Both students are being careful. The disagreement is about the rule, not the care.',
+  icons=['tooth', 'pen', 'book', 'speech']),
+ dict(tier='C', title='Saying a number out loud',
+  situation=['Dr Nilsen tells the class that a tooth number is said digit by digit: '
+             'one four, not fourteen.',
+             'Leila asks why, since everybody in the room understood “fourteen”. Daniel '
+             'says he was taught to say “fourteen” in his first clinic and nothing ever '
+             'went wrong.'],
+  who=['Dr Petra Nilsen', 'Leila Mansour'],
+  facts=['Both ways of saying it were understood by everybody present.',
+         'One student has worked for a year saying it the other way.',
+         'Nothing is recorded as having gone wrong in that year.',
+         'The room is quiet and nobody is wearing a mask.'],
+  question='What does the digit-by-digit rule protect against that this room does not show?',
+  questions=['Why does a rule like this exist if nothing went wrong for a year?',
+             'What would change the risk: a mask, a noisy surgery, or a tired nurse?',
+             'Which rule would you keep in your own practice, and what would you write down?'],
+  words=['notation', 'the dentition', 'a quadrant', 'a molar', 'an incisor'],
+  language=[('Arguing from what could happen',
+             ['It works until …', 'The risk is not today, it is …',
+              'A rule like this is for the day when …']),
+            ('Agreeing a practice rule',
+             ['In this practice we will say …', 'We should write it down, because …'])],
+  how='In threes. Six minutes. Try saying both out loud behind a mask.',
+  point='You can argue for a safety rule from the conditions it was written for.',
+  ask='Say one four and fourteen out loud, and say which you would make the rule.',
+  note='“Nothing went wrong” is evidence of something. Say what, exactly.',
+  icons=['speech', 'mask', 'tooth', 'ear']),
+],
 )

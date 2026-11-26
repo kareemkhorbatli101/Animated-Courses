@@ -46,3 +46,63 @@ exercise, both generated from the exercise data, so they cannot drift from the
 answer key. The shuffle is seeded on the exercise label, so builds are
 reproducible. `gates2.check_exercise_figs` fails the build if any exercise has
 fewer than two.
+
+## Third round — the page, the case and the glossed teacher's book
+
+This round closed a review that listed five faults and added a third unit to
+each pilot book. Full rationale is in `../design/DESIGN.md` §12; what follows is
+what changed in the code.
+
+### art2.py
+* `pt()` and the named sizes `FS_TITLE/FS_HEAD/FS_BODY/FS_SMALL/FS_NOTE`.
+  One SVG unit prints at 0.1505 pt, so a 40-unit label printed at 6 pt against
+  11 pt body text. **No figure may set a bare font size any more.**
+* `wrap_w()` wraps by measured width; `fit()` shrinks to fit; `block()` returns
+  wrapped text and its own height.
+* `person()` rewritten: `_arc_cap()` draws hair along an arc concentric with
+  the head, and everything that belongs behind the head is drawn first.
+* `person_box()` returns a drawn person's extent; `person_card()` is the single
+  function every caller uses, so a name can never be printed over a body.
+* `bubble2()` sizes itself from its wrapped text and returns its height.
+
+### figs2.py
+* `part_recap()` — the closing figure. Grows or compresses to a measured
+  `target_h`, capped at one page.
+* `case_panel()`, `opinion_line()` — part 9 and its teacher's-book twin.
+* `cover2()` rebuilt: the scene is sized from the cast, every string is fitted,
+  and the panel absorbs the slack so there is no dead band.
+* Every text-bearing primitive re-laid out against measured text.
+
+### build2.py
+* `endpart()` is the **only** function that writes a page break, and it always
+  emits a closing figure first.
+* Part 9 is three cases; `data_box` and `ai_page` are gone.
+* `Ctx` carries `fit` (measured targets in) and `recaps` (figure id → key out).
+
+### fitpass.py  /  fitbuild.sh
+The page-fitting loop. Pass 0 builds with `--norecap` and measures the room each
+part leaves; later passes build, re-measure and correct; the last pass writes
+what the printed pages look like for `gates2.check_fit`.
+
+### gates2.py
+`check_cases`, `check_recaps`, `check_breaks`, `check_fit` added.
+
+### levels.py
+`_forms()` strips affixes to a fixed point. The B1 list, the ACADEMIC set and
+the irregular map were completed against three new units.
+
+### render.py
+`arun`, `ar_para`, `bilingual`, `gloss_table`, `sample_answer`, `trap` — the
+Arabic layer of the teacher's book, set as complex script. `picture()` carries
+`w:keepNext`. `pron()` separates its label from its note.
+
+### teacher2.py
+Rewritten. Per unit: drawn route, board plan, procedure, bilingual glossary with
+Syrian usage, Arabic interference points, expansion list, five engagement
+options, a sample answer for every open task, case notes for all three cases
+with an opinion-line figure, a marking table, a photocopiable, and the defects
+the notes found in the unit.
+
+### Building
+    ./fitbuild.sh den2 A21 1,2,3      # student book, fitted to the page
+    python3 teacher2.py den2 A21 --units 1,2,3

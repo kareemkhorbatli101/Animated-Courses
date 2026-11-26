@@ -355,7 +355,19 @@ listening=[
               ('Nadia', 'Given today. Put that in as well.'),
               ('Mei-Ling', 'Hygiene advice given, twelfth of March.'),
               ('Nadia', 'Thank you. That is the chart finished.'),
-              ('Mei-Ling', 'I will print the card for her.')],
+              ('Mei-Ling', 'I will print the card for her.'),
+           ('Nadia', 'One more thing before you print it.'),
+           ('Mei-Ling', 'Yes?'),
+           ('Nadia', 'Read the whole chart back to me once.'),
+           ('Mei-Ling', 'Upper left, two six, filling, occlusal.'),
+           ('Mei-Ling', 'Lower right, four six, sound.'),
+           ('Mei-Ling', 'Gum sore at the back on the left.'),
+           ('Mei-Ling', 'Thirty minutes booked. Hygiene advice given today.'),
+           ('Nadia', 'Good. That is everything I said.'),
+           ('Mei-Ling', 'Nothing is missing?'),
+           ('Nadia', 'Nothing. Print the card.'),
+           ('Mei-Ling', 'And the date at the top?'),
+           ('Nadia', 'The twelfth of March. Both our names under it.')],
       pre=dict(kind='short', rubric='Before you listen, look at the chart above.',
                example='How many teeth are marked?  (three)',
                pairs=[('How many teeth are marked?', 'three'),
@@ -854,4 +866,152 @@ end_fig_steps=['Say what you are going to do.',
                'Let the patient rinse, then tell them what you found.'],
 end_fig_note='Seven steps. The sixth is the one that catches a wrong number.',
 end_fig_cap='The whole of Unit 2 on one page.',
+)
+
+U.pop('data_box', None)
+U.update(
+p1_recap=['You have said what you look at first in a mouth, and in what order.',
+          'You have named the mirror, and the two rows of teeth it is used on.'],
+p1_ask='Which part of the mouth do you look at last, and why that one last?',
+p1_icons=['mirror', 'tooth', 'gum', 'light'],
+p2_recap=['Eight words you can now say: to open wide, to rinse, to spit, the upper '
+          'teeth, the lower teeth, the gum, a filling, the mirror.',
+          'Three things you say to a patient with an open mouth, in the order you '
+          'say them: open wide, rinse, spit.',
+          'One rule to keep: you say what you can see, and you say where it is, in '
+          'the same sentence.'],
+p2_ask='Which two of the eight words tell a patient to do something with water?',
+p3_recap=['You have moved from naming a part of the mouth to saying where something '
+          'is inside it.',
+          'The listening needs every one of these words, so say them out loud now.'],
+p3_ask='Point at your own upper teeth and your own lower teeth, and name both.',
+p3_icons=['tooth', 'gum', 'mirror', 'water'],
+p4_recap=['There is one thing. There are two or more. I can see puts you behind the '
+          'mirror, looking.',
+          'A patient who hears I can see a small filling knows more than a patient '
+          'who hears nothing at all.'],
+p4_ask='Say one sentence with there is and one with there are, about the same mouth.',
+p10_recap=['You can take a patient through an examination without letting go of them: '
+           'open, look, say, rinse, spit.',
+           'You can write one line about what you found that the next dentist can use.',
+           'Unit 3 asks what the patient already knows. This unit gave you the words '
+           'to say what you found.'],
+p10_ask='Describe one mouth out loud in four sentences, two with there is or there are.',
+)
+
+for _i, _pt in enumerate([
+    'You now know what a patient hears during an examination: short instructions, and '
+    'a sentence that says what is happening before it happens.',
+    'You now know what charting out loud sounds like, and why the nurse says the whole '
+    'thing back before she writes it.',
+    'You now know how a telephone call about a tooth is turned into two questions and '
+    'one appointment.']):
+    U['listening'][_i]['point'] = _pt
+U['listening'][1]['ask'] = 'Why did the nurse say the whole line back before writing it?'
+
+for _i, _pt in enumerate([
+    'You can run a mouth with three words and nothing else: open, wider, close.',
+    'You can say what you can see and where it is, in one sentence a nurse can write.',
+    'You can hold a whole examination together out loud, which is what a patient hears '
+    'as calm.']):
+    U['speaking'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'A leaflet is read by a patient who is not listening to you. It says one thing per '
+    'line and asks for one thing at the end.',
+    'A chart is a picture of a mouth that anybody in the practice can read in seconds.',
+    'Numbers are used instead of names because a number cannot be heard as a different '
+    'tooth.']):
+    U['reading'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'One line about what you found is read later by somebody who was not in the room.',
+    'A plan line is written so that it can be said to the patient without changing it.',
+    'A note for the next appointment says what to do, not what you were thinking.']):
+    U['writing'][_i]['point'] = _pt
+
+U.update(
+cases_intro='Three cases from the examinations of one afternoon. Each one has more '
+            'than one answer that a careful dentist could give good reasons for. Work '
+            'in threes. Say '
+            'what you would do, and give a reason every time.',
+cases=[
+ dict(tier='B', title='The nurse wrote it down differently',
+  situation=['Nadia is charting out loud. She says, “Upper left. Two six. Filling.” '
+             'Mei-Ling writes it on the chart and says nothing back.',
+             'At the end of the morning Nadia reads the chart. It says two five, not '
+             'two six. Both teeth are in the mouth and neither has a filling in it yet.'],
+  who=['Nadia Haddad', 'Mei-Ling Chen'],
+  facts=['The dentist said the number out loud once.',
+         'The nurse did not say it back before writing it.',
+         'The chart now shows a different tooth from the one that was looked at.',
+         'Nothing has been done to either tooth.'],
+  question='What has to happen to the chart, and who tells the patient?',
+  questions=['What stopped this from being caught at the time?',
+             'What would you write on the chart now, and what would you not write?',
+             'Who should tell the patient, and what exactly should they say?'],
+  words=['a filling', 'the upper teeth', 'the lower teeth', 'the mirror', 'to rinse'],
+  language=[('Saying what went wrong', ['The number on the chart is not …',
+                                        'Nobody said it back.',
+                                        'It was written before it was checked.']),
+            ('Saying what you would do', ['I would write …', 'I would not change …',
+                                          'I would tell the patient that …'])],
+  how='In threes. Five minutes. One person reads the chart out loud as it stands.',
+  point='You can say what a read-back is for by describing a morning that did not have one.',
+  ask='Say the one sentence that would have stopped this, and who says it.',
+  note='Changing a record and adding to a record are not the same thing. Say which you mean.',
+  icons=['card', 'tooth', 'pen', 'speech'],
+  guidance=('Common practice', 'Read-back when charting out loud',
+            'General professional guidance on clinical record-keeping, 2025–2026.')),
+ dict(tier='C', title='The patient who will not open wide',
+  situation=['Marco Alvarez opens his mouth a little way and stops. Nadia can see the '
+             'lower teeth but not the upper teeth at the back.',
+             'She says, “Open wide,” twice. He opens the same amount both times. He is '
+             'holding the sides of the chair and he is not saying anything.'],
+  who=['Nadia Haddad', 'Marco Alvarez'],
+  facts=['The patient opens the same amount every time he is asked.',
+         'The dentist can see the lower teeth but not the upper ones at the back.',
+         'The patient is holding the chair and has said nothing.',
+         'The mirror has not gone into the mouth yet.'],
+  question='Is this a mouth that will not open, or a patient who is afraid?',
+  questions=['What would you ask the patient before you ask him to open again?',
+             'Which three words would you use, and why those three?',
+             'What would you do if he opens no wider the third time?'],
+  words=['to open wide', 'comfortable', 'the mirror', 'the upper teeth', 'the gum'],
+  language=[('Asking before you ask again', ['Is it sore when you open?',
+                                             'Would you like to stop for a moment?',
+                                             'Tell me if it hurts.']),
+            ('Giving the patient the controls', ['Put your hand up and I will stop.',
+                                                 'We can do this a little at a time.'])],
+  how='In threes. Five minutes. One person is Marco and does not open any wider.',
+  point='You can tell a mouth that cannot open from a patient who will not, by asking.',
+  ask='Say the first question you would ask, before any instruction at all.',
+  note='Both readings of this are possible. Say which one you would test first.',
+  icons=['ear', 'speech', 'tooth', 'person']),
+ dict(tier='C', title='What the patient saw in the mirror',
+  situation=['Nadia says, “There is a small filling in the lower left.” Thandiwe Mabaso '
+             'asks to see it. Nadia gives her the mirror.',
+             'Mrs Mabaso looks and says, “That is black. Is it bad?” Nadia has not '
+             'written anything down yet and the examination is not finished.'],
+  who=['Nadia Haddad', 'Thandiwe Mabaso'],
+  facts=['The patient has asked to see the tooth, and has seen it.',
+         'The patient has used one word about it: black.',
+         'The examination is not finished.',
+         'Nothing is written in the record yet.'],
+  question='What can Nadia say now, and what has to wait until she has finished looking?',
+  questions=['What would you say in the next ten seconds?',
+             'Why does the rest of it have to wait?',
+             'How would you say “I do not know yet” so that it does not frighten her?'],
+  words=['a filling', 'the mirror', 'the lower teeth', 'the gum', 'to rinse'],
+  language=[('What you can say now', ['What you can see there is …',
+                                      'That is the filling, not the tooth.',
+                                      'I will tell you when I have looked at all of them.']),
+            ('Saying you do not know yet', ['I would rather look at the rest first.',
+                                            'I will know in two minutes.'])],
+  how='In threes. Five minutes. One person is the patient and keeps asking.',
+  point='You can answer a patient’s question honestly before you have the whole answer.',
+  ask='Say the sentence you would use to buy yourself two minutes.',
+  note='Saying nothing is also a choice here. Say what it costs.',
+  icons=['mirror', 'tooth', 'speech', 'clock']),
+],
 )

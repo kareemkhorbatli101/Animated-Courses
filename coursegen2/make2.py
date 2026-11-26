@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Build one second-edition book.  Usage:  make2.py <series_dir> <CODE> [--units 1,2]"""
-import os, sys, importlib
+import json, os, sys, importlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 PKG, CODE = sys.argv[1], sys.argv[2]
@@ -22,7 +22,15 @@ UNITDIR = os.path.join(HERE, PKG, 'units', CODE)
 os.makedirs(MEDIA, exist_ok=True)
 sys.path.insert(0, UNITDIR)
 
-ctx = build2.Ctx(MEDIA)
+FITJSON = os.path.join(HERE, PKG, 'out', 'fit_%s.json' % CODE)
+os.makedirs(os.path.dirname(FITJSON), exist_ok=True)
+FIT = json.load(open(FITJSON)) if os.path.exists(FITJSON) else {}
+LEFT = {}
+_lf = FITJSON.replace('.json', '_left.json')
+if os.path.exists(_lf):
+    LEFT = json.load(open(_lf))
+build2.NORECAP = '--norecap' in sys.argv
+ctx = build2.Ctx(MEDIA, fit=FIT)
 out, key = [], []
 LVL = {'A2': 'CEFR A2', 'B1': 'CEFR B1', 'B2': 'CEFR B2', 'C1': 'CEFR C1'}[B['level']]
 FULL = '%s — %s (%s)' % (series.TITLE, B['sub'], B['bandge'])
@@ -34,11 +42,17 @@ def coverfig(tag, built):
     art.render(''.join(o), h, p)
     out.append(R.picture(ctx.add(p), art.W, h, tag))
 
-coverfig('cover', figs.biz_cover(B['title'], series.STRAP, B['bandge'], B['book'],
-         series.SERIES, series.EDITION,
-         ['10 units  ·  3 listenings, 3 readings, 3 writing tasks and 3 role-plays in every unit',
-          'Full answer key  ·  All transcripts  ·  Wordlist with definitions'],
-         emblem=B['emblem']))
+_cv, _cvh, _cvd = F2.cover2(
+    B['cover_lines'], B['sub'], 'CEFR ' + B['bandge'], B['book'],
+    series.SERIES, series.EDITION,
+    ['Ten units of the language this profession actually uses',
+     'Three listenings, three readings, three writing tasks and three role-plays in every unit',
+     'Three cases to argue about in every unit  \u00b7  a teacher\u2019s book for every unit'],
+    people=[dict(series.CAST_LOOK[n], name=n) for n in series.COVER_PEOPLE],
+    emblem=B.get('emblem', 'tooth'))
+_cvp = os.path.join(MEDIA, 'cover.png')
+art2.render2(_cv, _cvh, _cvp, _cvd)
+out.append(R.picture(ctx.add(_cvp), art2.W, _cvh, 'cover'))
 
 # ---------------------------------------------------------------- title + disclaimer
 out.append(R.pagebreak())
@@ -78,7 +92,9 @@ for t, d in [
   ('7  Reading', 'Three texts: what you would actually read in a practice or a school.'),
   ('8  Writing', 'Three tasks. Each has a model, a frame to fill, and a checklist you mark '
    'your own work against.'),
-  ('9  One thing worth knowing', 'A fact, with where it comes from.'),
+  ('9  Cases to talk about', 'Three short cases from the working day. Each one has more '
+   'than one defensible answer. You are given the words and the sentence frames you need to '
+   'argue for yours, and a reason is required every time.'),
   ('10  Review', 'The words of this unit, and words from earlier units coming back. They come '
    'back because that is how they stay.')]:
     out.append(R.rubric(t))
@@ -142,8 +158,7 @@ out.append(R.title_band('Transcripts'))
 for U in UNITS:
     for i, L in enumerate(U['listening'], 1):
         out.append(R.rubric('Unit %d  ·  5.%d  %s' % (U['num'], i, L['title'])))
-        for who, line in L['script']:
-            out.append(R.speak(who, line))
+        out.append(R.speak_block(L['script']))
 
 out.append(R.pagebreak())
 out.append(R.title_band('Answer key'))
@@ -158,8 +173,9 @@ out.append(R.body('Where the facts in this book come from. Case material is inve
                   'are the sources for what is not.', after=140))
 srows = [['Unit', 'Claim', 'Source']]
 for U in UNITS:
-    d = U['data_box']
-    srows.append([str(U['num']), d['value'], d['source']])
+    for C in U['cases']:
+        if C.get('guidance'):
+            srows.append([str(U['num']), C['guidance'][1], C['guidance'][2]])
     for r in U['reading']:
         if r.get('source'):
             srows.append([str(U['num']), r['source'][0], r['source'][1]])
@@ -178,17 +194,25 @@ for U in UNITS:
     gates2.check_unit(U, B['bandge'], series.KIND, fails, warns)
     gates2.check_review(U, fails, warns)
     gates2.check_level(U, B['level'], series.KIND, series.DOMAIN, fails, warns)
+    gates2.check_cases(U, B['bandge'], series.KIND, fails, warns)
+    gates2.check_recaps(U, ctx, fails, warns)
 gates2.check_figures(ctx.figures, fails, warns, floor=18 * len(UNITS))
 gates2.check_exercise_figs(ctx, fails, warns)
+gates2.check_breaks(ctx, fails, warns)
+if LEFT:
+    gates2.check_fit(LEFT, fails, warns)
+if build2.NORECAP:
+    fails, warns = [], ['pass 0 of the page fit: closing figures omitted on purpose']
 ok = gates2.report('%s  %s  (%s)' % (series.TITLE, B['sub'], B['bandge']), fails, warns)
 
 # ---------------------------------------------------------------- write
 OUTDIR = os.path.join(HERE, PKG, 'out')
 os.makedirs(OUTDIR, exist_ok=True)
-fn = '%s_%s_%s.docx' % (series.FILESTEM, B['bandge'].replace('.', '-'),
-                        B['sub'].replace(' ', '_'))
+fn = '%s%s_%s_%s.docx' % ('fit0_' if build2.NORECAP else '', series.FILESTEM,
+                          B['bandge'].replace('.', '-'), B['sub'].replace(' ', '_'))
 path = os.path.join(OUTDIR, fn)
 R.build_docx(''.join(out), ctx.images, path, FULL)
+json.dump(ctx.recaps, open(os.path.join(OUTDIR, 'recaps_%s.json' % CODE), 'w'), indent=0)
 nwords = sum(len(str(x).split()) for x in out)
 print('\n%s  %s  figures %d  key lines %d  -> %s'
       % (CODE, B['sub'], len(ctx.figures), len(key), fn))

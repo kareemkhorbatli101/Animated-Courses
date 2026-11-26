@@ -853,3 +853,159 @@ end_fig_steps=['Greet the patient and give your own name.',
 end_fig_note='Six steps. If you only remember one, remember the fourth.',
 end_fig_cap='The whole of Unit 1 on one page.',
 )
+
+U.pop('data_box', None)
+U.update(
+
+# ---- what closes each part, and the space it has to fill -----------------
+p1_recap=['You have said, in English, what the first ten seconds of your own day '
+          'sound like.',
+          'You have named the five things a patient sees from the door: the chair, '
+          'the headrest, the operating light, the bracket table and the bowl.'],
+p1_ask='Which of the three questions was hardest to answer in English?',
+p1_icons=['chair', 'light', 'tray', 'bowl'],
+p2_recap=['Eight words you can now say: the surgery, the waiting room, the chair, '
+          'the headrest, the dental nurse, an appointment, to sit back, comfortable.',
+          'Two ways of asking a patient to do something: Can you sit back for me? '
+          'and I am going to put the chair back now.',
+          'One rule to keep: the thing a patient lies in is the chair; the room it '
+          'stands in is the surgery.'],
+p2_ask='Which three of the eight words would you use to tell a patient where to wait?',
+p3_recap=['You have gone from knowing a word when you see it to saying it yourself.',
+          'Every word in this part comes back in the listening, so say them out loud now.'],
+p3_ask='Say four of the eight words without looking at the page.',
+p3_icons=['chair', 'person', 'clock', 'card'],
+p4_recap=['Can you …? asks. Would you …? asks more politely. I am going to … tells '
+          'the patient what happens next.',
+          'A patient who is told before you move the chair does not have to guess.'],
+p4_ask='Which of the three do you use when your hands are already on the chair?',
+p10_recap=['You can open an appointment in English: two names, two identifiers, one '
+           'seat, one question about the chair.',
+           'You can write the three lines that say who was there, what was done and '
+           'what happens next.',
+           'Unit 2 opens the mouth. Everything you learned here still runs under it.'],
+p10_ask='Say the first two minutes from memory, in six turns, to the person next to you.',
+)
+
+for _i, _pt in enumerate([
+    'You now know what the start of an appointment sounds like from both chairs: '
+    'the dentist asks, the patient answers, and nothing moves until both have spoken.',
+    'You now know how a nurse hands you a morning: the list, the problem in it, and '
+    'what has already been done about the problem.',
+    'You now know how a telephone call reaches the surgery, and what the nurse has '
+    'to write down before she puts the telephone back.']):
+    U['listening'][_i]['point'] = _pt
+U['listening'][0]['ask'] = 'What were the two questions, in the order they came?'
+U['listening'][1]['ask'] = 'What had reception already done about the problem?'
+U['listening'][2]['ask'] = 'What did the nurse write down, and what did she leave out?'
+
+for _i, _pt in enumerate([
+    'You can give two names together, without stopping: your own, and the name '
+    'of the person working beside you.',
+    'You can move a chair and keep the patient with you, because you say every move '
+    'before you make it.',
+    'You can run the whole two minutes without stopping, which is the only version '
+    'a patient ever hears.']):
+    U['speaking'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'A notice is written for a person who is already worried. Short lines, one idea '
+    'in each, and the thing they must do in the last line.',
+    'A record card is read in ten seconds by somebody who has never met the patient. '
+    'That is why every line is in the same place every time.',
+    'Checking who the patient is takes eight seconds and is the one check nobody '
+    'can do for you.']):
+    U['reading'][_i]['point'] = _pt
+
+for _i, _pt in enumerate([
+    'Three lines, written the same day, are worth more than a page written next week.',
+    'A message for reception answers the question reception is going to ask next.',
+    'A card the patient takes away says the day, the time and what to do if they '
+    'cannot come.']):
+    U['writing'][_i]['point'] = _pt
+
+U.update(
+cases_intro='Three short cases from one morning at the practice. Each one can be '
+            'answered in more than one way. Work in threes. Say what you would do, '
+            'and give a reason every time. The words you need are under each case.',
+cases=[
+ dict(tier='B', title='Two patients, one family name',
+  situation=['It is 9.00 on a Tuesday. Two patients are in the waiting room. Both are '
+             'called Haddad. One is booked at 9.00 and one at 9.20.',
+             'Amara calls the first name. A patient stands up. Nadia is ready in the '
+             'surgery and the nurse has put out a tray for a filling. The second record '
+             'card has no date of birth on it.'],
+  who=['Amara Okonkwo', 'Nadia Haddad'],
+  facts=['Two patients are booked, at 9.00 and at 9.20.',
+         'Both patients are called Haddad.',
+         'One record card has no date of birth on it.',
+         'A tray for a filling is already out in the surgery.'],
+  question='Who should ask the next question, and what should it be?',
+  questions=['What is the first question, and who asks it?',
+             'Why is the family name not enough here?',
+             'What would you do about the card with no date of birth on it?'],
+  words=['the record', 'the date of birth', 'the waiting room', 'an appointment',
+         'the surgery', 'the dental nurse'],
+  language=[('Saying what you would do', ['I would ask …', 'I would not start until …',
+                                          'The first thing is …']),
+            ('Giving a reason', ['… because two people have the same name.',
+                                 '… because the card is not finished.'])],
+  how='In threes. Five minutes. One person writes the decision down in one sentence.',
+  point='You can argue, in English, for stopping a morning that is already running.',
+  ask='Say your group’s decision in one sentence, and the one fact it rests on.',
+  note='More than one answer works here. Say which one you would take, and why.',
+  icons=['person', 'card', 'clock', 'door'],
+  guidance=('Common practice', 'Two patient identifiers, asked at every visit',
+            'General professional guidance, 2025–2026.')),
+ dict(tier='C', title='The patient who did not hear you',
+  situation=['Mrs Mabaso is in the chair. Nadia says her own name and her nurse’s name. '
+             'Mrs Mabaso says nothing and looks at the window.',
+             'Nadia asks for the date of birth. Mrs Mabaso says, “Sorry?” Nadia says it '
+             'again, louder and faster. Mrs Mabaso says, “Sorry?” again.'],
+  who=['Nadia Haddad', 'Thandiwe Mabaso'],
+  facts=['The patient answered the first question with “Sorry?”',
+         'The second time, the dentist spoke louder and faster.',
+         'The patient is looking at the window, not at the dentist.',
+         'Nothing has been written in the record yet.'],
+  question='What should Nadia change: the words, the speed, or where she is standing?',
+  questions=['Why did speaking louder not work?',
+             'What would you change first, and why?',
+             'How do you know the patient has understood you?'],
+  words=['comfortable', 'the chair', 'the headrest', 'to sit back', 'the surgery'],
+  language=[('Saying what you would change', ['I would say it again, but …',
+                                              'I would move …', 'I would wait …']),
+            ('Checking the patient is with you', ['Is that all right?',
+                                                  'Can you hear me?',
+                                                  'Would you like me to say it again?'])],
+  how='In threes. Five minutes. Try the words out loud before you choose.',
+  point='You can say what to change when a patient does not understand you, and why.',
+  ask='Say the one sentence you would use, at the speed you would use it.',
+  note='Louder is not the same as clearer. Both are allowed; say which you would use.',
+  icons=['ear', 'speech', 'chair', 'person']),
+ dict(tier='C', title='The chair that went back too early',
+  situation=['Mei-Ling is getting the surgery ready. The patient walks in and sits down. '
+             'Mei-Ling puts the chair back while Nadia is still washing her hands.',
+             'The patient puts a hand out and says, “Oh!” Nadia turns round. The chair '
+             'is flat and the patient is holding the sides of it.'],
+  who=['Mei-Ling Chen', 'Nadia Haddad'],
+  facts=['The chair went back before anybody told the patient.',
+         'The dentist was washing her hands and did not see it.',
+         'The patient put a hand out and said one word.',
+         'Nothing has gone wrong with the appointment itself.'],
+  question='What does Nadia say first: to the patient, or to her nurse?',
+  questions=['Who should speak first, and what should they say?',
+             'Why does it matter that nobody told the patient?',
+             'What would you say to the nurse, and when would you say it?'],
+  words=['the chair', 'to sit back', 'comfortable', 'the dental nurse', 'the headrest'],
+  language=[('Putting it right with the patient', ['I am sorry. I am going to …',
+                                                   'Is that comfortable now?',
+                                                   'I will tell you before I move it.']),
+            ('Saying it to a colleague', ['Could we tell the patient first next time?',
+                                          'I would rather we …'])],
+  how='In threes. Five minutes. One person is the patient and says how it felt.',
+  point='You can put a small thing right in two sentences, one to each person.',
+  ask='Say both sentences: the one to the patient, and the one to the nurse.',
+  note='There is a right order here. Say which person you would speak to first.',
+  icons=['chair', 'person', 'speech', 'tick']),
+],
+)

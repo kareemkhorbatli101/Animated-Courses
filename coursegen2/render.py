@@ -184,7 +184,9 @@ def speak_block(lines, after=60):
 
 
 def pron(a, b):
-    return para(sp(after=20) + ind(200), [run(a), run(b, B + C(NAVY))])
+    """A label and its note, on one line, with the two kept visibly apart."""
+    return para(sp(after=40) + ind(260, 120, hanging=0),
+                [run(a, B + C(INK)), run('  \u2014  ', C('8A939B')), run(b, C(NAVY))])
 
 
 def who_is(name, what):
@@ -223,10 +225,11 @@ def outcome(t):
                 [run('WHAT HAPPENED  \u00B7  ', B + C(GOLD), 20), run(t)])
 
 
-def picture(rid, w_px, h_px, name):
+def picture(rid, w_px, h_px, name, keep=True):
     cx = int(CONTENT_IN * EMU_PER_IN)
     cy = int(cx * h_px / float(w_px))
-    return ('<w:p><w:pPr>' + sp(after=80, before=160) + jc('center') +
+    return ('<w:p><w:pPr>' + ('<w:keepNext/>' if keep else '') +
+            sp(after=80, before=160) + jc('center') +
             '</w:pPr><w:r><w:rPr>' + FONT + '</w:rPr><w:drawing><wp:inline distB="0" distT="0" distL="0" distR="0">'
             '<wp:extent cx="%d" cy="%d"/><wp:effectExtent b="0" l="0" r="0" t="0"/>'
             '<wp:docPr id="1" name="Picture"/><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">'
@@ -389,3 +392,87 @@ def faultlist(faults, gram):
 def costline(text):
     return para(shd('FFF6E0') + sp(after=160, before=140) + ind(140, 140),
                 [run('WHAT DRAFT ONE COST  ·  ', B + C(GOLD), 20), run(text)])
+
+
+# ---------------------------------------------------------------- Arabic
+# The teacher's book is written for a Syrian teacher who may be teaching this
+# specialised course for the first time. Arabic is set as complex script, so
+# Word shapes and orders it correctly whatever the Latin font round it.
+AR_FONT = '<w:rFonts w:ascii="Arial" w:cs="Arial" w:eastAsia="Arial" w:hAnsi="Arial"/>'
+
+
+def arun(text, props='', size=24):
+    rpr = ('<w:rPr>' + AR_FONT + '<w:rtl/><w:cs/>' + props +
+           '<w:sz w:val="%d"/><w:szCs w:val="%d"/></w:rPr>' % (size, size))
+    return '<w:r>%s<w:t xml:space="preserve">%s</w:t></w:r>' % (rpr, esc(text))
+
+
+def ar_para(text, after=80, left=200):
+    """A whole paragraph of Arabic, right to left."""
+    return ('<w:p><w:pPr><w:bidi/>' + sp(after=after) + ind(left, left) +
+            '<w:rPr>' + AR_FONT + '</w:rPr></w:pPr>' + arun(text) + '</w:p>')
+
+
+def bilingual(en, ar, note=None):
+    """An English term, its Arabic, and an optional note on usage."""
+    runs = [run(en, B + C(NAVY)), run('   —   '), arun(ar, B)]
+    if note:
+        runs.append(run('   ' + note, I + C('5A5A5A'), 19))
+    return para(sp(after=50) + ind(300, 120, hanging=0), runs)
+
+
+def gloss_table(rows, header=('English', 'العربية', 'Note for the teacher'),
+                widths=(2200, 2200, 4200)):
+    """English | Arabic | note. The Arabic column is set right to left."""
+    total = sum(widths)
+    grid = '<w:tblGrid>' + ''.join('<w:gridCol w:w="%d"/>' % w for w in widths) + '</w:tblGrid>'
+    out = ['<w:tbl><w:tblPr><w:tblW w:type="dxa" w:w="%d"/>' % total + BORDERS + TCMAR +
+           '<w:tblLayout w:type="fixed"/></w:tblPr>' + grid]
+
+    def cell(txt, w, arabic=False, head=False):
+        tcpr = ('<w:tcPr><w:tcW w:type="dxa" w:w="%d"/>' % w +
+                (shd(BLUE) if head else '') + '<w:vAlign w:val="center"/></w:tcPr>')
+        if arabic:
+            body = ('<w:p><w:pPr><w:bidi/>' + sp(after=40, before=40) +
+                    '<w:rPr>' + AR_FONT + '</w:rPr></w:pPr>' +
+                    arun(txt, (B + C(WHITE)) if head else B) + '</w:p>')
+        else:
+            props = (B + C(WHITE)) if head else (NB + C(INK))
+            body = para(sp(after=40, before=40), [run(txt, props)])
+        return '<w:tc>' + tcpr + body + '</w:tc>'
+
+    out.append('<w:tr>' + ''.join(
+        cell(h, widths[j], arabic=(j == 1), head=True) for j, h in enumerate(header)) + '</w:tr>')
+    for r in rows:
+        out.append('<w:tr>' + ''.join(
+            cell(str(c), widths[j], arabic=(j == 1)) for j, c in enumerate(r)) + '</w:tr>')
+    out.append('</w:tbl>')
+    return ''.join(out) + blank(100)
+
+
+def sample_answer(ref, text, ar=None):
+    """A model answer the teacher can read out or put on the board."""
+    o = [para(shd('F2F7F2') + sp(after=0, before=120) + ind(140, 140),
+              [run(ref, B + C('2E7D32'), 20)]),
+         para(shd('F2F7F2') + sp(after=(40 if ar else 140), before=0) + ind(260, 140),
+              [run(text)])]
+    if ar:
+        o.append('<w:p><w:pPr><w:bidi/>' + shd('F2F7F2') + sp(after=140, before=0) +
+                 ind(260, 140) + '<w:rPr>' + AR_FONT + '</w:rPr></w:pPr>' +
+                 arun(ar) + '</w:p>')
+    return ''.join(o)
+
+
+def trap(en_wrong, en_right, why, ar=None):
+    """A first-language interference point, with the repair."""
+    o = [para(shd('FBEAE8') + sp(after=0, before=120) + ind(140, 140),
+              [run('✗  ' + en_wrong, B + C('B3261E'))]),
+         para(shd('FBEAE8') + sp(after=0, before=0) + ind(140, 140),
+              [run('✓  ' + en_right, B + C('2E7D32'))]),
+         para(shd('FBEAE8') + sp(after=(40 if ar else 140), before=0) + ind(260, 140),
+              [run(why, I)])]
+    if ar:
+        o.append('<w:p><w:pPr><w:bidi/>' + shd('FBEAE8') + sp(after=140, before=0) +
+                 ind(260, 140) + '<w:rPr>' + AR_FONT + '</w:rPr></w:pPr>' +
+                 arun(ar) + '</w:p>')
+    return ''.join(o)

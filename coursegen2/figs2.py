@@ -5,6 +5,7 @@ Every primitive returns (svg_inner, height, defs) and is rendered by
 art2.render2. Nothing here is decorative: each figure is the thing a task
 operates on.
 """
+import math
 from art2 import *
 import art2 as A
 
@@ -14,10 +15,8 @@ def _head(height, title, defs_idx=None):
     o = [rect(0, 0, W, height, BG, stroke=BORDER, sw=4)]
     if title:
         o.append(rect(0, 0, W, BAND, ACCENT))
-        size = 84
-        while text_w(title, size, bold=True) > W - 160 and size > 40:
-            size -= 2
-        o.append(t(W / 2, BAND * 0.68, title, size, '#FFFFFF', bold=True))
+        o.append(t(W / 2, BAND * 0.68, title,
+                   fit(title, FS_TITLE, W - 160, True), '#FFFFFF', bold=True))
     return o
 
 
@@ -71,7 +70,7 @@ def tooth_section(title='A MOLAR IN SECTION', labels=None, show_key=True,
         key, _ = label_key(2040, 520, labels, size=48, title='KEY')
         o.append(key)
     if caption_terms:
-        o.append(t(140, H - 70, caption_terms, 40, MUTE, anchor='start', italic=True))
+        o.append(t(140, H - 70, caption_terms, FS_SMALL, MUTE, anchor='start', italic=True))
     return ''.join(o), H, hatch_def(1)
 
 
@@ -127,22 +126,22 @@ def dentition_map(title='THE PERMANENT DENTITION  ·  FDI NOTATION',
             (FDI_LOWER_R[::-1] + FDI_LOWER_L, 980, 'LOWER  (quadrants 4 and 3)')]
     for codes, y, caption in rows:
         kinds = KINDS[::-1] * 2
-        o.append(t(140, y - 70, caption, 46, MUTE, anchor='start'))
+        o.append(t(140, y - 70, caption, FS_BODY, MUTE, anchor='start'))
         for i, code in enumerate(codes):
             x = x0 + i * (tw + gap)
             fill = HILITE if code in highlight else ENAMEL
             o.append(_tooth_glyph(x, y, tw, th, kinds[i], fill))
-            o.append(t(x + tw / 2, y + th + 56, code, 44, LEAD, bold=code in highlight))
+            o.append(t(x + tw / 2, y + th + 56, code, FS_BODY, LEAD, bold=code in highlight))
             if show_universal:
                 u = (UNIV_UPPER if y < 900 else UNIV_LOWER)[i]
-                o.append(t(x + tw / 2, y + th + 112, u, 40, '#8A3B2E'))
+                o.append(t(x + tw / 2, y + th + 112, u, FS_SMALL, '#8A3B2E'))
     o.append(line(W / 2, 330, W / 2, 1270, MUTE, 4, dash='18,14'))
-    o.append(t(W / 2, 300, 'midline', 40, MUTE))
+    o.append(t(W / 2, 300, 'midline', FS_SMALL, MUTE))
     if show_universal:
         o.append(t(140, H - 150, 'black = FDI (ISO 3950)', 42, LEAD, anchor='start'))
         o.append(t(140, H - 96, 'red = Universal (US)', 42, '#8A3B2E', anchor='start'))
     if note:
-        o.append(t(140, H - 48, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(140, H - 48, note, FS_SMALL, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
@@ -158,11 +157,11 @@ def instrument_plate(title, items, note=None):
         o.append(rect(140, y, W - 280, 200, '#FFFFFF', stroke=BORDER, sw=3, rx=18))
         o.append(pin(210, y + 100, i, r=36))
         o.append(_instrument_glyph(300, y + 100, kind))
-        o.append(t(1180, y + 78, name, 54, INK, bold=True, anchor='start'))
-        o.append(t(1180, y + 148, use, 44, MUTE, anchor='start'))
+        o.append(t(1180, y + 78, name, FS_HEAD, INK, bold=True, anchor='start'))
+        o.append(t(1180, y + 148, use, FS_BODY, MUTE, anchor='start'))
         y += 230
     if note:
-        o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(140, H - 50, note, FS_SMALL, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
@@ -228,141 +227,226 @@ def _instrument_glyph(x, cy, kind):
 
 
 # -------------------------------------------------------- 4 set plate
+
 def set_plate(title, items, note='Learn these eight. The rest are for recognition only.'):
     """The productive core as a labelled picture: items=[(term, gloss)]"""
-    H = 330 + ((len(items) + 1) // 2) * 190 + 90
+    cols = 2
+    gap = 30
+    cw = (W - 280 - gap) / cols
+    tw = cw - 160
+    rows_data = []
+    for term, gloss in items:
+        tl = wrap_w(term, FS_HEAD, tw, True)
+        gl = wrap_w(gloss, FS_BODY, tw)
+        rows_data.append((tl, gl))
+    rh = max(len(a) * int(FS_HEAD * 1.30) + len(b) * int(FS_BODY * 1.30)
+             for a, b in rows_data) + 56
+    nrow = (len(items) + 1) // 2
+    H = int(BAND + 80 + nrow * (rh + 24) + 90)
     o = _head(H, title)
-    y = 320
-    for i, (term, gloss) in enumerate(items):
-        col = i % 2
-        x = 140 + col * ((W - 280) / 2 + 20)
-        wbox = (W - 300) / 2
-        if col == 0 and i:
-            y += 190
-        o.append(rect(x, y, wbox, 168, '#FFFFFF', stroke=BORDER, sw=3, rx=16))
-        o.append(pin(x + 62, y + 84, i + 1, r=34))
-        o.append(t(x + 124, y + 70, term, 50, INK, bold=True, anchor='start'))
-        o.append(t(x + 124, y + 130, gloss, 40, MUTE, anchor='start'))
-    o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+    for i, (tl, gl) in enumerate(rows_data):
+        r, c = divmod(i, cols)
+        x = 140 + c * (cw + gap)
+        y = BAND + 80 + r * (rh + 24)
+        o.append(rect(x, y, cw, rh, '#FFFFFF', stroke=BORDER, sw=3, rx=16))
+        o.append(pin(x + 66, y + rh / 2, i + 1, r=42))
+        ty = y + 28 + FS_HEAD * 0.80
+        for ln in tl:
+            o.append(t(x + 136, ty, ln, FS_HEAD, INK, bold=True, anchor='start'))
+            ty += int(FS_HEAD * 1.30)
+        for ln in gl:
+            o.append(t(x + 136, ty, ln, FS_BODY, MUTE, anchor='start'))
+            ty += int(FS_BODY * 1.30)
+    o.append(t(140, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # -------------------------------------------------------- 5 phrase box
+
 def phrase_box(title, groups, note=None):
     """groups = [(function, [chunk, chunk, ...]), ...]"""
-    rows = sum(1 + len(c) for _, c in groups)
-    H = 320 + rows * 76 + 110
-    o = _head(H, title)
-    y = 320
+    tw = W - 340
+    lh = int(FS_BODY * 1.32)
+    head_h = int(FS_HEAD * 1.32) + 26
+    plan, H = [], BAND + 80
     for func, chunks in groups:
-        o.append(rect(140, y, W - 280, 64, STRIP, stroke=BORDER, sw=3, rx=12))
-        o.append(t(170, y + 46, func.upper(), 44, ACCENT, bold=True, anchor='start'))
-        y += 76
-        for ch in chunks:
-            o.append(t(220, y + 48, '•  ' + ch, 48, INK, anchor='start'))
-            y += 76
-        y += 10
+        rows = [wrap_w('\u2022  ' + c, FS_BODY, tw - 80) for c in chunks]
+        plan.append((func, rows))
+        H += head_h + 18 + sum(len(r) * lh + 18 for r in rows) + 24
+    H = int(H + (90 if note else 40))
+    o = _head(H, title)
+    y = BAND + 80
+    for func, rows in plan:
+        o.append(rect(140, y, W - 280, head_h, STRIP, stroke=BORDER, sw=3, rx=12))
+        o.append(t(170, y + head_h / 2 + FS_HEAD * 0.36, func.upper(),
+                   fit(func.upper(), FS_HEAD, W - 360, True), ACCENT,
+                   bold=True, anchor='start'))
+        y += head_h + 18
+        for r in rows:
+            for ln in r:
+                o.append(t(220, y + FS_BODY * 0.80, ln, FS_BODY, INK, anchor='start'))
+                y += lh
+            y += 18
+        y += 24
     if note:
-        o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(140, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # -------------------------------------------------------- 6 step sequence
+
 def step_sequence(title, steps, stop_points=None, note=None):
-    """steps = [(n, text)], stop_points = set of indices where work stops"""
-    H = 330 + len(steps) * 196 + 100
-    o = _head(H, title)
+    """steps = [text], stop_points = set of 1-based indices where work stops"""
     stop_points = set(stop_points or [])
-    y = 320
-    for i, s in enumerate(steps, 1):
+    tw = W - 280 - 320
+    lh = int(FS_BODY * 1.32)
+    wrapped = [wrap_w(s, FS_BODY, tw) for s in steps]
+    rh = max(max(len(x) for x in wrapped) * lh + 56, 150)
+    gap = 36
+    H = int(BAND + 80 + len(steps) * (rh + gap) + (90 if note else 40))
+    o = _head(H, title)
+    y = BAND + 80
+    for i, lines in enumerate(wrapped, 1):
         isstop = i in stop_points
-        o.append(rect(140, y, W - 280, 168, HILITE if isstop else '#FFFFFF',
+        o.append(rect(140, y, W - 280, rh, HILITE if isstop else '#FFFFFF',
                       stroke=LEAD if isstop else BORDER, sw=5 if isstop else 3, rx=18))
-        o.append(circ(230, y + 84, 48, ACCENT))
-        o.append(t(230, y + 100, str(i), 56, '#FFFFFF', bold=True))
-        o.append(t(330, y + 100, s, 50, INK, anchor='start'))
+        o.append(circ(232, y + rh / 2, 54, ACCENT))
+        o.append(t(232, y + rh / 2 + FS_HEAD * 0.36, str(i), FS_HEAD, '#FFFFFF', bold=True))
+        ty = y + (rh - len(lines) * lh) / 2 + FS_BODY * 0.80
+        for ln in lines:
+            o.append(t(330, ty, ln, FS_BODY, INK, anchor='start'))
+            ty += lh
         if isstop:
-            o.append(t(W - 190, y + 100, 'STOP', 46, '#8A3B2E', bold=True, anchor='end'))
+            o.append(t(W - 190, y + rh / 2 + FS_BODY * 0.36, 'STOP', FS_BODY,
+                       '#8A3B2E', bold=True, anchor='end'))
         if i < len(steps):
-            o.append(arrow(230, y + 168, 230, y + 196, MUTE, 5, 20))
-        y += 196
+            o.append(arrow(232, y + rh, 232, y + rh + gap - 4, MUTE, 5, 22))
+        y += rh + gap
     if note:
-        o.append(t(140, H - 50, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(140, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # -------------------------------------------------------- 7 annotated form
+
 def form_annotated(title, heading, fields, callouts=None, note=None):
-    """fields = [(label, value)] ; callouts = [(field_index, text)]"""
-    H = 340 + len(fields) * 104 + 220
+    """fields = [(label, value)] ; callouts = [(field_index, text)]
+
+    The form is measured: the label column is as wide as its widest label,
+    a long value wraps inside the paper instead of running out of it, and
+    the callouts sit in their own column clear of the sheet.
+    """
+    lh = int(FS_BODY * 1.32)
+    cw = 980 if callouts else 0
+    fx = 150
+    fw = W - fx * 2 - (cw + 60 if callouts else 0)
+    labw = min(max([text_w(l, FS_SMALL) for l, _ in fields] + [100]) + 70, fw * 0.42)
+    valw = fw - labw - 90
+    rows = [(l, wrap_w(str(v), FS_BODY, valw)) for l, v in fields]
+    rh = [max(1, len(w)) * lh + 36 for _, w in rows]
+    head_h = int(FS_HEAD * 1.4) + 30
+    paper_h = head_h + sum(rh) + 50
+    H = int(BAND + 80 + paper_h + (90 if note else 44))
     o = _head(H, title)
-    fx, fw = 160, 1560
-    o.append(rect(fx, 300, fw, len(fields) * 104 + 120, PAPER, stroke=LEAD, sw=4, rx=10))
-    o.append(t(fx + 40, 376, heading, 54, INK, bold=True, anchor='start'))
-    o.append(line(fx + 40, 400, fx + fw - 40, 400, BORDER, 3))
-    y = 470
+    y0 = BAND + 80
+    o.append(rect(fx, y0, fw, paper_h, PAPER, stroke=LEAD, sw=4, rx=10))
+    o.append(t(fx + 40, y0 + 30 + FS_HEAD * 0.80, heading,
+               fit(heading, FS_HEAD, fw - 80, True), INK, bold=True, anchor='start'))
+    o.append(line(fx + 40, y0 + head_h, fx + fw - 40, y0 + head_h, BORDER, 3))
+    y = y0 + head_h + 24
     ypos = []
-    for lab, val in fields:
-        o.append(t(fx + 40, y, lab, 42, MUTE, anchor='start'))
-        o.append(t(fx + 620, y, val, 46, INK, anchor='start'))
-        o.append(line(fx + 600, y + 16, fx + fw - 40, y + 16, '#C9D3DC', 2))
-        ypos.append(y)
-        y += 104
-    for idx, text in (callouts or []):
+    for (lab, wlines), h in zip(rows, rh):
+        o.append(t(fx + 40, y + 18 + FS_SMALL * 0.80, lab,
+                   fit(lab, FS_SMALL, labw - 20), MUTE, anchor='start'))
+        ty = y + 18 + FS_BODY * 0.80
+        for ln in wlines:
+            o.append(t(fx + 40 + labw, ty, ln, FS_BODY, INK, anchor='start'))
+            ty += lh
+        o.append(line(fx + 30 + labw, y + h - 10, fx + fw - 40, y + h - 10, '#C9D3DC', 2))
+        ypos.append(y + h / 2)
+        y += h
+    for idx, txt in (callouts or []):
         yy = ypos[idx]
-        o.append(pin(fx + fw + 40, yy - 14, idx + 1, r=32))
-        o.append(t(fx + fw + 96, yy, text, 42, INK, anchor='start'))
+        cx = fx + fw + 60
+        o.append(leader(fx + fw, yy, cx, yy, MUTE, 3, dot=True))
+        o.append(pin(cx + 46, yy, idx + 1, r=36))
+        tx = cx + 104
+        ty = yy - (len(wrap_w(txt, FS_SMALL, cw - 120)) - 1) * lh / 2 + FS_SMALL * 0.30
+        for ln in wrap_w(txt, FS_SMALL, cw - 120):
+            o.append(t(tx, ty, ln, FS_SMALL, INK, anchor='start'))
+            ty += lh
     if note:
-        o.append(t(160, H - 50, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(fx, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # -------------------------------------------------------- 8 contrast
+
 def contrast(title, loose_t, loose, precise_t, precise, foot_l='', foot_r=''):
-    rows = max(len(loose), len(precise))
-    H = 340 + rows * 128 + 190
+    """Two columns set against each other: the vague one and the exact one."""
+    gap = 24
+    cw = (W - 300 - gap) / 2
+    lh = int(FS_BODY * 1.32)
+    head_h = int(FS_HEAD * 1.32) + 32
+    cols = []
+    for items in (loose, precise):
+        cols.append([wrap_w(s, FS_BODY, cw - 80) for s in items])
+    body_h = max(sum(len(w) * lh + 30 for w in c) for c in cols)
+    foot_h = int(FS_SMALL * 1.4) + 30
+    box_h = head_h + 36 + body_h + foot_h
+    H = int(BAND + 80 + box_h + 50)
     o = _head(H, title)
-    cw = (W - 320) / 2
-    for k, (ht, items, foot, col) in enumerate(
-            [(loose_t, loose, foot_l, '#8A3B2E'), (precise_t, precise, foot_r, ACCENT)]):
-        x = 150 + k * (cw + 20)
-        o.append(rect(x, 300, cw, rows * 128 + 150, '#FFFFFF', stroke=col, sw=5, rx=18))
-        o.append(rect(x, 300, cw, 84, col))
-        o.append(t(x + cw / 2, 360, ht, 52, '#FFFFFF', bold=True))
-        yy = 460
-        for s in items:
-            for ln in wrap(s, 34):
-                o.append(t(x + 40, yy, ln, 42, INK, anchor='start'))
-                yy += 52
-            yy += 28
-        o.append(t(x + cw / 2, 300 + rows * 128 + 118, foot, 40, col, italic=True))
+    y0 = BAND + 80
+    for k, (ht, wrapped, foot, col) in enumerate(
+            [(loose_t, cols[0], foot_l, '#8A3B2E'), (precise_t, cols[1], foot_r, ACCENT)]):
+        x = 150 + k * (cw + gap)
+        o.append(rect(x, y0, cw, box_h, '#FFFFFF', stroke=col, sw=5, rx=18))
+        o.append(rect(x, y0, cw, head_h, col))
+        o.append(t(x + cw / 2, y0 + head_h / 2 + FS_HEAD * 0.36, ht,
+                   fit(ht, FS_HEAD, cw - 40, True), '#FFFFFF', bold=True))
+        yy = y0 + head_h + 36 + FS_BODY * 0.80
+        for wlines in wrapped:
+            for ln in wlines:
+                o.append(t(x + 40, yy, ln, FS_BODY, INK, anchor='start'))
+                yy += lh
+            yy += 30
+        o.append(t(x + cw / 2, y0 + box_h - 26, foot,
+                   fit(foot, FS_SMALL, cw - 40), col, italic=True))
     return ''.join(o), H, ''
 
 
 # -------------------------------------------------------- 9 morph builder
+
 def morph_builder(title, rows, note=None):
     """rows = [(prefix, root, suffix, word, meaning)] - student series"""
-    H = 340 + len(rows) * 210 + 110
+    bw, gap = 400, 34
+    lh = int(FS_BODY * 1.30)
+    rh = 220
+    H = int(BAND + 80 + len(rows) * rh + (90 if note else 40))
     o = _head(H, title)
-    y = 320
-    bw = 420
+    y = BAND + 80
     for pre, root, suf, word, meaning in rows:
-        x = 160
-        for part, col, lab in [(pre, PLASTIC, 'prefix'), (root, HILITE, 'root'),
-                               (suf, '#D9EAD3', 'suffix')]:
-            o.append(rect(x, y, bw, 110, col if part else '#EFEFEF',
+        x = 150
+        parts = [(pre, PLASTIC, 'prefix'), (root, HILITE, 'root'), (suf, '#D9EAD3', 'suffix')]
+        for k, (part, col, lab) in enumerate(parts):
+            o.append(rect(x, y, bw, 116, col if part else '#EFEFEF',
                           stroke=LEAD, sw=4, rx=14))
-            o.append(t(x + bw / 2, y + 70, part or '—', 54, INK, bold=True))
-            o.append(t(x + bw / 2, y + 150, lab, 36, MUTE))
-            x += bw + 30
-            if part is not rows[0][2]:
-                o.append(t(x - 18, y + 72, '+', 48, MUTE))
-        o.append(arrow(x + 20, y + 55, x + 130, y + 55, LEAD, 6))
-        o.append(t(x + 160, y + 52, word, 56, ACCENT, bold=True, anchor='start'))
-        o.append(t(x + 160, y + 118, meaning, 40, MUTE, anchor='start'))
-        y += 210
+            o.append(t(x + bw / 2, y + 58 + FS_HEAD * 0.36, part or '\u2014',
+                       fit(part or '\u2014', FS_HEAD, bw - 36, True), INK, bold=True))
+            o.append(t(x + bw / 2, y + 116 + FS_SMALL * 1.1, lab, FS_SMALL, MUTE))
+            x += bw + gap
+            if k < 2:
+                o.append(t(x - gap / 2, y + 58 + FS_HEAD * 0.36, '+', FS_HEAD, MUTE))
+        o.append(arrow(x + 10, y + 58, x + 120, y + 58, LEAD, 6))
+        o.append(t(x + 150, y + 42 + FS_HEAD * 0.36, word,
+                   fit(word, FS_HEAD, W - x - 190, True), ACCENT, bold=True, anchor='start'))
+        ty = y + 58 + lh
+        for ln in wrap_w(meaning, FS_BODY, W - x - 190):
+            ty += lh
+            o.append(t(x + 150, ty, ln, FS_BODY, MUTE, anchor='start'))
+        y += rh
     if note:
-        o.append(t(160, H - 50, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(150, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
@@ -405,7 +489,7 @@ def chair_scene(title='THE SURGERY', labels=None, note=None):
     key, _ = label_key(2380, 420, labels, size=46, title='KEY')
     o.append(key)
     if note:
-        o.append(t(140, H - 60, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(140, H - 60, note, FS_SMALL, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
@@ -420,15 +504,15 @@ def exchange(title, left_name, left_lines, right_name, right_lines, note=None):
             [(left_name, left_lines, ACCENT), (right_name, right_lines, '#8A3B2E')]):
         x = 150 + k * (cw + 40)
         o.append(rect(x, 300, cw, 80, col))
-        o.append(t(x + cw / 2, 356, name, 50, '#FFFFFF', bold=True))
+        o.append(t(x + cw / 2, 356, name, FS_HEAD, '#FFFFFF', bold=True))
         yy = 440
         for s in lines:
             o.append(rect(x, yy - 54, cw, 112, '#FFFFFF', stroke=BORDER, sw=3, rx=18))
             for j, ln in enumerate(wrap(s, 30)[:2]):
-                o.append(t(x + 30, yy - 10 + j * 50, ln, 40, INK, anchor='start'))
+                o.append(t(x + 30, yy - 10 + j * 50, ln, FS_SMALL, INK, anchor='start'))
             yy += 150
     if note:
-        o.append(t(150, H - 60, note, 40, MUTE, anchor='start', italic=True))
+        o.append(t(150, H - 60, note, FS_SMALL, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
@@ -603,204 +687,460 @@ import re  # noqa: E402  (used by pick_icon)
 
 
 # ------------------------------------------------------- 13 icon cards
+
 def icon_cards(title, items, cols=4, note=None):
     """Vocabulary as picture cards: an icon, the word, nothing else."""
+    cols = max(1, min(cols, 5))
+    size = FS_BODY
     rows = (len(items) + cols - 1) // cols
-    cw = (W - 200 - (cols - 1) * 24) / cols
-    ch = 330
-    H = 300 + rows * (ch + 26) + (90 if note else 40)
-    o = _head(H, title)
-    for i, it in enumerate(items):
+    gap = 26
+    cw = (W - 200 - (cols - 1) * gap) / cols
+    wrapped = []
+    for it in items:
         term = it[0] if isinstance(it, (tuple, list)) else it
         ic = (it[1] if isinstance(it, (tuple, list)) and len(it) > 1 and it[1]
               else pick_icon(term))
+        wrapped.append((wrap_w(term, size, cw - 44, True), ic))
+    nmax = max(len(w) for w, _ in wrapped)
+    lh = int(size * 1.30)
+    icon_h = 230
+    ch = icon_h + 40 + nmax * lh + 34
+    H = int(BAND + 80 + rows * (ch + gap) + (90 if note else 40))
+    o = _head(H, title)
+    for i, (lines, ic) in enumerate(wrapped):
         r, c = divmod(i, cols)
-        x = 100 + c * (cw + 24)
-        y = 290 + r * (ch + 26)
+        x = 100 + c * (cw + gap)
+        y = BAND + 80 + r * (ch + gap)
         o.append(rect(x, y, cw, ch, '#FFFFFF', stroke=BORDER, sw=3, rx=20))
-        o.append(icon(ic, x + cw / 2, y + 128, 1.05))
-        for j, ln in enumerate(wrap(term, 16)[:2]):
-            o.append(t(x + cw / 2, y + 250 + j * 46, ln, 42, INK, bold=True))
+        o.append(icon(ic, x + cw / 2, y + icon_h * 0.52, min(1.35, cw / 460.0)))
+        ty = y + icon_h + 40
+        for ln in lines:
+            o.append(t(x + cw / 2, ty, ln, size, INK, bold=True))
+            ty += lh
     if note:
-        o.append(t(100, H - 50, note, 38, MUTE, anchor='start', italic=True))
+        o.append(t(100, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # ------------------------------------------------------- 14 conversation
+
 def conversation(title, left, right, exchange_lines, note=None):
     """Two people, drawn, with what each one says beside them.
 
     left/right = dict(name, role, skin, hair, style, tunic, mask, glasses)
-    exchange_lines = [(who, line), ...] where who is 'L' or 'R'
+    exchange_lines = [(who, line), ...] where who is 'L' or 'R'.
+    Every bubble is measured from its own text, so no line can print outside
+    its border, and the names sit under the figures, never across them.
     """
-    rows = len(exchange_lines)
-    H = 300 + 560 + rows * 124 + (90 if note else 50)
-    o = _head(H, title)
-    for side, who, cx in ((left, 'L', 560), (right, 'R', W - 560)):
-        o.append(person(cx, 560, 1.05, side.get('skin', '3'), side.get('hair', 'black'),
-                        side.get('style', 'short'), side.get('tunic', 'teal'),
-                        side.get('mask', False), side.get('glasses', False)))
-        o.append(t(cx, 1090, side['name'], 50, INK, bold=True))
-        o.append(t(cx, 1146, side.get('role', ''), 38, MUTE))
-    y = 1210
+    size = FS_BODY
+    cardw = 860
+    lx, rx = 140, W - 140 - cardw
+    lcard, lh_ = person_card(lx, BAND + 70, cardw, left)
+    rcard, rh_ = person_card(rx, BAND + 70, cardw, right)
+    y0 = BAND + 70 + max(lh_, rh_) + 50
+    bw = W / 2 - 220
+    bubbles, y = [], y0
     for whoside, line in exchange_lines:
         isleft = whoside == 'L'
-        bx = 160 if isleft else W / 2 + 40
-        bw = W / 2 - 200
-        o.append(rect(bx, y, bw, 100, '#FFFFFF', stroke=ACCENT if isleft else '#8A3B2E',
-                      sw=4, rx=22))
-        o.append(path('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
-                      % (bx + (bw - 60 if isleft else 20), y + 100,
-                         bx + (bw - 20 if isleft else 20), y + 148,
-                         bx + (bw - 20 if isleft else 60), y + 100), fill='#FFFFFF',
-                      stroke=ACCENT if isleft else '#8A3B2E', sw=4))
-        for j, ln in enumerate(wrap(line, 40)[:2]):
-            o.append(t(bx + 30, y + 44 + j * 44, ln, 40, INK, anchor='start'))
-        y += 124
+        bx = 140 if isleft else W / 2 + 80
+        svg, bh = bubble2(bx, y, bw, line, point='down',
+                          fill='#FFFFFF' if isleft else '#FDF6F4',
+                          stroke=ACCENT if isleft else '#8A3B2E',
+                          size=size, tail_at=0.12 if isleft else 0.08)
+        bubbles.append(svg)
+        y += bh + 34
+    H = int(y + (70 if note else 24))
+    o = _head(H, title)
+    o.append(lcard)
+    o.append(rcard)
+    o.extend(bubbles)
     if note:
-        o.append(t(160, H - 50, note, 38, MUTE, anchor='start', italic=True))
+        o.append(t(140, H - 30, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # ------------------------------------------------------- 15 cast cards
+
 def cast_cards(title, people, note=None):
-    cols = 4
+    """The cast of the book. Names and roles sit clear of every body."""
+    cols = 4 if len(people) > 3 else max(1, len(people))
+    gap = 26
+    cw = (W - 200 - (cols - 1) * gap) / cols
+    hmax = max(person_card(0, 0, cw, p)[1] for p in people)
     rows = (len(people) + cols - 1) // cols
-    cw = (W - 200 - (cols - 1) * 26) / cols
-    ch = 700
-    H = 300 + rows * (ch + 30) + (90 if note else 40)
+    H = int(BAND + 80 + rows * (hmax + gap) + (90 if note else 40))
     o = _head(H, title)
     for i, p in enumerate(people):
         r, c = divmod(i, cols)
-        x = 100 + c * (cw + 26)
-        y = 290 + r * (ch + 30)
-        o.append(rect(x, y, cw, ch, '#FFFFFF', stroke=BORDER, sw=3, rx=22))
-        o.append(person(x + cw / 2, y + 250, 0.78, p.get('skin', '3'), p.get('hair', 'black'),
-                        p.get('style', 'short'), p.get('tunic', 'teal'),
-                        p.get('mask', False), p.get('glasses', False)))
-        o.append(t(x + cw / 2, y + 578, p['name'], 44, INK, bold=True))
-        for j, ln in enumerate(wrap(p.get('role', ''), 22)[:2]):
-            o.append(t(x + cw / 2, y + 632 + j * 42, ln, 36, MUTE))
+        o.append(person_card(100 + c * (cw + gap), BAND + 80 + r * (hmax + gap),
+                             cw, p, height=hmax)[0])
     if note:
-        o.append(t(100, H - 50, note, 38, MUTE, anchor='start', italic=True))
+        o.append(t(100, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # ------------------------------------------------------- 16 mini table
-def mini_table(title, header, rows, note=None, highlight=None):
-    """A compact table for an exercise: the data visual beside the icon visual."""
-    H = 250 + (len(rows) + 1) * 78 + (80 if note else 30)
-    o = [rect(0, 0, W, H, '#FFFFFF', stroke=BORDER, sw=4)]
-    o.append(rect(0, 0, W, 130, ACCENT))
-    size = 60
-    while text_w(title, size, bold=True) > W - 140 and size > 32:
-        size -= 2
-    o.append(t(W / 2, 86, title, size, '#FFFFFF', bold=True))
+
+def mini_table(title, header, rows, note=None, highlight=None, col_bold=(0,)):
+    """A compact table for an exercise: the data visual beside the icon visual.
+
+    Columns are measured from their own contents and cells wrap, so a long
+    gloss no longer has to be cut at 46 characters. Type is set in points,
+    not in raw units, so it prints at the size of the page it sits on.
+    """
+    size, head_sz = FS_BODY, FS_HEAD
+    pad, left = 26, 80
+    tw = W - 2 * left
     cols = len(header)
-    cw = (W - 160) / cols
-    y = 180
+    need = []
+    for j in range(cols):
+        m = text_w(str(header[j]), head_sz, True)
+        for r in rows:
+            m = max(m, min(text_w(str(r[j]), size), tw * 0.62))
+        need.append(max(m + 2 * pad, 170))
+    tot = sum(need) or 1
+    widths = [tw * n / tot for n in need]
+    xs, x = [], left
+    for w in widths:
+        xs.append(x)
+        x += w
+    lh = int(size * 1.32)
+    hrow = int(head_sz * 1.32) + 2 * 18
+    body = []
+    for r in rows:
+        cells = [wrap_w(str(c), size, widths[j] - 2 * pad) for j, c in enumerate(r)]
+        body.append((cells, max(len(c) for c in cells) * lh + 2 * 18))
+    H = int(BAND + 70 + hrow + sum(h for _, h in body) + (90 if note else 40))
+    o = [rect(0, 0, W, H, '#FFFFFF', stroke=BORDER, sw=4)]
+    o.append(rect(0, 0, W, BAND, ACCENT))
+    o.append(t(W / 2, BAND * 0.68, title, fit(title, FS_TITLE, W - 160, True),
+               '#FFFFFF', bold=True))
+    y = BAND + 70
     for j, h in enumerate(header):
-        o.append(rect(80 + j * cw, y, cw, 72, STRIP, stroke=BORDER, sw=3))
-        o.append(t(80 + j * cw + 26, y + 50, h, 40, ACCENT, bold=True, anchor='start'))
-    y += 72
-    for i, row in enumerate(rows):
-        fill = HILITE if highlight and i in highlight else '#FFFFFF'
-        for j, cell in enumerate(row):
-            o.append(rect(80 + j * cw, y, cw, 78, fill, stroke=BORDER, sw=3))
-            o.append(t(80 + j * cw + 26, y + 54, str(cell)[:46], 40, INK, anchor='start'))
-        y += 78
+        o.append(rect(xs[j], y, widths[j], hrow, STRIP, stroke=BORDER, sw=3))
+        o.append(t(xs[j] + pad, y + hrow / 2 + head_sz * 0.36, str(h),
+                   fit(str(h), head_sz, widths[j] - 2 * pad, True), ACCENT,
+                   bold=True, anchor='start'))
+    y += hrow
+    for i, (cells, h) in enumerate(body):
+        fill = HILITE if highlight and i in highlight else ('#FFFFFF' if i % 2 else '#F7FAFD')
+        for j in range(cols):
+            o.append(rect(xs[j], y, widths[j], h, fill, stroke=BORDER, sw=3))
+            ty = y + 18 + size * 0.80
+            for ln in cells[j]:
+                o.append(t(xs[j] + pad, ty, ln, size, INK,
+                           bold=(j in col_bold), anchor='start'))
+                ty += lh
+        y += h
     if note:
-        o.append(t(80, H - 40, note, 36, MUTE, anchor='start', italic=True))
+        o.append(t(left, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # ------------------------------------------------------- 17 grammar mnemonic
+
 def grammar_mnemonic(title, cells, note=None):
     """An expressive, memorable picture of one grammar point.
 
     cells = [(form, when_you_use_it, example, icon_name), ...]
     """
     n = len(cells)
-    H = 300 + 560 + (90 if note else 40)
+    gap = 26
+    cw = (W - 160 - (n - 1) * gap) / n
+    head_h = int(FS_HEAD * 1.32) + 40
+    whens = [wrap_w(c[1], FS_BODY, cw - 44) for c in cells]
+    exs = [wrap_w(c[2], FS_SMALL, cw - 76) for c in cells]
+    nw, ne = max(len(x) for x in whens), max(len(x) for x in exs)
+    icon_h = 300
+    ex_h = ne * int(FS_SMALL * 1.30) + 44
+    ch = int(head_h + icon_h + nw * int(FS_BODY * 1.30) + 36 + ex_h + 40)
+    H = int(BAND + 80 + ch + (90 if note else 40))
     o = _head(H, title)
-    cw = (W - 160 - (n - 1) * 26) / n
+    y0 = BAND + 80
     for i, (form, when, example, ic) in enumerate(cells):
-        x = 80 + i * (cw + 26)
-        o.append(rect(x, 280, cw, 520, '#FFFFFF', stroke=ACCENT, sw=6, rx=24))
-        o.append(rect(x, 280, cw, 96, ACCENT))
-        sz = 54
-        while text_w(form, sz, bold=True) > cw - 40 and sz > 30:
-            sz -= 2
-        o.append(t(x + cw / 2, 344, form, sz, '#FFFFFF', bold=True))
-        o.append(icon(ic, x + cw / 2, 470, 1.15))
-        for j, ln in enumerate(wrap(when, 24)[:2]):
-            o.append(t(x + cw / 2, 600 + j * 44, ln, 40, MUTE))
-        o.append(rect(x + 20, 690, cw - 40, 88, HILITE, stroke=BORDER, sw=3, rx=14))
-        for j, ln in enumerate(wrap(example, 28)[:2]):
-            o.append(t(x + cw / 2, 726 + j * 40, ln, 36, INK))
+        x = 80 + i * (cw + gap)
+        o.append(rect(x, y0, cw, ch, '#FFFFFF', stroke=ACCENT, sw=6, rx=24))
+        o.append(rect(x, y0, cw, head_h, ACCENT))
+        o.append(t(x + cw / 2, y0 + head_h / 2 + FS_HEAD * 0.36, form,
+                   fit(form, FS_HEAD, cw - 40, True), '#FFFFFF', bold=True))
+        o.append(icon(ic, x + cw / 2, y0 + head_h + icon_h * 0.46,
+                      min(1.55, cw / 420.0)))
+        ty = y0 + head_h + icon_h
+        for ln in whens[i]:
+            o.append(t(x + cw / 2, ty, ln, FS_BODY, MUTE))
+            ty += int(FS_BODY * 1.30)
+        by = y0 + ch - ex_h - 24
+        o.append(rect(x + 20, by, cw - 40, ex_h, HILITE, stroke=BORDER, sw=3, rx=14))
+        ey = by + 22 + FS_SMALL * 0.80
+        for ln in exs[i]:
+            o.append(t(x + cw / 2, ey, ln, FS_SMALL, INK, italic=True))
+            ey += int(FS_SMALL * 1.30)
     if note:
-        o.append(t(80, H - 50, note, 38, MUTE, anchor='start', italic=True))
+        o.append(t(80, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
 
 
 # ------------------------------------------------------- 18 cover
+
 def cover2(title_lines, sub, level_badge, book_badge, series, edition, bullets,
            people=None, emblem='tooth'):
-    """A fitted cover: nothing is allowed to run off the page."""
-    H = 4000
+    """A fitted cover with a scene on it. Nothing may run off the page.
+
+    Every string is measured before it is drawn, and the scene panel is
+    sized from the cast it has to hold, so the cover cannot overflow
+    whatever the title or the number of people turns out to be.
+    """
+    H = 4300
+    GOLD2, PALEG, DEEP, MID = '#F2C879', '#CFEAE4', '#0A2E2A', '#124A44'
     o = [rect(0, 0, W, H, '#0E3B36')]
-    o.append(rect(0, 0, W, 1180, '#0A2E2A'))
-    o.append(rect(120, 120, W - 240, H - 240, 'none', stroke='#3E8E84', sw=6))
-    # series strip
-    sz = 52
-    while text_w(series, sz, bold=True) > W - 460 and sz > 28:
-        sz -= 2
-    o.append(t(W / 2, 330, series, sz, '#8FD3C7', bold=True, ls=6))
-    # title, fitted line by line
-    y = 560
+    head_band = []
+    o.append(rect(90, 90, W - 180, H - 180, 'none', stroke='#3E8E84', sw=7))
+    o.append(rect(118, 118, W - 236, H - 236, 'none', stroke='#1C5F57', sw=3))
+
+    sz = fit(series, pt(11), W - 520, True)
+    o.append(t(W / 2, 300, series, sz, '#8FD3C7', bold=True, ls=7))
+    o.append(line(W / 2 - 420, 356, W / 2 + 420, 356, GOLD2, 5))
+
+    y = 480
     for ln in title_lines:
-        sz = 190
-        while text_w(ln, sz, bold=True) > W - 420 and sz > 60:
-            sz -= 4
-        o.append(t(W / 2, y + sz * 0.34, ln, sz, '#FFFFFF', bold=True))
-        y += sz + 40
-    sz = 92
-    while text_w(sub, sz, bold=True) > W - 420 and sz > 40:
-        sz -= 2
-    o.append(t(W / 2, y + 70, sub, sz, '#F2C879', bold=True))
-    y += 190
-    # emblem band: a tooth, a chair and the people
-    o.append(rect(240, y, W - 480, 1180, '#124A44', stroke='#3E8E84', sw=5, rx=40))
+        s2 = fit(ln, 205, W - 420, True, floor=72)
+        o.append(t(W / 2, y + s2 * 0.80, ln, s2, '#FFFFFF', bold=True))
+        y += s2 * 1.12
+    y += 40
+    s2 = fit(sub, pt(21), W - 460, True)
+    o.append(t(W / 2, y + s2 * 0.80, sub, s2, GOLD2, bold=True))
+    y += s2 * 1.5 + 70
+    o.insert(1, rect(0, 0, W, y - 40, DEEP))
+
+    # --- the scene: a surgery, with the book's own cast standing in it
+    people = list(people or [])[:4]
+    pad = 70
+    px, pw = 200, W - 400
+    s_fig = min(1.05, (pw - 2 * pad) / (len(people) * 2 * HALFW_U * 0.80)) if people else 1.0
+    half, ptop, pbot = person_box(s_fig, 'headscarf')
+    bsz0 = pt(11.5)
+    for b in bullets:
+        bsz0 = min(bsz0, fit(b, pt(11.5), W - 520))
+    below = int(80 + 190 + 80 + len(bullets) * bsz0 * 1.58 + 120 + 300 + 130 + 150)
+    scene_h = int(max(1180, (pbot - ptop) + 420, H - 150 - y - below))
+    o.append(rect(px, y, pw, scene_h, MID, stroke='#3E8E84', sw=5, rx=40))
+    base = int(y + (scene_h + (pbot - ptop)) / 2 + 30)
+    o.append(rect(px + 30, base, pw - 60, 9, '#2E7A71'))
+    # an operating light, behind the people
+    lcx, lcy = px + 250, int(base - (pbot - ptop) - 120)
+    o.append(circ(lcx, lcy, 96, '#E8EEF3', stroke='#8FD3C7', sw=6))
+    for k in range(8):
+        a = math.radians(k * 45)
+        o.append(line(lcx + 112 * math.cos(a), lcy + 112 * math.sin(a),
+                      lcx + 158 * math.cos(a), lcy + 158 * math.sin(a), '#8FD3C7', 5))
+    o.append(line(lcx, lcy - 96, lcx, y + 40, '#8FD3C7', 8))
     if people:
-        step = (W - 760) / max(1, len(people) - 1) if len(people) > 1 else 0
+        left = px + pad + half
+        right = px + pw - pad - half
+        step = (right - left) / max(1, len(people) - 1) if len(people) > 1 else 0
+        pcy = base - pbot
         for i, p in enumerate(people):
-            cx = 380 + i * step if len(people) > 1 else W / 2
-            o.append(person(cx, y + 470, 0.92, p.get('skin', '3'), p.get('hair', 'black'),
+            cx = left + i * step if len(people) > 1 else (px + pw / 2)
+            o.append(person(cx, pcy, s_fig, p.get('skin', '3'), p.get('hair', 'black'),
                             p.get('style', 'short'), p.get('tunic', 'teal'),
                             p.get('mask', False), p.get('glasses', False)))
-    y += 1300
-    # badges
-    bw = 620
-    for i, (lab, val) in enumerate([('LEVEL', level_badge), ('', book_badge)]):
-        bx = W / 2 - bw - 40 + i * (bw + 80)
-        o.append(rect(bx, y, bw, 190, '#F2C879', rx=26))
-        sz = 86
-        while text_w(val, sz, bold=True) > bw - 60 and sz > 36:
-            sz -= 2
-        o.append(t(bx + bw / 2, y + 122, val, sz, '#0A2E2A', bold=True))
-    y += 300
-    # bullets, fitted
+    o.append(circ(px + pw - 150, y + 150, 104, DEEP, stroke=GOLD2, sw=6))
+    o.append(icon(emblem, px + pw - 150, y + 150, 1.05, GOLD2))
+    y += scene_h + 80
+
+    # --- badges
+    bw, bh = 660, 190
+    for i, val in enumerate([level_badge, book_badge]):
+        bx = W / 2 - bw - 30 + i * (bw + 60)
+        o.append(rect(bx, y, bw, bh, GOLD2, rx=28))
+        o.append(t(bx + bw / 2, y + bh / 2 + pt(16) * 0.36, val,
+                   fit(val, pt(16), bw - 60, True), DEEP, bold=True))
+    y += bh + 80
+
+    # --- what the book does, fitted line by line
+    bsz = pt(11.5)
     for b in bullets:
-        sz = 50
-        while text_w(b, sz) > W - 460 and sz > 26:
-            sz -= 2
-        o.append(t(W / 2, y, b, sz, '#CFEAE4'))
-        y += sz + 36
-    # a strip of what the book is about, filling the lower third
-    strip = [emblem, 'chair', 'mirror', 'calendar', 'card']
-    o.append(rect(240, H - 1020, W - 480, 420, '#124A44', stroke='#3E8E84', sw=5, rx=40))
-    step = (W - 760) / (len(strip) - 1)
+        bsz = min(bsz, fit(b, pt(11.5), W - 520))
+    for b in bullets:
+        o.append(t(W / 2, y + bsz * 0.80, b, bsz, PALEG))
+        y += bsz * 1.58
+
+    # --- icon strip across the foot
+    strip = [emblem, 'chair', 'mirror', 'calendar', 'card', 'speech']
+    sh = 300
+    sy = max(y + 60, H - 150 - sh - 130)
+    o.append(rect(200, sy, W - 400, sh, MID, stroke='#3E8E84', sw=5, rx=36))
+    step = (W - 700) / (len(strip) - 1)
     for i, ic in enumerate(strip):
-        o.append(icon(ic, 380 + i * step, H - 810, 1.45, '#F2C879'))
-    o.append(t(W / 2, H - 250, edition, 62, '#8FD3C7', bold=True))
+        o.append(icon(ic, 350 + i * step, sy + sh / 2, 1.35, GOLD2))
+    o.append(t(W / 2, H - 170, edition, fit(edition, pt(12), W - 500, True),
+               '#8FD3C7', bold=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 19 part recap
+
+def part_recap(title, lines, icons=None, question=None, target_h=None,
+               foot='Close the book. Say the four words you have just used.'):
+    """The figure that closes a part and fills the foot of its page.
+
+    `lines` are what the part actually taught, in the part's own words;
+    `question` is one retrieval prompt. `target_h` is not a hint: the build
+    measures the exact room the page has left and passes it in, and this
+    figure grows or compresses to that height - icons first, then the
+    question strip - so that a part never ends on a half-empty page and
+    never spills onto the next one.
+    """
+    # A figure can never be taller than the page it has to sit on, whatever the
+    # fitting pass asks for: A4 less its margins, less the caption's own line.
+    MAX_H = 4600
+    target_h = min(target_h or 0, MAX_H)
+    icons = list(icons or [])
+    while len(icons) < min(4, max(2, len(lines))):
+        icons.append(pick_icon(lines[len(icons) % len(lines)]))
+    icons = icons[:5]
+    tw = W - 300
+    size, lh = FS_BODY, int(FS_BODY * 1.32)
+    wrapped = [wrap_w(s, size, tw - 120) for s in lines]
+    body_h = sum(len(w) * lh + 26 for w in wrapped)
+    icon_h, show_icons, show_q = 300, True, bool(question)
+    q_h = (int(FS_HEAD * 1.32) + 56) if show_q else 0
+    foot_h = 90
+
+    def natural():
+        return int(BAND + 70 + (icon_h + 34 if show_icons else 10)
+                   + body_h + 30 + q_h + foot_h)
+
+    if target_h and target_h < natural():
+        # compress: the small type stays, the ornament goes
+        icon_h = 210
+        if target_h < natural():
+            show_icons = False
+        if target_h < natural() and show_q:
+            show_q, q_h = False, 0
+        if target_h < natural():
+            size = max(pt(8), int(size * 0.88))
+            lh = int(size * 1.30)
+            wrapped = [wrap_w(s, size, tw - 120) for s in lines]
+            body_h = sum(len(w) * lh + 18 for w in wrapped)
+    H = int(max(natural(), target_h or 0))
+    # A lot of room left means a full-page summary, not a line of text with
+    # air round it: grow the type first, then the pictures, then the gaps.
+    while H - natural() > 420 and size < FS_TITLE:
+        size += 2
+        lh = int(size * 1.32)
+        wrapped = [wrap_w(s_, size, tw - 120) for s_ in lines]
+        body_h = sum(len(w) * lh + 30 for w in wrapped)
+    slack = H - natural()
+    if show_icons:
+        grow = min(int(slack * 0.5), 460)
+        icon_h += grow
+        slack -= grow
+    pad_extra = int(slack / max(1, len(lines) + 1))
+    o = _head(H, title)
+    y = BAND + 70
+    if show_icons:
+        step = (W - 600) / max(1, len(icons) - 1) if len(icons) > 1 else 0
+        for i, ic in enumerate(icons):
+            cx = 300 + i * step if len(icons) > 1 else W / 2
+            o.append(circ(cx, y + icon_h * 0.46, icon_h * 0.40, '#FFFFFF',
+                          stroke=ACCENT, sw=5))
+            o.append(icon(ic, cx, y + icon_h * 0.46, icon_h / 300.0 * 1.15))
+        y += icon_h + 34
+    else:
+        y += 10
+    for i, wlines in enumerate(wrapped):
+        o.append(circ(196, y + lh * 0.46, 30, ACCENT))
+        o.append(t(196, y + lh * 0.46 + FS_SMALL * 0.36, str(i + 1), FS_SMALL,
+                   '#FFFFFF', bold=True))
+        ty = y + size * 0.80
+        for ln in wlines:
+            o.append(t(260, ty, ln, size, INK, anchor='start'))
+            ty += lh
+        y += len(wlines) * lh + 26 + pad_extra
+    if show_q:
+        qh = int(FS_HEAD * 1.32) + 56
+        o.append(rect(150, H - 90 - qh, W - 300, qh, HILITE, stroke=LEAD, sw=4, rx=18))
+        o.append(t(W / 2, H - 90 - qh / 2 + FS_HEAD * 0.36, question,
+                   fit(question, FS_HEAD, W - 360, True), INK, bold=True))
+    elif question:
+        foot = question + '   ' + foot
+    o.append(t(150, H - 34, fit(foot, FS_NOTE, W - 300) and foot, FS_NOTE, MUTE,
+               anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 20 case panel
+def case_panel(title, who, facts, question, note=None):
+    """A case for discussion: who is in it, what is known, what is at issue.
+
+    `who` = [person dict, ...] (one or two), `facts` = short lines of what
+    is on the record, `question` = the thing the class has to decide.
+    """
+    cardw = 760
+    lh = int(FS_BODY * 1.32)
+    who = list(who)[:2]
+    chmax = max(person_card(0, 0, cardw, p)[1] for p in who)
+    fx = 150 + len(who) * (cardw + 30) + 20
+    fw = W - fx - 150
+    wrapped = [wrap_w('•  ' + f, FS_BODY, fw - 90) for f in facts]
+    facts_h = int(FS_HEAD * 1.32) + 40 + sum(len(w) * lh + 20 for w in wrapped) + 40
+    top_h = max(chmax, facts_h)
+    cards = [person_card(150 + i * (cardw + 30), BAND + 80, cardw, p, height=top_h)[0]
+             for i, p in enumerate(who)]
+    qh = int(FS_HEAD * 1.32) * 2 + 70
+    H = int(BAND + 80 + top_h + 40 + qh + (90 if note else 44))
+    o = _head(H, title)
+    o.extend(cards)
+    o.append(rect(fx, BAND + 80, fw, top_h, '#FFFFFF', stroke=BORDER, sw=3, rx=20))
+    o.append(rect(fx, BAND + 80, fw, int(FS_HEAD * 1.32) + 32, STRIP))
+    o.append(t(fx + 34, BAND + 80 + (FS_HEAD * 1.32 + 32) / 2 + FS_HEAD * 0.36,
+               'WHAT IS ON THE RECORD', fit('WHAT IS ON THE RECORD', FS_HEAD, fw - 68, True),
+               ACCENT, bold=True, anchor='start'))
+    y = BAND + 80 + int(FS_HEAD * 1.32) + 32 + 30
+    for wlines in wrapped:
+        for ln in wlines:
+            o.append(t(fx + 40, y + FS_BODY * 0.80, ln, FS_BODY, INK, anchor='start'))
+            y += lh
+        y += 20
+    qy = BAND + 80 + top_h + 40
+    o.append(rect(150, qy, W - 300, qh, HILITE, stroke=LEAD, sw=5, rx=20))
+    qlines = wrap_w(question, FS_HEAD, W - 400, True)
+    ty = qy + (qh - len(qlines) * int(FS_HEAD * 1.32)) / 2 + FS_HEAD * 0.80
+    for ln in qlines:
+        o.append(t(W / 2, ty, ln, FS_HEAD, INK, bold=True))
+        ty += int(FS_HEAD * 1.32)
+    if note:
+        o.append(t(150, H - 34, note, FS_NOTE, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 21 opinion line
+def opinion_line(title, poles, marks, note=None):
+    """A line with two poles and the positions a class can take on it.
+
+    The visual half of a discussion task: learners put a mark on the line
+    and then have to say, in English, why it is there and not next to it.
+    """
+    lh = int(FS_BODY * 1.32)
+    wrapped = [wrap_w(m, FS_BODY, 520) for m in marks]
+    H = int(BAND + 90 + 260 + max(len(w) for w in wrapped) * lh + 80
+            + (80 if note else 30))
+    o = _head(H, title)
+    y = BAND + 200
+    o.append(line(260, y, W - 260, y, LEAD, 7))
+    for d, lab in ((0, poles[0]), (1, poles[1])):
+        x = 260 if d == 0 else W - 260
+        o.append(line(x, y - 44, x, y + 44, LEAD, 7))
+        o.append(t(x, y - 72, lab, fit(lab, FS_HEAD, 700, True), ACCENT, bold=True))
+    n = len(marks)
+    for i, wlines in enumerate(wrapped):
+        x = 260 + (W - 520) * (i / float(max(1, n - 1)))
+        o.append(circ(x, y, 26, '#FFFFFF', stroke=ACCENT, sw=5))
+        ty = y + 86 + FS_BODY * 0.80
+        for ln in wlines:
+            o.append(t(x, ty, ln, FS_BODY, INK))
+            ty += lh
+    if note:
+        o.append(t(260, H - 32, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
