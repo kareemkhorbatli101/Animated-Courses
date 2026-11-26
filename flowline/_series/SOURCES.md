@@ -193,3 +193,48 @@ reader reaches it having already seen eleven proofs.
 **Two people carry this book.** Adeel Rahman asks what a reported figure actually means, from Unit 6
 onward. Tomas Varga's line is repeated in four units: *it is already happening; the question is how
 fast, and whether anybody has measured it.*
+
+# Book 4 · Flowline 3 — *The Refinery and the Barrel*
+
+CEFR B1+ · figure prefix `rd` · audio prefix `FL4` · 196 figures · 195 tracks
+
+Every one of the twelve units carries a source. Unit 12 is the review, and its source — a national
+energy agency's own glossary and explanatory notes on the refinery crack spread — is the document
+that defines, honestly and in public, the number most often quoted as if it were a refinery's margin.
+
+Two of the twelve are not standards at all. Nelson's 1958 handbook is a book of charts fitted to
+other people's measurements, and it names them. Linnhoff and Hindmarsh's 1983 paper is a design
+method that produces a target and says so. Both are included because the misuse of each one is a
+language failure, not a technical one.
+
+| Unit | The unit | The source | What the source itself says it does not cover |
+|---|---|---|---|
+| **Start** | What a Barrel Becomes | Published refinery capacities for Homs and Banias, quoted as public record with the figure, the year and the kind of source | Published compilations differ in provenance. Unit 7 is about exactly that, and this book quotes a figure, a year and a source every time |
+| **1** | The Oldest Test in the Book | **ASTM D86**, *Standard Test Method for Distillation of Petroleum Products and Liquid Fuels at Atmospheric Pressure* | An **empirical** test: the temperatures are vapor temperatures in that apparatus at that heating rate, **not true boiling points**, and process design requires a correlated conversion. Its **precision section** gives repeatability and reproducibility, both varying along the curve. A result inside a limit by less than the reproducibility is inside the limit **and inside the noise** |
+| **2** | The Book of Charts | **W. L. Nelson**, *Petroleum Refinery Engineering*, McGraw-Hill, fourth edition, **1958** | A compilation of **correlations fitted to other people's measurements**, over the range those measurements cover and no further; the book names its sources and states how closely the points fell, which is unusual. Thermodynamics and balances have not aged; catalysts, specifications, metallurgy and energy costs have aged completely — and **the book does not mark the boundary between those two lists**, because in 1958 nobody could |
+| **3** | The Process That Made the Barrel Worth More | The **National Historic Chemical Landmark** designation of the Houdry process for catalytic cracking, American Chemical Society, **1996** | A **commemoration**, written to celebrate, and celebration selects. The engineering is not in dispute; the popular account in which one process decides a war is a simplification. The process commemorated was **superseded within about five years** by a better way of moving a powder, invented by a different group |
+| **4** | Somebody Else's Law | **Directive 98/70/EC** of the European Parliament and of the Council relating to the quality of petrol and diesel fuels, **as amended** | It **does not apply to us**; it applies to the market. It is **amended repeatedly**, so the figure you remember may be two editions old. Its limits are meaningless without a **date** and a **place**, because the reductions were phased and some member states had transitional periods. And a limit with **no test method named beside it** is not a specification |
+| **5** | The Engine Says So | **ASTM D2699**, *Research Octane Number*, and **ASTM D2700**, *Motor Octane Number* | The number is **not a property** but the answer to a comparison: which blend of two reference fuels knocks the same, in that engine, under those conditions. **The method defines the scale**, so the scale cannot be checked against anything outside it. Two conventions for labeling a pump mean a fuel sold as 95 in one market and 91 in another can be **the same fuel** |
+| **6** | Free From | **ISO 8217**, *Petroleum products — Fuels (class F) — Specifications of marine fuels* | A **technical specification, not law**: the statutory sulfur limit for a sea area comes from a convention and can be lower than the grade table's figure. About twelve rows carry numbers, units, directions and methods; **two rows carry none** — *shall be free from* and *shall not contain* — because the drafters could not name every contaminant in advance. **What makes those two rows arguable is the jointly witnessed, sealed sample**, and nothing else |
+| **7** | Four Numbers, One Table | The ***Annual Statistical Bulletin*** of the **Organization of the Petroleum Exporting Countries** | A **compilation**: data by direct communication from member countries, gaps filled from **secondary sources**, usually stated in a footnote. Two compilations can print different figures for the same plant in the same year and neither be wrong. Nameplate, current sustainable, available and actual are **four honest capacities**, so there are three honest utilizations — and **a utilization with no denominator named means nothing** |
+| **8** | A Target, Not a Promise | **B. Linnhoff and E. Hindmarsh**, "The pinch design method for heat exchanger networks", *Chemical Engineering Science*, **1983** | It produces the **least heating and least cooling a process could need**, which is a target and not a forecast. It **cannot see distance**: two streams four hundred meters apart are one line on the diagram. It cannot see fouling, control, start-up or intermittency. And the **minimum approach temperature is a choice**, usually made years ago by somebody no longer there |
+| **9** | Sized for the List | **API Standard 521**, *Pressure-relieving and Depressuring Systems*, published as an identical international standard | A device is sized for the **largest of a list** of causes somebody judged credible. It cannot protect against a cause **not on the list**, or against two credible causes arriving **simultaneously** unless that combination was considered — and the standard says so. Testing a valve proves the valve opens; it proves nothing about whether **the list still describes the plant** |
+| **10** | The Boundary Moved | ***Petroleum industry guidelines for reporting greenhouse gas emissions***, second edition, **2011**, IPIECA / API / IOGP | A **reporting method**, not a target and not a law. The same plants give **different totals** on an equity share basis and an operational control basis. **Almost nothing is weighed**: combustion is metered fuel times a published factor, and flaring, venting and fugitives are estimated, with two categories usually carrying most of the uncertainty. A fall in a total has two possible causes — fewer molecules, or a different line — and only a **restatement** separates them |
+| **11** | Four Digits and Ninety Seconds | The UN ***Recommendations on the Transport of Dangerous Goods — Model Regulations***, with the European road agreement that gives them force | They classify **substances**, which is why they cannot classify your cargo: the **consignor** does that, from current test data, as a legal responsibility. A **subsidiary hazard** changes the response at a roadside. And a classification **has a date**: the system has no mechanism that tells you when one has gone stale, so a person has to ask |
+| **12** | One Number, Eleven Definitions | The glossary and explanatory notes of the **US Energy Information Administration** on the **refinery crack spread** | An **indicator**, honestly labeled by the agency that publishes it: a benchmark crude nobody buys, an assumed two-to-one yield, quoted rather than realized prices, and **no operating cost and no transport at all**. It is a fast, public, comparable signal of whether refining is worth doing this week. **The misuse happens downstream**, in a board paper, where the label does not travel with the number |
+
+**Book 4's honesty core.** Every unit is a **number whose meaning lives in its definition**, and the
+definition never travels with the number. A result inside a limit by less than the reproducibility. A
+chart figure read two decimal places past its own accuracy. A commemoration that selects. A sulfur
+limit with no date and no place. An octane figure on two conventions. A specification whose two
+decisive rows have no numbers. A utilization with no denominator. A target copied into a budget as a
+saving. A relief valve sized from a list last reviewed in 1979. An emissions fall that was an asset
+sale. A transport classification determined in 1998. And at the end, a published market indicator
+read as a plant's own margin.
+
+**Two people carry this book.** Yara Barakat, laboratory chemist, whose line is *tell me which test*.
+And Samir Khoury, whose refrain from Book 1 returns in four units: *what is it worth?*
+
+**Money in this book.** Figures are printed without currency symbols **and without currency names**,
+because the series teaches the reasoning and not a market. A figure in Unit 12 is *two point one five
+a barrel*, in whatever unit the reader's own contracts use.
