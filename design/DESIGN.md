@@ -256,3 +256,73 @@ automated check, and all four were found by writing down how the lesson runs.
   line in the student book;
 - three readings of 450–650 words at student A2.2 may still prove too much in
   practice; the route names one as the class text, which is the hedge.
+
+---
+
+## 11. Second pilot round: the visual and level standard
+
+### What changed
+
+**Every exercise now carries two visuals**, and both are generated from the
+exercise itself so neither can drift from the answer key:
+
+- an **answer bank** — the answers in no particular order, as a table, which is
+  standard coursebook support and doubles as the shuffle for matching tasks;
+- **picture cards** — the same answers as icons, so a learner can point before
+  they can say.
+
+A unit now carries about **100 figures**, and a two-unit build runs to 205. A
+ten-unit book is about **650 printed pages**, against 350 in the first pilot
+round and 200 in the First Edition. That is the price of the standard and it is
+worth stating plainly before six books are written to it.
+
+**Conversations are drawn.** Where a recording or a role-play has two speakers,
+both appear with their faces, names and roles, and the first turns are shown in
+speech bubbles. The cast is defined once per series, so the same person has the
+same face in every unit of every book.
+
+**Grammar has a mnemonic figure** before the rule list: three cards, each with
+the form, the job it does, a picture and an example.
+
+**Each of the ten parts ends on a page boundary**, closing with a figure that
+teaches something rather than with white space.
+
+**The review is balanced across the four skills** — reading, listening,
+speaking, writing — with a visual on every activity, and the listening activity
+sends the class back to a recording they have already met rather than adding a
+new one.
+
+### The level guard
+
+Nothing a learner reads may sit above the book's band unless it is (1) taught in
+that unit, (2) in the series' domain inventory, or (3) on the unit's short list
+of deliberate challenge items, which is capped at eight. The guard strips
+suffixes and prefixes, maps irregular forms, and splits compounds, so *lunchtime*
+passes on *lunch* and *time*.
+
+**When it fires, the fix is to paraphrase, never to thin.** Clearing it across
+the four pilot units changed about twenty sentences and removed no content:
+*collide* became *can be mixed up*; *symbol* became *sign*; *ambiguous* became
+*can be read in two ways*; *a formality* became *a small thing you do quickly*;
+*transposed the digits* became *wrote the two digits the wrong way round*.
+
+Two principled extensions were needed for the student series, and only for it:
+
+- **an academic set** — define, classify, describe, evidence, structure and the
+  rest. A course whose job is to teach a student to define and classify cannot
+  bar the words for doing so.
+- **a lexical band one step above the production band**, for the same reason the
+  register band was widened: the student reads textbook prose in which every
+  term has been previewed and glossed.
+
+The practitioner series keeps the production band exactly, with no academic set.
+
+### Layout faults fixed
+
+The strap line under a unit band was not aligned to the band and ran past the
+measure; it now has its own indented style. The term and its example ran
+together on the preview page; the term is now bold, followed by a dash and the
+sentence. A speaker's name was printed on every line including consecutive lines
+by the same speaker; it now prints only when the speaker changes. The cover
+overflowed; it is rebuilt with every string fitted to the measure before it is
+drawn, and the dead space is filled with an icon strip.

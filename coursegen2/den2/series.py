@@ -80,3 +80,61 @@ BOOKS = {
           'A Training Plan for the Team', 'A Figure the Partners Will Not Like',
           'Teaching Somebody Else', 'What No System Can Do for a Clinical Judgement']),
 }
+
+
+# How each person is drawn, so that the same face appears in every unit.
+CAST_LOOK = {
+ 'Nadia Haddad':    dict(skin='3', hair='black', style='tied',      tunic='teal'),
+ 'Mei-Ling Chen':   dict(skin='2', hair='black', style='short',     tunic='blue'),
+ 'Hugo Lindqvist':  dict(skin='1', hair='fair',  style='short',     tunic='green'),
+ 'Beatriz Alves':   dict(skin='4', hair='brown', style='long',      tunic='plum'),
+ 'Tomas Varga':     dict(skin='2', hair='grey',  style='short',     tunic='sand'),
+ 'Amara Okonkwo':   dict(skin='5', hair='black', style='headscarf', tunic='plum'),
+ 'Dr Yusuf Rahman': dict(skin='4', hair='grey',  style='bald',      tunic='grey', glasses=True),
+ 'Thandiwe Mabaso': dict(skin='5', hair='black', style='long',      tunic='plum'),
+ 'Marco Alvarez':   dict(skin='2', hair='dark',  style='short',     tunic='sand'),
+ 'Mrs Patel':       dict(skin='4', hair='black', style='long',      tunic='plum'),
+}
+COVER_PEOPLE = ['Nadia Haddad', 'Mei-Ling Chen', 'Amara Okonkwo', 'Hugo Lindqvist']
+
+# Words this series is allowed to use above the band because they are its subject.
+DOMAIN = """dental dentist dentistry dentition hygienist technician receptionist
+surgery chair headrest bracket spittoon bowl bib suction aspirator autoclave
+sterilise sterilisation decontamination instrument mirror probe explorer tweezers
+excavator scaler elevator forceps handpiece bur matrix wedge dam clamp
+tooth teeth molar premolar incisor canine quadrant midline mesial distal occlusal
+buccal lingual labial palatal enamel dentine pulp cementum gingiva gingival
+mucosa mucosal keratinised periodontal periodontium alveolar frenum frena
+vestibule palate uvula saliva salivary tongue cheek jaw maxilla mandible
+caries decay cavity plaque calculus tartar abscess pulpitis gingivitis
+periodontitis stomatitis erosion abrasion attrition bruxism lesion
+filling restoration crown bridge veneer inlay onlay denture implant brace
+retainer radiograph radiographic bitewing periapical panoramic notation FDI ISO
+amalgam composite ionomer anaesthetic anaesthesia fluoride varnish sealant
+alginate impression occlusion eruption deciduous permanent primary supervisor
+clinician practitioner chairside charting chart identifier identifiers
+appointment record notation laboratory prescription referral consent
+odont odontics endodontics orthodontics prosthodontics periodontics
+interdental interproximal preoperative sublingual orofacial masticatory
+palpate palpation bimanual inspection identification examination
+hygiene hygienic occlusally interdentally sterile
+finding findings swelling swollen toothpaste toothbrush notation
+quadrants surfaces dentures implants braces radiographs
+digit digits central lateral anterior posterior
+bleed bleeds bleeding bled anatomy anatomical bony chew chews chewed chewing
+duct ducts cusp cusps erupt erupts erupted extract extracted extraction
+abnormal elastic chin elbow swallow swallows swallowed swallowing
+clinic clinics clinical clinically tissue tissues organ organs
+crown crowns root roots neck margin margins attached attachment
+sound unsound bite bites biting keratin keratinise keratinised ligament
+millimetre millimetres moist muscle muscles opening openings receptor receptors
+seal seals sealed tender tough firm firmer stiff crush crushes crushing
+grind grinds grinding oral curve curves lip lips
+""".split()
+
+CAST_ROLE = {n: r for n, r in CAST}
+CAST_ROLE.update({'Thandiwe Mabaso': 'patient', 'Marco Alvarez': 'patient',
+                  'Mrs Patel': 'patient'})
+for _n, _r in CAST_ROLE.items():
+    CAST_LOOK.setdefault(_n, dict(skin='3', hair='black', style='short', tunic='teal'))
+    CAST_LOOK[_n]['role'] = _r

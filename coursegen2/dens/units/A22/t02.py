@@ -143,4 +143,8 @@ defects=[
  'words. Two timing tables, not one.',
  'The case in reading 2 is the best text in the unit and it is third in the reading '
  'sequence, where a short route will never reach it. The core route now names it as the '
- 'homework text. In the full book the case should probably be reading 1.'])
+ 'homework text. In the full book the case should probably be reading 1.',
+ 'Second round. The case in reading 2 was the hardest text in the unit for the level guard, because its vocabulary was the vocabulary of an incident report. Transposed became written the two digits the wrong way round; queried became asked about; the assumption underneath it became what he had taken as true. The case is unchanged in every particular that matters.',
+ 'The numbering drill now has a mnemonic figure of its own, and the teaching conversation is drawn. On the short route, teach from the two figures and leave the rule list for homework.',
+ 'Each exercise carries a bank and a set of picture cards, which solves a problem this unit had in the first round: students who could recite the rule but could not produce a number under pressure. They can now point at a card before they have to speak.'
+])

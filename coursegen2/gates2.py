@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """The gates. They replace the first-edition gates that measured the wrong thing."""
 import re
+import levels
 
 # Production and reception are not the same band.
 #
@@ -181,6 +182,67 @@ def check_unit(U, level, series_kind, fails, warns):
     hits = [v for v in VAGUE if v in low]
     if hits:
         W('model texts contain vague wording: %s' % hits[:3])
+
+
+# A student book is read, not produced. Its texts are textbook pages, and the
+# same argument that widened its register band widens its lexical one: the
+# reader meets the next band's words inside a text that has been previewed and
+# glossed. The practitioner series keeps the production band exactly.
+LEX_UP = {'A1': 'A2', 'A2': 'B1', 'B1': 'B2', 'B2': 'C1', 'C1': 'C1'}
+
+
+def check_level(U, band, series_kind, domain, fails, warns):
+    """Nothing a learner reads may sit above the band unless it is taught here."""
+    if series_kind == 'S':
+        band = LEX_UP[band]
+    texts = []
+    for r in U.get('reading', []):
+        texts += r['text']
+        texts += [r['title']] + [q for q, _ in r['pre']['items']] if False else [r['title']]
+        texts += list(r['pre']['items'])
+    for L in U.get('listening', []):
+        texts += [l for _, l in L['script']] + [L['what'], L['title']]
+    for S in U.get('speaking', []):
+        texts += [l for _, l in S['model']] + [S['rubric'], S['how']]
+        texts += S['checklist'] + [c['brief'] for c in S.get('cards', [])]
+    for Wr in U.get('writing', []):
+        texts += Wr['model'] + Wr['scaffold'] + Wr['checklist'] + [Wr['rubric'], Wr['how']]
+    texts += [U['preview_intro'], U['listen_intro'], U.get('review_intro', ''), U['strap']]
+    texts += U['warm'] + U['can_do'] + U['g_rule'] + [U['data_box']['text']]
+    for grp in ('vocab_tasks', 'g_tasks', 'review'):
+        for t in U.get(grp, []):
+            texts += [t.get('rubric', ''), t.get('how', '') or '', t.get('example', '') or '']
+            for a, b in t.get('pairs', []):
+                texts += [str(a), str(b)]
+    taught = [it['term'] for it in U.get('set', [])]
+    taught += [it['term'] for it in U.get('receptive', [])]
+    taught += [c for _, chunks in U.get('phrases', []) for c in chunks]
+    taught += [w for row in U.get('morph', []) for w in row]
+    if len(U.get('allow', [])) > 8:
+        warns.append('U%d: %d words in the deliberate-challenge list (keep it under 8)'
+                     % (U['num'], len(U['allow'])))
+    hits = levels.check([t for t in texts if t], band, taught=taught,
+                        domain=domain, allow=U.get('allow', []),
+                        academic=(series_kind == 'S'))
+    if hits:
+        for w, where in sorted(hits.items())[:40]:
+            fails.append('U%d: above %s: "%s"  in: %s' % (U['num'], band, w, where))
+        if len(hits) > 40:
+            fails.append('U%d: and %d more above %s' % (U['num'], len(hits) - 40, band))
+
+
+def check_review(U, fails, warns):
+    skills = [r.get('skill') for r in U.get('review', [])]
+    for need in ('reading', 'listening', 'speaking', 'writing'):
+        if need not in skills:
+            fails.append('U%d: review has no %s activity' % (U['num'], need))
+
+
+def check_exercise_figs(ctx, fails, warns, floor=2):
+    """Every exercise carries two visuals: one that organises, one that pictures."""
+    thin = {k: v for k, v in ctx.exercise_figs.items() if v < floor}
+    for k in sorted(thin):
+        fails.append('exercise %s has %d visual(s), needs %d' % (k, thin[k], floor))
 
 
 def check_figures(figures, fails, warns, floor=18):

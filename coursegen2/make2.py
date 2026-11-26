@@ -92,6 +92,15 @@ for i, t in enumerate(B['units'], 1):
     rows.append([str(i), t])
 out.append(R.table(rows, [900, 6400]))
 
+out.append(R.pagebreak())
+out.append(R.title_band('The people in this book'))
+_i, _h, _d = F2.cast_cards('THE PEOPLE IN THIS BOOK',
+    [dict(series.CAST_LOOK[n], name=n, role=r) for n, r in series.CAST])
+_p2 = os.path.join(MEDIA, 'cast.png')
+art2.render2(_i, _h, _p2, _d)
+out.append(R.picture(ctx.add(_p2), art2.W, _h, 'cast'))
+out.append(R.caption('The same people appear in every unit of this book.'))
+
 # ---------------------------------------------------------------- units
 UNITS = []
 nums = ONLY or range(1, 11)
@@ -113,7 +122,7 @@ out.append(R.table(smrows, [450, 2100, 2200, 2550]))
 out.append(R.pagebreak())
 
 for U in UNITS:
-    build2.unit(ctx, out, key, U, B)
+    build2.unit(ctx, out, key, U, B, cast=series.CAST_LOOK)
 
 # ---------------------------------------------------------------- back matter
 out.append(R.title_band('Wordlist'))
@@ -167,7 +176,10 @@ out.append(R.body('All figures in this book were drawn for it.', after=120))
 fails, warns = [], []
 for U in UNITS:
     gates2.check_unit(U, B['bandge'], series.KIND, fails, warns)
+    gates2.check_review(U, fails, warns)
+    gates2.check_level(U, B['level'], series.KIND, series.DOMAIN, fails, warns)
 gates2.check_figures(ctx.figures, fails, warns, floor=18 * len(UNITS))
+gates2.check_exercise_figs(ctx, fails, warns)
 ok = gates2.report('%s  %s  (%s)' % (series.TITLE, B['sub'], B['bandge']), fails, warns)
 
 # ---------------------------------------------------------------- write

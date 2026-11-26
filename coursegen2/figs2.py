@@ -430,3 +430,377 @@ def exchange(title, left_name, left_lines, right_name, right_lines, note=None):
     if note:
         o.append(t(150, H - 60, note, 40, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 12 icon library
+def icon(name, cx, cy, s=1.0, col=None):
+    """A small pictogram, about 160*s across, drawn at (cx, cy)."""
+    c = col or ACCENT
+    o = []
+    def R(x, y, w, h, f=c, st=LEAD, r=10): return rect(cx+x*s, cy+y*s, w*s, h*s, f, stroke=st, sw=4, rx=r)
+    def C_(x, y, r, f=c, st=LEAD): return circ(cx+x*s, cy+y*s, r*s, f, stroke=st, sw=4)
+    def L(x1, y1, x2, y2, cc=LEAD, w=5): return line(cx+x1*s, cy+y1*s, cx+x2*s, cy+y2*s, cc, w)
+    def P(d, f='none', st=LEAD, w=5): return path(d, fill=f, stroke=st, sw=w)
+    name = name or 'speech'
+    if name == 'tooth':
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f '
+                   'C %.1f %.1f %.1f %.1f %.1f %.1f L %.1f %.1f Z'
+                   % (cx-56*s, cy-10*s, cx-62*s, cy-78*s, cx+62*s, cy-78*s, cx+56*s, cy-10*s,
+                      cx+44*s, cy+60*s, cx+22*s, cy+76*s, cx+14*s, cy+10*s,
+                      cx-14*s, cy+10*s), f=ENAMEL))
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f'
+                   % (cx-14*s, cy+10*s, cx-20*s, cy+60*s, cx-40*s, cy+78*s, cx-48*s, cy+30*s)))
+    elif name == 'chair':
+        o.append(R(-70, -10, 140, 34, PLASTIC))
+        o.append(R(-74, -62, 40, 58, PLASTIC))
+        o.append(R(-14, 24, 28, 44, METAL))
+        o.append(R(-50, 66, 100, 18, METAL))
+    elif name == 'mirror':
+        o.append(L(-64, 40, 10, -16, METAL, 12))
+        o.append(C_(34, -40, 34, '#DCE9F2'))
+    elif name == 'probe':
+        o.append(L(-62, 44, 14, -14, METAL, 12))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                   % (cx+14*s, cy-14*s, cx+52*s, cy-46*s, cx+34*s, cy-72*s), w=7))
+    elif name == 'light':
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx-54*s, cy-40*s, cx+54*s, cy-40*s, cx+34*s, cy+10*s, cx-34*s, cy+10*s),
+                   f='#FFF3C4'))
+        for d in (-1, 0, 1):
+            o.append(L(d*28, 18, d*40, 64, '#D9A900', 6))
+    elif name == 'clock':
+        o.append(C_(0, 0, 60, '#FFFFFF'))
+        o.append(L(0, 0, 0, -34)); o.append(L(0, 0, 26, 10))
+    elif name == 'calendar':
+        o.append(R(-62, -50, 124, 108, '#FFFFFF'))
+        o.append(R(-62, -50, 124, 28, c, r=8))
+        for gx in (-30, 0, 30):
+            for gy in (0, 28):
+                o.append(C_(gx, gy, 7, LEAD, st=None))
+    elif name == 'gloves':
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx-40*s, cy+64*s, cx-40*s, cy-30*s, cx-6*s, cy-70*s,
+                      cx+40*s, cy-30*s, cx+40*s, cy+64*s), f=PLASTIC))
+        for gx in (-22, -2, 18):
+            o.append(L(gx, -30, gx, -58, LEAD, 4))
+    elif name == 'mask':
+        o.append(P('M %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-62*s, cy-36*s, cx+62*s, cy-36*s, cx+36*s, cy+52*s,
+                      cx, cy+56*s, cx-36*s, cy+52*s, cx-62*s, cy-36*s), f='#CFE3EF'))
+        o.append(L(-62, -32, -92, -52)); o.append(L(62, -32, 92, -52))
+    elif name == 'person':
+        o.append(C_(0, -34, 36, SKIN['3']))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-54*s, cy+66*s, cx, cy-16*s, cx+54*s, cy+66*s), f=c))
+    elif name == 'door':
+        o.append(R(-50, -70, 100, 140, '#FFFFFF'))
+        o.append(C_(28, 4, 8, LEAD, st=None))
+    elif name == 'book':
+        o.append(R(-58, -46, 116, 92, '#FFFFFF'))
+        o.append(L(0, -46, 0, 46)); o.append(R(-58, -46, 116, 18, c, r=4))
+    elif name == 'card':
+        o.append(R(-62, -40, 124, 80, '#FFFFFF'))
+        for gy in (-14, 4, 22):
+            o.append(L(-44, gy, 44, gy, '#9AA7B2', 5))
+    elif name == 'phone':
+        o.append(R(-34, -58, 68, 116, '#FFFFFF', r=14))
+        o.append(L(-14, 44, 14, 44, '#9AA7B2', 6))
+    elif name == 'water':
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f Z'
+                   % (cx, cy-62*s, cx+56*s, cy+10*s, cx-56*s, cy+10*s, cx, cy-62*s),
+                   f='#BFE3F2'))
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f'
+                   % (cx-56*s, cy+10*s, cx-40*s, cy+66*s, cx+40*s, cy+66*s, cx+56*s, cy+10*s),
+                   f='#BFE3F2'))
+    elif name == 'bowl':
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-62*s, cy-10*s, cx, cy+74*s, cx+62*s, cy-10*s), f='#FFFFFF'))
+        o.append(L(-70, -10, 70, -10))
+    elif name == 'brush':
+        o.append(R(-70, -10, 110, 22, PLASTIC))
+        o.append(R(40, -22, 34, 46, '#FFFFFF'))
+        for gx in range(4):
+            o.append(L(44+gx*8, -22, 44+gx*8, -44, '#9AA7B2', 5))
+    elif name == 'tray':
+        o.append(R(-74, -20, 148, 48, METAL))
+        for gx in (-44, -8, 28):
+            o.append(C_(gx, 4, 10, '#FFFFFF'))
+    elif name == 'xray':
+        o.append(R(-58, -50, 116, 100, '#2B3440'))
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f Z'
+                   % (cx-24*s, cy+18*s, cx-30*s, cy-30*s, cx+30*s, cy-30*s, cx+24*s, cy+18*s),
+                   f='#E6EDF2', st=None))
+    elif name == 'form':
+        o.append(R(-54, -62, 108, 124, '#FFFFFF'))
+        for gy in (-36, -12, 12, 36):
+            o.append(L(-36, gy, 36, gy, '#9AA7B2', 5))
+    elif name == 'tick':
+        o.append(C_(0, 0, 58, '#E4F1E4'))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f'
+                   % (cx-26*s, cy+2*s, cx-6*s, cy+26*s, cx+30*s, cy-24*s), st='#2E7D32', w=11))
+    elif name == 'cross':
+        o.append(C_(0, 0, 58, '#F6E2E0'))
+        o.append(L(-24, -24, 24, 24, '#B3261E', 11))
+        o.append(L(24, -24, -24, 24, '#B3261E', 11))
+    elif name == 'speech':
+        o.append(R(-66, -54, 132, 86, '#FFFFFF', r=20))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx-24*s, cy+32*s, cx-16*s, cy+66*s, cx+8*s, cy+32*s), f='#FFFFFF'))
+    elif name == 'ear':
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f'
+                   % (cx+20*s, cy-46*s, cx-40*s, cy-56*s, cx-40*s, cy+36*s, cx+6*s, cy+52*s),
+                   f=SKIN['2'], w=5))
+        o.append(C_(-6, -6, 14, 'none'))
+    elif name == 'pen':
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx-54*s, cy+54*s, cx-40*s, cy+16*s, cx+46*s, cy-58*s, cx+58*s, cy-40*s),
+                   f=c))
+        o.append(L(-40, 16, -24, 36))
+    elif name == 'bone':
+        o.append(R(-60, -14, 120, 28, BONE))
+        for gx, gy in ((-60, -14), (-60, 14), (60, -14), (60, 14)):
+            o.append(C_(gx, gy, 18, BONE))
+    elif name == 'gum':
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f L %.1f %.1f Z'
+                   % (cx-66*s, cy+30*s, cx, cy-44*s, cx+66*s, cy+30*s, cx-66*s, cy+30*s),
+                   f=GUM))
+    else:
+        o.append(C_(0, 0, 58, '#FFFFFF'))
+        o.append(t(cx, cy + 18 * s, (name[:1] or '?').upper(), int(56 * s), c, bold=True))
+    return ''.join(o)
+
+
+ICON_FOR = {
+ 'surgery': 'door', 'waiting': 'clock', 'waiting room': 'clock', 'chair': 'chair',
+ 'headrest': 'chair', 'nurse': 'person', 'dental nurse': 'person',
+ 'appointment': 'calendar', 'sit back': 'chair', 'comfortable': 'tick',
+ 'open wide': 'ear', 'rinse': 'water', 'spit': 'bowl', 'upper teeth': 'tooth',
+ 'lower teeth': 'tooth', 'gum': 'gum', 'filling': 'tooth', 'mirror': 'mirror',
+ 'probe': 'probe', 'record': 'card', 'record card': 'card', 'date of birth': 'calendar',
+ 'reception': 'door', 'bib': 'mask', 'bowl': 'bowl', 'bracket table': 'tray',
+ 'operating light': 'light', 'colleague': 'person', 'coat hook': 'door',
+ 'oral cavity': 'ear', 'vestibule': 'ear', 'hard palate': 'bone', 'soft palate': 'gum',
+ 'gingiva': 'gum', 'mucosa': 'gum', 'frenum': 'gum', 'floor of the mouth': 'ear',
+ 'dentition': 'tooth', 'quadrant': 'tooth', 'midline': 'tooth', 'incisor': 'tooth',
+ 'canine': 'tooth', 'premolar': 'tooth', 'molar': 'tooth', 'notation': 'form',
+ 'telephone': 'phone', 'message': 'speech', 'letter': 'form', 'brush': 'brush',
+ 'radiograph': 'xray', 'tray': 'tray', 'gloves': 'gloves', 'mask': 'mask',
+ 'pen': 'pen', 'book': 'book',
+}
+
+
+def pick_icon(term):
+    k = re.sub(r'^(a|an|the|to)\s+', '', str(term).lower()).strip()
+    if k in ICON_FOR:
+        return ICON_FOR[k]
+    for key, val in ICON_FOR.items():
+        if key in k:
+            return val
+    return 'speech'
+
+
+import re  # noqa: E402  (used by pick_icon)
+
+
+# ------------------------------------------------------- 13 icon cards
+def icon_cards(title, items, cols=4, note=None):
+    """Vocabulary as picture cards: an icon, the word, nothing else."""
+    rows = (len(items) + cols - 1) // cols
+    cw = (W - 200 - (cols - 1) * 24) / cols
+    ch = 330
+    H = 300 + rows * (ch + 26) + (90 if note else 40)
+    o = _head(H, title)
+    for i, it in enumerate(items):
+        term = it[0] if isinstance(it, (tuple, list)) else it
+        ic = (it[1] if isinstance(it, (tuple, list)) and len(it) > 1 and it[1]
+              else pick_icon(term))
+        r, c = divmod(i, cols)
+        x = 100 + c * (cw + 24)
+        y = 290 + r * (ch + 26)
+        o.append(rect(x, y, cw, ch, '#FFFFFF', stroke=BORDER, sw=3, rx=20))
+        o.append(icon(ic, x + cw / 2, y + 128, 1.05))
+        for j, ln in enumerate(wrap(term, 16)[:2]):
+            o.append(t(x + cw / 2, y + 250 + j * 46, ln, 42, INK, bold=True))
+    if note:
+        o.append(t(100, H - 50, note, 38, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 14 conversation
+def conversation(title, left, right, exchange_lines, note=None):
+    """Two people, drawn, with what each one says beside them.
+
+    left/right = dict(name, role, skin, hair, style, tunic, mask, glasses)
+    exchange_lines = [(who, line), ...] where who is 'L' or 'R'
+    """
+    rows = len(exchange_lines)
+    H = 300 + 560 + rows * 124 + (90 if note else 50)
+    o = _head(H, title)
+    for side, who, cx in ((left, 'L', 560), (right, 'R', W - 560)):
+        o.append(person(cx, 560, 1.05, side.get('skin', '3'), side.get('hair', 'black'),
+                        side.get('style', 'short'), side.get('tunic', 'teal'),
+                        side.get('mask', False), side.get('glasses', False)))
+        o.append(t(cx, 1090, side['name'], 50, INK, bold=True))
+        o.append(t(cx, 1146, side.get('role', ''), 38, MUTE))
+    y = 1210
+    for whoside, line in exchange_lines:
+        isleft = whoside == 'L'
+        bx = 160 if isleft else W / 2 + 40
+        bw = W / 2 - 200
+        o.append(rect(bx, y, bw, 100, '#FFFFFF', stroke=ACCENT if isleft else '#8A3B2E',
+                      sw=4, rx=22))
+        o.append(path('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                      % (bx + (bw - 60 if isleft else 20), y + 100,
+                         bx + (bw - 20 if isleft else 20), y + 148,
+                         bx + (bw - 20 if isleft else 60), y + 100), fill='#FFFFFF',
+                      stroke=ACCENT if isleft else '#8A3B2E', sw=4))
+        for j, ln in enumerate(wrap(line, 40)[:2]):
+            o.append(t(bx + 30, y + 44 + j * 44, ln, 40, INK, anchor='start'))
+        y += 124
+    if note:
+        o.append(t(160, H - 50, note, 38, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 15 cast cards
+def cast_cards(title, people, note=None):
+    cols = 4
+    rows = (len(people) + cols - 1) // cols
+    cw = (W - 200 - (cols - 1) * 26) / cols
+    ch = 700
+    H = 300 + rows * (ch + 30) + (90 if note else 40)
+    o = _head(H, title)
+    for i, p in enumerate(people):
+        r, c = divmod(i, cols)
+        x = 100 + c * (cw + 26)
+        y = 290 + r * (ch + 30)
+        o.append(rect(x, y, cw, ch, '#FFFFFF', stroke=BORDER, sw=3, rx=22))
+        o.append(person(x + cw / 2, y + 250, 0.78, p.get('skin', '3'), p.get('hair', 'black'),
+                        p.get('style', 'short'), p.get('tunic', 'teal'),
+                        p.get('mask', False), p.get('glasses', False)))
+        o.append(t(x + cw / 2, y + 578, p['name'], 44, INK, bold=True))
+        for j, ln in enumerate(wrap(p.get('role', ''), 22)[:2]):
+            o.append(t(x + cw / 2, y + 632 + j * 42, ln, 36, MUTE))
+    if note:
+        o.append(t(100, H - 50, note, 38, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 16 mini table
+def mini_table(title, header, rows, note=None, highlight=None):
+    """A compact table for an exercise: the data visual beside the icon visual."""
+    H = 250 + (len(rows) + 1) * 78 + (80 if note else 30)
+    o = [rect(0, 0, W, H, '#FFFFFF', stroke=BORDER, sw=4)]
+    o.append(rect(0, 0, W, 130, ACCENT))
+    size = 60
+    while text_w(title, size, bold=True) > W - 140 and size > 32:
+        size -= 2
+    o.append(t(W / 2, 86, title, size, '#FFFFFF', bold=True))
+    cols = len(header)
+    cw = (W - 160) / cols
+    y = 180
+    for j, h in enumerate(header):
+        o.append(rect(80 + j * cw, y, cw, 72, STRIP, stroke=BORDER, sw=3))
+        o.append(t(80 + j * cw + 26, y + 50, h, 40, ACCENT, bold=True, anchor='start'))
+    y += 72
+    for i, row in enumerate(rows):
+        fill = HILITE if highlight and i in highlight else '#FFFFFF'
+        for j, cell in enumerate(row):
+            o.append(rect(80 + j * cw, y, cw, 78, fill, stroke=BORDER, sw=3))
+            o.append(t(80 + j * cw + 26, y + 54, str(cell)[:46], 40, INK, anchor='start'))
+        y += 78
+    if note:
+        o.append(t(80, H - 40, note, 36, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 17 grammar mnemonic
+def grammar_mnemonic(title, cells, note=None):
+    """An expressive, memorable picture of one grammar point.
+
+    cells = [(form, when_you_use_it, example, icon_name), ...]
+    """
+    n = len(cells)
+    H = 300 + 560 + (90 if note else 40)
+    o = _head(H, title)
+    cw = (W - 160 - (n - 1) * 26) / n
+    for i, (form, when, example, ic) in enumerate(cells):
+        x = 80 + i * (cw + 26)
+        o.append(rect(x, 280, cw, 520, '#FFFFFF', stroke=ACCENT, sw=6, rx=24))
+        o.append(rect(x, 280, cw, 96, ACCENT))
+        sz = 54
+        while text_w(form, sz, bold=True) > cw - 40 and sz > 30:
+            sz -= 2
+        o.append(t(x + cw / 2, 344, form, sz, '#FFFFFF', bold=True))
+        o.append(icon(ic, x + cw / 2, 470, 1.15))
+        for j, ln in enumerate(wrap(when, 24)[:2]):
+            o.append(t(x + cw / 2, 600 + j * 44, ln, 40, MUTE))
+        o.append(rect(x + 20, 690, cw - 40, 88, HILITE, stroke=BORDER, sw=3, rx=14))
+        for j, ln in enumerate(wrap(example, 28)[:2]):
+            o.append(t(x + cw / 2, 726 + j * 40, ln, 36, INK))
+    if note:
+        o.append(t(80, H - 50, note, 38, MUTE, anchor='start', italic=True))
+    return ''.join(o), H, ''
+
+
+# ------------------------------------------------------- 18 cover
+def cover2(title_lines, sub, level_badge, book_badge, series, edition, bullets,
+           people=None, emblem='tooth'):
+    """A fitted cover: nothing is allowed to run off the page."""
+    H = 4000
+    o = [rect(0, 0, W, H, '#0E3B36')]
+    o.append(rect(0, 0, W, 1180, '#0A2E2A'))
+    o.append(rect(120, 120, W - 240, H - 240, 'none', stroke='#3E8E84', sw=6))
+    # series strip
+    sz = 52
+    while text_w(series, sz, bold=True) > W - 460 and sz > 28:
+        sz -= 2
+    o.append(t(W / 2, 330, series, sz, '#8FD3C7', bold=True, ls=6))
+    # title, fitted line by line
+    y = 560
+    for ln in title_lines:
+        sz = 190
+        while text_w(ln, sz, bold=True) > W - 420 and sz > 60:
+            sz -= 4
+        o.append(t(W / 2, y + sz * 0.34, ln, sz, '#FFFFFF', bold=True))
+        y += sz + 40
+    sz = 92
+    while text_w(sub, sz, bold=True) > W - 420 and sz > 40:
+        sz -= 2
+    o.append(t(W / 2, y + 70, sub, sz, '#F2C879', bold=True))
+    y += 190
+    # emblem band: a tooth, a chair and the people
+    o.append(rect(240, y, W - 480, 1180, '#124A44', stroke='#3E8E84', sw=5, rx=40))
+    if people:
+        step = (W - 760) / max(1, len(people) - 1) if len(people) > 1 else 0
+        for i, p in enumerate(people):
+            cx = 380 + i * step if len(people) > 1 else W / 2
+            o.append(person(cx, y + 470, 0.92, p.get('skin', '3'), p.get('hair', 'black'),
+                            p.get('style', 'short'), p.get('tunic', 'teal'),
+                            p.get('mask', False), p.get('glasses', False)))
+    y += 1300
+    # badges
+    bw = 620
+    for i, (lab, val) in enumerate([('LEVEL', level_badge), ('', book_badge)]):
+        bx = W / 2 - bw - 40 + i * (bw + 80)
+        o.append(rect(bx, y, bw, 190, '#F2C879', rx=26))
+        sz = 86
+        while text_w(val, sz, bold=True) > bw - 60 and sz > 36:
+            sz -= 2
+        o.append(t(bx + bw / 2, y + 122, val, sz, '#0A2E2A', bold=True))
+    y += 300
+    # bullets, fitted
+    for b in bullets:
+        sz = 50
+        while text_w(b, sz) > W - 460 and sz > 26:
+            sz -= 2
+        o.append(t(W / 2, y, b, sz, '#CFEAE4'))
+        y += sz + 36
+    # a strip of what the book is about, filling the lower third
+    strip = [emblem, 'chair', 'mirror', 'calendar', 'card']
+    o.append(rect(240, H - 1020, W - 480, 420, '#124A44', stroke='#3E8E84', sw=5, rx=40))
+    step = (W - 760) / (len(strip) - 1)
+    for i, ic in enumerate(strip):
+        o.append(icon(ic, 380 + i * step, H - 810, 1.45, '#F2C879'))
+    o.append(t(W / 2, H - 250, edition, 62, '#8FD3C7', bold=True))
+    return ''.join(o), H, ''

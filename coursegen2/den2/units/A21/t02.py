@@ -135,4 +135,8 @@ defects=[
  'as part of the pre-listening task.',
  'The unit teaches "four six", not "forty-six", but never says why. The difficulties note '
  'now gives the reason, and it should probably become a line in the student book: a safety '
- 'point stated without its reason is a rule learners break as soon as they are busy.'])
+ 'point stated without its reason is a rule learners break as soon as they are busy.',
+ 'Second round. The grammar stage now opens with a mnemonic figure: three cards, each with the form, the job it does, a picture and an example. Teach from that figure, not from the rule list. The rules are there to be read afterwards.',
+ 'Every dialogue in this unit is now drawn: the two speakers appear with their faces and their names, and the first turns are shown in speech bubbles before the recording is played. Use it as the pre-listening task - cover the bubbles and ask who says what.',
+ 'The level guard now fails the build on any word above the band that is not taught here, not in the dental inventory, and not on the unit\'s short list of deliberate challenge items. Clearing it on this unit changed four sentences. In each case the fix was to say the same thing in simpler words, not to drop the idea: collide became can be mixed up, symbol became sign, and the international standard sentence became a rule that many countries have agreed.'
+])

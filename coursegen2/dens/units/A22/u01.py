@@ -29,6 +29,12 @@ warm_fig=F.set_plate('THE MOUTH: WHAT YOU CAN ALREADY NAME', [
     ('the cheek', 'the soft wall on each side')],
     note='Six everyday words. This unit gives you the technical word for four of them.'),
 warm_fig_cap='What you can already say. The unit begins here, not from nothing.',
+warm_fig2=F.icon_cards('WHAT THIS UNIT GIVES YOU',
+    [('eight terms','tooth'),('three ways to define','book'),
+     ('two ways to locate','form'),('five word parts','pen'),
+     ('lecture notes','card'),('description, not judgement','tick')], cols=6,
+    note='Six things. The last one is the one your supervisor will test.'),
+warm_fig2_cap='The unit, as six pictures.',
 warm_fig_alt='Six everyday English words for parts of the mouth, each with a short '
              'explanation, numbered one to six.',
 
@@ -190,6 +196,15 @@ g_rule=['X is Y. Use it for the whole definition. The gingiva is the tissue arou
         'surfaces and joins, and keep the preposition.',
         'X lies between A and B. X extends from A to B. Use these for position. An '
         'examiner marks position separately from structure.'],
+g_mnemonic_title='THREE SHAPES, THREE JOBS',
+g_mnemonic=[('X is …', 'you say what kind of thing it is',
+             'The gingiva is a tissue.', 'gum'),
+            ('X consists of …', 'the thing has parts',
+             'The palate consists of two parts.', 'bone'),
+            ('X is covered with …', 'you say what is on its surface',
+             'The hard palate is covered with mucosa.', 'gum')],
+g_mnemonic_cap='What it is. What it is made of. What is on it.',
+g_mnemonic_note='An examiner looks for the first shape before anything else.',
 g_fig=('A DEFINITION THAT SCORES, AND ONE THAT DOES NOT', 'NOT ENOUGH',
        ['The gingiva is the gum.',
         'The palate is in the mouth.',
@@ -247,6 +262,13 @@ listen_intro='Three recordings from your first week: a lecture, a tutorial and a
 listening=[
  dict(title='Lecture: the boundaries of the oral cavity', genre='lecture extract',
       what='the first three minutes of a lecture on oral anatomy',
+      speakers=['Dr Petra Nilsen', 'Leila Mansour'],
+      conv_lines=[('L', 'Three things today. What the oral cavity is.'),
+                  ('L', 'What divides it. What covers it.'),
+                  ('L', 'Write those down as headings.'),
+                  ('R', '(writing)'),
+                  ('L', 'The oral cavity is a space, not an organ.')],
+      conv_cap='The lecturer, and what a student does in the first minute.',
       fig=F.step_sequence('THE THREE HEADINGS OF THIS LECTURE',
             ['What the oral cavity is, and where it begins and ends.',
              'What divides it into two parts.',
@@ -302,6 +324,13 @@ listening=[
                        'the cheek is not keratinised')])),
  dict(title='Tutorial: a question nobody could answer', genre='tutorial',
       what='a small group tutorial, the day after the lecture',
+      speakers=['Dr Petra Nilsen', 'Leila Mansour'],
+      conv_lines=[('L', 'Leila. What is the gingiva?'),
+                  ('R', 'It is the gum.'),
+                  ('L', 'That is the everyday word. Define it.'),
+                  ('R', 'It is the tissue around the neck of the tooth.'),
+                  ('L', 'Better. Where exactly?')],
+      conv_cap='The tutor pushes once. The second answer is the one that scores.',
       fig=F.exchange('THE SHAPE OF A TUTORIAL ANSWER', 'THE TUTOR ASKS',
             ['What is the gingiva?', 'Where exactly?', 'And why does that matter?'],
             'A GOOD ANSWER',
@@ -366,6 +395,13 @@ listening=[
                       ('Why is the cheek not keratinised?', 'it moves')])),
  dict(title='In the clinic: a supervisor points at things', genre='clinical supervision',
       what='a supervisor showing two students a patient’s mouth',
+      speakers=['Dr Yusuf Rahman', 'Daniel Owusu'],
+      conv_lines=[('L', 'Leila, what am I pointing at?'),
+                  ('R', 'The hard palate.'),
+                  ('L', 'Good. Now watch it when she swallows.'),
+                  ('R', 'The back part moved. The front did not.'),
+                  ('L', 'That is the difference, in one sentence.')],
+      conv_cap='The supervisor, the student, and a patient who has agreed.',
       fig=F.chair_scene('WHERE YOU ARE STANDING',
             ['the chair', 'the headrest', 'the operating light', 'the bracket table',
              'the bowl'],
@@ -438,6 +474,11 @@ speaking=[
              ('You', 'It is attached to both, and it is keratinised.'),
              ('Partner', 'Which part of it is not attached?'),
              ('You', 'The free gingiva at the margin.')],
+      conv=['Leila Mansour', 'Daniel Owusu'],
+      conv_lines=[('L', 'The gingiva is the tissue around the neck of the tooth.'),
+                  ('L', 'It lies between the tooth and the alveolar bone.'),
+                  ('R', 'Which part of it is not attached?'),
+                  ('L', 'The free gingiva at the margin.')],
       frame=[['Change this', 'To this'],
              ['the gingiva', 'the hard palate'],
              ['the gingiva', 'the vestibule'],
@@ -532,7 +573,7 @@ reading=[
        'space into two parts. Outside the teeth, between them and the lips or cheeks, is the '
        'vestibule. Inside them is the oral cavity proper, which holds the tongue.',
        'The whole of this space is lined with mucosa. Mucosa is a soft, moist lining. It is '
-       'not the same in every part of the mouth, and the differences are not accidental. '
+       'not the same in every part of the mouth, and the differences are not an accident. '
        'Where the lining is pressed on, it is tough. Where it must move, it is thin and '
        'elastic.',
        'The tough kind is described as keratinised. Keratin is the same material that makes '
@@ -631,8 +672,8 @@ reading=[
        'saying it has been sore for a week is a fact about what the patient said. It is not '
        'a fact about the tooth, and the two must not sit in the same line.',
        'He gave her one last instruction. Where the patient says something, put it in '
-       'quotation marks and name who said it. A note that reads sore for a week is '
-       'ambiguous; a note that reads patient reports sore for a week is not.',
+       'quotation marks and name who said it. A note that reads sore for a week can be read in two ways; '
+       'a note that reads patient reports sore for a week cannot.',
        'The note took her eleven minutes. By the end of the year it will take her two. The '
        'order in which she writes it will not change, and neither will the first line or the '
        'last.'],
@@ -675,7 +716,7 @@ reading=[
        'Begin by explaining. Tell the patient that you are going to look under the tongue, '
        'that it will take about a minute, and that you will tell them before you touch '
        'anything. Ask whether that is all right, and wait for the answer. Permission is not '
-       'a formality.',
+       'a small thing you do quickly.',
        'Seat the patient so that the mouth is at the height of your own elbow, and adjust the '
        'light so that it falls into the floor of the mouth rather than onto the tongue. A '
        'great deal of what is missed in this area is missed because the light was wrong.',
@@ -694,13 +735,13 @@ reading=[
        'which of the two you actually did.',
        'Two practical points are worth adding, because students lose marks on both. The '
        'first is that the patient should be asked to relax the tongue after lifting it, not '
-       'to hold it up throughout. A tongue held hard against the palate tenses the floor of '
-       'the mouth and makes everything underneath feel firmer than it is.',
+       'to hold it up throughout. A tongue held hard against the palate pulls the floor of '
+       'the mouth tight and makes everything under it feel firmer than it is.',
        'The second is that both sides are examined, and compared. Most of what is abnormal '
        'in this area is recognised not because it looks wrong on its own, but because it is '
        'not the same as the other side. Examine the right, examine the left, and say in your '
        'note that you compared them.',
-       'What must be examined, how often, and by whom is set by local rules and by the '
+       'What must be examined, how often, and by who is set by local rules and by the '
        'teaching clinic’s own written procedures. Follow the version you are given, and ask '
        'if it differs from this one.'],
       source=('Examination of the floor of the mouth is commonly described as a bimanual '
@@ -808,8 +849,11 @@ data_box=dict(tier='A',
   label='Standard classification', value='Three kinds of oral mucosa',
   source='General anatomy reference works; professional guidance, 2025–2026.'),
 
+review_intro='Five activities, one for each skill. Twenty minutes, and the last one '
+             'is the one a supervisor will actually test you on.',
 review=[
- dict(kind='gap', rubric='The eight terms of this unit. Write the missing one.',
+ dict(skill='reading', title='The eight terms, in a textbook line',
+      kind='gap', rubric='Read each line and write the missing term.',
       example='The oral cavity is the whole space inside the mouth.',
       pairs=[('The ____________ is the whole space inside the mouth.', 'oral cavity'),
              ('The ____________ lies between the cheek and the teeth.', 'vestibule'),
@@ -818,23 +862,78 @@ review=[
              ('The ____________ is the tissue around the neck of the tooth.', 'gingiva'),
              ('____________ is the soft moist lining of the mouth.', 'Mucosa'),
              ('The lingual ____________ joins the tongue to the floor.', 'frenum'),
-             ('The ____________ of the mouth lies under the tongue.', 'floor')]),
- dict(kind='short', rubric='Build or read the word.',
-      example='gingiv + -itis  (gingivitis: inflammation of the gum)',
-      pairs=[('gingiv + -itis', 'gingivitis: inflammation of the gum'),
-             ('sub- + lingu + -al', 'sublingual: under the tongue'),
-             ('What does stomatitis mean?', 'inflammation of the mouth'),
-             ('What does palatal mean?', 'of the palate'),
-             ('What does -itis always mean?', 'inflammation')]),
- dict(kind='short', rubric='Define it in one sentence, with a category and a feature.',
-      example='the vestibule  (The vestibule is the space between the cheek and the teeth.)',
-      pairs=[('the hard palate',
-              'The hard palate is the bony roof at the front of the oral cavity.'),
-             ('mucosa', 'Mucosa is the soft moist lining of the oral cavity.'),
-             ('the gingiva', 'The gingiva is the tissue around the neck of the tooth.'),
-             ('keratinised', 'Keratinised means having a tough outer layer.'),
-             ('the lingual frenum',
-              'The lingual frenum joins the underside of the tongue to the floor of the mouth.')]),
+             ('The ____________ of the mouth lies under the tongue.', 'floor')],
+      fig=F.mini_table('WHERE EACH ONE IS', ['Term', 'Where it lies'],
+            [['the vestibule', 'between the cheek and the teeth'],
+             ['the hard palate', 'the front of the roof'],
+             ['the soft palate', 'the back of the roof'],
+             ['the floor of the mouth', 'under the tongue']]),
+      fig_cap='Four of the eight, by position.'),
+ dict(skill='listening', title='Listen to 5.1 again',
+      kind='short', rubric='Listen to the lecture once more and answer.',
+      example='How many headings does she give?  (three)',
+      how='Use your notes, not the transcript.',
+      pairs=[('How many headings does she give?', 'three'),
+             ('Where does the oral cavity end?', 'at the soft palate'),
+             ('What is outside the teeth called?', 'the vestibule'),
+             ('Which two areas are keratinised?', 'the hard palate and the gingiva'),
+             ('Why is the cheek not keratinised?', 'it has to move')],
+      fig=F.mini_table('YOUR THREE HEADINGS', ['', 'Heading'],
+            [['1', 'what the oral cavity is'], ['2', 'what divides it'],
+             ['3', 'what covers it']]),
+      fig_cap='The page you prepared before she started.'),
+ dict(skill='speaking', title='Present a structure in thirty seconds',
+      rubric='Present one structure to your partner in three sentences.',
+      how='What it is. Where it is. What covers it or what it joins. Thirty seconds.',
+      model=['The gingiva is the tissue around the neck of the tooth.',
+             'It lies between the tooth and the alveolar bone.',
+             'It is attached to both, and it is keratinised.'],
+      checklist=['sentence one said what kind of thing it is',
+                 'sentence two said where it is',
+                 'sentence three said what covers it or what it joins',
+                 'you finished inside thirty seconds'],
+      fig=F.conversation('THE EXCHANGE YOU ARE GOING TO RUN',
+            dict(name='You', role='present it', skin='4', hair='black',
+                 style='headscarf', tunic='blue'),
+            dict(name='Your partner', role='ask one question', skin='6', hair='black',
+                 style='short', tunic='teal'),
+            [('L', 'The gingiva is the tissue around the neck of the tooth.'),
+             ('L', 'It lies between the tooth and the alveolar bone.'),
+             ('R', 'Which part of it is not attached?'),
+             ('L', 'The free gingiva at the margin.')],
+            note='Three sentences, then one question. Nothing longer.'),
+      fig_cap='Three sentences, then one question.'),
+ dict(skill='writing', title='Two definitions and one short answer',
+      rubric='Write two definitions, then answer the question in four sentences.',
+      how='Every definition needs a category and a feature. The short answer begins by '
+          'answering, not by warming up.',
+      model=['The vestibule is the space between the cheek and the teeth.',
+             'Mucosa is the soft moist lining of the oral cavity.',
+             'The oral mucosa differs from place to place according to whether that area '
+             'is pressed on or has to move.'],
+      scaffold=['The hard palate is', 'The lingual frenum is',
+                'The oral mucosa differs according to', 'This matters in the clinic because'],
+      checklist=['a category in every definition', 'a feature in every definition',
+                 'the first sentence of the answer answers the question',
+                 'the last sentence says why it matters in the clinic'],
+      fig=F.mini_table('THE TWO HALVES OF A DEFINITION', ['Half', 'What it does'],
+            [['category', 'what kind of thing it is'],
+             ['feature', 'what makes it that one and not another']],
+            highlight=[1]),
+      fig_cap='Both halves, every time.'),
+ dict(skill='reading', title='Description or judgement?',
+      kind='short', rubric='Read each line from a clinical note. Write description or judgement.',
+      example='pale pink  (description)',
+      how='A first-year student writes descriptions. The judgement comes later.',
+      pairs=[('pale pink', 'description'),
+             ('healthy', 'judgement'),
+             ('moves on swallowing', 'description'),
+             ('normal', 'judgement'),
+             ('present, eight millimetres long', 'description')],
+      fig=F.mini_table('WHAT A FIRST-YEAR NOTE CARRIES', ['Write this', 'Not this'],
+            [['pale pink', 'healthy'], ['moves on swallowing', 'normal'],
+             ['present, 8 mm', 'fine']]),
+      fig_cap='The left column is what you saw. The right column is what you decided.'),
 ],
 end_fig_title='WHAT THIS UNIT GAVE YOU',
 end_fig_steps=['Eight terms for the parts of the oral cavity.',

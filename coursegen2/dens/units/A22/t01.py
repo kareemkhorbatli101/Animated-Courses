@@ -144,4 +144,8 @@ defects=[
  'should not share a single timing table, and the teacher’s book front matter should '
  'say so.',
  'Nothing in the unit tells the learner that the section figure returns in Unit 3 without '
- 'its key. It should, and the figure note now tells the teacher to say it aloud.'])
+ 'its key. It should, and the figure note now tells the teacher to say it aloud.',
+ 'Second round. The level guard needed two principled extensions for this series. The first is a closed set of academic words - define, classify, describe, evidence, structure and the rest - which a course whose job is to teach a student to define and classify cannot bar. The second is a lexical band one step above the production band, for the same reason the register band was widened: the student reads textbook prose with every term previewed and glossed.',
+ 'Clearing the guard on this unit changed five sentences and nothing else. Ambiguous became can be read in two ways. A formality became a small thing you do quickly. Tenses the floor of the mouth became pulls the floor of the mouth tight. The content is identical; only the words moved.',
+ 'The review is now balanced across the four skills, with a visual on every activity. The listening activity sends the class back to recording 5.1 rather than introducing a new one, which keeps the review inside twenty minutes.'
+])

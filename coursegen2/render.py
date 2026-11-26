@@ -130,6 +130,21 @@ def datapoint(label, value, source):
     return ''.join(out)
 
 
+def strap(t, after=140):
+    """The level/grammar line under a unit band - indented to match the band."""
+    return para(sp(after=after) + ind(120, 120), [run(t, C(NAVY), 19)])
+
+
+def termline(term, example, coll=None):
+    """A taught word: the term in bold, then the sentence it lives in."""
+    out = [para(sp(after=10) + ind(200, 200),
+                [run(term, B + C(NAVY)), run('   \u2014   '), run(example)])]
+    if coll:
+        out.append(para(sp(after=60) + ind(420, 200),
+                        [run('goes with:  ', C('5A5A5A'), 18), run(coll, C('5A5A5A'), 18)]))
+    return ''.join(out)
+
+
 def body(t, tail=None, after=120):
     rs = [run(t)]
     if tail:
@@ -153,8 +168,19 @@ def caption(t):
 
 
 def speak(who, line):
+    if not who:
+        return para(sp(after=60) + ind(400, 0), [run(line)])
     return para(sp(after=60) + ind(400, 0, hanging=400),
                 [run(who + ': ', B + C(NAVY)), run(line)])
+
+
+def speak_block(lines, after=60):
+    '''Print a speaker's name only when the speaker changes.'''
+    out, last = [], None
+    for who, line in lines:
+        out.append(speak('' if who == last else who, line))
+        last = who
+    return ''.join(out)
 
 
 def pron(a, b):

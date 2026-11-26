@@ -29,3 +29,20 @@ every gate.
 
     python3 make2.py den2 A21 --units 1,2      # student book + gates
     python3 teacher2.py den2 A21 --units 1,2   # teacher's book
+
+## The level guard
+
+`levels.py` holds the core word lists by band, an irregular-form map, a closed
+academic set for the student series, and a checker that strips affixes and
+splits compounds. `gates2.check_level` fails the build on any word above the
+book's band that is not taught in the unit, not in the series' `DOMAIN`, and not
+on the unit's `allow` list. **The fix is always to paraphrase into the band, up
+or down. Never delete the idea to pass the gate.**
+
+## Two visuals per exercise
+
+`build2.run_task` emits an answer bank and a set of picture cards for every
+exercise, both generated from the exercise data, so they cannot drift from the
+answer key. The shuffle is seeded on the exercise label, so builds are
+reproducible. `gates2.check_exercise_figs` fails the build if any exercise has
+fewer than two.

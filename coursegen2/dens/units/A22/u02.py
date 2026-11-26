@@ -24,6 +24,11 @@ warm_fig=F.dentition_map('THE PERMANENT DENTITION  ·  FDI NOTATION',
     highlight=['11', '21', '31', '41'], show_universal=False,
     note='Four shaded teeth: the four central incisors, one in each quadrant.'),
 warm_fig_cap='Thirty-two teeth, four quadrants, two digits each.',
+warm_fig2=F.icon_cards('THE FOUR TYPES OF TOOTH',
+    [('incisor: it cuts','tooth'),('canine: it tears','tooth'),
+     ('premolar: it crushes','tooth'),('molar: it grinds','tooth')], cols=4,
+    note='Four types. Learn what each one does, not only its name.'),
+warm_fig2_cap='The four types, and the job each one has.',
 warm_fig_alt='A chart of the permanent dentition in two rows with FDI numbers, with the '
              'four central incisors shaded to show the four quadrants meeting at the midline.',
 
@@ -186,6 +191,15 @@ g_rule=['There are + a number + a plural noun. There are thirty-two teeth in the
         'molar. Not the molar one.',
         'Are divided into, are called, is a type of: these three carry every '
         'classification you will write this year.'],
+g_mnemonic_title='ONE, MANY, AND WHICH ONE',
+g_mnemonic=[('There are …', 'you count them',
+             'There are thirty-two teeth.', 'tooth'),
+            ('Each … has …', 'you take them one at a time',
+             'Each quadrant has one canine.', 'tray'),
+            ('The first …', 'you say which one in the row',
+             'The first molar erupts at six.', 'calendar')],
+g_mnemonic_cap='Count them. Take them one at a time. Say which one.',
+g_mnemonic_note='Each and every always take a singular verb. Always.',
 g_fig=('COUNTING AND CLASSIFYING', 'WRONG',
        ['There is thirty-two teeth.',
         'Each quadrant contain eight teeth.',
@@ -239,13 +253,20 @@ listen_intro='A lecture, a tutorial and a clinic, all on the same subject. The l
 listening=[
  dict(title='Lecture: three ways to number a tooth', genre='lecture extract',
       what='a lecture on dental notation, with a warning in the middle of it',
+      speakers=['Dr Petra Nilsen', 'Daniel Owusu'],
+      conv_lines=[('L', 'Three notations today. FDI, Universal and Palmer.'),
+                  ('L', 'You will use one. You will read all three.'),
+                  ('L', 'This next slide is the dangerous one.'),
+                  ('R', '(marks the slide)'),
+                  ('L', 'The same two digits. A different tooth.')],
+      conv_cap='The lecturer at the slide she calls the dangerous one.',
       fig=F.dentition_map('THE SAME DIGITS, DIFFERENT TEETH',
             highlight=['11', '23'], show_universal=True,
             note='The lecturer will stop at this slide. Mark it when she does.'),
       fig_cap='The slide the lecturer calls the dangerous one.',
       script=[('Dr Nilsen', 'Three notations today. FDI, Universal and Palmer.'),
               ('Dr Nilsen', 'You will use one. You will read all three.'),
-              ('Dr Nilsen', 'FDI first, because it is the international standard.'),
+              ('Dr Nilsen', 'FDI first, because most countries have agreed on it.'),
               ('Dr Nilsen', 'Two digits. The first is the quadrant.'),
               ('Dr Nilsen', 'Upper right is one. Upper left is two.'),
               ('Dr Nilsen', 'Lower left is three. Lower right is four.'),
@@ -291,6 +312,13 @@ listening=[
                       ('Why is 11 dangerous?', 'it is a different tooth in each system')])),
  dict(title='Tutorial: name that tooth', genre='tutorial',
       what='a tutor testing two students on notation',
+      speakers=['Dr Petra Nilsen', 'Leila Mansour'],
+      conv_lines=[('L', 'Leila. What is three six?'),
+                  ('R', 'The lower left first molar.'),
+                  ('L', 'How do you know?'),
+                  ('R', 'Three is the lower left quadrant.'),
+                  ('L', 'Good. And what is eleven?')],
+      conv_cap='Three questions. The third one tests judgement.',
       fig=F.exchange('THE SHAPE OF THE ANSWER', 'THE TUTOR ASKS',
             ['What is 36?', 'How do you know?', 'And in Universal?'],
             'A GOOD ANSWER',
@@ -321,7 +349,7 @@ listening=[
               ('Dr Nilsen', 'On paper that leaves the building, say it.'),
               ('Dr Nilsen', 'Letters, laboratory forms, referrals. Always.'),
               ('Leila', 'What if the other person uses a different system?'),
-              ('Dr Nilsen', 'Then they can translate it, because you told them yours.'),
+              ('Dr Nilsen', 'Then they can change it to theirs, because you told them yours.'),
               ('Dr Nilsen', 'What they cannot do is guess, and guessing is what goes wrong.'),
               ('Daniel', 'Is there a tooth number that cannot exist in FDI?'),
               ('Dr Nilsen', 'Yes, and that is a very good question.'),
@@ -354,6 +382,13 @@ listening=[
                       ('Why is it safe inside the practice?', 'everyone uses the same one')])),
  dict(title='In the clinic: charting with a supervisor', genre='clinical supervision',
       what='a supervisor and a student charting a patient together',
+      speakers=['Dr Yusuf Rahman', 'Leila Mansour'],
+      conv_lines=[('L', 'You chart, I will call. Ready?'),
+                  ('R', 'Ready.'),
+                  ('L', 'One six, filling, sound.'),
+                  ('R', 'One six, filling, sound.'),
+                  ('L', 'Good. Always repeat it back.')],
+      conv_cap='The supervisor calls; the student writes and repeats it back.',
       fig=F.dentition_map('WHAT IS BEING CHARTED',
             highlight=['16', '26', '36', '46'], show_universal=False,
             note='Four first molars. Mark each one as the supervisor calls it.'),
@@ -427,6 +462,11 @@ speaking=[
              ('You', 'Its function is to hold and to crush food.'),
              ('Partner', 'How many are there in the whole dentition?'),
              ('You', 'Eight: two in each of the four quadrants.')],
+      conv=['Leila Mansour', 'Daniel Owusu'],
+      conv_lines=[('L', 'A premolar is a type of posterior tooth.'),
+                  ('L', 'There are two in each quadrant.'),
+                  ('R', 'How many are there in the whole dentition?'),
+                  ('L', 'Eight: two in each of the four quadrants.')],
       frame=[['Change this', 'To this'],
              ['a premolar', 'a canine'],
              ['two in each quadrant', 'one in each quadrant'],
@@ -600,8 +640,8 @@ reading=[
        'above eight, and nineteen is not a valid FDI number at all. The technician, who had '
        'trained in a country that uses the Universal system, read nineteen as the lower left '
        'first molar, which is what nineteen means there.',
-       'By coincidence the student had meant to write forty-six, the lower right first '
-       'molar, and had transposed the digits while copying from the chart. He had written '
+       'As it happened, the student had meant to write forty-six, the lower right first '
+       'molar, and had written the two digits the wrong way round while copying. He had written '
        'sixty-four, looked at it, decided it was wrong, and written nineteen instead because '
        'a colleague had told him the laboratory used American numbers.',
        'The crown arrived six days later, made correctly for the tooth the technician had '
@@ -620,8 +660,8 @@ reading=[
        'that this only works if the system is stated, which brings the problem back to the '
        'blank line.',
        'There is a second lesson in it, which the clinic drew out at the time. The '
-       'student had checked his own work and had caught the transposition. What he could '
-       'not check was the assumption underneath it, because nobody had written the clinic '
+       'student had checked his own work and had caught the two digits the wrong way round. What he could '
+       'not check was what he had taken as true, because nobody had written the clinic '
        'system down anywhere he could see it.',
        'The case is taught to first-year students for one reason. Nineteen was not a slip of '
        'the hand. It was a reasonable decision taken with missing information, by somebody '
@@ -637,7 +677,7 @@ reading=[
       post=dict(kind='short', rubric='Who or what caused this? Answer in a few words.',
                example='The blank line.  (it allowed a number with no system)',
                pairs=[('The blank line.', 'it allowed a number with no system'),
-                      ('The transposed digits.', 'they started the error'),
+                      ('The two digits the wrong way round.', 'they started the error'),
                       ('The helpful colleague.', 'the advice was wrong for this clinic'),
                       ('The supervisor’s signature.', 'it was given without checking'),
                       ('Why is the case taught?',
@@ -689,7 +729,7 @@ reading=[
        'and ask yourself what is not on it. A quadrant with no entries at all is either a '
        'perfect quadrant or a quadrant nobody looked at, and the chart as written cannot '
        'tell the difference. Writing sound across a quadrant you examined takes four '
-       'seconds and removes the ambiguity entirely.',
+       'seconds and removes the question completely.',
        'What a chart must contain, how long it is kept, and who may complete it is set by '
        'local rules and by the clinic’s own written procedures. The order described here is '
        'common practice, not a rule in every country.'],
@@ -757,7 +797,7 @@ writing=[
              'In the Universal system, eleven is an upper left canine, which FDI calls '
              'twenty-three.',
              'Any document that leaves the practice should therefore name the system, and a '
-             'number that cannot exist in the stated system should be queried before work '
+             'number that cannot exist in the stated system should be asked about before work '
              'begins.'],
       scaffold=['A record must state its notation because',
                 'In FDI notation, eleven is', 'In the Universal system, eleven is',
@@ -787,15 +827,18 @@ writing=[
 ],
 
 data_box=dict(tier='A',
-  text='FDI two-digit notation is set out in an international standard for designating '
+  text='FDI two-digit notation is set out in a rule that many countries have agreed for naming '
        'teeth and areas of the oral cavity. The first digit gives the quadrant, numbered '
        'clockwise from the patient’s upper right; the second gives the position from the '
        'midline. Primary teeth use quadrants five to eight.',
   label='International standard', value='FDI two-digit notation (ISO 3950)',
   source='ISO 3950, Dentistry — Designation system for teeth and areas of the oral cavity.'),
 
+review_intro='Five activities, one for each skill, and one that brings Unit 1 back. '
+             'Twenty minutes.',
 review=[
- dict(kind='gap', rubric='The eight terms of this unit. Write the missing one.',
+ dict(skill='reading', title='The eight terms of this unit',
+      kind='gap', rubric='Read each line and write the missing term.',
       example='The permanent dentition has thirty-two teeth.',
       pairs=[('The permanent ____________ has thirty-two teeth.', 'dentition'),
              ('____________ four is the lower right.', 'Quadrant'),
@@ -804,22 +847,80 @@ review=[
              ('Each quadrant has one ____________.', 'canine'),
              ('There are two ____________ in each quadrant.', 'premolars'),
              ('The first ____________ erupts at about six years.', 'molar'),
-             ('FDI ____________ uses two digits.', 'notation')]),
- dict(kind='gap', rubric='From Unit 1. Write the missing term.',
+             ('FDI ____________ uses two digits.', 'notation')],
+      fig=F.mini_table('EIGHT TEETH IN EVERY QUADRANT', ['Position', 'Type'],
+            [['1 and 2', 'incisors'], ['3', 'canine'],
+             ['4 and 5', 'premolars'], ['6, 7 and 8', 'molars']]),
+      fig_cap='The position number tells you the type. Learn it once.'),
+ dict(skill='listening', title='Listen to 5.3 again',
+      kind='short', rubric='Listen to the clinic recording once more and answer.',
+      example='Which four teeth are charted?  (the first molars)',
+      how='Mark each tooth on the chart as you hear it.',
+      pairs=[('Which four teeth are charted?', 'the first molars'),
+             ('Which one is missing?', 'three six'),
+             ('How long ago was it taken out?', 'about ten years'),
+             ('Which one has decay?', 'four six'),
+             ('Why are first molars affected most?', 'they erupt first')],
+      fig=F.dentition_map('MARK THEM AS YOU HEAR THEM',
+            highlight=['16', '26', '36', '46'], show_universal=False,
+            note='Four teeth. One of them is missing.'),
+      fig_cap='The chart to mark while you listen.'),
+ dict(skill='speaking', title='Teach the numbering to somebody who does not know it',
+      rubric='Teach FDI notation to your partner in one minute, then test them.',
+      how='Explain the two digits. Give one worked example. Then ask for three teeth.',
+      model=['Every tooth has two digits.',
+             'The first digit is the quadrant, counted clockwise from the patient\u2019s '
+             'upper right.',
+             'The second digit counts outwards from the midline, one to eight.',
+             'So what is thirty-six?'],
+      checklist=['you said what each digit does first',
+                 'you gave the quadrants from the patient\u2019s side',
+                 'you gave a worked example before testing',
+                 'you waited for each answer'],
+      fig=F.conversation('THE EXCHANGE YOU ARE GOING TO RUN',
+            dict(name='You', role='teach it', skin='4', hair='black', style='headscarf',
+                 tunic='blue'),
+            dict(name='Your partner', role='knows nothing yet', skin='6', hair='black',
+                 style='short', tunic='teal'),
+            [('L', 'Every tooth has two digits.'),
+             ('L', 'The first digit is the quadrant.'),
+             ('L', 'So what is thirty-six?'),
+             ('R', 'Lower left, sixth tooth. The first molar.')],
+            note='Explain, show, then ask. Never ask before you show.'),
+      fig_cap='Explain, show, then ask.'),
+ dict(skill='writing', title='A four-sentence examination answer',
+      rubric='Answer in four sentences: why must a record state which notation it uses?',
+      how='Answer directly in sentence one. Two examples. Then what should be done.',
+      model=['A record must state its notation because the same digits mean different '
+             'teeth in different systems.',
+             'In FDI notation, eleven is the upper right central incisor.',
+             'In the Universal system, eleven is an upper left canine.',
+             'Any paper that leaves the practice should name the system it uses.'],
+      scaffold=['A record must state its notation because',
+                'In FDI notation, eleven is', 'In the Universal system, eleven is',
+                'Any paper that leaves the practice should'],
+      checklist=['sentence one answers the question',
+                 'the same number is given in two systems',
+                 'both systems are named',
+                 'the last sentence says what should be done'],
+      fig=F.mini_table('THE SHAPE OF A FOUR-SENTENCE ANSWER', ['Sentence', 'Its job'],
+            [['1', 'answer the question'], ['2', 'one example'],
+             ['3', 'the opposite example'], ['4', 'what should be done']],
+            highlight=[0]),
+      fig_cap='Examiners mark the first sentence hardest.'),
+ dict(skill='reading', title='From Unit 1',
+      kind='gap', rubric='Terms from Unit 1. Write the missing one.',
       example='Mucosa is the soft moist lining of the mouth.',
-      how='These came back on purpose. They will come back again in Unit 5.',
+      how='These came back on purpose. They come back again in Unit 5.',
       pairs=[('____________ is the soft moist lining of the mouth.', 'Mucosa'),
              ('The ____________ is the tissue around the neck of the tooth.', 'gingiva'),
              ('The ____________ palate is the bony roof at the front.', 'hard'),
              ('The ____________ lies between the cheek and the teeth.', 'vestibule'),
-             ('The lingual ____________ joins the tongue to the floor.', 'frenum')]),
- dict(kind='short', rubric='Write the FDI number, or read it.',
-      example='the upper left canine  (23)',
-      pairs=[('the upper left canine', '23'),
-             ('the lower right first molar', '46'),
-             ('37', 'the lower left second molar'),
-             ('15', 'the upper right second premolar'),
-             ('What is 11 in the Universal system?', 'an upper left canine')]),
+             ('The lingual ____________ joins the tongue to the floor.', 'frenum')],
+      fig=F.mini_table('WHEN THESE TERMS COME BACK', ['Term', 'Comes back in'],
+            [['mucosa', 'Units 2, 3 and 6'], ['the gingiva', 'Units 2, 3 and 6'],
+             ['the hard palate', 'Units 2, 3 and 7'], ['the vestibule', 'Units 2, 4 and 8']]),
+      fig_cap='Nothing you learn here is finished with.'),
 ],
 end_fig_title='WHAT THIS UNIT GAVE YOU',
 end_fig_steps=['Four types of tooth, with what each one does.',

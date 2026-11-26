@@ -131,4 +131,9 @@ defects=[
  'low-level groups the extension note now says to give the card in the learners’ own '
  'language; the English is the practitioner’s job in this task, not the patient’s.',
  'Nothing in the unit told learners that the eight words come back later. The homework '
- 'note now does, because a learner who thinks a word is finished with does not revise it.'])
+ 'note now does, because a learner who thinks a word is finished with does not revise it.',
+ 'Second round. The strap line under the unit band was not aligned with the band and ran off the measure; the renderer now has a dedicated strap style indented to match. The term and its example sentence ran together on the preview page with no bold and no separator, so the eight words read as one block of text; they are now set as a bold term, a dash, and the sentence.',
+ 'A speaker\'s name was printed on every line of every dialogue, including consecutive lines by the same person. The name is now printed only when the speaker changes, which is how a printed dialogue is normally set and makes a long exchange much easier to follow aloud.',
+ 'Every exercise now carries two visuals: a bank that organises the answers in no particular order, and the same answers as picture cards. The bank is generated from the exercise itself, so it cannot drift from the answer key, and the shuffle is seeded so the book is reproducible.',
+ 'Each of the ten parts now ends on a page boundary. Where a part would otherwise leave a page half empty it closes with a figure that teaches something rather than with white space.'
+])
