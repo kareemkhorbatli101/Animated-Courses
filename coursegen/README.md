@@ -20,6 +20,7 @@ identical in every one; only `series.py` differs.
 | `ngo` | English for NGOs — New Syria Edition |
 | `col` | English for College Students — International Edition |
 | `hsc` | English for High School Students — International Edition |
+| `ogs` | English for the Oil and Gas Industries — Syrian Edition |
 
 ## The harness
 
