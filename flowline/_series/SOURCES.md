@@ -150,3 +150,46 @@ at once.
 killed. It is the only real incident in the series, it is sourced entirely to the named published
 inquiry report, and the unit states that other investigations of the same event reached conclusions
 that overlap and are not identical.
+
+---
+
+# Book 3 · Flowline 2 — *Pipes, Pumps and Pressure*
+
+CEFR B1 · figure prefix `rc` · audio prefix `FL3` · 196 figures · 195 tracks
+
+Every one of the twelve units carries a source. Unit 12 is the review, and its source — a pipeline
+safety management system recommended practice — is the document that says the organization is what
+fails.
+
+Two of the twelve are experiments rather than documents. Reynolds in 1883 put dye into water in a
+glass tube and watched; Moody in 1944 drew a chart from other people's measurements and said whose.
+Everything else in the book rests on those two pieces of work, and both authors wrote plainly about
+what they had and had not shown.
+
+| Unit | Title | Source, as cited in the text | What the text prints as the document's own limit |
+|---|---|---|---|
+| **1** | The Code on the Shelf | **ASME B31.4**, *Pipeline Transportation Systems for Liquids and Slurries*, in the ASME B31 Code for Pressure Piping | Minimum requirements for a new system. It excludes piping within refineries and process plants — a different code with a **lower** design factor — and excludes gas pipelines. A hydrostatic test finds defects large enough to fail at that pressure and proves nothing about smaller ones. The scope boundary is a judgment made once by a person on a drawing |
+| **2** | Smooth or Not | Osborne Reynolds, *Philosophical Transactions of the Royal Society*, **1883** | Water, one fluid, one glass tube, a laboratory. **The transition is not a sharp line**: Reynolds found it depended on how disturbed the water was at the inlet, and laminar flow could be sustained far above the conventional figure with a smooth entry. The two numbers in every textbook are conventions built on a real observation |
+| **3** | The Chart Everybody Still Uses | Lewis F. Moody, "Friction Factors for Pipe Flow", *Transactions of the ASME*, **1944** | A **compilation of other people's measurements**, named and credited. For circular pipe, running full, with one fluid. Published roughness values are for **new, clean** pipe, and nobody measures the roughness of a pipe in service — in the fully turbulent region, where most lines run, that unmeasured value is the only thing the answer depends on |
+| **4** | When There Are Two Things in the Pipe | H. D. Beggs and J. P. Brill, "A Study of Two-Phase Flow in Inclined Pipes", *Journal of Petroleum Technology*, **1973** | **Air and water**, pipes of about one and one and a half inches, a short laboratory loop, **584 tests** across a range of inclinations. Applying it to a twelve inch line of crude and gas at fifty bar is extrapolation, and the authors described their apparatus so that readers could see how far they were going beyond it. Two accepted methods can give holdup figures that differ by a large factor |
+| **5** | The Pump Curve | **API Standard 610**, *Centrifugal Pumps for Petroleum, Petrochemical and Natural Gas Industries*, published as an identical ISO standard | A **purchase specification**: it tells a manufacturer what to deliver and says nothing about the pump you already have, its curve after fifteen years of wear, or whether the duty it was bought for still exists. The required suction head is defined at a **three per cent head drop**, so a pump at exactly the required figure is already cavitating slightly |
+| **6** | The Thing That Runs Inside the Pipe | **API Standard 1163**, *In-line Inspection Systems Qualification*, with **API RP 1160**, *Managing System Integrity for Hazardous Liquid Pipelines* | Every reported depth carries a **tolerance**, a **confidence** and a **detection threshold**; at eighty per cent confidence about one feature in five may fall outside the band, and that is the specification working. **The absence of a feature from a report is not evidence of the absence of a feature from the pipe.** Verification digs are the step most often reduced when a schedule tightens |
+| **7** | Keeping the Steel | **NACE SP0169**, *Control of External Corrosion on Underground or Submerged Metallic Piping Systems* | It sets **criteria**, not outcomes, and gives more than one. An *on* reading includes a voltage drop through the soil and does not describe the steel; only the polarized potential does. A reading is taken at a test post. And a **disbonded coating shields the protective current** — the primary defense, in failing, prevents the secondary one from working, with nothing showing at the surface |
+| **8** | The Wrong Steel | **NACE MR0175 / ISO 15156**, *Materials for use in H2S-containing environments in oil and gas production*, in three parts | About **cracking**, not general corrosion. The environment is defined by hydrogen sulfide partial pressure, pH, chlorides and temperature, and **all four move over a field's life**, so a material correctly selected in 1998 can sit today in a different region with nobody having done anything wrong. It sets hardness limits a welding procedure must achieve; it does not write the procedure, and it will not tell you whether a line has already cracked |
+| **9** | One Standard, Many Countries | **ISO 13623:2017**, *Petroleum and natural gas industries — Pipeline transportation systems* | It **does not override national law**, and says so. It is a functional standard: what must be achieved, not how. The design factor follows from a **location class** and a **fluid category**, which makes it a judgment about consequences written as a decimal — and location class is assessed at a moment, while towns grow |
+| **10** | The Tank That Overflowed | **API Standard 650**, *Welded Tanks for Oil Storage*, with **API RP 2350**, *Overfill Protection for Storage Tanks in Petroleum Facilities* | API 650 is about **building** the tank, not filling it. RP 2350 treats overfill protection as a **system** including the response time and the people, and neither document gives you your own volumes, fill rate or response time. Two alarms from one transmitter are one layer wearing two hats, and a bund contains a consequence rather than preventing one |
+| **11** | Ship and Shore | ***International Safety Guide for Oil Tankers and Terminals***, **sixth edition, 2020**, published jointly by the International Chamber of Shipping, the Oil Companies International Marine Forum and the International Association of Ports and Harbors | A **guide**, not law, though much of its content appears in terminal regulations and charter terms. Almost nothing on the ship/shore checklist is information either party lacked: its purpose is to make the agreement **explicit, written and signed** by two named people. It cannot make two organizations trust each other, or make a representative awake for nineteen hours read forty items carefully |
+| **12** | A System, Not a Weld | **API Recommended Practice 1173**, *Pipeline Safety Management System Requirements*, first edition **2015** | A **voluntary recommended practice**, written to be **scalable**: it states what must be achieved and leaves the how to each organization, so two companies can both claim to have implemented it and look nothing alike. Its own failure mode is a documentation system growing inside it, because element ten is the easiest element to do well. And it cannot make anybody care |
+
+**Book 3's honesty core.** Eleven of the twelve units contain a failure, and **not one of the eleven is
+a failure of steel**. A scope boundary nobody reviewed. A viscosity that lost its source. Six years of
+pressure-drop data nobody subtracted. Three tunings of a controller that was not faulty. Eleven
+mechanical seals. A blank in an inspection report read as a clean result. Two reports in two filing
+systems. A weld with no hardness record. A village that grew beside a buried line. Seven minutes of
+tank against eleven minutes of procedure. A tick where a dash belonged. Unit 12 is the published
+document that says the organization is the thing that fails, and the book is arranged so that the
+reader reaches it having already seen eleven proofs.
+
+**Two people carry this book.** Adeel Rahman asks what a reported figure actually means, from Unit 6
+onward. Tomas Varga's line is repeated in four units: *it is already happening; the question is how
+fast, and whether anybody has measured it.*
