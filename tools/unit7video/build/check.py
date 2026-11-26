@@ -110,6 +110,10 @@ def check_built(cid, problems):
     mp4 = os.path.join(ROOT, "out", cid + ".mp4")
     if not os.path.exists(mp4):
         return say("mp4 not rendered")
+    # a stale mp4 passes every other check while showing the old lesson
+    tlp = os.path.join(out, "timeline.json")
+    if os.path.getmtime(mp4) < os.path.getmtime(tlp):
+        return say("mp4 is older than its timeline — stale render")
     probe = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,duration",
          "-of", "csv=p=0", mp4], capture_output=True, text=True).stdout.split()
