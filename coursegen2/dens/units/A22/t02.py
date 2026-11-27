@@ -77,6 +77,11 @@ difficulties=[
  ('Position three is always a canine', 'Learners do not believe this until they have done '
   'it ten times. Give them the ten.')],
 pronunciation=[
+ ('the midline', 'MID-line. Stress on the first syllable, and no vowel between'
+  'the d and the l.'),
+ ('a canine', 'KAY-nine. Stress on the first syllable, and the second rhymes'
+  'with nine. Learners produce ka-NEEN.'),
+ ('notation', 'noh-TAY-shun. Three syllables, stress on the second.'),
  ('dentition', 'den-TISH-un. Four syllables, stress on the third.'),
  ('quadrant', 'KWOD-rant, stress on the first.'),
  ('incisor', 'in-SY-zer, stress on the second.'),

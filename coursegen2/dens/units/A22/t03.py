@@ -220,6 +220,13 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('the crown', 'krown. One syllable, rhyming with down.'),
+ ('the root', 'root, with the long vowel of boot. Learners shorten it towards'
+  'foot.'),
+ ('a cusp', 'kusp. One syllable, and the sp at the end is the cluster learners'
+  'break with a vowel.'),
+ ('a surface', 'SER-fiss. Stress on the first syllable; the second has a short'
+  'i and an s. Learners produce ser-FACE.'),
  ('enamel', 'Stress on the second syllable: e-NAM-el. Learners stress the first, which '
   'makes the word hard to hear in a lecture.'),
  ('cementum', 'se-MEN-tum. The first c is soft. Learners who read it before hearing it '

@@ -80,6 +80,10 @@ difficulties=[
  ('Keratinised', 'Hard to say and easy to misspell. Break it: KERR-a-tin-ized. Write it on '
   'the board and leave it there for the lesson.')],
 pronunciation=[
+ ('the oral cavity', 'OR-al KAV-i-ti. Stress on the first syllable of each'
+  'word. Learners stress the second of cavity.'),
+ ('the floor of the mouth', 'floor of the MOWTH. Two stresses with four weak'
+  'syllables between them; of the is almost swallowed in ordinary speech.'),
  ('gingiva', 'jin-JY-vuh is the commonest; JIN-ji-vuh is also heard. Say both, use one.'),
  ('mucosa', 'mew-KOH-zuh. Stress on the second syllable.'),
  ('palate', 'PAL-at, two syllables, and it does not rhyme with plate.'),

@@ -289,6 +289,10 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('lingual', 'LING-gwal. Two syllables, stress on the first, and there is a w'
+  'sound in the middle.'),
+ ('incisal', 'in-SY-zal. Three syllables, stress on the second, with a z. The'
+  'related incisor is in-SY-zer, and the two are easily blended.'),
  ('mesial', 'MEE-zee-al, three syllables. Learners produce MEH-sial from the spelling. '
   'Drill it against distal, which is easier.'),
  ('distal', 'DIS-tal, stress on the first syllable. Short and safe; use it to anchor '

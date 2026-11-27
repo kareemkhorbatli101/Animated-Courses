@@ -266,6 +266,10 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('a finding', 'FYND-ing. Stress on the first syllable, long i. The plural'
+  'findings is the form a record carries.'),
+ ('sound', 'sownd. One syllable, rhyming with found. Note the two senses in'
+  'this unit: sound tissue, and a sound you hear.'),
  ('a lesion', 'LEE-zhun. The s is a zh sound, as in measure. Learners produce LESS-ion '
   'from the spelling.'),
  ('a cavity', 'KAV-i-ty, three syllables, stress on the first. Drill it against cavitis, '

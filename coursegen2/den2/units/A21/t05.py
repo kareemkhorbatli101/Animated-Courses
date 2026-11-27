@@ -272,6 +272,10 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('to stop', 'stop. One syllable, short vowel, and at the end of a sentence'
+  'the p is barely released. Said too carefully it sounds like an order.'),
+ ('to feel', 'feel. Long vowel and a clear l. Learners shorten it towards'
+  'fill, which is a different word at the chair.'),
  ('a signal', 'SIG-nal, stress on the first syllable. The second is weak; learners give '
   'it full value and produce sig-NAL.'),
  ('uncomfortable', 'un-COM-fort-a-ble. Five syllables and the fourth almost disappears. '

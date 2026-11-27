@@ -251,6 +251,10 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('to nod', 'nod. One short syllable, and the d must be heard: without it the'
+  'word is no.'),
+ ('to check', 'chek. One syllable, and the ch is as in chair rather than as in'
+  'school.'),
  ('pressure', 'PRESH-er. The ss is a sh sound. Learners who read it before hearing it '
   'produce PRESS-ure, which is hard to recognise.'),
  ('sharp', 'One syllable. The final p is barely released in British English; learners '

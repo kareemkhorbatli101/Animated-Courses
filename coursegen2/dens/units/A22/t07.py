@@ -280,6 +280,10 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('the periodontal ligament', 'per-i-o-DON-tal LIG-a-ment. Stress on the'
+  'fourth syllable of the first word and the first of the second.'),
+ ('alveolar bone', 'al-VEE-o-lar bone. Four syllables, stress on the second.'
+  'Learners stress the third.'),
  ('the periodontium', 'per-i-o-DON-ti-um, six syllables, stress on the fourth. Say it '
   'slowly once, then at speed four times; nothing else in the course is this long.'),
  ('gingivitis', 'jin-ji-VY-tis. The g is soft and the stress is on the third syllable. '

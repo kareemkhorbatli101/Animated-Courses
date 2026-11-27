@@ -215,6 +215,12 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('a history', 'HIS-tri. Three syllables written and two said: the middle'
+  'vowel almost disappears.'),
+ ('to hurt', 'hert. One syllable with the vowel of her. There is no u sound in'
+  'it, despite the spelling.'),
+ ('sore', 'sor. One syllable, rhyming with more. Learners make two syllables'
+  'of it because of the final e.'),
  ('pain / bain', 'Arabic has no /p/. Learners produce “bain”. Hold a sheet of paper in '
   'front of your mouth: /p/ moves it, /b/ does not. Thirty seconds, and it carries into '
   'painkiller as well.'),

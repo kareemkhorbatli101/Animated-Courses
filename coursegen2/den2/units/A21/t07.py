@@ -267,6 +267,9 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('to wait', 'wayt. One syllable, long a, and the final t must be heard.'),
+ ('to worry', 'WUH-ri. Stress on the first syllable, and the o has the vowel'
+  'of cup, not of for.'),
  ('normal', 'NOR-mal, stress on the first syllable. Learners stress the second, from '
   'the Arabic rhythm, and produce nor-MAL.'),
  ('to bleed', 'One syllable, long ee. Drill it against bled, which has a short e and is '

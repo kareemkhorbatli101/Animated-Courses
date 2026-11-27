@@ -266,6 +266,10 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('a plan', 'plan. One short syllable. Learners lengthen the vowel and it'
+  'drifts towards plane.'),
+ ('to take', 'tayk. One syllable with a long a; the silent final e is the'
+  'reason the a is long.'),
  ('a treatment', 'TREET-ment. Two syllables. Learners insert a vowel after the t and '
   'produce three.'),
  ('to explain', 'ex-PLAIN, stress on the second syllable. The first is weak and almost '

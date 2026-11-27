@@ -288,6 +288,10 @@ difficulties=[
 ],
 
 pronunciation=[
+ ('a mouth mirror', 'mowth MIRR-er. Two words, and the first has the th of'
+  'thin rather than of this.'),
+ ('a handpiece', 'HAND-peece. One word, stress on the first syllable, and the'
+  'd is barely heard between the n and the p.'),
  ('a probe', 'One syllable, long o as in robe. Learners produce PRO-be from the '
   'spelling.'),
  ('a periodontal probe', 'per-i-o-DON-tal. Five syllables, stress on the fourth. Say it '

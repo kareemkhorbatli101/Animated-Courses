@@ -77,6 +77,8 @@ difficulties=[
  ('Which side is the right?', 'The patient’s right, always. Learners who have worked '
   'in a laboratory often default to their own. Reading 3 and the figure both reinforce it.')],
 pronunciation=[
+ ('the gum', 'gum. One syllable with the vowel of cup. The plural gums is what'
+  'a patient says; the singular is what a chart says.'),
  ('molar', 'Stress on the first syllable: MOH-lar.'),
  ('incisor', 'Stress on the second: in-SY-zer. Not IN-sizer.'),
  ('gingiva', 'Two common stressings exist; teach jin-JY-vuh and say the other is also heard.'),

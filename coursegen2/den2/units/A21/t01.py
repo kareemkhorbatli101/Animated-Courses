@@ -74,6 +74,15 @@ difficulties=[
  ('The nurse’s name', 'Learners introduce themselves and forget the nurse. The '
   'checklist in 6.1 exists for this. Enforce it.')],
 pronunciation=[
+ ('the waiting room', 'WAY-ting room. Stress on the first syllable of waiting,'
+  'and the t must be heard: a swallowed t turns it into a word nobody'
+  'recognises.'),
+ ('the chair', 'chair. One syllable. Learners add a vowel at the end and'
+  'produce chay-er.'),
+ ('the dental nurse', 'DEN-tal nurse. Stress on the first syllable of dental;'
+  'nurse has the vowel of her, not of nice.'),
+ ('to sit back', 'sit BACK. The stress falls on back, because that is the new'
+  'information. Stressed on sit it sounds like a correction.'),
  ('comfortable', 'Three syllables, not four: KUMF-ta-bl. The second syllable disappears.'),
  ('appointment', 'Stress on the second syllable: a-POINT-ment.'),
  ('surgery', 'Three syllables in careful speech, two in fast speech: SUR-juh-ree.'),
