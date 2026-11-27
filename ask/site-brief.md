@@ -90,7 +90,7 @@ Level and subject: IELTS · Writing Task 2 · B2–C1
 274 Task 2 questions with a model answer each, every one written to Band 6.5–7 on purpose and carrying the examiner’s reasons for that band.
 
 - 274 essays, 163 at 250+ words
-- 12 live now
+- 20 live now
 - 22 topic categories
 
 Opens at: ielts-writing/index.html
