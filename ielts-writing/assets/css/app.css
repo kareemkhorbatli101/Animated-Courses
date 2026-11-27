@@ -270,6 +270,42 @@ select.sel {
 .ring { float: right; }
 .notice { background: var(--accent-soft); border-radius: var(--radius); padding: 12px 14px; font-size: 14px; margin: 16px 0; }
 .foot { color: var(--ink-faint); font-size: 13px; margin-top: 28px; }
+
+/* ---------- the author's card, on every page of this course ----------
+   Mobile-first and deliberately not fixed/sticky: a floating corner badge would sit over
+   the drag slots and the writing box, which the layout gate forbids at 11 widths. It
+   stacks under 520px so the 96px photograph and the phone button never fight for the
+   same row at 360px. */
+.tutor {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 16px; margin: 28px 0 0;
+}
+.tutor-pic {
+  width: 96px; height: 96px; flex: 0 0 auto;
+  border-radius: 50%; object-fit: cover; background: var(--chip);
+  border: 2px solid var(--line);
+}
+.tutor-txt { flex: 1 1 220px; min-width: 0; }
+.tutor-by { margin: 0; color: var(--ink-faint); font-size: 13px; }
+.tutor-who { margin: 2px 0 6px; font-size: 19px; font-weight: 700; color: var(--ink); }
+.tutor-cta { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.45; }
+.tutor-tel {
+  flex: 0 0 auto; display: inline-block; text-decoration: none; white-space: nowrap;
+  background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 16px;
+  padding: 11px 18px; border-radius: 999px; direction: ltr;
+}
+.tutor-tel:hover { filter: brightness(1.08); }
+.tutor-tel:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+/* On the essay page the card is its own block after <main>, so main's own bottom padding
+   already separates it - its margin on top of that is 92px of dead scroll on a phone. */
+.tutor-wrap .tutor { margin-top: 0; }
+@media (max-width: 519px) {
+  .tutor { gap: 12px; }
+  .tutor-pic { width: 72px; height: 72px; }
+  .tutor-tel { width: 100%; text-align: center; }
+}
 h1 { font-size: 26px; line-height: 1.25; margin: 22px 0 6px; }
 .sub { color: var(--ink-soft); margin: 0 0 8px; }
 
