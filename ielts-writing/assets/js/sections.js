@@ -150,10 +150,18 @@
       return s;
     });
 
+    /* The bank is a DERANGEMENT of the answer order: no chip may start in the position of the
+       slot it belongs to, so the learner is never handed a pairing for free. The answers are
+       listed first so their index IS their slot's index; distractors follow and have no home. */
     var pool = answers.map(function (a) { return a.text; }).concat(opts.distractors || []);
-    shuffled(pool, opts.seed).forEach(function (v) {
+    var order = shuffled(pool, opts.seed);
+    order.forEach(function (v) {
       bank.appendChild(tokenFor(v, v.length > 24));
     });
+    /* The slot order this card expects, so a gate can ask whether the bank hands any pairing
+       over for free. It is not a leak: the same answers are already in window.IWR_ESSAY. */
+    box.setAttribute('data-key', opts.key);
+    box.setAttribute('data-answers', JSON.stringify(answers.map(function (a) { return a.text; })));
     /* The bank goes immediately above the exercise body. insertBefore needs a DIRECT child of
        box, and in section 5 the exercise body is nested inside a grid - which threw, and took
        the whole page down with it. So walk up to box's own child, and append if there is none. */

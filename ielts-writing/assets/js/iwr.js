@@ -45,8 +45,18 @@
   IWR.words = words;
 
   /* A seeded shuffle, so a learner's bank order is stable across reloads and is NOT the answer
-     order. An exercise whose bank happens to be in answer order is not an exercise. */
-  function shuffled(list, seed) {
+     order. An exercise whose bank happens to be in answer order is not an exercise.
+
+     DERANGED, NOT MERELY SHUFFLED. The first version only refused the case where the shuffle
+     reproduced the WHOLE order, which with five items leaves plenty of room for the first chip
+     to be the first row's answer - and on essay 1's matching card that is exactly what happened,
+     so the owner read the card as unshuffled. A learner who can pair the top chip with the top
+     row has been given one answer free.
+
+     So: after shuffling, any element still sitting at its original index is swapped away. The
+     result is a derangement of the answers, with distractors - which have no home index - free
+     to sit anywhere. */
+  function shuffled(list, seed, keyOf) {
     var a = list.slice(), s = seed || 1, i, j, t;
     function rnd() { s = (s * 1103515245 + 12345) & 0x7fffffff; return s / 0x7fffffff; }
     rnd();
@@ -54,13 +64,36 @@
       j = Math.floor(rnd() * (i + 1));
       t = a[i]; a[i] = a[j]; a[j] = t;
     }
-    // if the shuffle happens to reproduce the original order, rotate it
-    var same = true;
-    for (i = 0; i < a.length; i++) if (a[i] !== list[i]) { same = false; break; }
-    if (same && a.length > 1) a.push(a.shift());
+    if (a.length > 1) {
+      var same = function (x, y) {
+        return keyOf ? keyOf(x) === keyOf(y) : x === y;
+      };
+      for (i = 0; i < a.length; i++) {
+        if (i < list.length && same(a[i], list[i])) {
+          j = (i + 1) % a.length;
+          /* swap with a neighbour that does not create the same problem there */
+          for (var k = 1; k < a.length; k++) {
+            var cand = (i + k) % a.length;
+            var okHere = !(cand < list.length && same(a[i], list[cand]));
+            var okThere = !(i < list.length && same(a[cand], list[i]));
+            if (okHere && okThere) { j = cand; break; }
+          }
+          t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+      }
+    }
     return a;
   }
   IWR.shuffled = shuffled;
+
+  /* Is any item sitting where its own answer belongs? The gate asks this too. */
+  IWR.aligned = function (bank, answers) {
+    var n = 0;
+    for (var i = 0; i < answers.length && i < bank.length; i++) {
+      if (bank[i] === answers[i]) n++;
+    }
+    return n;
+  };
 
   /* ---------- progress ---------- */
   function load() {

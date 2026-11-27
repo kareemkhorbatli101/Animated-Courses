@@ -41,12 +41,29 @@
       d.head.appendChild(s);
     });
   }
+
+  /* ONLY SUCCESS IS REMEMBERED.
+   *
+   * This memoised the promise itself, rejections included. So one transient failure - a deploy
+   * window, a dropped connection - made every later click on every panel report the same stale
+   * "cannot load .../gemini.js", long after the file was being served perfectly well. The owner
+   * saw exactly that message against a file that answers 200. A cache of a failure is a cache of
+   * a lie: clear it and let the next press try again. */
   function askLayer() {
     if (loading) return loading;
     loading = Promise.resolve()
       .then(function () { return w.Keyring ? null : script(SITE + 'assets/ask/keyring.js'); })
       .then(function () { return w.GeminiProvider ? null : script(SITE + 'assets/ask/gemini.js'); })
-      .then(function () { return w.Keyring && w.GeminiProvider; });
+      .then(function () {
+        if (!(w.Keyring && w.GeminiProvider)) {
+          throw new Error('the AI layer loaded but did not define itself');
+        }
+        return true;
+      })
+      .catch(function (err) {
+        loading = null;
+        throw err;
+      });
     return loading;
   }
   function hasKey() {
@@ -76,45 +93,78 @@
     '- Keep to plain English a B2 learner can read. No jargon you do not explain.'
   ].join('\n');
 
+  /* THE PROVIDER'S REAL CALL SURFACE IS askWithFailover.
+   *
+   * This asked for `chat`, then `complete`, then `generate`, and fell through all three to
+   * "no call surface on the provider" - which is what every AI button on this course said. I
+   * had guessed the API instead of reading it. GeminiProvider exposes: models(), select(name),
+   * ask(req) and askWithFailover(req).
+   *
+   * askWithFailover is the one to use, and not only because it exists. It lists the models this
+   * key may actually use, tries three in rank order, and treats a 429 as a statement about ONE
+   * model rather than about the key - a free key routinely has no allowance on the newest model
+   * and answers instantly on the next one down. It also means nothing has to call select()
+   * first, which is the deadlock that once left this site's Ask pane grey for ever. */
+  var preferred = null;
+
   function callModel(userText, onText) {
-    return askLayer().then(function (ok) {
-      if (!ok) throw new Error('the AI layer is not available');
+    return askLayer().then(function () {
       var prov = new w.GeminiProvider({});
-      if (prov.chat) {
-        return prov.chat({ system: SYSTEM, user: userText, model: MODELS[0],
-                           maxTokens: MAXTOK, temperature: 0.2 });
+      if (typeof prov.askWithFailover !== 'function') {
+        throw new Error('this build of the AI layer has no askWithFailover');
       }
-      if (prov.complete) {
-        return prov.complete({ system: SYSTEM, user: userText, model: MODELS[0],
-                               maxTokens: MAXTOK, temperature: 0.2 });
-      }
-      return prov.generate
-        ? prov.generate(SYSTEM + '\n\n' + userText, { model: MODELS[0] })
-        : Promise.reject(new Error('no call surface on the provider'));
+      return prov.askWithFailover({
+        system: SYSTEM,
+        prompt: userText,
+        maxTokens: MAXTOK,
+        temperature: 0.2,
+        preferred: preferred
+      });
     }).then(function (res) {
-      var text = (res && (res.text || res.output || res.content)) || String(res || '');
+      if (res && res.model) preferred = res.model;          // remember only what WORKED
+      var text = (res && res.text) || '';
+      if (!text) throw new Error('the model answered with nothing');
       onText(text);
       return text;
     });
   }
 
   /* ---------- a panel that degrades to the clipboard ---------- */
-  function aiPanel(parent, build) {
+  function aiPanel(parent, build, opts) {
+    opts = opts || {};
     var out = el('div', 'answer');
     out.hidden = true;
     var row = el('div', 'btn-row');
-    var go = el('button', 'btn btn-primary', hasKey() ? 'Ask' : 'Copy the question for a tutor');
+    var label = opts.label || 'Ask';
+    var go = el('button', 'btn btn-primary',
+                hasKey() ? esc(label) : 'Copy the question for a tutor');
     go.type = 'button';
     row.appendChild(go);
+    var extra = null;
+    if (opts.again) {
+      extra = el('button', 'btn', esc(opts.again));
+      extra.type = 'button';
+      /* Usable from the start: asking for examples of an expression does not require the
+         learner to have written one of their own first. */
+      row.appendChild(extra);
+    }
     var note = el('span', 'counter', hasKey() ? '' : 'No AI key on this device — the '
       + 'question will be copied so you can paste it anywhere.');
     row.appendChild(note);
     parent.appendChild(row);
     parent.appendChild(out);
 
-    go.addEventListener('click', function () {
-      var prompt = build();
+    var said = [];                                /* what has already been answered, so "another"
+                                                     really is another and not the same again */
+
+    function send(kind) {
+      var prompt = build(kind, said);
       if (!prompt) return;
+      if (prompt.refuse) {                        /* a reason, not a silent dead button */
+        out.hidden = false;
+        out.textContent = prompt.refuse;
+        return;
+      }
       if (!hasKey()) {
         try {
           if (w.navigator && w.navigator.clipboard) w.navigator.clipboard.writeText(prompt);
@@ -125,16 +175,37 @@
         return;
       }
       go.disabled = true;
+      if (extra) extra.disabled = true;
       out.hidden = false;
       out.textContent = 'Thinking…';
-      callModel(prompt, function (text) { out.textContent = text; })
-        .catch(function (err) {
-          out.textContent = 'That did not work: ' + (err && err.message ? err.message : err)
-            + '\n\nThe question is below, so nothing is lost:\n\n' + prompt;
-        })
-        .then(function () { go.disabled = false; });
-    });
-    return { out: out, button: go };
+      callModel(prompt, function (text) {
+        out.textContent = text;
+        said.push(text);
+      }).catch(function (err) {
+        /* The failure says what went wrong and OFFERS the question; it does not dump the whole
+           prompt into the answer box, which read as gibberish to the owner and buried the one
+           line that mattered. */
+        var msg = (err && err.message) ? err.message : String(err);
+        out.textContent = 'That did not work: ' + msg;
+        var copy = el('button', 'btn btn-sm', 'Copy the question so you can paste it elsewhere');
+        copy.type = 'button';
+        copy.addEventListener('click', function () {
+          try {
+            if (w.navigator && w.navigator.clipboard) w.navigator.clipboard.writeText(prompt);
+            copy.textContent = 'Copied';
+          } catch (e) { copy.textContent = 'Could not copy'; }
+        });
+        out.appendChild(d.createElement('br'));
+        out.appendChild(copy);
+      }).then(function () {
+        go.disabled = false;
+        if (extra) extra.disabled = false;
+      });
+    }
+
+    go.addEventListener('click', function () { send('first'); });
+    if (extra) extra.addEventListener('click', function () { send('again'); });
+    return { out: out, button: go, again: extra };
   }
 
   /* ============ 3 - write your own example ============ */
@@ -184,10 +255,33 @@
       IWR.put('s3', { word: sel.value, text: ta.value, done: n >= 4 });
     });
 
-    aiPanel(c, function () {
-      var n = words(ta.value);
+    aiPanel(c, function (kind, said) {
       if (!sel.value) { hint.textContent = 'Choose a word first.'; return null; }
-      if (n < 4) { counter.textContent = n + ' words — write a little more first.'; return null; }
+
+      /* "Show me more examples" is a different question from "check mine", and it does not need
+         the learner to have written anything - it needs to know what it has already shown, so
+         each press gives a genuinely new set rather than the same three again. */
+      if (kind === 'again') {
+        var lines = ['The expression: ' + sel.value,
+          'How it is used in the model essay: ' + defOf(sel.value),
+          ''];
+        if (said && said.length) {
+          lines.push('You have already given these, so give DIFFERENT ones:');
+          lines.push('<work>' + said.join('\n---\n') + '</work>');
+          lines.push('');
+        }
+        lines.push('Give THREE more example sentences using this expression, each in a different '
+          + 'setting (work, study, public life). After each one, add a short line in brackets '
+          + 'saying WHY it works there - the collocation, the register, or the grammar it needs. '
+          + 'No score, no band, under 40 words per example.');
+        return lines.join('\n');
+      }
+
+      var n = words(ta.value);
+      if (n < 4) {
+        counter.textContent = n + ' words — write a little more first.';
+        return null;
+      }
       return ['Task question: ' + (E.question || ''),
         'The expression: ' + sel.value,
         'How it is used in the model essay: ' + defOf(sel.value),
@@ -202,7 +296,7 @@
         'BETTER - one improved version of the learner\'s own sentence, keeping their idea.',
         'ANOTHER - one further sentence showing the expression in a different context.'
       ].join('\n');
-    });
+    }, { label: 'Check my example', again: 'Show me more examples with explanation' });
 
     var saved = IWR.get('s3');
     if (saved && saved.text) {
@@ -327,13 +421,22 @@
     out.hidden = true;
     c.appendChild(out);
 
+    /* THE SCORE BUTTON IS NEVER DISABLED.
+     *
+     * It used to grey out under 120 words, which is a dead control that explains itself only in
+     * a tooltip nobody hovers. A button that cannot be pressed teaches the learner nothing; a
+     * button that answers "here is what I still need" teaches them the threshold. So it is
+     * always live, and below SCORE_MIN words it says what is missing instead of spending the
+     * learner's quota on marking a fragment. */
+    var SCORE_MIN = 50;
+
     function refresh() {
       var n = words(ta.value);
       counter.textContent = 'words: ' + n + ' · target 250–280';
-      /* Under 120 words a nine-band rubric produces a confident number that means nothing. */
-      score.disabled = n < 120;
-      score.title = n < 120
-        ? 'A real band needs at least an introduction and one body paragraph — write a little more and this will unlock.'
+      score.disabled = false;
+      score.title = n < SCORE_MIN
+        ? 'Below ' + SCORE_MIN + ' words there is not enough to mark — press it and it will '
+          + 'tell you what it needs.'
         : '';
       readMine.disabled = !n;
       if (wb.panel.firstChild) {
@@ -373,6 +476,12 @@
     });
     askMine.addEventListener('click', function () {
       questionModal('Ask about my essay', ABOUT_MINE, function (qq) {
+        /* An empty box sent an empty <work> and asked a model to analyse nothing. It refuses
+           here instead, in one line, rather than spending the learner's quota on it. */
+        if (words(ta.value) < 1) {
+          return { refuse: 'Write something in your essay box first — these questions are '
+            + 'about your own writing.' };
+        }
         var withModel = /compare my essay with the model/i.test(qq);
         var lines = ['Task question: ' + (E.question || ''),
           'Question type: ' + (E.qtype || 'not stated'),
@@ -394,10 +503,25 @@
     score.addEventListener('click', function () {
       var text = ta.value;
       var n = words(text);
-      if (n < 120) return;
+      if (n < SCORE_MIN) {
+        out.hidden = false;
+        out.textContent = n === 0
+          ? 'There is nothing in the box yet. Write at least ' + SCORE_MIN + ' words — an '
+            + 'introduction and the start of one body paragraph — and this will mark it '
+            + 'against all four IELTS criteria.'
+          : 'You have written ' + n + ' word' + (n === 1 ? '' : 's') + '. Marking needs at least '
+            + SCORE_MIN + ', so there is something to judge: write ' + (SCORE_MIN - n) + ' more '
+            + 'and press this again. The exam itself wants 250.';
+        return;
+      }
       var prompt = ['Task question: ' + (E.question || ''),
         'Question type: ' + (E.qtype || 'not stated'),
         'The learner wrote ' + n + ' words. The IELTS Task 2 minimum is 250.',
+        (n < 250
+          ? 'THIS ANSWER IS UNDER LENGTH. Say so first, say that under-length is an automatic '
+            + 'penalty in the real exam, and make clear every band below is an estimate of an '
+            + 'unfinished answer.'
+          : ''),
         '',
         'The learner\'s essay:',
         '<work>', text, '</work>',
