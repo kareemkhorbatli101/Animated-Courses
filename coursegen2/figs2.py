@@ -644,6 +644,63 @@ def icon(name, cx, cy, s=1.0, col=None):
         o.append(R(-60, -14, 120, 28, BONE))
         for gx, gy in ((-60, -14), (-60, 14), (60, -14), (60, 14)):
             o.append(C_(gx, gy, 18, BONE))
+    elif name in ('enamel', 'dentine', 'pulp', 'cementum', 'crown', 'root'):
+        # A tooth in section, every layer in its true colour, with a red ring
+        # round the layer the word names. Until this existed, the eight words
+        # of the tooth-section unit all wore a speech bubble.
+        RING = '#B3261E'
+        crown_d = ('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-52*s, cy-2*s, cx-52*s, cy-62*s, cx, cy-64*s,
+                      cx+52*s, cy-62*s, cx+52*s, cy-2*s))
+        root_d = ('M %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f L %.1f %.1f Z'
+                  % (cx-36*s, cy-2*s, cx-12*s, cy+58*s, cx, cy+68*s,
+                     cx+12*s, cy+58*s, cx+36*s, cy-2*s))
+        dent_d = ('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f '
+                  'Q %.1f %.1f %.1f %.1f Z'
+                  % (cx-38*s, cy-2*s, cx-38*s, cy-48*s, cx, cy-50*s,
+                     cx+38*s, cy-48*s, cx+38*s, cy-2*s,
+                     cx, cy+52*s, cx-38*s, cy-2*s))
+        pulp_d = ('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f '
+                  'Q %.1f %.1f %.1f %.1f Z'
+                  % (cx-18*s, cy-6*s, cx-18*s, cy-34*s, cx, cy-36*s,
+                     cx+18*s, cy-34*s, cx+18*s, cy-6*s,
+                     cx, cy+40*s, cx-18*s, cy-6*s))
+        o.append(P(root_d, f=DENTINE, w=3))
+        o.append(P(crown_d, f=ENAMEL, w=3))
+        o.append(P(dent_d, f=DENTINE, w=3))
+        o.append(P(pulp_d, f='#C96F7B', w=3))
+        if name == 'enamel':
+            o.append(P(crown_d, st=RING, w=7))
+        elif name == 'dentine':
+            o.append(P(dent_d, st=RING, w=7))
+        elif name == 'pulp':
+            o.append(P(pulp_d, st=RING, w=7))
+        elif name == 'cementum':
+            o.append(P(root_d, st=RING, w=7))
+        elif name == 'crown':
+            o.append(P('M %.1f %.1f L %.1f %.1f'
+                       % (cx-62*s, cy-2*s, cx+62*s, cy-2*s), st=RING, w=5))
+            o.append(P(crown_d, st=RING, w=7))
+        else:  # root
+            o.append(P('M %.1f %.1f L %.1f %.1f'
+                       % (cx-62*s, cy-2*s, cx+62*s, cy-2*s), st=RING, w=5))
+            o.append(P(root_d, st=RING, w=7))
+    elif name == 'pill':
+        # A capsule and a scored tablet: medicine, a painkiller.
+        o.append(R(-58, -36, 72, 34, '#FFFFFF', r=17))
+        o.append(P('M %.1f %.1f L %.1f %.1f A %.1f %.1f 0 0 1 %.1f %.1f Z'
+                   % (cx-22*s, cy-36*s, cx-22*s, cy-2*s, 17*s, 17*s,
+                      cx-22*s, cy-36*s), f=GUM, w=0))
+        o.append(R(-58, -36, 72, 34, 'none', r=17))
+        o.append(C_(26, 24, 30, '#FFFFFF'))
+        o.append(L(6, 24, 46, 24))
+    elif name == 'flash':
+        # Pain, as a bolt: it hurts, sharp, an ache.
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f '
+                   'L %.1f %.1f L %.1f %.1f Z'
+                   % (cx+10*s, cy-62*s, cx-34*s, cy+6*s, cx-4*s, cy+6*s,
+                      cx-18*s, cy+62*s, cx+34*s, cy-14*s, cx+2*s, cy-14*s),
+                   f='#E8B931', w=4))
     elif name in ('incisor', 'canine', 'premolar', 'molar'):
         # The four tooth types, drawn with the same crown profiles the
         # dentition map uses. Until these existed, an incisor, a canine, a
@@ -679,9 +736,10 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''bone book bowl brush calendar canine card chair clock cross
-door ear form gloves gum incisor light lips mask mirror molar mouth pen person
-phone premolar probe speech tick tooth tray water xray'''.split())
+ICON_NAMES = set('''bone book bowl brush calendar canine card cementum chair
+clock crown cross dentine door ear enamel flash form gloves gum incisor light
+lips mask mirror molar mouth pen person phone pill premolar probe pulp root
+speech tick tooth tray water xray'''.split())
 
 
 def as_icon(name):
@@ -698,7 +756,14 @@ ICON_FOR = {
  'surgery': 'door', 'waiting': 'clock', 'waiting room': 'clock', 'chair': 'chair',
  'headrest': 'chair', 'nurse': 'person', 'dental nurse': 'person',
  'appointment': 'calendar', 'sit back': 'chair', 'comfortable': 'tick',
- 'open wide': 'mouth', 'rinse': 'water', 'spit': 'bowl', 'upper teeth': 'tooth',
+ 'open wide': 'mouth',
+ 'enamel': 'enamel', 'dentine': 'dentine', 'pulp': 'pulp',
+ 'cementum': 'cementum', 'crown': 'crown', 'root': 'root',
+ 'cusp': 'premolar', 'surface': 'tooth',
+ 'medicine': 'pill', 'painkiller': 'pill', 'tablet': 'pill',
+ 'allergy': 'cross', 'allergic': 'cross',
+ 'pain': 'flash', 'hurt': 'flash', 'hurts': 'flash', 'ache': 'flash',
+ 'toothache': 'flash', 'sore': 'gum', 'swollen': 'gum', 'rinse': 'water', 'spit': 'bowl', 'upper teeth': 'tooth',
  'lower teeth': 'tooth', 'gum': 'gum', 'filling': 'tooth', 'mirror': 'mirror',
  'probe': 'probe', 'record': 'card', 'record card': 'card', 'date of birth': 'calendar',
  'reception': 'door', 'bib': 'mask', 'bowl': 'bowl', 'bracket table': 'tray',

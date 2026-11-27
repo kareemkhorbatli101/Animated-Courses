@@ -382,7 +382,15 @@ photocopiable=dict(
         '4  Function.    It …, and so …   It …, which means that …',
         'Beneath is vertical. Surrounds is in every direction. Covers names a surface.',
         'Never begin with a detail. Never define a word with itself.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('FOUR STEPS, AND THEIR VERBS',
+    ['Class.  X is a hard / soft tissue of the tooth.',
+     'Position.  It lies beneath \u2026  It surrounds \u2026  It covers \u2026',
+     'Material.  It is made of \u2026  It contains \u2026  It holds \u2026',
+     'Function.  It \u2026, and so \u2026'],
+    stop_points=[2],
+    note='Beneath is vertical. Surrounds is in every direction.'),
+ fig_cap='The four steps with their verbs, and the step whose verb learners mix '
+         'up.'),
 
 defects=[
  'Writing the sample answer for 6.2 showed that the unit asked learners to explain with '

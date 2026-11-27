@@ -384,7 +384,17 @@ photocopiable=dict(
         '4  Are you taking any medicine?   Do you have an allergy to any medicine?',
         'Then: say the whole history back, and only then look.',
         'If a line is empty at the end, it is not finished. It is the next question.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').form_annotated('THE FOUR QUESTIONS, FOR THE POCKET',
+    'BEFORE YOU LOOK',
+    [('1', 'What is the trouble today?  Their words, not yours.'),
+     ('2', 'When did it start?  A day, not \u201ca while ago\u201d.'),
+     ('3', 'What makes it worse?  Cold, hot, biting, lying down.'),
+     ('4', 'Any medicine?  Any allergy to any medicine?'),
+     ('Then', 'say the whole history back, and only then look.')],
+    callouts=[(4, 'the line a safe appointment stands on')],
+    note='An empty line at the end is not finished. It is the next question.'),
+ fig_cap='The four questions as a pocket card: photocopy this page and fold it '
+         'once.'),
 
 defects=[
  'Writing the sample answer for 6.3 showed that the unit’s own model stopped before the '
