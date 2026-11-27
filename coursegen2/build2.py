@@ -593,9 +593,18 @@ def unit(ctx, out, key, U, B, cast=None):
             # The case's own icons, which the author chose for this case, beat
             # the generic fallback: without them a row of abstract words gets
             # the same speech bubble five times over.
+            # Prefer the icon the word itself earns. Fall back to the case's
+            # own icons only for a word that would otherwise take the generic
+            # speech bubble: an arbitrary picture beside a word claims a
+            # relation that is not there, which is worse than a plain one.
             ic = [x for x in C.get('icons', []) if x in F2.ICON_NAMES]
-            cards = [(w, ic[j % len(ic)] if ic else F2.pick_icon(w))
-                     for j, w in enumerate(C['words'])]
+            cards, k = [], 0
+            for w in C['words']:
+                got = F2.pick_icon(w)
+                if got == 'speech' and ic:
+                    got = ic[k % len(ic)]
+                    k += 1
+                cards.append((w, got))
             fig(ctx, out, 'case%db' % i, F2.icon_cards(
                 'THE WORDS THIS CASE TURNS ON', cards,
                 cols=min(5, len(cards)),
