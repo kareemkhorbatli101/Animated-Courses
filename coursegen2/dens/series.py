@@ -100,6 +100,20 @@ COVER_PEOPLE = ['Leila Mansour', 'Daniel Owusu', 'Dr Petra Nilsen', 'Dr Yusuf Ra
 
 # Words this series is allowed to use above the band because they are its subject.
 DOMAIN = """injection injections drill drills drilled
+carious progression progressions radiography radiographically
+superimposition superimpositions abnormality abnormalities
+x-ray x-rays
+demineralisation demineralise demineralises demineralised
+remineralisation remineralise remineralises remineralised
+fissure fissures groove grooves bacteria bacterium
+intact opaque chalky dissolve dissolves dissolved
+radiolucency radiolucencies radiolucent radiopaque
+apex apices artefact artefacts
+superimpose superimposes superimposed
+beam beams angle angles angled distortion distorted
+dose doses radiation absorb absorbs absorbed
+lymph node nodes asymmetry symmetrical
+extraoral intraoral arch arches interval intervals
 antibiotic antibiotics surgical specialist specialists
 relief relieve relieves relieved
 acid acids pressure numb numbness ligament ligaments

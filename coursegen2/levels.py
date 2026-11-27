@@ -160,6 +160,10 @@ wound wrap write wrong yard year yellow yes yesterday yet young
 """.split())
 
 B1 = A2 | set("""
+absent faulty hidden heavily
+mend mends mended mending sip sips sipped sipping
+ache aches ached aching urgent urgently urgency
+soften softens softened biscuit biscuits
 chain chains force forces shallow shallower shallowest nail nails blind
 strength strengths undo undoes undone persuade persuades persuaded
 harden hardens hardened worsen worsens worsened alternate alternates
@@ -296,6 +300,11 @@ validate variable verify viable vigorous warrant whereby widespread
 # any level. This set is allowed in the student series only, and it is small
 # and closed on purpose.
 ACADEMIC = set("""
+justification justifications confine confines confined
+predict predicts predicted prediction predictions
+extensive extensively extent extents
+prioritise prioritises prioritised priority priorities
+provisional provisionally exclusion exclusions
 absence absences amend amends amended amendment separation separations
 convention conventions select selects selected selection selections
 abbreviate abbreviates abbreviated abbreviation abbreviations
