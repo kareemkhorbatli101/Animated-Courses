@@ -37,7 +37,8 @@ class Ctx:
         self.figno = 0
         self.unit = 0
         self.figures = []          # (id, caption, alt, xref)
-        self.exercise_figs = {}    # label -> count
+        self.exercise_figs = {}    # 'uNN 4.3' -> count, per unit
+        self.unit_terms = []       # this unit's core words, for the picture visual
         self.fit = fit or {}       # recap key -> extra height in SVG units
         self.recaps = {}           # FIG id -> recap key
         self.breaks = 0
@@ -55,7 +56,12 @@ def fig(ctx, out, tag, built, cap, alt=None, xref=None):
     if DRY:
         ctx.figures.append((fid, cap, alt or cap, xref or ''))
         if xref:
-            ctx.exercise_figs[xref] = ctx.exercise_figs.get(xref, 0) + 1
+            # Keyed by unit as well as label. Exercise labels restart at every
+            # unit, so a bare '4.3' summed unit 1's visuals with unit 10's and
+            # a thin exercise could hide behind a well-illustrated one. The
+            # same fault as the figure filenames two lines below.
+            k = 'u%02d %s' % (ctx.unit, xref)
+            ctx.exercise_figs[k] = ctx.exercise_figs.get(k, 0) + 1
         return fid
     inner, h, defs = built
     # The unit number is part of the name: tags repeat and ctx.figno restarts
@@ -67,7 +73,8 @@ def fig(ctx, out, tag, built, cap, alt=None, xref=None):
     out.append(R.caption('%s  %s' % (fid, cap)))
     ctx.figures.append((fid, cap, alt or cap, xref or ''))
     if xref:
-        ctx.exercise_figs[xref] = ctx.exercise_figs.get(xref, 0) + 1
+        k = 'u%02d %s' % (ctx.unit, xref)
+        ctx.exercise_figs[k] = ctx.exercise_figs.get(k, 0) + 1
     return fid
 
 
@@ -100,7 +107,8 @@ def endpart(ctx, out, key, title, lines, icons=None, question=None, xref=None,
                                               'in one picture.')))
         ctx.figures.append((fid, cap or 'recap', 'recap', xref or ''))
         if xref:
-            ctx.exercise_figs[xref] = ctx.exercise_figs.get(xref, 0) + 1
+            k = 'u%02d %s' % (ctx.unit, xref)
+            ctx.exercise_figs[k] = ctx.exercise_figs.get(k, 0) + 1
     else:
         fid = fig(ctx, out, 'recap',
                   F2.part_recap(title, [l for l in lines if l], icons, question,
@@ -171,10 +179,22 @@ def task_visuals(ctx, out, task, label, title_bank, title_pics, note=None):
                                                 rows, note=note),
                 'The answers for %s, in no particular order.' % label, xref=label)
     terms = _terms_of(task)
+    cap = 'The same answers as pictures.'
+    if not terms:
+        # A task whose answers are whole sentences has nothing short enough to
+        # draw, so it was getting the bank and no picture - half of the pair
+        # this function exists to provide. The unit's own core words are what
+        # such a task is about, and four of them are a better picture visual
+        # than none. Thirty-one exercises across the two pilot books were in
+        # this state, hidden because the gate keyed its counts by label alone.
+        start = (sum(ord(c) for c in label) % max(1, len(ctx.unit_terms)))
+        pool = ctx.unit_terms[start:] + ctx.unit_terms[:start]
+        terms = pool[:4]
+        cap = 'The words this exercise is built on.'
     if terms:
         fig(ctx, out, 'pics', F2.icon_cards(title_pics, [(t,) for t in terms], cols=4,
                                             note='Point at the picture. Say the word.'),
-            'The same answers as pictures.', xref=label)
+            cap, xref=label)
 
 
 def task(out, n, rubric, example=None, how=None):
@@ -332,6 +352,7 @@ def _answers_line(*tasks):
 def unit(ctx, out, key, U, B, cast=None):
     ctx.unit = U['num']
     ctx.figno = 0
+    ctx.unit_terms = [it['term'] for it in U.get('set', [])]
     n = U['num']
     cast = cast or {}
     key.append(('UNIT %d' % n, U['title']))
@@ -382,8 +403,12 @@ def unit(ctx, out, key, U, B, cast=None):
             U.get('receptive_fig_cap', 'The words you need to understand, not produce.'),
             xref='2.2')
     if U.get('morph'):
+        # Cross-referenced to the preview task, which is the task it helps a
+        # learner do. It used to carry xref='2.3', a task number that does not
+        # exist in any unit, so the exercise-visual gate counted a phantom
+        # exercise with one visual and no way ever to have two.
         fig(ctx, out, 'morph', F2.morph_builder(U['morph_fig_title'], U['morph'],
-            note=U.get('morph_note')), U['morph_fig_cap'], xref='2.3')
+            note=U.get('morph_note')), U['morph_fig_cap'], xref='2.1')
     run_task(ctx, out, key, U['preview_task'], '2.1',
              'THE ANSWERS, IN NO ORDER', 'THE ANSWERS, AS PICTURES')
     out.append(R.body('Check your answers against %s before you go on.' % fid_set, after=140))

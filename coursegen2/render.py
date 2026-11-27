@@ -67,6 +67,13 @@ def jc(v):
 
 
 def run(text, props='', size=22):
+    # A run is text. Anything else reaching here is a data-shape error that
+    # str() would hide: a tuple of (heading, lines) printed as a Python repr
+    # survived sixty cases across two books because esc() stringified it
+    # instead of complaining. Numbers are allowed; containers are not.
+    if isinstance(text, (list, tuple, dict, set)):
+        raise TypeError('render.run() was given a %s, not text: %r'
+                        % (type(text).__name__, text))
     rpr = '<w:rPr>' + FONT + (props if props else NB) + sz(size) + '</w:rPr>'
     return '<w:r>%s<w:t xml:space="preserve">%s</w:t></w:r>' % (rpr, esc(text))
 
@@ -204,12 +211,37 @@ def stage(n, title):
 
 
 def langbank(title, lines):
+    """A language bank, flat or in named groups.
+
+    The first edition passes a flat list of strings. A second-edition case
+    passes [(heading, [line, ...]), ...], because the language a case needs
+    falls into two or three jobs and a learner has to see which line does
+    which. Until this was noticed on a printed page, a group arrived here as
+    a tuple and was stringified: every SAY IT LIKE THIS box in both pilot
+    books printed a Python repr, brackets and all.
+    """
     out = [para(shd('F2F7F2') + sp(after=0, before=140) + ind(140, 140),
                 [run(title, B + C('2E7D32'), 22)])]
-    for i, L in enumerate(lines):
-        last = (i == len(lines) - 1)
-        out.append(para(shd('F2F7F2') + sp(after=(140 if last else 20), before=0) + ind(260, 140),
-                        [run('\u2022  ', C('2E7D32')), run(L, I)]))
+    rows = []
+    for L in lines:
+        if (isinstance(L, (tuple, list)) and len(L) == 2
+                and isinstance(L[1], (tuple, list))):
+            rows.append(('head', str(L[0])))
+            rows += [('line', str(x)) for x in L[1]]
+        else:
+            rows.append(('line', str(L)))
+    for i, (kind, text) in enumerate(rows):
+        last = (i == len(rows) - 1)
+        if kind == 'head':
+            out.append(para(shd('F2F7F2')
+                            + sp(after=20, before=(0 if i == 0 else 90))
+                            + ind(200, 140),
+                            [run(text, B + C('2E7D32'), 20)]))
+        else:
+            out.append(para(shd('F2F7F2')
+                            + sp(after=(140 if last else 20), before=0)
+                            + ind(260, 140),
+                            [run('\u2022  ', C('2E7D32')), run(text, I)]))
     return ''.join(out)
 
 
