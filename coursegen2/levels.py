@@ -59,7 +59,7 @@ your
 
 A2 = A1 | set("""
 complain complains complained complaint complaints signal signals
-nod nods nodded nodding
+nod nods nodded nodding slowly breath breaths scratch scratches lying
 explanation explanations explaining explains explained
 able above accept accident across activity actually add address adult advice afraid afternoon
 even examination identify medical history guidance belong born calm
@@ -174,7 +174,7 @@ series adjacent furthest remainder remainders
 alive depth upset loose skip skips skipped overlap overlaps vertical
 easily easier continuous continuously centimetre centimetres metre metres
 complain complains complained complaint complaints signal signals
-nod nods nodded nodding
+nod nods nodded nodding slowly breath breaths scratch scratches lying
 abroad action actions aloud classmate classmates simply shorten shortens
 accuse accuses accusing exam exams
 shortened lengthen lengthened

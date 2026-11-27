@@ -17,8 +17,8 @@ can_do=['name the four tissues that hold a tooth in the jaw',
         'record six measurements round one tooth and say what they show'],
 recycles='Unit 1 (the gingiva and the mucosa), Unit 3 (cementum and the tissues), '
          'Unit 5 (the periodontal probe) and Unit 6 (the order of a finding)',
-prepares='the second book, where these measurements become a chart, a diagnosis and a '
-         'course of treatment with a patient attached to it',
+prepares='Unit 8, which takes the commonest disease of all and describes it with '
+         'the same tools: a chain of causes, an extent and a limit',
 
 warm=['What holds a tooth in the jaw? Name as many things as you can.',
       'What does a bleeding gum tell you, and what does it not tell you?',
@@ -1335,8 +1335,8 @@ p10_recap=['You can name the four tissues that hold a tooth and say which of the
            'not come back.',
            'You can chart six sites round a tooth, record the right one, read the '
            'pattern, and say what a single chart cannot establish.',
-           'That is the first student book. The second takes these measurements into a '
-           'treatment plan, a conversation about cost and a course of appointments.'],
+           'Unit 8 turns to caries, the commonest disease of the hard tissues, and '
+           'describes it with the same tools: a chain, an extent and a limit.'],
 p10_ask='Explain the chain to the person next to you, with the book closed, in ninety '
         'seconds.',
 )

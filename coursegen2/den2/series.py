@@ -98,7 +98,8 @@ CAST_LOOK = {
 COVER_PEOPLE = ['Nadia Haddad', 'Mei-Ling Chen', 'Amara Okonkwo', 'Hugo Lindqvist']
 
 # Words this series is allowed to use above the band because they are its subject.
-DOMAIN = """pressure numb numbness ligament ligaments
+DOMAIN = """injection injections drill drills drilled
+acid acids pressure numb numbness ligament ligaments
 cavitation cavitated cavitations
 distobuccal distolingual mesiobuccal mesiolingual site sites
 diagnosis diagnoses

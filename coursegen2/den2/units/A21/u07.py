@@ -16,8 +16,8 @@ can_do=['say what a patient may feel afterwards, with a number attached',
         'take a telephone call about something that happened at home'],
 recycles='Unit 4 (the plan and the length), Unit 5 (the signal) and Unit 6 (the feelings '
          'named during the work)',
-prepares='the second book, where the same two minutes become a written instruction '
-         'sheet, a recall and a fee',
+prepares='Unit 8, where the patient in the chair is frightened and everything in '
+         'Units 1 to 7 has to be said more slowly and in a different order',
 
 warm=['What do you tell a patient as they get out of the chair?',
       'Who in your practice says it: you, the nurse, or reception?',
@@ -1232,7 +1232,7 @@ p10_recap=['You can send a patient home in two minutes with four sentences they 
            'measure, and a card that repeats all of them.',
            'You can take an evening call, ask three questions, give one instruction with '
            'a number in it, and write six lines about it.',
-           'That is the first book. The second one takes the same appointment and adds '
-           'the appointment book, what it costs and the written record behind it.'],
+           'Unit 8 takes the same appointment and gives it to a patient who is '
+           'frightened, which changes the order of everything you have learnt.'],
 p10_ask='Send the person next to you home, with the book closed, in ninety seconds.',
 )
