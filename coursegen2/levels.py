@@ -160,7 +160,8 @@ wound wrap write wrong yard year yellow yes yesterday yet young
 """.split())
 
 B1 = A2 | set("""
-absent faulty hidden heavily
+connection connections quote quotes quoted quoting
+absent faulty hidden heavily advise advises advised advising
 mend mends mended mending sip sips sipped sipping
 ache aches ached aching urgent urgently urgency
 soften softens softened biscuit biscuits
@@ -300,6 +301,7 @@ validate variable verify viable vigorous warrant whereby widespread
 # any level. This set is allowed in the student series only, and it is small
 # and closed on purpose.
 ACADEMIC = set("""
+pending
 justification justifications confine confines confined
 predict predicts predicted prediction predictions
 extensive extensively extent extents
@@ -394,6 +396,7 @@ IRREGULAR = {
 # grammatical furniture of exercise rubrics.
 EXTRA = set("""
 ing
+tense tenses
 a.m p.m ok okay mr mrs ms dr st etc vs per cent percent o'clock
 yours sincerely faithfully dear re cc
 one's someone's anyone's everybody's

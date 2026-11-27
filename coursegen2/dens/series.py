@@ -23,20 +23,20 @@ BOOKS = {
  'A22': dict(code='A22', level='A2', bandge='A2.2', book='BOOK 1', emblem='tooth',
    cover_lines=['English for', 'Dental Students'], sub='The Mouth and the Clinic',
    blurb=['Book 1 is the first term. Leila Mansour learns the mouth in English:',
-          'its parts, its surfaces, the dentition and how it is numbered, the',
-          'instruments on a tray, the rules of a clinic, and how to follow a',
-          'lecture, read a textbook page and write a definition that would',
-          'survive an examiner.'],
+          'its parts, its surfaces, the dentition and how it is numbered and',
+          'the instruments on a tray. Then she learns to write a finding in',
+          'one sentence, to read what the probe and the film report, and to',
+          'carry out a whole examination and write it down.'],
    units=['The Mouth, Part by Part',
           'The Dentition, and How We Number It',
-          'The Tooth in Section',
+          'The Tooth in Section: From Enamel to Pulp',
           'Surfaces, and How We Name Them',
           'The Instruments on the Tray',
-          'The Clinic, and Its Rules',
-          'Hard Tissue and Soft Tissue',
-          'How a Tooth Comes Through',
-          'Reading a Textbook Page',
-          'Writing a Definition That Survives an Examiner']),
+          'The Finding, in One Sentence',
+          'The Periodontium, and What the Probe Measures',
+          'Caries: What Takes the Mineral Out, and What Puts It Back',
+          'The Radiograph, and What It Is Evidence Of',
+          'The Whole Examination, from Greeting to Plan']),
  'B11': dict(code='B11', level='B1', bandge='B1.1', book='BOOK 2', emblem='flask',
    cover_lines=['English for', 'Dental Students'], sub='Structure and Material',
    blurb=['Book 2 is oral histology, anatomy and dental materials.'],
@@ -100,6 +100,8 @@ COVER_PEOPLE = ['Leila Mansour', 'Daniel Owusu', 'Dr Petra Nilsen', 'Dr Yusuf Ra
 
 # Words this series is allowed to use above the band because they are its subject.
 DOMAIN = """injection injections drill drills drilled
+chip chips chipped facial
+joint joints click clicks clicking clicked gland glands
 carious progression progressions radiography radiographically
 superimposition superimpositions abnormality abnormalities
 x-ray x-rays
