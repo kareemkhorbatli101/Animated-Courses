@@ -31,7 +31,7 @@ tolerance, a weighting, a rate, a definition of what the price includes.
 So this book is strict about four things, and each of them is a structure you will practice.
 
 1. **Every number carries its accuracy.** *Fourteen million* is not an estimate. *Fourteen million,
-   plus thirty per cent and minus fifteen, at a class 4 level of definition* is.
+   plus thirty percent and minus fifteen, at a class 4 level of definition* is.
 2. **Every obligation carries its period.** *We will notify you* is a sentiment. *Within twenty-eight
    days of the date on which the contractor became aware* is a clause.
 3. **Every price carries its boundary.** The question is never only *how much* but *how much for

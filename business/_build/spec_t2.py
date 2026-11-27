@@ -262,7 +262,7 @@ S["t06-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; hub site note",
       "data sources</b> from <b>more than 30 organizations</b>, covering <b>over 200 economies since "
       "1996</b>. Every estimate is published <b>with a standard error</b>.</p>"
     + "<p style='background:#efe3ef;border-left:4px solid #6d3b6e;padding:10px 12px;font-size:13.5px;"
-      "font-style:italic'>A 90 per cent confidence interval for the governance estimate is given by the "
+      "font-style:italic'>A 90 percent confidence interval for the governance estimate is given by the "
       "estimate plus or minus 1.64 times the standard error. These margins of error should be "
       "considered when comparing governance across countries and over time.</p>"
     + "<p style='font-size:13.5px'><b>On these data, A and B cannot be distinguished on government "

@@ -130,7 +130,7 @@ S["qc11-f12"]=lambda: f_panels(
         "whether the words are rare, whether there is an argument, or whether I know the topic &mdash; "
         "and it was validated on general prose of the 1940s rather than on academic text or "
         "second-language readers. The books in this series are scored with such a formula before they "
-        "are built, which is a floor and not a judgement, and this unit is the note that says so.</p>"
+        "are built, which is a floor and not a judgment, and this unit is the note that says so.</p>"
         ), w)[0:3],
     w=940, h=360)
 S["qc11-f13"]=lambda: f_realia(form("Note planner",
@@ -283,7 +283,7 @@ S["qc12-f12"]=lambda: f_panels(
         "the hedge before answering a <i>yes-no</i> statement; read the whole previous sentence when a "
         "question turns on <i>this</i>. My measured rate on academic prose is 140 words a minute, so "
         "one reading of three passages is about twenty minutes of the hour and I cannot read anything "
-        "twice. My accuracy on attempted questions has fallen from 90 to 84 per cent and my score has "
+        "twice. My accuracy on attempted questions has fallen from 90 to 84 percent and my score has "
         "risen from 26 to 33, because I now answer all forty. This plan is built on six practice "
         "papers and one measured rate, and both of those could be wrong.</p>"), w)[0:3],
     w=940, h=400)

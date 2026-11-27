@@ -24,7 +24,7 @@ S["x01-f2"]=lambda: f_scene(900,410, behind=[("grace",700,174,{}),("nkemelu",790
     ("tomas",596,180,{})],
     counter_=(640,232,250,108),
     on_counter=[("computer",690,0.5),("form",790,0.46)],
-    board=(60,40,220,130,"NOTICES",[("Enrolment","week 1"),("Tutorials","FULL"),("Fees","see us")]),
+    board=(60,40,220,130,"NOTICES",[("Enrollment","week 1"),("Tutorials","FULL"),("Fees","see us")]),
     props=[("phone",286,150,0.42),("timetable",120,196,0.6)])
 S["x01-f3"]=lambda: f_icons([("teacher","personal tutor"),("meeting","module leader"),
     ("studentservices","student services"),("library","library desk"),
@@ -58,13 +58,13 @@ S["x01-f6"]=lambda: f_realia(tbl("Word study","Prefixes that reverse or repeat",
      ["mis-","wrongly","understand","misunderstand"],["dis-","the opposite of","agree","disagree"],
      ["over-","too much","run","overrun"]]), 480)
 S["x01-f7"]=lambda: f_chart([("highest country",58),("upper range",46),("average",40),
-    ("aged 55 to 65",26),("lowest country",13)], unit="per cent of adults", w=500)
+    ("aged 55 to 65",26),("lowest country",13)], unit="percent of adults", w=500)
 S["x01-f8"]=lambda: f_icons([("pen","writing quickly"),("book","reading carefully"),
     ("jobnotice","a badly printed notice"),("lamp","a bright study room"),
     ("lecture","a nearly empty hall"),("meeting","speaking confidently")], cols=3)
 S["x01-f9"]=lambda: f_realia(tbl("Northside College","Student services",
     ["Service","Hours","Booking"],
-    [["Enrolment and records","Mon–Fri 09:00–16:00","walk-in"],
+    [["Enrollment and records","Mon–Fri 09:00–16:00","walk-in"],
      ["Finance","Mon, Wed, Fri 10:00–15:00","appointment only"],
      ["Disability support","Tue, Thu 10:00–15:00","appointment only"],
      ["Careers","Mon–Fri 09:00–16:00","walk-in"],

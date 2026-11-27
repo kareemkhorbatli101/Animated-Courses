@@ -232,7 +232,7 @@ S["k11-f11"]=lambda: f_panels(
     w=920, h=300)
 S["k11-f12"]=lambda: f_realia(doc("Two briefs", None,
     "<p style='border:1px solid #d9d4c9;padding:9px'><b>Brief 1</b><br>"
-    "The compliance rate is 65 per cent; forty States Parties failed to report.</p>"
+    "The compliance rate is 65 percent; forty States Parties failed to report.</p>"
     "<p style='border:1px solid #d9d4c9;padding:9px'><b>Brief 2</b><br>"
     "<b>1</b> The obligation, including what a report may exclude.<br>"
     "<b>2</b> The record, and its date.<br><b>3</b> Three figures, and no total.<br>"

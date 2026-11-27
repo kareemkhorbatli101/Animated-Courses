@@ -312,7 +312,7 @@ S["q12-f12"]=lambda: f_realia(doc("Two year summaries", None,
     "<p style='font-size:12px;color:#6b6861'>Eleven bullets of this. No figures, no dates, nothing "
     "that failed, nobody's name.</p>"
     "<p style='margin-top:14px'><b>B.</b> <b>The one thing.</b> I have halved the deviation rate, "
-    "from 1.6 to 0.8 per cent. The change went in in February and the rate has held below 1.0 in "
+    "from 1.6 to 0.8 percent. The change went in in February and the rate has held below 1.0 in "
     "every month since. <b>Not met:</b> “train two calibration backups” &mdash; two "
     "trained, neither has done a release alone, so in practice I have no backup; I recorded this "
     "as achieved in my draft and that was wrong. <b>What went wrong:</b> three sentences about "

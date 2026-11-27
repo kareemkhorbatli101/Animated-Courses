@@ -23,7 +23,7 @@ S["u09-f5"]=lambda: f_realia(doc("Portmere Workwear &middot; Quay Road","Returns
     "<p>The item must be <b>unworn</b>, with the label still on it.</p>"
     "<p><b>Sale items:</b> exchange only. We do not give money back on sale items.</p>",
     "<b>exchange</b> &mdash; change it for a different one &middot; <b>unworn</b> &mdash; you have not worn it"))
-S["u09-f6"]=lambda: f_realia(tbl("Portmere Workwear","Size chart &middot; centimetres",
+S["u09-f6"]=lambda: f_realia(tbl("Portmere Workwear","Size chart &middot; centimeters",
     ["Size","Chest","Waist","Sleeve"],[["S","92","78","62"],["M","100","86","64"],
     ["L","108","94","66"],["XL","112","102","68"]], numcols=(1,2,3),
     note="Measure over the shirt you will wear underneath."), 440)

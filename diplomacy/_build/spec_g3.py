@@ -104,7 +104,7 @@ S["g07-f16"]=lambda: f_scene(900,410,
      ("phone",250,186,0.28),("table",700,0,1.1)], clockat=(500,44,22,10,0))
 
 # ---------------- Unit 8 · Numbers at Work ----------------
-S["g08-f1"]=lambda: f_icons([("tally","per cent"),("magnifier","the decimal point"),
+S["g08-f1"]=lambda: f_icons([("tally","percent"),("magnifier","the decimal point"),
     ("spreadsheet","one row highlighted"),("calculator","a calculator"),
     ("data","a pie chart"),("review","a bar chart"),("balance","a scale"),
     ("invoice","a contribution letter"),("statement","the budget page"),
@@ -113,7 +113,7 @@ S["g08-f2"]=lambda: f_scene(900,420, people=[("omar",300,176,{}),
      ("bah",480,172,{"seated":True})],
     props=[("table",440,0,1.2),("essay",520,192,0.42),("spreadsheet",700,80,0.72),
      ("jug",600,196,0.32),("chair",380,0,0.7)], clockat=(130,46,22,11,0))
-S["g08-f3"]=lambda: f_icons([("tally","22% — twenty-two per cent"),
+S["g08-f3"]=lambda: f_icons([("tally","22% — twenty-two percent"),
     ("tally","0.1% — nought point one"),
     ("tally","0.001% — nought point nought nought one"),
     ("data","1,000,000 — one million"),
@@ -176,10 +176,10 @@ S["g08-f12"]=lambda: f_realia(doc("Two figure notes", None,
     "0.412 &nbsp; 0.088 &nbsp; 0.011 &nbsp; 22</p>"
     "<p style='border:1px solid #d9d4c9;padding:9px'><b>Note 2</b><br>"
     "<b>All figures below are regular budget rates.</b><br>"
-    "Astrand <b>0.412%</b> &mdash; nought point four one two per cent<br>"
-    "Perenne <b>0.088%</b> &mdash; nought point nought eight eight per cent<br>"
-    "Floor <b>0.001%</b> &mdash; nought point nought nought one per cent<br>"
-    "Ceiling <b>22%</b> &mdash; twenty-two per cent<br>"
+    "Astrand <b>0.412%</b> &mdash; nought point four one two percent<br>"
+    "Perenne <b>0.088%</b> &mdash; nought point nought eight eight percent<br>"
+    "Floor <b>0.001%</b> &mdash; nought point nought nought one percent<br>"
+    "Ceiling <b>22%</b> &mdash; twenty-two percent<br>"
     "<b>Resolution 79/249, 31 December 2024.</b></p>",
     "One of these can be read aloud down a telephone line without being misheard."))
 S["g08-f13"]=lambda: f_realia(tbl("","All figures below are from: ______________________",

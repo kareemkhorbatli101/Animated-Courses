@@ -45,7 +45,7 @@ S["r01-f2"]=lambda: f_scene(920,430, people=[("chiamaka",290,172,{}),
 S["r01-f3"]=lambda: f_icons([("worried","a benefit with no source"),("tally","a missing cost line"),
     ("pricetag","one fragile price"),("transfer","claimed somewhere else"),
     ("review","counted twice"),("note","only one scenario")], cols=3)
-S["r01-f4"]=lambda: f_realia(tbl("","If the assumption is ten per cent out",
+S["r01-f4"]=lambda: f_realia(tbl("","If the assumption is ten percent out",
     ["The assumption","The answer if it is right","The answer if it is 10% out"],
     [["","",""],["","",""],["","",""],["","",""]],
     note="<b>The one I am least sure about:</b>"), 520)
@@ -286,7 +286,7 @@ S["r03-f6"]=lambda: f_realia(tbl("Word study","Quantity expressions",
      ["<b>a ratio: X to Y</b>","direct to total is 1.38 <b>to</b> 1.61","precise, hard to hear"],
      ["<b>as a share of</b>","electricity is 8% <b>of the overhead</b>","say <i>of what</i>, always"],
      ["<b>per thousand</b>","2.4 damages <b>per thousand</b> pallets","for small rates"]],
-    note="“Electricity is eight per cent” is meaningless. Of the overhead, of total cost "
+    note="“Electricity is eight percent” is meaningless. Of the overhead, of total cost "
     "and of the price are three different claims."), 540)
 S["r03-f7"]=lambda: f_chart([("direct only",1.38),("+ overhead at planned volume",1.61),
     ("+ overhead at last year's volume",1.74)],
@@ -300,7 +300,7 @@ S["r03-f9"]=lambda: f_realia(doc("Lindmark Freight &middot; quotation",
     table_html(["Line","Description","Qty","Unit","Total"],
       [["1","Outbound pallet handling and carriage","214,000","1.49","318,860"],
        ["2","Part-load surcharge","est. 9,000","0.34","3,060"],
-       ["3","Weekend despatch, on request","as required","41.00","&mdash;"]])
+       ["3","Weekend dispatch, on request","as required","41.00","&mdash;"]])
     + "<p style='background:#fff3cf'><b>This price assumes a contracted volume of 260,000 pallets "
     "a year.</b> Below 240,000 the unit price reverts to 1.61, reviewed quarterly. This condition "
     "is in the body of this quotation and not in the terms on the reverse, deliberately.</p>",
@@ -318,7 +318,7 @@ S["r03-f11"]=lambda: f_realia(tbl("Two costing sheets","The same operation",
       "<b>Volume assumed: 214,000 a year</b><br>Direct <b>1.38</b> &mdash; one extra pallet<br>"
       "+ overhead <b>1.61</b> &mdash; <b>any quotation</b><br>"
       "+ overhead at last year's volume <b>1.74</b> &mdash; a warning<br><br>"
-      "<i>Each total labelled with its question.</i>"]]), 540)
+      "<i>Each total labeled with its question.</i>"]]), 540)
 S["r03-f12"]=lambda: f_realia(doc("Two costing notes", None,
     "<p><b>A.</b> Our cost per outbound pallet is 1.61.</p>"
     "<p style='font-size:12px;color:#6b6861'>One sentence, no volume, no breakdown. In November a "

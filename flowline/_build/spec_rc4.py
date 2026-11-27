@@ -225,7 +225,7 @@ S["rc11-f9"]=lambda: f_realia(tbl("Ship/shore safety checklist &mdash; berth 2",
      ["Hoses and arms","terminal","21:00, 00:00, 03:00","initialed by both"],
      ["Scuppers plugged","ship","21:00, 00:00, 03:00","initialed by both"],
      ["Cargo plan and max rate 1,400 m3/h","both","&mdash;","agreed 18:40"],
-     ["Topping off at 400 m3/h from 90 per cent","both","&mdash;","agreed 18:40"],
+     ["Topping off at 400 m3/h from 90 percent","both","&mdash;","agreed 18:40"],
      ["Communications, channel 12","both","&mdash;","confirmed 18:35"],
      ["<b>Emergency stop response time</b>","terminal","&mdash;","<b>dash: no measured figure</b>"]],
     note="Signed at 18:40 by both representatives, both copies held. Three re-checks were done. The "
@@ -248,7 +248,7 @@ S["rc11-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Record 1",None,
     "Communications good throughout.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Record 2",None,
     "<p>Signed <b>at 18:40 by S. Haddad for the terminal and Captain O. Lindgren for the ship</b>. "
-    "Maximum 1,400 cubic meters an hour, reduced to 400 for topping off from 90 per cent. Channel 12, "
+    "Maximum 1,400 cubic meters an hour, reduced to 400 for topping off from 90 percent. Channel 12, "
     "confirmed 18:35, mobile numbers as backup. Re-checks at 21:00, 00:00 and 03:00. <b>Item 9 "
     "recorded as a dash: we hold no measured figure and I declined to estimate one.</b> Suspended "
     "23:10 at the terminal's request; resumed 23:48 after both parties confirmed.</p>",

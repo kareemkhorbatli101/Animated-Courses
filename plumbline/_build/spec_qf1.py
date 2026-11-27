@@ -196,7 +196,7 @@ S["qf02-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the
     "<p>The paper builds a list of academic vocabulary from the academic section of a very large "
     "corpus of American English &mdash; around a hundred and twenty million words, from nine broad "
     "disciplines. The list is about three thousand items and the authors report that it accounts for "
-    "roughly fourteen per cent of the words in academic texts.</p>"
+    "roughly fourteen percent of the words in academic texts.</p>"
     + table_html(["The criterion","What it required"],
       [["<b>ratio</b>","much more frequent in academic than in non-academic text"],
        ["<b>range</b>","occurring across the disciplines rather than in one"],

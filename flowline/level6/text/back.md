@@ -17,13 +17,13 @@ a particular year of the price cycle.
 **Shares and conditions.** *up to a maximum of* · *whichever is the lower* · *after deduction of* ·
 *net of* · *in the event that production exceeds* · *on a sliding scale from X to Y*.
 
-**Denominators.** *the take is X per cent of profits* · *Y per cent of gross revenue* · *entitlement
-is Z per cent of volume* · *most of which is cost oil* · *all four figures are correct*.
+**Denominators.** *the take is X percent of profits* · *Y percent of gross revenue* · *entitlement
+is Z percent of volume* · *most of which is cost oil* · *all four figures are correct*.
 
 > One page of terms produces four correct percentages with four different denominators. A government
 > announces one, a company announces another, and a newspaper prints a third.
 
-**The mistake:** *government take is sixty-two per cent*. Of what, at what rate, at what cost level?
+**The mistake:** *government take is sixty-two percent*. Of what, at what rate, at what cost level?
 **A take figure with no denominator is not a figure.**
 
 ## Unit 2 · Reporting what an agreement provides; obligation and permission
@@ -81,7 +81,7 @@ three figures describe the same operation* · *the gap between the first and the
 > Three clauses beside every local content figure: the **definition**, the **basis**, and what it
 > **excludes**. They turn a slogan into a number.
 
-**The mistake:** *local content is sixty-eight per cent*. On which basis, under which definition,
+**The mistake:** *local content is sixty-eight percent*. On which basis, under which definition,
 including what?
 
 ## Unit 6 · Disclosure; explaining a difference
@@ -365,7 +365,7 @@ Every fiscal term, share, rate, ceiling, split, pass mark, threshold, percentage
 estimate, obligation and license condition in it was **written for this book**. They were constructed
 to be arithmetically consistent with each other so that the exercises work, and they are **not the
 terms of any real agreement anywhere**. The waterfall in Unit 1, the clause numbers in Unit 2, the
-three interests in Unit 3, the sixty-eight per cent in Unit 5, the reconciliation in Unit 6 and the
+three interests in Unit 3, the sixty-eight percent in Unit 5, the reconciliation in Unit 6 and the
 abandonment estimate in Unit 10 are all invented.
 
 **The real places and institutions are named as public record only.** Deir ez-Zor, Hasakah, Homs,

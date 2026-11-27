@@ -99,7 +99,7 @@ S["rb01-f8"]=lambda: f_icons([("barcode","a 310 millidarcy sandstone"),
     ("magnifier","a plug with isolated pores"),("note","which would you drill?")],3)
 S["rb01-f9"]=lambda: f_realia(tbl("Core analysis report &mdash; Tell Sahra 21",
     "1,864 to 1,879 meters &middot; received 11 March",
-    ["Depth, m","Porosity, per cent","Permeability, mD","Direction"],
+    ["Depth, m","Porosity, percent","Permeability, mD","Direction"],
     [["1,866","21","310","horizontal"],["1,868","19","260","horizontal"],
      ["1,870","18","240","horizontal"],["1,871","9","<b>2</b>","horizontal"],
      ["1,874","18","210","horizontal"],["1,877","17","180","horizontal"]], numcols=(0,1,2),
@@ -112,7 +112,7 @@ S["rb01-f10"]=lambda: f_scene(800,400,
     clockat=(60,40,22,10,0))
 S["rb01-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Summary A",None,
     "<p>Tell Sahra 21, 1,864 to 1,879 meters. Average permeability <b>200 millidarcies</b>. "
-    "Porosity 17 per cent.</p>",None),380)[0:3],
+    "Porosity 17 percent.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Summary B",None,
     "<p>Six plugs. Range 2 to 310 millidarcies. Median 240. Average of five, <b>excluding the "
     "2 millidarcy plug from the clay layer at 1,871 meters, 240</b>. Measured with gas, ambient "
@@ -120,7 +120,7 @@ S["rb01-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Summary A",None,
     800,300,"One average","A range, a median and an exclusion with its reason")
 S["rb01-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
     "<p>Core analysis back from the laboratory. Permeability averages 200 millidarcies. Porosity "
-    "about 18 per cent. Looks like a reasonable interval.</p>",None),380)[0:3],
+    "about 18 percent. Looks like a reasonable interval.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Six plugs from Tell Sahra 21, 1,864 to 1,879 meters, gas, ambient. 2, 180, 210, 240, 260 and "
     "310 millidarcies. The 2 is a clay layer we would not complete in and is excluded; average of "
@@ -252,7 +252,7 @@ S["rb02-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Pressure has fallen from 220 bar at start-up in 2015 to 178, measured in February. The fall "
     "was steep to year four and almost flat since, while production continued, which points to water "
-    "drive becoming dominant; water cut has risen from 8 to 34 per cent. No survey for years six and "
+    "drive becoming dominant; water cut has risen from 8 to 34 percent. No survey for years six and "
     "seven. The aquifer is therefore a range, three to nine times the oil volume.</p>",None),380)[0:3],
     800,300,"One figure and three adjectives","A history, its evidence and a range")
 S["rb02-f13"]=lambda: f_realia(form("Plan your reservoir note",

@@ -216,7 +216,7 @@ S["pd02-f6"]=lambda: f_realia(tbl("Word study","Rules and their exceptions",
     [["<i>must … unless</i>","states the rule and its one exception",
       "It <b>must</b> be escalated <b>unless</b> it is within tolerance."],
      ["<i>only if</i>","narrows the permission",
-      "He may approve it <b>only if</b> the variance is under 5 per cent."],
+      "He may approve it <b>only if</b> the variance is under 5 percent."],
      ["<i>provided that</i>","names the condition",
       "It may proceed <b>provided that</b> the case is current."],
      ["<i>where … applies</i>","limits the scope",
@@ -279,7 +279,7 @@ S["pd02-f14"]=lambda: f_scene(1000,450,
      ("shelf",930,96,0.5)],
     board=(40,22,215,112,"THE CERTIFICATE",[("people certified","14"),("tolerances written","0")]),
     clockat=(278,34,22,11,0))
-S["pd02-f15"]=lambda: f_chart([("yes, in days and per cent",4),("yes, vaguely",6),
+S["pd02-f15"]=lambda: f_chart([("yes, in days and percent",4),("yes, vaguely",6),
     ("no",12),("I do not know what one is",7),("we report everything",3)])
 S["pd02-f16"]=lambda: f_realia(doc("On a desk in February",
     "What was on it at five o'clock",
@@ -332,7 +332,7 @@ S["pd03-f5"]=lambda: f_realia(doc("Lindhurst · project office note 3",
     "<p><b>What happened here.</b> Four handover manuals were dropped in 2021 on the grounds that "
     "the manifesto deprecates documentation. It does not. <b>40,000 pages to rewrite</b>, and a "
     "maintenance engineer who could not start a pump.</p>"
-    "<p><b>How much of this project can iterate: 30 per cent.</b> The rest is concrete, cable and "
+    "<p><b>How much of this project can iterate: 30 percent.</b> The rest is concrete, cable and "
     "commissioning.</p>",
     "Source: a manifesto for software development, February 2001, signed by seventeen people. It "
     "consists of four value statements and a sentence stating that the items on the right have "
@@ -366,7 +366,7 @@ S["pd03-f9"]=lambda: f_realia(tbl("Tender response · question 14",
       "that we will drop handover manuals"],
      ["collaboration over negotiation","<b>fully</b>","joint change log, one page",
       "—"],
-     ["responding to change over a plan","<b>30 per cent</b>",
+     ["responding to change over a plan","<b>30 percent</b>",
       "iterate the control logic monthly","that concrete can iterate"]],
     note="<b>The fourth statement is about software and we have none.</b>"), 680)
 S["pd03-f10"]=lambda: f_scene(860,400,
@@ -390,13 +390,13 @@ S["pd03-f12"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Before","The promise",
       "<p><i>We will work in an agile way throughout the project.</i></p>"), 380),
     lambda w,h: f_realia(doc("After","The answer",
-      "<p>Four rows. <b>30 per cent</b> of the work can change weekly. One sentence on what the "
+      "<p>Four rows. <b>30 percent</b> of the work can change weekly. One sentence on what the "
       "document does not claim — and one on the four manuals we should not have dropped.</p>"),
       380),
     w=820, h=300, lt="A PROMISE", rt="AN ANSWER")
 S["pd03-f13"]=lambda: f_realia(form("Response planner",
     [("The document and its date",""),("The four statements",""),("How far each transfers",""),
-     ("Per cent of your work that can change",""),("What it costs the client",""),
+     ("Percent of your work that can change",""),("What it costs the client",""),
      ("One thing you got wrong","")],
     note="Six boxes. The last one is the one that is believed."), 560)
 S["pd03-f14"]=lambda: f_scene(1000,450,
@@ -418,12 +418,12 @@ S["pd03-f16"]=lambda: f_realia(doc("On a desk in March",
     "<p><b>One printed page of sixty-eight words</b>, with the fifth sentence underlined.</p>"
     "<p><b>Four handover manuals</b>, newly printed, dated this year.</p>"
     "<p><b>An invoice</b> for rewriting them.</p>"
-    "<p><b>A pie chart</b> with thirty per cent shaded.</p>"
+    "<p><b>A pie chart</b> with thirty percent shaded.</p>"
     "<p><b>A note of three sentences.</b> <i>The document is sixty-eight words long and the "
     "sentence that protects documentation is in it, which means our 2021 decision was not a "
     "misreading of the manifesto but a decision we made and then attributed to a manifesto. Thirty "
-    "per cent of this project can respond to change weekly and the other seventy is concrete, so "
+    "percent of this project can respond to change weekly and the other seventy is concrete, so "
     "promising a client an agile project is a promise about less than a third of what they are "
     "buying. I would rather hand over four manuals and one percentage than a word that means six "
     "different things to the six people in the room.</i></p>",
-    "Five o'clock. Sixty-eight words, four reprinted manuals, thirty per cent."), 620)
+    "Five o'clock. Sixty-eight words, four reprinted manuals, thirty percent."), 620)

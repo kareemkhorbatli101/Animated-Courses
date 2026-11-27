@@ -100,11 +100,11 @@ S["rb07-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Sheet A",None,
     "history. The date the fit was made.</p>",None),380)[0:3],
     800,300,"One line and one number","Three fits, two dates and an assumption")
 S["rb07-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
-    "<p>Well 14 remaining reserves 1.6 million barrels. Decline about 14 per cent. Expect economic "
+    "<p>Well 14 remaining reserves 1.6 million barrels. Decline about 14 percent. Expect economic "
     "limit around 2031.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Fitted to the last three years, excluding the four months after the June workover. "
-    "Exponential 13.8 per cent a year, 1.6 million barrels to an economic limit of 40 a day, 2031. "
+    "Exponential 13.8 percent a year, 1.6 million barrels to an economic limit of 40 a day, 2031. "
     "Hyperbolic 2.1 million. Harmonic 2.9 and no date I will write down. All three assume <b>no "
     "further intervention and no new wells</b>; one infill well is in next year's plan.</p>",
     None),380)[0:3],
@@ -218,7 +218,7 @@ S["rb08-f9"]=lambda: f_realia(tbl("Separator performance sheet &mdash; V-201",
     ["","Nameplate, 1986","Today"],
     [["Liquid rate","4,000 bbl/d","<b>5,200 bbl/d</b>"],
      ["Gas rate","60,000 m3/d","<b>71,000 m3/d</b>"],
-     ["Water cut","8 per cent","<b>34 per cent</b>"],
+     ["Water cut","8 percent","<b>34 percent</b>"],
      ["Operating pressure","19 bar","<b>14 bar</b>"],
      ["Operating level","1,100 mm","<b>800 mm</b>"]],
     note="Four of the five are outside the nameplate column. The level is the only one of these that "
@@ -229,7 +229,7 @@ S["rb08-f10"]=lambda: f_scene(800,400,
      ("thermostat",690,196,0.24)],
     clockat=(60,40,22,13,0))
 S["rb08-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Report A",None,
-    "<p>Export oil water content is 2.1 per cent against a target of 0.5. Separator V-201 not "
+    "<p>Export oil water content is 2.1 percent against a target of 0.5. Separator V-201 not "
     "performing. Request a demulsifier trial.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Report B",None,
     "<p>Nameplate against today in two columns. The level was lowered 300 millimeters in September "
@@ -238,7 +238,7 @@ S["rb08-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Report A",None,
     None),380)[0:3],
     800,300,"A symptom and a purchase","A cause, with its date")
 S["rb08-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
-    "<p>Export oil water content is 2.1 per cent against a target of 0.5. Separator V-201 not "
+    "<p>Export oil water content is 2.1 percent against a target of 0.5. Separator V-201 not "
     "performing. Request a demulsifier trial.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Nameplate 1986 and today, five rows each. The level change with its date and its reason. "
@@ -289,7 +289,7 @@ S["rb09-f2"]=lambda: f_scene(760,400,
     people=[("yusuf",110,176,{}),("omar",320,180,{"seated":True}),("nour",405,180,{"seated":True}),
      ("samira",485,180,{"seated":True}),("tomas",565,180,{}),("ahmad",650,180,{"seated":True})],
     props=[("desk",300,0,1.0),("board",50,90,0.62),("water",710,196,0.24)],
-    board=(30,24,214,110,"THE BIGGEST STREAM",[("water","78 per cent"),("oil","22 per cent"),("where","back underground")]),
+    board=(30,24,214,110,"THE BIGGEST STREAM",[("water","78 percent"),("oil","22 percent"),("where","back underground")]),
     clockat=(262,36,22,13,0))
 S["rb09-f3"]=lambda: f_icons([("wall","casing and cement past a shallow aquifer"),
     ("padlock","a packer, with the annulus monitored"),
@@ -337,7 +337,7 @@ S["rb09-f6"]=lambda: f_realia(tbl("Word study",
     "and is not the opposite of <i>may not</i>."), 640)
 S["rb09-f7"]=lambda: f_matrix(["Internal test","External test","Injection pressure vs maximum"],
     [("Injection well 1",[TICK,TICK,"118 of 147 bar"]),
-     ("Injection well 2",[TICK,TICK,"141 of 147 bar &mdash; <b>96 per cent</b>"]),
+     ("Injection well 2",[TICK,TICK,"141 of 147 bar &mdash; <b>96 percent</b>"]),
      ("Injection well 3",[TICK,CROSS,"102 of 138 bar"]),
      ("Injection well 4",[TICK,TICK,"88 of 150 bar"]),
      ("Injection well 5",[TICK,TICK,"121 of 160 bar"]),

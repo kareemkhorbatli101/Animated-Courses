@@ -14,7 +14,7 @@ S["qc00-f1"]=lambda: f_realia(tbl("Six things you already have",
     ["What you have","An example"],
     [["Nouns that carry a question","What was the <b>purpose</b> of the <b>second trial</b>?"],
      ["Synonyms","<i>rose</i> &middot; <i>increased</i> &middot; <i>grew</i> &middot; <i>climbed</i>"],
-     ["Numbers and dates","in 1948 &middot; about 12 per cent &middot; one in fifty"],
+     ["Numbers and dates","in 1948 &middot; about 12 percent &middot; one in fifty"],
      ["Reference words","<i>this</i> &middot; <i>these</i> &middot; <i>such</i> &middot; <i>the latter</i>"],
      ["Negatives","<i>not all</i> &middot; <i>few</i> &middot; <i>hardly</i> &middot; <i>unlikely</i>"],
      ["Question stems","According to the passage&hellip; &middot; The writer suggests that&hellip;"]],
@@ -148,7 +148,7 @@ S["qc01-f12"]=lambda: f_panels(
         w)[0:3],
     lambda w,h: f_realia(doc("Note 2, rewritten", None,
         "<p>Practice Reading paper, <b>2 May</b>: 26 of 40. I answered 29 questions and got 26 right, "
-        "so my accuracy on what I attempted was <b>90 per cent</b> and eleven questions were blank "
+        "so my accuracy on what I attempted was <b>90 percent</b> and eleven questions were blank "
         "because the hour ended. The minutes went <b>26, 24 and 10</b>. The published description "
         "gives three passages, forty questions and sixty minutes with no extra time &mdash; ninety "
         "seconds a question including the reading &mdash; and it does not say which passage carries "
@@ -174,7 +174,7 @@ S["qc01-f14"]=lambda: f_scene(1000,450,
 S["qc01-f15"]=lambda: f_chart([("Passage 1",5),("Passage 2",3),("Passage 3",0),
     ("about the same",1),("I have never timed it",2)])
 S["qc01-f16"]=lambda: f_realia(doc("On a desk in May",
-    "Six papers, ninety per cent accuracy, twenty-six marks",
+    "Six papers, ninety percent accuracy, twenty-six marks",
     table_html(["Paper","Attempted","Right","Accuracy","Score","Blank"],
       [["1","27","24","89%","24","13"],["2","29","26","90%","26","11"],
        ["3","28","25","89%","25","12"],["4","29","26","90%","26","11"],

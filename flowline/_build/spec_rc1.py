@@ -14,7 +14,7 @@ CROSS = "<b style='color:#8a2f2f'>&#10007;</b>"
 S["rc00-f1"]=lambda: f_realia(tbl("Six things you already have",
     "One example each, from Books 1 and 2",
     ["What you have","An example"],
-    [["A grade","heavy and sour &middot; 24 degrees API &middot; under one per cent sulfur"],
+    [["A grade","heavy and sour &middot; 24 degrees API &middot; under one percent sulfur"],
      ["A unit","a barrel &middot; a cubic meter &middot; corrected to a stated base"],
      ["A barrier","the mud, then the stack &middot; primary and secondary"],
      ["An estimate","a permeability from five plugs &middot; a range, not a figure"],
@@ -77,7 +77,7 @@ S["rc01-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
     "<p><b>How the thickness comes out.</b> Steel is bought to a <b>specified minimum yield "
     "strength</b>. The code does not let you design to that figure; it applies a <b>design "
     "factor</b> below one. In this code the factor for most of the pipeline length is <b>0.72</b>, so "
-    "the design sits at about seventy-two per cent of the specified minimum yield.</p>"
+    "the design sits at about seventy-two percent of the specified minimum yield.</p>"
     "<p>That margin is not spare capacity. It is the room the line will need for a dent, a scratch "
     "from a digger, thirty years of internal corrosion, a weld that was acceptable rather than "
     "perfect.</p>"
@@ -427,5 +427,5 @@ S["rc03-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "<p><b>Two pipe samples</b>, one new and one corroded.</p>"
     "<p><i>Both numbers were recorded every month, on the same sheet, by people doing their jobs "
     "properly. Nobody worked the roughness backwards, because the sheet did not ask for it.</i></p>",
-    "Seven o'clock. The booster pump is drawing eighteen per cent more power than in 2019 at the same "
+    "Seven o'clock. The booster pump is drawing eighteen percent more power than in 2019 at the same "
     "flow."), 620)

@@ -96,7 +96,7 @@ S["rf10-f9"]=lambda: f_realia(tbl("Liability summary",
     "Deir field",
     ["","Entry"],
     [["Inventory","140 wells, 60 km of flowline, two stations, ~400 t of steel"],
-     ["First estimate","attached, <b>&plusmn; about 50 per cent</b>"],
+     ["First estimate","attached, <b>&plusmn; about 50 percent</b>"],
      ["Cost recovery","recoverable under clause 9"],
      ["Who bears it after the split","<b>mostly the state, at our take</b>"],
      ["Fund","<b>none exists</b>"],
@@ -121,7 +121,7 @@ S["rf10-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Not this",None,
     "company will meet its obligations.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("This",None,
     "<p>140 wells, 60 km of flowline and two stations. <b>No estimate and no fund exist</b>; a first "
-    "estimate is attached at &plusmn;50 per cent, <b>given anyway, with its basis</b>. The cost is "
+    "estimate is attached at &plusmn;50 percent, <b>given anyway, with its basis</b>. The cost is "
     "<b>recoverable under clause 9</b>; after the fiscal split <b>most of it is borne by the "
     "state</b>; every invoice is still paid by us.</p>",None),380)[0:3],
     800,300,"In due course","Three sentences of arithmetic")
@@ -145,7 +145,7 @@ S["rf10-f15"]=lambda: f_chart([("yes, and it is funded",1),("yes, and it is not 
     ("no",6),("I do not know",8),("we have no obligation",2)], unit="operators")
 S["rf10-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "Twenty years left, and no number",
-    "<p><b>A first abandonment estimate</b> with a plus or minus fifty per cent range across it.</p>"
+    "<p><b>A first abandonment estimate</b> with a plus or minus fifty percent range across it.</p>"
     "<p><b>A two-paragraph abandonment clause.</b></p>"
     "<p><b>A fiscal waterfall</b> with the cost recovery line circled.</p>"
     "<p><b>A photograph of a cut wellhead</b> below ground level.</p>"

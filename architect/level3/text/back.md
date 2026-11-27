@@ -35,7 +35,7 @@ Every structure in this book, in unit order. The second column is the mistake it
 |---|---|
 | **two hundred requests *per second*** | a rate has two units; a count has one |
 | **L = λW** | know two, know the third — and 30 ÷ 200 is a latency nobody timed |
-| ***one in thirty-three* beats *three per cent*** | for a small proportion, and especially a bad one |
+| ***one in thirty-three* beats *three percent*** | for a small proportion, and especially a bad one |
 | ***On average*,** at the front | an average with no warning label is read as a promise |
 
 ## Unit 4 · Multiples and factors
@@ -164,7 +164,7 @@ What the layer does not touch:
    and respelling a defined term misquotes its source.
 3. **A document number keeps its published form.** ISO/IEC 25010:2023, ISO/IEC 5055:2021, ISO/IEC
    27001:2022, ISO/IEC 25012:2008, WCAG 2.2 and CVSS v4.0 are citations, not words.
-4. **A figure keeps its form.** 99.94 per cent, 8.76 hours, L = λW, 93 controls: the numbers and the
+4. **A figure keeps its form.** 99.94 percent, 8.76 hours, L = λW, 93 controls: the numbers and the
    symbols are the same in both variants, and the decimal point is never a comma in this series.
 5. **The six parts of a scenario keep their order.** Source, stimulus, environment, artifact,
    response, response measure — because the order is what makes the sentence readable aloud.

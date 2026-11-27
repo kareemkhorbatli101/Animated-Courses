@@ -325,7 +325,7 @@ S["qc10-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the
     "<p><b>The source.</b> Ken Hyland, <i>Metadiscourse: Exploring Interaction in Writing</i>, "
     "Continuum, <b>2005</b>. Printed here in our own words.</p>"
     "<p>An academic text does two things at once. It makes claims about the world, and it manages the "
-    "reader: organizing the text, signalling how sure the writer is, and inviting the reader to agree. "
+    "reader: organizing the text, signaling how sure the writer is, and inviting the reader to agree. "
     "The second of those is what this book calls <b>metadiscourse</b>.</p>"
     + table_html(["Group","What it does","Examples"],
       [["<b>Interactive</b>","helps the reader through the text",
@@ -346,7 +346,7 @@ S["qc10-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the
     "<p><b>Functional categories are interpretive.</b> This is a framework built from corpora of "
     "academic writing. The categories are <b>functional</b>, defined by what a word is doing rather "
     "than by what it is: <i>clearly</i> can boost a claim or simply mean <i>in a way that is easy to "
-    "see</i>. Coding a text therefore involves <b>judgement</b>, analysts disagree, and <b>any count "
+    "see</i>. Coding a text therefore involves <b>judgment</b>, analysts disagree, and <b>any count "
     "of hedges is a count of somebody's readings</b>. The conventions are not universal: how much "
     "hedging is appropriate <b>varies by discipline</b> and between <b>writing cultures</b>, so a "
     "writer trained in one tradition can sound evasive or arrogant in another without intending "
@@ -412,7 +412,7 @@ S["qc10-f12"]=lambda: f_panels(
         "statement was flat. A framework published in 2005 describes the resources a writer uses to "
         "organize a text and to show how far they stand behind a claim: hedges withhold commitment, "
         "boosters assert certainty, attitude markers show evaluation. The categories are functional, "
-        "so the same word can do different work and coding a text involves judgement; hedging "
+        "so the same word can do different work and coding a text involves judgment; hedging "
         "conventions vary by discipline and by writing culture; and the book is about writing rather "
         "than about answering questions. My habit: underline the hedge in the passage sentence before "
         "I read the statement.</p>"), w)[0:3],

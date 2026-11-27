@@ -109,7 +109,7 @@ the column worth reading twice.
 | ***for every X, Y*** | forces you to state both quantities |
 | ***twice as fast as*** (rates) vs ***twice as much as*** (quantities) | over 25 years these are very different claims |
 | **Present perfect with *since*** | *a gap opened since 1999* |
-| **A percentage point is not a per cent** | 4 to 5 is one point and 25% more money |
+| **A percentage point is not a percent** | 4 to 5 is one point and 25% more money |
 
 ## Unit 12 · Scenario conditionals
 
@@ -187,7 +187,7 @@ and in every unit that gap is stated by the instrument's own publisher.
 | 9 | UNCTAD, *Review of Maritime Transport 2025* (24 September 2025) | Seaborne trade grew **2.2% by volume** in 2024 and **5.9% in tonne-miles** — close to three times; projected **0.5%** and **0.3%** respectively for 2025, with about **2% a year** for 2026–2030; Suez Canal tonnage about **70% below 2023 levels** as at mid-2025. **UNCTAD says the tonne-mile rise reflects growing fragility rather than robust trade expansion** |
 | 10 | OECD, *Annual Report on the Activity of National Contact Points for Responsible Business Conduct* (2024 report and data annex, with 2021–2023) | **52 cases closed**, of which **32 (58%)** accepted for further examination; agreement in **24% of all concluded cases** and **57% of concluded cases where mediation occurred**; the mediated rate was **73% in 2023** and **36% in 2022** (41 closed). **Refusal to engage was the commonest reason no agreement was reached — 64% of cases without agreement in 2023.** The guidelines are non-binding and the contact point cannot compel attendance |
 | 11 | ILO, *Global Wage Report 2024–25: Is Wage Inequality Decreasing Globally?* | Global real wages **−0.9% (2022)**, **+1.8% (2023)**, **about +2.7% (2024, preliminary)** — the largest gain in over fifteen years, **+2.3% excluding China**; wage inequality narrowed in about **two thirds of countries** since 2000; close to **22%** of wage workers in low-income countries are low-paid; in high-income countries **productivity rose 29% between 1999 and 2024 while real wages rose about 15%**; **men earn more than women in every country income group and across the entire wage distribution** |
-| 12 | UN DESA, *World Population Prospects 2024*, with ITF *Transport Outlook* (2023 and 2021 editions) kept separate | Population projected to peak at about **10.3 billion in the mid-2080s** from **8.2 billion in 2024**, easing to about **10.2 billion by 2100**, with a published **95% interval around 2100 of 9.0 to 11.4 billion**; the 2100 figure is about **6% lower — some 700 million fewer people — than projected a decade earlier**. Separately, the ITF's 2023 outlook has worldwide **tonne-kilometres nearly doubling between 2019 and 2050** under its current ambition scenario, while the 2021 edition gives a factor of **2.6** on current policies, and a high-ambition regional scenario cuts 2050 demand by about **11%** |
+| 12 | UN DESA, *World Population Prospects 2024*, with ITF *Transport Outlook* (2023 and 2021 editions) kept separate | Population projected to peak at about **10.3 billion in the mid-2080s** from **8.2 billion in 2024**, easing to about **10.2 billion by 2100**, with a published **95% interval around 2100 of 9.0 to 11.4 billion**; the 2100 figure is about **6% lower — some 700 million fewer people — than projected a decade earlier**. Separately, the ITF's 2023 outlook has worldwide **tonne-kilometers nearly doubling between 2019 and 2050** under its current ambition scenario, while the 2021 edition gives a factor of **2.6** on current policies, and a high-ambition regional scenario cuts 2050 demand by about **11%** |
 
 ## Nine honesty notes, printed here because they are printed in the units too
 
@@ -203,7 +203,7 @@ and in every unit that gap is stated by the instrument's own publisher.
   gray list, so the index **assumes** graduates reached at least a moderate level: an assumption
   inside a score, declared by the people who built it, affecting exactly the cases where the score is
   relied on hardest.
-- **Unit 6 is a ranking whose own publisher tells you not to rank with it.** A ninety per cent
+- **Unit 6 is a ranking whose own publisher tells you not to rank with it.** A ninety percent
   interval is the estimate plus or minus 1.64 standard errors, and the World Bank's guidance is to
   consider those margins before comparing. Two countries four points apart on intervals that overlap
   by twenty-two cannot be distinguished on those data, and the unit's task is to say so and still
@@ -221,20 +221,20 @@ and in every unit that gap is stated by the instrument's own publisher.
   smaller omits the Additional Facility filings. It also keeps the company's own case in the pleading
   register throughout, because a board paper that states a legal conclusion as a fact is a document
   the other side would be pleased to obtain.
-- **Unit 9 is one quantity measured two ways, diverging for a physical reason.** Volume grew 2.2 per
-  cent and tonne-miles 5.9, because ships went round the Cape instead of through the Suez Canal.
+- **Unit 9 is one quantity measured two ways, diverging for a physical reason.** Volume grew 2.2 
+  percent and tonne-miles 5.9, because ships went round the Cape instead of through the Suez Canal.
   Nothing about demand explains it. The unit also separates a composition effect from a cause, which
   is the distinction that decides whether a company renegotiates rates or re-times a service.
-- **Unit 10 is a dispute mechanism with no power to compel anybody.** Agreement was reached in 24 per
-  cent of all concluded cases and 57 per cent of mediated ones, against 73 and 36 in the two previous
+- **Unit 10 is a dispute mechanism with no power to compel anybody.** Agreement was reached in 24 
+  percent of all concluded cases and 57 percent of mediated ones, against 73 and 36 in the two previous
   years on samples of a few dozen; the unit refuses to average them. The commonest reason for failure
   is that one side declined to take part, which makes refusal both permitted and the largest single
   cause of failure.
 - **Unit 12 separates a probabilistic projection from a scenario and keeps two institutions apart.**
-  The population projection carries a published interval 2.4 billion wide and has moved six per cent
+  The population projection carries a published interval 2.4 billion wide and has moved six percent
   between vintages. The freight outlook is conditional: "nearly double by 2050" in one edition, "a
-  factor of 2.6" in an earlier one, and eleven per cent lower under a high-ambition case. A figure
-  that policy can move by eleven per cent is, by construction, not a forecast, and the unit refuses
+  factor of 2.6" in an earlier one, and eleven percent lower under a high-ambition case. A figure
+  that policy can move by eleven percent is, by construction, not a forecast, and the unit refuses
   to put the two instruments in one table.
 
 # Closing

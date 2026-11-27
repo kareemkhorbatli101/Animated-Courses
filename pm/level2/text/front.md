@@ -39,7 +39,7 @@ range. It does not make the range honest. A standard that lists what a plan must
 nothing about whether the plan is true.
 
 **Money has no symbol in this series.** Every figure is written without a currency sign — *a budget
-of 240,000*, *an uplift of 41 per cent* — because the unit is whatever currency your project uses.
+of 240,000*, *an uplift of 41 percent* — because the unit is whatever currency your project uses.
 
 ## Contents
 

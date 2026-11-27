@@ -25,17 +25,17 @@ S["y07-f4"]=lambda: f_realia(tbl("","Where the money goes",
     [["","","",""],["","","",""],["","","",""],["","","",""],["","","",""],["","","",""]],
     note="The reserve and its rules:"), 540)
 S["y07-f5"]=lambda: f_realia(doc("Portmere Advice Center · winter briefing for volunteers",
-    "Nine point two per cent",
+    "Nine point two percent",
     "<p>Every October we are asked how many people cannot heat their homes. There is a figure, it "
     "is reliable, and it needs three sentences of explanation before it is any use to anybody on "
     "a doorstep.</p>"
-    "<p><b>The figure.</b> In 2024, <b>9.2 per cent</b> of people in the EU said they were unable "
+    "<p><b>The figure.</b> In 2024, <b>9.2 percent</b> of people in the EU said they were unable "
     "to keep their home adequately warm &mdash; about forty-one million people. It is <b>down 1.4 "
-    "percentage points</b> from 10.6 per cent in 2023.</p>"
+    "percentage points</b> from 10.6 percent in 2023.</p>"
     "<p><b>The first sentence.</b> It fell. That is good news and it is smaller news than it "
     "looks, because the 2023 figure was a peak driven by an energy price shock, and a fall from a "
     "peak is not the same as an improvement on normal.</p>"
-    "<p><b>The second sentence.</b> In Bulgaria and Greece the figure is <b>19.0 per cent</b> "
+    "<p><b>The second sentence.</b> In Bulgaria and Greece the figure is <b>19.0 percent</b> "
     "&mdash; one person in five. A single European average describes nobody's street.</p>"
     "<p><b>The third sentence.</b> It is <b>self-reported</b>, and <i>adequately</i> is whatever "
     "the person answering thinks it means. Somebody heating one room and calling that adequate is "
@@ -48,7 +48,7 @@ S["y07-f6"]=lambda: f_realia(tbl("Word study","Money nouns and their verbs",
      ["reimbursement","to reimburse","… for"]]), 460)
 S["y07-f7"]=lambda: f_chart([("Bulgaria",19.0),("Greece",19.0),("Lithuania",18.0),
     ("Spain",17.5),("EU average",9.2)],
-    unit="per cent unable to keep the home adequately warm, 2024", w=540)
+    unit="percent unable to keep the home adequately warm, 2024", w=540)
 S["y07-f8"]=lambda: f_icons([("danger","a bucket under a drip"),("school","children in a hall"),
     ("radiator","a cold radiator"),("lamp","a dark stairwell"),
     ("board","a flip chart"),("vote","a show of hands")], cols=3)
@@ -123,17 +123,17 @@ S["y08-f4"]=lambda: f_realia(tbl("","The policy and the law",
     [["The period","",""],["The remedy","",""],["Who proves it","",""],["Any charge","",""]],
     note="Which one the script quotes:"), 480)
 S["y08-f5"]=lambda: f_realia(doc("Portmere Advice Center · consumer briefing, sheet 4",
-    "Sixty-six per cent of whom?",
+    "Sixty-six percent of whom?",
     "<p>A large consumer survey was published this year and three of its figures are already being "
     "quoted at us across this desk. Two of them are usable. The third is the one everybody "
     "quotes.</p>"
-    "<p><b>The usable ones.</b> <b>Seventy per cent</b> of consumers agree that retailers and "
+    "<p><b>The usable ones.</b> <b>Seventy percent</b> of consumers agree that retailers and "
     "service providers respect consumer rights. Problems with online purchases are reported as "
-    "<b>over sixty per cent more likely</b> than with buying in person, and <b>45 per cent</b> of "
+    "<b>over sixty percent more likely</b> than with buying in person, and <b>45 percent</b> of "
     "consumers say they have encountered an online scam.</p>"
     "<p><b>The one we cannot use.</b> The published summaries say that unfair practices were "
-    "common, with <b>fake reviews at 66 per cent</b> and misleading discounting at 61 per cent. "
-    "Sixty-six per cent of what? Of all consumers surveyed? Of consumers who shop online? Of "
+    "common, with <b>fake reviews at 66 percent</b> and misleading discounting at 61 percent. "
+    "Sixty-six percent of what? Of all consumers surveyed? Of consumers who shop online? Of "
     "consumers who reported encountering any unfair practice at all? The summaries we can reach "
     "do not say.</p>"
     "<p><b>Why this is not pedantry.</b> If the base is all consumers, the problem is universal. "
@@ -149,7 +149,7 @@ S["y08-f6"]=lambda: f_realia(tbl("Word study","-ed and -ing adjectives",
      ["worry","worried","worrying"]]), 500)
 S["y08-f7"]=lambda: f_chart([("agree retailers respect rights",70),
     ("fake reviews — base not stated",66),("misleading discounting — base not stated",61),
-    ("have met an online scam",45)], unit="per cent · two of these have a stated base", w=580)
+    ("have met an online scam",45)], unit="percent · two of these have a stated base", w=580)
 S["y08-f8"]=lambda: f_icons([("fridge","a machine with its door open"),("phone","on hold"),
     ("essay","small type"),("engine","an engineer"),
     ("transfer","a refund"),("envelope","posting a letter")], cols=3)
@@ -209,7 +209,7 @@ S["y08-f16"]=lambda: f_scene(840,410, behind=[("bah",280,176,{"smile":False})],
 # ---------------- Unit 9 ----------------
 S["y09-f1"]=lambda: f_icons([("clock","three in the morning"),("timetable","a rota"),
     ("cafe","coffee"),("phone","a phone by the bed"),("walkroute","a walk"),
-    ("queue","a waiting room"),("medicine","a prescription"),("meeting","counselling"),
+    ("queue","a waiting room"),("medicine","a prescription"),("meeting","counseling"),
     ("notebook","a journal"),("padlock","a locked bicycle")], cols=5)
 S["y09-f2"]=lambda: f_scene(820,400, people=[("yusuf",280,186,{"smile":False,"seated":True})],
     props=[("bed",180,0,1.6),("phone",400,196,0.52),("lamp",470,170,0.62),
@@ -228,7 +228,7 @@ S["y09-f5"]=lambda: f_realia(doc("Portmere Occupational Health Partnership · br
     "people quoting it could not tell you what it counts.</p>"
     "<p><b>The figure.</b> An estimated <b>12 billion working days</b> are lost every year to "
     "depression and anxiety, at a cost put at about <b>one trillion US dollars</b> a year in lost "
-    "productivity. Separately, <b>15 per cent of working-age adults</b> were estimated to have a "
+    "productivity. Separately, <b>15 percent of working-age adults</b> were estimated to have a "
     "mental disorder in 2019.</p>"
     "<p><b>What it is built from.</b> It is a modeled estimate: prevalence data, employment data "
     "and assumptions about days lost per case, combined. Nobody counted twelve billion days.</p>"

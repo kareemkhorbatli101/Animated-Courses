@@ -39,7 +39,7 @@ S["rf04-f4"]=lambda: f_realia(tbl("Team research sheet",
 S["rf04-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Training Center",
     "Note for operators: the document behind the four steps",
     "<p style='font-size:12px;color:#6b6861'>Source: the Convention on Combating Bribery of Foreign "
-    "Public Officials in International Business Transactions, adopted under the Organisation for "
+    "Public Officials in International Business Transactions, adopted under the Organization for "
     "Economic Co-operation and Development, 1997. In our own words. <b>This is not legal advice and "
     "does not state the law of any country.</b></p>"
     "<p><b>What kind of document this is.</b> A treaty between states. <b>It does not itself make "
@@ -164,7 +164,7 @@ S["rf05-f1"]=lambda: f_icons([("dashboard","a national employee in a control roo
     ("form","a pre-qualification form"),("barcode","one contract split into four"),
     ("note","a tender with a local content requirement"),
     ("data","a spend pie chart"),("tally","a headcount chart"),
-    ("balance","a value retained diagram"),("note","sixty-eight per cent of what")],4)
+    ("balance","a value retained diagram"),("note","sixty-eight percent of what")],4)
 S["rf05-f2"]=lambda: f_scene(820,420,
     people=[("nadia",120,176,{}),("omar",340,180,{"seated":True}),("bah",420,180,{"seated":True}),
      ("haddad",500,176,{}),("nour",580,180,{"seated":True}),
@@ -218,7 +218,7 @@ S["rf05-f6"]=lambda: f_realia(tbl("Word study",
     ["The phrase","What it does","An example"],
     [["for the purposes of this report","defines a word for one document","For the purposes of this report, local means registered and majority owned here."],
      ["measured as","states the method","Measured as the proportion of procurement spend."],
-     ["on a spend basis","names the basis","On a spend basis, the figure is 68 per cent."],
+     ["on a spend basis","names the basis","On a spend basis, the figure is 68 percent."],
      ["excludes","says what is left out","Excludes the imported content of goods resold by local companies."],
      [BLANK,BLANK,BLANK],[BLANK,BLANK,BLANK]],
     note="Two rows are empty: <i>is not necessarily</i> and <i>expressed as a proportion of</i>."), 700)
@@ -254,7 +254,7 @@ S["rf05-f10"]=lambda: f_scene(800,400,
      ("table",580,0,0.9),("invoice",690,198,0.2)],
     clockat=(60,40,22,11,0))
 S["rf05-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Statement A",None,
-    "<p>Local content performance for the year was 68 per cent, exceeding our target of 60 per "
+    "<p>Local content performance for the year was 68 percent, exceeding our target of 60 per "
     "cent.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Statement B",None,
     "<p>The <b>definition</b> used. <b>Three bases:</b> 68 on spend, 81 on headcount, about 32 on value "
@@ -262,7 +262,7 @@ S["rf05-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Statement A",None,
     "failures by reason</b>. And the <b>payment terms</b>.</p>",None),380)[0:3],
     800,300,"One figure","A definition and three bases")
 S["rf05-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Not this",None,
-    "<p>Local content is 68 per cent. We support local suppliers. Local capability is limited.</p>",
+    "<p>Local content is 68 percent. We support local suppliers. Local capability is limited.</p>",
     None),380)[0:3],
     lambda w,h: f_realia(doc("This",None,
     "<p>On a <b>spend basis 68</b>; on a <b>value retained basis about 32</b>. Six local suppliers bid; "
@@ -291,7 +291,7 @@ S["rf05-f15"]=lambda: f_chart([("thirty days or less",2),("sixty days",4),
     ("ninety days",7),("longer",3),("I do not know",6)], unit="operators")
 S["rf05-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "A target met exactly as written",
-    "<p><b>An annual report page</b> with sixty-eight per cent on it.</p>"
+    "<p><b>An annual report page</b> with sixty-eight percent on it.</p>"
     "<p><b>A four-part breakdown</b> with nine circled.</p>"
     "<p><b>A pre-qualification failure list</b>: five of six on paperwork.</p>"
     "<p><b>A payment terms page</b> reading ninety days.</p>"
@@ -374,7 +374,7 @@ S["rf06-f7"]=lambda: f_realia(tbl("Reconciliation",
      ["Income tax","as stated","as stated","<b>nil</b>","&mdash;"],
      ["Surface rental","as stated","as stated","<b>nil</b>","&mdash;"],
      ["Training levy","as stated","as stated","<b>nil</b>","&mdash;"],
-     ["<b>Signature bonus instalment</b>","<b>paid 27 Dec</b>","<b>received 4 Jan</b>","<b>a difference</b>","<b>timing, cut-off</b>"],
+     ["<b>Signature bonus installment</b>","<b>paid 27 Dec</b>","<b>received 4 Jan</b>","<b>a difference</b>","<b>timing, cut-off</b>"],
      ["<i>Social payment to a district</i>","&mdash;","&mdash;","&mdash;","<b>below the threshold</b>"]],
     note="Five exact matches, independently reported from both sides, did not exist ten years ago."), 680)
 S["rf06-f8"]=lambda: f_icons([("calendar","a payment crossing a year end"),

@@ -12,13 +12,13 @@ S["pc00-f1"]=lambda: f_realia(tbl("Six things you brought from Book 2",
     ["What you have","An example"],
     [["Dependency","Commissioning <b>cannot start until</b> the test <b>passes</b>."],
      ["Ranges","Seven weeks, <b>at worst</b> eleven."],
-     ["Comparatives with data","Twenty-two per cent <b>higher than</b> the gate figure."],
-     ["<i>By</i> and <i>to</i>","It rose <b>by</b> 44 per cent, <b>to</b> 3.46 million."],
+     ["Comparatives with data","Twenty-two percent <b>higher than</b> the gate figure."],
+     ["<i>By</i> and <i>to</i>","It rose <b>by</b> 44 percent, <b>to</b> 3.46 million."],
      ["<i>The more &hellip; the more</i>","<b>The more</b> people, <b>the more</b> links."],
      ["Quantifiers","<b>None of</b> the three <b>was</b> stopped on purpose."]],
     note="Six boxes. This book asks the next question: how do you know where you are, and what do "
     "you do about it?"), 580)
-S["pc00-f2"]=lambda: f_realia(doc("Forty-one per cent", "Of what?",
+S["pc00-f2"]=lambda: f_realia(doc("Forty-one percent", "Of what?",
     "<p style='font-size:24px;text-align:center'><b>41%</b></p>"
     + table_html(["What it might mean","What it actually measures"],
       [["<b>1 Time has passed</b>","the calendar, and nothing else"],
@@ -30,24 +30,24 @@ S["pc00-f2"]=lambda: f_realia(doc("Forty-one per cent", "Of what?",
 S["pc00-f3"]=lambda: f_realia(doc("Taped inside a notebook",
     "Three questions a percentage cannot answer",
     "<p style='font-size:16px;line-height:1.95'>"
-    "<b>1 &nbsp;Per cent of what?</b><br>"
+    "<b>1 &nbsp;Percent of what?</b><br>"
     "<span style='font-size:12px;color:#6b6861'>Of the money, the time, the tasks, or the "
     "work?</span><br>"
     "<b>2 &nbsp;Measured how, and by whom?</b><br>"
     "<span style='font-size:12px;color:#6b6861'>The person who measures it is usually the person "
     "being measured.</span><br>"
     "<b>3 &nbsp;Compared with what was planned by now?</b><br>"
-    "<span style='font-size:12px;color:#6b6861'>41 per cent is good news or bad news, and the "
+    "<span style='font-size:12px;color:#6b6861'>41 percent is good news or bad news, and the "
     "figure alone cannot say which.</span></p>",
     "The third question is the whole of Unit 1. A number with no plan beside it is a fact without "
     "a verdict."), 580)
 S["pc00-f4"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Report 1", None,
-        "<p style='font-size:17px'><b>41 per cent complete. Amber.</b></p>"
+        "<p style='font-size:17px'><b>41 percent complete. Amber.</b></p>"
         "<p style='color:#6b6861;font-size:13px'>Five words. It cannot be wrong, which is the "
         "problem Book 2 ended on.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Report 2", None,
-        "<p style='line-height:1.9'>Work completed: <b>41 per cent</b>.<br>"
+        "<p style='line-height:1.9'>Work completed: <b>41 percent</b>.<br>"
         "Planned by now: <b>52</b>.<br>Spent: <b>53</b>.<br>"
         "<b>We are behind and overspending, and the two have different causes.</b></p>"
         "<p style='color:#6b6861;font-size:13px'>Three times as long, and checkable line by "
@@ -100,8 +100,8 @@ S["pc01-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 1",
     "<b>38</b> packages: <b>19</b> by <b>quantity</b>, <b>5</b> on a <b>fifty-fifty</b> rule, "
     "<b>14</b> by <b>a percentage written in by the person doing the work</b>. Where both existed, "
     "<b>the self-scored figure averaged 12 points higher</b>. <b>Not one of those fourteen people "
-    "was being dishonest</b>: somebody at eighty per cent of the difficulty of a job is genuinely at "
-    "ninety per cent of the thinking.</p>"
+    "was being dishonest</b>: somebody at eighty percent of the difficulty of a job is genuinely at "
+    "ninety percent of the thinking.</p>"
     "<p><b>One number that is not a problem.</b> The schedule index is in <b>money</b>. At the end "
     "of any project, finished or late, earned value equals planned value and <b>the schedule index "
     "returns to 1.00</b>. A project eleven weeks late reports a perfect schedule index on its last "
@@ -167,7 +167,7 @@ S["pc01-f11"]=lambda: f_panels(
     w=960, h=280)
 S["pc01-f12"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Monthly report, as issued", None,
-        "<p><b>41 per cent complete. Status: amber.</b></p>"), w)[0:3],
+        "<p><b>41 percent complete. Status: amber.</b></p>"), w)[0:3],
     lambda w,h: f_realia(doc("Monthly report, rewritten", None,
         "<p style='line-height:1.85'>Planned <b>1.40</b>, earned <b>1.11</b>, actual <b>1.43</b>, "
         "as of 30 September.<br>"
@@ -203,7 +203,7 @@ S["pc01-f16"]=lambda: f_realia(doc("On a desk in October",
     "<p><b>A note of three sentences.</b> <i>The arithmetic in this report took four minutes and is "
     "not in question; everything uncertain happened before the division. Fourteen people wrote "
     "honest answers to a question nobody had asked them precisely, which is how a procedure that is "
-    "eighty per cent solved becomes ninety per cent reported. I have put the method beside every "
+    "eighty percent solved becomes ninety percent reported. I have put the method beside every "
     "row, and from next month six of those fourteen will have something a stranger can "
     "count.</i></p>",
     "Five o'clock. The arithmetic was never the problem."), 600)

@@ -72,7 +72,7 @@ the column worth reading twice.
 |---|---|
 | ***How many** words? **How much** vocabulary?* | *word* is countable, *vocabulary* is not |
 | ***a few** words, **a little** help* | the countable one and the uncountable one |
-| **98 per cent · one word in fifty · two in every hundred** | the same figure in three shapes, and no plural *per cents* |
+| **98 percent · one word in fifty · two in every hundred** | the same figure in three shapes, and no plural *per cents* |
 | **coverage is a count of running words** | it is not a measure of how much of the meaning you got |
 
 ## Unit 8 · Word families and suffixes; the form the slot needs
@@ -197,12 +197,12 @@ full alphabetical list, with phonemic transcription, is in the Teacher's Book.
 |---|---|
 | **1** | a paper · a part · a section · a passage · a task · a question type · an answer sheet · to transfer · a recording · a monologue · a conversation · a candidate · an examiner · a band · a criterion · a sitting |
 | **2** | a band · a scale · a half band · a whole band · a score · a raw score · out of · a total · an average · to round · to round up · a report form · a result · correct · incorrect · a guide |
-| **3** | a level · a framework · a descriptor · a reference · a scale · ability · approximate · indicative · a mapping · a statement · a judgement · mediation · a requirement · admission · a threshold · equivalent |
-| **4** | figures · a table · a mean · an average · the highest · the lowest · a group · a pattern · a footnote · to publish · to report · to vary · overall · per cent · a population · a prediction |
+| **3** | a level · a framework · a descriptor · a reference · a scale · ability · approximate · indicative · a mapping · a statement · a judgment · mediation · a requirement · admission · a threshold · equivalent |
+| **4** | figures · a table · a mean · an average · the highest · the lowest · a group · a pattern · a footnote · to publish · to report · to vary · overall · percent · a population · a prediction |
 | **5** | a recording · a playing · to decode · meaning · a gap · stress · a weak form · to run together · to catch · to miss · to make out · blank · spelling · a diagnosis · a reason · behind |
 | **6** | identification · a passport · a locker · a belonging · a device · to switch off · allowed · prohibited · a notice · a rule · misconduct · to cancel · to withhold · a retest · a photograph · a desk number |
-| **7** | a word · a word family · a corpus · frequency · coverage · running words · a threshold · unassisted · spoken · written · a proper noun · a derivation · per cent · a ratio · a sample · a study |
-| **8** | a list · a headword · a sense · a suffix · a form · to derive · frequency · judgement · selection · simplified · a reader · a criterion · a count · useful · out of date · a replacement |
+| **7** | a word · a word family · a corpus · frequency · coverage · running words · a threshold · unassisted · spoken · written · a proper noun · a derivation · percent · a ratio · a sample · a study |
+| **8** | a list · a headword · a sense · a suffix · a form · to derive · frequency · judgment · selection · simplified · a reader · a criterion · a count · useful · out of date · a replacement |
 | **9** | a technique · practice testing · rereading · highlighting · summarizing · distributed practice · massed practice · interleaving · self-explanation · a mnemonic · imagery · evidence · a review · utility · moderate · retention |
 | **10** | to forget · forgetting · a curve · to fall · steeply · to flatten · a syllable · nonsense · meaningless · to relearn · savings · an interval · a review · spaced · massed · a subject |
 | **11** | to notice · noticing · awareness · input · intake · output · a form · a rule · a correction · a diary · a hypothesis · a finding · contested · conscious · to register · evidence |
@@ -220,13 +220,13 @@ its five sister series, and no figure is used twice. The series note is in `SOUR
 |---|---|---|
 | **1** | The published test format for the Academic test (British Council, IDP: IELTS Australia and Cambridge University Press & Assessment) | It gives the shape of the papers and not their contents: not your question types, not your topics, not your raw-score line, and nothing about you |
 | **2** | The published band scale and scores guidance, including the rounding rule and the indicative raw-score guidance | The raw-score guide is described as indicative and is not the table used on your version; the scale does not say that two people with one band speak the same English |
-| **3** | Council of Europe, *Common European Framework of Reference for Languages: Learning, teaching, assessment*, 2001, and the *CEFR Companion Volume*, 2020 | It states that it is a reference and is **not prescriptive**; it is not a test and contains none; its descriptors were calibrated on teachers' judgements of learners, not against any one examination |
+| **3** | Council of Europe, *Common European Framework of Reference for Languages: Learning, teaching, assessment*, 2001, and the *CEFR Companion Volume*, 2020 | It states that it is a reference and is **not prescriptive**; it is not a test and contains none; its descriptors were calibrated on teachers' judgments of learners, not against any one examination |
 | **4** | The test taker performance tables published annually by the test owners | The population is self-selected, so a subgroup mean says as much about who applies; the tables do not say why, do not give any individual's score, cannot predict one, and are not safely compared between years |
 | **5** | John Field, *Listening in the Language Classroom*, Cambridge University Press, 2008 | A book of argument and classroom method, not an experiment; it reports no trial on test scores, promises no quick fix, and offers no advice about any examination |
 | **6** | The notice to candidates and information for candidates published by the test owners | It lists the rules and does not explain them, does not say how a decision about misconduct is made or by whom, and nowhere defines what makes an answer a *memorized* one |
-| **7** | I. S. P. Nation, *How large a vocabulary is needed for reading and listening?*, *Canadian Modern Language Review*, 2006 | It counts texts, not students; coverage is running words and not understanding; the 98 per cent line comes from other studies and is a working figure; proper nouns were set aside; it does not say which words you need or how long it takes |
-| **8** | Michael West, *A General Service List of English Words*, Longman, Green and Co., 1953 | Selected partly on editorial judgement and not frequency alone; the counting is pre-war and mostly written; there is no modern technology in it; it was made for writers of simplified readers, not as a syllabus, and newer lists supersede it for learning |
-| **9** | J. Dunlosky, K. A. Rawson, E. J. Marsh, M. J. Nathan and D. T. Willingham, *Improving Students' Learning With Effective Learning Techniques*, *Psychological Science in the Public Interest*, 2013 | The ratings are judgements of an evidence base, not the authors' own experiment; *low* means the evidence is thin or narrow, not that a technique never works; most studies were on first-language learners of academic content, and the review makes no claim about language tests |
+| **7** | I. S. P. Nation, *How large a vocabulary is needed for reading and listening?*, *Canadian Modern Language Review*, 2006 | It counts texts, not students; coverage is running words and not understanding; the 98 percent line comes from other studies and is a working figure; proper nouns were set aside; it does not say which words you need or how long it takes |
+| **8** | Michael West, *A General Service List of English Words*, Longman, Green and Co., 1953 | Selected partly on editorial judgment and not frequency alone; the counting is pre-war and mostly written; there is no modern technology in it; it was made for writers of simplified readers, not as a syllabus, and newer lists supersede it for learning |
+| **9** | J. Dunlosky, K. A. Rawson, E. J. Marsh, M. J. Nathan and D. T. Willingham, *Improving Students' Learning With Effective Learning Techniques*, *Psychological Science in the Public Interest*, 2013 | The ratings are judgments of an evidence base, not the authors' own experiment; *low* means the evidence is thin or narrow, not that a technique never works; most studies were on first-language learners of academic content, and the review makes no claim about language tests |
 | **10** | Hermann Ebbinghaus, *Über das Gedächtnis: Untersuchungen zur experimentellen Psychologie*, Duncker und Humblot, Leipzig, 1885 (English translation 1913) | One subject, himself; nonsense syllables chosen so that meaning could not help; *savings* measured relearning time and not recall; no teaching advice and no schedule; the curves printed in study books today are redrawn with figures he never published in that form |
 | **11** | R. Schmidt, *The Role of Consciousness in Second Language Learning*, *Applied Linguistics*, 1990, with the 1986 diary study | A hypothesis and a position in a live disagreement, not a finding; noticing cannot be measured directly; the diary evidence is one learner reporting on himself; no claim about any examination, no method, and no estimate of how many times a form must be noticed |
 | **12** | Review — the eleven above, on one page | No document in this book can tell you what you will get, and none of them was written about you |
@@ -246,9 +246,9 @@ Eleven admissions, one per unit, worth reading as a list of their own.
 - **Unit 6.** The rule that students break most often is the watch, and nobody who breaks it means to.
   The rule students most want explained — what counts as a memorized answer — is the one the notice
   does not define.
-- **Unit 7.** Four thousand extra word families buy the last three per cent of coverage. Coverage of 96
-  per cent still loses the question if the missing word is the one the question turns on.
-- **Unit 8.** Somebody chose two thousand words by hand, using judgement as well as counting, and much
+- **Unit 7.** Four thousand extra word families buy the last three percent of coverage. Coverage of 96
+  percent still loses the question if the missing word is the one the question turns on.
+- **Unit 8.** Somebody chose two thousand words by hand, using judgment as well as counting, and much
   of the world learned those two thousand first. It was a good list. It was still a choice.
 - **Unit 9.** The three most popular study techniques in the world came out at the bottom of the
   review, and the technique that feels like failing came out at the top.

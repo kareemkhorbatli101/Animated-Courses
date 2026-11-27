@@ -79,7 +79,7 @@ S["l07-f9"]=lambda: f_realia(doc("Note No. 77/4", None,
     "<p>The Embassy of Astrand <b>presents its compliments</b> to the Ministry of Foreign Affairs "
     "and Expatriates and <b>has the honour to</b> communicate the following.</p>"
     "<p><b>1 The waiver. The Government of Astrand, as sending State, expressly waives the immunity "
-    "from jurisdiction</b> of <b>Mr Oskar Rehn</b>, Counsellor of this Embassy, <b>in respect of the "
+    "from jurisdiction</b> of <b>Mr Oskar Rehn</b>, Counselor of this Embassy, <b>in respect of the "
     "proceedings pending before the Commercial Court of Damascus, case number 1182 of this year</b>, "
     "and in respect of those proceedings only.</p>"
     "<p><b>2 Scope.</b> The waiver extends to the hearing and determination of the said proceedings, "

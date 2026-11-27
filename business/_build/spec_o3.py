@@ -38,7 +38,7 @@ S["o07-f5"]=lambda: f_realia(tbl("Lindmark Freight · morning board","As at 08:1
      ["2209","Corvid","On track","Confirmed","Paula"],
      ["2210","Juno","<b>Delayed</b>","Driver sick, re-planning","Wei"],
      ["2211","Arvo","On track","Unloading now","Anders"]],
-    note="Nine on track. One on hold. One delayed. <b>More than 96 per cent of the world's "
+    note="Nine on track. One on hold. One delayed. <b>More than 96 percent of the world's "
     "population is covered by a mobile broadband network; about 3 billion subscriptions — one "
     "third — are 5G</b> (ITU, Facts and Figures 2025)."), 560)
 S["o07-f6"]=lambda: f_realia(tbl("Word study","Spelling the -ing form",
@@ -128,7 +128,7 @@ S["o08-f5"]=lambda: f_realia(doc("Lindmark Freight · incident report",
     "<p><b>Not in this report:</b> who was on reception, and who was on holiday. Neither changes "
     "what we do next.</p>"
     "<p><b>For scale.</b> Sea trade reached <b>12,720 million tons in 2024</b>, up "
-    "<b>2.2 per cent</b>, against an average of 1.8 per cent over the previous decade.</p>",
+    "<b>2.2 percent</b>, against an average of 1.8 percent over the previous decade.</p>",
     "Figures: UNCTAD, <i>Review of Maritime Transport 2025</i>."))
 S["o08-f6"]=lambda: f_realia(tbl("Word study","Regular and irregular",
     ["Regular (+ -ed)","Irregular"],
@@ -140,7 +140,7 @@ S["o08-f6"]=lambda: f_realia(tbl("Word study","Regular and irregular",
      ["clear &rarr; ______","write &rarr; ______"]]), 460)
 S["o08-f7"]=lambda: f_chart([("2024, measured",2.2),("2013–2023 average",1.8),
     ("2025, forecast",0.5)],
-    unit="world sea trade, per cent growth", w=480)
+    unit="world sea trade, percent growth", w=480)
 S["o08-f8"]=lambda: f_icons([("carton","a spilled box"),("truck","a closed gate"),
     ("iron","a warning light"),("door","a door left open"),
     ("barcode","a wrong label"),("meeting","an empty meeting room")], cols=3)

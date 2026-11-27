@@ -24,8 +24,8 @@ its date.
 ## What is different about this book
 
 **It is full of arithmetic, and the arithmetic is the easy part.** Earned value will tell you, in two
-numbers, that a project is forty-one per cent through its work and has spent fifty-three per cent of
-its money. It will not tell you whether the forty-one per cent is true, and the whole of Lesson 4 in
+numbers, that a project is forty-one percent through its work and has spent fifty-three percent of
+its money. It will not tell you whether the forty-one percent is true, and the whole of Lesson 4 in
 every unit is about the person who has to produce that figure.
 
 **Three of the twelve units are about what a measure does to the people being measured.** A measure
@@ -65,7 +65,7 @@ The same company and the same team, one project further on.
 
 **Lindhurst** is an engineering and services company of about nine hundred people. **Nadia Rahimi**
 is the project manager. **Oskar Lindqvist** builds the schedule. **Linh Tran** controls the cost, and
-in this book she is the one who has to defend the forty-one per cent. **Ahmad Saleh** runs the work
+in this book she is the one who has to defend the forty-one percent. **Ahmad Saleh** runs the work
 on site. **Wei Zhao** checks the quality. **Ida Berg** keeps the risk register. **Omar Nasser** buys
 things. **Hanna Virtanen** makes the reports. **Mariama Bah** is the engineer. **Elena Caruso**
 manages the contracts. **Tunde Oyelaran** asks what the project is for. **Ebele Okonjo** is the

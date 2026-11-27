@@ -17,7 +17,7 @@ S["h10-f2"]=lambda: f_scene(920,420, people=[("omar",320,176,{}),("samira",450,1
     props=[("desk",250,0,1.25),("envelope",330,196,0.3),("form",390,196,0.3),
      ("note",520,194,0.28),("postoffice",680,80,0.8),("tray",830,196,0.4)],
     clockat=(140,46,22,16,0))
-S["h10-f3"]=lambda: f_icons([("scales","weighed"),("printer","labelled"),
+S["h10-f3"]=lambda: f_icons([("scales","weighed"),("printer","labeled"),
     ("receipt","receipt filed"),("truck","loaded"),
     ("signature","signed for"),("calendar","delivery confirmed")], cols=3)
 S["h10-f4"]=lambda: f_realia(tbl("","The channel we forgot",
@@ -132,7 +132,7 @@ S["h11-f4"]=lambda: f_realia(tbl("","Winning and getting",
     [["","","",""],["","","",""],["","","",""],["","","",""]],
     note="<b>The step people think is the last one:</b>"), 580)
 S["h11-f5"]=lambda: f_realia(doc("Ministry of Foreign Affairs and Expatriates",
-    "Internal note 11 &middot; commercial enquiries",
+    "Internal note 11 &middot; commercial inquiries",
     "<p style='font-size:16px'>The <b>Convention on the Recognition and Enforcement of Foreign "
     "Arbitral Awards</b>, done in <b>New York in 1958</b>, has <b>172 parties</b> and "
     "<b>24 signatories</b>.</p>"
@@ -164,7 +164,7 @@ S["h11-f7"]=lambda: f_part("Two published figures, one convention",
 S["h11-f8"]=lambda: f_icons([("signature","the tribunal signs"),("stamp","a recognition order"),
     ("note","a bailiff at the door"),("statement","an empty account"),
     ("essay","a challenge filed"),("handshake","a settlement")], cols=3)
-S["h11-f9"]=lambda: f_realia(tbl("Four-step sheet &middot; commercial enquiry",None,
+S["h11-f9"]=lambda: f_realia(tbl("Four-step sheet &middot; commercial inquiry",None,
     ["Step","Who does it","Done?"],
     [["1 &middot; the award","an arbitral tribunal","<b>&#9745;</b>"],
      ["2 &middot; recognition","a court where payment is sought","&#9744;"],

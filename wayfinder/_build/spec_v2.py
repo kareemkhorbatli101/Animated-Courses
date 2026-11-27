@@ -147,7 +147,7 @@ S["v07-f5"]=lambda: f_realia(doc("Quay Road Electrical","Washing machine &middot
     "<p>30 monthly payments of 12. <b>Total payable 360.</b> Cash price 280.</p>"
     "<p>If you miss a payment, a fee of 15 is added and we may ask for the full balance.</p>"
     "<p>You must be over 18 and have a bank account in this country. We will check whether you have "
-    "borrowed before.</p>", "<b>instalment</b> &mdash; one monthly payment &middot; "
+    "borrowed before.</p>", "<b>installment</b> &mdash; one monthly payment &middot; "
     "<b>total payable</b> &mdash; everything you will pay in the end"))
 S["v07-f6"]=lambda: f_realia(tbl("Kestrel Logistics","Payslip &middot; October",
     ["","","Year to date"],

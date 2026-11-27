@@ -80,7 +80,7 @@ the column worth reading twice.
 | | |
 |---|---|
 | ***as*** + adjective + ***as*** · ***not as … as*** · ***twice as … as*** | *as fast than* |
-| **Put the number and the unit inside the comparison** | *eleven per cent cheaper per carton* |
+| **Put the number and the unit inside the comparison** | *eleven percent cheaper per carton* |
 | **Concede the strongest point against you, in figures** | a reader who sees that stops hunting |
 | **The cheapest unit price and the cheapest order can be different suppliers** | |
 
@@ -208,8 +208,8 @@ you a meeting.
 
 ## Three more honesty notes, printed here because they are printed in the units too
 
-- **Unit 12 is built on a disagreement.** Two 2026 reports give 56 per cent and 55.0 per cent for
-  the same share, and 7.1 per cent and 10.0 per cent for its annual growth. The shares are
+- **Unit 12 is built on a disagreement.** Two 2026 reports give 56 percent and 55.0 percent for
+  the same share, and 7.1 percent and 10.0 percent for its annual growth. The shares are
   effectively one statement; the growth rates are not — compounded over five years they differ by
   roughly a fifth of the market. The reports were published months apart, draw on different
   vintages of the same underlying data, and do not define the category identically. The unit prints

@@ -96,7 +96,7 @@ S["i10-f12"]=lambda: f_realia(doc("Two cables", None,
 S["i10-f13"]=lambda: f_realia(form("Cable planner",
     [("The stage reached",""),("The stage not reached",""),
      ("The deciding body may: 1",""),("2",""),("3",""),("4",""),
-     ("The expectation, labelled",""),("Commitment",""),
+     ("The expectation, labeled",""),("Commitment",""),
      ("Correction, with the time of the earlier message","")]), 540)
 S["i10-f14"]=lambda: f_scene(980,440,
     people=[("omar",120,176,{}),("nadia",200,172,{}),("hana",290,176,{}),

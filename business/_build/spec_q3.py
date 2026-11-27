@@ -136,8 +136,8 @@ S["q08-f5"]=lambda: f_realia(doc("Arvo Components &middot; planning assumptions 
     + "<p>The September interim report projects global growth of <b>2.9% this year and 3.0% next "
     "year</b>. G20 headline inflation <b>4.1%</b> this year, easing to <b>3.6%</b>. United States "
     "2.2 then 2.1; China 4.5 then 4.2.</p>"
-    "<p style='background:#fff3cf'><b>What we plan on.</b> 3.0 per cent &mdash; the September "
-    "projection &mdash; and we review in March. We are not planning on 1.8 per cent. If energy "
+    "<p style='background:#fff3cf'><b>What we plan on.</b> 3.0 percent &mdash; the September "
+    "projection &mdash; and we review in March. We are not planning on 1.8 percent. If energy "
     "disruption returns, we hold the two Q2 hires and defer the second line. <b>That decision is "
     "written down now so that it does not have to be invented in a hurry.</b></p>",
     "OECD Economic Outlook Interim Report, September 2026 &middot; review date: March"))
@@ -166,7 +166,7 @@ S["q08-f9"]=lambda: f_realia(doc("Planning assumptions &mdash; executive summary
     "<p>&bull; Our carrier rate reopens if fuel moves more than 8% &mdash; clause 7.2.<br>"
     "&bull; The growth projection we plan on was revised down in September.<br>"
     "&bull; Two of our three largest customers have not given us their own plans.</p>"
-    "<p><b>Recommendation: approve the plan at 3.0 per cent and buy a wider fuel band, even at a "
+    "<p><b>Recommendation: approve the plan at 3.0 percent and buy a wider fuel band, even at a "
     "premium.</b></p>"
     "<p><b>We plan on</b> 3.0% &mdash; OECD, September 2026 &mdash; <b>review March</b>.</p>"
     "<p><b>What would change this.</b> The June alternative scenario, 1.8%. Under it we hold the "
@@ -180,24 +180,24 @@ S["q08-f10"]=lambda: f_scene(900,420, people=[("okonjo",330,182,{"seated":True})
     board=(720,24,170,110,"3 LINES",[("3.1","3.0"),("1.8","?")]))
 S["q08-f11"]=lambda: f_realia(tbl("Two summaries","The same report",
     ["Leading with growth","Leading with the clause"],
-    [["<b>Growth will be 3 per cent next year.</b> On that basis the plan is affordable and we "
+    [["<b>Growth will be 3 percent next year.</b> On that basis the plan is affordable and we "
       "recommend approval.<br><br>"
       "<i>No date, no source, no scenario. In March this page is wrong.</i>",
-      "<b>Our carrier rate reopens if fuel moves more than 8 per cent</b> (clause 7.2). I do not "
+      "<b>Our carrier rate reopens if fuel moves more than 8 percent</b> (clause 7.2). I do not "
       "know how likely that is, and it is the single thing in this plan that could move most. "
-      "Growth: 3.0 per cent, the OECD's September projection, reviewed in March.<br><br>"
+      "Growth: 3.0 percent, the OECD's September projection, reviewed in March.<br><br>"
       "<i>Leads with the uncertainty that can be acted on.</i>"]]), 540)
 S["q08-f12"]=lambda: f_realia(doc("Two executive summaries", None,
-    "<p><b>A.</b> The outlook is positive. Growth will be around three per cent. Our costs are "
+    "<p><b>A.</b> The outlook is positive. Growth will be around three percent. Our costs are "
     "under control and our carrier arrangements are secure. We recommend approval of the plan as "
     "submitted.</p>"
     "<p style='font-size:12px;color:#6b6861'>Four confident sentences, no dates, no sources, "
     "nothing anybody can check in March.</p>"
     "<p style='margin-top:14px'><b>B.</b> <b>The finding that matters most:</b> our carrier rate "
-    "reopens if fuel moves more than 8 per cent either way (clause 7.2); if it reopens, our whole "
-    "freight assumption is void, and I do not know how likely an 8 per cent move is. <b>We plan "
-    "on</b> 3.0 per cent &mdash; the OECD's September projection, revised down from 3.1 in June "
-    "&mdash; and review in March. <b>Under the 1.8 per cent scenario we hold the two Q2 hires and "
+    "reopens if fuel moves more than 8 percent either way (clause 7.2); if it reopens, our whole "
+    "freight assumption is void, and I do not know how likely an 8 percent move is. <b>We plan "
+    "on</b> 3.0 percent &mdash; the OECD's September projection, revised down from 3.1 in June "
+    "&mdash; and review in March. <b>Under the 1.8 percent scenario we hold the two Q2 hires and "
     "defer the second line</b>, decided now. <b>What this cannot tell you:</b> whether fuel will "
     "move; our two largest customers' own plans, asked for twice.</p>"))
 S["q08-f13"]=lambda: f_realia(form("One-page report planner",

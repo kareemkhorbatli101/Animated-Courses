@@ -70,7 +70,7 @@ S["c04-f9"]=lambda: f_realia(tbl("Scaling note &middot; the nightly settlement j
     [["<b>The question</b>","more, not sooner"],
      ["<b>Total run time</b>","4 h 00"],
      ["<b>The stage that cannot be shared</b>","the final merge, <b>1 h 10</b>"],
-     ["<b>Sequential fraction</b>","about 29 per cent"],
+     ["<b>Sequential fraction</b>","about 29 percent"],
      ["<b>Ceiling, fixed job</b>","about 3.4 times"],
      ["<b>Measured with twice the workers</b>","1.05 times"]],
     note="The merge takes exactly as long as before."), 560)
@@ -83,7 +83,7 @@ S["c04-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Plan A", None,
         "<p>The workers will be doubled.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Plan B", None,
-        "<p>The question: more, not sooner.<br>Sequential fraction: 29 per cent.<br>"
+        "<p>The question: more, not sooner.<br>Sequential fraction: 29 percent.<br>"
         "Ceiling: about 3.4 times.<br>Measured: 1.05 times for twice the hardware.<br>"
         "The stage that cannot be shared: the final merge.</p>"), w)[0:3],
     w=920, h=300)
@@ -146,7 +146,7 @@ S["c05-f5"]=lambda: f_realia(doc("Meridian &middot; architecture note 29",
        ["<b>partition tolerance</b>","the network is allowed to lose arbitrarily many messages"]])
     + "<p><b>Read the second definition again.</b> Availability here means every request gets a "
     "response. It is not a percentage and it is not a service-level target. A system that answers "
-    "99.99 per cent of requests is not available in this sense. The word in the theorem and the "
+    "99.99 percent of requests is not available in this sense. The word in the theorem and the "
     "word on your dashboard are different words that happen to be spelled the same.</p>"
     "<p><b>What the result says.</b> In an asynchronous network, no system can guarantee both "
     "consistency and availability in all runs, including those in which messages are lost. So the "
@@ -259,7 +259,7 @@ S["c06-f5"]=lambda: f_realia(doc("Meridian &middot; architecture note 30",
     "produced by cluster analysis of that year's answers. So the boundaries move between years. A "
     "team can move from one group to the next without changing anything it does.</p>"
     "<p><b>What follows from that.</b> The research reports associations and argues for predictive "
-    "relationships using statistical modelling. It is not a controlled experiment, and the authors "
+    "relationships using statistical modeling. It is not a controlled experiment, and the authors "
     "say so. The honest sentence is that teams with these characteristics tend to have those "
     "outcomes. This does not make the finding weak. It makes it a different shape, and the shape "
     "decides what you may do with it.</p>"

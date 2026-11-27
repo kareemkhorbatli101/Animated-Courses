@@ -54,11 +54,11 @@ S["r10-f6"]=lambda: f_realia(tbl("Word study","Verb + <i>-ing</i> or <i>to</i>",
     "you paused in order to make it. In a closure notice that is the entire message."), 540)
 S["r10-f7"]=lambda: f_chart([("birth rate, 2024",10.4),("death rate, 2024",9.2),
     ("five-year survival — born 2014, trading 2019",45.0)],
-    unit="per cent &mdash; the first two are for 2024; the third follows businesses born a decade "
+    unit="percent &mdash; the first two are for 2024; the third follows businesses born a decade "
     "earlier. Different vintages, kept apart on purpose", w=540)
 S["r10-f8"]=lambda: f_icons([("meeting","eleven chairs"),("envelope","a dated letter"),
     ("form","two dates on an order"),("shelf","spares, 2031"),
-    ("iron","a machine under cover"),("archive","a labelled box")], cols=3)
+    ("iron","a machine under cover"),("archive","a labeled box")], cols=3)
 S["r10-f9"]=lambda: f_realia(doc("Arvo Components &middot; to our DL range customers",
     "10 October",
     "<p><b>We are stopping production of the DL range on 31 March.</b> You have twelve months' "
@@ -137,11 +137,11 @@ S["r11-f4"]=lambda: f_realia(tbl("","Four ways to measure one promise",
 S["r11-f5"]=lambda: f_realia(doc("Lindmark Freight and Ostberg Retail &middot; schedule 2 (revised)",
     "for signature &middot; review date 1 April",
     "<p><b>2.1 Definition.</b> “Delivery performance” means <b>the number of orders "
-    "delivered on the promised day</b> divided by <b>the number of orders despatched in the same "
+    "delivered on the promised day</b> divided by <b>the number of orders dispatched in the same "
     "month</b>, expressed as a percentage. <b>Orders canceled by the customer are excluded from "
     "both.</b></p>"
-    "<p><b>2.2 The commitment.</b> A <b>twelve per cent relative improvement</b> on the baseline of "
-    "78.4 per cent, measured monthly and assessed on a three-month average.</p>"
+    "<p><b>2.2 The commitment.</b> A <b>twelve percent relative improvement</b> on the baseline of "
+    "78.4 percent, measured monthly and assessed on a three-month average.</p>"
     "<p><b>2.3 What this clause does not measure.</b></p>"
     + table_html(["Measure","Against baseline"],
       [["On the promised day <i>(the commitment)</i>","<b>+14%</b>"],
@@ -158,7 +158,7 @@ S["r11-f6"]=lambda: f_realia(tbl("Word study","Nominalized, and with verbs",
     [["<b>The implementation of the revised definition</b> will take place in April.",
       "<b>We will start using</b> the new definition in April."],
      ["There has been an <b>improvement in delivery performance</b>.",
-      "<b>We delivered</b> 14 per cent more orders on the promised day."],
+      "<b>We delivered</b> 14 percent more orders on the promised day."],
      ["<b>The splitting of deliveries</b> has had an <b>impact on completeness</b>.",
       "<b>We split more deliveries</b>, so <b>fewer orders arrived complete</b>."],
      ["<b>A review of the measurement methodology</b> is required.",
@@ -198,13 +198,13 @@ S["r11-f11"]=lambda: f_realia(tbl("Two reports","The same month",
       "<b>By weight on time: −3%</b><br>"
       "<i>Plus one paragraph on splitting, and a proposed definition.</i>"]]), 540)
 S["r11-f12"]=lambda: f_realia(doc("Two monthly reports", None,
-    "<p><b>A.</b> There has been an improvement in delivery performance of 14 per cent this month, "
+    "<p><b>A.</b> There has been an improvement in delivery performance of 14 percent this month, "
     "reflecting the operational changes implemented earlier in the year.</p>"
     "<p style='font-size:12px;color:#6b6861'>No actor, no definition, no mention of the two "
     "measures that got worse. Nobody did anything in this sentence.</p>"
-    "<p style='margin-top:14px'><b>B.</b> <b>We delivered 14 per cent more orders on the promised "
-    "day</b> than the 78.4 per cent baseline &mdash; that is the commitment measure. Within a "
-    "two-day window, +11 per cent. <b>Complete first time: flat. By weight on time: −3 per "
+    "<p style='margin-top:14px'><b>B.</b> <b>We delivered 14 percent more orders on the promised "
+    "day</b> than the 78.4 percent baseline &mdash; that is the commitment measure. Within a "
+    "two-day window, +11 percent. <b>Complete first time: flat. By weight on time: −3 per "
     "cent.</b> <b>We hit the promised day by splitting more orders</b>, which is why the last two "
     "are worse. Your October figure is by weight and it is right; mine is by order count and it is "
     "also right. <b>Same data, two denominators.</b></p>"))
@@ -283,7 +283,7 @@ S["r12-f9"]=lambda: f_realia(tbl("Review comments on draft 3",
       "six separate sentences, one per state","&mdash;"],
      ["2","“we have installed a heat recovery unit”",
       "“we have committed to” &mdash; it is ordered","purchase order"],
-     ["3","“energy use fell 9 per cent”",
+     ["3","“energy use fell 9 percent”",
       "add “at the two metered sites”","meter readings"],
      ["4","“we will reduce energy use by 30%”","“we aim to”","a plan"],
      ["5","“our program of improvement”",
@@ -299,7 +299,7 @@ S["r12-f10"]=lambda: f_scene(920,430, people=[("paula",290,170,{"seated":True}),
 S["r12-f11"]=lambda: f_realia(tbl("Two statements","The same company",
     ["Three sentences","Six sentences"],
     [["We are reducing energy use across our operations. We are investing in efficient equipment. "
-      "We are committed to a 30 per cent reduction.<br><br>"
+      "We are committed to a 30 percent reduction.<br><br>"
       "<i>One verb for five different states. No dates. No boundary. Every sentence true and none "
       "of them checkable.</i>",
       "We <b>replaced</b> the compressors in June and the lighting in September &mdash; both "
@@ -309,16 +309,16 @@ S["r12-f11"]=lambda: f_realia(tbl("Two statements","The same company",
       "<b>Boundary: two of four sites, 82% of floor area.</b>"]]), 540)
 S["r12-f12"]=lambda: f_realia(doc("Two statements", None,
     "<p><b>A.</b> We are reducing energy use across our operations. We are investing in more "
-    "efficient equipment at our sites. We are committed to a 30 per cent reduction by 2032.</p>"
+    "efficient equipment at our sites. We are committed to a 30 percent reduction by 2032.</p>"
     "<p style='font-size:12px;color:#6b6861'>Three sentences in one tense covering two finished "
     "projects, one half-finished, one ordered, one proposed and a target. All true, none "
     "checkable.</p>"
     "<p style='margin-top:14px'><b>B.</b> We <b>replaced</b> the compressors in <b>June</b> and the "
     "lighting in <b>September</b>; both are metered and measured energy use at those two sites "
-    "<b>fell 9 per cent</b> against the 2024 baseline. We <b>expect to</b> finish metering two "
+    "<b>fell 9 percent</b> against the 2024 baseline. We <b>expect to</b> finish metering two "
     "further sites <b>by March</b>. We <b>have committed to</b> a heat recovery unit, due Q3; it "
     "is <b>ordered and not installed</b>, and no saving from it is in any figure above. We "
-    "<b>intend to</b> review the fleet. We <b>aim to</b> cut energy use 30 per cent by 2032; "
+    "<b>intend to</b> review the fleet. We <b>aim to</b> cut energy use 30 percent by 2032; "
     "<b>there is no detailed plan behind that figure yet</b>, which is why this sentence says "
     "<i>aim</i>.</p>"))
 S["r12-f13"]=lambda: f_realia(form("Statement planner",

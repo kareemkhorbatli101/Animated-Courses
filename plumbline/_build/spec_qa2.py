@@ -437,7 +437,7 @@ S["qa07-f1"]=lambda: f_icons([("quotemark","a single word"),
     ("wordcount","running words"),("stairwell","a threshold"),
     ("noentry","unassisted: no dictionary"),("headset","spoken text"),
     ("essay","written text"),("idcard","a proper noun"),
-    ("transfer","a derivation"),("balance","per cent"),
+    ("transfer","a derivation"),("balance","percent"),
     ("scales","a ratio"),("spreadsheet","a sample"),("magnifier","a footnote")],4)
 S["qa07-f2"]=lambda: f_scene(900,420, people=[("priya",300,176,{}),
      ("nour",430,172,{"seated":True})],
@@ -447,8 +447,8 @@ S["qa07-f2"]=lambda: f_scene(900,420, people=[("priya",300,176,{}),
     clockat=(610,44,22,11,0))
 S["qa07-f3"]=lambda: f_icons([("square","the first thousand families"),
     ("square","the second thousand"),("square","four thousand"),
-    ("square","nine thousand"),("book","95 per cent: with a dictionary"),
-    ("noentry","98 per cent: without one")],3)
+    ("square","nine thousand"),("book","95 percent: with a dictionary"),
+    ("noentry","98 percent: without one")],3)
 S["qa07-f4"]=lambda: f_realia(tbl("Team research &middot; count a page of your own", None,
     ["The text","Running words counted","Words I did not know","Coverage","Could I follow it"],
     blankrows(6,5),
@@ -463,20 +463,20 @@ S["qa07-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to stu
     "thousand families, then two thousand, then three, what share of the words on an ordinary page "
     "would you already know? That share is called <b>coverage</b>.</p>"
     + table_html(["Word families known","Coverage of written text, approximately"],
-      [["1,000","about 80 per cent"],["2,000","a little under 90 per cent"],
-       ["4,000 to 5,000","about 95 per cent"],["8,000 to 9,000","about 98 per cent"],
-       ["6,000 to 7,000","about 98 per cent of <b>spoken</b> text"]])
+      [["1,000","about 80 percent"],["2,000","a little under 90 percent"],
+       ["4,000 to 5,000","about 95 percent"],["8,000 to 9,000","about 98 percent"],
+       ["6,000 to 7,000","about 98 percent of <b>spoken</b> text"]])
     + "<p>The answers are not what most students expect. The first thousand families cover about "
     "four fifths of the running words in ordinary written English. The first two thousand cover a "
     "little under nine tenths. After that the climb gets slow: every extra thousand families buys "
     "less coverage than the thousand before it.</p>"
-    "<p>At 98 per cent you meet one unknown word in every fifty. The paper treats 98 per cent as "
+    "<p>At 98 percent you meet one unknown word in every fifty. The paper treats 98 percent as "
     "the level at which a reader can manage <b>unassisted</b> &mdash; without a dictionary and "
-    "without help. Around 95 per cent, which needs four to five thousand families, a reader can "
+    "without help. Around 95 percent, which needs four to five thousand families, a reader can "
     "usually follow a text with some help.</p>"
     "<p><b>What coverage is not.</b> Coverage is a count of <b>running words</b>, not a measure of "
-    "understanding. Knowing 98 words in a hundred does not mean you understand 98 per cent of the "
-    "meaning: the two you do not know may be the two the question is about. The 98 per cent line "
+    "understanding. Knowing 98 words in a hundred does not mean you understand 98 percent of the "
+    "meaning: the two you do not know may be the two the question is about. The 98 percent line "
     "itself came from other studies of learners, not from this counting exercise, and the paper "
     "presents it as a working figure, not a law.</p>"
     "<p>A word <b>family</b> counts a base word and the forms built from it as one item, which "
@@ -493,12 +493,12 @@ S["qa07-f6"]=lambda: f_realia(tbl("How many and how much", None,
     [["<b>how many words</b>","countable","How many words do you learn a day?"],
      ["<b>how much vocabulary</b>","uncountable","How much vocabulary do I need?"],
      ["<b>a few words</b>","countable","I learned a few words from that page."],
-     ["<b>a little help</b>","uncountable","At 95 per cent you need a little help."],
+     ["<b>a little help</b>","uncountable","At 95 percent you need a little help."],
      ["<b>several families</b>",BLANK,BLANK],
      ["<b>a great deal of reading</b>",BLANK,BLANK]],
     note="Four cells are empty on purpose."), 640)
 S["qa07-f7"]=lambda: f_line([("1,000",80),("2,000",88),("4,000",94),("5,000",95),
-    ("7,000",97),("9,000",98)], unit="per cent", w=620, ymin=70, mark=(5,"98 per cent"))
+    ("7,000",97),("9,000",98)], unit="percent", w=620, ymin=70, mark=(5,"98 percent"))
 S["qa07-f8"]=lambda: f_icons([("quotemark","a single printed word"),
     ("thread","four related forms"),("book","a stack of texts"),
     ("data","a shaded page"),("noentry","no dictionary"),
@@ -531,11 +531,11 @@ S["qa07-f10"]=lambda: f_scene(940,430, people=[("priya",290,172,{}),
     clockat=(680,44,22,17,30))
 S["qa07-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Page 1", None,
-        "<p><b>Two</b> words shaded in a hundred. Coverage about 98 per cent.</p>"
+        "<p><b>Two</b> words shaded in a hundred. Coverage about 98 percent.</p>"
         "<p style='color:#6b6861;font-size:13px'>One of the two shaded words is in the question "
         "printed beneath the page.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Page 2", None,
-        "<p><b>Eight</b> words shaded in a hundred. Coverage about 92 per cent.</p>"
+        "<p><b>Eight</b> words shaded in a hundred. Coverage about 92 percent.</p>"
         "<p style='color:#6b6861;font-size:13px'>None of the eight is in any question.</p>"), w)[0:3],
     w=900, h=280)
 S["qa07-f12"]=lambda: f_panels(
@@ -544,9 +544,9 @@ S["qa07-f12"]=lambda: f_panels(
         "learn.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Note 2, rewritten", None,
         "<p>I counted one hundred running words of a science page on <b>11 February</b> and did not "
-        "know four of them, so my coverage of that page was about <b>96 per cent</b>. A published "
-        "counting study from 2006 reports that about 8,000 to 9,000 word families give 98 per cent "
-        "coverage of written English, and about 6,000 to 7,000 for spoken; at 98 per cent you meet "
+        "know four of them, so my coverage of that page was about <b>96 percent</b>. A published "
+        "counting study from 2006 reports that about 8,000 to 9,000 word families give 98 percent "
+        "coverage of written English, and about 6,000 to 7,000 for spoken; at 98 percent you meet "
         "one unknown word in fifty. One page does not measure my vocabulary size, and coverage is "
         "not understanding &mdash; the four words I did not know included the one the question was "
         "about. From this week I am reading one academic page a day and recording every word I meet "
@@ -575,7 +575,7 @@ S["qa07-f16"]=lambda: f_realia(doc("On a desk at night",
     "question printed underneath it.</p>"
     "<p><b>The vocabulary record.</b> Sixteen rows; four of them marked three times or more.</p>"
     "<p><b>A printed list of nine thousand words</b>, still in its wrapper.</p>"
-    "<p><i>Coverage of that page: about 96 per cent. Reading band 6.0. Band needed 7.0. Nineteen "
+    "<p><i>Coverage of that page: about 96 percent. Reading band 6.0. Band needed 7.0. Nineteen "
     "weeks.</i></p>",
-    "Eleven o'clock. Four thousand extra families buy the last three per cent, and nineteen weeks "
+    "Eleven o'clock. Four thousand extra families buy the last three percent, and nineteen weeks "
     "will not buy four thousand families."), 620)

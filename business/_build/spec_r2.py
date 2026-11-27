@@ -78,7 +78,7 @@ S["r04-f12"]=lambda: f_realia(doc("Two emails", None,
     "<p style='font-size:12px;color:#6b6861'>Two lines, and it starts from fault. The reply will "
     "be a defense.</p>"
     "<p style='margin-top:14px'><b>B.</b> <b>We send 4,000. You receive 3,841.</b> The gap is 159 "
-    "a month, about 4.0 per cent, and about 1,900 a year. Where it goes, as far as we can trace "
+    "a month, about 4.0 percent, and about 1,900 a year. Where it goes, as far as we can trace "
     "it: about 96 rate spread, 33 an intermediary bank, 30 disclosed fees. <b>Only the last line "
     "appears on our statement</b>, which is why it took eleven months. From the June payment: we "
     "pay in your currency, you invoice in it, and we use a visible-fee route. <b>I am not asking "
@@ -130,7 +130,7 @@ S["r05-f5"]=lambda: f_realia(doc("Arvo Components &middot; market note for the b
        ["Fastest in 2026","Europe 4.6%, Asia 4.0%, Africa 3.1%","volume"]])
     + "<p style='background:#fff3cf'><b>Value counts money, volume counts activity, and prices are "
     "the gap.</b> Our capacity decision is a volume decision, so the number that matters is "
-    "<b>3.3 per cent, cut from 4.8</b> &mdash; not the 14 per cent.</p>",
+    "<b>3.3 percent, cut from 4.8</b> &mdash; not the 14 percent.</p>",
     "WTO, Global Trade Outlook and Statistics, October 2026 update. Both figures are from this one "
     "publication, four pages apart."))
 S["r05-f6"]=lambda: f_realia(tbl("Word study","Reporting verbs, by what they commit you to",
@@ -157,7 +157,7 @@ S["r05-f9"]=lambda: f_realia(doc("Arvo Components &middot; board paper, extract"
     "<p style='font-size:15px;margin-top:-4px'><b>volume</b> growth forecast for 2026, "
     "<b>cut from 4.8%</b></p>"
     "<p style='font-size:13px;color:#6b6861'>The same publication reports services trade up "
-    "<b>14 per cent in value</b> year on year in Q1 and about 10 per cent in Q2.</p>"
+    "<b>14 percent in value</b> year on year in Q1 and about 10 percent in Q2.</p>"
     "<p style='background:#fff3cf'><b>Value counts money. Volume counts activity. Prices are the "
     "gap.</b></p>"
     "<p><b>This paper supports one decision:</b> whether to lease two additional vehicles. That is "
@@ -178,18 +178,18 @@ S["r05-f11"]=lambda: f_realia(tbl("Two slides","The same publication",
       "Value growth was +14% in Q1 &mdash; money, not activity.<br>"
       "<i>Value counts money. Volume counts activity. Prices are the gap.</i>"]]), 540)
 S["r05-f12"]=lambda: f_realia(doc("Two market notes", None,
-    "<p><b>A.</b> Our market grew by 14 per cent, the strongest figure for several years, which "
+    "<p><b>A.</b> Our market grew by 14 percent, the strongest figure for several years, which "
     "supports the planned capacity increase.</p>"
     "<p style='font-size:12px;color:#6b6861'>No label, no date, and the wrong measure for the "
     "decision in question.</p>"
     "<p style='margin-top:14px'><b>B.</b> <b>Services trade volume growth for 2026 is forecast at "
-    "3.3 per cent, revised down from 4.8.</b> Actual volume growth in 2025 was 5.3 per cent. "
-    "<b>Volume growth is slowing.</b> The same publication reports trade up <b>14 per cent in "
-    "value</b> in Q1 and about 10 per cent in Q2. <b>Value counts money. Volume counts activity. "
+    "3.3 percent, revised down from 4.8.</b> Actual volume growth in 2025 was 5.3 percent. "
+    "<b>Volume growth is slowing.</b> The same publication reports trade up <b>14 percent in "
+    "value</b> in Q1 and about 10 percent in Q2. <b>Value counts money. Volume counts activity. "
     "Prices are the gap.</b> Both figures are from the October 2026 update. The capacity decision "
     "is a volume decision.</p>"))
 S["r05-f13"]=lambda: f_realia(form("Market-note planner",
-    [("The figure the decision needs &mdash; labelled",""),("The other figure &mdash; labelled",""),
+    [("The figure the decision needs &mdash; labeled",""),("The other figure &mdash; labeled",""),
      ("The difference, in three short sentences",""),
      ("What the change is attributed to, and by whom",""),
      ("The recommendation, and why it is cautious",""),("The publication date","")]), 520)
@@ -282,7 +282,7 @@ S["r06-f10"]=lambda: f_scene(900,420, people=[("ravi",330,176,{}),("lars",470,18
 S["r06-f11"]=lambda: f_realia(tbl("Two policies","The same subject",
     ["Three rules","Six rules"],
     [["1. Gifts must be declared.<br>2. Cash must not be accepted.<br>"
-      "3. Staff should use their judgement.<br><br>"
+      "3. Staff should use their judgment.<br><br>"
       "<i>No figure. No mention of hospitality. No recusal. Nobody to ask.</i>",
       "Gifts over <b>100</b>; hospitality over <b>150</b>; cash never; facilitation payments never "
       "and reported; <b>recusal</b> where the giver is in a live process; register within seven "

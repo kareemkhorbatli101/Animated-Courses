@@ -286,7 +286,7 @@ turn right, go past, cross the road, entrance, rear, access, ground floor
 payslip, planner, overtime, break, swap, record
 
 **7** — cash, card, bank, coins, receipt, price, sale, payslip, washing machine, laptop, bicycle,
-interest, instalment, total, afford
+interest, installment, total, afford
 
 **8** — rice, bread, eggs, milk, cheese, chicken, fish, tomatoes, onions, bottle, bag, box, tin,
 packet, carton, portion, batch, leftovers, budget

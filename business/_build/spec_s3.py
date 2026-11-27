@@ -96,12 +96,12 @@ S["s07-f11"]=lambda: f_realia(tbl("Two slides","An arrow, or a band",
 S["s07-f12"]=lambda: f_realia(doc("Two location notes", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
     "<b>First.</b> The UAE has risen five places to 25th in the Global Innovation Index, an improvement "
-    "of roughly ten per cent in its business environment. Recommended as the site for the new team.</p>"
+    "of roughly ten percent in its business environment. Recommended as the site for the new team.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> The index ranks 139 economies using 79 indicators. "
     "<b>Built from 79 indicators, it is reliable about bands and loose about individual places.</b> "
     "I would believe Switzerland first for a 16th consecutive year, and Europe holding 14 of the top 25. "
     "<b>Having entered at 74th</b>, Bhutan has a starting band and no direction. The slide's claim of a "
-    "ten per cent improvement is not supported: a five-place move there can come from two or three "
+    "ten percent improvement is not supported: a five-place move there can come from two or three "
     "indicators, from better reporting, or from other economies moving. Shortlist: three economies in "
     "the top-25 band, alphabetical. Decide on engineering salary, visa processing, existing customers "
     "and flights &mdash; <b>none of which is in the index</b>.</p>",
@@ -161,7 +161,7 @@ S["s08-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; advice on the Teval 
     + "<p style='font-size:13.5px'><b>What I can infer.</b> Pending rose by 80 while new cases rose by "
       "53. <b>The stock is building faster than the inflow.</b> That is consistent with longer cases, and "
       "equally with slower tribunal constitution or more complex matters. <b>It is an inference from two "
-      "numbers and I am labelling it as mine.</b></p>"
+      "numbers and I am labeling it as mine.</b></p>"
     + "<p style='font-size:13.5px'><b>Recommendation.</b> <b>Were we to arbitrate</b>, I would apply for "
       "the expedited procedure at the outset. Before that, one settlement approach at 5.5 million.</p>",
     "Source: ICC Dispute Resolution statistics for 2025. All counts, values and sector shares are the "
@@ -190,7 +190,7 @@ S["s08-f9"]=lambda: f_realia(doc("Advice note page", None,
       [["New cases","894"],["Pending","1,869 (record)"],["Awards approved","607"],
        ["Expedited","169, up from 152"],["Construction &amp; engineering","246 (28%)"],
        ["Average amount in dispute","just over 50m"]])
-    + "<p style='font-size:13.5px'><i>My inference, labelled as mine:</i> the stock is building faster "
+    + "<p style='font-size:13.5px'><i>My inference, labeled as mine:</i> the stock is building faster "
       "than the inflow.</p>"
     "<div style='border:2px solid #8a5a1e;padding:8px 12px;font:600 15px Bricolage Grotesque,sans-serif;"
     "display:inline-block'>Settle at 5,500,000 &euro; &middot; then file with expedition</div>"
@@ -205,7 +205,7 @@ S["s08-f11"]=lambda: f_realia(tbl("Two advice notes","A duration, or a gap",
     ["","Note A","Note B"],
     [["Opens with","“arbitration takes about two years”","the figure I do not have"],
      ["Source of the duration","not stated","none — withheld deliberately"],
-     ["Inference","presented as fact","labelled as the author's"],
+     ["Inference","presented as fact","labeled as the author's"],
      ["Recommendation","proceed","one settlement approach, then expedition"]],
     note="One of these is on file if the case runs four years."), 540)
 S["s08-f12"]=lambda: f_realia(doc("Two advice notes", None,
@@ -214,7 +214,7 @@ S["s08-f12"]=lambda: f_realia(doc("Two advice notes", None,
     "full procedure, with costs budgeted at 400,000 euros.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> <b>How long an arbitration takes is not in the published "
     "statistics.</b> They give 894 new cases, 1,869 pending &mdash; a record &mdash; 607 awards approved, "
-    "169 expedited cases, construction and engineering at 28 per cent, and an average amount in dispute "
+    "169 expedited cases, construction and engineering at 28 percent, and an average amount in dispute "
     "just over 50 million dollars. Pending rose by 80 while new cases rose by 53: <b>the stock is "
     "building faster than the inflow, which is my inference and not a duration.</b> Our claim is 9 "
     "million, so we are a small case and expedition is available. <b>Were we to arbitrate</b> I would "
@@ -224,7 +224,7 @@ S["s08-f12"]=lambda: f_realia(doc("Two advice notes", None,
 S["s08-f13"]=lambda: f_realia(tbl("","Advice planner",
     ["Box","Yours"],
     [["The figure I do not have",""],["What is published",""],
-     ["My inference, labelled as mine",""],["What bears on the decision",""],
+     ["My inference, labeled as mine",""],["What bears on the decision",""],
      ["The recommendation",""],["What I will not supply",""]],
     note="Advice with a hole in it still has to reach a recommendation."), 520)
 S["s08-f14"]=lambda: f_scene(1120,470, people=[("hanna",290,166,{}),("lars",450,180,{"seated":True}),
@@ -272,7 +272,7 @@ S["s09-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; depot electrificatio
       "<b>Why both are correct.</b> Different publications, scenarios, baseline years and horizons &mdash; "
       "2035 against 2030. <b>Neither figure is a correction of the other.</b></p>"
     + "<p style='font-size:13.5px'><b>What we did first, and why it was wrong.</b> Our first draft "
-      "averaged 23 and 21 and wrote <s>22 per cent</s>. <b>22 per cent is the only figure on this page "
+      "averaged 23 and 21 and wrote <s>22 percent</s>. <b>22 percent is the only figure on this page "
       "that no publication supports.</b></p>"
     + "<p style='font-size:13.5px'><b>What we are citing.</b> The depot asset has a <b>fifteen-year "
       "life</b>, so this is a <b>2035-horizon</b> decision: the flagship outlook, stated policies "
@@ -306,10 +306,10 @@ S["s09-f9"]=lambda: f_realia(doc("Business case, first page", None,
       [["Month","autumn 2026","February 2026"],["Scenario","stated policies","&mdash;"],
        ["Start","23% today","21% in 2025"],["End","nearly 30% by 2035","24% by 2030"],
        ["Multiplier","over 4×","at least 2.5×"]])
-    + "<p style='font-size:13.5px'><s>22 per cent (averaged)</s> &mdash; <i>left crossed out so the "
+    + "<p style='font-size:13.5px'><s>22 percent (averaged)</s> &mdash; <i>left crossed out so the "
       "next person to do this arithmetic finds it already done.</i></p>"
     "<div style='border:2px solid #8a5a1e;padding:9px 12px;font-size:13.5px'><b>Cited figure:</b> "
-    "23 per cent today rising to nearly 30 per cent by 2035 &mdash; IEA, World Energy Outlook 2026, "
+    "23 percent today rising to nearly 30 percent by 2035 &mdash; IEA, World Energy Outlook 2026, "
     "stated policies scenario, autumn 2026. <b>Chosen because the asset has a fifteen-year life.</b></div>"
     "<p style='font-size:11.5px;color:#6b6861'>* IEA, Electricity 2026, February 2026: 21% in 2025 "
     "rising to 24% by 2030, at least 2.5 times as fast. Shorter horizon, lower baseline.</p>",
@@ -328,16 +328,16 @@ S["s09-f11"]=lambda: f_realia(tbl("Two first pages","Averaged, or cited",
     note="One of these meets a board member who has read the other report."), 540)
 S["s09-f12"]=lambda: f_realia(doc("Two business case pages", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
-    "<b>First.</b> According to the agency, electricity is 22 per cent of final energy consumption and "
+    "<b>First.</b> According to the agency, electricity is 22 percent of final energy consumption and "
     "rising fast. The depot should be electrified.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> The flagship outlook, stated policies scenario, autumn "
-    "2026, gives electricity rising from 23 per cent of final energy consumption today to nearly 30 per "
+    "2026, gives electricity rising from 23 percent of final energy consumption today to nearly 30 per "
     "cent by 2035, with demand growing over four times faster than total energy. The February "
-    "electricity report gives 21 per cent in 2025 rising to 24 by 2030, at least 2.5 times as fast. "
+    "electricity report gives 21 percent in 2025 rising to 24 by 2030, at least 2.5 times as fast. "
     "<b>Strictly speaking</b> the multipliers measure different periods. <b>Neither corrects the "
-    "other.</b> Our first draft averaged them to 22 per cent &mdash; a figure no publication supports. "
+    "other.</b> Our first draft averaged them to 22 percent &mdash; a figure no publication supports. "
     "The asset has a fifteen-year life, so <b>accordingly</b> we cite the 2035 horizon. The July "
-    "mid-year update's 3.6 and 3.8 per cent growth rates belong in the operating budget.</p>",
+    "mid-year update's 3.6 and 3.8 percent growth rates belong in the operating budget.</p>",
     "Leave your own wrong working visible, crossed out, with a line saying why."), 560)
 S["s09-f13"]=lambda: f_realia(tbl("","Two-figure planner",
     ["Box","Yours"],

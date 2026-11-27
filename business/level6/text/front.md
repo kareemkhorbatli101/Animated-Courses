@@ -52,7 +52,7 @@ not only in degree, and where that matters the book says so and makes finding yo
 |---|---|---|---|---|
 | | **Starting Point** | Four habits for leading on imperfect evidence | Review: hedging, versions, citation | 5 |
 | 1 | **The Mandate** | What a board is for, and what it may decide | Extraposition and *it*-structures | 9 |
-| 2 | **Trust You Did Not Earn** | Seventy-eight per cent, and who was asked | Attribution and evidentiality | 33 |
+| 2 | **Trust You Did Not Earn** | Seventy-eight percent, and who was asked | Attribution and evidentiality | 33 |
 | 3 | **Where We Pay Tax** | A rate that is not a payment | Definition and stipulation | 57 |
 | 4 | **The Investor-State Claim** | Sixty new cases, or fifty-seven | Verbs of allegation; the passive of process | 81 |
 | 5 | **Compliance and Effect** | Twelve points better, and no more effective | The mandative subjunctive | 104 |
@@ -61,7 +61,7 @@ not only in degree, and where that matters the book says so and makes finding yo
 | 8 | **The Target and the Delivery** | Ten thousand targets, two hundred removals | Commitment and *have yet to* | 174 |
 | 9 | **Longer Routes, Same Cargo** | Volume up two, tonne-miles up six | Attribution of a divergence | 198 |
 | 10 | **A Guideline Is Not a Law** | A process nobody has to attend | The modality of soft law | 221 |
-| 11 | **Wages, Productivity and the Gap** | Twenty-nine per cent against fifteen | Proportion, ratio and divergence | 245 |
+| 11 | **Wages, Productivity and the Gap** | Twenty-nine percent against fifteen | Proportion, ratio and divergence | 245 |
 | 12 | **The Long View** | A peak in the 2080s, plus or minus 1.2 billion | Scenario conditionals | 269 |
 | | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 294 |
 

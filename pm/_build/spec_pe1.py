@@ -48,7 +48,7 @@ S["pe00-f4"]=lambda: f_realia(doc("Two ways of answering one question",
     "<p style='font-size:15px'><b>“We are confident that the budget is adequate.”</b></p>"
     "<p style='font-size:12px;color:#6b6861'>Cannot be wrong. Worth nothing.</p>"
     "<p style='font-size:15px'><b>“14.2 at class 4, plus thirty minus fifteen, excluding land "
-    "and connection charges, prepared in March in this year's money; at 4 per cent escalation the "
+    "and connection charges, prepared in March in this year's money; at 4 percent escalation the "
     "same scope is 15.4 at the midpoint of construction.”</b></p>"
     "<p style='font-size:12px;color:#6b6861'>Can be checked, challenged and disproved by anybody "
     "with an afternoon.</p>"), 600)
@@ -109,15 +109,15 @@ S["pe01-f5"]=lambda: f_realia(doc("Lindhurst · cost engineering note 1",
 S["pe01-f6"]=lambda: f_realia(tbl("Word study","Ranges and accuracy",
     ["Structure","What it states","Example"],
     [["<i>plus … minus</i>","an asymmetric range",
-      "12 million, <b>plus 100 per cent, minus 50</b>."],
+      "12 million, <b>plus 100 percent, minus 50</b>."],
      ["<i>between … and</i>","the outer bounds","<b>Between</b> 6 <b>and</b> 24 million."],
      ["<i>of the order of</i>","a magnitude, not a figure","<b>Of the order of</b> 12 million."],
      ["<i>no better than</i>","the limit of the claim",
-      "Accuracy <b>no better than</b> plus or minus 30 per cent."],
+      "Accuracy <b>no better than</b> plus or minus 30 percent."],
      ["<i>to within</i>","",""],["<i>at a confidence interval of</i>","",""]],
     note="Two rows left empty on purpose."), 640)
 S["pe01-f7"]=lambda: f_chart([("class 5 (0–2 % defined)",150),("class 4",80),
-    ("class 3",50),("class 2",35),("class 1",25)], unit="per cent spread")
+    ("class 3",50),("class 2",35),("class 1",25)], unit="percent spread")
 S["pe01-f8"]=lambda: f_icons([("note","a one-page sketch"),
     ("spreadsheet","a part-complete set"),("folder","a complete design"),
     ("tally","a figure on a slide"),("scales","the figure with a range"),
@@ -125,7 +125,7 @@ S["pe01-f8"]=lambda: f_icons([("note","a one-page sketch"),
 S["pe01-f9"]=lambda: f_realia(doc("Basis of estimate · pumping station, concept",
     "12 million · class 5 · range 6 to 24",
     table_html(["",""],
-      [["Level of definition","<b>under 2 per cent</b> — a site plan and a flow figure"],
+      [["Level of definition","<b>under 2 percent</b> — a site plan and a flow figure"],
        ["Class","<b>5</b> (screening and concept)"],
        ["Typical range","<b>−50 % to +100 %</b>"],
        ["Range in figures","<b>6.0 to 24.0</b>"],
@@ -164,7 +164,7 @@ S["pe01-f12"]=lambda: f_panels(
     w=820, h=300, lt="WHAT WENT", rt="WHAT SHOULD HAVE")
 S["pe01-f13"]=lambda: f_realia(form("Basis-of-estimate planner",
     [("The figure",""),("Level of definition and class",""),
-     ("Range, in per cent and in figures",""),("What is excluded",""),
+     ("Range, in percent and in figures",""),("What is excluded",""),
      ("Money year and method",""),("What the figure may not be used for","")],
     note="Six boxes. Hand it to a partner; they ask what it excludes."), 560)
 S["pe01-f14"]=lambda: f_scene(1000,450,
@@ -221,7 +221,7 @@ S["pe02-f5"]=lambda: f_realia(doc("Lindhurst · cost engineering note 2",
     "<p><b>The paper.</b> <b>T. P. Wright</b>, <i>Factors Affecting the Cost of Airplanes</i>, "
     "<b>Journal of the Aeronautical Sciences, February 1936</b>. Labor per unit falls by a roughly "
     "constant percentage <b>each time cumulative output doubles</b> — about <b>twenty per "
-    "cent</b> in his airframe data, an <b>eighty per cent curve</b>.</p>"
+    "cent</b> in his airframe data, an <b>eighty percent curve</b>.</p>"
     + table_html(["Cumulative units","Hours for that unit","Cumulative average"],
       [["<b>1</b>","<b>180</b>","180"],["<b>2</b>","153","167"],["<b>4</b>","130","148"],
        ["<b>8</b>","111","131"],["<b>16</b>","94","116"],["<b>32</b>","80","103"],
@@ -246,10 +246,10 @@ S["pe02-f5"]=lambda: f_realia(doc("Lindhurst · cost engineering note 2",
 S["pe02-f6"]=lambda: f_realia(tbl("Word study","Proportional change",
     ["Structure","What it states","Example"],
     [["<i>for every doubling</i>","the interval of change",
-      "<b>For every doubling</b> of output, hours fall by 15 per cent."],
-     ["<i>falls by</i>","the size of the reduction","It <b>falls by</b> 15 per cent."],
+      "<b>For every doubling</b> of output, hours fall by 15 percent."],
+     ["<i>falls by</i>","the size of the reduction","It <b>falls by</b> 15 percent."],
      ["<i>falls to</i>","the remaining proportion",
-      "It <b>falls to</b> 85 per cent of the previous figure."],
+      "It <b>falls to</b> 85 percent of the previous figure."],
      ["<i>each successive</i>","the pattern across units",
       "<b>Each successive</b> unit is cheaper than the last."],
      ["<i>by a factor of</i>","",""],["<i>on a curve of</i>","",""]],
@@ -262,7 +262,7 @@ S["pe02-f8"]=lambda: f_icons([("container","a first unit on a bench"),
     ("tally","a doubling on an axis"),("noentry","a break in the line"),
     ("pallet","a pile of steel")], cols=3, numbered=False)
 S["pe02-f9"]=lambda: f_realia(tbl("Labor build-up · forty-six kiosks",
-    "85 per cent curve · first unit 180 hours · priced on continuous production",
+    "85 percent curve · first unit 180 hours · priced on continuous production",
     ["Unit","Hours","Cumulative total","Cumulative average","Note"],
     [["1","<b>180</b>","180","180","first of type"],
      ["2","153","333","167","one doubling"],
@@ -295,7 +295,7 @@ S["pe02-f12"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Before","The bid",
       "<p><i>46 units at 180 hours each.</i></p>"), 380),
     lambda w,h: f_realia(doc("After","The build-up",
-      "<p><i>Hours fall to 85 per cent of the previous figure for every doubling; cumulative average "
+      "<p><i>Hours fall to 85 percent of the previous figure for every doubling; cumulative average "
       "96 hours; rate from our own timesheets; continuity priced.</i></p>"), 380),
     w=820, h=300, lt="A MULTIPLICATION", rt="A METHOD")
 S["pe02-f13"]=lambda: f_realia(form("Build-up planner",
@@ -383,7 +383,7 @@ S["pe03-f5"]=lambda: f_realia(doc("Lindhurst · cost engineering note 3",
     "favor.</b></p>"
     "<p><b>Excluded:</b> land, client staff time, tax, income, residual value — and "
     "<b>emissions</b>, so <b>this is a life-cycle cost and not a whole-life cost</b>. B uses about "
-    "forty per cent less energy, so pricing emissions would <b>widen</b> B's advantage.</p>",
+    "forty percent less energy, so pricing emissions would <b>widen</b> B's advantage.</p>",
     "Source: ISO 15686-5:2017, Buildings and constructed assets — Service life planning — "
     "Part 5: Life-cycle costing, second edition, replacing the 2008 edition. It distinguishes "
     "life-cycle cost from whole-life cost and requires the period of analysis, discount rate, basis "
@@ -399,7 +399,7 @@ S["pe03-f6"]=lambda: f_realia(tbl("Word study","Long horizons",
      ["<i>in present-value terms</i>","that figures are discounted",
       "Cheaper by 0.71 <b>in present-value terms</b>."],
      ["<i>at a real discount rate of</i>","the rate, inflation removed",
-      "<b>At a real discount rate of</b> 3.5 per cent."],
+      "<b>At a real discount rate of</b> 3.5 percent."],
      ["<i>over the life of</i>","",""],["<i>is expected to</i>","",""]],
     note="Two rows left empty on purpose."), 640)
 S["pe03-f7"]=lambda: f_line([("yr 0",1800),("yr 3",2400),("yr 6",2950),("yr 9",3460),
@@ -421,7 +421,7 @@ S["pe03-f9"]=lambda: f_realia(doc("Life-cycle cost · pump options A and B",
     + "<p><b>Assumed service life:</b> pump nameplate <b>20 years</b>; station <b>50 years</b>.</p>"
     "<p><b>Excluded:</b> land, client staff, tax, income, residual value, <b>emissions</b>.</p>"
     "<p style='font-size:15px'><b>THIS IS A LIFE-CYCLE COST AND NOT A WHOLE-LIFE COST.</b></p>",
-    "The period of analysis and the discount rate are policy, not arithmetic. At 10 per cent real "
+    "The period of analysis and the discount rate are policy, not arithmetic. At 10 percent real "
     "the two options are within 0.03 of each other."), 620)
 S["pe03-f10"]=lambda: f_scene(860,400,
     people=[("oksana",110,174,{}),("okonjo",320,176,{"seated":True}),

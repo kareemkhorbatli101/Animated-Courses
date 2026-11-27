@@ -36,7 +36,7 @@ the column worth reading twice.
 |---|---|
 | ***fewer*** things you count · ***less*** things you measure | *fewer orders, less delay* |
 | ***a few*** = some · ***few*** = hardly any | one is a Tuesday, the other is a success |
-| ***per cent*** ≠ ***percentage point*** | 13.5 to 20 is 6.5 points and about 48 per cent |
+| ***percent*** ≠ ***percentage point*** | 13.5 to 20 is 6.5 points and about 48 percent |
 | **Round for a slide, exact for the appendix** | and say which you are doing |
 
 ## Unit 4 · Future forms for changed plans
@@ -159,7 +159,7 @@ Teacher's Book.
 | **5** | a case · a ticket · a reference · to escalate · to transfer · to hold · a callback · an apology · a resolution · a root cause · to acknowledge · to interrupt · to repeat · to confirm · to follow up · to close a case |
 | **6** | a time zone · an offset · an overlap · working hours · a window · a handover · asynchronous · a recording · a public holiday · local time · to convert · to schedule · to overlap · to cover · overnight · out of hours |
 | **7** | a vacancy · a job description · a requirement · a candidate · a shortlist · an interview · a scorecard · a reference · an offer · a notice period · an induction · a handover · to advertise · to shortlist · to appoint · to onboard |
-| **8** | a report · an executive summary · a finding · a conclusion · a recommendation · an assumption · a limitation · a footnote · an appendix · a projection · to analyse · to conclude · to recommend · to assume · to qualify · as a result |
+| **8** | a report · an executive summary · a finding · a conclusion · a recommendation · an assumption · a limitation · a footnote · an appendix · a projection · to analyze · to conclude · to recommend · to assume · to qualify · as a result |
 | **9** | a risk · a hazard · likelihood · impact · a mitigation · a control · a register · business interruption · a contingency · insurance · an excess · to assess · to mitigate · to transfer · to accept · to escalate |
 | **10** | an audit · an auditor · a finding · evidence · a sample · traceability · a non-conformance · an observation · a corrective action · a certificate · scope · to verify · to sample · to trace · to close out · objective |
 | **11** | a trip · an itinerary · a boarding pass · a transfer · a visa · an invitation letter · a visitor badge · a host · a tour · expenses · a receipt · to board · to check in · to be met · to be shown round · to host |
@@ -176,8 +176,8 @@ Clearline Foundation or Clearline 1.
 | 1 | World Bank, *Connecting to Compete 2023* (Logistics Performance Index) | 139 economies ranked; Singapore first; the top ten average 4.1 out of 5 on service quality against 4.0 in 2018 |
 | 2 | Asian Development Bank, *Global Trade Finance Gap Survey*, 9th edition, January 2026 | 2.5 trillion dollars in 2025, unchanged from 2023; about 10% of global trade, down from 10.6%; 1.5 trillion in 2015; SME rejection 41% against 40% for large and mid-cap firms; 110+ providers surveyed |
 | 3 | WIPO, *World Intellectual Property Indicators 2025* (12 November 2025, for 2024) | About 3.7 million patent applications, up 4.9% — the fastest growth since 2018 and the fifth straight rise; CNIPA about 1.8 million (+9%), USPTO 603,194, JPO 306,855, KIPO 246,245; designs about 1.22 million (+2.6%); trademarks flat; Asia about seven in ten |
-| 4 | IATA full-year 2025 air cargo data, January 2026 | Demand +3.4% in cargo tonne-kilometres (international +4.2%); capacity +3.7%; Asia-Pacific +8.4%; North America −1.3%, the only region to fall; yields −1.5%; 2026 forecast +2.4% |
-| 5 | Eurostat, AI use in enterprises, December 2025 release and the 2026 *Key results* report | 20.0% of EU enterprises with 10 or more employees used AI in 2025, up 6.5 percentage points from 13.5%; 7.7% in 2021; country range about 5% to 42%; analysing written language 11.8% |
+| 4 | IATA full-year 2025 air cargo data, January 2026 | Demand +3.4% in cargo tonne-kilometers (international +4.2%); capacity +3.7%; Asia-Pacific +8.4%; North America −1.3%, the only region to fall; yields −1.5%; 2026 forecast +2.4% |
+| 5 | Eurostat, AI use in enterprises, December 2025 release and the 2026 *Key results* report | 20.0% of EU enterprises with 10 or more employees used AI in 2025, up 6.5 percentage points from 13.5%; 7.7% in 2021; country range about 5% to 42%; analyzing written language 11.8% |
 | 6 | Eurostat Labour Force Survey 2025, reported June 2026 | About 9% of employed people in the EU usually work from home; Finland about 20.5%, Romania 1.3%, Germany 13%, France 11%, Spain 7.9%, Italy 2.7%; self-employed 18.9% against employees 7.3% |
 | 7 | ILO, *Global Wage Report 2024–25*, and *Employment and Social Trends 2026* | Global real wage growth 2.7% in 2024 — the largest in fifteen years — after 1.8% in 2023 and −0.9% in 2022; global labour income share 52.6% in 2025 |
 | 8 | OECD, *Economic Outlook Interim Report*, September 2026 | Global growth projected at 2.9% in 2026 and 3.0% in 2027, the 2027 figure revised down from 3.1%; G20 headline inflation 4.1% then 3.6%; United States 2.2% then 2.1%; China 4.5% then 4.2%; the June 2026 Outlook gave 3.1% for 2027 under a time-limited disruption and 1.8% under a prolonged one |
@@ -204,19 +204,19 @@ Clearline Foundation or Clearline 1.
   is to write one sentence containing both facts, and the *Reader's Tip* says plainly that anybody
   who gives you only one of them is selling you something.
 - **Unit 8 is about a forecast that moved while nobody was looking.** The OECD's projection for
-  2027 was 3.1 per cent in June 2026 and 3.0 per cent in September, and June's own alternative
-  scenario put it at 1.8 per cent. None of those is an error. The unit's model report quotes the
+  2027 was 3.1 percent in June 2026 and 3.0 percent in September, and June's own alternative
+  scenario put it at 1.8 percent. None of those is an error. The unit's model report quotes the
   most recent figure **with its publication date**, names the scenario it is not planning on, and
   writes down in advance what the company would do if that scenario arrived.
 - **Unit 6's figure depends entirely on its definition.** Eurostat counts somebody as usually
   working from home if they do so for at least half the days worked in a four-week reference
   period, so a person working two days a week at home is not counted at all. Reports of the same
-  release give the EU average as 8.8, 8.9 or 9 per cent, and Finland's as 20.5 or 20.9. The unit
-  prints "about 9 per cent" and teaches the learner to ignore the decimal and interrogate the
+  release give the EU average as 8.8, 8.9 or 9 percent, and Finland's as 20.5 or 20.9. The unit
+  prints "about 9 percent" and teaches the learner to ignore the decimal and interrogate the
   definition.
 - **Unit 2 quotes the caveat the ADB printed about its own estimate.** The Bank says the gap may
   partly reflect cyclical factors rather than lack of access, and that no comprehensive dataset of
-  trade finance demand and supply exists, so the figure rests on survey modelling rather than on
+  trade finance demand and supply exists, so the figure rests on survey modeling rather than on
   counted transactions. The unit prints that sentence beside the figure, because a statistician who
   publishes their own limitations has earned the courtesy of having them quoted.
 

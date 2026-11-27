@@ -53,7 +53,7 @@ S["pb04-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 4",
     "know about your own job.</p>"
     "<p><b>Our own thirty.</b> The estimator's file holds <b>30</b> dates stated <b>in writing</b> "
     "for packages that later finished. <b>Nine</b> were met. The average overrun on the other "
-    "twenty-one was <b>38 per cent</b>. Of the <b>17</b> with a stated worst case, <b>11</b> took "
+    "twenty-one was <b>38 percent</b>. Of the <b>17</b> with a stated worst case, <b>11</b> took "
     "longer than that worst case.</p>"
     "<p><b>The one thing that changed anybody's answer.</b> Two questions, one afternoon, the same "
     "eight people. <i>How long will the control panel take?</i> &mdash; average <b>five weeks</b>. "
@@ -81,8 +81,8 @@ S["pb04-f6"]=lambda: f_realia(tbl("Reporting what somebody said", None,
      ["&ldquo;It <b>may</b> slip.&rdquo;","&nbsp;","&nbsp;"],
      ["&ldquo;We <b>must</b> order today.&rdquo;","&nbsp;","&nbsp;"]],
     note="<b>Said</b> takes no person; <b>told</b> needs one."), 640)
-S["pb04-f7"]=lambda: f_chart([("met the date",9),("overran by under 10 per cent",5),
-    ("by 10 to 30 per cent",8),("by over 30 per cent",8),("no date recorded",4)],
+S["pb04-f7"]=lambda: f_chart([("met the date",9),("overran by under 10 percent",5),
+    ("by 10 to 30 percent",8),("by over 30 percent",8),("no date recorded",4)],
     unit="predictions")
 S["pb04-f8"]=lambda: f_icons([("note","a prediction being written"),
     ("star","a date met"),("danger","a date missed"),
@@ -198,8 +198,8 @@ S["pb05-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 5",
     + "<p><b>Why it was thought necessary.</b> An earlier study with Holm and Buhl examined "
     "<b>258</b> transport projects in <b>20</b> countries over about <b>70 years</b>.</p>"
     + table_html(["Type","Average cost overrun"],
-      [["rail","<b>44.7 per cent</b>"],["bridges and tunnels","<b>33.8 per cent</b>"],
-       ["roads","<b>20.4 per cent</b>"]])
+      [["rail","<b>44.7 percent</b>"],["bridges and tunnels","<b>33.8 percent</b>"],
+       ["roads","<b>20.4 percent</b>"]])
     + "<p><b>The inaccuracy had not improved over seventy years.</b> Demand forecasts were no "
     "better: for rail, actual passenger numbers were on average about <b>half</b> of those "
     "forecast.</p>"
@@ -210,8 +210,8 @@ S["pb05-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 5",
     "flattering class.</p>"
     "<p><b>Our nineteen.</b> Lindhurst has finished <b>19</b> pump stations in about twelve years "
     "and knows what each finally cost. Median overrun against the approved figure: <b>22 per "
-    "cent</b>. <b>Two</b> hit unexpected rock and overran by more than <b>90 per cent</b>; exclude "
-    "them and the median falls to <b>12 per cent</b>, treat them as ordinary members and a prudent "
+    "cent</b>. <b>Two</b> hit unexpected rock and overran by more than <b>90 percent</b>; exclude "
+    "them and the median falls to <b>12 percent</b>, treat them as ordinary members and a prudent "
     "figure is nearer <b>38</b>. <b>The method is arithmetic after step one. Step one is an "
     "argument.</b></p>"
     "<p><b>What it needs, and cannot do.</b> <b>Enough finished projects with real outturns "
@@ -228,17 +228,17 @@ S["pb05-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 5",
 S["pb05-f6"]=lambda: f_realia(tbl("Comparing with data", None,
     ["Structure","What it does","Example"],
     [["<b>higher than</b>","one number against another","Rail is <b>higher than</b> roads."],
-     ["<b>22 per cent higher than</b>","gives the size of the gap",
-      "<b>22 per cent higher than</b> approved."],
+     ["<b>22 percent higher than</b>","gives the size of the gap",
+      "<b>22 percent higher than</b> approved."],
      ["<b>twice as &hellip; as</b>","a multiple",
       "Rail overran <b>twice as</b> much <b>as</b> roads."],
      ["<b>compared with</b>","sets two figures side by side",
-      "44.7 per cent, <b>compared with</b> 20.4."],
+      "44.7 percent, <b>compared with</b> 20.4."],
      ["<b>by a factor of</b>","&nbsp;","&nbsp;"],
      ["<b>the same as</b>","&nbsp;","&nbsp;"]],
     note="A percentage with no base is not a number. <i>Higher than what?</i>"), 640)
-S["pb05-f7"]=lambda: f_chart([("under 5 per cent",3),("5 to 20 per cent",6),
-    ("20 to 40 per cent",6),("40 to 90 per cent",2),("over 90 per cent",2)],
+S["pb05-f7"]=lambda: f_chart([("under 5 percent",3),("5 to 20 percent",6),
+    ("20 to 40 percent",6),("40 to 90 percent",2),("over 90 percent",2)],
     unit="finished stations")
 S["pb05-f8"]=lambda: f_icons([("folder","a set of similar projects"),
     ("scales","a distribution with a median"),("star","your project placed on it"),
@@ -257,7 +257,7 @@ S["pb05-f9"]=lambda: f_realia(tbl("Reference class sheet",
      ["Northgate B","2023","2.60","3.15","21%","yes"],
      ["Harbour south","2024","2.45","2.72","11%","yes"]],
     numcols=(1,2,3),
-    note="<b>Median 22 per cent in the class of nineteen; 12 per cent without these two.</b> Both "
+    note="<b>Median 22 percent in the class of nineteen; 12 percent without these two.</b> Both "
     "exclusions had one borehole; this project has four."), 720)
 S["pb05-f10"]=lambda: f_scene(960,440, people=[("priya",290,172,{}),
      ("nkemelu",400,176,{"seated":True}),("okonjo",520,172,{})],
@@ -269,7 +269,7 @@ S["pb05-f10"]=lambda: f_scene(960,440, people=[("priya",290,172,{}),
 S["pb05-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Forecast 1", None,
         "<p style='font-size:22px'><b>2.40 million</b></p>"
-        "<p>Plus a contingency of <b>10 per cent</b>.</p>"
+        "<p>Plus a contingency of <b>10 percent</b>.</p>"
         "<p style='color:#6b6861;font-size:13px'>There is no past in this document.</p>"
         ), w)[0:3],
     lambda w,h: f_realia(doc("Forecast 2", None,
@@ -282,9 +282,9 @@ S["pb05-f11"]=lambda: f_panels(
     w=940, h=280)
 S["pb05-f12"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Forecast, as submitted", None,
-        "<p><b>2.40 million, with a ten per cent contingency.</b></p>"), w)[0:3],
+        "<p><b>2.40 million, with a ten percent contingency.</b></p>"), w)[0:3],
     lambda w,h: f_realia(doc("Forecast, rebuilt", None,
-        "<p><b>2.70 million.</b> Nineteen finished stations, median <b>22 per cent above</b> "
+        "<p><b>2.70 million.</b> Nineteen finished stations, median <b>22 percent above</b> "
         "approval; <b>two excluded</b> (one borehole each against our four), giving <b>12 per "
         "cent</b>.</p>"
         "<p><b>Risk carried by the exclusion:</b> a missed rock shelf makes this a 90-per-cent "
@@ -312,7 +312,7 @@ S["pb05-f16"]=lambda: f_realia(doc("On a desk in May",
     "<p><b>The nineteen-row list.</b> Two rows circled.</p>"
     "<p><b>A borehole log.</b> One hole on each of the two old projects; <b>four</b> on this "
     "one.</p>"
-    "<p><b>A sheet of three figures.</b> <b>12</b>, <b>22</b>, <b>38</b> per cent.</p>"
+    "<p><b>A sheet of three figures.</b> <b>12</b>, <b>22</b>, <b>38</b> percent.</p>"
     "<p><b>A journal page from 2006.</b></p>"
     "<p><b>A note of three sentences.</b> <i>The arithmetic in this method is trivial and the only "
     "decision that matters is which projects count, which is why it should be written in one "
@@ -356,21 +356,21 @@ S["pb06-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 6",
     "using <b>empirically based</b> percentages, applied to <b>capital costs</b>, <b>works "
     "duration</b> and <b>benefits</b> &mdash; all three.</p>"
     + table_html(["Project type","Upper bound, capital cost"],
-      [["standard buildings","<b>24 per cent</b>"],["non-standard buildings","<b>51 per cent</b>"],
-       ["standard civil engineering","<b>44 per cent</b>"],
-       ["non-standard civil engineering","<b>66 per cent</b>"],
-       ["equipment and development","<b>200 per cent</b>"]])
-    + "<p>For <b>works duration</b> the upper bounds are lower: about <b>4 per cent</b> for "
-    "standard buildings and <b>20 per cent</b> for standard civil engineering.</p>"
+      [["standard buildings","<b>24 percent</b>"],["non-standard buildings","<b>51 percent</b>"],
+       ["standard civil engineering","<b>44 percent</b>"],
+       ["non-standard civil engineering","<b>66 percent</b>"],
+       ["equipment and development","<b>200 percent</b>"]])
+    + "<p>For <b>works duration</b> the upper bounds are lower: about <b>4 percent</b> for "
+    "standard buildings and <b>20 percent</b> for standard civil engineering.</p>"
     "<p><b>How they are meant to be used.</b> You <b>start at the upper bound</b> and <b>reduce it "
     "only with evidence</b> that the causes of overrun have been managed. <b>An uplift is not a "
     "number you invent; it is a number you argue down.</b></p>"
     + table_html(["On this project",""],
       [["engineer's estimate","<b>2.40 million</b>"],
-       ["standard civil engineering, 44 per cent","<b>3.46 million</b>"],
-       ["our own nineteen stations, median 22 per cent","<b>2.93 million</b>"],
+       ["standard civil engineering, 44 percent","<b>3.46 million</b>"],
+       ["our own nineteen stations, median 22 percent","<b>2.93 million</b>"],
        ["<b>the figure in the paper</b>","<b>2.70 million</b>"]])
-    + "<p><b>The word that is worth half a million.</b> Non-standard is <b>66 per cent</b>, not 44 "
+    + "<p><b>The word that is worth half a million.</b> Non-standard is <b>66 percent</b>, not 44 "
     "&mdash; about <b>530,000</b> on this estimate. The chamber design is new to us, so <b>an "
     "honest person could call it either</b>. The word is argued at the gate and <b>minuted</b>.</p>"
     "<p><b>An uplift is not a contingency.</b> A contingency sits <b>inside</b> the budget and is "
@@ -387,11 +387,11 @@ S["pb06-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 6",
     "analysis, and offers no test for whether a project is standard."), 620)
 S["pb06-f6"]=lambda: f_realia(tbl("Percentages and increases", None,
     ["Structure","What it does","Example"],
-    [["<b>increase by</b>","the size of the change","Costs <b>increase by</b> 44 per cent."],
+    [["<b>increase by</b>","the size of the change","Costs <b>increase by</b> 44 percent."],
      ["<b>increase to</b>","the new level","Costs <b>increase to</b> 3.46 million."],
      ["<b>rise from &hellip; to</b>","both levels",
       "It <b>rises from</b> 2.40 <b>to</b> 2.70 million."],
-     ["<b>an uplift of</b>","names the adjustment","<b>An uplift of</b> 22 per cent."],
+     ["<b>an uplift of</b>","names the adjustment","<b>An uplift of</b> 22 percent."],
      ["<b>add &hellip; to</b>","&nbsp;","&nbsp;"],
      ["<b>reduce from &hellip; to</b>","&nbsp;","&nbsp;"]],
     note="<b>By</b> is the change; <b>to</b> is the level. In a board paper the mistake is "
@@ -436,8 +436,8 @@ S["pb06-f12"]=lambda: f_panels(
         "<p><b>2.58 million, allowance included.</b></p>"), w)[0:3],
     lambda w,h: f_realia(doc("Paper, rewritten", None,
         "<p style='line-height:1.85'>Base <b>2.40</b>.<br>"
-        "Upper bound increases it <b>by 44 per cent, to 3.46</b>.<br>"
-        "Reduced <b>from 44 to 12 per cent</b> on nineteen finished stations and four "
+        "Upper bound increases it <b>by 44 percent, to 3.46</b>.<br>"
+        "Reduced <b>from 44 to 12 percent</b> on nineteen finished stations and four "
         "boreholes: <b>2.70</b>.<br>"
         "<b>The 300,000 is not contingency and may not be spent.</b></p>"), w)[0:3],
     w=940, h=270)

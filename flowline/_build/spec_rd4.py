@@ -12,7 +12,7 @@ def blankrows(n, c): return [[BLANK]*c for _ in range(n)]
 S["rd10-f1"]=lambda: f_icons([("boiler","a furnace stack with a fuel meter"),
     ("hot","a flare"),("wind","a vent to atmosphere"),
     ("magnifier","a gas detector at a flange"),("truck","a vehicle"),
-    ("fusebox","a purchased electricity meter"),("data","a fifty per cent holding"),
+    ("fusebox","a purchased electricity meter"),("data","a fifty percent holding"),
     ("certificate","an operating agreement"),("map","a boundary around part of a group"),
     ("table","an emission factor"),("calculator","a mass balance"),
     ("thermostat","a measured stack analyzer"),("balance","an uncertainty range"),
@@ -68,11 +68,11 @@ S["rd10-f6"]=lambda: f_realia(tbl("Word study",
     note="Two rows are empty: <i>on an equity share basis</i> and <i>on an operational control "
     "basis</i>. Those two phrases are the whole unit."), 680)
 S["rd10-f7"]=lambda: f_matrix(["Our share","We operate it","Equity basis","Control basis"],
-    [("Mureij refinery",["100 per cent","yes","in","in"]),
-     ("Deir field",["100 per cent","yes","in","in"]),
-     ("Hasakah station",["60 per cent","yes","0.6 of it","all of it"]),
-     ("Banias terminal",["50 per cent","no","0.5 of it","<b>out</b>"]),
-     ("Homs joint plant",["25 per cent","no","0.25 of it","<b>out</b>"]),
+    [("Mureij refinery",["100 percent","yes","in","in"]),
+     ("Deir field",["100 percent","yes","in","in"]),
+     ("Hasakah station",["60 percent","yes","0.6 of it","all of it"]),
+     ("Banias terminal",["50 percent","no","0.5 of it","<b>out</b>"]),
+     ("Homs joint plant",["25 percent","no","0.25 of it","<b>out</b>"]),
      ("<b>Total, Mt CO2e</b>",["&mdash;","&mdash;","<b>2.41</b>","<b>1.84</b>"])], 660)
 S["rd10-f8"]=lambda: f_icons([("boiler","a plant we operate and wholly own"),
     ("container","a plant we operate and half own"),("map","a plant we half own and do not operate"),
@@ -92,28 +92,28 @@ S["rd10-f9"]=lambda: f_realia(tbl("Emissions inventory summary &mdash; last year
      ["Previous year as first reported","2.14","on the equity basis","&mdash;"],
      ["Previous year restated","1.88","on this year's basis","&mdash;"]],
     note="<b>Two of the six carry most of the uncertainty.</b> The fall from 2.14 to 1.84 is 14 per "
-    "cent. The fall from 1.88 to 1.84 is 2 per cent, and it is the honest one."), 660)
+    "cent. The fall from 1.88 to 1.84 is 2 percent, and it is the honest one."), 660)
 S["rd10-f10"]=lambda: f_scene(800,400,
     people=[("yara",180,180,{}),("haddad",620,180,{"seated":True}),("omar",300,176,{})],
     props=[("table",150,0,0.95),("spreadsheet",230,198,0.2),("table",580,0,0.9),
      ("review",660,198,0.2),("map",430,196,0.22)],
     clockat=(60,40,22,2,0))
 S["rd10-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Report A",None,
-    "<p>Group emissions: 1.84 Mt CO2e, a fall of 14 per cent on the previous year.</p>",None),380)[0:3],
+    "<p>Group emissions: 1.84 Mt CO2e, a fall of 14 percent on the previous year.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Report B",None,
     "<p>1.84 Mt CO2e, <b>on an operational control basis</b>; 2.41 on an equity share basis. Six "
     "categories with their methods and uncertainty bands, two of them wide. Previous year <b>restated "
-    "to 1.88</b> on this basis. <b>The real fall is 2 per cent; the other 12 points are an asset "
+    "to 1.88</b> on this basis. <b>The real fall is 2 percent; the other 12 points are an asset "
     "sale.</b></p>",None),380)[0:3],
-    800,300,"A fourteen per cent fall","A two per cent fall and a boundary change")
+    800,300,"A fourteen percent fall","A two percent fall and a boundary change")
 S["rd10-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
-    "<p>Emissions fell 14 per cent last year, to 1.84 million tonnes. A strong result.</p>",
+    "<p>Emissions fell 14 percent last year, to 1.84 million tonnes. A strong result.</p>",
     None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>1.84 Mt CO2e on an <b>operational control basis</b>, 2.41 on an <b>equity share basis</b>. Six "
     "categories, with <b>flaring and venting carrying most of the uncertainty</b> and both estimated "
-    "rather than measured. The headline 14 per cent includes the sale of a half share in the terminal; "
-    "<b>restated like for like, the fall is 2 per cent</b>. I would not put the 14 in a press "
+    "rather than measured. The headline 14 percent includes the sale of a half share in the terminal; "
+    "<b>restated like for like, the fall is 2 percent</b>. I would not put the 14 in a press "
     "release.</p>",None),380)[0:3],
     800,300,"A strong result","A restatement")
 S["rd10-f13"]=lambda: f_realia(form("Plan your emissions note",
@@ -135,11 +135,11 @@ S["rd10-f14"]=lambda: f_scene(1000,450,
 S["rd10-f15"]=lambda: f_chart([("yes",3),("somebody knows",5),("no",6),
     ("we do not report emissions",3),("I did not know there was a choice",6)], unit="operators")
 S["rd10-f16"]=lambda: f_realia(doc("On a desk in the evening",
-    "Fourteen per cent, twelve of it a signature",
-    "<p><b>An emissions inventory</b> showing a fall of fourteen per cent.</p>"
+    "Fourteen percent, twelve of it a signature",
+    "<p><b>An emissions inventory</b> showing a fall of fourteen percent.</p>"
     "<p><b>A note</b> showing that twelve points of it was the sale of a half share.</p>"
     "<p><b>A press release</b> quoting the fourteen.</p>"
-    "<p><b>A restated previous year</b>, on the same basis, showing a fall of two per cent.</p>"
+    "<p><b>A restated previous year</b>, on the same basis, showing a fall of two percent.</p>"
     "<p><b>A gas detector</b> at a flange, which is where the uncertain categories live.</p>"
     "<p><i>Nobody did anything wrong with a number. The boundary moved and the comparison did "
     "not.</i></p>",

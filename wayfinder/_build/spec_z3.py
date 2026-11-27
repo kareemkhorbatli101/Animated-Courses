@@ -50,7 +50,7 @@ S["z07-f6"]=lambda: f_realia(tbl("Word study","What the verb carries",
      ["acknowledged","",""],["dismissed","",""]]), 540)
 S["z07-f7"]=lambda: f_chart([("feel they have a say",69),("feel they do not",22),
     ("could voice an opinion locally",41)],
-    unit="per cent · the first two differ by 47 points", w=540)
+    unit="percent · the first two differ by 47 points", w=540)
 S["z07-f8"]=lambda: f_icons([("podium","at a lectern"),("meeting","across a desk"),
     ("phone","a phone call"),("door","in a doorway"),
     ("messages","a message on a screen"),("book","reading aloud")], cols=3)
@@ -127,10 +127,10 @@ S["z08-f2"]=lambda: f_scene(1000,440, people=[("ahmad",640,180,{}),
 S["z08-f3"]=lambda: f_icons([("noentry","refusing to engage"),("handshake","a small concession"),
     ("balance","a large one, and continuing"),("megaphone","overstating"),
     ("sad","climbing down"),("meeting","common ground")], cols=3)
-S["z08-f4"]=lambda: f_realia(tbl("","Name your own thirty per cent",
+S["z08-f4"]=lambda: f_realia(tbl("","Name your own thirty percent",
     ["My position","The strongest objection","Before","After"],
     [["","","",""],["","","",""],["","","",""]],
-    note="Confidence before and after stating the objection, in per cent."), 540)
+    note="Confidence before and after stating the objection, in percent."), 540)
 S["z08-f5"]=lambda: f_realia(doc("Portmere Civic Forum · note for tomorrow's debate",
     "Twenty-six, seven and five",
     "<p><b>The partisan gap.</b> Trust in national government runs about <b>26 percentage points "
@@ -189,7 +189,7 @@ S["z08-f12"]=lambda: f_realia(doc("Two openings", None,
     "class a fixed room. Second, it is within the existing allocation. Third, it allows "
     "publication in March.</p>"
     "<p style='font-size:12px;color:#6b6861'>No objection named. No confidence given.</p>"
-    "<p style='margin-top:14px'><b>B.</b> I support this at about seventy per cent and I want to "
+    "<p style='margin-top:14px'><b>B.</b> I support this at about seventy percent and I want to "
     "set out the thirty first, because it is the strongest thing anybody will say this afternoon. "
     "The evening students were not consulted. Not inadequately: not at all.</p>"
     "<p style='font-size:12px;color:#6b6861'>A number, and the objection at full strength.</p>"))
@@ -266,7 +266,7 @@ S["z09-f8"]=lambda: f_icons([("essay","a dense page of terms"),("flashcard","a s
 S["z09-f9"]=lambda: f_realia(doc("Leaflet proof · PM-LEAF-14 · third revision",
     "Text box: 120 words &nbsp;·&nbsp; supplied: 410",
     "<p>The Service is committed to providing accessible support to all members of the community "
-    "irrespective of their circumstances, and we endeavour to ensure that every enquiry receives "
+    "irrespective of their circumstances, and we endeavour to ensure that every inquiry receives "
     "a prompt and courteous response …</p>"
     "<p><i>[ text continues past the edge of the box ]</i></p>"
     "<p style='font-size:12px;color:#6b6861'><b>Pencil, in the margin:</b> what is each sentence "

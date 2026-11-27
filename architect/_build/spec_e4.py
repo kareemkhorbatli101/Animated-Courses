@@ -160,13 +160,13 @@ S["e11-f5"]=lambda: f_realia(doc("Meridian &middot; architecture note 50",
       [["<b>actually yes</b>","<b>26</b>","<b>37</b>"],
        ["<b>actually no</b>","43","<b>4,094</b>"]])
     + "<p style='border-left:3px solid #d9d4c9;padding-left:10px'><b>The figure that was true and "
-    "useless.</b> A slide in February carried 98.1 per cent accuracy. The figure was correctly "
-    "computed. The class it is meant to find occurs in about 1.5 per cent of cases. A classifier "
-    "that answers no to everything scores 98.5 per cent on this data and finds nothing. That is the "
+    "useless.</b> A slide in February carried 98.1 percent accuracy. The figure was correctly "
+    "computed. The class it is meant to find occurs in about 1.5 percent of cases. A classifier "
+    "that answers no to everything scores 98.5 percent on this data and finds nothing. That is the "
     "baseline, and it is higher than the figure on the slide.</p>"
-    "<p><b>The honest sentence.</b> Recall 41 per cent, precision 38 per cent, at a threshold of "
+    "<p><b>The honest sentence.</b> Recall 41 percent, precision 38 percent, at a threshold of "
     "0.5, on a held-out set of 4,200 cases from the last two quarters, against a majority-class "
-    "baseline of 98.5 per cent accuracy. That sentence stopped a rollout.</p>"
+    "baseline of 98.5 percent accuracy. That sentence stopped a rollout.</p>"
     "<p><b>What the document does not decide.</b> It does not tell us which metric to use. That "
     "depends on what being wrong costs in each direction, which is ours. It sets no acceptable "
     "level. It cannot supply a breakdown we have no labels for.</p>",
@@ -178,25 +178,25 @@ S["e11-f5"]=lambda: f_realia(doc("Meridian &middot; architecture note 50",
 S["e11-f6"]=lambda: f_realia(tbl("Word study","Reporting measurement",
     ["Structure","What it adds","Example"],
     [["measured on","the data and its period","<b>Measured on</b> 4,200 held-out cases."],
-     ["at a threshold of","where a score became a decision","Recall 41 per cent <b>at a threshold of</b> 0.5."],
+     ["at a threshold of","where a score became a decision","Recall 41 percent <b>at a threshold of</b> 0.5."],
      ["disaggregated by","the breakdown","<b>Disaggregated by</b> sub-region."],
-     ["against a baseline of","the comparison","<b>Against a baseline of</b> 98.5 per cent."],
+     ["against a baseline of","the comparison","<b>Against a baseline of</b> 98.5 percent."],
      ["averaged over","&nbsp;","&nbsp;"],
      ["as of","&nbsp;","&nbsp;"]]), 600)
 S["e11-f7"]=lambda: f_chart([("reported accuracy",98.1),("majority-class baseline",98.5),
-    ("recall",41.0)], unit="per cent")
+    ("recall",41.0)], unit="percent")
 S["e11-f8"]=lambda: f_icons([("spreadsheet","a confusion matrix"),("scissors","a data split"),
     ("thermostat","a threshold"),("scales","a metric name"),
     ("tally","a breakdown"),("balance","a baseline")], cols=3)
 S["e11-f9"]=lambda: f_realia(tbl("Results sheet &middot; escalation classifier v3",
     "Machine-learning group &middot; as of 14 April",
     ["Metric","Figure","Threshold","Measured on","Baseline"],
-    [["<b>recall</b>","41 per cent","0.5","4,200 held-out cases, two quarters",
-      "<b>98.5 per cent accuracy</b>"],
-     ["precision","38 per cent","0.5","same","&mdash;"],
-     ["accuracy","98.1 per cent","0.5","same","<b>98.5 per cent</b>"],
-     ["recall, smallest sub-region","35 per cent","0.5","same","&mdash;"]],
-    note="The baseline is 98.5 per cent: what answering no to everything achieves. Computing it "
+    [["<b>recall</b>","41 percent","0.5","4,200 held-out cases, two quarters",
+      "<b>98.5 percent accuracy</b>"],
+     ["precision","38 percent","0.5","same","&mdash;"],
+     ["accuracy","98.1 percent","0.5","same","<b>98.5 percent</b>"],
+     ["recall, smallest sub-region","35 percent","0.5","same","&mdash;"]],
+    note="The baseline is 98.5 percent: what answering no to everything achieves. Computing it "
     "took four minutes and it stopped a rollout."), 700)
 S["e11-f10"]=lambda: f_scene(960,430, people=[("marek",300,176,{"seated":True}),
      ("hana",385,172,{}),("ines",460,176,{"seated":True})],
@@ -205,11 +205,11 @@ S["e11-f10"]=lambda: f_scene(960,430, people=[("marek",300,176,{"seated":True}),
     clockat=(120,44,22,9,0))
 S["e11-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Page A", None,
-        "<p>Accuracy 98.1 per cent.</p>"), w)[0:3],
+        "<p>Accuracy 98.1 percent.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Page B", None,
         "<p>Recall, chosen because missing an escalation costs more.<br>"
-        "41 per cent at a threshold of 0.5.<br>4,200 held-out cases, two quarters.<br>"
-        "Baseline 98.5 per cent accuracy.<br>Smallest sub-region 6 points worse. As of 14 April."
+        "41 percent at a threshold of 0.5.<br>4,200 held-out cases, two quarters.<br>"
+        "Baseline 98.5 percent accuracy.<br>Smallest sub-region 6 points worse. As of 14 April."
         "</p>"), w)[0:3],
     w=920, h=300)
 S["e11-f12"]=lambda: f_realia(doc("Two result pages", None,
@@ -320,8 +320,8 @@ S["e12-f9"]=lambda: f_realia(doc("Handover page &middot; escalation classifier v
     "<p><b>What it is not for.</b> It was not evaluated on passenger services, on any other region, "
     "or on any question about an individual person. Performance there is unknown. It should not be "
     "used to support decisions about individual staff.</p>"
-    "<p><b>How good it is.</b> Recall 41 per cent at a threshold of 0.5, on 4,200 held-out cases "
-    "from two quarters, against a baseline of 98.5 per cent accuracy, as of 14 April.</p>"
+    "<p><b>How good it is.</b> Recall 41 percent at a threshold of 0.5, on 4,200 held-out cases "
+    "from two quarters, against a baseline of 98.5 percent accuracy, as of 14 April.</p>"
     "<p><b>What we cannot establish.</b> What three of our dependencies were trained on. What the "
     "inference workload costs in energy. Whether the people in the training table were informed.</p>",
     "A page with no name at the foot is a description, not a handover."), 580)

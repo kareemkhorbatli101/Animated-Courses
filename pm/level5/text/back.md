@@ -25,7 +25,7 @@ the column worth reading twice.
 
 | | |
 |---|---|
-| ***for every doubling* · *falls by* · *falls to* · *each successive* · *by a factor of*** | *falls by 85 per cent* leaves fifteen; *falls to 85 per cent* leaves eighty-five |
+| ***for every doubling* · *falls by* · *falls to* · *each successive* · *by a factor of*** | *falls by 85 percent* leaves fifteen; *falls to 85 percent* leaves eighty-five |
 | **the rate applies per doubling, not per unit** | units 16 to 32 is one doubling and contains sixteen units, which is why the curve flattens |
 | **material does not learn** | forty-six units need forty-six units' worth of steel, whatever the labor does |
 | **8,280 hours against about 4,400** | and an eleven-week interruption put the outcome at 5,150, because the curve assumes continuity |
@@ -80,8 +80,8 @@ the column worth reading twice.
 | | |
 |---|---|
 | ***weighted at* · *accounts for* · *carries … points* · *on a weighting of*** | a weighting means nothing without the spread of the thing it weights |
-| **22 points of quality at 10 per cent move a total by 2.2** | against 5.4 for a six per cent price difference |
-| **a criterion everybody passes is page count** | twenty dead points reduced the effective quality weighting from ten per cent to eight |
+| **22 points of quality at 10 percent move a total by 2.2** | against 5.4 for a six percent price difference |
+| **a criterion everybody passes is page count** | twenty dead points reduced the effective quality weighting from ten percent to eight |
 | **31 passes, 0 stops; reversing at 70/30** | the weighting chose the winner, and the weighting came from a pipe order |
 
 ## Unit 9 · Requirement and recommendation
@@ -91,7 +91,7 @@ the column worth reading twice.
 | ***shall* · *should* · *may* · *must be able to demonstrate* · *failing which*** | copying a *should* into a contract does not promote it; the sentence arrives with its weakness attached |
 | **four parts: obligation, threshold, proof, consequence** | leave out the proof and you are told it is met; leave out the consequence and you are told it will be |
 | **2 of 11 suppliers could comply** | an unachievable requirement is waived at the first refusal, and a requirement waived once is gone |
-| **60 per cent now, 90 per cent from month 18** | a dated threshold tells a supplier it is worth replacing a machine |
+| **60 percent now, 90 percent from month 18** | a dated threshold tells a supplier it is worth replacing a machine |
 
 ## Unit 10 · Chains of derivation
 
@@ -100,7 +100,7 @@ the column worth reading twice.
 | ***flows from* · *is derived from* · *in support of* · *which in turn* · *traceable to*** | *is aligned with* says two documents do not contradict; *flows from* says one was written out of the other |
 | **a condition grade is not an interruption** | the objective measured metal and the plan measured whether water arrived |
 | **4 of 31 actions reached the top** | and one of the twenty-two untraceable actions was a handrail that should be fitted this month |
-| **38 per cent energy saving, about 84 a year** | the benefit that justified the capital decision, measured by nobody for two years |
+| **38 percent energy saving, about 84 a year** | the benefit that justified the capital decision, measured by nobody for two years |
 
 ## Unit 11 · Evaluative judgment
 
@@ -261,7 +261,7 @@ substitute for reading the document you are working under.** Several of the docu
 are copyright works sold by the bodies that publish them, and some are contract forms whose precise
 wording is the whole of their effect; this book describes what they contain only in order to teach the
 English used to discuss them, and prints what each one says it does not cover. Where a sentence sounds
-like a rule — *within twenty-one days of becoming aware*, *not less than ninety per cent recycled
+like a rule — *within twenty-one days of becoming aware*, *not less than ninety percent recycled
 content*, *failing which the delivery is rejected* — that is one invented company's internal practice
 or a paraphrase for teaching, printed because a concrete number teaches better than an abstraction.
 **Your clause is the one in your contract. Read it.**
@@ -287,7 +287,7 @@ From Unit 5: **the clock starts in somebody else's handwriting.**
 
 From Unit 6: **a warning is worth the float that exists on the day you give it.**
 
-From Unit 9: **sixty per cent enforced beats a hundred per cent waived.**
+From Unit 9: **sixty percent enforced beats a hundred percent waived.**
 
 From Unit 12: **if you cannot say what a number is not, you do not yet know what it is.**
 

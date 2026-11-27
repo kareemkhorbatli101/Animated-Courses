@@ -33,7 +33,7 @@ S["p10-f5"]=lambda: f_realia(tbl("Lindmark Freight &middot; aged debt",
      ["Sable &amp; Finch","3,750","3,750","&mdash;","&mdash;"],
      ["Terrace Hotels","22,800","14,000","5,300","3,500"],
      ["<b>Total</b>","<b>129,100</b>","<b>78,500</b>","<b>36,000</b>","<b>14,600</b>"]],
-    note="39 per cent of the ledger is overdue. Two customers are wholly over 30 days."), 560)
+    note="39 percent of the ledger is overdue. Two customers are wholly over 30 days."), 560)
 S["p10-f6"]=lambda: f_realia(tbl("Word study","The first conditional",
     ["<i>if</i> + present simple","&rarr;","the result"],
     [["If they pay late,","&rarr;","we <b>will</b> use the overdraft."],
@@ -259,10 +259,10 @@ S["p12-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; the year in review",
     "those are findings.</p>"
     "<p style='background:#fff3cf'><b>4. The market, and a problem with it.</b> Two 2026 reports "
     "give different answers for the same measure. One puts digitally delivered services at "
-    "<b>56 per cent</b> of global services exports, growing <b>7.1 per cent</b> a year. The other "
-    "puts the share at <b>55.0 per cent</b> and the growth at <b>10.0 per cent</b>. The shares "
+    "<b>56 percent</b> of global services exports, growing <b>7.1 percent</b> a year. The other "
+    "puts the share at <b>55.0 percent</b> and the growth at <b>10.0 percent</b>. The shares "
     "agree. The growth rates do not: over five years they differ by roughly a fifth of the "
-    "market. I have planned on 7.1 per cent because it is the more conservative figure, and I am "
+    "market. I have planned on 7.1 percent because it is the more conservative figure, and I am "
     "recording here that the planning figure was a choice.</p>",
     "Sources: both reports named in full in Annex A. Neither has been adjusted."))
 S["p12-f6"]=lambda: f_realia(tbl("Word study","Background and event",
@@ -316,14 +316,14 @@ S["p12-f11"]=lambda: f_realia(tbl("Two versions of one page","The same year",
 S["p12-f12"]=lambda: f_realia(doc("Two one-page reviews", None,
     "<p><b>A.</b> A strong year. All three targets were achieved, collections improved markedly, "
     "and the new site is secured. The market for digitally delivered services stands at 56 per "
-    "cent and is growing at over seven per cent a year, which positions us well.</p>"
+    "cent and is growing at over seven percent a year, which positions us well.</p>"
     "<p style='font-size:12px;color:#6b6861'>One percentage, no setback, nothing anybody can "
     "check.</p>"
     "<p style='margin-top:14px'><b>B.</b> Three targets, three results: 34 days against under 36; "
     "1.38 against 1.38; notice served in March and the new site occupied from July. While we were "
     "fixing the invoice process the order-number error rate fell by about two thirds &mdash; a "
     "better result than the policy itself. In the same period we lost one customer, under our own "
-    "rule, and I would write the rule again. Next year's growth is given as 7.1 per cent by one "
+    "rule, and I would write the rule again. Next year's growth is given as 7.1 percent by one "
     "report and 10.0 by another; I have planned on 7.1 and will review in June against our own "
     "order book.</p>"))
 S["p12-f13"]=lambda: f_realia(tbl("","One-page review planner",

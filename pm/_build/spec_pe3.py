@@ -81,7 +81,7 @@ S["pe07-f6"]=lambda: f_realia(tbl("Word study","Scope limitation",
 S["pe07-f7"]=lambda: f_process(["factory","port of loading","on board · RISK PASSES",
     "port of discharge","road, 40 km · DAMAGE","site"], w=680)
 S["pe07-f8"]=lambda: f_icons([("container","a factory gate"),("truck","handed to a carrier"),
-    ("ship","a ship's rail"),("crate","a lorry on a road"),
+    ("ship","a ship's rail"),("crate","a truck on a road"),
     ("barrier","a customs post"),("certificate","an insurance certificate")],
     cols=3, numbered=False)
 S["pe07-f9"]=lambda: f_realia(doc("Purchase order · delivery block",
@@ -195,13 +195,13 @@ S["pe08-f5"]=lambda: f_realia(doc("Lindhurst · procurement note 8",
     + table_html(["Bidder","Price (rel.)","Quality /100","Weighted total"],
       [["<b>W</b>","<b>100.0</b>","69","<b>96.9</b>"],["X","97.8","73","95.3"],
        ["Y","95.6","84","94.4"],["Z","94.1","<b>91</b>","94.0"]])
-    + "<p><b>The prices spanned about six per cent; the quality scores spanned twenty-two points.</b> "
-    "<b>At a ten per cent weighting, 22 points of quality move a total by 2.2; six per cent of price "
+    + "<p><b>The prices spanned about six percent; the quality scores spanned twenty-two points.</b> "
+    "<b>At a ten percent weighting, 22 points of quality move a total by 2.2; six percent of price "
     "moves it by 5.4.</b> <b>The quality submission was arithmetically incapable of changing the "
     "result</b>, and we spent <b>eleven weeks</b> on it.</p>"
     "<p style='border:1.5px solid #2f6b6b;padding:8px'><b>Twenty dead points.</b> One criterion worth "
     "<b>20 of the 100</b> asked whether the bidder has a health and safety policy. <b>All four scored "
-    "full marks.</b> <b>With those points removed, the effective quality weighting was 8 per cent, "
+    "full marks.</b> <b>With those points removed, the effective quality weighting was 8 percent, "
     "not 10.</b></p>"
     + table_html(["Bidder","at 90/10","at 70/30"],
       [["<b>W</b>","<b>96.9</b>","79.3"],["X","95.3","90.4"],["Y","94.4","92.1"],
@@ -216,11 +216,11 @@ S["pe08-f5"]=lambda: f_realia(doc("Lindhurst · procurement note 8",
     "contract."), 640)
 S["pe08-f6"]=lambda: f_realia(tbl("Word study","Weighting and evaluation",
     ["Structure","What it states","Example"],
-    [["<i>weighted at</i>","the proportion","Quality is <b>weighted at</b> 10 per cent."],
+    [["<i>weighted at</i>","the proportion","Quality is <b>weighted at</b> 10 percent."],
      ["<i>carries … points</i>","the allocation inside a part",
       "The method statement <b>carries 30 points</b>."],
      ["<i>accounts for</i>","the share of the total",
-      "Price <b>accounts for</b> ninety per cent of the award."],
+      "Price <b>accounts for</b> ninety percent of the award."],
      ["<i>on a weighting of</i>","the pair of proportions",
       "<b>On a weighting of</b> 70/30, the ranking reverses."],
      ["<i>discriminates between</i>","",""],["<i>all other things being equal</i>","",""]],
@@ -234,13 +234,13 @@ S["pe08-f8"]=lambda: f_icons([("envelope","four sealed tenders"),
     ("scales","a scoring sheet"),("stars","four full marks"),
     ("clipboard","a ranked list")], cols=3, numbered=False)
 S["pe08-f9"]=lambda: f_realia(doc("Evaluation summary · control system tender",
-    "Method 3 · weighting 90 per cent price, 10 per cent quality",
+    "Method 3 · weighting 90 percent price, 10 percent quality",
     table_html(["Bidder","Price (rel.)","Quality /100","90/10","70/30"],
       [["<b>W</b>","<b>100.0</b>","69","<b>96.9</b>","79.3"],
        ["X","97.8","73","95.3","90.4"],["Y","95.6","84","94.4","92.1"],
        ["Z","94.1","<b>91</b>","94.0","<b>92.2</b>"]])
     + "<p><b>Criteria that discriminated:</b> 2 of 6. <b>One criterion worth 20 points: all four "
-    "scored full marks.</b> <b>Effective quality weighting: 8 per cent.</b></p>"
+    "scored full marks.</b> <b>Effective quality weighting: 8 percent.</b></p>"
     "<p style='font-size:15px'><b>THE WEIGHTING WAS NOT CHOSEN FOR THIS TENDER.</b></p>",
     "Carried over from the invitation to tender for a supply of pipe. Our own design-services "
     "weighting is 70/30."), 620)
@@ -257,7 +257,7 @@ S["pe08-f11"]=lambda: f_panels(
       "<p><i>Bidder W offered the best value overall and is recommended for award.</i></p>"
       "<p style='font-size:12px;color:#6b6861'>Unanswerable by an unsuccessful bidder.</p>"), 380),
     lambda w,h: f_realia(doc("Recommendation B","With the arithmetic",
-      "<p><b>Six per cent cheaper; quality weighted at 10 per cent; 22 points of quality moved the "
+      "<p><b>Six percent cheaper; quality weighted at 10 percent; 22 points of quality moved the "
       "totals by 2.2; at 70/30 the ranking reverses.</b></p>"), 380),
     w=820, h=300, lt="A VERDICT", rt="AN EXPLANATION")
 S["pe08-f12"]=lambda: f_panels(
@@ -296,7 +296,7 @@ S["pe08-f16"]=lambda: f_realia(doc("On a desk in January",
     "<p><b>A note of three sentences.</b> <i>I am not claiming the wrong firm won, because a "
     "weighting is a judgment about what matters and not a measurement, and the firm we appointed has "
     "performed perfectly well. I am claiming that nobody in that room could have told you why it "
-    "won, and that the honest answer — six per cent cheaper — is not the basis we "
+    "won, and that the honest answer — six percent cheaper — is not the basis we "
     "published to four companies who each spent real money answering it. Re-running the same scores "
     "at our own design weighting took twenty minutes, which is the whole of my case and also the "
     "reason nobody ever does it.</i></p>",
@@ -341,14 +341,14 @@ S["pe09-f5"]=lambda: f_realia(doc("Lindhurst · commercial note 9",
     + "<p><b>Clauses using <i>shall</i>: 0. Using <i>should</i>: 6. Carrying marks: 4, worth 30 of "
     "100 quality points. Ever enforced: 0.</b></p>"
     + table_html(["A requirement needs","Example"],
-      [["<b>a threshold</b>","<b>not less than 90 per cent</b> recycled content"],
+      [["<b>a threshold</b>","<b>not less than 90 percent</b> recycled content"],
        ["<b>a means of proof</b>","<b>a mill certificate with each delivery</b>"],
        ["<b>a consequence</b>","<b>failing which the delivery is rejected</b>"]])
     + "<p style='border:1.5px solid #2f6b6b;padding:8px'><b>My own drafting error.</b> I wrote: <i>all "
     "diesel plant shall meet the named emissions stage.</i> <b>Of the eleven plant hire firms in this "
     "region, two can comply.</b> <b>An unachievable requirement is waived at the first refusal, and a "
     "requirement waived once is gone.</b> <b>Rewritten after eleven telephone calls: not less than 60 "
-    "per cent of plant hours, rising to 90 per cent from month 18, evidenced by hire records, failing "
+    "percent of plant hours, rising to 90 percent from month 18, evidenced by hire records, failing "
     "which the hours are not certified.</b></p>",
     "Source: ISO 20400:2017, Sustainable procurement — Guidance. It provides guidance on "
     "integrating sustainability within procurement; states that it is not a management system "
@@ -386,7 +386,7 @@ S["pe09-f9"]=lambda: f_realia(tbl("Requirement schedule S · replacing S1 to S6"
       "<b>one named person, in writing</b>","<b>quarterly signed declaration</b>",
       "<b>no further application certified</b>"]],
     note="<b>Thresholds taken from eleven telephone calls, not from preference.</b> Nine of eleven "
-    "suppliers can meet 60 per cent of hours now; seven can reach 90 per cent within eighteen "
+    "suppliers can meet 60 percent of hours now; seven can reach 90 percent within eighteen "
     "months."), 700)
 S["pe09-f10"]=lambda: f_scene(860,400,
     people=[("hana",110,174,{}),("lars",320,176,{"seated":True}),
@@ -409,7 +409,7 @@ S["pe09-f12"]=lambda: f_panels(
       "<p><i>All diesel plant on site shall meet the named emissions stage.</i></p>"
       "<p style='font-size:12px;color:#6b6861'>Two of eleven firms can comply.</p>"), 380),
     lambda w,h: f_realia(doc("After","A percentage and a date",
-      "<p><i>Not less than 60 per cent of plant hours, rising to 90 per cent from month 18, "
+      "<p><i>Not less than 60 percent of plant hours, rising to 90 percent from month 18, "
       "evidenced by hire records.</i></p>"
       "<p style='font-size:12px;color:#6b6861'>Nine of eleven can comply now.</p>"), 380),
     w=820, h=300, lt="WAIVED", rt="ENFORCED")
@@ -444,7 +444,7 @@ S["pe09-f16"]=lambda: f_realia(doc("On a desk in March",
     "belongs to us rather than to the standard. Awarding thirty marks for undertakings nobody can "
     "breach is the part a bidder would be entitled to complain about, because four companies paid "
     "people to write answers we had no means of testing. My own draft required something two "
-    "suppliers in eleven could do, and sixty per cent that is enforced is worth more than a hundred "
-    "per cent that is waived in week three, which took me eleven telephone calls to "
+    "suppliers in eleven could do, and sixty percent that is enforced is worth more than a hundred "
+    "percent that is waived in week three, which took me eleven telephone calls to "
     "understand.</i></p>",
     "Six o'clock. Six clauses, thirty marks, two suppliers of eleven."), 620)

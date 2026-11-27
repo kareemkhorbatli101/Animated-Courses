@@ -198,7 +198,7 @@ S["pd05-f8"]=lambda: f_icons([("clipboard","a list of elements"),("star","a key 
 S["pd05-f9"]=lambda: f_realia(tbl("Competence record · M. Bah",
     "Eight rows, two of them claims",
     ["Element","The claim","Evidence","Month","Witness"],
-    [["negotiation","closed a supply dispute","settled at 8 per cent, no claim","March",
+    [["negotiation","closed a supply dispute","settled at 8 percent, no claim","March",
       "the client"],
      ["conflict","chaired a meeting of two hostile teams","both signed the minute","March",
       "W. Zhao"],
@@ -232,7 +232,7 @@ S["pd05-f12"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Before","Scores and adjectives",
       "<p><i>Communication: strong. Leadership: good. Negotiation: fine.</i></p>"), 380),
     lambda w,h: f_realia(doc("After","Eight rows",
-      "<p><i>Settled a supply dispute at 8 per cent with no claim, March, confirmed by the "
+      "<p><i>Settled a supply dispute at 8 percent with no claim, March, confirmed by the "
       "client.</i></p>"
       "<p style='font-size:12px;color:#6b6861'>Same person. Second of eleven, not tenth.</p>"),
       380),
@@ -333,7 +333,7 @@ S["pd06-f9"]=lambda: f_realia(tbl("Bid library note","Four claims, four trails",
     ["The claim","What our text cites","Steps to primary","Method published"],
     [["“Most projects fail”","a consultancy white paper","<b>3</b>","<b>no</b>"],
      ["“Only a third succeed”","a textbook, 2nd ed","<b>2</b>","<b>no</b>"],
-     ["“Overruns average 45 per cent”","a conference slide","<b>3</b>","<b>no</b>"],
+     ["“Overruns average 45 percent”","a conference slide","<b>3</b>","<b>no</b>"],
      ["“Two thirds are challenged”","our own earlier bid","<b>4</b>","<b>no</b>"]],
     note="<b>Fourteen responses, three steps, nobody had read it.</b>"), 680)
 S["pd06-f10"]=lambda: f_scene(860,400,

@@ -27,7 +27,7 @@ S["o00-f1"]=lambda: f_realia(doc("Lindmark Freight · Ostberg", None,
 S["o00-f2"]=lambda: f_realia(tbl("Numbers at work","You see it, you say it",
     ["You see","You say"],
     [["1,250","one thousand two hundred and fifty &middot; <i>or</i> twelve fifty"],
-     ["3.5","three point five"],["48 %","forty-eight per cent"],
+     ["3.5","three point five"],["48 %","forty-eight percent"],
      ["09:45","nine forty-five &middot; oh nine forty-five"],
      ["PO-4417","P O four four one seven"],
      ["+44 20 7946 0102","plus four four &middot; two oh &middot; seven nine four six &middot; oh one oh two"],
@@ -154,7 +154,7 @@ S["o02-f5"]=lambda: f_realia(doc("Lindmark Freight · Ostberg · November 2026",
     "Warehousing &middot; Customs documents &middot; Insurance</p>"
     "<p><b>Who we work for.</b> Factories, importers and shops. Our smallest customer sends one "
     "pallet a month. Our largest sends forty containers a year. We do not work for the public.</p>"
-    "<p><b>Why sea.</b> About <b>80 per cent</b> of the world's trade in goods travels by sea.</p>",
+    "<p><b>Why sea.</b> About <b>80 percent</b> of the world's trade in goods travels by sea.</p>",
     "Figure: UNCTAD, <i>Review of Maritime Transport 2025</i>."))
 S["o02-f6"]=lambda: f_realia(tbl("Word study","The -s that changes everything",
     ["","I / you / we / they","he / she / it"],

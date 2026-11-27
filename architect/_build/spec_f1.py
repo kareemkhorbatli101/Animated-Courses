@@ -15,7 +15,7 @@ S["f00-f1"]=lambda: f_realia(tbl("Six things you already have",
      ["The agent restored","<b>Hana Sato</b> maintains the register, monthly."],
      ["Guidance verbs","A model <b>should</b> be evaluated on deployment-period data."],
      ["Intended use","It <b>was not evaluated on</b> anything about individuals."],
-     ["Reporting conditions","Recall 41 per cent <b>at a threshold of</b> 0.5."]],
+     ["Reporting conditions","Recall 41 percent <b>at a threshold of</b> 0.5."]],
     note="Six boxes. This book adds the English of the long document that somebody outside reads: "
     "which edition, what status, and who holds the other end."), 580)
 S["f00-f2"]=lambda: f_realia(doc("Two questions about any citation", None,
@@ -51,7 +51,7 @@ S["f01-f1"]=lambda: f_icons([("data","a machine-readable component list"),
     ("thread","a dependency tree"),("refnumber","a version string"),
     ("truck","a supplier name"),("barcode","a unique identifier"),
     ("clock","a timestamp"),("engine","a build pipeline"),
-    ("magnifier","a binary analysed afterwards"),("handsup","an entry marked unknown"),
+    ("magnifier","a binary analyzed afterwards"),("handsup","an entry marked unknown"),
     ("form","a customer questionnaire")], cols=5)
 S["f01-f2"]=lambda: f_scene(920,420, people=[("hana",330,176,{"seated":True}),
      ("lucia",425,172,{})],
@@ -92,7 +92,7 @@ S["f01-f5"]=lambda: f_realia(doc("Meridian &middot; architecture note 51",
     "you is what your licensing obligations are. Nor does it describe anything that is not a "
     "software component: our models' training data is not in it.</p>"
     "<p><b>The fourteen entries we did not delete.</b> Fourteen components in the two "
-    "binary-analysed services could not be identified to a version. Both formats allow an entry to "
+    "binary-analyzed services could not be identified to a version. Both formats allow an entry to "
     "record that it is unresolved. Fourteen declared unknowns are more useful than fourteen silent "
     "omissions.</p>",
     "Source: SPDX, standardized as ISO/IEC 5962:2021, which specifies SPDX version 2.2.1 &mdash; "

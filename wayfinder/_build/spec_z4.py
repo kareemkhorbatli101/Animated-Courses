@@ -26,7 +26,7 @@ S["z10-f4"]=lambda: f_realia(tbl("","Five ways to say one thing",
     [["<b>The sentence:</b>","",""],["1","",""],["2","",""],["3","",""],["4","",""],["5","",""]]),
     520)
 S["z10-f5"]=lambda: f_realia(doc("Portmere Civic Forum · note for tonight's meeting",
-    "Forty-one per cent, read both ways",
+    "Forty-one percent, read both ways",
     "<p><b>The figure.</b> An average of <b>41% believe they would be able to voice an opinion "
     "before local government takes a decision affecting their community</b>. The share who think "
     "they can easily find information about an administrative service has <b>risen by four "
@@ -53,7 +53,7 @@ S["z10-f6"]=lambda: f_realia(tbl("Word study","Words that carry their own emphas
 S["z10-f7"]=lambda: f_chart([("Luxembourg",57),("Switzerland",52),("Netherlands",49),
     ("Ireland",45),("average",41),("Sweden",40),("France",33),("Portugal",31),
     ("Korea",29),("Latvia",26)],
-    unit="per cent who believe they could voice an opinion locally · "
+    unit="percent who believe they could voice an opinion locally · "
     "finding information: up 4 points since 2021", w=560)
 S["z10-f8"]=lambda: f_icons([("microphone","at a stand in the aisle"),("chair","from a seat"),
     ("phone","reading from a phone"),("podium","no notes"),
@@ -80,7 +80,7 @@ S["z10-f11"]=lambda: f_realia(tbl("Two speaking cards","Same submission",
     [["1 I've lived on Ferry Lane for eleven years.<br>"
       "2 I've been to five of these meetings.<br>"
       "<b>3 There's one figure I want to leave with you.</b><br>"
-      "4 Forty-one per cent believe they'd get a say.<br>"
+      "4 Forty-one percent believe they'd get a say.<br>"
       "5 Information has improved, which I accept.<br>"
       "<b>6 All I'm asking for is one session after six.</b>",
       "<b>1 There's one figure I want to leave with you.</b><br>"
@@ -91,7 +91,7 @@ S["z10-f12"]=lambda: f_realia(doc("Two openings", None,
     "for the opportunity to speak. I have lived on Ferry Lane for eleven years and I have "
     "attended five of these meetings …</p>"
     "<p style='font-size:12px;color:#6b6861'>Forty-one words before anything is claimed.</p>"
-    "<p style='margin-top:18px;font-size:22px'><b>Forty-one per cent.</b></p>"
+    "<p style='margin-top:18px;font-size:22px'><b>Forty-one percent.</b></p>"
     "<p><b>B.</b> That is the share of people who believe they would be able to voice an opinion "
     "before local government took a decision affecting their community.</p>"
     "<p style='font-size:12px;color:#6b6861'>Three words, then the meaning.</p>"))
@@ -170,7 +170,7 @@ S["z11-f7"]=lambda: f_line([("1996",3),("2004",6),("2010",9),("2016",13),("2021"
     mark=4, ymin=0)
 S["z11-f8"]=lambda: f_icons([("key","a flat viewing"),("envelope","a job offer"),
     ("sim","a phone shop counter"),("gym","a gym desk"),
-    ("studentcard","a course enrolment"),("car","a car rental desk")], cols=3)
+    ("studentcard","a course enrollment"),("car","a car rental desk")], cols=3)
 S["z11-f9"]=lambda: f_realia(tbl("Westgate Lettings · deposit deduction statement",
     "Tenancy: 12 Marsh Road, flat 3",
     ["Item","Amount","Evidence attached"],
@@ -274,7 +274,7 @@ S["z12-f6"]=lambda: f_realia(tbl("Word study","Discourse markers by function",
      ["Reframing","that said · in other words · ______"]]), 480)
 S["z12-f7"]=lambda: f_chart([("tertiary education",60),("upper secondary",31),
     ("below upper secondary",12),("all adults",33)],
-    unit="per cent at or above Level 3 in literacy · "
+    unit="percent at or above Level 3 in literacy · "
     "over the decade the lowest tenth fell and the highest rose; the mean barely moved", w=560)
 S["z12-f8"]=lambda: f_icons([("book","a report with tabs"),("microphone","read aloud"),
     ("essay","a chapter spread out"),("proof","a tutor's note"),

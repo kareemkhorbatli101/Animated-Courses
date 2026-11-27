@@ -209,7 +209,7 @@ S["e02-f5"]=lambda: f_realia(doc("Meridian &middot; governance note 13",
     "<p><b>What it does not do for us.</b> It does not tell us which system is high-risk. It gives "
     "us no technical specification. The supporting standards were still being developed as this was "
     "written. Nothing in this note is legal advice.</p>",
-    "Source: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence, "
+    "Source: Regulation (EU) 2024/1689 laying down harmonized rules on artificial intelligence, "
     "published July 2024 and in force from 1 August 2024, with provisions applicable in stages on "
     "2 February 2025, 2 August 2025, 2 August 2026 and 2 August 2027. It classifies no particular "
     "system for you, provides no technical specifications, and nothing here is legal advice."),

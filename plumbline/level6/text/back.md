@@ -28,7 +28,7 @@ the column worth reading twice.
 | **analyze · analysis · analytical · analytically** | a family in your head, four items in speech |
 | ***figure* · *process* · *value* · *rate* · *significant*** | words from your first year with academic senses |
 | **the wrong part of speech is the band-7 error** | made by somebody with a band-8 vocabulary |
-| **a coverage figure needs its corpus** | fourteen per cent of what? |
+| **a coverage figure needs its corpus** | fourteen percent of what? |
 
 ## Unit 3 · Collocation
 

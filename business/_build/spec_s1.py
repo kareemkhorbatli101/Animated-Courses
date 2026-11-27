@@ -74,7 +74,7 @@ S["s01-f6"]=lambda: f_realia(tbl("Word study","Six ways to name an assumption",
      ["provided (that)","<b>provided</b> volumes hold","conditional"]],
     note="The heavy ones are memorable. <i>Assuming</i> is forgettable, which is the problem."), 540)
 S["s01-f7"]=lambda: f_line([("2026 (Oct)",3.1),("2027 (Apr est.)",3.2),("2027 (Oct)",3.4)],
-    w=560, h=250, unit="world output, per cent — 2027 revised up from 3.2 to 3.4", mark=2, ymin=2.8)
+    w=560, h=250, unit="world output, percent — 2027 revised up from 3.2 to 3.4", mark=2, ymin=2.8)
 S["s01-f8"]=lambda: f_icons([("data","the headline"),("note","the footnote"),("canal","the strait"),
     ("pricetag","falling fuel"),("shift","the night shift"),("truck","a four-year lease")], cols=3)
 S["s01-f9"]=lambda: f_realia(doc("One slide", None,
@@ -100,9 +100,9 @@ S["s01-f11"]=lambda: f_realia(tbl("Two slides","Same figure, one condition",
     note="A is quicker to read. B is the one you can still defend in April."), 540)
 S["s01-f12"]=lambda: f_realia(doc("Two capacity notes", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
-    "<b>First note.</b> Growth will be 3.4 per cent in 2027. We therefore add two vehicles and a "
+    "<b>First note.</b> Growth will be 3.4 percent in 2027. We therefore add two vehicles and a "
     "night shift, and expect fuel to fall. Approval requested for both.</p>"
-    "<p style='font-size:13.5px'><b>Second note.</b> World output is projected at 3.4 per cent in 2027 "
+    "<p style='font-size:13.5px'><b>Second note.</b> World output is projected at 3.4 percent in 2027 "
     "by the IMF, October 2026, revised up from 3.2 in April. <b>The projections assume the Strait of "
     "Hormuz reopens in March 2027 and oil averages 87 dollars.</b> Our two reasons to expand are not "
     "independent: both follow from that assumption. Approve the night shift (reversible in eight weeks); "
@@ -150,7 +150,7 @@ S["s02-f5"]=lambda: f_realia(doc("Arvo Components &middot; investment proposal, 
     "<p style='font-size:13.5px'><b>The request.</b> Two million euros for four automated finishing "
     "cells, over eighteen months.</p>"
     "<p style='background:#f3ead8;border-left:4px solid #8a5a1e;padding:10px 12px;font-size:13.5px'>"
-    "<b>The strongest objection, which I am raising myself.</b> Across the EU, <b>52 per cent of firms "
+    "<b>The strongest objection, which I am raising myself.</b> Across the EU, <b>52 percent of firms "
     "report skills shortages as a major barrier to investment</b> &mdash; a larger share than report "
     "any constraint on finance. We do not have a finance problem.</p>"
     + table_html(["Barrier reported as major","Figure"],
@@ -179,7 +179,7 @@ S["s02-f6"]=lambda: f_realia(tbl("Word study","Concession, by strength and regis
      ["even if","<b>Even if</b> the budget doubled, we could not staff it.","hypothetical"]],
     note="<i>Even though</i> concedes a fact. <i>Even if</i> dismisses a hypothetical."), 560)
 S["s02-f7"]=lambda: f_chart([("Malta: energy costs",84),("Malta: uncertainty",77),
-    ("Malta: skills",76),("Denmark: skills",67),("EU: skills",52)], unit="per cent of firms reporting a major barrier")
+    ("Malta: skills",76),("Denmark: skills",67),("EU: skills",52)], unit="percent of firms reporting a major barrier")
 S["s02-f8"]=lambda: f_icons([("data","the request"),("danger","the objection, in bold"),
     ("spreadsheet","what would answer it"),("tally","the barrier figures"),
     ("chair","the vacant post"),("signature","a smaller figure, signed")], cols=3)
@@ -211,7 +211,7 @@ S["s02-f12"]=lambda: f_realia(doc("Two proposals", None,
     "<b>First.</b> Four finishing cells, two million euros. Benefits: throughput up 22%, scrap down 9%, "
     "payback 3 years 4 months. Recommended for approval.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> One cell and two maintenance engineers, 640,000 euros. "
-    "<b>The strongest objection to this proposal is mine to raise:</b> 52 per cent of EU firms report "
+    "<b>The strongest objection to this proposal is mine to raise:</b> 52 percent of EU firms report "
     "skills shortages as a major barrier to investment, and our Ostberg maintenance vacancy has been "
     "open nine months. Even if the full two million were approved today, that constraint would not "
     "move. The same survey reports intangible investment growing and most vulnerable to uncertainty "

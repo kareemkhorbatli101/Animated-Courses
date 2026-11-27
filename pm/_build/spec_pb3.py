@@ -199,7 +199,7 @@ S["pb08-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 8",
        ["<b>what it actually took</b>","<b>29</b>"]])
     + "<p><b>Seven of the eleven tasks overran their cut estimate</b>, which the method expects: a "
     "fifty-fifty estimate is meant to be missed about half the time. <b>Buffer consumption at the "
-    "end: 78 per cent.</b></p>"
+    "end: 78 percent.</b></p>"
     "<p><b>Student syndrome, measured.</b> Of <b>19</b> tasks with two weeks or more of slack, "
     "<b>14</b> had no hours booked in the first week.</p>"
     "<p><b>What went wrong, which matters more than the result.</b> Telling a welder his eight "
@@ -232,7 +232,7 @@ S["pb08-f7"]=lambda: f_chart([("the eleven estimates as given",38),("the same el
     ("project buffer",9),("planned total",31),("actual",29)], unit="weeks")
 S["pb08-f8"]=lambda: f_icons([("timetable","a task with its safety tail"),
     ("scissors","the safety cut off"),("archive","one block at the end"),
-    ("chain","a feeding buffer at a merge"),("scales","a gauge at 78 per cent"),
+    ("chain","a feeding buffer at a merge"),("scales","a gauge at 78 percent"),
     ("padlock","a contractual date")],3)
 S["pb08-f9"]=lambda: f_realia(tbl("Buffer report",
     "Eleven tasks. No task on this page is reported as late.",
@@ -249,7 +249,7 @@ S["pb08-f9"]=lambda: f_realia(tbl("Buffer report",
      ["Witness test","10 d","10","0","yes","<b>contractual</b>"],
      ["Handover pack","5 d","2","<b>3</b>","no","main"]],
     numcols=(2,3),
-    note="<b>Buffer consumption: 78 per cent of nine weeks.</b> Seven of the eleven overran their "
+    note="<b>Buffer consumption: 78 percent of nine weeks.</b> Seven of the eleven overran their "
     "cut estimate, which is what a fifty-fifty figure is designed to do."), 720)
 S["pb08-f10"]=lambda: f_scene(960,440, people=[("oskar",290,172,{}),
      ("ahmad",400,176,{"seated":True}),("nkemelu",520,176,{"seated":True})],
@@ -301,7 +301,7 @@ S["pb08-f16"]=lambda: f_realia(doc("On a desk in June",
     "<p><b>A sheet of five figures.</b> <b>38</b> &middot; <b>22</b> &middot; <b>9</b> &middot; "
     "<b>31</b> &middot; <b>29</b>.</p>"
     "<p><b>A signed single sentence</b>, dated before them.</p>"
-    "<p><b>A gauge</b> drawn at <b>78 per cent</b>.</p>"
+    "<p><b>A gauge</b> drawn at <b>78 percent</b>.</p>"
     "<p><b>A tally.</b> Nineteen slack tasks; <b>fourteen</b> with no hours in week one.</p>"
     "<p><b>A note of three sentences.</b> <i>The arithmetic took an afternoon and it is not the "
     "reason this worked. It worked because two welders asked what happens to them when they miss, "

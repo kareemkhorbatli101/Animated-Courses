@@ -111,7 +111,7 @@ The whole grammar of the book on a few pages. The unit number tells you where it
 | The operator **who** lowered the level is on nights. | defining, a person |
 | The section **where** the droplets fall out is this one. | defining, a place |
 | The separator**, which we installed in 1986,** is overloaded. | non-defining: extra information |
-| The water cut is 34 per cent**, which is four times the design figure.** | commenting on the sentence |
+| The water cut is 34 percent**, which is four times the design figure.** | commenting on the sentence |
 
 > **Careful:** a clause with commas takes *which*, never *that*.
 
@@ -156,14 +156,14 @@ The whole grammar of the book on a few pages. The unit number tells you where it
 
 | | |
 |---|---|
-| **At least** 41 million barrels, with **90 per cent** probability. | the conservative statement |
+| **At least** 41 million barrels, with **90 percent** probability. | the conservative statement |
 | **Between** 41 **and** 79 million barrels. | a range |
 | 58 million, **as a central estimate**. | the middle, labeled |
 | 41 million **as of** 31 December, **at** the stated price assumption. | date and assumption attached |
 | This **assumes** the infill wells are drilled. | the condition, named |
 | I **cannot** give you one number. | the honest refusal |
 
-> **Careful:** the probability is about the quantity being **equalled or exceeded**, not about the
+> **Careful:** the probability is about the quantity being **equaled or exceeded**, not about the
 > estimate being exactly right.
 
 # Audio Index

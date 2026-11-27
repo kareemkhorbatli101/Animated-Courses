@@ -73,7 +73,7 @@ the column worth reading twice.
 | **No backshift** when the claim still stands | *She said the timetable is fixed* — reports it as still standing |
 | ***say*** takes no object; ***tell*** requires one | *She said us that …* |
 | **Six verb patterns** | *deny + -ing* · *refuse + to* · *assure + object + that* · *object to + -ing* |
-| **The verb carries a judgement** | *insisted* implies opposition; *admitted* implies reluctance; only *said* adds nothing |
+| **The verb carries a judgment** | *insisted* implies opposition; *admitted* implies reluctance; only *said* adds nothing |
 
 ## Unit 8 · The hypothetical past; concession
 
@@ -158,7 +158,7 @@ Teacher's Book.
 |---|---|
 | **1** | to recount · chronology · in retrospect · turning point · to set the scene · backdrop · protagonist · to foreshadow · anticlimax · to elide · vivid · to embellish · verbatim · unreliable narrator · to gloss over · the long view |
 | **2** | a forecast · a projection · a contingency · a worst case · likelihood · to anticipate · to hedge · plausible · remote · to rule out · a safe bet · all things being equal · a leading indicator · to bring forward · to push back · lead time |
-| **3** | to infer · an inference · to deduce · grounds · circumstantial · to corroborate · to discount · to jump to conclusions · a working theory · the balance of probability · compelling · tenuous · to concede · to reserve judgement · beyond doubt · a red herring |
+| **3** | to infer · an inference · to deduce · grounds · circumstantial · to corroborate · to discount · to jump to conclusions · a working theory · the balance of probability · compelling · tenuous · to concede · to reserve judgment · beyond doubt · a red herring |
 | **4** | hypothetical · counterfactual · with hindsight · to second-guess · a missed opportunity · to dwell on · what-if · in another life · to make peace with · a trade-off · to forgo · no regrets · to romanticize · the road not taken · to have no way of knowing · bittersweet |
 | **5** | to commission · to contract out · to carry out · to install · to retrofit · to decommission · maintenance · a works order · a contractor · a sub-contractor · scheduled · to defer · to sign off · remedial · snagging · liability |
 | **6** | amenity · green space · public realm · a verge · a pocket park · derelict · to encroach · a right of way · overlooked · a buffer · to designate · tree canopy · permeable · footfall · a thoroughfare · informal use |

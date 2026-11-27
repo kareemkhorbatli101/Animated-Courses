@@ -39,8 +39,8 @@ S["y01-f5"]=lambda: f_realia(doc("Portmere Employment Partnership · annual skil
     "most useful public answer comes from a survey of more than a thousand large employers across "
     "fifty-five economies, and it is worth reading carefully, because what it establishes is "
     "narrower than what it is usually quoted as establishing.</p>"
-    "<p><b>The headline.</b> Employers expect that <b>39 per cent</b> of workers' core skills will "
-    "have changed by 2030. That is a large figure and it is <b>down</b> from 44 per cent in the "
+    "<p><b>The headline.</b> Employers expect that <b>39 percent</b> of workers' core skills will "
+    "have changed by 2030. That is a large figure and it is <b>down</b> from 44 percent in the "
     "previous edition two years earlier, which is not how it was reported anywhere.</p>"
     "<p><b>What is rising.</b> Analytical thinking remains the single most-named core skill: seven "
     "employers in ten call it essential. The largest increases in rated importance since the "
@@ -88,8 +88,8 @@ S["y01-f12"]=lambda: f_realia(doc("Self-assessment · N. Rahman","Against the fo
     "often I speak.</p>",
     "<b>What I would like to be measured on next year:</b> the written handover, and whether it "
     "reduces repeat questions at the next shift."))
-S["y01-f13"]=lambda: f_realia(tbl("","Fact or judgement?",
-    ["What was written about me","Fact or judgement","What I would write instead"],
+S["y01-f13"]=lambda: f_realia(tbl("","Fact or judgment?",
+    ["What was written about me","Fact or judgment","What I would write instead"],
     [["","",""],["","",""],["","",""],["","",""],["","",""]],
     note="What I will ask to have recorded:"), 540)
 S["y01-f14"]=lambda: f_scene(920,430, people=[("nkemelu",140,176,{}),
@@ -126,15 +126,15 @@ S["y02-f5"]=lambda: f_realia(doc("Portmere Library Service · media literacy bri
     "<p>We run a weekly session here for people who want to know whether what they are reading is "
     "true. This sheet gives the three figures we are asked about most, and one warning about how "
     "to use them.</p>"
-    "<p><b>Trust.</b> Across the markets surveyed, <b>40 per cent</b> say they trust most news "
+    "<p><b>Trust.</b> Across the markets surveyed, <b>40 percent</b> say they trust most news "
     "most of the time. That figure has not moved for three years. It is not collapsing and it is "
     "not recovering; it is flat, which is a different story from the one usually told about "
     "it.</p>"
-    "<p><b>The range inside the average.</b> Trust runs from <b>67 per cent in Finland</b> to "
-    "<b>22 per cent in Greece and Hungary</b>. A single global figure for trust in news is about "
+    "<p><b>The range inside the average.</b> Trust runs from <b>67 percent in Finland</b> to "
+    "<b>22 percent in Greece and Hungary</b>. A single global figure for trust in news is about "
     "as useful as a single global figure for rainfall.</p>"
     "<p><b>Avoidance.</b> Four people in ten now say they sometimes or often avoid the news, up "
-    "from <b>29 per cent in 2017</b>. Note that this is selective avoidance &mdash; turning away "
+    "from <b>29 percent in 2017</b>. Note that this is selective avoidance &mdash; turning away "
     "from particular subjects or at particular times &mdash; and not a withdrawal from "
     "information altogether.</p>"
     "<p><b>The warning.</b> These are survey answers. They measure what people say about their "
@@ -148,7 +148,7 @@ S["y02-f6"]=lambda: f_realia(tbl("Word study","Verbs of saying",
      ["admit","admit that …","against the speaker's own interest"],
      ["deny","deny + gerund","the speaker rejects it"]]), 500)
 S["y02-f7"]=lambda: f_chart([("Finland",67),("global average",40),("Greece",22),("Hungary",22)],
-    unit="per cent who trust most news most of the time", w=520)
+    unit="percent who trust most news most of the time", w=520)
 S["y02-f8"]=lambda: f_icons([("book","reading alone"),("meeting","arguing"),
     ("pen","correcting your own work"),("computer","working unaided"),
     ("vote","raising a hand"),("handshake","shaking hands")], cols=3)
@@ -161,7 +161,7 @@ S["y02-f9"]=lambda: f_realia(doc("Portmere City Council · press release · 13 N
     "<p>Councillor D. Marsh, cabinet member for communities, said: &ldquo;We are committed to "
     "maintaining library provision across Portmere within the resources available to us.&rdquo;</p>",
     "<b>Notes to editors:</b> The review was commissioned in June. The full officers' report is "
-    "available on request. Media enquiries: communications@portmere.example"))
+    "available on request. Media inquiries: communications@portmere.example"))
 S["y02-f10"]=lambda: f_scene(880,410, people=[("priya",760,172,{}),
     ("nkemelu",150,176,{"seated":True}),("linh",230,172,{"seated":True}),
     ("adeel",310,180,{"seated":True}),("oksana",390,172,{"seated":True}),
@@ -234,8 +234,8 @@ S["y03-f5"]=lambda: f_realia(doc("Portmere Transport Partnership · passenger in
     "<p><b>The exception.</b> Compensation may be refused where the cancellation was caused by "
     "extraordinary circumstances outside the carrier's control. <b>Duty of care is not removed by "
     "that exception.</b></p>"
-    "<p><b>Why we print this.</b> Awareness of these rights rose from <b>14 per cent in 2019 to "
-    "30 per cent in 2024</b>. Even now, only <b>5 per cent</b> say they feel very well informed.</p>",
+    "<p><b>Why we print this.</b> Awareness of these rights rose from <b>14 percent in 2019 to "
+    "30 percent in 2024</b>. Even now, only <b>5 percent</b> say they feel very well informed.</p>",
     "Figures: Eurobarometer survey on passenger rights, 2024."))
 S["y03-f6"]=lambda: f_realia(tbl("Word study","-ance and -ment",
     ["Verb","Noun","Suffix"],
@@ -243,7 +243,7 @@ S["y03-f6"]=lambda: f_realia(tbl("Word study","-ance and -ment",
      ["comply","compliance","-ance"],["reimburse","reimbursement","-ment"],
      ["avoid","avoidance","-ance"]]), 440)
 S["y03-f7"]=lambda: f_line([("2019",14),("2024",30)], w=560,
-    unit="per cent aware of passenger rights · of the 30, only 5 feel very well informed",
+    unit="percent aware of passenger rights · of the 30, only 5 feel very well informed",
     ymin=0)
 S["y03-f8"]=lambda: f_icons([("microphone","a staff member"),("pen","writing it down"),
     ("meeting","telling two others"),("phone","showing a screen"),

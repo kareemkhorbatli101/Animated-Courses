@@ -60,10 +60,10 @@ so and makes finding your own the task.
 | 6 | **The Changing Denominator** | A ranking whose sample is still growing | Like-for-like comparison | 123 |
 | 7 | **A Ranking Is an Argument** | Seventy-nine indicators, one position | Participle clauses | 146 |
 | 8 | **The Dispute** | What the statistics do not contain | Hypothetical and distancing forms | 169 |
-| 9 | **One Institution, Two Numbers** | Twenty-three per cent, or twenty-one | Markers of contrast and reconciliation | 193 |
+| 9 | **One Institution, Two Numbers** | Twenty-three percent, or twenty-one | Markers of contrast and reconciliation | 193 |
 | 10 | **Revised by the Publisher** | 9.6, then 9.5 | The language of versions | 216 |
 | 11 | **Not Comparable with Itself** | A series break, stated by its author | *whereby*, *insofar as*, complex noun phrases | 239 |
-| 12 | **The Hard Conversation** | Eighty per cent satisfied, and one person who is not | Tentative and distancing language | 263 |
+| 12 | **The Hard Conversation** | Eighty percent satisfied, and one person who is not | Tentative and distancing language | 263 |
 | | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 288 |
 
 ## The people

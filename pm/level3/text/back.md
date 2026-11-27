@@ -7,7 +7,7 @@ the column worth reading twice.
 
 | | |
 |---|---|
-| **What *41 per cent* might mean** | time passed · money spent · tasks ticked · **work completed** |
+| **What *41 percent* might mean** | time passed · money spent · tasks ticked · **work completed** |
 | **Only the fourth is progress** | and most reports mean the first two and are read as the fourth |
 | **Three questions a percentage cannot answer** | of what? · measured how, and by whom? · against what was planned by now? |
 | **A number with no plan beside it** | is a fact without a verdict |
@@ -259,8 +259,8 @@ better than an abstraction. Your own numbers belong to you and your sponsor.
 
 # Closing
 
-You began this book able to say that a project was forty-one per cent complete. You end it able to
-say **per cent of what**, **measured how and by whom**, **against what was planned by now**, **how
+You began this book able to say that a project was forty-one percent complete. You end it able to
+say **percent of what**, **measured how and by whom**, **against what was planned by now**, **how
 many weeks that is**, **what stands between you and the top risk**, **who will measure the benefit
 and in which year** — and which line of your own report you would not defend.
 
@@ -269,7 +269,7 @@ something, and print what you find beside it.**
 
 Six sentences to take with you.
 
-From Unit 1: **per cent of what, and measured how?**
+From Unit 1: **percent of what, and measured how?**
 
 From Unit 2: **how many weeks, as of when?**
 

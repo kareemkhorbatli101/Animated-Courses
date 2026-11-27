@@ -348,7 +348,7 @@ S["qf06-f8"]=lambda: f_icons([("note","a meaning card"),("tally","a sound card")
     ("speechbubble","a paraphrase"),("magnifier","which half have you got?")],3)
 S["qf06-f9"]=lambda: f_realia(tbl("A Part 3 exchange, repairs marked", None,
     ["","What was said","Editing term?"],
-    [["1","<i>It was fifty &mdash; sorry, sixty per cent.</i>","yes"],
+    [["1","<i>It was fifty &mdash; sorry, sixty percent.</i>","yes"],
      ["2","<i>a ban &mdash; or rather, a restriction</i>","yes"],
      ["3","<i>everybody&hellip; most people&hellip; agrees</i>","<b>no</b>"],
      ["4","<i>the cost, that is the first-year cost</i>","yes"],
@@ -366,19 +366,19 @@ S["qf06-f10"]=lambda: f_scene(940,430, people=[("priya",290,172,{}),
     clockat=(630,42,22,12,0))
 S["qf06-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Five bare restarts", None,
-      "<p><i>The figure was fifty&hellip; sixty&hellip; sixty per cent, and this proves&hellip; "
+      "<p><i>The figure was fifty&hellip; sixty&hellip; sixty percent, and this proves&hellip; "
       "shows&hellip; that it worked.</i></p>"
       "<p>Repairs: <b>5</b>. Editing terms: <b>0</b>.</p>", "Heard as trouble."), 380)[0:3],
     lambda w,h: f_realia(doc("Five repairs with terms", None,
-      "<p><i>The figure was fifty &mdash; sorry, sixty per cent, which suggests rather than proves "
+      "<p><i>The figure was fifty &mdash; sorry, sixty percent, which suggests rather than proves "
       "that it worked.</i></p>"
       "<p>Repairs: <b>5</b>. Editing terms: <b>5</b>.</p>", "Heard as precision."), 380)[0:3],
     800, 310, "Bare", "With terms")
 S["qf06-f12"]=lambda: f_realia(doc("Two answers to one question", None,
-    "<p><b>Answer 1.</b> <i>The figure was fifty&hellip; sixty&hellip; sixty per cent, and this "
+    "<p><b>Answer 1.</b> <i>The figure was fifty&hellip; sixty&hellip; sixty percent, and this "
     "proves&hellip; shows&hellip; that the policy worked. Everybody&hellip; most people&hellip; agrees "
     "that the main problem is the&hellip; the&hellip; I cannot remember the word.</i></p>"
-    "<p><b>Answer 2.</b> <i>The figure was fifty &mdash; sorry, sixty per cent, which suggests rather "
+    "<p><b>Answer 2.</b> <i>The figure was fifty &mdash; sorry, sixty percent, which suggests rather "
     "than proves that the policy worked. Everybody agrees &mdash; well, most specialists agree &mdash; "
     "that the difficulty is what you might call the gap between what the rule says and what anybody "
     "enforces. Enforcement, that is the word I wanted.</i></p>",

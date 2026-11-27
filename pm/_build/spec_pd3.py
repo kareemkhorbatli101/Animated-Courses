@@ -371,7 +371,7 @@ S["pd09-f10"]=lambda: f_scene(860,400,
     clockat=(700,34,22,11,15))
 S["pd09-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Sheet A","Fourteen scored criteria",
-      "<p>Each scored 1–10, weighted, totalled against a threshold of 60.</p>"
+      "<p>Each scored 1–10, weighted, totaled against a threshold of 60.</p>"
       "<p style='font-size:12px;color:#6b6861'>A 2021 specification scores badly and still "
       "passes.</p>"), 380),
     lambda w,h: f_realia(doc("Sheet B","Four questions above the fourteen",
@@ -408,7 +408,7 @@ S["pd09-f15"]=lambda: f_chart([("more than once",3),("once",5),("never",14),
 S["pd09-f16"]=lambda: f_realia(doc("On a desk in May",
     "What was on it at seven o'clock",
     "<p><b>A gate record</b> with four yes-or-no criteria, one marked no.</p>"
-    "<p><b>A scoring sheet totalling 71</b>, threshold 60.</p>"
+    "<p><b>A scoring sheet totaling 71</b>, threshold 60.</p>"
     "<p><b>A wall chart reading 31 and 0.</b></p>"
     "<p><b>A specification dated 2021.</b></p>"
     "<p><b>A journal from 1990.</b></p>"

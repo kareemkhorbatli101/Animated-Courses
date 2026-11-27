@@ -239,7 +239,7 @@ S["h02-f11"]=lambda: f_panels(
     w=920, h=310)
 S["h02-f12"]=lambda: f_realia(doc("Two letters", None,
     "<p style='border:1px solid #d9d4c9;padding:9px'><b>Letter 1</b><br>"
-    "Thank you for your enquiry. The matter is in hand and we will revert shortly.</p>"
+    "Thank you for your inquiry. The matter is in hand and we will revert shortly.</p>"
     "<p style='border:1px solid #d9d4c9;padding:9px'><b>Letter 2</b><br>"
     "Your request reached us on <b>11 February</b>. It has <b>not been served yet</b>.<br>"
     "It has been waiting for a translation of two pages <b>for five weeks</b>. <b>That delay is "

@@ -216,7 +216,7 @@ S["rc08-f7"]=lambda: f_realia(tbl("Service conditions, then and now",
     "Nothing was done to the steel",
     ["Variable","At selection, 1998","Measured this year"],
     [["Hydrogen sulfide","400 ppm","<b>2,100 ppm</b>"],
-     ["Water cut","8 per cent","<b>34 per cent</b>"],
+     ["Water cut","8 percent","<b>34 percent</b>"],
      ["Chloride in the produced water","moderate","<b>higher</b>"],
      ["Operating temperature","as designed","lower, at reduced rate"],
      ["Region on the standard's map","a lower region","<b>a higher region</b>"]],
@@ -256,7 +256,7 @@ S["rc08-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
     "duty.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Certified <b>in 1998</b> to 22 HRC, <b>for a stated service of 400 parts per million</b>. "
-    "Measured this year: <b>2,100 parts per million and 34 per cent water cut</b>, which places the "
+    "Measured this year: <b>2,100 parts per million and 34 percent water cut</b>, which places the "
     "service in a different region. <b>Nothing has been done to the steel; the service has moved.</b> "
     "Five welds since construction; four have a procedure and a hardness record, the fifth, a 2009 "
     "leak repair, has neither. Requesting in-place hardness testing and a reassessment. <b>Neither "

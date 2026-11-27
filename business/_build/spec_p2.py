@@ -88,7 +88,7 @@ S["p04-f12"]=lambda: f_realia(doc("Two internal notes on the same contract", Non
     "<p style='font-size:12px;color:#6b6861'>No clause numbers. Nothing anybody can act on.</p>"
     "<p style='margin-top:14px'><b>B.</b> Two clauses need changing before we sign.</p>"
     "<p><b>12.1</b> says payment “within thirty days” with no starting point. Their "
-    "invoices are dated on despatch, which for us is up to eleven days before delivery. "
+    "invoices are dated on dispatch, which for us is up to eleven days before delivery. "
     "Ask for: <i>“within thirty days of delivery”</i>.</p>"
     "<p><b>11.3</b> requires four months' notice expiring on an anniversary. In practice that "
     "means the real decision date is <b>eight months</b> before we want to leave. Ask for: "
@@ -132,7 +132,7 @@ S["p05-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; credit note",
       [["120","Carton 180&times;180&times;240 &mdash; damaged in transit","(165.60)"]])
     + "<p><b>Reason</b> 120 cartons of 4,000 crushed on one corner. Cause: single-corner "
     "stacking on the inbound trailer, confirmed by the loading photographs.</p>"
-    "<p><b>Replacement</b> 120 cartons despatched 18 March, no charge, arriving 20 March.</p>",
+    "<p><b>Replacement</b> 120 cartons dispatched 18 March, no charge, arriving 20 March.</p>",
     "This credit will be applied to your next statement. No action is needed from you."))
 S["p05-f6"]=lambda: f_realia(tbl("Word study","The passive, six tenses",
     ["Tense","Example","The auxiliary"],
@@ -140,7 +140,7 @@ S["p05-f6"]=lambda: f_realia(tbl("Word study","The passive, six tenses",
      ["present continuous","The cartons <b>are being</b> replaced today.","<i>are being</i>"],
      ["past simple","120 cartons <b>were</b> damaged in transit.","<i>was / were</i>"],
      ["present perfect","A credit note <b>has been</b> issued.","<i>has been</i>"],
-     ["future","The replacement <b>will be</b> despatched today.","<i>will be</i>"],
+     ["future","The replacement <b>will be</b> dispatched today.","<i>will be</i>"],
      ["modal","The load <b>must be</b> corner-stacked.","<i>must be</i>"]]), 520)
 S["p05-f7"]=lambda: f_part("One hundred invoices in Europe",
     [("paid late",19,AMBER),("never paid",5,PLUM),("paid on time",76,BLUE)], w=540)
@@ -178,7 +178,7 @@ S["p05-f12"]=lambda: f_realia(doc("Two complaint replies", None,
     "its own obligations&hellip; We would of course be happy to discuss a resolution.</p>"
     "<p style='font-size:12px;color:#6b6861'>Four sentences, no action, and the customer is now "
     "an opponent.</p>"
-    "<p style='margin-top:14px'><b>B.</b> 120 replacement cartons were despatched this morning "
+    "<p style='margin-top:14px'><b>B.</b> 120 replacement cartons were dispatched this morning "
     "and will reach you on Thursday 20 March. Credit note CN-0912 for 165.60 is attached; no "
     "action is needed from you.</p>"
     "<p>The cause was corner stacking on the inbound trailer. From Monday 24 March every inbound "

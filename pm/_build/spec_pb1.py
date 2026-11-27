@@ -253,8 +253,8 @@ S["pb02-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 2",
     "run by a careless person</b>: in every case the pessimistic number had been made the same "
     "way, by taking the most likely and adding a bit.</p>"
     "<p><b>One more thing the formula does not do.</b> Where <b>three</b> chains must all arrive "
-    "before a milestone, each with a <b>90 per cent</b> chance, the milestone's chance is about "
-    "<b>73 per cent</b>. PERT computes the spread along one path; <b>reality merges paths</b>.</p>",
+    "before a milestone, each with a <b>90 percent</b> chance, the milestone's chance is about "
+    "<b>73 percent</b>. PERT computes the spread along one path; <b>reality merges paths</b>.</p>",
     "Source: PERT Summary Report, Phase 1, Special Projects Office, Bureau of Naval Weapons, "
     "Department of the Navy, July 1958, developed for the Polaris program with Booz Allen Hamilton "
     "and Lockheed. The three-point weights follow from an assumed distribution chosen for ease of "
@@ -385,7 +385,7 @@ S["pb03-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 3",
        ["officers and men","<b>146,000</b>","<b>100,000</b>"],
        ["Admiralty officials","<b>about 2,000</b>","<b>about 3,569</b>"]])
     + "<p><b>The fleet got smaller and the office got bigger</b>, and he put the growth in "
-    "officials at <b>78 per cent</b>. His two reasons: an official wants to <b>multiply "
+    "officials at <b>78 percent</b>. His two reasons: an official wants to <b>multiply "
     "subordinates, not rivals</b>, and <b>officials make work for each other</b>.</p>"
     "<p><b>What it is not.</b> It is <b>satire</b>, in a weekly magazine, by a historian, with real "
     "statistics in it. <b>It is not a measured law of how long work takes</b>, and the elderly lady "

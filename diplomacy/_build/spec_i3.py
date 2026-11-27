@@ -261,7 +261,7 @@ S["i09-f4"]=lambda: f_realia(tbl("","The name people use",
 S["i09-f5"]=lambda: f_realia(doc("Ministry of Foreign Affairs and Expatriates",
     "Internal note 9 &middot; the international registration of marks",
     "<p>The system's own members page gives <b>116 members covering 132 countries</b>. It adds that "
-    "they represent <b>more than 80 per cent of global trade</b>. Other published accounts give "
+    "they represent <b>more than 80 percent of global trade</b>. Other published accounts give "
     "<b>115 members and 131 countries</b>. Why the two figures differ: <b>some members are regional "
     "organizations</b>, and each of those covers several countries.</p>"
     "<p><b>What the system actually gives you.</b> One application, filed through an <b>office of "

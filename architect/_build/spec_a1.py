@@ -105,7 +105,7 @@ S["a01-f7"]=lambda: f_realia(doc("One week, two calendar years",
        ["&larr;","&nbsp;","<b>2026-W53</b>","&nbsp;","&nbsp;","&nbsp;","&rarr;"]])
     + "<p>The bracket runs from Monday to Sunday. It holds five days of one calendar year and two "
     "days of the next. The week is numbered in the year that holds most of it. So the first of "
-    "January 2027 sits in a week labelled 2026.</p>",
+    "January 2027 sits in a week labeled 2026.</p>",
     "A report headed week 01 with no year is two reports."), 600)
 S["a01-f8"]=lambda: f_icons([("form","typed into a field"),("tally","the day of the year"),
     ("timetable","on a planner"),("timer","after a T"),

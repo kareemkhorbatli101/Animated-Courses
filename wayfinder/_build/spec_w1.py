@@ -53,7 +53,7 @@ S["w01-f10"]=lambda: f_realia(doc("Nursing Access · Assignment 1","Patient hand
     "<p><b>Describe</b> and <b>evaluate</b> one method of patient handover.</p>"
     "<p>1,200 words. Due <b>9 October, 17:00</b>.</p>"
     "<p><b>The marker is looking for:</b></p><ol><li>A clear description of one method</li>"
-    "<li>Evidence that it works, or does not</li><li>Your own judgement, stated</li>"
+    "<li>Evidence that it works, or does not</li><li>Your own judgment, stated</li>"
     "<li>Three sources</li></ol>",
     "Both instruction words carry marks. Most students answer only the first."))
 S["w01-f11"]=lambda: f_panels(

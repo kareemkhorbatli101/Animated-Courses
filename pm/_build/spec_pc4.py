@@ -199,10 +199,10 @@ S["pc11-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 11",
     "popular version is <b>broad and almost unfalsifiable</b> &mdash; no observation could "
     "contradict it &mdash; and <b>taken alone it is an excuse to measure nothing</b>.</p>"
     + table_html(["Year","The measure","What improved","What it led people to do"],
-      [["<b>2021</b>","orders dispatched <b>per day</b>","count <b>+18 per cent</b> in two months",
+      [["<b>2021</b>","orders dispatched <b>per day</b>","count <b>+18 percent</b> in two months",
         "<b>split orders in two</b>"],
-       ["<b>2023</b>","<b>on-time</b> dispatch percentage","<b>81 &rarr; 96 per cent</b>",
-        "<b>refuse late orders</b>; 14 per cent moved to the next day"],
+       ["<b>2023</b>","<b>on-time</b> dispatch percentage","<b>81 &rarr; 96 percent</b>",
+        "<b>refuse late orders</b>; 14 percent moved to the next day"],
        ["<b>2025</b>","<b>median</b> days from order to dispatch","<b>11 &rarr; 6 days</b>",
         "<b>take the easy orders first</b>"]])
     + "<p><b>The 2025 measure is ours.</b> <i>Days from order to dispatch, counted weekly</i> is "
@@ -277,7 +277,7 @@ S["pc11-f11"]=lambda: f_panels(
     w=920, h=270)
 S["pc11-f12"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Review, as written", None,
-        "<p><b>Dispatch performance has improved by 45 per cent.</b> Median days from order to "
+        "<p><b>Dispatch performance has improved by 45 percent.</b> Median days from order to "
         "dispatch have fallen from 11 to 6.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Review, rewritten", None,
         "<p><b>The measure worked:</b> median <b>11 &rarr; 6</b> in nine months, and nobody worked "

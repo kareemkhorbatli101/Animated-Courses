@@ -60,7 +60,7 @@ S["t10-f6"]=lambda: f_realia(tbl("Word study","Modality, from obligation to perm
     note="<i>Not obliged to</i> and <i>not expected to</i> are completely different positions."), 560)
 S["t10-f7"]=lambda: f_chart([("mediated cases, 2 years ago",36),("mediated cases, last year",73),
     ("mediated cases, this year",57),("all concluded cases, this year",24)],
-    unit="per cent reaching agreement — samples of a few dozen cases; not averaged")
+    unit="percent reaching agreement — samples of a few dozen cases; not averaged")
 S["t10-f8"]=lambda: f_icons([("essay","an unsealed guideline"),("spreadsheet","may and may not"),
     ("data","three rates, small samples"),("note","a published statement"),
     ("chair","an empty chair"),("balance","two sentences about a company")], cols=3)
@@ -146,13 +146,13 @@ S["t11-f5"]=lambda: f_realia(doc("Lindmark Group &middot; pay round paper, page 
     "N. Khalil &middot; 14 November",
     "<p style='font-size:14px'><b>What this paper is not.</b> <b>This is not an argument for a larger "
     "pay envelope.</b> The figures below describe twenty-five years and cannot be addressed in one pay "
-    "round. They are here because they explain <b>how four per cent will be heard</b>.</p>"
+    "round. They are here because they explain <b>how four percent will be heard</b>.</p>"
     + table_html(["","Change, 1999 to 2024"],
       [["<b>Productivity</b>, high-income countries","<b>+29%</b>"],
        ["<b>Real wages</b>","about <b>+15%</b>"],
        ["<b>The gap</b>","<b>14 percentage points, accumulated over 25 years</b>"]])
     + "<p style='background:#efe3ef;border-left:4px solid #6d3b6e;padding:10px 12px;font-size:13.5px'>"
-      "<b>For every two per cent of additional output per hour over that period, a little under one per "
+      "<b>For every two percent of additional output per hour over that period, a little under one per "
       "cent has reached pay.</b> Both figures are positive; the divergence is the finding.</p>"
     + table_html(["Global real wage growth",""],
       [["2022","<b>−0.9%</b>"],["2023","<b>+1.8%</b>"],
@@ -163,7 +163,7 @@ S["t11-f5"]=lambda: f_realia(doc("Lindmark Group &middot; pay round paper, page 
       "<b>Men earn more than women in every country income group and across the entire wage "
       "distribution</b> &mdash; not only on average.</p>"
     + "<p style='background:#f3ead8;border-left:4px solid #8a5a1e;padding:9px 12px;font-size:13.5px'>"
-      "<b>A move from 4% to 5% is a rise of one percentage point, not a rise of one per cent. It costs "
+      "<b>A move from 4% to 5% is a rise of one percentage point, not a rise of one percent. It costs "
       "25% more than it sounds.</b> The management pack has reported this the wrong way twice.</p>",
     "Source: ILO, Global Wage Report 2024–25, for all external figures."), 570)
 S["t11-f6"]=lambda: f_realia(tbl("Word study","Proportion and ratio",
@@ -176,10 +176,10 @@ S["t11-f6"]=lambda: f_realia(tbl("Word study","Proportion and ratio",
      ["X per Y","output <b>per</b> hour; cost <b>per</b> tonne"]],
     note="<i>Twice as fast as</i> compares rates. <i>Twice as much as</i> compares quantities."), 560)
 S["t11-f7"]=lambda: f_line([("1999",0),("2005",8),("2010",14),("2015",20),("2020",25),("2024",29)],
-    w=580, h=250, unit="cumulative growth, per cent — productivity reaches 29; real wages reach about 15", ymin=-1)
+    w=580, h=250, unit="cumulative growth, percent — productivity reaches 29; real wages reach about 15", ymin=-1)
 S["t11-f8"]=lambda: f_icons([("note","this is not a claim for money"),("data","two diverging lines"),
     ("scales","a for-every ratio"),("tally","three recent years"),
-    ("spreadsheet","the bottom decile"),("calculator","one point, twenty-five per cent")], cols=3)
+    ("spreadsheet","the bottom decile"),("calculator","one point, twenty-five percent")], cols=3)
 S["t11-f9"]=lambda: f_realia(doc("Pay paper page", None,
     "<p style='font-size:14px'><b>This paper is not a request for a larger envelope.</b></p>"
     + table_html(["1999 to 2024","Change"],
@@ -203,21 +203,21 @@ S["t11-f10"]=lambda: f_scene(1000,440, people=[("nour",280,166,{}),("marek",440,
            ("computer",620,206,0.28)])
 S["t11-f11"]=lambda: f_realia(tbl("Two pay papers","One figure, or the context",
     ["","Paper A","Paper B"],
-    [["Opens with","four per cent and a market comparison","what the paper is not"],
+    [["Opens with","four percent and a market comparison","what the paper is not"],
      ["The long view","&mdash;","29 against 15, gap in points"],
      ["Inconvenient figures","omitted","included at the same weight"],
-     ["Arithmetic","one per cent","one point, and 25% more money"]],
+     ["Arithmetic","one percent","one point, and 25% more money"]],
     note="One of these is read by the whole workforce."), 540)
 S["t11-f12"]=lambda: f_realia(doc("Two pay papers", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
-    "<b>First.</b> We propose four per cent, which is in line with the market. Real wages are growing "
+    "<b>First.</b> We propose four percent, which is in line with the market. Real wages are growing "
     "globally and the offer is competitive.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> <b>This is not a request for a larger envelope.</b> In "
     "high-income countries productivity rose <b>29%</b> between 1999 and 2024 and real wages rose about "
     "<b>15%</b>: <b>a gap of 14 percentage points has opened since 1999</b>, and <b>for every 2% of "
     "additional output per hour a little under 1% reached pay</b>. The recent picture is better and is "
     "in this paper deliberately: real wages fell 0.9% in 2022, recovered 1.8% in 2023 and were about "
-    "2.7% in 2024 &mdash; 2.3% excluding China. <b>Four to five per cent is one percentage point and "
+    "2.7% in 2024 &mdash; 2.3% excluding China. <b>Four to five percent is one percentage point and "
     "25% more money</b>, and the pack has said it the wrong way twice.</p>",
     "Put the figure that weakens your case in your own paper, in the same type size."), 560)
 S["t11-f13"]=lambda: f_realia(tbl("","Divergence planner",
@@ -232,7 +232,7 @@ S["t11-f14"]=lambda: f_scene(1140,480, people=[("nour",280,164,{}),("marek",450,
     board=(930,20,180,130,"1 PT = 25%",[("output","+29%"),("pay","+15%")]),
     props=[("table",430,262,1.9),("essay",360,206,0.3),("flipchart",80,150,0.9),
            ("calculator",1060,200,0.2),("tray",1045,234,0.3)])
-S["t11-f15"]=lambda: f_chart([("always points",3),("always per cent",6),("we mix the two",10),
+S["t11-f15"]=lambda: f_chart([("always points",3),("always percent",6),("we mix the two",10),
     ("never noticed",4),("nobody checks",2)], unit="students")
 S["t11-f16"]=lambda: f_scene(920,430, people=[("nour",300,170,{"seated":True})],
     board=(680,20,230,150,"THE THREAD",[("replies","about 400"),("about","the 14 points")]),
@@ -269,7 +269,7 @@ S["t12-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; network strategy bri
     + "<p style='font-size:13.5px'><b>Section 2 &mdash; the scenarios. These have policy in them and "
       "no probability.</b></p>"
     + table_html(["","Figure"],
-      [["Worldwide freight tonne-kilometres, 2019–2050, <b>current ambition</b>","<b>roughly double</b>"],
+      [["Worldwide freight tonne-kilometers, 2019–2050, <b>current ambition</b>","<b>roughly double</b>"],
        ["The same measure, an <b>earlier edition</b>, <b>current policies</b>","a factor of <b>2.6</b>"],
        ["A <b>high-ambition regional</b> scenario","2050 demand about <b>11% lower</b>"]])
     + "<p style='background:#efe3ef;border-left:4px solid #6d3b6e;padding:10px 12px;font-size:13.5px'>"
@@ -286,7 +286,7 @@ S["t12-f6"]=lambda: f_realia(tbl("Word study","Scenario expressions",
     ["Form","Example","Claims"],
     [["under a scenario in which","<b>Under a scenario in which</b> policies tighten, demand is 11% lower.","consequence, not likelihood"],
      ["on current policies","<b>On current policies</b>, activity rises by a factor of 2.6.","consequence of inaction"],
-     ["were X to hold","<b>Were the current ambition to hold</b>, tonne-kilometres <b>would</b> double.","consequence, hypothetical"],
+     ["were X to hold","<b>Were the current ambition to hold</b>, tonne-kilometers <b>would</b> double.","consequence, hypothetical"],
      ["on the assumption that","<b>On the assumption that</b> fuel prices stay in range …","a named input"],
      ["in the central case","<b>In the central case</b> the peak falls in the mid-2080s.","the likeliest of a set"],
      ["all else equal","<b>All else equal</b>, a longer route raises cost per tonne.","one variable isolated"]],
@@ -335,7 +335,7 @@ S["t12-f12"]=lambda: f_realia(doc("Two strategy briefs", None,
     "<b>10.3 billion in the mid-2080s</b> and to ease to about <b>10.2 billion by 2100</b>, with a "
     "published <b>95% interval of 9.0 to 11.4 billion</b>; the 2100 figure <b>has been revised about 6% "
     "lower</b> between editions. <b>Were the current ambition scenario to hold</b>, worldwide "
-    "tonne-kilometres <b>would</b> roughly double between 2019 and 2050; <b>on current policies</b> an "
+    "tonne-kilometers <b>would</b> roughly double between 2019 and 2050; <b>on current policies</b> an "
     "earlier edition gives a factor of <b>2.6</b>; <b>under a high-ambition scenario</b> 2050 demand "
     "<b>would be about 11% lower</b>. <b>There is no average of these that means anything.</b> "
     "<b>I am not providing a 2050 number.</b></p>",

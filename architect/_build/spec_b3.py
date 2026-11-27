@@ -38,7 +38,7 @@ S["b07-f5"]=lambda: f_realia(doc("Meridian &middot; architecture note 19",
       [["the <b>writer</b> wrote a field the reader does not have","the value is <b>ignored</b>"],
        ["the <b>reader</b> has a field the writer did not write, <b>with</b> a default",
         "the <b>default is used</b>"],
-       ["the same, with <b>no</b> default","<b>an error is signalled</b>"],
+       ["the same, with <b>no</b> default","<b>an error is signaled</b>"],
        ["the field was renamed, and the old name is an alias","it is <b>matched</b>"]])
     + "<p><b>The case that fails.</b> Read the third row again, because it is the only one that "
     "stops a program. The danger is not in the data. It is in the reader. A field added to a "

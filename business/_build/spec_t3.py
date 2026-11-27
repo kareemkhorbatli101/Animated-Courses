@@ -281,7 +281,7 @@ S["t09-f6"]=lambda: f_realia(tbl("Word study","Attribution verbs, by how much ca
     note="<i>Accounts for</i> is checkable. <i>Is due to</i> is not."), 560)
 S["t09-f7"]=lambda: f_chart([("volume, 2024",2.2),("tonne-miles, 2024",5.9),
     ("volume, 2025 proj.",0.5),("tonne-miles, 2025 proj.",0.3)],
-    unit="per cent — the 2024 gap is distance, not demand")
+    unit="percent — the 2024 gap is distance, not demand")
 S["t09-f8"]=lambda: f_icons([("balance","two bars of different heights"),("quotemark","a quoted reading"),
     ("spreadsheet","three candidate causes"),("stars","a tick against one"),
     ("data","two mix shares"),("email","a rate renegotiation")], cols=3)
@@ -314,7 +314,7 @@ S["t09-f11"]=lambda: f_realia(tbl("Two management pack pages","One average, or b
     note="A single average will do this to you again."), 540)
 S["t09-f12"]=lambda: f_realia(doc("Two notes on a cost rise", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
-    "<b>First.</b> Sea-freight cost per tonne is up eleven per cent. The market has tightened. We are "
+    "<b>First.</b> Sea-freight cost per tonne is up eleven percent. The market has tightened. We are "
     "renegotiating rates.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> Seaborne trade grew <b>2.2% by volume</b> in 2024 and "
     "<b>5.9% in tonne-miles</b>. Nobody shipped three times as much of anything: tonne-miles are weight "

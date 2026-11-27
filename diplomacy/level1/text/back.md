@@ -80,7 +80,7 @@ the column worth reading twice.
 | | |
 |---|---|
 | **Countable → *how many*; uncountable → *how much*** | *how much documents* |
-| **Say a percentage slowly, and say the whole of it** | *nought point nought nought one per cent* |
+| **Say a percentage slowly, and say the whole of it** | *nought point nought nought one percent* |
 | **A number needs its scale** | the regular budget scale and the peacekeeping scale are two different things |
 | **Read every figure back** | one misplaced decimal point is a different country's assessment |
 
@@ -185,7 +185,7 @@ full alphabetical list, with phonemic transcription, is in the Teacher's Book.
 | **5** | a call · a caller · an extension · to put through · to transfer · to hold · a message · a switchboard · a landline · a line · to ring back · to take a message · urgent · engaged · available · a time zone |
 | **6** | a file · a folder · a registry · a shelf · a box · a reference · an index · a volume · a treaty · a series · to file · to retrieve · to log · missing · in order · a gap |
 | **7** | a diary · an appointment · a meeting · a call · to book · to confirm · to postpone · to cancel · to reschedule · a slot · an agenda · a venue · a chair · a note-taker · available · double-booked |
-| **8** | a figure · a percentage · a decimal point · a scale · an assessment · a contribution · a budget · a ceiling · a floor · a rate · to calculate · to round · approximately · exactly · per cent · a total |
+| **8** | a figure · a percentage · a decimal point · a scale · an assessment · a contribution · a budget · a ceiling · a floor · a rate · to calculate · to round · approximately · exactly · percent · a total |
 | **9** | an email · a subject line · an attachment · a recipient · to copy in · to forward · to reply · a symbol · a revision · an addendum · a corrigendum · a draft · final · circulated · outstanding · for information |
 | **10** | a national · a detainee · a relative · consent · consular access · to notify · to detain · to inform · to request · without delay · a next of kin · a lawyer · a list · a visit · welfare · a note |
 | **11** | a visa · a short stay · a limit · a period · a window · to enter · to leave · to stay · to overstay · an entry stamp · an exit stamp · a border · the holder · valid from · valid until · to count |

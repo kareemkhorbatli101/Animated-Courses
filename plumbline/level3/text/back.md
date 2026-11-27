@@ -207,7 +207,7 @@ The series note is in `SOURCES.md`.
 | **1** | The published **description of the Academic Reading test**, read 2 May | It describes a design and not your paper: not the topics, not how many questions of each type, not their order, and not which passage carries the detailed argument; and it is silent on how to divide the hour, because a method is somebody else's job |
 | **2** | **J. Charles Alderson**, *Assessing Reading*, Cambridge University Press, **2000** | A review of a field rather than a study, written for test developers and researchers, reaching **few firm conclusions on purpose**; it reports that some items are answerable without the text, that background knowledge affects performance, that the question type changes the score, and that named reading skills are hard to separate in candidate data; it is of its period, and it does not hold that reading tests are invalid |
 | **3** | **Keith Rayner**, *Eye movements in reading and information processing: 20 years of research*, **Psychological Bulletin, 1998** | A review of laboratory eye-tracking, mostly with **skilled first-language readers** reading sentences and short texts under controlled conditions; it is about the mechanics of the eye and not about comprehension strategies; it says nothing about second-language reading; and it contains **no training** |
-| **4** | **M. Hsueh-Chao Hu and I. S. P. Nation**, *Unknown vocabulary density and reading comprehension*, **Reading in a Foreign Language, 2000** | **One study**, **one fiction text**, one group of learners, two comprehension measures; the unknown words were **invented**, which is a clean method with a known cost; the thresholds are **proportions of readers, not switches**, and the 98 per cent figure is offered as **probable**; and it says nothing about academic prose or about examinations |
+| **4** | **M. Hsueh-Chao Hu and I. S. P. Nation**, *Unknown vocabulary density and reading comprehension*, **Reading in a Foreign Language, 2000** | **One study**, **one fiction text**, one group of learners, two comprehension measures; the unknown words were **invented**, which is a clean method with a known cost; the thresholds are **proportions of readers, not switches**, and the 98 percent figure is offered as **probable**; and it says nothing about academic prose or about examinations |
 | **5** | **Averil Coxhead**, *A New Academic Word List*, **TESOL Quarterly, 2000** | It **deliberately excludes the most frequent 2,000 words**, so on its own it gives one word in ten of a page the reader cannot read; it was built on a corpus of one period and selection; **coverage varies by discipline**; counting families assumes derivational competence; it is a list and not a syllabus; and later work has proposed alternatives |
 | **6** | **M. A. K. Halliday and R. Hasan**, *Cohesion in English*, Longman, **1976** | A **description of a language** written for linguists, not a reading method; its central distinction is that **cohesion is not coherence**; the categories overlap and coding is interpretive; and it is of its period and has been extended since, including by one of its own authors |
 | **7** | **P. C. Wason**, *Reasoning about a rule*, **Quarterly Journal of Experimental Psychology, 1968** | An **abstract** laboratory task with a small number of participants; **performance changes dramatically with everyday content**, so it does not show that people cannot reason; the interpretation has been argued about for fifty years and is unsettled; and it has nothing to do with reading tests — **the connection drawn in the unit is the book's own analogy, not a research finding** |
@@ -219,7 +219,7 @@ The series note is in `SOURCES.md`.
 
 Twelve admissions, one per unit.
 
-- **Unit 1.** Ninety per cent accuracy and twenty-six marks, because eleven questions were never
+- **Unit 1.** Ninety percent accuracy and twenty-six marks, because eleven questions were never
   answered. The hour pays for marks on a sheet and not for care.
 - **Unit 2.** Two of four questions answered with the passage covered. A right answer does not prove
   that anybody understood anything.
@@ -240,7 +240,7 @@ Twelve admissions, one per unit.
 - **Unit 10.** Fourteen marks from five words known since school, four of them hedges.
 - **Unit 11.** The same paragraph scored 18, 44 and 66 with an identical syllable count. The entire
   difference was punctuation.
-- **Unit 12.** Accuracy fell from ninety per cent to eighty-four and the score rose from
+- **Unit 12.** Accuracy fell from ninety percent to eighty-four and the score rose from
   twenty-six to thirty-three. Something real was traded for something that counts.
 
 # A note on everything else in this book

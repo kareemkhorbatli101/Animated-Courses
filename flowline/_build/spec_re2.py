@@ -237,7 +237,7 @@ S["re05-f8"]=lambda: f_icons([("form","issued, work in progress"),
 S["re05-f9"]=lambda: f_realia(tbl("Shift handover log",
     "Outgoing to night shift &middot; 19:00",
     ["Section","Entry"],
-    [["1 &middot; Plant state","normal, train 2 at 86 per cent"],
+    [["1 &middot; Plant state","normal, train 2 at 86 percent"],
      ["2 &middot; Changed since 14:00","PSV-212 removed at 16:10, permit 4471, not complete"],
      ["3 &middot; Suspended or incomplete","permit 4468 suspended to 07:00; permit 4471 as above"],
      ["<b>4 &middot; Must not happen this shift</b>","<b>&mdash; empty &mdash;</b>"],
@@ -327,7 +327,7 @@ S["re06-f4"]=lambda: f_realia(tbl("Team research sheet",
 S["re06-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Training Center",
     "Note for operators: why a plant moves when nobody moves it",
     "<p style='font-size:12px;color:#6b6861'>Source: Jens Rasmussen, \"Risk management in a dynamic "
-    "society: a modelling problem\", <i>Safety Science</i>, 1997. In our own words.</p>"
+    "society: a modeling problem\", <i>Safety Science</i>, 1997. In our own words.</p>"
     "<p><b>The central picture.</b> The way a plant actually operates is a point inside a space with "
     "<b>three boundaries</b>. The boundary of <b>economic failure</b>: go too far and the operation is "
     "not viable. The boundary of <b>unacceptable workload</b>: go too far and the people cannot do "
@@ -367,9 +367,9 @@ S["re06-f7"]=lambda: f_realia(tbl("Twelve changes, five years",
     [["1","sampling weekly to monthly","results consistently well inside limits"],
      ["2","night rounds four to two","a vacancy that was not filled"],
      ["3","spare pump not replaced","long lead time, standby never needed"],
-     ["4","a tolerance widened one per cent","a supplier could not meet the old one"],
+     ["4","a tolerance widened one percent","a supplier could not meet the old one"],
      ["5","bypass permitted overnight","the shift change disrupted the work"],
-     ["6","alarm limit raised three per cent","the alarm activated in normal operation"],
+     ["6","alarm limit raised three percent","the alarm activated in normal operation"],
      ["7","quarterly test to six-monthly","three years of clear results"],
      ["8","one fire pump out for overhaul","the other was available"],
      ["9","drawing update deferred","the project team demobilized"],

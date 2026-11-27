@@ -36,8 +36,8 @@ S["x10-f5"]=lambda: f_realia(doc("Portmere Business Watch · review note 3",
     "accounts given after discussion is how a street ends up watching for the wrong thing for a "
     "year.</p>"
     "<p><b>Context for members.</b> Harm at work remains common: survey data for 2025 indicate "
-    "that <b>16 per cent of the global workforce</b> reported experiencing serious harm at work "
-    "in the previous two years, down from 18 per cent in 2023 and 19 per cent in 2021. Falling, "
+    "that <b>16 percent of the global workforce</b> reported experiencing serious harm at work "
+    "in the previous two years, down from 18 percent in 2023 and 19 percent in 2021. Falling, "
     "slowly. Recording things properly is part of why.</p>",
     "Figures: ILO / World Risk Poll data, reported by ILOSTAT, 2025."))
 S["x10-f6"]=lambda: f_realia(tbl("Word study","-ment and -ence",
@@ -127,7 +127,7 @@ S["x11-f5"]=lambda: f_realia(doc("Northside University · Admissions · referenc
     "separately and will be confirmed after acceptance. Applicants are advised not to make "
     "financial commitments before confirmation has been received.</p>"
     "<p><b>Note for applicants moving to study.</b> There were around <b>304 million "
-    "international migrants</b> in 2024, about <b>3.7 per cent</b> of the world's population, and "
+    "international migrants</b> in 2024, about <b>3.7 percent</b> of the world's population, and "
     "nearly double the figure for 1990. Nobody moves easily. Most people who move, manage.</p>",
     "Figures: UN DESA Population Division, <i>International Migrant Stock 2024</i>."))
 S["x11-f6"]=lambda: f_realia(tbl("Word study","The participle as an adjective",
@@ -215,10 +215,10 @@ S["x12-f5"]=lambda: f_realia(doc("Portmere Advice Center · leaflet 2",
     "situations covered here, and it is also hard to prove and slow to remedy. We say this plainly "
     "because leaflets that do not say it are read by people who then feel foolish. Keep dates. "
     "Keep copies. Tell somebody at the time.</p>"
-    "<p><b>Why housing comes first in this leaflet.</b> Across the EU in 2024, <b>8.2 per cent</b> "
-    "of people lived in households spending 40 per cent or more of disposable income on housing. "
-    "For non-nationals from outside the EU the figure was <b>18.8 per cent</b>, against <b>7.6 "
-    "per cent</b> for nationals. If you are reading this as a migrant tenant, the gap is not your "
+    "<p><b>Why housing comes first in this leaflet.</b> Across the EU in 2024, <b>8.2 percent</b> "
+    "of people lived in households spending 40 percent or more of disposable income on housing. "
+    "For non-nationals from outside the EU the figure was <b>18.8 percent</b>, against <b>7.6 "
+    "percent</b> for nationals. If you are reading this as a migrant tenant, the gap is not your "
     "imagination.</p>",
     "Figures: Eurostat, <i>Living conditions in Europe &mdash; housing</i>, and "
     "<i>Migrant integration statistics</i>, 2024 data."))
@@ -228,7 +228,7 @@ S["x12-f6"]=lambda: f_realia(tbl("Word study","Formal twins",
      ["go over","review","a review"],["put off","postpone","a letter"],
      ["find out","ascertain","a report"]]), 440)
 S["x12-f7"]=lambda: f_chart([("non-EU nationals",18.8),("other EU citizens",16.1),
-    ("nationals",7.6)], unit="per cent spending 40%+ of income on housing · EU average 8.2",
+    ("nationals",7.6)], unit="percent spending 40%+ of income on housing · EU average 8.2",
     w=560)
 S["x12-f8"]=lambda: f_icons([("radiator","a cold radiator"),("timetable","a late rota"),
     ("salary","a queried payslip"),("danger","a damp patch"),

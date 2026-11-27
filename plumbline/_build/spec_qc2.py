@@ -25,7 +25,7 @@ S["qc04-f2"]=lambda: f_scene(900,420, people=[("priya",300,176,{}),
     clockat=(600,44,22,10,30))
 S["qc04-f3"]=lambda: f_icons([("essay","full coverage"),("review","one word in twenty unknown"),
     ("noentry","one in ten"),("scissors","one in five"),
-    ("door","ninety-eight per cent"),("magnifier","a proportion of readers, not a switch")],3)
+    ("door","ninety-eight percent"),("magnifier","a proportion of readers, not a switch")],3)
 S["qc04-f4"]=lambda: f_realia(tbl("Team research &middot; make your own densities", None,
     ["The version","Unknown words in a hundred","Questions right","Could I retell it","How it felt"],
     br(4,5),
@@ -42,12 +42,12 @@ S["qc04-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the
     "words with invented ones, so that they could set the density of unknown words exactly, and "
     "measured comprehension with questions and with a written retelling.</p>"
     + table_html(["Coverage","Unknown words","What the study found"],
-      [["<b>100 per cent</b>","none","nearly all readers reached adequate comprehension"],
-       ["<b>95 per cent</b>","one in twenty","only a <b>minority</b> did"],
-       ["<b>90 per cent</b>","one in ten","very few did"],
-       ["<b>80 per cent</b>","one in five","almost nobody did"]])
+      [["<b>100 percent</b>","none","nearly all readers reached adequate comprehension"],
+       ["<b>95 percent</b>","one in twenty","only a <b>minority</b> did"],
+       ["<b>90 percent</b>","one in ten","very few did"],
+       ["<b>80 percent</b>","one in five","almost nobody did"]])
     + "<p>From that shape the authors suggest that the coverage needed for <b>unassisted</b> "
-    "comprehension is probably around <b>98 per cent</b> &mdash; about <b>one unknown word in "
+    "comprehension is probably around <b>98 percent</b> &mdash; about <b>one unknown word in "
     "fifty</b>.</p>"
     "<p>Put that next to the arithmetic of Unit 1. If you meet one unknown word in twenty on a "
     "Reading passage, you are at the density where most readers in this study could not retell the "
@@ -58,8 +58,8 @@ S["qc04-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the
     "prose is not fiction and the figures might not transfer. The unknown words were <b>invented</b>: "
     "a nonsense word announces itself, while a real word you do not know may look familiar and may "
     "mislead you rather than simply stopping you. The thresholds are <b>proportions of readers, not "
-    "switches</b> &mdash; at 95 per cent a minority understood enough, so 95 is not a wall but a "
-    "place where most people fail and some do not. The 98 per cent figure is offered as "
+    "switches</b> &mdash; at 95 percent a minority understood enough, so 95 is not a wall but a "
+    "place where most people fail and some do not. The 98 percent figure is offered as "
     "<b>probable</b>, and the authors say so. And it is a study of comprehension, not of examinations: "
     "it says nothing about answering question types under time pressure and nothing about anybody's "
     "band.</p>",
@@ -87,12 +87,12 @@ S["qc04-f9"]=lambda: f_realia(doc("Practice passage extract &middot; with a glos
     "<p>The <b>grelling</b> of the samples was carried out in two stages. In the first, a second "
     "<b>plandic</b> was recorded for each site, and the results were compared with the "
     "<b>mordant</b> readings taken in the previous season. The team worked <b>flantly</b> through the "
-    "summer, and by September every <b>crelt</b> had been catalogued.</p>"
+    "summer, and by September every <b>crelt</b> had been cataloged.</p>"
     + table_html(["Glossary","Meaning"],
       [["<b>grelling</b>","the process of washing and sorting a sample"],
        ["<b>crelt</b>","a single item recovered from one site"]])
     + "<p style='font-size:13px;color:#6b6861'><b>Questions.</b> 1 How many stages? 2 What was "
-    "compared with the mordant readings? 3 By when was the cataloguing finished? 4 What is a "
+    "compared with the mordant readings? 3 By when was the cataloging finished? 4 What is a "
     "crelt?</p>",
     "Two of the five replaced words are in the glossary and nobody read it. All four questions can be "
     "answered anyway. Our own passage, written for this book."), 620)
@@ -118,10 +118,10 @@ S["qc04-f12"]=lambda: f_panels(
         "I need a bigger vocabulary.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Note 2, rewritten", None,
         "<p>On <b>16 May</b> I counted a hundred running words of the second practice passage and did "
-        "not know six, so my coverage of it was about <b>94 per cent</b>. A study published in 2000 "
-        "replaced words in a text with invented ones and found that at 95 per cent coverage only a "
-        "minority of readers reached adequate comprehension, at 90 per cent very few did, and that "
-        "unassisted comprehension probably needs around 98 per cent &mdash; about one unknown word in "
+        "not know six, so my coverage of it was about <b>94 percent</b>. A study published in 2000 "
+        "replaced words in a text with invented ones and found that at 95 percent coverage only a "
+        "minority of readers reached adequate comprehension, at 90 percent very few did, and that "
+        "unassisted comprehension probably needs around 98 percent &mdash; about one unknown word in "
         "fifty. It used one fiction text, one group of learners and invented rather than real unknown "
         "words, and says nothing about examinations, so the figures are a shape rather than a "
         "specification. Two things follow: I need more academic vocabulary, and on the day I read the "
@@ -147,8 +147,8 @@ S["qc04-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "Six unknown words in a hundred, eleven weeks",
     table_html(["","Figure"],
       [["Unknown words in a hundred, real academic page","6"],
-       ["My coverage of that page","about 94 per cent"],
-       ["Coverage probably needed, unassisted","about 98 per cent"],
+       ["My coverage of that page","about 94 percent"],
+       ["Coverage probably needed, unassisted","about 98 percent"],
        ["Weeks remaining","11"],
        ["Word families he could learn in eleven weeks","perhaps 600"],
        ["Which six hundred","not known"]])
@@ -177,7 +177,7 @@ S["qc05-f3"]=lambda: f_icons([("library","3.5 million words of academic text"),
     ("tally","a frequency threshold"),("worldmap","range across all four"),
     ("magnifier","chosen on range as well as frequency")],3)
 S["qc05-f4"]=lambda: f_realia(tbl("Team research &middot; shade a page", None,
-    ["The page","Running words","List words found","Per cent","Sublist most came from"],
+    ["The page","Running words","List words found","Percent","Sublist most came from"],
     br(6,5),
     note="The page with the fewest: ______________________"), 680)
 S["qc05-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the Reading class",
@@ -197,7 +197,7 @@ S["qc05-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the
         "those are assumed already known"],
        ["Families, not words","<i>analysis</i>, <i>analytical</i>, <i>analytically</i> count once"]])
     + "<p>The result is <b>570 word families</b>, grouped into <b>ten sublists</b> in order of "
-    "frequency. Those families account for about <b>ten per cent</b> of the running words of academic "
+    "frequency. Those families account for about <b>ten percent</b> of the running words of academic "
     "text; in a corpus of <b>fiction</b> the same families account for a little over <b>one per "
     "cent</b>. That gap is a measurement of what academic prose is made of.</p>"
     "<p><b>A list, not a syllabus.</b> It <b>deliberately excludes the most frequent 2,000 words</b>, "
@@ -263,7 +263,7 @@ S["qc05-f12"]=lambda: f_panels(
         "published in 2000 describes how the list was built: 570 families, from a corpus of about 3.5 "
         "million words of academic text across four subject areas, chosen for appearing in all four "
         "and for being outside the commonest two thousand, grouped into ten sublists by frequency. The "
-        "families cover roughly ten per cent of academic text and a little over one per cent of "
+        "families cover roughly ten percent of academic text and a little over one percent of "
         "fiction. It excludes the commonest two thousand on purpose, coverage varies by discipline, "
         "counting families assumes I can handle every form, and newer lists have been proposed. So my "
         "plan has two halves: sublists one to six, and the first two thousand properly.</p>"), w)[0:3],
@@ -415,7 +415,7 @@ S["qc06-f12"]=lambda: f_panels(
         "<p>In the practice paper on <b>30 May</b> I got three questions wrong in the third passage, "
         "and all three turn on one word: a <i>This</i> at the start of a sentence, which I took to "
         "refer to the noun just before it and which in fact referred to the whole preceding sentence "
-        "&mdash; a sentence that said the opposite. A description published in 1976 catalogues the "
+        "&mdash; a sentence that said the opposite. A description published in 1976 catalogs the "
         "ties that hold a text together: reference, substitution, ellipsis, conjunction and lexical "
         "cohesion, and it notes that a demonstrative can point back at a clause or a whole stretch of "
         "text. It is a description of the language rather than a reading method, its categories "

@@ -53,7 +53,7 @@ S["c00-f4"]=lambda: f_realia(tbl("Two kinds of source", None,
 # ---------------- Unit 1 · Nine Words for Good ----------------
 S["c01-f1"]=lambda: f_icons([("board","nine boxes"),("folder","one box opened"),
     ("clipboard","a checklist"),("timer","a stopwatch and a chart"),
-    ("padlock","a lock beside a record"),("iron","a spanner beside a module"),
+    ("padlock","a lock beside a record"),("iron","a wrench beside a module"),
     ("wheelchair","a ramp beside a doorway"),("danger","a warning triangle"),
     ("handshake","two systems exchanging data"),("handsup","the word good crossed out")], cols=5)
 S["c01-f2"]=lambda: f_scene(920,420, people=[("adeel",330,176,{"seated":True}),
@@ -201,13 +201,13 @@ S["c02-f5"]=lambda: f_realia(doc("Meridian &middot; architecture note 26",
     "the item on the assumption that everything it depends on is working. A service that is "
     "unavailable because its network is down may be perfectly available by this definition, and "
     "completely unavailable to the customer.</p>"
-    "<p><b>The arithmetic.</b> A year is 8,760 hours, so one tenth of one per cent is 8.76 hours: "
+    "<p><b>The arithmetic.</b> A year is 8,760 hours, so one tenth of one percent is 8.76 hours: "
     "about eight hours and three quarters. A thirty-day month is 720 hours, so the same percentage "
     "is 43.2 minutes. A week is 168 hours, so it is about ten minutes. The same percentage, three "
     "promises, differing by a factor of about fifty.</p>"
     "<p><b>And an average can hide a total outage.</b> If one customer in two hundred is "
     "unavailable for a whole day, the average barely moves. That customer's own availability for "
-    "the year is about 99.7 per cent, which is below three nines and far below what they were "
+    "the year is about 99.7 percent, which is below three nines and far below what they were "
     "told.</p>",
     "Source: ITU-T Recommendation E.800, September 2008 version. The Recommendation defines terms; "
     "it sets no targets, prescribes no measurement point and does not define what counts as an "
@@ -220,18 +220,18 @@ S["c02-f6"]=lambda: f_realia(tbl("Word study","Approximation",
      ["a little over","slightly more","<b>a little over</b> forty minutes"],
      ["nearly","&nbsp;","&nbsp;"],["roughly","&nbsp;","&nbsp;"]]), 600)
 S["c02-f7"]=lambda: f_chart([("most customers",99.98),("the next group",99.95),
-    ("the published average",99.94),("one customer",99.70)], unit="per cent")
+    ("the published average",99.94),("one customer",99.70)], unit="percent")
 S["c02-f8"]=lambda: f_icons([("calendar","a year"),("month","a month"),
     ("day","a week"),("router","inside our network"),
     ("address","at the customer"),("spreadsheet","one low bar")], cols=3)
 S["c02-f9"]=lambda: f_realia(tbl("Availability note &middot; the payments service",
     "Published monthly &middot; figures for October",
     ["",""],
-    [["<b>The figure</b>","99.94 per cent"],
+    [["<b>The figure</b>","99.94 percent"],
      ["<b>The period</b>","a calendar month, not a year"],
      ["<b>The measuring point</b>","our own edge, not the customer's office"],
-     ["<b>What counts as down</b>","any minute in which more than one per cent of requests failed"],
-     ["<b>Worst customer</b>","99.7 per cent"],
+     ["<b>What counts as down</b>","any minute in which more than one percent of requests failed"],
+     ["<b>Worst customer</b>","99.7 percent"],
      ["<b>Longest single outage</b>","7 hours 20 minutes, 14 October"]],
     note="The average is not a promise to anybody."), 560)
 S["c02-f10"]=lambda: f_scene(940,430, people=[("adeel",300,176,{"seated":True}),
@@ -241,15 +241,15 @@ S["c02-f10"]=lambda: f_scene(940,430, people=[("adeel",300,176,{"seated":True}),
     clockat=(140,46,22,9,30))
 S["c02-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Statement A", None,
-        "<p>We provide 99.9 per cent availability.</p>"), w)[0:3],
+        "<p>We provide 99.9 percent availability.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("Statement B", None,
-        "<p>99.9 per cent, monthly, per customer.<br>Measured at our edge.<br>"
+        "<p>99.9 percent, monthly, per customer.<br>Measured at our edge.<br>"
         "Down = a minute with over 1% failures.<br>"
         "Average 99.94; worst customer 99.7.<br>Longest single outage 7 h 20.</p>"), w)[0:3],
     w=920, h=300)
 S["c02-f12"]=lambda: f_realia(doc("Two statements", None,
     "<p style='border:1px solid #d9d4c9;padding:9px'><b>Statement 1</b><br>"
-    "Annual availability: 99.94 per cent.</p>"
+    "Annual availability: 99.94 percent.</p>"
     "<p style='border:1px solid #d9d4c9;padding:9px'><b>Statement 2</b><br>"
     "The figure, the period, the measuring point, the definition of down, the average, the worst "
     "customer and the longest single outage.</p>",

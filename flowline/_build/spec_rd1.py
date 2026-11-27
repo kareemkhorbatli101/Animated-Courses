@@ -14,10 +14,10 @@ CROSS = "<b style='color:#8a2f2f'>&#10007;</b>"
 S["rd00-f1"]=lambda: f_realia(tbl("Six things you already have",
     "One example each, from Books 1 to 3",
     ["What you have","An example"],
-    [["A grade","heavy and sour &middot; 24 degrees API &middot; four per cent sulfur"],
+    [["A grade","heavy and sour &middot; 24 degrees API &middot; four percent sulfur"],
      ["A unit","a barrel &middot; a cubic meter &middot; corrected to a stated base"],
      ["A code","a scope page &middot; a design factor &middot; an edition"],
-     ["A tolerance","plus or minus ten per cent &middot; at eighty per cent confidence"],
+     ["A tolerance","plus or minus ten percent &middot; at eighty percent confidence"],
      ["A boundary","where the pump ends &middot; where the pipeline code stops"],
      ["A joint document","signed by two people &middot; with a dash where a tick would lie"]],
     note="Six boxes. This book adds the English of money, and of the test, method or boundary that "
@@ -87,7 +87,7 @@ S["rd01-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
     "correlation.</p>"
     "<p><b>The precision section.</b> <b>Repeatability</b> is how much two results from the same "
     "operator may differ while both being correct. <b>Reproducibility</b> is how much two "
-    "laboratories may differ, and it is always wider. Both vary along the curve: the fifty per cent "
+    "laboratories may differ, and it is always wider. Both vary along the curve: the fifty percent "
     "point is the most reproducible, the initial and final boiling points the least.</p>",
     "A result inside a limit by less than the reproducibility is inside the limit and inside the "
     "noise. Most specification disputes are two correct results from one sample."), 580)
@@ -116,11 +116,11 @@ S["rd01-f9"]=lambda: f_realia(tbl("Certificate of quality &mdash; batch 2214, ga
      ["Sulfur, mg/kg","412","max 500","as named"],
      ["Flash point, C","68","min 56","as named"],
      ["Pour point, C","&minus;9","max &minus;6","as named"],
-     ["50 per cent recovered, C","286","&mdash;","as named"],
-     ["90 per cent recovered, C","<b>354</b>","<b>max 357</b>","as named"]],
+     ["50 percent recovered, C","286","&mdash;","as named"],
+     ["90 percent recovered, C","<b>354</b>","<b>max 357</b>","as named"]],
     numcols=(1,2),
     note="Five results are clear. The sixth is inside by three degrees, and the method's stated "
-    "reproducibility at the ninety per cent point is about four."), 640)
+    "reproducibility at the ninety percent point is about four."), 640)
 S["rd01-f10"]=lambda: f_scene(800,400,
     people=[("yara",180,180,{}),("haddad",300,176,{}),("omar",620,180,{})],
     props=[("table",150,0,0.95),("certificate",230,198,0.2),("spreadsheet",290,198,0.2),
@@ -131,7 +131,7 @@ S["rd01-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Certificate A",None,
     "<p>All inside. On specification.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Certificate B",None,
     "<p>The same six, each with its <b>method</b>, its <b>edition</b>, its limit, and its "
-    "<b>reproducibility</b>. A note against the ninety per cent point: <i>inside by 3 degrees against "
+    "<b>reproducibility</b>. A note against the ninety percent point: <i>inside by 3 degrees against "
     "a reproducibility of 4</i>.</p>",None),380)[0:3],
     800,300,"On specification","On specification, and one result in the noise")
 S["rd01-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
@@ -166,7 +166,7 @@ S["rd01-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "A sensible margin that was a coin toss",
     "<p><b>Our certificate:</b> 354 degrees against a limit of 357.</p>"
     "<p><b>The buyer's certificate:</b> 358.</p>"
-    "<p><b>A printed precision table</b> with four degrees highlighted at the ninety per cent "
+    "<p><b>A printed precision table</b> with four degrees highlighted at the ninety percent "
     "point.</p>"
     "<p><b>A blending worksheet</b> with the target set at 355.</p>"
     "<p><b>A contract page</b> with no umpire laboratory named.</p>"
@@ -231,7 +231,7 @@ S["rd02-f6"]=lambda: f_realia(tbl("Word study",
     [["approximately","a figure, not exact","Approximately 340 degrees."],
      ["typically","the usual case, over many examples","Gas oils typically fall in this range."],
      ["of the order of","the right factor of ten","The duty is of the order of ten megawatts."],
-     ["within about","a stated accuracy","The chart is good to within about five per cent."],
+     ["within about","a stated accuracy","The chart is good to within about five percent."],
      [BLANK,BLANK,BLANK],[BLANK,BLANK,BLANK]],
     note="Two rows are empty: <i>broadly</i> and <i>at best</i>. <i>Approximately 340</i> and <i>of "
     "the order of 340</i> are very different claims."), 680)
@@ -250,9 +250,9 @@ S["rd02-f8"]=lambda: f_icons([("data","a figure read off a chart in four seconds
 S["rd02-f9"]=lambda: f_realia(tbl("Screening study &mdash; heat recovery on the crude preheat train",
     "14 May &middot; all figures screening grade",
     ["Estimate","Value","Method","Stated accuracy"],
-    [["Heat duty","about 10 MW","published chart","about 5 per cent"],
-     ["Exchanger area","of the order of 400 m2","same source","about 20 per cent"],
-     ["Installed cost","of the order of 12 million","published cost index, from 2019","about 30 per cent"],
+    [["Heat duty","about 10 MW","published chart","about 5 percent"],
+     ["Exchanger area","of the order of 400 m2","same source","about 20 percent"],
+     ["Installed cost","of the order of 12 million","published cost index, from 2019","about 30 percent"],
      ["Payback","between two and four years","from the above","wide"],
      ["Stream density","0.94","measured","&mdash;"]],
     note="The chart was fitted over densities of 0.78 to 0.92. Our stream is 0.94, so the duty is an "
@@ -266,7 +266,7 @@ S["rd02-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Study A",None,
     "<p>Heat duty 9.64 MW. Exchanger area 412 m2. Cost 11.83 million. Payback 2.7 years.</p>",
     None),380)[0:3],
     lambda w,h: f_realia(doc("Study B",None,
-    "<p>Heat duty <b>about 10 MW</b>, from a chart good to about five per cent, <b>extrapolated</b> "
+    "<p>Heat duty <b>about 10 MW</b>, from a chart good to about five percent, <b>extrapolated</b> "
     "beyond its fitted density range. Area <b>of the order of 400 m2</b>. Cost <b>of the order of 12 "
     "million</b>, from an index brought forward from 2019. Payback <b>two to four years</b>.</p>",
     None),380)[0:3],
@@ -302,10 +302,10 @@ S["rd02-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "Two extra decimal places and an exchanger",
     "<p><b>A screening study</b> with 9.64 printed on it.</p>"
     "<p><b>The original chart</b>, its caption naming eleven crudes measured in the 1940s and a stated "
-    "accuracy of five per cent.</p>"
+    "accuracy of five percent.</p>"
     "<p><b>A spreadsheet printout</b> where the rounding was lost.</p>"
     "<p><b>A purchase order</b> for an exchanger sized at 9.6 megawatts.</p>"
-    "<p><i>The study said <b>approximately 10, good to about five per cent</b>, and the word "
+    "<p><i>The study said <b>approximately 10, good to about five percent</b>, and the word "
     "<b>extrapolation</b> was on the page. The real duty, when it was finally measured, was 12.</i></p>",
     "Seven o'clock. A spreadsheet cannot represent <i>about</i>."), 620)
 

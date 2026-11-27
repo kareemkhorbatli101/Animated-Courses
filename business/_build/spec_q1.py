@@ -74,8 +74,8 @@ S["q01-f9"]=lambda: f_realia(tbl("Arvo Components &middot; scope agreement AC-P1
     [["Order release","A customer tracking page (&asymp; 140,000)"],
      ["Picking sequence","Renegotiating carrier rates"],
      ["Carrier booking","The warehouse extension"],
-     ["The despatch cut-off time","Anything requiring new software"]],
-    note="<b>Objective:</b> 95% of orders despatched within 5 working days. "
+     ["The dispatch cut-off time","Anything requiring new software"]],
+    note="<b>Objective:</b> 95% of orders dispatched within 5 working days. "
     "<b>Baseline:</b> 22% currently take 8 days or more. <b>Target date:</b> 30 April. "
     "&nbsp; Sponsor ______________ (signed) &nbsp; Project manager ______________"), 540)
 S["q01-f10"]=lambda: f_scene(900,420, people=[("paula",330,170,{"seated":True}),
@@ -88,7 +88,7 @@ S["q01-f11"]=lambda: f_realia(tbl("Two briefs","The same project",
     [["Improve our logistics performance, reduce avoidable cost and give customers a better "
       "experience.<br>Budget 80,000.<br>Report by 30 April.<br><br>"
       "<i>How success will be measured: (blank)</i>",
-      "<b>Objective</b> 95% despatched within 5 working days<br>"
+      "<b>Objective</b> 95% dispatched within 5 working days<br>"
       "<b>Baseline</b> 22% take 8 days or more &mdash; our own records, 1,841 orders<br>"
       "<b>Target</b> by 30 April, held four weeks<br>"
       "<b>Out of scope</b> tracking page, carrier rates, the extension<br>"
@@ -98,10 +98,10 @@ S["q01-f12"]=lambda: f_realia(doc("Two briefs", None,
     "a better experience of dealing with us.</p>"
     "<p style='font-size:12px;color:#6b6861'>Three verbs, no numbers, no measurement. In April "
     "this page cannot say whether anybody succeeded.</p>"
-    "<p style='margin-top:14px'><b>B.</b> Make our despatch lead time consistent: 95 per cent of "
-    "orders despatched within five working days, measured weekly, by 30 April and held for four "
-    "consecutive weeks. Baseline: our own despatch records, 1 August to 31 January, 1,841 orders "
-    "&mdash; median 5 days, but 22 per cent took 8 days or more. Excluded: a customer tracking "
+    "<p style='margin-top:14px'><b>B.</b> Make our dispatch lead time consistent: 95 percent of "
+    "orders dispatched within five working days, measured weekly, by 30 April and held for four "
+    "consecutive weeks. Baseline: our own dispatch records, 1 August to 31 January, 1,841 orders "
+    "&mdash; median 5 days, but 22 percent took 8 days or more. Excluded: a customer tracking "
     "page, carrier rate renegotiation, the warehouse extension, anything needing new software. "
     "<b>This will not reduce cost this year and will not make us faster on average.</b></p>"))
 S["q01-f13"]=lambda: f_realia(form("One-page scope planner",
@@ -164,13 +164,13 @@ S["q02-f6"]=lambda: f_realia(tbl("Word study","Four ways to attach a condition",
      ["<b>as long as</b>","only on this condition",
       "Forty-five days, <b>as long as</b> the order is firm."],
      ["<b>provided that</b>","the same, more formal",
-      "<b>Provided that</b> volumes hold, we can offer two per cent."]],
+      "<b>Provided that</b> volumes hold, we can offer two percent."]],
     note="<i>unless</i> is already negative. <i>Unless the price doesn't hold</i> says the "
     "opposite of what you mean."), 520)
 S["q02-f7"]=lambda: f_line([("2015",1.5),("2023",2.5),("2025",2.5)], w=540,
     unit="trillion dollars &mdash; a survey-based estimate; as a share of trade it fell from "
     "10.6% to about 10%", mark=("2025","unchanged"), ymin=0)
-S["q02-f8"]=lambda: f_icons([("calendar","14 days or 90"),("pricetag","two per cent"),
+S["q02-f8"]=lambda: f_icons([("calendar","14 days or 90"),("pricetag","two percent"),
     ("pallet","4,000 or 10,000"),("signature","firm for a year"),
     ("bank","the bank's rule"),("change","what we trade")], cols=3)
 S["q02-f9"]=lambda: f_realia(tbl("Lindmark Freight &middot; negotiation plan",
@@ -207,7 +207,7 @@ S["q02-f12"]=lambda: f_realia(doc("Two emails", None,
     "If it's a bank facility or credit insurance, tell me and I'll stop raising it. Two "
     "alternatives, either of which works for us: sixty days as long as our order is firm for "
     "twelve months; or payment within fourteen days against a discount &mdash; we'd accept "
-    "anything from 1.5 per cent. <b>I am not asking you to hold stock and not asking for a price "
+    "anything from 1.5 percent. <b>I am not asking you to hold stock and not asking for a price "
     "reduction on top.</b></p>"))
 S["q02-f13"]=lambda: f_realia(tbl("","Negotiation planner",
     ["What we want","What it is worth to us","What we can give","What that costs us"],
@@ -256,7 +256,7 @@ S["q03-f5"]=lambda: f_realia(doc("Slide 1 of 4 &mdash; the only one with a numbe
     + "<p>Asia's offices received roughly <b>seven in every ten</b> applications. Designs about "
     "1.22 million, up 2.6%. Trademarks flat.</p>"
     "<p style='background:#fff3cf'><b>The honest sentence.</b> “World filings rose 4.9 per "
-    "cent” and “China filed 9 per cent more” are nearly the same fact in two "
+    "cent” and “China filed 9 percent more” are nearly the same fact in two "
     "costumes.</p>",
     "WIPO, World Intellectual Property Indicators 2025, published 12 November 2025, for 2024"))
 S["q03-f6"]=lambda: f_realia(tbl("Word study","How near is near?",
@@ -268,7 +268,7 @@ S["q03-f6"]=lambda: f_realia(tbl("Word study","How near is near?",
      ["<b>seven in ten</b>","a proportion, said simply","<b>seven in ten</b> applications"],
      ["<b>a percentage point</b>","the gap between two percentages",
       "up 6.5 <b>percentage points</b>"]],
-    note="13.5% &rarr; 20% is a rise of <b>6.5 points</b> and about <b>48 per cent</b>. Both are "
+    note="13.5% &rarr; 20% is a rise of <b>6.5 points</b> and about <b>48 percent</b>. Both are "
     "true. Say which you mean."), 540)
 S["q03-f7"]=lambda: f_chart([("CNIPA (China)",1800000),("USPTO",603194),("JPO",306855),
     ("KIPO",246245)],
@@ -283,7 +283,7 @@ S["q03-f9"]=lambda: f_realia(tbl("Presentation plan","Four slides, six minutes",
      ["2","<b>22%</b> &mdash; one figure, one label, one source line"],
      ["3","The long tail &mdash; one chart"],
      ["4","What I'm asking for &mdash; two days of analyst time"]],
-    note="<b>The sentence I will say twice:</b> twenty-two per cent of our orders take eight days "
+    note="<b>The sentence I will say twice:</b> twenty-two percent of our orders take eight days "
     "or more. &nbsp; <b>Questions I expect:</b> where is it from; why now; what about the median."),
     520)
 S["q03-f10"]=lambda: f_scene(900,420, people=[("chiamaka",300,172,{}),
@@ -297,16 +297,16 @@ S["q03-f11"]=lambda: f_realia(tbl("Two slides","The same data",
       "22.4% over 8 days; 1,841 orders; 11 over 20 days; 38% customer-caused<br><br>"
       "<i>The room remembers nothing.</i>",
       "<b>22%</b><br>of our orders take eight days or more<br>"
-      "<span style='font-size:11px;color:#6b6861'>our own despatch records, 1,841 orders, "
+      "<span style='font-size:11px;color:#6b6861'>our own dispatch records, 1,841 orders, "
       "Aug&ndash;Jan</span><br><br><i>The room remembers one thing.</i>"]]), 540)
 S["q03-f12"]=lambda: f_realia(doc("Two summaries", None,
     "<p><b>A.</b> Median lead time is 4.6 days against a published 5; the mean is 5.3; P90 is "
-    "9.1; 22.4 per cent of 1,841 orders exceeded 8 days; eleven exceeded 20; carrier B accounts "
-    "for 31 per cent of the tail; October was the worst month at 29 per cent.</p>"
+    "9.1; 22.4 percent of 1,841 orders exceeded 8 days; eleven exceeded 20; carrier B accounts "
+    "for 31 percent of the tail; October was the worst month at 29 percent.</p>"
     "<p style='font-size:12px;color:#6b6861'>Eleven figures in six lines. Nothing to take away.</p>"
-    "<p style='margin-top:14px'><b>B.</b> <b>Twenty-two per cent</b> of our orders take eight "
-    "working days or more to despatch, against a published lead time of five. That is from our "
-    "own despatch records &mdash; every order between August and January, not a sample. "
+    "<p style='margin-top:14px'><b>B.</b> <b>Twenty-two percent</b> of our orders take eight "
+    "working days or more to dispatch, against a published lead time of five. That is from our "
+    "own dispatch records &mdash; every order between August and January, not a sample. "
     "<b>What it does not show</b> is why, and it does not separate orders delayed by us from "
     "orders delayed by a customer's paperwork.</p>"))
 S["q03-f13"]=lambda: f_realia(form("One-page number planner",

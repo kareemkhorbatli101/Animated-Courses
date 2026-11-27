@@ -184,7 +184,7 @@ S["w07-f5"]=lambda: f_realia(doc("Portmere City Council · Food and waste, leafl
     "<p><b>Three things that help:</b> keep the fridge at or below 5 degrees; put new shopping "
     "behind the old; freeze bread on the day you buy it.</p>",
     "Worldwide, households throw away about <b>79 kilos of food per person</b> each year &mdash; "
-    "631 million tonnes, or 60 per cent of all the food that is wasted "
+    "631 million tonnes, or 60 percent of all the food that is wasted "
     "(UN Environment Programme, <i>Food Waste Index Report 2024</i>). A large part of it goes "
     "because of a date on a packet, not because anything was wrong with it."))
 S["w07-f6"]=lambda: f_realia(doc("Freshline meal kit · card 12","Chickpea and tomato stew",

@@ -7,7 +7,7 @@ Gates needing META (band, key coverage, descriptors) are reported SKIP, loudly.
 
 Run: python3 bookcheck.py <book-dir> [...]   e.g. ../level2
 """
-import sys, os, re, glob, json, struct
+import sys, os, re, glob, json, struct, io
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 V = json.load(open(os.path.join(HERE, "VARIANTS.json"), encoding="utf-8"))
@@ -31,7 +31,35 @@ BRITISH = [
     r"\bdraught\b", r"\bmaths\b", r"\bwhilst\b", r"\bamongst\b", r"\blearnt\b",
     r"\bspelt\b", r"\bburnt\b", r"\bdreamt\b", r"\baluminium\b", r"\bjewellery\b",
     r"\bstorey\b",
+    # Doubled consonant before a suffix: British doubles after an unstressed vowel.
+    r"\blabell(ed|ing|er|ers)\b", r"\bmodell(ed|ing)\b", r"\bsignall(ed|ing)\b",
+    r"\blevell(ed|ing)\b", r"\bfuell(ed|ing)\b", r"\bcounsell(or|ors|ed|ing)\b",
+    r"\bmarvellous\b", r"\btotall(ed|ing)\b", r"\bequall(ed|ing)\b",
+    # -ment, -ence and single-l word endings.
+    r"\bjudgement\b", r"\backnowledgement\b", r"\binstalment\b", r"\bfulfil\b",
+    r"\bfulfilment\b", r"\benrolment\b", r"\bspeciality\b",
+    # -re, -ph, -ae and other spellings.
+    r"\b(kilo|centi|milli)metre(s)?\b", r"\bfibre(s)?\b", r"\bsulphur",
+    r"\bartefact", r"\bsceptic", r"\bcatalogue(s|d)?\b", r"\bmanoeuvr",
+    r"\bmoustache\b", r"\bpyjamas\b", r"\banalys(e|ed|ing)\b",
+    r"\bpractis(ed|ing)\b", r"\benquir(e|es|ed|ing|y|ies)\b", r"\bdespatch",
+    # Two words in British English, one in American.
+    r"\bper cent\b",
+    # Lexis, not spelling: an unambiguous pair where the American base has its own
+    # word. The reverse direction lives in VARIANTS.json for the British edition.
+    r"\blorr(y|ies)\b", r"\bspanner(s)?\b", r"\bcarriageway(s)?\b",
 ]
+# American English really does end these words in -ise, so the general -ise rule
+# below has to know them. Prefixes un-, re-, dis-, im-, non- are stripped first.
+ISE_OK = {"advertise", "advise", "appraise", "apprise", "chastise", "chemise",
+          "circumcise", "comprise", "compromise", "concise", "disguise",
+          "enfranchise", "enterprise", "excise", "exercise", "expertise",
+          "franchise", "improvise", "likewise", "clockwise", "anticlockwise",
+          "merchandise", "mortise", "otherwise", "paradise", "porpoise",
+          "precise", "premise", "promise", "raise", "praise", "sunrise",
+          "supervise", "surmise", "surprise", "televise", "tortoise",
+          "treatise", "turquoise", "despise"}
+ISE_RE = r"\b[A-Za-z]{4,}is(?:e|es|ed|ing|ation|ations|ational)\b"
 SPEAK = [r"\bwith a partner\b", r"\bwith your partner\b", r"\bask and answer\b",
          r"\bin pairs\b", r"\bin threes\b", r"\bin your group\b", r"\bwith your group\b",
          r"\btell your\b", r"\btell the class\b", r"\btell somebody\b", r"\btell each other\b",
@@ -152,6 +180,30 @@ def load_specs(book):
         print("  (figure specs not loadable: %s)" % e)
     return out
 
+def spec_funcs(book):
+    """figure id -> the drawing function it is built from, read from the spec source.
+    f_realia is reported with its inner builder, because a page of six tables and a
+    page of six letters are not the same kind of page."""
+    mods = SPEC_MODULES.get(book) or []
+    dirs = [os.path.join(HERE, "..", "_build")]
+    for _series in ("business", "diplomacy", "architect", "pm", "plumbline", "flowline"):
+        if book.startswith(_series + "/"):
+            dirs.insert(0, os.path.join(HERE, "..", "..", _series, "_build"))
+    out = {}
+    for mn in mods:
+        for d in dirs:
+            p = os.path.join(d, mn + ".py")
+            if not os.path.exists(p): continue
+            src = io.open(p, encoding="utf-8").read()
+            for m in re.finditer(r'S\[\s*"([\w-]+)"\s*\]\s*=\s*lambda[^:]*:\s*(\w+)\(\s*(\w+)?',
+                                 src):
+                fid, fn, inner = m.group(1), m.group(2), m.group(3)
+                if fn == "f_realia" and inner in ("doc", "form", "tbl"):
+                    fn = "f_realia:" + inner
+                out[fid] = fn
+            break
+    return out
+
 def html_text(h):
     h = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", h, flags=re.S)
     h = re.sub(r"<br\s*/?>", " ", h)
@@ -218,6 +270,83 @@ READ_TARGET = {"starter": (0.0,3.5), "level1": (2.5,4.5), "level2": (3.0,5.0),
                "flowline/level3": (5.5,9.0), "flowline/level4": (6.5,10.0),
                "flowline/level5": (7.5,11.0), "flowline/level6": (8.5,12.0)}
 
+# Words of running reading per unit. Flesch-Kincaid is blind to length: a 450-word
+# text at FK 6.0 still defeats an A2 reader, who decodes sixty to ninety words a
+# minute and has one lesson to read, re-read and answer. A text may be shorter than
+# the ceiling; it may not be longer.
+READ_LEN = {"starter": 110, "level1": 150, "level2": 190, "level3": 280,
+            "level4": 380, "level5": 480}
+for _s in ("business", "diplomacy", "architect", "pm", "flowline"):
+    for _k, _v in {"level1": 220, "level2": 290, "level3": 360,
+                   "level4": 440, "level5": 530, "level6": 650}.items():
+        READ_LEN["%s/%s" % (_s, _k)] = _v
+# Plumbline's reading lesson is exam practice. A real Academic Reading passage runs
+# 700 to 900 words, and shortening it would misrepresent the test, so the ceiling
+# here is the test's own length, not a teaching length.
+for _k, _v in {"level1": 350, "level2": 450, "level3": 600,
+               "level4": 700, "level5": 800, "level6": 900}.items():
+    READ_LEN["plumbline/%s" % _k] = _v
+
+# Nominalizations per 1,000 words of student-facing prose. Turning verbs into nouns
+# is how a text drifts above its level without its sentences getting any longer.
+# The ceilings are the rates the best-scaffolded books in the estate already hold:
+# Wayfinder across its six levels, and Clearline Foundation for adult A2.
+NOM_MAX = {"starter": 16, "level1": 26, "level2": 30, "level3": 38,
+           "level4": 46, "level5": 52}
+for _s in ("business", "diplomacy", "architect", "pm", "flowline"):
+    for _k, _v in {"level1": 30, "level2": 38, "level3": 46,
+                   "level4": 54, "level5": 62, "level6": 72}.items():
+        NOM_MAX["%s/%s" % (_s, _k)] = _v
+# Plumbline starts at B1 and its subject is academic argument, where the abstract
+# noun is the register, not drift away from it.
+for _k, _v in {"level1": 46, "level2": 50, "level3": 54,
+               "level4": 60, "level5": 68, "level6": 78}.items():
+    NOM_MAX["plumbline/%s" % _k] = _v
+
+# Share of a unit that may be quoted text -- the reading, the realia, the model
+# answer. Above this the unit is an anthology with questions, not a lesson.
+# Above two-fifths quoted, the lesson's own apparatus -- tasks, grammar, writing,
+# review -- has fallen below three-fifths of the unit, and the unit has become an
+# anthology with questions attached.
+QUOTE_MAX = dict.fromkeys(READ_LEN, 0.38)
+for _k in list(QUOTE_MAX):
+    if _k.startswith("plumbline/"): QUOTE_MAX[_k] = 0.45
+
+NOM_RE = re.compile(r"\b[A-Za-z]{4,}(?:tion|sion|ment|ness|ity|ance|ence|ism|ship)s?\b")
+
+def quote_prose(body):
+    """The reading as the learner meets it in the markdown: the blockquote, minus
+    the things that are not the text -- the strategy tip addressed to the reader,
+    table rows, bullets, and paragraph-number labels."""
+    lines = []
+    for l in body.splitlines():
+        if not l.startswith("> "):
+            lines.append("")                  # a non-quoted line ends the paragraph
+            continue
+        t = l[2:].strip()
+        if "|" in t or t.startswith(("- ", "* ", "**Reader", "**Tip")): continue
+        if re.match(r"^\*\*[A-Z][^*]{0,30}\*\*\s*(—|-)", t): continue
+        lines.append(t)
+    paras, cur = [], []
+    for l in lines:
+        if l.strip(): cur.append(l)
+        elif cur: paras.append(cur); cur = []
+    if cur: paras.append(cur)
+    # A paragraph whose every line is wholly bold is the letterhead, and one wholly
+    # in italics is the provenance line at the foot. Neither is the reading, and
+    # scoring them was measuring the stationery.
+    body = []
+    for pl in paras:
+        if all(re.match(r"^\*\*.*\*\*[.,;:]?$", x) for x in pl): continue
+        if all(re.match(r"^\*[^*].*\*[.,;:]?$", x) for x in pl): continue
+        body.append(" ".join(pl))
+    keep = []
+    for t in (strip_markup(x) for x in body):
+        sents = [y for y in re.split(r"(?<=[.!?])\s+", t)
+                 if y.rstrip().endswith((".", "!", "?")) and len(y.split()) > 4]
+        if len(sents) >= 2 and len(t.split()) >= 20: keep.append(" ".join(sents))
+    return " ".join(keep)
+
 def strip_markup(s):
     s = re.sub(r"%%FIG[^%]*%%", " ", s)
     s = re.sub(r"%%AUD[^%]*%%", " ", s)
@@ -264,6 +393,15 @@ def check(book):
     for pat in BRITISH:
         for m in re.finditer(pat, novariant, re.I):
             bh.append(m.group(0))
+    # The -ise / -isation family in one rule, because listing it word by word is how
+    # 39 patterns missed organisation's cousins. Anything whose American spelling
+    # really is -ise is in ISE_OK and is not a hit.
+    for m in re.finditer(ISE_RE, novariant):
+        w = m.group(0).lower()
+        root = re.sub(r"is(e|es|ed|ing|ation|ations|ational)$", "ise", w)
+        bare = re.sub(r"^(un|re|dis|im|non)", "", root)
+        if root in ISE_OK or bare in ISE_OK: continue
+        bh.append(m.group(0))
     add(14, "Variant base purity", "PASS" if not bh else "FAIL",
         "American base clean; %d switchable tokens defined in VARIANTS.json" % len(VARIANT_TOKENS)
         if not bh else "%d British spellings in the base: %s" % (len(bh), sorted(set(bh))[:8]))
@@ -289,68 +427,68 @@ def check(book):
         if not bad_lessons and not silent else
         "thin: %s | silent openers: %s" % (bad_lessons[:4], silent[:4]))
 
-    # 2 readability of the Lesson 2 reading text. In most units that text is set as
-    # realia -- it is a leaflet, a notice, a contract -- so it lives in the figure
-    # spec, not the markdown. Measure it there, and fall back to the blockquote.
-    # SERIES-PLAN §4.2‡ : a Real-life Reading text is an authentic document. It carries
-    # the band ceiling + 2.5 and no floor; what protects the learner is the task type,
-    # which is a human read (Gate 9), not a lower score.
+    # 2 readability and length of the Lesson 2 reading. Two texts can sit in that
+    # lesson: the blockquote the learner reads on the page, and a realia document
+    # set in the figure. BOTH are scored, and either one outside the band fails the
+    # gate. The earlier version of this check preferred the realia and fell back to
+    # the blockquote only when the realia was short, so in every book whose reading
+    # is a blockquote beside a form it measured the form -- which is how twelve A2
+    # readings at FK 9.6 passed a 4.5 ceiling. It also zeroed the floor and added
+    # 2.5 to the ceiling, which together let anything through.
+    # SERIES-PLAN 4.2: an authentic document may sit one grade above the band,
+    # because the task type is what protects the learner. One grade, not two and a half.
     lo, hi = READ_TARGET.get(name, (0, 99))
-    lo, hi = 0.0, hi + 2.5
-    grades, off, unscored = [], [], []
+    hi = hi + 1.0
+    maxw = READ_LEN.get(name, 999)
+    grades, off, unscored, longer, art_g, lens = [], [], [], [], [], []
     specs = load_specs(name)
-    for fn, s in sorted(allmd.items()):
+    for fn, s2 in sorted(allmd.items()):
         if not re.match(r"u\d\d\.md", fn): continue
-        m = re.search(r"\n## Lesson 2[^\n]*\n(.*?)(?=\n## |\Z)", s, re.S)
+        m = re.search(r"\n## Lesson 2[^\n]*\n(.*?)(?=\n## |\Z)", s2, re.S)
         if not m: continue                     # Starting Point carries no reading lesson
+        body = m.group(1)
         # The reading text is a document: headings, bullets and table rows sit beside
         # running prose. Flesch-Kincaid means nothing on a bullet, so only complete
         # sentences are measured, and the report says so.
-        art = ""
-        fid = re.search(r"%%FIG (\S+-f5) ", m.group(1))
-        if fid and fid.group(1) in specs:
-            art = prose_only(specs[fid.group(1)])
-        if len(art.split()) < 50:
-            # Fallback to the blockquote, minus the things that are not the text:
-            # the strategy tip addressed to the reader, table rows, and list items.
-            lines = []
-            for l in m.group(1).splitlines():
-                if not l.startswith("> "):
-                    lines.append("")          # a non-quoted line ends the paragraph
-                    continue
-                body = l[2:].strip()
-                if "|" in body or body.startswith(("- ", "* ", "**Reader", "**Tip")): continue
-                if re.match(r"^\*\*[A-Z][^*]{0,30}\*\*\s*(—|-)", body): continue
-                lines.append(body)
-            # Same rule as the realia path: only paragraphs that are really prose.
-            paras, cur = [], []
-            for l in lines:
-                if l.strip(): cur.append(l)
-                elif cur: paras.append(" ".join(cur)); cur = []
-            if cur: paras.append(" ".join(cur))
-            keep = []
-            for t in (strip_markup(x) for x in paras):
-                sents = [y for y in re.split(r"(?<=[.!?])\s+", t)
-                         if y.rstrip().endswith((".", "!", "?")) and len(y.split()) > 4]
-                if len(sents) >= 2 and len(t.split()) >= 20: keep.append(" ".join(sents))
-            art = " ".join(keep)
-        if len(art.split()) < 50:
+        texts = []
+        bq = quote_prose(body)
+        if len(bq.split()) >= 50: texts.append(("", bq))
+        for fid in re.findall(r"%%FIG (\S+) ", body):
+            if fid in specs:
+                art = prose_only(specs[fid])
+                if len(art.split()) >= 50: texts.append(("/" + fid.split("-")[-1], art))
+        if not texts:
             unscored.append(fn[:3]); continue
-        g = fk(art)
-        if g is None: continue
-        grades.append(g)
-        if not (lo <= g <= hi): off.append("%s %.1f" % (fn[:3], g))
-    if not grades:
+        for tag, t in texts:
+            g = fk(t)
+            if g is None: continue
+            (art_g if tag else grades).append(g)
+            # The floor is for the text written for the lesson. A real notice or
+            # form may be plainer than the band -- authenticity can be simpler than
+            # the level, never harder -- so realia is held to the ceiling alone.
+            bad = g > hi if tag else not (lo <= g <= hi)
+            if bad: off.append("%s%s %.1f" % (fn[:3], tag, g))
+        # Length is the longest single text the learner has to get through, not the
+        # sum: where a lesson sets the same note twice, once as realia and once as
+        # the reading, the second one is support and not extra reading.
+        wc = max(len(t.split()) for _, t in texts)
+        lens.append(wc)
+        if wc > maxw: longer.append("%s %dw" % (fn[:3], wc))
+    if not grades and not art_g:
         add(2, "Readability", "SKIP",
             "nothing scored: all %d reading texts are forms, tables or adverts with no running "
             "prose, so Flesch-Kincaid does not apply -- a human read is the only check" % len(unscored))
     else:
-     add(2, "Readability", "PASS" if not off else "FAIL",
-        ("%d of %d reading texts scored, FK %.1f-%.1f (document ceiling %.1f); %d are forms, "
-         "tables or adverts with no running prose, so FK does not apply: %s"
-         % (len(grades), len(grades)+len(unscored), min(grades), max(grades), hi,
-            len(unscored), unscored)) if grades and not off
-        else "outside band: %s" % off)
+        add(2, "Readability", "PASS" if not off and not longer else "FAIL",
+            ("%d readings FK %.1f-%.1f inside band %.1f-%.1f%s; longest %dw against a %dw "
+             "ceiling; %d lessons carry no running prose to score: %s"
+             % (len(grades), min(grades) if grades else 0.0, max(grades) if grades else 0.0,
+                lo, hi,
+                (", plus %d realia documents FK %.1f-%.1f, held to the ceiling only"
+                 % (len(art_g), min(art_g), max(art_g))) if art_g else "",
+                max(lens) if lens else 0, maxw, len(unscored), unscored))
+            if not off and not longer else
+            "outside band %.1f-%.1f: %s | over %dw: %s" % (lo, hi, off[:6], maxw, longer[:6]))
 
     # figures: every id referenced exists and is a real PNG; none orphaned
     refs = re.findall(r"%%FIG (\S+)", whole)
@@ -392,6 +530,148 @@ def check(book):
         if not (badf or dup or wrongbook)
         else "malformed %s duplicate %s wrong book %s (front matter declares %s)"
              % (badf[:4], dup[:4], wrongbook[:4], declared))
+
+    # 15 forward reference. A structure the unit teaches in Lesson 3 must not be
+    # used in Lessons 1 and 2, where the learner has not met it yet and can only
+    # guess. The targets are the forms named in the Lesson 3 section headings.
+    STOPW = {"be", "have", "has", "the", "and", "not", "can", "will", "there",
+             "this", "that", "with", "for", "from", "into"}
+    fwd = []
+    for fn, s2 in sorted(allmd.items()):
+        if not re.match(r"u\d\d\.md", fn): continue
+        m = re.search(r"^## Lesson 3", s2, re.M)
+        if not m: continue
+        pre, post = s2[:m.start()], s2[m.start():]
+        forms = set()
+        for h in re.findall(r"^### [^\n]*$", post, re.M):
+            for f in re.findall(r"\*([^*]{4,40})\*", h):
+                f = f.strip().lower()
+                if len(f) >= 5 and f not in STOPW: forms.add(f)
+        # Where an unmet form really hurts is the reading: text the learner has to
+        # decode with nothing holding it up. The goals block names the unit's
+        # targets, which is the syllabus; a word study chart, a vocabulary list and
+        # an exercise prompt with a frame in it are all teaching the form or
+        # supporting it. So this looks in the Lesson 2 reading only.
+        m2 = re.search(r"\n## Lesson 2[^\n]*\n(.*?)(?=\n## |\Z)", pre, re.S)
+        read = ""
+        if m2:
+            read = " ".join(l[2:] for l in m2.group(1).splitlines()
+                            if l.startswith("> ") and "|" not in l)
+            read = re.sub(r"%%.*?%%", " ", read, flags=re.S).lower()
+        for f in sorted(forms):
+            if read and re.search(r"\b" + re.escape(f) + r"\b", read):
+                fwd.append("%s: %s" % (fn[:3], f))
+    add(15, "Forward reference", "PASS" if not fwd else "FAIL",
+        "no unit uses its own Lesson 3 target form before it teaches it"
+        if not fwd else "%d uses before teaching: %s" % (len(fwd), fwd[:5]))
+
+    # 16 abstraction load. Nominalization is how a text climbs above its level
+    # without its sentences getting any longer: "we decide" becomes "the decision
+    # process". Counted over the prose the student reads, per 1,000 words.
+    nmax = NOM_MAX.get(name, 999)
+    heavy, rates = [], []
+    for fn, s2 in sorted(allmd.items()):
+        if not re.match(r"u\d\d\.md", fn): continue
+        t = strip_markup(s2)
+        w = re.findall(r"[A-Za-z']+", t)
+        if len(w) < 200: continue
+        r = 1000.0 * len(NOM_RE.findall(t)) / len(w)
+        rates.append(r)
+        if r > nmax: heavy.append("%s %.0f" % (fn[:3], r))
+    add(16, "Abstraction load", "PASS" if not heavy and rates else "FAIL" if heavy else "SKIP",
+        "%.0f-%.0f nominalizations per 1,000 words against a ceiling of %d"
+        % (min(rates), max(rates), nmax) if rates and not heavy
+        else "over the ceiling of %d per 1,000: %s" % (nmax, heavy[:6]) if heavy
+        else "no unit long enough to measure")
+
+    # 17 quoted share. A unit whose bulk is quoted text -- reading, realia, model
+    # answer -- is an anthology with questions attached, not a lesson.
+    qmax = QUOTE_MAX.get(name, 0.30)
+    qbad, qshare = [], []
+    for fn, s2 in sorted(allmd.items()):
+        if not re.match(r"u\d\d\.md", fn): continue
+        tot = len(re.findall(r"[A-Za-z']+", strip_markup(s2)))
+        if tot < 200: continue
+        q = sum(len(re.findall(r"[A-Za-z']+", l[2:]))
+                for l in s2.splitlines() if l.startswith("> "))
+        sh = float(q) / tot
+        qshare.append(sh)
+        if sh > qmax: qbad.append("%s %d%%" % (fn[:3], round(100 * sh)))
+    add(17, "Quoted share", "PASS" if qshare and not qbad else "FAIL" if qbad else "SKIP",
+        "quoted text is %d%%-%d%% of a unit against a ceiling of %d%%"
+        % (round(100 * min(qshare)), round(100 * max(qshare)), round(100 * qmax))
+        if qshare and not qbad
+        else "over %d%%: %s" % (round(100 * qmax), qbad[:6]) if qbad else "nothing to measure")
+
+    # 18 typography. A table cell longer than a line and a page speckled with bold
+    # both print badly, and neither shows up in a word count.
+    # An item label in bold is navigation and does not count; bold inside a sentence
+    # is emphasis, and a page of emphasis emphasizes nothing.
+    fat, boldy = [], []
+    for fn, s2 in sorted(allmd.items()):
+        if not re.match(r"u\d\d\.md", fn): continue
+        nb = 0
+        for l in s2.splitlines():
+            if not l.strip() or l.startswith(("#", "%%")): continue
+            if l.startswith("|"):
+                if set(l) <= set("|-: "): continue
+                for c in l.strip().strip("|").split("|"):
+                    if len(c.strip()) > 90: fat.append("%s %dch" % (fn[:3], len(c.strip())))
+                continue
+            body = l[2:] if l.startswith("> ") else l
+            body = re.sub(r"^\s*\*\*[^*]+\*\*", "", body)   # leading label or run-in head
+            nb += len(re.findall(r"\*\*[^*\n]+\*\*", body))
+        if nb > 45: boldy.append("%s %d" % (fn[:3], nb))
+    add(18, "Typography", "PASS" if not fat and not boldy else "FAIL",
+        "no table cell over 90 characters, no unit over 45 bold runs inside sentences"
+        if not fat and not boldy
+        else "fat cells %d %s | emphasis-heavy %s"
+             % (len(fat), sorted(set(fat))[:5], boldy[:4]))
+
+    # 19 figure diversity. Sixteen figures a unit is only a resource if they are
+    # different kinds of thing; eight of one kind is a pattern the learner stops
+    # looking at.
+    funcs = spec_funcs(name)
+    mono = []
+    if funcs:
+        for fn, s2 in sorted(allmd.items()):
+            if not re.match(r"u\d\d\.md", fn): continue
+            ids = [i for i in re.findall(r"%%FIG (\S+) ", s2) if i in funcs]
+            if len(ids) < 8: continue
+            c = {}
+            for i in ids: c[funcs[i]] = c.get(funcs[i], 0) + 1
+            top, n = max(c.items(), key=lambda x: x[1])
+            if n > 8: mono.append("%s %s x%d of %d" % (fn[:3], top, n, len(ids)))
+    add(19, "Figure diversity", "SKIP" if not funcs else "PASS" if not mono else "FAIL",
+        "figure specs not readable from source" if not funcs
+        else "no unit leans on one figure kind for more than half its artwork"
+        if not mono else "one kind dominates: %s" % mono[:5])
+
+    # 20 audio scripts. A cue in the margin with no script behind it is a promise
+    # to a teacher who has nothing to read out.
+    adir = os.path.join(book, "audio")
+    script = ""
+    if os.path.isdir(adir):
+        for f in sorted(os.listdir(adir)):
+            if f.endswith(".md"): script += io.open(os.path.join(adir, f), encoding="utf-8").read()
+    missing = [c for c in sorted(set(cues)) if c not in script]
+    add(20, "Audio scripts", "PASS" if cues and not missing else "FAIL",
+        "all %d cues resolve to a script line" % len(set(cues)) if cues and not missing
+        else "%d of %d cues have no script%s" % (len(missing), len(set(cues)),
+             "" if os.path.isdir(adir) else " (no audio/ directory)"))
+
+    # 21 pronunciation. Adults who never hear which syllable carries the stress say
+    # the word wrongly for the rest of their working lives, and a book that teaches
+    # speaking in every unit owes them one box of it in every unit.
+    teach = [fn for fn in sorted(allmd) if re.match(r"u(0[1-9]|1[0-2])\.md", fn)]
+    pron = [fn[:3] for fn in teach
+            if not re.search(r"(Say it|Pronunciation|Sounds and spelling|Stress)",
+                             allmd[fn])]
+    nun = len(teach)
+    add(21, "Pronunciation", "PASS" if not pron else "FAIL",
+        "every one of the %d teaching units carries a pronunciation box" % nun
+        if not pron else "%d of %d units carry no pronunciation work: %s"
+        % (len(pron), nun, pron[:8]))
 
     # gates that need the META spine
     for n, t in [(1,"Band check"), (4,"Key coverage"), (6,"CEFR descriptors"),

@@ -64,7 +64,7 @@ S["c10-f7"]=lambda: f_chart([("by an automated tool",17),("by a person inspectin
     ("by a keyboard-only user",9),("by a screen-reader user",7),("not tested",32)],
     unit="criteria")
 S["c10-f8"]=lambda: f_icons([("quotemark","a text alternative"),("computer","keyboard operation"),
-    ("form","a labelled form"),("portal","two assistive tools"),
+    ("form","a labeled form"),("portal","two assistive tools"),
     ("square","a focus outline"),("noentry","a failing step")], cols=3)
 S["c10-f9"]=lambda: f_realia(tbl("Conformance note &middot; accessibility",
     "Published 4 March &middot; covers release 7.2",
@@ -231,7 +231,7 @@ S["c11-f16"]=lambda: f_scene(900,400,
     clockat=(120,46,22,3,0))
 
 # ---------------- Unit 12 · Source, Stimulus, Response, Measure ----------------
-S["c12-f1"]=lambda: f_icons([("board","six labelled boxes"),("student","a person as a source"),
+S["c12-f1"]=lambda: f_icons([("board","six labeled boxes"),("student","a person as a source"),
     ("messages","a burst of requests"),("calendar","a normal day and a peak day"),
     ("folder","one component highlighted"),("timer","a measured response"),
     ("tree","a tree of scenarios"),("clipboard","a list of risks"),

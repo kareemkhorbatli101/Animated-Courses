@@ -28,7 +28,7 @@ the column worth reading twice.
 | **between … and · at best · at worst** | three numbers, and a condition on each end |
 | **(a + 4m + b) ÷ 6** | exact arithmetic on inputs nobody has checked |
 | **a worst case is a story** | if you cannot tell the story, it is the middle with a margin on it |
-| **merge bias** | three chains at 90 per cent give a milestone at about 73 |
+| **merge bias** | three chains at 90 percent give a milestone at about 73 |
 
 ## Unit 3 · The zero conditional; *tends to*
 
@@ -52,7 +52,7 @@ the column worth reading twice.
 
 | | |
 |---|---|
-| **22 per cent higher **than what**** | a percentage with no base is not a number |
+| **22 percent higher **than what**** | a percentage with no base is not a number |
 | **twice as … as · by a factor of · compared with** | the ways to put two figures beside each other |
 | **the three steps** | choose the class · find the distribution · place your project |
 | **step one is an argument** | everything after it is arithmetic |
@@ -61,7 +61,7 @@ the column worth reading twice.
 
 | | |
 |---|---|
-| ***by* gives the change; *to* gives the level** | *increased by 44 per cent* and *increased to 44 million* |
+| ***by* gives the change; *to* gives the level** | *increased by 44 percent* and *increased to 44 million* |
 | **start at the upper bound and argue down** | with evidence, in writing, in front of somebody |
 | **an uplift is not a contingency** | it corrects a forecast; it funds nothing |
 | **one word can be worth 530,000** | *standard* or *non-standard*, argued at the gate |
@@ -253,7 +253,7 @@ dialogues. The documents are real and cited; the stories around them are written
 language.
 
 Nothing in this book is legal, financial or contractual advice. Where a sentence sounds like a rule
-— *a missed fifty-fifty estimate is buffer, not blame*, *44 per cent reduced to 12*, *two pages* —
+— *a missed fifty-fifty estimate is buffer, not blame*, *44 percent reduced to 12*, *two pages* —
 that is one invented company's internal practice, printed because a concrete number teaches better
 than an abstraction. Your own numbers belong to you and your sponsor.
 

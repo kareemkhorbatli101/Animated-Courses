@@ -55,7 +55,7 @@ S["pe10-f5"]=lambda: f_realia(doc("Lindhurst · benefits note 10",
     "which of the twenty-two are the handrail and which are habit.</b></p>"
     "<p><b>The benefit nobody records.</b> In year one we chose the dearer pump <b>because it uses "
     "less energy</b>. <b>There is no energy objective anywhere in the asset management plan.</b> "
-    "<b>Metered over eleven months: 38 per cent below the option we did not buy, about 84 a year.</b> "
+    "<b>Metered over eleven months: 38 percent below the option we did not buy, about 84 a year.</b> "
     "<b>It has an owner now, because it has me.</b></p>",
     "Source: ISO 55000:2014, Asset management — Overview, principles and terminology. The "
     "standard provides an overview of asset management, its principles — value, alignment, "
@@ -95,7 +95,7 @@ S["pe10-f9"]=lambda: f_realia(tbl("Traceability sheet · Calder station",
      ["<b>fit handrail, inlet chamber stair</b>","<b>—</b>","<b>—</b>","<b>none</b>"],
      ["calibrate flow meters","condition objective","—","partial"],
      ["review pump curves","—","interruption target","<b>complete</b>"]],
-    note="<b>Energy: metered 38 per cent below the option not bought, about 84 a year. No objective "
+    note="<b>Energy: metered 38 percent below the option not bought, about 84 a year. No objective "
     "refers to it.</b>"), 700)
 S["pe10-f10"]=lambda: f_scene(860,400,
     people=[("priya",110,174,{}),("sofia",320,176,{"seated":True}),
@@ -118,7 +118,7 @@ S["pe10-f12"]=lambda: f_panels(
       380),
     lambda w,h: f_realia(doc("Note B","Two breaks named",
       "<p><b>4 of 31 traceable to the top. The objective does not flow from the plan; the action is "
-      "not derived from the objective.</b> And a metered benefit of <b>38 per cent</b> with no "
+      "not derived from the objective.</b> And a metered benefit of <b>38 percent</b> with no "
       "objective at all.</p>"), 380),
     w=820, h=300, lt="ALIGNED", rt="DERIVED")
 S["pe10-f13"]=lambda: f_realia(form("Traceability planner",
@@ -226,7 +226,7 @@ S["pe11-f6"]=lambda: f_realia(tbl("Word study","Evaluative judgment",
      ["<i>to the extent that</i>","limits the claim",
       "Effective <b>to the extent that</b> the outcomes were measured."],
      ["<i>partly achieved</i>","states a partial result",
-      "<b>Partly achieved</b>: 31 per cent against a target of 50."],
+      "<b>Partly achieved</b>: 31 percent against a target of 50."],
      ["<i>cannot be assessed because</i>","",""],["<i>on balance</i>","",""]],
     note="Two rows left empty on purpose."), 640)
 S["pe11-f7"]=lambda: f_chart([("relevance",5),("impact",4),("effectiveness",4),
@@ -251,7 +251,7 @@ S["pe11-f9"]=lambda: f_realia(doc("Evaluation summary · Calder valley scheme, y
     + "<p style='border:1.5px solid #2f6b6b;padding:8px'><b>Flag for a hydrologist, jointly "
     "instructed.</b> Two schemes, <b>20 km apart</b>, approved <b>14 months</b> apart, abstracting "
     "from the same aquifer; <b>neither application refers to the other</b>; combined abstraction "
-    "exceeds our recharge figure by about <b>18 per cent in a dry year</b>. <b>A flag, not a "
+    "exceeds our recharge figure by about <b>18 percent in a dry year</b>. <b>A flag, not a "
     "conclusion: I can read two licenses and a recharge assessment and that is the limit of my "
     "competence.</b></p>",
     "Applied in order, with equal effort, which was a mistake: the criteria are not a checklist."),
@@ -266,7 +266,7 @@ S["pe11-f10"]=lambda: f_scene(860,400,
     clockat=(700,34,22,9,30))
 S["pe11-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Summary A","One verdict",
-      "<p><b>Overall success rating: 78 per cent.</b></p>"
+      "<p><b>Overall success rating: 78 percent.</b></p>"
       "<p style='font-size:12px;color:#6b6861'>Six questions compressed into one number.</p>"),
       380),
     lambda w,h: f_realia(doc("Summary B","Six criteria",
@@ -376,13 +376,13 @@ S["pe12-f5"]=lambda: f_realia(doc("Lindhurst · money note 12",
 S["pe12-f6"]=lambda: f_realia(tbl("Word study","Eleven structures, one per unit",
     ["Unit","Structure","Example"],
     [["1","ranges and accuracy","<b>Between</b> 6 <b>and</b> 24 million."],
-     ["2","proportional change","<b>For every doubling</b>, hours <b>fall to</b> 85 per cent."],
+     ["2","proportional change","<b>For every doubling</b>, hours <b>fall to</b> 85 percent."],
      ["3","long horizons","<b>Over a period of</b> 30 years, <b>at a real rate of</b> 3.5 %."],
-     ["4","appraisal conditionals","<b>Were it to fall by</b> 23 per cent…"],
+     ["4","appraisal conditionals","<b>Were it to fall by</b> 23 percent…"],
      ["5","time bars","<b>Within</b> 21 days <b>of</b> becoming aware, <b>failing which</b>…"],
      ["6","the contract present tense","The contractor <b>notifies</b>."],
      ["7","scope limitation","It <b>is silent on</b> payment."],
-     ["8","weighting","Quality <b>weighted at</b> 10 per cent."],
+     ["8","weighting","Quality <b>weighted at</b> 10 percent."],
      ["9","requirement and recommendation","<b>Shall</b>, not less than 90 %, <b>failing which</b>."],
      ["10","",""],["11","",""]],
     note="Two rows left empty on purpose."), 660)

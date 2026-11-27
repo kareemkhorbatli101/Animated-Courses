@@ -114,7 +114,7 @@ S["w10-f5"]=lambda: f_realia(doc("Portmere City Council · New residents",
     "address and photographic identity. You will be given a reference number; everything else asks "
     "for it.</p>"
     "<p><b>2. Council tax.</b> Every household pays it. <b>Full-time students are exempt</b>, and "
-    "a household of one adult pays 25 per cent less. Neither discount is applied automatically &mdash; "
+    "a household of one adult pays 25 percent less. Neither discount is applied automatically &mdash; "
     "you have to claim it, and it can be backdated.</p>"
     "<p><b>3. Register with a doctor.</b> You do not need proof of address or immigration status to "
     "register. A practice that refuses you on those grounds is wrong, and you may say so.</p>"

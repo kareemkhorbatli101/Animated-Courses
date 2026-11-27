@@ -33,7 +33,7 @@ The whole grammar of the book on a few pages. The unit number tells you where it
 | The duty is **approximately** ten megawatts. | a figure, not exact |
 | Gas oils **typically** fall in this range. | the usual case |
 | The cost is **of the order of** ten million. | the right factor of ten |
-| The chart is good **to within about** five per cent. | a stated accuracy |
+| The chart is good **to within about** five percent. | a stated accuracy |
 | **Broadly**, the yield rises with temperature. | a direction |
 | **At best** it is a first estimate. | the ceiling on the claim |
 | The correlation **was fitted over** densities from 0.78 to 0.92. | the range |
@@ -117,7 +117,7 @@ The whole grammar of the book on a few pages. The unit number tells you where it
 | **The theoretical minimum** heating is 24 megawatts. | the least possible, under assumptions |
 | It is **a target rather than a prediction**. | what kind of number it is |
 | **Achievable in principle** with a fully connected network. | the condition |
-| We got **as close as** 31 megawatts, **within about** thirty per cent. | the gap |
+| We got **as close as** 31 megawatts, **within about** thirty percent. | the gap |
 | **In practice**, two of the matches cannot be made. | reality |
 | A smaller approach recovers more heat **and** needs larger exchangers: the two **trade against each other**. | the trade-off |
 
@@ -316,7 +316,7 @@ the plainest writing in the whole series.
 
 | Unit | The document | What the text prints as the document's own limit |
 |---|---|---|
-| 1 | **ASTM D86**, *Standard Test Method for Distillation of Petroleum Products and Liquid Fuels at Atmospheric Pressure* | The test is **empirical**: the recorded temperatures are vapor temperatures in that apparatus under that heating rate, not the true boiling points of the molecules, and have to be converted by correlation for process design. The **precision** section gives **repeatability** and the wider **reproducibility**, and both vary along the curve: the fifty per cent point is the most reproducible, the initial and final boiling points the least. A result inside a limit by less than the reproducibility is inside the limit and inside the noise |
+| 1 | **ASTM D86**, *Standard Test Method for Distillation of Petroleum Products and Liquid Fuels at Atmospheric Pressure* | The test is **empirical**: the recorded temperatures are vapor temperatures in that apparatus under that heating rate, not the true boiling points of the molecules, and have to be converted by correlation for process design. The **precision** section gives **repeatability** and the wider **reproducibility**, and both vary along the curve: the fifty percent point is the most reproducible, the initial and final boiling points the least. A result inside a limit by less than the reproducibility is inside the limit and inside the noise |
 | 2 | W. L. Nelson, ***Petroleum Refinery Engineering***, McGraw-Hill, **fourth edition, 1958** | The charts are a **compilation of other people's measurements**, named and credited, good over the range the data covers and no better. Thermodynamics, material balances and hydrocarbon property relationships have not aged; catalysts, specifications, metallurgy, instrumentation and energy costs have aged completely — and **the book does not mark the boundary**, because in 1958 nobody could |
 | 3 | The **National Historic Chemical Landmark** designation of the **Houdry process for catalytic cracking**, made by the American Chemical Society in **1996** | A **commemoration**, written to celebrate, and celebration selects. The engineering is not in dispute; the popular account in which one process decided a war is a simplification — several processes in several countries contributed and historians disagree about how decisive any one was. The engineering lesson the plaque does not carry: the process was superseded within about five years, by a better way of handling a solid rather than better chemistry |
 | 4 | **Directive 98/70/EC** of the European Parliament and of the Council, **13 October 1998**, on the quality of petrol and diesel fuels, **as amended** | It is a **directive**: it does not take effect directly but must be **transposed** into each member state's national law, so the law that binds a seller is the **national law of the country of sale**. It applies in **one bloc** and **not here**, and it is in the book because a refinery that exports must meet the buyer's specification. It covers **road** fuels; vehicle emission requirements are separate instruments; and every limit in it depends on a **named test method** |

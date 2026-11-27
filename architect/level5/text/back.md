@@ -110,9 +110,9 @@ reader who cannot ask you.
 
 | | |
 |---|---|
-| **recall 41 per cent *at a threshold of* 0.5** | where the score became a decision |
+| **recall 41 percent *at a threshold of* 0.5** | where the score became a decision |
 | ***measured on* 4,200 held-out cases from two quarters** | the data and the period |
-| ***against a baseline of* 98.5 per cent accuracy** | whether the model is doing anything at all |
+| ***against a baseline of* 98.5 percent accuracy** | whether the model is doing anything at all |
 | ***as of* 14 April** | an undated figure stops being true without becoming wrong |
 
 ## Unit 12 · Review; the documentation page
@@ -167,15 +167,15 @@ What the layer does not touch:
 1. **A quoted document keeps its own spelling.** Every framework, regulation, standard, paper and
    profile here is cited as published, including titles that use British or international spellings.
 2. **A defined term keeps the spelling of the document that defines it.** *Confabulation*,
-   *intervenability*, *functional adaptability*, *out-of-scope use*, *harmonised rules* in a quoted
+   *intervenability*, *functional adaptability*, *out-of-scope use*, *harmonized rules* in a quoted
    title: these are defined terms or citations, and respelling one misquotes its source.
 3. **A document number keeps its published form.** ISO/IEC 42001:2023, ISO/IEC 23894:2023, ISO/IEC
    22989:2022, ISO/IEC TR 24028:2020, ISO/IEC 25059:2023, ISO/IEC TS 4213:2022, NIST AI 600-1,
    Regulation (EU) 2024/1689 and Article 22 of Regulation (EU) 2016/679 are citations, not words.
 4. **A status word is never softened.** *Voluntary*, *informative*, *normative*, *technical report*,
    *technical specification*, *suggested*: the whole book turns on them.
-5. **A figure keeps its conditions.** 41 per cent at a threshold of 0.5, 4,200 held-out cases, a
-   baseline of 98.5 per cent, 0.7 minutes: the numbers and their units are identical in both
+5. **A figure keeps its conditions.** 41 percent at a threshold of 0.5, 4,200 held-out cases, a
+   baseline of 98.5 percent, 0.7 minutes: the numbers and their units are identical in both
    variants, and the decimal point is never a comma in this series.
 
 # Word list
@@ -220,7 +220,7 @@ figure is used twice. The series note is in `SOURCES.md`.
 | 8 | **ISO/IEC TR 24028:2020**, *Artificial intelligence — Overview of trustworthiness in artificial intelligence* | Approaches to establishing trust, including transparency, explainability and **controllability**; engineering **pitfalls**; and **threats** with their mitigations — adversarial inputs, **data poisoning**, **model stealing**, information leakage. *Not covered: **TR** means **technical report** — **informative**, with **no requirements and nothing to certify against**. It **does not rank the mitigations**, does not establish that any of them works, and is a **2020 snapshot** of a field that moves quickly.* |
 | 9 | **Article 22 of Regulation (EU) 2016/679**, the general data protection regulation, applicable since **2018** | The right **not to be subject to a decision based solely on automated processing**, including profiling, **producing legal effects or similarly significantly affecting** the person; the three exceptions — **contractual necessity**, **authorization by law with safeguards**, **explicit consent**; and, for the first and third, **suitable measures including at least** the right to **human intervention**, to **express a point of view**, and to **contest the decision**. *Not covered: whether any given processing is **solely** automated, or whether an effect is **similarly significant**, is a legal determination on the facts. **Nothing in the unit is legal advice**, and a reply is not an intervention.* |
 | 10 | **ISO/IEC 25059:2023**, *SQuaRE — Quality model for AI systems* | An **extension** of the SQuaRE product quality model with AI-specific characteristics: **functional adaptability**, **robustness**, **user controllability**, **intervenability** and **transparency**. *Not covered: like the model it extends, it supplies **vocabulary only** — **no measures, no targets, no thresholds**, and **no guidance on which characteristics should be prioritized** for any system. The priority order is a judgment the organization makes and should record.* |
-| 11 | **ISO/IEC TS 4213:2022**, *Artificial intelligence — Assessment of machine learning classification performance* | What must travel with a figure: the **dataset** and its **period**, the **split**, the **threshold**, the **metric** and the fact that it was chosen, the **breakdown**, and the **baseline**. With the worked case: **98.1 per cent accuracy against a majority-class baseline of 98.5 per cent**, and the honest sentence — **recall 41 per cent at a threshold of 0.5 on 4,200 held-out cases**. *Not covered: a **technical specification**, not a full International Standard, and subject to review. It does **not choose the metric**, sets **no acceptable level**, and addresses **classification only** — not regression, ranking or generation.* |
+| 11 | **ISO/IEC TS 4213:2022**, *Artificial intelligence — Assessment of machine learning classification performance* | What must travel with a figure: the **dataset** and its **period**, the **split**, the **threshold**, the **metric** and the fact that it was chosen, the **breakdown**, and the **baseline**. With the worked case: **98.1 percent accuracy against a majority-class baseline of 98.5 percent**, and the honest sentence — **recall 41 percent at a threshold of 0.5 on 4,200 held-out cases**. *Not covered: a **technical specification**, not a full International Standard, and subject to review. It does **not choose the metric**, sets **no acceptable level**, and addresses **classification only** — not regression, ranking or generation.* |
 | 12 | **NIST AI 600-1**, *Generative Artificial Intelligence Profile*, released **July 2024** as a companion to the framework in Unit 1 | Twelve risks **novel to or exacerbated by** generative systems, including **confabulation**, **information integrity**, **data privacy**, **environmental impacts**, **harmful bias and homogenization**, **human-AI configuration**, **intellectual property**, and **value chain and component integration**, with **suggested actions** aligned to the framework's functions. *Not covered: **voluntary**; its actions are **suggested, not required**; it states that its list is **not exhaustive**; and it **does not prioritize** any risk for any organization.* |
 
 **Twelve honesty notes, printed in the units as well as here.**
@@ -251,8 +251,8 @@ figure is used twice. The series note is in `SOURCES.md`.
   courteous reply within a day from three different people, none of whom could change the outcome.
 - **Unit 10.** Three weeks of argument between two senior engineers ended in forty minutes, over an
   accuracy difference of 0.7 minutes that neither of them had ever said out loud as a number.
-- **Unit 11.** A correctly computed figure of 98.1 per cent supported a rollout. The baseline — what
-  answering *no* to everything scores — is 98.5 per cent, and computing it took four minutes.
+- **Unit 11.** A correctly computed figure of 98.1 percent supported a rollout. The baseline — what
+  answering *no* to everything scores — is 98.5 percent, and computing it took four minutes.
 - **Unit 12.** A fluent, confident, well-formatted generated summary containing an invented figure
   was quoted in a board paper, because it sounded finished. Four risks were missing from a register
   that had been described as complete.

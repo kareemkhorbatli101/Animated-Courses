@@ -113,7 +113,7 @@ S["b04-f16"]=lambda: f_scene(900,400,
     clockat=(120,46,22,7,0))
 
 # ---------------- Unit 5 · Five Parts and a Fragment ----------------
-S["b05-f1"]=lambda: f_icons([("address","five labelled parts"),("refnumber","a scheme"),
+S["b05-f1"]=lambda: f_icons([("address","five labeled parts"),("refnumber","a scheme"),
     ("worldmap","a host name"),("signpost","a path of segments"),
     ("magnifier","a query of two pairs"),("scissors","the part after the hash"),
     ("barcode","a percent-encoded character"),("handsup","two addresses compared"),
@@ -223,7 +223,7 @@ S["b05-f16"]=lambda: f_scene(900,400,
     clockat=(120,46,22,8,0))
 
 # ---------------- Unit 6 · Who Says So, and Which One ----------------
-S["b06-f1"]=lambda: f_icons([("envelope","four labelled fields"),("megaphone","a producer sending"),
+S["b06-f1"]=lambda: f_icons([("envelope","four labeled fields"),("megaphone","a producer sending"),
     ("headset","a consumer receiving"),("tally","the same message twice"),
     ("address","a source name"),("refnumber","an event type"),
     ("clock","a timestamp"),("crate","the data inside"),

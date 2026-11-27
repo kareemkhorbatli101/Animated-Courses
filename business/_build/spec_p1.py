@@ -126,13 +126,13 @@ S["p02-f4"]=lambda: f_realia(tbl("","Which copy is the newest?",
     ["The document","How you know it is the newest","How you would find out it was old"],
     [["","",""],["","",""],["","",""]],
     note="<b>The one with no version at all:</b>"), 520)
-S["p02-f5"]=lambda: f_realia(doc("Kjeldsen Board &middot; order acknowledgement",
+S["p02-f5"]=lambda: f_realia(doc("Kjeldsen Board &middot; order acknowledgment",
     "Your order PO-5512 &middot; our ref KB-9043 &middot; <b>rev B</b>",
     table_html(["Line","Part","Qty","Price","Delivery"],
       [["1","Carton 180&times;180&times;240","4,000","1.38","3 Mar"],
        ["2","Pallet wrap, 20 &micro;m","60 rolls","11.40","3 Mar"],
        ["3","Edge protector, 1 m","2,000","0.42","<b>17 Mar</b>"]])
-    + "<p><b>Prices</b> hold for 30 days from this acknowledgement. "
+    + "<p><b>Prices</b> hold for 30 days from this acknowledgment. "
     "<b>Line 3</b> is on a longer lead time than requested.</p>",
     "Please confirm within two working days. Silence is taken as acceptance."))
 S["p02-f6"]=lambda: f_realia(tbl("Word study","The third form",

@@ -321,13 +321,13 @@ S["r09-f11"]=lambda: f_realia(tbl("Two proposals","The same market",
       "<b>Stage one 180,000.</b> <b>Unless</b> 140,000 of local orders by <b>month 15</b>, we "
       "<b>exit</b>.<br><i>The board approves a first stage and a stopping rule.</i>"]]), 540)
 S["r09-f12"]=lambda: f_realia(doc("Two proposals", None,
-    "<p><b>A.</b> Global foreign direct investment rose 6 per cent last year to 1.6 trillion "
+    "<p><b>A.</b> Global foreign direct investment rose 6 percent last year to 1.6 trillion "
     "dollars, ending two years of decline. We propose a new operation in the region, at a total "
     "cost of 600,000, and expect it to be self-funding within three years.</p>"
     "<p style='font-size:12px;color:#6b6861'>The one figure that supports it, and nothing that "
     "does not. No stopping rule.</p>"
     "<p style='margin-top:14px'><b>B.</b> <b>Investment flows into lower-middle-income countries "
-    "&mdash; the group this proposal is in &mdash; fell 5 per cent.</b> Globally flows rose 6 per "
+    "&mdash; the group this proposal is in &mdash; fell 5 percent.</b> Globally flows rose 6 per "
     "cent; excluding conduit flows, 4. I am proposing to invest anyway, because two of our four "
     "largest customers moved production there and represent about 310,000 a year of existing "
     "business. <b>The real comparison is 180,000 now against 310,000 a year from 2028.</b> "

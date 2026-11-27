@@ -62,7 +62,7 @@ S["ra01-f3"]=lambda: f_icons([("container","a separator: three streams out"),
     ("logsheet","what the log records")],3)
 S["ra01-f4"]=lambda: f_realia(tbl("Team research sheet",
     "Four crude grades, from any published source",
-    ["The grade","Degrees API","Per cent sulfur","Where it is produced","Our source"],
+    ["The grade","Degrees API","Percent sulfur","Where it is produced","Our source"],
     blankrows(6,5),
     note="Fill the last column first. A figure with no source is a rumor with a decimal point."),
     600)
@@ -93,7 +93,7 @@ S["ra01-f7"]=lambda: f_part("What comes up a mature well",
 S["ra01-f8"]=lambda: f_icons([("pipe","the well stream"),("container","the separator"),
     ("cloud","gas"),("tin","oil"),("water","water"),("crate","sand")],3)
 S["ra01-f9"]=lambda: f_realia(form("Daily well sheet &mdash; Tell Sahra 14",
-    [("Date","12 March"),("Gross liquid","1,420 barrels"),("Water cut","78 per cent"),
+    [("Date","12 March"),("Gross liquid","1,420 barrels"),("Water cut","78 percent"),
      ("Net oil","312 barrels"),("Gas","41,000 cubic meters"),("Sand",BLANK),
      ("Sample taken","yes &mdash; 09:40"),("Signed","O. Dabbagh")],
     note="One line is blank. Nobody weighed the sand, and the sheet does not pretend otherwise."),
@@ -106,14 +106,14 @@ S["ra01-f10"]=lambda: f_scene(800,400,
 S["ra01-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Sheet A",None,
     "<p>Well 14. Produced a lot of liquid today. Mostly water. Some gas. Sand again.</p>", None),380)[0:3],
     lambda w,h: f_realia(doc("Sheet B",None,
-    "<p>Well 14, 12 March. Gross liquid 1,420 barrels. Water cut 78 per cent. "
+    "<p>Well 14, 12 March. Gross liquid 1,420 barrels. Water cut 78 percent. "
     "Net oil 312 barrels. Gas 41,000 cubic meters. Sand present, not quantified. "
     "Sample 09:40.</p>", None),380)[0:3],
     800,300,"Four words and a feeling","Six figures and a time")
 S["ra01-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
     "<p>The well is making a lot of water now. More than before. We should look at it.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
-    "<p>Well 14 water cut rose from 71 to 78 per cent between January and March. "
+    "<p>Well 14 water cut rose from 71 to 78 percent between January and March. "
     "Net oil fell from 402 to 312 barrels a day. Sand is present in the sample. "
     "Requesting a sand check.</p>",None),380)[0:3],
     800,300,"No figures","Four figures and a request")

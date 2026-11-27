@@ -375,11 +375,11 @@ S["pc06-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 6",
        ["<b>4</b>","<b>If</b> pressure is held, <b>then</b> supply interruptions fall",
         "<b>FALSE as written</b>"]])
     + "<p><b>Arrow four.</b> We looked at the client's own interruption log for three years. "
-    "<b>Sixty-one per cent of interruptions were bursts on the old mains.</b> Bursts are not caused "
+    "<b>Sixty-one percent of interruptions were bursts on the old mains.</b> Bursts are not caused "
     "by low pressure; if anything, <b>higher pressure makes them slightly more likely</b>. Another "
-    "<b>22 per cent</b> were planned shutdowns and <b>nine per cent</b> were failures at the old "
+    "<b>22 percent</b> were planned shutdowns and <b>nine percent</b> were failures at the old "
     "pumping station &mdash; <b>which this project does replace</b>. <b>So the project reduces "
-    "about nine per cent of the cause and may marginally increase sixty-one per cent of it.</b></p>"
+    "about nine percent of the cause and may marginally increase sixty-one percent of it.</b></p>"
     "<p><b>And yet the project should be built.</b> The estate has had <b>no firefighting "
     "pressure</b> since <b>2019</b>. The fire service has written to the client <b>twice</b>, in "
     "<b>2021</b> and <b>2023</b>. <b>That is a real benefit, it is attributable to this project, "
@@ -430,7 +430,7 @@ S["pc06-f9"]=lambda: f_realia(doc("Logic model &middot; arrow four corrected",
        ["<b>4 (new)</b>","<b>If</b> pressure is held, <b>then</b> the estate has <b>firefighting "
         "pressure</b> for the first time since <b>2019</b>",
         "the fire service's letters of 2021 and 2023"]]),
-    "<b>The project addresses nine per cent of the measured cause and may add slightly to "
+    "<b>The project addresses nine percent of the measured cause and may add slightly to "
     "sixty-one.</b> The new arrow is attributable to this project alone, whereas <i>fewer "
     "interruptions</i> was also claimed by two other projects in the same programme."), 720)
 S["pc06-f10"]=lambda: f_scene(960,440, people=[("priya",290,172,{}),
@@ -448,7 +448,7 @@ S["pc06-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Model 2", None,
         "<p style='line-height:1.85'>Arrow 1 &mdash; the schedule.<br>Arrow 2 &mdash; the witness "
         "test.<br>Arrow 3 &mdash; <b>only if</b> 90,000 of mains work.<br>"
-        "Arrow 4 &mdash; <b>false</b>: 61 per cent of interruptions are bursts.<br>"
+        "Arrow 4 &mdash; <b>false</b>: 61 percent of interruptions are bursts.<br>"
         "<b>New arrow 4:</b> firefighting pressure, first time since 2019.</p>"), w)[0:3],
     w=960, h=290)
 S["pc06-f12"]=lambda: f_panels(
@@ -456,8 +456,8 @@ S["pc06-f12"]=lambda: f_panels(
         "<p>The project will reduce supply interruptions at the Ridgeway estate and improve "
         "resilience for the community.</p>"), w)[0:3],
     lambda w,h: f_realia(doc("The case, corrected", None,
-        "<p>It addresses the <b>nine per cent</b> of interruptions caused by the old pumping "
-        "station, and <b>may add slightly</b> to the sixty-one per cent caused by bursts.</p>"
+        "<p>It addresses the <b>nine percent</b> of interruptions caused by the old pumping "
+        "station, and <b>may add slightly</b> to the sixty-one percent caused by bursts.</p>"
         "<p><b>It restores firefighting pressure to an estate that has had none since 2019</b>, "
         "about which the fire service has written twice. <b>Nothing else in the programme restores "
         "it.</b></p>"), w)[0:3],
@@ -483,11 +483,11 @@ S["pc06-f16"]=lambda: f_realia(doc("On a desk in March",
     "What was on it at five o'clock",
     "<p><b>A five-box diagram</b> with the fourth arrow crossed out.</p>"
     "<p><b>A three-year interruption log.</b></p>"
-    "<p><b>A bar chart</b> showing <b>sixty-one per cent</b>.</p>"
+    "<p><b>A bar chart</b> showing <b>sixty-one percent</b>.</p>"
     "<p><b>Two letters from a fire service</b>, 2021 and 2023.</p>"
     "<p><b>A note of three sentences.</b> <i>We quoted a false sentence for two years and so did I, "
     "and the log that disproves it takes twenty minutes to read. An arrow drawn between two boxes "
     "cannot be wrong, which is why writing each one out as a full sentence is the whole of this "
     "method and the diagram is just the furniture. The better case was available in 2021 and we did "
     "not find it because our diagram already looked finished.</i></p>",
-    "Five o'clock. Nine per cent claimed honestly, and a better case found."), 600)
+    "Five o'clock. Nine percent claimed honestly, and a better case found."), 600)

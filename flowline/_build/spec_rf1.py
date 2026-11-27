@@ -55,7 +55,7 @@ S["rf01-f1"]=lambda: f_icons([("container","a barrel at a wellhead"),
     ("certificate","a signature bonus document"),("map","a ring fence round one field"),
     ("calendar","a depreciation schedule"),("balance","a government take percentage"),
     ("crate","an entitlement barrel"),("table","a comparison of ten countries"),
-    ("note","sixty-two per cent of what")],4)
+    ("note","sixty-two percent of what")],4)
 S["rf01-f2"]=lambda: f_scene(820,420,
     people=[("nadia",120,176,{}),("omar",340,180,{"seated":True}),("bah",420,180,{"seated":True}),
      ("haddad",500,176,{}),("yusuf",580,180,{"seated":True}),
@@ -105,7 +105,7 @@ S["rf01-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
 S["rf01-f6"]=lambda: f_realia(tbl("Word study",
     "Shares and conditions",
     ["The phrase","What it does","An example"],
-    [["up to a maximum of","a ceiling","Cost oil is recoverable up to a maximum of 50 per cent of gross."],
+    [["up to a maximum of","a ceiling","Cost oil is recoverable up to a maximum of 50 percent of gross."],
      ["whichever is the lower","two limits, and the binding one","Actual costs or the ceiling, whichever is the lower."],
      ["after deduction of","the order of operations","Profit oil is calculated after deduction of royalty and cost oil."],
      ["net of","the same, more compact","The contractor's share is stated net of income tax."],
@@ -116,20 +116,20 @@ S["rf01-f7"]=lambda: f_realia(tbl("Waterfall worksheet",
     "One hundred barrels of gross production",
     ["Step","Barrels"],
     [["Gross production","100"],
-     ["less royalty at 10 per cent","&minus;10"],
+     ["less royalty at 10 percent","&minus;10"],
      ["available","90"],
      ["less cost oil &mdash; costs 55, <b>ceiling 50</b>","&minus;50"],
      ["<b>carried forward</b>","<b>5</b>"],
      ["<b>profit oil</b>","<b>40</b>"],
-     ["state share, 60 per cent","24"],
-     ["contractor share, 40 per cent","16"],
-     ["less income tax at 30 per cent of 16","&minus;4.8"],
+     ["state share, 60 percent","24"],
+     ["contractor share, 40 percent","16"],
+     ["less income tax at 30 percent of 16","&minus;4.8"],
      ["<b>state total</b>","<b>38.8</b>"],
      ["<b>contractor net</b>","<b>11.2</b>"],
-     ["Take, against profit of 50","<b>77.6 per cent</b>"],
-     ["State share of gross revenue","<b>38.8 per cent</b>"],
-     ["State entitlement of volume","<b>34 per cent</b>"],
-     ["Contractor entitlement of volume","<b>66 per cent</b>"]],
+     ["Take, against profit of 50","<b>77.6 percent</b>"],
+     ["State share of gross revenue","<b>38.8 percent</b>"],
+     ["State entitlement of volume","<b>34 percent</b>"],
+     ["Contractor entitlement of volume","<b>66 percent</b>"]],
     note="All four percentages are correct. They have four different denominators."), 620)
 S["rf01-f8"]=lambda: f_icons([("tally","a deduction off the top"),
     ("invoice","invoices against a ceiling"),("recycle","an amount carried forward"),
@@ -138,13 +138,13 @@ S["rf01-f8"]=lambda: f_icons([("tally","a deduction off the top"),
 S["rf01-f9"]=lambda: f_realia(tbl("Comparison extract",
     "A published international comparison, with our own figures beside it",
     ["","Figure"],
-    [["Published government take for this country","<b>62 per cent</b>"],
+    [["Published government take for this country","<b>62 percent</b>"],
      ["Denominator stated?","<b>no</b>"],
      ["Production rate stated?","<b>no</b>"],
      ["Cost level stated?","<b>no</b>"],
-     ["Our terms, at a lower cost level","75.7 per cent of profits"],
-     ["Our terms, at current costs","77.6 per cent of profits"],
-     ["Our terms, above 25,000 b/d (75:25 tranche)","85 per cent of profits"]],
+     ["Our terms, at a lower cost level","75.7 percent of profits"],
+     ["Our terms, at current costs","77.6 percent of profits"],
+     ["Our terms, above 25,000 b/d (75:25 tranche)","85 percent of profits"]],
     note="<b>Sixty-two is not in the range.</b> That indicates a different definition, not an error."), 620)
 S["rf01-f10"]=lambda: f_scene(800,400,
     people=[("nadia",180,180,{}),("bah",300,176,{}),("omar",620,180,{"seated":True})],
@@ -152,7 +152,7 @@ S["rf01-f10"]=lambda: f_scene(800,400,
      ("pencil",660,198,0.2),("calculator",230,198,0.2)],
     clockat=(60,40,22,10,0))
 S["rf01-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Note A",None,
-    "<p>Government take under the agreement is 62 per cent, which is competitive by international "
+    "<p>Government take under the agreement is 62 percent, which is competitive by international "
     "standards.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note B",None,
     "<p>The <b>waterfall</b> per 100 barrels. <b>Four percentages with four denominators:</b> 77.6 of "
@@ -161,11 +161,11 @@ S["rf01-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Note A",None,
     None),380)[0:3],
     800,300,"One figure","Four denominators and a range")
 S["rf01-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Headline",None,
-    "<p><b>62 per cent.</b></p><p>Competitive by international standards. The state's share of "
+    "<p><b>62 percent.</b></p><p>Competitive by international standards. The state's share of "
     "production has been maximized.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Defensible",None,
-    "<p><b>77.6 per cent of profits</b> at current costs; <b>38.8 per cent of gross revenue</b>; state "
-    "<b>entitlement 34 per cent of volume</b>. <b>Across the tranches, 75.7 to 85.</b> The published "
+    "<p><b>77.6 percent of profits</b> at current costs; <b>38.8 percent of gross revenue</b>; state "
+    "<b>entitlement 34 percent of volume</b>. <b>Across the tranches, 75.7 to 85.</b> The published "
     "62 states no denominator, no rate and no cost level, and is not in our range &mdash; which "
     "indicates a different definition rather than an error.</p>",None),380)[0:3],
     800,300,"What a government announces","What you can defend")
@@ -191,7 +191,7 @@ S["rf01-f15"]=lambda: f_chart([("yes, I have read them",2),("yes, a summary only
 S["rf01-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "A figure in circulation",
     "<p><b>A waterfall worksheet</b> with four percentages at the foot.</p>"
-    "<p><b>A published comparison table</b> printing sixty-two per cent, with no methodology note.</p>"
+    "<p><b>A published comparison table</b> printing sixty-two percent, with no methodology note.</p>"
     "<p><b>A board paper</b> quoting sixty-two.</p>"
     "<p><b>A note of a telephone call</b> to somebody who left two years ago.</p>"
     "<p><b>A pencil.</b></p>"
@@ -269,7 +269,7 @@ S["rf02-f7"]=lambda: f_realia(tbl("Clause map",
     [["2.1","the contract area, by coordinates","both","&mdash;"],
      ["<b>4.3</b>","<b>half the area relinquished at the end of the exploration period</b>","<b>the state</b>","<b>no</b>"],
      ["5.2","two commitment wells by a stated date","the state","yes"],
-     ["9.1","cost recovery ceiling at 50 per cent","both","yes"],
+     ["9.1","cost recovery ceiling at 50 percent","both","yes"],
      ["12.4","stabilization of the economic balance","the contractor","&mdash;"],
      ["14.1","governing law","both","&mdash;"],
      ["14.6","international arbitration, three arbitrators","both","&mdash;"],
@@ -417,7 +417,7 @@ S["rf03-f6"]=lambda: f_realia(tbl("Word study",
     note="Two rows are empty: <i>unless otherwise agreed</i> and <i>at its sole risk and "
     "expense</i>."), 700)
 S["rf03-f7"]=lambda: f_realia(tbl("Voting arithmetic",
-    "Interests: A 40, B 35, C 25 &middot; pass mark 65 per cent",
+    "Interests: A 40, B 35, C 25 &middot; pass mark 65 percent",
     ["Combination","Total","Passes?"],
     [["A alone","40","no"],
      ["B alone","35","no"],
@@ -436,7 +436,7 @@ S["rf03-f9"]=lambda: f_realia(tbl("Joint venture status",
     "Month end",
     ["","Entry"],
     [["Interests","A 40, B 35, C 25"],
-     ["Pass mark","65 per cent"],
+     ["Pass mark","65 percent"],
      ["Cash call status","<b>Party C, 19 days overdue</b>"],
      ["Default stage","<b>interest accruing; no notice served</b>"],
      ["Steps to forfeiture","<b>five; we are at one</b>"],

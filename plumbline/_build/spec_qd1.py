@@ -16,7 +16,7 @@ S["qd00-f1"]=lambda: f_realia(tbl("Six things you already have",
      ["Adverbs of degree","<i>sharply</i> &middot; <i>steadily</i> &middot; <i>slightly</i> &middot; <i>considerably</i>"],
      ["Time expressions","in 2019 &middot; over the period &middot; between the two years"],
      ["Comparison","<i>higher than</i> &middot; <i>twice as many as</i> &middot; <i>the largest</i>"],
-     ["Proportion","a third of &middot; 24 per cent &middot; just over half"],
+     ["Proportion","a third of &middot; 24 percent &middot; just over half"],
      ["The passive","<i>is heated</i> &middot; <i>was replaced by</i> &middot; <i>had been built on</i>"]],
     note="Six boxes, and you have most of what is in them. What this book adds is knowing which "
     "figure to put them around."), 600)
@@ -338,11 +338,11 @@ S["qd03-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to the
 S["qd03-f6"]=lambda: f_realia(tbl("How exact is it?", None,
     ["The expression","How exact","An example"],
     [["<i>a quarter</i>","close, and plain","a quarter of the total"],
-     ["<i>24 per cent</i>","exact, and on the figure","24 per cent of the total"],
+     ["<i>24 percent</i>","exact, and on the figure","24 percent of the total"],
      ["<i>about a third</i>","approximate, and honest about it","about a third of all cases"],
      ["<i>just over half</i>",B,B],
      ["<i>accounted for</i>",B,B],
-     ["<i>the remainder</i>","everything not yet named","the remainder was under 5 per cent"]],
+     ["<i>the remainder</i>","everything not yet named","the remainder was under 5 percent"]],
     note="Four cells are empty on purpose. A proportion is always a proportion <i>of</i> something."),
     650)
 S["qd03-f7"]=lambda: f_part("Three causes, one whole &middot; our own figures",
@@ -371,15 +371,15 @@ S["qd03-f11"]=lambda: f_panels(
       "<p>A circle divided into three. The largest part looks large; how large is a guess.</p>"
       "<p>Two readers guessed 70 and 88 for the same segment.</p>", "Area."), 380)[0:3],
     lambda w,h: f_realia(doc("As lengths", None,
-      "<p>One bar divided into three. The largest part is 82 per cent and both readers said 82.</p>"
+      "<p>One bar divided into three. The largest part is 82 percent and both readers said 82.</p>"
       "<p>The same three numbers.</p>", "Length."), 380)[0:3],
     800, 310, "A circle of areas", "A stacked bar")
 S["qd03-f12"]=lambda: f_realia(doc("Two answers, same pair of pies", None,
     "<p><b>Answer 1.</b> <i>The biggest subject was business in both years.</i> &mdash; one segment "
     "of ten.</p>"
-    "<p><b>Answer 2.</b> <i>Business was the largest in both years, at 34 and 38 per cent, while "
-    "languages was the smallest throughout, falling from 8 to 5 per cent. Engineering barely moved, "
-    "at 19 and 20 per cent, whereas nursing rose by 6 percentage points, the largest single "
+    "<p><b>Answer 2.</b> <i>Business was the largest in both years, at 34 and 38 percent, while "
+    "languages was the smallest throughout, falling from 8 to 5 percent. Engineering barely moved, "
+    "at 19 and 20 percent, whereas nursing rose by 6 percentage points, the largest single "
     "change.</i></p>",
     "The largest, the smallest, the one that barely moved, and the biggest change: four sentences, "
     "and the figure is described."), 600)

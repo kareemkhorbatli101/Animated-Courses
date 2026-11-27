@@ -257,7 +257,7 @@ S["f11-f16"]=lambda: f_scene(900,400,
 
 # ---------------- Unit 12 · 90.93 and 95.99 ----------------
 S["f12-f1"]=lambda: f_icons([("form","a proposal registered"),("essay","a committee draft"),
-    ("messages","an enquiry draft circulating"),("signature","a final draft approved"),
+    ("messages","an inquiry draft circulating"),("signature","a final draft approved"),
     ("book","a published standard"),("magnifier","a periodic review"),
     ("proof","confirmed and kept"),("pencil","marked to be revised"),
     ("noentry","withdrawn"),("note","an amendment attached")], cols=5)

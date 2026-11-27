@@ -52,7 +52,7 @@ S["z01-f5"]=lambda: f_realia(doc("Portmere Civic Forum · briefing for community
     "areas</b>, including China, Germany, Japan and Russia. In 126 others it is projected to go "
     "on rising through 2054.</p>"
     "<p><b>What changed in ten years.</b> The projection for 2100 is about <b>700 million "
-    "lower</b> &mdash; six per cent &mdash; than the one made a decade earlier.</p>"
+    "lower</b> &mdash; six percent &mdash; than the one made a decade earlier.</p>"
     "<p><b>Assumptions.</b> Fertility, mortality and migration, each stated separately in the "
     "source and each revised when the data moves.</p>",
     "Figures: UN DESA, <i>World Population Prospects 2024</i>."))
@@ -158,7 +158,7 @@ S["z02-f6"]=lambda: f_realia(tbl("Word study","Verb, noun, person, adjective",
      ["estimate","","",""]]), 480)
 S["z02-f7"]=lambda: f_chart([("Finland",11),("Denmark",13),("Norway",14),("Switzerland",15),
     ("participating average",18),("Portugal",23),("Chile",29),("Lithuania",19)],
-    unit="per cent at or below the lowest literacy level", w=540)
+    unit="percent at or below the lowest literacy level", w=540)
 S["z02-f8"]=lambda: f_icons([("envelope","a bid posted"),("statement","a letter arrives"),
     ("tripod","a room measured"),("meeting","a class of eight"),
     ("lecture","a class of thirty"),("noentry","a closed door")], cols=3)
@@ -254,7 +254,7 @@ S["z03-f6"]=lambda: f_realia(tbl("Word study","How strong is the claim?",
      ["This is consistent with","weak","compatible, not probative"],
      ["It cannot be ruled out that","weakest","absent"]]), 520)
 S["z03-f7"]=lambda: f_line([("2015",23),("2020",28),("2024",32),("2025",34),("2030",44)],
-    w=600, unit="renewable share of global electricity generation, per cent · "
+    w=600, unit="renewable share of global electricity generation, percent · "
     "2030 given as 43 in one summary and almost 45 in another",
     dashed_from=3, ymin=15)
 S["z03-f8"]=lambda: f_icons([("tray","a half-eaten meal"),("car","an engine running"),

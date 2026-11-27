@@ -24,9 +24,9 @@ If you have used any of them, you already know where everything is.
 ## What is different about this book
 
 **Every reading text is a number that could mislead you.** Not one of them is wrong. Postal
-tonnage fell sixteen per cent while the number of parcels rose thirty-eight. Services trade grew
-fourteen per cent in value and its volume forecast was cut to three point three. Foreign investment
-rose six per cent worldwide and fell five per cent in the countries that needed it most. Twelve
+tonnage fell sixteen percent while the number of parcels rose thirty-eight. Services trade grew
+fourteen percent in value and its volume forecast was cut to three point three. Foreign investment
+rose six percent worldwide and fell five percent in the countries that needed it most. Twelve
 units, twelve figures, and in every one the honest sentence is longer than the headline.
 
 **You will practice saying no.** Three units are about refusing something — work, a price, a

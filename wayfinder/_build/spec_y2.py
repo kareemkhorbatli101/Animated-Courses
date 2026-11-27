@@ -118,12 +118,12 @@ S["y05-f5"]=lambda: f_realia(doc("Portmere Business Watch · safety briefing for
     "<p>Members ask for one figure they can put on a poster. Here it is, with the three things "
     "you have to say alongside it.</p>"
     "<p><b>The figure.</b> Around <b>2.93 million</b> workers die each year from work-related "
-    "causes. Of those, <b>2.6 million &mdash; eighty-nine per cent &mdash; are from occupational "
+    "causes. Of those, <b>2.6 million &mdash; eighty-nine percent &mdash; are from occupational "
     "disease</b>, and <b>330,000 from accidents</b>. A further <b>395 million</b> workers sustain "
     "non-fatal injuries.</p>"
     "<p><b>The first thing to say.</b> Most of it is disease, not accidents. Nine deaths in ten "
     "are from something that took years: dust, chemicals, noise, shift patterns. A poster showing "
-    "a fall from height is showing you eleven per cent of the problem.</p>"
+    "a fall from height is showing you eleven percent of the problem.</p>"
     "<p><b>The second thing to say.</b> The reference year is <b>2019</b> and the estimate was "
     "published in <b>2023</b>. It is the most recent global estimate that exists. It is not a "
     "figure for this year.</p>"
@@ -229,7 +229,7 @@ S["y06-f6"]=lambda: f_realia(tbl("Word study","People and relations",
      ["sub-","under","ordinate","subordinate"],["ex-","former","colleague","ex-colleague"]]), 480)
 S["y06-f7"]=lambda: f_chart([("analytical thinking (level)",70),
     ("leadership (change)",22),("resilience (change)",17),("AI and big data (change)",17)],
-    unit="per cent — note that one bar is a level and three are changes", w=560)
+    unit="percent — note that one bar is a level and three are changes", w=560)
 S["y06-f8"]=lambda: f_icons([("chain","three desks"),("clock","eleven at night"),
     ("calendar","a deadline moved"),("email","a draft"),
     ("meeting","a kettle conversation"),("door","a half-open door")], cols=3)

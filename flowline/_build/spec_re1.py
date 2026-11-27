@@ -16,7 +16,7 @@ S["re00-f1"]=lambda: f_realia(tbl("Six things you already have",
      ["A barrier","a relief valve &middot; a shutdown system &middot; a bund &middot; a permit"],
      ["A number with its definition","354 degrees, by a named method, reproducible to four"],
      ["A document with a scope page","the standard says what it does not cover"],
-     ["A tolerance with a confidence","plus or minus ten per cent, at eighty per cent confidence"],
+     ["A tolerance with a confidence","plus or minus ten percent, at eighty percent confidence"],
      ["A signature with a date","two names on a checklist, and a dash where a tick would lie"]],
     note="Every one of those six appears in an accident report, and usually all six at once."), 580)
 S["re00-f2"]=lambda: f_realia(tbl("The four shapes of a bad day",

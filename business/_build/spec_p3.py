@@ -8,7 +8,7 @@ S={}
 
 # ---------------- Unit 7 · Explaining a Process ----------------
 S["p07-f1"]=lambda: f_icons([("pallet","material arrives"),("scales","checked with a gauge"),
-    ("iron","the machine runs"),("tray","moved to bench 2"),("barcode","labelled"),
+    ("iron","the machine runs"),("tray","moved to bench 2"),("barcode","labeled"),
     ("packet","a sample set aside"),("carton","packed"),("crate","wrapped"),
     ("signature","signed off"),("truck","it leaves")], cols=5)
 S["p07-f2"]=lambda: f_scene(900,420, people=[("tomas",300,178,{}),("ravi",430,174,{})],
@@ -160,7 +160,7 @@ S["p08-f9"]=lambda: f_realia(doc("Arvo Components &middot; recommendation",
       [["Unit price","1.38","1.26"],
        ["Order value at our quantity","5,520","<b>12,600</b> (10,000 min.)"],
        ["Lead time","3 weeks","6 weeks"]])
-    + "<p>Vandermeer is genuinely cheaper per carton &mdash; 12 cents, about nine per cent "
+    + "<p>Vandermeer is genuinely cheaper per carton &mdash; 12 cents, about nine percent "
     "&mdash; and I expect we will use them eventually. The deciding point is the minimum order: "
     "the saving is 480 and the storage is in the region of 1,800.</p>",
     "Proposal: order 4,000 from Ostergaard now; ask Vandermeer for two references and a 4,000 "
@@ -184,7 +184,7 @@ S["p08-f12"]=lambda: f_realia(doc("Two memos", None,
     "<p style='font-size:12px;color:#6b6861'>Four adjectives, no figures, nothing to argue with "
     "or agree to.</p>"
     "<p style='margin-top:14px'><b>B.</b> Vandermeer are 12 cents cheaper per carton, about nine "
-    "per cent, which on 4,000 is 480. Their minimum order is 10,000, so the order would be 12,600 "
+    "percent, which on 4,000 is 480. Their minimum order is 10,000, so the order would be 12,600 "
     "against 5,520, and we would store about fifteen pallets for eleven weeks at 40 a pallet a "
     "month &mdash; roughly 1,800. Their lead time is six weeks against three and they have given "
     "no references. I recommend Ostergaard at 1.38, and a 4,000 trial price from Vandermeer "

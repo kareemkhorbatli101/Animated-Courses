@@ -192,7 +192,7 @@ S["pa11-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 11",
     "change looks like a project being managed. <b>The report was honest, correct, and told "
     "nobody anything.</b></p>"
     + table_html(["Status","What it means, in numbers"],
-      [["<b>green</b>","within <b>two weeks</b> and <b>5 per cent</b>"],
+      [["<b>green</b>","within <b>two weeks</b> and <b>5 percent</b>"],
        ["<b>amber</b>","outside that, with a written recovery plan and a date"],
        ["<b>amber twice</b>","<b>reported as red</b>, whatever the plan says"],
        ["<b>red</b>","outside it, with no plan the sponsor accepts"]])
@@ -200,7 +200,7 @@ S["pa11-f5"]=lambda: f_realia(doc("Lindhurst &middot; project office note 11",
     "months of amber is a fact the board must be told</b>, and the old rule had no way of telling "
     "them.</p>"
     "<p><b>What the guidance does not do.</b> No colors. No thresholds. No meeting frequency. No "
-    "limits. No list of who sits on a board. The two weeks, the 5 per cent and the 20,000 are "
+    "limits. No list of who sits on a board. The two weeks, the 5 percent and the 20,000 are "
     "ours.</p>",
     "Source: ISO 21505:2017, Project, programme and portfolio management &mdash; Guidance on "
     "governance. It is guidance, not requirements: it prescribes no governance structure, no "

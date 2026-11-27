@@ -27,10 +27,10 @@ S["x04-f5"]=lambda: f_realia(doc("Portmere Employment Partnership · briefing fo
     "and the comfortable answer is not.</p>"
     "<p><b>The global picture.</b> In 2025 the youth unemployment rate stood at <b>12.4 per "
     "cent</b> &mdash; about <b>67 million</b> people aged 15 to 24 without work and looking for "
-    "it. The rate has stagnated rather than risen sharply: it was 12.3 per cent the year before, "
-    "and it is projected to stay near 12.3 per cent through 2027.</p>"
+    "it. The rate has stagnated rather than risen sharply: it was 12.3 percent the year before, "
+    "and it is projected to stay near 12.3 percent through 2027.</p>"
     "<p><b>Where it is worst.</b> The averages conceal enormous differences. In the Arab States "
-    "the youth unemployment rate is <b>26.2 per cent</b>, and in Northern Africa <b>22.6 per "
+    "the youth unemployment rate is <b>26.2 percent</b>, and in Northern Africa <b>22.6 per "
     "cent</b> &mdash; roughly double the world figure. A young person's prospects depend more on "
     "where they are standing than on anything in their control.</p>"
     "<p><b>What this means for advice.</b> A client who has applied twenty times without success "
@@ -47,7 +47,7 @@ S["x04-f6"]=lambda: f_realia(tbl("Word study","Suffixes that make people",
      ["-ist","a specialist","special","specialist"],
      ["-ant","one who assists or applies","apply","applicant"]]), 490)
 S["x04-f7"]=lambda: f_chart([("Arab States",26.2),("Northern Africa",22.6),
-    ("world average",12.4),("Northern America",9.8)], unit="per cent, 2025", w=520)
+    ("world average",12.4),("Northern America",9.8)], unit="percent, 2025", w=520)
 S["x04-f8"]=lambda: f_icons([("envelope","posting a letter"),("phone","taking notes"),
     ("meeting","a handshake"),("computer","submitted"),("chair","waiting"),
     ("email","a short reply")], cols=3)
@@ -124,7 +124,7 @@ S["x05-f4"]=lambda: f_realia(tbl("","What the role really asks",
 S["x05-f5"]=lambda: f_realia(doc("Portmere Voluntary Sector Forum · briefing note 11",
     "The largest workforce nobody counts",
     "<p>New global estimates put the number of people doing volunteer work at around <b>2.1 "
-    "billion a month</b> &mdash; about <b>34.5 per cent</b> of the world's working-age population. "
+    "billion a month</b> &mdash; about <b>34.5 percent</b> of the world's working-age population. "
     "If that figure is right, roughly one working-age adult in three does unpaid work for somebody "
     "outside their own household every month, and almost none of it appears in any economic "
     "measure.</p>"
@@ -135,7 +135,7 @@ S["x05-f5"]=lambda: f_realia(doc("Portmere Voluntary Sector Forum · briefing no
     "project.</p>"
     "<p><b>What it does not count well.</b> Fewer than seventy countries collect official "
     "statistics on volunteering, most of them wealthy ones, and they use different definitions. "
-    "The global figure is therefore modelled rather than counted. It is the best estimate "
+    "The global figure is therefore modeled rather than counted. It is the best estimate "
     "available and it is an estimate.</p>"
     "<p><b>Why it matters here.</b> Services in this city are underpinned by people doing one or "
     "two hours a week. That is a strength and a risk at once: it is cheap, it is local, and it "
@@ -146,7 +146,7 @@ S["x05-f6"]=lambda: f_realia(tbl("Word study","Negative prefixes",
     ["Prefix","Goes before","Stem","New word"],
     [["un-","most words","paid","unpaid"],["in-","many Latin stems","formal","informal"],
      ["im-","p, m, b","possible","impossible"],["ir-","r","regular","irregular"],
-     ["non-","neutral, no judgement","compulsory","non-compulsory"]]), 490)
+     ["non-","neutral, no judgment","compulsory","non-compulsory"]]), 490)
 S["x05-f7"]=lambda: f_part("One hundred working-age adults",
     [("volunteer in a given month",34.0,ACCENT),("do not",66.0,"#b9b7b0")], w=560)
 S["x05-f8"]=lambda: f_icons([("car","a half-loaded van"),("shelf","an empty shelf"),
@@ -225,7 +225,7 @@ S["x06-f5"]=lambda: f_realia(doc("Portmere Community Kitchen · briefing for vol
     "<p>Globally, about <b>1.05 billion tonnes</b> of food is wasted every year. That figure "
     "includes inedible parts &mdash; peelings, bones, shells &mdash; and it comes to roughly "
     "<b>132 kilograms a year for every person on the planet</b>.</p>"
-    "<p><b>Where it happens.</b> Households are the largest single source, at <b>60 per cent</b> "
+    "<p><b>Where it happens.</b> Households are the largest single source, at <b>60 percent</b> "
     "of the total: <b>631 million tonnes</b>, or about <b>79 kilograms per person per year</b>. "
     "Food service and retail account for the rest. The common belief that supermarkets are the "
     "main problem is not supported by the figures, although what supermarkets throw away is more "

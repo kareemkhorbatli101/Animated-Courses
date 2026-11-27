@@ -56,7 +56,7 @@ S["pf07-f5"]=lambda: f_realia(doc("Lindhurst · audit note 7",
     "<b>Two from an unscheduled question</b> to a fitter <b>not on the interview list</b>, who keeps "
     "paper copies in a drawer <b>because the system logs him out after four minutes and he works in "
     "gloves.</b></p>"
-    "<p><b>What I will not write.</b> <b>Three of twelve is not twenty-five per cent of two hundred "
+    "<p><b>What I will not write.</b> <b>Three of twelve is not twenty-five percent of two hundred "
     "and thirty-one.</b> <b>The report says: on the evidence sampled, three of twelve did not meet "
     "the criteria; the sample does not support a reliable estimate for the population.</b> A larger "
     "sample of <b>40 records across 12 months</b> is recommended.</p>"

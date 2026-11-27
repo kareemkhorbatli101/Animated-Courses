@@ -174,7 +174,7 @@ where it is used. Six source bodies carry the twelve units, and no figure is use
 |---|---|---|
 | 1 | ILO, *Employment and Social Trends 2026* | About 3.6 billion people have a job; unemployment projected at 4.9% for 2026, about 186 million people |
 | 2 | UNCTAD, *Review of Maritime Transport 2025* | About 80% of the world's merchandise trade moves by sea |
-| 3 | ILOSTAT modelled estimates, November 2025 | Average weekly hours actually worked: Bhutan 54.5, Sudan 50.8, Lesotho 50.2, Congo 48.7, UAE 48.4, Yemen 25.9 |
+| 3 | ILOSTAT modeled estimates, November 2025 | Average weekly hours actually worked: Bhutan 54.5, Sudan 50.8, Lesotho 50.2, Congo 48.7, UAE 48.4, Yemen 25.9 |
 | 4 | ITU, *Facts and Figures 2025* (17 November 2025) | About 6 billion people use the internet; 2.2 billion are offline, 96% of them in low- and middle-income countries |
 | 5 | UNCTADstat, container port throughput | World ports handled about 858 million TEU in 2023, up from 641 million in 2013 |
 | 6 | WTO, *Global Trade Outlook*, October 2026 update | World merchandise trade volume projected to grow 3.9% in 2026 and 4.1% in 2027 |
@@ -188,15 +188,15 @@ where it is used. Six source bodies carry the twelve units, and no figure is use
 **Three honesty notes, printed here because they are printed in the units too.**
 
 - **Unit 12 is built on a disagreement, and says so.** 2.1 billion out of 3.6 billion is about 58
-  per cent, and the summary of the same release says 51.1 per cent. The two count different things
+  percent, and the summary of the same release says 51.1 percent. The two count different things
   — a count of workers against a share of employment — over slightly different years. At A2 the
   unit does not try to settle it. It teaches the sentence *these are not the same measurement*,
   and asks which figure the learner would put in an email.
 - **Unit 5's container figure is from 2023.** It is the most recent year published in the series
   UNCTAD points readers to. The text gives the year, and the task asks what you should write in an
   email when a figure is three years old.
-- **Unit 6's forecast has moved twice.** The WTO published 0.5 per cent for 2026 in October 2025,
-  1.9 per cent in March 2026 and 3.9 per cent in October 2026. The unit prints the current figure
+- **Unit 6's forecast has moved twice.** The WTO published 0.5 percent for 2026 in October 2025,
+  1.9 percent in March 2026 and 3.9 percent in October 2026. The unit prints the current figure
   with its date, and the *Think It Through* case is about a buyer who planned on an older one.
 
 **Everything else in this book is invented.** Ostberg is not a real city. Lindmark Freight, Arvo

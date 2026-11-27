@@ -212,8 +212,8 @@ S["rb05-f9"]=lambda: f_realia(tbl("Four-point well test &mdash; Tell Sahra 14",
     [["24","154","318","340","31"],["28","146","376","355","32"],
      ["32","138","412","380","33"],["40","121","<b>437</b>","<b>530</b>","34"]],
     numcols=(0,1,2,3,4),
-    note="Between the third and fourth points the oil rose 6 per cent and the gas-oil ratio rose "
-    "39 per cent."), 620)
+    note="Between the third and fourth points the oil rose 6 percent and the gas-oil ratio rose "
+    "39 percent."), 620)
 S["rb05-f10"]=lambda: f_scene(800,400,
     people=[("omar",180,180,{"seated":True}),("bah",430,176,{}),("haddad",650,180,{})],
     props=[("desk",150,0,1.0),("logsheet",230,196,0.24),("board",500,96,0.56),
@@ -224,7 +224,7 @@ S["rb05-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Summary A",None,
     "<p>Best rate 437 at the 40.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Summary B",None,
     "<p>Each point with its oil rate, its gas-oil ratio, its drawdown, and the increase in oil and "
-    "gas from the point before it as a percentage. Between 32 and 40: oil up 6 per cent, gas up "
+    "gas from the point before it as a percentage. Between 32 and 40: oil up 6 percent, gas up "
     "39.</p>",None),380)[0:3],
     800,300,"Four rates","Four rates, four gas figures and the increments")
 S["rb05-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
@@ -312,7 +312,7 @@ S["rb06-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
     "<p>Gilbert's paper gave engineers <b>gradient curves</b> for working out the pressure at any "
     "depth, and an empirical relationship for a wellhead choke that holds while the flow is "
     "<b>critical</b> &mdash; taken in practice to be while the downstream pressure is below about "
-    "seventy per cent of the upstream.</p>"
+    "seventy percent of the upstream.</p>"
     "<p><b>Drawn by hand from field data</b>, in the 1950s, for particular tubing sizes and fluids, "
     "in field units. Empirical, and he did not claim otherwise.</p>",
     "A well with a leaking valve can look lifted on paper and be lifting nothing. The giveaway is "

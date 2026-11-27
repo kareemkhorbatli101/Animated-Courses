@@ -198,7 +198,7 @@ full alphabetical list, with phonemic transcription, is in the Teacher's Book.
 | **9** | a record · evidence · a transaction · authenticity · reliability · integrity · usability · a records system · appraisal · to appraise · retention · a retention period · disposition · disposal · a disposal authority · a trigger event |
 | **10** | preservation · an archive · a reference model · a submission package · an archival package · a dissemination package · representation information · provenance · context · fixity · access rights · a designated community · independently understandable · ingest · preservation planning · obsolescence |
 | **11** | a supply chain · a tier · a tier-one supplier · a sub-tier supplier · a flow-down requirement · to flow down · an attestation · to attest · acquisition · a contract clause · visibility · provenance · a dependency · due diligence · an overlay · a control |
-| **12** | a stage · a stage code · a proposal · a draft · an enquiry draft · approval · publication · a periodic review · to confirm · confirmed · to revise · to supersede · to withdraw · withdrawn · an amendment · a corrigendum |
+| **12** | a stage · a stage code · a proposal · a draft · an inquiry draft · approval · publication · a periodic review · to confirm · confirmed · to revise · to supersede · to withdraw · withdrawn · an amendment · a corrigendum |
 
 # Sources
 

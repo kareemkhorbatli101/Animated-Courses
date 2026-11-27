@@ -36,7 +36,7 @@ S["o04-f5"]=lambda: f_realia(doc("Telephone message", None,
     "credit note yet &mdash; she wants to know which number is right before anybody writes "
     "anything down. Back at her desk after 14:00 her time.</p>"
     "<p><b>Why the phone still matters.</b> About <b>6 billion people</b> use the internet. "
-    "<b>2.2 billion are offline</b>, and 96 per cent of them live in low- and middle-income "
+    "<b>2.2 billion are offline</b>, and 96 percent of them live in low- and middle-income "
     "countries.</p>",
     "Figures: ITU, <i>Facts and Figures 2025</i>, published 17 November 2025."))
 S["o04-f6"]=lambda: f_realia(tbl("Word study","Phone phrasal verbs",
@@ -224,8 +224,8 @@ S["o06-f5"]=lambda: f_realia(doc("Arvo Components · purchase order",
     "<b>Delivery:</b> 28 November 2026 to Ostberg. <b>Minimum order:</b> 500 pieces per code.</p>"
     "<p><b>Note from the buyer:</b> Quantities are written with a comma for thousands &mdash; "
     "<b>1,200 means one thousand two hundred, not one point two.</b> Please confirm in writing.</p>"
-    "<p>The WTO expects world merchandise trade to grow by <b>3.9 per cent in 2026</b> and "
-    "4.1 per cent in 2027.</p>",
+    "<p>The WTO expects world merchandise trade to grow by <b>3.9 percent in 2026</b> and "
+    "4.1 percent in 2027.</p>",
     "Figure: WTO, <i>Global Trade Outlook and Statistics</i>, October 2026 update."))
 S["o06-f6"]=lambda: f_realia(tbl("Word study","Countable and uncountable",
     ["","Countable","Uncountable"],
@@ -235,7 +235,7 @@ S["o06-f6"]=lambda: f_realia(tbl("Word study","Countable and uncountable",
      ["Not many / not much","not <b>many</b> cartons","not <b>much</b> time"],
      ["Some / any","some bolts","some oil"]]), 480)
 S["o06-f7"]=lambda: f_line([("2024",2.9),("2025",4.6),("2026",3.9),("2027",4.1)],
-    w=520, unit="world merchandise trade volume, per cent growth · 2026 and 2027 are forecasts",
+    w=520, unit="world merchandise trade volume, percent growth · 2026 and 2027 are forecasts",
     dashed_from=2, ymin=0)
 S["o06-f8"]=lambda: f_icons([("carton","how many in a carton?"),("pricetag","what's the price?"),
     ("calendar","when is delivery?"),("scales","what does it weigh?"),

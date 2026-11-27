@@ -107,7 +107,7 @@ S["rb10-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
     "and withhold acceptance.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Both tickets carry <b>identical</b> raw figures. Ours 2,385, theirs 2,376, a difference of "
-    "9 barrels or 0.38 per cent. No measurement differs: we corrected for temperature before applying "
+    "9 barrels or 0.38 percent. No measurement differs: we corrected for temperature before applying "
     "the factor and rounded once; they applied the factor first and rounded twice. Our ticket names "
     "one edition of the calculation standard and theirs an earlier one. <b>No shortfall claim until "
     "that is settled.</b></p>",None),380)[0:3],
@@ -139,7 +139,7 @@ S["rb10-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "<p><b>A sale contract page</b> naming a calculation standard and no edition.</p>"
     "<p><b>A calculator.</b></p>"
     "<p><i>Both companies are honest. Both are arithmetically correct. The difference is about four "
-    "tenths of one per cent, always in the same direction, and nobody has ever raised it.</i></p>",
+    "tenths of one percent, always in the same direction, and nobody has ever raised it.</i></p>",
     "Seven o'clock. Every ticket on both sides looks right."), 600)
 
 # ---------------- Unit 11 ----------------
@@ -296,9 +296,9 @@ S["rb12-f2"]=lambda: f_scene(760,400,
     props=[("desk",288,0,1.0),("board",50,90,0.62),("calculator",725,198,0.18)],
     board=(30,24,214,110,"NOT A QUESTION ABOUT ROCK",[("in place","almost all"),("reserves","one corner"),("decided by","a project")]),
     clockat=(262,36,22,16,0))
-S["rb12-f3"]=lambda: f_icons([("tally","the 90 per cent point: proved"),
-    ("balance","the 50 per cent point: proved plus probable"),
-    ("star","the 10 per cent point: plus possible"),
+S["rb12-f3"]=lambda: f_icons([("tally","the 90 percent point: proved"),
+    ("balance","the 50 percent point: proved plus probable"),
+    ("star","the 10 percent point: plus possible"),
     ("stamp","a project approved for development"),
     ("noentry","a project on hold"),("note","three numbers, all honest")],3)
 S["rb12-f4"]=lambda: f_realia(tbl("Team research sheet",
@@ -321,8 +321,8 @@ S["rb12-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
     "the price we assume? Will it start soon?</p>"
     "<p><b>So reserves belong to a project, not to a reservoir.</b> Two firms can hold the same rock "
     "and report different reserves. Both are honest.</p>"
-    "<p><b>Proved</b> means there is at least a 90 per cent chance we will get that much or more. "
-    "<b>Proved plus probable</b> is the 50 per cent level. <b>Plus possible</b> is the 10 per cent "
+    "<p><b>Proved</b> means there is at least a 90 percent chance we will get that much or more. "
+    "<b>Proved plus probable</b> is the 50 percent level. <b>Plus possible</b> is the 10 percent "
     "level. These are about the estimate. They are not about the rock.</p>"
     "<p><b>A reserve figure can fall with no oil moving.</b> The price we assume drops. A board puts "
     "a job off. A permit runs out. The oil moves to contingent resources. Nothing underground has "
@@ -332,7 +332,7 @@ S["rb12-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
 S["rb12-f6"]=lambda: f_realia(tbl("Word study",
     "Degrees of certainty",
     ["The expression","How certain","An example"],
-    [["at least a 90 per cent probability","the conservative end","At least a 90 per cent probability of 41 million barrels."],
+    [["at least a 90 percent probability","the conservative end","At least a 90 percent probability of 41 million barrels."],
      ["as likely as not","the middle","58 million is as likely to be exceeded as not."],
      ["unlikely to be exceeded","the optimistic end","79 million is unlikely to be exceeded."],
      ["between … and …","a range, with both ends","Between 41 and 79 million barrels."],
@@ -381,8 +381,8 @@ S["rb12-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
     lambda w,h: f_realia(doc("Note 2",None,
     "<p><b>Proved reserves fell by 5 million barrels. No oil was produced from the affected area, and "
     "the cause is the price assumption.</b> Effective 31 December, under the Petroleum Resources "
-    "Management System, 2018 revision. Proved 41 &mdash; at least 90 per cent probability of being "
-    "equalled or exceeded. Plus probable 58. Plus possible 79. Three infill wells no longer economic; "
+    "Management System, 2018 revision. Proved 41 &mdash; at least 90 percent probability of being "
+    "equaled or exceeded. Plus probable 58. Plus possible 79. Three infill wells no longer economic; "
     "the 5 million has moved to contingent resources and would return. Those wells have moved three "
     "times in eight years.</p>",None),380)[0:3],
     800,300,"The number","The cause, then the number")

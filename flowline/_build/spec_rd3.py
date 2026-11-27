@@ -77,9 +77,9 @@ S["rd07-f9"]=lambda: f_realia(tbl("Capacity summary &mdash; Mureij refinery, thi
      ["Current maximum sustainable","112","2018, after the debottleneck"],
      ["Available this year","93","a nine-week turnaround and two outages"],
      ["Actual throughput","86","the twelve monthly records"],
-     ["Utilization on nameplate","80 per cent","denominator: 107"],
-     ["Utilization on sustainable","77 per cent","denominator: 112"],
-     ["Utilization on available","92 per cent","denominator: 93"]],
+     ["Utilization on nameplate","80 percent","denominator: 107"],
+     ["Utilization on sustainable","77 percent","denominator: 112"],
+     ["Utilization on available","92 percent","denominator: 93"]],
     note="The published bulletin prints 107 for this plant, with a footnote. Four facts before you "
     "quote it: <b>the number, the year, the publication, and where it got it.</b>"), 640)
 S["rd07-f10"]=lambda: f_scene(800,400,
@@ -88,7 +88,7 @@ S["rd07-f10"]=lambda: f_scene(800,400,
      ("table",580,0,0.9),("logsheet",660,198,0.2)],
     clockat=(60,40,22,1,0))
 S["rd07-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Annual report A",None,
-    "<p>Capacity: 107,000 barrels a day. Utilization: 80 per cent.</p>",None),380)[0:3],
+    "<p>Capacity: 107,000 barrels a day. Utilization: 80 percent.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Annual report B",None,
     "<p><b>Four capacities</b>, each with the date it was established. <b>Three utilizations</b>, each "
     "with its denominator named and the question it answers. And the <b>provenance</b> of the "
@@ -96,11 +96,11 @@ S["rd07-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Annual report A",None,
     None),380)[0:3],
     800,300,"One capacity, one utilization","Four capacities, three utilizations")
 S["rd07-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
-    "<p>Refinery capacity is 107,000 barrels a day and utilization this year was 80 per cent.</p>",
+    "<p>Refinery capacity is 107,000 barrels a day and utilization this year was 80 percent.</p>",
     None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Nameplate 107, from 1959. Current sustainable 112, since 2018. Available 93, after a "
-    "nine-week turnaround. Throughput 86. <b>Utilization on nameplate 80 per cent</b> &mdash; which "
+    "nine-week turnaround. Throughput 86. <b>Utilization on nameplate 80 percent</b> &mdash; which "
     "answers <i>how does the plant compare with its design</i>. <b>Utilization on available 92 per "
     "cent</b> &mdash; which answers <i>did we run the plant well when we had it</i>. Those are "
     "different questions. The published figure is 107 for 2019, from a bulletin whose footnote names "
@@ -121,12 +121,12 @@ S["rd07-f14"]=lambda: f_scene(1000,450,
     props=[("desk",95,0,1.1),("board",160,88,0.68),("spreadsheet",350,198,0.2),
      ("book",420,198,0.2),("certificate",550,198,0.2),("table",650,0,1.0),
      ("calendar",860,198,0.2),("data",930,196,0.22)],
-    board=(40,22,206,112,"WHICH DENOMINATOR?",[("107","80 per cent"),("112","77 per cent"),("93","92 per cent")]),
+    board=(40,22,206,112,"WHICH DENOMINATOR?",[("107","80 percent"),("112","77 percent"),("93","92 percent")]),
     clockat=(262,34,22,2,0))
 S["rd07-f15"]=lambda: f_chart([("always",3),("usually",4),("sometimes",6),
     ("never",7),("we do not quote utilization",3)], unit="operators")
 S["rd07-f16"]=lambda: f_realia(doc("On a desk in the evening",
-    "Eighty per cent of what?",
+    "Eighty percent of what?",
     "<p><b>A capacity summary</b> with four figures and three utilizations.</p>"
     "<p><b>An annual report</b> quoting one utilization and naming no denominator.</p>"
     "<p><b>A published bulletin</b> open at a footnote that says <i>secondary sources</i>.</p>"

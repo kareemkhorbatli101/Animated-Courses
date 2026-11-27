@@ -15,7 +15,7 @@ S["qa08-f1"]=lambda: f_icons([("book","a spine with a date on it"),
     ("balance","three unequal shares of one word"),("handsup","choosing one card"),
     ("library","a simplified reader"),("scales","weighing two words"),
     ("magnifier","a dictionary open at sense"),("printer","a typewriter"),
-    ("clipboard","judgement"),("tally","frequency"),
+    ("clipboard","judgment"),("tally","frequency"),
     ("noentry","no word for a computer"),("calendar","a date on a century line"),
     ("form","a footnote")],4)
 S["qa08-f2"]=lambda: f_scene(900,420, people=[("priya",300,176,{}),
@@ -47,7 +47,7 @@ S["qa08-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to stu
        ["<b>Necessity</b>","Is there another word that would do instead?"],
        ["<b>Coverage of ideas</b>","Does it let a writer say many things?"],
        ["<b>Stylistic level</b>","Is it the plain word or the fancy one?"]])
-    + "<p>One of those is a count. The others are judgements made by people.</p>"
+    + "<p>One of those is a count. The others are judgments made by people.</p>"
     "<p><b>Its most unusual feature.</b> Beside many headwords it prints, for each <b>sense</b> of "
     "the word, a figure for how much of that word's use that sense accounted for. A common word may "
     "have one sense that covers most of its appearances and four that cover almost none. A learner "
@@ -81,7 +81,7 @@ S["qa08-f7"]=lambda: f_chart([("to manage or operate something",59),
     ("to flow",5),("other",3)], unit="uses of run")
 S["qa08-f8"]=lambda: f_icons([("book","a thin green book with a date"),
     ("note","a numbered list of two thousand"),("balance","one headword, three senses"),
-    ("library","a simplified reader"),("scales","judgement against a tally"),
+    ("library","a simplified reader"),("scales","judgment against a tally"),
     ("computer","a modern frequency list")],3)
 S["qa08-f9"]=lambda: f_realia(tbl("Word list &middot; extract",
     "Two headwords, with the share of use each sense accounted for in the published count",
@@ -121,7 +121,7 @@ S["qa08-f12"]=lambda: f_panels(
         "thousand word families and calling them a general service vocabulary. It was made mainly "
         "to help writers produce simplified readers, and the words were chosen on several criteria "
         "&mdash; frequency, ease of learning, necessity, coverage of ideas and style &mdash; so "
-        "judgement did some of the work. Its unusual feature is that it prints, for many words, how "
+        "judgment did some of the work. Its unusual feature is that it prints, for many words, how "
         "much of that word's use each meaning accounts for. The counting is pre-war and written, "
         "there is no modern technology in it, and newer lists are better for learning. I am going "
         "to use a modern list for words, and this one for senses.</p>"), w)[0:3],
@@ -199,7 +199,7 @@ S["qa09-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to stu
     "knowing, because the page is familiar the second time. Familiarity is not retrieval. Practice "
     "testing feels harder and worse, and that is partly why it works: you find out what you cannot "
     "do while there is still time to fix it.</p>"
-    "<p><b>What a low rating means.</b> The ratings are the authors' <b>judgements of an evidence "
+    "<p><b>What a low rating means.</b> The ratings are the authors' <b>judgments of an evidence "
     "base</b>, not results of an experiment they ran. <b>Low</b> does not mean <i>never works</i>. "
     "It means the evidence is thin, or narrow, or has not been tested across enough materials, "
     "learners, tasks and settings. The review says so in each case, and it names what is "

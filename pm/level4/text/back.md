@@ -38,7 +38,7 @@ the column worth reading twice.
 | ***over* · *rather than* · *in preference to* · *not instead of*** | *over* means valued more, not instead of — and the manifesto says so in its own last sentence |
 | **four value statements · 68 words · 17 signatories · February 2001** | the shortest document in this book and the most often misquoted |
 | **"while there is value in the items on the right"** | the sentence that is dropped when the manifesto is used to abolish documents |
-| **four manuals dropped, 40,000 pages to rewrite** | and 30 per cent of the work able to iterate at all |
+| **four manuals dropped, 40,000 pages to rewrite** | and 30 percent of the work able to iterate at all |
 
 ## Unit 4 · Present simple for rules
 

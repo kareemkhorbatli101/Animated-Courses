@@ -35,7 +35,7 @@ the column worth reading twice.
 | | |
 |---|---|
 | **A quantity statement has three parts** | the number, the unit, and the **denominator** |
-| ***per cent of what?*** | eight per cent of overhead, of total cost and of price are three claims |
+| ***percent of what?*** | eight percent of overhead, of total cost and of price are three claims |
 | ***out of*** for counts · ***per*** for rates | *19 out of 27* · *0.18 per kWh* |
 | **Nothing got dearer; there is less to divide it by** | the sentence that ends one specific argument |
 
@@ -61,7 +61,7 @@ the column worth reading twice.
 
 | | |
 |---|---|
-| ***should have*** = judgement · ***was supposed to*** = a rule | one takes responsibility, one blames the procedure |
+| ***should have*** = judgment · ***was supposed to*** = a rule | one takes responsibility, one blames the procedure |
 | ***needn't have done*** ≠ ***didn't need to do*** | one happened, one did not |
 | **Thanks, then the rule, then the solution** | in that order, with ***and*** rather than ***but*** |
 | **Protect the decision, not only yourself** | recusal costs nothing and makes the review stronger |
@@ -189,7 +189,7 @@ Clearline Foundation, Clearline 1 or Clearline 2.
 ## Seven honesty notes, printed here because they are printed in the units too
 
 - **Unit 11 is the clearest case in the whole series of one business measured two ways.**
-  International parcel post tonnage fell 16 per cent while the number of items rose 38 per cent.
+  International parcel post tonnage fell 16 percent while the number of items rose 38 percent.
   Both are true and they describe the same traffic: people are sending more parcels and each one
   weighs less. A report quoting only the tonnage says the business is shrinking; one quoting only
   the items says it is growing. The unit prints both and makes the learner write the sentence that
@@ -197,13 +197,13 @@ Clearline Foundation, Clearline 1 or Clearline 2.
   different organizations measuring different populations over different periods, and putting them
   in one table would be the error the unit is about.
 - **Unit 5 separates value from volume**, which is the commonest honest-looking error in business
-  reporting. The WTO's own October 2026 update has services trade up 14 per cent in value in one
-  quarter and the year's **volume** forecast cut to 3.3 per cent. Neither figure is wrong. Quoting
+  reporting. The WTO's own October 2026 update has services trade up 14 percent in value in one
+  quarter and the year's **volume** forecast cut to 3.3 percent. Neither figure is wrong. Quoting
   one as though it were the other is, and the unit's model note leads with the volume figure
   because the decision in question is a capacity decision.
 - **Unit 9's headline contains its own counter-example.** Global foreign direct investment rose 6
-  per cent; flows to lower-middle-income countries fell 5 per cent; and excluding conduit flows the
-  rise was 4 per cent rather than 6. All three are in the same report. The unit's model proposal
+  percent; flows to lower-middle-income countries fell 5 percent; and excluding conduit flows the
+  rise was 4 percent rather than 6. All three are in the same report. The unit's model proposal
   leads with the figure that argues against it.
 - **Unit 7 scores one subject three times and the gaps are the finding.** The law averages 67, its
   enforcement 53, and the systems that would make it usable 47. Averaging the three would hide
@@ -214,7 +214,7 @@ Clearline Foundation, Clearline 1 or Clearline 2.
   counts intention and the other enactment — and even enactment is often partial. The unit prints
   both with their dates and asks which belongs in an annual report.
 - **Unit 4's figure is a simple average of providers, not of money.** The World Bank computes its
-  6.49 per cent by averaging the cost charged by each provider in its database, so a provider used
+  6.49 percent by averaging the cost charged by each provider in its database, so a provider used
   by almost nobody counts as much as one used by millions, and the figure describes a 200-dollar
   personal transfer rather than a commercial payment. The unit says so, and uses the figure only
   as an order of magnitude.

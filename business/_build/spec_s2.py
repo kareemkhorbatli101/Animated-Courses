@@ -42,8 +42,8 @@ S["s04-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; internal audit note:
       "wrong.</b> Deferring the deductible increase cost an estimated 240,000 euros. On the information "
       "available in March 2025 I would have advised the same thing.</p>",
     "Sources: Swiss Re Institute, sigma 1/2025 (projection) and sigma 1/2026, March 2026 (outturn). A "
-    "separate Swiss Re publication gives 88 per cent for wildfire, severe convective storm and flood "
-    "together, which is a narrower definition than the 92 per cent above."), 570)
+    "separate Swiss Re publication gives 88 percent for wildfire, severe convective storm and flood "
+    "together, which is a narrower definition than the 92 percent above."), 570)
 S["s04-f6"]=lambda: f_realia(tbl("Word study","Past modals, by what they claim",
     ["Form","Claim","Example"],
     [["must have","near-certain, inferred","They <b>must have</b> built it from the trend."],
@@ -68,7 +68,7 @@ S["s04-f9"]=lambda: f_realia(doc("Audit note page", None,
       "below trend.<br><b>Finding 3</b> &mdash; <i>ours</i>: we planned against a point, not a range.</p>"
     "<div style='border:2px solid #8a5a1e;padding:8px 12px;font:600 15px Bricolage Grotesque,sans-serif;"
     "display:inline-block'>240,000 &euro; <span style='font-size:11px;font-weight:400;color:#6b6861'>"
-    "&mdash; my estimate, labelled as one</span></div>"
+    "&mdash; my estimate, labeled as one</span></div>"
     "<p style='font-size:14px;margin-top:10px'><b>The decision was sound and the number was wrong.</b></p>",
     "sigma 1/2025 and sigma 1/2026"), 540)
 S["s04-f10"]=lambda: f_scene(980,440, people=[("lars",280,168,{"seated":True}),
@@ -80,7 +80,7 @@ S["s04-f11"]=lambda: f_realia(tbl("Two notes","Blame, or method",
     ["","Note A","Note B"],
     [["Opens with","the forecaster was wrong","the forecaster's exact words"],
      ["The hedge","paraphrased","quoted"],
-     ["Findings","one","four, labelled by owner"],
+     ["Findings","one","four, labeled by owner"],
      ["Recommendation","drop the source","widen the range, keep the source"]],
     note="One of these is on file when the next renewal comes."), 540)
 S["s04-f12"]=lambda: f_realia(doc("Two variance notes", None,
@@ -89,10 +89,10 @@ S["s04-f12"]=lambda: f_realia(doc("Two variance notes", None,
     "cent. Recommendation: discontinue use of this source.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> The publication described losses as <b>“on trend "
     "to 145 billion dollars”</b>. Our paper wrote <i>will be</i>; that substitution is ours. The "
-    "outturn was about 107 billion across 190 events, a variance of roughly 26 per cent against the "
+    "outturn was about 107 billion across 190 events, a variance of roughly 26 percent against the "
     "figure we used, and the sixth consecutive year above 100 billion. The same source also reported, "
-    "correctly, that about 49 per cent of economic losses were insured &mdash; the highest share in its "
-    "records &mdash; and that 92 per cent of insured catastrophe losses came from secondary perils. "
+    "correctly, that about 49 percent of economic losses were insured &mdash; the highest share in its "
+    "records &mdash; and that 92 percent of insured catastrophe losses came from secondary perils. "
     "<b>The decision was sound and the number was wrong.</b></p>",
     "Quote the hedge. Replacing it with <i>will be</i> is the most expensive editing decision in "
     "business writing."), 560)
@@ -163,7 +163,7 @@ S["s05-f6"]=lambda: f_realia(tbl("Word study","Relative clauses with quantifiers
      ["the figure for which","Two countries, <b>the figure for which</b> is not comparable."]],
     note="<i>Of them</i> cannot do this job: it makes a comma splice."), 560)
 S["s05-f7"]=lambda: f_chart([("A",3.1),("B",3.8),("C",4.2),("D",4.6),("E",5.1),
-    ("F",5.5),("G",5.9),("H",6.4),("I",7.2)], unit="our nine national rates, per cent — weighted 4.9, median 5.7")
+    ("F",5.5),("G",5.9),("H",6.4),("I",7.2)], unit="our nine national rates, percent — weighted 4.9, median 5.7")
 S["s05-f8"]=lambda: f_icons([("scales","a weighted scale"),("tally","the middle marked"),
     ("balance","flat"),("change","rising"),
     ("review","a widening spread"),("spreadsheet","eleven names, nine ticks")], cols=3)
@@ -195,12 +195,12 @@ S["s05-f11"]=lambda: f_realia(tbl("Two pay papers","One figure, or two",
     note="B is longer. B is also readable aloud to eleven managers."), 540)
 S["s05-f12"]=lambda: f_realia(doc("Two pay papers", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
-    "<b>First.</b> OECD unemployment is 4.9 per cent and flat. The labor market is stable. "
-    "Recommended: a uniform 2.4 per cent uplift in all eleven countries.</p>"
-    "<p style='font-size:13.5px'><b>Second.</b> The OECD-wide rate was 4.9 per cent in May, weighted by "
+    "<b>First.</b> OECD unemployment is 4.9 percent and flat. The labor market is stable. "
+    "Recommended: a uniform 2.4 percent uplift in all eleven countries.</p>"
+    "<p style='font-size:13.5px'><b>Second.</b> The OECD-wide rate was 4.9 percent in May, weighted by "
     "labor market size. The median across member countries rose from 5.4 to 5.7. Both are in the same "
     "report and they answer different questions. <b>Taken together they say the group is becoming less "
-    "alike.</b> Real wage growth 2.2 per cent, down from 2.7 &mdash; growing and slowing. In about a "
+    "alike.</b> Real wage growth 2.2 percent, down from 2.7 &mdash; growing and slowing. In about a "
     "third of OECD countries real wages remain below their level five years ago. Eleven countries, none "
     "of which is the weighted average: nine publish a comparable rate, two above the median and four "
     "below; <b>for two I am recording that I do not know.</b> One envelope, sized on 4.9. Eleven "
@@ -256,7 +256,7 @@ S["s06-f5"]=lambda: f_realia(doc("Lindmark Group &middot; market-entry note: wha
       "<b>What cannot be said.</b> No movement in rank between the two editions is a finding about a "
       "country. A market that was 40th of 50 and is 52nd of 101 has moved from about the 80th "
       "percentile to the 51st &mdash; an improvement &mdash; while appearing to fall twelve places. "
-      "<b>Both the rise and the fall are artefacts of the denominator.</b></p>"
+      "<b>Both the rise and the fall are artifacts of the denominator.</b></p>"
     + table_html(["","What it gives you","What it costs"],
       [["Rank <b>with this year's total</b>","an honest position","no trend"],
        ["Only the economies in <b>both</b> editions","a real like-for-like comparison","a smaller sample, stated"],

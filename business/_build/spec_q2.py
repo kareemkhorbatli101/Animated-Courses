@@ -24,16 +24,16 @@ S["q04-f4"]=lambda: f_realia(tbl("","The gap between knowing and telling",
 S["q04-f5"]=lambda: f_realia(doc("Air cargo, full year 2025",
     "circulated to the Lindmark network planning team &middot; 4 February",
     table_html(["","2025 against 2024"],
-      [["World demand (cargo tonne-kilometres)","<b>+3.4%</b>"],
+      [["World demand (cargo tonne-kilometers)","<b>+3.4%</b>"],
        ["International operations only","+4.2%"],
-       ["World capacity (available cargo tonne-kilometres)","+3.7%"],
+       ["World capacity (available cargo tonne-kilometers)","+3.7%"],
        ["Yields","<b>&minus;1.5%</b>"]])
     + table_html(["Region","Demand"],
       [["Asia-Pacific","<b>+8.4%</b> (capacity +7.4%)"],["Europe","up"],["Middle East","up"],
        ["<b>North America</b>","<b>&minus;1.3% &mdash; the only region to fall</b>"]])
-    + "<p><b>For 2026, growth is forecast at 2.4 per cent</b>, in line with long-run trends.</p>"
+    + "<p><b>For 2026, growth is forecast at 2.4 percent</b>, in line with long-run trends.</p>"
     "<p style='background:#fff3cf'><b>One caution.</b> IATA's December monthly analysis contains a "
-    "line describing full-year demand as contracting 2.2 per cent; that refers to a narrower trade "
+    "line describing full-year demand as contracting 2.2 percent; that refers to a narrower trade "
     "segment, not the world total. If you quote either figure, quote which one it is.</p>",
     "IATA full-year 2025 air cargo data, released January 2026"))
 S["q04-f6"]=lambda: f_realia(tbl("Word study","Future forms for a changed plan",

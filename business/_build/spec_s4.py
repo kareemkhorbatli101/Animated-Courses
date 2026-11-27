@@ -29,7 +29,7 @@ S["s10-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; hedging policy, amen
       [["<b>As published 30 September</b>, preliminary release","<b>9.6 trillion dollars a day</b>","<b>+28%</b>"],
        ["<b>As published in the December quarterly review</b>, final data","<b>9.5 trillion dollars a day</b>","<b>+27%</b>"]])
     + "<p style='background:#f3ead8;border-left:4px solid #8a5a1e;padding:10px 12px;font-size:13.5px'>"
-      "<b>Neither figure is an error.</b> The difference is about <b>1 per cent</b> of the total and one "
+      "<b>Neither figure is an error.</b> The difference is about <b>1 percent</b> of the total and one "
       "percentage point of the growth rate. <b>For our purposes the difference is immaterial. The "
       "absence of a version is not.</b></p>"
     + "<p style='font-size:13.5px'><b>What the survey measures.</b> Turnover in <b>a single month "
@@ -39,7 +39,7 @@ S["s10-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; hedging policy, amen
       [["<b>Spot</b>","<b>3.0tn a day &mdash; 31% of turnover</b>","28%"],
        ["<b>Outright forwards</b>","<b>1.8tn a day &mdash; 19%</b>","15%"]])
     + "<p style='font-size:13.5px'><b>The repair.</b> Two figures, two dates, no choice made. If we "
-      "print one figure and a reader finds the other, the question will not be about 1 per cent.</p>",
+      "print one figure and a reader finds the other, the question will not be about 1 percent.</p>",
     "Source: BIS Triennial Central Bank Survey 2025: preliminary release of 30 September 2025 and final "
     "data in the BIS Quarterly Review, December 2025. Both figures are the same institution's."), 570)
 S["s10-f6"]=lambda: f_realia(tbl("Word study","The language of versions",
@@ -62,7 +62,7 @@ S["s10-f9"]=lambda: f_realia(doc("Policy amendment page", None,
     table_html(["Document","Figure","Change"],
       [["Preliminary release, 30 September","9.6tn a day","+28%"],
        ["Quarterly review, December","9.5tn a day","+27%"]])
-    + "<p style='font-size:13.5px'><b>The 1 per cent is immaterial. The missing version is not.</b></p>"
+    + "<p style='font-size:13.5px'><b>The 1 percent is immaterial. The missing version is not.</b></p>"
     "<div style='border:2px solid #8a5a1e;padding:10px 12px;font-size:13px;font-style:italic'>"
     "“Global foreign exchange turnover averaged 9.6 trillion dollars a day in April 2025 as "
     "published in the preliminary release of 30 September 2025, and 9.5 trillion as published in the "
@@ -88,11 +88,11 @@ S["s10-f12"]=lambda: f_realia(doc("Two amendments", None,
     "<b>First.</b> Page 2 to be updated: global foreign exchange turnover is 9.5 trillion dollars a day. "
     "Previous figure superseded.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> Turnover averaged 9.6 trillion dollars a day in April "
-    "2025, up 28 per cent, <b>as published in the preliminary release of 30 September 2025</b>; the "
-    "December quarterly review gives 9.5 trillion, up 27 per cent, as final data. <b>The 1 per cent is "
+    "2025, up 28 percent, <b>as published in the preliminary release of 30 September 2025</b>; the "
+    "December quarterly review gives 9.5 trillion, up 27 percent, as final data. <b>The 1 percent is "
     "immaterial for sizing our limit. The absence of a version note is not.</b> The survey measures one "
     "month &mdash; April &mdash; every three years across 52 jurisdictions; the next observation is in "
-    "2028. Spot 3.0 trillion, 31 per cent against 28; outright forwards 1.8 trillion, 19 per cent "
+    "2028. Spot 3.0 trillion, 31 percent against 28; outright forwards 1.8 trillion, 19 percent "
     "against 15. <b>Our exposure is forward-weighted, so the forwards share is the part that bears on "
     "our policy and the part nobody quotes.</b> Three other documents quote the September figure: all "
     "four to be amended identically.</p>",
@@ -167,7 +167,7 @@ S["s11-f6"]=lambda: f_realia(tbl("Word study","Formal connectors, in plain words
      ["thereby","and in that way","extending cover and <b>thereby</b> raising effective coverage"]],
     note="<i>Whereby</i> means <i>by means of which</i> and nothing else."), 560)
 S["s11-f7"]=lambda: f_line([("2015",42.8),("— series break —",47.0),("now",52.4)],
-    w=560, h=250, unit="coverage by at least one benefit, per cent — not strictly comparable across the break",
+    w=560, h=250, unit="coverage by at least one benefit, percent — not strictly comparable across the break",
     dashed_from=0, mark=2, ymin=38)
 S["s11-f8"]=lambda: f_icons([("quotemark","a quotation box"),("data","a line with a gap"),
     ("noentry","a trend line crossed out"),("certificate","a seal over a third"),
@@ -205,15 +205,15 @@ S["s11-f11"]=lambda: f_realia(tbl("Two briefs","A trend line, or a caveat",
 S["s11-f12"]=lambda: f_realia(doc("Two benefits briefs", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
     "<b>First.</b> Global social protection coverage has risen by nearly ten points in a decade to 52.4 "
-    "per cent. Our group standard should therefore be a single supplementary package in all four "
+    "percent. Our group standard should therefore be a single supplementary package in all four "
     "markets.</p>"
-    "<p style='font-size:13.5px'><b>Second.</b> 52.4 per cent of the world's population is covered by at "
-    "least one benefit; 3.8 billion are entirely unprotected; 33.8 per cent of the working-age "
+    "<p style='font-size:13.5px'><b>Second.</b> 52.4 percent of the world's population is covered by at "
+    "least one benefit; 3.8 billion are entirely unprotected; 33.8 percent of the working-age "
     "population is legally covered by comprehensive systems; in the 50 most vulnerable countries "
-    "effective coverage is about 25 per cent. <b>The publisher states that these estimates are not "
+    "effective coverage is about 25 percent. <b>The publisher states that these estimates are not "
     "strictly comparable with those of the previous report.</b> <b>Insofar as</b> direction is "
     "concerned, coverage has risen; the split between real extension and better measurement is "
-    "unknowable from this report. The policy turns on <b>33.8 per cent legally covered</b>, because "
+    "unknowable from this report. The policy turns on <b>33.8 percent legally covered</b>, because "
     "legal coverage is what an employer cannot create, whereas effective coverage is what a scheme "
     "<b>whereby</b> employees receive what the state does not can affect. Four markets, four packages, "
     "one principle.</p>",
@@ -331,7 +331,7 @@ S["s12-f12"]=lambda: f_realia(doc("Two conversation records", None,
     "deliberately.</b> His words: the overlap was halved from 30 minutes to 15 in October; on a normal "
     "Tuesday a coordinator starts about forty minutes behind; <b>most Tuesdays are like that</b>; he "
     "asked operations twice and was asked for a cost, which is a quarter of a person. <b>My hypothesis, "
-    "labelled as one: it may be that what they left over was the asking rather than the fifteen "
+    "labeled as one: it may be that what they left over was the asking rather than the fifteen "
     "minutes. I could be wrong.</b> Changing: a paid 15-minute overlap on both sides, from my budget, "
     "three months. <b>What would show I was wrong:</b> misroutes per week, from this week.</p>",
     "Write down what would show you were wrong, with a measure and a date, in the same note as your "
@@ -339,7 +339,7 @@ S["s12-f12"]=lambda: f_realia(doc("Two conversation records", None,
 S["s12-f13"]=lambda: f_realia(tbl("","Conversation-record planner",
     ["Box","Yours"],
     [["Why I am writing this",""],["What I asked, in order",""],
-     ["What they said, in their words",""],["My hypothesis, labelled as one",""],
+     ["What they said, in their words",""],["My hypothesis, labeled as one",""],
      ["What I am changing, and from whose budget",""],["What would show I was wrong",""]],
     note="A hypothesis with no falsifying measure is a preference."), 520)
 S["s12-f14"]=lambda: f_scene(1120,470, people=[("nour",180,172,{"seated":True}),
@@ -352,6 +352,6 @@ S["s12-f14"]=lambda: f_scene(1120,470, people=[("nour",180,172,{"seated":True}),
 S["s12-f15"]=lambda: f_chart([("my manager",7),("people operations",4),("a colleague",3),
     ("nobody has asked",8),("in a survey only",4)], unit="students")
 S["s12-f16"]=lambda: f_scene(900,420, people=[("nour",300,170,{"seated":True})],
-    board=(660,20,230,150,"MISROUTES",[("fell","about half"),("then","levelled")]),
+    board=(660,20,230,150,"MISROUTES",[("fell","about half"),("then","leveled")]),
     props=[("desk",390,250,1.2),("computer",460,200,0.42),("essay",330,204,0.3),
            ("timetable",120,200,0.28),("note",150,212,0.22)])

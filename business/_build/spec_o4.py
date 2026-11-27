@@ -35,7 +35,7 @@ S["o10-f5"]=lambda: f_realia(doc("Lindmark Freight · internal request", None,
     "<p><b>If this is refused, what would you do instead:</b> Run Thursday with three people "
     "instead of four and move the Brightwell load to Friday. It would work. It would be a long "
     "day.</p>"
-    "<p><b>Who is available?</b> Across the world, <b>12.4 per cent</b> of young people who want "
+    "<p><b>Who is available?</b> Across the world, <b>12.4 percent</b> of young people who want "
     "work cannot find it &mdash; about <b>67 million</b> people aged 15 to 24.</p>",
     "Figures: ILO, <i>Global Employment Trends for Youth 2026</i>, published August 2026."))
 S["o10-f6"]=lambda: f_realia(tbl("Word study","Asking at three levels",
@@ -48,7 +48,7 @@ S["o10-f6"]=lambda: f_realia(tbl("Word study","Asking at three levels",
      ["Any chance you could &hellip;?","informal","a friend at work"]]), 520)
 S["o10-f7"]=lambda: f_chart([("young people who want work and cannot find it",12.4),
     ("everybody, all ages",4.9)],
-    unit="per cent unemployed · the youth figure is about 67 million people", w=500)
+    unit="percent unemployed · the youth figure is about 67 million people", w=500)
 S["o10-f8"]=lambda: f_icons([("carton","a heavy box"),("noentry","a closed door"),
     ("signature","a form to sign"),("computer","two screens, one person"),
     ("truck","a flat tire"),("queue","a queue outside")], cols=3)
@@ -127,7 +127,7 @@ S["o11-f5"]=lambda: f_realia(doc("Lindmark Freight · 17 November",
     "2. No storage charges on this consignment.</p>"
     "<p><b>Contact:</b> Y. Haddad, direct line +44 20 7946 0112. I will call you on Thursday "
     "whether or not there is news.</p>"
-    "<p>As of May 2025, transits through the Suez Canal were about <b>70 per cent below</b> their "
+    "<p>As of May 2025, transits through the Suez Canal were about <b>70 percent below</b> their "
     "2023 average.</p>",
     "Figures: UNCTAD, <i>Review of Maritime Transport 2025</i>."))
 S["o11-f6"]=lambda: f_realia(tbl("Word study","Cause and effect",
@@ -138,7 +138,7 @@ S["o11-f6"]=lambda: f_realia(tbl("Word study","Cause and effect",
      ["due to","due to + noun",""],
      ["therefore","sentence. Therefore, &hellip;",""]]), 500)
 S["o11-f7"]=lambda: f_chart([("2023 average",100),("May 2025",30)],
-    unit="Suez Canal transits, 2023 average = 100 · about 70 per cent below", w=460)
+    unit="Suez Canal transits, 2023 average = 100 · about 70 percent below", w=460)
 S["o11-f8"]=lambda: f_icons([("truck","a late van"),("iron","a red light"),
     ("racking","an empty shelf"),("calendar","a canceled meeting"),
     ("carton","a short delivery"),("phone","an unanswered call")], cols=3)
@@ -219,14 +219,14 @@ S["o12-f5"]=lambda: f_realia(doc("Lindmark Freight · staff briefing, 20 Novembe
     "<td style='border:2px solid #111;border-radius:6px;padding:10px'>"
     "<div style='font-size:26px'><b>51.1 %</b></div>"
     "<div style='font-size:12px;color:#6b6861'>of all employment in 2025</div></td></tr></table>"
-    "<p>One news report described the 2.1 billion as &ldquo;around 60 per cent&rdquo; of the "
+    "<p>One news report described the 2.1 billion as &ldquo;around 60 percent&rdquo; of the "
     "world's 3.6 billion workers.</p>"
     "<p><b>These are not the same measurement.</b> 2.1 billion out of 3.6 billion is about 58 per "
     "cent, not 51.1. One is a <b>share of employment</b>, the other is a <b>count of workers</b>, "
     "over slightly different years. Neither is wrong.</p>"
     "<p><b>What we will put in writing.</b> One figure, what it counts, and the year: "
     "<i>&ldquo;About 2.1 billion workers are expected to be in informal employment in 2026 "
-    "(ILO).&rdquo;</i> We will not write &ldquo;around 60 per cent&rdquo;, because we did not "
+    "(ILO).&rdquo;</i> We will not write &ldquo;around 60 percent&rdquo;, because we did not "
     "count it.</p>",
     "Figures: ILO, January 2026 release; UN Geneva summary of the same release."))
 S["o12-f6"]=lambda: f_realia(tbl("Word study","will and going to",
@@ -235,9 +235,9 @@ S["o12-f6"]=lambda: f_realia(tbl("Word study","will and going to",
      ["An offer","I'<b>ll</b> carry that.","&mdash;"],
      ["Decided as you speak","Fine, I'<b>ll</b> do it.","&mdash;"],
      ["A plan you already had","&mdash;","I'<b>m going to</b> send the figures."],
-     ["Something you can see coming","&mdash;","That lorry <b>is going to</b> be late."]]), 500)
+     ["Something you can see coming","&mdash;","That truck <b>is going to</b> be late."]]), 500)
 S["o12-f7"]=lambda: f_chart([("count of workers, 2026",58),("share of employment, 2025",51.1)],
-    unit="per cent · the same subject, measured two ways — not comparable", w=500)
+    unit="percent · the same subject, measured two ways — not comparable", w=500)
 S["o12-f8"]=lambda: f_icons([("email","nineteen messages"),("flipchart","three lines"),
     ("calendar","a cut-off"),("handsup","one hand up"),
     ("inventory","a list with two ticks"),("meeting","an empty room")], cols=3)

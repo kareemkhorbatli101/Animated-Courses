@@ -90,11 +90,11 @@ S["qd04-f10"]=lambda: f_scene(940,430, people=[("priya",290,172,{}),
 S["qd04-f11"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Five bars, one baseline", None,
       "<p>34 &middot; 29 &middot; 21 &middot; 12 &middot; 4</p>"
-      "<p>Eleven readers ranked all five correctly. Mean error on the largest: 2 per cent.</p>",
+      "<p>Eleven readers ranked all five correctly. Mean error on the largest: 2 percent.</p>",
       "Position on a common scale."), 380)[0:3],
     lambda w,h: f_realia(doc("Five circles, sized by area", None,
       "<p>The same five figures.</p>"
-      "<p>Eleven readers ranked them correctly. Mean error on the largest: 19 per cent.</p>",
+      "<p>Eleven readers ranked them correctly. Mean error on the largest: 19 percent.</p>",
       "Area. Our own figures, eleven readers."), 380)[0:3],
     800, 310, "Bars", "Circles")
 S["qd04-f12"]=lambda: f_realia(doc("Two answers, same grouped bar chart", None,
@@ -125,10 +125,10 @@ S["qd04-f15"]=lambda: f_chart([("bars on one baseline",5),("a line graph",3),
     ("a pie chart",1),("a shaded map",0),("I do not know",2)], w=540)
 S["qd04-f16"]=lambda: f_realia(doc("On the desk, evening",
     "One data set, four ways, with the errors written in",
-    "<p><b>Bars on one baseline.</b> Mean error 4 per cent.</p>"
-    "<p><b>A pie chart.</b> Mean error 11 per cent.</p>"
-    "<p><b>Circles sized by area.</b> Mean error 19 per cent.</p>"
-    "<p><b>A shaded map.</b> Mean error 27 per cent.</p>"
+    "<p><b>Bars on one baseline.</b> Mean error 4 percent.</p>"
+    "<p><b>A pie chart.</b> Mean error 11 percent.</p>"
+    "<p><b>Circles sized by area.</b> Mean error 19 percent.</p>"
+    "<p><b>A shaded map.</b> Mean error 27 percent.</p>"
     "<p style='font-size:12px;color:#6b6861'>Our own class, eleven readers, one afternoon. Which "
     "establishes nothing and illustrates something.</p>",
     "Beside it, the ranked list of seven, and a practice answer with two sentences circled."), 600)

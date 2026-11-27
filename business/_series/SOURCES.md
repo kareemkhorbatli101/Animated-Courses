@@ -168,8 +168,8 @@ Twelve units, twelve different source bodies, nothing reused from Books 1, 2 or 
   quarter and a 2026 **volume** forecast cut to 3.3 per cent. Neither figure is wrong. Quoting one
   as though it were the other is.
 - **Unit 9's headline contains its own counter-example.** Global FDI rose 6 per cent; flows to
-  lower-middle-income countries fell 5 per cent; and excluding conduit flows the rise was 4 per
-  cent rather than 6. The unit prints all three and asks which one belongs in a paper arguing for
+  lower-middle-income countries fell 5 per cent; and excluding conduit flows the rise was 4 
+  percent rather than 6. The unit prints all three and asks which one belongs in a paper arguing for
   investment in a lower-middle-income country.
 - **Unit 7 is three numbers for one subject, and the gap between them is the point.** The law
   averages 67, its enforcement 53, and the systems that would make it work 47. The unit's task is a
@@ -314,8 +314,8 @@ and a measure of tax that is not a measure of tax paid.
   Seaborne trade grew 2.2 per cent in volume while tonne-miles rose 5.9 per cent, because ships went
   round the Cape instead of through the Suez Canal. Nothing about demand explains the gap. The unit's
   sentence is the one that attributes the divergence to distance rather than to trade.
-- **Unit 10 is a dispute mechanism with no power to compel anybody.** Agreement was reached in 24 per
-  cent of all concluded cases and 57 per cent of mediated ones in 2024, against 73 per cent in 2023
+- **Unit 10 is a dispute mechanism with no power to compel anybody.** Agreement was reached in 24 
+  percent of all concluded cases and 57 per cent of mediated ones in 2024, against 73 per cent in 2023
   and 36 per cent in 2022, and the commonest reason for no agreement is that one side refused to take
   part. The unit teaches the modality of soft law — *is expected to*, *is encouraged to*, *is not
   binding on* — and asks what a company owes a process that cannot make it do anything.

@@ -24,13 +24,13 @@ S["y10-f5"]=lambda: f_realia(doc("Portmere Civic Forum · briefing for community
     "<p>We are asked this at every meeting, usually by somebody who has just been told that "
     "nobody cares any more. The figure is real, the fall is real, and the conclusion people draw "
     "from it is not supported by it.</p>"
-    "<p><b>The figure.</b> Average global voter turnout fell from <b>65.2 per cent in 2008 to "
-    "55.5 per cent in 2023</b> &mdash; almost ten percentage points in fifteen years.</p>"
+    "<p><b>The figure.</b> Average global voter turnout fell from <b>65.2 percent in 2008 to "
+    "55.5 percent in 2023</b> &mdash; almost ten percentage points in fifteen years.</p>"
     "<p><b>What a turnout figure is.</b> Votes cast as a share of those eligible. Both halves can "
     "change. Where the eligible population grows faster than the number of people voting, turnout "
     "falls even if the same number of people turn up. Some of this fall is that.</p>"
     "<p><b>The figure underneath.</b> Across 29 elections in 2024, turnout among voters living "
-    "abroad was about <b>55 per cent</b>, against an in-country average of <b>60 per cent</b>. "
+    "abroad was about <b>55 percent</b>, against an in-country average of <b>60 percent</b>. "
     "People who had to post a form from another country voted at close to the rate of people who "
     "walk to a school hall.</p>"
     "<p><b>What follows for us.</b> If participation fell partly because the denominator grew, "
@@ -44,7 +44,7 @@ S["y10-f6"]=lambda: f_realia(tbl("Word study","Indirect question openers",
      ["Would you mind telling me …","statement order","… who sits on the panel?"],
      ["Can I ask …","statement order","Can I ask why the date was chosen?"]]), 540)
 S["y10-f7"]=lambda: f_line([("2008",65.2),("2013",62.0),("2018",58.4),("2023",55.5)],
-    w=600, unit="average global voter turnout, per cent · 2024: in-country 60, diaspora 55",
+    w=600, unit="average global voter turnout, percent · 2024: in-country 60, diaspora 55",
     ymin=50)
 S["y10-f8"]=lambda: f_icons([("meeting","a raised hand"),("microphone","a passed microphone"),
     ("studentservices","an officer at a table"),("portal","a form on a screen"),
@@ -122,8 +122,8 @@ S["y11-f5"]=lambda: f_realia(doc("Portmere Advice Center · consumer briefing, s
     "been asked about it eleven times since, so this sheet is about that figure and about why "
     "<i>we cannot tell</i> is a real answer.</p>"
     "<p><b>The figure.</b> Published summaries report that unfair practices were common, with "
-    "<b>fake reviews at 66 per cent</b> and misleading discounting at 61 per cent.</p>"
-    "<p><b>The missing half.</b> Sixty-six per cent <b>of whom</b>? Of all consumers surveyed? Of "
+    "<b>fake reviews at 66 percent</b> and misleading discounting at 61 percent.</p>"
+    "<p><b>The missing half.</b> Sixty-six percent <b>of whom</b>? Of all consumers surveyed? Of "
     "consumers who shop online? Of consumers who reported encountering any unfair practice at "
     "all? Those three bases give three completely different findings from the same number.</p>"
     "<p><b>Why this is not pedantry.</b> If the base is all consumers, two people in three have "
@@ -132,7 +132,7 @@ S["y11-f5"]=lambda: f_realia(doc("Portmere Advice Center · consumer briefing, s
     "<p><b>What to do.</b> When somebody quotes it, ask what it is a percentage of. We have asked "
     "eleven times and been told eleven times that the person does not know.</p>",
     "Figures: European Commission, <i>Consumer Conditions Scoreboard 2025</i>. The base for the "
-    "66 per cent figure is not stated in the published summaries available to us."))
+    "66 percent figure is not stated in the published summaries available to us."))
 S["y11-f6"]=lambda: f_realia(tbl("Word study","Hedging verbs",
     ["Phrase","Distance from assertion","Example"],
     [["shows","none","The survey shows that …"],["suggests","some","The data suggests that …"],
@@ -141,7 +141,7 @@ S["y11-f6"]=lambda: f_realia(tbl("Word study","Hedging verbs",
      ["does not establish","a refusal","The survey does not establish that …"]]), 540)
 S["y11-f7"]=lambda: f_chart([("if the base is all consumers",66),
     ("if the base is online shoppers",66),("if the base is those reporting unfair practice",66)],
-    unit="the same 66 per cent, three different claims", w=580)
+    unit="the same 66 percent, three different claims", w=580)
 S["y11-f8"]=lambda: f_icons([("star","a two-star review"),("essay","a long reply"),
     ("messages","a short reply"),("danger","a flagged post"),
     ("padlock","the policy page"),("dashboard","the average dropping")], cols=3)
@@ -217,10 +217,10 @@ S["y12-f5"]=lambda: f_realia(doc("Portmere Employment Partnership · briefing fo
     "unlikely to receive it &mdash; which the report translates as over <b>120 million workers</b> "
     "at medium-term risk of redundancy.</p>"
     "<p><b>What has already happened.</b> Half of workers have now had some training, reskilling "
-    "or upskilling, up from <b>41 per cent</b> two years earlier. That is a measurement, not a "
+    "or upskilling, up from <b>41 percent</b> two years earlier. That is a measurement, not a "
     "projection, and it is the number we would quote if we could only have one.</p>"
-    "<p><b>What employers say they will do.</b> <b>Eighty-five per cent</b> name upskilling as "
-    "their main response to change, and <b>63 per cent</b> name skill gaps as the largest barrier. "
+    "<p><b>What employers say they will do.</b> <b>Eighty-five percent</b> name upskilling as "
+    "their main response to change, and <b>63 percent</b> name skill gaps as the largest barrier. "
     "Those are statements of intention.</p>"
     "<p><b>The three kinds of sentence.</b> A projection, a measurement and a statement of "
     "intention are not equally useful to somebody sitting in front of you.</p>",

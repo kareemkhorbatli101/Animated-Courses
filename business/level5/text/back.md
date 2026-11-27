@@ -205,7 +205,7 @@ is printed in the unit, in the publisher's words where the publisher has words f
   put the assumption directly under the figure, and to notice when a plan has counted one assumption
   twice by calling it two reasons.
 - **Unit 5 is an average and a median disagreeing about direction, in one report.** The OECD-wide
-  unemployment rate was 4.9 per cent and near a four-year low; the median across member countries
+  unemployment rate was 4.9 percent and near a four-year low; the median across member countries
   rose from 5.4 to 5.7. The first is weighted by the size of each labor market, so large economies
   dominate it; the second treats every country alike. *Unemployment is flat* and *unemployment is
   rising in most countries* are both true, and eleven country managers live in the second sentence.
@@ -226,10 +226,10 @@ is printed in the unit, in the publisher's words where the publisher has words f
   rising faster than new ones — labels it as an inference, and reaches a recommendation anyway.
 - **Unit 9 is one institution publishing two different versions of the same measure**, three months
   apart, on different scenarios and horizons. Both are correct. The unit's real subject is the
-  averaging reflex: 22 per cent is between two correct figures and is the only number on the page
+  averaging reflex: 22 percent is between two correct figures and is the only number on the page
   that no publication supports and nobody can check.
 - **Unit 11 says in its own front pages that it cannot be compared with the report before it.** The
-  rise from 42.8 to 52.4 per cent is partly extended protection and partly better measurement, in
+  rise from 42.8 to 52.4 percent is partly extended protection and partly better measurement, in
   proportions the publisher does not claim to know. The unit prints the publisher's sentence, keeps
   the direction, declines the rate, and strikes the decade claim through rather than deleting it, so
   that the reader can see what was declined.

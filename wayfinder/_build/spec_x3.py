@@ -118,12 +118,12 @@ S["x08-f5"]=lambda: f_realia(doc("Portmere Health Partnership · patient informa
     "<p>The guideline is <b>150 minutes of moderate activity a week</b>, or 75 minutes of "
     "vigorous activity, or a mixture. Moderate means you can talk but not sing. That is the whole "
     "test.</p>"
-    "<p><b>How common is it not to meet it?</b> About <b>31 per cent of adults worldwide</b> "
+    "<p><b>How common is it not to meet it?</b> About <b>31 percent of adults worldwide</b> "
     "&mdash; roughly <b>1.8 billion people</b> &mdash; do not. That share has risen from 23.4 per "
-    "cent in 2000 to 31.3 per cent in 2022, and on current trends it is projected to reach about "
-    "35 per cent by 2030.</p>"
-    "<p><b>Who is most affected.</b> Inactivity is more common among women, at 34 per cent "
-    "against 29 per cent for men. It increases with age and with the hours a job requires you to "
+    "cent in 2000 to 31.3 percent in 2022, and on current trends it is projected to reach about "
+    "35 percent by 2030.</p>"
+    "<p><b>Who is most affected.</b> Inactivity is more common among women, at 34 percent "
+    "against 29 percent for men. It increases with age and with the hours a job requires you to "
     "sit. Most of the change over twenty years has come from work and transport becoming more "
     "sedentary, not from people choosing to exercise less.</p>"
     "<p><b>What we advise, and why it is unimpressive.</b> We do not recommend joining anything. "
@@ -138,7 +138,7 @@ S["x08-f6"]=lambda: f_realia(tbl("Word study","-ity and -ness",
     [["active","activity","-ity"],["fit","fitness","-ness"],["able","ability","-ity"],
      ["tired","tiredness","-ness"],["severe","severity","-ity"]]), 440)
 S["x08-f7"]=lambda: f_line([("2000",23.4),("2010",26.3),("2022",31.3),("2030",35.0)],
-    w=620, unit="per cent of adults not meeting the guideline · dashed = projection",
+    w=620, unit="percent of adults not meeting the guideline · dashed = projection",
     dashed_from=2, ymin=20)
 S["x08-f8"]=lambda: f_icons([("walk","stairs, with a pause"),("bed","sleeping badly"),
     ("bag","walking with a bag"),("danger","declining a cigarette"),

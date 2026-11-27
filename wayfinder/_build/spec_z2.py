@@ -47,7 +47,7 @@ S["z04-f7"]=lambda: f_chart([("Switzerland · local",71),("Switzerland · nation
     ("Netherlands · local",62),("Netherlands · national",41),
     ("Portugal · local",48),("Portugal · national",33),
     ("Colombia · local",29),("Colombia · national",34)],
-    unit="per cent reporting trust · Colombia is the exception", w=560)
+    unit="percent reporting trust · Colombia is the exception", w=560)
 S["z04-f8"]=lambda: f_icons([("bus","a train leaving"),("signature","a contract signed"),
     ("clinic","a hospital corridor"),("window","a plane window"),
     ("shutter","a shop closed"),("handshake","parting at a gate")], cols=3)
@@ -147,7 +147,7 @@ S["z05-f6"]=lambda: f_realia(tbl("Word study","Getting work done",
 S["z05-f7"]=lambda: f_chart([("sub-Saharan Africa",51),("central and southern Asia",29),
     ("eastern and south-eastern Asia",24),("Latin America and the Caribbean",20),
     ("northern Africa and western Asia",17)],
-    unit="per cent of the urban population in slums or informal settlements", w=560)
+    unit="percent of the urban population in slums or informal settlements", w=560)
 S["z05-f8"]=lambda: f_icons([("roadworks","dug, no sign"),("padlock","a locked meter cupboard"),
     ("stairwell","half painted"),("scaffolding","no company name"),
     ("walkroute","a new path"),("crate","a skip with a permit")], cols=3)
@@ -219,11 +219,11 @@ S["z06-f4"]=lambda: f_realia(tbl("","Describe it so it can be found",
      ["<b>3</b>",""],["<i>the relative clause I used</i>",""]],
     note="<b>Which would be hardest to defend:</b>"), 520)
 S["z06-f5"]=lambda: f_realia(doc("Portmere Civic Forum · note for the Ferry Lane group",
-    "Thirty per cent, since 1990",
+    "Thirty percent, since 1990",
     "<p><b>The figure.</b> UN-Habitat's <i>World Cities Report 2024</i> states that urban green "
-    "space has declined by <b>nearly 30 per cent since 1990</b>. That is a global aggregate, "
+    "space has declined by <b>nearly 30 percent since 1990</b>. That is a global aggregate, "
     "across cities of all sizes, over thirty-four years.</p>"
-    "<p><b>What it does not say.</b> It does not say that thirty per cent of parks have been "
+    "<p><b>What it does not say.</b> It does not say that thirty percent of parks have been "
     "built on. Green space here includes verges, sports grounds, cemeteries, allotments, river "
     "banks and the kind of unnamed strip most cities do not record at all.</p>"
     "<p><b>Why that matters.</b> A space with a name, railings and a register entry is hard to "
@@ -266,10 +266,10 @@ S["z06-f10"]=lambda: f_scene(880,420, behind=[("oyelaran",640,176,{})],
     clockat=(100,46,22,10,30))
 S["z06-f11"]=lambda: f_realia(tbl("Two site plans","Same strip",
     ["1996 local plan","2011 local plan"],
-    [["Shaded <b>green</b>, labelled <b>amenity</b><br>Ferry Lane terrace: 14&ndash;46<br>"
+    [["Shaded <b>green</b>, labeled <b>amenity</b><br>Ferry Lane terrace: 14&ndash;46<br>"
       "<b>Footpath marked</b> across the strip<br>Depot to the north: <b>in use</b><br>"
       "Bus route along Marsh Road",
-      "Shaded <b>gray</b>, labelled <b>residual</b><br>Ferry Lane terrace: 14&ndash;46<br>"
+      "Shaded <b>gray</b>, labeled <b>residual</b><br>Ferry Lane terrace: 14&ndash;46<br>"
       "<b>No footpath marked</b><br>Depot to the north: <b>vacant</b><br>"
       "Bus route <b>removed</b>"]]), 560)
 S["z06-f12"]=lambda: f_realia(doc("Two descriptions, one strip", None,

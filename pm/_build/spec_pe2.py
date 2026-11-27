@@ -54,8 +54,8 @@ S["pe04-f5"]=lambda: f_realia(doc("Lindhurst · appraisal note 4",
     + "<p style='border:1.5px solid #2f6b6b;padding:8px'><b>The weak point carries most of the "
     "case.</b> The willingness-to-pay figure is <b>transferred from a study in another country</b>, "
     "adjusted for income and household size as the guide's method allows. <b>Were it to fall by 23 "
-    "per cent, the economic net present value would be zero.</b> <b>No survey has been carried out "
-    "here. One would cost about 40,000 and take eleven weeks</b> — a quarter of one per cent of "
+    "percent, the economic net present value would be zero.</b> <b>No survey has been carried out "
+    "here. One would cost about 40,000 and take eleven weeks</b> — a quarter of one percent of "
     "the capital cost.</p>"
     "<p><b>The counterfactual is not neutral.</b> Without the scheme, <b>two boreholes are expected "
     "to fail within eight to twelve years</b>, after which tankering begins. <b>Most of the economic "
@@ -69,18 +69,18 @@ S["pe04-f5"]=lambda: f_realia(doc("Lindhurst · appraisal note 4",
 S["pe04-f6"]=lambda: f_realia(tbl("Word study","Appraisal conditionals",
     ["Structure","What it does","Example"],
     [["<i>were it to fall by</i>","tests one input",
-      "<b>Were it to fall by</b> 23 per cent, the result would be zero."],
+      "<b>Were it to fall by</b> 23 percent, the result would be zero."],
      ["<i>if … were</i>","states a hypothetical",
-      "<b>If</b> the rate <b>were</b> 8 per cent, the gain would disappear."],
+      "<b>If</b> the rate <b>were</b> 8 percent, the gain would disappear."],
      ["<i>on the assumption that</i>","names the assumption",
-      "<b>On the assumption that</b> demand grows at 1.2 per cent."],
+      "<b>On the assumption that</b> demand grows at 1.2 percent."],
      ["<i>at a rate of</i>","states the rate used",
-      "Discounted <b>at a rate of</b> 5 per cent real."],
+      "Discounted <b>at a rate of</b> 5 percent real."],
      ["<i>the switching value is</i>","",""],["<i>all other things being equal</i>","",""]],
     note="Two rows left empty on purpose."), 640)
 S["pe04-f7"]=lambda: f_chart([("willingness to pay",23),("time savings",38),
     ("social discount rate",56),("capital cost",61),("operating cost",94)],
-    unit="per cent to zero")
+    unit="percent to zero")
 S["pe04-f8"]=lambda: f_icons([("statement","a negative financial total"),
     ("tally","a positive economic total"),("pricetag","a shadow price"),
     ("form","a survey form"),("magnifier","a line crossing zero"),
@@ -121,9 +121,9 @@ S["pe04-f12"]=lambda: f_panels(
     lambda w,h: f_realia(doc("Before","The opening line",
       "<p><i>The scheme has a strongly positive net present value.</i></p>"), 380),
     lambda w,h: f_realia(doc("After","The same scheme",
-      "<p><i>Economically +14.8 at 5 per cent real over thirty years; financially −6.2 at 4 per "
+      "<p><i>Economically +14.8 at 5 percent real over thirty years; financially −6.2 at 4 per "
       "cent; most of the gain is avoided borehole failure; one transferred figure has a switching "
-      "value of −23 per cent.</i></p>"), 380),
+      "value of −23 percent.</i></p>"), 380),
     w=820, h=300, lt="ONE NUMBER", rt="FOUR SENTENCES")
 S["pe04-f13"]=lambda: f_realia(form("Appraisal planner",
     [("The financial result and its rate",""),("The economic result and its rate",""),
@@ -151,13 +151,13 @@ S["pe04-f16"]=lambda: f_realia(doc("On a desk in October",
     "<p><b>A survey quotation</b> for forty thousand.</p>"
     "<p><b>A borehole condition report</b> dated 14 August.</p>"
     "<p><b>A note of three sentences.</b> <i>The weakest number in a fourteen-million decision is "
-    "one that nobody here has ever been asked, and it would take a quarter of one per cent of the "
+    "one that nobody here has ever been asked, and it would take a quarter of one percent of the "
     "capital cost and eleven weeks to replace it with a real one. I have put the switching value in "
     "the summary rather than the annex, because a reader who finds it for themselves stops believing "
     "the rest of the document, and they are right to. If the survey is refused I want the refusal "
     "recorded as a decision, because at the moment it is a deadline, and a deadline has never once "
     "been wrong in writing.</i></p>",
-    "Seven o'clock. Minus six point two, plus fourteen point eight, minus twenty-three per cent."),
+    "Seven o'clock. Minus six point two, plus fourteen point eight, minus twenty-three percent."),
     620)
 
 # ---------------- Unit 5 ----------------

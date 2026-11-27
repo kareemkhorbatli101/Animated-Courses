@@ -37,7 +37,7 @@ S["t00-f3"]=lambda: f_part("One score, three readings",
 # ---------------- Unit 1 · The Mandate ----------------
 S["t01-f1"]=lambda: f_icons([("meeting","a table with named places"),("essay","terms of reference"),
     ("handsup","a vote"),("spreadsheet","two tiers"),
-    ("data","29 per cent"),("rights","a gavel, unused"),
+    ("data","29 percent"),("rights","a gavel, unused"),
     ("clipboard","reserved matters"),("transfer","delegated authority"),
     ("podium","a shareholders' meeting"),("signature","two signatures")], cols=5)
 S["t01-f2"]=lambda: f_scene(940,430, people=[("yara",300,166,{}),("grace",470,180,{"seated":True}),
@@ -70,7 +70,7 @@ S["t01-f5"]=lambda: f_realia(doc("Lindmark Freight &middot; board terms of refer
        ["Switzerland thresholds","<b>30%</b> board of directors, <b>20%</b> management board"]])
     + "<p style='background:#efe3ef;border-left:4px solid #6d3b6e;padding:10px 12px;font-size:13.5px'>"
       "<b>Our target.</b> 30% women on the board by 2029. <b>It is not enough to say that 30 is above "
-      "the 29 per cent average</b>: an average is not an argument. Our last four board searches "
+      "the 29 percent average</b>: an average is not an argument. Our last four board searches "
       "produced long lists that were <b>38% women</b>.</p>"
     + "<p style='font-size:13.5px'><b>What should not be inferred.</b> <b>It should not be inferred "
       "that</b> a target is a quota. <b>It is not for this document</b> to set an executive target.</p>",
@@ -87,7 +87,7 @@ S["t01-f6"]=lambda: f_realia(tbl("Word study","<i>it</i>-structures, by function
     note="The great virtue of <i>it is for X to</i> is that the duty cannot be written without naming X."), 560)
 S["t01-f7"]=lambda: f_chart([("Women on boards, 2019",22),("Women on boards, 2024",29),
     ("Board chair positions",11),("Switzerland: board threshold",30),
-    ("Switzerland: management board",20)], unit="per cent — 52 jurisdictions; the chair figure is indicative only")
+    ("Switzerland: management board",20)], unit="percent — 52 jurisdictions; the chair figure is indicative only")
 S["t01-f8"]=lambda: f_icons([("padlock","reserved matters"),("transfer","a threshold on delegation"),
     ("spreadsheet","comparative data"),("meeting","an open question"),
     ("noentry","a crossed-out inference"),("calendar","a review date")], cols=3)
@@ -198,7 +198,7 @@ S["t02-f6"]=lambda: f_realia(tbl("Word study","Attribution, from strongest to we
     note="You may not borrow the authority of a figure while declining responsibility for it."), 560)
 S["t02-f7"]=lambda: f_chart([("My employer (barometer)",78),("Business",64),("NGOs",58),
     ("Media",54),("Government",53),("Our own staff survey",61)],
-    unit="per cent — different base, different method; the 17-point gap is to the first bar")
+    unit="percent — different base, different method; the 17-point gap is to the first bar")
 S["t02-f8"]=lambda: f_icons([("data","a large percentage"),("magnifier","small type beneath"),
     ("queue","a sample in a crowd"),("balance","two bars, two shades"),
     ("review","a gap bracketed"),("note","a question on a noticeboard")], cols=3)
@@ -230,7 +230,7 @@ S["t02-f11"]=lambda: f_realia(tbl("Two slides","Sourced, or not",
     note="Four hundred people filled in the survey that produced the 61."), 540)
 S["t02-f12"]=lambda: f_realia(doc("Two internal notes", None,
     "<p style='font-size:13.5px;border-bottom:1px solid #d8d4cb;padding-bottom:10px'>"
-    "<b>First.</b> Seventy-eight per cent of employees trust their employer. Good news for all of us.</p>"
+    "<b>First.</b> Seventy-eight percent of employees trust their employer. Good news for all of us.</p>"
     "<p style='font-size:13.5px'><b>Second.</b> The 2026 barometer <b>reports</b> trust in “my "
     "employer” at 78% among employees, ahead of business (64%), NGOs (58%), media (54%) and "
     "government (53%), in 27 of 28 countries. It is <b>commissioned</b>, <b>self-reported</b>, and the "
@@ -309,7 +309,7 @@ S["t03-f6"]=lambda: f_realia(tbl("Word study","Formulas for stipulative definiti
      ["save that","all commitments, <b>save that</b> intra-group transfers are excluded","formal exception"]],
     note="The negative half does more work than the positive half, and most writers leave it out."), 560)
 S["t03-f7"]=lambda: f_line([("2000",28.0),("2010",24.5),("2020",21.9),("2025",21.2)],
-    w=560, h=250, unit="OECD average statutory rate, per cent — our 18.4% ETR is a different measure", ymin=18)
+    w=560, h=250, unit="OECD average statutory rate, percent — our 18.4% ETR is a different measure", ymin=18)
 S["t03-f8"]=lambda: f_icons([("clipboard","a definitions block"),("balance","forward and backward"),
     ("quotemark","a quoted limitation"),("noentry","a subtraction crossed out"),
     ("note","a blocked inference"),("archive","an earlier draft, superseded")], cols=3)

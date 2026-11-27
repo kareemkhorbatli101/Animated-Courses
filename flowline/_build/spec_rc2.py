@@ -182,7 +182,7 @@ S["rc05-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
     "the liquid's boiling pressure is the <b>net positive suction head available</b>; what the pump "
     "needs is the <b>required</b>. Available must exceed required, with a margin.</p>"
     "<p><b>How the required figure is defined.</b> By a test, whose criterion is the suction "
-    "condition at which the pump's head has <b>already fallen by about three per cent</b>. So a pump "
+    "condition at which the pump's head has <b>already fallen by about three percent</b>. So a pump "
     "at exactly the required figure is cavitating slightly, all day.</p>",
     "A purchase specification. It says nothing about the pump you already have, or whether the flow "
     "it was bought for still exists."), 580)
@@ -226,14 +226,14 @@ S["rc05-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Report A",None,
     "<p>Recommendation: trial an upgraded seal.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Report B",None,
     "<p>The same eleven, beside the three flows: rated 310, best efficiency 295, <b>actual 148</b>. "
-    "Suction margin 0.3 meters, and the required figure is defined at a three per cent head drop. "
+    "Suction margin 0.3 meters, and the required figure is defined at a three percent head drop. "
     "Recommendation: trim the impeller to the actual duty.</p>",None),380)[0:3],
     800,300,"Eleven failures","Eleven failures and a cause")
 S["rc05-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
     "<p>Pump P-210 has had repeated mechanical seal failures. Request we trial an upgraded seal from "
     "a different supplier.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
-    "<p>Rated 310, best efficiency 295, actual <b>148</b> &mdash; about fifty per cent of best "
+    "<p>Rated 310, best efficiency 295, actual <b>148</b> &mdash; about fifty percent of best "
     "efficiency. Eleven seals since 2014, mean interval eleven months, all worn identically. Margin "
     "0.3 meters. <b>The seal is the symptom; the flow is the cause.</b> Trim the impeller at the next "
     "planned shutdown; it also recovers power we throw away across a control valve. <b>A better seal "
@@ -264,7 +264,7 @@ S["rc05-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "<p><b>A pump curve sheet</b> with the best efficiency point and the actual flow far apart.</p>"
     "<p><b>Eleven closed work orders</b> in a stack.</p>"
     "<p><b>An invoice</b> for an upgraded seal trial.</p>"
-    "<p><b>A control valve</b> throttled to twenty per cent open for a decade.</p>"
+    "<p><b>A control valve</b> throttled to twenty percent open for a decade.</p>"
     "<p><i>Every replacement was done properly and every work order was closed on time. On the "
     "reliability figures this is a well-maintained machine with a seal problem.</i></p>",
     "Seven o'clock. The field makes less oil than it did in 1998 and nobody has changed the pump."),
@@ -310,11 +310,11 @@ S["rc06-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
     "software, the analysts and the validation, qualified together. A perfect tool with a poor analyst "
     "produces a poor report.</p>"
     "<p><b>Three numbers behind every depth.</b> A <b>tolerance</b> &mdash; how close the reported "
-    "depth is expected to be. A <b>confidence</b> &mdash; commonly eighty per cent, which means about "
+    "depth is expected to be. A <b>confidence</b> &mdash; commonly eighty percent, which means about "
     "one feature in five may fall outside the band, and when one does, the tool has performed to "
     "specification. And a <b>detection threshold</b>, below which a feature is not reliably reported "
     "at all.</p>"
-    "<p>So <i>thirty-two per cent</i> is really <i>an estimate of thirty-two, expected to lie between "
+    "<p>So <i>thirty-two percent</i> is really <i>an estimate of thirty-two, expected to lie between "
     "about twenty-two and forty-two, four times out of five</i>. For a decision, use <b>the top of "
     "the range</b>.</p>"
     "<p><b>The verification dig</b> is the only way to know whether the tool performed on your pipe. "
@@ -326,10 +326,10 @@ S["rc06-f5"]=lambda: f_realia(doc("JAZIRA PETROLEUM OPERATIONS &mdash; Mureij Tr
 S["rc06-f6"]=lambda: f_realia(tbl("Word study",
     "Reporting with tolerance",
     ["The phrase","What it adds","An example"],
-    [["reported as","it is a report, not a measurement","The feature is reported as 32 per cent."],
-     ["sized at","the analysis gave it this size","It is sized at 32 per cent wall loss."],
-     ["within plus or minus","the band","Within plus or minus 10 per cent of wall thickness."],
-     ["at a confidence of","how often the band holds","At a confidence of 80 per cent."],
+    [["reported as","it is a report, not a measurement","The feature is reported as 32 percent."],
+     ["sized at","the analysis gave it this size","It is sized at 32 percent wall loss."],
+     ["within plus or minus","the band","Within plus or minus 10 percent of wall thickness."],
+     ["at a confidence of","how often the band holds","At a confidence of 80 percent."],
      [BLANK,BLANK,BLANK],[BLANK,BLANK,BLANK]],
     note="Two rows are empty: <i>no feature was reported</i> and <i>below the detection "
     "threshold</i>."), 680)
@@ -347,13 +347,13 @@ S["rc06-f8"]=lambda: f_icons([("balance","a reported feature with a tolerance"),
     ("iron","a dig confirming a reported depth"),
     ("magnifier","what does this tell you?")],3)
 S["rc06-f9"]=lambda: f_realia(tbl("Inspection summary &mdash; export line 12, run 8 March",
-    "Magnetic flux leakage &middot; depth within plus or minus 10 per cent of wall thickness at 80 per cent confidence",
+    "Magnetic flux leakage &middot; depth within plus or minus 10 percent of wall thickness at 80 percent confidence",
     ["Position, km","Type","Reported depth","Upper bound"],
     [["6.3","metal loss","32%","<b>42%</b>"],["12.6","metal loss","29%","39%"],
      ["4.4","metal loss","26%","36%"],["13.9","metal loss","24%","34%"],
      ["2.1","metal loss","21%","31%"],["7.8","metal loss","18%","28%"],
      ["<b>9.1 to 11.0</b>","<b>poor data</b>","<b>&mdash;</b>","<b>&mdash;</b>"]],
-    note="Action limit 40 per cent. One feature crosses it at its upper bound. 1.9 kilometers were "
+    note="Action limit 40 percent. One feature crosses it at its upper bound. 1.9 kilometers were "
     "not effectively inspected, including the wadi crossing."), 620)
 S["rc06-f10"]=lambda: f_scene(800,400,
     people=[("adeel",180,180,{}),("tomas",300,176,{}),("haddad",620,180,{})],
@@ -361,17 +361,17 @@ S["rc06-f10"]=lambda: f_scene(800,400,
      ("board",440,96,0.5),("container",700,190,0.3)],
     clockat=(60,40,22,12,0))
 S["rc06-f11"]=lambda: f_panels(lambda w,h: f_realia(doc("Summary A",None,
-    "<p>Ten deepest features, with reported depths: 32, 29, 26, 24, 21, 18 per cent and four "
+    "<p>Ten deepest features, with reported depths: 32, 29, 26, 24, 21, 18 percent and four "
     "below.</p>"
-    "<p>Deepest 32 per cent. Limit 40.</p>",None),380)[0:3],
+    "<p>Deepest 32 percent. Limit 40.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Summary B",None,
     "<p>The same ten with the <b>upper bound</b> beside each: 42, 39, 36, 34, 31, 28. The tolerance "
     "and confidence quoted. And the poor-data sections with their lengths and locations: <b>1.9 km, "
     "kilometers 9.1 to 11.0, the wadi crossing</b>.</p>",None),380)[0:3],
     800,300,"None cross the limit","One crosses the limit, and 1.9 km is blank")
 S["rc06-f12"]=lambda: f_panels(lambda w,h: f_realia(doc("Note 1",None,
-    "<p>The 2025 in-line inspection of export line 12 is complete. Deepest feature 32 per cent wall "
-    "loss, below our 40 per cent limit. No further action required.</p>",None),380)[0:3],
+    "<p>The 2025 in-line inspection of export line 12 is complete. Deepest feature 32 percent wall "
+    "loss, below our 40 percent limit. No further action required.</p>",None),380)[0:3],
     lambda w,h: f_realia(doc("Note 2",None,
     "<p>Specification quoted. Deepest feature <b>reported 32, upper bound 42</b>, against a 40 per "
     "cent limit &mdash; so it crosses at its upper bound and is an action. <b>1.9 kilometers "
@@ -400,7 +400,7 @@ S["rc06-f15"]=lambda: f_chart([("always",2),("sometimes",5),("only the engineers
     ("never",7),("I had not thought of it",4)], unit="operators")
 S["rc06-f16"]=lambda: f_realia(doc("On a desk in the evening",
     "One number on a summary, and an appendix nobody printed",
-    "<p><b>An inspection summary</b> with a clean headline: deepest feature 32 per cent, limit 40.</p>"
+    "<p><b>An inspection summary</b> with a clean headline: deepest feature 32 percent, limit 40.</p>"
     "<p><b>An appendix page</b> listing 1.9 kilometers of poor data at the wadi crossing.</p>"
     "<p><b>A map</b> with that section shaded.</p>"
     "<p><b>A feature list</b> with reported depths and no upper bound column.</p>"

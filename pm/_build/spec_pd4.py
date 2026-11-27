@@ -144,7 +144,7 @@ S["pd10-f16"]=lambda: f_realia(doc("On a desk in September",
     "<p><b>A note of three sentences.</b> <i>Every step we completed cost time and every step we "
     "skipped would have cost somebody standing, which is the whole finding and it took eighteen "
     "months to produce. Nobody spoke in favor of the three-signature rule and nobody needed to, "
-    "because silence is free and effective. I have withdrawn the seventy per cent slide, and the "
+    "because silence is free and effective. I have withdrawn the seventy percent slide, and the "
     "honest replacement is a smaller sentence about us: six steps of eight, forty-one days of "
     "talking, zero subtractions.</i></p>",
     "Six o'clock. Six of eight, and one rule unchanged since 2017."), 620)
@@ -154,7 +154,7 @@ S["pd11-f1"]=lambda: f_icons([("book","a book from 1939"),("signature","an edito
     ("podium","a lecture in another country"),("review","a cycle being renamed"),
     ("clipboard","four letters on a card"),("noentry","one letter replaced"),
     ("form","a procedure with a short citation"),("logsheet","48 entries, no conclusions"),
-    ("magnifier","a catalogue search"),("note","a corrected citation")], cols=5)
+    ("magnifier","a catalog search"),("note","a corrected citation")], cols=5)
 S["pd11-f2"]=lambda: f_scene(760,380,
     people=[("nkemelu",200,172,{}),("hana",290,170,{})],
     props=[("desk",400,0,1.0),("form",470,150,0.26),("book",580,150,0.26),

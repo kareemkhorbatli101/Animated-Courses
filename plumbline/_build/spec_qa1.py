@@ -358,7 +358,7 @@ S["qa03-f5"]=lambda: f_realia(doc("Meridian Language Center &middot; note to new
     + "<p><b>What the framework says about itself.</b> It states plainly that it is a "
     "<b>reference</b> document and that it is <b>not prescriptive</b>: it is there to be consulted, "
     "not obeyed, and the Council of Europe has repeatedly said it is not a tool for sorting people. "
-    "It is not a test and contains no test. Its descriptors were calibrated using the judgements of "
+    "It is not a test and contains no test. Its descriptors were calibrated using the judgments of "
     "teachers about learners, not against any single examination. It does not say how long a level "
     "takes, it does not say what a level is worth in a seminar or a hospital, and it does not say "
     "that two learners at B2 are interchangeable.</p>"

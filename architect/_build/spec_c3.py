@@ -73,7 +73,7 @@ S["c07-f9"]=lambda: f_realia(tbl("Measurement note &middot; automated code measu
      ["security","<b>0</b>","480,000","<b>0</b>"],
      ["performance efficiency","<b>97</b>","480,000","<b>20</b>"],
      ["maintainability","<b>0</b>","480,000","<b>0</b>"]],
-    note="Forty per cent of what runs is in this number."), 600)
+    note="Forty percent of what runs is in this number."), 600)
 S["c07-f10"]=lambda: f_scene(940,430, people=[("adeel",300,176,{"seated":True}),
      ("oksana",400,172,{"seated":True})],
     props=[("desk",230,0,1.25),("computer",300,142,0.44),("clipboard",385,194,0.24),
