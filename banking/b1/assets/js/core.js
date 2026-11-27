@@ -36,7 +36,27 @@
   BNK.coverageData = BNK.coverageData || {};
   BNK.ex = BNK.ex || {};
 
-  var BASE = w.FMS_BASE === undefined ? '' : w.FMS_BASE;
+  /* THIS COURSE'S OWN TOKEN, which it was not.
+   *
+   * This book was materialised from fms/b1 and kept reading `FMS_BASE` - a name no page here
+   * ever sets. Every one of these 200 section pages sets `window.BNK_BASE='../'` correctly, so
+   * the shells were right and the engine was reading the donor's name: BASE was always ''.
+   *
+   * `unitHref` then returned `unit3/index.html`, which from inside `unit3/` resolves to
+   * `unit3/unit3/index.html`. PRESSED on the live site 2026-11-27: HTTP 404, on every section
+   * page of all ten units - and this book has no page-to-page pager, so the unit map was a
+   * learner's only way forward. Two passes of a crawler had looked at the control and recorded
+   * that it was present; neither pressed it.
+   *
+   * The fallback derives the prefix from the page's own <script src> for this file, so a copy
+   * that inherits a token nobody sets still resolves correctly instead of failing silently.
+   * `gates/site_reachable` presses it. */
+  var BASE = (function () {
+    if (w.BNK_BASE !== undefined) return w.BNK_BASE;
+    var s = document.querySelector('script[src$="assets/js/core.js"]');
+    var m = s && /^(.*?)assets\/js\/core\.js$/.exec(s.getAttribute('src') || '');
+    return m ? m[1] : '';
+  })();
   BNK.base = BASE;
 
   /* WHERE THE RECORDINGS COME FROM, which is not where the pages come from.
@@ -308,13 +328,57 @@
      renames the namespace and did not rename this.
 
      Changing it starts this course's progress from empty rather than importing records
-     that may belong to another course - the old data cannot be told apart per card. */
-  var KEY = 'fms.b1.progress.v1', PREF = 'fms.b1.prefs.v1';
+     that may belong to another course - the old data cannot be told apart per card.
+
+     ...AND THE SAME THING HAPPENED AGAIN, one donor along. The 2026-11-16 repair moved this
+     course off `csb1.progress.v1` and onto `fms.b1.progress.v1` - the Foreign Ministry book's
+     NEW name - because this engine was materialised from that one. Hospitality, lifted next,
+     inherited it too. Measured 2026-11-27 in one browser, working each course in turn:
+
+         after Foreign Ministry   fms.b1.progress.v1 = 113 bytes
+         then Banking                                = 432 bytes
+         then Hospitality                            = 543 bytes
+         back in Foreign Ministry                    = 543, with 34 entries it never wrote
+
+     So renaming a key fixes the books that exist and does nothing about the next lift. The
+     backstop is `gates/site_progress_keys`, which reads the key EVERY published book writes
+     and fails when two agree.
+
+     WHAT CAN BE CARRIED OVER, AND WHY IT IS ONLY 21 RECORDS. All three books number their
+     screens `u<n>-s<nn>`, so a record under `u3-s02` could have been written by any of them.
+     Of this book's 201 page ids, 180 are also a page in Foreign Ministry or Hospitality and
+     21 are not - the parts beyond those books' section counts. Only those 21 are copied. The
+     other 180 are not: importing them would show a learner a tick in Banking for work they
+     did in another course, which is worse than the empty record it would be hiding. The old
+     entry is left exactly as it is, so nothing is destroyed and it can still be exported. */
+  var KEY = 'banking.b1.progress.v1', PREF = 'banking.b1.prefs.v1';
+  var OLD_KEY = 'fms.b1.progress.v1', OLD_PREF = 'fms.b1.prefs.v1';
+  /* measured against fms/b1 and hospitality/b1 over the published tree, 2026-11-27 */
+  var OWN = ('u6-s17 u6-s18 u6-s19 u6-s20 u7-s17 u7-s18 u7-s19 u7-s20 u8-s17 u8-s18 u8-s19 '
+             + 'u8-s20 u9-s17 u9-s18 u9-s19 u9-s20 u10-s17 u10-s18 u10-s19 u10-s20 u10-s21'
+            ).split(' ');
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
 
+  function migrated() {
+    var mine = readJSON(KEY, null);
+    if (mine) return mine;
+    var old = readJSON(OLD_KEY, null);
+    if (!old) return {};
+    var out = {};
+    for (var i = 0; i < OWN.length; i++) {
+      if (Object.prototype.hasOwnProperty.call(old, OWN[i])) out[OWN[i]] = old[OWN[i]];
+    }
+    writeJSON(KEY, out);
+    if (readJSON(PREF, null) === null) {
+      var op = readJSON(OLD_PREF, null);
+      if (op) writeJSON(PREF, op);          /* settings, not work - nothing to attribute */
+    }
+    return out;
+  }
+
   var P = BNK.progress = {
-    all: readJSON(KEY, {}),
+    all: migrated(),
     page: function (pid) { return (this.all[pid] = this.all[pid] || { cards: {} }); },
     /* `erred` — has any check ever found an answer the learner gave that was WRONG?
        It is what mastery turns on now, in place of "this is the first press of the
@@ -1481,6 +1545,24 @@
   BNK.render = function (pageId) {
     var def = BNK.pages[pageId];
     if (!def) { d.body.innerHTML = '<p style="padding:40px;font:600 16px system-ui">Page data not found: ' + U.esc(pageId) + '</p>'; return; }
+    /* THE NEXT AND PREVIOUS PAGE, FROM THE UNIT MAP, WHEN THE DATA DID NOT SAY.
+       The map rows already carry `file`, which is what the pager's href needs.
+       Data wins: a page that names its own neighbour keeps it. A page that is
+       not in its unit's map - a teacher sheet, a one-off - gets nothing, which
+       is what it had before. */
+    (function fillNeighbours() {
+      if (def.next !== undefined && def.prev !== undefined) return;
+      var rows = (BNK.unitMaps || {})[BNK.unitOf(def.id || pageId)] || [];
+      var at = -1;
+      for (var i = 0; i < rows.length; i++) {
+        if (rows[i] && rows[i].id === (def.id || pageId)) { at = i; break; }
+      }
+      if (at < 0) return;
+      if (def.prev === undefined && at > 0 && rows[at - 1].file)
+        def.prev = rows[at - 1].file;
+      if (def.next === undefined && at + 1 < rows.length && rows[at + 1].file)
+        def.next = rows[at + 1].file;
+    })();
     d.title = (def.book ? def.book.title + ' · ' : '') + BNK.COURSE.name;
     applyTheme();
 
@@ -1528,6 +1610,25 @@
 
     main.appendChild(wrap);
     d.body.appendChild(main);
+    /* ONE PASS, AT THE END: a field that nothing else names takes the
+       words just above it. Only fields with no name at all are touched. */
+    (function nameTheFields() {
+      var fields = d.querySelectorAll('textarea, input[type=text], input:not([type])');
+      for (var i = 0; i < fields.length; i++) {
+        var f = fields[i];
+        if (f.getAttribute('aria-label') || f.getAttribute('aria-labelledby')
+            || f.getAttribute('placeholder') || f.getAttribute('title')) continue;
+        if (f.closest && f.closest('label')) continue;
+        var cue = '', n = f.previousElementSibling;
+        while (n && !cue) { cue = (n.textContent || '').trim(); n = n.previousElementSibling; }
+        if (!cue) {
+          var box = f.closest && f.closest('.card-body, .ex, .q, .card');
+          var h = box && box.querySelector('h3, h4, .q-text, .prompt, p');
+          cue = h ? (h.textContent || '').trim() : '';
+        }
+        f.setAttribute('aria-label', cue ? cue.slice(0, 80) : 'Your answer');
+      }
+    })();
     d.body.appendChild(statusbar(def));
 
     /* glossary pass over reading text only */
@@ -2661,6 +2762,10 @@
         tick.type = 'button';
         tick.setAttribute('role', 'checkbox');
         tick.setAttribute('aria-checked', 'false');
+        /* the criterion's own words, so the row announces what it is
+           rather than "checkbox" - the text itself lives in a sibling
+           div and a sibling cannot name a control */
+        tick.setAttribute('aria-label', String(c.t || 'this point'));
         tick.innerHTML = '<span></span>';
         var txt = U.el('div', 'coach-txt');
         /* WHO TICKED THIS. The chip was a fixed label; it is now the row's provenance, because

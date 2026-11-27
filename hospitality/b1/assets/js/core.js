@@ -36,7 +36,23 @@
   HSP.coverageData = HSP.coverageData || {};
   HSP.ex = HSP.ex || {};
 
-  var BASE = w.FMS_BASE === undefined ? '' : w.FMS_BASE;
+  /* THIS COURSE'S OWN TOKEN, which it was not.
+   *
+   * Materialised from fms/b1 and left reading `FMS_BASE`, a name no page here sets. All 160
+   * section pages set `window.HSP_BASE='../'`, so the shells were right and the engine read the
+   * donor's name: BASE was always ''. `unitHref` returned `unit9/index.html`, which from inside
+   * `unit9/` resolves to `unit9/unit9/index.html` - PRESSED on the live site 2026-11-27 and it
+   * is an HTTP 404. Like banking, this book has no page-to-page pager, so that was the only way
+   * forward.
+   *
+   * The fallback derives the prefix from the page's own <script src> for this file, so a future
+   * copy cannot inherit a token nobody sets. `gates/site_reachable` presses it. */
+  var BASE = (function () {
+    if (w.HSP_BASE !== undefined) return w.HSP_BASE;
+    var s = document.querySelector('script[src$="assets/js/core.js"]');
+    var m = s && /^(.*?)assets\/js\/core\.js$/.exec(s.getAttribute('src') || '');
+    return m ? m[1] : '';
+  })();
   HSP.base = BASE;
 
   /* WHERE THE RECORDINGS COME FROM, which is not where the pages come from.
@@ -308,10 +324,34 @@
      renames the namespace and did not rename this.
 
      Changing it starts this course's progress from empty rather than importing records
-     that may belong to another course - the old data cannot be told apart per card. */
-  var KEY = 'fms.b1.progress.v1', PREF = 'fms.b1.prefs.v1';
+     that may belong to another course - the old data cannot be told apart per card.
+
+     ...AND IT HAPPENED AGAIN, one donor along. The 2026-11-16 repair moved the Foreign
+     Ministry book onto `fms.b1.progress.v1`; this course and Banking were materialised from it
+     afterwards and inherited that name. Measured 2026-11-27 in one browser: working Foreign
+     Ministry, then Banking, then this course grew that single entry 113 -> 432 -> 543 bytes,
+     and returning to Foreign Ministry showed 34 entries it had never written. Banking's unit 3
+     and this book's unit 3 were overwriting each other, because both records are `u3-s02`.
+
+     NOTHING IS CARRIED OVER, AND THAT IS THE HONEST ANSWER HERE. All three books number their
+     screens `u<n>-s<nn>`, and this book's sections run 01-16, inside both of the others'
+     ranges: of its 160 page ids, 160 are also a page in Foreign Ministry or Banking and NONE
+     is unique to it. So there is no record in the old entry that can be shown to be this
+     course's. Copying them would put ticks on screens a learner never opened here - inventing
+     work rather than restoring it - so this course starts from empty, and the old entry is
+     left untouched so nothing is destroyed and it can still be exported. Settings (subtitles,
+     speed, theme) ARE carried over: they are the learner's own preferences, not work, so
+     there is nothing to attribute wrongly. `gates/site_progress_keys` holds the general rule. */
+  var KEY = 'hospitality.b1.progress.v1', PREF = 'hospitality.b1.prefs.v1';
+  var OLD_PREF = 'fms.b1.prefs.v1';
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
+
+  (function carryPrefsOnly() {
+    if (readJSON(PREF, null) !== null) return;
+    var op = readJSON(OLD_PREF, null);
+    if (op) writeJSON(PREF, op);
+  })();
 
   var P = HSP.progress = {
     all: readJSON(KEY, {}),
@@ -1481,6 +1521,24 @@
   HSP.render = function (pageId) {
     var def = HSP.pages[pageId];
     if (!def) { d.body.innerHTML = '<p style="padding:40px;font:600 16px system-ui">Page data not found: ' + U.esc(pageId) + '</p>'; return; }
+    /* THE NEXT AND PREVIOUS PAGE, FROM THE UNIT MAP, WHEN THE DATA DID NOT SAY.
+       The map rows already carry `file`, which is what the pager's href needs.
+       Data wins: a page that names its own neighbour keeps it. A page that is
+       not in its unit's map - a teacher sheet, a one-off - gets nothing, which
+       is what it had before. */
+    (function fillNeighbours() {
+      if (def.next !== undefined && def.prev !== undefined) return;
+      var rows = (HSP.unitMaps || {})[HSP.unitOf(def.id || pageId)] || [];
+      var at = -1;
+      for (var i = 0; i < rows.length; i++) {
+        if (rows[i] && rows[i].id === (def.id || pageId)) { at = i; break; }
+      }
+      if (at < 0) return;
+      if (def.prev === undefined && at > 0 && rows[at - 1].file)
+        def.prev = rows[at - 1].file;
+      if (def.next === undefined && at + 1 < rows.length && rows[at + 1].file)
+        def.next = rows[at + 1].file;
+    })();
     d.title = (def.book ? def.book.title + ' · ' : '') + HSP.COURSE.name;
     applyTheme();
 
@@ -1528,6 +1586,25 @@
 
     main.appendChild(wrap);
     d.body.appendChild(main);
+    /* ONE PASS, AT THE END: a field that nothing else names takes the
+       words just above it. Only fields with no name at all are touched. */
+    (function nameTheFields() {
+      var fields = d.querySelectorAll('textarea, input[type=text], input:not([type])');
+      for (var i = 0; i < fields.length; i++) {
+        var f = fields[i];
+        if (f.getAttribute('aria-label') || f.getAttribute('aria-labelledby')
+            || f.getAttribute('placeholder') || f.getAttribute('title')) continue;
+        if (f.closest && f.closest('label')) continue;
+        var cue = '', n = f.previousElementSibling;
+        while (n && !cue) { cue = (n.textContent || '').trim(); n = n.previousElementSibling; }
+        if (!cue) {
+          var box = f.closest && f.closest('.card-body, .ex, .q, .card');
+          var h = box && box.querySelector('h3, h4, .q-text, .prompt, p');
+          cue = h ? (h.textContent || '').trim() : '';
+        }
+        f.setAttribute('aria-label', cue ? cue.slice(0, 80) : 'Your answer');
+      }
+    })();
     d.body.appendChild(statusbar(def));
 
     /* glossary pass over reading text only */
@@ -2661,6 +2738,10 @@
         tick.type = 'button';
         tick.setAttribute('role', 'checkbox');
         tick.setAttribute('aria-checked', 'false');
+        /* the criterion's own words, so the row announces what it is
+           rather than "checkbox" - the text itself lives in a sibling
+           div and a sibling cannot name a control */
+        tick.setAttribute('aria-label', String(c.t || 'this point'));
         tick.innerHTML = '<span></span>';
         var txt = U.el('div', 'coach-txt');
         /* WHO TICKED THIS. The chip was a fixed label; it is now the row's provenance, because

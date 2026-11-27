@@ -101,7 +101,34 @@
     /\b\d{1,3}\s*%/g,
     /\b\d{1,3}\s*(?:out of|\/)\s*\d{1,3}\b/gi,
     /\b(?:score|grade|mark|marks|band)\s*[:=]?\s*\d+/gi,
-    /\b(?:you\s+(?:scored|got))\s+\d+/gi
+    /\b(?:you\s+(?:scored|got))\s+\d+/gi,
+    /* ...AND A GRADE WITH NO DIGIT IN IT.
+     *
+     * Every pattern above ends in `\d`. A letter grade has no digit, so it went straight
+     * through: measured 2026-11-26 by driving a real page with a stubbed reply of
+     * "Score: 7/10 ... Grade: B+", which reached the learner as "Score: — ... Grade: B+".
+     * The numeric half of the house rule was enforced and the other half was not, and the
+     * rule is that this layer never marks.
+     *
+     * After a colon or an equals sign the value is taken whatever it is - the course
+     * engine's own tutor.js has always done it that way (`[:=]\s*\S+`) and it is the
+     * reason that tutor never had this hole. After a bare space the letter must be
+     * UPPERCASE, so "I would grade a response like this" is left alone while "Grade A" is
+     * not. Over-removal is the safe direction here: the page already tells the learner
+     * that something was taken out, and a tutor that marks is a broken promise.
+     * `gates/cma_ai` I4 presses both halves. */
+    /\b(?:score|grade|mark|marks|band|overall|result|rating)\s*[:=]\s*[^\s.,;!?]+/gi,
+    /* THE CASE IS PART OF THE PATTERN, AND `\b` IS THE WRONG END OF IT.
+     *
+     * Two drafts of these two lines were wrong in ways worth leaving written down. First
+     * they were case-sensitive throughout, so "Grade A work" and "You got a B-" both went
+     * through - the keyword has to accept either case while the LETTER must not, which is
+     * what keeps "I would grade a response like this" intact. Second they ended in `\b`
+     * after an optional `+`/`-`: there is no word boundary between "-" and a space, so
+     * "B-" never matched at all. `(?![A-Za-z0-9])` is the right end. Both were caught by
+     * running the patterns over seven sentences before shipping them. */
+    /\b(?:[Ss]core|[Gg]rade|[Mm]arks?|[Bb]and)\s+(?:of\s+)?[A-F](?:[+-])?(?![A-Za-z0-9])/g,
+    /\b[Yy]ou\s+(?:scored|got|earned|are\s+at)\s+(?:an?\s+)?[A-F](?:[+-])?(?![A-Za-z0-9])/g
   ];
   function scrub(text) {
     var t = String(text == null ? "" : text), n = 0;

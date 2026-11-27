@@ -36,7 +36,13 @@
   PBE4.coverageData = PBE4.coverageData || {};
   PBE4.ex = PBE4.ex || {};
 
-  var BASE = w.FMS_BASE === undefined ? '' : w.FMS_BASE;
+  var BASE = (function () {
+    if (w.PBE4_BASE !== undefined) return w.PBE4_BASE;
+    /* no token set: take the prefix from this file's own script tag */
+    var s = document.querySelector('script[src$="assets/js/core.js"]');
+    var m = s && /^(.*?)assets\/js\/core\.js$/.exec(s.getAttribute('src') || '');
+    return m ? m[1] : '';
+  })();
   PBE4.base = BASE;
 
   /* WHERE THE RECORDINGS COME FROM, which is not where the pages come from.
@@ -1488,6 +1494,24 @@
   PBE4.render = function (pageId) {
     var def = PBE4.pages[pageId];
     if (!def) { d.body.innerHTML = '<p style="padding:40px;font:600 16px system-ui">Page data not found: ' + U.esc(pageId) + '</p>'; return; }
+    /* THE NEXT AND PREVIOUS PAGE, FROM THE UNIT MAP, WHEN THE DATA DID NOT SAY.
+       The map rows already carry `file`, which is what the pager's href needs.
+       Data wins: a page that names its own neighbour keeps it. A page that is
+       not in its unit's map - a teacher sheet, a one-off - gets nothing, which
+       is what it had before. */
+    (function fillNeighbours() {
+      if (def.next !== undefined && def.prev !== undefined) return;
+      var rows = (PBE4.unitMaps || {})[PBE4.unitOf(def.id || pageId)] || [];
+      var at = -1;
+      for (var i = 0; i < rows.length; i++) {
+        if (rows[i] && rows[i].id === (def.id || pageId)) { at = i; break; }
+      }
+      if (at < 0) return;
+      if (def.prev === undefined && at > 0 && rows[at - 1].file)
+        def.prev = rows[at - 1].file;
+      if (def.next === undefined && at + 1 < rows.length && rows[at + 1].file)
+        def.next = rows[at + 1].file;
+    })();
     d.title = (def.book ? def.book.title + ' · ' : '') + PBE4.COURSE.name;
     applyTheme();
 
@@ -1535,6 +1559,25 @@
 
     main.appendChild(wrap);
     d.body.appendChild(main);
+    /* ONE PASS, AT THE END: a field that nothing else names takes the
+       words just above it. Only fields with no name at all are touched. */
+    (function nameTheFields() {
+      var fields = d.querySelectorAll('textarea, input[type=text], input:not([type])');
+      for (var i = 0; i < fields.length; i++) {
+        var f = fields[i];
+        if (f.getAttribute('aria-label') || f.getAttribute('aria-labelledby')
+            || f.getAttribute('placeholder') || f.getAttribute('title')) continue;
+        if (f.closest && f.closest('label')) continue;
+        var cue = '', n = f.previousElementSibling;
+        while (n && !cue) { cue = (n.textContent || '').trim(); n = n.previousElementSibling; }
+        if (!cue) {
+          var box = f.closest && f.closest('.card-body, .ex, .q, .card');
+          var h = box && box.querySelector('h3, h4, .q-text, .prompt, p');
+          cue = h ? (h.textContent || '').trim() : '';
+        }
+        f.setAttribute('aria-label', cue ? cue.slice(0, 80) : 'Your answer');
+      }
+    })();
     d.body.appendChild(statusbar(def));
 
     /* glossary pass over reading text only */
@@ -2668,6 +2711,10 @@
         tick.type = 'button';
         tick.setAttribute('role', 'checkbox');
         tick.setAttribute('aria-checked', 'false');
+        /* the criterion's own words, so the row announces what it is
+           rather than "checkbox" - the text itself lives in a sibling
+           div and a sibling cannot name a control */
+        tick.setAttribute('aria-label', String(c.t || 'this point'));
         tick.innerHTML = '<span></span>';
         var txt = U.el('div', 'coach-txt');
         /* WHO TICKED THIS. The chip was a fixed label; it is now the row's provenance, because

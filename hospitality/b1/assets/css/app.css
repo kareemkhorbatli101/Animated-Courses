@@ -90,6 +90,43 @@ p { margin:0 0 .9em; }
 .topbar .spacer { flex:1; }
 .tb-tools { display:flex; gap:6px; align-items:center; }
 
+/* ---------- the top bar on a narrow window, and the accounts badge
+ * Measured, not seen: `.hide-sm` is written by core.js and was never
+ * styled here, so this row ran past the right edge of a 360px window.
+ * 84px = the badge's 72 plus its 12 of offset. */
+@media (max-width:640px) {
+  .hide-sm { display:none; }
+}
+@media (max-width:1320px) {
+  .tb-tools { margin-right:84px; }
+}
+
+/* ---------- content that needs more width than a phone has ----------
+ * A table scrolls INSIDE ITSELF instead of widening the document, and the
+ * button row is allowed to wrap. Measured at 360px, 2026-11-27. */
+@media (max-width:640px) {
+  .reading table, .rich table, .card table, table.bk, table.bt {
+    display:block; overflow-x:auto; max-width:100%;
+  }
+  .btn-row { flex-wrap:wrap; max-width:100%; }
+  .pick, .pick-btn, .pick-jump { max-width:100%; }
+}
+
+/* ---------- and the breadcrumb trail may shrink ----------
+ * Without this the top row overflows and nothing else in it can fit.
+ * Measured at 360px against five candidate rules, 2026-11-27. */
+@media (max-width:640px) {
+  .crumbs { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+}
+
+/* ---------- and the course-and-unit label may fold ----------
+ * One unbroken line, 358-391px, inside a 360px window. */
+@media (max-width:640px) {
+  /* doubled class: a media query adds no specificity and the base rule
+     for this chip is further down the file */
+  .bookchip.bookchip { max-width:100%; white-space:normal; overflow-wrap:anywhere; }
+}
+
 /* ---------- buttons ---------- */
 .btn {
   display:inline-flex; align-items:center; gap:7px; justify-content:center;

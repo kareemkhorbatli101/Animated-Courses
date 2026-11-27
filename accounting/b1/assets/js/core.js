@@ -289,12 +289,47 @@
   /* ============================================================
      progress
      ============================================================ */
-  var KEY = 'csb1.progress.v1', PREF = 'csb1.prefs.v1';
+  /* THIS COURSE'S OWN KEYS, which they were not.
+   *
+   * This engine was lifted from the cybersecurity course and kept reading `csb1.*` - that
+   * course's namespace. Both are served from learnactively.com, which is ONE ORIGIN, so both
+   * wrote one localStorage entry. Measured 2026-11-27 in a browser: 5 of 6 cybersecurity pages
+   * write `csb1.progress.v1`, and so did every page here.
+   *
+   * AND HERE THE MIGRATION IS PROVABLE, which is why this one carries records over while
+   * banking and hospitality cannot. The two courses number their screens differently -
+   * `u1-s01` here against `u1-l1-s1` and `u1-atwork-s1` there - so a record whose id matches
+   * this book's own shape cannot be the other course's. Measured over the published tree: 105
+   * ids here, all of the form u<n>-s<nn>, and 0 of cybersecurity's 21 ids take that form.
+   *
+   * Copied, not moved: the old entry is still the cybersecurity course's live data. Prefs
+   * (subtitles, speed, theme) are carried over whole - they are a learner's settings, not work
+   * they did, so there is nothing to attribute wrongly. `gates/site_progress_keys` asserts
+   * that no two books on this site write one key, and that this migration copies nothing
+   * outside the shape. */
+  var KEY = 'accounting.b1.progress.v1', PREF = 'accounting.b1.prefs.v1';
+  var OLD_KEY = 'csb1.progress.v1', OLD_PREF = 'csb1.prefs.v1';
+  var MINE = /^u\d+-s\d\d$/;
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
 
+  function migrated() {
+    var mine = readJSON(KEY, null);
+    if (mine) return mine;
+    var old = readJSON(OLD_KEY, null);
+    if (!old) return {};
+    var out = {};
+    for (var k in old) if (old.hasOwnProperty(k) && MINE.test(k)) out[k] = old[k];
+    writeJSON(KEY, out);
+    if (readJSON(PREF, null) === null) {
+      var op = readJSON(OLD_PREF, null);
+      if (op) writeJSON(PREF, op);
+    }
+    return out;
+  }
+
   var P = EAFM.progress = {
-    all: readJSON(KEY, {}),
+    all: migrated(),
     page: function (pid) { return (this.all[pid] = this.all[pid] || { cards: {} }); },
     /* `erred` — has any check ever found an answer the learner gave that was WRONG?
        It is what mastery turns on now, in place of "this is the first press of the
@@ -1461,6 +1496,24 @@
   EAFM.render = function (pageId) {
     var def = EAFM.pages[pageId];
     if (!def) { d.body.innerHTML = '<p style="padding:40px;font:600 16px system-ui">Page data not found: ' + U.esc(pageId) + '</p>'; return; }
+    /* THE NEXT AND PREVIOUS PAGE, FROM THE UNIT MAP, WHEN THE DATA DID NOT SAY.
+       The map rows already carry `file`, which is what the pager's href needs.
+       Data wins: a page that names its own neighbour keeps it. A page that is
+       not in its unit's map - a teacher sheet, a one-off - gets nothing, which
+       is what it had before. */
+    (function fillNeighbours() {
+      if (def.next !== undefined && def.prev !== undefined) return;
+      var rows = (EAFM.unitMaps || {})[EAFM.unitOf(def.id || pageId)] || [];
+      var at = -1;
+      for (var i = 0; i < rows.length; i++) {
+        if (rows[i] && rows[i].id === (def.id || pageId)) { at = i; break; }
+      }
+      if (at < 0) return;
+      if (def.prev === undefined && at > 0 && rows[at - 1].file)
+        def.prev = rows[at - 1].file;
+      if (def.next === undefined && at + 1 < rows.length && rows[at + 1].file)
+        def.next = rows[at + 1].file;
+    })();
     d.title = (def.book ? def.book.title + ' · ' : '') + EAFM.COURSE.name;
     applyTheme();
 
@@ -1508,6 +1561,25 @@
 
     main.appendChild(wrap);
     d.body.appendChild(main);
+    /* ONE PASS, AT THE END: a field that nothing else names takes the
+       words just above it. Only fields with no name at all are touched. */
+    (function nameTheFields() {
+      var fields = d.querySelectorAll('textarea, input[type=text], input:not([type])');
+      for (var i = 0; i < fields.length; i++) {
+        var f = fields[i];
+        if (f.getAttribute('aria-label') || f.getAttribute('aria-labelledby')
+            || f.getAttribute('placeholder') || f.getAttribute('title')) continue;
+        if (f.closest && f.closest('label')) continue;
+        var cue = '', n = f.previousElementSibling;
+        while (n && !cue) { cue = (n.textContent || '').trim(); n = n.previousElementSibling; }
+        if (!cue) {
+          var box = f.closest && f.closest('.card-body, .ex, .q, .card');
+          var h = box && box.querySelector('h3, h4, .q-text, .prompt, p');
+          cue = h ? (h.textContent || '').trim() : '';
+        }
+        f.setAttribute('aria-label', cue ? cue.slice(0, 80) : 'Your answer');
+      }
+    })();
     d.body.appendChild(statusbar(def));
 
     /* glossary pass over reading text only */
@@ -2641,6 +2713,10 @@
         tick.type = 'button';
         tick.setAttribute('role', 'checkbox');
         tick.setAttribute('aria-checked', 'false');
+        /* the criterion's own words, so the row announces what it is
+           rather than "checkbox" - the text itself lives in a sibling
+           div and a sibling cannot name a control */
+        tick.setAttribute('aria-label', String(c.t || 'this point'));
         tick.innerHTML = '<span></span>';
         var txt = U.el('div', 'coach-txt');
         /* WHO TICKED THIS. The chip was a fixed label; it is now the row's provenance, because
