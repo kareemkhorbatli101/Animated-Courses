@@ -51,16 +51,16 @@ unit depends on where you are and what year it is.
 | | **Starting Point** | Where the oil is, and how much of it | | 5 |
 | 1 | **What Comes Out of the Ground** | Crude, gas and water in one stream | *Be* and *have*; one and many | 9 |
 | 2 | **The Barrel and the Cubic Meter** | Units, and why there are two | Numbers and quantities | 27 |
-| 3 | **The Parts of a Wellhead** | The tree on top of the hole | Part and whole; position | 46 |
-| 4 | **Who Is on Shift** | Roles on a production site | Present simple; *report to* | 66 |
-| 5 | **Eighteen Rules Became Nine** | The rules that stop people dying | Imperatives; *must* and *must not* | 86 |
-| 6 | **What You Wear, and Why** | Protective equipment, and the order of controls | *Have to*; *need to* | 106 |
-| 7 | **The Smell You Must Not Trust** | Hydrogen sulfide | *Can* and *cannot*; warnings | 125 |
-| 8 | **Before You Touch It** | The permit to work | *Before*, *after*, *until* | 145 |
-| 9 | **Five Minutes Before the Job** | The toolbox talk | Instructions and checking | 165 |
-| 10 | **Reading a Gauge** | Pressure, temperature, level | Figures; *rose to*, *fell to* | 184 |
-| 11 | **Why There Is a Flame** | The flare | *Because* and *so* | 204 |
-| 12 | **One Shift, Start to Finish** | Review; what gets counted | Review; the handover | 224 |
+| 3 | **The Parts of a Wellhead** | The tree on top of the hole | Part and whole; position | 45 |
+| 4 | **Who Is on Shift** | Roles on a production site | Present simple; *report to* | 64 |
+| 5 | **Eighteen Rules Became Nine** | The rules that stop people dying | Imperatives; *must* and *must not* | 83 |
+| 6 | **What You Wear, and Why** | Protective equipment, and the order of controls | *Have to*; *need to* | 102 |
+| 7 | **The Smell You Must Not Trust** | Hydrogen sulfide | *Can* and *cannot*; warnings | 121 |
+| 8 | **Before You Touch It** | The permit to work | *Before*, *after*, *until* | 140 |
+| 9 | **Five Minutes Before the Job** | The toolbox talk | Instructions and checking | 159 |
+| 10 | **Reading a Gauge** | Pressure, temperature, level | Figures; *rose to*, *fell to* | 178 |
+| 11 | **Why There Is a Flame** | The flare | *Because* and *so* | 197 |
+| 12 | **One Shift, Start to Finish** | Review; what gets counted | Review; the handover | 216 |
 | | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 243 |
 
 ## The people
