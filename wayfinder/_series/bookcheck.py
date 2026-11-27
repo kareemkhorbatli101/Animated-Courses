@@ -396,7 +396,9 @@ def check(book):
     # The -ise / -isation family in one rule, because listing it word by word is how
     # 39 patterns missed organisation's cousins. Anything whose American spelling
     # really is -ise is in ISE_OK and is not a hit.
-    for m in re.finditer(ISE_RE, novariant):
+    # A pronunciation exercise marks the stress inside the word -- **AD**vertise --
+    # so the emphasis comes out before this rule looks for whole words.
+    for m in re.finditer(ISE_RE, novariant.replace("**", "").replace("*", "")):
         w = m.group(0).lower()
         root = re.sub(r"is(e|es|ed|ing|ation|ations|ational)$", "ise", w)
         bare = re.sub(r"^(un|re|dis|im|non)", "", root)

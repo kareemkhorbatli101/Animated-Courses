@@ -45,7 +45,7 @@ of 2.4 million*, *a variance of 180,000* — because the unit is whatever curren
 | Unit | Title | What it is about | Grammar | Page |
 |---|---|---|---|---|
 | | **Starting Point** | Four numbers that are not progress | | 5 |
-| 1 | **Forty-One Per Cent of What** | Earned value | Ratios and indices | 9 |
+| 1 | **Forty-One Percent of What** | Earned value | Ratios and indices | 9 |
 | 2 | **Behind, in Weeks** | Earned schedule | Progress in time | 31 |
 | 3 | **The One Technique We Use** | Risk assessment techniques | Contrast and comparison | 54 |
 | 4 | **Quality Is Not an Inspection** | Quality in projects | The passive with modals | 77 |
