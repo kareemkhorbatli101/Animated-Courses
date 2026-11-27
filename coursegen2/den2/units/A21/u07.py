@@ -1233,6 +1233,6 @@ p10_recap=['You can send a patient home in two minutes with four sentences they 
            'You can take an evening call, ask three questions, give one instruction with '
            'a number in it, and write six lines about it.',
            'Unit 8 takes the same appointment and gives it to a patient who is '
-           'frightened, which changes the order of everything you have learnt.'],
+           'frightened, which changes the order of everything in this book.'],
 p10_ask='Send the person next to you home, with the book closed, in ninety seconds.',
 )

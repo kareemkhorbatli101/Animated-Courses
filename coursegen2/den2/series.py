@@ -99,6 +99,8 @@ COVER_PEOPLE = ['Nadia Haddad', 'Mei-Ling Chen', 'Amara Okonkwo', 'Hugo Lindqvis
 
 # Words this series is allowed to use above the band because they are its subject.
 DOMAIN = """injection injections drill drills drilled
+antibiotic antibiotics surgical specialist specialists
+relief relieve relieves relieved
 acid acids pressure numb numbness ligament ligaments
 cavitation cavitated cavitations
 distobuccal distolingual mesiobuccal mesiolingual site sites
