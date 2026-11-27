@@ -428,7 +428,16 @@ photocopiable=dict(
         '6  The check.      Are you happy for me to start?',
         'Will and about travel together. Never say takes for a future promise.',
         'Each step is its own sentence. Stop after each one.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('A PLAN, IN THE ORDER IT IS SAID',
+    ['The finding.  I have found \u2026 in \u2026',
+     'The plan.  The plan for today is \u2026, in three steps.',
+     'The steps.  First \u2026  Then \u2026  After that \u2026',
+     'The length.  It will take about \u2026 minutes.',
+     'The cost.  It costs \u2026  /  The cost is as we agreed.',
+     'The check.  Are you happy for me to start?'],
+    stop_points=[6],
+    note='Length and cost before you start. Nobody agrees to a surprise.'),
+ fig_cap='The six lines of a spoken plan, ending with the one that asks.'),
 
 defects=[
  'Writing the sample answer for 6.2 showed that the unit asked learners to answer how '

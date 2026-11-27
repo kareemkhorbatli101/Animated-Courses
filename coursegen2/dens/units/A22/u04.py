@@ -168,7 +168,9 @@ vocab_tasks=[
           ('mesial / distal / anterior / dentine', 'dentine'),
           ('palatal / lingual / labial / cervical', 'cervical')]),
 
- dict(kind='short', rubric='Name the surface. Give the term, and say what it faces.',
+ dict(kind='short',
+   pics=['buccal', 'palatal', 'lingual', 'mesial'],
+   rubric='Name the surface. Give the term, and say what it faces.',
    example='the outer surface of a lower molar  (buccal, because it faces the cheek)',
    pairs=[('the outer surface of a lower molar',
            'buccal, because it faces the cheek'),
@@ -269,7 +271,9 @@ g_tasks=[
           ('Caries between two molars is described as   a) occlusal   b) interproximal   '
            'c) cervical', 'b')]),
 
- dict(kind='short', rubric='Rewrite each description as a definition, using which faces '
+ dict(kind='short',
+   pics=['mesial', 'distal', 'occlusal', 'interproximal'],
+   rubric='Rewrite each description as a definition, using which faces '
                            'and is called.',
    example='buccal: the cheek  (The surface which faces the cheek is called the buccal '
            'surface.)',

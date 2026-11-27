@@ -116,7 +116,16 @@ def endpart(ctx, out, key, title, lines, icons=None, question=None, xref=None,
                   cap or 'What this part gave you, in one picture.', xref=xref)
     ctx.recaps[fid] = rkey
     ctx.breaks += 1
-    out.append(R.pagebreak())
+    # The page break lives INSIDE the closing caption's paragraph, as its
+    # last run. A separate break paragraph - even a one-point one - can fail
+    # to fit at the foot of a flush page, spill over as an invisible line,
+    # and blank the page it lands on. A run inside the caption cannot: the
+    # caption's own line ends the page. Found when the blank-page gate
+    # refused a verify over a single page, after the one-point paragraph had
+    # already cured thirty-five of thirty-six.
+    last = out[-1]
+    assert last.endswith('</w:p>'), 'a caption must close the part'
+    out[-1] = last[:-len('</w:p>')] + '<w:r><w:br w:type="page"/></w:r></w:p>'
 
 
 # ------------------------------------------------------------- shuffling

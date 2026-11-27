@@ -239,7 +239,9 @@ g_tasks=[
           ('We will finish   a) soon   b) by half past ten   c) when we finish', 'b'),
           ('If it hurts   a) tell me   b) try not to worry   c) it will stop', 'a')]),
 
- dict(kind='short', rubric='Make the list into a plan. Write one sentence.',
+ dict(kind='short',
+   pics=['a plan', 'a step', 'a treatment', 'to take (time)'],
+   rubric='Make the list into a plan. Write one sentence.',
    example='Numb. Clean. Fill.  (First I will numb the tooth, then I will clean it, and '
            'after that I will fill it.)',
    how='Use first, then and after that in one sentence.',

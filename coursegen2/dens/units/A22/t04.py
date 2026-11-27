@@ -455,7 +455,19 @@ photocopiable=dict(
         'PATTERN.     The surface which faces X is called the Y surface.',
         'CORRECTION.  An incisal edge rather than an occlusal surface.',
         'RULE.        A surface you could not inspect reads NOT VISIBLE, never sound.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').mini_table('EVERY SURFACE, FROM ONE PRINCIPLE',
+    ['It faces', 'So it is called'],
+    [['the cheek', 'buccal'],
+     ['the lip (anterior teeth)', 'labial'],
+     ['the tongue', 'lingual'],
+     ['the palate (upper arch only)', 'palatal'],
+     ['towards the midline', 'mesial'],
+     ['away from the midline', 'distal'],
+     ['the opposing teeth (posterior)', 'occlusal'],
+     ['the opposing teeth (anterior edge)', 'incisal']],
+    note='Interproximal: between two neighbouring teeth, and cannot be seen.'),
+ fig_cap='The whole naming system as one table: photocopy this page and learn the '
+         'left column first.'),
 
 defects=[
  'Writing the sample answer for 6.3 showed that the unit asked learners to explain a '

@@ -644,6 +644,49 @@ def icon(name, cx, cy, s=1.0, col=None):
         o.append(R(-60, -14, 120, 28, BONE))
         for gx, gy in ((-60, -14), (-60, 14), (60, -14), (60, 14)):
             o.append(C_(gx, gy, 18, BONE))
+    elif name in ('mesial', 'distal', 'buccal', 'lingual', 'palatal',
+                  'occlusal', 'incisal', 'interproximal'):
+        # The surfaces, drawn from the unit's own principle: every surface is
+        # named by what it faces. A crown seen from above, the named face in
+        # red, and the thing it faces beside it - a cheek, a tongue, the
+        # palate, the midline.
+        RING = '#B3261E'
+        if name == 'interproximal':
+            o.append(R(-56, -42, 46, 84, ENAMEL, r=14))
+            o.append(R(10, -42, 46, 84, ENAMEL, r=14))
+            o.append(C_(0, 0, 17, 'none', RING))
+        elif name == 'incisal':
+            o.append(_tooth_glyph(cx - 34*s, cy - 42*s, 68*s, 96*s, 'incisor'))
+            o.append(L(-22, -42, 22, -42, RING, 9))
+        else:
+            o.append(R(-40, -44, 88, 88, ENAMEL, r=16))
+            o.append(L(-18, 0, 26, 0, LEAD, 4))
+            o.append(L(4, -18, 4, 18, LEAD, 4))
+            if name == 'occlusal':
+                o.append(R(-40, -44, 88, 88, 'none', RING, r=16))
+            elif name == 'buccal':
+                o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                           % (cx-74*s, cy-46*s, cx-56*s, cy, cx-74*s, cy+46*s),
+                           w=6))
+                o.append(L(-40, -40, -40, 40, RING, 9))
+            elif name == 'lingual':
+                o.append(C_(70, 0, 20, GUM))
+                o.append(L(48, -40, 48, 40, RING, 9))
+            elif name == 'palatal':
+                o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                           % (cx-48*s, cy-66*s, cx+4*s, cy-96*s, cx+56*s, cy-66*s),
+                           w=6))
+                o.append(L(-36, -44, 44, -44, RING, 9))
+            elif name == 'mesial':
+                for yy in (-40, -8, 24):
+                    o.append(L(74, yy, 74, yy + 18, LEAD, 5))
+                o.append(L(48, -40, 48, 40, RING, 9))
+                o.append(L(8, 32, 40, 32, RING, 5))
+            else:  # distal
+                for yy in (-40, -8, 24):
+                    o.append(L(74, yy, 74, yy + 18, LEAD, 5))
+                o.append(L(-40, -40, -40, 40, RING, 9))
+                o.append(L(24, 32, -8, 32, RING, 5))
     elif name in ('enamel', 'dentine', 'pulp', 'cementum', 'crown', 'root'):
         # A tooth in section, every layer in its true colour, with a red ring
         # round the layer the word names. Until this existed, the eight words
@@ -736,10 +779,11 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''bone book bowl brush calendar canine card cementum chair
-clock crown cross dentine door ear enamel flash form gloves gum incisor light
-lips mask mirror molar mouth pen person phone pill premolar probe pulp root
-speech tick tooth tray water xray'''.split())
+ICON_NAMES = set('''bone book bowl brush buccal calendar canine card cementum
+chair clock crown cross dentine distal door ear enamel flash form gloves gum
+incisal incisor interproximal light lingual lips mask mesial mirror molar mouth
+occlusal palatal pen person phone pill premolar probe pulp root speech tick
+tooth tray water xray'''.split())
 
 
 def as_icon(name):
@@ -785,9 +829,9 @@ ICON_FOR = {
  'signal': 'person', 'stop': 'cross', 'lift': 'person', 'feel': 'ear',
  'break': 'clock', 'uncomfortable': 'chair', 'carry on': 'tick',
  'moment': 'clock',
- 'mesial': 'tooth', 'distal': 'tooth', 'buccal': 'tooth', 'lingual': 'tooth',
- 'palatal': 'tooth', 'occlusal': 'tooth', 'incisal': 'tooth',
- 'interproximal': 'xray',
+ 'mesial': 'mesial', 'distal': 'distal', 'buccal': 'buccal',
+ 'lingual': 'lingual', 'palatal': 'palatal', 'occlusal': 'occlusal',
+ 'incisal': 'incisal', 'interproximal': 'interproximal', 'labial': 'lips',
  'mouth mirror': 'mirror', 'periodontal probe': 'probe', 'excavator': 'probe',
  'tweezers': 'tray', 'scaler': 'brush', 'handpiece': 'probe',
  'syringe': 'cross', 'bur': 'probe', 'cotton roll': 'tray',
