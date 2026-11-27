@@ -129,6 +129,32 @@
     });
   }
 
+  /* ---------- quotation checking, at module level so a gate can press it ---------- */
+  function loose(s) {
+    return String(s || '').toLowerCase()
+      .replace(/[’‘]/g, "'").replace(/[“”]/g, '"')
+      .replace(/[^a-z0-9' ]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  IWR.verifyQuotes = function (reply, source) {
+    var src = loose(source);
+    var dropped = 0;
+    var outText = String(reply).replace(
+      /[“"]([^“”"\n]{25,400})[”"]/g,
+      function (all, q) {
+        var needle = loose(q);
+        if (!needle || src.indexOf(needle) >= 0) return all;
+        dropped++;
+        return '[quotation removed — these words are not in your essay]';
+      });
+    return dropped
+      ? outText + '\n\n*' + dropped + ' quotation' + (dropped === 1 ? '' : 's')
+        + ' removed: the marker claimed words that are not in what you wrote.*'
+      : outText;
+  };
+
   /* ---------- a panel that degrades to the clipboard ---------- */
   function aiPanel(parent, build, opts) {
     opts = opts || {};
@@ -564,15 +590,20 @@
       IWR.put('s7', { text: text, words: n, scored: true, done: n >= 250 });
     });
 
-    /* Drop any quotation the model claims but the learner did not write. */
-    function verifyQuotes(reply, source) {
-      var src = IWR.sections.norm(source);
-      return String(reply).replace(/[“"]([^”"]{12,})[”"]/g, function (all, q) {
-        return src.indexOf(IWR.sections.norm(q)) >= 0
-          ? all
-          : '[a quotation was dropped here: the marker claimed words that are not in your essay]';
-      });
-    }
+    /* Drop any quotation the model claims but the learner did not write.
+     *
+     * THE FIRST VERSION ACCUSED THE MODEL OF INVENTING WORDS IT HAD COPIED CORRECTLY. Its
+     * pattern allowed 12 characters and did not exclude newlines, so a span could open at a
+     * quote on one line - inside a list like ("art", "money", "hospital") - and run on to a
+     * closing quote on the NEXT line. What it then looked up was a stretch of the marker's own
+     * prose, which of course is not in the learner's essay, so a real quotation was replaced
+     * and the sentence around it was left in pieces.
+     *
+     * So: a candidate quotation is at least 25 characters, contains no line break and no
+     * further quote mark, and is matched with punctuation and case ignored - a marker that
+     * writes "Art make people happy" for "art make people happy." has still quoted correctly.
+     * When one genuinely cannot be found, only the quotation is replaced, by a short note. */
+    var verifyQuotes = IWR.verifyQuotes;
 
     var saved = IWR.get('s7');
     if (saved && saved.text) ta.value = saved.text;
