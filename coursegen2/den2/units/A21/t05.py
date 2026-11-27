@@ -435,7 +435,18 @@ photocopiable=dict(
         '7  The check.      Are you ready for me to start?',
         'If it hurts — present tense after if, always.',
         'A promise with a condition in it is not a promise.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('AGREEING A SIGNAL, IN THE ORDER IT IS SAID',
+    ['The offer.  You can stop me at any time.',
+     'The signal.  Lift your left hand, like this.  SHOW IT.',
+     'No speaking.  You do not have to say anything.',
+     'The promise.  I will stop, and take everything out first.',
+     'The practice.  Try it once for me now.  FIVE SECONDS.',
+     'The reasons.  If it hurts, or if you need a break.',
+     'The check.  Are you ready for me to start?'],
+    stop_points=[5],
+    note='The practice step is the one that gets dropped, and the one that makes the '
+         'signal real.'),
+ fig_cap='The seven moves of the agreement, with the five-second step marked.'),
 
 defects=[
  'Writing the sample answer for 9.1 showed that the unit told learners to promise to '

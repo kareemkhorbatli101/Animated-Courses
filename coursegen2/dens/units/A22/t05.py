@@ -458,7 +458,14 @@ photocopiable=dict(
         'DESIGN.     Blunt SO THAT it does not cut the tissue.',
         'PLURAL.     Tweezers ARE used. Never tweezers is used.',
         'RULE.       Ask by name. A description is answered by whatever matches it.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').instrument_plate('FOUR PURPOSES, ONE INSTRUMENT EACH',
+    [('TO SEE — a mouth mirror', 'mirror', 'and it holds the cheek away as well'),
+     ('TO FEEL — the two probes', 'perioprobe',
+      'the sharp one feels; this blunt, marked one measures'),
+     ('TO REMOVE — a scaler', 'scaler', 'with the excavator and the handpiece'),
+     ('TO CARRY — tweezers', 'tweezers', 'and a syringe to deliver')],
+    note='One drawn instrument per purpose. The other four are named beside them.'),
+ fig_cap='The four purposes, each with the instrument a learner will point to first.'),
 
 defects=[
  'Writing the sample answer for 6.2 showed that the unit asked learners to request six '

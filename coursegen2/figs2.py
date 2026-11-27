@@ -546,6 +546,54 @@ def icon(name, cx, cy, s=1.0, col=None):
         o.append(L(-62, 44, 14, -14, METAL, 12))
         o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
                    % (cx+14*s, cy-14*s, cx+52*s, cy-46*s, cx+34*s, cy-72*s), w=7))
+    elif name == 'perioprobe':
+        # Blunt, marked in millimetres: the pair of the sharp probe above,
+        # and the difference IS the picture.
+        o.append(L(-62, 44, 2, -6, METAL, 12))
+        o.append(L(2, -6, 44, -62, LEAD, 9))
+        for g in range(4):
+            gx, gy = 8 + g * 10, -14 - g * 13.3
+            o.append(L(gx - 7, gy - 5, gx + 7, gy + 5, '#FFFFFF', 4))
+        o.append(C_(46, -64, 7, LEAD, st=None))
+    elif name == 'excavator':
+        o.append(L(-62, 44, 6, -10, METAL, 12))
+        o.append(C_(38, -42, 26, '#FFFFFF'))
+    elif name == 'tweezers':
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                   % (cx-26*s, cy+64*s, cx-34*s, cy-20*s, cx-5*s, cy-66*s), w=8))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                   % (cx+26*s, cy+64*s, cx+34*s, cy-20*s, cx+5*s, cy-66*s), w=8))
+        o.append(C_(0, 60, 9, METAL))
+    elif name == 'scaler':
+        o.append(L(-62, 44, 0, -6, METAL, 12))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f'
+                   % (cx, cy-6*s, cx+40*s, cy-52*s, cx+56*s, cy-14*s), w=8))
+    elif name == 'handpiece':
+        o.append(L(-62, 52, -18, 14, METAL, 14))
+        o.append(R(-26, -34, 76, 50, '#FFFFFF', r=22))
+        o.append(C_(58, -8, 20, METAL))
+        o.append(L(58, 12, 58, 44, LEAD, 7))
+    elif name == 'syringe':
+        o.append(R(-44, -16, 76, 32, PLASTIC, r=8))
+        o.append(L(-44, 0, -70, 0, LEAD, 6))
+        o.append(R(-78, -13, 10, 26, METAL, r=4))
+        o.append(L(32, 0, 74, 0, LEAD, 5))
+    elif name == 'bur':
+        o.append(L(0, 52, 0, -4, METAL, 10))
+        o.append(C_(0, -30, 24, METAL))
+        for g in (-16, 0, 16):
+            o.append(L(g, -50, g, -10, LEAD, 4))
+    elif name == 'hand':
+        # A lifted hand: the signal this book's unit 5 turns on.
+        o.append(R(-30, -14, 60, 66, SKIN['3'], r=20))
+        for i, fx in enumerate((-24, -9, 6, 21)):
+            fh = (44, 56, 52, 40)[i]
+            o.append(R(fx, -14 - fh, 13, fh + 10, SKIN['3'], r=7))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f L %.1f %.1f Z'
+                   % (cx-30*s, cy+6*s, cx-56*s, cy+2*s, cx-52*s, cy+34*s,
+                      cx-30*s, cy+38*s), f=SKIN['3']))
+        o.append(L(-52, -58, -40, -44, c, 6))
+        o.append(L(52, -58, 40, -44, c, 6))
     elif name == 'light':
         o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
                    % (cx-54*s, cy-40*s, cx+54*s, cy-40*s, cx+34*s, cy+10*s, cx-34*s, cy+10*s),
@@ -779,11 +827,12 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''bone book bowl brush buccal calendar canine card cementum
-chair clock crown cross dentine distal door ear enamel flash form gloves gum
-incisal incisor interproximal light lingual lips mask mesial mirror molar mouth
-occlusal palatal pen person phone pill premolar probe pulp root speech tick
-tooth tray water xray'''.split())
+ICON_NAMES = set('''bone book bowl brush buccal bur calendar canine card cementum
+chair clock crown cross dentine distal door ear enamel excavator flash form
+gloves gum hand handpiece incisal incisor interproximal light lingual lips mask
+mesial mirror molar mouth occlusal palatal pen perioprobe person phone pill
+premolar probe pulp root scaler speech syringe tick tooth tray tweezers water
+xray'''.split())
 
 
 def as_icon(name):
@@ -826,15 +875,16 @@ ICON_FOR = {
  # says less than no picture at all.
  'plan': 'form', 'treatment': 'tooth', 'step': 'tick', 'explain': 'speech',
  'agree': 'tick', 'cost': 'card', 'take': 'clock', 'ready': 'tick',
- 'signal': 'person', 'stop': 'cross', 'lift': 'person', 'feel': 'ear',
+ 'signal': 'hand', 'stop': 'cross', 'lift': 'hand', 'feel': 'ear',
  'break': 'clock', 'uncomfortable': 'chair', 'carry on': 'tick',
  'moment': 'clock',
  'mesial': 'mesial', 'distal': 'distal', 'buccal': 'buccal',
  'lingual': 'lingual', 'palatal': 'palatal', 'occlusal': 'occlusal',
  'incisal': 'incisal', 'interproximal': 'interproximal', 'labial': 'lips',
- 'mouth mirror': 'mirror', 'periodontal probe': 'probe', 'excavator': 'probe',
- 'tweezers': 'tray', 'scaler': 'brush', 'handpiece': 'probe',
- 'syringe': 'cross', 'bur': 'probe', 'cotton roll': 'tray',
+ 'mouth mirror': 'mirror', 'periodontal probe': 'perioprobe',
+ 'excavator': 'excavator', 'tweezers': 'tweezers', 'scaler': 'scaler',
+ 'handpiece': 'handpiece', 'syringe': 'syringe', 'bur': 'bur',
+ 'cotton roll': 'tray', 'tip': 'probe', 'blunt': 'perioprobe',
  # Units 6 to 10 of both books. Same reason as above: every word that reaches
  # a card needs a picture it has earned, and the fallback cannot earn one.
  'pressure': 'gloves', 'sharp': 'probe', 'numb': 'mask', 'still': 'tick',

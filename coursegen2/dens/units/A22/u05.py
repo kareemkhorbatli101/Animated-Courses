@@ -176,6 +176,7 @@ vocab_tasks=[
                            'Use is used to or is used for.',
    example='a mouth mirror  (The mouth mirror is used to see surfaces you cannot look at '
            'directly.)',
+   pics=['a mouth mirror', 'a periodontal probe', 'an excavator', 'a handpiece'],
    pairs=[('a mouth mirror',
            'The mouth mirror is used to see surfaces you cannot look at directly.'),
           ('a periodontal probe',
@@ -282,6 +283,7 @@ g_tasks=[
                            'meaning.',
    example='The scaler is used to remove calculus.  (The scaler is used for removing '
            'calculus.)',
+   pics=['a scaler', 'tweezers', 'a mouth mirror', 'a handpiece'],
    how='If the sentence has to, use for, and if it has for, use to.',
    pairs=[('The scaler is used to remove calculus.',
            'The scaler is used for removing calculus.'),
