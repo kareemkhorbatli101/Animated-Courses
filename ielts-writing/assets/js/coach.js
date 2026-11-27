@@ -179,7 +179,7 @@
       out.hidden = false;
       out.textContent = 'Thinking…';
       callModel(prompt, function (text) {
-        out.textContent = text;
+        out.innerHTML = IWR.markdown(text);        /* escaped inside markdown(), never raw */
         said.push(text);
       }).catch(function (err) {
         /* The failure says what went wrong and OFFERS the question; it does not dump the whole
@@ -217,7 +217,16 @@
       'Choose a word or expression and write your own sentence with it. '
       + 'You will get real feedback on it — not a score.');
     var sel = el('select', 'sel');
-    sel.appendChild(el('option', '', 'Choose a word…'));
+    /* THE PLACEHOLDER MUST HAVE AN EMPTY VALUE.
+     *
+     * An <option> with no value attribute returns its own TEXT from .value, so the placeholder
+     * read "Choose a word..." - a perfectly truthy string. Every guard here says `if
+     * (!sel.value) return`, so pressing the button before choosing sent the model the
+     * expression "choose a word", and it dutifully wrote three example sentences using the
+     * phrase "choose a word". The owner saw exactly that. */
+    var ph = el('option', '', 'Choose a word…');
+    ph.value = '';
+    sel.appendChild(ph);
     list.forEach(function (x) {
       var o = el('option', '', esc(x));
       o.value = x;
@@ -262,6 +271,7 @@
          the learner to have written anything - it needs to know what it has already shown, so
          each press gives a genuinely new set rather than the same three again. */
       if (kind === 'again') {
+        if (!sel.value) { hint.textContent = 'Choose a word first.'; return null; }
         var lines = ['The expression: ' + sel.value,
           'How it is used in the model essay: ' + defOf(sel.value),
           ''];
@@ -547,7 +557,7 @@
       out.hidden = false;
       out.textContent = 'Marking…';
       callModel(prompt, function (reply) {
-        out.textContent = verifyQuotes(reply, text);
+        out.innerHTML = IWR.markdown(verifyQuotes(reply, text));
       }).catch(function (err) {
         out.textContent = 'That did not work: ' + (err && err.message ? err.message : err);
       }).then(function () { score.disabled = false; refresh(); });

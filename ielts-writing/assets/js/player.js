@@ -269,17 +269,24 @@
      IWR.s7(E), S.s8(E)].forEach(function (node) {
       if (node) wrap.appendChild(node);
     });
-    var nav = el('div', 'btn-row');
-    if (E.prev) {
-      var a = el('a', 'btn', '← ' + esc(E.prev.title));
-      a.href = '../' + E.prev.category_slug + '/' + E.prev.slug + '.html';
-      nav.appendChild(a);
+    /* The foot of the page is built by nav.js from the catalogue, which knows the whole book;
+       the prev/next baked into this page's own data is the fallback for a page opened without
+       the catalogue (from a folder, say). */
+    if (typeof IWR.nav === 'function' && w.IWR_INDEX) {
+      IWR.nav(E);
+    } else {
+      var nav = el('div', 'btn-row');
+      if (E.prev) {
+        var a = el('a', 'btn', '← ' + esc(E.prev.title));
+        a.href = '../' + E.prev.category_slug + '/' + E.prev.slug + '.html';
+        nav.appendChild(a);
+      }
+      if (E.next) {
+        var b = el('a', 'btn', esc(E.next.title) + ' →');
+        b.href = '../' + E.next.category_slug + '/' + E.next.slug + '.html';
+        nav.appendChild(b);
+      }
+      wrap.appendChild(nav);
     }
-    if (E.next) {
-      var b = el('a', 'btn', esc(E.next.title) + ' →');
-      b.href = '../' + E.next.category_slug + '/' + E.next.slug + '.html';
-      nav.appendChild(b);
-    }
-    wrap.appendChild(nav);
   };
 })(window, document);

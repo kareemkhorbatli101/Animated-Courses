@@ -9,7 +9,7 @@ Interactive courses that run in the browser - English for work, accounting, and 
 
 ## The courses
 
-There are 7 courses on this site. They are the whole of it; anything listed further down is an experiment and is not a course.
+There are 20 courses on this site. They are the whole of it; anything listed further down is an experiment and is not a course.
 
 ### Al-Hasan International — English for Trade & Industry
 
@@ -20,7 +20,6 @@ Ten complete units: enquiries and quotations, orders and documents, shipping and
 - 10 units
 - 652 exercises
 - 2,714 questions
-- 2,257 recordings
 
 Opens at: alhasan/book1/index.html
 
@@ -28,12 +27,11 @@ Opens at: alhasan/book1/index.html
 
 Level and subject: Professional · CMA Part 1
 
-The CMA syllabus rewritten at a readable level, with Arabic bridges for every technical term. All four books are built; the figures recompute from the chapter on each load.
+The CMA syllabus rewritten at a readable level, with Arabic bridges for every technical term.
 
 - 4 of 4 books
 - 72 chapters
-- 3,843 exercises
-- 372 figures
+- 4,174 exercises
 
 Opens at: cma/index.html
 
@@ -41,12 +39,11 @@ Opens at: cma/index.html
 
 Level and subject: B1 · NGO finance
 
-English for people who keep the books at an NGO — receipts and journals, reporting to donors, and the grammar that carries it. Arabic on every spoken line.
+English for people who keep the books at an NGO — receipts and journals, reporting to donors, and the grammar that carries it.
 
-- 2 of 10 units
-- 42 screens
-- 302 recordings
-- Teacher key
+- 5 of 10 units
+- 105 screens
+- 617 recordings
 
 Opens at: accounting/b1/index.html
 
@@ -54,14 +51,11 @@ Opens at: accounting/b1/index.html
 
 Level and subject: B1 · International · with Arabic
 
-The whole book, all ten units and the three appendices. The daily work of an accounting office — invoices, petty cash, stocktaking, the close and the monthly report — set at Northwind Group in Krak&oacute;w, Singapore and Nairobi, and spoken by a cast from all three. Every passage can be read and heard line by line, and an Arabic guide sits behind every screen.
+The whole book, all ten units and the three appendices.
 
 - 10 of 10 units
 - 220 screens
 - 627 activities
-- 1,765 recordings
-- 815 marked answers
-- Arabic on every spoken line
 
 Opens at: accountants-intl/b1/index.html
 
@@ -69,27 +63,47 @@ Opens at: accountants-intl/b1/index.html
 
 Level and subject: IELTS · Speaking · with Arabic
 
-Ten complete speaking tests, acted out by an examiner and six Syrian candidates. Watch the test, read every line in English and Arabic, then answer the same questions yourself — typed or spoken — and have your answer marked against the IELTS criteria by Gemini, on your own key. Every test is marked in full: a band for each of the four criteria, the candidate's own words as evidence, and the one change that would raise it, read aloud if you would rather listen than read.
+Ten complete speaking tests, acted out by an examiner and six Syrian candidates.
 
 - 10 of 10 tests
 - 40 pages
 - 206 practice questions
-- 660 recordings
-- Arabic on every spoken line
-- Marked answers on your own key
 
 Opens at: ielts/speaking/index.html
+
+### IELTS 2026 · Volume 3
+
+Level and subject: IELTS · 2026 · B2, target band 6.0
+
+Unit 21, Education: Access and Outcomes , in five cycles of reading, listening, speaking and writing — 13 exercises, every answer explained.
+
+- Unit 21 of 21–30
+- 26 screens
+- 71 questions
+
+Opens at: ielts/volume-3/index.html
+
+### Practise IELTS Writing with 250 Essays
+
+Level and subject: IELTS · Writing Task 2 · B2–C1
+
+274 Task 2 questions with a model answer each, every one written to Band 6.5–7 on purpose and carrying the examiner’s reasons for that band.
+
+- 274 essays, 163 at 250+ words
+- 10 live now
+- 22 topic categories
+
+Opens at: ielts-writing/index.html
 
 ### Cybersecurity B1
 
 Level and subject: B1 · Cyber defence
 
-Study skills, career pathways, writing a report and the conversation skills a defender needs on a team. Unit 1 is complete and gated.
+Study skills, career pathways, writing a report and the conversation skills a defender needs on a team.
 
 - Unit 1
 - 21 screens
 - 208 recordings
-- Teacher key
 
 Opens at: cybersecurity/b1/index.html
 
@@ -97,14 +111,145 @@ Opens at: cybersecurity/b1/index.html
 
 Level and subject: B1 · The service department
 
-The parts of a car, the people who work on it, the paper that records the job and the talk that holds it together. Unit 1 is complete, and every section has an acted 3D lesson by the same five people.
+The parts of a car, the people who work on it, the paper that records the job and the talk that holds it together.
 
-- Unit 1
-- 21 screens
-- 54 cards
-- Arabic support
+- Units 1–10
+- 210 screens
+- 483 cards
 
 Opens at: eam/b1/index.html
+
+### English for Banking
+
+Level and subject: B1 · The bank, two tracks
+
+The counter, customer service, everyday transactions, products, digital banking, exchange and transfer, fraud, compliance, saving and corporate banking.
+
+- Units 1–10
+- 201 screens
+- 522 cards
+
+Opens at: banking/b1/index.html
+
+### English for the Hospitality Industry
+
+Level and subject: A2 → B1 · Hotels, restaurants and caf&eacute;s
+
+Reception, housekeeping, food service, the concierge desk and the duty manager's office.
+
+- Units 1–10
+- 160 screens
+- 424 activities
+
+Opens at: hospitality/b1/index.html
+
+### Proactive Business English — A1, Book 1
+
+Level and subject: A1 · Book 1 · A warehouse in Mezzeh
+
+The gate, the yard, the back store and the trade counter of Sham Trading in Damascus.
+
+- Units 1–6
+- 42 lessons
+- 612 activities
+
+Opens at: pbe/a1b1/index.html
+
+### Proactive Business English — A1, Book 2
+
+Level and subject: A1 · Book 2 · The same warehouse, later
+
+Ammar's second half-year at Sham Trading.
+
+- Units 7–12
+- 42 lessons
+- 612 activities
+
+Opens at: pbe/a1b2/index.html
+
+### Proactive Business English — A2, Book 1
+
+Level and subject: A2 · Book 1 · Nour's first year in the office
+
+Twice the book either A1 volume was.
+
+- Units 1–12
+- 84 lessons
+- 1,248 activities
+
+Opens at: pbe/a2b1/index.html
+
+### Proactive Business English — A2, Book 2
+
+Level and subject: A2 · Book 2 · The same company, a year on
+
+Nour's second year at Sham Trading, and the half of A2 where she stops answering and starts explaining.
+
+- Units 13–24
+- 84 lessons
+- 1,248 activities
+
+Opens at: pbe/a2b2/index.html
+
+### Proactive Business English — B1, Book 1
+
+Level and subject: B1 · Book 1 · Answerable for the account
+
+The year Nour stops reporting what happened and starts being held to what she wrote.
+
+- Units 1–12
+- 84 lessons
+- 1,248 activities
+
+Opens at: pbe/b1b1/index.html
+
+### Proactive Business English — B1, Book 2
+
+Level and subject: B1 · Book 2 · The year she is asked to decide
+
+The half of B1 where writing something down makes you answerable for it.
+
+- Units 13–24
+- 84 lessons
+- 1,248 activities
+
+Opens at: pbe/b1b2/index.html
+
+### Proactive Business English — B2, Book 1
+
+Level and subject: B2 · Book 1 · The year he is asked to advise
+
+The half of B2 where being right stops being enough and you have to be able to show it.
+
+- Units 1–12
+- 84 lessons
+- 1,248 activities
+
+Opens at: pbe/b2b1/index.html
+
+### Proactive Business English — B2, Book 2
+
+Level and subject: B2 · Book 2 · The year she is answerable
+
+The half of B2 about documents read by somebody who is not in the room — a tribunal, a successor, a regulator, a reader in five years.
+
+- Units 13–24
+- 84 lessons
+- 1,248 activities
+
+Opens at: pbe/b2b2/index.html
+
+### English for Foreign Ministry Staff
+
+Level and subject: B1.1 · The ministry
+
+Receiving a foreign visitor, coordinating a bilateral meeting, explaining a policy to the press, writing a note verbale and presenting an investment case.
+
+- Units 1–5
+- 115 screens
+- 180 cards
+
+Opens at: fms/b1/index.html
 
 ## The video player, which is not a course either
 
@@ -120,7 +265,7 @@ These are published experiments. Do not count them as courses, and do not descri
 
 Level and subject: Experiment
 
-A small desktop shell that runs in a browser tab. Published so it can be looked at; it is not part of any course.
+A small desktop shell that runs in a browser tab.
 
 - Demo
 

@@ -373,6 +373,60 @@
     return { close: close, box: box };
   };
 
+  /* ---------- the model answers in Markdown, so the page has to read it ----------
+     A language model writes **bold**, ### headings, * bullets and --- rules whether or not you
+     ask it not to, and asking it not to wastes instruction budget on formatting instead of on
+     teaching. So the panel renders a small, safe subset instead of printing the asterisks:
+     the learner was seeing "**IMPORTANT NOTICE:**" and "### Task Response".
+
+     ESCAPED FIRST, ALWAYS. Everything is HTML-escaped before a single tag is introduced, so
+     text coming back from the model - or quoted from the learner's own essay - can never
+     become markup. Only the tags this function creates itself survive. */
+  function mdInline(s) {
+    return esc(s)
+      .replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s).,;:!?]|$)/g, '$1<em>$2</em>')
+      .replace(/`([^`]+)`/g, '<code>$1</code>');
+  }
+
+  IWR.markdown = function (text) {
+    var lines = String(text == null ? '' : text).split(/\r?\n/);
+    var out = [], list = null, i, ln, m;
+
+    function closeList() {
+      if (list) { out.push('</' + list + '>'); list = null; }
+    }
+    for (i = 0; i < lines.length; i++) {
+      ln = lines[i].replace(/\s+$/, '');
+      if (!ln.trim()) { closeList(); continue; }
+      if (/^\s*(---+|\*\*\*+|___+)\s*$/.test(ln)) { closeList(); out.push('<hr>'); continue; }
+      m = ln.match(/^(#{1,6})\s+(.*)$/);
+      if (m) {
+        closeList();
+        var lvl = Math.min(6, m[1].length + 2);      /* a model's ### is not a page heading */
+        out.push('<h' + lvl + '>' + mdInline(m[2]) + '</h' + lvl + '>');
+        continue;
+      }
+      m = ln.match(/^\s*[-*•]\s+(.*)$/);
+      if (m) {
+        if (list !== 'ul') { closeList(); out.push('<ul>'); list = 'ul'; }
+        out.push('<li>' + mdInline(m[1]) + '</li>');
+        continue;
+      }
+      m = ln.match(/^\s*(\d+)[.)]\s+(.*)$/);
+      if (m) {
+        if (list !== 'ol') { closeList(); out.push('<ol>'); list = 'ol'; }
+        out.push('<li>' + mdInline(m[2]) + '</li>');
+        continue;
+      }
+      closeList();
+      out.push('<p>' + mdInline(ln) + '</p>');
+    }
+    closeList();
+    return out.join('');
+  };
+
   IWR.esc = esc;
   IWR.el = el;
   IWR.FLOOR = FLOOR;

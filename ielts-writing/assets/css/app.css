@@ -76,6 +76,11 @@ a { color: var(--accent); }
 .top .crumb { font-size: 13px; color: var(--ink-soft); min-width: 0; }
 .top .crumb a { text-decoration: none; }
 .top .spacer { flex: 1 1 auto; }
+.navpick { display: flex; gap: 8px; flex-wrap: wrap; min-width: 0; }
+.navpick .sel-sm { font-size: 13px; padding: 5px 8px; max-width: 46vw; }
+@media (min-width: 700px) { .navpick .sel-sm { max-width: 260px; } }
+.navfoot .btn-row { margin-top: 8px; }
+.navfoot .counter { min-width: 112px; }
 
 /* ---------- cards ---------- */
 .card {
@@ -122,6 +127,9 @@ a { color: var(--accent); }
   border: 1px solid var(--line); background: var(--card); color: var(--ink);
 }
 .btn:hover { border-color: var(--accent); color: var(--accent); }
+/* a link styled as a button is still a link, and the browser underlines it */
+a.btn { text-decoration: none; display: inline-block; }
+a.chip { text-decoration: none; }
 .btn-primary { background: var(--accent); border-color: transparent; color: var(--accent-ink); font-weight: 600; }
 .btn-primary:hover { color: var(--accent-ink); opacity: .92; }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
@@ -219,7 +227,20 @@ select.sel {
 .qlist li:last-child { border-bottom: 0; }
 .qlist button { display: block; width: 100%; text-align: left; font: inherit; font-size: 14px; padding: 11px 13px; background: none; border: 0; color: var(--ink); cursor: pointer; }
 .qlist button:hover { background: var(--accent-soft); color: var(--accent); }
-.answer { margin-top: 12px; padding: 12px; background: var(--chip); border-radius: 10px; font-size: 15px; white-space: pre-wrap; }
+/* The model's answer is rendered Markdown, not preformatted text: pre-wrap here would keep
+   every blank line the model emitted and the result read as a dump. */
+.answer { margin-top: 12px; padding: 12px 14px; background: var(--chip); border-radius: 10px; font-size: 15px; }
+.answer > *:first-child { margin-top: 0; }
+.answer > *:last-child { margin-bottom: 0; }
+.answer p { margin: 0 0 9px; }
+.answer h3, .answer h4, .answer h5, .answer h6 {
+  margin: 14px 0 6px; font-size: 15px; color: var(--accent);
+}
+.answer ul, .answer ol { margin: 0 0 10px; padding-left: 22px; }
+.answer li { margin: 0 0 4px; }
+.answer hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }
+.answer code { font-family: ui-monospace, Consolas, monospace; font-size: 13px; background: var(--card); padding: 1px 5px; border-radius: 5px; }
+.answer strong { font-weight: 700; }
 
 /* ---------- the reading player ---------- */
 /* align-items:start, or the diagram cell stretches to the height of the essay column and the
