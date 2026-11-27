@@ -231,3 +231,70 @@ Five units each, written to the model this evaluation produced rather than
 fitted to it afterwards. The page count the round was told not to change is
 unchanged per unit; the books are longer because there are more units, which is
 what was asked for.
+
+## 6  Rounds five and six: ten units a book
+
+Rounds five and six added units 6 and 7, then 8, 9 and 10, to both pilot books,
+on the same standing instruction: no regression, no omissions, no drift, no
+invention, and every unit through the full gate set with no warnings. Both books
+are now complete at ten units and both report zero failures and zero warnings
+across all ten.
+
+### 6.1  What the gates caught, and what they did not
+
+The gate set written in round four did its job on the new units, and the
+distribution of what it caught is itself a result:
+
+* **Level guard:** about a hundred and twenty hits across the five student-book
+  units, every one cleared by paraphrase or by adding the word to the right
+  list. The clinical ones went to `DOMAIN` (*carious*, *progression*,
+  *radiography*, *superimposition*, *demineralisation* and its family,
+  *radiolucency*, *apex*, *artefact*, *bitewing*); the academic register went to
+  `ACADEMIC` (*extensive*, *provisional*, *prioritise*, *justification*,
+  *confined*, *prediction*, *pending*); the genuinely ordinary words went to B1
+  (*mend*, *sip*, *ache*, *urgent*, *absent*, *faulty*, *hidden*, *heavily*,
+  *advise*, *connection*, *quote*). Everything else was rewritten — *hedge*,
+  *refusal*, *oneself*, *fortnight*, *compromise*, *ritual*, *whom* — because a
+  dentist writes those without thinking and an A2.2 reader cannot read them yet.
+* **`check_recycle`** caught review 10.5 of student unit 10 reprinting four of
+  six stems from vocabulary 3.4. Both were sorts and the stems had drifted into
+  each other while the unit was being written. The review now sorts six
+  different lines drawn from across the whole book, which is what a review in
+  the last unit should do anyway.
+* **Reading and listening length bands** caught six texts outside their bands,
+  all of them short rather than long. Each was lengthened with material that
+  does work — an interproximal paragraph in the caries textbook page, two
+  paragraphs about why the instruction was followed in the sugar case, three
+  short ones in the patient leaflet — rather than padded.
+
+What the gates did not catch was the contents page, which had described a
+different book for five units of each volume. §14.3 of `DESIGN.md` has the
+reason: it is built from a field written in phase 0 and read on every build, and
+no gate reads it. It was found by putting the printed contents beside the
+printed unit headings, which is the same method that found the two figure
+faults in round three and the review-model fault in round four. Reading the
+built artefact has now found a fault in three consecutive rounds, and it is the
+only check in the whole process that does.
+
+### 6.2  Teacher's notes: a count that was being met by the new units only
+
+`taudit.py` has reported pronunciation coverage since round three, and the new
+units met the figure of six core terms in eight. Running it across all twenty
+notes at once showed units 1 to 3 of each book at four or five — the three units
+a new teacher opens first. Twenty-nine notes were added across fourteen files
+and both books now read eight of eight everywhere.
+
+This is a different kind of fault from the contents page. Nothing was wrong; a
+standard was being met on average and not per unit, and an audit that prints a
+number rather than failing a build makes that easy to miss. The number is now
+the same on every unit of both books, which is the only form in which a standard
+of this kind is worth having.
+
+### 6.3  The two books now
+
+Ten units each, ten grammar points each with no repetition between them, and a
+closing unit in each book that runs the whole volume in a single task. The
+per-unit page count is unchanged; the measured page fit was re-run after every
+edit that changed a block or a figure height, never assumed. The practitioner
+book ends by pointing at the second volume; the student book ends by pointing at
+Book 2 of its own series.

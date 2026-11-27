@@ -579,3 +579,96 @@ enough*, *a want of precision* → *a term that is not precise enough*. The
 readings were then rebalanced for mean sentence length, which is a gate in its
 own right: the student book's A2.2 reception band is 12.0–16.5 words, and the
 first draft of unit 4 came in at 18.01.
+
+## 14  Both books complete at ten units
+
+The fifth and sixth rounds added units 6 and 7, then 8, 9 and 10, to each of
+the two pilot books. Ten units closes each volume. Nothing in the model
+changed: the figures, the nine parts, the measured page fit, the gate set and
+the teacher's-book template are all as §13 left them. What the five units
+tested was whether the model survives being used ten times, and the answer was
+yes, with four qualifications that are worth writing down.
+
+### 14.1  What a tenth unit has to do that a fourth does not
+
+Unit 10 of each book is not simply another unit. It is the one the volume ends
+on, and both of them are built to run the whole book in one task:
+
+* **Dentists A2.1** — *When You Cannot Treat Today*. The hardest thing in a
+  practitioner's day: telling somebody who has travelled that nothing is going
+  to be done. Its third speaking task is the whole book in ten minutes: two
+  names and two identifiers from unit 1, the history from unit 3, the signal
+  from unit 5, the checking from unit 6, the no and the instead from unit 10,
+  and what happens afterwards from unit 7.
+* **Dental Students A2.2** — *The Whole Examination, from Greeting to Plan*.
+  Nine steps that gather up the finding from unit 6, the chart from unit 7, the
+  grading from unit 8 and the film from unit 9, and end in a plan somebody else
+  could carry out.
+
+A closing unit of this kind needs a grammar point that is about the whole
+rather than about a part. The practitioner book takes *I cannot …, but I can …*
+— one sentence with two halves, because a patient who hears only the first half
+has been given bad news and nothing to do with it. The student book takes the
+present perfect, because it is the tense of an appointment that is not over:
+*I have examined*, *the chart has been completed*, *the bitewing has not yet
+been taken*. The third of those is the one students leave out, and a handover
+whose second half is missing is the dangerous kind.
+
+### 14.2  Ten grammar points without repetition
+
+Ten units in one volume is the point at which a grammar syllabus either holds
+or starts repeating itself. Both books hold:
+
+| | Dentists A2.1 | Dental Students A2.2 |
+|---|---|---|
+| 1 | present simple for routine | the language of definition |
+| 2 | imperatives, softened | classifying and counting |
+| 3 | past simple for a history | layers and position |
+| 4 | going to, with a length | naming by direction |
+| 5 | offering and agreeing a signal | expressing purpose |
+| 6 | asking during the work | the order of a clinical description |
+| 7 | what is normal, and when to telephone | cause and consequence |
+| 8 | giving control | comparison and degree |
+| 9 | speaking to two people at once | hedged interpretation |
+| 10 | saying no and saying what instead | the present perfect for work completed |
+
+The two columns are not the same syllabus at two levels. The practitioner
+column is spoken language for the next sixty seconds; the student column is
+written language that has to survive being read by somebody else. Units 9 and
+10 of the student book are the clearest case: hedging a radiographic
+interpretation and reporting a completed examination are both about what a
+second reader can check.
+
+### 14.3  The contents page was wrong for five units of each book
+
+A fault found in this round and worth recording, because it was invisible from
+inside the generator. `make2.py` builds the contents page from
+`series.BOOKS[CODE]['units']`, which is the list of titles written in phase 0
+when the books were planned. Units 7 to 10 of the Dentists book and units 6 to
+10 of the Dental Students book have had different titles since they were
+drafted — a unit's title is decided when it is written, not when it is planned
+— and the printed contents said otherwise for five units of each book.
+
+Every gate passed. Nothing in a unit file is wrong. The contents page simply
+described a different book, and the only way to see it was to put the printed
+contents beside the printed unit headings. Both unit lists and both back-cover
+blurbs now describe the books that exist. The lesson is the same one §12.7
+recorded about figures: a generator can only check what it generates from, and
+a field that is written once and read every build will drift silently.
+
+### 14.4  Pronunciation notes: eight of eight, not six
+
+`taudit.py` reports how many of a unit's eight core terms carry a pronunciation
+note. The fourth round set the figure at six of eight and the new units met it.
+Running the audit across all twenty teacher's notes showed that units 1 to 3 of
+each book carried four or five, which is the opposite of what a new teacher
+needs: the first three units are the ones opened first. Twenty-nine notes were
+added across fourteen files, and both books now read eight of eight on every
+unit.
+
+The notes that were missing were the ones that look too easy to need a note:
+*the chair* (learners produce *chay-er*), *a surface* (*ser-FACE*), *the root*
+(shortened towards *foot*), *to feel* (shortened towards *fill*, which is a
+different word at a chairside), *to nod* (the *d* dropped, leaving *no*). A
+long term like *the periodontium* announces that it needs saying aloud. A
+one-syllable term does not, and it is said fifty times a day.
