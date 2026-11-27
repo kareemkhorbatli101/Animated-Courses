@@ -89,7 +89,16 @@ def blank(after=120):
 
 
 def pagebreak():
-    return '<w:p><w:r><w:br w:type="page"/></w:r></w:p>'
+    # A page break used to be an empty paragraph at the default size. Once the
+    # measured fit tuned every part to end flush with the page foot, that
+    # paragraph had nowhere to stand: it spilled onto the next page as a
+    # single invisible line, and its break character then started a further
+    # page. The result was a blank page after almost every part - thirty-six
+    # of them in a two-unit volume, found by counting ink. At one point of
+    # height the paragraph fits inside any slack the safety margin leaves.
+    tiny = '<w:rPr>' + FONT + sz(2) + '</w:rPr>'
+    return ('<w:p><w:pPr>' + sp(after=0, before=0) + tiny + '</w:pPr>'
+            '<w:r>' + tiny + '<w:br w:type="page"/></w:r></w:p>')
 
 
 def unit_band(num, title):

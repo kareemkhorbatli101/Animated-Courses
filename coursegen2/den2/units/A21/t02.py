@@ -337,7 +337,15 @@ photocopiable=dict(
         'The dentist either says “yes” or says the line again. Silence is not agreement.',
         'Only then is it written.',
         'If a line is changed later, it is added with today’s date. Nothing is rubbed out.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('THE FOUR-STEP READ-BACK',
+    ['The dentist says the quadrant, then the tooth, then the finding.',
+     'The nurse says the whole line back.',
+     'The dentist says yes, or says the line again.',
+     'Only then is it written.'],
+    stop_points=[3],
+    note='Silence is not agreement. Nothing is ever rubbed out.'),
+ fig_cap='The read-back as four steps: photocopy this page and keep it where the '
+         'charting happens.'),
 )
 T['defects'] = list(T.get('defects', [])) + [
  'Writing case 1 showed that nowhere in the unit does a nurse actually say a line back '

@@ -278,3 +278,33 @@ So that nobody spends time re-checking it:
 * The page fit is measured, not assumed, and converged to 34pt.
 * Tier A readings and cases carry their sources.
 * Every figure is drawn from source at 300 dpi; none is stock.
+
+---
+
+## Addendum, found during the chapter-at-a-time pass
+
+### A1. FIXED: a blank page after almost every part
+
+Counting ink across a built volume showed 36 entirely blank pages in 206 — one
+after nearly every part, in every book built since the measured fit was
+introduced. The ten-unit volumes delivered earlier carry roughly 200 of them
+each; about a fifth of their page count is blank paper.
+
+The cause is the interaction of two correct things. The measured fit grows each
+part's closing figure until the part ends flush with the page foot — that is
+its whole purpose. The page break after the part was an empty paragraph at the
+default size. On a flush page that paragraph has nowhere to stand: it spills
+onto the next page as a single invisible line, and its break character then
+starts a further page. The blank page is the spilled paragraph.
+
+Fixed in `render.pagebreak()`: the break paragraph is now one point tall, so it
+fits inside any slack the 34pt safety margin leaves. The two-unit volumes drop
+from 200 and 206 pages to 161 and 170.
+
+**Guard:** `fitpass.py` now counts ink on every page of every pass and prints
+`BLANK PAGES: n at [...]`; in `--verify` mode a book with any blank page fails
+the build. This also covers the part of §6 that was about pages nobody
+measures: every page is now at least checked for being empty.
+
+The ten-unit `*_print.docx` files delivered before this fix still contain their
+blank pages. The fix reaches them with the next full rebuild (§11).

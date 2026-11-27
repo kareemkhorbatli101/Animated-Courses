@@ -170,6 +170,7 @@ vocab_tasks=[
             note='None of these four has been taught to you. You can read all four.'),
       fig_cap='Four more terms built from parts you now have.'),
  dict(kind='short', rubric='Write the FDI number.',
+   pics=['an incisor', 'a canine', 'a premolar', 'a molar'],
       example='the upper right central incisor  (11)',
       how='First digit: quadrant, clockwise from the patient’s upper right. '
           'Second digit: position from the midline.',

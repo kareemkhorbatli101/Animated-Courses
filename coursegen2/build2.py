@@ -179,7 +179,12 @@ def task_visuals(ctx, out, task, label, title_bank, title_pics, note=None):
                                                 rows, note=note),
                 'The answers for %s, in no particular order.' % label, xref=label)
     terms = _terms_of(task)
-    cap = 'The same answers as pictures.'
+    # 'The same answers as pictures' is only true when the pictures really are
+    # the answers. An authored pics list names the words the exercise needs,
+    # which is not always its answer column (an FDI-number task's answers are
+    # numbers; its pictures are the four tooth types).
+    cap = ('The words this exercise turns on.' if task.get('pics')
+           else 'The same answers as pictures.')
     if not terms:
         # A task whose answers are whole sentences has nothing short enough to
         # draw, so it was getting the bank and no picture - half of the pair

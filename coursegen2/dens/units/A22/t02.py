@@ -358,7 +358,14 @@ photocopiable=dict(
         'The caller says yes, or says it again. Silence is not agreement.',
         'If a number has a second digit above eight, it is not FDI. Stop and ask.',
         'Every chart carries the name of the notation it is written in.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('CHARTING WITH TWO PEOPLE',
+    ['The caller says the quadrant, then the tooth, then the finding.',
+     'Digits one at a time: one four, never fourteen.',
+     'The writer says the whole entry back before writing it.',
+     'The caller says yes, or says it again.'],
+    stop_points=[2],
+    note='A second digit above eight is not FDI. Stop and ask.'),
+ fig_cap='The rule of the room as four steps, with the one that prevents fourteen.'),
 )
 T['defects'] = list(T.get('defects', [])) + [
  'Preparing case 1 showed that the unit never actually told learners what to add to '

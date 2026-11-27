@@ -98,6 +98,24 @@ def measure(docx, recaps):
     return left, extra, n, pdf
 
 
+def blank_pages(pdf):
+    """Every page with no ink at all. A built book should have none: a blank
+    page is a page break that spilled, and nothing in the model wants one."""
+    tmp = tempfile.mkdtemp(prefix='bp')
+    subprocess.run(['pdftoppm', '-r', '30', '-gray', pdf,
+                    os.path.join(tmp, 'bp')], check=True,
+                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    from PIL import Image
+    out = []
+    for f in sorted(os.listdir(tmp)):
+        if not f.startswith('bp-'):
+            continue
+        im = Image.open(os.path.join(tmp, f)).convert('L')
+        if im.getextrema()[0] > 245:
+            out.append(int(f.rsplit('-', 1)[1].split('.')[0]))
+    return out
+
+
 def main():
     docx, rjson, fjson = sys.argv[1], sys.argv[2], sys.argv[3]
     mode = 'absolute' if '--absolute' in sys.argv else (
@@ -119,9 +137,16 @@ def main():
     json.dump({k: round(v, 1) for k, v in left.items()},
               open(fjson.replace('.json', '_left.json'), 'w'), indent=0, sort_keys=True)
     worst = sorted(left.items(), key=lambda kv: -kv[1])[:6]
+    blanks = blank_pages(pdf)
     print('pages %d   closing figures found %d/%d   worst white: %s'
           % (pages, len(left), len(recaps),
              ', '.join('%s %.0fpt' % (k, v) for k, v in worst) or 'none'))
+    if blanks:
+        print('BLANK PAGES: %d at %s' % (len(blanks), blanks[:20]))
+        if mode == 'verify':
+            # A verified book may not contain a blank page. The passes before
+            # the verify may: their geometry is not final.
+            sys.exit(1)
 
 
 if __name__ == '__main__':

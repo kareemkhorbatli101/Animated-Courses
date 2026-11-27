@@ -644,6 +644,13 @@ def icon(name, cx, cy, s=1.0, col=None):
         o.append(R(-60, -14, 120, 28, BONE))
         for gx, gy in ((-60, -14), (-60, 14), (60, -14), (60, 14)):
             o.append(C_(gx, gy, 18, BONE))
+    elif name in ('incisor', 'canine', 'premolar', 'molar'):
+        # The four tooth types, drawn with the same crown profiles the
+        # dentition map uses. Until these existed, an incisor, a canine, a
+        # premolar and a molar all wore the same generic tooth, and a card row
+        # for the dentition unit said nothing the words did not.
+        o.append(_tooth_glyph(cx - 48*s, cy - 58*s, 96*s, 112*s, name))
+        o.append(rect(cx - 58*s, cy + 50*s, 116*s, 14*s, GUM, stroke=LEAD, sw=3, rx=7))
     elif name == 'mouth':
         # An open mouth: lip ring, dark cavity, a band of upper teeth. The ear
         # stood in for this for eleven units because no mouth glyph existed.
@@ -672,9 +679,9 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''bone book bowl brush calendar card chair clock cross door ear
-form gloves gum light lips mask mirror mouth pen person phone probe speech tick
-tooth tray water xray'''.split())
+ICON_NAMES = set('''bone book bowl brush calendar canine card chair clock cross
+door ear form gloves gum incisor light lips mask mirror molar mouth pen person
+phone premolar probe speech tick tooth tray water xray'''.split())
 
 
 def as_icon(name):
@@ -699,8 +706,9 @@ ICON_FOR = {
  'oral cavity': 'mouth', 'vestibule': 'lips', 'hard palate': 'bone',
  'soft palate': 'gum', 'mucosa': 'water', 'alveolar ridge': 'bone',
  'gingiva': 'gum', 'frenum': 'lips', 'floor of the mouth': 'mouth',
- 'dentition': 'tooth', 'quadrant': 'tooth', 'midline': 'tooth', 'incisor': 'tooth',
- 'canine': 'tooth', 'premolar': 'tooth', 'molar': 'tooth', 'notation': 'form',
+ 'dentition': 'tooth', 'quadrant': 'mouth', 'midline': 'incisor',
+ 'incisor': 'incisor', 'canine': 'canine', 'premolar': 'premolar',
+ 'molar': 'molar', 'notation': 'form',
  'telephone': 'phone', 'message': 'speech', 'letter': 'form', 'brush': 'brush',
  'radiograph': 'xray', 'tray': 'tray', 'gloves': 'gloves', 'mask': 'mask',
  'pen': 'pen', 'book': 'book',
