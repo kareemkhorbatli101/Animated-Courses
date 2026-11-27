@@ -361,3 +361,57 @@ T['defects'] = list(T.get('defects', [])) + [
  'The sample answer for 8.2 came out with a clinical consequence in it that the unit’s '
  'own model lacked. The model in 8.2 was extended by one sentence.',
 ]
+
+# ---- fourth round: a model for every open task, including the cases ----
+T['sample_answers'] += [
+ ('6.3  Being asked at the chair, and answering at the right length',
+  'Supervisor: “This?” — Student: “The vestibule.” Supervisor: “And the lining?” — '
+  'Student: “Lining mucosa, not keratinised.” Two words and four words; the full '
+  'definition waits for the tutorial.'),
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'The oral cavity is the space bounded in front by the lips, at the sides by the '
+  'cheeks, above by the palate and below by the floor of the mouth. The dental arches '
+  'divide it into the vestibule, outside the teeth, and the oral cavity proper, inside '
+  'them. The two communicate behind the last molar. All of it is covered with mucosa.',
+  'الهدف أن يخرج الوصف كاملاً في الدقيقتين الأخيرتين دون توقف أو إضافة.'),
+ ('7.1a  What a class predicts before reading the textbook page',
+  'They look for the three kinds of mucosa and find the headings fast. They almost never '
+  'predict that the page divides before it describes; say so afterwards, not before.'),
+ ('7.2a  What a class predicts before reading the case',
+  'Expect them to look for the finding and to skip the line that separates what was seen '
+  'from what it means. That separation is what the case is teaching.'),
+ ('7.3a  What a class predicts before reading the procedure',
+  'Most predict “look, then feel”. Few predict that the explaining comes first and that '
+  'permission is a step with its own time in it.'),
+ ('8.1  A definition an examiner would accept',
+  'The vestibule is the space between the lips and cheeks on one side and the teeth and '
+  'gingiva on the other.'),
+ ('8.3  Labelling, and writing about a label',
+  '1 the hard palate — the bony anterior part of the roof of the mouth, covered with '
+  'keratinised masticatory mucosa. 2 the soft palate — the muscular posterior part, '
+  'which rises to close off the nasal cavity during swallowing.'),
+ ('9.1  A group answer that would close the case',
+  'The question asked for a space, so the vestibule answers it. Daniel’s answer '
+  'becomes right if he adds one word: lining mucosa. The polite way to settle it is to '
+  'ask the lecturer which she wants, the space or the lining.',
+  'السؤال عن حيّز لا عن نسيج. تصبح إجابة دانيال صحيحة بإضافة كلمة واحدة: البطانة.'),
+ ('9.2  A group answer that would close the case',
+  'Half credit with a note. The sentence proves he knows the structure; the line proves '
+  'he cannot yet point at it. Write: “your sentence describes the hard palate — now put '
+  'your line on it.”',
+  'نصف العلامة مع ملاحظة: الجملة تثبت المعرفة، والخط يثبت أنه لم يحدّد الموضع بعد.'),
+ ('9.3  A group answer that would close the case',
+  'The one-word question wanted one word, because a patient was holding their mouth '
+  'open. Afterwards: “that was right, and in the tutorial it would be a full answer. At '
+  'the chair, give me the word and wait.”',
+  'السؤال بكلمة واحدة يريد كلمة واحدة، لأن المريض فاتح فمه. والتعريف الكامل مكانه الحلقة.'),
+ ('10.3  The review role-play: defining with no vocabulary',
+  'The gum is the firm pink tissue round the bottom of each tooth. It is tougher than '
+  'the inside of your cheek, because food passes over it all day and the cheek is '
+  'protected.'),
+ ('10.4  The review writing: one structure, two readers',
+  'For an examiner: the gingiva is the keratinised masticatory mucosa that surrounds the '
+  'neck of each tooth and covers the alveolar bone, and it is keratinised because it '
+  'takes the pressure of food. For a patient: the gum is the firm pink tissue round the '
+  'bottom of each tooth, tougher than the inside of your cheek.'),
+]

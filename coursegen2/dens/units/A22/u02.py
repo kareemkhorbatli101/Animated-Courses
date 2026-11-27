@@ -1100,3 +1100,239 @@ cases=[
   icons=['speech', 'mask', 'tooth', 'ear']),
 ],
 )
+
+# ---- fourth round: variety, demand, fluency, own study, a real review ----
+
+U['listening'][0]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what a lecture comparing three systems will do.',
+  how='Guess from the chart on the board. Then listen.',
+  example='She will say which system is best   a) yes   b) no.   Answer: b',
+  bank=['what they share', 'how they differ', 'where they collide', 'what to write down'],
+  bank_head='The four moves this lecture makes',
+  pics=['notation', 'a quadrant', 'the midline', 'the dentition'],
+  pairs=[('She compares the systems by   a) saying which is best   b) saying what they '
+          'share first   c) ignoring two of them', 'b'),
+         ('The first digit in FDI tells you   a) the quadrant   b) the type of tooth   '
+          'c) the age of the patient', 'a'),
+         ('She tells the class to write down   a) all three grids   b) what the digits '
+          'mean   c) nothing', 'b')])
+
+U['listening'][1]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what a naming drill under time is testing.',
+  how='Two students are being asked to name teeth quickly.',
+  example='Saying the quadrant first   a) wastes time   b) buys time.   Answer: b',
+  bank=['an incisor', 'a canine', 'a premolar', 'a molar'],
+  bank_head='The four types the drill moves between',
+  pics=['an incisor', 'a canine', 'a premolar', 'a molar'],
+  pairs=[('Saying the quadrant first   a) wastes a second   b) buys a second   '
+          'c) is not allowed', 'b'),
+         ('The hardest teeth to name quickly are   a) the incisors   b) the premolars   '
+          'c) the canines', 'b'),
+         ('A wrong answer is corrected   a) by the lecturer at once   b) by the next '
+          'student   c) at the end', 'a')])
+
+U['listening'][2]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose where an error is caught when two people chart.',
+  how='One person looks and calls; the other writes.',
+  example='The writer repeats the entry   a) before   b) after writing.   Answer: a',
+  bank=['the caller', 'the writer', 'the read-back', 'the chart'],
+  bank_head='The four parts of a two-person charting system',
+  pics=['notation', 'a quadrant', 'a molar', 'the dentition'],
+  pairs=[('The error is caught by   a) the caller   b) the read-back   c) the chart', 'b'),
+         ('A number with a second digit above eight is   a) a rare tooth   b) not FDI   '
+          'c) a child’s tooth', 'b'),
+         ('Digits are said   a) one at a time   b) as whole numbers   '
+          'c) either way', 'a')])
+
+U['vocab_tasks'][1] = dict(kind='odd',
+  rubric='Three of the four belong together. Circle the one that does not, and say why.',
+  how='Name the class the three share before you name the one that is out.',
+  example='an incisor / a canine / a premolar / a quadrant  —  a quadrant is not a type '
+          'of tooth',
+  bank=['a type of tooth', 'a part of the arch', 'a system', 'a reference line'],
+  bank_head='The four classes these terms belong to',
+  pics=['an incisor', 'a canine', 'a premolar', 'a quadrant'],
+  pairs=[('an incisor / a canine / a premolar / a quadrant', 'a quadrant'),
+         ('FDI / Universal / Palmer / the midline', 'the midline'),
+         ('the midline / a quadrant / the dentition / a molar', 'a molar'),
+         ('each / every / the first / because', 'because'),
+         ('eight / sixteen / thirty-two / four', 'four')])
+
+U['reading'][1]['post'] = dict(kind='tf',
+  rubric='True or false? If it is false, write the correction in six words or fewer.',
+  how='Decide each one from the case you have just read, and say which line of the case '
+      'tells you.',
+  example='The student checked his own work.  —  true',
+  bank=['the blank line', 'the assumption', 'the check he did', 'the check he could not do'],
+  bank_head='The four things the case turns on',
+  pics=['notation', 'a quadrant', 'a molar', 'the dentition'],
+  pairs=[('The student wrote 19 because he was careless.',
+          'false \u2014 he reasoned from missing information'),
+         ('The form had a blank line where the notation should be.', 'true'),
+         ('He caught his own transposed digits.', 'true'),
+         ('He could have checked what he had assumed.',
+          'false \u2014 nothing told him the clinic system'),
+         ('A second digit of nine is valid in FDI.',
+          'false \u2014 it never goes above eight')])
+
+U['reading'][2]['post'] = dict(kind='tf',
+  rubric='True or false? If it is false, write the correction in six words or fewer.',
+  how='Then say which rule your own clinic follows differently, and whether it is '
+      'written down anywhere.',
+  example='One person can chart alone.  —  false — two people carry the record',
+  bank=['two people', 'the caller first', 'the read-back', 'the notation named',
+        'both sign'],
+  bank_head='The five rules of a charted record',
+  pics=['notation', 'a quadrant', 'the midline', 'the dentition'],
+  pairs=[('Charting is done by two people.', 'true'),
+         ('The writer says the entry back after writing it.',
+          'false — before writing it'),
+         ('A chart must say which notation it is written in.', 'true'),
+         ('Silence from the caller means the entry is agreed.',
+          'false — silence is not agreement'),
+         ('Only the caller signs the chart.', 'false — both people sign')])
+
+U['speaking'][1]['how'] = ('Student B has never seen FDI. Student A has four minutes and '
+                           'one sheet of paper. Then swap. The third time, teach it the '
+                           'way your own clinic actually explains it.')
+
+U.update(
+fluency=dict(
+  title='The numbering system in thirty seconds, three times',
+  rubric='Explain FDI notation to three different partners.',
+  how='Four minutes with the first, three with the second, two with the third. The same '
+      'explanation every time, with the same drawing.',
+  content=['Say how many quadrants there are, and where the midline runs.',
+           'Say what the first digit tells you, and in which direction they are numbered.',
+           'Say what the second digit tells you, and where the counting starts.',
+           'Give one example: say one tooth in full.',
+           'Say why no FDI second digit goes above eight.',
+           'Say how the digits are spoken aloud, and why.'],
+  words=['the dentition', 'a quadrant', 'the midline', 'an incisor', 'a canine',
+         'a premolar', 'a molar', 'notation'],
+  fig_title='THE SAME EXPLANATION, IN FOUR MINUTES, THEN THREE, THEN TWO',
+  point='You can teach the system rather than recite it, and teaching it is the harder '
+        'test of whether you have it.',
+  ask='Which part of the explanation still made you stop on the third turn?',
+  icons=['speech', 'clock', 'tooth', 'tick']),
+
+review_intro='Five activities, one for each skill. Nothing here repeats a task you have '
+             'already done. Thirty minutes.',
+review=[
+ dict(skill='reading', title='Charting, in order',
+   kind='order', rubric='Put the six steps of a two-person charting round in order.',
+   how='Then say which step your own clinic does differently, and what it costs.',
+   example='The caller names the quadrant.  —  1',
+   bank=['the quadrant', 'the tooth', 'the finding', 'the read-back', 'the agreement',
+         'the writing'],
+   bank_head='The six moves of one charted entry',
+   pics=['notation', 'a quadrant', 'a molar', 'the dentition'],
+   pairs=[('The caller names the quadrant.', '1'),
+          ('The caller names the tooth, digit by digit.', '2'),
+          ('The caller names the finding and the surface.', '3'),
+          ('The writer says the whole entry back.', '4'),
+          ('The caller says yes, or says it again.', '5'),
+          ('The writer writes it down.', '6')],
+   fig=F.step_sequence('THE SIX MOVES, ONCE THEY ARE IN ORDER',
+     ['Quadrant.', 'Tooth, digit by digit.', 'Finding and surface.',
+      'The whole entry, said back.', 'Yes, or said again.', 'Written.'],
+     stop_points=[5],
+     note='The marked step is the one that silence is mistaken for.'),
+   fig_cap='One charted entry, in the six moves it actually takes.'),
+
+ dict(skill='listening', title='Four things from 5.1 that you did not write down',
+   kind='choice', rubric='Listen to 5.1 once more and circle a, b or c.',
+   how='These are not the questions you answered in part 5. One listening is enough.',
+   example='She names three systems   a) yes   b) no.   Answer: a',
+   bank=['the order', 'the overlap', 'the warning', 'the example'],
+   bank_head='The four things to listen for this time',
+   pics=['notation', 'a quadrant', 'the midline', 'a premolar'],
+   pairs=[('She says the three systems have in common   a) nothing   b) a unique '
+           'designation for every tooth   c) the same digits', 'b'),
+          ('The example she gives in full is   a) an incisor   b) a premolar   '
+           'c) a molar', 'b'),
+          ('The warning at the end is about   a) spelling   b) speaking the digits   '
+           'c) the exam', 'b'),
+          ('She says the systems differ in   a) what the digits mean   b) how many '
+           'teeth there are   c) which teeth exist', 'a')],
+   fig=F.mini_table('WHAT YOU ARE LISTENING FOR THIS TIME',
+     ['Not this', 'But this'],
+     [['the three grids', 'what all three have in common'],
+      ['the digits', 'which tooth she works through in full'],
+      ['the comparison', 'the warning she leaves it on']]),
+   fig_cap='The same lecture, listened to for its argument rather than its data.'),
+
+ dict(skill='speaking', title='A number that cannot be acted on',
+   rubric='Telephone a clinic that has sent you a tooth number with no system named.',
+   how='Student B is the clinic and does not understand why it matters. Student A has to '
+       'explain the problem and get an answer without accusing anybody. Four minutes, '
+       'then swap. Use your own clinic’s referral form for the last turn.',
+   model=[('You', 'Good morning. I am calling about your letter for Mr Haddad.'),
+          ('Clinic', 'Yes, tooth 14.'),
+          ('You', 'That is what I wanted to check. Which notation are you using?'),
+          ('Clinic', 'The usual one.'),
+          ('You', 'In FDI that is an upper right premolar. In Universal it is an upper '
+                  'left molar. I would rather not guess.'),
+          ('Clinic', 'I see. I will check and call you back.')],
+   checklist=['you named both readings of the number',
+              'you did not say the other clinic was wrong',
+              'you asked a question that could be answered',
+              'you said what you would do meanwhile'],
+   fig=F.conversation('ASKING WITHOUT ACCUSING',
+     dict(name='You', role='the student calling', skin='4', hair='black',
+          style='headscarf', tunic='blue'),
+     dict(name='The other clinic', role='the referring clinic', skin='2', hair='brown',
+          style='short', tunic='green'),
+     [('L', 'I am calling about your letter for Mr Haddad.'),
+      ('R', 'Yes, tooth 14.'),
+      ('L', 'Which notation are you using?'),
+      ('R', 'The usual one.'),
+      ('L', 'In FDI that is a premolar; in Universal it is a molar.'),
+      ('R', 'I see. I will check and call you back.')],
+     note='The question that works is the one the other person can answer.'),
+   fig_cap='How to ask for the missing word without making it an accusation.'),
+
+ dict(skill='writing', title='The line that makes a number safe',
+   rubric='Write the sentence you would add to a referral letter, and the sentence you '
+          'would add to a chart.',
+   how='Not the comparison you wrote in part 8. Two sentences, each under fifteen words, '
+       'each doing one job.',
+   model=['On a referral letter: all tooth designations in this letter use FDI notation '
+          '(ISO 3950).',
+          'On a chart: notation used in this clinic — FDI. Digits are spoken one at a time.'],
+   scaffold=['On a referral letter:', 'On a chart:'],
+   checklist=['each sentence names the system',
+              'neither sentence is longer than fifteen words',
+              'the chart sentence also says how the digits are spoken',
+              'a new nurse could follow both without asking'],
+   fig=F.mini_table('TWO SENTENCES, TWO PLACES',
+     ['Where it goes', 'What it has to stop'],
+     [['the referral letter', 'a number read in the wrong system'],
+      ['the chart', 'a number heard as a different number'],
+      ['the wall of the surgery', 'a new colleague never being told']], highlight=[2]),
+   fig_cap='Two sentences, and the two different accidents each one prevents.'),
+
+ dict(skill='reading', title='Units 1, 2 and 3: is it a structure or a system?',
+   kind='sort', rubric='Write S for a structure in the mouth and Y for a system people '
+                       'agreed on.',
+   columns=('S', 'Y'),
+   how='One of these exists whether or not anybody writes it down. The other does not. '
+       'Then say which of your own first-year terms belong in each column.',
+   example='the hard palate  —  S',
+   bank=['a structure', 'a system', 'a reference line', 'a type'],
+   bank_head='What each term actually is',
+   pics=['the oral cavity', 'the gingiva', 'notation', 'a quadrant'],
+   pairs=[('the hard palate', 'S'),
+          ('FDI notation', 'Y'),
+          ('the gingiva', 'S'),
+          ('a quadrant', 'Y'),
+          ('the frenum', 'S'),
+          ('the Universal system', 'Y')],
+   fig=F.contrast('TWO KINDS OF TERM',
+     'A STRUCTURE', ['the hard palate', 'the gingiva', 'the frenum'],
+     'A SYSTEM', ['FDI notation', 'a quadrant', 'the Universal system'],
+     'It is there whether or not you name it.',
+     'It exists only because people agreed on it.'),
+   fig_cap='Knowing which kind of term you are using is why case 1 happens at all.'),
+],
+)

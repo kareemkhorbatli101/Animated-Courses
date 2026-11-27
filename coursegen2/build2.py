@@ -23,6 +23,11 @@ LETTERS = 'ABCDEFGH'
 # last page. The captions stay, because they are what locates the page.
 NORECAP = False
 
+# The teacher's book needs the answer key and nothing else from a unit, so it
+# runs the same builder with the drawing switched off. One source of answers,
+# which is why the key in the teacher's book cannot drift from the learner's.
+DRY = False
+
 
 class Ctx:
     def __init__(self, media_dir, fit=None):
@@ -45,9 +50,14 @@ class Ctx:
 
 
 def fig(ctx, out, tag, built, cap, alt=None, xref=None):
-    inner, h, defs = built
     ctx.figno += 1
     fid = 'FIG %d.%d' % (ctx.unit, ctx.figno)
+    if DRY:
+        ctx.figures.append((fid, cap, alt or cap, xref or ''))
+        if xref:
+            ctx.exercise_figs[xref] = ctx.exercise_figs.get(xref, 0) + 1
+        return fid
+    inner, h, defs = built
     # The unit number is part of the name: tags repeat and ctx.figno restarts
     # at every unit, so without it unit 3's case figure silently overwrote
     # unit 1's and both references resolved to whichever was written last.
@@ -113,9 +123,20 @@ def shuffled(items, seed):
 
 
 # ------------------------------------------------------- the two visuals
+# For these types the second half of a pair IS the key - a letter, a column
+# name, a position, the word "true". Printing it in the answer bank would give
+# the exercise away, so these carry their own bank and their own picture list.
+HIDDEN_KEY = ('order', 'sort', 'tf', 'choice')
+
+
 def _terms_of(task):
     """The words an exercise is really about, for the picture visual."""
-    got = [b for _, b in task.get('pairs', [])]
+    if task.get('pics'):
+        return list(task['pics'])[:8]
+    if task.get('kind') in HIDDEN_KEY:
+        got = [a for a, _ in task.get('pairs', [])]
+    else:
+        got = [b for _, b in task.get('pairs', [])]
     out, seen = [], set()
     for g in got:
         g = str(g).strip()
@@ -127,13 +148,28 @@ def _terms_of(task):
 
 def task_visuals(ctx, out, task, label, title_bank, title_pics, note=None):
     """The bank (organises) and the cards (picture). Both pedagogical."""
-    answers = [str(b) for _, b in task.get('pairs', [])]
-    if answers:
-        bank = shuffled(answers, label)
-        rows = [[str(i + 1), v] for i, v in enumerate(bank)]
-        fig(ctx, out, 'bank', F2.mini_table(title_bank, ['', 'Use each one once'], rows,
-                                            note=note),
-            'The answers for %s, in no particular order.' % label, xref=label)
+    kind = task.get('kind', 'short')
+    if task.get('bank'):
+        rows = [[str(i + 1), v] for i, v in enumerate(task['bank'])]
+        fig(ctx, out, 'bank', F2.mini_table(task.get('bank_title', title_bank),
+                                            ['', task.get('bank_head', 'What to look at')],
+                                            rows, note=note),
+            'What %s turns on.' % label, xref=label)
+    elif kind in HIDDEN_KEY:
+        rows = [[str(i + 1), str(a)[:70]] for i, (a, _b) in
+                enumerate(task.get('pairs', []))]
+        if rows:
+            fig(ctx, out, 'bank', F2.mini_table(title_bank, ['', 'Work through these'],
+                                                rows, note=note),
+                'The items of %s, set out.' % label, xref=label)
+    else:
+        answers = [str(b) for _, b in task.get('pairs', [])]
+        if answers:
+            bank = shuffled(answers, label)
+            rows = [[str(i + 1), v] for i, v in enumerate(bank)]
+            fig(ctx, out, 'bank', F2.mini_table(title_bank, ['', 'Use each one once'],
+                                                rows, note=note),
+                'The answers for %s, in no particular order.' % label, xref=label)
     terms = _terms_of(task)
     if terms:
         fig(ctx, out, 'pics', F2.icon_cards(title_pics, [(t,) for t in terms], cols=4,
@@ -182,6 +218,60 @@ def match_items(out, pairs, key, label):
         key.append(('%s %d' % (label, i), LETTERS[right.index(b)].lower()))
 
 
+def order_items(out, pairs, key, label):
+    """Sequencing: the steps are printed shuffled and numbered by the learner."""
+    out.append(R.body('Write 1, 2, 3 \u2026 beside each line, in the order it happens.',
+                      after=60))
+    shuf = shuffled([a for a, _ in pairs], label + 'o')
+    for a in shuf:
+        out.append(R.item('____', a))
+    for a, b in pairs:
+        key.append(('%s %s' % (label, b), a))
+
+
+def odd_items(out, pairs, key, label):
+    """Odd one out: each row is (four words as one string, the odd one)."""
+    out.append(R.body('Three of the four belong together. Circle the one that does not, '
+                      'and say why.', after=60))
+    for i, (row, _odd) in enumerate(pairs, 1):
+        out.append(R.item('%d.' % i, row))
+    for i, (row, odd) in enumerate(pairs, 1):
+        key.append(('%s %d' % (label, i), odd))
+
+
+def sort_items(out, pairs, key, label, heads=('A', 'B')):
+    """Two or more columns: each item is (thing, which column it belongs in)."""
+    heads = tuple(heads)
+    if len(heads) < 2:
+        raise ValueError('a sort needs at least two columns')
+    named = '%s or %s' % (', '.join(heads[:-1]), heads[-1])
+    out.append(R.body('Write %s beside each one.' % named, after=60))
+    for i, (a, _b) in enumerate(shuffled(pairs, label + 's'), 1):
+        out.append(R.item('%d.' % i, a))
+    order = shuffled(pairs, label + 's')
+    for i, (a, b) in enumerate(order, 1):
+        key.append(('%s %d' % (label, i), b))
+
+
+def tf_items(out, pairs, key, label):
+    """True or false, and the correction when it is false."""
+    out.append(R.body('Write true or false. If it is false, write the correction in six '
+                      'words or fewer.', after=60))
+    for i, (a, _b) in enumerate(pairs, 1):
+        out.append(R.item('%d.' % i, a + '   ____________'))
+    for i, (a, b) in enumerate(pairs, 1):
+        key.append(('%s %d' % (label, i), b))
+
+
+def choice_items(out, pairs, key, label):
+    """Multiple choice: each item is (stem with a / b / c, the right letter)."""
+    out.append(R.body('Circle a, b or c.', after=60))
+    for i, (a, _b) in enumerate(pairs, 1):
+        out.append(R.item('%d.' % i, a))
+    for i, (a, b) in enumerate(pairs, 1):
+        key.append(('%s %d' % (label, i), b))
+
+
 def short_items(out, pairs, key, label):
     for j, (q, a) in enumerate(pairs):
         if j == 0:
@@ -200,6 +290,16 @@ def run_task(ctx, out, key, t, label, bank_title, pic_title):
         match_items(out, t['pairs'], key, label)
     elif kind == 'gap':
         gap_items(out, t['pairs'], key, label)
+    elif kind == 'order':
+        order_items(out, t['pairs'], key, label)
+    elif kind == 'odd':
+        odd_items(out, t['pairs'], key, label)
+    elif kind == 'sort':
+        sort_items(out, t['pairs'], key, label, t.get('columns', ('A', 'B')))
+    elif kind == 'tf':
+        tf_items(out, t['pairs'], key, label)
+    elif kind == 'choice':
+        choice_items(out, t['pairs'], key, label)
     else:
         short_items(out, t['pairs'], key, label)
 
@@ -381,6 +481,38 @@ def unit(ctx, out, key, U, B, cast=None):
                 [S['point'], 'A good turn had: ' + '; '.join(S['checklist'][:3]) + '.'],
                 icons=S.get('icons'), question=S.get('ask', DEFAULT_ASK),
                 xref='6.%d' % i, cards=[c[:28] for c in S['checklist']])
+
+    # ---- 6.4 fluency: the same thing, three times, under a falling clock
+    F = U['fluency']
+    out.append(R.band_part('6.%d  \u00b7  FLUENCY  \u00b7  %s'
+                           % (len(U['speaking']) + 1, F['title'])))
+    out.append(R.rubric(F['rubric']))
+    out.append(R.body(F['how'], after=80))
+    out.append(R.readbox('Four minutes, then three, then two. Say the same thing each '
+                         'time, to a different partner. Nothing new goes in. The only '
+                         'thing that changes is how fast it comes out.'))
+    out.append(R.band_part('WHAT YOU HAVE TO GET THROUGH'))
+    for line in F['content']:
+        out.append(R.bullet(line))
+    fig(ctx, out, 'flu', F2.step_sequence(F['fig_title'],
+        ['Four minutes. Say all of it to your first partner.',
+         'Three minutes. The same thing, to a second partner.',
+         'Two minutes. The same thing again, to a third.',
+         'Did you get to the end the third time?'], stop_points=[4],
+        note='Nothing may be added between turns. Faster, not longer.'),
+        'The falling clock. The content does not change; the time does.',
+        xref='6.%d' % (len(U['speaking']) + 1))
+    fig(ctx, out, 'flucards', F2.icon_cards('THE WORDS YOU WILL NEED IN ALL THREE TURNS',
+        [(w,) for w in F['words']], cols=4,
+        note='All of these are from this unit or an earlier one. Nothing here is new.'),
+        'The words the three turns run on.', xref='6.%d' % (len(U['speaking']) + 1))
+    endpart(ctx, out, 'p6f', 'FLUENCY  \u00b7  WHAT GOT FASTER',
+            [F['point'],
+             'You said the same thing three times and the third was the shortest. '
+             'That is what fluency is: the same language, less time.'],
+            icons=F.get('icons'), question=F.get('ask', 'Which part came out fastest '
+                                                        'the third time?'),
+            xref='6.%d' % (len(U['speaking']) + 1), cards=list(F['words'])[:8])
 
     # ---- 7 reading
     out.append(R.band_part('7  ·  READING'))

@@ -21,7 +21,7 @@ if '--units' in sys.argv:
     ONLY = [int(x) for x in sys.argv[sys.argv.index('--units') + 1].split(',')]
 sys.path.insert(0, os.path.join(HERE, PKG))
 import series
-import render as R, art, art2, figs2 as F2
+import render as R, art, art2, figs2 as F2, build2
 
 B = series.BOOKS[CODE]
 R.set_accent(B['level'])
@@ -112,21 +112,35 @@ out.append(R.readbox(
     'say at a chairside. Do not conduct the lesson in Arabic. Translate the word, then go '
     'back to English and make the learner say the English sentence.'))
 
-out.append(R.rubric('Two routes through a unit'))
-out.append(R.table([['Stage', 'Core route (90 min)', 'Full route (180 min)'],
-                    ['1 Before you start', '5', '10'],
-                    ['2 Preview', '20', '25'],
-                    ['3 Vocabulary', '10', '20'],
-                    ['4 Grammar', '10', '20'],
-                    ['5 Listening', 'one of the three: 15', 'all three: 30'],
-                    ['6 Speaking', 'one of the three: 12', 'all three: 28'],
-                    ['7 Reading', 'one of the three: 8', 'all three: 22'],
-                    ['8 Writing', 'set one for homework', 'one in class, two set: 15'],
-                    ['9 Cases', 'one case: 8', 'all three: 22'],
-                    ['10 Review', '2', '8']], [2400, 2450, 2450]))
-out.append(R.body('On the core route, choose the listening, speaking, reading and case that '
-                  'match your group. The notes for each unit say which to choose and why.',
-                  after=140))
+out.append(R.rubric('Three routes through a unit'))
+out.append(R.table([['Stage', 'Short (60 min)', 'Core (90 min)', 'Full (180 min)'],
+                    ['1 Before you start', '4', '5', '10'],
+                    ['2 Preview', '16', '18', '25'],
+                    ['3 Vocabulary', '6', '8', '18'],
+                    ['4 Grammar', '6', '8', '18'],
+                    ['5 Listening', 'one: 10', 'one: 14', 'all three: 28'],
+                    ['6 Speaking', 'one: 8', 'two: 12', 'all three: 24'],
+                    ['6 Fluency', '4', '5', '8'],
+                    ['7 Reading', 'set for home', 'one: 10', 'all three: 22'],
+                    ['8 Writing', 'set for home', 'set for home', 'one in class: 15'],
+                    ['9 Cases', 'one: 4', 'one: 8', 'all three: 22'],
+                    ['10 Review', '2', '2', '10']], [1900, 1800, 1800, 1800]))
+out.append(R.body('The sixty-minute column is the one most teachers will actually use. '
+                  'It keeps the preview whole, because nothing downstream works without '
+                  'it, and it moves reading and writing to homework. The fluency task '
+                  'survives in every column: it is four minutes and it is the only part '
+                  'of the lesson that makes known language come out faster.', after=140))
+
+out.append(R.rubric('Where the time goes, and why'))
+out.append(R.readbox(
+    'Nation describes four strands that a course should spend roughly equal time on: '
+    'meaning-focused input, meaning-focused output, language-focused learning, and '
+    'fluency development. On the ninety-minute route this unit spends about 40% on '
+    'language-focused learning, 27% on input, 27% on output and 6% on fluency. The first '
+    'number is high and the last is low, and that is an honest consequence of teaching '
+    'eight new items an hour to people who need them at work on Monday. The gap is '
+    'closed outside the room: the fluency task is designed to be repeated at the start '
+    'of the next lesson, and the listening is designed to be heard again.'))
 
 out.append(R.rubric('Mixed groups'))
 out.append(R.readbox(
@@ -231,6 +245,25 @@ for i in (ONLY or range(1, 11)):
     for q, a in T['domain_notes']:
         out.append(R.pron(q, a))
 
+    out.append(R.band_part('6.%d  ·  THE FLUENCY TASK, AND WHY IT IS NOT A ROLE-PLAY'
+                           % (len(U['speaking']) + 1)))
+    out.append(R.readbox(
+        'A role-play introduces something. The fluency task introduces nothing. The '
+        'learner says the same content three times, to three partners, in four minutes, '
+        'then three, then two. The only thing that changes is the clock. Resist the urge '
+        'to correct during it: correction is language-focused learning and it belongs in '
+        'the parts that came before. Time it out loud, and say the time left at the '
+        'halfway point of each turn.'))
+    out.append(R.table([['Turn', 'Minutes', 'What you do while they talk'],
+                        ['first', '4', 'listen for content that is missing, not for errors'],
+                        ['second', '3', 'say the time left at ninety seconds'],
+                        ['third', '2', 'count how many get to the end']], [1500, 1200, 5600]))
+    out.append(R.body('Fluency in this unit runs on: ' + ', '.join(U['fluency']['words'])
+                      + '. Every one of them has already been taught. If a learner asks '
+                        'for a new word during the fluency task, tell them to go round '
+                        'it, not to stop.', after=140))
+
+
     out.append(R.band_part('PART 9  ·  THE THREE CASES'))
     out.append(R.readbox(T['cases_intro']))
     for j, C in enumerate(U['cases'], 1):
@@ -256,6 +289,26 @@ for i in (ONLY or range(1, 11)):
             'WHERE DO YOU STAND?  ·  CASE %d' % j, N['poles'], N['marks'],
             note='Learners put a mark on the line, then have to say why it is not next to it.'),
             'The case as a line to stand on, for a class that will not start talking.')
+
+    out.append(R.pagebreak())
+    out.append(R.band_part('ANSWER KEY FOR THIS UNIT'))
+    out.append(R.body('Generated from the unit itself, so it cannot drift from the '
+                      'learner\u2019s book. Open tasks are not here; their models are on '
+                      'the sample-answer page above.', after=100))
+    build2.DRY = True
+    kctx = build2.Ctx(MEDIA)
+    kbuf, kkey = [], []
+    build2.unit(kctx, kbuf, kkey, U, B, cast=series.CAST_LOOK)
+    build2.DRY = False
+    krows = [['Task', 'Answer']] + [[a, b] for a, b in kkey if not a.startswith('UNIT')]
+    out.append(R.table(krows, [1900, 5400]))
+
+    out.append(R.band_part('TRANSCRIPTS FOR THIS UNIT'))
+    out.append(R.body('Reprinted here so that you are not holding two books open at '
+                      'once during part 5.', after=100))
+    for li, L in enumerate(U['listening'], 1):
+        out.append(R.rubric('5.%d  %s' % (li, L['title'])))
+        out.append(R.speak_block(L['script']))
 
     out.append(R.band_part('IF THEY FINISH EARLY  /  IF THEY STRUGGLE'))
     for s in T['extension']:

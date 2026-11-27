@@ -1111,3 +1111,222 @@ cases=[
   icons=['mirror', 'speech', 'clock', 'person']),
 ],
 )
+
+# ---- fourth round: variety, demand, fluency, own study, a real review ----
+
+U['listening'][0]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what a structural lecture does first.',
+  how='Guess from the diagram. Then listen and find out whether you were right.',
+  example='A lecturer names the parts   a) in any order   b) in one order.   Answer: b',
+  bank=['the boundaries', 'the divisions', 'the linings', 'the functions'],
+  bank_head='The four things this lecture covers, in some order',
+  pics=['the oral cavity', 'the vestibule', 'the hard palate', 'mucosa'],
+  pairs=[('The lecturer begins with   a) the detail   b) the order she will use   '
+          'c) a question', 'b'),
+         ('She divides the cavity into   a) two parts   b) three parts   c) four parts', 'a'),
+         ('The signal that a definition is coming is   a) a pause   b) a set phrase   '
+          'c) a diagram', 'b')])
+
+U['listening'][1]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what a tutorial question is really testing.',
+  how='Two students answer the same question differently. Decide what the difference is.',
+  example='An examiner wants   a) every fact   b) the facts in an order.   Answer: b',
+  bank=['the class', 'the position', 'the covering', 'the function'],
+  bank_head='The four steps of an answer an examiner accepts',
+  pics=['the gingiva', 'mucosa', 'the frenum', 'the floor of the mouth'],
+  pairs=[('A correct answer can still lose marks when it   a) is too short   '
+          'b) is in no order   c) uses Latin', 'b'),
+         ('The step students skip is   a) the first   b) the last   c) the middle', 'a'),
+         ('The lecturer wants the class named   a) last   b) first   c) only if asked', 'b')])
+
+U['listening'][2]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose how long a chairside answer should be.',
+  how='A patient is holding their mouth open while this happens.',
+  example='A one-word question wants   a) one word   b) a definition.   Answer: a',
+  bank=['one word', 'one sentence', 'four steps', 'nothing'],
+  bank_head='The four lengths an answer can have',
+  pics=['mucosa', 'the vestibule', 'the gingiva', 'the oral cavity'],
+  pairs=[('At the chair, the length of an answer is set by   a) what you know   '
+          'b) how the question was asked   c) the supervisor’s mood', 'b'),
+         ('A full definition belongs   a) at the chair   b) in the tutorial   '
+          'c) nowhere', 'b'),
+         ('If the patient is waiting, you   a) say more   b) say less   '
+          'c) say nothing', 'b')])
+
+U['vocab_tasks'][1] = dict(kind='odd',
+  rubric='Three of the four belong together. Circle the one that does not, and say why.',
+  how='Say the class the three share before you say which one is out.',
+  example='the vestibule / the oral cavity proper / the palate / mucosa  —  mucosa is a '
+          'tissue, the others are spaces or boundaries',
+  bank=['a space', 'a boundary', 'a tissue', 'a fold'],
+  bank_head='The four classes these terms belong to',
+  pics=['the oral cavity', 'the vestibule', 'mucosa', 'the frenum'],
+  pairs=[('the vestibule / the oral cavity proper / the floor of the mouth / mucosa',
+          'mucosa'),
+         ('the hard palate / the soft palate / the gingiva / the frenum', 'the frenum'),
+         ('keratinised / lining / masticatory / bony', 'bony'),
+         ('is / consists of / is covered with / because', 'because'),
+         ('the lips / the cheeks / the teeth / the tongue', 'the tongue')])
+
+U['reading'][2]['post'] = dict(kind='tf',
+  rubric='True or false? If it is false, write the correction in six words or fewer.',
+  how='Then say which step of this procedure you have seen done differently in your own '
+      'clinic.',
+  example='You palpate before you look.  —  false — you look first',
+  bank=['explain first', 'seat and light', 'look before you touch', 'palpate with two hands',
+        'record what you saw and what you felt'],
+  bank_head='The five steps of the procedure',
+  pics=['the floor of the mouth', 'the frenum', 'mucosa', 'the oral cavity'],
+  pairs=[('You explain what you are going to do before you touch anything.', 'true'),
+         ('The light should fall on the tongue.',
+          'false — into the floor of the mouth'),
+         ('You palpate first and look afterwards.', 'false — you look first'),
+         ('The floor of the mouth is examined with two hands.', 'true'),
+         ('“Floor of mouth normal” is a complete record.',
+          'false — it does not say what you did')])
+
+U['speaking'][0]['how'] = ('Student B times you and ticks each step as it arrives. Thirty '
+                           'seconds each, then swap. Do it a third time about a structure '
+                           'you were asked about in your own clinic this week.')
+
+U.update(
+fluency=dict(
+  title='The oral cavity in thirty seconds, three times',
+  rubric='Describe the boundaries of the oral cavity to three different partners.',
+  how='Four minutes with the first, three with the second, two with the third. The same '
+      'description every time. Nothing new goes in.',
+  content=['Name the class: the oral cavity is a space.',
+           'Say what is in front of it, and what is at the sides.',
+           'Say what is above it, and what is below it.',
+           'Divide it into the vestibule and the cavity proper.',
+           'Say where the two parts meet behind the last molar.',
+           'Say what the whole of it is covered with.'],
+  words=['the oral cavity', 'the vestibule', 'the hard palate', 'the soft palate',
+         'the gingiva', 'mucosa', 'the frenum', 'the floor of the mouth'],
+  fig_title='THE SAME DESCRIPTION, IN FOUR MINUTES, THEN THREE, THEN TWO',
+  point='You can produce a whole structural description without stopping to assemble it, '
+        'which is what an oral examination measures.',
+  ask='Which boundary still made you stop on the third turn?',
+  icons=['speech', 'clock', 'gum', 'tick']),
+
+review_intro='Five activities, one for each skill. Nothing here repeats a task you have '
+             'already done: the terms are the same and the questions are new. Thirty '
+             'minutes.',
+review=[
+ dict(skill='reading', title='An answer, in order',
+   kind='order', rubric='Put the four clauses of one examination answer in the order an '
+                        'examiner expects.',
+   how='Then say which step you leave out most often in your own written work.',
+   example='The gingiva is a tissue of the oral cavity.  —  1',
+   bank=['class', 'position', 'covering or composition', 'function and consequence'],
+   bank_head='The four steps, and what each one carries',
+   pics=['the gingiva', 'mucosa', 'the oral cavity', 'the frenum'],
+   pairs=[('The gingiva is the masticatory mucosa of the oral cavity.', '1'),
+          ('It surrounds the neck of each tooth and covers the bone beside it.', '2'),
+          ('It is keratinised, unlike the mucosa of the cheek.', '3'),
+          ('It therefore takes the pressure of food without being damaged.', '4')],
+   fig=F.step_sequence('THE FOUR CLAUSES, ONCE THEY ARE IN ORDER',
+     ['Name the class.', 'Say where it lies.', 'Say what it is covered with or made of.',
+      'Say what it does, and attach one consequence.'],
+     stop_points=[1],
+     note='The marked step is the one most answers leave out.'),
+   fig_cap='The four clauses of an examinable answer, in order.'),
+
+ dict(skill='listening', title='Four things from 5.1 that you did not write down',
+   kind='choice', rubric='Listen to 5.1 once more and circle a, b or c.',
+   how='These are not the questions you answered in part 5. One listening is enough.',
+   example='The lecture divides the cavity into   a) two   b) three   c) four.   Answer: a',
+   bank=['the signal', 'the division', 'the boundary', 'the question'],
+   bank_head='The four things to listen for this time',
+   pics=['the oral cavity', 'the vestibule', 'the hard palate', 'mucosa'],
+   pairs=[('The phrase that signals a definition is   a) “so”   b) “we define”   '
+           'c) “remember”', 'b'),
+          ('The boundary she spends longest on is   a) the lips   b) the palate   '
+           'c) the floor', 'b'),
+          ('The student asks a question   a) at the start   b) in the middle   '
+           'c) at the end', 'b'),
+          ('She tells the class to write down   a) everything   b) the order   '
+           'c) nothing', 'b')],
+   fig=F.mini_table('WHAT YOU ARE LISTENING FOR THIS TIME',
+     ['Not this', 'But this'],
+     [['the names of the parts', 'the phrase that signals a definition'],
+      ['the boundaries', 'which one she spends longest on'],
+      ['the answers', 'when the student interrupts']]),
+   fig_cap='The same lecture, listened to for how it is built.'),
+
+ dict(skill='speaking', title='Define it for somebody who has not read the book',
+   rubric='Define three structures to a partner who may not use any technical word back.',
+   how='Student B may answer only with everyday words, and must say “I do not follow” '
+       'the moment a term arrives unexplained. Four minutes, then swap. Use a structure '
+       'from your own reading this week for the third turn.',
+   model=[('Student A', 'The vestibule is the space between your lips and your teeth.'),
+          ('Student B', 'So if I put my tongue in front of my teeth, that is it?'),
+          ('Student A', 'That is it. It goes round at the sides, behind the cheeks too.'),
+          ('Student B', 'And it stops where?'),
+          ('Student A', 'Where the lips and cheeks join the gum, top and bottom.'),
+          ('Student B', 'I follow that.')],
+   checklist=['you named the class in everyday words',
+              'you gave the position without a Latin term',
+              'your partner could repeat it back',
+              'you did not use a word your partner had not met'],
+   fig=F.conversation('DEFINING WITHOUT THE VOCABULARY',
+     dict(name='You', role='the student defining', skin='4', hair='black',
+          style='headscarf', tunic='blue'),
+     dict(name='Your partner', role='the student listening', skin='5', hair='black',
+          style='short', tunic='green'),
+     [('L', 'The vestibule is the space between your lips and your teeth.'),
+      ('R', 'So in front of my teeth?'),
+      ('L', 'Yes, and round at the sides behind the cheeks.'),
+      ('R', 'And it stops where?'),
+      ('L', 'Where the lips and cheeks join the gum.'),
+      ('R', 'I follow that.')],
+     note='If you cannot say it without the term, you have memorised it, not understood it.'),
+   fig_cap='The same definition with every technical word taken out of it.'),
+
+ dict(skill='writing', title='One structure, two readers',
+   rubric='Write one definition for an examiner and the same structure for a patient.',
+   how='Not the four definitions you wrote in part 8. This is one structure, written '
+       'twice, for two people who need different things from it.',
+   model=['For an examiner: the gingiva is the keratinised masticatory mucosa that '
+          'surrounds the neck of each tooth and covers the alveolar bone, and it is '
+          'keratinised because it takes the pressure of food.',
+          'For a patient: the gum is the firm pink tissue round the bottom of each tooth. '
+          'It is tougher than the inside of your cheek, because food passes over it all '
+          'day and the cheek is protected.'],
+   scaffold=['For an examiner:', 'For a patient:'],
+   checklist=['the examiner version names a class and a consequence',
+              'the patient version contains no technical term at all',
+              'both say the same thing about why it is tough',
+              'neither is longer than it needs to be'],
+   fig=F.contrast('ONE STRUCTURE, TWO READERS',
+     'FOR AN EXAMINER', ['keratinised masticatory mucosa',
+                         'surrounds the neck of each tooth',
+                         'covers the alveolar bone'],
+     'FOR A PATIENT', ['the firm pink tissue',
+                       'round the bottom of each tooth',
+                       'tougher than the inside of your cheek'],
+     'Marked for precision.', 'Judged by whether they followed it.'),
+   fig_cap='The same tissue, written for the two readers who matter.'),
+
+ dict(skill='reading', title='Is it a space or a tissue?',
+   kind='sort', rubric='Write S for a space and T for a tissue.',
+   columns=('S', 'T'),
+   how='This is the distinction case 1 in part 9 turns on. Then find one term from your '
+       'own lecture notes that you could not sort.',
+   example='the vestibule  —  S',
+   bank=['a space', 'a tissue', 'a boundary', 'a fold'],
+   bank_head='The classes a term can belong to',
+   pics=['the oral cavity', 'the vestibule', 'mucosa', 'the gingiva'],
+   pairs=[('the vestibule', 'S'),
+          ('the gingiva', 'T'),
+          ('the oral cavity proper', 'S'),
+          ('oral mucosa', 'T'),
+          ('the floor of the mouth', 'S'),
+          ('the frenum', 'T')],
+   fig=F.contrast('THE DISTINCTION THAT SETTLES CASE 1',
+     'A SPACE', ['the vestibule', 'the oral cavity proper', 'the floor of the mouth'],
+     'A TISSUE', ['the gingiva', 'oral mucosa', 'the frenum'],
+     'Answers “where?”', 'Answers “what is it made of?”'),
+   fig_cap='Two correct answers to one question are usually answers to two questions.'),
+],
+)

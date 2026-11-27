@@ -1009,3 +1009,228 @@ cases=[
   icons=['chair', 'person', 'speech', 'tick']),
 ],
 )
+
+# ---------------------------------------------------------------------------
+# Fourth round. The evaluation found the review reprinting earlier tasks, three
+# exercise shapes for the whole unit, seven questions out of ten at
+# remember-level, no fluency strand and nothing that asked the learner about
+# their own surgery. Each of those is answered below, and each now has a gate.
+# ---------------------------------------------------------------------------
+
+U['listening'][0]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what you expect to hear.',
+  how='You have not heard it yet. Guess from the picture, then listen and find out.',
+  example='The appointment is at   a) nine   b) ten   c) we are not told.   Answer: a',
+  bank=['the dentist', 'the nurse', 'the patient', 'the record card'],
+  bank_head='The four people and things in this recording',
+  pics=['the dental nurse', 'the chair', 'an appointment', 'the surgery'],
+  pairs=[('The first person to speak is   a) the patient   b) the dentist   c) the nurse', 'b'),
+         ('The dentist asks for   a) the name only   b) the name and the date of birth   '
+          'c) the address', 'b'),
+         ('Before the chair moves, the dentist   a) says nothing   b) says what she is '
+          'going to do   c) asks the nurse', 'b')])
+
+U['listening'][1]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what you expect from the list of the morning.',
+  how='Look at the list. Decide, then listen.',
+  example='A handover is given by   a) the dentist   b) the nurse   c) the patient.   Answer: b',
+  bank=['nine o’clock', 'nine thirty', 'ten o’clock', 'ten thirty'],
+  bank_head='The four times in this recording',
+  pics=['an appointment', 'the waiting room', 'the surgery', 'the dental nurse'],
+  pairs=[('The first patient of the morning is   a) a child   b) Mrs Mabaso   '
+          'c) Mr Alvarez', 'b'),
+         ('One patient is late. The nurse knows because   a) the dentist told her   '
+          'b) he telephoned   c) she saw him', 'b'),
+         ('The ten thirty space is   a) for a child   b) kept free   c) already booked', 'b')])
+
+U['listening'][2]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what a telephone message has to carry.',
+  how='Three of these go on every message. One does not. Decide first, then listen.',
+  example='A message says who it is   a) for   b) about   c) both.   Answer: c',
+  bank=['who it is for', 'who it is from', 'what changed', 'what the desk must do'],
+  bank_head='The four lines of a message',
+  pics=['an appointment', 'the waiting room', 'the surgery', 'the dental nurse'],
+  pairs=[('A message must say   a) who it is for   b) how the caller sounded   '
+          'c) what the weather is', 'a'),
+         ('A time in a message is written   a) as a number   b) as “soon”   '
+          'c) not at all', 'a'),
+         ('If nothing needs doing, the message says   a) nothing   b) “none”   '
+          'c) “maybe”', 'b')])
+
+U['vocab_tasks'][1] = dict(kind='odd',
+  rubric='Three of the four belong together. Circle the one that does not, and say why.',
+  how='There is more than one good reason in some lines. Say yours out loud.',
+  example='the chair / the headrest / the bowl / the appointment  —  an appointment is '
+          'not a thing in the room',
+  bank=['a room', 'a part of the chair', 'a person', 'a time'],
+  bank_head='The four groups these words fall into',
+  pics=['the surgery', 'the waiting room', 'the chair', 'an appointment'],
+  pairs=[('the surgery / the waiting room / reception / the headrest', 'the headrest'),
+         ('the chair / the headrest / the bowl / the dental nurse', 'the dental nurse'),
+         ('comfortable / sore / low / the appointment', 'the appointment'),
+         ('Can you …? / Would you like …? / I am going to … / Thank you.', 'Thank you.'),
+         ('the dentist / the nurse / the patient / the record card', 'the record card')])
+
+U['reading'][2]['post'] = dict(kind='tf',
+  rubric='True or false? If it is false, write the correction in six words or fewer.',
+  how='Then say which of the five you have seen go wrong in your own practice.',
+  example='The patient says the name.  —  true',
+  bank=['the patient says it', 'you compare with the record', 'you stop if one differs',
+        'about eight seconds', 'local law and practice rules'],
+  bank_head='What the reading said, in five lines',
+  pics=['the record', 'the date of birth', 'the surgery', 'the dental nurse'],
+  pairs=[('You say the name and the patient agrees.', 'false — the patient says it'),
+         ('You compare the answer with the record in front of you.', 'true'),
+         ('If one of the two is different, you carry on carefully.',
+          'false — you stop and ask reception'),
+         ('The check takes about eight seconds.', 'true'),
+         ('The same two items are required in every country.',
+          'false — local law and practice rules decide')])
+
+U['speaking'][2]['how'] = ('Student A is the dentist. Student B is the patient and takes '
+                           'a role card. Run it once. Then swap and run it again with the '
+                           'other card. The third time, use the room you actually work in: '
+                           'name your own practice and your own nurse.')
+
+U.update(
+fluency=dict(
+  title='The first two minutes, three times',
+  rubric='Say the whole of the first two minutes to three different partners.',
+  how='Four minutes with the first partner, three with the second, two with the third. '
+      'Say the same thing every time. Nothing new goes in.',
+  content=['Greet the patient and give your own name.',
+           'Give the name of the person working with you.',
+           'Ask for the name, and then for the date of birth.',
+           'Seat the patient, saying each move before you make it.',
+           'Ask whether the chair is comfortable, and wait for the answer.',
+           'Say that you are going to look first, and that you will say what you find.'],
+  words=['the surgery', 'the waiting room', 'the chair', 'the headrest',
+         'the dental nurse', 'an appointment', 'to sit back', 'comfortable'],
+  fig_title='FOUR MINUTES, THEN THREE, THEN TWO',
+  point='You can say the whole opening without stopping to think, which is the only '
+        'version a patient ever hears.',
+  ask='Which sentence came out fastest the third time, and which still made you stop?',
+  icons=['speech', 'clock', 'person', 'tick']),
+
+review_intro='Five activities, one for each skill. None of them repeats a task you have '
+             'already done: the words are the same, the sentences are new. Do them in '
+             'order. They take twenty minutes.',
+review=[
+ dict(skill='reading', title='The morning, in order',
+   kind='order', rubric='Put the six lines of one appointment in the order they happen.',
+   how='Then say which line your own practice does differently, and why.',
+   example='Greet the patient and give your name.  —  1',
+   bank=['greeting', 'identifying', 'seating', 'asking', 'looking', 'writing'],
+   bank_head='The six jobs these lines do',
+   pics=['the waiting room', 'the chair', 'the dental nurse', 'the surgery'],
+   pairs=[('Call the patient through from the waiting room.', '1'),
+          ('Give your own name and your nurse’s name.', '2'),
+          ('Ask for the name and the date of birth.', '3'),
+          ('Ask the patient to sit down, and put the chair back.', '4'),
+          ('Say that you are going to look first.', '5'),
+          ('Write the three lines of the record.', '6')],
+   fig=F.step_sequence('THE SIX LINES, ONCE THEY ARE IN ORDER',
+     ['Call the patient through.', 'Two names: yours and your nurse’s.',
+      'Two identifiers: name and date of birth.', 'Seat, saying every move first.',
+      'Say you are going to look.', 'Write the record the same day.'],
+     stop_points=[3],
+     note='The marked step is the one that gets dropped when a morning is late.'),
+   fig_cap='The six lines, once they are in the right order.'),
+
+ dict(skill='listening', title='Four things from 5.1 that you did not write down',
+   kind='choice', rubric='Listen to 5.1 once more and circle a, b or c.',
+   how='You do not need the transcript. One listening is enough. These are not the '
+       'questions you answered in part 5.',
+   example='The patient’s family name is   a) Mabaso   b) Alvarez   c) Okafor.   Answer: a',
+   bank=['the coat', 'the neck', 'the light', 'the hand'],
+   bank_head='The four small things to listen for this time',
+   pics=['the chair', 'the headrest', 'comfortable', 'the surgery'],
+   pairs=[('The patient does with the coat   a) hangs it up   b) keeps it   '
+           'c) gives it to the nurse', 'b'),
+          ('What is wrong at first is   a) the light   b) the neck   c) the time', 'b'),
+          ('The patient is asked about the light   a) before the chair moves   '
+           'b) after the chair moves   c) not at all', 'b'),
+          ('To stop the dentist, the patient must   a) speak   b) lift the left hand   '
+           'c) sit up', 'b')],
+   fig=F.mini_table('WHAT YOU ARE LISTENING FOR THIS TIME',
+     ['Not this', 'But this'],
+     [['who speaks first', 'what happens to the coat'],
+      ['the date of birth', 'what the patient says about the neck'],
+      ['the names', 'how the patient can stop you']]),
+   fig_cap='The same recording, listened to for different things.'),
+
+ dict(skill='speaking', title='A patient who answers before you ask',
+   rubric='Run an opening in which the patient gives the name before you ask for it.',
+   how='Student B walks in and says “Thandiwe Mabaso, nine o’clock.” Student A still has '
+       'to get both identifiers and still has to say every move first. Three minutes, '
+       'then swap. Use your own practice and your own nurse’s name.',
+   model=[('You', 'Good morning. Please come in.'),
+          ('Patient', 'Thandiwe Mabaso, nine o’clock.'),
+          ('You', 'Thank you. My name is … and this is …, who is working with me.'),
+          ('You', 'Can I just check your date of birth as well?'),
+          ('Patient', 'The fourth of July, nineteen sixty-eight.'),
+          ('You', 'Thank you. That is what I have here.')],
+   checklist=['you gave both names even though the patient started',
+              'you still asked for the second identifier',
+              'you said what you were going to do before you did it',
+              'you did not sound as if the patient had done something wrong'],
+   fig=F.conversation('THE PATIENT WHO STARTS FIRST',
+     dict(name='You', role='the dentist', skin='3', hair='black', style='tied', tunic='teal'),
+     dict(name='Your partner', role='the patient', skin='5', hair='black', style='long',
+          tunic='plum'),
+     [('R', 'Thandiwe Mabaso, nine o’clock.'),
+      ('L', 'Thank you. My name is …'),
+      ('L', 'Can I just check your date of birth as well?'),
+      ('R', 'The fourth of July, nineteen sixty-eight.'),
+      ('L', 'Thank you. That is what I have here.'),
+      ('R', 'Shall I sit down?')],
+     note='The patient has done half your job. You still have to do the other half.'),
+   fig_cap='The opening when the patient gets in first.'),
+
+ dict(skill='writing', title='The same visit, written for somebody else',
+   rubric='Write the three lines of the record for a visit where something was done.',
+   how='Not the examination you wrote in part 8. This time a filling was placed, the '
+       'patient was late, and the next appointment is not yet booked.',
+   model=['14 September. Seen by N. Haddad with M. Chen, dental nurse. Patient arrived '
+          'twelve minutes late.',
+          'One filling, upper left. Patient comfortable throughout.',
+          'Next appointment: not booked today. Patient to telephone the desk this week.'],
+   scaffold=['Date, seen by, and anything about the time:',
+             'What was done, and how the patient was:',
+             'Next appointment, or what happens instead:'],
+   checklist=['line one carries two names and the lateness',
+              'line two says what was done, not what you thought',
+              'line three says what happens even though nothing is booked',
+              'nothing in it would surprise the patient if they read it'],
+   fig=F.mini_table('THE SAME THREE LINES, A DIFFERENT DAY',
+     ['Line', 'In part 8 it carried', 'Here it carries'],
+     [['1', 'who was there', 'who was there, and that the patient was late'],
+      ['2', 'nothing was done', 'a filling, and how the patient was'],
+      ['3', 'a date', 'no date, and what happens instead']], highlight=[2]),
+   fig_cap='Why the third line is the hard one when nothing is booked.'),
+
+ dict(skill='reading', title='Which of these is a record, and which is a story?',
+   kind='sort', rubric='Write R for a record line and S for a story.',
+   columns=('R', 'S'),
+   how='A record says what was seen and done. A story says what somebody thought or felt. '
+       'Then find one line from your own practice that is really a story.',
+   example='Small hole in the upper right first molar.  —  R',
+   bank=['what was seen', 'what was done', 'what somebody thought', 'what somebody felt'],
+   bank_head='The four things a line can carry',
+   pics=['the record', 'the surgery', 'the dental nurse', 'an appointment'],
+   pairs=[('Examination. Nothing done today.', 'R'),
+          ('Patient seemed a bit worried about the whole thing.', 'S'),
+          ('Seen by N. Haddad with M. Chen, dental nurse.', 'R'),
+          ('Nothing much wrong as far as I could tell.', 'S'),
+          ('Next appointment: 14 September.', 'R'),
+          ('Lovely lady, very easy to treat.', 'S')],
+   fig=F.contrast('TWO LINES ABOUT THE SAME VISIT',
+     'A STORY', ['Nothing much wrong.', 'Patient seemed worried.',
+                 'Lovely lady, very easy.'],
+     'A RECORD', ['Examination. Nothing done today.',
+                  'Patient asked twice what would happen next.',
+                  'Seen by N. Haddad with M. Chen.'],
+     'Nobody can check any of it.', 'Anybody can check all of it.'),
+   fig_cap='The difference is not politeness. It is whether a second person can check it.'),
+],
+)

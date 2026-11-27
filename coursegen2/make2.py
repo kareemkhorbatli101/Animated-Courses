@@ -88,7 +88,10 @@ for t, d in [
   ('4  Grammar', 'One point, taken out of the sentences on the preview page. Not a new subject.'),
   ('5  Listening', 'Three recordings. For each one: a task before you listen, a task while you '
    'listen, and a task after. Every transcript is at the back of this book.'),
-  ('6  Speaking', 'Three role-plays. Each has a model you can copy before you change it.'),
+  ('6  Speaking', 'Three role-plays, each with a model you can copy before you change '
+   'it, and then one fluency task: the same thing said three times, to three partners, '
+   'in four minutes, then three, then two. Nothing new goes into it. The only thing that '
+   'changes is how fast it comes out.'),
   ('7  Reading', 'Three texts: what you would actually read in a practice or a school.'),
   ('8  Writing', 'Three tasks. Each has a model, a frame to fill, and a checklist you mark '
    'your own work against.'),
@@ -196,6 +199,13 @@ for U in UNITS:
     gates2.check_level(U, B['level'], series.KIND, series.DOMAIN, fails, warns)
     gates2.check_cases(U, B['bandge'], series.KIND, fails, warns)
     gates2.check_recaps(U, ctx, fails, warns)
+    gates2.check_recycle(U, fails, warns)
+    gates2.check_variety(U, fails, warns)
+    gates2.check_demand(U, fails, warns)
+    gates2.check_fluency(U, fails, warns)
+    gates2.check_own(U, fails, warns)
+    gates2.check_answerable(U, fails, warns)
+    gates2.check_gap_chunks(U, fails, warns)
 gates2.check_figures(ctx.figures, fails, warns, floor=18 * len(UNITS))
 gates2.check_exercise_figs(ctx, fails, warns)
 gates2.check_breaks(ctx, fails, warns)

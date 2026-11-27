@@ -365,3 +365,62 @@ T['defects'] = list(T.get('defects', [])) + [
  'never gave learners a minimal pair to hear. “Fourteen / forty” was added to the '
  'pronunciation notes and to the review listening.',
 ]
+
+# ---- fourth round: a model for every open task, including the cases ----
+T['sample_answers'] += [
+ ('6.1  Present a type of tooth',
+  'A premolar is a tooth of the permanent dentition. It lies between the canine and the '
+  'molars, two in each quadrant. It has two cusps, buccal and lingual, and a smaller '
+  'biting surface than a molar. It holds food while the molars crush it, which is why a '
+  'mouth without premolars chews differently.'),
+ ('6.3  Being asked at the chair',
+  'Supervisor: “This one?” — Student: “Two four.” Supervisor: “Say it again.” — Student: '
+  '“Two four. Upper left first premolar.” Digits first, name only if asked.'),
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'There are four quadrants, two above and two below, divided by the midline. The first '
+  'digit gives the quadrant, going clockwise from the patient’s upper right. The '
+  'second digit counts outwards from the midline, one to eight. So one four is the '
+  'fourth tooth from the midline in the upper right: the first premolar. No second digit '
+  'goes above eight. Say the digits one at a time.',
+  'الهدف أن يُشرح النظام كاملاً في الدقيقتين الأخيرتين دون توقف.'),
+ ('7.1a  What a class predicts before reading the textbook page',
+  'They predict the order of eruption and are usually right about the first molar and '
+  'wrong about everything after it. Let the page correct them.'),
+ ('7.2a  What a class predicts before reading the case',
+  'Expect “somebody was careless”. The case says otherwise, and the gap between the two '
+  'is what makes it worth reading.'),
+ ('7.3a  What a class predicts before reading the procedure',
+  'Most predict one person charting. Two people, and the read-back between them, is the '
+  'thing to let the reading supply.'),
+ ('8.1  Four definitions',
+  'An incisor is a single-rooted tooth with a cutting edge, four in each jaw, used to '
+  'cut food. A canine is a single-rooted tooth with one pointed cusp, one in each '
+  'quadrant, used to tear. A premolar is a tooth with two cusps, two in each quadrant, '
+  'between the canine and the molars. A molar is a multi-rooted tooth with four or five '
+  'cusps, used to crush.'),
+ ('8.3  Labelling the dentition',
+  '11 upper right central incisor — the first tooth to the right of the midline in the '
+  'upper arch. 26 upper left first molar — the sixth tooth from the midline on the upper '
+  'left, and usually the first permanent tooth to erupt.'),
+ ('9.1  A group answer that would close the case',
+  'Telephone the referring clinic before the patient sits down; nothing irreversible '
+  'until they answer. Add “all tooth designations use FDI notation (ISO 3950)” to our '
+  'own letters from today.',
+  'اتصل بالعيادة المُحيلة قبل جلوس المريض، وأضف اسم النظام إلى رسائلنا من اليوم.'),
+ ('9.2  A group answer that would close the case',
+  'The second digit counts every tooth from the midline, not every premolar. Draw one '
+  'quadrant and count it together; the disagreement ends in ten seconds.',
+  'الرقم الثاني يعدّ كل الأسنان من الخط المتوسط لا الضواحك وحدها. ارسم الربع وعُدّ معاً.'),
+ ('9.3  A group answer that would close the case',
+  'Keep the rule and write it on the wall: digits are said one at a time. It is written '
+  'for the noisy day behind a mask, not for the quiet classroom where nothing went wrong.',
+  'احتفظ بالقاعدة واكتبها على الجدار: تُقرأ الأرقام رقماً رقماً، لأجل اليوم الصعب لا السهل.'),
+ ('10.3  The review role-play: a number that cannot be acted on',
+  'I am calling about your letter for Mr Haddad. Which notation are you using? In FDI, '
+  '14 is an upper right premolar; in Universal it is an upper left molar. I would rather '
+  'not guess, so I have not booked anything yet.'),
+ ('10.4  The review writing: the line that makes a number safe',
+  'On a referral letter: all tooth designations in this letter use FDI notation '
+  '(ISO 3950). On a chart: notation used in this clinic — FDI. Digits are spoken one at '
+  'a time.'),
+]

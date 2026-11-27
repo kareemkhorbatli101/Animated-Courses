@@ -344,3 +344,56 @@ T['defects'] = list(T.get('defects', [])) + [
  'The sample answer for 6.3 came out longer than the unit’s own model, which meant the '
  'model was too thin. The model in 6.3 now runs the whole two minutes.',
 ]
+
+# ---- fourth round: a model for every open task, including the cases ----
+T['sample_answers'] += [
+ ('6.2  Seating a patient, said before it is done',
+  'Please sit down in the chair. Would you like to put your coat here? I am going to put '
+  'the chair back now. Is that comfortable? Good. I am going to move the headrest a '
+  'little. Is that better?'),
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'Good morning, please come in. My name is … and this is …, working with me. Can you '
+  'tell me your name? And your date of birth? Thank you, that matches. Please sit down. '
+  'I am going to put the chair back. Is that comfortable? I am going to look first, and '
+  'then I will tell you what I find.',
+  'الهدف أن تخرج الجملة كاملة دون توقف في الدقيقتين الأخيرتين، لا أن تُضاف إليها معلومات.'),
+ ('7.1a  What a class predicts before reading the notice',
+  'Most classes get the opening time and miss the sentence about telephoning the day '
+  'before. Let them be wrong: the point of the prediction is that they read to check, '
+  'not that they guess correctly.'),
+ ('7.2a  What a class predicts before reading the record card',
+  'Expect them to find the family name and the date of birth quickly and to hesitate '
+  'over who saw the patient, because two names are on the card and they look for one.'),
+ ('7.3a  What a class says before reading about identification',
+  'Most say they ask for the name. Fewer say the patient must say it. Almost nobody '
+  'volunteers what they do when the answer does not match. Write that gap on the board '
+  'before they read; the reading fills it.'),
+ ('8.1  Three lines of a record',
+  '12 March. Seen by N. Haddad with M. Chen, dental nurse. Examination; nothing done '
+  'today. Next appointment: 14 September, for an examination.'),
+ ('8.3  A card the patient takes home',
+  'Mrs T. Mabaso. Thursday 14 September at 10.20, with Nadia Haddad. For: examination. '
+  'If you cannot come, please telephone us the day before.'),
+ ('9.1  A group answer that would close the case',
+  'Reception asks first, before the patient stands up, and the dentist asks again in the '
+  'surgery; nothing is uncovered until both have been asked. The card with no date of '
+  'birth is completed at the desk, not guessed at.',
+  'يسأل الاستقبال أولاً ثم يعيد طبيب الأسنان السؤال، ولا يُكشف شيء قبل التحقق مرتين.'),
+ ('9.2  A group answer that would close the case',
+  'Change the speed and the position before the volume: sit the chair up, stand where '
+  'she can see your face, and say the same words more slowly. If the third attempt '
+  'fails, write the question down.',
+  'غيّر السرعة والموقع قبل أن ترفع الصوت، وإن فشلت المحاولة الثالثة فاكتب السؤال.'),
+ ('9.3  A group answer that would close the case',
+  'The patient first: “I am sorry, I am going to bring you up a little. I will tell you '
+  'before I move it next time.” The nurse afterwards, privately, in one sentence.',
+  'المريض أولاً وبصوت مسموع، ثم المساعِدة على انفراد وبجملة واحدة.'),
+ ('10.3  The review role-play, when the patient speaks first',
+  'Good morning, please come in. Thank you — my name is … and this is …, who is working '
+  'with me. Can I just check your date of birth as well? Thank you, that matches what I '
+  'have here. Please sit down in the chair.'),
+ ('10.4  The review record, for a visit where something was done',
+  '14 September. Seen by N. Haddad with M. Chen, dental nurse. Patient arrived twelve '
+  'minutes late. One filling, upper left; patient comfortable throughout. Next '
+  'appointment: not booked today — patient to telephone the desk this week.'),
+]

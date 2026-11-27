@@ -1143,3 +1143,224 @@ p10_recap=['You can name, define and locate the four tissues of a tooth, and say
            'this unit runs under it.'],
 p10_ask='Close the book and describe two of the four tissues in four steps each.',
 )
+
+# ---- fourth round: variety, demand, fluency, own study, a real review ----
+
+U['listening'][0]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what a lecture that works outside-in will do.',
+  how='Guess from the section. Then listen and find out.',
+  example='She gives the order   a) first   b) last.   Answer: a',
+  bank=['enamel', 'dentine', 'the pulp', 'cementum'],
+  bank_head='The four tissues, in the order a drill meets them',
+  pics=['enamel', 'dentine', 'the pulp', 'cementum'],
+  pairs=[('She gives the order of the layers   a) at the start   b) at the end   '
+          'c) not at all', 'a'),
+         ('The reason enamel cannot repair itself is   a) its hardness   b) that it has '
+          'no cells   c) its thinness', 'b'),
+         ('What a patient feels through dentine travels   a) outwards   b) inwards   '
+          'c) nowhere', 'b')])
+
+U['listening'][1]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose why a correct answer can still lose a mark.',
+  how='A student says four true things in the wrong order.',
+  example='A list shows   a) memory   b) understanding.   Answer: a',
+  bank=['class', 'position', 'material', 'function'],
+  bank_head='The four steps, in the order an examiner expects',
+  pics=['dentine', 'enamel', 'the pulp', 'a cusp'],
+  pairs=[('A list of true facts shows   a) understanding   b) memory   c) both', 'b'),
+         ('The step the student missed was   a) the first   b) the third   '
+          'c) the last', 'a'),
+         ('The word that earns the mark is   a) “and”   b) “so”   c) “also”', 'b')])
+
+U['listening'][2]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what tells a clinician which layer they are in.',
+  how='A drill is in a cavity and a supervisor is asking questions.',
+  example='Enamel is   a) white   b) yellow.   Answer: a',
+  bank=['the colour', 'the hardness', 'what the patient feels', 'what shows through'],
+  bank_head='The four signs a clinician reads',
+  pics=['enamel', 'dentine', 'the pulp', 'a surface'],
+  pairs=[('Dentine is   a) white and hard   b) yellow and softer   c) pink', 'b'),
+         ('Pink showing through means   a) go deeper   b) stop   c) change the bur', 'b'),
+         ('If the patient is numb, their feeling is   a) the best sign   b) not a sign '
+          'you can trust   c) the only sign', 'b')])
+
+U['vocab_tasks'][1] = dict(kind='odd',
+  rubric='Three of the four belong together. Circle the one that does not, and say why.',
+  how='Name the class the three share before you name the one that is out.',
+  example='enamel / dentine / cementum / the pulp  —  the pulp is the only soft tissue',
+  bank=['a hard tissue', 'a soft tissue', 'a part of the tooth', 'a surface feature'],
+  bank_head='The four classes these terms belong to',
+  pics=['enamel', 'dentine', 'the pulp', 'a cusp'],
+  pairs=[('enamel / dentine / cementum / the pulp', 'the pulp'),
+         ('the crown / the root / the neck / a cusp', 'a cusp'),
+         ('lies beneath / surrounds / is covered with / because', 'because'),
+         ('a tubule / a nerve / a vessel / a cusp', 'a cusp'),
+         ('mineral / cells / tubules / the crown', 'the crown')])
+
+U['reading'][2]['post'] = dict(kind='tf',
+  rubric='True or false? If it is false, write the correction in six words or fewer.',
+  how='Then say which of the four steps you leave out most often in your own written '
+      'answers.',
+  example='The class comes last.  —  false — the class comes first',
+  bank=['class', 'position', 'material', 'function with a consequence'],
+  bank_head='The four steps, in order',
+  pics=['enamel', 'dentine', 'the pulp', 'cementum'],
+  pairs=[('The first step is to name the class the structure belongs to.', 'true'),
+         ('Beneath and surrounds mean the same thing.',
+          'false — beneath is vertical, surrounds is round'),
+         ('“Is made of” names a surface.', 'false — it names material'),
+         ('The marks are in the fourth step.', 'true'),
+         ('A longer answer always scores better.',
+          'false — the order matters, not the length')])
+
+U['speaking'][0]['how'] = ('Use the four steps: class, position, material, function. '
+                           'Student B times you and ticks each step. Then swap. For the '
+                           'third turn, describe a structure from your own lecture notes '
+                           'this week.')
+
+U.update(
+fluency=dict(
+  title='One tissue in thirty seconds, three times',
+  rubric='Describe dentine, in four steps, to three different partners.',
+  how='Four minutes with the first, three with the second, two with the third. The same '
+      'four steps every time. Nothing new goes in.',
+  content=['Name the class: dentine is a hard tissue of the tooth.',
+           'Say where it lies, using beneath and surrounds in one sentence.',
+           'Say what crosses it, and which way those tubules run.',
+           'Say what they carry, and in which direction.',
+           'Say what lies at the far end of them.',
+           'Finish with the consequence: and so the patient feels cold water.'],
+  words=['enamel', 'dentine', 'the pulp', 'cementum', 'the crown', 'the root',
+         'a cusp', 'a surface'],
+  fig_title='THE SAME FOUR STEPS, IN FOUR MINUTES, THEN THREE, THEN TWO',
+  point='You can produce a four-step description under time, which is the form every '
+        'oral examination in this subject takes.',
+  ask='Which of the four steps still made you stop on the third turn?',
+  icons=['speech', 'clock', 'tooth', 'tick']),
+
+review_intro='Five activities, one for each skill, and one that brings back Units 1 and '
+             '2. Nothing here repeats a task you have already done. Thirty minutes.',
+review=[
+ dict(skill='reading', title='A tooth, from the outside in',
+   kind='order', rubric='Put the six lines in the order a drill meets them.',
+   how='Then say which of the six you would find hardest to recognise in your own clinic.',
+   example='Enamel: white, very hard, no feeling.  —  1',
+   bank=['white and hard', 'yellow and softer', 'pink showing through', 'bleeding',
+         'the root surface', 'the neck'],
+   bank_head='What each stage looks like',
+   pics=['enamel', 'dentine', 'the pulp', 'cementum'],
+   pairs=[('Enamel: white, very hard, and the patient feels nothing.', '1'),
+          ('Dentine: yellow, softer, and the patient may feel cold.', '2'),
+          ('Deeper dentine: pink begins to show through. Stop here.', '3'),
+          ('The pulp: bleeding. This is not where you wanted to be.', '4'),
+          ('On the root instead: cementum, thinner and softer than enamel.', '5'),
+          ('Where the two coverings meet: the neck of the tooth.', '6')],
+   fig=F.step_sequence('THE SIX STAGES, ONCE THEY ARE IN ORDER',
+     ['Enamel: white, hard, no feeling.', 'Dentine: yellow, softer, cold is felt.',
+      'Pink showing through: stop.', 'The pulp: bleeding.',
+      'Cementum, on the root.', 'The neck, where the two meet.'],
+     stop_points=[3],
+     note='The marked stage is a warning, not a destination.'),
+   fig_cap='The six stages, in the order an instrument meets them.'),
+
+ dict(skill='listening', title='Four things from 5.1 that you did not write down',
+   kind='choice', rubric='Listen to 5.1 once more and circle a, b or c.',
+   how='These are not the questions you answered in part 5. One listening is enough.',
+   example='She describes the layers   a) outside in   b) inside out.   Answer: a',
+   bank=['the order', 'the volume', 'the tubules', 'the join'],
+   bank_head='The four things to listen for this time',
+   pics=['enamel', 'dentine', 'the pulp', 'cementum'],
+   pairs=[('She tells the class to write down   a) every detail   b) the order   '
+           'c) nothing', 'b'),
+          ('The tissue that makes up most of the tooth by volume is   a) enamel   '
+           'b) dentine   c) cementum', 'b'),
+          ('She says the join at the neck   a) matters later   b) does not matter   '
+           'c) is always exact', 'a'),
+          ('She ends by saying that next week they   a) revise   b) lose one of the '
+           'four   c) start the jaw', 'b')],
+   fig=F.mini_table('WHAT YOU ARE LISTENING FOR THIS TIME',
+     ['Not this', 'But this'],
+     [['the four names', 'the instruction about note-taking'],
+      ['the layers', 'which one is largest by volume'],
+      ['the detail', 'what she says the next lecture will do']]),
+   fig_cap='The same lecture, listened to for how it is built.'),
+
+ dict(skill='speaking', title='The patient who asks what a filling is made of',
+   rubric='Answer a patient who wants to know what is under a filling.',
+   how='Student B is a patient who keeps asking “and under that?” until there is nothing '
+       'left to say. No technical word may be used. Four minutes, then swap. For the '
+       'last turn, use a question a patient has actually asked you.',
+   model=[('Patient', 'What is under the filling?'),
+          ('You', 'Underneath it there is a softer layer, and that is the one that '
+                  'carries feeling.'),
+          ('Patient', 'And under that?'),
+          ('You', 'At the very middle there is a living part, with the nerve in it.'),
+          ('Patient', 'So the filling is holding all that in?'),
+          ('You', 'It is covering the layer that feels. That is why it stops hurting.')],
+   checklist=['no technical term used at any point',
+              'the three layers stayed in the right order',
+              'you got to the living part without frightening anybody',
+              'the patient could say it back'],
+   fig=F.conversation('“AND UNDER THAT?”',
+     dict(name='You', role='the student answering', skin='4', hair='black',
+          style='headscarf', tunic='blue'),
+     dict(name='Your partner', role='the patient', skin='2', hair='brown', style='short',
+          tunic='sand'),
+     [('R', 'What is under the filling?'),
+      ('L', 'A softer layer, and that one carries feeling.'),
+      ('R', 'And under that?'),
+      ('L', 'At the middle, a living part with the nerve in it.'),
+      ('R', 'So the filling holds all that in?'),
+      ('L', 'It covers the layer that feels.')],
+     note='Three layers, no technical word, and the patient still has the right picture.'),
+   fig_cap='The anatomy of this unit, said to somebody who has never read a textbook.'),
+
+ dict(skill='writing', title='The same mechanism, for two readers',
+   rubric='Write one paragraph for an examiner and one for a patient leaflet.',
+   how='Not the paragraph you wrote in part 8. The same mechanism, written twice, with '
+       'nothing technical in the second.',
+   model=['For an examiner: exposed dentine is crossed by tubules running outwards from '
+          'the pulp. Cold reaching the exposed surface travels inwards along them, and '
+          'at the far end lies the pulp, which holds the nerve; the patient therefore '
+          'feels the cold as pain.',
+          'For a patient: under the hard outside of a tooth there is a softer layer full '
+          'of very fine channels. When the hard part wears through, cold can run down '
+          'those channels to the living part in the middle, and that is what hurts.'],
+   scaffold=['For an examiner:', 'For a patient:'],
+   checklist=['both say which way the stimulus travels',
+              'the examiner version names the tissue and the consequence',
+              'the patient version uses no term from the preview page',
+              'neither is longer than five sentences'],
+   fig=F.contrast('ONE MECHANISM, TWO READERS',
+     'FOR AN EXAMINER', ['exposed dentine', 'tubules running outwards',
+                         'the pulp at the far end'],
+     'FOR A PATIENT', ['the softer layer underneath', 'very fine channels',
+                       'the living part in the middle'],
+     'Marked for the tissue and the direction.',
+     'Judged by whether they could repeat it.'),
+   fig_cap='The same mechanism written for the two readers a dentist has.'),
+
+ dict(skill='reading', title='Units 1, 2 and 3: hard tissue, soft tissue, or neither?',
+   kind='sort', rubric='Write H for a hard tissue, S for a soft tissue, and N for '
+                       'something that is not a tissue at all.',
+   columns=('H / S', 'N'),
+   how='Two of these are not tissues, and that is the point. Then sort three terms from '
+       'your own notes the same way.',
+   example='enamel  —  H',
+   bank=['a hard tissue', 'a soft tissue', 'a space', 'a system'],
+   bank_head='What each term actually is',
+   pics=['enamel', 'the pulp', 'the vestibule', 'notation'],
+   pairs=[('enamel', 'H'),
+          ('the pulp', 'S'),
+          ('cementum', 'H'),
+          ('the gingiva', 'S'),
+          ('the vestibule', 'N'),
+          ('notation', 'N')],
+   fig=F.contrast('THREE UNITS, THREE KINDS OF TERM',
+     'A TISSUE', ['enamel', 'dentine', 'the gingiva', 'the pulp'],
+     'NOT A TISSUE', ['the vestibule', 'the oral cavity', 'a quadrant', 'notation'],
+     'You could put it under a microscope.',
+     'You could not. It is a space or an agreement.'),
+   fig_cap='The distinction that has run under all three units.'),
+],
+)

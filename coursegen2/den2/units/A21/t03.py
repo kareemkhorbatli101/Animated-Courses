@@ -394,3 +394,51 @@ defects=[
  'The paper-in-front-of-the-mouth drill was added to the procedure.',
 ]
 )
+
+# ---- fourth round: a model for every open task, including the cases ----
+T['sample_answers'] += [
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'I am going to ask you a few questions first. What is the trouble today? When did it '
+  'start? What makes it worse, and how long does it hurt for? Are you taking any '
+  'medicine? Do you have an allergy to any medicine? So it started on Friday, it is '
+  'worse with cold water, and it lasts about a minute. Have I got that right?',
+  'الهدف أن تخرج الأسئلة الأربعة وإعادة القصة في الدقيقتين الأخيرتين دون توقف.'),
+ ('7.1a  What a class predicts before reading the notice',
+  'They find the word “medicine” at once and almost always miss the line about what a '
+  'patient must bring. Let the reading correct them.'),
+ ('7.2a  What a class predicts before reading the form',
+  'Expect them to find the lines with answers and to walk past the empty one. The empty '
+  'line is the whole point of the text.'),
+ ('7.3a  What a class says before reading about asking first',
+  'Most say “to be polite”. Push for a second reason before they read. The reading gives '
+  'four facts that only the patient has, and “polite” is not one of them.'),
+ ('8.1  Four lines of history',
+  'Trouble: upper left, pain at night, in his own words. Started: Friday. Worse with: '
+  'cold water; lasts about a minute. Medicines and allergy: one for the heart; has an '
+  'allergy to one painkiller (name on his card), written in red at the top.'),
+ ('8.3  A card asking the patient to bring their medicines',
+  'Mrs T. Mabaso. Thursday 14 March at 10.10. Please bring the boxes of every medicine '
+  'you take. If you cannot find them, write the names on this card and bring it.'),
+ ('9.1  A group answer that would close the case',
+  'Look today, and give nothing until the name is known. Ask him to telephone his '
+  'daughter from the waiting room while you examine. If the call does not happen, write '
+  '“allergy: name not available today, patient to bring card”.',
+  'افحص اليوم ولا تعطِ شيئاً حتى يُعرف اسم الدواء، واكتب سبب بقاء السطر فارغاً.'),
+ ('9.2  A group answer that would close the case',
+  'Stop asking the same question. Ask a smaller one: “Was it before or after the '
+  'weekend?” Then write what you have, and write that you asked three times.',
+  'لا تكرّر السؤال نفسه؛ اسأل سؤالاً أصغر، واكتب أنك سألت ثلاث مرات.'),
+ ('9.3  A group answer that would close the case',
+  'The desk says what it cannot answer: “I do not have a number on the form. I will ask '
+  'the dentist and telephone you back.” Then it asks for the number and fixes the form.',
+  'يقول الاستقبال ما لا يستطيع الإجابة عنه، ثم يطلب الرقم ويصحّح الاستمارة.'),
+ ('10.3  The review role-play: the patient who says “a bit”',
+  'When did it start? — A while ago. — Was it before or after the weekend? — After. — So '
+  'this week. Monday or Tuesday? — Tuesday. — Thank you. And how many painkillers '
+  'yesterday? Count the ones left in the box for me.'),
+ ('10.4  The review writing: the line that is still empty',
+  'Trouble: lower right, hurts when biting, in her own words. Started: about ten days '
+  'ago; no exact day given, asked three times. Worse with: biting; lasts a few seconds. '
+  'Medicines and allergy: one small white tablet, name not known — patient to bring the '
+  'box. No allergy known.'),
+]

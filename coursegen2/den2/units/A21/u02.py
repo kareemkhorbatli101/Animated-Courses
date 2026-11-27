@@ -1015,3 +1015,216 @@ cases=[
   icons=['mirror', 'tooth', 'speech', 'clock']),
 ],
 )
+
+# ---- fourth round: variety, demand, fluency, own practice, a real review ----
+
+U['listening'][0]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what you expect to hear in an examination.',
+  how='Guess from the picture. Then listen and find out.',
+  example='The dentist looks   a) first   b) last   c) not at all.   Answer: a',
+  bank=['open', 'look', 'rinse', 'spit'],
+  bank_head='The four things that happen, in some order',
+  pics=['to open wide', 'the mirror', 'to rinse', 'to spit'],
+  pairs=[('The first instruction to the patient is   a) rinse   b) open wide   '
+          'c) close', 'b'),
+         ('While she looks, the dentist   a) says nothing   b) says what she can see   '
+          'c) asks the nurse to look', 'b'),
+         ('At the end the patient is asked to   a) sit up at once   b) rinse and spit   '
+          'c) open again', 'b')])
+
+U['listening'][1]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what charting out loud sounds like.',
+  how='Two people are speaking and only one of them is looking in the mouth.',
+  example='The nurse writes   a) first   b) after she says it back   c) at the end of the day.   Answer: b',
+  bank=['the quadrant', 'the tooth', 'the finding', 'the surface'],
+  bank_head='The four things a charted line carries',
+  pics=['the upper teeth', 'the lower teeth', 'a filling', 'the mirror'],
+  pairs=[('The dentist says the quadrant   a) first   b) last   c) not at all', 'a'),
+         ('The nurse writes the line   a) at once   b) after saying it back   '
+          'c) at the end', 'b'),
+         ('If the nurse is not sure, she   a) guesses   b) asks   c) leaves it blank', 'b')])
+
+U['listening'][2]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what the desk has to get from a telephone call.',
+  how='Three of these belong on the message. One does not.',
+  example='The desk writes the patient’s   a) name   b) mood   c) address.   Answer: a',
+  bank=['which tooth', 'how long', 'what makes it worse', 'when they can come'],
+  bank_head='The four things the desk asks about a painful tooth',
+  pics=['a filling', 'the gum', 'to rinse', 'the mirror'],
+  pairs=[('The desk asks which side   a) always   b) only if the patient says   '
+          'c) never', 'a'),
+         ('A caller who cannot say how long it has hurt is asked   a) nothing more   '
+          'b) a smaller question   c) to telephone again', 'b'),
+         ('The message goes to the dentist   a) at the end of the week   b) before the '
+          'appointment   c) only if it is serious', 'b')])
+
+U['vocab_tasks'][1] = dict(kind='odd',
+  rubric='Three of the four belong together. Circle the one that does not, and say why.',
+  how='Say your reason out loud before you write anything.',
+  example='the mirror / the probe / the tweezers / the gum  —  the gum is not an instrument',
+  bank=['an instruction', 'a part of the mouth', 'an instrument', 'a finding'],
+  bank_head='The four groups these words fall into',
+  pics=['to open wide', 'the gum', 'the mirror', 'a filling'],
+  pairs=[('open wide / rinse / spit / the gum', 'the gum'),
+         ('the upper teeth / the lower teeth / the gum / the mirror', 'the mirror'),
+         ('a filling / a sound tooth / a sore gum / open wide', 'open wide'),
+         ('there is / there are / I can see / please', 'please'),
+         ('the mirror / the probe / the tray / the upper teeth', 'the upper teeth')])
+
+U['reading'][2]['post'] = dict(kind='tf',
+  rubric='True or false? If it is false, write the correction in six words or fewer.',
+  how='Then say which of the five is most often got wrong in your own practice.',
+  example='A number can be misheard as a different number.  —  true',
+  bank=['a number is the same in every language', 'names sound like other names',
+        'the quadrant comes first', 'the nurse says it back', 'nothing is written first'],
+  bank_head='What the reading said, in five lines',
+  pics=['the upper teeth', 'the lower teeth', 'a filling', 'the mirror'],
+  pairs=[('A tooth is written by its name, not by a number.',
+          'false — a number is used, not a name'),
+         ('The quadrant is said before the tooth.', 'true'),
+         ('The nurse writes the entry and then says it back.',
+          'false — she says it back and then writes'),
+         ('A number means the same thing in every language.', 'true'),
+         ('Two teeth can have names that sound alike.', 'true')])
+
+U['speaking'][2]['how'] = ('Student A is the dentist and Student B is the patient. Run the '
+                           'whole examination once, then swap. The third time, describe a '
+                           'mouth you have actually seen in your own practice this month.')
+
+U.update(
+fluency=dict(
+  title='One examination, three times',
+  rubric='Take a partner through a whole examination three times, to three partners.',
+  how='Four minutes, then three, then two. The same examination every time. Nothing new '
+      'goes in; only the time comes down.',
+  content=['Ask the patient to open wide, and then a little wider.',
+           'Say what you can see in the upper teeth, and where it is.',
+           'Say what you can see in the lower teeth, and where it is.',
+           'Say one thing about the gum.',
+           'Ask the patient to rinse and spit.',
+           'Say that you have finished looking, and offer to tell them what you found.'],
+  words=['to open wide', 'to rinse', 'to spit', 'the upper teeth', 'the lower teeth',
+         'the gum', 'a filling', 'the mirror'],
+  fig_title='THE SAME MOUTH, IN FOUR MINUTES, THEN THREE, THEN TWO',
+  point='You can run a whole examination out loud without stopping, which is what a '
+        'patient hears as a dentist who knows what they are doing.',
+  ask='Which sentence still made you stop on the third turn?',
+  icons=['speech', 'clock', 'mirror', 'tick']),
+
+review_intro='Five activities, one for each skill. Nothing here repeats a task you have '
+             'already done: the words are the same and the sentences are new. Twenty '
+             'minutes.',
+review=[
+ dict(skill='reading', title='An examination, in order',
+   kind='order', rubric='Put the six lines of one examination in the order they happen.',
+   how='Then say which line your own practice does in a different order, and why.',
+   example='Ask the patient to open wide.  —  1',
+   bank=['opening', 'looking', 'saying', 'charting', 'rinsing', 'closing'],
+   bank_head='The six jobs these lines do',
+   pics=['to open wide', 'the mirror', 'to rinse', 'a filling'],
+   pairs=[('Ask the patient to open wide.', '1'),
+          ('Look at the upper teeth with the mirror.', '2'),
+          ('Say what you can see, and where it is.', '3'),
+          ('Wait while the nurse says the line back.', '4'),
+          ('Ask the patient to rinse and spit.', '5'),
+          ('Tell the patient what you found.', '6')],
+   fig=F.step_sequence('THE SIX LINES, ONCE THEY ARE IN ORDER',
+     ['Open wide.', 'Look, with the mirror.', 'Say what you see, and where.',
+      'Wait for the read-back.', 'Rinse and spit.', 'Tell the patient.'],
+     stop_points=[4],
+     note='The marked step is the one that disappears when a morning is late.'),
+   fig_cap='The six lines of an examination, once they are in order.'),
+
+ dict(skill='listening', title='Four things from 5.2 that you did not write down',
+   kind='choice', rubric='Listen to 5.2 once more and circle a, b or c.',
+   how='These are not the questions you answered in part 5. One listening is enough.',
+   example='The nurse writes   a) before   b) after the read-back   c) never.   Answer: b',
+   bank=['the number', 'the surface', 'the gum', 'the next appointment'],
+   bank_head='The four things to listen for this time',
+   pics=['a filling', 'the gum', 'the upper teeth', 'the mirror'],
+   pairs=[('The dentist asks the nurse to leave a line   a) empty   b) with “some” in it   '
+           'c) with a guess in it', 'a'),
+          ('The date goes   a) at the top   b) at the bottom   c) nowhere', 'a'),
+          ('The names under the chart are   a) one   b) two   c) none', 'b'),
+          ('The card is printed   a) before the read-back   b) after it   '
+           'c) by the dentist', 'b')],
+   fig=F.mini_table('WHAT YOU ARE LISTENING FOR THIS TIME',
+     ['Not this', 'But this'],
+     [['the tooth numbers', 'what is left empty, and why'],
+      ['the findings', 'whose names go under the chart'],
+      ['the surfaces', 'what happens before the card is printed']]),
+   fig_cap='The same recording, listened to for different things.'),
+
+ dict(skill='speaking', title='A mouth with nothing wrong in it',
+   rubric='Describe a mouth in which everything is sound.',
+   how='This is harder than it sounds: there is nothing to point at. Student B is the '
+       'nurse and writes what they hear. Three minutes, then swap. Use a patient from '
+       'your own practice if you have one in mind.',
+   model=[('You', 'Open wide for me, please. Thank you.'),
+          ('You', 'Upper right: all sound. Upper left: all sound.'),
+          ('You', 'Lower left: all sound. Lower right: all sound.'),
+          ('You', 'The gum is healthy everywhere. Nothing is sore.'),
+          ('Nurse', 'All sound, all four quadrants. Gum healthy.'),
+          ('You', 'That is right. Rinse and spit, please.')],
+   checklist=['you named all four quadrants, even with nothing to report',
+              'you said something about the gum as well as the teeth',
+              'the nurse could say the whole thing back',
+              'you did not say “nothing much”'],
+   fig=F.conversation('THE MOUTH WITH NOTHING IN IT',
+     dict(name='You', role='the dentist', skin='3', hair='black', style='tied', tunic='teal'),
+     dict(name='Your partner', role='the nurse', skin='1', hair='black', style='short',
+          tunic='blue'),
+     [('L', 'Upper right: all sound. Upper left: all sound.'),
+      ('R', 'Upper right and upper left, all sound.'),
+      ('L', 'Lower left and lower right, all sound.'),
+      ('R', 'Both lower quadrants sound.'),
+      ('L', 'Gum healthy everywhere.'),
+      ('R', 'Gum healthy. Nothing to record.')],
+     note='A mouth with nothing in it still takes six lines to say properly.'),
+   fig_cap='Saying that there is nothing is still saying something.'),
+
+ dict(skill='writing', title='One line a patient will read',
+   rubric='Write one finding line, and then the same finding as you would say it '
+         'to the patient.',
+   how='Not the record line you wrote in part 8. This one has to work twice: once for '
+       'the next dentist, and once for the patient sitting in front of you.',
+   model=['For the record: upper left six, occlusal, small filling present, margins sound.',
+          'For the patient: there is a small filling in one of your back teeth on the '
+          'top left, and the edge of it is still fine.'],
+   scaffold=['For the record:', 'For the patient:'],
+   checklist=['the record line names a place and a finding',
+              'the patient line says the same thing with no numbers in it',
+              'neither line says “nothing much”',
+              'you could say the second line without looking at the first'],
+   fig=F.contrast('ONE FINDING, TWO READERS',
+     'FOR THE RECORD', ['upper left six', 'occlusal', 'margins sound'],
+     'FOR THE PATIENT', ['one of your back teeth', 'on the top left',
+                         'the edge is still fine'],
+     'Read by somebody who was not there.', 'Heard by somebody who cannot see it.'),
+   fig_cap='The same finding, written twice for two different readers.'),
+
+ dict(skill='reading', title='Which of these can be charted?',
+   kind='sort', rubric='Write C for something that can be charted and N for something that cannot.',
+   columns=('C', 'N'),
+   how='Something can be charted if a second person could check it. Then find one thing '
+       'from your own notes this week that could not.',
+   example='Small filling, upper left six, occlusal.  —  C',
+   bank=['a place', 'a finding', 'an opinion', 'a feeling'],
+   bank_head='The four things a line can carry',
+   pics=['a filling', 'the gum', 'the upper teeth', 'the mirror'],
+   pairs=[('Occlusal filling, upper left six.', 'C'),
+          ('Teeth generally in poor condition.', 'N'),
+          ('Gum tender distal to lower left six.', 'C'),
+          ('Patient does not brush properly.', 'N'),
+          ('Lower right four: sound.', 'C'),
+          ('Quite a lot going on in there.', 'N')],
+   fig=F.contrast('TWO WAYS OF WRITING THE SAME MOUTH',
+     'CANNOT BE CHARTED', ['Teeth generally poor.', 'Does not brush properly.',
+                           'Quite a lot going on.'],
+     'CAN BE CHARTED', ['Occlusal filling, upper left six.',
+                        'Plaque on the lower front teeth.',
+                        'Gum tender distal to lower left six.'],
+     'No second person can check it.', 'Any second person can check it.'),
+   fig_cap='A chart holds what can be checked. Everything else belongs in a conversation.'),
+],
+)

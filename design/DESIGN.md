@@ -493,3 +493,89 @@ vocabulary or reading part, the checklist for a role-play or a writing task,
 the case's words for a case. A full-page recap is therefore a retrieval page,
 and the measurement loop reports 34 pt as the worst white at any part ending
 in either book.
+
+## 13  Fourth pilot round: studied as a learner, taught as a teacher, five units
+
+The third round fixed how the page looks. This round asked a different
+question: if somebody actually sat down and worked through the book, would the
+work be worth doing? The books were studied unit by unit against eight
+frameworks — Nation's four strands, Tomlinson's principles, Littlejohn's three
+levels, Bloom revised, ICAP, CEFR, Cunningsworth's checklist and Dudley-Evans &
+St John on ESP — and the teacher's books were read as a teacher would read them
+the night before a first lesson. `design/EVALUATION.md` holds the measurements
+and the plan; what follows is what the harness learnt from it.
+
+### 13.1  Seven faults, each with a gate behind it
+
+Every fault found by studying the book was turned into something `gates2.py`
+can measure, because a fault that only a reader can see comes back.
+
+| Fault, measured | Gate |
+|---|---|
+| Review sections reprinted earlier tasks verbatim — in all six units | `check_recycle` |
+| Only three exercise types across a whole unit | `check_variety` (≥4 kinds, none above 55%) |
+| 70–85% of questions sat at Bloom's remember level | `check_demand` (remember ≤60%, ≥3 above apply) |
+| Nation's fourth strand — fluency — was absent entirely | `check_fluency` |
+| Nothing after part 1 asked about the learner's own practice | `check_own` (≥2 own-practice tasks) |
+| One while-task could not be answered from its own script | `check_answerable` |
+| A gap asked for a fragment of a chunk taught whole | `check_gap_chunks` |
+
+Two of these needed refining once they were running against real units, and
+both refinements are the same lesson — a gate that fires on correct material is
+worse than no gate, because it trains you to ignore it:
+
+* `check_recycle` fired when the same terms came back in a *different*
+  operation. Re-using *interproximal* in a sort after meeting it in a match is
+  recycling, not reprinting. It now requires the same task kind, or at least
+  half the answers in common.
+* `check_gap_chunks` fired on `The ____ is used to feel a surface`, answer
+  *probe*, because *a periodontal probe* is also taught in that unit. A word
+  that is itself a taught item is never a fragment of a longer one, and the
+  gate now says so.
+
+### 13.2  What the fluency strand is, in a page of a book
+
+Nation's fourth strand cannot be a new exercise type, because fluency is the
+absence of new material. Every unit now ends part 6 with a task that is run
+three times with three partners, at four minutes, then three, then two, on
+content the learner already has. The content list, the words and the question
+are the unit's own; nothing new is allowed in. The teacher's book carries a
+page on why this is not a role-play, because the first instinct of a teacher
+looking at it is to add something.
+
+### 13.3  Five units, and what the fourth and fifth are for
+
+Each pilot book now carries five units, written to the model this round
+produced rather than retro-fitted to it. The fourth and fifth of each book were
+chosen so that the two series diverge in the way the design document claims
+they should:
+
+* **Dentists A2.1** — *Saying What You Are Going to Do* (a plan in three steps,
+  with a length and a cost) and *Agreeing How the Patient Stops You* (a stop
+  signal, offered, shown, promised and practised). Both are language for a
+  thing that happens in the next sixty seconds.
+* **Dental Students A2.2** — *Surfaces, and How We Name Them* (eight terms from
+  one principle and one exception) and *The Instruments on the Tray* (eight
+  instruments and four purposes). Both are language for a thing that has to
+  survive being written down and read by somebody else.
+
+The measured demand profile of the new units is the point of the round:
+remember-level questions fell from 70–85% to 19–44%, every unit now shows at
+least four exercise kinds, and six or seven tasks per unit ask the learner
+about their own practice.
+
+### 13.4  Vocabulary added rather than content thinned
+
+The level guard was hit about sixty times writing these four units. The rule
+from the second round held: paraphrase into band, never delete the idea. Where
+the word was genuinely ordinary (*bent*, *blade*, *glance*, *load*, *adjacent*,
+*reference*) it went into the B1 list; where it was standard academic register
+for a university student's reading (*ambiguity*, *infer*, *omission*,
+*abbreviation*, *convention*) it went into `ACADEMIC`; where it was dental
+(*cervical*, *excavate*) it went into the series' own `DOMAIN`. Everything else
+was rewritten: *fortnight* → *two weeks*, *in all likelihood* → *very
+probably*, *habitual* → *has become a habit*, *imprecision* → *not precise
+enough*, *a want of precision* → *a term that is not precise enough*. The
+readings were then rebalanced for mean sentence length, which is a gate in its
+own right: the student book's A2.2 reception band is 12.0–16.5 words, and the
+first draft of unit 4 came in at 18.01.

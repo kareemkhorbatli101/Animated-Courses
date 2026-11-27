@@ -392,3 +392,60 @@ defects=[
  'A stress drill was added to the preview stage of the procedure.',
 ]
 )
+
+# ---- fourth round: a model for every open task, including the cases ----
+T['sample_answers'] += [
+ ('6.3  Being asked at the chair',
+  'Supervisor: “What am I through?” — Student: “The enamel.” — “And now?” — “Dentine.” — '
+  '“When do you stop?” — “Before the pulp. Pink shows through first.”'),
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'Dentine is a hard tissue of the tooth. It lies beneath the enamel of the crown and '
+  'the cementum of the root, and it surrounds the pulp. It is crossed by many thousands '
+  'of fine tubules running outwards from the centre. They carry a stimulus inwards, and '
+  'at the far end lies the pulp, which holds the nerve; and so a patient whose dentine '
+  'is exposed feels cold water.',
+  'الهدف أن تخرج الخطوات الأربع كاملة في الدقيقتين الأخيرتين دون توقف.'),
+ ('7.1a  What a class predicts before reading the textbook page',
+  'They find the four tissues quickly. Few predict that the page gives a reason for '
+  'every fact; point at the “because” clauses afterwards.'),
+ ('7.2a  What a class predicts before reading the case',
+  'Most expect a cavity. The case has none, and that is the whole of it.'),
+ ('7.3a  What a class predicts before reading the procedure',
+  'Ask for the four words before they read. Most produce three of the four and leave out '
+  'the class, which is exactly the fault the procedure is about.'),
+ ('8.1  Four definitions an examiner would accept',
+  'Enamel is the hard, almost entirely mineral tissue that covers the crown of a tooth '
+  'and contains no cells. Dentine is the hard yellow tissue that lies beneath the enamel, '
+  'surrounds the pulp and is crossed by tubules. Cementum is the thin hard tissue that '
+  'covers the root and holds the fibres of the periodontal ligament. The pulp is the soft '
+  'living tissue at the centre of a tooth, holding the nerve and the vessels.'),
+ ('8.3  Labelling a section',
+  '1 enamel — the hardest tissue in the body; it has no cells and so cannot repair '
+  'itself. 2 dentine — it makes up most of the tooth and carries stimulus inwards '
+  'through its tubules. 3 the pulp — the only living tissue in the tooth. 4 cementum — '
+  'thinner and softer than enamel; it holds the fibres that fix the tooth in bone.'),
+ ('9.1  A group answer that would close the case',
+  'Give the mark, and write on the script that the first sentence must name the tissue. '
+  'The mechanism cannot be described by somebody who does not know which tissue it is '
+  'about, but a marker can only credit what reached the page.',
+  'امنح العلامة واكتب على الورقة أن الجملة الأولى يجب أن تسمّي النسيج.'),
+ ('9.2  A group answer that would close the case',
+  'Both counts are right from where each student stood. The missing word is the surface '
+  'they were viewing from. Write the finding with the surface named, and a second '
+  'clinician can check it.',
+  'كلا العدّين صحيح من موقعه. الكلمة الناقصة هي اسم السطح.'),
+ ('9.3  A group answer that would close the case',
+  'Say what is still true: the living part inside has stopped working, but the tooth is '
+  'still held firmly in the bone, and that is a different thing from losing it.',
+  'قل ما لا يزال صحيحاً: الجزء الحي توقّف، لكن السن ما يزال مثبّتاً في العظم.'),
+ ('10.3  The review role-play: “and under that?”',
+  'Under the filling there is a softer layer, and that one carries feeling. At the very '
+  'middle there is a living part with the nerve in it. The filling covers the layer that '
+  'feels, and that is why it stops hurting.'),
+ ('10.4  The review writing: the same mechanism, two readers',
+  'For an examiner: exposed dentine is crossed by tubules running outwards from the '
+  'pulp; cold travels inwards along them to the pulp, which holds the nerve, and the '
+  'patient therefore feels it as pain. For a patient: under the hard outside there is a '
+  'softer layer full of fine channels, and cold runs down them to the living part in the '
+  'middle.'),
+]

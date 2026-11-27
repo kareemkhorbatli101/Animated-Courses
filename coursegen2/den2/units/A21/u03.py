@@ -164,18 +164,28 @@ vocab_tasks=[
           ('a painkiller', 'card'), ('an allergy', 'cross')], cols=5,
          note='Say the word, then say the sentence a patient would use.'),
    fig_cap='Five things a patient says, and the one word for each.'),
- dict(kind='short', rubric='Put the four history questions in the order you ask them.',
-   example='1  What is the trouble today?',
-   how='Write the number 1, 2, 3 or 4 beside each question.',
-   pairs=[('What is the trouble today?', '1'),
-          ('When did it start?', '2'),
-          ('What makes it worse?', '3'),
-          ('Are you taking any medicine?', '4')],
-   fig=F.step_sequence('THE FOUR QUESTIONS, IN ORDER',
-         ['What is the trouble today?', 'When did it start?',
-          'What makes it worse?', 'Are you taking any medicine?'],
-         note='The order is not an accident. Each answer opens the next question.'),
-   fig_cap='The four questions, in the order a dentist asks them.'),
+ dict(kind='sort', rubric='What does each question ask for? Write T for a time, N for a '
+                          'number, Y for yes or no, and W for a word.',
+   columns=('T / N', 'Y / W'),
+   how='Say the shape of the answer out loud before you write the letter. Then ask a '
+       'partner the same questions about their own practice.',
+   example='When did it start?  —  T',
+   bank=['a time', 'a number', 'yes or no', 'a word'],
+   bank_head='The four shapes an answer can have',
+   pics=['a history', 'pain', 'medicine', 'a painkiller'],
+   pairs=[('When did it start?', 'T'),
+          ('How many painkillers did you take?', 'N'),
+          ('Does it hurt when you bite?', 'Y'),
+          ('What makes it worse?', 'W'),
+          ('How long does it hurt for?', 'T'),
+          ('Do you have an allergy to any medicine?', 'Y')],
+   fig=F.mini_table('THE QUESTION DECIDES THE SHAPE OF THE ANSWER',
+     ['If the question starts with', 'The answer will be'],
+     [['When …?', 'a day or a date'],
+      ['How many …?', 'a number'],
+      ['Does it …? / Do you …?', 'yes or no'],
+      ['What …?', 'a thing, in one or two words']]),
+   fig_cap='Four question shapes, and what each one brings back.'),
 ],
 
 g_point='asking about the past: when did it start, did it hurt, how long',
@@ -1010,4 +1020,230 @@ p10_recap=['You can take a short history in English: four questions, four answer
            'Unit 4 says what you are going to do. It only works if this unit is in '
            'your hands first.'],
 p10_ask='Take a full history from the person next to you, with the book closed.',
+)
+
+# ---- fourth round: variety, demand, fluency, own practice, a real review ----
+
+U['listening'][2]['while']['pairs'] = [
+    (q, 'not that she remembers') if 'allergy' in q else (q, a)
+    for q, a in U['listening'][2]['while']['pairs']]
+
+U['listening'][0]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what you expect a short history to contain.',
+  how='Guess from the five-step picture. Then listen and find out.',
+  example='A history is taken   a) before   b) after you look.   Answer: a',
+  bank=['what the trouble is', 'when it started', 'what makes it worse', 'what medicines'],
+  bank_head='The four things every history has in it',
+  pics=['a history', 'pain', 'medicine', 'an allergy'],
+  pairs=[('The dentist asks the first question   a) with the mirror in   '
+          'b) before anything goes in   c) at the end', 'b'),
+         ('The answer she wants about the start is   a) a day   b) “a while ago”   '
+          'c) a feeling', 'a'),
+         ('The allergy question comes   a) first   b) with the medicines   '
+          'c) not at all', 'b')])
+
+U['listening'][1]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what a read-back is for.',
+  how='Two colleagues are speaking and the patient is not in the room.',
+  example='A read-back catches   a) nothing   b) what was written wrongly.   Answer: b',
+  bank=['the day it started', 'what makes it worse', 'the number of painkillers',
+        'the allergy'],
+  bank_head='The four lines a read-back checks',
+  pics=['a history', 'medicine', 'a painkiller', 'an allergy'],
+  pairs=[('A read-back is done   a) by the person who wrote it   b) by the person who '
+          'said it   c) by the patient', 'a'),
+         ('A number on the form should be   a) a word like “a few”   b) a number   '
+          'c) left out', 'b'),
+         ('A line with no answer should be   a) filled with a guess   b) left empty   '
+          'c) deleted', 'b')])
+
+U['listening'][2]['pre'] = dict(kind='choice',
+  rubric='Before you listen, choose what the desk needs from a call about medicines.',
+  how='Three of these belong on the message. One does not.',
+  example='The desk writes what the patient   a) knows   b) does not know   c) both.   Answer: c',
+  bank=['what she has', 'what she does not have', 'what she will bring', 'when'],
+  bank_head='The four lines of this message',
+  pics=['medicine', 'an allergy', 'a painkiller', 'a history'],
+  pairs=[('The useful line is about what the patient   a) knows   b) does not know   '
+          'c) feels', 'b'),
+         ('An empty box at home is   a) no use   b) worth bringing   c) thrown away', 'b'),
+         ('“No allergy known” is   a) not written down   b) written down   '
+          'c) only said', 'b')])
+
+U['vocab_tasks'][1] = dict(kind='odd',
+  rubric='Three of the four belong together. Circle the one that does not, and say why.',
+  how='Say your reason out loud before you write it.',
+  example='pain / sore / swollen / medicine  —  medicine is not something the patient feels',
+  bank=['what the patient feels', 'what the patient takes', 'a question about time',
+        'a question about medicines'],
+  bank_head='The four groups these words fall into',
+  pics=['pain', 'sore', 'medicine', 'an allergy'],
+  pairs=[('pain / sore / swollen / a painkiller', 'a painkiller'),
+         ('medicine / a painkiller / an allergy / to hurt', 'to hurt'),
+         ('When did it start? / How long for? / Did it hurt? / What is your name?',
+          'What is your name?'),
+         ('cold water / biting / the night / the record', 'the record'),
+         ('a history / a question / an answer / a filling', 'a filling')])
+
+U['reading'][2]['post'] = dict(kind='tf',
+  rubric='True or false? If it is false, write the correction in six words or fewer.',
+  how='Then say which of the five is hardest to do in your own practice when you are late.',
+  example='A mirror can show you when a pain started.  —  false — only the patient knows',
+  bank=['when it started', 'what makes it worse', 'how long it lasts', 'the allergy'],
+  bank_head='The four things only the patient can tell you',
+  pics=['a history', 'pain', 'medicine', 'an allergy'],
+  pairs=[('A mirror can show you when the pain started.',
+          'false — only the patient can say'),
+         ('Four things in a history come only from the patient.', 'true'),
+         ('A dentist who knows nothing looks at everything and sees more.',
+          'false — sees less'),
+         ('The allergy must be on the record before anything is given.', 'true'),
+         ('Asking first takes about ten minutes.', 'false — about two minutes')])
+
+U['speaking'][2]['how'] = ('Student B invents a pain and one allergy. Student A takes the '
+                           'history and says it back at the end. Four minutes, then swap. '
+                           'The third time, use a patient from your own practice.')
+
+U.update(
+fluency=dict(
+  title='One history, three times',
+  rubric='Take a full short history from three different partners.',
+  how='Four minutes with the first, three with the second, two with the third. The same '
+      'four questions every time, and the same saying-back at the end.',
+  content=['Say that you are going to ask a few questions first.',
+           'Ask what the trouble is, in the patient’s own words.',
+           'Ask when it started, and get a day.',
+           'Ask what makes it worse, and how long it lasts.',
+           'Ask about medicines, and then about an allergy.',
+           'Say the whole history back, and ask whether you have it right.'],
+  words=['a history', 'pain', 'to hurt', 'sore', 'swollen', 'medicine', 'an allergy',
+         'a painkiller'],
+  fig_title='THE SAME FOUR QUESTIONS, IN FOUR MINUTES, THEN THREE, THEN TWO',
+  point='You can take a whole history without reading it off the page, which is the only '
+        'way it gets taken when a morning is busy.',
+  ask='Which of the four questions still made you stop on the third turn?',
+  icons=['speech', 'clock', 'card', 'tick']),
+
+review_intro='Five activities, one for each skill, and one that brings back Units 1 and 2. '
+             'Nothing here repeats a task you have already done. Twenty-five minutes.',
+review=[
+ dict(skill='reading', title='A history, in order',
+   kind='order', rubric='Put the six lines of one history in the order they happen.',
+   how='Then say which line your own practice asks in a different place, and why.',
+   example='Say that you are going to ask a few questions.  —  1',
+   bank=['opening', 'the trouble', 'the day', 'what makes it worse', 'medicines',
+         'saying it back'],
+   bank_head='The six jobs these lines do',
+   pics=['a history', 'pain', 'medicine', 'an allergy'],
+   pairs=[('I am going to ask you a few questions first.', '1'),
+          ('What is the trouble today?', '2'),
+          ('When did it start?', '3'),
+          ('What makes it worse, and how long does it last?', '4'),
+          ('Are you taking any medicine? Any allergy?', '5'),
+          ('So it started on Friday, and cold water is worse. Have I got that right?', '6')],
+   fig=F.step_sequence('THE SIX LINES, ONCE THEY ARE IN ORDER',
+     ['Say what you are going to do.', 'Ask what the trouble is.',
+      'Ask for a day.', 'Ask what makes it worse, and for how long.',
+      'Ask about medicines and an allergy.', 'Say the whole thing back.'],
+     stop_points=[5],
+     note='The marked step is the one with a legal weight behind it.'),
+   fig_cap='The six lines of a history, once they are in order.'),
+
+ dict(skill='listening', title='Four things from 5.1 that you did not write down',
+   kind='choice', rubric='Listen to 5.1 once more and circle a, b or c.',
+   how='These are not the questions you answered in part 5. One listening is enough.',
+   example='The pain started on   a) Friday   b) Saturday   c) Sunday.   Answer: a',
+   bank=['the gum', 'the face', 'the nights', 'the card'],
+   bank_head='The four small things to listen for this time',
+   pics=['sore', 'swollen', 'pain', 'an allergy'],
+   pairs=[('The gum on that side is   a) sore when he brushes   b) not sore   '
+           'c) not mentioned', 'a'),
+          ('The face is   a) swollen   b) not swollen   c) not looked at', 'b'),
+          ('The pain wakes him   a) some nights   b) every night since Friday   '
+           'c) never', 'b'),
+          ('The name of the allergy is   a) known by him   b) on a card in his bag   '
+           'c) on the form', 'b')],
+   fig=F.mini_table('WHAT YOU ARE LISTENING FOR THIS TIME',
+     ['Not this', 'But this'],
+     [['the four questions', 'what he says about the gum'],
+      ['the day it started', 'whether the face is swollen'],
+      ['the number of painkillers', 'where the name of the allergy is kept']]),
+   fig_cap='The same recording, listened to for different things.'),
+
+ dict(skill='speaking', title='A patient who answers everything with “a bit”',
+   rubric='Take a history from a patient who will not give you a number or a day.',
+   how='Student B answers every question with “a bit”, “a while”, or “sometimes”. '
+       'Student A has to get one day, one length of time and one number out of them. '
+       'Four minutes, then swap. Use your own practice for the last turn.',
+   model=[('You', 'When did it start?'),
+          ('Patient', 'A while ago.'),
+          ('You', 'Was it before or after the weekend?'),
+          ('Patient', 'After, I think.'),
+          ('You', 'So this week. Monday or Tuesday?'),
+          ('Patient', 'Tuesday.')],
+   checklist=['you asked a smaller question instead of the same one again',
+              'you got one day out of the patient',
+              'you got one number out of the patient',
+              'you did not write “a while” on the form'],
+   fig=F.conversation('THE PATIENT WHO WILL NOT GIVE YOU A DAY',
+     dict(name='You', role='the dentist', skin='3', hair='black', style='tied', tunic='teal'),
+     dict(name='Your partner', role='the patient', skin='4', hair='brown', style='short',
+          tunic='sand'),
+     [('L', 'When did it start?'),
+      ('R', 'A while ago.'),
+      ('L', 'Was it before or after the weekend?'),
+      ('R', 'After, I think.'),
+      ('L', 'So this week. Monday or Tuesday?'),
+      ('R', 'Tuesday.')],
+     note='The same question twice gets the same answer twice. A smaller question does not.'),
+   fig_cap='How a closed question gets a day out of “a while ago”.'),
+
+ dict(skill='writing', title='The history line that is still empty',
+   rubric='Write the four lines of a history in which one line could not be filled.',
+   how='Not the history you wrote in part 8. This patient does not know the name of one '
+       'medicine, and the number of painkillers is a guess.',
+   model=['Trouble: lower right, hurts when biting, in her own words.',
+          'Started: about ten days ago. No exact day given; asked three times.',
+          'Worse with: biting. Lasts a few seconds each time.',
+          'Medicines and allergy: one small white tablet, name not known — patient to '
+          'bring the box. No allergy known.'],
+   scaffold=['Trouble:', 'Started:', 'Worse with, and how long:',
+             'Medicines and allergy, including what is not known:'],
+   checklist=['you wrote what you could not get, not nothing',
+              'you wrote that you asked',
+              'you said what will fill the gap, and when',
+              'nobody reading this would think the question was never asked'],
+   fig=F.mini_table('WHAT TO WRITE WHEN YOU CANNOT FILL A LINE',
+     ['Do not write', 'Write'],
+     [['(nothing)', 'asked three times, no day given'],
+      ['“a few”', 'number not known — patient to count the box'],
+      ['“unknown”', 'name not known — patient to bring the box on Thursday']],
+     highlight=[2]),
+   fig_cap='An empty line and a line that says why it is empty are not the same thing.'),
+
+ dict(skill='reading', title='Units 1, 2 and 3: is it a finding or a history?',
+   kind='sort', rubric='Write H for something a history gives you and F for something a '
+                       'finding gives you.',
+   columns=('H', 'F'),
+   how='A history comes from the patient. A finding comes from your own eyes. Then say '
+       'which of the two your own notes carry more of.',
+   example='Pain at night since Friday.  —  H',
+   bank=['what the patient tells you', 'what you see yourself',
+         'what the mirror shows', 'what only the patient knows'],
+   bank_head='The two sources, and what each one gives you',
+   pics=['a history', 'pain', 'the mirror', 'a filling'],
+   pairs=[('Worse with cold water.', 'H'),
+          ('Occlusal filling, upper left six.', 'F'),
+          ('Four painkillers yesterday.', 'H'),
+          ('Gum tender distal to lower left six.', 'F'),
+          ('Allergy to one painkiller.', 'H'),
+          ('All four quadrants sound.', 'F')],
+   fig=F.contrast('TWO SOURCES, ONE RECORD',
+     'FROM THE PATIENT', ['when it started', 'what makes it worse',
+                          'how long it lasts', 'the allergy'],
+     'FROM YOUR OWN EYES', ['a filling, and where', 'a sore gum, and where',
+                            'a sound tooth', 'a swollen face'],
+     'No instrument can find any of it.', 'No patient can tell you any of it.'),
+   fig_cap='Both halves go in the record. Only one of them can be looked up later.'),
+],
 )

@@ -347,3 +347,71 @@ T['defects'] = list(T.get('defects', [])) + [
  'The sample answer for 6.3 needed a closing offer — “Would you like me to tell you what '
  'I found?” — which the unit’s own model did not have. It was added.',
 ]
+
+# ---- fourth round: a model for every open task, including the cases ----
+T['sample_answers'] += [
+ ('6.1  Open, wider, close — a turn that would pass',
+  'Open wide for me, please. A little wider. Thank you, that is good. And close. Thank '
+  'you. Now open once more, just a little.'),
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'Open wide for me. Upper right, all sound. Upper left, one filling, occlusal. Lower '
+  'left, all sound. Lower right, all sound. The gum is a little sore at the back on the '
+  'left. Rinse and spit, please. I have finished looking.',
+  'الهدف أن يخرج الفحص كاملاً دون توقف، لا أن تُضاف إليه تفاصيل جديدة.'),
+ ('7.1a  What a class predicts before reading the leaflet',
+  'They find the word “gum” fast and miss the line that tells the patient what to do. '
+  'That is the line the task exists for.'),
+ ('7.2a  What a class predicts before reading the chart',
+  'Expect confident guesses about the quadrants and hesitation about what a blank square '
+  'means. A blank square means nothing was recorded, not that nothing was there.'),
+ ('7.3a  What a class says before reading about numbers',
+  'Most say numbers are shorter. Fewer say that a number cannot be heard as a different '
+  'tooth. Put both on the board and let the reading decide which matters more.'),
+ ('8.1  One line about what you found',
+  '12 March. Upper left two six: occlusal filling present, margins sound. Gum tender '
+  'distal to lower left six. Nothing done today.'),
+ ('8.3  A note for the next appointment',
+  'Next visit: review the tender gum distal to lower left six. Hygiene advice given '
+  '12 March. Thirty minutes booked.'),
+ ('9.1  A group answer that would close the case',
+  'Add a dated correction; do not change the original line. The dentist tells the '
+  'patient, because the dentist made the statement. Nothing was done to either tooth, '
+  'and the record now says so.',
+  'يُضاف قيد مؤرَّخ ولا يُعدَّل القيد الأصلي، ويخبر الطبيبُ المريضَ لأنها قولها.'),
+ ('9.2  A group answer that would close the case',
+  'Ask one question before asking him to open again: “Is it sore when you open?” Then '
+  'give him the stop signal. If he opens no wider, look at what you can reach and write '
+  'down what you could not see.',
+  'اسأل أولاً: هل يؤلمك الفتح؟ ثم امنحه إشارة الإيقاف، واكتب ما لم تستطع رؤيته.'),
+ ('9.3  A group answer that would close the case',
+  'Name what she is looking at and promise the rest: “What you can see there is the '
+  'filling, not the tooth. I will tell you about all of them when I have finished '
+  'looking — about two minutes.”',
+  'سمِّ ما تراه الآن وعِد بالباقي خلال دقيقتين، دون إعطاء حكم قبل إتمام الفحص.'),
+ ('10.3  The review role-play: a mouth with nothing in it',
+  'Open wide, please. Upper right, all sound. Upper left, all sound. Lower left, all '
+  'sound. Lower right, all sound. Gum healthy everywhere, nothing tender. Rinse and '
+  'spit, please.'),
+ ('10.4  The review writing: one finding, two readers',
+  'For the record: upper left six, occlusal, small filling present, margins sound. For '
+  'the patient: there is a small filling in one of your back teeth on the top left, and '
+  'the edge of it is still fine.'),
+]
+
+# The teacher audit found this unit with no pronunciation note on any of its
+# eight core words. Four of the eight turn on sounds Arabic does not have.
+T['pronunciation'] = [
+ ('spit', 'Arabic has no /p/. Learners produce “sbit”. Hold a sheet of paper in front of '
+          'your mouth: /p/ moves it, /b/ does not. Thirty seconds, and it carries into '
+          'every other /p/ in the course.'),
+ ('open wide', 'Two words, one stress: open WIDE. Learners who stress OPEN sound as if '
+               'they are asking a question.'),
+ ('rinse', 'One syllable, and the final /s/ is unvoiced. Learners produce “rinz”. '
+           'Contrast with “rings”.'),
+ ('the upper teeth / the lower teeth',
+  'The stress is on UPP-er and LOW-er, not on teeth. Drill the pair together; separated, '
+  'they drift.'),
+ ('filling', 'Two syllables with a clear double l: FILL-ing. Learners who learned it '
+             'from print often say “feeling”, which is a different word in a clinic.'),
+ ('mirror', 'Two syllables, MIRR-or, and the second is weak. Not “mee-ROR”.'),
+] + T['pronunciation']

@@ -58,6 +58,8 @@ your
 """.split())
 
 A2 = A1 | set("""
+complain complains complained complaint complaints signal signals
+explanation explanations explaining explains explained
 able above accept accident across activity actually add address adult advice afraid afternoon
 even examination identify medical history guidance belong born calm
 cannot realise realize suppose sore leaflet paste gentle colleague
@@ -157,9 +159,15 @@ wound wrap write wrong yard year yellow yes yesterday yet young
 """.split())
 
 B1 = A2 | set("""
+bent blade blades glance glances load loads loaded learnt polish polishes
+polished appearance appearances trap traps
+act acts acted acting reference references optional possibly origin origins
+series adjacent furthest remainder remainders
 alive depth upset loose skip skips skipped overlap overlaps vertical
 easily easier continuous continuously centimetre centimetres metre metres
+complain complains complained complaint complaints signal signals
 abroad action actions aloud classmate classmates simply shorten shortens
+accuse accuses accusing exam exams
 shortened lengthen lengthened
 award awards awarded parallel correction corrections locate locates located
 heal heals healed band bands script scripts decoration whose cell cells
@@ -279,9 +287,14 @@ validate variable verify viable vigorous warrant whereby widespread
 # any level. This set is allowed in the student series only, and it is small
 # and closed on purpose.
 ACADEMIC = set("""
+convention conventions select selects selected selection selections
+abbreviate abbreviates abbreviated abbreviation abbreviations
+ambiguity ambiguous infer infers inferred omission omissions
+precision imprecision consistently interchangeably arbitrary likelihood
 composition structural interchangeable memorise memorises memorised
 stimulus stimuli consequence consequences examinable scheme schemes marker markers
 clause clauses defensible division divisions dictate dictates dictated
+designate designates designation designations
 dictation notation notations
 define defines defined defining definition definitions describe describes
 described describing description descriptions classify classifies classified
@@ -361,6 +374,7 @@ IRREGULAR = {
 # Everyday compounds and inflections the stripper cannot reach, plus the
 # grammatical furniture of exercise rubrics.
 EXTRA = set("""
+ing
 a.m p.m ok okay mr mrs ms dr st etc vs per cent percent o'clock
 yours sincerely faithfully dear re cc
 one's someone's anyone's everybody's
@@ -382,7 +396,8 @@ SUFFIXES = [("ies", "y"), ("ied", "y"), ("ier", "y"), ("iest", "y"),
             ("er", ""), ("est", ""), ("'s", ""), ("n't", ""),
             ("ment", ""), ("ments", ""), ("ness", ""), ("ful", ""),
             ("less", ""), ("wards", ""), ("ward", ""), ("able", ""),
-            ("ation", "e"), ("ations", "e")]
+            ("ation", "e"), ("ations", "e"), ("ation", ""), ("ations", ""),
+            ("aint", "ain"), ("aints", "ain")]
 PREFIXES = ["mis", "un", "re", "pre", "over", "under", "non", "dis"]
 WORD = re.compile(r"[A-Za-z][A-Za-z'’-]*")
 

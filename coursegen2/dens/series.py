@@ -99,7 +99,7 @@ CAST_LOOK = {
 COVER_PEOPLE = ['Leila Mansour', 'Daniel Owusu', 'Dr Petra Nilsen', 'Dr Yusuf Rahman']
 
 # Words this series is allowed to use above the band because they are its subject.
-DOMAIN = """dental dentist dentistry dentition hygienist technician receptionist
+DOMAIN = """excavate excavates excavated cervical dental dentist dentistry dentition hygienist technician receptionist
 surgery chair headrest bracket spittoon bowl bib suction aspirator autoclave
 sterilise sterilisation decontamination instrument mirror probe explorer tweezers
 excavator scaler elevator forceps handpiece bur matrix wedge dam clamp
@@ -132,7 +132,8 @@ canal canals chamber chambers inflamed inflammation recede recedes
 receded recession opposing regrow regrown regrows exposed exposure
 tubule tubules histology ligament ligaments mineral minerals
 probe probes probed numbness anaesthetise anaesthetised
-mask masks gown gowns glove gloves
+mask masks gown gowns glove gloves reception receptionist estimate
+estimates anaesthetic anaesthetics dressing dressings
 allergic painkiller painkillers
 sound unsound bite bites biting keratin keratinise keratinised ligament
 millimetre millimetres moist muscle muscles opening openings receptor receptors

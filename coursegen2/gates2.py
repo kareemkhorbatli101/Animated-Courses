@@ -350,6 +350,250 @@ def check_fit(fit_report, fails, warns, slack_pt=42):
         fails.append('and %d more parts ending on a half-empty page' % (len(bad) - 12))
 
 
+# ---------------------------------------------------------------------------
+# Gates added after the fourth-round evaluation. Each one exists because the
+# evaluation found the fault in a book that passed every gate before it.
+# ---------------------------------------------------------------------------
+from difflib import SequenceMatcher
+
+KINDS = ('gap', 'match', 'short', 'order', 'odd', 'sort', 'tf', 'choice')
+
+DEMAND = [
+    ('create',     r'\b(write a|design|invent|make up|compose|produce a)\b'),
+    ('evaluate',   r'\b(is this|would you|should|decide|judge|argue|defend|yes or no|'
+                   r'true or false|circle the one that does not)\b'),
+    ('analyse',    r'\b(why|what is wrong|compare|difference|in the order|put .* in order|'
+                   r'sort|which .* and which|what does .* tell|correction)\b'),
+    ('apply',      r'\b(use|write the sentence|say it|rewrite|make the|what would you say|'
+                   r'what do you say|what do you do|write what)\b'),
+    ('understand', r'\b(match|what does .* mean|explain|in your own words|choose|circle a)\b'),
+]
+OWN_RE = (r'\byour own (practice|clinic|surgery|school|words|mouth)\b|'
+          r'\bin your (practice|clinic|country|school|own)\b|'
+          r'\byour own patient')
+
+
+def _closed(U):
+    """Every closed task in the unit, with its label."""
+    out = [('2.1', U['preview_task'])]
+    for i, v in enumerate(U.get('vocab_tasks', []), 1):
+        out.append(('3.%d' % i, v))
+    for i, g in enumerate(U.get('g_tasks', []), 1):
+        out.append(('4.%d' % i, g))
+    for i, L in enumerate(U.get('listening', []), 1):
+        for part, let in (('pre', 'a'), ('while', 'b'), ('post', 'c')):
+            out.append(('5.%d%s' % (i, let), L[part]))
+    for i, R in enumerate(U.get('reading', []), 1):
+        for part, let in (('while', 'b'), ('post', 'c')):
+            out.append(('7.%d%s' % (i, let), R[part]))
+    for i, rv in enumerate(U.get('review', []), 1):
+        if rv.get('skill') not in ('speaking', 'writing'):
+            out.append(('10.%d' % i, rv))
+    return out
+
+
+def _demand(t):
+    s = ((t.get('rubric') or '') + ' ' + (t.get('how') or '')).lower()
+    for name, pat in DEMAND:
+        if re.search(pat, s):
+            return name
+    return 'remember'
+
+
+def check_recycle(U, fails, warns):
+    """A review retrieves after a gap. It may not reprint an earlier task.
+
+    Unit 2 of the pilot asked the same eight sentences in 10.1 that it had
+    asked in 3.1, in a different order. A learner completes that from the
+    shape of the page, which is recognition, not recall.
+    """
+    n = U['num']
+    closed = _closed(U)
+    earlier = [(lab, t) for lab, t in closed if not lab.startswith('10.')]
+    for lab, rv in [(l, t) for l, t in closed if l.startswith('10.')]:
+        stems = [str(a) for a, _ in rv.get('pairs', [])]
+        if not stems:
+            continue
+        for elab, et in earlier:
+            estems = [str(a) for a, _ in et.get('pairs', [])]
+            if not estems:
+                continue
+            # Re-using the same words in a different operation is recycling,
+            # which is the point of a review. It is a reprint only when the
+            # learner is asked to do the same thing and produce the same
+            # answers as before.
+            if rv.get('kind', 'short') != et.get('kind', 'short'):
+                akeys = {str(b).lower() for _, b in rv.get('pairs', [])}
+                bkeys = {str(b).lower() for _, b in et.get('pairs', [])}
+                if len(akeys & bkeys) < max(1, len(akeys) * 0.5):
+                    continue
+            same = sum(1 for s_ in stems
+                       if any(SequenceMatcher(None, s_.lower(), e.lower()).ratio() > 0.92
+                              for e in estems))
+            if same > max(1, len(stems) * 0.25):
+                fails.append('U%d: review %s reprints %d of %d items from %s'
+                             % (n, lab, same, len(stems), elab))
+    for i, rv in enumerate(U.get('review', []), 1):
+        if rv.get('skill') == 'writing':
+            for j, w in enumerate(U.get('writing', []), 1):
+                if SequenceMatcher(None, ' '.join(rv.get('model', [])).lower(),
+                                   ' '.join(w['model']).lower()).ratio() > 0.85:
+                    fails.append('U%d: review 10.%d reprints the model of 8.%d' % (n, i, j))
+        if rv.get('skill') == 'speaking':
+            a = ' '.join(x if isinstance(x, str) else x[1] for x in rv.get('model', []))
+            for j, sp in enumerate(U.get('speaking', []), 1):
+                b = ' '.join(x if isinstance(x, str) else x[1] for x in sp['model'])
+                if SequenceMatcher(None, a.lower(), b.lower()).ratio() > 0.80:
+                    fails.append('U%d: review 10.%d reprints the model of 6.%d' % (n, i, j))
+
+
+def check_variety(U, fails, warns):
+    """Three exercise shapes for a whole course is not a syllabus."""
+    n = U['num']
+    kinds = {}
+    for lab, t in _closed(U):
+        k = t.get('kind', 'short')
+        if k not in KINDS:
+            fails.append('U%d: %s uses unknown exercise type "%s"' % (n, lab, k))
+        kinds[k] = kinds.get(k, 0) + 1
+    tot = sum(kinds.values()) or 1
+    if len(kinds) < 4:
+        fails.append('U%d: only %d exercise types (%s); at least 4 are required'
+                     % (n, len(kinds), ', '.join(sorted(kinds))))
+    for k, c in sorted(kinds.items()):
+        if c / float(tot) > 0.55:
+            fails.append('U%d: %d%% of closed tasks are "%s" (cap 55%%)'
+                         % (n, round(100 * c / float(tot)), k))
+
+
+def check_demand(U, fails, warns):
+    """Cognitive demand, on the revised Bloom taxonomy."""
+    n = U['num']
+    lev = {}
+    for lab, t in _closed(U):
+        d = _demand(t)
+        lev[d] = lev.get(d, 0) + 1
+    tot = sum(lev.values()) or 1
+    rem = lev.get('remember', 0) / float(tot)
+    if rem > 0.60:
+        fails.append('U%d: %d%% of closed tasks are remember-level (cap 60%%)'
+                     % (n, round(100 * rem)))
+    high = sum(lev.get(k, 0) for k in ('analyse', 'evaluate', 'create'))
+    if high < 3:
+        fails.append('U%d: only %d closed tasks above apply-level (needs 3)' % (n, high))
+
+
+def check_fluency(U, fails, warns):
+    """Nation's fourth strand. Known language, said faster, under a clock."""
+    n = U['num']
+    F = U.get('fluency')
+    if not F:
+        fails.append('U%d: no fluency task (Nation\u2019s fourth strand)' % n)
+        return
+    for need in ('title', 'rubric', 'how', 'content', 'words', 'point', 'fig_title'):
+        if not F.get(need):
+            fails.append('U%d: the fluency task has no %s' % (n, need))
+    if len(F.get('words', [])) < 6:
+        fails.append('U%d: the fluency task names %d words (needs 6 or more)'
+                     % (n, len(F.get('words', []))))
+    taught = {it['term'].lower() for it in U.get('set', [])}
+    taught |= {r['term'].lower() for r in U.get('receptive', [])}
+    new = [w for w in F.get('words', []) if w.lower() not in taught]
+    if len(new) > len(F.get('words', [])) / 2:
+        warns.append('U%d: %d of the fluency words are not from this unit\u2019s own '
+                     'sets - check they come from an earlier unit' % (n, len(new)))
+
+
+def check_own(U, fails, warns):
+    """The learner's own practice, after the warm-up."""
+    n = U['num']
+    hay = []
+    for lab, t in _closed(U):
+        hay.append((t.get('rubric') or '') + ' ' + (t.get('how') or ''))
+    for s_ in U.get('speaking', []) + U.get('writing', []):
+        hay.append((s_.get('rubric') or '') + ' ' + (s_.get('how') or ''))
+    for C in U.get('cases', []):
+        hay.append((C.get('how') or '') + ' ' + ' '.join(C.get('questions', [])))
+    hits = sum(1 for h in hay if re.search(OWN_RE, h.lower()))
+    if hits < 2:
+        fails.append('U%d: %d task(s) ask about the learner\u2019s own practice '
+                     'after part 1 (needs 2)' % (n, hits))
+
+
+def _content_words(s):
+    stop = set('a an the to of in on at is are was were be been and or for with that this '
+               'it its you your i we they he she him her his them do does did not no yes '
+               'what when where who why how which can could would will shall may might '
+               'one two three four five six seven eight nine ten'.split())
+    return [w for w in re.findall(r"[a-z']+", str(s).lower()) if w not in stop]
+
+
+def check_answerable(U, fails, warns, floor=0.5):
+    """A while-task answer has to be in the thing the learner just read or heard."""
+    n = U['num']
+
+    def cover(a, src):
+        # Matched on a five-letter stem, so "remembers" counts as heard when
+        # the speaker said "remember".
+        toks = set(re.findall(r"[a-z']+", src))
+        def seen(w):
+            if w in toks:
+                return True
+            k = w[:5]
+            return len(k) >= 4 and any(t.startswith(k) for t in toks)
+        ws = _content_words(a)
+        return 1.0 if not ws else sum(1 for w in ws if seen(w)) / float(len(ws))
+    for i, L in enumerate(U.get('listening', []), 1):
+        src = ' '.join(l for _, l in L['script']).lower()
+        for q, a in L['while']['pairs'][1:]:
+            if cover(a, src) < floor:
+                fails.append('U%d: 5.%db keys "%s" but the script does not say it'
+                             % (n, i, a))
+    for i, R in enumerate(U.get('reading', []), 1):
+        src = ' '.join(R['text']).lower()
+        for q, a in R['while']['pairs'][1:]:
+            if cover(a, src) < floor:
+                fails.append('U%d: 7.%db keys "%s" but the text does not say it'
+                             % (n, i, a))
+
+
+def check_gap_chunks(U, fails, warns):
+    """A gap may not leave a taught chunk unrecoverable.
+
+    Gapping one word of a taught multi-word item is fine when the rest of the
+    item is still on the page - "Mrs Mabaso is in the ____ room" asks for
+    "waiting" and shows the learner what it belongs to. It is not fine when
+    the rest of the chunk is missing too, because then the learner is being
+    asked for a fragment of something they only ever met whole.
+    """
+    n = U['num']
+    multi = [re.sub(r'^(a|an|the|to)\s+', '', it['term'].lower())
+             for it in U.get('set', []) if len(it['term'].split()) > 1]
+    # A word that is itself a taught item is never a fragment of another one:
+    # "probe" is taught whole, even though "periodontal probe" is taught too.
+    whole = set(re.sub(r'^(a|an|the|to)\s+', '', it['term'].lower())
+                for it in U.get('set', []))
+    # A grammar gap that asks for a preposition or an article is not asking
+    # for a fragment of a taught chunk, even when the word appears in one.
+    FUNCTION = set('of in on at to for with from by a an the and or but is are '
+                   'was were be do does did not no'.split())
+    for lab, t in _closed(U):
+        if t.get('kind') != 'gap':
+            continue
+        for stem, ans in t.get('pairs', []):
+            a = str(ans).strip().lower()
+            if not a or ' ' in a or a in FUNCTION or a in whole:
+                continue
+            low = str(stem).lower()
+            for m in multi:
+                parts = [x for x in m.split() if x != a]
+                if a in m.split() and len(m.split()) > 1 and not any(x in low for x in parts):
+                    fails.append('U%d: %s gaps "%s" out of the taught item "%s" and the '
+                                 'rest of the item is not in the sentence'
+                                 % (n, lab, ans, m))
+                    break
+
+
 def report(name, fails, warns):
     print('=' * 72)
     print(name)
