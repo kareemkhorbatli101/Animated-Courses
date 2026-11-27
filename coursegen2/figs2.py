@@ -685,6 +685,20 @@ ICON_FOR = {
  'telephone': 'phone', 'message': 'speech', 'letter': 'form', 'brush': 'brush',
  'radiograph': 'xray', 'tray': 'tray', 'gloves': 'gloves', 'mask': 'mask',
  'pen': 'pen', 'book': 'book',
+ # Units 4 and 5 of both pilot books. Without these the fallback gives one
+ # speech bubble to every abstract word, and a row of five identical pictures
+ # says less than no picture at all.
+ 'plan': 'form', 'treatment': 'tooth', 'step': 'tick', 'explain': 'speech',
+ 'agree': 'tick', 'cost': 'card', 'take': 'clock', 'ready': 'tick',
+ 'signal': 'person', 'stop': 'cross', 'lift': 'person', 'feel': 'ear',
+ 'break': 'clock', 'uncomfortable': 'chair', 'carry on': 'tick',
+ 'moment': 'clock',
+ 'mesial': 'tooth', 'distal': 'tooth', 'buccal': 'tooth', 'lingual': 'tooth',
+ 'palatal': 'tooth', 'occlusal': 'tooth', 'incisal': 'tooth',
+ 'interproximal': 'xray',
+ 'mouth mirror': 'mirror', 'periodontal probe': 'probe', 'excavator': 'probe',
+ 'tweezers': 'tray', 'scaler': 'brush', 'handpiece': 'probe',
+ 'syringe': 'cross', 'bur': 'probe', 'cotton roll': 'tray',
 }
 
 

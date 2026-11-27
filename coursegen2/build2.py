@@ -557,8 +557,11 @@ def unit(ctx, out, key, U, B, cast=None):
             [[str(j + 1), sc] for j, sc in enumerate(Wr['scaffold'])]),
             'The frame you are going to fill.', xref='8.%d' % i)
         out.append(R.band_part('MODEL'))
-        for line in Wr['model']:
-            out.append(R.readbox(line))
+        if all(isinstance(x, (tuple, list)) and len(x) == 2 for x in Wr['model']):
+            out.append(R.speak_block(Wr['model']))
+        else:
+            for line in Wr['model']:
+                out.append(R.readbox(line))
         out.append(R.band_part('YOUR TURN  ·  FILL THE FRAME'))
         for line in Wr['scaffold']:
             out.append(R.item('', line + '  ' + '_' * 46))
@@ -587,8 +590,15 @@ def unit(ctx, out, key, U, B, cast=None):
         if C.get('fig'):
             fig(ctx, out, 'case%db' % i, C['fig'], C['fig_cap2'], xref='9.%d' % i)
         else:
+            # The case's own icons, which the author chose for this case, beat
+            # the generic fallback: without them a row of abstract words gets
+            # the same speech bubble five times over.
+            ic = [x for x in C.get('icons', []) if x in F2.ICON_NAMES]
+            cards = [(w, ic[j % len(ic)] if ic else F2.pick_icon(w))
+                     for j, w in enumerate(C['words'])]
             fig(ctx, out, 'case%db' % i, F2.icon_cards(
-                'THE WORDS THIS CASE TURNS ON', [(w,) for w in C['words']], cols=4,
+                'THE WORDS THIS CASE TURNS ON', cards,
+                cols=min(5, len(cards)),
                 note='You will need these to say what you think.'),
                 'The words the discussion needs.', xref='9.%d' % i)
         out.append(R.rubric('9.%d  Talk about these three questions. Give a reason every time.' % i))
@@ -618,8 +628,13 @@ def unit(ctx, out, key, U, B, cast=None):
                  how=rv.get('how'))
             if rv.get('model'):
                 out.append(R.band_part('MODEL'))
-                for line in rv['model']:
-                    out.append(R.readbox(line))
+                if all(isinstance(x, (tuple, list)) and len(x) == 2
+                       for x in rv['model']):
+                    # A spoken model: (who, line) pairs, set as a dialogue.
+                    out.append(R.speak_block(rv['model']))
+                else:
+                    for line in rv['model']:
+                        out.append(R.readbox(line))
             for line in rv.get('scaffold', []):
                 out.append(R.item('', line + '  ' + '_' * 46))
             fig(ctx, out, 'rev%d' % i, rv['fig'], rv['fig_cap'], xref='10.%d' % i)
