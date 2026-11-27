@@ -101,6 +101,8 @@ COVER_PEOPLE = ['Leila Mansour', 'Daniel Owusu', 'Dr Petra Nilsen', 'Dr Yusuf Ra
 # Words this series is allowed to use above the band because they are its subject.
 DOMAIN = """pressure numb numbness ligament ligaments
 cavitation cavitated cavitations
+distobuccal distolingual mesiobuccal mesiolingual site sites
+diagnosis diagnoses
 gauze scale scaled scaling polish polished polishing
 excavate excavates excavated cervical dental dentist dentistry dentition hygienist technician receptionist
 surgery chair headrest bracket spittoon bowl bib suction aspirator autoclave

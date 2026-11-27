@@ -160,6 +160,11 @@ wound wrap write wrong yard year yellow yes yesterday yet young
 """.split())
 
 B1 = A2 | set("""
+chain chains force forces shallow shallower shallowest nail nails blind
+strength strengths undo undoes undone persuade persuades persuaded
+harden hardens hardened worsen worsens worsened alternate alternates
+consistent convert converts converted density densities irrelevant
+reversible irreversible deepen deepens deepening
 active halves difficulty difficulties failure failures incomplete visibly
 leak leaks leaked leaking interrupt interrupts interrupted interrupting
 bent blade blades glance glances load loads loaded learnt polish polishes
