@@ -99,7 +99,10 @@ CAST_LOOK = {
 COVER_PEOPLE = ['Leila Mansour', 'Daniel Owusu', 'Dr Petra Nilsen', 'Dr Yusuf Rahman']
 
 # Words this series is allowed to use above the band because they are its subject.
-DOMAIN = """excavate excavates excavated cervical dental dentist dentistry dentition hygienist technician receptionist
+DOMAIN = """pressure numb numbness ligament ligaments
+cavitation cavitated cavitations
+gauze scale scaled scaling polish polished polishing
+excavate excavates excavated cervical dental dentist dentistry dentition hygienist technician receptionist
 surgery chair headrest bracket spittoon bowl bib suction aspirator autoclave
 sterilise sterilisation decontamination instrument mirror probe explorer tweezers
 excavator scaler elevator forceps handpiece bur matrix wedge dam clamp

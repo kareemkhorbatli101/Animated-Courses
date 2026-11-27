@@ -182,7 +182,9 @@ def check_unit(U, level, series_kind, fails, warns):
     for w in U.get('writing', []):
         models += w['model']
     low = ' '.join(models).lower()
-    hits = [v for v in VAGUE if v in low]
+    # Whole words only. A substring test makes "something soft" - which is as
+    # precise as a food instruction gets - look like the vague word "some".
+    hits = [v for v in VAGUE if re.search(r'\b%s\b' % re.escape(v), low)]
     if hits:
         W('model texts contain vague wording: %s' % hits[:3])
 

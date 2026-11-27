@@ -59,6 +59,7 @@ your
 
 A2 = A1 | set("""
 complain complains complained complaint complaints signal signals
+nod nods nodded nodding
 explanation explanations explaining explains explained
 able above accept accident across activity actually add address adult advice afraid afternoon
 even examination identify medical history guidance belong born calm
@@ -159,6 +160,8 @@ wound wrap write wrong yard year yellow yes yesterday yet young
 """.split())
 
 B1 = A2 | set("""
+active halves difficulty difficulties failure failures incomplete visibly
+leak leaks leaked leaking interrupt interrupts interrupted interrupting
 bent blade blades glance glances load loads loaded learnt polish polishes
 polished appearance appearances trap traps
 act acts acted acting reference references optional possibly origin origins
@@ -166,6 +169,7 @@ series adjacent furthest remainder remainders
 alive depth upset loose skip skips skipped overlap overlaps vertical
 easily easier continuous continuously centimetre centimetres metre metres
 complain complains complained complaint complaints signal signals
+nod nods nodded nodding
 abroad action actions aloud classmate classmates simply shorten shortens
 accuse accuses accusing exam exams
 shortened lengthen lengthened
@@ -287,6 +291,7 @@ validate variable verify viable vigorous warrant whereby widespread
 # any level. This set is allowed in the student series only, and it is small
 # and closed on purpose.
 ACADEMIC = set("""
+absence absences amend amends amended amendment separation separations
 convention conventions select selects selected selection selections
 abbreviate abbreviates abbreviated abbreviation abbreviations
 ambiguity ambiguous infer infers inferred omission omissions
