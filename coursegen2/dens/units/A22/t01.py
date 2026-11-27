@@ -354,7 +354,15 @@ photocopiable=dict(
         '3  Covering or composition.  It is covered with … / It consists of …',
         '4  Function, with a consequence.  It …, and so …',
         'Never begin with a detail. Never define a word with itself.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('THE FOUR MOVES OF A DEFINITION',
+    ['Class.  X is a / the \u2026 of the oral cavity.',
+     'Position.  It lies between \u2026 and \u2026, or forms the \u2026 of \u2026',
+     'Covering or composition.  It is covered with \u2026 / It consists of \u2026',
+     'Function, with a consequence.  It \u2026, and so \u2026'],
+    stop_points=[1],
+    note='The marked move comes first, every time. Never define a word with '
+         'itself.'),
+ fig_cap='The shape of an answer an examiner accepts, as four moves in order.'),
 )
 T['defects'] = list(T.get('defects', [])) + [
  'Writing the Arabic glossary showed that the unit used gingiva and gum interchangeably '

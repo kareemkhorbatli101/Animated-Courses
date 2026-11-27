@@ -644,6 +644,24 @@ def icon(name, cx, cy, s=1.0, col=None):
         o.append(R(-60, -14, 120, 28, BONE))
         for gx, gy in ((-60, -14), (-60, 14), (60, -14), (60, 14)):
             o.append(C_(gx, gy, 18, BONE))
+    elif name == 'mouth':
+        # An open mouth: lip ring, dark cavity, a band of upper teeth. The ear
+        # stood in for this for eleven units because no mouth glyph existed.
+        o.append(P('M %.1f %.1f a %.1f %.1f 0 1 0 %.1f 0 a %.1f %.1f 0 1 0 %.1f 0 Z'
+                   % (cx-62*s, cy, 62*s, 46*s, 124*s, 62*s, 46*s, -124*s), f=GUM, w=5))
+        o.append(P('M %.1f %.1f a %.1f %.1f 0 1 0 %.1f 0 a %.1f %.1f 0 1 0 %.1f 0 Z'
+                   % (cx-40*s, cy+4*s, 40*s, 28*s, 80*s, 40*s, 28*s, -80*s),
+                   f='#5A2A33', w=4))
+        o.append(R(-32, -20, 64, 18, ENAMEL, r=8))
+    elif name == 'lips':
+        # Closed lips: the vestibule and the frenum both live just behind them.
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f '
+                   'Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-58*s, cy, cx-26*s, cy-30*s, cx, cy-14*s,
+                      cx+26*s, cy-30*s, cx+58*s, cy,
+                      cx+26*s, cy+30*s, cx, cy+22*s,
+                      cx-26*s, cy+30*s, cx-58*s, cy), f=GUM, w=5))
+        o.append(L(-58, 0, 58, 0))
     elif name == 'gum':
         o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f L %.1f %.1f Z'
                    % (cx-66*s, cy+30*s, cx, cy-44*s, cx+66*s, cy+30*s, cx-66*s, cy+30*s),
@@ -655,8 +673,8 @@ def icon(name, cx, cy, s=1.0, col=None):
 
 
 ICON_NAMES = set('''bone book bowl brush calendar card chair clock cross door ear
-form gloves gum light mask mirror pen person phone probe speech tick tooth tray
-water xray'''.split())
+form gloves gum light lips mask mirror mouth pen person phone probe speech tick
+tooth tray water xray'''.split())
 
 
 def as_icon(name):
@@ -673,13 +691,14 @@ ICON_FOR = {
  'surgery': 'door', 'waiting': 'clock', 'waiting room': 'clock', 'chair': 'chair',
  'headrest': 'chair', 'nurse': 'person', 'dental nurse': 'person',
  'appointment': 'calendar', 'sit back': 'chair', 'comfortable': 'tick',
- 'open wide': 'ear', 'rinse': 'water', 'spit': 'bowl', 'upper teeth': 'tooth',
+ 'open wide': 'mouth', 'rinse': 'water', 'spit': 'bowl', 'upper teeth': 'tooth',
  'lower teeth': 'tooth', 'gum': 'gum', 'filling': 'tooth', 'mirror': 'mirror',
  'probe': 'probe', 'record': 'card', 'record card': 'card', 'date of birth': 'calendar',
  'reception': 'door', 'bib': 'mask', 'bowl': 'bowl', 'bracket table': 'tray',
  'operating light': 'light', 'colleague': 'person', 'coat hook': 'door',
- 'oral cavity': 'ear', 'vestibule': 'ear', 'hard palate': 'bone', 'soft palate': 'gum',
- 'gingiva': 'gum', 'mucosa': 'gum', 'frenum': 'gum', 'floor of the mouth': 'ear',
+ 'oral cavity': 'mouth', 'vestibule': 'lips', 'hard palate': 'bone',
+ 'soft palate': 'gum', 'mucosa': 'water', 'alveolar ridge': 'bone',
+ 'gingiva': 'gum', 'frenum': 'lips', 'floor of the mouth': 'mouth',
  'dentition': 'tooth', 'quadrant': 'tooth', 'midline': 'tooth', 'incisor': 'tooth',
  'canine': 'tooth', 'premolar': 'tooth', 'molar': 'tooth', 'notation': 'form',
  'telephone': 'phone', 'message': 'speech', 'letter': 'form', 'brush': 'brush',

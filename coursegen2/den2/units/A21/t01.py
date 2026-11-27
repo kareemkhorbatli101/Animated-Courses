@@ -342,7 +342,17 @@ photocopiable=dict(
         'Compare both with the record in front of you, not from memory.',
         'If either does not match, stop and ask reception before anything else happens.',
         'If the patient cannot answer, that is information. Write it down.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').form_annotated('THE IDENTITY CHECK, AT THE CHAIRSIDE',
+    'BEFORE ANYTHING ELSE HAPPENS',
+    [('Ask', 'Can you tell me your name? They say it; you do not read it out.'),
+     ('Ask', 'And your date of birth?'),
+     ('Compare', 'both answers with the record in front of you, not from memory'),
+     ('If either does not match', 'stop, and ask reception before anything else'),
+     ('If the patient cannot answer', 'that is information. Write it down.')],
+    callouts=[(0, 'the patient says it - never agree-with-what-I-read-out')],
+    note='Five lines. The first is the one that catches the wrong record.'),
+ fig_cap='The identity check as a card: photocopy this page and keep it at the '
+         'chairside.'),
 )
 T['defects'] = list(T.get('defects', [])) + [
  'Writing the Arabic glossary showed that “the dental nurse” had no example sentence a '
