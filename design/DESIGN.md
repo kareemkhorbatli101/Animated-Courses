@@ -672,3 +672,57 @@ The notes that were missing were the ones that look too easy to need a note:
 different word at a chairside), *to nod* (the *d* dropped, leaving *no*). A
 long term like *the periodontium* announces that it needs saying aloud. A
 one-syllable term does not, and it is said fifty times a day.
+
+### 14.5  Three faults the printed page showed, and the guards for them
+
+The ten-unit Dentists book was converted to PDF and read. Three faults came
+out of it, one of them old and serious.
+
+**The case language box printed Python.** A case's `language` field is a list
+of `(heading, [line, ...])` groups, because the language a case needs falls
+into two or three jobs — saying what is true today, handing it on properly —
+and a learner has to see which line does which. `render.langbank()` took a flat
+list of strings and passed each item through `esc()`, which calls `str()`. A
+group therefore arrived in the document as its own repr:
+
+```
+('Offering him the decision', ['It would take about twenty minutes.',
+ 'If it is difficult it takes an hour.', 'Would you rather I started …'])
+```
+
+Sixty boxes across the two volumes, in the learner's book and the teacher's
+book alike, since part 9 became three cases in round three. Every gate passed
+every time, because no gate reads the assembled document and the data itself
+was correct.
+
+The fix renders a group as a small green heading with its lines beneath it, and
+still accepts a flat list for the first-edition builder. The guard matters more
+than the fix: `render.run()` now raises a `TypeError` on a list, tuple, dict or
+set rather than stringifying it. A renderer that silently accepts the wrong
+shape will print the wrong shape, and `str()` is what let this survive four
+rounds of review.
+
+**The exercise-visual gate counted by label alone.** `check_exercise_figs`
+keyed its counts by the exercise label, and exercise labels restart at every
+unit. Unit 1's `4.3` and unit 10's `4.3` shared one counter, so an exercise
+with one visual could hide behind a well-illustrated one in another unit. This
+is precisely the fault the figure-filename code carries a comment about — tags
+repeat and `ctx.figno` restarts, so unit 3's case figure once overwrote unit
+1's — committed a second time in a different place.
+
+Keyed per unit, thirty-one exercises across the two books turned out to carry
+one visual where the design asks for two. All of them were tasks whose answers
+are whole sentences: `_terms_of()` had nothing short enough to draw, so the
+picture half of the pair was dropped without a word. The picture visual now
+falls back to four of the unit's own core words, rotated by label so that
+neighbouring exercises do not show the same four. The Dentists book gains 13
+figures and the Dental Students book 16.
+
+**A cross-reference to an exercise that does not exist.** The morphology figure
+in the preview of units 1 to 3 carried `xref='2.3'`. There is no exercise 2.3
+in any unit of either book: the preview has one task, 2.1. The gate therefore
+counted a phantom exercise which could never reach two visuals. It now points
+at 2.1, which is the task it helps a learner do.
+
+The measured page fit was re-run from scratch afterwards, because both the
+language boxes and the new picture figures change block heights.

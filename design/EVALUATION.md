@@ -298,3 +298,35 @@ per-unit page count is unchanged; the measured page fit was re-run after every
 edit that changed a block or a figure height, never assumed. The practitioner
 book ends by pointing at the second volume; the student book ends by pointing at
 Book 2 of its own series.
+
+### 6.4  What reading the PDF found this time
+
+§6.1 says that reading the built artefact has found a fault in three
+consecutive rounds. This round it found three at once, and the first of them is
+the worst thing this project has shipped.
+
+Every **SAY IT LIKE THIS** box in both books — sixty of them, in the learner's
+book and the teacher's book — has been printing a Python repr since part 9
+became three cases in round three. Brackets, quotes, the lot. The data was
+right, every gate passed, and three rounds of review looked past it, including
+two in which the built PDF was opened to check figures. It was found by reading
+a page for its content rather than for the thing being checked.
+
+That is the lesson worth keeping. The PDF reads of rounds three, four and five
+each went looking for a specific defect and each found one. This read went
+looking at a page, and found something nobody was looking for. A check with a
+target finds what it targets.
+
+The other two came from a single-unit smoke test run immediately afterwards,
+which failed a gate the ten-unit build had passed. That is itself the finding:
+`check_exercise_figs` keyed its counts by exercise label, labels restart every
+unit, and a thin exercise in one unit was being covered by a well-illustrated
+one in another. Thirty-one exercises across the two books carried one visual
+where the design asks for two. The third fault — a figure cross-referenced to
+an exercise number that exists in no unit — only became visible once the gate
+stopped summing across units.
+
+§14.5 of `DESIGN.md` has the fixes. Two of them are guards rather than
+repairs: `render.run()` now refuses a container instead of stringifying it, and
+the exercise gate now names the unit as well as the label. The repair fixes
+this book; the guard is what stops the next series inheriting it.
