@@ -96,7 +96,7 @@ a { color: var(--accent); }
 .chip {
   display: inline-flex; align-items: center; gap: 6px; background: var(--chip);
   color: var(--ink-soft); border: 1px solid var(--line); border-radius: 999px;
-  padding: 4px 11px; font-size: 13px; white-space: nowrap;
+  padding: 4px 11px; font-size: 13px; max-width: 100%; overflow-wrap: anywhere;
 }
 .chip.cat { background: var(--accent-soft); color: var(--accent); border-color: transparent; font-weight: 600; }
 .chip.band { background: var(--warn-soft); color: var(--warn); border-color: transparent; font-weight: 600; }
