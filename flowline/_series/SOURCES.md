@@ -289,3 +289,57 @@ what tested it?*
 **The standing sentence applies most of all to this book.** Safety information in a language course is
 not a substitute for a competent person, a procedure and a permit. Nothing in Book 5 authorizes
 anybody to issue a permit, isolate a line, enter a confined space, assess a risk or sign anything.
+
+# Book 6 · Flowline 5 — *Contracts, Capacity and the Long Horizon*
+
+CEFR B2+ to C1 · figure prefix `rf` · audio prefix `FL6` · 196 figures · 195 tracks
+
+The last book of the series, and the only one with no equipment in it. It asks the question underneath
+all the others: what is this industry for, who gets what from it, and what happens to a country that
+has it.
+
+**The English is the hardest in the series because the subject is contested.** A technical standard
+tells you what to do; a fiscal system tells you what somebody negotiated. So the register of Book 6 is
+**argument with attribution**: this is what the document says, this is who wrote it and why, this is
+what is disputed, and this is what I think, marked as what I think.
+
+**Three of the twelve are economics or political argument rather than technical documents**, and each
+unit prints the objections at their strongest.
+
+| Unit | The unit | The source | What the source itself says it does not cover |
+|---|---|---|---|
+| **Start** | Where the Money Goes | Four claims on a barrel, and the four shapes of the horizon | Every term in this book was **negotiated** — by somebody, at a particular moment in the price cycle, with particular information. A career is thirty-five years; a political term is four or five; a field is sixty. The decisions that matter most are taken on the fourth line and paid for on the fifth |
+| **1** | Who Gets What | **Daniel Johnston**, *International Petroleum Fiscal Systems and Production Sharing Contracts*, PennWell, **1994** | It explains **mechanics**, not any particular agreement. A published **take** figure is almost never comparable: it states no **denominator**, no **production rate**, no **cost level**, and **no time** — so a high take with fast cost recovery can be worth more than a low take with slow recovery. The illustrative country data is **thirty years old**. **Take and entitlement are not the same thing** |
+| **2** | Reading the Contract | **Jenik Radon**, "The ABCs of Petroleum Contracts", in *Covering Oil: A Reporter's Guide to Energy and Development*, Open Society Institute and Revenue Watch Institute, **2005** | A **primer**, not a legal text: the operative words in any agreement are that agreement's. It describes practice **as at 2005**. It is written from a **stated position** — that these documents should be readable by the public — which is legitimate and is not neutrality. **And no agreement is typical.** The money is eleven pages of sixty; the definitions are twenty-three |
+| **3** | Partners Who Disagree | The **Model International Operating Agreement**, Association of International Petroleum Negotiators, **2012** form | **Not a contract**: a negotiating starting point published with **bracketed alternatives**. **It does not bind the state.** Its defaults reflect the practitioners who were in the room. **And it cannot make a venture work** — everything in it is a procedure for a disagreement, and a venture using them monthly is in trouble whatever the drafting. The **pass mark arithmetic** decides who controls a venture, and it is rarely what the headline percentages suggest |
+| **4** | The Payment You Do Not Make | The **Convention on Combating Bribery of Foreign Public Officials in International Business Transactions**, adopted under the OECD, **1997** | **It does not itself create an offense**: it obliges each Party to criminalize the conduct in its own law. It addresses the **supply side** and **foreign** officials only. **Enforcement varies enormously between Parties and its own peer reviews say so by name.** And it cannot help anybody at a barrier. The fact that a payment is small, customary, **or demanded rather than offered**, does not of itself make it lawful |
+| **5** | Local, and What That Means | ***Local content: a guidance document for the oil and gas industry***, **IPIECA**, second edition **2016** | **Not a standard and not law**; each country defines *local* differently, so a company in six countries measures six things. **It cannot make a target meaningful**: a spend-basis target can be met by routing purchases through a locally registered intermediary, which builds nothing and is the target working exactly as written. It cannot make figures comparable. **And it cannot create demand that outlasts the field** |
+| **6** | What May Be Published | The **EITI Standard**, Extractive Industries Transparency Initiative, **2023** edition | **Voluntary at country level**, covering what the multi-stakeholder group agrees is **in scope** above an agreed **materiality threshold**. **A reconciliation is not an audit**: it compares two reported figures and verifies neither, and **most differences are timing, exchange rates, gross against net, or classification**. The data is a **year or two old**. It cannot create the **third chair**. **And disclosure is not accountability** — it is a precondition, and it quietly depends on institutions it does not provide |
+| **7** | The Argument About the Curse | **Richard M. Auty**, *Sustaining Development in Mineral Economies*, Routledge, **1993**, with **Sachs and Warner**, NBER Working Paper **5398**, **1995** | The measure is **resource exports as a share of GDP** — a ratio that falls when other sectors grow, so it may partly measure **failure elsewhere**; several later studies using **subsoil wealth** found the relationship weakened or reversed. Results move with the **period**. Later work argues **institutions decide the sign**. The **counterexamples are not marginal**. And cross-country regression gives **association, not direction**. **The curse is contested; the volatility is arithmetic** |
+| **8** | Energy and the State | **Timothy Mitchell**, *Carbon Democracy: Political Power in the Age of Oil*, Verso, **2011** | **An argument, not a measurement**: no coefficient to check, tested by whether the steps follow and the cases fit. **Contested in print** — that it weights material form over ideas and institutions, that the history is more varied, that oil workers have exercised considerable leverage in some places and periods. **It is not the claim it is usually reported as making**: not that oil causes dictatorship, but a claim about **capacities**. **And it is not predictive** |
+| **9** | How Fast to Use It Up | **Harold Hotelling**, "The Economics of Exhaustible Resources", *Journal of Political Economy*, **1931** | **Six of its eight assumptions are false for any real field.** Reserves are an **economic** category, not a geological one. Real prices **have not followed the rule**. **The model has no reservoir in it**, so it cannot see that producing too fast **loses** barrels rather than deferring them. And it is **silent on who owns it**. It is a **benchmark**, never a prediction — and step one survives everything: a barrel produced now cannot be produced later |
+| **10** | What You Leave Behind | **OSPAR Decision 98/3** on the Disposal of Disused Offshore Installations, OSPAR Commission, **1998** | **Regional: it binds its Contracting Parties in the North-East Atlantic and does not apply here.** **It does not settle the environmental comparison** — it adopts a **presumption against** leaving in place as policy. **And it says nothing about who pays**, which is the question that matters most: where decommissioning is a **recoverable cost**, the **fiscal split** decides who bears it, and the obligation falls due when there is almost nothing left to recover it from |
+| **11** | Twelve Precepts | The ***Natural Resource Charter***, second edition **2014**, Natural Resource Governance Institute | **Not law and not a standard**; nobody is assessed against it. **It cannot sequence itself for you** — twelve recommendations against capacity for a few. It is written from a **stated position**. **And it assumes you can start at the beginning, which almost nobody can**: for a country decades into production it is not a plan but a **map of where the constraints came from**, read backwards from what is going wrong |
+| **12** | Can It Be Escaped? | *Escaping the Resource Curse*, edited by **Humphreys, Sachs and Stiglitz**, Columbia University Press, **2007** | **Not a single argument**: an edited collection whose chapters do not fully agree. **It does not settle** the empirical question of Unit 7 — though it adds that this may matter less than it seems, since if outcomes depend on decisions the right response is to improve the decisions whichever way the correlation falls. Its authors hold a **stated position**. **And it cannot make the sequence available to you** |
+
+**Book 6's honesty core.** **The terms were negotiated, and a percentage without its denominator is
+not a figure.** The book's organizing device is the division of its own material into two columns.
+**Contested**, decided over decades by other people: whether resource wealth slows growth, whether
+energy systems shape political forms, whether a depletion path can be calculated, whether transparency
+improves outcomes, and what the resource is ultimately for. **Arithmetic**, decided this week by the
+reader: a percentage needs its denominator, an obligation needs a date and an owner, a payment demand
+needs a contemporaneous record, a local content figure needs a definition and a basis, a discrepancy
+needs both dates, and decommissioning is certain and needs an estimate. **Every item in the second
+column is available without settling anything in the first.**
+
+**Two people carry this book.** Nadia Shahin, who came into the series doing metering and allocation
+and does the same arithmetic on revenue, whose line is *whose barrel is it, and whose was it before?*
+And Mariama Bah, the reservoir engineer, the only person in the series who thinks in decades by
+profession, whose question is *over what horizon?* **Omar Dabbagh**, five years in, gets the last word
+in the last unit, and it is the shortest list in the room.
+
+**Every fiscal figure in this book was invented.** Every term, share, rate, ceiling, split, pass mark,
+threshold, interest, payment, estimate and obligation attached to Jazira Petroleum Operations was
+constructed to be arithmetically consistent so the exercises work, and is **not the term of any real
+agreement anywhere**. Money carries **no currency symbol and no currency name**, in the book that is
+entirely about money: where a source states a sum, the book says that a sum was stated.

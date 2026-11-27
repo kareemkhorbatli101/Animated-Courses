@@ -66,7 +66,14 @@ PROPER_NOUNS = ["UN Environment Programme", "World Food Programme",
                 # Throughline series uses it as the standard's defined term
                 # throughout. "Program" is a different word in that vocabulary,
                 # so Americanizing it would rename a defined term.
-                "programme", "Programme", "programmes"]
+                "programme", "Programme", "programmes",
+                # The OECD's own official English name carries this spelling.
+                # Renaming a cited international organization is a worse error
+                # than a British spelling, so the legal name is exempt. Flowline
+                # Book 6 cites the 1997 anti-bribery convention adopted under it.
+                "Organisation for Economic Co-operation and Development",
+                "Organisation for Economic Co-operation",
+                "International Organisation for Standardisation"]
 
 SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "level1":  ["spec_v1", "spec_v2", "spec_v3"],
