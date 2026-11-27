@@ -32,50 +32,68 @@
     return 'Body ' + i;
   }
 
+  /* SVG text does not wrap and does not clip to its box, so a topic sentence has to be cut to
+     what will fit. The first version put a 64-character line into a 250px box at 11px, and it
+     ran out through the right-hand edge of the diagram and off the card. */
+  var BOX_W = 328, PAD = 10, CHAR_PX = 5.35;
+
+  function fit(s, px) {
+    s = String(s).trim();
+    var max = Math.floor(px / CHAR_PX);
+    return s.length > max ? s.slice(0, max - 1).replace(/[\s,;:.]+$/, '') + '…' : s;
+  }
+
   function firstSentence(p) {
     var m = String(p).match(/[^.!?]+[.!?]/);
-    var s = (m ? m[0] : String(p)).trim();
-    return s.length > 64 ? s.slice(0, 61) + '…' : s;
+    return fit((m ? m[0] : String(p)).trim(), BOX_W - PAD * 2 - 8);
   }
 
   function shapeSvg(E) {
     var n = (E.body || []).length;
-    var h = 56 + n * 62 + 40;
+    var BH = 58, GAP = 8;
+    var h = n * (BH + GAP) + 76;
     var parts = [];
-    parts.push('<svg viewBox="0 0 320 ' + h + '" role="img" aria-label="The shape of this essay">');
+    parts.push('<svg viewBox="0 0 360 ' + h + '" role="img" '
+      + 'aria-label="The shape of this essay, built as it is read">');
     parts.push('<style>'
       + '.blk{fill:var(--chip);stroke:var(--line)}'
       + '.blk.on{fill:var(--accent-soft);stroke:var(--accent)}'
-      + '.lab{font:600 11px system-ui;fill:var(--ink-soft)}'
+      + '.lab{font:700 9px system-ui;fill:var(--ink-faint);letter-spacing:.06em}'
       + '.top{font:11px system-ui;fill:var(--ink)}'
       + '.tick{fill:var(--ok)}'
-      + '.flag{fill:var(--warn)}'
-      + '.arc{stroke:var(--accent);fill:none;stroke-width:1.5}'
+      + '.flag{font:9px system-ui;fill:var(--warn)}'
+      + '.arcl{font:8px system-ui;fill:var(--accent)}'
+      + '.arc{stroke:var(--accent);fill:none;stroke-width:1.4}'
       + '.ringbg{stroke:var(--line);fill:none;stroke-width:7}'
       + '.ringfg{stroke:var(--ok);fill:none;stroke-width:7;stroke-linecap:round}'
       + '.ringtx{font:700 13px system-ui;fill:var(--ink)}'
       + '.ringsub{font:9px system-ui;fill:var(--ink-faint)}'
       + '</style>');
     for (var i = 0; i < n; i++) {
-      var y = 10 + i * 62;
-      parts.push('<rect class="blk" id="blk' + i + '" x="56" y="' + y + '" width="250" height="50" rx="8"/>');
-      parts.push('<text class="lab" x="4" y="' + (y + 20) + '">' + esc(labelOf(i, n)) + '</text>');
-      parts.push('<text class="top" id="top' + i + '" x="64" y="' + (y + 20) + '"></text>');
-      parts.push('<g id="ticks' + i + '" transform="translate(64,' + (y + 38) + ')"></g>');
-      parts.push('<g id="flag' + i + '"></g>');
+      var y = 6 + i * (BH + GAP);
+      /* the block fills the width; the label lives INSIDE it, so nothing collides */
+      parts.push('<rect class="blk" id="blk' + i + '" x="28" y="' + y + '" width="' + BOX_W
+        + '" height="' + BH + '" rx="8"/>');
+      parts.push('<text class="lab" x="' + (28 + PAD) + '" y="' + (y + 16) + '">'
+        + esc(labelOf(i, n).toUpperCase()) + '</text>');
+      parts.push('<text class="top" id="top' + i + '" x="' + (28 + PAD) + '" y="'
+        + (y + 34) + '"></text>');
+      parts.push('<g id="ticks' + i + '" transform="translate(' + (28 + PAD) + ','
+        + (y + 48) + ')"></g>');
+      parts.push('<text class="flag" id="flag' + i + '" x="' + (28 + BOX_W - PAD) + '" y="'
+        + (y + 50) + '" text-anchor="end"></text>');
       parts.push('<g id="arc' + i + '"></g>');
     }
-    var cy = 10 + n * 62 + 24;
-    parts.push('<g transform="translate(40,' + cy + ')">');
+    var cy = n * (BH + GAP) + 34;
+    parts.push('<g transform="translate(50,' + cy + ')">');
     parts.push('<circle class="ringbg" cx="0" cy="0" r="22"/>');
     parts.push('<circle class="ringfg" id="ring" cx="0" cy="0" r="22" '
       + 'stroke-dasharray="0 999" transform="rotate(-90)"/>');
     parts.push('<text class="ringtx" x="0" y="4" text-anchor="middle">' + esc(E.words) + '</text>');
-    parts.push('<text class="ringsub" x="0" y="34" text-anchor="middle">words</text>');
     parts.push('</g>');
-    parts.push('<text class="ringsub" x="78" y="' + (cy - 4) + '">minimum 250 marked on the ring</text>');
-    parts.push('<text class="ringsub" x="78" y="' + (cy + 12) + '">this essay: ' + esc(E.words)
-      + ' words</text>');
+    parts.push('<text class="ringsub" x="86" y="' + (cy - 4) + '">'
+      + esc(E.words) + ' words &#183; the 250 minimum is marked</text>');
+    parts.push('<text class="ringsub" x="86" y="' + (cy + 12) + '">on the ring</text>');
     parts.push('</svg>');
     return parts.join('');
   }
@@ -144,7 +162,7 @@
       var sents = (String(paras[i]).match(/[^.!?]+[.!?]/g) || []).length;
       var g = svgId('ticks' + i);
       if (g && !g.childNodes.length) {
-        for (var k = 1; k < Math.min(sents, 5); k++) {
+        for (var k = 1; k < Math.min(sents, 6); k++) {
           var c = d.createElementNS('http://www.w3.org/2000/svg', 'circle');
           c.setAttribute('class', 'tick');
           c.setAttribute('cx', String(k * 12));
@@ -153,18 +171,12 @@
           g.appendChild(c);
         }
       }
-      /* the position flag */
+      /* the position flag, right-aligned inside the block so it cannot run off the diagram */
       if (/\b(i believe|in my opinion|in my view|i agree|i disagree|this essay will)\b/i.test(paras[i])) {
         var fg = svgId('flag' + i);
-        if (fg && !fg.childNodes.length) {
-          var y = 10 + i * 62;
-          var t = d.createElementNS('http://www.w3.org/2000/svg', 'text');
-          t.setAttribute('class', 'lab');
-          t.setAttribute('x', '64');
-          t.setAttribute('y', String(y + 48));
-          t.textContent = /this essay will/i.test(paras[i])
+        if (fg && !fg.textContent) {
+          fg.textContent = /this essay will/i.test(paras[i])
             ? 'road map stated here' : 'position stated here';
-          fg.appendChild(t);
         }
       }
     }
@@ -173,19 +185,21 @@
       if (!g || g.childNodes.length) return;
       var kind = TURN.test(text) ? 'turn' : (ADD.test(text) ? 'add' : (CLOSE.test(text) ? 'close' : null));
       if (!kind) return;
-      var y = 10 + i * 62;
+      var y = 6 + i * 66;
       var path = d.createElementNS('http://www.w3.org/2000/svg', 'path');
       path.setAttribute('class', 'arc');
-      /* a contrast turns back on itself; an addition steps forward */
+      /* in the 28px gutter at the left: a contrast turns back on itself, an addition steps
+         forward. The shape IS the lesson - section 4 traps exactly this distinction. */
       path.setAttribute('d', kind === 'turn'
-        ? 'M50 ' + (y + 6) + ' C32 ' + (y + 6) + ', 32 ' + (y - 16) + ', 50 ' + (y - 16)
-        : 'M48 ' + (y - 10) + ' L48 ' + (y + 4) + ' M44 ' + y + ' L48 ' + (y + 6) + ' L52 ' + y);
+        ? 'M24 ' + (y + 18) + ' C8 ' + (y + 18) + ', 8 ' + (y - 2) + ', 24 ' + (y - 2)
+        : 'M16 ' + (y - 4) + ' L16 ' + (y + 14) + ' M11 ' + (y + 8) + ' L16 ' + (y + 15)
+          + ' L21 ' + (y + 8));
       g.appendChild(path);
       var lab = d.createElementNS('http://www.w3.org/2000/svg', 'text');
-      lab.setAttribute('class', 'lab');
-      lab.setAttribute('x', '64');
-      lab.setAttribute('y', String(y - 2));
-      lab.textContent = kind === 'turn' ? 'turns against' : (kind === 'add' ? 'adds' : 'closes');
+      lab.setAttribute('class', 'arcl');
+      lab.setAttribute('x', '2');
+      lab.setAttribute('y', String(y + 30));
+      lab.textContent = kind === 'turn' ? 'turns' : (kind === 'add' ? 'adds' : 'closes');
       g.appendChild(lab);
     }
     function ring(frac) {

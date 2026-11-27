@@ -222,9 +222,14 @@ select.sel {
 .answer { margin-top: 12px; padding: 12px; background: var(--chip); border-radius: 10px; font-size: 15px; white-space: pre-wrap; }
 
 /* ---------- the reading player ---------- */
-.player { display: grid; grid-template-columns: 1fr; gap: 14px; }
+/* align-items:start, or the diagram cell stretches to the height of the essay column and the
+   shape sits in a tall empty box */
+.player { display: grid; grid-template-columns: 1fr; gap: 14px; align-items: start; }
 @media (min-width: 700px) { .player { grid-template-columns: 1.25fr 1fr; } }
-.shape { border: 1px solid var(--line); border-radius: 10px; padding: 8px; }
+.shape {
+  border: 1px solid var(--line); border-radius: 10px; padding: 8px;
+  position: sticky; top: 8px;
+}
 .shape svg { width: 100%; height: auto; display: block; }
 .transport { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
 .voiceline { font-size: 12px; color: var(--ink-faint); margin-top: 6px; }
