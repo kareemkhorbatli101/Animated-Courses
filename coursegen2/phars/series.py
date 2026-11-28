@@ -129,6 +129,7 @@ in-date out-of-date
 cold-chain
 sticker stickers
 chemist chemists
+van vans supervision route routes extract extracts daily
 """
 
 DOMAIN = DOMAIN.split()
