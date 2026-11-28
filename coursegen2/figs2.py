@@ -816,6 +816,16 @@ def icon(name, cx, cy, s=1.0, col=None):
         o.append(R(-54, -62, 108, 124, '#FFFFFF'))
         for gy in (-36, -12, 12, 36):
             o.append(L(-36, gy, 36, gy, '#9AA7B2', 5))
+    elif name == 'envelope':
+        o.append(R(-62, -42, 124, 84, '#FFFFFF'))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f'
+                   % (cx-62*s, cy-42*s, cx, cy+8*s, cx+62*s, cy-42*s), st='#9AA7B2', w=5))
+    elif name == 'send':
+        o.append(R(-72, -40, 110, 80, '#FFFFFF'))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f'
+                   % (cx-72*s, cy-40*s, cx-17*s, cy+2*s, cx+38*s, cy-40*s), st='#9AA7B2', w=5))
+        for gy in (-20, 0, 20):
+            o.append(L(48, gy, 74, gy, '#9AA7B2', 6))
     elif name == 'tick':
         o.append(C_(0, 0, 58, '#E4F1E4'))
         o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f'
@@ -983,7 +993,8 @@ enamel excavator flash form gloves gum hand handpiece incisal incisor
 interproximal lesion ligament light lingual lips mask mesial mirror molar
 mouth numb occlusal palatal parent pen periapical periodontitis periodontium perioprobe person
 phone pill pocket premolar probe pulp radiolucency radiopaque remin restoration root scaler speech star superimposed syringe
-tick tooth tray tweezers water xray'''.split())
+tick tooth tray tweezers water xray envelope send
+'''.split())
 
 
 def as_icon(name):
@@ -1018,7 +1029,7 @@ ICON_FOR = {
  'dentition': 'tooth', 'quadrant': 'mouth', 'midline': 'incisor',
  'incisor': 'incisor', 'canine': 'canine', 'premolar': 'premolar',
  'molar': 'molar', 'notation': 'form',
- 'telephone': 'phone', 'message': 'speech', 'letter': 'form', 'brush': 'brush',
+ 'telephone': 'phone', 'message': 'speech', 'letter': 'envelope', 'brush': 'brush',
  'radiograph': 'xray', 'tray': 'tray', 'gloves': 'gloves', 'mask': 'mask',
  'pen': 'pen', 'book': 'book',
  # Units 4 and 5 of both pilot books. Without these the fallback gives one
@@ -1047,7 +1058,7 @@ ICON_FOR = {
  'breath': 'mask',
  'child': 'child', 'parent': 'parent', 'show': 'mirror', 'touch': 'gloves',
  'game': 'ball', 'choose': 'form', 'brave': 'star', 'help': 'person',
- 'send': 'form', 'hospital': 'door', 'busy': 'clock', 'another': 'tick',
+ 'send': 'send', 'hospital': 'door', 'busy': 'clock', 'another': 'tick',
  'sorry': 'speech', 'change': 'calendar',
  'finding': 'form', 'lesion': 'lesion', 'cavity': 'cavity',
  'restoration': 'restoration', 'sound': 'tick', 'extend': 'probe',
