@@ -591,6 +591,26 @@ def icon(name, cx, cy, s=1.0, col=None):
                 for xx in range(0, 3):
                     o.append(L(sgn*(30 + xx*12), -10, sgn*(30 + xx*12 + 6), -10,
                                '#9AA7B2', 4))
+    elif name in ('demin', 'remin', 'arrested'):
+        # The caries balance, drawn: a chalky patch losing mineral, the same
+        # patch getting it back, and the dark hard spot that stopped moving.
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f '
+                   'C %.1f %.1f %.1f %.1f %.1f %.1f L %.1f %.1f Z'
+                   % (cx-56*s, cy-10*s, cx-62*s, cy-78*s, cx+62*s, cy-78*s, cx+56*s, cy-10*s,
+                      cx+44*s, cy+60*s, cx+22*s, cy+76*s, cx+14*s, cy+10*s,
+                      cx-14*s, cy+10*s), f=ENAMEL))
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f'
+                   % (cx-14*s, cy+10*s, cx-20*s, cy+60*s, cx-40*s, cy+78*s, cx-48*s, cy+30*s)))
+        if name == 'arrested':
+            o.append(C_(24, -46, 13, '#4A3328', st=LEAD))
+            o.append(C_(24, -46, 22, 'none', st='#2E7D32'))
+        else:
+            o.append(C_(24, -46, 14, '#FFFFFF', st='#9AA7B2'))
+            for ang in ((1, -1), (1.4, 0), (1, 1)):
+                dx, dy = ang
+                a, b = (14, 30) if name == 'demin' else (30, 14)
+                o.append(L(24 + dx*a, -46 + dy*a, 24 + dx*b, -46 + dy*b,
+                           '#B3261E' if name == 'demin' else '#2E7D32', 5))
     elif name == 'drop':
         o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
                    % (cx, cy-52*s, cx+32*s, cy+8*s, cx, cy+38*s,
@@ -896,12 +916,12 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''attachment bone book bowl brush buccal bur calendar canine
-card cavity cementum chair clock crown cross dentine distal door drop ear
+ICON_NAMES = set('''arrested attachment bone book bowl brush buccal bur calendar canine
+card cavity cementum chair clock crown cross demin dentine distal door drop ear
 enamel excavator flash form gloves gum hand handpiece incisal incisor
 interproximal lesion ligament light lingual lips mask mesial mirror molar
 mouth numb occlusal palatal pen periodontitis periodontium perioprobe person
-phone pill pocket premolar probe pulp restoration root scaler speech syringe
+phone pill pocket premolar probe pulp remin restoration root scaler speech syringe
 tick tooth tray tweezers water xray'''.split())
 
 
@@ -975,10 +995,10 @@ ICON_FOR = {
  'alveolar bone': 'bone', 'pocket': 'pocket', 'calculus': 'brush',
  'gingivitis': 'gum', 'periodontitis': 'periodontitis',
  'attachment': 'attachment',
- 'caries': 'tooth', 'acid': 'water', 'demineralisation': 'cross',
- 'remineralisation': 'tick', 'fissure': 'probe', 'cavitated': 'cross',
- 'progress': 'clock', 'arrested': 'tick', 'plaque': 'brush',
- 'white spot': 'light', 'fluoride': 'water', 'pit': 'probe',
+ 'caries': 'lesion', 'acid': 'water', 'demineralisation': 'demin',
+ 'remineralisation': 'remin', 'fissure': 'occlusal', 'cavitated': 'cavity',
+ 'progress': 'clock', 'arrested': 'arrested', 'plaque': 'brush',
+ 'white spot': 'demin', 'fluoride': 'water', 'pit': 'probe',
  'restore': 'tooth',
  'bitewing': 'xray', 'periapical': 'xray', 'radiolucency': 'light',
  'radiopaque': 'bone', 'apex': 'tooth', 'artefact': 'cross',
