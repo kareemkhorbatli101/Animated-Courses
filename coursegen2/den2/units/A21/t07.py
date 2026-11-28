@@ -428,7 +428,18 @@ photocopiable=dict(
         '6  The card.        It is all on this card.',
         'MAY, not WILL. A possibility, not a promise.',
         'Ring if you are worried is not an instruction. It has no time in it.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('SENDING A PATIENT HOME, IN ORDER',
+    ['How many.  Before you go, four things.',
+     'What may happen.  It may … until … .  A TIME.',
+     'What not to do.  Do not … for … .  A NUMBER.',
+     'What is normal.  … is normal.',
+     'What is NOT.  … that has not … by … is not normal.',
+     'When to ring.  Telephone us before … if … .  A TIME.',
+     'The card.  It is all on this card.'],
+    stop_points=[5],
+    note='The fifth line is the one that gets skipped, and the one the 3 a.m. '
+         'telephone call is about.'),
+ fig_cap='The seven lines of sending a patient home, with the never-skip line marked.'),
 
 defects=[
  'Writing the sample answer for 6.2 showed that the unit asked learners to answer four '

@@ -547,6 +547,54 @@ def icon(name, cx, cy, s=1.0, col=None):
             o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
                        % (cx+2*s, cy-62*s, cx+38*s, cy-54*s, cx+14*s, cy-22*s),
                        f=METAL, st=LEAD))
+    elif name in ('periodontium', 'ligament', 'pocket', 'attachment',
+                  'periodontitis'):
+        # One root in its socket, drawn five ways: the whole apparatus, the
+        # ligament, the pocket, the attachment, and the bone loss that is
+        # periodontitis. The difference between the five IS the lesson.
+        ring = '#B3261E'
+        bone_top = 16 if name == 'periodontitis' else -10
+        # bone, flanking the root
+        for sgn in (-1, 1):
+            o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                       % (cx+sgn*64*s, cy+bone_top*s, cx+sgn*30*s, cy+bone_top*s,
+                          cx+sgn*26*s, cy+52*s, cx+sgn*64*s, cy+52*s),
+                       f=BONE, st=LEAD))
+        # the root, tapering to its apex
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-20*s, cy-56*s, cx+20*s, cy-56*s, cx+13*s, cy+22*s,
+                      cx, cy+58*s, cx-13*s, cy+22*s), f=DENTINE, st=LEAD))
+        # the crown stub above the gum
+        o.append(R(-25, -76, 50, 20, ENAMEL, r=8))
+        # the gum collar
+        gum_y = -40
+        for sgn in (-1, 1):
+            if name == 'pocket' and sgn == -1:
+                continue
+            o.append(R(sgn*28 if sgn > 0 else -62, gum_y, 34, 30, GUM, r=8))
+        if name == 'pocket':
+            # the left gum has come away: a dark space runs down the root
+            o.append(R(-62, -18, 34, 18 + bone_top, GUM, r=8))
+            o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                       % (cx-28*s, cy-40*s, cx-17*s, cy-40*s, cx-15*s, cy+6*s,
+                          cx-26*s, cy+4*s), f='#3E3A36', st='#2A2724'))
+        elif name in ('periodontium', 'ligament'):
+            lig = ring if name == 'ligament' else LEAD
+            for yy in (0, 16, 32):
+                o.append(L(-24, yy, -15, yy + 8, lig, 5))
+                o.append(L(24, yy, 15, yy + 8, lig, 5))
+        elif name == 'attachment':
+            o.append(C_(-24, -38, 14, 'none', st=ring))
+        elif name == 'periodontitis':
+            # the bone has gone from where it was: its old level, dashed
+            for sgn in (-1, 1):
+                for xx in range(0, 3):
+                    o.append(L(sgn*(30 + xx*12), -10, sgn*(30 + xx*12 + 6), -10,
+                               '#9AA7B2', 4))
+    elif name == 'drop':
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx, cy-52*s, cx+32*s, cy+8*s, cx, cy+38*s,
+                      cx-32*s, cy+8*s, cx, cy-52*s), f='#C0392B', st='#7C241A'))
     elif name == 'numb':
         # Lips with the tingle dots beside them: where numbness is felt.
         o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
@@ -848,12 +896,13 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''bone book bowl brush buccal bur calendar canine card cavity
-cementum chair clock crown cross dentine distal door ear enamel excavator flash
-form gloves gum hand handpiece incisal incisor interproximal lesion light
-lingual lips mask mesial mirror molar mouth numb occlusal palatal pen
-perioprobe person phone pill premolar probe pulp restoration root scaler speech
-syringe tick tooth tray tweezers water xray'''.split())
+ICON_NAMES = set('''attachment bone book bowl brush buccal bur calendar canine
+card cavity cementum chair clock crown cross dentine distal door drop ear
+enamel excavator flash form gloves gum hand handpiece incisal incisor
+interproximal lesion ligament light lingual lips mask mesial mirror molar
+mouth numb occlusal palatal pen periodontitis periodontium perioprobe person
+phone pill pocket premolar probe pulp restoration root scaler speech syringe
+tick tooth tray tweezers water xray'''.split())
 
 
 def as_icon(name):
@@ -910,7 +959,7 @@ ICON_FOR = {
  # a card needs a picture it has earned, and the fallback cannot earn one.
  'pressure': 'gloves', 'sharp': 'probe', 'numb': 'numb', 'still': 'tick',
  'nod': 'person', 'check': 'mirror', 'feeling': 'ear', 'count': 'clock',
- 'normal': 'tick', 'bleed': 'water', 'swelling': 'gum', 'wait': 'clock',
+ 'normal': 'tick', 'bleed': 'drop', 'swelling': 'gum', 'wait': 'clock',
  'soft': 'gum', 'worry': 'speech', 'later': 'calendar',
  'afraid': 'person', 'relax': 'chair', 'slowly': 'clock', 'quiet': 'ear',
  'reason': 'book', 'promise': 'tick', 'hold': 'gloves', 'breathe': 'mask',
@@ -922,9 +971,10 @@ ICON_FOR = {
  'finding': 'form', 'lesion': 'lesion', 'cavity': 'cavity',
  'restoration': 'restoration', 'sound': 'tick', 'extend': 'probe',
  'detect': 'mirror',
- 'periodontium': 'gum', 'periodontal ligament': 'bone',
- 'alveolar bone': 'bone', 'pocket': 'probe', 'calculus': 'brush',
- 'gingivitis': 'gum', 'periodontitis': 'xray', 'attachment': 'bone',
+ 'periodontium': 'periodontium', 'periodontal ligament': 'ligament',
+ 'alveolar bone': 'bone', 'pocket': 'pocket', 'calculus': 'brush',
+ 'gingivitis': 'gum', 'periodontitis': 'periodontitis',
+ 'attachment': 'attachment',
  'caries': 'tooth', 'acid': 'water', 'demineralisation': 'cross',
  'remineralisation': 'tick', 'fissure': 'probe', 'cavitated': 'cross',
  'progress': 'clock', 'arrested': 'tick', 'plaque': 'brush',

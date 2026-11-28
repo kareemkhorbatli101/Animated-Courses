@@ -173,7 +173,8 @@ vocab_tasks=[
           ('a pocket / millimetres / depth / bone loss', 'bone loss'),
           ('reversible / resolves / returns to normal / destroyed', 'destroyed')]),
 
- dict(kind='short', rubric='Write the consequence of each cause, in one sentence.',
+ dict(kind='short', pics=['calculus', 'gingivitis', 'a pocket', 'periodontitis'],
+   rubric='Write the consequence of each cause, in one sentence.',
    example='plaque is left on the tooth  (Plaque that is left on the tooth leads to '
            'inflammation of the gingiva.)',
    pairs=[('plaque is left on the tooth',
@@ -288,7 +289,8 @@ g_tasks=[
           ('Calculus is removed   a) by brushing   b) by instruments   '
            'c) by rinsing', 'b')]),
 
- dict(kind='short', rubric='Join each pair of facts into one sentence with a cause in '
+ dict(kind='short', pics=['a pocket', 'attachment', 'alveolar bone', 'periodontitis'],
+   rubric='Join each pair of facts into one sentence with a cause in '
                            'it.',
    example='plaque at the gum margin / inflammation  (Plaque at the gum margin leads to '
            'inflammation of the gingiva.)',

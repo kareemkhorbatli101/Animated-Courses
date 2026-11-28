@@ -449,7 +449,16 @@ photocopiable=dict(
         'THE LINE IS THE ATTACHMENT, NOT THE BLEEDING.',
         'Say both halves: it can be arrested, and it cannot be undone.',
         'One measurement = depth today. Activity needs a second visit.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('THE CHAIN, AND THE LINE ACROSS IT',
+    ['Plaque sits on the gum margin.',
+     'The gingiva inflames: GINGIVITIS. Reversible - no attachment lost.',
+     'Plaque stays, hardens into calculus, holds more plaque below the gum.',
+     'The inflammation continues: ATTACHMENT IS LOST.',
+     'Alveolar bone is lost: PERIODONTITIS. Arrestable, never reversible.'],
+    stop_points=[4],
+    note='The line is the attachment, not the bleeding. Everything before step '
+         'four can be undone; nothing after it can.'),
+ fig_cap='The chain from plaque to periodontitis, with the attachment line marked.'),
 
 defects=[
  'Writing the sample answer for 6.3 showed that the unit asked learners to tell a '
