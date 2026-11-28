@@ -73,7 +73,8 @@ out.append(R.body('%s  ·  %s  ·  %s' % (series.TITLE, B['sub'], B['bandge']), 
 
 out.append(R.rubric('If you have never taught this course before, read this page'))
 for t in [
- 'You do not need to be a dentist to teach this book, and you should not try to be one. '
+ ('You do not need to be %s to teach this book, and you should not try to be one. '
+  % getattr(series, 'CLINICIAN', 'a dentist')) +
  'Everything clinical that a task depends on is printed in the unit, and every unit of this '
  'teacher’s book has a page headed FOR THE TEACHER WHO IS NOT A CLINICIAN which answers, in '
  'plain language, the questions a class will actually ask. If a question goes past that '

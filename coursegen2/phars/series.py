@@ -6,6 +6,8 @@ EDITION = 'First Edition'
 SERIES = 'ENGLISH FOR THE PHARMACY PROFESSIONS'
 STRAP = 'The English of the lecture, the bench and the first prescription'
 FILESTEM = 'English_for_Pharmacy_Students'
+FIELD_PHRASE = 'pharmacy practice and pharmacy education'
+CLINICIAN = 'a pharmacist'
 ORDER = ['A22', 'B11', 'B12', 'B21', 'B22', 'C11']
 
 CAST = [

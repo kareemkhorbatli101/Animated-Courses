@@ -6,6 +6,8 @@ EDITION = 'Second Edition'
 SERIES = 'ENGLISH FOR THE PHARMACY PROFESSIONS'
 STRAP = 'The English of the counter, the label and the person the medicine is for'
 FILESTEM = 'English_for_Pharmacists_2e'
+FIELD_PHRASE = 'pharmacy practice and pharmacy education'
+CLINICIAN = 'a pharmacist'
 ORDER = ['A21', 'A22', 'B11', 'B12', 'B21', 'B22']
 
 CAST = [

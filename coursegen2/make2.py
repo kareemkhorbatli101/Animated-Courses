@@ -64,10 +64,11 @@ out.append(R.readbox(' '.join(B['blurb'])))
 
 out.append(R.rubric('Please read this first'))
 out.append(R.readbox(
-    'This is a language course. It teaches the English used in dental practice and dental '
-    'education; it is not a clinical reference and must not be used as one. Clinical decisions '
-    'are governed by local law, by local protocol and by the professional judgement of a '
-    'qualified clinician.'))
+    ('This is a language course. It teaches the English used in %s; it is not a '
+     'clinical reference and must not be used as one. Clinical decisions '
+     'are governed by local law, by local protocol and by the professional judgement of a '
+     'qualified clinician.')
+    % getattr(series, 'FIELD_PHRASE', 'dental practice and dental education')))
 out.append(R.readbox(
     'Every patient, practice, company and case in this book is invented. All figures, counts '
     'and sums are illustrative. Where a professional requirement is described, what applies in '
