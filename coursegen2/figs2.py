@@ -978,6 +978,13 @@ def icon(name, cx, cy, s=1.0, col=None):
             o.append(P('M %.1f %.1f L %.1f %.1f'
                        % (cx-62*s, cy-2*s, cx+62*s, cy-2*s), st=RING, w=5))
             o.append(P(root_d, st=RING, w=7))
+    elif name == 'screen':
+        # The screen at the counter: where the record lives.
+        o.append(R(-50, -44, 100, 70, '#2B3440'))
+        o.append(R(-8, 26, 16, 14, METAL, r=4))
+        o.append(R(-28, 40, 56, 10, METAL, r=5))
+        o.append(L(-36, -30, 10, -30, '#9AA7B2', 5))
+        o.append(L(-36, -14, 24, -14, '#9AA7B2', 5))
     elif name == 'counterdesk':
         # The pharmacy counter: top, body, and the screen the patient sees past.
         o.append(R(-60, 2, 120, 58, PLASTIC))
@@ -1204,7 +1211,7 @@ phone pill pocket premolar probe pulp radiolucency radiopaque remin restoration 
 tick tooth tray tweezers water xray envelope send
 counterdesk benchtop shelfunit fridge cdcabinet prescription plabel pillbottle
 tabletpill capsule liquidbottle dropper inhaler creamtube patch spoon5
-oralsyringe cylinder counttriangle mortar balance pbag basket van
+oralsyringe cylinder counttriangle mortar balance pbag basket van screen
 '''.split())
 
 
@@ -1302,7 +1309,7 @@ ICON_FOR = {
  'balance': 'balance', 'mortar': 'mortar', 'cylinder': 'cylinder',
  'triangle': 'counttriangle', 'pharmacist': 'person', 'ready': 'tick',
  'expiry': 'calendar', 'allergy': 'cross', 'stock': 'shelfunit',
- 'bottle': 'pillbottle', 'pack': 'card',
+ 'bottle': 'pillbottle', 'pack': 'card', 'screen': 'screen',
 }
 
 

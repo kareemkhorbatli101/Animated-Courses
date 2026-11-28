@@ -129,6 +129,7 @@ hatch screen till
 collect collects collected collection collecting
 sticker stickers
 chemist chemists
+van vans
 """
 
 DOMAIN = DOMAIN.split()
