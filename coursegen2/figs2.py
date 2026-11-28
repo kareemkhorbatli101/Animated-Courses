@@ -591,6 +591,62 @@ def icon(name, cx, cy, s=1.0, col=None):
                 for xx in range(0, 3):
                     o.append(L(sgn*(30 + xx*12), -10, sgn*(30 + xx*12 + 6), -10,
                                '#9AA7B2', 4))
+    elif name in ('bitewing', 'periapical', 'radiolucency', 'radiopaque',
+                  'superimposed', 'artefact', 'apex'):
+        # A radiograph records what the beam did: the film is dark, and
+        # everything the beam could not pass through is light. Seven film
+        # glyphs, and the difference between them is the lesson.
+        film = '#2E3A45'
+        ring = '#B3261E'
+        if name == 'bitewing':
+            o.append(R(-64, -44, 128, 88, film, r=10))
+            for gx in (-36, 2):
+                o.append(R(gx, -32, 32, 28, ENAMEL, r=7))
+                o.append(R(gx + 4, 10, 26, 24, ENAMEL, r=7))
+        else:
+            o.append(R(-44, -64, 88, 128, film, r=10))
+            o.append(R(-17, -52, 34, 28, ENAMEL, r=7))
+            o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                       % (cx-13*s, cy-24*s, cx+13*s, cy-24*s, cx+6*s, cy+38*s,
+                          cx-6*s, cy+38*s), f=DENTINE, st='none'))
+            if name == 'radiolucency':
+                o.append(C_(16, -18, 12, '#141B21', st='none'))
+            elif name == 'radiopaque':
+                o.append(C_(0, -42, 11, '#FFFFFF', st='none'))
+            elif name == 'superimposed':
+                o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                           % (cx+6*s, cy-24*s, cx+30*s, cy-24*s, cx+26*s, cy+30*s,
+                              cx+12*s, cy+30*s), f='#B9C6CF', st='none'))
+            elif name == 'artefact':
+                o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f'
+                           % (cx-38*s, cy+50*s, cx-10*s, cy+22*s, cx+6*s, cy+44*s,
+                              cx+36*s, cy+8*s), st='#FFFFFF', w=5))
+            elif name == 'apex':
+                o.append(C_(0, 36, 15, 'none', st=ring))
+    elif name == 'child':
+        o.append(C_(0, -26, 34, SKIN['2']))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-40*s, cy+66*s, cx, cy+4*s, cx+40*s, cy+66*s), f=c))
+    elif name == 'parent':
+        o.append(C_(-22, -44, 26, SKIN['3']))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-60*s, cy+66*s, cx-22*s, cy-14*s, cx+16*s, cy+66*s), f=c))
+        o.append(C_(34, -2, 20, SKIN['2']))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx+10*s, cy+66*s, cx+34*s, cy+22*s, cx+58*s, cy+66*s),
+                   f='#7A8CA0'))
+    elif name == 'star':
+        pts = [(0, -58), (17, -18), (58, -18), (25, 8), (36, 50),
+               (0, 24), (-36, 50), (-25, 8), (-58, -18), (-17, -18)]
+        d = 'M ' + ' L '.join('%.1f %.1f' % (cx + x*s, cy + y*s)
+                              for x, y in pts) + ' Z'
+        o.append(P(d, f='#E9B949', st='#A07B16'))
+    elif name == 'ball':
+        o.append(C_(0, 0, 52, PLASTIC))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                   % (cx-50*s, cy-14*s, cx, cy+16*s, cx+50*s, cy-14*s), w=5))
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f'
+                   % (cx-50*s, cy+14*s, cx, cy+44*s, cx+50*s, cy+14*s), w=5))
     elif name in ('demin', 'remin', 'arrested'):
         # The caries balance, drawn: a chalky patch losing mineral, the same
         # patch getting it back, and the dark hard spot that stopped moving.
@@ -916,12 +972,12 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''arrested attachment bone book bowl brush buccal bur calendar canine
-card cavity cementum chair clock crown cross demin dentine distal door drop ear
+ICON_NAMES = set('''apex arrested artefact attachment ball bitewing bone book bowl brush buccal bur calendar canine
+card cavity cementum chair child clock crown cross demin dentine distal door drop ear
 enamel excavator flash form gloves gum hand handpiece incisal incisor
 interproximal lesion ligament light lingual lips mask mesial mirror molar
-mouth numb occlusal palatal pen periodontitis periodontium perioprobe person
-phone pill pocket premolar probe pulp remin restoration root scaler speech syringe
+mouth numb occlusal palatal parent pen periapical periodontitis periodontium perioprobe person
+phone pill pocket premolar probe pulp radiolucency radiopaque remin restoration root scaler speech star superimposed syringe
 tick tooth tray tweezers water xray'''.split())
 
 
@@ -984,8 +1040,8 @@ ICON_FOR = {
  'afraid': 'person', 'relax': 'chair', 'slowly': 'clock', 'quiet': 'ear',
  'reason': 'book', 'promise': 'tick', 'hold': 'gloves', 'breathe': 'mask',
  'breath': 'mask',
- 'child': 'person', 'parent': 'speech', 'show': 'mirror', 'touch': 'gloves',
- 'game': 'tick', 'choose': 'form', 'brave': 'light', 'help': 'person',
+ 'child': 'child', 'parent': 'parent', 'show': 'mirror', 'touch': 'gloves',
+ 'game': 'ball', 'choose': 'form', 'brave': 'star', 'help': 'person',
  'send': 'form', 'hospital': 'door', 'busy': 'clock', 'another': 'tick',
  'sorry': 'speech', 'change': 'calendar',
  'finding': 'form', 'lesion': 'lesion', 'cavity': 'cavity',
@@ -1000,9 +1056,10 @@ ICON_FOR = {
  'progress': 'clock', 'arrested': 'arrested', 'plaque': 'brush',
  'white spot': 'demin', 'fluoride': 'water', 'pit': 'probe',
  'restore': 'tooth',
- 'bitewing': 'xray', 'periapical': 'xray', 'radiolucency': 'light',
- 'radiopaque': 'bone', 'apex': 'tooth', 'artefact': 'cross',
- 'superimposed': 'form', 'underestimate': 'probe',
+ 'bitewing': 'bitewing', 'periapical': 'periapical',
+ 'radiolucency': 'radiolucency', 'radiopaque': 'radiopaque',
+ 'apex': 'apex', 'artefact': 'artefact',
+ 'superimposed': 'superimposed', 'underestimate': 'probe',
  'complaint': 'speech', 'history': 'book', 'extraoral': 'person',
  'intraoral': 'mirror', 'provisional diagnosis': 'form',
  'treatment plan': 'card', 'prioritise': 'tick', 'recall': 'calendar',
