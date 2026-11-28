@@ -256,7 +256,6 @@ listening=[
       fig_cap='The route, before you hear it.',
       script=[('Dr Ricci', 'Good morning. Today we walk through a pharmacy, part by part.'),
               ('Dr Ricci', 'A pharmacy is a set of places, and each place has one job.'),
-              ('Dr Ricci', 'If you know the job, you know the place.'),
               ('Dr Ricci', 'We begin at the counter, because the public begins there.'),
               ('Dr Ricci', 'The counter is the desk where the pharmacy meets the public.'),
               ('Dr Ricci', 'The till belongs to the counter, and so does the quiet corner.'),
