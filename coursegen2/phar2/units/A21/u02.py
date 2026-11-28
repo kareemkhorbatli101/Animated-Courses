@@ -739,7 +739,8 @@ reading=[
 writing=[
  dict(title='The note on the basket', genre='basket note',
       rubric='Write the six lines of a basket note for one prescription.',
-      how='Use the model. Then write your own with the facts in the frame.',
+      how='Use the model. Then write your own with the facts in the frame, and with '
+          'the waiting line as it would be said in your own pharmacy.',
       fig=F.mini_table('WHAT THE SIX LINES CARRY', ['Line', 'Carries'],
             [['Patient', 'family name, given name'],
              ['Items', 'how many'],

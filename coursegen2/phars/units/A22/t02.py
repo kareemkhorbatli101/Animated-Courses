@@ -306,6 +306,12 @@ sample_answers=[
   'would always say: never cut for the patch, not opened for the capsule, '
   'inhaled not swallowed for the inhaler.',
   'الآن وبوضوح: لا، اللصقة لا تُقَص، وكان عليّ قولها مع الكيس. الممنوعات تُقال في التسليم.'),
+ ('6.4  The fluency task, as it sounds on the third run',
+  'A tablet is swallowed whole; scored ones break evenly. A capsule is swallowed '
+  'whole and not opened. A liquid is measured, not counted. A cream is applied '
+  'thinly. Drops are given one at a time, where they land. An inhaler\u2019s '
+  'medicine is inhaled; a patch is worn and never cut.',
+  'في الجولة الثالثة تخرج الأشكال الثمانية بممنوعاتها في أقل من دقيقة.'),
  ('10.3  The round against the clock, as it should sound',
   'A tablet: swallowed whole; scored ones break evenly. A capsule: '
   'swallowed whole; not opened. A liquid: measured, not counted. A cream: '

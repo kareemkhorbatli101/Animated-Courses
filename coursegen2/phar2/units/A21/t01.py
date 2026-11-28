@@ -282,6 +282,12 @@ sample_answers=[
   'of birth?” Then Grace, afterwards and quietly: “Could we ask the two '
   'questions first next time? I will stand with you this morning.”',
   'المرأة أولاً وبلطف: لحظة من فضلك، أتحقق من الاسم وتاريخ الميلاد. ثم غرايس لاحقاً وعلى انفراد.'),
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'Good morning, how can I help you? My name is \u2026 I am the pharmacist today. '
+  'Can you tell me your name, please? And your date of birth? Thank you, that is '
+  'what I have here. Can I take your prescription? It will be about ten minutes. '
+  'Would you like to wait? I am going to check it with my colleague first.',
+  'الهدف أن تخرج الجمل كاملة دون توقف في الجولة الثالثة، لا أن تُضاف معلومات جديدة.'),
  ('10.3  The review role-play, when the person starts first',
   'Thank you — can you tell me the full name? Ayse Demir. And her date of birth? '
   'Thank you, that is what I have on the bag. There are two items in here.'),

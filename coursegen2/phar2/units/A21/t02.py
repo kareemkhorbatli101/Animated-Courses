@@ -278,6 +278,12 @@ sample_answers=[
   'evening, or we telephone the taxi company and pay for the waiting. Grace’s '
   'name is not said at the counter; tomorrow, privately, the promise rule is.',
   'أولاً: قلنا بعد الرابعة ولم يجهز، أنا آسفة. ثم العرض: نوصله مساء أو ندفع انتظار التاكسي.'),
+ ('6.4  The fluency task, as it sounds on the third turn',
+  'Can I take your prescription, please? One moment, I am just going to read it. '
+  'There are two items \u2014 is that right? Is the address still the same? It '
+  'will be about fifteen minutes. Would you like to wait? Into the basket now, '
+  'with a note that you are waiting.',
+  'في الجولة الثالثة تخرج الجمل نفسها أسرع، ولا يدخل شيء جديد.'),
  ('10.3  The review role-play, the third refusal',
   'I cannot give a time until the surgery answers. I would rather not guess '
   '— a guessed time fails at four o’clock. May we telephone you the '

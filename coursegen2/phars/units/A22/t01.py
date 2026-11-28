@@ -302,6 +302,12 @@ sample_answers=[
   'blank loses a mark; a wrong word loses trust; a looked-up answer loses '
   'nothing.',
   'لا الفراغ ولا التخمين: يبحث عن الكلمة قبل الخميس فيجدها في لوحة الكلمات ويكتبها.'),
+ ('6.4  The fluency task, as it sounds on the third run',
+  'The counter, where the pharmacy meets the public. The dispensary behind it: '
+  'the bench, one task at a time. A basket for each patient. The shelves, every '
+  'pack in its place. The fridge: cold, written down daily. The cabinet: locked, '
+  'every movement recorded.',
+  'في الجولة الثالثة يخرج المسار كاملاً في نفس واحد، من الكاونتر إلى الخزانة.'),
  ('10.3  The reversed route, as it should sound',
   'Deliveries arrive at the back: the stock room is where boxes wait, unopened. '
   'The shelves hold every pack in its fixed place. The bench works one basket '
