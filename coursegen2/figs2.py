@@ -1016,14 +1016,22 @@ def icon_cards(title, items, cols=4, note=None):
         term = it[0] if isinstance(it, (tuple, list)) else it
         ic = (it[1] if isinstance(it, (tuple, list)) and len(it) > 1 and it[1]
               else pick_icon(term))
-        wrapped.append((wrap_w(term, size, cw - 44, True), ic))
-    nmax = max(len(w) for w, _ in wrapped)
+        # A vocabulary card must never hyphenate its word: a learner is
+        # meeting it for the first time. When the longest word is wider than
+        # the card, the card's label shrinks until the word fits whole.
+        sz_i = size
+        words = str(term).split() or ['']
+        longest = max(words, key=lambda w: text_w(w, size, True))
+        while sz_i > 24 and text_w(longest, sz_i, True) > cw - 44:
+            sz_i -= 2
+        wrapped.append((wrap_w(term, sz_i, cw - 44, True), ic, sz_i))
     lh = int(size * 1.30)
+    nmax = max(len(w) for w, _ic, _s in wrapped)
     icon_h = 230
     ch = icon_h + 40 + nmax * lh + 34
     H = int(BAND + 80 + rows * (ch + gap) + (90 if note else 40))
     o = _head(H, title)
-    for i, (lines, ic) in enumerate(wrapped):
+    for i, (lines, ic, sz_i) in enumerate(wrapped):
         r, c = divmod(i, cols)
         x = 100 + c * (cw + gap)
         y = BAND + 80 + r * (ch + gap)
@@ -1031,8 +1039,8 @@ def icon_cards(title, items, cols=4, note=None):
         o.append(icon(ic, x + cw / 2, y + icon_h * 0.52, min(1.35, cw / 460.0)))
         ty = y + icon_h + 40
         for ln in lines:
-            o.append(t(x + cw / 2, ty, ln, size, INK, bold=True))
-            ty += lh
+            o.append(t(x + cw / 2, ty, ln, sz_i, INK, bold=True))
+            ty += int(sz_i * 1.30)
     if note:
         o.append(t(100, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
     return ''.join(o), H, ''
