@@ -132,6 +132,7 @@ cold-chain
 sticker stickers
 chemist chemists
 van vans supervision route routes extract extracts daily
+lung lungs shaken pill pills chew chews chewed crush crushes crushed
 """
 
 DOMAIN = DOMAIN.split()
