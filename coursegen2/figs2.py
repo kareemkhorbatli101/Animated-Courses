@@ -985,6 +985,15 @@ def icon(name, cx, cy, s=1.0, col=None):
         o.append(R(-28, 40, 56, 10, METAL, r=5))
         o.append(L(-36, -30, 10, -30, '#9AA7B2', 5))
         o.append(L(-36, -14, 24, -14, '#9AA7B2', 5))
+    elif name == 'signature':
+        # A signature: the written line that makes a paper real.
+        o.append(L(-58, 34, 58, 34, '#9AA7B2', 5))
+        o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f '
+                   'C %.1f %.1f %.1f %.1f %.1f %.1f'
+                   % (cx-48*s, cy+26*s, cx-30*s, cy-40*s, cx-10*s, cy-40*s,
+                      cx-6*s, cy+10*s, cx-2*s, cy+44*s, cx+18*s, cy-26*s,
+                      cx+30*s, cy+16*s), st=LEAD, w=7))
+        o.append(L(34, 10, 54, 6, LEAD, 5))
     elif name == 'counterdesk':
         # The pharmacy counter: top, body, and the screen the patient sees past.
         o.append(R(-60, 2, 120, 58, PLASTIC))
@@ -1211,7 +1220,7 @@ phone pill pocket premolar probe pulp radiolucency radiopaque remin restoration 
 tick tooth tray tweezers water xray envelope send
 counterdesk benchtop shelfunit fridge cdcabinet prescription plabel pillbottle
 tabletpill capsule liquidbottle dropper inhaler creamtube patch spoon5
-oralsyringe cylinder counttriangle mortar balance pbag basket van screen
+oralsyringe cylinder counttriangle mortar balance pbag basket van screen signature
 '''.split())
 
 
@@ -1310,6 +1319,11 @@ ICON_FOR = {
  'triangle': 'counttriangle', 'pharmacist': 'person', 'ready': 'tick',
  'expiry': 'calendar', 'allergy': 'cross', 'stock': 'shelfunit',
  'bottle': 'pillbottle', 'pack': 'card', 'screen': 'screen',
+ 'repeat': 'form', 'item': 'pillbottle', 'date': 'calendar',
+ 'signature': 'signature', 'prescriber': 'person', 'wait': 'clock',
+ 'note': 'card', 'ticket': 'card', 'address': 'door',
+ 'stock room': 'door',
+
 }
 
 
@@ -1317,6 +1331,8 @@ def pick_icon(term):
     k = re.sub(r'^(a|an|the|to)\s+', '', str(term).lower()).strip()
     if k in ICON_FOR:
         return ICON_FOR[k]
+    if k in ICON_NAMES:
+        return k
     for key, val in ICON_FOR.items():
         if key in k:
             return val
