@@ -11,6 +11,11 @@ import art2 as A
 
 
 # ------------------------------------------------------------------ frame
+
+def _notefit(x, y, s, size):
+    """Italic figure note that shrinks to fit the canvas, never clips."""
+    return t(x, y, s, fit(s, size, W - x - 100), MUTE, anchor='start', italic=True)
+
 def _head(height, title, defs_idx=None):
     o = [rect(0, 0, W, height, BG, stroke=BORDER, sw=4)]
     if title:
@@ -141,7 +146,7 @@ def dentition_map(title='THE PERMANENT DENTITION  ·  FDI NOTATION',
         o.append(t(140, H - 150, 'black = FDI (ISO 3950)', 42, LEAD, anchor='start'))
         o.append(t(140, H - 96, 'red = Universal (US)', 42, '#8A3B2E', anchor='start'))
     if note:
-        o.append(t(140, H - 48, note, FS_SMALL, MUTE, anchor='start', italic=True))
+        o.append(_notefit(140, H - 48, note, FS_SMALL))
     return ''.join(o), H, ''
 
 
@@ -161,7 +166,7 @@ def instrument_plate(title, items, note=None):
         o.append(t(1180, y + 148, use, FS_BODY, MUTE, anchor='start'))
         y += 230
     if note:
-        o.append(t(140, H - 50, note, FS_SMALL, MUTE, anchor='start', italic=True))
+        o.append(_notefit(140, H - 50, note, FS_SMALL))
     return ''.join(o), H, ''
 
 
@@ -257,7 +262,7 @@ def set_plate(title, items, note='Learn these eight. The rest are for recognitio
         for ln in gl:
             o.append(t(x + 136, ty, ln, FS_BODY, MUTE, anchor='start'))
             ty += int(FS_BODY * 1.30)
-    o.append(t(140, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+    o.append(_notefit(140, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -289,7 +294,7 @@ def phrase_box(title, groups, note=None):
             y += 18
         y += 24
     if note:
-        o.append(t(140, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(140, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -323,7 +328,7 @@ def step_sequence(title, steps, stop_points=None, note=None):
             o.append(arrow(232, y + rh, 232, y + rh + gap - 4, MUTE, 5, 22))
         y += rh + gap
     if note:
-        o.append(t(140, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(140, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -376,7 +381,7 @@ def form_annotated(title, heading, fields, callouts=None, note=None):
             o.append(t(tx, ty, ln, FS_SMALL, INK, anchor='start'))
             ty += lh
     if note:
-        o.append(t(fx, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(fx, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -446,7 +451,7 @@ def morph_builder(title, rows, note=None):
             o.append(t(x + 150, ty, ln, FS_BODY, MUTE, anchor='start'))
         y += rh
     if note:
-        o.append(t(150, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(150, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -489,7 +494,7 @@ def chair_scene(title='THE SURGERY', labels=None, note=None):
     key, _ = label_key(2380, 420, labels, size=46, title='KEY')
     o.append(key)
     if note:
-        o.append(t(140, H - 60, note, FS_SMALL, MUTE, anchor='start', italic=True))
+        o.append(_notefit(140, H - 60, note, FS_SMALL))
     return ''.join(o), H, ''
 
 
@@ -512,7 +517,7 @@ def exchange(title, left_name, left_lines, right_name, right_lines, note=None):
                 o.append(t(x + 30, yy - 10 + j * 50, ln, FS_SMALL, INK, anchor='start'))
             yy += 150
     if note:
-        o.append(t(150, H - 60, note, FS_SMALL, MUTE, anchor='start', italic=True))
+        o.append(_notefit(150, H - 60, note, FS_SMALL))
     return ''.join(o), H, ''
 
 
@@ -1119,7 +1124,7 @@ def icon_cards(title, items, cols=4, note=None):
             o.append(t(x + cw / 2, ty, ln, sz_i, INK, bold=True))
             ty += int(sz_i * 1.30)
     if note:
-        o.append(t(100, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(100, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -1156,7 +1161,7 @@ def conversation(title, left, right, exchange_lines, note=None):
     o.append(rcard)
     o.extend(bubbles)
     if note:
-        o.append(t(140, H - 30, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(140, H - 30, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -1176,7 +1181,7 @@ def cast_cards(title, people, note=None):
         o.append(person_card(100 + c * (cw + gap), BAND + 80 + r * (hmax + gap),
                              cw, p, height=hmax)[0])
     if note:
-        o.append(t(100, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(100, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -1234,7 +1239,7 @@ def mini_table(title, header, rows, note=None, highlight=None, col_bold=(0,)):
                 ty += lh
         y += h
     if note:
-        o.append(t(left, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(left, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -1277,7 +1282,7 @@ def grammar_mnemonic(title, cells, note=None):
             o.append(t(x + cw / 2, ey, ln, FS_SMALL, INK, italic=True))
             ey += int(FS_SMALL * 1.30)
     if note:
-        o.append(t(80, H - 36, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(80, H - 36, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -1551,7 +1556,7 @@ def case_panel(title, who, facts, question, note=None):
         o.append(t(W / 2, ty, ln, FS_HEAD, INK, bold=True))
         ty += int(FS_HEAD * 1.32)
     if note:
-        o.append(t(150, H - 34, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(150, H - 34, note, FS_NOTE))
     return ''.join(o), H, ''
 
 
@@ -1582,5 +1587,5 @@ def opinion_line(title, poles, marks, note=None):
             o.append(t(x, ty, ln, FS_BODY, INK))
             ty += lh
     if note:
-        o.append(t(260, H - 32, note, FS_NOTE, MUTE, anchor='start', italic=True))
+        o.append(_notefit(260, H - 32, note, FS_NOTE))
     return ''.join(o), H, ''
