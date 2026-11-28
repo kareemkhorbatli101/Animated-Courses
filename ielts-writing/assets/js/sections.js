@@ -43,7 +43,26 @@
     if (E.qtype) chips.appendChild(el('span', 'chip', esc(E.qtype)));
     if (E.years) chips.appendChild(el('span', 'chip', 'Reported ' + esc(E.years)));
 
-    c.appendChild(el('div', 'sec-n', 'ESSAY ' + esc(E.num)));
+    /* The sibling control, in the top right of this card: "Simpler Answer" on the book's own
+       answer, "More Sophisticated Answer" on the plainer one.
+
+       A FLEX ROW, NOT AN ABSOLUTE CORNER. .card is not a positioned element, so an absolutely
+       placed button would anchor to the page; and a button floating over this card's first
+       line would sit on top of a long title at phone width, which is the defect P5 catches
+       and which a long chip has already caused on essay 101. space-between puts it in the
+       corner on any normal screen and wraps it under the heading at 360px instead. */
+    var hd = el('div', 'sec-head');
+    hd.appendChild(el('div', 'sec-n',
+      E.kind === 'band6' ? 'ESSAY ' + esc(E.num) + ' · SIMPLER ANSWER'
+                         : 'ESSAY ' + esc(E.num)));
+    if (E.sib && E.sib.slug) {
+      var sw = el('a', 'btn btn-sm swap', esc(E.sib.label) + ' →');
+      sw.href = E.sib.slug + '.html';          /* same category folder, so no path to get wrong */
+      if (E.sib.hint) sw.title = E.sib.hint;
+      sw.setAttribute('aria-label', E.sib.label + (E.sib.hint ? ' - ' + E.sib.hint : ''));
+      hd.appendChild(sw);
+    }
+    c.appendChild(hd);
     c.appendChild(el('h2', '', esc(E.title)));
     var q = el('div', 'question');
     q.innerHTML = '<span class="q-mark">&ldquo;</span>' + esc(E.question || '')
@@ -51,28 +70,55 @@
     c.appendChild(q);
 
     /* the band badge is a button: the model is Band 6.5-7 and a learner who copies its style
-       believing it is a 9 has been taught the wrong thing by the page */
-    var band = IWR.discloser('Band 6.5–7 — why, and what a Band 8 needs', function () {
-      var box = el('div', 'wordpanel');
-      if (!E.criteria || !E.criteria.length) {
-        box.appendChild(el('div', 'note', 'This essay has no written justification in the book.'));
-        return box;
-      }
-      E.criteria.forEach(function (cr) {
-        box.appendChild(el('div', 'big', esc(cr.name) + (cr.band ? ' — Band ' + esc(cr.band) : '')));
-        var ul = el('ul');
-        (cr.lines || []).forEach(function (ln) { ul.appendChild(el('li', '', esc(ln))); });
-        box.appendChild(ul);
-      });
-      return box;
-    });
+       believing it is a 9 has been taught the wrong thing by the page.
+
+       On the plainer page the badge says Band 6 and shows WHY, in the two numbers a band is
+       actually made of - mean sentence length and the share of long words - this answer's
+       against the book's own. Saying "this one is simpler" and showing nothing would be a
+       claim; the numbers are the evidence, and they are the lesson. */
+    var band = E.kind === 'band6'
+      ? IWR.discloser('Band 6 — what makes it simpler', function () {
+          var box = el('div', 'wordpanel');
+          var b = E.band || {};
+          box.appendChild(el('div', 'big', 'The same ideas, in plainer language'));
+          box.appendChild(el('div', 'note',
+            'Sentence for sentence this answer says what the other one says. Two things were '
+            + 'changed, and both can be measured.'));
+          var ul = el('ul');
+          ul.appendChild(el('li', '', 'Average sentence: <strong>' + esc(b.mean)
+            + ' words</strong> here, ' + esc(b.other_mean) + ' in the Band 6.5–7 answer.'));
+          ul.appendChild(el('li', '', 'Long words (nine letters or more): <strong>'
+            + esc(b.long) + '%</strong> here, ' + esc(b.other_long) + '% there.'));
+          box.appendChild(ul);
+          box.appendChild(el('div', 'note',
+            'Shorter sentences and plainer words are what hold an essay at about Band 6. To '
+            + 'move up, read the other answer and watch where it joins two ideas into one '
+            + 'sentence.'));
+          return box;
+        })
+      : IWR.discloser('Band 6.5–7 — why, and what a Band 8 needs', function () {
+          var box = el('div', 'wordpanel');
+          if (!E.criteria || !E.criteria.length) {
+            box.appendChild(el('div', 'note',
+              'This essay has no written justification in the book.'));
+            return box;
+          }
+          E.criteria.forEach(function (cr) {
+            box.appendChild(el('div', 'big',
+              esc(cr.name) + (cr.band ? ' — Band ' + esc(cr.band) : '')));
+            var ul = el('ul');
+            (cr.lines || []).forEach(function (ln) { ul.appendChild(el('li', '', esc(ln))); });
+            box.appendChild(ul);
+          });
+          return box;
+        });
     band.btn.className = 'chip btn band';
     chips.appendChild(band.btn);
 
     /* the words button - closed by default, because a permanent word count beside a model
        essay teaches length imitation rather than structure */
     var wb = IWR.discloser('Words', function () {
-      return IWR.wordPanel(E.words, E.stated, E.extended);
+      return IWR.wordPanel(E.words, E.stated, E.extended, E.other_words);
     });
     chips.appendChild(wb.btn);
     c.appendChild(chips);
@@ -354,9 +400,13 @@
           var text = para, guard = 0;
           while (guard++ < 40) {
             var best = -1, bestItem = null;
+            /* FOLDED on both sides - the fold is length-preserving, so an index into the
+               folded copy is a valid index into `text` itself. Without this, an item typed
+               with a straight apostrophe never finds the essay's curly one. */
+            var hay = IWR.fold(text);
             remaining.forEach(function (r) {
               if (r.used) return;
-              var at = text.indexOf(r.text);
+              var at = hay.indexOf(IWR.fold(r.text));
               if (at >= 0 && (best < 0 || at < best)) { best = at; bestItem = r; }
             });
             if (!bestItem) break;

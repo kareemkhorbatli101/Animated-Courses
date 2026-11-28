@@ -287,7 +287,7 @@
   };
 
   /* ---------- the words button, section 0 and section 7 ---------- */
-  IWR.wordPanel = function (counted, stated, extended) {
+  IWR.wordPanel = function (counted, stated, extended, other) {
     var over = counted - FLOOR;
     var box = el('div', 'wordpanel');
     var pct = Math.max(4, Math.min(100, Math.round(counted / 400 * 100)));
@@ -316,6 +316,13 @@
     if (extended) {
       box.appendChild(el('div', 'note',
         'Completed to the author’s own outline: ' + esc(extended) + ' words added.'));
+    }
+    /* On the plainer page: the other answer's length, so the learner can see that this is the
+       same essay at the same length and not a summary of it. */
+    if (other) {
+      box.appendChild(el('div', 'note',
+        'The Band 6.5–7 answer to the same question is ' + esc(other) + ' words, so this is '
+        + 'the same essay in plainer language — not a shorter one.'));
     }
     return box;
   };
@@ -426,6 +433,22 @@
     closeList();
     return out.join('');
   };
+
+  /* ---------- the typographic fold ----------
+     Section 4 finds each cloze span in the essay with indexOf, and the item store is typed by
+     hand with straight quotes while the book's text carries curly ones. Sixteen spans on the
+     published course therefore matched nothing, mounted no slot, and left the learner holding
+     a chip with nowhere to put it - ten answers, nine holes, a card that can never be
+     completed. Folding both sides fixes it, and EVERY SUBSTITUTION IS ONE CHARACTER FOR ONE
+     CHARACTER, so an index into fold(text) is still a valid index into text. Case is NOT
+     folded: the chip carries the letter the learner reads, so a capital is a real difference
+     and author.py's A5b fails it instead of papering over it. */
+  function fold(s) {
+    return String(s == null ? '' : s)
+      .replace(/[’‘]/g, "'").replace(/[“”]/g, '"')
+      .replace(/[—–]/g, '-').replace(/ /g, ' ');
+  }
+  IWR.fold = fold;
 
   IWR.esc = esc;
   IWR.el = el;
