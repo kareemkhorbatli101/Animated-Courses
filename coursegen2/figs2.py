@@ -498,6 +498,48 @@ def chair_scene(title='THE SURGERY', labels=None, note=None):
     return ''.join(o), H, ''
 
 
+def counter_scene(title='THE PHARMACY', labels=None, note=None):
+    """The pharmacy from the door: counter, screen, shelves, dispensary, fridge."""
+    H = 1500
+    o = _head(H, title)
+    # floor
+    o.append(line(140, 1230, W - 140, 1230, MUTE, 4))
+    # the counter: body and top
+    o.append(rect(420, 920, 900, 310, PLASTIC, stroke=LEAD, sw=4, rx=12))
+    o.append(rect(380, 876, 980, 48, METAL, stroke=LEAD, sw=4, rx=12))
+    # the screen on the counter
+    o.append(rect(540, 700, 250, 160, '#2B3440', stroke=LEAD, sw=4, rx=10))
+    o.append(rect(640, 860, 50, 18, METAL, stroke=LEAD, sw=3))
+    # the shelves behind the counter
+    o.append(rect(1480, 420, 500, 640, '#FFFFFF', stroke=LEAD, sw=4))
+    for gy in (630, 840):
+        o.append(line(1480, gy, 1980, gy, LEAD, 4))
+    for gy in (470, 680, 890):
+        for gx in (1520, 1650, 1780):
+            o.append(rect(gx, gy, 90, 120, ACCENT, stroke=LEAD, sw=3, rx=6))
+    # the dispensary, seen through its doorway: the bench inside
+    o.append(rect(2080, 480, 420, 580, '#EDEFF2', stroke=LEAD, sw=4))
+    o.append(rect(2110, 880, 360, 36, METAL, stroke=LEAD, sw=3))
+    o.append(rect(2160, 790, 70, 90, '#FFFFFF', stroke=LEAD, sw=3))
+    o.append(rect(2300, 810, 110, 70, ACCENT, stroke=LEAD, sw=3, rx=6))
+    o.append(rect(2110, 916, 40, 314, METAL, stroke=LEAD, sw=3))
+    o.append(rect(2430, 916, 40, 314, METAL, stroke=LEAD, sw=3))
+    # the fridge
+    o.append(rect(2580, 640, 260, 420, '#FFFFFF', stroke=LEAD, sw=4, rx=8))
+    o.append(line(2580, 760, 2840, 760, LEAD, 4))
+    o.append(rect(2800, 800, 22, 120, METAL, stroke=LEAD, sw=3, rx=8))
+    labels = labels or ['the counter', 'the screen', 'the shelves',
+                        'the dispensary', 'the fridge']
+    pts = [(860, 898), (665, 702), (1730, 500), (2290, 540), (2710, 660)]
+    for i, (px, py) in enumerate(pts[:len(labels)], 1):
+        o.append(pin(px, py, i))
+    key, _ = label_key(180, 400, labels, size=46, title='KEY')
+    o.append(key)
+    if note:
+        o.append(_notefit(140, H - 60, note, FS_SMALL))
+    return ''.join(o), H, ''
+
+
 # ------------------------------------------------------- 11 two-person scene
 def exchange(title, left_name, left_lines, right_name, right_lines, note=None):
     """Two speakers and what each says - the shape of an exchange."""
@@ -936,6 +978,172 @@ def icon(name, cx, cy, s=1.0, col=None):
             o.append(P('M %.1f %.1f L %.1f %.1f'
                        % (cx-62*s, cy-2*s, cx+62*s, cy-2*s), st=RING, w=5))
             o.append(P(root_d, st=RING, w=7))
+    elif name == 'counterdesk':
+        # The pharmacy counter: top, body, and the screen the patient sees past.
+        o.append(R(-60, 2, 120, 58, PLASTIC))
+        o.append(R(-70, -14, 140, 18, METAL))
+        o.append(R(-52, -48, 38, 32, '#2B3440'))
+        o.append(L(-33, -16, -33, -22, LEAD, 6))
+    elif name == 'benchtop':
+        # The dispensing bench: a work top with a bottle and a pack on it.
+        o.append(R(-70, 6, 14, 54, METAL))
+        o.append(R(56, 6, 14, 54, METAL))
+        o.append(R(-72, -8, 144, 16, METAL))
+        o.append(R(-44, -48, 26, 40, '#FFFFFF'))
+        o.append(R(12, -34, 36, 26, c))
+    elif name == 'shelfunit':
+        # A shelf unit with packs on three shelves: where the stock lives.
+        o.append(R(-56, -68, 112, 136, '#FFFFFF'))
+        for gy in (-24, 20):
+            o.append(L(-56, gy, 56, gy, LEAD, 4))
+        for gy in (-30, 14, 60):
+            for gx in (-42, -12, 18):
+                o.append(R(gx, gy - 24, 22, 24, c, r=4))
+    elif name == 'fridge':
+        # The medicines fridge: a door, a handle and the line where cold is.
+        o.append(R(-44, -68, 88, 136, '#FFFFFF'))
+        o.append(L(-44, -34, 44, -34, LEAD, 4))
+        o.append(R(26, -24, 10, 40, METAL, r=5))
+        o.append(C_(-16, 24, 10, '#CFE3EF'))
+        o.append(C_(8, 44, 7, '#CFE3EF'))
+    elif name == 'cdcabinet':
+        # The locked cabinet: named in unit 1, opened in no unit of this book.
+        o.append(R(-50, -58, 100, 116, METAL))
+        o.append(L(-50, 0, 50, 0, LEAD, 4))
+        o.append(R(-16, -14, 32, 28, '#E9B949', r=6))
+        o.append(P('M %.1f %.1f A %.1f %.1f 0 0 1 %.1f %.1f'
+                   % (cx-9*s, cy-14*s, 9*s, 9*s, cx+9*s, cy-14*s), st=LEAD, w=6))
+        o.append(C_(0, -2, 4, LEAD))
+    elif name == 'prescription':
+        # The prescription: a paper with its marked corner and its lines.
+        o.append(R(-50, -64, 100, 128, '#FFFFFF'))
+        o.append(R(-40, -54, 26, 26, 'none', r=4))
+        o.append(L(-36, -50, -18, -32, c, 6))
+        o.append(L(-36, -32, -18, -50, c, 6))
+        for gy in (-10, 10, 30):
+            o.append(L(-36, gy, 36, gy, '#9AA7B2', 5))
+        o.append(L(10, 48, 38, 44, LEAD, 4))
+    elif name == 'plabel':
+        # The label: the band that names, the lines that instruct.
+        o.append(R(-62, -40, 124, 80, '#FFFFFF'))
+        o.append(R(-62, -40, 124, 22, c, r=6))
+        for gy in (0, 18):
+            o.append(L(-48, gy, 48, gy, '#9AA7B2', 5))
+    elif name == 'pillbottle':
+        # A medicine bottle with its cap and its label band.
+        o.append(R(-28, -28, 56, 88, '#FFFFFF'))
+        o.append(R(-22, -52, 44, 24, c))
+        o.append(R(-28, 2, 56, 34, '#E6EDF2', r=4))
+        o.append(L(-18, 14, 18, 14, '#9AA7B2', 4))
+        o.append(L(-18, 26, 10, 26, '#9AA7B2', 4))
+    elif name == 'tabletpill':
+        # One scored tablet: round, flat, and made to break evenly.
+        o.append(C_(0, 0, 40, '#FFFFFF'))
+        o.append(L(-28, 0, 28, 0, LEAD, 6))
+    elif name == 'capsule':
+        # A capsule: two halves, two colours.
+        o.append(R(-44, -18, 88, 36, '#FFFFFF', r=18))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f '
+                   'A %.1f %.1f 0 0 1 %.1f %.1f Z'
+                   % (cx, cy-18*s, cx, cy+18*s, cx-26*s, cy+18*s, cx-44*s, cy+18*s,
+                      18*s, 18*s, cx-44*s, cy-18*s), f=c, w=0))
+        o.append(R(-44, -18, 88, 36, 'none', r=18))
+    elif name == 'liquidbottle':
+        # The liquid medicine: a bottle with a cap and a fill line.
+        o.append(R(-10, -58, 20, 16, METAL, r=4))
+        o.append(R(-26, -42, 52, 94, '#CFE3EF'))
+        o.append(L(-26, -12, 26, -12, LEAD, 4))
+        o.append(R(-26, 18, 52, 24, '#FFFFFF', r=4))
+    elif name == 'dropper':
+        # Drops: the small bottle and the pipette above it.
+        o.append(C_(0, -48, 11, c))
+        o.append(R(-4, -40, 8, 26, '#FFFFFF', r=3))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx-4*s, cy-14*s, cx+4*s, cy-14*s, cx, cy-4*s), f='#CFE3EF'))
+        o.append(R(-22, 0, 44, 58, '#CFE3EF'))
+    elif name == 'inhaler':
+        # An inhaler: the upright body and the mouthpiece it turns into.
+        o.append(R(-16, -58, 32, 72, c, r=8))
+        o.append(R(-16, 8, 56, 28, '#FFFFFF', r=6))
+        o.append(C_(-2, -64, 7, METAL))
+    elif name == 'creamtube':
+        # A tube of cream: the cap, the shoulder and the flattened end.
+        o.append(R(-56, -22, 18, 44, METAL, r=4))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx-38*s, cy-20*s, cx+52*s, cy-28*s, cx+52*s, cy+28*s,
+                      cx-38*s, cy+20*s), f='#FFFFFF', st=LEAD))
+        o.append(L(46, -28, 46, 28, LEAD, 5))
+    elif name == 'patch':
+        # A patch: the backing square and the pad inside it.
+        o.append(R(-36, -36, 72, 72, '#F6E7D4', r=16))
+        o.append(R(-18, -18, 36, 36, '#FFFFFF', r=8))
+    elif name == 'spoon5':
+        # The measuring spoon: the bowl and the straight handle.
+        o.append(C_(-24, 16, 22, '#FFFFFF'))
+        o.append(L(-6, 4, 52, -34, LEAD, 9))
+    elif name == 'oralsyringe':
+        # The oral syringe: barrel, plunger, and no needle anywhere on it.
+        o.append(R(-54, -14, 84, 28, '#FFFFFF'))
+        for gx in (-40, -24, -8, 8):
+            o.append(L(gx, -14, gx, -4, '#9AA7B2', 4))
+        o.append(R(30, -8, 30, 16, METAL, r=4))
+        o.append(R(-64, -5, 10, 10, '#FFFFFF', r=2))
+    elif name == 'cylinder':
+        # The measuring cylinder: tall, thin, and read at eye level.
+        o.append(R(-16, -60, 32, 114, '#CFE3EF'))
+        for gy in (-40, -20, 0, 20):
+            o.append(L(-16, gy, -2, gy, LEAD, 4))
+        o.append(R(-30, 54, 60, 10, METAL, r=5))
+    elif name == 'counttriangle':
+        # The counting triangle, with the tablets it keeps off the bench.
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx, cy-52*s, cx+58*s, cy+44*s, cx-58*s, cy+44*s),
+                   f='#FFFFFF', st=LEAD))
+        for gx, gy in ((-14, 26), (14, 26), (0, 4)):
+            o.append(C_(gx, gy, 9, c))
+    elif name == 'mortar':
+        # The mortar and its pestle.
+        o.append(P('M %.1f %.1f L %.1f %.1f Q %.1f %.1f %.1f %.1f '
+                   'L %.1f %.1f Z'
+                   % (cx-52*s, cy-6*s, cx+52*s, cy-6*s, cx+40*s, cy+52*s,
+                      cx, cy+52*s, cx-40*s, cy+52*s), f='#FFFFFF', st=LEAD))
+        o.append(L(8, -4, 48, -52, LEAD, 10))
+        o.append(C_(52, -56, 9, METAL))
+    elif name == 'balance':
+        # The balance: a base, a column, a beam and its two pans.
+        o.append(R(-34, 48, 68, 12, METAL, r=5))
+        o.append(L(0, 48, 0, -36, LEAD, 7))
+        o.append(L(-48, -36, 48, -36, LEAD, 7))
+        for sgn in (-1, 1):
+            o.append(L(sgn*48, -36, sgn*48, -16, LEAD, 4))
+            o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                       % (cx+sgn*48*s-20*s, cy-16*s, cx+sgn*48*s, cy+4*s,
+                          cx+sgn*48*s+20*s, cy-16*s), f='#FFFFFF', st=LEAD))
+    elif name == 'pbag':
+        # The pharmacy bag, folded at the top, handed over at the end.
+        o.append(R(-46, -34, 92, 94, '#FFFFFF'))
+        o.append(R(-46, -34, 92, 18, c, r=4))
+        o.append(P('M %.1f %.1f A %.1f %.1f 0 0 1 %.1f %.1f'
+                   % (cx-24*s, cy-34*s, 24*s, 22*s, cx+24*s, cy-34*s),
+                   st=LEAD, w=6))
+    elif name == 'basket':
+        # The dispensing basket: one patient, one basket, nothing shared.
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx-56*s, cy-14*s, cx+56*s, cy-14*s, cx+42*s, cy+44*s,
+                      cx-42*s, cy+44*s), f='#FFFFFF', st=LEAD))
+        for gx in (-28, 0, 28):
+            o.append(L(gx, -14, gx * 0.8, 44, '#9AA7B2', 4))
+        o.append(P('M %.1f %.1f A %.1f %.1f 0 0 1 %.1f %.1f'
+                   % (cx-30*s, cy-14*s, 30*s, 26*s, cx+30*s, cy-14*s),
+                   st=LEAD, w=6))
+    elif name == 'van':
+        # The wholesaler's van: the box, the cab and the wheels.
+        o.append(R(-62, -34, 86, 54, '#FFFFFF'))
+        o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                   % (cx+24*s, cy-24*s, cx+52*s, cy-24*s, cx+64*s, cy-2*s,
+                      cx+64*s, cy+20*s, cx+24*s, cy+20*s), f=c))
+        o.append(C_(-34, 28, 13, '#2B3440', st=LEAD))
+        o.append(C_(38, 28, 13, '#2B3440', st=LEAD))
     elif name == 'pill':
         # A capsule and a scored tablet: medicine, a painkiller.
         o.append(R(-58, -36, 72, 34, '#FFFFFF', r=17))
@@ -994,6 +1202,9 @@ interproximal lesion ligament light lingual lips mask mesial mirror molar
 mouth numb occlusal palatal parent pen periapical periodontitis periodontium perioprobe person
 phone pill pocket premolar probe pulp radiolucency radiopaque remin restoration root scaler speech star superimposed syringe
 tick tooth tray tweezers water xray envelope send
+counterdesk benchtop shelfunit fridge cdcabinet prescription plabel pillbottle
+tabletpill capsule liquidbottle dropper inhaler creamtube patch spoon5
+oralsyringe cylinder counttriangle mortar balance pbag basket van
 '''.split())
 
 
@@ -1079,6 +1290,19 @@ ICON_FOR = {
  'complaint': 'speech', 'history': 'book', 'extraoral': 'person',
  'intraoral': 'mirror', 'provisional diagnosis': 'form',
  'treatment plan': 'card', 'prioritise': 'tick', 'recall': 'calendar',
+ # ---- pharmacy (phar2 / phars) ----
+ 'pharmacy': 'door', 'counter': 'counterdesk', 'dispensary': 'benchtop',
+ 'bench': 'benchtop', 'shelf': 'shelfunit', 'shelves': 'shelfunit',
+ 'fridge': 'fridge', 'cabinet': 'cdcabinet', 'prescription': 'prescription',
+ 'label': 'plabel', 'medicine': 'pillbottle', 'tablet': 'tabletpill',
+ 'capsule': 'capsule', 'liquid': 'liquidbottle', 'drops': 'dropper',
+ 'inhaler': 'inhaler', 'cream': 'creamtube', 'patch': 'patch',
+ 'spoon': 'spoon5', 'bag': 'pbag', 'basket': 'basket', 'collect': 'pbag',
+ 'deliver': 'van', 'delivery': 'van', 'wholesaler': 'van',
+ 'balance': 'balance', 'mortar': 'mortar', 'cylinder': 'cylinder',
+ 'triangle': 'counttriangle', 'pharmacist': 'person', 'ready': 'tick',
+ 'expiry': 'calendar', 'allergy': 'cross', 'stock': 'shelfunit',
+ 'bottle': 'pillbottle', 'pack': 'card',
 }
 
 
