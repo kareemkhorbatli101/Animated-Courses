@@ -490,7 +490,18 @@ photocopiable=dict(
         '  cannot be excluded …       you looked and could not rule it out',
         '',
         'THE FILM NEVER SETTLES:  the true depth · cavitation · progression'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').mini_table('ONE BEAM, TWO FILMS, FOUR STRENGTHS',
+    ['What the beam met', 'What it did', 'On the film'],
+    [['metal', 'absorbs almost all of it', 'white'],
+     ['enamel', 'absorbs a great deal', 'light'],
+     ['dentine', 'absorbs less', 'grey'],
+     ['a lesion', 'the mineral has gone', 'dark - a radiolucency'],
+     ['a bitewing', 'the crowns of both jaws, one side', 'the surfaces that touch'],
+     ['a periapical', 'one tooth, crown to root tip', 'the apex and the bone']],
+    highlight=[3],
+    note='A radiograph records what the beam did, not what a tooth looks '
+         'like. The question comes first; then the film.'),
+ fig_cap='What the beam met and what the film shows, with the radiolucency shaded.'),
 
 defects=[
  'Writing the sample answer for 6.1 showed that the unit let the limits line arrive as an '

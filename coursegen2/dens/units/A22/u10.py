@@ -189,7 +189,8 @@ vocab_tasks=[
           ('extraoral / intraoral / soft tissues / six months', 'six months'),
           ('a plan / an estimate / a recall date / a radiolucency', 'a radiolucency')]),
 
- dict(kind='short', rubric='Write what each step of the examination establishes.',
+ dict(kind='short', pics=['a history', 'extraoral', 'intraoral', 'a provisional diagnosis'],
+   rubric='Write what each step of the examination establishes.',
    example='the greeting and the patient’s own words  (why they came, in the words they '
            'would use again)',
    pairs=[('the greeting and the patient’s own words',
@@ -313,7 +314,8 @@ g_tasks=[
           ('What is outstanding at the end of a visit is   a) remembered   b) written '
            'down   c) left for next time', 'b')]),
 
- dict(kind='short', rubric='Rewrite each line so that it says what is still '
+ dict(kind='short', pics=['a provisional diagnosis', 'a treatment plan', 'to prioritise', 'a recall'],
+   rubric='Rewrite each line so that it says what is still '
                            'outstanding.',
    example='I examined her and charted the teeth.  (I have examined her and charted the '
            'teeth; the bitewing has not yet been taken.)',

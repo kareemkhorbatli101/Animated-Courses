@@ -460,7 +460,18 @@ photocopiable=dict(
         'NEVER:  "Maybe they will call."   — every promise has a date and a name.',
         '',
         'HE LEAVES WITH:  no pain · a date · a letter · a copy · somebody to telephone'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('SAYING NO, AND SAYING WHAT INSTEAD',
+    ['I cannot do this today.  FIRST SENTENCE, NOT LAST.',
+     'It needs … .  One reason, about the work.',
+     'But I can … now. Today, in this room.',
+     'I am booking you in for …, first thing.',
+     'The letter goes today. You will have a copy before you go.',
+     'If you have not heard by …, telephone me.',
+     'I am sorry about today. I know you came a long way.  LAST.'],
+    stop_points=[1],
+    note='The no comes first and the sorry comes last. He leaves with no '
+         'pain, a date, a letter, a copy and somebody to telephone.'),
+ fig_cap='The seven lines of a no, with the one that must come first marked.'),
 
 defects=[
  'Writing the sample answer for 6.1 showed that the apology kept drifting to the front of '

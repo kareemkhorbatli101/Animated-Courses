@@ -188,7 +188,8 @@ vocab_tasks=[
           ('depth / cavitation / activity / a radiolucency', 'a radiolucency'),
           ('the apex / the crown / the root / the receptor', 'the receptor')]),
 
- dict(kind='short', rubric='Write what each of these looks like on a film, and why.',
+ dict(kind='short', pics=['a bitewing', 'a periapical', 'a radiolucency', 'radiopaque'],
+   rubric='Write what each of these looks like on a film, and why.',
    example='enamel  (Light, because enamel absorbs a great deal of the beam.)',
    pairs=[('enamel', 'Light, because enamel absorbs a great deal of the beam.'),
           ('a carious lesion',
@@ -307,7 +308,8 @@ g_tasks=[
           ('If you found nothing, the right line is   a) no abnormality detected   '
            'b) probably normal   c) nothing written', 'a')]),
 
- dict(kind='short', rubric='Rewrite each line so that it claims only what the film can '
+ dict(kind='short', pics=['a radiolucency', 'superimposed', 'an artefact', 'to underestimate'],
+   rubric='Rewrite each line so that it claims only what the film can '
                            'support.',
    example='Caries on the distal of the lower left six.  (A radiolucency on the distal '
            'surface of the lower left six, consistent with caries.)',

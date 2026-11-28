@@ -506,7 +506,20 @@ photocopiable=dict(
         '',
         'ORDER OF THE PLAN:  pain  →  progressing  →  function  →  appearance',
         'TWO LINES, ALWAYS:  what you advised   ·   what the patient chose'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('NINE STEPS, AND THE PLAN AT THE END',
+    ['The complaint, in her own words, in quotation marks.',
+     'The history: medical, then dental, then every day.',
+     'Extraoral: swelling, tenderness, asymmetry, the joint.',
+     'Intraoral, soft tissues: lips, cheeks, tongue, floor, palate, gingiva.',
+     'Intraoral, the teeth: every surface of every tooth.',
+     'The chart: six sites a tooth, with bleeding.',
+     'The films: one question per film.',
+     'The provisional diagnosis, and what it is waiting for.',
+     'The plan and the recall: what, in what order, how long, what it costs.'],
+    stop_points=[9],
+    note='The plan is ordered pain, progressing, function, appearance - and '
+         'it always carries two lines: what you advised, what she chose.'),
+ fig_cap='The nine steps of the whole examination, ending at the plan.'),
 
 defects=[
  'Writing the sample answer for 6.3 showed that the unit let a handover end with the '

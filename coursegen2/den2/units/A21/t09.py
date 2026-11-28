@@ -444,7 +444,17 @@ photocopiable=dict(
         'TO THE ADULT:  She has done very well today.',
         '               There is one small thing I would like to show you.',
         '               Nothing today, and nothing to worry her about.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('THE FIRST MINUTE WITH A CHILD',
+    ['Hello. Come and sit down. How old are you?',
+     'Which tooth is the wobbly one?  ABOUT THEIR OWN MOUTH.',
+     'Shall we count them all first? You count with me.',
+     'I am going to show you this. You can touch it.',
+     'You can choose: this chair or that one.',
+     'You can help me. Hold this mirror.'],
+    stop_points=[5],
+    note='Every question to the child has or in it, or is about their own '
+         'mouth. Afterwards: you did not move at all - never good girl.'),
+ fig_cap='The six moves of the first minute, with the choice marked.'),
 
 defects=[
  'Writing the sample answer for 6.2 showed that the unit told learners to say something '

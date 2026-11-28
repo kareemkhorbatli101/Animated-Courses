@@ -163,7 +163,8 @@ vocab_tasks=[
            'open wide'),
           ('count / play / take turns / explain', 'explain')]),
 
- dict(kind='short', rubric='Read what happens. Write what you say, and who you say it to.',
+ dict(kind='short', pics=['a child', 'a parent', 'to show', 'to choose'],
+   rubric='Read what happens. Write what you say, and who you say it to.',
    example='The child will not open.  (to the child: We can count first, if you like.)',
    pairs=[('The child will not open.',
            'to the child: We can count first, if you like.'),

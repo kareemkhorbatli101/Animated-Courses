@@ -165,7 +165,8 @@ vocab_tasks=[
           ('Thursday / first thing / in two weeks / another', 'another'),
           ('I cannot / I am not able to / I will not / I can', 'I can')]),
 
- dict(kind='short', rubric='Read the reason. Write the two sentences you say.',
+ dict(kind='short', pics=['busy', 'sorry', 'to book', 'to change'],
+   rubric='Read the reason. Write the two sentences you say.',
    example='There is no time left today.  (I cannot do it properly in the time we have '
            'left. What I can do is take the pain away today.)',
    pairs=[('There is no time left today.',
@@ -276,7 +277,8 @@ g_tasks=[
           ('A letter should be written   a) when you have time   b) today, and they are '
            'told so   c) by reception', 'b')]),
 
- dict(kind='short', rubric='Add the second half to each sentence.',
+ dict(kind='short', pics=['to send', 'a letter', 'a hospital', 'another'],
+   rubric='Add the second half to each sentence.',
    example='I cannot do this today.  (… but I can take the pain away now.)',
    how='Every no needs an instead, with a time in it.',
    pairs=[('I cannot do this today.',
