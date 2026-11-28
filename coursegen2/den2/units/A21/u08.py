@@ -267,7 +267,8 @@ g_tasks=[
           ('Giving the patient something to hold   a) wastes time   b) gives them '
            'something to do   c) is unhygienic', 'b')]),
 
- dict(kind='short', rubric='Turn each instruction into an offer with two things in it.',
+ dict(kind='short', pics=['afraid', 'to promise', 'slowly', 'to hold'],
+   rubric='Turn each instruction into an offer with two things in it.',
    example='Lie back for me.  (Would you rather sit up or lie back?)',
    how='Give the patient two things to choose between.',
    pairs=[('Lie back for me.', 'Would you rather sit up or lie back?'),

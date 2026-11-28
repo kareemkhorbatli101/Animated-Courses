@@ -177,7 +177,8 @@ vocab_tasks=[
            'a white spot'),
           ('arrested / stopped / no longer progressing / restored', 'restored')]),
 
- dict(kind='short', rubric='Write what each of these does to the balance between the two '
+ dict(kind='short', pics=['an acid', 'demineralisation', 'remineralisation', 'arrested'],
+   rubric='Write what each of these does to the balance between the two '
                            'directions.',
    example='fluoride  (Fluoride makes remineralisation more likely.)',
    pairs=[('fluoride', 'Fluoride makes remineralisation more likely.'),
@@ -292,7 +293,8 @@ g_tasks=[
           ('Correct: the lesion is   a) more extensive than   b) extensiver than   '
            'c) most extensive than', 'a')]),
 
- dict(kind='short', rubric='Write one sentence comparing the two lesions in each pair.',
+ dict(kind='short', pics=['caries', 'cavitated', 'arrested', 'to progress'],
+   rubric='Write one sentence comparing the two lesions in each pair.',
    example='distal 3 mm / mesial 1 mm  (The distal lesion is deeper than the mesial '
            'one.)',
    how='Use a different pattern for each pair. Do not use deeper four times.',

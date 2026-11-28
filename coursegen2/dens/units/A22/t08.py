@@ -485,7 +485,17 @@ photocopiable=dict(
         'SLIGHT     enamel only, not cavitated',
         'MODERATE   into dentine, not as far as the pulp',
         'EXTENSIVE  most of the crown, pulp at risk     →  TREATED FIRST'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').mini_table('TWO DIRECTIONS, THREE GRADES',
+    ['The lesion', 'What you see and feel', 'What follows'],
+    [['a white spot', 'mineral lost, surface still whole', 'it can still mend'],
+     ['cavitated', 'the surface is broken', 'it must be restored'],
+     ['arrested', 'dark, hard to the probe, not moving', 'leave it alone'],
+     ['slight', 'enamel only, not cavitated', 'watch, and protect'],
+     ['moderate', 'into dentine, not as far as the pulp', 'restore'],
+     ['extensive', 'most of the crown, pulp at risk', 'treated first']],
+    highlight=[2],
+    note='Which direction wins is decided by how often, not how much.'),
+ fig_cap='The three states and three grades of a lesion, with the arrested row shaded.'),
 
 defects=[
  'Writing the sample answer for 6.3 showed that the unit asked learners to explain '

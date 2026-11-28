@@ -454,7 +454,17 @@ photocopiable=dict(
         '',
         'ON THE CARD:  her words · what you promised · whether you kept it · next time',
         'A promise is about the next hour.  Never about next month.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('THE FIRST TWO MINUTES',
+    ['Come in and sit down. You do not have to lie back yet.',
+     'What is the worst part for you?  ASK BEFORE YOU TELL.',
+     'I am not going to … today. I promise.',
+     'Today I am going to …, and nothing else.',
+     'Would you rather … or …?',
+     'Tell me when you are ready, in your own time.'],
+    stop_points=[2],
+    note='The second line is the one that changes the appointment: ask before '
+         'you tell, and promise only the next hour.'),
+ fig_cap='The six lines of the first two minutes, with the question that comes first.'),
 
 defects=[
  'Writing the sample answer for 6.2 showed that the unit asked learners to keep a '
