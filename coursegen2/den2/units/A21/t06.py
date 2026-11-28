@@ -411,7 +411,17 @@ photocopiable=dict(
         '6  The anaesthetic. Is your lip still numb?',
         'OR, never AND. A question with and in it cannot be answered.',
         'Are you all right? asks for a yes, and it gets one.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').step_sequence('WARNING AND CHECKING, IN ORDER',
+    ['How to answer.  Nod once for yes, twice for no.  SAY THIS FIRST.',
+     'The warning.  I am going to count to three. One, two, three.',
+     'The feeling.  You will feel pressure now.',
+     'The question.  Is it sharp, or is it only pressure?',
+     'The check.  Still all right?  Tell me if the feeling changes.',
+     'The anaesthetic.  Is your lip still numb?'],
+    stop_points=[1],
+    note='The first step is the one that makes every later question answerable with '
+         'a full mouth.'),
+ fig_cap='The six moves, with the one that must come first marked.'),
 
 defects=[
  'Writing the sample answer for 6.2 showed that the unit asked learners to deal with a '

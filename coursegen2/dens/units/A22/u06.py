@@ -174,7 +174,8 @@ vocab_tasks=[
           ('a finding / an observation / a conclusion / a measurement', 'a conclusion'),
           ('enamel / dentine / pulp / occlusal', 'occlusal')]),
 
- dict(kind='short', rubric='Write the finding as one sentence, in the fixed order.',
+ dict(kind='short', pics=['a finding', 'a lesion', 'to extend', 'to record'],
+   rubric='Write the finding as one sentence, in the fixed order.',
    example='UR6, distal, caries, into dentine, bitewing  (A carious lesion on the '
            'distal surface of the upper right first molar extends into dentine and was '
            'detected on a bitewing radiograph.)',
@@ -289,7 +290,8 @@ g_tasks=[
           ('The first thing named in the sentence is   a) the finding   b) the tooth   '
            'c) the method', 'b')]),
 
- dict(kind='short', rubric='Rewrite each description in the fixed order, as one '
+ dict(kind='short', pics=['a finding', 'a cavity', 'a restoration', 'to record'],
+   rubric='Rewrite each description in the fixed order, as one'
                            'sentence.',
    example='There is caries on the back tooth, quite deep, I saw it on the film.  '
            '(A carious lesion on the … extends into … and was detected on …)',

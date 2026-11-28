@@ -526,7 +526,7 @@ def icon(name, cx, cy, s=1.0, col=None):
     def L(x1, y1, x2, y2, cc=LEAD, w=5): return line(cx+x1*s, cy+y1*s, cx+x2*s, cy+y2*s, cc, w)
     def P(d, f='none', st=LEAD, w=5): return path(d, fill=f, stroke=st, sw=w)
     name = name or 'speech'
-    if name == 'tooth':
+    if name in ('tooth', 'lesion', 'cavity', 'restoration'):
         o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f '
                    'C %.1f %.1f %.1f %.1f %.1f %.1f L %.1f %.1f Z'
                    % (cx-56*s, cy-10*s, cx-62*s, cy-78*s, cx+62*s, cy-78*s, cx+56*s, cy-10*s,
@@ -534,6 +534,27 @@ def icon(name, cx, cy, s=1.0, col=None):
                       cx-14*s, cy+10*s), f=ENAMEL))
         o.append(P('M %.1f %.1f C %.1f %.1f %.1f %.1f %.1f %.1f'
                    % (cx-14*s, cy+10*s, cx-20*s, cy+60*s, cx-40*s, cy+78*s, cx-48*s, cy+30*s)))
+        if name == 'lesion':
+            # The same tooth with a dark spot: a lesion is a place, not a hole.
+            o.append(C_(24, -46, 13, '#6B4A2B', st='#4A3014'))
+        elif name == 'cavity':
+            # A wedge lost from inside the crown: cavitated, not just affected.
+            o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                       % (cx+2*s, cy-62*s, cx+38*s, cy-54*s, cx+14*s, cy-22*s),
+                       f='#3E3A36', st='#2A2724'))
+        elif name == 'restoration':
+            # The same wedge, filled: what a restoration is.
+            o.append(P('M %.1f %.1f L %.1f %.1f L %.1f %.1f Z'
+                       % (cx+2*s, cy-62*s, cx+38*s, cy-54*s, cx+14*s, cy-22*s),
+                       f=METAL, st=LEAD))
+    elif name == 'numb':
+        # Lips with the tingle dots beside them: where numbness is felt.
+        o.append(P('M %.1f %.1f Q %.1f %.1f %.1f %.1f Q %.1f %.1f %.1f %.1f Z'
+                   % (cx-52*s, cy, cx, cy-44*s, cx+52*s, cy,
+                      cx, cy+44*s, cx-52*s, cy), f='#E8A1A1', st=LEAD))
+        o.append(L(-52, 0, 52, 0, LEAD, 4))
+        for dx, dy in ((66, -26), (76, 0), (66, 26)):
+            o.append(C_(dx, dy, 6, MUTE, st=None))
     elif name == 'chair':
         o.append(R(-70, -10, 140, 34, PLASTIC))
         o.append(R(-74, -62, 40, 58, PLASTIC))
@@ -827,12 +848,12 @@ def icon(name, cx, cy, s=1.0, col=None):
     return ''.join(o)
 
 
-ICON_NAMES = set('''bone book bowl brush buccal bur calendar canine card cementum
-chair clock crown cross dentine distal door ear enamel excavator flash form
-gloves gum hand handpiece incisal incisor interproximal light lingual lips mask
-mesial mirror molar mouth occlusal palatal pen perioprobe person phone pill
-premolar probe pulp root scaler speech syringe tick tooth tray tweezers water
-xray'''.split())
+ICON_NAMES = set('''bone book bowl brush buccal bur calendar canine card cavity
+cementum chair clock crown cross dentine distal door ear enamel excavator flash
+form gloves gum hand handpiece incisal incisor interproximal lesion light
+lingual lips mask mesial mirror molar mouth numb occlusal palatal pen
+perioprobe person phone pill premolar probe pulp restoration root scaler speech
+syringe tick tooth tray tweezers water xray'''.split())
 
 
 def as_icon(name):
@@ -857,7 +878,7 @@ ICON_FOR = {
  'allergy': 'cross', 'allergic': 'cross',
  'pain': 'flash', 'hurt': 'flash', 'hurts': 'flash', 'ache': 'flash',
  'toothache': 'flash', 'sore': 'gum', 'swollen': 'gum', 'rinse': 'water', 'spit': 'bowl', 'upper teeth': 'tooth',
- 'lower teeth': 'tooth', 'gum': 'gum', 'filling': 'tooth', 'mirror': 'mirror',
+ 'lower teeth': 'tooth', 'gum': 'gum', 'filling': 'restoration', 'mirror': 'mirror',
  'probe': 'probe', 'record': 'card', 'record card': 'card', 'date of birth': 'calendar',
  'reception': 'door', 'bib': 'mask', 'bowl': 'bowl', 'bracket table': 'tray',
  'operating light': 'light', 'colleague': 'person', 'coat hook': 'door',
@@ -887,7 +908,7 @@ ICON_FOR = {
  'cotton roll': 'tray', 'tip': 'probe', 'blunt': 'perioprobe',
  # Units 6 to 10 of both books. Same reason as above: every word that reaches
  # a card needs a picture it has earned, and the fallback cannot earn one.
- 'pressure': 'gloves', 'sharp': 'probe', 'numb': 'mask', 'still': 'tick',
+ 'pressure': 'gloves', 'sharp': 'probe', 'numb': 'numb', 'still': 'tick',
  'nod': 'person', 'check': 'mirror', 'feeling': 'ear', 'count': 'clock',
  'normal': 'tick', 'bleed': 'water', 'swelling': 'gum', 'wait': 'clock',
  'soft': 'gum', 'worry': 'speech', 'later': 'calendar',
@@ -898,8 +919,8 @@ ICON_FOR = {
  'game': 'tick', 'choose': 'form', 'brave': 'light', 'help': 'person',
  'send': 'form', 'hospital': 'door', 'busy': 'clock', 'another': 'tick',
  'sorry': 'speech', 'change': 'calendar',
- 'finding': 'form', 'lesion': 'tooth', 'cavity': 'tooth',
- 'restoration': 'tooth', 'sound': 'tick', 'extend': 'probe',
+ 'finding': 'form', 'lesion': 'lesion', 'cavity': 'cavity',
+ 'restoration': 'restoration', 'sound': 'tick', 'extend': 'probe',
  'detect': 'mirror',
  'periodontium': 'gum', 'periodontal ligament': 'bone',
  'alveolar bone': 'bone', 'pocket': 'probe', 'calculus': 'brush',

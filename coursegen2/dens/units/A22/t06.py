@@ -426,7 +426,17 @@ photocopiable=dict(
         'THE TEST: could another clinician have observed it?  If no, it is a conclusion.',
         'A conclusion is worth writing. It goes on its own line, after the findings.',
         'An action goes last, with a time attached to it.'],
- fig=None, fig_cap=''),
+ fig=__import__('figs2').mini_table('ONE FINDING, FIVE PLACES',
+    ['Place', 'What goes there'],
+    [['1  the tooth', 'in notation: UR6, LL7'],
+     ['2  the surface', 'one of the eight, from Unit 4'],
+     ['3  the finding', 'a carious lesion · a cavity · a restoration · sound'],
+     ['4  the extent', 'extends into … but not as far as …  /  confined to …'],
+     ['5  the method', 'was detected on …  and  was not visible …']],
+    highlight=[2],
+    note='The test for every line: could another clinician have observed it? If not, '
+         'it is a conclusion, and it goes on its own line after the findings.'),
+ fig_cap='The five places of a finding, with the finding itself shaded.'),
 
 defects=[
  'Writing the sample answer for 6.3 showed that the unit asked learners to describe a '
