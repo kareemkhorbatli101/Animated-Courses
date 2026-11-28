@@ -89,16 +89,17 @@ def blank(after=120):
 
 
 def pagebreak():
-    # A page break used to be an empty paragraph at the default size. Once the
-    # measured fit tuned every part to end flush with the page foot, that
-    # paragraph had nowhere to stand: it spilled onto the next page as a
-    # single invisible line, and its break character then started a further
-    # page. The result was a blank page after almost every part - thirty-six
-    # of them in a two-unit volume, found by counting ink. At one point of
-    # height the paragraph fits inside any slack the safety margin leaves.
+    # A page break used to be a paragraph carrying a break RUN. When the
+    # content before it ended flush with the page foot - which the measured
+    # fit arranges on purpose, and which a table can do by accident - that
+    # paragraph spilled onto the next page as an invisible line, and its
+    # break character then started a further page: a blank page between the
+    # two sections. pageBreakBefore has no second half to spill: this empty
+    # one-point paragraph simply begins the next page, wherever the previous
+    # content ended, and what follows flows on directly beneath it.
     tiny = '<w:rPr>' + FONT + sz(2) + '</w:rPr>'
-    return ('<w:p><w:pPr>' + sp(after=0, before=0) + tiny + '</w:pPr>'
-            '<w:r>' + tiny + '<w:br w:type="page"/></w:r></w:p>')
+    return ('<w:p><w:pPr><w:pageBreakBefore/>' + sp(after=0, before=0) + tiny
+            + '</w:pPr></w:p>')
 
 
 def unit_band(num, title):
