@@ -434,8 +434,8 @@ photocopiable=dict(
      ['4  the extent', 'extends into … but not as far as …  /  confined to …'],
      ['5  the method', 'was detected on …  and  was not visible …']],
     highlight=[2],
-    note='The test for every line: could another clinician have observed it? If not, '
-         'it is a conclusion, and it goes on its own line after the findings.'),
+    note='The test for every line: could another clinician have observed it? '
+         'If not, it is a conclusion.'),
  fig_cap='The five places of a finding, with the finding itself shaded.'),
 
 defects=[
