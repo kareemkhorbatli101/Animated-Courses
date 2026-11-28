@@ -350,6 +350,16 @@ STYLES = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
 
 def build_docx(body_xml, images, out_path, title):
     """images: list of (rid, abs_path, arcname)"""
+    # An empty spacer paragraph directly before a page break serves no eye:
+    # the break starts a fresh page either way. It can, however, blank a
+    # page: when the content before it ends flush with the page foot - a
+    # wordlist table did - the spacer spills over and sits alone on the next
+    # page, invisible, and pageBreakBefore pushes the real content past it.
+    # So every run of empty paragraphs just before a pageBreakBefore
+    # paragraph is dropped at assembly, whatever module emitted it.
+    _empty_p = r'<w:p><w:pPr>(?:(?!</w:p>|<w:r>|pageBreakBefore).)*</w:pPr></w:p>'
+    _break_p = r'<w:p><w:pPr><w:pageBreakBefore/>'
+    body_xml = re.sub('(?:%s)+(?=%s)' % (_empty_p, _break_p), '', body_xml)
     rels = ['<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
             '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
             '<Relationship Id="rIdStyles" Type="http://schemas.openxmlformats.org/officeDocument/'
